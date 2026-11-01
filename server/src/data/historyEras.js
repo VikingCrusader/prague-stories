@@ -366,6 +366,15 @@
 // from the bridge. A first draft titled 1689-1740 "The Baroque Chapter" /
 // "巴洛克华章". 16 eras.
 //
+// Split (2026-11-01, the user's call): 'age-of-absolutism' (1740-1790) was
+// split at 1763, the Peace of Hubertusburg. The new 'prague-under-siege',
+// "Prague Under Siege" / "Praha v obležení" / "兵临城下" (1740-1763, the
+// user's title), covers the War of the Austrian Succession and the Seven
+// Years' War, when Prague was taken or besieged again and again (1741,
+// 1742, 1744, 1757); its overview card's title (the subtitle) should name
+// the queen, Maria Theresa. 'age-of-absolutism' ("Enlightened Absolutism" /
+// "开明专制") keeps its key and tagline for 1763-1790. 24 eras.
+//
 export const HISTORY_ERAS = [
   {
     key: 'legends-origins',
@@ -662,8 +671,29 @@ export const HISTORY_ERAS = [
     },
   },
   {
-    key: 'age-of-absolutism',
+    key: 'prague-under-siege',
     order: 15,
+    themeClass: 'era-prague-under-siege',
+    hasContent: true,
+    title: {
+      en: 'Prague Under Siege',
+      cz: 'Praha v obležení',
+      zh: '兵临城下',
+    },
+    yearRange: {
+      en: '1740–1763',
+      cz: '1740–1763',
+      zh: '1740年－1763年',
+    },
+    tagline: {
+      en: "A twenty-three-year-old queen inherits everything, and half of Europe turns up to claim a share. One army after another arrives beneath Prague's walls, and the city gates open and shut, and open again.",
+      cz: "Třiadvacetiletá královna zdědí všechno a půl Evropy se přijde přihlásit o svůj díl. Pod pražské hradby přitahuje jedno vojsko za druhým a městské brány se otevírají a zavírají a zase otevírají.",
+      zh: "一位二十三岁的女王继承了全部家业，半个欧洲都赶来想分一杯羹。军队一支接一支开到布拉格城下，城门开了又关，关了又开。",
+    },
+  },
+  {
+    key: 'age-of-absolutism',
+    order: 16,
     themeClass: 'era-age-of-absolutism',
     hasContent: false,
     title: {
@@ -672,9 +702,9 @@ export const HISTORY_ERAS = [
       zh: '开明专制',
     },
     yearRange: {
-      en: '1740–1790',
-      cz: '1740–1790',
-      zh: '1740年－1790年',
+      en: '1763–1790',
+      cz: '1763–1790',
+      zh: '1763年－1790年',
     },
     tagline: {
       en: "First a mother, then her son, run Bohemia from Vienna by decree: school for everyone, fewer monasteries, an end to serfdom, and German in every office, whether Bohemia asked for it or not.",
@@ -684,7 +714,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'revival-industrialization',
-    order: 16,
+    order: 17,
     themeClass: 'era-revival-industrialization',
     hasContent: false,
     title: {
@@ -705,7 +735,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'chimneys-and-song',
-    order: 17,
+    order: 18,
     themeClass: 'era-chimneys-and-song',
     hasContent: false,
     title: {
@@ -726,7 +756,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'brief-independence',
-    order: 18,
+    order: 19,
     themeClass: 'era-brief-independence',
     hasContent: false,
     title: {
@@ -747,7 +777,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'nazi-nightmare',
-    order: 19,
+    order: 20,
     themeClass: 'era-nazi-nightmare',
     hasContent: false,
     title: {
@@ -768,7 +798,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'third-republic',
-    order: 20,
+    order: 21,
     themeClass: 'era-third-republic',
     hasContent: false,
     title: {
@@ -789,7 +819,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'cold-war-sorrow',
-    order: 21,
+    order: 22,
     themeClass: 'era-cold-war-sorrow',
     hasContent: false,
     title: {
@@ -810,7 +840,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'occupation-and-dissent',
-    order: 22,
+    order: 23,
     themeClass: 'era-occupation-and-dissent',
     hasContent: false,
     title: {
@@ -831,7 +861,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'freedom-regained',
-    order: 23,
+    order: 24,
     themeClass: 'era-freedom-regained',
     hasContent: false,
     title: {

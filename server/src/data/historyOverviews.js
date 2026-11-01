@@ -278,4 +278,26 @@ export const historyOverviews = [
       zh: "布拉格从大火里走出来，动手盖房子。丁岑霍费尔家的父子开始在小城上空架起穹顶，雕塑家们往查理大桥上一尊接一尊地摆圣人，摆到桥栏上快没地方了，贵族们买下烧光的地皮，盖起府邸，后花园一层一层爬上城堡下的山坡。教堂里，天花板化成了画出来的天堂，信徒们得把头仰到最后面才看得见。1713年，瘟疫又来了，死了几千人，在小城广场上留下了一根新的柱子。又过了几年，一个委员会在圣维特大教堂里打开了一座三百多年的老坟，仔细研究了里面的东西，然后着手把坟的主人封成圣人。没有儿子的皇帝，花了好些年，让他统治的每一块领地、欧洲的每一个宫廷都在一份文件上签字，承认他的女儿可以继承一切；波希米亚的等级们也签了，1723年他来布拉格加冕，城堡里还上演了一出盛大的歌剧来庆贺。与此同时，乡下的人还说着捷克语，念着耶稣会士批准的祈祷书，把没批准的藏起来；时不时有一家人趁着夜色悄悄收拾好行李，去了萨克森或普鲁士，好守住祖上的信仰。光越来越亮，影子也越来越深，正合巴洛克画家的口味。直到1740年秋天，皇帝去世了，那些签名到底值多少，就要见分晓了。",
     },
   },
+  {
+    slug: "era-guide-prague-under-siege",
+    era: "prague-under-siege",
+    cardType: "overview",
+    startYear: 1740,
+    tone: "humorous",
+    year: {
+      en: "1740–1763",
+      cz: "1740–1763",
+      zh: "1740年－1763年"
+    },
+    title: {
+      en: "One Queen Against Half of Europe",
+      cz: "Jedna královna proti půl Evropě",
+      zh: "一个女王，对半个欧洲"
+    },
+    summary: {
+      en: "Maria Theresa was twenty-three when she inherited all her father's lands, and with them an empty treasury, a battered army and a set of neighbours whose signatures turned out to mean nothing. From the west came the elector of Bavaria with a French army behind him, convinced that the Bohemian crown would suit his head rather well; from the north came Saxony; and the youngest and least polite of them all, the king of Prussia, came back again and again and never seemed to want to leave. Outside Prague's walls the uniforms changed colour, then changed again, and the townspeople had barely learned which flag to doff their hats to before they had to learn another. The queen fought one war after another and had one baby after another; she went to the Hungarians for help, put on the crown of Bohemia in St Vitus, and saw her husband made emperor while she went on doing the work herself. Ordinary Praguers worried less about crowns than about who would be quartered in their houses, who would requisition the grain, and whether the cannonballs would come through their own roofs; in the end not even St Vitus was spared. Battle followed battle and treaty followed treaty, until in 1763 the exhausted powers sat down once more and signed yet another piece of paper. Whether the signatures meant anything this time depended on how many soldiers each of them had left.",
+      cz: "Marii Terezii bylo třiadvacet, když zdědila všechny otcovy země a s nimi prázdnou pokladnu, zbídačenou armádu a sousedy, jejichž podpisy nakonec nic neznamenaly. Od západu přitáhl bavorský kurfiřt s francouzským vojskem v zádech, přesvědčený, že česká koruna by mu na hlavě docela slušela; od severu přišlo Sasko; a nejmladší a nejméně zdvořilý ze všech, pruský král, se vracel znovu a znovu a nikdy se mu nechtělo odejít. Pod pražskými hradbami měnily uniformy barvu, a pak zase, a sotva se měšťané naučili, před kterou vlajkou smeknout, museli se učit novou. Královna vedla jednu válku za druhou a rodila jedno dítě za druhým; zajela si k Uhrům pro pomoc, ve Svatém Vítu si nasadila českou korunu a dočkala se, že jejího manžela zvolili císařem, zatímco práci dál dělala sama. Obyčejné Pražany ale koruny trápily méně než to, kdo se jim nastěhuje do domu, kdo jim zabaví obilí a jestli jim dělové koule proletí vlastní střechou; nakonec nebyl ušetřen ani Svatý Vít. Bitva střídala bitvu a smlouva smlouvu, až se roku 1763 vyčerpané mocnosti znovu sešly a podepsaly další kus papíru. Jestli podpisy tentokrát něco znamenaly, záviselo na tom, kolik vojáků komu zbylo.",
+      zh: "玛丽亚·特蕾莎二十三岁那年，继承了父亲的全部家业，也一并继承了一座空空的国库、一支打残了的军队，和一群说话不算数的邻居。西边，巴伐利亚选帝侯带着法国大军来了，他觉得波希米亚的王冠戴在自己头上也挺合适；北边，萨克森也来了；最年轻、也最不讲客气的普鲁士国王，更是来了一回又一回，每次都像是不打算走了。布拉格城墙外的军装换了一种颜色，又换了一种颜色，城里人刚学会该对哪面旗子脱帽，就又得重新学。女王一边打仗，一边生孩子，仗一场接一场，孩子一个接一个；她跑去匈牙利求援，在圣维特大教堂戴上了波希米亚王冠，看着丈夫当上了皇帝，活儿却还是她自己干。布拉格的老百姓关心的倒不是王冠，而是谁要住进自家屋子、谁来征粮、炮弹会不会砸穿自家屋顶；到后来，连圣维特大教堂也没能幸免。仗打了一场又一场，和约签了一份又一份，到1763年，筋疲力尽的各国又坐到了一起，又签了一张纸。这一回签下的字算不算数，就看各家手里还剩下多少兵了。"
+    }
+  },
 ];

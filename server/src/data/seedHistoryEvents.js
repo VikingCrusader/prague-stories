@@ -33004,9 +33004,9 @@ export const historyEvents = [
       "zh": "1719年"
     },
     "title": {
-      "en": "The Tongue That Kept the Secret",
-      "cz": "Jazyk, který neprozradil tajemství",
-      "zh": "守住秘密的舌头"
+      "en": "Three Hundred Years to Sainthood",
+      "cz": "Tři sta let ke svatořečení",
+      "zh": "等了三百年的圣人"
     },
     "hookLine": {
       "en": "In 1719 a grave more than three hundred years old was opened in St Vitus. Something inside it was declared to be the martyr's tongue.",
@@ -33014,9 +33014,9 @@ export const historyEvents = [
       "zh": "1719年，圣维特大教堂里打开了一座三百多年的老坟。里面找到的一样东西，被认定是那位殉道者的舌头。"
     },
     "summary": {
-      "en": "Rome's paperwork moved even more slowly than Prague's bridge-builders. Emperors and archbishops had been asking for Nepomuk's canonisation since the 17th century, but only in 1715 did the formal hearings open in Prague: questionnaires, dozens of witnesses, old records dug out one by one.\n\nThe Nepomuk they wanted canonised was the one from the legend. The one in the records was the archbishop's vicar general, drowned in 1393 in a quarrel over [[link:the-priest-thrown-into-the-river-1393]]the abbot of Kladruby[[/link]]. The year he died, a clerk of the Prague church court gave him a single line in the margin of the court records:\n\n[[quote:0]]\n\nThe queen's confessor appeared only half a century later, in the chronicle of a Viennese theologian. In 1541 the chronicler Hájek even split him into two men, one drowned in 1383 and the other in 1393. Only in 1680, in a life written by the Jesuit Bohuslav Balbín, did the faithful confessor take his final shape, and that was the version sent to Rome.\n\nOn 15 April 1719 the canonisation commission, led by the Archbishop of Prague, opened his grave in St Vitus. While the skull was being cleaned, a soft, reddish lump fell out of it. Those present were in no doubt: this was the tongue that had refused to betray the queen's confession, still unrotted after more than three hundred years.\n\nThe tongue went into a crystal reliquary in St Wenceslas' Chapel. On 31 May 1721 Pope Innocent XIII declared Nepomuk blessed.\n\nIn January 1725 the commission examined the tongue again. According to the record, it swelled up and turned red before their eyes. Rome counted both events as miracles. On 19 March 1729 Pope Benedict XIII declared him a saint in the Lateran basilica, on the eve of the anniversary of his death. One scholar has argued that the Counter-Reformation had simply handed Nepomuk the role of the [[link:the-goose-and-the-swan-1415]]swan[[/link]] that, according to legend, Hus had foretold.\n\nThat October Prague and the whole of Bohemia celebrated for days on end: triumphal arches, illuminations, fireworks, processions and plays put on by the Jesuits' pupils. In 1736 Nepomuk got a silver tomb in St Vitus, designed in Vienna by Joseph Emanuel Fischer von Erlach. New churches were dedicated to him one after another, one by the Castle in Hradčany, another on a rock in the New Town.\n\nAs for the tongue: in 1973 anatomists examined it closely. [[b]]It was not a tongue at all, but shrivelled, dried-out brain tissue.[[/b]]\n\nA German traveller passing through Prague around 1730 noted how much the whole affair had cost the Bohemians. He also noted that people had hoped for rather more from their new saint:\n\n[[quote:1]]\n\nThe child born in 1724 was a girl. For an emperor without a son, that was a problem no saint could fix.",
-      "cz": "Římské úřadování postupovalo ještě pomaleji než pražští stavitelé mostů. Císaři a arcibiskupové žádali o svatořečení Nepomuckého už od 17. století, ale řádný proces se v Praze otevřel až roku 1715: dotazníky, desítky svědků, staré listiny vytahované jedna po druhé.\n\nNepomuk, kterého chtěli svatořečit, byl ten z legendy. Ten z pramenů byl generální vikář arcibiskupa, utopený roku 1393 ve sporu o [[link:the-priest-thrown-into-the-river-1393]]kladrubského opata[[/link]]. V roce jeho smrti mu písař pražského církevního soudu věnoval jediný řádek na okraji soudních protokolů:\n\n[[quote:0]]\n\nKrálovnin zpovědník se objevil až o půl století později, v kronice jednoho vídeňského teologa. Roku 1541 ho kronikář Hájek dokonce rozdělil na dva muže, jednoho utopeného roku 1383 a druhého roku 1393. Teprve roku 1680, v životopise od jezuity Bohuslava Balbína, dostal věrný zpovědník konečnou podobu, a právě tahle verze putovala do Říma.\n\nPatnáctého dubna 1719 otevřela kanonizační komise v čele s pražským arcibiskupem jeho hrob ve Svatovítské katedrále. Když se čistila lebka, vypadl z ní měkký, načervenalý kousek. Přítomní neměli pochyb: to je jazyk, který odmítl prozradit královninu zpověď, a ani po víc než třech stech letech neshnil.\n\nJazyk uložili do křišťálového relikviáře ve Svatováclavské kapli. Jednatřicátého května 1721 prohlásil papež Inocenc XIII. Nepomuckého za blahoslaveného.\n\nV lednu 1725 komise jazyk prohlédla znovu. Podle záznamu se jim před očima nadmul a zčervenal. Řím uznal obojí za zázrak. Devatenáctého března 1729 ho papež Benedikt XIII. v Lateránské bazilice prohlásil za svatého, v předvečer výročí jeho smrti. Jeden badatel soudí, že protireformace Nepomuckému prostě přisoudila roli oné [[link:the-goose-and-the-swan-1415]]labutě[[/link]], kterou podle legendy předpověděl Hus.\n\nTen říjen slavila Praha i celé Čechy celé dny: slavobrány, osvětlení, ohňostroje, procesí a hry, které hráli jezuitští žáci. Roku 1736 dostal Nepomuk ve Svatovítské katedrále stříbrný náhrobek podle návrhu vídeňského architekta Josepha Emanuela Fischera z Erlachu. Nové kostely mu byly zasvěcovány jeden za druhým, jeden u Hradu na Hradčanech, další na skalce na Novém Městě.\n\nA jazyk? Roku 1973 ho anatomové důkladně prozkoumali. [[b]]Nebyl to vůbec jazyk, ale scvrklá, vyschlá mozková tkáň.[[/b]]\n\nNěmecký cestovatel, který Prahou projížděl kolem roku 1730, si poznamenal, kolik celá ta věc Čechy stála. Zaznamenal také, že si od nového světce slibovali ještě něco víc:\n\n[[quote:1]]\n\nDítě, které se roku 1724 narodilo, byla dcera. Pro císaře bez syna to byl problém, se kterým si žádný světec neporadil.",
-      "zh": "罗马的手续，走得比布拉格修桥还慢。从17世纪起，皇帝和大主教们就在为内波穆克申请封圣，可直到1715年，布拉格才正式开庭：发问卷、请证人，几十位证人轮番作证，旧档案一份一份地翻出来。\n\n他们要封的，是传说里的那个内波穆克。史书里的他，是大主教的总代理主教，1393年在一场[[link:the-priest-thrown-into-the-river-1393]]克拉德鲁比院长之争[[/link]]里被淹死。他死的那年，布拉格宗教法庭的书记员只在案卷页边给了他一行字：\n\n[[quote:0]]\n\n“王后的告解神父”，是半个世纪后才在一位维也纳神学家的编年史里冒出来的。1541年，编年史家哈耶克甚至把他拆成了两个人，一个1383年被淹死，一个1393年被淹死。直到1680年，耶稣会士巴尔宾为他写成传记，这位守口如瓶的告解神父才最终定型，送到罗马的就是这个版本。\n\n1719年4月15日，以布拉格大主教为首的封圣委员会，在圣维特大教堂打开了他的墓。清理头骨的时候，一块红红的、软软的东西掉了出来。在场的人认定：这就是那条到死都不肯泄露王后告解的舌头，过了三百多年，居然还没烂。\n\n舌头被装进水晶圣物匣，供在圣瓦茨拉夫礼拜堂里。1721年5月31日，教宗英诺森十三世宣布内波穆克为真福。\n\n1725年1月，委员会又验了一次舌头。据记载，它当着众人的面肿了起来，颜色也变红了。罗马把这两件事都算作奇迹。1729年3月19日，教宗本笃十三世在拉特朗大殿正式封他为圣人，第二天正好是他的忌日。有学者认为，反宗教改革干脆把传说中胡斯预言的那只[[link:the-goose-and-the-swan-1415]]“天鹅”[[/link]]，安到了内波穆克头上。\n\n那年10月，布拉格和整个波希米亚一连热闹了好些天：凯旋门、彩灯、烟火、游行，还有耶稣会学生演的戏。1736年，内波穆克在圣维特大教堂有了一座银墓，由维也纳的约瑟夫·埃马努埃尔·菲舍尔·冯·埃拉赫设计。献给他的新教堂一座接一座地盖起来，城堡边的赫拉德恰尼一座，新城的岩石上又一座。\n\n至于那条舌头：1973年，解剖学家仔细检查后发现，[[b]]它根本不是舌头，而是干缩了的脑组织。[[/b]]\n\n1730年前后，一位路过布拉格的德国旅行家记下了这场封圣让波希米亚人破费了多少。他还记下，人们对这位新圣人，原本还有更大的指望：\n\n[[quote:1]]\n\n1724年生下的，是个女儿。对一位没有儿子的皇帝来说，这个难题，哪位圣人也帮不上忙。"
+      "en": "Rome's paperwork moved even more slowly than Prague's bridge-builders. Emperors and archbishops had been asking for Nepomuk's canonisation since the 17th century, but only in 1715 did the formal hearings open in Prague: questionnaires, dozens of witnesses, old records dug out one by one.\n\nThe Nepomuk they wanted canonised was the one from the legend. The one in the records was the archbishop's vicar general, drowned in 1393 in a quarrel over [[link:the-priest-thrown-into-the-river-1393]]the abbot of Kladruby[[/link]]. The year he died, a clerk of the Prague church court gave him a single line in the margin of the court records:\n\n[[quote:0]]\n\nThe queen's confessor appeared only half a century later, in the chronicle of a Viennese theologian. In 1541 the chronicler Hájek even split him into two men, one drowned in 1383 and the other in 1393. Only in 1680, in a life written by the Jesuit Bohuslav Balbín, did the faithful confessor take his final shape, and that was the version sent to Rome.\n\nOn 15 April 1719 the canonisation commission, led by the Archbishop of Prague, opened his grave in St Vitus. While the skull was being cleaned, a soft, reddish lump fell out of it. Those present were in no doubt: this was the tongue that had refused to betray the queen's confession, still unrotted after more than three hundred years.\n\nThe tongue went into a crystal reliquary in St Wenceslas' Chapel. On 31 May 1721 Pope Innocent XIII declared Nepomuk blessed.\n\nIn January 1725 the commission examined the tongue again. According to the record, it swelled up and turned red before their eyes. Rome counted both events as miracles. On 19 March 1729 Pope Benedict XIII declared him a saint in the Lateran basilica, on the eve of the anniversary of his death. One scholar has argued that the Counter-Reformation had simply handed Nepomuk the role of the [[link:the-goose-and-the-swan-1415]]swan[[/link]] that, according to legend, Hus had foretold.\n\nThat October Prague and the whole of Bohemia celebrated for days on end: triumphal arches, illuminations, fireworks, processions and plays put on by the Jesuits' pupils. In 1736 Nepomuk got a silver tomb in St Vitus, designed in Vienna by Joseph Emanuel Fischer von Erlach. New churches were dedicated to him one after another, one by the Castle in Hradčany, another on a rock in the New Town.\n\nAs for the tongue: in 1973 anatomists examined it closely. [[b]]It was not a tongue at all, but shrivelled, dried-out brain tissue.[[/b]]\n\nA German traveller passing through Prague around 1730 noted how much the whole affair had cost the Bohemians. He also noted that people had hoped for rather more from their new saint:\n\n[[quote:1]]\n\nWhether the saint would deliver, Prague would find out in 1724.",
+      "cz": "Římské úřadování postupovalo ještě pomaleji než pražští stavitelé mostů. Císaři a arcibiskupové žádali o svatořečení Nepomuckého už od 17. století, ale řádný proces se v Praze otevřel až roku 1715: dotazníky, desítky svědků, staré listiny vytahované jedna po druhé.\n\nNepomuk, kterého chtěli svatořečit, byl ten z legendy. Ten z pramenů byl generální vikář arcibiskupa, utopený roku 1393 ve sporu o [[link:the-priest-thrown-into-the-river-1393]]kladrubského opata[[/link]]. V roce jeho smrti mu písař pražského církevního soudu věnoval jediný řádek na okraji soudních protokolů:\n\n[[quote:0]]\n\nKrálovnin zpovědník se objevil až o půl století později, v kronice jednoho vídeňského teologa. Roku 1541 ho kronikář Hájek dokonce rozdělil na dva muže, jednoho utopeného roku 1383 a druhého roku 1393. Teprve roku 1680, v životopise od jezuity Bohuslava Balbína, dostal věrný zpovědník konečnou podobu, a právě tahle verze putovala do Říma.\n\nPatnáctého dubna 1719 otevřela kanonizační komise v čele s pražským arcibiskupem jeho hrob ve Svatovítské katedrále. Když se čistila lebka, vypadl z ní měkký, načervenalý kousek. Přítomní neměli pochyb: to je jazyk, který odmítl prozradit královninu zpověď, a ani po víc než třech stech letech neshnil.\n\nJazyk uložili do křišťálového relikviáře ve Svatováclavské kapli. Jednatřicátého května 1721 prohlásil papež Inocenc XIII. Nepomuckého za blahoslaveného.\n\nV lednu 1725 komise jazyk prohlédla znovu. Podle záznamu se jim před očima nadmul a zčervenal. Řím uznal obojí za zázrak. Devatenáctého března 1729 ho papež Benedikt XIII. v Lateránské bazilice prohlásil za svatého, v předvečer výročí jeho smrti. Jeden badatel soudí, že protireformace Nepomuckému prostě přisoudila roli oné [[link:the-goose-and-the-swan-1415]]labutě[[/link]], kterou podle legendy předpověděl Hus.\n\nTen říjen slavila Praha i celé Čechy celé dny: slavobrány, osvětlení, ohňostroje, procesí a hry, které hráli jezuitští žáci. Roku 1736 dostal Nepomuk ve Svatovítské katedrále stříbrný náhrobek podle návrhu vídeňského architekta Josepha Emanuela Fischera z Erlachu. Nové kostely mu byly zasvěcovány jeden za druhým, jeden u Hradu na Hradčanech, další na skalce na Novém Městě.\n\nA jazyk? Roku 1973 ho anatomové důkladně prozkoumali. [[b]]Nebyl to vůbec jazyk, ale scvrklá, vyschlá mozková tkáň.[[/b]]\n\nNěmecký cestovatel, který Prahou projížděl kolem roku 1730, si poznamenal, kolik celá ta věc Čechy stála. Zaznamenal také, že si od nového světce slibovali ještě něco víc:\n\n[[quote:1]]\n\nJestli světec pomůže, se měla Praha dozvědět roku 1724.",
+      "zh": "罗马的手续，走得比布拉格修桥还慢。从17世纪起，皇帝和大主教们就在为内波穆克申请封圣，可直到1715年，布拉格才正式开庭：发问卷、请证人，几十位证人轮番作证，旧档案一份一份地翻出来。\n\n他们要封的，是传说里的那个内波穆克。史书里的他，是大主教的总代理主教，1393年在一场[[link:the-priest-thrown-into-the-river-1393]]克拉德鲁比院长之争[[/link]]里被淹死。他死的那年，布拉格宗教法庭的书记员只在案卷页边给了他一行字：\n\n[[quote:0]]\n\n“王后的告解神父”，是半个世纪后才在一位维也纳神学家的编年史里冒出来的。1541年，编年史家哈耶克甚至把他拆成了两个人，一个1383年被淹死，一个1393年被淹死。直到1680年，耶稣会士巴尔宾为他写成传记，这位守口如瓶的告解神父才最终定型，送到罗马的就是这个版本。\n\n1719年4月15日，以布拉格大主教为首的封圣委员会，在圣维特大教堂打开了他的墓。清理头骨的时候，一块红红的、软软的东西掉了出来。在场的人认定：这就是那条到死都不肯泄露王后告解的舌头，过了三百多年，居然还没烂。\n\n舌头被装进水晶圣物匣，供在圣瓦茨拉夫礼拜堂里。1721年5月31日，教宗英诺森十三世宣布内波穆克为真福。\n\n1725年1月，委员会又验了一次舌头。据记载，它当着众人的面肿了起来，颜色也变红了。罗马把这两件事都算作奇迹。1729年3月19日，教宗本笃十三世在拉特朗大殿正式封他为圣人，第二天正好是他的忌日。有学者认为，反宗教改革干脆把传说中胡斯预言的那只[[link:the-goose-and-the-swan-1415]]“天鹅”[[/link]]，安到了内波穆克头上。\n\n那年10月，布拉格和整个波希米亚一连热闹了好些天：凯旋门、彩灯、烟火、游行，还有耶稣会学生演的戏。1736年，内波穆克在圣维特大教堂有了一座银墓，由维也纳的约瑟夫·埃马努埃尔·菲舍尔·冯·埃拉赫设计。献给他的新教堂一座接一座地盖起来，城堡边的赫拉德恰尼一座，新城的岩石上又一座。\n\n至于那条舌头：1973年，解剖学家仔细检查后发现，[[b]]它根本不是舌头，而是干缩了的脑组织。[[/b]]\n\n1730年前后，一位路过布拉格的德国旅行家记下了这场封圣让波希米亚人破费了多少。他还记下，人们对这位新圣人，原本还有更大的指望：\n\n[[quote:1]]\n\n圣人这回灵不灵，要到1724年才见分晓。"
     },
     "quotes": [
       {
@@ -33238,6 +33238,479 @@ export const historyEvents = [
     ],
     "relatedLandmarks": [],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/War_of_the_Spanish_Succession"
+  },
+  // Charles VI's Bohemian coronation and the opera Costanza e Fortezza, 1723.
+  // Source: J. Spáčilová et al., Slavnostní opera Costanza e Fortezza
+  // (Moravská zemská knihovna, PDF on mzk.cz), drawing on Š. Vácha et al.,
+  // Karel VI. a Alžběta Kristýna (2009): left Vienna 19 June, entered Prague
+  // 30 June with both daughters; Brandýs and nobles' estates; wooden
+  // amphitheatre by Giuseppe Galli Bibiena on the open summer riding ground
+  // beside the Castle riding school, up to 4,000, stage 60 m deep, two
+  // onion-domed towers with trumpeters and timpanists; Golden Fleece to
+  // Francis Stephen of Lorraine (14; the source says 15, but he was born 8 Dec 1708) on 15 Aug; premiere 28 Aug (empress's
+  // 32nd birthday, pregnancy announced that day), 8 pm to 1 am; Fux carried
+  // from Vienna in a litter for gout, Caldara conducted; Quantz (Lebenslauf,
+  // 1755): 100 singers, 200 players, the entrance closed so he, Weiss and
+  // Graun joined the orchestra; František Benda (14, Klementinum student)
+  // sang in the chorus, paid 12 gulden, bought a sword; Zeno's letter of
+  // 10 Aug 1723 (quote 0, translated); reprise 2 Sept with the Saxon electoral
+  // princess Maria Josepha present; the III/5 line (quote 1) read as aimed at
+  // Augustus the Strong's plans to marry his grandsons to Charles's daughters;
+  // homage 4 Sept, coronation 5 Sept in St Vitus, empress 8 Sept; the third
+  // performance prevented by wind and rain, which ruined the stage. Hungary
+  // crowned him in 1712; no Bohemian coronation since Leopold I (1656).
+  // Maria Amalia, born 5 April 1724, was the empress's last child.
+  {
+    "slug": "a-full-house-1723",
+    "era": "baroque-and-darkness",
+    "startYear": 1723,
+    "tone": "humorous",
+    "year": {
+      "en": "1723",
+      "cz": "1723",
+      "zh": "1723年"
+    },
+    "title": {
+      "en": "A Full House, an Empty Cradle",
+      "cz": "Plné hlediště, prázdná kolébka",
+      "zh": "满座的剧场，空着的摇篮"
+    },
+    "hookLine": {
+      "en": "Charles VI finally came to Prague to be crowned, and an opera house for four thousand went up beside the Castle. No amount of splendour could produce a son.",
+      "cz": "Karel VI. konečně přijel do Prahy ke korunovaci a vedle Hradu vyrostlo divadlo pro čtyři tisíce lidí. Syna ale žádná nádhera vykouzlit nedokázala.",
+      "zh": "查理六世终于来布拉格加冕，城堡边搭起了能坐四千人的歌剧院。可排场再大，也变不出一个儿子来。"
+    },
+    "summary": {
+      "en": "With the signatures mostly gathered, Charles VI remembered that he still owed Bohemia a coronation. He had been its king since 1711, and Hungary had crowned him the very next year, but Prague waited twelve. Nobody had been crowned there since [[link:meant-for-the-church-1656]]Leopold I[[/link]] in 1656, nearly seventy years before.\n\nOn 30 June 1723 the emperor, the empress and their two small daughters rode into Prague. The coronation was still two months off, so the court passed the time at the royal estate of Brandýs and on the nobles' country seats.\n\nMeanwhile, on the open summer riding ground beside the Castle's riding school, a wooden amphitheatre was going up. It was designed by the court theatre architect Giuseppe Galli Bibiena and held four thousand people. The stage was sixty metres deep, flanked by two towers with onion domes, where the trumpeters and kettledrummers sat.\n\nThe opera was called Costanza e Fortezza, \"Constancy and Fortitude\": the emperor's own motto. The music was by the court Kapellmeister, Johann Joseph Fux. The old man was so crippled by gout that he could hardly walk, so the emperor had him carried from Vienna to Prague in a litter.\n\n28 August was the empress's thirty-second birthday, and that day the court made a happy announcement: she was pregnant again. At eight in the evening the opera began, and it ran until one in the morning, with a hundred singers and two hundred musicians.\n\nNot everyone was looking forward to it. Two weeks earlier the court poet Apostolo Zeno had written to his brother:\n\n[[quote:0]]\n\nMore people wanted in than there were seats. The flautist Johann Joachim Quantz, who had come all the way from Dresden with two friends, found the entrance closed, so the three of them simply signed up for the orchestra. In the chorus sang a fourteen-year-old student from the Jesuit college in the Klementinum, František Benda. He was paid twelve gulden and spent them on the sword he had long wanted.\n\nThe story was ancient Rome under siege, but nobody in the seats missed the subtext. When a foreign king asks for a Roman girl's hand, the Roman hero answers:\n\n[[quote:1]]\n\nThat line was meant for Saxony. The Saxon elector wanted his grandsons to marry Charles's daughters, and at the second performance on 2 September the Saxon electoral princess sat in the audience: Charles's niece Maria Josepha, the very one who had [[link:an-emperor-collecting-signatures-1720]]signed away her claim[[/link]]. [[b]]The emperor invited half of Europe to the opera, and the opera told them one thing: a Habsburg daughter does not carry the Habsburg lands off to another house.[[/b]]\n\nAs for whom his own daughters would marry, he had ideas of his own. In mid-August he had hung the Golden Fleece around the neck of a fourteen-year-old prince of Lorraine.\n\nOn 5 September Charles VI was crowned with the St Wenceslas crown in St Vitus Cathedral; three days later the empress was crowned too. A third performance was planned for the day after, but wind and rain wrecked the open-air stage for good.\n\nNobody much minded. Everyone was waiting for the baby, and almost everyone took it for granted that this time it would be a son.\n\nIn April 1724 the prince that [[link:the-tongue-that-kept-the-secret-1719]]St John of Nepomuk[[/link]] was supposed to deliver arrived. It was another girl, and the empress never had another child.",
+      "cz": "Když byly podpisy víceméně posbírány, vzpomněl si Karel VI., že Čechám pořád dluží korunovaci. Českým králem byl od roku 1711 a Uhry ho korunovaly hned následující rok, Praha ale čekala dvanáct let. Naposledy se tu korunovalo roku 1656, kdy korunu dostal [[link:meant-for-the-church-1656]]Leopold I.[[/link]], skoro před sedmdesáti lety.\n\nTřicátého června 1723 vjel do Prahy císař s císařovnou a oběma malými dcerami. Do korunovace zbývaly ještě dva měsíce, a tak si je dvůr krátil na komorním panství v Brandýse a na sídlech šlechty.\n\nMezitím na otevřeném prostranství letní jízdárny vedle hradní Jízdárny rostl dřevěný amfiteátr. Navrhl ho dvorní divadelní architekt Giuseppe Galli Bibiena a vešly se do něj čtyři tisíce lidí. Jeviště bylo šedesát metrů hluboké a lemovaly ho dvě věže s cibulovitými báněmi, v nichž seděli trubači a tympánisté.\n\nOpera se jmenovala Costanza e Fortezza, „Stálost a síla“: císařovo vlastní heslo. Hudbu složil dvorní kapelník Johann Joseph Fux. Starého pána tak trápila dna, že skoro nemohl chodit, a tak ho císař dal z Vídně do Prahy donést na nosítkách.\n\nOsmadvacátého srpna slavila císařovna dvaatřicáté narozeniny a dvůr ten den oznámil radostnou zprávu: je znovu v naději. V osm večer začalo představení a trvalo až do jedné po půlnoci; hrálo a zpívalo sto zpěváků a dvě stě hudebníků.\n\nNe každý se na to těšil. Dvorní básník Apostolo Zeno psal dva týdny předtím bratrovi:\n\n[[quote:0]]\n\nZájemců bylo víc než míst. Flétnista Johann Joachim Quantz, který přijel až z Drážďan se dvěma přáteli, našel vchod zavřený, a tak se všichni tři prostě nechali najmout do orchestru. Ve sboru zpíval čtrnáctiletý student jezuitského gymnázia v Klementinu František Benda. Dostal dvanáct zlatých a koupil si za ně kord, po kterém už dávno toužil.\n\nDěj se odehrával ve starověkém Římě obleženém nepřáteli, ale nikomu v hledišti neunikl podtext. Když cizí král žádá o ruku římské dívky, římský hrdina mu odpoví:\n\n[[quote:1]]\n\nTa replika patřila Sasku. Saský kurfiřt chtěl své vnuky oženit s Karlovými dcerami a na repríze 2. září seděla v hledišti saská kurprincezna: Karlova neteř Marie Josefa, tatáž, která se [[link:an-emperor-collecting-signatures-1720]]podpisem vzdala nároků[[/link]]. [[b]]Císař pozval na operu půl Evropy a opera jí sdělila jedinou věc: habsburská dcera neodnese habsburské země do cizího rodu.[[/b]]\n\nZa koho se provdají jeho vlastní dcery, o tom měl císař svou představu. V polovině srpna pověsil řád zlatého rouna na krk čtrnáctiletému lotrinskému princi.\n\nPátého září vložili Karlovi VI. ve svatovítské katedrále na hlavu svatováclavskou korunu; o tři dny později byla korunována i císařovna. Den nato se měla opera hrát potřetí, ale vítr a déšť zničily scénu pod širým nebem nadobro.\n\nNikoho to příliš netrápilo. Všichni čekali na dítě a skoro všichni brali za samozřejmé, že tentokrát to bude syn.\n\nV dubnu 1724 dorazil princ, kterého měl [[link:the-tongue-that-kept-the-secret-1719]]svatý Jan Nepomucký[[/link]] přinést z oblaků. Byla to další dívka a císařovna už žádné další dítě neměla.",
+      "zh": "签名收得差不多了，查理六世这才想起，自己还欠波希米亚一场加冕礼。他1711年就当上了波希米亚国王，匈牙利第二年就给他加了冕，布拉格却一等就是十二年。上一次在这里加冕的，还是1656年的[[link:meant-for-the-church-1656]]利奥波德一世[[/link]]，算来已近七十年。\n\n1723年6月30日，皇帝、皇后带着两个小女儿进了布拉格。离加冕还有两个月，皇室就在布兰迪斯的皇家庄园和贵族们的府邸之间打发时间。\n\n这段日子里，城堡驯马场旁边的露天空地上，一座木头搭的圆形剧场一天天长高。设计者是宫廷剧院建筑师朱塞佩·加利·比比恩纳，剧场能坐四千人；舞台进深六十米，两边各立一座洋葱顶的高塔，塔里坐着号手和鼓手。\n\n要演的歌剧叫《坚贞与刚毅》，正是查理六世本人的座右铭。作曲的是宫廷乐长福克斯。老人家痛风缠身，路都走不动了，皇帝干脆让人用轿子把他从维也纳一路抬到了布拉格。\n\n8月28日是皇后三十二岁生日，宫里当天还宣布了一个好消息：皇后又怀孕了。晚上八点，大戏开场，一直演到凌晨一点，台上一百名歌手，台下两百名乐手。\n\n也不是人人都盼着看。宫廷诗人泽诺两个星期前就在给哥哥的信里说：\n\n[[quote:0]]\n\n想进场的人比座位还多。长笛手匡茨和两个朋友专程从德累斯顿赶来，到了门口却进不去，三个人干脆报名进了乐队。合唱队里还有个十四岁的克莱门特学院学生，叫弗朗蒂谢克·本达。演完他领了十二个金币，转身买了一把眼馋已久的佩剑。\n\n剧情讲的是古罗马被围城的故事，可台下没人听不出弦外之音。外国国王向一位罗马姑娘求亲，罗马英雄这样回答他：\n\n[[quote:1]]\n\n这句话是唱给萨克森听的。萨克森选帝侯一心想让自己的孙子娶查理的女儿；9月2日重演时，台下就坐着萨克森的选帝侯世子妃，查理的侄女玛丽亚·约瑟法，正是[[link:an-emperor-collecting-signatures-1720]]签字放弃继承权[[/link]]的那一位。[[b]]皇帝请了半个欧洲来看戏，戏里只讲了一件事：哈布斯堡的女儿，不能把哈布斯堡的江山带到别人家去。[[/b]]\n\n至于自己的女儿嫁给谁，皇帝心里另有打算。8月中旬，他刚把金羊毛勋章挂在了一位十四岁的洛林王子胸前。\n\n9月5日，查理六世在圣维特大教堂戴上了圣瓦茨拉夫王冠；三天后，皇后也加了冕。第三场演出本来定在皇后加冕的第二天，可一场风雨，把露天舞台彻底毁了。\n\n没人太在意。大家都在等皇后肚子里的孩子，几乎人人都认定：这回，总该是个儿子了。\n\n1724年4月，[[link:the-tongue-that-kept-the-secret-1719]]圣内波穆克[[/link]]该从云端托出来的王子，终于来了。又是一位公主。皇后此后再也没有生过孩子。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "The place can hold up to four thousand people, but I would not want to be one of them, for I could not bear more than six hours of discomfort out of doors, and at night at that, just for the pleasure of hearing it. I would feel the same even if it were my own work.",
+          "cz": "Místo může pojmout až čtyři tisíce lidí, ale já bych nechtěl být jedním z nich, protože bych nesnesl víc než šest hodin nepohodlí venku, a zvláště v noci, jen kvůli potěšení ji slyšet. Bylo by to stejné, i kdyby šlo o mé vlastní dílo.",
+          "zh": "那地方能坐四千人，可我不想做其中之一。为了听一场戏，在露天里、还是在夜里难受六个钟头以上，我受不了。哪怕演的是我自己写的戏，我也一样不去。"
+        },
+        "attribution": {
+          "en": "Apostolo Zeno, imperial court poet, in a letter to his brother, 10 August 1723 (translated)",
+          "cz": "Apostolo Zeno, císařský dvorní básník, v dopise bratrovi, 10. srpna 1723 (v překladu)",
+          "zh": "宫廷诗人阿波斯托洛·泽诺致哥哥的信，1723年8月10日（转译）"
+        }
+      },
+      {
+        "text": {
+          "en": "Porsenna: What hope is there for Porsenna's love? Mucius: None. The laws of the fatherland stand against your wishes: Roman daughters may not give heirs to foreign kings.",
+          "cz": "Porsenna: Jaká naděje kyne Porsennově lásce? Mucius: Žádná. Zákony vlasti stojí proti tvým tužbám: římským dcerám není dovoleno dávat dědice cizím králům.",
+          "zh": "波森纳：波森纳的爱，还有什么指望？穆奇乌斯：没有。祖国的法律不容你的心愿：罗马的女儿，不许为外国的国王生下继承人。"
+        },
+        "attribution": {
+          "en": "Costanza e Fortezza, Act III, scene 5, libretto by Pietro Pariati, Prague 1723 (translated)",
+          "cz": "Costanza e Fortezza, 3. dějství, 5. výstup, libreto Pietra Pariatiho, Praha 1723 (v překladu)",
+          "zh": "歌剧《坚贞与刚毅》第三幕第五场，彼得罗·帕里亚蒂作词，1723年布拉格（转译）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "jizdarna-prazskeho-hradu",
+        "relation": {
+          "en": "Bibiena's wooden amphitheatre for 4,000 stood on the open summer riding ground beside it in 1723",
+          "cz": "Bibienův dřevěný amfiteátr pro čtyři tisíce diváků stál roku 1723 na prostranství letní jízdárny vedle ní",
+          "zh": "1723年，比比恩纳那座能坐四千人的木头剧场，就搭在它旁边的露天驯马场上"
+        }
+      },
+      {
+        "slug": "st-vitus-cathedral",
+        "relation": {
+          "en": "Charles VI was crowned here with the St Wenceslas crown on 5 September 1723, the empress three days later",
+          "cz": "Zde byl 5. září 1723 Karel VI. korunován svatováclavskou korunou, císařovna o tři dny později",
+          "zh": "1723年9月5日，查理六世在这里戴上圣瓦茨拉夫王冠，三天后皇后也在这里加冕"
+        }
+      },
+      {
+        "slug": "st-thomas-church-1782394995826",
+        "relation": {
+          "en": "On the morning of the opera, the empress's birthday, the imperial couple heard Mass here",
+          "cz": "Ráno v den premiéry, o císařovniných narozeninách, tu byl císařský pár na mši",
+          "zh": "首演那天上午，也就是皇后生日当天，皇帝夫妇来这里望弥撒"
+        }
+      },
+      {
+        "slug": "zamek-brandys-nad-labem",
+        "relation": {
+          "en": "The court spent part of the two months' wait before the coronation on this royal estate",
+          "cz": "Na tomto komorním panství trávil dvůr část dvouměsíčního čekání na korunovaci",
+          "zh": "加冕前那两个月，皇室有一部分时间是在这座皇家庄园里打发的"
+        }
+      }
+    ],
+    "images": [
+      "/history/a-full-house-1723.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Prague Castle, the night of 28 August 1723: in Bibiena's candlelit wooden theatre the court watches Costanza e Fortezza, with Roman heroes on stage and trumpeters in the onion-domed towers. Under the canopy the empress, newly announced as pregnant, smiles with a hand on her belly, the little archduchesses sit beside her, and Charles VI props his chin on his hand. By the orchestra pit, old Fux listens from his chair, his gouty foot bandaged.",
+        "cz": "Pražský hrad, večer 28. srpna 1723: v Bibienově dřevěném divadle ozářeném svíčkami sleduje dvůr operu Costanza e Fortezza, na jevišti římští hrdinové, ve věžích s cibulovitými báněmi trubači. Pod baldachýnem se usmívá císařovna, která ten den oznámila, že je v naději, s rukou na břiše, vedle ní malé arcivévodkyně, a Karel VI. si podpírá bradu dlaní. U orchestřiště poslouchá ze své židle starý Fux s obvázanou nohou od dny.",
+        "zh": "1723年8月28日夜，布拉格城堡：比比恩纳搭的木头剧场里烛火通明，宫廷上下在看《坚贞与刚毅》，台上是罗马英雄，洋葱顶塔楼里站着号手。华盖下，当天刚宣布怀孕的皇后手抚肚子，满面笑容，小公主们坐在一旁；查理六世却托着腮。乐池边，痛风的老福克斯裹着脚坐在椅子上听戏。"
+      }
+    ],
+    "wikipediaUrl": "https://de.wikipedia.org/wiki/Costanza_e_Fortezza"
+  },
+  // Count Franz Anton Sporck (1662–1738). Slug kept from the first title
+  // "十二车书" / "Twelve Wagons of Books" (then briefly "爱书的伯爵" and "好事做尽，“坏”在印书"). Sources: en/cs.wikipedia; Encyklopedie
+  // knihy (Lysá press c. 1710, closed by imperial order June 1712; daughter
+  // Marie Eleonora, 1687–1717, translated most of the French books; the Jesuit
+  // attacks "culminated in summer 1729 in the Kuks inquisition"); richtera.cz
+  // (Kuks occupied 26 July 1729 by the Caraffa regiment, imperial decree for
+  // the books in the Philosophical House; formal heresy charge 7 Feb 1730;
+  // prosecution asked for his estates, 100,000 gulden, burning of all books
+  // and life imprisonment; hearings from Feb 1733; convicted only of printing
+  // without censorship); cs.wikipedia (12 loaded wagons, books hidden at
+  // Konojedy found by soldiers, investigator Koniáš sent by the bishop of
+  // Hradec Králové; hospital for 100 poor and veterans; buried at Kuks;
+  // the 1726 lodge is a legend from Sabina/Svátek, refuted by Josef Volf);
+  // riesengebirgler.de and int-st-hubertus-orden.de (6,000 ducats); the
+  // opera company let in free from 1724 after the coronation, Vivaldi's
+  // operas there c. 1730 (en.wikipedia, Antonio Denzio); the 1714 Trinity
+  // column in Štěpánská street, moved to St Stephen's 1834, removed 1879
+  // (Muzeum města Prahy plague series). The white-deer trousers are an
+  // anecdote (100+1), kept as "it is said". No primary-source quote found.
+  {
+    "slug": "twelve-wagons-of-books-1729",
+    "era": "baroque-and-darkness",
+    "startYear": 1729,
+    "tone": "humorous",
+    "year": {
+      "en": "1724–1733",
+      "cz": "1724–1733",
+      "zh": "1724年－1733年"
+    },
+    "title": {
+      "en": "The Good Man Who Was Nearly a Heretic",
+      "cz": "Dobrý člověk, který byl skoro kacířem",
+      "zh": "差点成了异端的好人"
+    },
+    "hookLine": {
+      "en": "Count Sporck gave Prague its opera, a hospital to the poor and books to anyone who would read them. Only the last of these got him into trouble.",
+      "cz": "Hrabě Špork dal Praze operu, chudým špitál a knihy každému, kdo je chtěl číst. Do potíží ho dostala jen ta poslední věc.",
+      "zh": "施波克伯爵给了布拉格歌剧，给了穷人医院，给了所有想读书的人书。惹上麻烦的，只有最后这一样。"
+    },
+    "summary": {
+      "en": "After [[link:a-full-house-1723]]the coronation of 1723[[/link]] the court went back to Vienna, but an Italian opera company stayed behind. In 1724 Count Franz Anton Sporck let it use the theatre in his Prague palace free of charge, and from then on Italian opera played there all year round. A few years later Vivaldi's operas were being staged there.\n\nSporck could afford this. His father, Johann Sporck, had been a poor peasant boy from Westphalia who joined the army in the Thirty Years' War, rose to cavalry general and was paid in estates taken from Bohemian Protestants. The son inherited the lot and spent it on whatever took his fancy.\n\nOn a trip to Versailles he heard the French hunting horn and brought it home; Bohemian horn players went on to be the best in Europe. In the 1690s a healing spring was found on his estate of Kuks in East Bohemia, and he built a spa there, then a hospital for a hundred poor people and old soldiers, then had Matthias Braun line its terrace with statues of the Virtues and the Vices. In 1714, after [[link:good-times-dont-last-1713]]the plague[[/link]], he paid for a Holy Trinity column in Štěpánská street in Prague.\n\nHe also liked a joke. It is said that when he was fined for shooting a white stag, a present from the tsar to the emperor, he had the hide made into trousers and wore them to a court ball in Vienna: the most expensive trousers he owned.\n\nWhat he liked most was books. He read the French Jansenists, Catholics who preached a strict, inward faith and could not stand the Jesuits. He had them translated, mostly by his daughter Marie Eleonora, who died in 1717 at thirty; printed them, at first on his own press at Lysá, until the emperor shut it down in 1712; and gave them away. Meanwhile he quarrelled with his Jesuit neighbours at Kuks for years.\n\nOn 26 July 1729 soldiers occupied Kuks with an imperial decree: all his books were to be seized. He had hidden some at his manor of Konojedy, and the soldiers found those too. The library, about thirty thousand volumes, left on twelve loaded wagons.\n\nIn 1730 he was charged with heresy. The prosecution asked for his estates, a fine of a hundred thousand gulden, the burning of every book and prison for life. Powerful friends stepped in, and in 1733 the court found him guilty only of printing books without the censor's approval. The fine was six thousand ducats.\n\n[[b]]He was not a heretic, the court decided, merely a man who had printed books without asking first; but in Bohemia in those years, that was close enough.[[/b]]\n\nAfter that the old count fell quiet. He died in 1738 and was buried at Kuks. Long afterwards a story went round that in 1726 he had founded Prague's first Masonic lodge in his palace; historians later showed he was not even in Prague at the time.\n\nThe man the bishop of Hradec Králové had sent to go through his books was a Jesuit. His name was Antonín Koniáš.",
+      "cz": "Po [[link:a-full-house-1723]]korunovaci roku 1723[[/link]] se dvůr vrátil do Vídně, ale italská operní společnost zůstala. Roku 1724 jí hrabě František Antonín Špork zdarma přenechal divadlo ve svém pražském paláci a od té doby se tam celoročně hrála italská opera. O pár let později se tu uváděly Vivaldiho opery.\n\nŠpork si to mohl dovolit. Jeho otec Jan Špork byl chudý selský kluk z Vestfálska, který se za třicetileté války dal k vojsku, dotáhl to na jezdeckého generála a za odměnu dostal statky zabavené českým protestantům. Syn to všechno zdědil a utrácel za cokoli, co ho zaujalo.\n\nVe Versailles uslyšel francouzský lesní roh a přivezl ho domů; čeští hornisté se pak stali nejlepšími v Evropě. V 90. letech 17. století se na jeho východočeském panství Kuks našel léčivý pramen a on tam postavil lázně, pak špitál pro sto chudých a vysloužilých vojáků, a nakonec nechal Matyáše Bernarda Brauna osadit jeho terasu sochami Ctností a Neřestí. Roku 1714, po [[link:good-times-dont-last-1713]]moru[[/link]], zaplatil v Praze sloup Nejsvětější Trojice ve Štěpánské ulici.\n\nMěl rád i legraci. Vypráví se, že když dostal pokutu za zastřelení bílého jelena, daru cara císaři, nechal si z kůže ušít kalhoty a přišel v nich na dvorní ples do Vídně: prý to byly nejdražší kalhoty, jaké měl.\n\nNejvíc ze všeho ale miloval knihy. Četl francouzské jansenisty, katolíky, kteří kázali přísnou, vnitřní víru a nemohli vystát jezuity. Nechával je překládat, většinou svou dcerou Marií Eleonorou, která zemřela roku 1717 ve třiceti letech; tiskl je, nejdřív ve vlastní tiskárně v Lysé, dokud ji roku 1712 císař nezavřel; a rozdával je. Zároveň se léta hádal se sousedními jezuity v Kuksu.\n\nDvacátého šestého července 1729 obsadili Kuks vojáci s císařským dekretem: všechny jeho knihy se mají zabavit. Část jich ukryl na zámku v Konojedech, ale vojáci našli i ty. Knihovna, asi třicet tisíc svazků, odjela na dvanácti naložených vozech.\n\nRoku 1730 byl obžalován z kacířství. Žaloba žádala jeho statky, pokutu sto tisíc zlatých, spálení všech knih a doživotní vězení. Zasáhli mocní přátelé a soud ho roku 1733 uznal vinným jen z toho, že tiskl knihy bez schválení cenzury. Pokuta činila šest tisíc dukátů.\n\n[[b]]Kacíř to podle soudu nebyl, jen člověk, který tiskl knihy, aniž by se nejdřív zeptal; jenže v tehdejších Čechách to bylo skoro totéž.[[/b]]\n\nPotom starý hrabě zmlkl. Zemřel roku 1738 a byl pohřben v Kuksu. Mnohem později se začalo vyprávět, že roku 1726 založil ve svém paláci první pražskou zednářskou lóži; historici pak ukázali, že tou dobou v Praze vůbec nebyl.\n\nMuž, kterého královéhradecký biskup poslal jeho knihy prohlédnout, byl jezuita. Jmenoval se Antonín Koniáš.",
+      "zh": "[[link:a-full-house-1723]]1723年的加冕[[/link]]一结束，宫廷回了维也纳，意大利歌剧团却留了下来。1724年，弗朗蒂舍克·安东宁·施波克伯爵把他布拉格府邸里的剧场免费让给他们，从此那里常年上演意大利歌剧。没过几年，维瓦尔第的歌剧也在这里上演了。\n\n施波克有这个本钱。他父亲约翰·施波克原是威斯特法伦的穷苦农家孩子，三十年战争时投了军，一路升到骑兵将军，朝廷拿从波希米亚新教贵族手里没收的庄园赏给了他。儿子继承了这一大笔家业，喜欢什么就往什么上花。\n\n他在凡尔赛听到法国的狩猎号角，就把它带回了家；后来，波希米亚的圆号手成了全欧洲最好的。17世纪90年代，他在东波希米亚的库克斯庄园发现了一眼药泉，先盖了温泉浴场，又盖了一座能收留一百名穷人和老兵的医院，最后请布劳恩在医院的平台上摆满了“美德”与“恶行”的雕像。1714年[[link:good-times-dont-last-1713]]瘟疫[[/link]]过后，他还出钱在布拉格的斯捷潘斯卡街立了一根圣三一柱。\n\n他也爱开玩笑。据说，他射死了一头白鹿，那是沙皇送给皇帝的礼物，结果被罚了一大笔钱。他就把鹿皮做成裤子，穿着去了维也纳的宫廷舞会：说这是他最贵的一条裤子。\n\n可他最爱的，还是书。他读法国的冉森派，这些天主教徒讲究严格、向内的信仰，偏偏又看不惯耶稣会。他让人把这些书翻译出来，大部分是女儿玛丽·埃莉诺拉翻译的，她1717年去世，才三十岁；再印出来，起初就用他在利萨的私人印刷所，直到1712年被皇帝查封；然后送人。与此同时，他和库克斯的耶稣会邻居吵了好多年。\n\n1729年7月26日，士兵拿着皇帝的诏令开进库克斯：伯爵的书，一本不留，全部没收。他把一部分书藏在了科诺耶迪的庄园，士兵也搜了出来。约三万册藏书，装了满满十二车，拉走了。\n\n1730年，他被控传播异端。控方要求没收他的庄园、罚款十万弗罗林、烧掉所有的书、终身监禁。好在有权势的朋友出面说情，1733年法院只判他一条罪：印书没送审查。罚款六千杜卡特。\n\n[[b]]法院说，他不是异端，只是印书前没先问一声；可在那些年的波希米亚，这两样也差不了多少。[[/b]]\n\n老伯爵从此安静了下来。1738年，他去世了，葬在库克斯。很久以后，还流传着一个说法，说他1726年在自己的府邸里创办了布拉格第一个共济会分会；后来史学家查明，那时他根本不在布拉格。\n\n当年，赫拉德茨-克拉洛韦主教派去检查他那些书的人，是一位耶稣会士，名叫安东宁·柯尼亚什。"
+    },
+    "quotes": [],
+    "relatedLandmarks": [
+      {
+        "slug": "lysa-nad-labem",
+        "relation": {
+          "en": "Sporck's seat: he set up his private press here around 1710, died in the chateau in 1738, and filled its park with statues",
+          "cz": "Šporkovo sídlo: kolem roku 1710 tu zřídil vlastní tiskárnu, roku 1738 tu na zámku zemřel a jeho park zaplnil sochami",
+          "zh": "施波克的府邸：他1710年前后在这里办了私人印刷所，1738年死在这座城堡里，城堡花园里摆满了他请人雕的像"
+        }
+      },
+      {
+        "slug": "kostel-sv-stepana",
+        "relation": {
+          "en": "Sporck's 1714 Holy Trinity column was moved here from Štěpánská street in 1834 and removed in 1879",
+          "cz": "Šporkův sloup Nejsvětější Trojice z roku 1714 sem byl roku 1834 přenesen ze Štěpánské ulice a roku 1879 odstraněn",
+          "zh": "施波克1714年出钱立的圣三一柱，1834年从斯捷潘斯卡街搬到这里，1879年被拆除"
+        }
+      },
+      {
+        "slug": "ulicka-sv-huberta",
+        "relation": {
+          "en": "Opened in 2018 through the Sporck Palace, whose theatre housed the Italian opera from 1724; named after the Order of St Hubert, which he founded in 1695",
+          "cz": "Prorazena roku 2018 Šporkovým palácem, v jehož divadle se od roku 1724 hrála italská opera; nese jméno řádu sv. Huberta, který Špork založil roku 1695",
+          "zh": "2018年从施波克宫里开出的小巷，宫里的剧场1724年起常年上演意大利歌剧；小巷以他1695年创立的圣胡贝特骑士团命名"
+        }
+      },
+      {
+        "slug": "hospital-kuks",
+        "relation": {
+          "en": "Sporck's spa and hospital for a hundred poor people and old soldiers, with Braun's Virtues and Vices; soldiers seized his library here on 26 July 1729, and he lies in the crypt",
+          "cz": "Šporkovy lázně a špitál pro sto chudých a vysloužilců s Braunovými Ctnostmi a Neřestmi; 26. července 1729 mu tu vojáci zabavili knihovnu a v hrobce tu leží",
+          "zh": "施波克的温泉和收留一百名穷人与老兵的医院，门前是布劳恩的“美德”与“恶行”；1729年7月26日，士兵在这里抄走了他的藏书，他本人也葬在这里的墓室"
+        }
+      }
+    ],
+    "images": [
+      "/history/twelve-wagons-of-books-1729.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Kuks, 26 July 1729: imperial soldiers carry Count Sporck's books down the hospital terrace, between Braun's statues, and load them onto waiting wagons. The old count stands at the top of the steps; below, an officer holds up the imperial decree, a Jesuit ticks off the titles, and the hospital's old soldiers look on.",
+        "cz": "Kuks, 26. července 1729: císařští vojáci snášejí knihy hraběte Šporka po terase špitálu mezi Braunovými sochami a nakládají je na připravené vozy. Starý hrabě stojí nahoře na schodech; dole drží důstojník císařský dekret, jezuita odškrtává tituly a vysloužilci ze špitálu přihlížejí.",
+        "zh": "1729年7月26日，库克斯：帝国士兵把施波克伯爵的书从医院平台上、布劳恩的雕像之间搬下来，装上等在一旁的马车。老伯爵站在台阶顶上；台阶下，军官举着皇帝的诏令，一位耶稣会士对着清单逐本打勾，医院里的老兵们在一旁看着。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Franz_Anton_von_Sporck"
+  },
+  // Antonín Koniáš (1691–1760). Slug kept from the first title "父亲印书，儿子烧书"
+  // (dropped: read as if he were Sporck's son). Sources: cs.wikipedia (born 13 Feb 1691 in
+  // Prague, son of the printer Vojtěch Jiří Koniáš, who worked at the
+  // Klementinum Jesuit press and printed Comenius's Janua linguarum; Jesuit
+  // 1708; missions from 1721, bishop of Hradec Králové's missionary from late
+  // 1725; missions of about eight days, books brought in under pain of grave
+  // sin or found in searches, burned outside the town on the last evening;
+  // Klíč 1729: 1,307 titles, 1749: 2,274, each marked abol. or cor.;
+  // Citara Nového zákona, 418 songs, 11 editions to 1848; complained about
+  // Sporck to the bishop in 1726; 1735 reconciliation, Sporck said to have
+  // funded his Catholic books and possibly given him the Order of St Hubert;
+  // died at the Klementinum 27 Oct 1760, buried in St Salvator; elogium
+  // "over thirty thousand poisonous volumes", Časopis Musea království
+  // Českého 69, 1895, p. 323, quote 1); the Klíč title page (quote 0, from
+  // the 1729 title page as given in Czech theses, modern spelling); Jakubec,
+  // Dějiny literatury české (1929), via bejvavalo.cz (3–5 sermons a day, the
+  // chain round his neck, his own devotional books given in exchange, the
+  // 60,000 figure halved by Podlaha, a thousand a year in his petition);
+  // ČT24 (bonfires often on St John's Eve; Hus, Luther, Comenius in the
+  // destroy group); zemesveta.cz (Kuks seized under Koniáš's supervision).
+  // The index as a bibliographic source for lost books: Jakubec. Emigration:
+  // crypto-Protestants left in small groups for Saxony (Herrnhut, Gerlachsheim,
+  // Dresden) and Prussia; c. 350 settled at Rixdorf (Berlin-Neukölln) in 1737
+  // under Frederick William I (cs.wikipedia Český Rixdorf; berlin.de).
+  {
+    "slug": "the-printers-son-1729",
+    "era": "baroque-and-darkness",
+    "startYear": 1729.5,
+    "tone": "serious",
+    "year": {
+      "en": "1721–1760",
+      "cz": "1721–1760",
+      "zh": "1721年－1760年"
+    },
+    "title": {
+      "en": "The Book-Burning Priest",
+      "cz": "Páter, který pálil knihy",
+      "zh": "烧书的神父"
+    },
+    "hookLine": {
+      "en": "A Prague printer's son grew up to become the most notorious book burner in Czech history.",
+      "cz": "Syn pražského tiskaře se stal nejproslulejším pálitelem knih v českých dějinách.",
+      "zh": "一位布拉格印刷工的儿子，后来成了捷克历史上最出名的烧书人。"
+    },
+    "summary": {
+      "en": "The Jesuit who went through [[link:twelve-wagons-of-books-1729]]Count Sporck[[/link]]'s confiscated books was Antonín Koniáš. He was a Prague man, born in 1691, the son of a printer who had worked at the Jesuit press in the Klementinum and had even printed a Latin textbook by [[link:comenius-last-years-1656]]Comenius[[/link]].\n\nThe son took a different road. He joined the Jesuits at seventeen, went out on country missions from 1721, and from 1725 was the bishop of Hradec Králové's own missionary.\n\nA mission lasted about eight days. He preached three to five times a day, in Czech and in German, sometimes climbing into the pulpit with a heavy chain round his neck. The parishioners had to bring him every book in the house for inspection, on pain of grave sin; where they would not, the houses were searched. On the last evening a fire was lit outside the town. Those whose books had been taken were given his own hymnal and sermons in exchange.\n\nHe kept accounts of what he burned. In 1729 he published an index of forbidden books in Hradec Králové:\n\n[[quote:0]]\n\nThe first edition listed some 1,300 books; the second, twenty years later, more than 2,200. Each title carried one of two verdicts: destroy, or correct. Hus, Luther and Comenius were all in the first group, together with plenty of hymnals, grammars, almanacs and dream books.\n\nHow many did he burn? The Jesuits' obituary of him said:\n\n[[quote:1]]\n\nLater the figure grew to sixty thousand, which historians consider an exaggeration. His own estimate was about a thousand a year.\n\nIn the years of [[link:there-is-hope-1651]]the door-to-door census of faith[[/link]], many had been entered as \"hopeful\" while quietly keeping their old faith. Out of love for their homeland they had stayed: Catholic church by day, the forbidden books hidden at home read behind closed doors at night. Now even those books were being searched out and burned.\n\nThis time many could bear it no longer. Risking arrest, they gathered their families and slipped over the border mountains, often by night, to the Protestant German princes in the north, above all to Saxony and Prussia. In 1737 the Prussian king Frederick William I settled several hundred Bohemian refugees at Rixdorf outside Berlin; their \"Bohemian village\" still stands in the Berlin district of Neukölln.\n\nYet Koniáš did not only burn books. His hymnal, the Cithara of the New Testament, held more than four hundred songs and went through eleven editions, the last in 1848. [[b]]The man who burned more Czech books than anyone else in his age was also one of its best-selling Czech authors.[[/b]]\n\nThere is a further irony. His index is now a reference work for historians. Many old Czech books have not survived in a single copy, and we know they ever existed only because they appear on Koniáš's list for destruction.\n\nAs for Sporck, the two are said to have made peace in 1735. The old count even paid for some of his Catholic books, and may have given him a badge of his Order of St Hubert.\n\nKoniáš died in the Klementinum in 1760 and was buried in its Church of the Holy Saviour. A century and a half later a novelist made him the face of an entire era: the Jesuit who hunts down and burns books in the novel bears Koniáš's own name. The novelist also gave that era a name: [[link:what-was-the-darkness-1650]]\"Darkness\"[[/link]].",
+      "cz": "Jezuita, který procházel zabavené knihy [[link:twelve-wagons-of-books-1729]]hraběte Šporka[[/link]], se jmenoval Antonín Koniáš. Byl to Pražan, narozený roku 1691, syn tiskaře, který pracoval v jezuitské tiskárně v Klementinu a dokonce tiskl latinskou učebnici [[link:comenius-last-years-1656]]Komenského[[/link]].\n\nSyn se vydal jinou cestou. V sedmnácti vstoupil k jezuitům, od roku 1721 chodil na venkovské misie a od roku 1725 byl misionářem královéhradeckého biskupa.\n\nMisie trvala asi osm dní. Kázal třikrát až pětkrát denně, česky i německy, a někdy vystoupil na kazatelnu s těžkým řetězem na krku. Farníci mu museli pod těžkým hříchem přinést ke kontrole všechny knihy z domu; kde nechtěli, prohledávaly se domy. Poslední večer se za městem zapálil oheň. Komu knihy vzali, dostal výměnou jeho vlastní kancionál a kázání.\n\nO tom, co pálil, vedl účty. Roku 1729 vydal v Hradci Králové seznam zakázaných knih:\n\n[[quote:0]]\n\nPrvní vydání uvádělo asi 1300 knih, druhé o dvacet let později přes 2200. U každého titulu stál jeden ze dvou verdiktů: zničit, nebo opravit. Hus, Luther i Komenský patřili do první skupiny, spolu se spoustou kancionálů, mluvnic, kalendářů a snářů.\n\nKolik jich spálil? Jezuitský nekrolog o něm napsal:\n\n[[quote:1]]\n\nPozději číslo narostlo na šedesát tisíc, což historici považují za přehnané. Sám odhadoval, že to bylo asi tisíc knih ročně.\n\nV letech, kdy [[link:there-is-hope-1651]]se chodilo dům od domu ptát na víru[[/link]], zapsali mnohé jako „s nadějí“, ačkoli si potichu drželi starou víru. Z lásky k domovu zůstali: ve dne do katolického kostela, v noci za zavřenými dveřmi nad zakázanými knihami ukrytými doma. Teď se vyhledávaly a pálily i tyhle knihy.\n\nTentokrát to mnozí už nevydrželi. S rizikem, že je chytí, sebrali rodiny a často v noci přešli pohraniční hory k protestantským německým knížatům na severu, nejvíc do Saska a Pruska. Roku 1737 usadil pruský král Fridrich Vilém I. několik set českých uprchlíků v Rixdorfu u Berlína; jejich „Český Rixdorf“ dodnes stojí v berlínské čtvrti Neukölln.\n\nKoniáš ale knihy jen nepálil. Jeho kancionál Citara Nového zákona měl přes čtyři sta písní a vyšel jedenáctkrát, naposledy roku 1848. [[b]]Muž, který spálil víc českých knih než kdokoli jiný své doby, byl zároveň jedním z jejích nejčtenějších českých autorů.[[/b]]\n\nA je tu ještě jedna ironie. Jeho seznam je dnes pro historiky příručkou. Mnoho starých českých knih se nedochovalo ani v jediném výtisku, a víme o nich jen proto, že stojí na Koniášově seznamu ke zničení.\n\nA Špork? Ti dva se prý roku 1735 usmířili. Starý hrabě mu dokonce zaplatil tisk některých katolických knih a možná mu dal i odznak svého řádu sv. Huberta.\n\nKoniáš zemřel roku 1760 v Klementinu a byl pohřben v jeho kostele sv. Salvátora. O století a půl později z něj spisovatel udělal tvář celé jedné doby: jezuita, který v románu vyhledává a pálí knihy, nese přímo Koniášovo jméno. Spisovatel té době dal i jméno: [[link:what-was-the-darkness-1650]]Temno[[/link]].",
+      "zh": "翻检[[link:twelve-wagons-of-books-1729]]施波克伯爵[[/link]]那些被抄走的书的耶稣会士，叫安东宁·柯尼亚什。他是布拉格人，1691年生，父亲是个印刷工，在克莱门特学院的耶稣会印刷所干过活，还印过[[link:comenius-last-years-1656]]夸美纽斯[[/link]]的拉丁语课本。\n\n儿子走了另一条路。他十七岁进了耶稣会，1721年起下乡传教，1725年起成了赫拉德茨-克拉洛韦主教的专职传教士。\n\n他的传教一次约八天。一天讲三到五场道，用捷克语，也用德语，有时脖子上挂着一条沉重的铁链走上讲台。教区里的人得把家里的书统统交来让他检查，不交就是犯了重罪；不肯交的，就挨家去搜。最后一晚，在城外点起一堆火。书被收走的人，会领到他自己写的赞美诗集和讲道集作为交换。\n\n烧什么书，他有一本账。1729年，他在赫拉德茨-克拉洛韦出版了一份禁书目录：\n\n[[quote:0]]\n\n第一版列了一千三百多种书，二十年后的第二版增加到两千两百多种。每本书后面标着两种处理意见之一：销毁，或者修改。胡斯、路德、夸美纽斯都在要销毁的那一栏，同一栏里还有不少赞美诗集、语法书、历书和解梦书。\n\n他到底烧了多少？耶稣会给他写的悼词说：\n\n[[quote:1]]\n\n后来这个数字涨到了六万，史学家认为是夸大了。按他自己的估计，大约一年一千本。\n\n当年[[link:there-is-hope-1651]]挨家挨户问信仰[[/link]]的时候，不少人被登记成“有希望”，心里却还守着旧信仰。出于对故土的留恋，他们留了下来：白天去天主教堂，晚上关起门来，偷偷读藏在家里的书。如今，连这些书也要被搜出来烧掉了。\n\n这一回，很多人终于忍不下去了。他们冒着被抓的危险，拖家带口，常常趁着夜色翻过边境的山，逃往北边信新教的德意志诸侯那里，去得最多的就是萨克森和普鲁士。1737年，普鲁士国王腓特烈·威廉一世把几百名波希米亚流亡者安置在柏林城外的里克斯多夫；那个“波希米亚村”，如今还在柏林的新克尔恩区。\n\n可柯尼亚什不光烧书。他编的赞美诗集《新约之琴》收了四百多首歌，前后印了十一版，最后一版印于1848年。[[b]]那个年代烧掉捷克语书最多的人，也是那个年代最畅销的捷克语作者之一。[[/b]]\n\n还有一层讽刺：他的禁书目录，如今成了史学家的工具书。不少捷克语老书早已一本不存，人们知道它们存在过，靠的正是柯尼亚什这份“销毁名单”。\n\n至于施波克，据说两人1735年就和解了。老伯爵还出钱帮他印过天主教的书，说不定还送了他一枚自己的圣胡贝特骑士团勋章。\n\n1760年，柯尼亚什死在克莱门特学院，葬在学院的圣救主教堂。一个半世纪以后，一位小说家把他写成了一个时代的面孔：小说里下乡搜书、烧书的耶稣会士，用的就是他的名字。小说家还给那个时代起了个名字：“[[link:what-was-the-darkness-1650]]黑暗[[/link]]”。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "A Key that opens heretical errors to be recognised and shuts them out to be uprooted; or, A little register of certain erroneous, offensive, suspect or forbidden books",
+          "cz": "Klíč kacířské bludy k rozeznání otvírající, k vykořenění zamítající, aneb Registřík některých bludných, pohoršlivých, podezřelých neb zapověděných knih",
+          "zh": "一把钥匙：为辨认而打开异端谬误，为根除而将其拒之门外；又名：若干谬误、伤风败俗、可疑或被禁书籍之小目录"
+        },
+        "attribution": {
+          "en": "Title page of Antonín Koniáš's index of forbidden books, Hradec Králové, 1729 (translated)",
+          "cz": "Titulní list Koniášova seznamu zakázaných knih, Hradec Králové, 1729",
+          "zh": "柯尼亚什禁书目录的扉页，赫拉德茨-克拉洛韦，1729年（转译）"
+        }
+      },
+      {
+        "text": {
+          "en": "… they reckon that through the care of this one father more than thirty thousand poisonous volumes were gathered and cast into the flames by his hand …",
+          "cz": "… počítají, že péčí tohoto jediného otce bylo sebráno více než třicet tisíc jedovatých svazků a jeho rukou vrženo do plamenů …",
+          "zh": "……据统计，单凭这一位神父的辛劳，就收缴了三万多册有毒的书，由他亲手投入烈火……"
+        },
+        "attribution": {
+          "en": "The Jesuit elogium (obituary) of Antonín Koniáš, 1760 (translated)",
+          "cz": "Jezuitské elogium (nekrolog) Antonína Koniáše, 1760 (v překladu)",
+          "zh": "耶稣会为柯尼亚什撰写的悼词，1760年（转译）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "national-library-czech-republic",
+        "relation": {
+          "en": "His father worked at the Jesuit press in the Klementinum; Koniáš studied here and died here in 1760",
+          "cz": "Jeho otec pracoval v jezuitské tiskárně v Klementinu; Koniáš tu studoval a roku 1760 tu zemřel",
+          "zh": "他父亲在克莱门特学院的耶稣会印刷所干过活；柯尼亚什在这里求学，1760年也死在这里"
+        }
+      },
+      {
+        "slug": "kostel-sv-salvatora",
+        "relation": {
+          "en": "The Klementinum's church, where Koniáš was buried in October 1760",
+          "cz": "Kostel Klementina, kde byl Koniáš v říjnu 1760 pohřben",
+          "zh": "克莱门特学院的教堂，柯尼亚什1760年10月葬在这里"
+        }
+      },
+      {
+        "slug": "hradec-kralove",
+        "relation": {
+          "en": "From 1725 he was the bishop of Hradec Králové's missionary, and his index of forbidden books was printed here in 1729",
+          "cz": "Od roku 1725 byl misionářem královéhradeckého biskupa a jeho seznam zakázaných knih tu roku 1729 vyšel tiskem",
+          "zh": "1725年起，他是这里主教的专职传教士；他的禁书目录1729年也在这里印行"
+        }
+      },
+      {
+        "slug": "hospital-kuks",
+        "relation": {
+          "en": "Count Sporck's library, which Koniáš went through, was seized here in July 1729",
+          "cz": "Zde byla v červenci 1729 zabavena knihovna hraběte Šporka, kterou Koniáš procházel",
+          "zh": "1729年7月，柯尼亚什翻检的那批施波克藏书，就是在这里被抄走的"
+        }
+      }
+    ],
+    "images": [
+      "/history/the-printers-son-1729.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "The last evening of a mission, outside a country town in East Bohemia around 1730: books burn on a bonfire while Father Koniáš, a chain around his neck, holds up a crucifix. Villagers queue to hand over the books from their homes, a novice gives them a new hymnal in exchange, and a clerk writes each confiscated title into a ledger.",
+        "cz": "Poslední večer misie za venkovským městečkem ve východních Čechách kolem roku 1730: na hranici hoří knihy a páter Koniáš s řetězem na krku pozvedá kříž. Vesničané stojí ve frontě, aby odevzdali knihy z domova, novic jim výměnou dává nový kancionál a písař zapisuje každý zabavený titul do knihy.",
+        "zh": "1730年前后，东波希米亚一座乡间小镇外，传教的最后一晚：书在火堆里燃烧，脖子上挂着铁链的柯尼亚什神父举起十字架。村民排着队交出家里的书，一位见习修士递给他们一本新的赞美诗集作为交换，书记员把每一本被收走的书记进账簿。"
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Koni%C3%A1%C5%A1"
+  },
+  // Maria Theresa and Francis Stephen, 1736. Sources: en.wikipedia (Francis I,
+  // b. 8 Dec 1708, at the Vienna court from 1723; Preliminary Peace of Vienna
+  // 1735: Lorraine to Stanisław and then France, Tuscany to Francis on the
+  // death of Gian Gastone de' Medici, who died 1737; wedding 12 Feb 1736);
+  // historyofroyalwomen.com (betrothal 31 Jan 1736, groom left Vienna by
+  // custom, pen thrown down three times, his mother's curse; the letter, quote
+  // 0, from J. A. Mahan, Maria Theresa of Austria, p. 38, in English);
+  // Bartenstein's "no renunciation, no archduchess" is the traditional
+  // version and could not be traced to a primary source, so it is "said".
+  // Augustinian Church: the usual Habsburg wedding church; Prince Eugene died
+  // 21 Apr 1736 (b. 18 Oct 1663). No Czech landmarks: the card is set in Vienna.
+  {
+    "slug": "a-duchy-for-a-bride-1736",
+    "era": "baroque-and-darkness",
+    "startYear": 1736,
+    "tone": "humorous",
+    "year": {
+      "en": "1736",
+      "cz": "1736",
+      "zh": "1736年"
+    },
+    "title": {
+      "en": "A Duchy for a Bride",
+      "cz": "Vévodství za nevěstu",
+      "zh": "用公国换新娘"
+    },
+    "hookLine": {
+      "en": "Maria Theresa wanted to marry the boy she had loved since childhood. France wanted his duchy.",
+      "cz": "Marie Terezie si chtěla vzít chlapce, kterého milovala od dětství. Francie chtěla jeho vévodství.",
+      "zh": "玛丽亚·特蕾莎想嫁给她从小就喜欢的人。法国想要的，是那个人的公国。"
+    },
+    "summary": {
+      "en": "While the bonfires were burning in Bohemian villages, something else was on the emperor's mind in Vienna: whom his daughter should marry.\n\nThe candidate had been there for years. In [[link:a-full-house-1723]]the year of the Prague coronation[[/link]], the emperor had hung the Golden Fleece around the neck of a fourteen-year-old prince of Lorraine, Francis Stephen. That same year the boy came to live at the court in Vienna and grew up with the emperor's family. Maria Theresa, nine years younger, adored him from childhood.\n\nThe match was suitable and the couple were in love. Diplomacy got in the way. In 1733 Austria and France went to war over who should be king of Poland, the War of the Polish Succession. Austria fared badly, and when peace was talked in 1735, France wanted one thing in return: Lorraine.\n\nLorraine lay between France and the German lands, and France had long had its eye on it. If the duke of Lorraine also married the Habsburg heiress, France would find Austria standing right on its doorstep.\n\nSo the terms were set. Francis would give up Lorraine, his family's land for centuries: first to Stanisław, the man who had just lost the Polish throne, and on his death to France. In return, once the last Medici grand duke died in Florence, Tuscany would go to Francis.\n\nFrancis did not want to. The emperor's minister Bartenstein is said to have put it bluntly: no renunciation, no archduchess. Francis, the story goes, picked up the pen and threw it down three times before he signed. His mother, it is said, called down heaven's wrath on him for signing away his birthright.\n\nOn 31 January 1736 the two were engaged. By custom the groom had to leave Vienna until the wedding, and in the days apart the eighteen-year-old Maria Theresa wrote to him:\n\n[[quote:0]]\n\nOn 12 February they were married in Vienna's Augustinian Church. [[b]]The emperor spent his whole life signing treaties so that his daughter could keep his lands; to marry her, his son-in-law first had to sign away his own.[[/b]]\n\nTwo months after the wedding, in April 1736, the seventy-two-year-old Prince Eugene died in his sleep. The old general who had told the emperor that two hundred thousand soldiers were worth more than any treaty was gone, and the emperor's army was nowhere near that number.",
+      "cz": "Zatímco ve vesnicích v Čechách hořely hranice knih, ve Vídni měl císař na starosti něco jiného: koho si má jeho dcera vzít.\n\nKandidát tu byl už léta. V [[link:a-full-house-1723]]roce pražské korunovace[[/link]] pověsil císař řád zlatého rouna na krk čtrnáctiletému lotrinskému princi Františku Štěpánovi. Téhož roku chlapec přišel žít k vídeňskému dvoru a vyrůstal s císařovou rodinou. Marie Terezie, o devět let mladší, ho zbožňovala už od dětství.\n\nPartie to byla rovná a ti dva se milovali. Do cesty se jim ale postavila diplomacie. Roku 1733 se Rakousko s Francií pustily do války o to, kdo bude polským králem, do války o polské dědictví. Rakousku se nedařilo, a když se roku 1735 jednalo o míru, chtěla Francie výměnou jedinou věc: Lotrinsko.\n\nLotrinsko leželo mezi Francií a německými zeměmi a Francie po něm dávno pokukovala. Kdyby si lotrinský vévoda ještě vzal habsburskou dědičku, měla by Francie Rakousko přímo za humny.\n\nPodmínky tedy zněly takto: František se vzdá Lotrinska, které jeho rod držel po staletí, nejdřív ve prospěch Stanislava, muže, který právě přišel o polský trůn, a po jeho smrti ve prospěch Francie. Výměnou dostane Toskánsko, až ve Florencii zemře poslední velkovévoda z rodu Medicejských.\n\nFrantišek nechtěl. Císařův ministr Bartenstein mu to prý řekl bez obalu: žádné zřeknutí, žádná arcivévodkyně. František prý pero třikrát vzal a zase odhodil, než podepsal. Jeho matka ho prý proklínala, že zaprodal dědictví předků.\n\nTřicátého prvního ledna 1736 se ti dva zasnoubili. Podle zvyku musel ženich do svatby z Vídně odjet, a osmnáctiletá Marie Terezie mu v těch dnech odloučení psala:\n\n[[quote:0]]\n\nDvanáctého února se ve vídeňském Augustiniánském kostele vzali. [[b]]Císař celý život podepisoval smlouvy, aby jeho dcera udržela jeho země; aby si ji mohl vzít, musel jeho zeť nejdřív podepsat, že se vzdává svých vlastních.[[/b]]\n\nDva měsíce po svatbě, v dubnu 1736, zemřel ve spánku dvaasedmdesátiletý princ Evžen. Starý vojevůdce, který císaři radil, že dvě stě tisíc vojáků je víc než všechny smlouvy, byl pryč, a císařova armáda měla k tomu číslu hodně daleko.",
+      "zh": "就在波希米亚乡下的火堆一堆堆烧起来的那些年，维也纳的皇宫里，皇帝在操心另一件事：女儿该嫁给谁。\n\n人选其实早就有了。[[link:a-full-house-1723]]布拉格加冕那年[[/link]]，皇帝把金羊毛勋章挂在了一位十四岁的洛林王子胸前，他叫弗朗茨·斯特凡。也是从那年起，这个少年被接到维也纳宫里，和皇帝一家一起长大。比他小九岁的玛丽亚·特蕾莎，从小就喜欢这位大哥哥。\n\n门当户对，又两情相悦，偏偏卡在了外交上。1733年，为了谁来当波兰国王，奥地利和法国打了起来，史称波兰王位继承战争。奥地利打得不顺，1735年谈和的时候，法国只要一样东西：洛林。\n\n洛林夹在法国和德意志之间，法国早就盯上它了。要是洛林公爵再娶了哈布斯堡的女继承人，奥地利就等于站到了法国的家门口。\n\n于是条件开了出来：弗朗茨把家族世代相传的洛林让出来，先给刚丢了波兰王位的斯坦尼斯瓦夫，等他死后再归法国；作为补偿，等佛罗伦萨最后一位美第奇大公去世，托斯卡纳就归弗朗茨。\n\n弗朗茨不愿意。据说，皇帝的大臣巴滕施泰因把话挑明了：不放弃洛林，就别想娶大公主。又据说，弗朗茨拿起笔又扔下，扔了三次，才签了字。他母亲听说以后，据说把他骂了个狗血淋头，说他卖掉了祖宗的家业。\n\n1736年1月31日，两人订婚。照规矩，新郎得先离开维也纳，等到婚礼再回来。分开的那几天里，十八岁的玛丽亚·特蕾莎给他写信：\n\n[[quote:0]]\n\n2月12日，两人在维也纳的奥古斯丁教堂成婚。[[b]]皇帝为了让女儿守住江山，签了一辈子的条约；女婿为了娶到他的女儿，先得签掉自己的江山。[[/b]]\n\n婚礼过后两个月，1736年4月，七十二岁的欧根亲王在睡梦中去世。那位劝皇帝“二十万大军胜过所有条约”的老将走了，而皇帝的军队，离二十万还差得远。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Dear sweetheart, I am under endless obligations to you for having sent me news of yourself, because I was as uneasy about you as a little dog. Love me and forgive me for not writing more, for it is ten o'clock and the messenger is waiting. Adieu, my little mouse, I embrace you with all my heart. Take care of yourself. Adieu, sweetheart! I am your happy bride!",
+          "cz": "Nejdražší miláčku, jsem Ti nekonečně zavázána, žes mi poslal zprávu o sobě, protože jsem o Tebe měla strach jako malý pejsek. Měj mě rád a odpusť, že nepíšu víc, je deset hodin a posel čeká. Adieu, má myško, objímám Tě celým srdcem. Opatruj se. Adieu, miláčku! Jsem Tvá šťastná nevěsta!",
+          "zh": "亲爱的心上人，你捎来了自己的消息，我对你感激不尽，因为我一直像只小狗一样，为你坐立不安。爱我吧，原谅我不能多写，已经十点了，信差还在等着。再见，我的小老鼠，我全心全意地拥抱你。保重身体。再见，心上人！我是你幸福的新娘！"
+        },
+        "attribution": {
+          "en": "Maria Theresa to Francis Stephen, between the engagement and the wedding, February 1736 (translated)",
+          "cz": "Marie Terezie Františku Štěpánovi mezi zásnubami a svatbou, únor 1736 (v překladu)",
+          "zh": "玛丽亚·特蕾莎在订婚后、婚礼前写给弗朗茨·斯特凡的信，1736年2月（转译）"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "images": [
+      "/history/a-duchy-for-a-bride-1736.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Vienna, January 1736: Francis Stephen of Lorraine sits at a table in the imperial palace over the document giving up Lorraine, two quills already thrown on the floor, while the minister Bartenstein points at the signature line. A French envoy waits by a map of the duchy, Charles VI looks out of the window, and Maria Theresa watches from the doorway with a letter in her hand.",
+        "cz": "Vídeň, leden 1736: František Štěpán Lotrinský sedí v císařském paláci nad listinou, kterou se vzdává Lotrinska, dvě husí pera už leží odhozená na zemi a ministr Bartenstein ukazuje na místo pro podpis. U mapy vévodství čeká francouzský vyslanec, Karel VI. se dívá z okna a ve dveřích stojí s dopisem v ruce Marie Terezie.",
+        "zh": "1736年1月，维也纳：洛林的弗朗茨·斯特凡坐在皇宫的桌前，面对放弃洛林的文件，地上已经扔着两支羽毛笔，大臣巴滕施泰因指着签名的地方。法国使节等在洛林地图旁，查理六世望着窗外，玛丽亚·特蕾莎手里拿着一封信，站在门口看着。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Francis_I,_Holy_Roman_Emperor"
+  },
+  // Charles VI's death and the end of the Pragmatic Sanction's promises, 1740,
+  // the era's closing card. Charles VI b. 1 Oct 1685, d. 20 Oct 1740 at the
+  // Favorita after a hunt and a dish of mushrooms (fr.vikidia and standard
+  // accounts); Voltaire's mushroom line could not be traced to a primary
+  // source, so it is "supposed to have said". Turkish war 1737-39, Treaty of
+  // Belgrade 1739. Quote 0: Maria Theresa's Political Testament 1749/50
+  // (GHDI English translation). Quote 1: Frederick II to Voltaire, Remusberg
+  // (Rheinsberg), 26 Oct 1740, Oeuvres de Frederic le Grand vol. 22 (Trier
+  // edition; wording as usually quoted, translated). Charles Albert of
+  // Bavaria (wife Maria Amalia, who renounced 1722) cited Ferdinand I's will;
+  // Augustus III of Saxony (wife Maria Josepha, who renounced 1719); France
+  // guaranteed the Sanction in the 1738 Treaty of Vienna; Prussia guaranteed
+  // it in 1728. Frederick king since 31 May 1740, invaded Silesia 16 Dec 1740
+  // with c. 27,000 men without a declaration of war. Maria Theresa's three
+  // daughters by then: Maria Elisabeth (1737-40), Maria Anna (1738), Maria
+  // Carolina (1740); Joseph was born March 1741.
+  {
+    "slug": "everyone-signed-1740",
+    "era": "baroque-and-darkness",
+    "startYear": 1740,
+    "tone": "humorous",
+    "year": {
+      "en": "1740",
+      "cz": "1740",
+      "zh": "1740年"
+    },
+    "title": {
+      "en": "Everyone Signed. Nobody Meant It.",
+      "cz": "Všichni podepsali, nikdo to nemyslel vážně",
+      "zh": "签过字的，都不认账了"
+    },
+    "hookLine": {
+      "en": "Charles VI spent twenty years collecting signatures for his daughter. Within two months of his death, hardly any of them were worth the paper.",
+      "cz": "Karel VI. sbíral dvacet let podpisy pro svou dceru. Dva měsíce po jeho smrti už skoro žádný z nich nestál ani za papír.",
+      "zh": "查理六世为女儿收了二十年的签名。他死后不到两个月，这些签名就差不多一文不值了。"
+    },
+    "summary": {
+      "en": "In October 1740 the fifty-five-year-old Charles VI went hunting on the Hungarian border. The weather was cold and wet, and back at the Favorita palace outside Vienna he fell ill after a large dish of mushrooms. He died on 20 October. Voltaire is supposed to have said that this pot of mushrooms changed the destiny of Europe.\n\nHis last years had not gone well. [[link:a-duchy-for-a-bride-1736]]Prince Eugene[[/link]] was gone, and in 1737 the emperor went to war with the Ottomans again. Three years later he had lost, and with the peace of 1739 he gave up Belgrade as well. The army was battered and the treasury was empty.\n\nUnder [[link:an-emperor-collecting-signatures-1720]]the Pragmatic Sanction[[/link]], all his lands now passed to his twenty-three-year-old daughter, Maria Theresa: archduchess of Austria, queen of Hungary and queen of Bohemia. She was the first woman ever to rule the Habsburg lands, and the first woman to hold the Bohemian crown by her own right of birth rather than through a husband.\n\nOne title she could not have. The Holy Roman Emperor was chosen by the electors, and only a man could be chosen. For the first time in three hundred years the imperial throne stood empty with no Habsburg on hand to fill it.\n\nA decade later she described where she had found herself:\n\n[[quote:0]]\n\nAnd the signatures her father had spent his life collecting turned out to be worth very little the moment he was dead.\n\nThe first to object was Charles Albert, elector of Bavaria. His wife was Maria Amalia, Joseph I's younger daughter, who had signed away her claim before her wedding. Now her husband said the renunciation did not count, dug out an old will of Ferdinand I's, and declared the Habsburg inheritance his.\n\nThe elector of Saxony made the same calculation: his wife was Maria Josepha, the other cousin who had signed. Spain joined in. France had guaranteed the Sanction only two years earlier; now it quietly backed Bavaria. [[b]]The two cousins' renunciations, signed before their weddings, were now the cheapest paper in their husbands' hands.[[/b]]\n\nThe bluntest of all was Prussia, which had also signed. Its new king, Frederick II, was twenty-eight and had been on the throne for five months. When he heard the emperor was dead, he wrote to Voltaire:\n\n[[quote:1]]\n\nHe did not even wait for June. On 16 December 1740 he marched into Silesia with some twenty-seven thousand men, without declaring war. Then he sent word to Vienna: give me Silesia, and I will help you against everyone else. Maria Theresa refused.\n\nShe was pregnant at the time. She already had three children. All of them were daughters.\n\nSilesia was only the start. Soon half of Europe would be drawn in. And just over the mountains south of Silesia lay Bohemia. Prague was not far away.",
+      "cz": "V říjnu 1740 si pětapadesátiletý Karel VI. vyjel na hon k uherským hranicím. Bylo chladno a mokro a po návratu do paláce Favorita u Vídně se mu po velké míse hub udělalo zle. Dvacátého října zemřel. Voltaire prý řekl, že tahle mísa hub změnila osud Evropy.\n\nJeho poslední léta se nevydařila. [[link:a-duchy-for-a-bride-1736]]Princ Evžen[[/link]] byl pryč a roku 1737 se císař znovu pustil do války s Osmany. Za tři roky prohrál a mírem z roku 1739 se vzdal i Bělehradu. Armáda byla zdecimovaná a pokladna prázdná.\n\nPodle [[link:an-emperor-collecting-signatures-1720]]pragmatické sankce[[/link]] teď všechny jeho země připadly třiadvacetileté dceři Marii Terezii: arcivévodkyni rakouské, královně uherské a královně české. Byla první ženou, která kdy vládla habsburským zemím, a první ženou, která držela českou korunu vlastním dědickým právem, a ne skrze manžela.\n\nJeden titul ale mít nemohla. Císaře Svaté říše římské volili kurfiřti a zvolit šlo jen muže. Poprvé po třech stech letech zůstal císařský trůn prázdný a žádný Habsburk, který by ho obsadil, nebyl po ruce.\n\nO deset let později popsala, v jaké situaci se tehdy ocitla:\n\n[[quote:0]]\n\nA podpisy, které její otec celý život sbíral, ztratily cenu ve chvíli, kdy zemřel.\n\nPrvní se ozval bavorský kurfiřt Karel Albrecht. Jeho žena Marie Amálie byla mladší dcera Josefa I., která se před svatbou podpisem vzdala nároků. Teď její muž prohlásil, že to zřeknutí neplatí, vytáhl starou závěť Ferdinanda I. a habsburské dědictví označil za své.\n\nSaský kurfiřt počítal stejně: jeho ženou byla Marie Josefa, druhá sestřenice, která podepsala. Přidalo se Španělsko. Francie sankci zaručila teprve před dvěma lety; teď potichu podporovala Bavorsko. [[b]]Zřeknutí obou sestřenic, podepsaná před svatbou, byla teď v rukou jejich manželů tím nejlacinějším papírem.[[/b]]\n\nNejpříměji si počínalo Prusko, které také podepsalo. Jeho nový král Fridrich II. měl osmadvacet let a vládl teprve pět měsíců. Když se dozvěděl, že císař zemřel, napsal Voltairovi:\n\n[[quote:1]]\n\nNa červen ani nečekal. Šestnáctého prosince 1740 vtrhl s nějakými sedmadvaceti tisíci muži do Slezska, bez vyhlášení války. Pak vzkázal do Vídně: dejte mi Slezsko a já vám pomůžu proti všem ostatním. Marie Terezie odmítla.\n\nByla tehdy těhotná. Měla už tři děti. Všechno to byly dcery.\n\nSlezsko byl jen začátek. Brzy se do války zatáhne půl Evropy. A hned za horami na jih od Slezska ležely Čechy. Praha nebyla daleko.",
+      "zh": "1740年10月，五十五岁的查理六世到匈牙利边境去打猎。天又冷又湿，回到维也纳城外的法沃里塔宫，他吃了一大盘蘑菇，就病倒了。10月20日，皇帝去世。据说伏尔泰后来说过：这一盘蘑菇，改变了欧洲的命运。\n\n他最后那几年，过得并不顺心。[[link:a-duchy-for-a-bride-1736]]欧根亲王[[/link]]走了，1737年，皇帝又和奥斯曼人开了战，打了三年，输得一塌糊涂，1739年议和，连贝尔格莱德也让了出去。军队打残了，国库也空了。\n\n按照[[link:an-emperor-collecting-signatures-1720]]国事诏书[[/link]]，他所有的领地，都传给了二十三岁的女儿玛丽亚·特蕾莎：奥地利大公、匈牙利女王、波希米亚女王。她是第一位执掌哈布斯堡家业的女性，也是第一位凭自己的血统、而不是靠丈夫继承波希米亚王冠的女子。\n\n只有一顶帽子，她戴不了。神圣罗马皇帝要由选帝侯来选，只能选男人。三百年来头一回，皇位空了出来，哈布斯堡家却没有一个男人能补上。\n\n她当时的处境，十年后她自己是这样回忆的：\n\n[[quote:0]]\n\n更要命的是，父亲收了一辈子的签名，人一死，就不值钱了。\n\n头一个跳出来的，是巴伐利亚选帝侯卡尔·阿尔布雷希特。他的妻子玛丽亚·阿玛利亚，是约瑟夫一世的小女儿，当年出嫁前签字放弃了继承权。如今丈夫说，那份放弃书不算数，又翻出斐迪南一世的一份旧遗嘱，说哈布斯堡的家业该归他。\n\n萨克森选帝侯打的也是同一个算盘：他的妻子，正是另一位签了字的堂姐玛丽亚·约瑟法。西班牙也来凑热闹。法国两年前才签字担保过诏书，如今也暗地里撑腰巴伐利亚。[[b]]两位堂姐出嫁前签下的放弃书，到了她们丈夫手里，成了最不值钱的废纸。[[/b]]\n\n最干脆的是普鲁士，它也是签过字的。新国王腓特烈二世二十八岁，即位才五个月。听到皇帝去世的消息，他给伏尔泰写信：\n\n[[quote:1]]\n\n他连六月都没等。1740年12月16日，腓特烈带着两万七千来人开进了西里西亚，连战都没宣。然后他给维也纳捎话：把西里西亚给我，我就帮你对付其他人。玛丽亚·特蕾莎一口回绝。\n\n那时她正怀着孕。她已经有了三个孩子，全是女儿。\n\n西里西亚只是个开头。很快，半个欧洲都会卷进来。而翻过西里西亚南边的山，就是波希米亚。布拉格离那里，并不算远。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "I found myself in this situation, without money, without credit, without army, without experience and knowledge of my own, and finally also without any counsel, because each of them at first wanted to wait and see which way things would go.",
+          "cz": "Ocitla jsem se v této situaci bez peněz, bez úvěru, bez armády, bez vlastní zkušenosti a znalostí a nakonec i bez jakékoli rady, protože každý z nich chtěl nejdřív počkat, jak se věci vyvinou.",
+          "zh": "我就落到了这样的境地：没有钱，没有信用，没有军队，自己既没有经验，也不懂行；到头来，连一个出主意的人都没有，因为每个人都想先等等，看风往哪边吹。"
+        },
+        "attribution": {
+          "en": "Maria Theresa, Political Testament, 1749/50 (translated)",
+          "cz": "Marie Terezie, Politická závěť, 1749/50 (v překladu)",
+          "zh": "玛丽亚·特蕾莎，《政治遗嘱》，1749—1750年（转译）"
+        }
+      },
+      {
+        "text": {
+          "en": "The emperor is dead. This death upsets all my peaceful ideas, and I believe that in June it will be a matter of gunpowder, soldiers and trenches rather than of actresses, ballets and theatres.",
+          "cz": "Císař je mrtev. Ta smrt mi rozvrací všechny mírumilovné plány a myslím, že v červnu půjde spíš o střelný prach, vojáky a zákopy než o herečky, balety a divadla.",
+          "zh": "皇帝死了。他这一死，把我所有和平的念头都打乱了。我想，到了六月，要操心的恐怕是火药、士兵和战壕，而不是女演员、芭蕾和戏院了。"
+        },
+        "attribution": {
+          "en": "Frederick II of Prussia to Voltaire, Rheinsberg, 26 October 1740 (translated)",
+          "cz": "Fridrich II. Pruský Voltairovi, Rheinsberg, 26. října 1740 (v překladu)",
+          "zh": "普鲁士国王腓特烈二世致伏尔泰，莱茵斯贝格，1740年10月26日（转译）"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "images": [
+      "/history/everyone-signed-1740.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Vienna, late 1740: in a palace room hung with black for Charles VI, the pregnant Maria Theresa sits in mourning at her desk, glaring at the envoys of Bavaria, Saxony and France, who stand with scissors and the seals they have cut off her father's Pragmatic Sanction. Beneath the late emperor's portrait stands a dish of mushrooms; through the window, Frederick II of Prussia raises his hat as his army marches through the snow.",
+        "cz": "Vídeň, konec roku 1740: v paláci zahaleném do černé za Karla VI. sedí těhotná Marie Terezie ve smutku u svého stolu a upřeně hledí na vyslance Bavorska, Saska a Francie, kteří stojí s nůžkami a s pečetěmi, jež si odstřihli z otcovy pragmatické sankce. Pod portrétem zesnulého císaře stojí mísa hub; za oknem smeká Fridrich II. Pruský klobouk, zatímco jeho vojsko táhne sněhem.",
+        "zh": "1740年末，维也纳：为查理六世挂满黑纱的宫殿里，怀着身孕的玛丽亚·特蕾莎穿着丧服坐在书桌前，瞪着巴伐利亚、萨克森和法国的使节；他们手里拿着剪刀，还有刚从她父亲的国事诏书上剪下来的自家印章。老皇帝的遗像下放着一盘蘑菇；窗外，普鲁士的腓特烈二世举帽致意，他的军队正踏雪行进。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession"
   },
 ];
 

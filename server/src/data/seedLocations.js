@@ -33665,6 +33665,38 @@ Sochy jsou dílem Ferdinanda Maxmiliána Brokoffa, který vytesal i některá z 
 🎁 彩蛋：看看圣沃伊捷赫。他手里除了主教权杖，还拿着一把船桨。布拉格有个都市传说，说是五十年代全国团体操大会上的划船队员恶作剧塞到他手里的，可1940年的一张照片上，船桨就已经在了。其实它本来就该在那儿：按照传说，沃伊捷赫就是被船桨打死的。`,
     },
   },
+  {
+    name: 'Kuks Hospital',
+    slug: 'hospital-kuks',
+    localizedNames: { cz: 'Hospital Kuks', zh: '库克斯医院' },
+    labels: ['baroque', 'sculpture', 'church', 'museum', 'outside'],
+    coordinates: { lat: 50.39734555340667, lng: 15.88933432221815 },
+    rarity: 'expedition',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Kuks',
+    description: {
+      en: `On a slope above the Elbe in East Bohemia stands a long Baroque building that everyone takes for a chateau. Visitors keep saying they have come to see "the castle". It is in fact a hospital for the poor, and the chateau they are thinking of stood across the river, together with an entire spa resort, until the river took most of it.
+
+All of it was the idea of Count Franz Anton Sporck, a rich and restless Baroque patron. In 1694 he had the springs on his estate tested, and the next year he began a spa on the left bank: baths, a chapel, and by 1710 a chateau as its centre. On the right bank, between 1707 and 1715, he built a hospital for a hundred poor people and old soldiers, with the Church of the Holy Trinity in the middle and the family crypt beneath it. The sculptor Matthias Braun and his workshop lined the terrace in front with allegories, the Virtues on one side and the Vices on the other, so that anyone strolling between two baths would have something to think about. The originals are now kept indoors, in the hospital's lapidarium; the figures standing outside are faithful copies.
+
+The spa barely outlived its founder. In 1740 a great flood swept away much of the valley, the empty chateau burned in 1896 and its ruins were pulled down in 1901; only its arcaded staircase is left. The hospital survived. From 1743 the Brothers of Mercy ran it and looked after old soldiers here until 1938. Today it is a museum with a Baroque pharmacy said to be the second oldest preserved in the world, and since 1995 a National Cultural Monument.
+
+🎁 Bonus: About two kilometres away, in the woods called the New Forest, Braun and his pupils carved figures straight into the sandstone boulders where they lay, between 1723 and 1733. The Nativity scene among them gave the place its name, Bethlehem. Much of it has weathered away, but the walk there is free, and a copy of its most famous figure, the bearded hermit St Onuphrius, once travelled all the way to the 1970 World Expo in Osaka.`,
+      cz: `Na svahu nad Labem ve východních Čechách stojí dlouhá barokní budova, kterou má každý za zámek. Návštěvníci tu pořád říkají, že jdou „na zámek“. Ve skutečnosti je to špitál pro chudé, a zámek, na který myslí, stál na druhém břehu řeky spolu s celými lázněmi, dokud z nich řeka většinu neodnesla.
+
+Celé to vymyslel hrabě František Antonín Špork, bohatý a neposedný barokní mecenáš. Roku 1694 si nechal prověřit prameny na svém panství a o rok později začal na levém břehu stavět lázně: koupele, kapli a do roku 1710 i zámek jako jejich střed. Na pravém břehu v letech 1707 až 1715 postavil špitál pro sto chudých a vysloužilých vojáků, uprostřed s kostelem Nejsvětější Trojice a rodovou hrobkou pod ním. Sochař Matyáš Bernard Braun a jeho dílna osadili terasu před ním alegoriemi, Ctnostmi na jedné straně a Neřestmi na druhé, aby se měl každý, kdo se procházel mezi dvěma koupelemi, nad čím zamyslet. Originály jsou dnes uložené uvnitř, v lapidáriu špitálu; venku stojí věrné kopie.
+
+Lázně svého zakladatele skoro nepřežily. Roku 1740 odnesla velká povodeň velkou část údolí, opuštěný zámek roku 1896 vyhořel a roku 1901 jeho zbytky zbořili; zůstalo z něj jen arkádové schodiště. Špitál přežil. Od roku 1743 ho spravovali milosrdní bratři a až do roku 1938 tu pečovali o staré vojáky. Dnes je v něm muzeum s barokní lékárnou, prý druhou nejstarší zachovanou na světě, a od roku 1995 je národní kulturní památkou.
+
+🎁 Bonus: Asi dva kilometry odtud, v lese zvaném Nový les, vytesali Braun a jeho žáci v letech 1723 až 1733 postavy přímo do pískovcových balvanů tam, kde ležely. Výjev Narození Páně mezi nimi dal místu jméno Betlém. Hodně z něj už zvětralo, ale procházka tam je zadarmo a kopie jeho nejslavnější postavy, vousatého poustevníka svatého Onufria, se kdysi podívala až na světovou výstavu Expo 1970 v japonské Ósace.`,
+      zh: `在东波希米亚，易北河畔的山坡上，立着一长排巴洛克建筑，谁见了都以为是座城堡。来参观的人总说自己是来“看城堡”的。其实这是一座济贫医院；他们心里想的那座城堡，原本在河对岸，和一整座温泉疗养地一起，后来大半被河水冲走了。
+
+这一切，都是弗朗蒂舍克·安东宁·施波克伯爵的主意。这位巴洛克时代的大赞助人钱多，点子也多。1694年，他请人检验了自家庄园里的泉水，第二年就在左岸盖起了温泉疗养地：浴场、小礼拜堂，到1710年又有了一座城堡当中心。1707年到1715年，他在右岸盖了一座医院，收留一百名穷人和老兵，正中是圣三一教堂，教堂底下是家族墓室。雕塑家布劳恩和他的工坊在医院前的平台上摆满了寓意雕像：一边是“美德”，一边是“恶行”，好让每个在两次泡澡之间出来散步的人，都有点东西可想。原作如今收在医院里的石雕陈列室，外面站着的是忠实的复制品。
+
+温泉疗养地几乎没比它的主人多活几年。1740年，一场大洪水冲毁了河谷里的大半建筑；没人住的城堡1896年烧了，1901年残垣被拆除，只剩下一道拱廊台阶。医院却留了下来。1743年起，仁爱兄弟会接管了它，一直到1938年，都在这里照顾年老的士兵。如今这里是一座博物馆，里面的巴洛克药房据说是世界上保存下来的第二古老的药房；1995年起，它是捷克的国家文化遗产。
+
+🎁 彩蛋：离这里大约两公里，在一片叫“新林”的树林里，布劳恩和他的学生们在1723年到1733年间，直接在原地的砂岩巨石上凿出了一组组人物。其中有一组耶稣诞生像，这片地方因此得名“伯利恒”。如今很多雕像已经风化了，但走过去不要门票；其中最有名的长胡子隐士圣奥努弗里乌斯，还有一尊复制品远渡重洋，去过1970年的大阪世博会。`,
+    },
+  },
 ];
 
 async function run() {
