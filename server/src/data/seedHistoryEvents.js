@@ -33669,9 +33669,9 @@ export const historyEvents = [
       "zh": "查理六世为女儿收了二十年的签名。他死后不到两个月，这些签名就差不多一文不值了。"
     },
     "summary": {
-      "en": "In October 1740 the fifty-five-year-old Charles VI went hunting on the Hungarian border. The weather was cold and wet, and back at the Favorita palace outside Vienna he fell ill after a large dish of mushrooms. He died on 20 October. Voltaire is supposed to have said that this pot of mushrooms changed the destiny of Europe.\n\nHis last years had not gone well. [[link:a-duchy-for-a-bride-1736]]Prince Eugene[[/link]] was gone, and in 1737 the emperor went to war with the Ottomans again. Three years later he had lost, and with the peace of 1739 he gave up Belgrade as well. The army was battered and the treasury was empty.\n\nUnder [[link:an-emperor-collecting-signatures-1720]]the Pragmatic Sanction[[/link]], all his lands now passed to his twenty-three-year-old daughter, Maria Theresa: archduchess of Austria, queen of Hungary and queen of Bohemia. She was the first woman ever to rule the Habsburg lands, and the first woman to hold the Bohemian crown by her own right of birth rather than through a husband.\n\nOne title she could not have. The Holy Roman Emperor was chosen by the electors, and only a man could be chosen. For the first time in three hundred years the imperial throne stood empty with no Habsburg on hand to fill it.\n\nA decade later she described where she had found herself:\n\n[[quote:0]]\n\nAnd the signatures her father had spent his life collecting turned out to be worth very little the moment he was dead.\n\nThe first to object was Charles Albert, elector of Bavaria. His wife was Maria Amalia, Joseph I's younger daughter, who had signed away her claim before her wedding. Now her husband said the renunciation did not count, dug out an old will of Ferdinand I's, and declared the Habsburg inheritance his.\n\nThe elector of Saxony made the same calculation: his wife was Maria Josepha, the other cousin who had signed. Spain joined in. France had guaranteed the Sanction only two years earlier; now it quietly backed Bavaria. [[b]]The two cousins' renunciations, signed before their weddings, were now the cheapest paper in their husbands' hands.[[/b]]\n\nThe bluntest of all was Prussia, which had also signed. Its new king, Frederick II, was twenty-eight and had been on the throne for five months. When he heard the emperor was dead, he wrote to Voltaire:\n\n[[quote:1]]\n\nHe did not even wait for June. On 16 December 1740 he marched into Silesia with some twenty-seven thousand men, without declaring war. Then he sent word to Vienna: give me Silesia, and I will help you against everyone else. Maria Theresa refused.\n\nShe was pregnant at the time. She already had three children. All of them were daughters.\n\nSilesia was only the start. Soon half of Europe would be drawn in. And just over the mountains south of Silesia lay Bohemia. Prague was not far away.",
-      "cz": "V říjnu 1740 si pětapadesátiletý Karel VI. vyjel na hon k uherským hranicím. Bylo chladno a mokro a po návratu do paláce Favorita u Vídně se mu po velké míse hub udělalo zle. Dvacátého října zemřel. Voltaire prý řekl, že tahle mísa hub změnila osud Evropy.\n\nJeho poslední léta se nevydařila. [[link:a-duchy-for-a-bride-1736]]Princ Evžen[[/link]] byl pryč a roku 1737 se císař znovu pustil do války s Osmany. Za tři roky prohrál a mírem z roku 1739 se vzdal i Bělehradu. Armáda byla zdecimovaná a pokladna prázdná.\n\nPodle [[link:an-emperor-collecting-signatures-1720]]pragmatické sankce[[/link]] teď všechny jeho země připadly třiadvacetileté dceři Marii Terezii: arcivévodkyni rakouské, královně uherské a královně české. Byla první ženou, která kdy vládla habsburským zemím, a první ženou, která držela českou korunu vlastním dědickým právem, a ne skrze manžela.\n\nJeden titul ale mít nemohla. Císaře Svaté říše římské volili kurfiřti a zvolit šlo jen muže. Poprvé po třech stech letech zůstal císařský trůn prázdný a žádný Habsburk, který by ho obsadil, nebyl po ruce.\n\nO deset let později popsala, v jaké situaci se tehdy ocitla:\n\n[[quote:0]]\n\nA podpisy, které její otec celý život sbíral, ztratily cenu ve chvíli, kdy zemřel.\n\nPrvní se ozval bavorský kurfiřt Karel Albrecht. Jeho žena Marie Amálie byla mladší dcera Josefa I., která se před svatbou podpisem vzdala nároků. Teď její muž prohlásil, že to zřeknutí neplatí, vytáhl starou závěť Ferdinanda I. a habsburské dědictví označil za své.\n\nSaský kurfiřt počítal stejně: jeho ženou byla Marie Josefa, druhá sestřenice, která podepsala. Přidalo se Španělsko. Francie sankci zaručila teprve před dvěma lety; teď potichu podporovala Bavorsko. [[b]]Zřeknutí obou sestřenic, podepsaná před svatbou, byla teď v rukou jejich manželů tím nejlacinějším papírem.[[/b]]\n\nNejpříměji si počínalo Prusko, které také podepsalo. Jeho nový král Fridrich II. měl osmadvacet let a vládl teprve pět měsíců. Když se dozvěděl, že císař zemřel, napsal Voltairovi:\n\n[[quote:1]]\n\nNa červen ani nečekal. Šestnáctého prosince 1740 vtrhl s nějakými sedmadvaceti tisíci muži do Slezska, bez vyhlášení války. Pak vzkázal do Vídně: dejte mi Slezsko a já vám pomůžu proti všem ostatním. Marie Terezie odmítla.\n\nByla tehdy těhotná. Měla už tři děti. Všechno to byly dcery.\n\nSlezsko byl jen začátek. Brzy se do války zatáhne půl Evropy. A hned za horami na jih od Slezska ležely Čechy. Praha nebyla daleko.",
-      "zh": "1740年10月，五十五岁的查理六世到匈牙利边境去打猎。天又冷又湿，回到维也纳城外的法沃里塔宫，他吃了一大盘蘑菇，就病倒了。10月20日，皇帝去世。据说伏尔泰后来说过：这一盘蘑菇，改变了欧洲的命运。\n\n他最后那几年，过得并不顺心。[[link:a-duchy-for-a-bride-1736]]欧根亲王[[/link]]走了，1737年，皇帝又和奥斯曼人开了战，打了三年，输得一塌糊涂，1739年议和，连贝尔格莱德也让了出去。军队打残了，国库也空了。\n\n按照[[link:an-emperor-collecting-signatures-1720]]国事诏书[[/link]]，他所有的领地，都传给了二十三岁的女儿玛丽亚·特蕾莎：奥地利大公、匈牙利女王、波希米亚女王。她是第一位执掌哈布斯堡家业的女性，也是第一位凭自己的血统、而不是靠丈夫继承波希米亚王冠的女子。\n\n只有一顶帽子，她戴不了。神圣罗马皇帝要由选帝侯来选，只能选男人。三百年来头一回，皇位空了出来，哈布斯堡家却没有一个男人能补上。\n\n她当时的处境，十年后她自己是这样回忆的：\n\n[[quote:0]]\n\n更要命的是，父亲收了一辈子的签名，人一死，就不值钱了。\n\n头一个跳出来的，是巴伐利亚选帝侯卡尔·阿尔布雷希特。他的妻子玛丽亚·阿玛利亚，是约瑟夫一世的小女儿，当年出嫁前签字放弃了继承权。如今丈夫说，那份放弃书不算数，又翻出斐迪南一世的一份旧遗嘱，说哈布斯堡的家业该归他。\n\n萨克森选帝侯打的也是同一个算盘：他的妻子，正是另一位签了字的堂姐玛丽亚·约瑟法。西班牙也来凑热闹。法国两年前才签字担保过诏书，如今也暗地里撑腰巴伐利亚。[[b]]两位堂姐出嫁前签下的放弃书，到了她们丈夫手里，成了最不值钱的废纸。[[/b]]\n\n最干脆的是普鲁士，它也是签过字的。新国王腓特烈二世二十八岁，即位才五个月。听到皇帝去世的消息，他给伏尔泰写信：\n\n[[quote:1]]\n\n他连六月都没等。1740年12月16日，腓特烈带着两万七千来人开进了西里西亚，连战都没宣。然后他给维也纳捎话：把西里西亚给我，我就帮你对付其他人。玛丽亚·特蕾莎一口回绝。\n\n那时她正怀着孕。她已经有了三个孩子，全是女儿。\n\n西里西亚只是个开头。很快，半个欧洲都会卷进来。而翻过西里西亚南边的山，就是波希米亚。布拉格离那里，并不算远。"
+      "en": "In October 1740 the fifty-five-year-old Charles VI went hunting on the Hungarian border. The weather was cold and wet, and back at the Favorita palace outside Vienna he fell ill after a large dish of mushrooms. He died on 20 October. Voltaire is supposed to have said that this pot of mushrooms changed the destiny of Europe.\n\nHis last years had not gone well. [[link:a-duchy-for-a-bride-1736]]Prince Eugene[[/link]] was gone, and in 1737 the emperor went to war with the Ottomans again. Three years later he had lost, and with the peace of 1739 he gave up Belgrade as well. The army was battered and the treasury was empty.\n\nUnder [[link:an-emperor-collecting-signatures-1720]]the Pragmatic Sanction[[/link]], all his lands now passed to his twenty-three-year-old daughter, Maria Theresa: archduchess of Austria, queen of Hungary and queen of Bohemia. She was the first woman ever to rule the Habsburg lands, and the first woman to hold the Bohemian crown by her own right of birth rather than through a husband.\n\nOne title she could not have. The Holy Roman Emperor was chosen by the electors, and only a man could be chosen. For the first time in three hundred years the imperial throne stood empty with no Habsburg on hand to fill it.\n\nA decade later she described where she had found herself:\n\n[[quote:0]]\n\nAnd the signatures her father had spent his life collecting turned out to be worth very little the moment he was dead.\n\nThe first to object was Charles Albert, elector of Bavaria. His wife was Maria Amalia, Joseph I's younger daughter, who had signed away her claim before her wedding. Now her husband said the renunciation did not count, dug out an old will of Ferdinand I's, and declared the Habsburg inheritance his.\n\nThe elector of Saxony made the same calculation: his wife was Maria Josepha, the other cousin who had signed. France had guaranteed the Sanction only two years earlier; now it quietly backed Bavaria. [[b]]The two cousins' renunciations, signed before their weddings, were now the cheapest paper in their husbands' hands.[[/b]]\n\nThe bluntest of all was Prussia, which had also signed. Its new king, Frederick II, was twenty-eight and had been on the throne for five months. When he heard the emperor was dead, he wrote to Voltaire:\n\n[[quote:1]]\n\nHe did not even wait for June. On 16 December 1740 he marched into Silesia with some twenty-seven thousand men, without declaring war. Then he sent word to Vienna: give me Silesia, and I will help you against everyone else. Maria Theresa refused.\n\nShe was pregnant at the time. She already had three children. All of them were daughters.\n\nSilesia was only the start. Soon half of Europe would be drawn in. And just over the mountains south of Silesia lay Bohemia. Prague was not far away.",
+      "cz": "V říjnu 1740 si pětapadesátiletý Karel VI. vyjel na hon k uherským hranicím. Bylo chladno a mokro a po návratu do paláce Favorita u Vídně se mu po velké míse hub udělalo zle. Dvacátého října zemřel. Voltaire prý řekl, že tahle mísa hub změnila osud Evropy.\n\nJeho poslední léta se nevydařila. [[link:a-duchy-for-a-bride-1736]]Princ Evžen[[/link]] byl pryč a roku 1737 se císař znovu pustil do války s Osmany. Za tři roky prohrál a mírem z roku 1739 se vzdal i Bělehradu. Armáda byla zdecimovaná a pokladna prázdná.\n\nPodle [[link:an-emperor-collecting-signatures-1720]]pragmatické sankce[[/link]] teď všechny jeho země připadly třiadvacetileté dceři Marii Terezii: arcivévodkyni rakouské, královně uherské a královně české. Byla první ženou, která kdy vládla habsburským zemím, a první ženou, která držela českou korunu vlastním dědickým právem, a ne skrze manžela.\n\nJeden titul ale mít nemohla. Císaře Svaté říše římské volili kurfiřti a zvolit šlo jen muže. Poprvé po třech stech letech zůstal císařský trůn prázdný a žádný Habsburk, který by ho obsadil, nebyl po ruce.\n\nO deset let později popsala, v jaké situaci se tehdy ocitla:\n\n[[quote:0]]\n\nA podpisy, které její otec celý život sbíral, ztratily cenu ve chvíli, kdy zemřel.\n\nPrvní se ozval bavorský kurfiřt Karel Albrecht. Jeho žena Marie Amálie byla mladší dcera Josefa I., která se před svatbou podpisem vzdala nároků. Teď její muž prohlásil, že to zřeknutí neplatí, vytáhl starou závěť Ferdinanda I. a habsburské dědictví označil za své.\n\nSaský kurfiřt počítal stejně: jeho ženou byla Marie Josefa, druhá sestřenice, která podepsala. Francie sankci zaručila teprve před dvěma lety; teď potichu podporovala Bavorsko. [[b]]Zřeknutí obou sestřenic, podepsaná před svatbou, byla teď v rukou jejich manželů tím nejlacinějším papírem.[[/b]]\n\nNejpříměji si počínalo Prusko, které také podepsalo. Jeho nový král Fridrich II. měl osmadvacet let a vládl teprve pět měsíců. Když se dozvěděl, že císař zemřel, napsal Voltairovi:\n\n[[quote:1]]\n\nNa červen ani nečekal. Šestnáctého prosince 1740 vtrhl s nějakými sedmadvaceti tisíci muži do Slezska, bez vyhlášení války. Pak vzkázal do Vídně: dejte mi Slezsko a já vám pomůžu proti všem ostatním. Marie Terezie odmítla.\n\nByla tehdy těhotná. Měla už tři děti. Všechno to byly dcery.\n\nSlezsko byl jen začátek. Brzy se do války zatáhne půl Evropy. A hned za horami na jih od Slezska ležely Čechy. Praha nebyla daleko.",
+      "zh": "1740年10月，五十五岁的查理六世到匈牙利边境去打猎。天又冷又湿，回到维也纳城外的法沃里塔宫，他吃了一大盘蘑菇，就病倒了。10月20日，皇帝去世。据说伏尔泰后来说过：这一盘蘑菇，改变了欧洲的命运。\n\n他最后那几年，过得并不顺心。[[link:a-duchy-for-a-bride-1736]]欧根亲王[[/link]]走了，1737年，皇帝又和奥斯曼人开了战，打了三年，输得一塌糊涂，1739年议和，连贝尔格莱德也让了出去。军队打残了，国库也空了。\n\n按照[[link:an-emperor-collecting-signatures-1720]]国事诏书[[/link]]，他所有的领地，都传给了二十三岁的女儿玛丽亚·特蕾莎：奥地利大公、匈牙利女王、波希米亚女王。她是第一位执掌哈布斯堡家业的女性，也是第一位凭自己的血统、而不是靠丈夫继承波希米亚王冠的女子。\n\n只有一顶帽子，她戴不了。神圣罗马皇帝要由选帝侯来选，只能选男人。三百年来头一回，皇位空了出来，哈布斯堡家却没有一个男人能补上。\n\n她当时的处境，十年后她自己是这样回忆的：\n\n[[quote:0]]\n\n更要命的是，父亲收了一辈子的签名，人一死，就不值钱了。\n\n头一个跳出来的，是巴伐利亚选帝侯卡尔·阿尔布雷希特。他的妻子玛丽亚·阿玛利亚，是约瑟夫一世的小女儿，当年出嫁前签字放弃了继承权。如今丈夫说，那份放弃书不算数，又翻出斐迪南一世的一份旧遗嘱，说哈布斯堡的家业该归他。\n\n萨克森选帝侯打的也是同一个算盘：他的妻子，正是另一位签了字的堂姐玛丽亚·约瑟法。法国两年前才签字担保过诏书，如今也暗地里撑腰巴伐利亚。[[b]]两位堂姐出嫁前签下的放弃书，到了她们丈夫手里，成了最不值钱的废纸。[[/b]]\n\n最干脆的是普鲁士，它也是签过字的。新国王腓特烈二世二十八岁，即位才五个月。听到皇帝去世的消息，他给伏尔泰写信：\n\n[[quote:1]]\n\n他连六月都没等。1740年12月16日，腓特烈带着两万七千来人开进了西里西亚，连战都没宣。然后他给维也纳捎话：把西里西亚给我，我就帮你对付其他人。玛丽亚·特蕾莎一口回绝。\n\n那时她正怀着孕。她已经有了三个孩子，全是女儿。\n\n西里西亚只是个开头。很快，半个欧洲都会卷进来。而翻过西里西亚南边的山，就是波希米亚。布拉格离那里，并不算远。"
     },
     "quotes": [
       {
@@ -33711,6 +33711,354 @@ export const historyEvents = [
       }
     ],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession"
+  },
+  // ===== Era 15: prague-under-siege (1740–1763) =====
+  // First event card: Dec 1740 – Nov 1741, ending with the allied armies
+  // before Prague (the storming of 25/26 Nov and Charles Albert's coronation
+  // are the next card, user's call). Joseph born 13 March 1741. Mollwitz
+  // 10 April 1741 (Schwerin urged Frederick to leave; Oppeln gate fired on by
+  // Austrian hussars, per Abbott, History of Frederick the Great, Gutenberg
+  // 56928). Quote 0: Frederick, Histoire de mon temps ("Mollwitz fut l'école
+  // du Roi et de ses troupes", Oeuvres, Trier edition; English as in Abbott).
+  // Quote 1: Maria Theresa's Latin address to the Hungarian diet, Pressburg,
+  // 11 Sept 1741, as traditionally rendered (Coxe/Mahan wording); the Joseph-
+  // in-her-arms scene is a later painting legend; the diet got its tax
+  // exemption confirmed. Klein-Schnellendorf verbal deal 9 Oct 1741. Prague:
+  // walls repaired since spring, O'Gilvy with 2,300 mostly raw recruits plus
+  // 5,317 burgher militia and student legion; Franco-Bavarians via České
+  // Budějovice and Písek camped at Zbraslav 17 Nov, a second corps via Beroun,
+  // Saxons at Tursko 17 Nov, Charles Albert arrived two days later; Francis
+  // Stephen's army near Poříčí nad Sázavou (VHÚ, "Vzhůru ku Praze" exhibition
+  // page). Rutowski and Maurice de Saxe were both sons of Augustus the Strong.
+  {
+    "slug": "fire-on-every-side-1741",
+    "era": "prague-under-siege",
+    "startYear": 1741,
+    "tone": "humorous",
+    "year": {
+      "en": "1741",
+      "cz": "1741",
+      "zh": "1741年"
+    },
+    "title": {
+      "en": "Fire on Every Side",
+      "cz": "Oheň ze všech stran",
+      "zh": "烽烟四起"
+    },
+    "hookLine": {
+      "en": "Frederick won in Silesia almost by accident. It was enough to show half of Europe that Austria could be beaten.",
+      "cz": "Fridrich ve Slezsku vyhrál skoro omylem. Stačilo to, aby půlka Evropy viděla, že se Rakousko dá porazit.",
+      "zh": "腓特烈在西里西亚稀里糊涂地打了个胜仗，却让半个欧洲都看出来：奥地利是打得败的。"
+    },
+    "summary": {
+      "en": "Frederick had bet that the young queen would give way. She did not. Over the winter Austria scraped an army together, and on 13 March 1741 Maria Theresa at last gave birth to a son, Joseph.\n\nSilesia was no far-off province: it had belonged to [[link:the-border-that-stuck-1335]]the Bohemian crown[[/link]] for four hundred years. On 10 April 1741 the two armies met in the snow at Mollwitz. The Austrian cavalry swept the Prussian horse off the field, and Field Marshal Schwerin persuaded the king to leave while he still could; Frederick rode off into the dusk, and at Oppeln Austrian hussars fired at him through the town gate. But the Prussian infantry had been drilled for twenty years by his father, the \"Soldier King\", and loaded with iron ramrods while the Austrians still used wooden ones. They held their lines and fired faster than the enemy could answer, and when Schwerin led them forward, the Austrians gave way. The king heard the next morning that he had won. Years later he wrote:\n\n[[quote:0]]\n\nIt was not a big battle, but it showed something. [[b]]Austria could be beaten, and everyone who had signed the Pragmatic Sanction began to do sums.[[/b]]\n\nMany of them had done the sums long before. France had been fighting the Habsburgs for two hundred years; in [[link:cardinal-against-cardinal-1636]]the Thirty Years' War[[/link]] it had even sided with the Protestants against the emperor. Spain had had a Bourbon king, a grandson of Louis XIV, since [[link:what-was-the-spanish-succession-war-1701]]1700[[/link]], and in 1714 most of its lands in Italy and the Netherlands had gone to Vienna; Queen Elisabeth Farnese wanted Italian duchies for her younger sons. Bavaria wanted the imperial crown. Saxony wanted a corridor of land between itself and its Polish kingdom. Prussia's territories were scattered across the map, and it needed a solid piece.\n\nThe Habsburg inheritance itself had been put together [[link:an-emperor-collecting-signatures-1720]]by marriage[[/link]], generation after generation: Austria, Bohemia, Hungary and scattered lands in the Netherlands and Italy, each with its own diet and its own rules. On paper the army numbered over 150,000; far fewer could actually take the field. It looked enormous and was hollow inside. [[b]]The dispute over the will was only a pretext; what everyone was waiting for was the chance to carve up the estate.[[/b]]\n\nNot everyone was in a hurry. France's chief minister, Cardinal Fleury, was nearly ninety and did not want a war. But the war party at court won out, led by Marshal Belle-Isle, who went from court to court, and by autumn the coalition stood: France, Bavaria, Saxony, Spain and Prussia. On paper the Habsburg lands were already shared out. Bavaria would get Bohemia, Upper Austria and the imperial crown; Saxony would get Moravia; Prussia would keep Silesia.\n\nSo the queen went to the Hungarians. On 11 September, in mourning, she stood before their diet in Pressburg castle and spoke to them in Latin:\n\n[[quote:1]]\n\nThe nobles answered with a shout: their lives and blood for their \"king\". The picture of her holding up the baby Joseph was painted later, and the nobles had their tax exemption confirmed first. But the troops came.\n\nThey would be needed. By then Charles Albert of Bavaria and a French army were already coming down the Danube, toward Vienna.",
+      "cz": "Fridrich vsadil na to, že mladá královna ustoupí. Neustoupila. Rakousko přes zimu dalo dohromady vojsko a 13. března 1741 porodila Marie Terezie konečně syna Josefa.\n\nSlezsko nebylo nějaká vzdálená provincie: patřilo k [[link:the-border-that-stuck-1335]]české koruně[[/link]] už čtyři sta let. Desátého dubna 1741 se obě vojska střetla ve sněhu u Molvic. Rakouská jízda smetla pruské jezdce z bojiště a polní maršál Schwerin krále přemluvil, ať odjede, dokud je čas; Fridrich odcválal do soumraku a u Opolí po něm rakouští husaři stříleli skrz městskou bránu. Pruskou pěchotu ale dvacet let drilloval jeho otec, „vojácký král“, a nabíjela železnými nabijáky, zatímco Rakušané měli ještě dřevěné. Pěšáci udrželi řady, stříleli rychleji, než jim nepřítel stačil odpovídat, a když je Schwerin vedl vpřed, Rakušané ustoupili. Král se o vítězství dozvěděl až druhý den ráno. O léta později napsal:\n\n[[quote:0]]\n\nVelká bitva to nebyla, ale něco ukázala. [[b]]Rakousko se dalo porazit, a všichni, kdo podepsali pragmatickou sankci, začali počítat.[[/b]]\n\nMnozí z nich ale počítali už dávno. Francie bojovala s Habsburky dvě stě let; za [[link:cardinal-against-cardinal-1636]]třicetileté války[[/link]] se proti císaři postavila dokonce na stranu protestantů. Španělsko mělo od roku [[link:what-was-the-spanish-succession-war-1701]]1700[[/link]] bourbonského krále, vnuka Ludvíka XIV., a roku 1714 připadla většina jeho zemí v Itálii a Nizozemí Vídni; královna Alžběta Farnese chtěla pro své mladší syny italská vévodství. Bavorsko chtělo císařskou korunu. Sasko chtělo pás země mezi sebou a svým polským královstvím. Pruské državy byly rozházené po mapě a Prusko potřebovalo souvislý kus.\n\nSamo habsburské dědictví se skládalo [[link:an-emperor-collecting-signatures-1720]]sňatky[[/link]], generaci po generaci: Rakousko, Čechy, Uhry a roztroušené země v Nizozemí a v Itálii, každá s vlastním sněmem a vlastními pořádky. Na papíře mělo vojsko přes 150 000 mužů; do pole jich mohlo vytáhnout mnohem méně. Navenek to byl obr, uvnitř dutý. [[b]]Spor o dědictví byl jen záminkou; všichni čekali na příležitost rozdělit si pozůstalost.[[/b]]\n\nNe každý ovšem spěchal. Francouzský první ministr, kardinál Fleury, bylo mu skoro devadesát, válku nechtěl. U dvora ale převážila válečná strana v čele s maršálem Belle-Islem, který objížděl dvůr za dvorem, a na podzim koalice stála: Francie, Bavorsko, Sasko, Španělsko a Prusko. Na papíře už byly habsburské země rozdělené. Bavorsko dostane Čechy, Horní Rakousy a císařskou korunu, Sasko Moravu, Prusko si nechá Slezsko.\n\nKrálovna se tedy obrátila na Uhry. Jedenáctého září předstoupila ve smutečním šatu před jejich sněm na bratislavském hradě a promluvila k nim latinsky:\n\n[[quote:1]]\n\nŠlechtici odpověděli výkřikem: život a krev za svého „krále“. Obraz, na kterém zvedá malého Josefa, vznikl až později, a páni si napřed nechali potvrdit osvobození od daní. Vojáci ale přišli.\n\nBudou potřeba. Karel Albrecht Bavorský s francouzským vojskem už tou dobou táhl po Dunaji k Vídni.",
+      "zh": "腓特烈原本赌的是，年轻的女王会让步。她没有。奥地利熬过一个冬天，凑出了一支军队；1741年3月13日，玛丽亚·特蕾莎终于生下了一个儿子，约瑟夫。\n\n西里西亚可不是什么远方的边地，它归属[[link:the-border-that-stuck-1335]]波希米亚王冠[[/link]]已经四百年了。1741年4月10日，两军在莫尔维茨的雪地里相遇。奥地利骑兵把普鲁士骑兵冲得七零八落，什未林元帅劝国王趁早离开；腓特烈骑马消失在暮色里，到了奥波莱，还被城门后的奥地利骠骑兵开枪赶走。可普鲁士步兵是他父亲“士兵王”操练了二十年的兵，用的是铁通条，奥地利人还在用木头的。他们稳住阵脚，放枪比对面快得多，什未林领着他们往前一压，奥地利人就退了。国王第二天早上才知道自己打赢了。多年以后，他写道：\n\n[[quote:0]]\n\n仗不算大，说明的问题却不小。[[b]]奥地利是打得败的，于是，所有在国事诏书上签过字的人，都开始打起了算盘。[[/b]]\n\n其实，这笔账不少人早就算过了。法国和哈布斯堡家斗了两百年，[[link:cardinal-against-cardinal-1636]]三十年战争[[/link]]里甚至站到新教一边去打皇帝。西班牙从[[link:what-was-the-spanish-succession-war-1701]]1700年[[/link]]起由路易十四的孙子当国王，成了波旁家的另一支；1714年，它在意大利和尼德兰的领地大多归了维也纳，王后伊丽莎白·法尔内塞一心想给几个小儿子在意大利各挣一块公国。巴伐利亚想要皇冠。萨克森想在本国和它的波兰王国之间打通一条走廊。普鲁士的领土东一块西一块，正缺一块整的。\n\n而哈布斯堡家的江山，是[[link:an-emperor-collecting-signatures-1720]]靠一代代联姻[[/link]]拼起来的：奥地利、波希米亚、匈牙利，再加上尼德兰和意大利零零散散的领地，各有各的议会，各有各的规矩。纸面上有十五万多大军，真能拉上战场的远没有这么多。看上去家大业大，其实外强中干。[[b]]遗嘱的官司只是个借口，大家等的，是一个瓜分家产的机会。[[/b]]\n\n当然，也不是人人都急着动手。法国的首席大臣弗勒里枢机主教年近九旬，不想打仗。可宫廷里的主战派占了上风，领头的是贝勒-伊勒元帅。他一个宫廷接一个宫廷地跑，到秋天，同盟凑齐了：法国、巴伐利亚、萨克森、西班牙、普鲁士。纸面上，哈布斯堡的家业已经分好了：巴伐利亚拿波希米亚、上奥地利和皇冠，萨克森拿摩拉维亚，普鲁士留着西里西亚。\n\n女王只好去找匈牙利人。9月11日，她一身丧服，站在普雷斯堡城堡的议会面前，用拉丁语说：\n\n[[quote:1]]\n\n贵族们齐声高呼：愿为我们的“国王”献出生命和鲜血。她高举婴儿约瑟夫的那一幕，是后来画出来的；贵族们也先让她确认了自己的免税特权。不过，兵是真的来了。\n\n这些兵很快就要派上用场了。这时，巴伐利亚的卡尔·阿尔布雷希特已经带着法军，顺着多瑙河朝维也纳杀来。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "The contest between General Neipperg and myself seemed to be which should commit the most faults. Mollwitz was the school of the king and his troops. That prince reflected profoundly upon all the faults and errors he had fallen into, and tried to correct them for the future.",
+          "cz": "Zdálo se, že generál Neipperg a já soupeříme o to, kdo nadělá víc chyb. Molvice byly školou krále i jeho vojska. Ten panovník hluboce přemýšlel o všech chybách a omylech, jichž se dopustil, a snažil se je napříště napravit.",
+          "zh": "我和奈佩格将军之间，像是在比谁犯的错更多。莫尔维茨是国王和他的军队的学校。这位君主把自己犯过的种种错误都仔细反省了一遍，努力在以后改正。"
+        },
+        "attribution": {
+          "en": "Frederick II of Prussia, History of My Own Times (translated)",
+          "cz": "Fridrich II. Pruský, Dějiny mé doby (v překladu)",
+          "zh": "普鲁士国王腓特烈二世，《我的时代史》（转译）"
+        }
+      },
+      {
+        "text": {
+          "en": "The very existence of the kingdom of Hungary, of our own person, of our children and of our crown is now at stake. Forsaken by all, our sole resource is the fidelity, arms and long-tried valour of the Hungarians.",
+          "cz": "Jde nyní o samu existenci Uherského království, o naši osobu, o naše děti i o naši korunu. Opuštěni všemi spoléháme jedině na věrnost, zbraně a dávno osvědčenou statečnost Uhrů.",
+          "zh": "匈牙利王国的存亡，我本人、我的孩子和我的王冠的存亡，如今都系于此刻。我已被所有人抛弃，唯一能依靠的，就是匈牙利人的忠诚、武器和久经考验的勇气。"
+        },
+        "attribution": {
+          "en": "Maria Theresa to the Hungarian diet, Pressburg, 11 September 1741, as traditionally recorded (translated from the Latin)",
+          "cz": "Marie Terezie k uherskému sněmu, Prešpurk, 11. září 1741, v tradovaném znění (přeloženo z latiny)",
+          "zh": "玛丽亚·特蕾莎对匈牙利议会的讲话，普雷斯堡，1741年9月11日，据流传的文本（译自拉丁语）"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "images": [
+      "/history/fire-on-every-side-1741.webp",
+      "/history/fire-on-every-side-1741-2.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Mollwitz, 10 April 1741: Frederick II sits on his white horse on a snowy rise, watching his cavalry being scattered by the Austrians; further off his infantry fires in a long line, and Field Marshal Schwerin raises his sword before it on a brown horse. Soon afterwards the king was persuaded to leave the field.",
+        "cz": "Molvice, 10. dubna 1741: Fridrich II. sedí na bílém koni na zasněženém pahorku a dívá se, jak Rakušané rozprášili jeho jízdu; o kus dál pálí jeho pěchota v dlouhé řadě a polní maršál Schwerin před ní na hnědém koni zvedá kord. Krátce nato krále přemluvili, aby bojiště opustil.",
+        "zh": "1741年4月10日，莫尔维茨：腓特烈二世立马在雪坡上，望着普鲁士骑兵被奥地利人冲散；远处，他的步兵排成一线开火，什未林元帅骑着枣红马在阵前举剑。不久，国王就被劝离了战场。"
+      },
+      {
+        "en": "An allegory: in a French salon, the envoys of the powers help themselves to a great cake iced with the Habsburg double-headed eagle. Marshal Belle-Isle serves it out like a head waiter while old Cardinal Fleury tugs at his coat to stop him; the Spaniard stretches for the far end of the cake, the Saxon cuts himself a long thin strip, and Frederick II, boots up on a chair, is already eating his piece. On the wall, Maria Theresa's portrait glares down at them.",
+        "cz": "Alegorie: ve francouzském salonu si vyslanci mocností berou z velkého dortu zdobeného habsburskou dvouhlavou orlicí. Maršál Belle-Isle ho rozděluje jako vrchní číšník, zatímco starý kardinál Fleury ho tahá za kabát, aby ho zastavil; Španěl se natahuje pro vzdálený konec dortu, Sas si ukrajuje dlouhý tenký pruh a Fridrich II. s nohama na židli už ten svůj kus jí. Ze zdi na ně zlostně shlíží portrét Marie Terezie.",
+        "zh": "寓意画：一间法式客厅里，各国代表围着一个画着哈布斯堡双头鹰的大蛋糕各取一块。法国元帅贝勒-伊勒像领班一样分蛋糕，年迈的弗勒里枢机主教拽着他的衣角想拦，西班牙人伸长了手去够蛋糕最远的一头，萨克森人细细切下一长条，腓特烈二世早已翘着脚吃上了自己那块；墙上，玛丽亚·特蕾莎的肖像怒目而视。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_Mollwitz"
+  },
+  // Second card of era 15, split from fire-on-every-side-1741 at the user's
+  // call (2026-11-01): Sept-Nov 1741, Linz to the allies before Prague.
+  // Quote: Frederick II, Histoire de mon temps, 1746 draft, ch. IV (ed. Posner
+  // 1879, archive.org histoiredemontem00fred, p. 241): "il semblait que toutes
+  // les armees se fussent donne le rendez-vous en Boheme ... Cette faute
+  // capitale ..." (OCR "aux An)" read as "aux abois"). Klein-Schnellendorf,
+  // Prague garrison and arrival dates as in the comment above the previous card.
+  {
+    "slug": "all-roads-to-prague-1741",
+    "era": "prague-under-siege",
+    "startYear": 1741.8,
+    "tone": "humorous",
+    "year": {
+      "en": "1741",
+      "cz": "1741",
+      "zh": "1741年"
+    },
+    "title": {
+      "en": "All Roads Lead to Prague",
+      "cz": "Všechny cesty vedou do Prahy",
+      "zh": "条条大路通布拉格"
+    },
+    "hookLine": {
+      "en": "Vienna was two days away and nearly defenceless. The elector of Bavaria turned his army toward Prague instead.",
+      "cz": "Vídeň byla dva dny pochodu daleko a skoro bez obrany. Bavorský kurfiřt přesto obrátil vojsko k Praze.",
+      "zh": "维也纳近在咫尺，几乎无兵可守。巴伐利亚选帝侯却调转马头，奔布拉格而去。"
+    },
+    "summary": {
+      "en": "In September 1741 Charles Albert of Bavaria and his French army took Linz. Vienna was only two days' march away, with hardly any troops left to defend it. Then he turned north, to Bohemia.\n\nWhy leave Vienna standing and go for Bohemia? Spread out a map of Europe and the answer is plain. Bohemia lies between Austria and Silesia, which Prussia had already taken, and Saxony is just over its northern mountains. Take it, and the allies would join up into one front, and Vienna would be cut off from the north. So Bohemia naturally became the place every army was heading for. And not just this time: over the next hundred years and more, Austria and Prussia would meet here in battle again and again.\n\nThe French, too, wanted it that way, and if Charles Albert did not take Prague, the Saxons might take it first. Not everyone thought it wise. Frederick, watching from Silesia, called it a blunder. Years later he wrote:\n\n[[quote:0]]\n\nFrederick was hardly a neutral judge. On 9 October, at the castle of Klein-Schnellendorf, he had quietly agreed with the Austrians that for the rest of the year he would only pretend to fight. Nothing was put on paper. The Austrian army in Silesia was free to march to Bohemia, and Francis Stephen took command.\n\nPrague had been mending its walls since spring. Its commander, Count Ogilvy, had 2,300 soldiers, most of them raw recruits. Some five thousand burghers and students made up the rest, as their forebears had [[link:holding-the-bridge-1648]]in 1648[[/link]].\n\nIn November the armies came from every side. The French and Bavarians marched up through České Budějovice and Písek and on 17 November camped at Zbraslav, just upriver from the city; a second column came by way of Beroun. That same day the Saxons reached Tursko, north of Prague. Their commander, Count Rutowski, and the best general in the French camp, Maurice de Saxe, were half-brothers, two of the many sons of Augustus the Strong. Two days later Charles Albert himself arrived.\n\nOgilvy was called on to surrender and took no notice. Behind the besiegers, Francis Stephen's army was hurrying up from the Sázava. [[b]]In front of the allies stood Prague's walls, behind them a relief army, and there was no time for a proper siege.[[/b]]",
+      "cz": "V září 1741 obsadil Karel Albrecht Bavorský se svým francouzským vojskem Linec. Do Vídně to byly jen dva dny pochodu a bránit ji nemělo skoro kdo. Pak ale zahnul na sever, do Čech.\n\nProč nechat Vídeň být a táhnout do Čech? Stačí rozložit mapu Evropy a odpověď je nasnadě. Čechy leží mezi Rakouskem a Slezskem, které už zabralo Prusko, a hned za jejich severními horami začíná Sasko. Kdo je vezme, spojí spojence v jednu frontu a odřízne Vídeň od severu. A tak se Čechy samozřejmě staly místem, kam mířila všechna vojska. A nejen tentokrát: v příštích sto letech a víc se tu Rakousko s Pruskem utká znovu a znovu.\n\nFrancouzi to tak chtěli taky, a kdyby Prahu nevzal Karel Albrecht, mohli ho předběhnout Sasové. Ne každý to ale považoval za moudré. Fridrich, který to sledoval ze Slezska, v tom viděl chybu. O léta později napsal:\n\n[[quote:0]]\n\nFridrich ovšem nebyl nestranný soudce. Devátého října se na zámku Klein-Schnellendorf s Rakušany potichu dohodl, že do konce roku bude bojovat jen naoko. Na papír se nic nedalo. Rakouské vojsko ze Slezska mohlo vyrazit do Čech a velení převzal František Štěpán.\n\nPraha opravovala hradby už od jara. Její velitel hrabě Ogilvy měl 2 300 vojáků, většinou nevycvičených rekrutů. Zbytek tvořilo nějakých pět tisíc měšťanů a studentů, jako kdysi jejich předchůdci [[link:holding-the-bridge-1648]]v roce 1648[[/link]].\n\nV listopadu přitáhla vojska ze všech stran. Francouzi s Bavory šli přes České Budějovice a Písek a 17. listopadu se utábořili u Zbraslavi, kousek proti proudu od města; druhý sbor přišel přes Beroun. Téhož dne dorazili Sasové k Tursku, severně od Prahy. Jejich velitel hrabě Rutowski a nejlepší generál ve francouzském táboře Mořic Saský byli nevlastní bratři, dva z mnoha synů Augusta Silného. O dva dny později přijel sám Karel Albrecht.\n\nVýzvu ke kapitulaci Ogilvy přešel bez povšimnutí. Za zády obléhatelů zatím spěchalo od Sázavy vojsko Františka Štěpána. [[b]]Před spojenci stály pražské hradby, za nimi armáda na pomoc městu, a na řádné obléhání nebyl čas.[[/b]]",
+      "zh": "1741年9月，巴伐利亚的卡尔·阿尔布雷希特带着法军拿下了林茨。离维也纳只剩两天的路，城里几乎没兵可守。可他却掉头向北，去了波希米亚。\n\n放着近在眼前的维也纳不打，为什么要去波希米亚？摊开欧洲地图就明白了：波希米亚夹在奥地利和西里西亚之间，而西里西亚已经落进了普鲁士手里，北边翻过山就是萨克森。拿下它，联军就能连成一片，维也纳和北边的联系也被切断了。于是，波希米亚理所当然地成了各路大军的必争之地。不只是这一回：往后的一百多年里，奥地利和普鲁士还会一次又一次在这里交手。\n\n法国人也想要卡尔·阿尔布雷希特这么走；何况他要是不去拿布拉格，萨克森人可能就先拿了。不过，并不是人人都觉得这步棋走得高明。在西里西亚冷眼旁观的腓特烈，就认为这是个大错。多年以后，他写道：\n\n[[quote:0]]\n\n不过，腓特烈这个裁判可算不上公道。10月9日，在小施内伦多夫城堡，他刚和奥地利人悄悄说定：今年剩下的日子，他只装装样子打仗。什么都没写在纸上。西里西亚的奥地利军队腾出手来，开往波希米亚，由弗朗茨·斯特凡统领。\n\n布拉格从春天起就在修城墙。守城的奥吉尔维伯爵手下只有两千三百名士兵，大多是刚招来的新兵；剩下的五千来人，是市民和学生，就像[[link:holding-the-bridge-1648]]1648年[[/link]]他们的前辈那样。\n\n11月，各路大军从四面八方开来。法军和巴伐利亚军经捷克布杰约维采、皮塞克北上，11月17日在城南不远的兹布拉斯拉夫扎营；另一路经贝隆而来。同一天，萨克森军到了布拉格以北的图尔斯科。萨克森军的统帅鲁托夫斯基伯爵，和法军里最能打的将领萨克森的莫里斯，是同父异母的兄弟，都是“强力王”奥古斯特众多儿子中的两个。两天后，卡尔·阿尔布雷希特本人也到了。\n\n联军要求开城投降，奥吉尔维没有理会。联军背后，弗朗茨·斯特凡的军队正从萨扎瓦河一带赶来。[[b]]前面是布拉格的城墙，后面是赶来解围的大军，联军没有时间慢慢围城了。[[/b]]"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "While all these negotiations went on, the war had changed its ground: it seemed as if all the armies had arranged to meet in Bohemia. The Elector of Bavaria had been two marches from Vienna; had he advanced, he would have stood at the gates of that capital, which, stripped of troops, would have surrendered without much resistance. The Elector feared that the Saxons would keep Bohemia once they had conquered it, and he turned away from Vienna, which was at its last gasp, to invade Bohemia. This capital mistake was the cause of all the misfortunes that later fell upon the house of Bavaria.",
+          "cz": "Zatímco se vedla všechna ta jednání, válka změnila dějiště: zdálo se, jako by si všechna vojska dala dostaveníčko v Čechách. Bavorský kurfiřt byl dva pochody od Vídně; kdyby postoupil dál, stál by před branami hlavního města, které by se bez vojska vzdalo bez většího odporu. Kurfiřt se ale bál, že by si Sasové Čechy po dobytí nechali, a tak se obrátil zády k Vídni, která byla v koncích, a vtrhl do Čech. Tahle zásadní chyba byla příčinou všech neštěstí, která později postihla bavorský rod.",
+          "zh": "就在这些谈判进行的时候，战争换了地方：看起来，所有的军队好像约好了在波希米亚碰头。巴伐利亚选帝侯离维也纳只有两天的行程，再往前走，就到了这座都城的门口；城里没有守军，用不着怎么抵抗就会投降。可选帝侯担心萨克森人打下波希米亚以后就赖着不走，于是他丢下已经奄奄一息的维也纳，转头去打波希米亚。这个致命的错误，是后来降临到巴伐利亚家族头上的一切不幸的根源。"
+        },
+        "attribution": {
+          "en": "Frederick II of Prussia, History of My Own Times, 1746 draft (translated)",
+          "cz": "Fridrich II. Pruský, Dějiny mé doby, verze z roku 1746 (v překladu)",
+          "zh": "普鲁士国王腓特烈二世，《我的时代史》1746年稿（转译）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "marianske-hradby-rosickych",
+        "relation": {
+          "en": "Part of the Baroque walls Prague had been patching since the spring of 1741",
+          "cz": "Část barokních hradeb, které Praha od jara 1741 spravovala",
+          "zh": "布拉格从1741年春天起赶修的巴洛克城墙的一段"
+        }
+      },
+      {
+        "slug": "zbraslavsky-zamek",
+        "relation": {
+          "en": "The French and Bavarians camped at Zbraslav on 17 November 1741",
+          "cz": "U Zbraslavi se 17. listopadu 1741 utábořili Francouzi a Bavoři",
+          "zh": "1741年11月17日，法军和巴伐利亚军在兹布拉斯拉夫扎营"
+        }
+      },
+      {
+        "slug": "ceske-budejovice",
+        "relation": {
+          "en": "The Franco-Bavarian army's road to Prague ran through here",
+          "cz": "Tudy vedla cesta francouzsko-bavorského vojska k Praze",
+          "zh": "法巴联军去布拉格的路经过这里"
+        }
+      },
+      {
+        "slug": "pisek",
+        "relation": {
+          "en": "The next stop on the march north to Prague",
+          "cz": "Další zastávka na pochodu na sever k Praze",
+          "zh": "北上布拉格途中的下一站"
+        }
+      },
+      {
+        "slug": "beroun",
+        "relation": {
+          "en": "A second Franco-Bavarian column reached Prague by way of Beroun",
+          "cz": "Druhý francouzsko-bavorský sbor dorazil k Praze přes Beroun",
+          "zh": "法巴联军的另一路经贝隆开到布拉格"
+        }
+      }
+    ],
+    "images": [
+      "/history/all-roads-to-prague-1741.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Bohemia, November 1741: French, Bavarian and Saxon columns pour along the muddy roads toward Prague, a grey outline in the mist on the horizon, past burning farms. Far off on a ridge to the right, a small group of Prussian horsemen sits still and watches.",
+        "cz": "Čechy, listopad 1741: francouzské, bavorské a saské kolony se valí po rozbahněných cestách kolem hořících statků k Praze, šedé siluetě v mlze na obzoru. Daleko vpravo na hřebeni stojí nehnutě hlouček pruských jezdců a přihlíží.",
+        "zh": "1741年11月，波希米亚：法国、巴伐利亚和萨克森的纵队踏着泥泞的大路，经过燃烧的农庄，涌向地平线上雾中灰蒙蒙的布拉格。右边远处的山脊上，一小队普鲁士骑兵勒马不动，在一旁观望。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Charles_VII,_Holy_Roman_Emperor"
+  },
+  // Third card of era 15: the night of 25/26 Nov 1741 and the first day.
+  // Sources: V. J., "Okupace Prahy za valky o rakouske dedictvi z pohledu
+  // neurednich pisemnych pramenu" (Charles University BA thesis, 2018,
+  // dspace.cuni.cz handle 20.500.11956/103274), which compares Felir's annals
+  // (ed. pp. 174-200), Paroubek's memoirs (ed. Trebizsky, p. 241f.), the
+  // Pameti prazske (ed. Teige, pp. 5-7) and Loth (ed. Kovar 1906, p. 63).
+  // Quote texts as cited there. Felir's 4th notebook was later revised in
+  // Austria's favour. Chevert/Pascal is the French anecdote (militaria.cz,
+  // Krizek 2007); ransom, three gates left open and Maurice's cavalry at the
+  // New Gate also from Krizek. The Bohemian crown had been taken out of Prague
+  // before the occupation (thesis, citing Hlavacka): pay off next card.
+  {
+    "slug": "taken-in-a-night-1741",
+    "era": "prague-under-siege",
+    "startYear": 1741.9,
+    "tone": "humorous",
+    "year": {
+      "en": "1741",
+      "cz": "1741",
+      "zh": "1741年"
+    },
+    "title": {
+      "en": "Taken in a Night",
+      "cz": "Dobyta za jedinou noc",
+      "zh": "一夜易手"
+    },
+    "hookLine": {
+      "en": "Prague spent two months getting ready for a siege. It was over before dawn.",
+      "cz": "Praha se dva měsíce chystala na obléhání. Do svítání bylo po všem.",
+      "zh": "布拉格为守城准备了两个月，结果天还没亮，一切就结束了。"
+    },
+    "summary": {
+      "en": "From mid-September the royal governors had ordered everyone in Prague to help with the walls. In early November the gates were shut, all but three of them bricked up, and the burghers took their places on the ramparts. The Old Town burgher František Václav Felíř wrote in his annals:\n\n[[quote:0]]\n\nOn 14 November the first Bavarian horsemen appeared on White Mountain. Soon afterwards two envoys were led blindfold to Count Ogilvy. They were very polite and asked only to be let through the city. Ogilvy refused: he had his orders, and he meant to stay loyal to his queen. Twice more they came, now asking for the city itself, and twice more he said no. Charles Albert waited in the monastery at Zbraslav. On 25 November he ordered the assault.\n\nIt began soon after midnight. Guns opened up on the Strahov Gate in the west, a feint, and cannonballs flew as far as the Old Town, landing at the Crusaders' monastery by Charles Bridge and at St Anne's. In the north the Saxons stormed the gate below Hradčany. Another Saxon column simply waded into the New Town along the river by the mills: the Vltava was unusually low that autumn.\n\nThe real blow fell in the east, at the New Gate. French grenadiers climbed the wall on ladders taken from the gallows, which, Felíř noted with some satisfaction, \"served to their greater shame\". The French later told how Colonel Chevert had briefed the sergeant who went up first: the sentry will call out, you will not answer, he will fire and miss, and you will kill him.\n\nThe New Gate was held by Old Town burghers, not soldiers. A parish priest north of the city grumbled that they had \"eaten and drunk and cared nothing for the defence\". The gate was opened and Maurice de Saxe's cavalry rode in. Students held the Karlov Gate a while longer, but by then it no longer mattered.\n\n[[quote:1]]\n\nOgilvy surrendered in the Lesser Town, and some three thousand of his soldiers were marched off as prisoners to the Old Town Hall. On his order Vyšehrad gave up without a shot. Felíř counted sixteen Old Town burghers dead. In the streets the French were shouting \"Vive le roi!\". [[b]]Prague had prepared for a siege for two months, and it was taken in a single night.[[/b]]\n\nWhat the townspeople feared most did not happen. Charles Albert had strictly forbidden plunder and killing: this was meant to be his kingdom, and the city paid a ransom besides. Felíř was astonished. The priest recorded a few houses by the New Gate looted, and \"plenty of French valets\" taking swords, hats and cloaks off people's backs, but no sack. Many Praguers found the occupiers quite correct, and resented that Vienna had left them to it: Francis Stephen's relief army stood at Poříčí nad Sázavou, a day or two's march away.\n\nAround noon Charles Albert rode into the city and heard mass in St Vitus. The Prague burgher Ignác Gedeon Loth later recalled his welcome:\n\n[[quote:2]]\n\nLoth was being ironic: the whole city stood in silence, and nobody cheered.\n\nCharles Albert had come to Prague for the crown of Bohemia. The crown, however, was no longer in Prague.",
+      "cz": "Od poloviny září nařídili královští místodržící všem obyvatelům Prahy, aby pomáhali s hradbami. Začátkem listopadu se brány zavřely, všechny až na tři byly zazděny a měšťané zaujali svá místa na valech. Staroměstský měšťan František Václav Felíř si do letopisu zapsal:\n\n[[quote:0]]\n\nČtrnáctého listopadu se na Bílé hoře objevili první bavorští jezdci. Brzy nato přivedli k hraběti Ogilvymu se zavázanýma očima dva vyslance. Byli velmi zdvořilí a žádali jen o průchod městem. Ogilvy odmítl: měl rozkaz a hodlal zůstat věrný své královně. Přišli ještě dvakrát, to už žádali o vydání města, a dvakrát znovu slyšeli ne. Karel Albrecht čekal ve zbraslavském klášteře. Pětadvacátého listopadu rozkázal útok.\n\nZačal krátce po půlnoci. Děla spustila na Strahovskou bránu na západě, šlo o klamný útok, a koule doletěly až na Staré Město, ke klášteru křižovníků u Karlova mostu i ke svaté Anně. Na severu Sasové zaútočili na bránu pod Hradčany. Další saský sbor prostě přebrodil podél mlýnů do Nového Města: Vltava měla ten podzim neobvykle málo vody.\n\nHlavní úder ale přišel na východě, u Nové brány. Francouzští granátníci vylezli na hradby po žebřících vzatých ze šibenic, což, jak si Felíř s jistým zadostiučiněním poznamenal, „k jich věčí hanbě sloužilo“. Francouzi pak vyprávěli, jak plukovník Chevert poučil seržanta, který lezl první: hlídka zavolá, ty neodpovíš, ona vystřelí a mine, a ty ji zabiješ.\n\nNovou bránu nehájili vojáci, ale staroměstští měšťané. Farář z vesnice severně od Prahy si stěžoval, že „jedli, pili a na obranu nic nedbali“. Brána se otevřela a dovnitř vjela jízda Mořice Saského. Studenti drželi Karlovskou bránu ještě chvíli, ale to už na ničem nezáleželo.\n\n[[quote:1]]\n\nOgilvy se vzdal na Malé Straně a na tři tisíce jeho vojáků odvedli do zajetí na Staroměstskou radnici. Na jeho rozkaz se Vyšehrad vzdal bez jediného výstřelu. Felíř napočítal šestnáct mrtvých staroměstských měšťanů. V ulicích Francouzi provolávali „Vive le roi!“. [[b]]Praha se dva měsíce chystala na obléhání, a dobyta byla za jedinou noc.[[/b]]\n\nToho, čeho se měšťané báli nejvíc, se nedočkali. Karel Albrecht přísně zakázal plenit a zabíjet: tohle mělo být jeho království, a město navíc zaplatilo výpalné. Felíř se nestačil divit. Farář zaznamenal pár vyrabovaných domků u Nové brány a „francouzských komorníků dost“, kteří lidem brali kordy, klobouky a pláště, ale žádné plenění. Mnoho Pražanů shledalo okupanty docela korektními a mrzelo je, že je Vídeň nechala na holičkách: pomocná armáda Františka Štěpána stála u Poříčí nad Sázavou, den dva pochodu daleko.\n\nKolem poledne vjel Karel Albrecht do města a ve Svatém Vítu vyslechl mši. Pražský měšťan Ignác Gedeon Loth později vzpomínal, jak ho Praha přivítala:\n\n[[quote:2]]\n\nLoth to myslel ironicky: celé město mlčelo a nikdo nejásal.\n\nKarel Albrecht přišel do Prahy pro českou korunu. Jenže ta už v Praze nebyla.",
+      "zh": "从9月中旬起，王室总督就命令全城的人都去帮着修城墙。11月初，城门关了，除了三座以外全都用砖封死，市民们登上城墙，各就各位。老城市民弗朗蒂舍克·瓦茨拉夫·费利日在年鉴里写道：\n\n[[quote:0]]\n\n11月14日，第一批巴伐利亚骑兵出现在白山上。不久，两名使者被蒙着眼睛带到奥吉尔维伯爵面前。他们客客气气，只求借道穿城而过。奥吉尔维拒绝了：他有命令在身，要对女王尽忠。使者又来了两次，这回要的是整座城，两次都碰了钉子。卡尔·阿尔布雷希特在兹布拉斯拉夫修道院里等着。11月25日，他下令攻城。\n\n午夜刚过，进攻开始了。西边的大炮轰向斯特拉霍夫门，这是佯攻；炮弹一直飞到老城，落到了查理大桥边的十字骑士团修道院和圣安妮教堂。北边，萨克森人猛攻城堡区下面的城门。另一路萨克森人干脆沿着河边的磨坊蹚水进了新城：那年秋天，伏尔塔瓦河的水位低得出奇。\n\n真正的一击落在东边的新门。法国掷弹兵架着梯子爬上城墙，梯子是从绞刑架上拆下来的。费利日写到这里，颇有几分解气：这正好“叫他们更加丢脸”。后来法国人津津乐道：谢韦尔上校交代第一个往上爬的中士，哨兵会喊口令，你别答话；他会开枪，打不中；然后你干掉他。\n\n守新门的不是兵，是老城的市民。城北一位教区神父抱怨说，他们“光顾着吃喝，守城的事全不放在心上”。城门被打开，萨克森的莫里斯带着骑兵冲了进来。学生们在卡尔洛夫门又守了一阵，可到那时，已经无关大局了。\n\n[[quote:1]]\n\n奥吉尔维在小城投降，他手下大约三千名士兵被押到老城市政厅关了起来。按他的命令，维谢赫拉德一枪没放就交了出去。费利日数了数，老城市民死了十六个。街上，法国兵高喊“国王万岁！”[[b]]布拉格为守城准备了两个月，一夜之间就易了手。[[/b]]\n\n市民们最怕的事倒没有发生。卡尔·阿尔布雷希特严令不许抢劫、不许杀人：这里是要当他的王国的，何况城里还交了一笔免抢的赎金。费利日看得直纳闷。那位神父记下，新门附近有几间小屋遭了抢，还有“不少法国跟班”在街上扒人家的佩剑、帽子和斗篷，但大抢掠没有发生。不少布拉格人觉得占领军还算规矩，心里反倒埋怨维也纳把他们撂下不管：弗朗茨·斯特凡的援军就停在萨扎瓦河畔的波日奇，离这儿不过一两天的路。\n\n中午前后，卡尔·阿尔布雷希特骑马进城，到圣维特大教堂望了弥撒。布拉格市民伊格纳茨·格德翁·洛特后来回忆起当天的“欢迎”场面：\n\n[[quote:2]]\n\n洛特说的是反话：全城鸦雀无声，没有一个人欢呼。\n\n卡尔·阿尔布雷希特来布拉格，是冲着波希米亚的王冠来的。可是，王冠已经不在布拉格了。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "It cannot be written down fully enough in what great turmoil and fear the Czech land was in these times, and above all the chief city of Prague: its people and its burghers, in sum everyone, of the spiritual estate and the worldly, high and low.",
+          "cz": "Vypsati dosti se nemůže, kterak v těchto časech zem českou, obzvlášť hlavní město Prahu v jak velkém pohnutí a strachu (obyvatelstvo jeho a měšťanstvo, sumou všichni, jak duchovního stavu, tak světského vyššího i nižšího).",
+          "zh": "这些日子里，波希米亚这片土地，尤其是首都布拉格，陷入了怎样的惊惶和恐惧，真是写也写不尽：城里的居民和市民，总而言之所有人，不论是教士还是俗人，不论地位高低。"
+        },
+        "attribution": {
+          "en": "František Václav Felíř, Old Town burgher, annals, autumn 1741 (translated)",
+          "cz": "František Václav Felíř, staroměstský měšťan, letopis, podzim 1741",
+          "zh": "老城市民弗朗蒂舍克·瓦茨拉夫·费利日，年鉴，1741年秋（转译）"
+        }
+      },
+      {
+        "text": {
+          "en": "And so that night Prague was taken, and around five and six in the morning there were so many foreign soldiers in Prague that people could hardly move.",
+          "cz": "A tak tu noc Praha byla dobyta, a okolo 5té a 6té hodiny ráno plno cizího vojska v Praze bylo, že se ani hnouti nemohli.",
+          "zh": "就这样，布拉格在那一夜被攻下了。到早上五六点钟，布拉格城里满是外国兵，挤得人都动弹不得。"
+        },
+        "attribution": {
+          "en": "Jiří Václav Paroubek, parish priest of Líbeznice, memoirs (translated)",
+          "cz": "Jiří Václav Paroubek, farář v Líbeznicích, paměti",
+          "zh": "利贝兹尼采教区神父伊日·瓦茨拉夫·帕鲁贝克，回忆录（转译）"
+        }
+      },
+      {
+        "text": {
+          "en": "So quiet that nothing could be heard but the heavy tramp of the horses and the sound of the trumpets. The would-be king could easily judge how dear he was to us.",
+          "cz": "Tak ticho, že nebylo nic jiného slyšeti než silný dupot koní a zvuk polnic. Snadno mohl domnělý král souditi, jak je nám milý.",
+          "zh": "安静得只听得见沉重的马蹄声和号声。这位自封的国王，很容易就能看出我们有多爱戴他。"
+        },
+        "attribution": {
+          "en": "Ignác Gedeon Loth, Prague burgher, annals, written in autumn 1742 (translated)",
+          "cz": "Ignác Gedeon Loth, pražský měšťan, letopis psaný na podzim 1742",
+          "zh": "布拉格市民伊格纳茨·格德翁·洛特，年鉴，1742年秋撰写（转译）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "kasarna-na-pohorelci",
+        "relation": {
+          "en": "Built on the site of the Strahov Gate, where the night began with a feint",
+          "cz": "Stojí na místě Strahovské brány, kde noc začala klamným útokem",
+          "zh": "建在斯特拉霍夫门原址上，那一夜的佯攻就从这里开始"
+        }
+      },
+      {
+        "slug": "kostel-sv-frantiska-z-assisi",
+        "relation": {
+          "en": "The church of the Crusaders' monastery by Charles Bridge, where cannonballs landed",
+          "cz": "Kostel kláštera křižovníků u Karlova mostu, kam dopadaly koule",
+          "zh": "查理大桥边十字骑士团修道院的教堂，炮弹落到了这里"
+        }
+      },
+      {
+        "slug": "prague-crossroads",
+        "relation": {
+          "en": "St Anne's, also hit by cannonballs that night",
+          "cz": "Kostel sv. Anny, kam té noci také dopadaly koule",
+          "zh": "圣安妮教堂，那一夜也挨了炮弹"
+        }
+      },
+      {
+        "slug": "psek-gate-1782393038404",
+        "relation": {
+          "en": "The Saxons stormed the gate below Hradčany",
+          "cz": "Sasové zde zaútočili na bránu pod Hradčany",
+          "zh": "萨克森人在这里猛攻城堡区下的城门"
+        }
+      },
+      {
+        "slug": "novomlysnska-water-tower",
+        "relation": {
+          "en": "By the New Town mills, where Saxons waded in along the low river",
+          "cz": "U novoměstských mlýnů, kudy Sasové přebrodili mělkou řeku",
+          "zh": "新城磨坊边，萨克森人从这里蹚过浅浅的河水进了城"
+        }
+      },
+      {
+        "slug": "karlov-church",
+        "relation": {
+          "en": "Students held the nearby Karlov Gate",
+          "cz": "Studenti hájili nedalekou Karlovskou bránu",
+          "zh": "学生们守卫着附近的卡尔洛夫门"
+        }
+      },
+      {
+        "slug": "old-town-hall",
+        "relation": {
+          "en": "Some three thousand captured soldiers were held here",
+          "cz": "Sem odvedli na tři tisíce zajatých vojáků",
+          "zh": "约三千名被俘士兵被关押在这里"
+        }
+      },
+      {
+        "slug": "vysehrad",
+        "relation": {
+          "en": "Surrendered without a shot on Ogilvy's order",
+          "cz": "Na Ogilvyho rozkaz se vzdal bez výstřelu",
+          "zh": "奉奥吉尔维之命，一枪未放就交了出去"
+        }
+      },
+      {
+        "slug": "st-vitus-cathedral",
+        "relation": {
+          "en": "Charles Albert heard mass here at noon on 26 November",
+          "cz": "Karel Albrecht zde 26. listopadu v poledne vyslechl mši",
+          "zh": "11月26日中午，卡尔·阿尔布雷希特在这里望了弥撒"
+        }
+      }
+    ],
+    "images": [
+      "/history/taken-in-a-night-1741.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Prague, the night of 25 to 26 November 1741: under the moon, French and Bavarian troops climb the New Town's bastions on ladders from the east, while the Saxons come in along the riverside mills to the north; on the heights to the west, the guns of the feint attack send cannonballs into the Old Town. On the walls, only a scattering of burghers and students run about with torches.",
+        "cz": "Praha, noc z 25. na 26. listopadu 1741: Francouzi a Bavoři šplhají za měsíčního světla po žebřících na novoměstské bastiony od východu, Sasové pronikají na severu podél mlýnů u řeky; z výšin na západě posílají děla klamného útoku koule do Starého Města. Po hradbách pobíhá s pochodněmi jen hrstka měšťanů a studentů.",
+        "zh": "1741年11月25日夜里到26日凌晨，布拉格：月光下，法军和巴伐利亚军从东边架梯攀上新城的棱堡，萨克森人在北边沿着河边的磨坊进城；西边高地上，佯攻的炮火把炮弹打进了老城。城头上，只有零星的市民和学生举着火把奔走。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_Prague_(1741)"
   },
 ];
 
