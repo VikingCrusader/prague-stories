@@ -96,12 +96,17 @@ export default function DashboardPage() {
 
       <div className="dashboard-grid">
         {/* Progress Ring */}
+        {/* The ring is always the city proper; the big number is every card
+            the user has, and the line under it gives the city and outside
+            totals (2026-11-03, user's call). */}
         <div className="stat-card stat-card--ring" style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
-          <ProgressRing percent={unlockPercent} size={140} />
+          <ProgressRing percent={progress.cityUnlockPercent ?? unlockPercent} size={140} label={t('dashboard.unlockedRing')} />
           <div>
             <div className="stat-card__value">{progress.presetCheckins}</div>
             <div style={{ fontSize: 16, color: 'var(--text-muted)', fontWeight: 700 }}>
-              {t('dashboard.ofPreset', { n: totalPreset })}
+              {progress.totalCity != null
+                ? t('dashboard.ofCityAndOutside', { city: progress.totalCity, outside: totalPreset - progress.totalCity })
+                : t('dashboard.ofPreset', { n: totalPreset })}
             </div>
             <div style={{ fontSize: 16, color: 'var(--text-muted)', fontWeight: 700, marginTop: 6 }}>
               {totalCheckins} {t('dashboard.totalVisits')}

@@ -303,3 +303,15 @@ no_tourists_here: a quiet outer-district street with panel houses, a small corne
 troy_not_in_greece: a big wooden horse on wheels standing in a garden in front of a red-and-white Baroque chateau, a giraffe peeking over the garden wall behind.
 neutral_fan: a football fan in a scarf that is half red-and-white and half red-yellow-blue, shrugging, between two stadium floodlights.
 ```
+
+### Group 24: 白银之城
+
+```
+city_of_silver (done; the accepted image has a miner's pick instead of the skull): a heap of shining silver Prague groschen coins in the foreground, behind them the three tent-shaped spires of St. Barbara's Cathedral in Kutná Hora, and a small skull resting among the coins.
+```
+
+### Group 25: 反复横跳
+
+```
+back_and_forth: a winding blue river running down the middle of the picture, a castle on a hill on the left bank and Gothic Old Town spires on the right bank; a small walker in a red scarf, slightly dizzy with little stars circling the head, leaps across the river, and a dotted golden footprint trail zigzags back and forth across the water five or six times behind them. The walker and the zigzag trail are large and clear. (No bridge: bridge cards don't count for this one.)
+```

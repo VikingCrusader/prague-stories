@@ -1,13 +1,15 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
-import { HISTORY_LABELS, evaluateAchievements, describeAchievement, achievementXp, calculateLevel, RANDOM_DRAW_WINDOW_MS, saintOf } from './gamification.js';
+import { HISTORY_LABELS, HUNT_EXCLUDED_SLUGS, riverSideOf, evaluateAchievements, describeAchievement, achievementXp, calculateLevel, RANDOM_DRAW_WINDOW_MS, saintOf } from './gamification.js';
 import { haversineDistance } from '../utils/geo.js';
 
 // The numbers every achievement's check() and progress() read. Used after a
 // check-in (to evaluate achievements) and by GET /api/user/achievements (to
 // show each achievement's progress).
 const BURST_WINDOW_MS = 5 * 60 * 1000;
+const ZIGZAG_WINDOW_MS = 24 * 60 * 60 * 1000;
+const NO_BANK = new Set(HUNT_EXCLUDED_SLUGS);
 
 // Prague local date and hour of a moment (time-of-day and same-day
 // achievements are about the player's day in Prague, not UTC).
@@ -128,6 +130,22 @@ export async function buildAchievementStats(userId, user = null) {
     burst5min = Math.max(burst5min, j - i + 1);
   }
 
+  // Back and Forth (2026-11-03): the longest run of check-ins that switch
+  // bank of the Vltava every time, within 24 hours of its first one.
+  // Cards on neither bank (bridges, islands: the treasure hunt's exclusion
+  // list) and cards outside Prague are skipped: they neither count nor
+  // break the run. Two in a row on the same bank start a new run.
+  const banked = allCheckins
+    .filter(ci => ci.location && !NO_BANK.has(ci.location.slug) && !(ci.location.labels || []).includes('outside') && ci.location.quarter)
+    .map(ci => ({ t: new Date(ci.checkedInAt || ci.createdAt || 0).getTime(), side: riverSideOf(ci.location.quarter) }))
+    .sort((a, b) => a.t - b.t);
+  let zigzag = 0;
+  for (let i = 0, start = 0; i < banked.length; i++) {
+    if (i > 0 && banked[i].side === banked[i - 1].side) start = i;
+    while (banked[i].t - banked[start].t > ZIGZAG_WINDOW_MS) start++;
+    zigzag = Math.max(zigzag, i - start + 1);
+  }
+
   const [customLocations, totalLocations, landmarkTotal, cityTotal, quarters, legends, embassies, districts] = await Promise.all([
     Location.countDocuments({ addedBy: userId }),
     Location.countDocuments({}),
@@ -169,6 +187,7 @@ export async function buildAchievementStats(userId, user = null) {
     labelSet: [...labelSet],
     saintCount,
     burst5min,
+    zigzag,
     rarityCount,
     embassySlugs: embassies.map(e => e.slug),
     districtCount,

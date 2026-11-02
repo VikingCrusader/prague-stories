@@ -521,6 +521,8 @@ const NUSLE = quarterShareWith("Nusle", 0.4, ["nusle-bridge", "nuselske-udoli"])
 const VYSEHRAD = quarterShareWith("Vyšehrad", 0.8, ["sousosi-premysl-a-libuse"]);
 // The slug "josefov" is the Spanish Synagogue's card, not the whole quarter.
 const JOSEFOV = quarterShareWith("Josefov", 0.8, ["old-new-synagogue-1782601630704", "josefov"]);
+// City of Silver: Kutná Hora and its four big sights (user's list, 2026-11-03).
+const SILVER_CITY = placesOnly(["kutna-hora", "vlassky-dvur", "kostel-svate-barbory", "kostnice-sedlec", "sedlecky-klaster"]);
 const PHO = placesOnly(["sapa-praha"]);
 const KUNRATICE_KING = placesOnly(["new-castle-ruins-near-kunratice-1783003399902"]);
 const WHITE_MOUNTAIN = placesOnly([
@@ -1705,6 +1707,38 @@ export const ACHIEVEMENTS = [
     difficulty: "medium",
     check: (stats) => done(STADIUMS(stats)),
     progress: STADIUMS,
+  },
+  {
+    id: "city_of_silver",
+    icon: "🪙",
+    name: "City of Silver",
+    name_cz: "Stříbrné město",
+    name_zh: "白银之城",
+    flavor: "Silver minted the Prague groschen, raised a cathedral for the miners and, in the end, decorated a chapel with bones.",
+    flavor_cz: "Stříbro razilo pražské groše, postavilo horníkům katedrálu a nakonec vyzdobilo kapli kostmi.",
+    flavor_zh: "白银铸出了布拉格格罗申，为矿工盖起了大教堂，最后还用人骨装点了一座小礼拜堂。",
+    description: "Check in at these 5 places in and around Kutná Hora: Kutná Hora, the Italian Court, St. Barbara's Cathedral, the Sedlec Ossuary and Sedlec Monastery.",
+    description_cz: "Přihlaste se na těchto 5 místech v Kutné Hoře a okolí: Kutná Hora, Vlašský dvůr, Chrám svaté Barbory, Kostnice Sedlec a Sedlecký klášter.",
+    description_zh: "打卡库特纳霍拉及其周边的5个地点：库特纳霍拉、意大利宫、圣芭芭拉大教堂、塞德莱茨藏骨堂和塞德莱茨修道院。",
+    difficulty: "extreme",
+    check: (stats) => done(SILVER_CITY(stats)),
+    progress: SILVER_CITY,
+  },
+  {
+    id: "back_and_forth",
+    icon: "↔️",
+    name: "Back and Forth",
+    name_cz: "Sem a tam",
+    name_zh: "反复横跳",
+    flavor: "Old Town side, castle side, Old Town side... Even the Vltava is getting dizzy.",
+    flavor_cz: "Staroměstská strana, hradní strana, zase staroměstská… I Vltavě se z vás točí hlava.",
+    flavor_zh: "老城侧，城堡侧，再老城侧……伏尔塔瓦河都被你看晕了。",
+    description: "Collect 6 cards in a row, switching banks of the Vltava each time (either bank first), all within 24 hours. Cards on bridges and islands and cards outside Prague don't count: they neither add to the run nor break it.",
+    description_cz: "Seberte 6 karet za sebou, pokaždé na opačném břehu Vltavy (začít můžete na kterémkoli), vše do 24 hodin. Karty na mostech a ostrovech a karty mimo Prahu se nepočítají: řadu neprodlouží ani nepřeruší.",
+    description_zh: "连续收集6张卡片，每一张都要换到伏尔塔瓦河的另一岸（从哪一岸开始都行），并在24小时内完成。桥上和岛上的卡片以及布拉格以外的卡片不算：既不计入，也不会打断连续。",
+    difficulty: "medium",
+    check: ({ zigzag }) => (zigzag || 0) >= 6,
+    progress: ({ zigzag }) => ({ current: zigzag || 0, target: 6 }),
   },
 ];
 

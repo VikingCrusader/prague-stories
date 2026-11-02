@@ -1,4 +1,4 @@
-export default function ProgressRing({ percent, size = 160 }) {
+export default function ProgressRing({ percent, size = 160, label = 'UNLOCKED' }) {
   const r         = (size - 20) / 2;
   const circ      = 2 * Math.PI * r;
   const dash      = (percent / 100) * circ;
@@ -27,7 +27,7 @@ export default function ProgressRing({ percent, size = 160 }) {
       </text>
       <text x={cx} y={cx + 16} textAnchor="middle" fill="var(--text-muted)"
         fontFamily="var(--ui-font)" fontSize={Math.round(size * 0.1)}>
-        UNLOCKED
+        {label}
       </text>
     </svg>
   );

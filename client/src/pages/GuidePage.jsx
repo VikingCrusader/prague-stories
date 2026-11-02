@@ -124,7 +124,7 @@ const CONTENT = {
     tripleTitle: "Bonus XP: the Treasure Hunt",
     triple: "A Treasure Hunt pays up to ten times as much, if you walk all the way there and find it on the first press. Every wrong press costs two steps, and every clue you buy costs one, so asking for a hint is always cheaper than guessing blind. Run out of time and the answer is revealed. You lose nothing but your pride.",
     achTitle: "Achievements",
-    ach: "Sixty-five achievements, from your very first card to a trip out to Karlštejn, and each one pays XP when it unlocks: 25 for bronze, 150 for silver, 400 for gold and 800 for diamond. They unlock by themselves the moment you qualify, with a fanfare you will learn to love. The Achievements page shows them all, with your progress on every one. This is called design.",
+    ach: "Sixty-seven achievements, from your very first card to a trip out to Karlštejn, and each one pays XP when it unlocks: 25 for bronze, 150 for silver, 400 for gold and 800 for diamond. They unlock by themselves the moment you qualify, with a fanfare you will learn to love. The Achievements page shows them all, with your progress on every one. This is called design.",
     tipsTitle: "Tips From Those Who Went Before",
     tips: [
       { icon: "📳", text: "Let the cards come to you. With alerts on, you can simply wander and let your phone buzz when you pass something. Some of the best finds are the ones you weren't looking for." },
@@ -242,7 +242,7 @@ const CONTENT = {
     tripleTitle: "Bonusové XP: Hledání pokladu",
     triple: "Hledání pokladu vyplatí až desetinásobek, pokud k pokladu dojdeš pěšky a najdeš ho hned prvním stiskem. Každý stisk vedle stojí dva stupně a každá koupená nápověda jeden, takže zeptat se je vždycky levnější než hádat naslepo. Když čas vyprší, odpověď se odhalí. Nepřijdeš o nic kromě hrdosti.",
     achTitle: "Úspěchy",
-    ach: "Šedesát pět úspěchů, od první karty až po výlet na Karlštejn, a každý po odemčení vyplatí XP: 25 za bronzové, 150 za stříbrné, 400 za zlaté a 800 za diamantové. Odemknou se samy ve chvíli, kdy na ně dosáhneš, s fanfárou, kterou si zamiluješ. Stránka Úspěchy ukazuje všechny, s tvým postupem u každého. Tomu se říká design.",
+    ach: "Šedesát sedm úspěchů, od první karty až po výlet na Karlštejn, a každý po odemčení vyplatí XP: 25 za bronzové, 150 za stříbrné, 400 za zlaté a 800 za diamantové. Odemknou se samy ve chvíli, kdy na ně dosáhneš, s fanfárou, kterou si zamiluješ. Stránka Úspěchy ukazuje všechny, s tvým postupem u každého. Tomu se říká design.",
     tipsTitle: "Tipy od těch, kteří šli před tebou",
     tips: [
       { icon: "📳", text: "Nech karty přijít za tebou. Se zapnutými upozorněními se můžeš prostě toulat a nechat telefon zabzučet, když jdeš kolem něčeho zajímavého. Nejlepší nálezy bývají ty, které jsi nehledal." },
@@ -360,7 +360,7 @@ const CONTENT = {
     tripleTitle: "额外经验：寻宝",
     triple: "寻宝最高十倍，前提是一路走到宝藏跟前，第一次按就中。每猜错一次降两级，每买一条线索只降一级，所以开口要提示永远比闭眼瞎猜划算。时间到了还没找到，答案会揭晓。你损失的只有面子。",
     achTitle: "成就",
-    ach: "一共六十五个成就，从第一张卡一直到出城去卡尔什泰因，每个解锁时都给经验：青铜25，白银150，黄金400，钻石800。一满足条件就自动解锁，还会响起一段你迟早会爱上的音效。成就页上能看到全部成就，以及你在每一个上的进度。这叫做设计。",
+    ach: "一共六十七个成就，从第一张卡一直到出城去卡尔什泰因，每个解锁时都给经验：青铜25，白银150，黄金400，钻石800。一满足条件就自动解锁，还会响起一段你迟早会爱上的音效。成就页上能看到全部成就，以及你在每一个上的进度。这叫做设计。",
     tipsTitle: "前人留下的小贴士",
     tips: [
       { icon: "📳", text: "让卡片来找你。打开提醒之后，你可以随便逛，路过好东西时手机自然会震一下。最好的发现，往往是你没在找的那些。" },

@@ -418,6 +418,19 @@ describe('evaluateAchievements', () => {
     expect(ids({ districtCount: { 'Praha 1': 50, 'Praha 7': 40, 'Praha 8': 29 } })).not.toContain('no_tourists_here');
   });
 
+  test('back_and_forth needs a run of 6', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ zigzag: 6 })).toContain('back_and_forth');
+    expect(ids({ zigzag: 5 })).not.toContain('back_and_forth');
+  });
+
+  test('city_of_silver needs all five Kutná Hora places', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    const five = ['kutna-hora', 'vlassky-dvur', 'kostel-svate-barbory', 'kostnice-sedlec', 'sedlecky-klaster'];
+    expect(ids({ checkedSlugs: five })).toContain('city_of_silver');
+    expect(ids({ checkedSlugs: five.slice(0, 4) })).not.toContain('city_of_silver');
+  });
+
   test('troy_not_in_greece and neutral_fan', () => {
     const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
     expect(ids({ checkedSlugs: ['trojsky-kun'], quarterCount: { Troja: 5 } })).toContain('troy_not_in_greece');

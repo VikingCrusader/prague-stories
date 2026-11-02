@@ -7,6 +7,9 @@ const PROGRESS = {
   presetCheckins: 4,
   totalPreset: 10,
   unlockPercent: 40,
+  cityCheckins: 3,
+  totalCity: 8,
+  cityUnlockPercent: 38,
   labelCount: { historical: 2, church: 1 },
   rarityCount: { common: 1, rare: 2, superior: 1, epic: 0, mythic: 0, legend: 1 },
   levelInfo: { level: 2, title: 'Apprentice Explorer', progress: 40, nextLevelXP: 200 },
@@ -49,7 +52,10 @@ test.describe('Dashboard', () => {
     await expect(page.locator('.level-badge__num')).toHaveText('LVL 2');
     await expect(page.locator('.level-badge__title')).toHaveText('Apprentice Explorer');
     await expect(page.getByText('140 / 200')).toBeVisible();
-    await expect(page.getByText('of 10 location cards')).toBeVisible();
+    // The ring is the city share; the number is every card, with both totals.
+    await expect(page.locator('.stat-card--ring svg')).toContainText('38%');
+    await expect(page.locator('.stat-card--ring .stat-card__value')).toHaveText('4');
+    await expect(page.getByText('8 cards in Prague, 2 outside')).toBeVisible();
     await expect(page.getByText('1 / 2')).toBeVisible(); // achievements unlocked count
   });
 

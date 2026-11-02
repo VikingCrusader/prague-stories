@@ -73,6 +73,18 @@ describe('GET /api/user/progress', () => {
     expect(res.body.rarityCount.legend).toBe(1);
     expect(res.body.levelInfo.level).toBeGreaterThanOrEqual(2);
   });
+
+  test('also counts the city proper on its own (cards without outside)', async () => {
+    await Location.create({ name: 'In', slug: 'in', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    await Location.create({ name: 'In 2', slug: 'in-2', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    await Location.create({ name: 'Out', slug: 'out', coordinates: CHARLES_BRIDGE, labels: ['castle', 'outside'] });
+    const { token } = await createAuthedUser();
+    await checkIn(token, 'in');
+    await checkIn(token, 'out');
+
+    const res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${token}`);
+    expect(res.body).toMatchObject({ presetCheckins: 2, totalPreset: 3, unlockPercent: 67, cityCheckins: 1, totalCity: 2, cityUnlockPercent: 50 });
+  });
 });
 
 describe('GET /api/user/achievements', () => {
@@ -159,6 +171,36 @@ describe('GET /api/user/achievements', () => {
     expect(get('next_time').unlocked).toBe(true);
     expect(get('dropping_by').progress).toEqual({ current: 2, target: 5 });
     expect(get('time_traveller').progress.labels).toHaveLength(6);
+  });
+
+  test('Back and Forth: six bank switches in 24 h; bridges and outside cards are skipped', async () => {
+    const { token, user } = await createAuthedUser();
+    const mk = (slug, quarter, labels = []) => Location.create({ name: slug, slug, coordinates: CHARLES_BRIDGE, quarter, labels, rarity: 'common', xpReward: 10 });
+    // Old Town side, castle side, a bridge (skipped), Old Town, an outside
+    // card (skipped), castle, Old Town, castle: six switches in nine hours.
+    const seq = [
+      await mk('o1', 'Staré Město'), await mk('c1', 'Malá Strana'), await mk('charles-bridge', 'Staré Město'),
+      await mk('o2', 'Nové Město'), await mk('far', null, ['outside']), await mk('c2', 'Smíchov'),
+      await mk('o3', 'Vinohrady'), await mk('c3', 'Hradčany'),
+    ];
+    for (let i = 0; i < seq.length; i++) {
+      await CheckIn.create({ user: user._id, location: seq[i]._id, checkedInAt: new Date(Date.UTC(2026, 9, 10, 8 + i)), xpEarned: 10 });
+    }
+    let res = await request(app).get('/api/user/achievements').set('Authorization', `Bearer ${token}`);
+    let get = id => res.body.achievements.find(a => a.id === id);
+    expect(get('back_and_forth')).toMatchObject({ unlocked: true, progress: { current: 6, target: 6 } });
+
+    // Same bank twice in a row starts over; a run longer than 24 h doesn't count.
+    const other = await createAuthedUser({ username: 'zig', email: 'zig@example.com' });
+    const hours = [0, 1, 2, 3, 4, 30];
+    const sides = ['o1', 'c1', 'o2', 'c2', 'o3', 'c3'];
+    for (let i = 0; i < sides.length; i++) {
+      const loc = seq.find(l => l.slug === sides[i]);
+      await CheckIn.create({ user: other.user._id, location: loc._id, checkedInAt: new Date(Date.UTC(2026, 9, 10, hours[i])), xpEarned: 10 });
+    }
+    res = await request(app).get('/api/user/achievements').set('Authorization', `Bearer ${other.token}`);
+    get = id => res.body.achievements.find(a => a.id === id);
+    expect(get('back_and_forth')).toMatchObject({ unlocked: false, progress: { current: 5, target: 6 } });
   });
 
   test('day totals and streaks use Prague days', async () => {

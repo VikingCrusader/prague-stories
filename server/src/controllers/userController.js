@@ -20,6 +20,9 @@ export async function getProfile(req, res) {
 export async function getProgress(req, res, next) {
   try {
     const totalPreset = await Location.countDocuments({});
+    // The city proper (no `outside` label), which the profile ring shows by
+    // default; "All" switches it to every card (2026-11-03).
+    const totalCity = await Location.countDocuments({ labels: { $ne: 'outside' } });
 
     if (!req.user) {
       return res.json({
@@ -27,6 +30,9 @@ export async function getProgress(req, res, next) {
         presetCheckins: 0,
         totalPreset,
         unlockPercent: 0,
+        cityCheckins: 0,
+        totalCity,
+        cityUnlockPercent: 0,
         labelCount: {},
         rarityCount: { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0, expedition: 0 },
         levelInfo: calculateLevel(0),
@@ -42,6 +48,9 @@ export async function getProgress(req, res, next) {
     const unlockPercent = totalPreset > 0
       ? Math.round((presetCheckins / totalPreset) * 100)
       : 0;
+
+    const cityCheckins = allCheckins.filter(c => c.location && !(c.location.labels || []).includes('outside')).length;
+    const cityUnlockPercent = totalCity > 0 ? Math.round((cityCheckins / totalCity) * 100) : 0;
 
     const labelCount = {};
     const rarityCount = { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0, expedition: 0 };
@@ -61,6 +70,9 @@ export async function getProgress(req, res, next) {
       presetCheckins,
       totalPreset,
       unlockPercent,
+      cityCheckins,
+      totalCity,
+      cityUnlockPercent,
       labelCount,
       rarityCount,
       levelInfo,
