@@ -16328,21 +16328,27 @@ Centrum se otevřelo roku 2007 v Zamenhofově ulici v obchodní zóně na okraji
     xpReward: 50,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_Maxe_van_der_Stoela',
     description: {
-      en: `The Max van der Stoel memorial stands in a small park in Hradčany, near the embassy of the Netherlands. It remembers a short meeting in 1977 that became one of the most courageous Western gestures of support for the Czechoslovak dissidents.
+      en: `In a park in Hradčany, on the edge of a boulevard named after Jan Patočka, the shadow of a tree lies on the grass and never moves, whatever the sun does. It is made of concrete, and it is the Max van der Stoel memorial. It remembers a short meeting in 1977 that became one of the most courageous Western gestures of support for the Czechoslovak dissidents.
 
-On 1 March 1977 the Dutch foreign minister Max van der Stoel, on an official visit to Prague, met the philosopher Jan Patočka, one of the first spokesmen of Charter 77, the human-rights initiative founded at the start of that year. He was the first Western government minister to meet openly with a spokesman of the Charter, and the meeting caused a diplomatic storm. Shortly afterwards Patočka was subjected to long police interrogations, and on 13 March 1977 he died of a stroke. The memorial was unveiled in 2017, on the fortieth anniversary of the meeting, and it is deliberately modest, with no bust or heroic statue. The park around it was named after van der Stoel at the initiative of the Dutch embassy.
+On 1 March 1977 the Dutch foreign minister Max van der Stoel, on an official visit to Prague, met the philosopher Jan Patočka, one of the first spokesmen of Charter 77, the human-rights initiative founded at the start of that year, at the InterContinental hotel around noon. He was the first Western government minister to meet openly with a spokesman of the Charter, and the meeting caused a diplomatic storm. Shortly afterwards Patočka was subjected to long police interrogations, and on 13 March 1977 he died of a stroke. The memorial was unveiled in 2017, on the fortieth anniversary of the meeting, at the initiative of the Dutch embassy, and it is deliberately modest, with no bust or heroic statue.
 
-🎁 Bonus: Patočka wrote in one of his last texts that there are things worth suffering for. The quiet memorial in this park recalls both a philosopher who paid for his convictions and a foreign minister who chose to stand next to him when it mattered.`,
-      cz: `Pomník Maxe van der Stoela stojí v malém parku na Hradčanech, nedaleko velvyslanectví Nizozemska. Připomíná krátké setkání z roku 1977, které se stalo jedním z nejodvážnějších gest západní podpory československým disidentům.
+Instead there is the shadow: a flat concrete outline of the shadow cast by one of the park's own trees, made by the sculptor Dominik Lang with the architect Jakub Červenka. A real shadow lasts a moment and moves on with the sun; this one has been fixed in place. Lang described it as a permanently captured shadow, a reminder that all around us fleeting events and encounters happen that we soon forget. This particular one stands for the brief meeting of Patočka and van der Stoel, short as it was, and the mark it left on Czech history.
 
-Dne 1. března 1977 se nizozemský ministr zahraničí Max van der Stoel během oficiální návštěvy Prahy setkal s filozofem Janem Patočkou, jedním z prvních mluvčích Charty 77, iniciativy za lidská práva založené na začátku toho roku. Byl prvním západním ministrem, který se otevřeně setkal s mluvčím Charty, a setkání vyvolalo diplomatickou bouři. Krátce nato byl Patočka podroben dlouhým policejním výslechům a 13. března 1977 zemřel na mozkovou mrtvici. Pomník byl odhalen roku 2017, ke čtyřicátému výročí setkání, a je záměrně skromný, bez busty či hrdinské sochy. Park kolem něj byl z podnětu nizozemského velvyslanectví pojmenován po van der Stoelovi.
+🎁 Bonus: Patočka wrote in one of his last texts that there are things worth suffering for. The quiet memorial in this park recalls both a philosopher who paid for his convictions and a foreign minister who chose to stand next to him when it mattered. On a sunny day, look for the real tree's shadow and see how far it has wandered from its concrete twin.`,
+      cz: `V parku na Hradčanech, na okraji třídy pojmenované po Janu Patočkovi, leží v trávě stín stromu, který se nikam nepohne, ať dělá slunce cokoli. Je z betonu a je to pomník Maxe van der Stoela. Připomíná krátké setkání z roku 1977, které se stalo jedním z nejodvážnějších gest západní podpory československým disidentům.
 
-🎁 Bonus: Patočka v jednom ze svých posledních textů napsal, že jsou věci, pro které stojí za to trpět. Tichý pomník v tomto parku připomíná filozofa, který za své přesvědčení zaplatil, i ministra zahraničí, který se rozhodl stát po jeho boku, když na tom záleželo.`,
-      zh: `马克斯·范德斯托尔纪念碑位于城堡区的一座小公园里，离荷兰大使馆不远。它纪念的是1977年的一次短暂会面，那次会面成了西方支持捷克斯洛伐克异见者最勇敢的举动之一。
+Dne 1. března 1977 se nizozemský ministr zahraničí Max van der Stoel během oficiální návštěvy Prahy kolem poledne v hotelu InterContinental setkal s filozofem Janem Patočkou, jedním z prvních mluvčích Charty 77, iniciativy za lidská práva založené na začátku toho roku. Byl prvním západním ministrem, který se otevřeně setkal s mluvčím Charty, a setkání vyvolalo diplomatickou bouři. Krátce nato byl Patočka podroben dlouhým policejním výslechům a 13. března 1977 zemřel na mozkovou mrtvici. Pomník byl odhalen roku 2017, ke čtyřicátému výročí setkání, z podnětu nizozemského velvyslanectví, a je záměrně skromný, bez busty či hrdinské sochy.
 
-1977年3月1日，荷兰外交大臣马克斯·范德斯托尔在正式访问布拉格期间，会见了哲学家扬·帕托什卡，他是当年年初成立的人权倡议“七七宪章”的首批发言人之一。范德斯托尔是第一位公开会见宪章发言人的西方部长，这次会面引发了一场外交风波。此后不久，帕托什卡遭到警方长时间审讯，1977年3月13日死于中风。纪念碑在2017年会面四十周年时揭幕，刻意做得很低调，没有半身像，也没有英雄雕像。周围的公园在荷兰大使馆的倡议下以范德斯托尔命名。
+Místo nich je tu ten stín: plochý betonový obrys stínu, který vrhá jeden ze stromů přímo v parku. Vytvořil ho sochař Dominik Lang s architektem Jakubem Červenkou. Skutečný stín trvá okamžik a putuje se sluncem dál; tenhle zůstal na místě. Lang ho popsal jako trvale zachycený stín, který nám připomíná, že se kolem nás běžně děje řada pomíjivých událostí a setkání, na něž brzy zapomeneme. Tento konkrétní připomíná krátkou schůzku Patočky a van der Stoela, jakkoli byla krátká, a stopu, kterou zanechala v českých dějinách.
 
-🎁 彩蛋：帕托什卡在他最后的文字之一里写道，有些东西是值得为之受苦的。公园里这座安静的纪念碑，既纪念一位为信念付出代价的哲学家，也纪念一位在关键时刻选择站在他身边的外交大臣。`,
+🎁 Bonus: Patočka v jednom ze svých posledních textů napsal, že jsou věci, pro které stojí za to trpět. Tichý pomník v tomto parku připomíná filozofa, který za své přesvědčení zaplatil, i ministra zahraničí, který se rozhodl stát po jeho boku, když na tom záleželo. Za slunečného dne si najděte skutečný stín toho stromu a podívejte se, jak daleko se od svého betonového dvojčete zatoulal.`,
+      zh: `城堡区有一座以马克斯·范德斯托尔命名的公园，边上就是以扬·帕托什卡命名的大道。公园的草地上躺着一道树影，不管太阳怎么移动，它都一动不动，因为它是混凝土做的。这就是范德斯托尔的纪念碑。它纪念的是1977年的一次短暂会面，那次会面成了西方支持捷克斯洛伐克异见者最勇敢的举动之一。
+
+1977年3月1日中午前后，荷兰外交大臣马克斯·范德斯托尔在正式访问布拉格期间，在洲际酒店会见了哲学家扬·帕托什卡，他是当年年初成立的人权倡议“七七宪章”的首批发言人之一。范德斯托尔是第一位公开会见宪章发言人的西方部长，这次会面引发了一场外交风波。此后不久，帕托什卡遭到警方长时间审讯，1977年3月13日死于中风。纪念碑在2017年会面四十周年时，由荷兰大使馆倡议建成揭幕，刻意做得很低调，没有半身像，也没有英雄雕像。
+
+有的只是那道影子：公园里一棵树投下的影子，被原样做成了一块平平的混凝土轮廓。作者是雕塑家多米尼克·朗和建筑师雅库布·切尔文卡。真正的树影只停留片刻，就随着太阳挪走了；这一道却被固定了下来。朗说，这是一道被永远留住的影子，提醒我们：身边每天都有许多转瞬即逝的事和相遇，转眼就被忘了。而这一道影子，留住的是帕托什卡和范德斯托尔那次短暂的会面，以及它在捷克历史上留下的印记。
+
+🎁 彩蛋：帕托什卡在他最后的文字之一里写道，有些东西是值得为之受苦的。公园里这座安静的纪念碑，既纪念一位为信念付出代价的哲学家，也纪念一位在关键时刻选择站在他身边的外交大臣。晴天来的话，找一找那棵真树此刻的影子，看看它已经从自己的混凝土双胞胎身边走开了多远。`,
     },
   },
 
@@ -33695,6 +33701,111 @@ Lázně svého zakladatele skoro nepřežily. Roku 1740 odnesla velká povodeň 
 温泉疗养地几乎没比它的主人多活几年。1740年，一场大洪水冲毁了河谷里的大半建筑；没人住的城堡1896年烧了，1901年残垣被拆除，只剩下一道拱廊台阶。医院却留了下来。1743年起，仁爱兄弟会接管了它，一直到1938年，都在这里照顾年老的士兵。如今这里是一座博物馆，里面的巴洛克药房据说是世界上保存下来的第二古老的药房；1995年起，它是捷克的国家文化遗产。
 
 🎁 彩蛋：离这里大约两公里，在一片叫“新林”的树林里，布劳恩和他的学生们在1723年到1733年间，直接在原地的砂岩巨石上凿出了一组组人物。其中有一组耶稣诞生像，这片地方因此得名“伯利恒”。如今很多雕像已经风化了，但走过去不要门票；其中最有名的长胡子隐士圣奥努弗里乌斯，还有一尊复制品远渡重洋，去过1970年的大阪世博会。`,
+    },
+  },
+  {
+    name: 'Gröbe Villa',
+    slug: 'grobova-vila',
+    localizedNames: { cz: 'Gröbova vila', zh: '格罗贝别墅' },
+    labels: ['villa', 'historicism', 'park'],
+    district: 'Praha 2',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.06909347726527, lng: 14.445103827585076 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Gr%C3%B6bova_vila',
+    description: {
+      en: `At the top of the Grébovka park stands an Italian Renaissance villa that somehow wandered north of the Alps. It was built as a summer house for one rich man, and in the century and a half since it has been a princess's home, a college, a Hitler Youth base, a bomb site and a palace for Young Pioneers.
+
+The rich man was Moritz Gröbe, a businessman whose firm, Lanna & Šebek, was digging the railway tunnel under Vinohrady at the time. In 1870 he bought up the vineyards and farmsteads on this slope, and between 1871 and 1874 the architect Antonín Barvitius built him a neo-Renaissance villa on Palladian lines, with interiors by Josef Schulz and sculptures by Bohuslav Schnirch. Earth dug out of the tunnel was used to raise the ground, so the villa stands, in part, on Gröbe's own railway. Around it he laid out terraces, stairs, a grotto and the vineyard that still produces wine below.
+
+After Gröbe died in 1891, his heirs charged admission to the park, rented the villa to the Habsburgs (Archduchess Elisabeth and her husband Prince Otto Windisch-Graetz lived here from 1902) and in 1905 sold the whole estate to the town of Vinohrady, which opened the gardens to everyone in 1906 as Havlíčkovy sady. An Allied air raid on 14 February 1945 burned off the roof and both upper floors. The villa was rebuilt in 1951 to 1953 in a plainer socialist-realist spirit and spent the next 37 years as the Julius Fučík House of Pioneers and Youth. Since a restoration finished in 2005 it has been a centre for legal education, so the inside is not open to the public, but the facade and gardens are.
+
+🎁 Bonus: The villa was meant to impress from the gardens, not from the street, so walk round to the south side, where the terraces and stairs drop towards the vineyard and the old fountains. That is the view Gröbe built for.`,
+      cz: `Na horním konci Grébovky stojí italská renesanční vila, která se nějak zatoulala na sever od Alp. Postavili ji jako letní sídlo pro jednoho bohatého muže a za těch půldruhého století byla domovem princezny, vysokou školou, základnou Hitlerjugend, vybombardovanou troskou i palácem pionýrů.
+
+Tím bohatým mužem byl podnikatel Moritz Gröbe, jehož firma Lanna & Šebek tehdy razila železniční tunel pod Vinohrady. Roku 1870 skoupil na tomto svahu vinice a usedlosti a v letech 1871 až 1874 mu architekt Antonín Barvitius postavil novorenesanční vilu podle palladiánských vzorů, s interiéry Josefa Schulze a sochami Bohuslava Schnircha. Zeminou vykopanou z tunelu se zvedal terén, takže vila zčásti stojí na Gröbeho vlastní železnici. Kolem ní založil terasy, schodiště, grottu a vinici, na které se pod ní víno pěstuje dodnes.
+
+Po Gröbeho smrti roku 1891 vybírali dědicové za vstup do parku vstupné, vilu pronajali Habsburkům (od roku 1902 tu bydlela arcivévodkyně Alžběta s manželem knížetem Otou Windischgrätzem) a roku 1905 prodali celé panství městu Královské Vinohrady, které zahrady roku 1906 otevřelo všem jako Havlíčkovy sady. Spojenecký nálet 14. února 1945 zničil střechu a obě horní patra. Vila byla v letech 1951 až 1953 obnovena ve strohém duchu socialistického realismu a dalších 37 let sloužila jako Ústřední dům pionýrů a mládeže Julia Fučíka. Od rekonstrukce dokončené roku 2005 je v ní středisko právního vzdělávání, takže dovnitř se veřejnost nedostane, ale k fasádě a do zahrad ano.
+
+🎁 Bonus: Vila měla zapůsobit ze zahrady, ne z ulice, takže ji obejděte na jižní stranu, kde terasy a schodiště klesají k vinici a ke starým fontánám. To je pohled, kvůli kterému ji Gröbe stavěl.`,
+      zh: `格雷波夫卡公园的最高处，立着一座意大利文艺复兴式别墅，好像是迷了路，翻过阿尔卑斯山跑到了北边。它原本是给一个有钱人避暑用的；此后一百五十年，它当过公主的家、大学的校舍、希特勒青年团的据点、轰炸后的废墟，还当过少先队的宫殿。
+
+这个有钱人叫莫里茨·格罗贝，是个生意人。他合伙的兰纳与舍贝克公司，当时正在维诺赫拉迪底下挖铁路隧道。1870年，他买下了这片山坡上的葡萄园和农庄；1871年到1874年，建筑师巴尔维修斯照帕拉第奥的样式，为他盖起了这座新文艺复兴风格的别墅，室内由约瑟夫·舒尔茨设计，雕像出自什尼尔赫之手。隧道里挖出来的土被拿来垫高地势，所以这座别墅，有一部分就站在格罗贝自家的铁路上。别墅四周，他修了台地、阶梯、假山洞，还有那片至今仍在产酒的葡萄园。
+
+1891年格罗贝去世，他的继承人开始收公园门票，又把别墅租给了哈布斯堡家族（1902年起，女大公伊丽莎白和丈夫温迪施格雷茨亲王住在这里），1905年再把整片庄园卖给了维诺赫拉迪市。1906年，花园向所有人开放，取名哈夫利切克公园。1945年2月14日，盟军的一次空袭烧掉了屋顶和上面两层。1951年到1953年，别墅按更朴素的社会主义现实主义风格重建，此后37年，它是“尤利乌斯·伏契克中央少先队与青年之家”。2005年修复完成后，这里成了一所法律培训中心，所以里面不对外开放，不过外立面和花园随时可以看。
+
+🎁 彩蛋：这座别墅本来就是要从花园里看的，不是从街上看的。绕到南面去：台地和阶梯一层层往下，通向葡萄园和老喷泉。格罗贝当年要的，就是这个角度。`,
+    },
+  },
+  {
+    name: 'Qubix',
+    slug: 'qubix',
+    localizedNames: { cz: 'Qubix', zh: 'Qubix办公楼' },
+    labels: ['contemporary'],
+    district: 'Praha 4',
+    quarter: 'Nusle',
+    coordinates: { lat: 50.05989685992684, lng: 14.430367042327486 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `An office block on Štětkova Street, a short walk from the Congress Centre. It looks like a crisp new building with big windows and golden details, but it actually dates from 1976: a socialist headquarters that was given a second life instead of being knocked down, and was praised more for that than for anything new.
+
+The original building was designed by the architect Jan Štípek as the head office of Průmstav, a state construction company. Its floors were laid out flexibly enough to suit both large offices and small ones, which is why it was worth keeping. Around 2010 to 2012 the developer S+B Gruppe had it rebuilt to a design by Martin Tröthan of the Viennese studio Ernst Hoffmann Architekt. The structure stayed; the ground floor became shops and a restaurant, the roof got solar panels and the building gained more than 1,000 m² of terraces looking out over Vyšehrad.
+
+The result became the first reconstructed office building in the Czech Republic to earn LEED Platinum, the top rating for green buildings, for its savings on electricity, heating, cooling and water. In 2012 it also won the Building of the Year award.
+
+🎁 Bonus: The greenest building is often the one you don't demolish. Qubix makes the case well: most of what you see is new, and most of what holds it up is from 1976.`,
+      cz: `Kancelářská budova ve Štětkově ulici, kousek od Kongresového centra. Vypadá jako svěží novostavba s velkými okny a zlatými detaily, ale ve skutečnosti je z roku 1976: socialistické sídlo, které místo zbourání dostalo druhý život a chválu sklidilo hlavně za to, ne za nic nového.
+
+Původní budovu navrhl architekt Jan Štípek jako ředitelství státního stavebního podniku Průmstav. Patra měla dispozice tak pružné, že se hodila pro velké kanceláře i pro malé, a právě proto stálo za to ji zachovat. Kolem let 2010 až 2012 ji developer S+B Gruppe nechal přestavět podle návrhu Martina Tröthana z vídeňského ateliéru Ernst Hoffmann Architekt. Konstrukce zůstala; z přízemí se staly obchody a restaurace, na střechu přibyly solární panely a budova získala přes 1 000 m² teras s výhledem na Vyšehrad.
+
+Výsledek se stal první rekonstruovanou kancelářskou budovou v Česku s certifikací LEED Platinum, nejvyšším hodnocením zelených staveb, a to za úspory elektřiny, tepla, chlazení i vody. Roku 2012 navíc získal titul Stavba roku.
+
+🎁 Bonus: Nejzelenější budova bývá ta, kterou nezbouráte. Qubix je pro to dobrý argument: většina toho, co vidíte, je nová, a většina toho, co to drží, je z roku 1976.`,
+      zh: `施泰特科娃街上的一栋办公楼，离布拉格会议中心不远。它看上去像栋清爽的新楼，大窗户，金色的装饰，其实却是1976年的：一座社会主义时期的总部大楼，没被拆掉，而是换了一种活法；它受到的称赞，主要也正是为了这一点，而不是为了什么新东西。
+
+原来的大楼由建筑师扬·什蒂佩克设计，是国营建筑公司“工业建设”的总部。它每层的格局很灵活，大办公室、小办公室都合用，这正是它值得留下来的原因。大约2010年到2012年，开发商S+B集团请维也纳恩斯特·霍夫曼建筑事务所的马丁·特勒坦主持改造。结构原样保留；底层改成了商店和餐厅，屋顶装上了太阳能板，大楼还多出了一千多平方米的露台，可以眺望维谢赫拉德。
+
+改造后的它，成了捷克第一座拿到LEED铂金级认证的翻新办公楼。这是绿色建筑的最高评级，看的是电、暖气、制冷和用水省了多少。2012年，它还获得了“年度建筑”奖。
+
+🎁 彩蛋：最环保的建筑，往往是那栋你没拆的。Qubix就是个好例子：你看到的大多是新的，撑着它的大多是1976年的。`,
+    },
+  },
+  {
+    name: 'New Deanery at Vyšehrad',
+    slug: 'nove-dekanstvi-vysehrad',
+    localizedNames: { cz: 'Nové děkanství', zh: '维谢赫拉德新教长府' },
+    labels: ['palace', 'historicism'],
+    district: 'Praha 2',
+    quarter: 'Vyšehrad',
+    coordinates: { lat: 50.06392336005495, lng: 14.419882007745146 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `A neo-Gothic house on K Rotundě, a few steps from the Rotunda of St Martin, with a stepped gable, pointed arcades and a cast-iron fence. It is the seat of the Vyšehrad Chapter, a body of canons founded in the 11th century, and it was built by canons who had specifically asked their builder not to make it too pretty.
+
+The chapter had been rebuilding its corner of Vyšehrad since the 1870s, under the energetic canon Václav Štulc. For the deanery, the first plans by a builder named Záhorský were turned down because the canons found the facade too ornate: they wished, in their own words, "to refrain from all splendour". A new plan was drawn up in 1873, the dean František Kočí reworked the layout himself, and the master builder František Novák put it up in 1877 to 1878. Restraint is relative: the result still has a rose window over the door, flame-like tracery on the first floor, a balcony on corbels and, from 1884, the chapter's coat of arms in the gable.
+
+Inside, a three-flight staircase rises under a skylight, with a fountain between its pillars and a relief of the Last Judgment over the middle flight, and the library rooms have painted ceilings with inscriptions in medallions. The building is not open to visitors, but the front, with its courtyard garden behind the fence, is right on the street.
+
+🎁 Bonus: Behind the deanery the garden is a vineyard. Provost Antonín Doležal had it planted in 2002, and its 130 or so vines (Müller-Thurgau, Blauer Portugieser and Pinot Noir) give about 300 bottles a year of Vyšehrad cuvée. You can't buy one: the chapter keeps the wine for its own official occasions.`,
+      cz: `Novogotický dům v ulici K Rotundě, pár kroků od rotundy sv. Martina, se stupňovitým štítem, lomenými arkádami a litinovým plotem. Je sídlem Vyšehradské kapituly, sboru kanovníků založeného v 11. století, a postavili ho kanovníci, kteří stavitele výslovně žádali, aby ho nedělal moc hezký.
+
+Kapitula svůj kout Vyšehradu přestavovala od 70. let 19. století pod vedením energického kanovníka Václava Štulce. U děkanství odmítla první plány stavitele Záhorského, protože se kanovníkům zdála fasáda příliš zdobná: přáli si „zdržeti se vší nádhery“. Roku 1873 vznikl nový plán, děkan František Kočí sám přepracoval dispozici a stavitel František Novák dům postavil v letech 1877 až 1878. Skromnost je ovšem relativní: nad vchodem je bohatá rozeta, v patře plaménková kružba, balkon na krakorcích a od roku 1884 ve štítu znak kapituly.
+
+Uvnitř stoupá pod světlíkem třiramenné schodiště s fontánou mezi pilíři a reliéfem Posledního soudu nad prostředním ramenem a knihovní sály mají malované stropy s nápisy v medailonech. Dovnitř se návštěvníci nedostanou, ale průčelí s předzahrádkou za plotem je přímo u ulice.
+
+🎁 Bonus: Za děkanstvím je zahrada osázená vinicí. Nechal ji roku 2002 vysadit probošt Antonín Doležal a jejích zhruba 130 keřů (Müller Thurgau, Modrý Portugal a Rulandské modré) dá ročně asi 300 lahví vyšehradského cuvée. Koupit si ho nemůžete: kapitula si víno nechává pro své vlastní slavnostní příležitosti.`,
+      zh: `维谢赫拉德的“圆厅路”上，离圣马丁圆厅教堂没几步，有一栋新哥特式的房子：阶梯形的山墙，尖拱的拱廊，前面一道铸铁栏杆。这里是维谢赫拉德教士团的驻地。教士团创立于11世纪；而这栋房子，是教士们特地叮嘱建筑商“别盖得太漂亮”才盖起来的。
+
+从19世纪70年代起，在精力旺盛的教士什图尔茨主持下，教士团一直在翻修自己在维谢赫拉德的这一角。教长府的第一版图纸出自一位叫扎霍尔斯基的建筑商，被教士们退了回去，理由是立面太花哨：用他们自己的话说，他们希望“摒弃一切奢华”。1873年重新画了图，教长科奇亲自改了格局，最后由建筑商弗朗蒂舍克·诺瓦克在1877年到1878年建成。不过“朴素”也是相对的：大门上方照样有一扇华丽的玫瑰窗，二楼是火焰式的窗花，阳台架在托座上，1884年起山墙正中还挂上了教士团的徽章。
+
+楼里有一道三折的楼梯，顶上是天窗，柱子之间有一座喷泉，中间那段楼梯上方嵌着一幅《最后的审判》浮雕；图书室的天花板上画着彩绘，题字写在一个个圆形纹饰里。这里不对游客开放，不过正面和栏杆后的前院小花园，就在街边。
+
+🎁 彩蛋：教长府后面的花园，其实是一片葡萄园。2002年由教士团的堂长多莱扎尔提议种下，大约130株葡萄（米勒-图高、葡萄牙蓝和黑皮诺），每年能酿出约300瓶“维谢赫拉德混酿”。不过您买不到：教士团只留着它，在自己的正式场合上喝。`,
     },
   },
 ];

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { locationAPI } from '../services/api';
+import { locationAPI, COLLECTED_EVENT } from '../services/api';
 import { haversineDistance, setCachedPosition } from '../utils/geolocation';
 import { getLocName } from '../utils/locName';
 
@@ -70,9 +70,25 @@ export function useProximityDetection(enabled, { onNearby } = {}) {
 
   useEffect(() => {
     if (!enabled) return;
-    locationAPI.getAll()
+    const load = () => locationAPI.getAll()
       .then(res => { locationsRef.current = res.data; })
       .catch(() => {});
+    load();
+    // The list is fetched once, so a card collected later (by a check-in
+    // from up to 100 m away, or a treasure-hunt find) would still count as
+    // uncollected and trigger the alert on walking within 50 m. Mark it at
+    // once, then refetch so `unlocked` is right for everything.
+    const onCollected = e => {
+      const slug = e.detail?.slug;
+      if (slug) {
+        dismissedRef.current.add(slug);
+        const loc = locationsRef.current.find(l => l.slug === slug);
+        if (loc) loc.unlocked = true;
+      }
+      load();
+    };
+    window.addEventListener(COLLECTED_EVENT, onCollected);
+    return () => window.removeEventListener(COLLECTED_EVENT, onCollected);
   }, [enabled]);
 
   useEffect(() => {

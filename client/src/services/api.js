@@ -31,9 +31,18 @@ export const locationAPI = {
   },
 };
 
+// Tells listeners (useProximityDetection) that a card was just collected, so
+// the 50 m "discovery" alert doesn't fire for it afterwards. `slug` is null
+// when the caller doesn't know it (a treasure-hunt find).
+export const COLLECTED_EVENT = 'location-collected';
+function announceCollected(slug = null) {
+  try { window.dispatchEvent(new CustomEvent(COLLECTED_EVENT, { detail: { slug } })); } catch (_) {}
+}
+
 export const checkinAPI = {
   getAll:  ()              => api.get('/checkins'),
-  checkIn: (slug, { note, lat, lng } = {}) => api.post(`/checkins/${slug}`, { note, lat, lng }),
+  checkIn: (slug, { note, lat, lng } = {}) => api.post(`/checkins/${slug}`, { note, lat, lng })
+    .then(res => { announceCollected(slug); return res; }),
 };
 
 export const historyAPI = {
@@ -49,7 +58,8 @@ export const userAPI = {
   getRandomDraw:    (pos) => api.get('/user/random-draw', { params: pos ? { lat: pos.lat, lng: pos.lng } : undefined }),
   // Starts a treasure hunt (the route name dates from the retired open draw).
   drawRandomLocation: (pos) => api.post('/user/random-draw', { ...(pos || {}) }),
-  guessTreasure:    (pos) => api.post('/user/random-draw/guess', pos),
+  guessTreasure:    (pos) => api.post('/user/random-draw/guess', pos)
+    .then(res => { if (res.data?.hit) announceCollected(); return res; }),
   // Takes a clue ('labels', 'direction' or 'distance') for half a step of multiplier.
   takeHuntClue:     pos => api.post('/user/random-draw/clue', pos || {}),
   getTreasures:     () => api.get('/user/treasures'),

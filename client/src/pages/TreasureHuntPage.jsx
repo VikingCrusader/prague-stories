@@ -320,6 +320,8 @@ export default function TreasureHuntPage() {
                         >
                           {convert(getLocName(status.lastHunt.location, lang))}
                         </a>
+                        <br />
+                        {t('draw.huntForfeitedTip')}
                       </p>
                     )}
                     {countdown}
