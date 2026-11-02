@@ -660,7 +660,7 @@ export const ACHIEVEMENTS = [
     description: "Find a treasure on the Treasure Hunt page for 10x XP (the first press hits and no clue was bought).",
     description_cz: "Najděte poklad na stránce hledání pokladu za desetinásobek XP (trefa hned prvním stiskem, bez koupené nápovědy).",
     description_zh: "在寻宝页面找到宝藏，并获得10倍经验（第一次按下就猜中，且没有买过线索）。",
-    difficulty: "hard",
+    difficulty: "medium",
     check: ({ huntTenX }) => (huntTenX || 0) >= 1,
     progress: ({ huntTenX }) => ({ current: huntTenX || 0, target: 1 }),
   },

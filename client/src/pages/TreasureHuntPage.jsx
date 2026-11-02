@@ -85,6 +85,17 @@ export default function TreasureHuntPage() {
   const [startError, setStartError] = useState(null);
   const [now, setNow] = useState(Date.now());
   const [selectedSlug, setSelectedSlug] = useState(null);
+  // The user's past finds, at the bottom of the page behind a button
+  // (2026-11-02, moved here from the profile); loaded on the first open.
+  const [findsOpen, setFindsOpen] = useState(false);
+  const [finds, setFinds] = useState(null);
+  const [openFind, setOpenFind] = useState(null);
+  const toggleFinds = () => {
+    if (!findsOpen && finds === null) {
+      userAPI.getTreasures().then(res => setFinds(res.data)).catch(() => setFinds([]));
+    }
+    setFindsOpen(open => !open);
+  };
   // Open on a first visit; folding it (phones only) is remembered.
   const [challengeOpen, setChallengeOpen] = useState(() => {
     try { return localStorage.getItem(CHALLENGE_FOLDED_KEY) !== '1'; } catch { return true; }
@@ -381,7 +392,42 @@ export default function TreasureHuntPage() {
             </div>
           ))}
         </section>
+
+        {user && (
+          <>
+            <hr className="px-divider" />
+            <section className="guide-section hunt-finds">
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <button type="button" className="px-btn px-btn--dark" onClick={toggleFinds} aria-expanded={findsOpen}>
+                  {findsOpen ? t('draw.hideFinds') : t('draw.showFinds')}
+                </button>
+              </div>
+              {findsOpen && (
+                finds === null ? (
+                  <div style={{ display: 'flex', justifyContent: 'center', padding: 24 }}><div className="spinner" /></div>
+                ) : finds.length > 0 ? (
+                  <>
+                    <h2 className="guide-h2" style={{ marginTop: 20 }}>
+                      {t('dashboard.treasures')} <span style={{ color: 'var(--text-muted)' }}>({finds.length})</span>
+                    </h2>
+                    <div className="location-grid">
+                      {finds.map(loc => (
+                        <LocationCard key={loc.slug} location={loc} onClick={setOpenFind} />
+                      ))}
+                    </div>
+                  </>
+                ) : (
+                  <p className="guide-body" style={{ color: 'var(--text-muted)', textAlign: 'center', marginTop: 16 }}>
+                    {t('dashboard.treasuresEmpty')}
+                  </p>
+                )
+              )}
+            </section>
+          </>
+        )}
       </div>
+
+      {openFind && <LocationDetail slug={openFind} onClose={() => setOpenFind(null)} />}
 
       {selectedSlug && (
         <LocationDetail

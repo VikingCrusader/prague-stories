@@ -720,3 +720,18 @@ html[data-lang="zh"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 108px; }
    ("1000 / 1000 XP"), right-aligned, so a longer count no longer eats into
    the bar. */
 .ach-row .ach-progress__count { flex: 0 0 7em; text-align: right; }
+
+/* Dashboard showcase: two rows instead of one (2026-11-02, user request),
+   three columns on phones so up to six tiles show there. */
+.ach-showcase { grid-template-rows: auto auto; }
+/* The space between the two rows is a margin on the tiles, not row-gap:
+   a row-gap would also open between the collapsed rows and leave a tall
+   empty strip under the showcase. */
+.ach-showcase .ach-tile { margin-bottom: 12px; }
+/* No bottom padding: the margin already leaves room for the drop shadow,
+   and with padding the top edge of a third row peeked out. */
+.ach-showcase { padding-bottom: 0; }
+@media (max-width: 600px) {
+  .ach-showcase { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 8px; }
+  .ach-showcase .ach-tile { padding: 10px 6px; margin-bottom: 8px; }
+}

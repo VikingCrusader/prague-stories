@@ -73,9 +73,11 @@ Seven rarities, shown on every card frame, even on locked cards:
 | Legendary  | 100     | Prague's most monumental places |
 | Expedition | 60–300  | Cards outside Prague, priced by distance from Charles Bridge; the frame's gem shows the tier |
 
-- **60 explorer levels**, from Newcomer to Prague Legend (40,000 XP), with a level-up celebration (sound, vibration, new title).
-- **15 achievements**, from First Step to Subway Maniac (all six metro terminal stations).
-- **Leaderboard** and public **explorer pages** with each player's collection.
+- **100 explorer levels**, one path through Prague's history from Newcomer at the Gate to Soul of Prague (100,000 XP), with a level-up celebration (sound, vibration, new title).
+- **65 achievements**, Steam-style: each has a pixel-art icon, a one-line flavor text, an exact requirement and live progress, and pays XP in four tiers (Bronze 25, Silver 150, Gold 400, Diamond 800). Some are place sets (the three defenestration windows, the seven central bridges, every legendary card), some reward a day out (50 cards in one day, a check-in before 7 a.m.), some the treasure hunt. They unlock the moment you qualify, with a banner and a bell chime of their own.
+- **Leaderboard** and public **explorer pages** with each player's collection (signed-in players only).
+
+![Achievements page: unlocked achievements with their tier badges, the difficulty filter and progress bars](docs/screenshots/achievements.webp)
 
 ### Treasure hunts
 

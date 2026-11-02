@@ -237,6 +237,30 @@ test.describe('Treasure hunt', () => {
     expect((await text.boundingBox()).height).toBeLessThan(open);
   });
 
+  test('past finds sit at the bottom behind a button, loaded on the first open', async ({ page }) => {
+    await loginAsUser(page);
+    await page.route(DRAW_RE, route => route.fulfill({ json: { active: false, canDraw: true, location: null } }));
+    let fetched = 0;
+    const found = { ...TARGET, unlocked: true, _guessAttempt: 2, _checkedInAt: '2026-01-01T00:00:00.000Z' };
+    await page.route('**/api/user/treasures', route => { fetched += 1; route.fulfill({ json: [found] }); });
+    await page.goto('/treasure-hunt');
+    const button = page.getByRole('button', { name: 'Show my treasure finds' });
+    await expect(button).toBeVisible();
+    expect(fetched).toBe(0);
+    await button.click();
+    await expect(page.getByRole('heading', { name: 'Treasure Hunt Finds (1)' })).toBeVisible();
+    await expect(page.locator('.hunt-finds .loc-card__name')).toHaveText('Týn Church');
+    await page.route('**/api/locations/tyn-church', route => route.fulfill({
+      json: { ...found, description: { en: 'A church.' }, checkedInAt: '2026-01-01T00:00:00.000Z', guessAttempt: 2, xpEarned: 100 },
+    }));
+    await page.locator('.hunt-finds .loc-card').click();
+    await expect(page.getByText(/found on a treasure hunt on guess 2, \+100 XP/)).toBeVisible();
+    await page.locator('.px-modal__close').click();
+    await page.getByRole('button', { name: 'Hide my treasure finds' }).click();
+    await expect(page.locator('.hunt-finds .loc-card')).toHaveCount(0);
+    expect(fetched).toBe(1);
+  });
+
   test('on desktop the challenge box is not folded', async ({ page }) => {
     await page.setViewportSize({ width: 1280, height: 800 });
     await page.route('**/api/locations', route => route.fulfill({ json: [] }));

@@ -56,9 +56,8 @@ test.describe('Dashboard', () => {
   test('levels are listed from the navbar XP figure, not on the profile', async ({ page }) => {
     await expect(page.getByText('1 / 2')).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Explorer Levels' })).toHaveCount(0);
-    // Treasure hunt finds sit above the achievements list.
-    const order = await page.locator('h2.px-title').allTextContents();
-    expect(order.findIndex(h => h.startsWith('Treasure Hunt Finds'))).toBeLessThan(order.indexOf('Achievements'));
+    // The treasure-hunt finds section is gone (2026-11-02).
+    await expect(page.getByRole('heading', { name: /Treasure Hunt Finds/ })).toHaveCount(0);
 
     await page.locator('.navbar__user').click();
     const modal = page.locator('.levels-modal');
@@ -88,28 +87,5 @@ test.describe('Dashboard', () => {
     await expect(modal.getByText('Unlocked 1 Jan 2026')).toBeVisible();
     await page.locator('.px-modal__close').click();
     await expect(modal).toHaveCount(0);
-  });
-
-  test('Treasure Hunt Finds is empty at first, with a pointer to the Treasure Hunt page', async ({ page }) => {
-    await expect(page.getByRole('heading', { name: 'Treasure Hunt Finds' })).toBeVisible();
-    await expect(page.getByText('No treasure found yet.')).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Start a treasure hunt.' })).toHaveAttribute('href', '/treasure-hunt');
-  });
-
-  test('Treasure Hunt Finds shows each found card; its detail names the guess and XP', async ({ page }) => {
-    const found = {
-      _id: '9', name: 'Týn Church', slug: 'tyn-church', localizedNames: { cz: 'Týnský chrám', zh: '泰恩教堂' },
-      labels: ['church'], coordinates: { lat: 50.0875, lng: 14.4224 }, rarity: 'rare', xpReward: 20,
-      coverImage: '', pixelArtKey: '', unlocked: true, _guessAttempt: 2, _checkedInAt: '2026-01-01T00:00:00.000Z',
-    };
-    await page.route('**/api/user/treasures', route => route.fulfill({ json: [found] }));
-    await page.reload();
-    await expect(page.getByRole('heading', { name: 'Treasure Hunt Finds (1)' })).toBeVisible();
-    await expect(page.locator('.loc-card__name')).toHaveText('Týn Church');
-    await page.route('**/api/locations/tyn-church', route => route.fulfill({
-      json: { ...found, description: { en: 'A church.' }, checkedInAt: '2026-01-01T00:00:00.000Z', guessAttempt: 2, xpEarned: 100 },
-    }));
-    await page.locator('.loc-card').click();
-    await expect(page.getByText(/found on a treasure hunt on guess 2, \+100 XP/)).toBeVisible();
   });
 });

@@ -4,17 +4,23 @@ import { achField, formatPercent, SHOW_UNLOCK_RATE } from '../../utils/achieveme
 import AchievementIcon from './AchievementIcon';
 
 // Dashboard summary (2026-11-02): how much of the catalogue is unlocked, and
-// the user's rarest unlocked achievements (lowest share of players first).
-// The grid shows a single row however wide the screen; the rest are cut by
-// `.ach-showcase` (extra rows collapse to zero height). The full list is on
-// /achievements.
+// the user's unlocked achievements from the highest tier down (Diamond to
+// Bronze; within a tier the lowest share of players, then the newest).
+// The grid shows at most two rows (three columns on phones, so up to six
+// there); the rest are cut by `.ach-showcase` (extra rows collapse to zero
+// height). The full list is on /achievements.
+const TIER_RANK = { easy: 1, medium: 2, hard: 3, extreme: 4 };
+
 export default function RarestAchievements({ achievements, onOpen }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const unlocked = achievements.filter(a => a.unlocked);
   const pct = achievements.length ? Math.round((unlocked.length / achievements.length) * 100) : 0;
-  const rarest = [...unlocked].sort((a, b) => (a.unlockRate ?? 0) - (b.unlockRate ?? 0));
+  const rarest = [...unlocked].sort((a, b) =>
+    (TIER_RANK[b.difficulty] ?? 0) - (TIER_RANK[a.difficulty] ?? 0)
+    || (a.unlockRate ?? 0) - (b.unlockRate ?? 0)
+    || new Date(b.unlockedAt || 0) - new Date(a.unlockedAt || 0));
 
   return (
     <section style={{ marginTop: 28 }}>

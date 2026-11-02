@@ -10,8 +10,6 @@ import RarestAchievements from '../components/achievements/RarestAchievements';
 import AchievementModal from '../components/achievements/AchievementModal';
 import LevelsModal from '../components/dashboard/LevelsModal';
 import { useWakeLock } from '../hooks/useWakeLock';
-import LocationCard from '../components/locations/LocationCard';
-import LocationDetail from '../components/locations/LocationDetail';
 
 export default function DashboardPage() {
   const { user, guest, logout } = useAuth();
@@ -24,9 +22,6 @@ export default function DashboardPage() {
   const [achData, setAchData]   = useState(null);
   const [selectedAch, setSelectedAch] = useState(null);
   const [loading, setLoading]   = useState(true);
-  // Cards found through a treasure hunt (signed-in users only).
-  const [treasures, setTreasures] = useState(null);
-  const [openSlug, setOpenSlug]   = useState(null);
   // Every explorer level: opened from the level badge here or the navbar's
   // XP · Lv figure (hidden on phones, so the badge is the way in there).
   const [levelsOpen, setLevelsOpen] = useState(false);
@@ -36,11 +31,6 @@ export default function DashboardPage() {
       .then(([p, a]) => { setProgress(p.data); setAchData(a.data); })
       .finally(() => setLoading(false));
   }, []);
-
-  useEffect(() => {
-    if (!user) return;
-    userAPI.getTreasures().then(res => setTreasures(res.data)).catch(() => setTreasures([]));
-  }, [user]);
 
   if (loading || !progress || !achData) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -179,26 +169,6 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* Treasure hunt finds */}
-      {user && treasures && (
-        <section style={{ marginTop: 28 }}>
-          <h2 className="px-title" style={{ fontSize: 22, marginBottom: 14 }}>
-            {t('dashboard.treasures')} {treasures.length > 0 && <span style={{ color: 'var(--text-muted)' }}>({treasures.length})</span>}
-          </h2>
-          {treasures.length > 0 ? (
-            <div className="location-grid">
-              {treasures.map(loc => (
-                <LocationCard key={loc.slug} location={loc} onClick={setOpenSlug} />
-              ))}
-            </div>
-          ) : (
-            <p className="guide-body" style={{ color: 'var(--text-muted)' }}>
-              {t('dashboard.treasuresEmpty')} <Link to="/treasure-hunt" style={{ textDecoration: 'underline' }}>{t('dashboard.treasuresLink')}</Link>
-            </p>
-          )}
-        </section>
-      )}
-
       {/* Achievements: share unlocked and the rarest ones (full list on /achievements) */}
       <RarestAchievements achievements={achievements} onOpen={setSelectedAch} />
 
@@ -227,7 +197,6 @@ export default function DashboardPage() {
         )}
       </div>
 
-      {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
       {levelsOpen && <LevelsModal currentLevel={levelInfo.level} onClose={() => setLevelsOpen(false)} />}
 
       {selectedAch && <AchievementModal achievement={selectedAch} onClose={() => setSelectedAch(null)} />}
