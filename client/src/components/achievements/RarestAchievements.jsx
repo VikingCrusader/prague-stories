@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
-import { achField, formatPercent } from '../../utils/achievementText';
+import { achField, formatPercent, SHOW_UNLOCK_RATE } from '../../utils/achievementText';
 import AchievementIcon from './AchievementIcon';
 
 // Dashboard summary (2026-11-02): how much of the catalogue is unlocked, and
@@ -31,9 +31,9 @@ export default function RarestAchievements({ achievements, onOpen }) {
           <div className="ach-showcase">
             {rarest.map(a => (
               <button key={a.id} type="button" className="ach-tile" onClick={() => onOpen(a)}>
-                <span className="ach-icon"><AchievementIcon achievement={a} /></span>
+                <span className="ach-icon" data-difficulty={a.difficulty}><AchievementIcon achievement={a} /></span>
                 <span className="ach-tile__name">{convert(achField(a, 'name', lang))}</span>
-                <span className="ach-tile__rate">{t('ach.rate', { pct: formatPercent(a.unlockRate, lang) })}</span>
+                {SHOW_UNLOCK_RATE && <span className="ach-tile__rate">{t('ach.rate', { pct: formatPercent(a.unlockRate, lang) })}</span>}
               </button>
             ))}
           </div>

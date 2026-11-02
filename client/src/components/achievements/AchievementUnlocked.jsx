@@ -91,10 +91,10 @@ export default function AchievementUnlocked() {
               style={{ '--a': `${(360 / SPARKS) * i}deg`, '--d': `${48 + (i % 3) * 14}px`, animationDelay: `${0.25 + (i % 4) * 0.04}s` }}
             />
           ))}
-          <span className="ach-icon ach-unlock__icon"><AchievementIcon achievement={current} /></span>
+          <span className="ach-icon ach-unlock__icon" data-difficulty={current.difficulty}><AchievementIcon achievement={current} /></span>
         </div>
         <div className="ach-unlock__text">
-          <div className="ach-unlock__label">🏆 {t('ach.unlockedBanner')}</div>
+          <div className="ach-unlock__label">🏆 {t('ach.unlockedBanner')}{current.xp > 0 && <span className="ach-unlock__xp"> · +{current.xp} XP</span>}</div>
           <div className="ach-unlock__name">{convert(achField(current, 'name', lang))}</div>
           {current.flavor && <div className="ach-unlock__flavor">{convert(achField(current, 'flavor', lang))}</div>}
         </div>

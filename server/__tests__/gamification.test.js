@@ -2,70 +2,21 @@ import { calculateLevel, evaluateAchievements, ACHIEVEMENTS, saintOf, LEVELS, hu
 
 describe('calculateLevel', () => {
   describe('level thresholds', () => {
-    const cases = [
-      [0,     1,  'Newcomer',               80,  0],
-      [80,    2,  'Tourist',                240, 0],
-      [240,   3,  'Wanderer',               450, 0],
-      [450,   4,  'Explorer',               700, 0],
-      [700,   5,  'Trailblazer',            980, 0],
-      [980,   6,  'Adventurer',            1310, 0],
-      [1310,  7,  'Pathfinder',            1660, 0],
-      [1660,  8,  'Urban Scout',           2040, 0],
-      [2040,  9,  'Cartographer',          2450, 0],
-      [2450,  10, 'Chronicler',            2880, 0],
-      [2880,  11, 'Journeyman Traveler',   3340, 0],
-      [3340,  12, 'City Sage',             3820, 0],
-      [3820,  13, 'Old Town Regular',      4330, 0],
-      [4330,  14, 'Riverside Ranger',      4850, 0],
-      [4850,  15, 'Vltava Voyager',        5400, 0],
-      [5400,  16, 'Bohemian Scholar',      5970, 0],
-      [5970,  17, 'Castle Page',           6560, 0],
-      [6560,  18, "Alchemist's Apprentice",7160, 0],
-      [7160,  19, 'Golem Tamer',           7790, 0],
-      [7790,  20, 'Court Herald',          8430, 0],
-      [8430,  21, 'Royal Cartographer',    9100, 0],
-      [9100,  22, 'Keeper of Secrets',     9780, 0],
-      [9780,  23, 'Bridge Sentinel',      10470, 0],
-      [10470, 24, "Castellan's Squire",   11190, 0],
-      [11190, 25, 'Hradčany Vanguard',    11920, 0],
-      [11920, 26, 'Master Alchemist',     12660, 0],
-      [12660, 27, 'Tournament Champion',  13430, 0],
-      [13430, 28, 'Medieval Duelist',     14210, 0],
-      [14210, 29, 'Conqueror of the Vltava', 15000, 0],
-      [15000, 30, 'Charles Bridge Watchman', 15750, 0],
-      [15750, 31, 'Silver Knight',        16510, 0],
-      [16510, 32, 'Prague Paladin',       17270, 0],
-      [17270, 33, 'Knight of the Golden Lane', 18040, 0],
-      [18040, 34, 'Castellan of Hradčany', 18810, 0],
-      [18810, 35, 'Seneschal of Vyšehrad', 19590, 0],
-      [19590, 36, 'Warden of the Old Town', 20370, 0],
-      [20370, 37, 'Reeve of Nové Město',  21160, 0],
-      [21160, 38, 'Bailiff of the Realm', 21960, 0],
-      [21960, 39, 'Court Chronicler',     22760, 0],
-      [22760, 40, 'Royal Chamberlain',    23570, 0],
-      [23570, 41, 'Baron of the Vltava',  24380, 0],
-      [24380, 42, 'Viscount of Malá Strana', 25200, 0],
-      [25200, 43, 'Count of Bohemia',     26020, 0],
-      [26020, 44, 'Count Palatine',       26850, 0],
-      [26850, 45, 'Marquess of Vyšehrad', 27690, 0],
-      [27690, 46, 'Margrave of Moravia',  28530, 0],
-      [28530, 47, 'Landgrave of Karlštejn', 29380, 0],
-      [29380, 48, 'Burgrave of the Castle', 30230, 0],
-      [30230, 49, 'Duke of Malá Strana',  31090, 0],
-      [31090, 50, 'Archduke of Prague',   31960, 0],
-      [31960, 51, 'Grand Elector',        32830, 0],
-      [32830, 52, 'Prince of Bohemia',    33710, 0],
-      [33710, 53, 'Crown Prince of the Realm', 34590, 0],
-      [34590, 54, 'King of the Vltava',   35480, 0],
-      [35480, 55, 'High King of Bohemia', 36370, 0],
-      [36370, 56, 'Holy Roman Emperor',   37270, 0],
-      [37270, 57, 'Immortal Wanderer',    38180, 0],
-      [38180, 58, 'Eternal Watchman of Prague', 39090, 0],
-      [39090, 59, 'Mythic Sovereign',     40000, 0],
-      [40000, 60, 'Prague Legend',          null, 100],
-    ];
+    test('100 levels, 1-60 unchanged, 100,000 XP at the top', () => {
+      expect(LEVELS).toHaveLength(100);
+      expect(LEVELS.slice(0, 60).map(l => l.xpRequired)).toEqual([0, 80, 240, 450, 700, 980, 1310, 1660, 2040, 2450, 2880, 3340, 3820, 4330, 4850, 5400, 5970, 6560, 7160, 7790, 8430, 9100, 9780, 10470, 11190, 11920, 12660, 13430, 14210, 15000, 15750, 16510, 17270, 18040, 18810, 19590, 20370, 21160, 21960, 22760, 23570, 24380, 25200, 26020, 26850, 27690, 28530, 29380, 30230, 31090, 31960, 32830, 33710, 34590, 35480, 36370, 37270, 38180, 39090, 40000]);
+      expect(LEVELS[99].xpRequired).toBe(100000);
+      for (let i = 1; i < LEVELS.length; i++) expect(LEVELS[i].xpRequired).toBeGreaterThan(LEVELS[i - 1].xpRequired);
+      for (const l of LEVELS) for (const k of ['title', 'title_cz', 'title_zh']) expect(l[k]).toEqual(expect.any(String));
+    });
 
-    test.each(cases)('xp=%i → level %i "%s"', (xp, level, title, nextLevelXP, progress) => {
+    test.each([
+      [0, 1, 'Newcomer at the Gate', 80, 0],
+      [16350, 31, 'Alderman', 16510, 79],
+      [40000, 60, 'King of Bohemia', 41200, 0],
+      [100000, 100, 'Soul of Prague', null, 100],
+      [250000, 100, 'Soul of Prague', null, 100],
+    ])('xp=%i → level %i "%s"', (xp, level, title, nextLevelXP, progress) => {
       const result = calculateLevel(xp);
       expect(result.level).toBe(level);
       expect(result.title).toBe(title);
@@ -101,9 +52,9 @@ describe('calculateLevel', () => {
   });
 
   describe('max level', () => {
-    test('stays at level 60 above 40000 XP', () => {
-      const result = calculateLevel(99999);
-      expect(result.level).toBe(60);
+    test('stays at level 100 above 100,000 XP', () => {
+      const result = calculateLevel(150000);
+      expect(result.level).toBe(100);
       expect(result.progress).toBe(100);
       expect(result.nextLevelXP).toBeNull();
     });
@@ -112,20 +63,20 @@ describe('calculateLevel', () => {
   describe('multilingual titles', () => {
     test('level 1 has Czech and Chinese titles', () => {
       const result = calculateLevel(0);
-      expect(result.title_cz).toBe('Nováček');
-      expect(result.title_zh).toBe('新来者');
+      expect(result.title_cz).toBe('Příchozí u brány');
+      expect(result.title_zh).toBe('城门外的来客');
     });
 
     test('level 30 has correct multilingual titles', () => {
       const result = calculateLevel(15000);
-      expect(result.title_cz).toBe('Strážce Karlova mostu');
-      expect(result.title_zh).toBe('查理大桥守望者');
+      expect(result.title_cz).toBe('Rektor');
+      expect(result.title_zh).toBe('大学校长');
     });
 
     test('level 60 has correct multilingual titles', () => {
       const result = calculateLevel(40000);
-      expect(result.title_cz).toBe('Pražská legenda');
-      expect(result.title_zh).toBe('布拉格传奇');
+      expect(result.title_cz).toBe('Král český');
+      expect(result.title_zh).toBe('波希米亚国王');
     });
   });
 });
@@ -412,10 +363,69 @@ describe('evaluateAchievements', () => {
     expect(ids(st.slice(1))).not.toContain('trainspotter');
   });
 
-  test('manchester_of_prague needs half of the Smíchov cards', () => {
-    const ids = n => evaluateAchievements({ ...baseStats, quarterTotal: { 'Smíchov': 41 }, quarterCount: { 'Smíchov': n } }, []).map(a => a.id);
-    expect(ids(20)).not.toContain('manchester_of_prague');
-    expect(ids(21)).toContain('manchester_of_prague');
+  test('manchester_of_prague needs half of the Smíchov cards, the three places among them', () => {
+    const three = ['staropramen-navstevnicke-centrum', 'lihovar', 'smichovske-nadrazi'];
+    const ids = (n, s) => evaluateAchievements({ ...baseStats, checkedSlugs: s, quarterTotal: { 'Smíchov': 41 }, quarterCount: { 'Smíchov': n } }, []).map(a => a.id);
+    expect(ids(20, three)).not.toContain('manchester_of_prague');
+    expect(ids(21, three)).toContain('manchester_of_prague');
+    expect(ids(41, three.slice(1))).not.toContain('manchester_of_prague');
+  });
+
+  test('the evening batch: area shares with places, easter eggs, White Mountain', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    const wild = ['prokopske-valley', 'divoka-sarka', 'krucifix-motol', 'modranska-rokle', 'viewpoint-dobeka-1782864480282', 'rozhledna-cibulka'];
+    expect(ids({ checkedSlugs: wild, labelCount: { nature: 15 } })).toContain('wild_prague');
+    expect(ids({ checkedSlugs: wild.slice(1), labelCount: { nature: 30 } })).not.toContain('wild_prague');
+    const q = (quarter, total, n, slugs) => ({ checkedSlugs: slugs, quarterTotal: { [quarter]: total }, quarterCount: { [quarter]: n } });
+    expect(ids(q('Žižkov', 30, 15, ['zizkov-tv-tower', 'zizkov-horse-statue']))).toContain('tower_and_general');
+    expect(ids(q('Žižkov', 30, 14, ['zizkov-tv-tower', 'zizkov-horse-statue']))).not.toContain('tower_and_general');
+    expect(ids(q('Nusle', 31, 13, ['nusle-bridge', 'nuselske-udoli']))).toContain('valley_of_laments');
+    expect(ids(q('Vyšehrad', 22, 18, ['sousosi-premysl-a-libuse']))).toContain('libuse_prophecy');
+    expect(ids(q('Vyšehrad', 22, 17, ['sousosi-premysl-a-libuse']))).not.toContain('libuse_prophecy');
+    expect(ids(q('Josefov', 13, 11, ['old-new-synagogue-1782601630704', 'josefov']))).toContain('golem_in_the_attic');
+    expect(ids({ checkedSlugs: ['sapa-praha'] })).toContain('a_bowl_of_pho');
+    expect(ids({ checkedSlugs: ['new-castle-ruins-near-kunratice-1783003399902'] })).toContain('king_died_of_anger');
+    const wm = ['mohyla-bile-hory', 'hvezda-game-reserve', 'the-pilgrimage-site-of-our-lady-of-victory-on-white-mountain-1783352113593'];
+    expect(ids({ checkedSlugs: wm })).toContain('after_white_mountain');
+    expect(ids({ checkedSlugs: wm.slice(1) })).not.toContain('after_white_mountain');
+  });
+
+  test('marathon_day, payday and rain_or_shine', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ dayMaxCards: 50 })).toContain('marathon_day');
+    expect(ids({ dayMaxCards: 49 })).not.toContain('marathon_day');
+    expect(ids({ dayMaxXp: 1000 })).toContain('payday');
+    expect(ids({ dayMaxXp: 999 })).not.toContain('payday');
+    expect(ids({ longestStreak: 7 })).toContain('rain_or_shine');
+    expect(ids({ longestStreak: 6 })).not.toContain('rain_or_shine');
+  });
+
+  test('night_owl and the_long_way_round', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ nightOwl: 1 })).toContain('night_owl');
+    expect(ids({ diamondExpeditions: 1 })).toContain('the_long_way_round');
+    expect(ids({})).not.toEqual(expect.arrayContaining(['night_owl']));
+  });
+
+  test('for_the_citizens, around_the_world and no_tourists_here', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ labelCount: { municipal: 10 } })).toContain('for_the_citizens');
+    expect(ids({ labelCount: { municipal: 9 } })).not.toContain('for_the_citizens');
+    expect(ids({ embassySlugs: ['a', 'b'], checkedSlugs: ['a', 'b'] })).toContain('around_the_world');
+    expect(ids({ embassySlugs: ['a', 'b'], checkedSlugs: ['a'] })).not.toContain('around_the_world');
+    expect(ids({ embassySlugs: [] })).not.toContain('around_the_world');
+    expect(ids({ districtCount: { 'Praha 1': 50, 'Praha 8': 20, 'Praha 22': 10 } })).toContain('no_tourists_here');
+    expect(ids({ districtCount: { 'Praha 1': 50, 'Praha 7': 40, 'Praha 8': 29 } })).not.toContain('no_tourists_here');
+  });
+
+  test('troy_not_in_greece and neutral_fan', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ checkedSlugs: ['trojsky-kun'], quarterCount: { Troja: 5 } })).toContain('troy_not_in_greece');
+    expect(ids({ checkedSlugs: [], quarterCount: { Troja: 9 } })).not.toContain('troy_not_in_greece');
+    expect(ids({ checkedSlugs: ['trojsky-kun'], quarterCount: { Troja: 4 } })).not.toContain('troy_not_in_greece');
+    const four = ['fortuna-arena', 'epet-arena', 'o2-arena', 'strahov-stadium'];
+    expect(ids({ checkedSlugs: four })).toContain('neutral_fan');
+    expect(ids({ checkedSlugs: four.slice(1) })).not.toContain('neutral_fan');
   });
 
   test('each unlocked achievement has id (string) and unlockedAt (Date)', () => {

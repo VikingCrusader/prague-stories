@@ -1,7 +1,7 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
-import { HISTORY_LABELS, evaluateAchievements, describeAchievement, RANDOM_DRAW_WINDOW_MS, saintOf } from './gamification.js';
+import { HISTORY_LABELS, evaluateAchievements, describeAchievement, achievementXp, calculateLevel, RANDOM_DRAW_WINDOW_MS, saintOf } from './gamification.js';
 import { haversineDistance } from '../utils/geo.js';
 
 // The numbers every achievement's check() and progress() read. Used after a
@@ -45,8 +45,12 @@ export async function buildAchievementStats(userId, user = null) {
   let huntFinds = 0;
   let huntComeback = 0;   // finds after at least one miss
   let fastestHuntMs = null; // quickest hunt find, start to hit
+  let nightOwl = 0;       // check-ins between 0:00 and 4:00 Prague time
+  let diamondExpeditions = 0;
   let earlyBird = 0;      // check-ins between 4:00 and 7:00 Prague time (late night doesn't count)
   const byDay = {};       // Prague date -> city check-ins that day
+  const dayCards = {};    // Prague date -> all cards collected that day
+  const dayXp = {};       // Prague date -> XP earned that day
 
   for (const ci of allCheckins) {
     if (!ci.location) continue;
@@ -77,6 +81,12 @@ export async function buildAchievementStats(userId, user = null) {
     const when = new Date(ci.checkedInAt || ci.createdAt || 0);
     const { day, hour } = pragueDayHour(when);
     if (hour >= 4 && hour < 7) earlyBird++;
+    if (hour < 4) nightOwl++;
+    // Expedition cards with a diamond in the frame: 180 XP and up (100 km+).
+    if ((ci.location.labels || []).includes('outside') && (ci.location.xpReward || 0) >= 180) diamondExpeditions++;
+    dayCards[day] = (dayCards[day] || 0) + 1;
+    // Old check-ins have no xpEarned; the card's reward is the best guess.
+    dayXp[day] = (dayXp[day] || 0) + (ci.xpEarned ?? ci.location.xpReward ?? 0);
     if (!(ci.location.labels || []).includes('outside')) (byDay[day] ||= []).push(ci.location);
     if (ci.location.district) districtCount[ci.location.district] = (districtCount[ci.location.district] || 0) + 1;
     if (ci.location.quarter) quarterCount[ci.location.quarter] = (quarterCount[ci.location.quarter] || 0) + 1;
@@ -102,6 +112,14 @@ export async function buildAchievementStats(userId, user = null) {
     }
   }
 
+  // Longest run of consecutive Prague days with at least one new card.
+  const dayNumbers = Object.keys(dayCards).map(d => Date.UTC(+d.slice(0, 4), +d.slice(5, 7) - 1, +d.slice(8, 10)) / 86400000).sort((a, b) => a - b);
+  let longestStreak = 0;
+  for (let i = 0, run = 0; i < dayNumbers.length; i++) {
+    run = i > 0 && dayNumbers[i] - dayNumbers[i - 1] === 1 ? run + 1 : 1;
+    longestStreak = Math.max(longestStreak, run);
+  }
+
   // Most check-ins inside any 5-minute window (Spoilt for Choice).
   const times = allCheckins.map(ci => new Date(ci.checkedInAt || ci.createdAt || 0).getTime()).sort((a, b) => a - b);
   let burst5min = 0;
@@ -110,13 +128,14 @@ export async function buildAchievementStats(userId, user = null) {
     burst5min = Math.max(burst5min, j - i + 1);
   }
 
-  const [customLocations, totalLocations, landmarkTotal, cityTotal, quarters, legends, districts] = await Promise.all([
+  const [customLocations, totalLocations, landmarkTotal, cityTotal, quarters, legends, embassies, districts] = await Promise.all([
     Location.countDocuments({ addedBy: userId }),
     Location.countDocuments({}),
     Location.countDocuments({ labels: 'landmark' }),
     Location.countDocuments({ labels: { $ne: 'outside' } }),
     Location.aggregate([{ $match: { quarter: { $type: 'string' } } }, { $group: { _id: '$quarter', n: { $sum: 1 } } }]),
     Location.find({ rarity: 'legend' }, 'slug').sort({ slug: 1 }).lean(),
+    Location.find({ labels: 'embassy' }, 'slug').sort({ slug: 1 }).lean(),
     Location.aggregate([
       { $match: { district: /^Praha \d+$/ } },
       { $group: { _id: '$district', n: { $sum: 1 } } },
@@ -139,13 +158,19 @@ export async function buildAchievementStats(userId, user = null) {
     huntComeback,
     huntTimedOut: huntTimedOut(user?.randomDraw),
     earlyBird,
+    nightOwl,
+    diamondExpeditions,
     dayMaxKm,
     dayMaxDistricts,
+    dayMaxCards: Math.max(0, ...Object.values(dayCards)),
+    dayMaxXp: Math.max(0, ...Object.values(dayXp)),
+    longestStreak,
     districtsVisited: Object.keys(districtCount).filter(d => /^Praha \d+$/.test(d)).length,
     labelSet: [...labelSet],
     saintCount,
     burst5min,
     rarityCount,
+    embassySlugs: embassies.map(e => e.slug),
     districtCount,
     districtTotal: Object.fromEntries(districts.map(d => [d._id, d.n])),
     legendSlugs: legends.map(l => l.slug),
@@ -166,15 +191,30 @@ export async function syncAchievements(user) {
   const stats = await buildAchievementStats(user._id, user);
   const have = (user.achievements || []).map(a => a.id);
   const newAchievements = evaluateAchievements(stats, have);
+  // Each one is pushed with its XP in the same guarded update, so a
+  // repeated sync can neither add it twice nor pay twice.
+  let gained = 0;
   for (const ach of newAchievements) {
-    await User.updateOne(
+    const xp = achievementXp(ach.id);
+    const res = await User.updateOne(
       { _id: user._id, 'achievements.id': { $ne: ach.id } },
-      { $push: { achievements: ach } },
+      { $push: { achievements: ach }, $inc: { totalXP: xp } },
     );
+    if (res.modifiedCount) gained += xp;
   }
+  let progress = null;
   if (newAchievements.length) {
     if (!user.achievements) user.achievements = [];
     user.achievements.push(...newAchievements);
   }
-  return { stats, newAchievements: newAchievements.map(describeAchievement) };
+  if (gained) {
+    const levelBefore = calculateLevel(user.totalXP || 0).level;
+    const fresh = await User.findById(user._id, 'totalXP').lean();
+    const levelInfo = calculateLevel(fresh.totalXP);
+    await User.updateOne({ _id: user._id }, { $set: { explorerLevel: levelInfo.level } });
+    user.totalXP = fresh.totalXP;
+    user.explorerLevel = levelInfo.level;
+    progress = { levelBefore, levelInfo, totalXP: fresh.totalXP };
+  }
+  return { stats, newAchievements: newAchievements.map(describeAchievement), progress };
 }

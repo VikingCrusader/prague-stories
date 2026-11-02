@@ -1,7 +1,7 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
-import { evaluateAchievements, describeAchievement, calculateLevel, RANDOM_DRAW_WINDOW_MS } from '../services/gamification.js';
+import { evaluateAchievements, describeAchievement, achievementXp, calculateLevel, RANDOM_DRAW_WINDOW_MS } from '../services/gamification.js';
 import { buildAchievementStats } from '../services/achievementStats.js';
 import { haversineDistance } from '../utils/geo.js';
 
@@ -86,6 +86,8 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
   const newAchievements = evaluateAchievements(stats, existingAchievementIds);
   if (newAchievements.length > 0) {
     user.achievements.push(...newAchievements);
+    // Each achievement pays its own XP on top of the card's.
+    user.totalXP += newAchievements.reduce((n, a) => n + achievementXp(a.id), 0);
   }
 
   const levelInfo = calculateLevel(user.totalXP);

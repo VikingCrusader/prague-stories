@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { announceAchievements } from '../utils/achievementEvents';
+import { announceAchievements, announceAchievementProgress } from '../utils/achievementEvents';
 import { HUNT_WIN_SOUND_MS } from '../utils/sound';
 
 const BASE_URL = import.meta.env.PROD
@@ -20,6 +20,7 @@ api.interceptors.response.use(res => {
       : url.startsWith('/checkins') ? 1200 : 300;
     announceAchievements(list, delay);
   }
+  if (res.data?.achievementProgress) announceAchievementProgress(res.data.achievementProgress);
   return res;
 });
 

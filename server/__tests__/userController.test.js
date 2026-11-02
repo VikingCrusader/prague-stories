@@ -61,14 +61,17 @@ describe('GET /api/user/progress', () => {
     const res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${token}`);
 
     expect(res.status).toBe(200);
-    expect(res.body.totalXP).toBe(100);
+    // 100 from the card, the rest from the achievements it unlocked.
+    const me = await User.findOne({}).sort({ createdAt: -1 }).lean();
+    expect(res.body.totalXP).toBe(me.totalXP);
+    expect(res.body.totalXP).toBeGreaterThan(100);
     expect(res.body.totalCheckins).toBe(1);
     expect(res.body.presetCheckins).toBe(1);
     expect(res.body.totalPreset).toBe(2);
     expect(res.body.unlockPercent).toBe(50);
     expect(res.body.labelCount).toEqual({ bridge: 1, historical: 1 });
     expect(res.body.rarityCount.legend).toBe(1);
-    expect(res.body.levelInfo.level).toBe(2);
+    expect(res.body.levelInfo.level).toBeGreaterThanOrEqual(2);
   });
 });
 
@@ -149,12 +152,30 @@ describe('GET /api/user/achievements', () => {
 
     const res = await request(app).get('/api/user/achievements').set('Authorization', `Bearer ${token}`);
     const get = id => res.body.achievements.find(a => a.id === id);
-    expect(get('north_to_south')).toMatchObject({ unlocked: true, progress: { current: 15, target: 15, unit: 'km' } });
+    expect(get('north_to_south')).toMatchObject({ unlocked: true, progress: { current: 20, target: 15, unit: 'km' } });
     expect(get('early_bird').unlocked).toBe(true);
     expect(get('early_bird').progress).toEqual({ current: 1, target: 1 }); // 00:30 is not counted
+    expect(get('night_owl').unlocked).toBe(true); // ...but it is a night owl
     expect(get('next_time').unlocked).toBe(true);
     expect(get('dropping_by').progress).toEqual({ current: 2, target: 5 });
     expect(get('time_traveller').progress.labels).toHaveLength(6);
+  });
+
+  test('day totals and streaks use Prague days', async () => {
+    const { token, user } = await createAuthedUser();
+    // Seven Prague days in a row (1-7 Oct, 23:30 UTC = 01:30 next day CEST, so
+    // 30 Sep 23:30 UTC counts as 1 Oct), then a gap, then one more day.
+    const days = ['2026-09-30T23:30:00Z', '2026-10-02T10:00:00Z', '2026-10-03T10:00:00Z', '2026-10-04T10:00:00Z',
+      '2026-10-05T10:00:00Z', '2026-10-06T10:00:00Z', '2026-10-07T10:00:00Z', '2026-10-09T10:00:00Z'];
+    for (let i = 0; i < days.length; i++) {
+      const loc = await Location.create({ name: `D${i}`, slug: `d${i}`, coordinates: CHARLES_BRIDGE, rarity: 'legend', xpReward: 100 });
+      await CheckIn.create({ user: user._id, location: loc._id, checkedInAt: new Date(days[i]), xpEarned: i === 1 ? 1000 : 100 });
+    }
+    const res = await request(app).get('/api/user/achievements').set('Authorization', `Bearer ${token}`);
+    const get = id => res.body.achievements.find(a => a.id === id);
+    expect(get('rain_or_shine')).toMatchObject({ unlocked: true, progress: { current: 7, target: 7 } });
+    expect(get('payday').unlocked).toBe(true);
+    expect(get('marathon_day').progress).toEqual({ current: 1, target: 50 });
   });
 
   test('a guest gets no progress; every achievement has a flavor line and an unlock rate', async () => {
@@ -691,7 +712,9 @@ describe('GET /api/user/leaderboard', () => {
     await checkIn(token, 'a');
     await checkIn(token, 'b');
     const res = await request(app).get('/api/user/leaderboard').set('Authorization', `Bearer ${token}`);
-    expect(res.body.entries.find(e => e.username === user.username)).toMatchObject({ cards: 2, totalXP: 20 });
+    const row = res.body.entries.find(e => e.username === user.username);
+    expect(row.cards).toBe(2);
+    expect(row.totalXP).toBe((await User.findById(user._id).lean()).totalXP); // 20 from cards + achievements
   });
 });
 
@@ -707,7 +730,8 @@ describe('GET /api/user/explorers/:username', () => {
     const viewer = await createAuthedUser({ username: 'viewer', email: 'viewer@example.com' });
     const res = await request(app).get(`/api/user/explorers/${encodeURIComponent(user.username)}`).set('Authorization', `Bearer ${viewer.token}`);
     expect(res.status).toBe(200);
-    expect(res.body).toMatchObject({ username: user.username, totalXP: 30, rank: 1, totalCards: 3, isMe: false });
+    expect(res.body).toMatchObject({ username: user.username, rank: 1, totalCards: 3, isMe: false });
+    expect(res.body.totalXP).toBe((await User.findById(user._id).lean()).totalXP);
     expect(res.body.rarityCount).toMatchObject({ rare: 1, common: 1 });
     expect(res.body.cards.map(c => c.slug).sort()).toEqual(['a', 'b']);
     expect(res.body.cards[0]).toMatchObject({ unlocked: true });

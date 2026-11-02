@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import AchievementModal from '../components/achievements/AchievementModal';
 import AchievementIcon from '../components/achievements/AchievementIcon';
-import { achField, formatPercent, formatAchDate, sortAchievements } from '../utils/achievementText';
+import { achField, formatPercent, formatAchDate, sortAchievements, SHOW_UNLOCK_RATE } from '../utils/achievementText';
 
 // Steam-style achievement list (2026-11-02): one row per achievement with
 // its icon, name and one-line flavor, a progress bar, and on
@@ -23,25 +23,32 @@ function AchievementRow({ ach, onOpen }) {
   return (
     <li>
       <button type="button" className={`ach-row${ach.unlocked ? ' ach-row--unlocked' : ''}`} onClick={() => onOpen(ach)}>
-        <span className={`ach-icon${ach.unlocked ? '' : ' ach-icon--locked'}`}><AchievementIcon achievement={ach} /></span>
+        <span className={`ach-icon${ach.unlocked ? '' : ' ach-icon--locked'}`} data-difficulty={ach.difficulty}><AchievementIcon achievement={ach} /></span>
         <span className="ach-row__main">
           <span className="ach-row__name">{convert(achField(ach, 'name', lang))}</span>
           <span className="ach-row__flavor">{convert(achField(ach, 'flavor', lang))}</span>
           {showBar && (
             <span className="ach-progress">
-              <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${Math.round((p.current / p.target) * 100)}%` }} /></span>
+              <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${Math.min(100, Math.round((p.current / p.target) * 100))}%` }} /></span>
               <span className="ach-progress__count">{p.current} / {p.target}{p.unit ? ` ${p.unit}` : ''}</span>
             </span>
           )}
         </span>
         <span className="ach-row__side">
+          {ach.difficulty && (
+            <span className="ach-row__tier" data-difficulty={ach.difficulty}>
+              {t('ach.difficulty')}{lang === 'zh' ? '：' : ': '}{t(`ach.difficulty.${ach.difficulty}`)}
+            </span>
+          )}
           {ach.unlocked && <span className="ach-row__date">{t('ach.unlockedOn', { date: formatAchDate(ach.unlockedAt, lang) })}</span>}
-          <span className="ach-row__rate">{t('ach.rate', { pct: formatPercent(ach.unlockRate, lang) })}</span>
+          {SHOW_UNLOCK_RATE && <span className="ach-row__rate">{t('ach.rate', { pct: formatPercent(ach.unlockRate, lang) })}</span>}
         </span>
       </button>
     </li>
   );
 }
+
+const DIFFICULTIES = ['easy', 'medium', 'hard', 'extreme'];
 
 export default function AchievementsPage() {
   const { user } = useAuth();
@@ -50,6 +57,9 @@ export default function AchievementsPage() {
   const [data, setData] = useState(null);
   const [failed, setFailed] = useState(false);
   const [open, setOpen] = useState(null);
+  // Difficulty filter (2026-11-02): one tier at a time, picking it again
+  // shows them all, like the rarity filter on Explore.
+  const [difficulty, setDifficulty] = useState(null);
 
   useEffect(() => {
     userAPI.getAchievements().then(res => setData(res.data)).catch(() => setFailed(true));
@@ -81,8 +91,36 @@ export default function AchievementsPage() {
                 <Link to="/login" style={{ textDecoration: 'underline' }}>{t('ach.guestNote')}</Link>
               </p>
             )}
+            <div className="ach-filter" role="group" aria-label={t('ach.difficulty')}>
+              <button
+                type="button"
+                className={`ach-filter__chip${difficulty ? '' : ' ach-filter__chip--active'}`}
+                aria-pressed={!difficulty}
+                onClick={() => setDifficulty(null)}
+              >
+                {t('ach.filterAll')} <span className="ach-filter__count">{list.length}</span>
+              </button>
+              {DIFFICULTIES.map(d => {
+                const n = list.filter(a => a.difficulty === d).length;
+                if (!n) return null;
+                const active = difficulty === d;
+                return (
+                  <button
+                    key={d}
+                    type="button"
+                    data-difficulty={d}
+                    className={`ach-filter__chip${active ? ' ach-filter__chip--active' : ''}`}
+                    aria-pressed={active}
+                    onClick={() => setDifficulty(active ? null : d)}
+                  >
+                    <span className="ach-filter__dot" aria-hidden="true" />
+                    {t(`ach.difficulty.${d}`)} <span className="ach-filter__count">{n}</span>
+                  </button>
+                );
+              })}
+            </div>
             <ul className="ach-list">
-              {list.map(a => <AchievementRow key={a.id} ach={a} onOpen={setOpen} />)}
+              {list.filter(a => !difficulty || a.difficulty === difficulty).map(a => <AchievementRow key={a.id} ach={a} onOpen={setOpen} />)}
             </ul>
           </>
         )}

@@ -126,19 +126,27 @@
   color: var(--text-muted);
 }
 .ach-row__date { color: var(--gold); }
+.ach-modal__xp { color: var(--gold); font-variant-numeric: tabular-nums; }
 .ach-row__rate { margin-left: auto; }
 
 @media (max-width: 600px) {
   .ach-row { flex-wrap: wrap; gap: 12px; padding: 10px 12px; }
   .ach-row .ach-icon { width: 48px; height: 48px; font-size: 26px; }
   .ach-row__main { flex-basis: calc(100% - 64px); }
+  /* Date, XP and share sit on one line under the text; each keeps its words
+     together (Chinese otherwise broke "解锁" and "XP" onto a second line),
+     and the share drops to its own line only when there is no room. */
   .ach-row__side {
     flex-basis: 100%;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 2px 12px;
     padding-left: 60px;
+    text-align: left;
   }
+  .ach-row__side > * { white-space: nowrap; }
 }
 
 /* ── Detail modal ────────────────────────────────────────── */
@@ -386,6 +394,7 @@
   color: var(--gold);
   margin-bottom: 4px;
 }
+.ach-unlock__xp { letter-spacing: 0.04em; }
 .ach-unlock__name {
   font-family: var(--ui-font);
   font-size: 22px;
@@ -428,9 +437,286 @@
   .ach-unlock__banner { gap: 14px; padding: 14px 40px 16px 14px; }
   .ach-unlock__iconwrap { width: 60px; height: 60px; }
   .ach-unlock__icon { width: 58px; height: 58px; font-size: 34px; }
-  .ach-unlock__name { font-size: 19px; }
+  .ach-unlock__xp { letter-spacing: 0.04em; }
+.ach-unlock__name { font-size: 19px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .ach-unlock__flash, .ach-unlock__shine, .ach-unlock__spark, .ach-unlock__rays { display: none; }
   .ach-unlock__banner, .ach-unlock__icon { animation: none; }
 }
+
+/* EN/CZ: achievement titles in the same Palatino as the History Timeline's
+   event titles (2026-11-02, user request); ZH keeps its own font. On
+   desktop the titles and the one-line descriptions are a little bigger;
+   phones keep their sizes. */
+html:not([data-lang="zh"]) .ach-row__name,
+html:not([data-lang="zh"]) .ach-modal__name,
+html:not([data-lang="zh"]) .ach-tile__name,
+html:not([data-lang="zh"]) .ach-unlock__name {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif;
+  font-weight: 700;
+}
+@media (min-width: 601px) {
+  html:not([data-lang="zh"]) .ach-row__name { font-size: 19px; }
+  html:not([data-lang="zh"]) .ach-row__flavor { font-size: 15.5px; }
+}
+
+/* Taller rows (2026-11-02, user request): more padding, a bigger icon on
+   desktop, a little more air between the title, the line and the bar. */
+.ach-row { padding: 18px 20px; gap: 18px; }
+.ach-row .ach-icon { width: 64px; height: 64px; font-size: 36px; }
+.ach-row__flavor { margin-top: 5px; }
+.ach-row .ach-progress { margin-top: 10px; }
+@media (max-width: 600px) {
+  .ach-row { padding: 14px 12px; gap: 12px; }
+  .ach-row .ach-icon { width: 52px; height: 52px; font-size: 28px; }
+  .ach-row__main { flex-basis: calc(100% - 68px); }
+  .ach-row__side { padding-left: 64px; }
+}
+
+/* One icon size for every row on desktop (2026-11-02, user's call after
+   trying icons sized to each row's text): the height of a row whose
+   description runs to two lines, so all titles start in the same column. */
+@media (min-width: 601px) {
+  .ach-row .ach-icon { width: 102px; height: 102px; font-size: 56px; }
+}
+/* With a one-line description the text block is shorter than the icon: keep
+   it at the top, so the title lines up with the icon's top edge (the small
+   negative margin takes out the title's own line spacing). The date and
+   share stay centred. */
+@media (min-width: 601px) {
+  .ach-row__main { align-self: flex-start; margin-top: -3px; }
+}
+/* Phones get the desktop layout too (2026-11-02, user request): a bigger
+   square icon, about as tall as the title, two description lines and the
+   bar, with the title level with its top edge. The date and share stay on
+   their own line underneath, across the full width. */
+@media (max-width: 600px) {
+  .ach-row { align-items: flex-start; }
+  .ach-row .ach-icon { width: 86px; height: 86px; font-size: 46px; }
+  .ach-row__main { flex-basis: calc(100% - 98px); align-self: flex-start; margin-top: -3px; }
+  /* Full width under the icon, so the date and the share fit on one line
+     even in Chinese. */
+  .ach-row__side { padding-left: 0; }
+}
+
+/* Bigger detail window and icon (2026-11-02, user request). */
+.ach-modal { max-width: 580px; padding: 28px 30px; }
+.ach-modal__head { gap: 22px; margin-bottom: 22px; }
+.ach-modal .ach-icon--lg { width: 128px; height: 128px; font-size: 68px; }
+.ach-modal__name { font-size: 24px; }
+.ach-modal__flavor { font-size: 16px; }
+.ach-modal__label { font-size: 14px; }
+.ach-modal__req { font-size: 16px; }
+.ach-modal__meta { font-size: 14px; }
+.ach-modal__section { margin-top: 18px; }
+@media (max-width: 600px) {
+  .ach-modal { padding: 20px 16px 24px; }
+  .ach-modal__head { gap: 16px; }
+  .ach-modal .ach-icon--lg { width: 100px; height: 100px; font-size: 54px; }
+  .ach-modal__name { font-size: 21px; }
+  .ach-modal__flavor { font-size: 15px; }
+}
+
+/* Phones: the detail sheet takes about three quarters of the screen
+   (2026-11-02, user request), with a big icon centred on top, the name and
+   line under it, then the requirement, progress and details. */
+@media (max-width: 600px) {
+  .ach-modal {
+    min-height: 75vh;
+    min-height: 75dvh;
+    padding: 28px 20px 28px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ach-modal__head {
+    flex-direction: column;
+    text-align: center;
+    padding-right: 0;
+    gap: 14px;
+    margin: 8px 0 20px;
+  }
+  .ach-modal .ach-icon--lg { width: 150px; height: 150px; font-size: 80px; }
+  .ach-modal__name { font-size: 24px; }
+  .ach-modal__flavor { font-size: 16px; margin-top: 8px; }
+  .ach-modal__req { font-size: 17px; }
+  .ach-modal__meta { margin-top: auto; padding-top: 16px; }
+}
+
+/* Difficulty and XP as two badges under the name (2026-11-02, user
+   request: up top and easy to see, not squeezed in with the date). The
+   difficulty is coloured by metal (see below). */
+.ach-modal__badges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.ach-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border: 2px solid currentColor;
+  font-family: var(--ui-font);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+  background: color-mix(in srgb, currentColor 12%, transparent);
+}
+/* Difficulty in metals and a gem (2026-11-02, user's call; iron was
+   dropped so no tier looks grey like a locked achievement): bronze, silver,
+   gold, diamond, easiest to hardest. Each theme has its own shades. */
+:root {
+  --diff-bronze: #d08a4a;
+  --diff-silver: #dfe4ea;
+  --diff-gold: #f2c230;
+  --diff-diamond: #2f6fd8; /* deep sea blue, apart from the sky-blue Rare cards */
+}
+:root[data-theme="light"] {
+  --diff-bronze: #8e5524;
+  --diff-silver: #6c7684;
+  --diff-gold: #9a7000;
+  --diff-diamond: #0d3f8a;
+}
+.ach-badge-pill[data-difficulty="easy"] { color: var(--diff-bronze); }
+.ach-badge-pill[data-difficulty="medium"] { color: var(--diff-silver); }
+.ach-badge-pill[data-difficulty="hard"] { color: var(--diff-gold); }
+.ach-badge-pill[data-difficulty="extreme"] { color: var(--diff-diamond); }
+/* XP is a filled badge in the same metal as the difficulty (2026-11-02,
+   user request): outlined difficulty, solid XP, so the pair reads as one
+   tier. The text takes the page background colour, dark on the light
+   metals of the dark theme and light on the dark metals of the light one. */
+.ach-badge-pill.ach-badge-pill--xp {
+  font-size: 16px;
+  color: var(--bg-surface);
+  background: var(--gold);
+  border-color: var(--gold);
+}
+.ach-badge-pill--xp[data-difficulty="easy"] { background: var(--diff-bronze); border-color: var(--diff-bronze); }
+.ach-badge-pill--xp[data-difficulty="medium"] { background: var(--diff-silver); border-color: var(--diff-silver); }
+.ach-badge-pill--xp[data-difficulty="hard"] { background: var(--diff-gold); border-color: var(--diff-gold); }
+.ach-badge-pill--xp[data-difficulty="extreme"] { background: var(--diff-diamond); border-color: var(--diff-diamond); color: #fff; }
+@media (max-width: 600px) {
+  .ach-modal__badges { justify-content: center; margin-top: 14px; }
+}
+
+/* Unlocked icons are framed in their tier (2026-11-02, user's call): bronze,
+   silver, gold, and a diamond frame with a faint glow. Locked icons keep the
+   plain dull frame and the greyed picture. */
+.ach-icon[data-difficulty]:not(.ach-icon--locked) { border-width: 3px; }
+.ach-icon[data-difficulty="easy"]:not(.ach-icon--locked) { border-color: var(--diff-bronze); }
+.ach-icon[data-difficulty="medium"]:not(.ach-icon--locked) { border-color: var(--diff-silver); }
+.ach-icon[data-difficulty="hard"]:not(.ach-icon--locked) { border-color: var(--diff-gold); }
+.ach-icon[data-difficulty="extreme"]:not(.ach-icon--locked) {
+  border-color: var(--diff-diamond);
+  box-shadow: 0 0 10px color-mix(in srgb, var(--diff-diamond) 55%, transparent);
+}
+
+/* Difficulty filter above the list (2026-11-02): one chip per tier with its
+   colour dot, the active one outlined in its own tier colour. */
+.ach-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+.ach-filter__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 12px;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  color: var(--text-muted);
+  font-family: var(--ui-font);
+  font-size: 14px;
+  cursor: pointer;
+  --chip: var(--gold);
+}
+.ach-filter__chip[data-difficulty="easy"] { --chip: var(--diff-bronze); }
+.ach-filter__chip[data-difficulty="medium"] { --chip: var(--diff-silver); }
+.ach-filter__chip[data-difficulty="hard"] { --chip: var(--diff-gold); }
+.ach-filter__chip[data-difficulty="extreme"] { --chip: var(--diff-diamond); }
+.ach-filter__chip:hover { border-color: var(--chip); color: var(--text-primary); }
+.ach-filter__chip--active {
+  border-color: var(--chip);
+  color: var(--text-primary);
+  background: color-mix(in srgb, var(--chip) 14%, var(--bg-card));
+}
+.ach-filter__dot { width: 10px; height: 10px; background: var(--chip); flex-shrink: 0; }
+.ach-filter__count { font-size: 12px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+/* Phones: one line that scrolls sideways instead of wrapping onto two. */
+@media (max-width: 600px) {
+  .ach-filter {
+    gap: 6px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-right: -16px;
+    padding-right: 16px;
+  }
+  .ach-filter::-webkit-scrollbar { display: none; }
+  .ach-filter__chip { flex-shrink: 0; white-space: nowrap; }
+  .ach-filter__chip { padding: 5px 8px; gap: 5px; font-size: 13px; }
+  .ach-filter__dot { width: 8px; height: 8px; }
+}
+
+/* Difficulty in every row (2026-11-02, user request): a solid rectangular
+   badge in the tier's metal, at the top of the right-hand column (on phones
+   first on the line under the text). Text colour as on the XP badge. */
+.ach-row__tier {
+  display: inline-block;
+  padding: 3px 10px;
+  font-family: var(--ui-font);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  color: var(--bg-surface);
+  background: var(--gold);
+  white-space: nowrap;
+}
+.ach-row__tier[data-difficulty="easy"] { background: var(--diff-bronze); }
+.ach-row__tier[data-difficulty="medium"] { background: var(--diff-silver); }
+.ach-row__tier[data-difficulty="hard"] { background: var(--diff-gold); }
+.ach-row__tier[data-difficulty="extreme"] { background: var(--diff-diamond); color: #fff; }
+.ach-row__side { gap: 6px; }
+@media (max-width: 600px) {
+  .ach-row__side { align-items: center; }
+}
+
+/* Phones (2026-11-02, user request): the unlock date on the left, the
+   difficulty badge on the right edge, both centred on one line. */
+@media (max-width: 600px) {
+  .ach-row__side { flex-wrap: nowrap; justify-content: space-between; align-items: center; }
+  .ach-row__tier { order: 2; margin-left: auto; }
+}
+
+/* Difficulty badge lettering (2026-11-02, user request): kaishu in Chinese,
+   Cinzel in English and Czech; on the row badge and the detail's
+   difficulty pill (the XP pill keeps the UI font). */
+html[data-lang="zh"] .ach-row__tier,
+html[data-lang="zh"] .ach-badge-pill:not(.ach-badge-pill--xp) {
+  font-family: var(--zh-caption-font);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+html:not([data-lang="zh"]) .ach-row__tier,
+html:not([data-lang="zh"]) .ach-badge-pill:not(.ach-badge-pill--xp) {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+/* Every difficulty badge has the same width within a language (2026-11-02,
+   user request), sized to that language's longest label (Diamond /
+   Diamantová), text centred. Widths include padding and border. */
+.ach-row__tier,
+.ach-badge-pill:not(.ach-badge-pill--xp) {
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+}
+html[data-lang="en"] .ach-row__tier { width: 178px; }
+html[data-lang="cz"] .ach-row__tier { width: 200px; }
+html[data-lang="zh"] .ach-row__tier { width: 92px; }
+html[data-lang="en"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 210px; }
+html[data-lang="cz"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 236px; }
+html[data-lang="zh"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 108px; }
+
+/* Every row's bar is the same length (2026-11-02, user request): the count
+   beside it gets a fixed slot wide enough for the longest one
+   ("1000 / 1000 XP"), right-aligned, so a longer count no longer eats into
+   the bar. */
+.ach-row .ach-progress__count { flex: 0 0 7em; text-align: right; }

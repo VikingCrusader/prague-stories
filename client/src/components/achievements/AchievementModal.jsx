@@ -3,7 +3,7 @@ import { getLocName } from '../../utils/locName';
 import { quarterName } from '../../utils/pragueQuarters';
 import { RARITY_LABEL, RARITY_ICON, RARITY_VAR } from '../../utils/rarity';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
-import { achField, formatPercent, formatAchDate } from '../../utils/achievementText';
+import { achField, formatPercent, formatAchDate, SHOW_UNLOCK_RATE } from '../../utils/achievementText';
 import AchievementIcon from './AchievementIcon';
 
 // Detail of one achievement: the one-line flavor, the exact requirement, the
@@ -16,7 +16,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
   const convert = useConvert();
   const text = field => convert(achField(ach, field, lang));
   const p = ach.progress;
-  const pct = p ? Math.round((p.current / p.target) * 100) : 0;
+  const pct = p ? Math.min(100, Math.round((p.current / p.target) * 100)) : 0;
 
   return (
     <div className="px-overlay" onClick={onClose}>
@@ -28,10 +28,20 @@ export default function AchievementModal({ achievement: ach, onClose }) {
       >
         <button className="px-modal__close" onClick={onClose} aria-label="✕">✕</button>
         <div className="ach-modal__head">
-          <span className={`ach-icon ach-icon--lg${ach.unlocked ? '' : ' ach-icon--locked'}`}><AchievementIcon achievement={ach} /></span>
+          <span className={`ach-icon ach-icon--lg${ach.unlocked ? '' : ' ach-icon--locked'}`} data-difficulty={ach.difficulty}><AchievementIcon achievement={ach} /></span>
           <div style={{ minWidth: 0 }}>
             <div className="ach-modal__name">{text('name')}</div>
             {ach.flavor && <div className="ach-modal__flavor">{text('flavor')}</div>}
+            {(ach.difficulty || ach.xp > 0) && (
+              <div className="ach-modal__badges">
+                {ach.difficulty && (
+                  <span className="ach-badge-pill" data-difficulty={ach.difficulty}>
+                    {t('ach.difficulty')}: {t(`ach.difficulty.${ach.difficulty}`)}
+                  </span>
+                )}
+                {ach.xp > 0 && <span className="ach-badge-pill ach-badge-pill--xp" data-difficulty={ach.difficulty}>+{ach.xp} XP</span>}
+              </div>
+            )}
           </div>
         </div>
 
@@ -59,7 +69,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
                 </div>
                 <div className="ach-progress">
                   <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${Math.min(100, Math.round((c.current / c.target) * 100))}%` }} /></span>
-                  <span className="ach-progress__count">{Math.min(c.current, c.target)} / {c.target}</span>
+                  <span className="ach-progress__count">{c.current} / {c.target}</span>
                 </div>
               </div>
             ))}
@@ -105,7 +115,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
                 <div className="ach-modal__sublabel">{t('ach.quarterProgress', { quarter: convert(quarterName(p.quarter.name, lang)) })}</div>
                 <div className="ach-progress">
                   <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${Math.min(100, Math.round((p.quarter.current / p.quarter.target) * 100))}%` }} /></span>
-                  <span className="ach-progress__count">{Math.min(p.quarter.current, p.quarter.target)} / {p.quarter.target}</span>
+                  <span className="ach-progress__count">{p.quarter.current} / {p.quarter.target}</span>
                 </div>
               </div>
             )}
@@ -116,8 +126,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
           {ach.unlocked
             ? <span className="ach-modal__date">{t('ach.unlockedOn', { date: formatAchDate(ach.unlockedAt, lang) })}</span>
             : <span>{t('common.locked')}</span>}
-          {ach.unlockRate != null && <span>{t('ach.rate', { pct: formatPercent(ach.unlockRate, lang) })}</span>}
-          {ach.difficulty && <span>{t('ach.difficulty')}: {t(`ach.difficulty.${ach.difficulty}`)}</span>}
+          {SHOW_UNLOCK_RATE && ach.unlockRate != null && <span>{t('ach.rate', { pct: formatPercent(ach.unlockRate, lang) })}</span>}
         </div>
       </div>
     </div>

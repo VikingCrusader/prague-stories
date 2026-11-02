@@ -79,7 +79,7 @@ test.describe('Dashboard', () => {
     const tiles = page.locator('.ach-showcase .ach-tile');
     await expect(tiles).toHaveCount(1); // only unlocked ones
     await expect(tiles.first()).toContainText('First Steps');
-    await expect(tiles.first()).toContainText('12.5% of players');
+    await expect(tiles.first()).not.toContainText('of players');   // share hidden for now
     await expect(page.getByRole('link', { name: 'All achievements →' })).toHaveAttribute('href', '/achievements');
 
     await tiles.first().click();

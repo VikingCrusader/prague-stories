@@ -83,8 +83,11 @@ describe('POST /api/checkins/:slug', () => {
 
     expect(res.status).toBe(201);
     expect(res.body.xpEarned).toBe(100);
-    expect(res.body.totalXP).toBe(100);
-    expect(res.body.levelInfo.level).toBe(2);
+    // The card's XP plus whatever the achievements it unlocked pay.
+    const achXp = res.body.newAchievements.reduce((n, a) => n + a.xp, 0);
+    expect(achXp).toBeGreaterThan(0); // first_step at least
+    expect(res.body.totalXP).toBe(100 + achXp);
+    expect(res.body.levelInfo.level).toBeGreaterThanOrEqual(2);
     process.env.NODE_ENV = original;
   });
 

@@ -1,5 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import { authAPI } from '../services/api';
+import { ACHIEVEMENT_PROGRESS_EVENT } from '../utils/achievementEvents';
 
 const AuthContext = createContext(null);
 
@@ -29,6 +30,10 @@ export function AuthProvider({ children }) {
         .then(res => {
           if (cancelled) return;
           setUser(res.data.user);
+          // Achievements unlocked on this load paid XP; the user above already
+          // has it, so compare with the level before the payment.
+          const p = res.data.achievementProgress;
+          if (p?.levelInfo && p.levelInfo.level > (p.levelBefore ?? p.levelInfo.level)) setLevelUpEvent(p.levelInfo);
           // A guest flag left in this tab (e.g. by an earlier cold-start
           // fallback) must not outlive a successful sign-in.
           sessionStorage.removeItem('guest');
@@ -69,6 +74,22 @@ export function AuthProvider({ children }) {
   };
 
   const clearLevelUpEvent = () => setLevelUpEvent(null);
+
+  // XP from achievements unlocked away from a check-in (the achievements
+  // page; app load is handled above, where the user is still being set).
+  useEffect(() => {
+    const onProgress = (e) => {
+      const { levelInfo, totalXP } = e.detail || {};
+      if (!levelInfo) return;
+      setUser(prev => {
+        if (!prev) return prev;
+        if (levelInfo.level > (prev.explorerLevel ?? 1)) setLevelUpEvent(levelInfo);
+        return { ...prev, totalXP, explorerLevel: levelInfo.level };
+      });
+    };
+    window.addEventListener(ACHIEVEMENT_PROGRESS_EVENT, onProgress);
+    return () => window.removeEventListener(ACHIEVEMENT_PROGRESS_EVENT, onProgress);
+  }, []);
 
   const logout = () => {
     localStorage.removeItem('token');

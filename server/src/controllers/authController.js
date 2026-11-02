@@ -55,10 +55,11 @@ export async function login(req, res, next) {
 // one request every visit makes). A failure there never blocks the login.
 export async function getMe(req, res) {
   let newAchievements = [];
+  let achievementProgress = null;
   try {
-    ({ newAchievements } = await syncAchievements(req.user));
+    ({ newAchievements, progress: achievementProgress } = await syncAchievements(req.user));
   } catch (err) {
     console.error('achievement sync failed', err);
   }
-  res.json({ user: req.user.toPublicJSON(), newAchievements });
+  res.json({ user: req.user.toPublicJSON(), newAchievements, achievementProgress });
 }

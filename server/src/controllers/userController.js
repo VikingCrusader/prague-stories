@@ -2,7 +2,7 @@ import User from '../models/User.js';
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import {
-  ACHIEVEMENTS, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS,
+  ACHIEVEMENTS, ACHIEVEMENT_XP, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS,
   HUNT_MULTIPLIERS, HUNT_MISS_STEPS, HUNT_CLUE_STEPS, HUNT_CLUE_ORDER, HUNT_CLOSE_KEYS, HUNT_FREE_CLUE_AT,
   HIDDEN_DRAW_HIT_M, HUNT_MIN_START_M, HUNT_TREND_STEP_M, HUNT_TREND_SAME_M, HUNT_TREND_MAX_M,
   HUNT_EXCLUDED_SLUGS, riverSideOf, huntXp, huntReading, huntStepOf, huntMissCount,
@@ -528,6 +528,7 @@ export async function getAchievements(req, res, next) {
         description_cz: ach.description_cz,
         description_zh: ach.description_zh,
         difficulty:     ach.difficulty,
+        xp:             ACHIEVEMENT_XP[ach.difficulty] || 0,
         unlockRate:     rates[ach.id],
         unlocked:       earned.has(ach.id),
         unlockedAt:     earned.get(ach.id) ?? null,
@@ -535,7 +536,9 @@ export async function getAchievements(req, res, next) {
       };
       if (stats) {
         const { current, target, slugs: list, quarter, rarities, district, labels, note, unit, counts } = ach.progress(stats);
-        out.progress = { current: Math.min(current, target), target };
+        // The real count, even past the target (533 / 54), user's call 2026-11-02;
+        // the client caps only the bar.
+        out.progress = { current, target };
         if (labels) out.progress.labels = labels;
         if (counts) out.progress.counts = counts;
         if (note) out.progress.note = note;
@@ -554,7 +557,7 @@ export async function getAchievements(req, res, next) {
       }
       return out;
     });
-    res.json({ achievements: all, players, levels: LEVELS, newAchievements: sync?.newAchievements ?? [] });
+    res.json({ achievements: all, players, levels: LEVELS, newAchievements: sync?.newAchievements ?? [], achievementProgress: sync?.progress ?? null });
   } catch (err) {
     next(err);
   }
@@ -709,7 +712,7 @@ export async function getExplorer(req, res, next) {
     const earned = new Map((target.achievements || []).map(a => [a.id, a.unlockedAt]));
     const achievements = ACHIEVEMENTS.filter(a => earned.has(a.id)).map(a => ({
       id: a.id, name: a.name, name_cz: a.name_cz, name_zh: a.name_zh,
-      flavor: a.flavor, flavor_cz: a.flavor_cz, flavor_zh: a.flavor_zh,
+      flavor: a.flavor, flavor_cz: a.flavor_cz, flavor_zh: a.flavor_zh, xp: ACHIEVEMENT_XP[a.difficulty] || 0,
       description: a.description, description_cz: a.description_cz, description_zh: a.description_zh,
       icon: a.icon, unlocked: true, unlockedAt: earned.get(a.id) ?? null,
     }));

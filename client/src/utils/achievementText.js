@@ -30,3 +30,9 @@ export function sortAchievements(list) {
     return frac(b) - frac(a) || (b.unlockRate ?? 0) - (a.unlockRate ?? 0);
   });
 }
+
+// The share of players who have an achievement is hidden for now (2026-11-02,
+// user's call: with few players the numbers mean little). The server still
+// sends unlockRate, and the dashboard still uses it to pick the rarest ones;
+// set this to true to show it again on the list, the detail and the tiles.
+export const SHOW_UNLOCK_RATE = false;

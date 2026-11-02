@@ -3,7 +3,8 @@
 Prompts for the achievement icons (2026-11-02). **One icon per generation**
 (the user's tool can't do three at once): paste the style block below, then
 one SUBJECT line from the groups further down. The tool returns 1024 x 1024;
-Claude scales it to 256 px and saves it as
+Claude scales it to 256 px (cropping away any inner panel or margin the
+generator drew; the style block now asks it to fill the square) and saves it as
 `client/public/achievements/<id>.webp` (the id is given per subject).
 `AchievementIcon.jsx` shows the file when it exists and falls back to the
 emoji otherwise.
@@ -231,7 +232,7 @@ and a tiny shipwrecked-style figure in a straw hat waving happily, a city
 tram crossing a bridge in the background.
 ```
 
-### Group 17: 火车迷
+### Group 17: 火车迷, done
 
 ```
 trainspotter: a trainspotter in an anorak with a notebook and binoculars on a
@@ -239,10 +240,66 @@ station platform, an old steam locomotive puffing past under an iron-and-glass
 station roof.
 ```
 
-### Group 18: 布拉格的曼彻斯特
+### Group 18: 布拉格的曼彻斯特, done
 
 ```
 manchester_of_prague: old red-brick factory halls with tall smoking chimneys
 by a river, a big copper brewing kettle in front, one modern glass building
 peeking in at the edge.
+```
+
+### Group 19: the evening batch, done
+
+```
+wild_prague: a deep rocky gorge with a stream and wild trees, a hiker's boot
+on a rock in front, a red city tram crossing a viaduct far in the background.
+tower_and_general: a tall grey TV tower with little bronze babies climbing up
+it, and at its foot a huge bronze one-eyed general on horseback, both looking
+mildly at each other.
+valley_of_laments (solemn-ish, no jokes): a misty green valley with an old
+cannon on the ridge, smoke drifting, and a huge modern concrete bridge
+spanning the valley in the background.
+libuse_prophecy: a legendary princess in a long robe on a high rock above a
+river, one arm stretched toward a distant city of spires with stars rising
+above it.
+golem_in_the_attic: a dusty synagogue attic under old roof beams, a big clay
+Golem figure sleeping under a blanket, one candle, a curious tourist peeking
+up through the trapdoor.
+a_bowl_of_pho: a steaming bowl of phở with chopsticks, herbs and lime, on a
+market stall counter with paper lanterns.
+king_died_of_anger: a medieval king in a crown going red with fury, steam
+coming out of his ears, reading a letter, in a ruined castle hall.
+after_white_mountain (solemn, redrawn at the user's request): a low grey hill
+with the white six-pointed-star summer palace (Hvězda) on top, and a fallen
+red Bohemian lion flag crumpled in the grass of the slope.
+```
+
+### Group 20: day records (春风得意马蹄疾 · 日进斗金 · 风雨无阻), done
+
+```
+marathon_day: a galloping horse with a cheerful rider holding up a fan of cards, motion lines, a sun racing across the sky.
+payday: a big leather money bag overflowing with gold coins stamped with tiny card symbols, a pay envelope beside it.
+rain_or_shine: a walker under an umbrella, half the picture in rain and half in sunshine, seven little card icons in a row above.
+```
+
+### Group 21: 夜猫子 · 千里迢迢, done
+
+```
+night_owl: a wide-eyed owl on an old gas street lamp at night, a full moon and dark church spires behind, a black cat sitting below.
+the_long_way_round: a winding country road over green hills to a distant castle, a backpack and walking stick in front, a sparkling diamond in the sky.
+```
+
+### Group 22: 为了市民 · 周游列国 · 这里没有游客, done
+
+```
+for_the_citizens: a tall teetering stack of paper forms on an old office desk, a rubber stamp mid-air about to come down, a town hall clock tower seen through the window.
+around_the_world: a row of colourful little embassy flags (generic, no real national flags) on the facade of a Baroque palace, a tourist with an unstamped passport walking past.
+no_tourists_here: a quiet outer-district street with panel houses, a small corner shop and a tram stop, a cat asleep on a bench, not a single tourist in sight, a lonely tour-guide umbrella left on the ground.
+```
+
+### Group 23: 特洛伊不在希腊 · 中立球迷, done
+
+```
+troy_not_in_greece: a big wooden horse on wheels standing in a garden in front of a red-and-white Baroque chateau, a giraffe peeking over the garden wall behind.
+neutral_fan: a football fan in a scarf that is half red-and-white and half red-yellow-blue, shrugging, between two stadium floodlights.
 ```

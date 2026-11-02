@@ -43,7 +43,7 @@ test.describe('Achievements page', () => {
     await expect(rows).toHaveCount(3);
     await expect(rows.nth(0)).toContainText('South Pole');          // unlocked first
     await expect(rows.nth(0)).toContainText('Unlocked 5 Oct 2026');
-    await expect(rows.nth(0)).toContainText('50% of players');
+    await expect(rows.nth(0)).not.toContainText('of players');   // share hidden for now
     await expect(rows.nth(1)).toContainText('Prague Century');      // 37% along beats 33%
     await expect(rows.nth(1)).toContainText('37 / 100');
     await expect(rows.nth(1)).toContainText('Prague Century flavor.');
@@ -56,6 +56,23 @@ test.describe('Achievements page', () => {
     await expect(modal.locator('.ach-places__item--done')).toHaveText(/Háje/);
     await expect(modal.getByText('letnany · no card yet')).toBeVisible();
     await expect(modal.getByText('LOCKED')).toBeVisible();
+  });
+
+  test('the difficulty filter narrows the list but not the unlocked count', async ({ page }) => {
+    await page.addInitScript(() => localStorage.setItem('token', 'fake-jwt-token'));
+    await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
+    await page.route('**/api/locations', route => route.fulfill({ json: [] }));
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: SIGNED_IN }));
+    await page.goto('/achievements');
+    await expect(page.locator('.ach-row')).toHaveCount(3);
+    // All three test achievements are 'hard'.
+    await expect(page.locator('.ach-filter__chip[data-difficulty="hard"]')).toContainText('3');
+    await expect(page.locator('.ach-filter__chip[data-difficulty="easy"]')).toHaveCount(0);
+    await page.locator('.ach-filter__chip[data-difficulty="hard"]').click();
+    await expect(page.locator('.ach-row')).toHaveCount(3);
+    await expect(page.getByText('1 of 3 unlocked (33%)')).toBeVisible();
+    await page.locator('.ach-filter__chip').first().click();
+    await expect(page.locator('.ach-row')).toHaveCount(3);
   });
 
   test('guests see the list without progress and a nudge to log in', async ({ page }) => {
