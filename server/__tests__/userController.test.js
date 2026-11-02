@@ -2,6 +2,7 @@ import request from 'supertest';
 import app from '../src/app.js';
 import Location from '../src/models/Location.js';
 import User from '../src/models/User.js';
+import CheckIn from '../src/models/CheckIn.js';
 import { connectTestDB, closeTestDB, clearTestDB } from './testUtils/db.js';
 import { createAuthedUser } from './testUtils/auth.js';
 
@@ -80,18 +81,113 @@ describe('GET /api/user/achievements', () => {
     expect(res.body.levels.length).toBeGreaterThan(0);
   });
 
-  test('marks first_step as unlocked after a check-in', async () => {
+  test('marks southern-pole as unlocked after checking in there', async () => {
     await Location.create({
-      name: 'Charles Bridge', slug: 'charles-bridge', coordinates: CHARLES_BRIDGE, rarity: 'legend', xpReward: 100,
+      name: 'South Pole of Prague', slug: 'jizni-pol-prahy', coordinates: CHARLES_BRIDGE, rarity: 'rare', xpReward: 20,
     });
     const { token } = await createAuthedUser();
-    await checkIn(token, 'charles-bridge');
+    await checkIn(token, 'jizni-pol-prahy');
 
     const res = await request(app).get('/api/user/achievements').set('Authorization', `Bearer ${token}`);
 
-    const firstStep = res.body.achievements.find(a => a.id === 'first_step');
+    const firstStep = res.body.achievements.find(a => a.id === 'southern-pole');
     expect(firstStep.unlocked).toBe(true);
     expect(firstStep.unlockedAt).not.toBeNull();
+  });
+
+  test('unlocks an achievement the user already qualifies for without a new check-in', async () => {
+    await Location.create({ name: 'Pole', slug: 'jizni-pol-prahy', coordinates: CHARLES_BRIDGE, rarity: 'rare', xpReward: 20 });
+    const { token, user } = await createAuthedUser();
+    await checkIn(token, 'jizni-pol-prahy');
+    // As if the achievement had been added after that check-in.
+    await User.updateOne({ _id: user._id }, { $set: { achievements: [] } });
+
+    const me = await request(app).get('/api/auth/me').set('Authorization', `Bearer ${token}`);
+    expect(me.body.user.achievements.map(a => a.id)).toContain('southern-pole');
+    // Announced once, with what the banner shows.
+    expect(me.body.newAchievements).toEqual(expect.arrayContaining([expect.objectContaining({ id: 'southern-pole', icon: '🐧', name_zh: '为什么南极没有企鹅？' })]));
+    const again = await request(app).get('/api/auth/me').set('Authorization', `Bearer ${token}`);
+    expect(again.body.newAchievements).toEqual([]);
+    const res = await request(app).get('/api/user/achievements').set('Authorization', `Bearer ${token}`);
+    expect(res.body.achievements.find(a => a.id === 'southern-pole').unlocked).toBe(true);
+    // Stored once, however many times it is synced.
+    const stored = (await User.findById(user._id).lean()).achievements.filter(a => a.id === 'southern-pole');
+    expect(stored).toHaveLength(1);
+  });
+
+  test('Spoilt for Choice counts the most check-ins inside any 5 minutes', async () => {
+    const { token, user } = await createAuthedUser();
+    const base = Date.parse('2026-10-01T10:00:00Z');
+    for (let i = 0; i < 12; i++) {
+      const loc = await Location.create({ name: `B${i}`, slug: `b${i}`, coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+      // Nine within 4 minutes, then three more spread out.
+      const at = i < 9 ? base + i * 30000 : base + 10 * 60000 + i * 600000;
+      await CheckIn.create({ user: user._id, location: loc._id, checkedInAt: new Date(at), xpEarned: 10 });
+    }
+    let res = await request(app).get('/api/user/achievements').set('Authorization', `Bearer ${token}`);
+    let a = res.body.achievements.find(x => x.id === 'spoilt_for_choice');
+    expect(a).toMatchObject({ unlocked: false, progress: { current: 9, target: 10 } });
+
+    const tenth = await Location.create({ name: 'B12', slug: 'b12', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    await CheckIn.create({ user: user._id, location: tenth._id, checkedInAt: new Date(base + 4.5 * 60000), xpEarned: 10 });
+    res = await request(app).get('/api/user/achievements').set('Authorization', `Bearer ${token}`);
+    a = res.body.achievements.find(x => x.id === 'spoilt_for_choice');
+    expect(a).toMatchObject({ unlocked: true, progress: { current: 10, target: 10 } });
+  });
+
+  test('day stats use Prague time; a hunt that ran out unlocks Next Time', async () => {
+    const { token, user } = await createAuthedUser();
+    const north = await Location.create({ name: 'N', slug: 'n', coordinates: { lat: 50.17, lng: 14.42 }, district: 'Praha 8', rarity: 'common', xpReward: 10 });
+    const south = await Location.create({ name: 'S', slug: 's', coordinates: { lat: 49.99, lng: 14.42 }, district: 'Praha 12', rarity: 'common', xpReward: 10 });
+    // 22:30 UTC on 3 Oct and 03:30 UTC on 4 Oct = 00:30 and 05:30 the same
+    // Prague day (CEST), 20 km apart; only the 05:30 one is an early bird.
+    await CheckIn.create({ user: user._id, location: north._id, checkedInAt: new Date('2026-10-03T22:30:00Z'), xpEarned: 10 });
+    await CheckIn.create({ user: user._id, location: south._id, checkedInAt: new Date('2026-10-04T03:30:00Z'), xpEarned: 10 });
+    await User.updateOne({ _id: user._id }, { $set: { randomDraw: {
+      slug: 'n', drawnAt: new Date(Date.now() - 25 * 3600 * 1000), bonusUsed: false, forfeited: false, mode: 'hidden',
+    } } });
+
+    const res = await request(app).get('/api/user/achievements').set('Authorization', `Bearer ${token}`);
+    const get = id => res.body.achievements.find(a => a.id === id);
+    expect(get('north_to_south')).toMatchObject({ unlocked: true, progress: { current: 15, target: 15, unit: 'km' } });
+    expect(get('early_bird').unlocked).toBe(true);
+    expect(get('early_bird').progress).toEqual({ current: 1, target: 1 }); // 00:30 is not counted
+    expect(get('next_time').unlocked).toBe(true);
+    expect(get('dropping_by').progress).toEqual({ current: 2, target: 5 });
+    expect(get('time_traveller').progress.labels).toHaveLength(6);
+  });
+
+  test('a guest gets no progress; every achievement has a flavor line and an unlock rate', async () => {
+    const res = await request(app).get('/api/user/achievements');
+    for (const a of res.body.achievements) {
+      expect(a.progress).toBeNull();
+      expect(a.flavor).toEqual(expect.any(String));
+      expect(a.unlockRate).toBe(0);
+    }
+    expect(res.body.players).toBe(0);
+  });
+
+  test('reports progress, the places done, missing cards and the share of players', async () => {
+    for (const slug of ['nemocnice-motol', 'haje', 'jizni-pol-prahy']) {
+      await Location.create({ name: slug, slug, coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    }
+    const { token } = await createAuthedUser();
+    await checkIn(token, 'nemocnice-motol');
+    await checkIn(token, 'jizni-pol-prahy');
+    const other = await createAuthedUser();
+    await checkIn(other.token, 'haje');
+
+    const res = await request(app).get('/api/user/achievements').set('Authorization', `Bearer ${token}`);
+    const metro = res.body.achievements.find(a => a.id === 'subway_maniac');
+    expect(metro.progress).toMatchObject({ current: 1, target: 6 });
+    expect(metro.progress.places.find(p => p.slug === 'nemocnice-motol')).toMatchObject({ done: true, name: 'nemocnice-motol' });
+    expect(metro.progress.places.find(p => p.slug === 'haje')).toMatchObject({ done: false });
+    expect(metro.progress.places.find(p => p.slug === 'ikea-zlicin')).toMatchObject({ missing: true, done: false });
+    expect(res.body.achievements.find(a => a.id === 'century').progress).toEqual({ current: 2, target: 100 });
+
+    expect(res.body.players).toBe(2);
+    expect(res.body.achievements.find(a => a.id === 'southern-pole').unlockRate).toBe(50);
+    expect(metro.unlockRate).toBe(0);
   });
 });
 
@@ -415,6 +511,21 @@ describe('treasure hunt', () => {
     const hit = await guess(token, north(20));
     expect(hit.body).toMatchObject({ hit: true, xpEarned: 200, guessAttempt: 1 });
     expect(hit.body.draw).toMatchObject({ bonusUsed: true, solvedAttempt: 1, xpEarned: 200 });
+    // A 10x find earns Bounty Hunter; three hours is too slow for Fast and Curious.
+    expect(hit.body.newAchievements.map(a => a.id)).toContain('bounty_hunter');
+    expect(hit.body.newAchievements.map(a => a.id)).not.toContain('fast_and_curious');
+  });
+
+  test('a find below 10x does not earn Bounty Hunter', async () => {
+    await seedTarget();
+    const { token } = await createAuthedUser();
+    await startHunt(token);
+    await takeClue(token);
+    const hit = await guess(token, north(20));
+    expect(hit.body).toMatchObject({ hit: true, xpEarned: 100 });
+    expect(hit.body.newAchievements.map(a => a.id)).not.toContain('bounty_hunter');
+    // Found straight away: well within the hour.
+    expect(hit.body.newAchievements.map(a => a.id)).toContain('fast_and_curious');
   });
 
   test('collecting the target through a normal check-in pays plain XP and ends the hunt unfound', async () => {
@@ -545,9 +656,15 @@ describe('GET /api/user/leaderboard', () => {
     }
   }
 
+  test('is for signed-in users only', async () => {
+    expect((await request(app).get('/api/user/leaderboard')).status).toBe(401);
+    expect((await request(app).get('/api/user/explorers/ada')).status).toBe(401);
+  });
+
   test('ranks users with XP, ties sharing a rank, without emails or hidden accounts', async () => {
     await seedUsers();
-    const res = await request(app).get('/api/user/leaderboard');
+    const { token } = await createAuthedUser();
+    const res = await request(app).get('/api/user/leaderboard').set('Authorization', `Bearer ${token}`);
     expect(res.status).toBe(200);
     expect(res.body.entries.map(e => [e.rank, e.username, e.totalXP])).toEqual([
       [1, 'ada', 500], [2, 'bob', 300], [2, 'cyd', 300], [4, 'dan', 10],
@@ -573,7 +690,7 @@ describe('GET /api/user/leaderboard', () => {
     const { token, user } = await createAuthedUser();
     await checkIn(token, 'a');
     await checkIn(token, 'b');
-    const res = await request(app).get('/api/user/leaderboard');
+    const res = await request(app).get('/api/user/leaderboard').set('Authorization', `Bearer ${token}`);
     expect(res.body.entries.find(e => e.username === user.username)).toMatchObject({ cards: 2, totalXP: 20 });
   });
 });
@@ -587,14 +704,18 @@ describe('GET /api/user/explorers/:username', () => {
     await checkIn(token, 'a');
     await checkIn(token, 'b');
 
-    const res = await request(app).get(`/api/user/explorers/${encodeURIComponent(user.username)}`);
+    const viewer = await createAuthedUser({ username: 'viewer', email: 'viewer@example.com' });
+    const res = await request(app).get(`/api/user/explorers/${encodeURIComponent(user.username)}`).set('Authorization', `Bearer ${viewer.token}`);
     expect(res.status).toBe(200);
     expect(res.body).toMatchObject({ username: user.username, totalXP: 30, rank: 1, totalCards: 3, isMe: false });
     expect(res.body.rarityCount).toMatchObject({ rare: 1, common: 1 });
     expect(res.body.cards.map(c => c.slug).sort()).toEqual(['a', 'b']);
     expect(res.body.cards[0]).toMatchObject({ unlocked: true });
     expect(res.body.cards[0].description).toBeUndefined();
-    expect(res.body.achievements.length).toBeGreaterThan(0); // first check-in
+    // Two of three city cards: a quarter and half of the city (an early-bird
+    // unlock may join them when the tests run between 4:00 and 7:00 in Prague).
+    expect(res.body.achievements.map(a => a.id)).toEqual(expect.arrayContaining(['a_quarter', 'half_the_city']));
+    expect(res.body.achievements.map(a => a.id)).not.toContain('the_last_mile');
     expect(JSON.stringify(res.body)).not.toContain(user.email);
 
     const own = await request(app).get(`/api/user/explorers/${encodeURIComponent(user.username)}`).set('Authorization', `Bearer ${token}`);
@@ -604,8 +725,9 @@ describe('GET /api/user/explorers/:username', () => {
   test('404s for hidden, zero-XP and unknown users', async () => {
     await User.create({ username: 'admin000', email: 'a@example.com', password: 'secret123', totalXP: 500, hideFromLeaderboard: true });
     await User.create({ username: 'newbie', email: 'n@example.com', password: 'secret123', totalXP: 0 });
+    const { token } = await createAuthedUser();
     for (const name of ['admin000', 'newbie', 'nobody']) {
-      expect((await request(app).get(`/api/user/explorers/${name}`)).status).toBe(404);
+      expect((await request(app).get(`/api/user/explorers/${name}`).set('Authorization', `Bearer ${token}`)).status).toBe(404);
     }
   });
 });

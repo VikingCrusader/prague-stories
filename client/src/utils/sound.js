@@ -188,3 +188,97 @@ export function playHuntWinSound() {
     [1047, 1319, 1568, 2093].forEach((f, i) => tone(ac, f, t + 1.2 + i * 0.02, 1.0, { type: 'triangle', gain: 0.09 }));
   } catch (_) {}
 }
+
+// ── Achievement unlocked ─────────────────────────────────────────────────
+// Original "ding-dang" chime (2026-11-02), meant to land harder than the
+// level-up fanfare: a quick upward shimmer, a low thump, two struck bells a
+// fifth apart (A5, then E6) built from inharmonic partials so they ring
+// like metal rather than beep, a warm A-major swell underneath and a
+// sprinkle of high glints as the bells fade. Everything goes through one
+// compressor so it can be loud without clipping.
+export const ACHIEVEMENT_SOUND_MS = 2400;
+
+function bell(ac, out, freq, t, { gain = 0.22, decay = 1.9 } = {}) {
+  // Partial ratios of a small struck bell (hum, prime, tierce, quint, nominal).
+  [[1, 1], [2.0, 0.55], [2.76, 0.4], [4.07, 0.22], [5.43, 0.14]].forEach(([ratio, amp], i) => {
+    const osc = ac.createOscillator(), g = ac.createGain();
+    osc.type = 'sine';
+    osc.frequency.setValueAtTime(freq * ratio, t);
+    const d = decay / (1 + i * 0.6); // higher partials die first
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(gain * amp, t + 0.006);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + d);
+    osc.connect(g); g.connect(out);
+    osc.start(t); osc.stop(t + d + 0.05);
+  });
+}
+
+export function playAchievementSound() {
+  navigator.vibrate?.([120, 60, 120, 60, 420]);
+  try {
+    const ac = ctx();
+    ac.resume?.();
+    const t = ac.currentTime + 0.02;
+    const out = ac.createDynamicsCompressor();
+    out.threshold.value = -14;
+    out.ratio.value = 4;
+    const master = ac.createGain();
+    master.gain.value = 0.9;
+    out.connect(master); master.connect(ac.destination);
+
+    // Rising shimmer into the strike.
+    const len = Math.floor(ac.sampleRate * 0.3);
+    const buf = ac.createBuffer(1, len, ac.sampleRate);
+    const data = buf.getChannelData(0);
+    for (let i = 0; i < len; i++) data[i] = (Math.random() * 2 - 1) * (i / len);
+    const noise = ac.createBufferSource();
+    noise.buffer = buf;
+    const bp = ac.createBiquadFilter();
+    bp.type = 'bandpass'; bp.Q.value = 2;
+    bp.frequency.setValueAtTime(1500, t);
+    bp.frequency.exponentialRampToValueAtTime(7000, t + 0.3);
+    const ng = ac.createGain(); ng.gain.value = 0.12;
+    noise.connect(bp); bp.connect(ng); ng.connect(out);
+    noise.start(t); noise.stop(t + 0.31);
+
+    // Low thump under the first bell.
+    const thump = ac.createOscillator(), tg = ac.createGain();
+    thump.type = 'sine';
+    thump.frequency.setValueAtTime(150, t + 0.28);
+    thump.frequency.exponentialRampToValueAtTime(50, t + 0.5);
+    tg.gain.setValueAtTime(0.0001, t + 0.28);
+    tg.gain.exponentialRampToValueAtTime(0.5, t + 0.29);
+    tg.gain.exponentialRampToValueAtTime(0.0001, t + 0.55);
+    thump.connect(tg); tg.connect(out);
+    thump.start(t + 0.28); thump.stop(t + 0.6);
+
+    // Ding... dang.
+    bell(ac, out, 880, t + 0.28, { gain: 0.24, decay: 1.6 });
+    bell(ac, out, 1318.5, t + 0.52, { gain: 0.26, decay: 2.0 });
+
+    // Warm swell (A4, C#5, E5) under the second bell.
+    [440, 554.4, 659.3].forEach((f) => {
+      const osc = ac.createOscillator(), g = ac.createGain();
+      osc.type = 'triangle';
+      osc.frequency.value = f;
+      g.gain.setValueAtTime(0.0001, t + 0.5);
+      g.gain.exponentialRampToValueAtTime(0.06, t + 0.75);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + 2.2);
+      osc.connect(g); g.connect(out);
+      osc.start(t + 0.5); osc.stop(t + 2.25);
+    });
+
+    // Glints.
+    [2637, 3520, 2960, 3951, 3136, 4186].forEach((f, i) => {
+      const at = t + 0.7 + i * 0.07;
+      const osc = ac.createOscillator(), g = ac.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = f;
+      g.gain.setValueAtTime(0.0001, at);
+      g.gain.exponentialRampToValueAtTime(0.05, at + 0.005);
+      g.gain.exponentialRampToValueAtTime(0.0001, at + 0.25);
+      osc.connect(g); g.connect(out);
+      osc.start(at); osc.stop(at + 0.3);
+    });
+  } catch (_) {}
+}

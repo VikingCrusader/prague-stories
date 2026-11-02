@@ -11,6 +11,7 @@ import { haversineDistance, compassDirection } from '../utils/geo.js';
 import { inPrague } from '../utils/pragueBoundary.js';
 import { recordCheckIn } from './checkinController.js';
 import { parsePreferences } from '../utils/preferences.js';
+import { syncAchievements } from '../services/achievementStats.js';
 
 export async function getProfile(req, res) {
   res.json({ user: req.user.toPublicJSON() });
@@ -399,6 +400,7 @@ export async function guessHiddenDraw(req, res, next) {
       if (existing) return res.status(409).json({ message: 'Already checked in' });
       const result = await recordCheckIn(user, location, {
         xpEarned: huntXp(location.xpReward, huntStepOf(draw)),
+        huntMultiplier: HUNT_MULTIPLIERS[huntStepOf(draw)],
         guessAttempt: huntMissCount(draw) + 1,
       });
       return res.status(201).json({ hit: true, ...result, draw: await buildDrawResponse(user, pos) });
@@ -472,21 +474,90 @@ export async function getTreasures(req, res, next) {
   }
 }
 
-export async function getAchievements(req, res) {
-  const earned = req.user ? new Set(req.user.achievements.map(a => a.id)) : new Set();
-  const all = ACHIEVEMENTS.map(ach => ({
-    id:             ach.id,
-    name:           ach.name,
-    name_cz:        ach.name_cz,
-    name_zh:        ach.name_zh,
-    description:    ach.description,
-    description_cz: ach.description_cz,
-    description_zh: ach.description_zh,
-    icon:           ach.icon,
-    unlocked:       earned.has(ach.id),
-    unlockedAt:     req.user?.achievements.find(a => a.id === ach.id)?.unlockedAt ?? null,
-  }));
-  res.json({ achievements: all, levels: LEVELS });
+// Share of players who have each achievement (Steam's "X% of players"):
+// players are users with XP who aren't hidden from the leaderboard, the same
+// set the leaderboard ranks. { rates: { id: percent }, players }.
+async function achievementUnlockRates() {
+  const players = { totalXP: { $gt: 0 }, hideFromLeaderboard: { $ne: true } };
+  const [count, groups] = await Promise.all([
+    User.countDocuments(players),
+    User.aggregate([
+      { $match: players },
+      { $unwind: '$achievements' },
+      { $group: { _id: '$achievements.id', n: { $sum: 1 } } },
+    ]),
+  ]);
+  const rates = {};
+  for (const ach of ACHIEVEMENTS) {
+    const n = groups.find(g => g._id === ach.id)?.n || 0;
+    rates[ach.id] = count ? Math.round((n / count) * 1000) / 10 : 0;
+  }
+  return { rates, players: count };
+}
+
+// The whole catalogue, each with its share of players. For a signed-in user
+// also whether it is unlocked and the progress toward it (with, for
+// "check in at these places" achievements, which of the places are done;
+// a place with no card yet comes back with `missing: true`).
+export async function getAchievements(req, res, next) {
+  try {
+    const user = req.user;
+    // Unlock anything already earned first, so it shows (and counts in the
+    // rates) right away.
+    const sync = user ? await syncAchievements(user) : null;
+    const stats = sync?.stats ?? null;
+    const earned = new Map((user?.achievements || []).map(a => [a.id, a.unlockedAt]));
+    const { rates, players } = await achievementUnlockRates();
+
+    const slugs = [...new Set(ACHIEVEMENTS.flatMap(a => (stats && a.progress(stats).slugs) || []))];
+    const places = slugs.length
+      ? await Location.find({ slug: { $in: slugs } }, 'slug name localizedNames').lean()
+      : [];
+
+    const all = ACHIEVEMENTS.map(ach => {
+      const out = {
+        id:             ach.id,
+        icon:           ach.icon,
+        name:           ach.name,
+        name_cz:        ach.name_cz,
+        name_zh:        ach.name_zh,
+        flavor:         ach.flavor,
+        flavor_cz:      ach.flavor_cz,
+        flavor_zh:      ach.flavor_zh,
+        description:    ach.description,
+        description_cz: ach.description_cz,
+        description_zh: ach.description_zh,
+        difficulty:     ach.difficulty,
+        unlockRate:     rates[ach.id],
+        unlocked:       earned.has(ach.id),
+        unlockedAt:     earned.get(ach.id) ?? null,
+        progress:       null,
+      };
+      if (stats) {
+        const { current, target, slugs: list, quarter, rarities, district, labels, note, unit, counts } = ach.progress(stats);
+        out.progress = { current: Math.min(current, target), target };
+        if (labels) out.progress.labels = labels;
+        if (counts) out.progress.counts = counts;
+        if (note) out.progress.note = note;
+        if (unit) out.progress.unit = unit;
+        if (district) out.progress.district = district;
+        if (quarter) out.progress.quarter = quarter;
+        if (rarities) out.progress.rarities = rarities;
+        if (list) {
+          out.progress.places = list.map(slug => {
+            const loc = places.find(p => p.slug === slug);
+            return loc
+              ? { slug, name: loc.name, localizedNames: loc.localizedNames, done: stats.checkedSlugs.includes(slug) }
+              : { slug, missing: true, done: false };
+          });
+        }
+      }
+      return out;
+    });
+    res.json({ achievements: all, players, levels: LEVELS, newAchievements: sync?.newAchievements ?? [] });
+  } catch (err) {
+    next(err);
+  }
 }
 
 // Saves any of theme / lang / zhVariant. Partial updates are fine; unknown
@@ -638,6 +709,7 @@ export async function getExplorer(req, res, next) {
     const earned = new Map((target.achievements || []).map(a => [a.id, a.unlockedAt]));
     const achievements = ACHIEVEMENTS.filter(a => earned.has(a.id)).map(a => ({
       id: a.id, name: a.name, name_cz: a.name_cz, name_zh: a.name_zh,
+      flavor: a.flavor, flavor_cz: a.flavor_cz, flavor_zh: a.flavor_zh,
       description: a.description, description_cz: a.description_cz, description_zh: a.description_zh,
       icon: a.icon, unlocked: true, unlockedAt: earned.get(a.id) ?? null,
     }));

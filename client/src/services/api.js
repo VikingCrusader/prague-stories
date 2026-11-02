@@ -1,10 +1,27 @@
 import axios from 'axios';
+import { announceAchievements } from '../utils/achievementEvents';
+import { HUNT_WIN_SOUND_MS } from '../utils/sound';
 
 const BASE_URL = import.meta.env.PROD
   ? 'https://prague-stories-api.onrender.com/api'
   : 'http://localhost:5000/api';
 
 const api = axios.create({ baseURL: BASE_URL });
+
+// Any response may carry newly unlocked achievements (a check-in, a
+// treasure-hunt find, app load, the achievements page): announce them. After
+// a find they wait for the hunt fanfare, after a check-in for the card
+// unlock sound.
+api.interceptors.response.use(res => {
+  const list = res.data?.newAchievements;
+  if (Array.isArray(list) && list.length) {
+    const url = res.config?.url || '';
+    const delay = url.includes('/random-draw/guess') ? HUNT_WIN_SOUND_MS + 200
+      : url.startsWith('/checkins') ? 1200 : 300;
+    announceAchievements(list, delay);
+  }
+  return res;
+});
 
 api.interceptors.request.use(config => {
   const token = localStorage.getItem('token');

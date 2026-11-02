@@ -134,9 +134,6 @@ export default function MapPage() {
   const handleCheckIn = (slug, result) => {
     setLocations(prev => prev.map(l => l.slug === slug ? { ...l, unlocked: true, _checkedInAt: new Date().toISOString() } : l));
     addToast(`+${result.xpEarned} XP — ${result.levelInfo.title}!`);
-    if (result.newAchievements?.length) {
-      result.newAchievements.forEach(a => addToast(`Achievement: ${a.id.replace(/_/g, ' ')}`, 'info'));
-    }
   };
 
   if (loading) return (

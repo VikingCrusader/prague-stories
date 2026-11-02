@@ -7,6 +7,8 @@ const checkInSchema = new mongoose.Schema({
   checkedInAt: { type: Date, default: Date.now },
   xpEarned:    { type: Number }, // actual XP awarded (may be tripled by a random-draw bonus); absent on legacy check-ins
   guessAttempt: { type: Number }, // set when found through a treasure hunt: which press hit (1 = first)
+  huntMultiplier: { type: Number }, // the hunt multiplier that find paid (10, 5, 3, 2, 1); set from 2026-11-02 on
+  huntDurationMs: { type: Number }, // a hunt find: time from starting the hunt to the hit; set from 2026-11-02 on
   huntMode:    { type: String, enum: ['hardcore'] }, // 'hardcore' on finds from the old hardcore hunt (until 2026-10-29); absent otherwise
 });
 

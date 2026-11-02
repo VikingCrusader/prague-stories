@@ -1,0 +1,436 @@
+/* Achievements (2026-11-02): Steam-style list on /achievements, the shared
+   detail modal and the dashboard's rarest-achievements row. Colours come
+   from the theme tokens, so light and dark both work. */
+
+/* ── Icon square ─────────────────────────────────────────── */
+.ach-icon {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  line-height: 1;
+  background: var(--bg-surface);
+  border: 2px solid var(--gold);
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.25);
+}
+.ach-icon { overflow: hidden; }
+.ach-icon__img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ach-badge__icon .ach-icon__img { width: 40px; height: 40px; }
+.ach-icon--locked {
+  border-color: var(--border);
+  filter: grayscale(1);
+  opacity: 0.45;
+}
+.ach-icon--lg { width: 72px; height: 72px; font-size: 42px; }
+
+/* ── Progress bar ────────────────────────────────────────── */
+.ach-bar {
+  display: block;
+  flex: 1;
+  min-width: 60px;
+  height: 8px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.ach-bar__fill {
+  display: block;
+  height: 100%;
+  background: var(--gold);
+  transition: width 0.4s ease;
+}
+.ach-progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  max-width: 320px;
+}
+.ach-progress__count {
+  font-size: 13px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Summary line (page and dashboard) ───────────────────── */
+.ach-summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 4px 0 18px;
+  font-family: var(--ui-font);
+  font-size: 15px;
+  color: var(--text-primary);
+}
+.ach-summary .ach-bar { max-width: 320px; min-width: 120px; }
+.ach-guest { margin-bottom: 18px; color: var(--text-muted); }
+
+/* ── List rows ───────────────────────────────────────────── */
+.ach-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ach-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  box-shadow: 3px 3px 0 var(--shadow);
+  text-align: left;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.ach-row:hover, .ach-row:focus-visible { border-color: var(--gold); outline: none; }
+.ach-row--unlocked { border-left: 4px solid var(--gold); }
+.ach-row__main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.ach-row__name {
+  font-family: var(--ui-font);
+  font-size: 17px;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+.ach-row:not(.ach-row--unlocked) .ach-row__name { color: var(--text-muted); }
+.ach-row__flavor {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 3px;
+  line-height: 1.4;
+}
+.ach-row__side {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  text-align: right;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.ach-row__date { color: var(--gold); }
+.ach-row__rate { margin-left: auto; }
+
+@media (max-width: 600px) {
+  .ach-row { flex-wrap: wrap; gap: 12px; padding: 10px 12px; }
+  .ach-row .ach-icon { width: 48px; height: 48px; font-size: 26px; }
+  .ach-row__main { flex-basis: calc(100% - 64px); }
+  .ach-row__side {
+    flex-basis: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+  }
+}
+
+/* ── Detail modal ────────────────────────────────────────── */
+.ach-modal { max-width: 460px; padding: 22px 24px; border-color: var(--border); overflow-y: auto; }
+@media (max-width: 600px) { .ach-modal { padding: 18px 16px 22px; } }
+.ach-modal--unlocked { border-color: var(--gold); }
+.ach-modal__head {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-right: 28px; /* room for the close button */
+  margin-bottom: 18px;
+}
+.ach-modal__name {
+  font-family: var(--ui-font);
+  font-size: 20px;
+  line-height: 1.3;
+  color: var(--text-primary);
+}
+.ach-modal--unlocked .ach-modal__name { color: var(--gold); }
+.ach-modal__flavor {
+  margin-top: 6px;
+  font-size: 15px;
+  font-style: italic;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.ach-modal__section { margin-top: 14px; }
+.ach-modal__label {
+  font-family: var(--ui-font);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.ach-modal__req { margin: 0; font-size: 15px; line-height: 1.6; color: var(--text-primary); }
+.ach-modal .ach-progress { max-width: none; margin-top: 4px; }
+.ach-places {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 4px 12px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.ach-places__item { display: flex; gap: 8px; align-items: baseline; }
+.ach-places__item--done { color: var(--text-primary); }
+.ach-places__item--done .ach-places__mark { color: var(--gold); }
+.ach-places--rarities { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+.ach-places { max-height: 240px; overflow-y: auto; } /* Veni, Vidi, Vici lists every legend card */
+.ach-modal__quarter { margin-top: 12px; }
+.ach-modal__sublabel { font-size: 14px; color: var(--text-muted); }
+.ach-places__missing { font-style: italic; opacity: 0.75; }
+.ach-modal__meta {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.ach-modal__date { color: var(--gold); }
+
+/* ── Dashboard: rarest achievements, one row only ────────── */
+.ach-showcase__label {
+  font-family: var(--ui-font);
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.ach-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-template-rows: auto;
+  grid-auto-rows: 0;   /* every row after the first collapses... */
+  row-gap: 0;
+  column-gap: 12px;
+  overflow: hidden;    /* ...and is cut off */
+  padding: 0 3px 3px 0; /* keep the tiles' drop shadow */
+}
+.ach-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 8px;
+  background: var(--bg-card);
+  border: 2px solid var(--gold);
+  box-shadow: 3px 3px 0 var(--shadow);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: center;
+  min-width: 0;
+}
+.ach-tile:hover, .ach-tile:focus-visible { background: var(--bg-surface); outline: none; }
+.ach-tile__name {
+  font-family: var(--ui-font);
+  font-size: 14px;
+  color: var(--text-primary);
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.ach-tile__rate { font-size: 12px; color: var(--text-muted); }
+.ach-viewall {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: var(--ui-font);
+  font-size: 15px;
+  color: var(--gold);
+  text-decoration: underline;
+}
+
+/* ── Achievement unlocked banner (AchievementUnlocked.jsx) ─────────────
+   Above the level-up modal (z-index 500). The flash and banner ignore
+   clicks except the banner itself. */
+.ach-unlock {
+  position: fixed;
+  inset: 0;
+  z-index: 600;
+  pointer-events: none;
+}
+.ach-unlock__flash {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 22%, color-mix(in srgb, var(--gold) 55%, transparent) 0%, transparent 60%);
+  opacity: 0;
+  animation: ach-flash 1.1s ease-out 0.25s;
+}
+@keyframes ach-flash {
+  0%   { opacity: 0; }
+  15%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+.ach-unlock__banner {
+  pointer-events: auto;
+  cursor: pointer;
+  position: absolute;
+  top: max(150px, 22vh);
+  left: 50%;
+  width: min(460px, calc(100vw - 32px));
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 44px 20px 18px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--bg-surface), var(--bg-card));
+  border: 3px solid var(--gold);
+  box-shadow: 0 0 0 3px var(--shadow), 0 10px 40px rgba(0, 0, 0, 0.45),
+    0 0 36px 4px color-mix(in srgb, var(--gold) 50%, transparent);
+  animation: ach-drop 0.6s cubic-bezier(.2, 1.5, .4, 1) both, ach-glow 1.6s ease-in-out 0.6s infinite alternate;
+}
+@keyframes ach-drop {
+  0%   { transform: translateX(-50%) translateY(-60px) scale(0.6); opacity: 0; }
+  100% { transform: translateX(-50%) translateY(0) scale(1); opacity: 1; }
+}
+@keyframes ach-glow {
+  from { box-shadow: 0 0 0 3px var(--shadow), 0 10px 40px rgba(0,0,0,.45), 0 0 24px 2px color-mix(in srgb, var(--gold) 40%, transparent); }
+  to   { box-shadow: 0 0 0 3px var(--shadow), 0 10px 40px rgba(0,0,0,.45), 0 0 48px 8px color-mix(in srgb, var(--gold) 65%, transparent); }
+}
+.ach-unlock--leaving .ach-unlock__banner {
+  animation: ach-leave 0.45s ease-in forwards;
+}
+@keyframes ach-leave {
+  to { transform: translateX(-50%) translateY(-40px) scale(0.9); opacity: 0; }
+}
+.ach-unlock__shine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 40%;
+  left: -60%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+  transform: skewX(-20deg);
+  animation: ach-shine 1s ease-out 0.55s;
+  pointer-events: none;
+}
+@keyframes ach-shine {
+  to { left: 130%; }
+}
+.ach-unlock__iconwrap {
+  position: relative;
+  flex-shrink: 0;
+  width: 76px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ach-unlock__rays {
+  position: absolute;
+  inset: -34px;
+  background: repeating-conic-gradient(
+    color-mix(in srgb, var(--gold) 45%, transparent) 0deg 10deg,
+    transparent 10deg 30deg
+  );
+  -webkit-mask: radial-gradient(circle, #000 25%, transparent 70%);
+  mask: radial-gradient(circle, #000 25%, transparent 70%);
+  animation: ach-spin 6s linear infinite, ach-fadein 0.5s ease-out 0.2s both;
+}
+@keyframes ach-spin { to { transform: rotate(360deg); } }
+@keyframes ach-fadein { from { opacity: 0; } to { opacity: 1; } }
+.ach-unlock__icon {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  font-size: 42px;
+  animation: ach-pop 0.7s cubic-bezier(.2, 1.8, .4, 1) 0.25s both;
+}
+@keyframes ach-pop {
+  0%   { transform: scale(0) rotate(-25deg); }
+  100% { transform: scale(1) rotate(0); }
+}
+.ach-unlock__spark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  margin: -3px 0 0 -3px;
+  background: var(--gold);
+  box-shadow: 0 0 6px var(--gold);
+  opacity: 0;
+  animation: ach-spark 0.9s ease-out both;
+}
+@keyframes ach-spark {
+  0%   { transform: rotate(var(--a)) translateY(0) scale(1); opacity: 1; }
+  100% { transform: rotate(var(--a)) translateY(calc(-1 * var(--d))) scale(0.2); opacity: 0; }
+}
+.ach-unlock__text { position: relative; min-width: 0; }
+.ach-unlock__label {
+  font-family: var(--ui-font);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+.ach-unlock__name {
+  font-family: var(--ui-font);
+  font-size: 22px;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+.ach-unlock__flavor {
+  margin-top: 6px;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+.ach-unlock__close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px;
+}
+.ach-unlock__timer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: var(--gold);
+  transform-origin: left;
+  animation-name: ach-timer;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+@keyframes ach-timer { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+
+@media (max-width: 600px) {
+  .ach-unlock__banner { gap: 14px; padding: 14px 40px 16px 14px; }
+  .ach-unlock__iconwrap { width: 60px; height: 60px; }
+  .ach-unlock__icon { width: 58px; height: 58px; font-size: 34px; }
+  .ach-unlock__name { font-size: 19px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ach-unlock__flash, .ach-unlock__shine, .ach-unlock__spark, .ach-unlock__rays { display: none; }
+  .ach-unlock__banner, .ach-unlock__icon { animation: none; }
+}

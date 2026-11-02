@@ -65,7 +65,7 @@ test.describe('Check-in flow', () => {
     await expect(page.locator('.loc-card__name')).toHaveText('Charles Bridge');
   });
 
-  test('a check-in that unlocks an achievement shows both toasts', async ({ page }) => {
+  test('a check-in that unlocks an achievement shows the XP toast and the achievement banner', async ({ page }) => {
     await loginAsUser(page);
     await page.route('**/api/locations', route => route.fulfill({ json: [LOCKED_LOCATION] }));
     await page.route('**/api/locations/charles-bridge', route =>
@@ -81,7 +81,7 @@ test.describe('Check-in flow', () => {
           xpEarned: 100,
           totalXP: 140,
           levelInfo: { level: 2, title: 'Apprentice Explorer', progress: 40, nextLevelXP: 300 },
-          newAchievements: [{ id: 'first_checkin', unlockedAt: new Date().toISOString() }],
+          newAchievements: [{ id: 'southern-pole', icon: '🐧', name: 'South Pole', name_cz: 'Jižní pól', name_zh: '南极', flavor: 'No penguins.', unlockedAt: new Date().toISOString() }],
         },
       })
     );
@@ -91,6 +91,11 @@ test.describe('Check-in flow', () => {
     // Within 50 m, opening a locked card collects it automatically (no Collect click).
 
     await expect(page.getByText('+100 XP earned! Apprentice Explorer')).toBeVisible();
-    await expect(page.getByText('Achievement unlocked: first checkin')).toBeVisible();
+    // Level 1 -> 2: the level-up modal comes first and the banner waits for it.
+    await page.waitForTimeout(1500);
+    await expect(page.locator('.levelup-modal')).toBeVisible();
+    await expect(page.locator('.ach-unlock__banner')).toHaveCount(0);
+    await page.locator('.levelup-modal .px-btn--gold').click();
+    await expect(page.locator('.ach-unlock__banner')).toContainText('South Pole');
   });
 });

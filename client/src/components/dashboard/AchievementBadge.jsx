@@ -1,4 +1,6 @@
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
+import { achField } from '../../utils/achievementText';
+import AchievementIcon from '../achievements/AchievementIcon';
 
 export default function AchievementBadge({ achievement, onClick }) {
   const t = useT();
@@ -10,10 +12,9 @@ export default function AchievementBadge({ achievement, onClick }) {
     lang === 'zh' ? (achievement.name_zh ?? name) :
     lang === 'cz' ? (achievement.name_cz ?? name) : name
   );
-  const displayDesc = convert(
-    lang === 'zh' ? (achievement.description_zh ?? description) :
-    lang === 'cz' ? (achievement.description_cz ?? description) : description
-  );
+  const displayDesc = convert(achievement.flavor
+    ? achField(achievement, 'flavor', lang)
+    : achField(achievement, 'description', lang));
 
   return (
     <div
@@ -21,7 +22,7 @@ export default function AchievementBadge({ achievement, onClick }) {
       onClick={onClick}
     >
       <div className="ach-badge__icon" style={{ filter: unlocked ? 'none' : 'grayscale(1) brightness(0.4)' }}>
-        {icon}
+        <AchievementIcon achievement={achievement} />
       </div>
       <div className="ach-badge__text">
         <div className="ach-badge__name">{displayName}</div>

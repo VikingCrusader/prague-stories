@@ -656,19 +656,6 @@ export default function LocationDetail({
                           {t("detail.bonusApplied")}
                         </p>
                       )}
-                      {checkInResult.newAchievements?.map((a) => (
-                        <p
-                          key={a.id}
-                          style={{
-                            fontFamily: "var(--ui-font)",
-                            fontSize: 12,
-                            color: "var(--blue-text, #7ec8e3)",
-                            marginTop: 6,
-                          }}
-                        >
-                          {a.id.replace(/_/g, " ")}
-                        </p>
-                      ))}
                     </div>
                   ) : loc.unlocked ? null : (
                     <button

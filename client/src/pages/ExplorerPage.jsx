@@ -4,6 +4,7 @@ import { userAPI } from '../services/api';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, ALL_RARITIES } from '../utils/rarity';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
+import AchievementModal from '../components/achievements/AchievementModal';
 import LocationCard from '../components/locations/LocationCard';
 import LocationDetail from '../components/locations/LocationDetail';
 import LevelsModal from '../components/dashboard/LevelsModal';
@@ -109,21 +110,7 @@ export default function ExplorerPage() {
 
       {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
       {levelsOpen && <LevelsModal currentLevel={levelInfo.level} onClose={() => setLevelsOpen(false)} />}
-      {selectedAch && (
-        <div className="px-overlay" onClick={() => setSelectedAch(null)}>
-          <div className="px-modal" style={{ maxWidth: 420, borderColor: 'var(--gold)' }} onClick={e => e.stopPropagation()}>
-            <button className="px-modal__close" onClick={() => setSelectedAch(null)}>✕</button>
-            <div className="px-modal__header" style={{ gap: 20, alignItems: 'center' }}>
-              <span style={{ fontSize: 52, flexShrink: 0 }}>{selectedAch.icon}</span>
-              <div>
-                <div style={{ fontFamily: 'var(--ui-font)', fontSize: 15, color: 'var(--gold)', lineHeight: 1.6, marginBottom: 8 }}>{achText(selectedAch, 'name')}</div>
-                {selectedAch.unlockedAt && <div style={{ fontSize: 12, color: 'var(--gold)' }}>{new Date(selectedAch.unlockedAt).toLocaleDateString()}</div>}
-              </div>
-            </div>
-            <div className="px-modal__body" style={{ fontSize: 15, color: 'var(--text-muted)', lineHeight: 1.7 }}>{achText(selectedAch, 'description')}</div>
-          </div>
-        </div>
-      )}
+      {selectedAch && <AchievementModal achievement={selectedAch} onClose={() => setSelectedAch(null)} />}
     </div>
   );
 }

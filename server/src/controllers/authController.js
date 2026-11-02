@@ -1,6 +1,7 @@
 import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
 import { parsePreferences } from '../utils/preferences.js';
+import { syncAchievements } from '../services/achievementStats.js';
 
 function signToken(userId) {
   return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
@@ -50,6 +51,14 @@ export async function login(req, res, next) {
   }
 }
 
+// Also unlocks any achievement the user now qualifies for (app load is the
+// one request every visit makes). A failure there never blocks the login.
 export async function getMe(req, res) {
-  res.json({ user: req.user.toPublicJSON() });
+  let newAchievements = [];
+  try {
+    ({ newAchievements } = await syncAchievements(req.user));
+  } catch (err) {
+    console.error('achievement sync failed', err);
+  }
+  res.json({ user: req.user.toPublicJSON(), newAchievements });
 }

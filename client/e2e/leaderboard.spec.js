@@ -14,7 +14,15 @@ test.describe('Leaderboard', () => {
       json: { entries: [row(1, 'ada', 11310), row(2, 'bob', 460), row(2, 'cyd', 460)], me: row(140, 'explorer', 140, true), total: 141 },
     }));
 
-    await page.goto('/explore');
+    // The way in is a button on the dashboard (not the navbar, since 2026-11-02).
+    await page.route('**/api/user/progress', route => route.fulfill({ json: {
+      totalCheckins: 0, presetCheckins: 0, totalPreset: 10, unlockPercent: 0, labelCount: {}, rarityCount: {},
+      levelInfo: { level: 2, title: 'Apprentice Explorer', progress: 40, nextLevelXP: 200 }, totalXP: 140,
+    } }));
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: { achievements: [], levels: [] } }));
+    await page.route('**/api/user/treasures', route => route.fulfill({ json: [] }));
+    await page.goto('/dashboard');
+    await expect(page.locator('.navbar').getByRole('link', { name: 'Ranking' })).toHaveCount(0);
     await page.getByRole('link', { name: 'Ranking' }).click();
     await expect(page).toHaveURL(/\/leaderboard$/);
     await expect(page.getByRole('heading', { name: 'Leaderboard' })).toBeVisible();
@@ -30,15 +38,26 @@ test.describe('Leaderboard', () => {
     await expect(page.locator('.leaderboard__me .leaderboard__you')).toHaveText('you');
   });
 
-  test('guests can look, with a nudge to log in', async ({ page }) => {
+  test('guests can\'t see it: no button on the dashboard, the pages send them to log in', async ({ page }) => {
+    await page.addInitScript(() => sessionStorage.setItem('guest', 'true'));
     await page.route('**/api/locations', route => route.fulfill({ json: [] }));
-    await page.route('**/api/user/leaderboard', route => route.fulfill({ json: { entries: [row(1, 'ada', 11310)], me: null, total: 1 } }));
+    await page.route('**/api/user/progress', route => route.fulfill({ json: {
+      totalCheckins: 0, presetCheckins: 0, totalPreset: 10, unlockPercent: 0, labelCount: {}, rarityCount: {},
+      levelInfo: { level: 1, title: 'Newcomer', progress: 0, nextLevelXP: 100 }, totalXP: 0,
+    } }));
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: { achievements: [], levels: [] } }));
+    await page.goto('/dashboard');
+    await expect(page.getByRole('link', { name: 'Privacy' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Ranking' })).toHaveCount(0);
     await page.goto('/leaderboard');
-    await expect(page.locator('table.leaderboard tbody tr')).toHaveCount(1);
-    await expect(page.getByText('Log in to join the leaderboard.')).toBeVisible();
+    await expect(page).toHaveURL(/\/login$/);
+    await page.goto('/explorer/ada');
+    await expect(page).toHaveURL(/\/login$/);
   });
 
   test('clicking a name opens that explorer\'s profile and collection', async ({ page }) => {
+    await page.addInitScript(() => localStorage.setItem('token', 'fake-jwt-token'));
+    await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
     await page.route('**/api/locations', route => route.fulfill({ json: [] }));
     await page.route('**/api/user/leaderboard', route => route.fulfill({ json: { entries: [row(1, 'ada', 11310)], me: null, total: 1 } }));
     const card = (slug, name, rarity) => ({ _id: slug, slug, name, localizedNames: {}, labels: ['church'], rarity, xpReward: 20, coverImage: '', pixelArtKey: '', coordinates: { lat: 50.08, lng: 14.42 }, unlocked: true });
@@ -62,6 +81,8 @@ test.describe('Leaderboard', () => {
   });
 
   test('an unknown explorer shows a not-found message', async ({ page }) => {
+    await page.addInitScript(() => localStorage.setItem('token', 'fake-jwt-token'));
+    await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
     await page.route('**/api/locations', route => route.fulfill({ json: [] }));
     await page.route('**/api/user/explorers/ghost', route => route.fulfill({ status: 404, json: { message: 'Explorer not found' } }));
     await page.goto('/explorer/ghost');

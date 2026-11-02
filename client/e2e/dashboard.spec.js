@@ -18,12 +18,14 @@ const ACHIEVEMENTS = {
     {
       id: 'first_checkin', name: 'First Steps', name_cz: 'První kroky', name_zh: '第一步',
       description: 'Check in to your first location.', description_cz: '', description_zh: '',
-      icon: '🥾', unlocked: true, unlockedAt: '2026-01-01T00:00:00.000Z',
+      flavor: 'Every collection starts somewhere.', icon: '🥾', unlocked: true, unlockedAt: '2026-01-01T00:00:00.000Z',
+      unlockRate: 12.5, difficulty: 'easy', progress: { current: 1, target: 1 },
     },
     {
       id: 'ten_checkins', name: 'Getting Serious', name_cz: '', name_zh: '',
       description: 'Check in to ten locations.', description_cz: '', description_zh: '',
-      icon: '🎯', unlocked: false, unlockedAt: null,
+      flavor: 'Ten is a start.', icon: '🎯', unlocked: false, unlockedAt: null,
+      unlockRate: 40, difficulty: 'easy', progress: { current: 5, target: 10 },
     },
   ],
   levels: [
@@ -72,26 +74,20 @@ test.describe('Dashboard', () => {
     await expect(page.locator('.levels-modal .levels-modal__level')).toHaveCount(2);
   });
 
-  test('clicking an unlocked achievement opens a modal with its name, description, and date', async ({ page }) => {
-    await page.locator('.ach-badge--unlocked').first().click();
+  test('shows the share unlocked and the rarest achievements; a tile opens the detail', async ({ page }) => {
+    await expect(page.getByText('1 of 2 unlocked (50%)')).toBeVisible();
+    const tiles = page.locator('.ach-showcase .ach-tile');
+    await expect(tiles).toHaveCount(1); // only unlocked ones
+    await expect(tiles.first()).toContainText('First Steps');
+    await expect(tiles.first()).toContainText('12.5% of players');
+    await expect(page.getByRole('link', { name: 'All achievements →' })).toHaveAttribute('href', '/achievements');
 
-    const modal = page.locator('.px-modal');
-    await expect(modal).toBeVisible();
-    await expect(modal.getByText('First Steps')).toBeVisible();
+    await tiles.first().click();
+    const modal = page.locator('.ach-modal');
     await expect(modal.getByText('Check in to your first location.')).toBeVisible();
-    await expect(modal.getByText('1/1/2026')).toBeVisible();
-
+    await expect(modal.getByText('Unlocked 1 Jan 2026')).toBeVisible();
     await page.locator('.px-modal__close').click();
-    await expect(modal).not.toBeVisible();
-  });
-
-  test('clicking a locked achievement shows it as LOCKED with no unlock date', async ({ page }) => {
-    await page.locator('.ach-badge--locked').first().click();
-
-    const modal = page.locator('.px-modal');
-    await expect(modal).toBeVisible();
-    await expect(modal.getByText('Getting Serious')).toBeVisible();
-    await expect(modal.getByText('LOCKED')).toBeVisible();
+    await expect(modal).toHaveCount(0);
   });
 
   test('Treasure Hunt Finds is empty at first, with a pointer to the Treasure Hunt page', async ({ page }) => {

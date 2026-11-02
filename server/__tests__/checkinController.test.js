@@ -116,15 +116,15 @@ describe('POST /api/checkins/:slug', () => {
     process.env.NODE_ENV = original;
   });
 
-  test('unlocks the first_step achievement on a first check-in', async () => {
+  test('unlocks the southern-pole achievement on checking in there', async () => {
     const original = process.env.NODE_ENV;
     process.env.NODE_ENV = 'development';
-    await createLocation();
+    await createLocation({ slug: 'jizni-pol-prahy', name: 'South Pole of Prague' });
     const { token } = await createAuthedUser();
 
-    const res = await request(app).post('/api/checkins/charles-bridge').set('Authorization', `Bearer ${token}`).send({});
+    const res = await request(app).post('/api/checkins/jizni-pol-prahy').set('Authorization', `Bearer ${token}`).send({});
 
-    expect(res.body.newAchievements.map(a => a.id)).toContain('first_step');
+    expect(res.body.newAchievements.map(a => a.id)).toContain('southern-pole');
     process.env.NODE_ENV = original;
   });
 });

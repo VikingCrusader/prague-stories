@@ -16,7 +16,8 @@ router.get('/history-progress', protect, getHistoryProgress);
 router.put('/history-progress', protect, saveHistoryProgress);
 router.put('/preferences', protect, savePreferences);
 router.put('/location-consent', protect, saveLocationConsent);
-router.get('/leaderboard', optionalAuth, getLeaderboard);
-router.get('/explorers/:username', optionalAuth, getExplorer);
+// Signed-in users only (guests can't see the leaderboard, 2026-11-02).
+router.get('/leaderboard', protect, getLeaderboard);
+router.get('/explorers/:username', protect, getExplorer);
 
 export default router;

@@ -1,7 +1,8 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
-import { evaluateAchievements, calculateLevel, RANDOM_DRAW_WINDOW_MS, HISTORY_LABELS } from '../services/gamification.js';
+import { evaluateAchievements, describeAchievement, calculateLevel, RANDOM_DRAW_WINDOW_MS } from '../services/gamification.js';
+import { buildAchievementStats } from '../services/achievementStats.js';
 import { haversineDistance } from '../utils/geo.js';
 
 const MAX_DISTANCE_METERS = 100;
@@ -55,8 +56,12 @@ export async function checkIn(req, res, next) {
 // evaluates achievements and saves the user. `user` must be a
 // full (non-lean) User document. Shared by the normal check-in and the
 // treasure hunt's guess endpoint.
-export async function recordCheckIn(user, location, { note = '', xpEarned, guessAttempt } = {}) {
-  await CheckIn.create({ user: user._id, location: location._id, note: note || '', xpEarned, guessAttempt });
+export async function recordCheckIn(user, location, { note = '', xpEarned, guessAttempt, huntMultiplier } = {}) {
+  // A hunt find also records how long the hunt took (Fast and Curious).
+  const huntDurationMs = guessAttempt && user.randomDraw?.slug === location.slug && user.randomDraw.drawnAt
+    ? Date.now() - new Date(user.randomDraw.drawnAt).getTime()
+    : undefined;
+  await CheckIn.create({ user: user._id, location: location._id, note: note || '', xpEarned, guessAttempt, huntMultiplier, huntDurationMs });
 
   // Award XP
   user.totalXP += xpEarned;
@@ -75,37 +80,7 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
     user.randomDraw.trend = null;
   }
 
-  // Gather stats for achievement evaluation
-  const allCheckins = await CheckIn.find({ user: user._id }).populate('location').lean();
-  const labelCount = {};
-  const checkedSlugs = [];
-  let presetCheckins = 0;
-  let historyCount = 0;
-
-  for (const ci of allCheckins) {
-    if (!ci.location) continue;
-    for (const lb of (ci.location.labels || [])) {
-      labelCount[lb] = (labelCount[lb] || 0) + 1;
-    }
-    if ((ci.location.labels || []).some(lb => HISTORY_LABELS.has(lb))) historyCount++;
-    checkedSlugs.push(ci.location.slug);
-    if (!ci.location.addedBy) presetCheckins++;
-  }
-
-  const [customLocations, totalLocations] = await Promise.all([
-    Location.countDocuments({ addedBy: user._id }),
-    Location.countDocuments({}),
-  ]);
-
-  const stats = {
-    totalCheckins: allCheckins.length,
-    presetCheckins,
-    totalLocations,
-    labelCount,
-    historyCount,
-    checkedSlugs,
-    customLocations,
-  };
+  const stats = await buildAchievementStats(user._id, user);
 
   const existingAchievementIds = user.achievements.map(a => a.id);
   const newAchievements = evaluateAchievements(stats, existingAchievementIds);
@@ -122,6 +97,7 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
     guessAttempt: guessAttempt ?? null,
     totalXP: user.totalXP,
     levelInfo,
-    newAchievements,
+    // With names and icons, for the unlock announcement.
+    newAchievements: newAchievements.map(describeAchievement),
   };
 }

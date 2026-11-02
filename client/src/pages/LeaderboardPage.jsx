@@ -24,8 +24,8 @@ function Row({ e, t, lang, convert }) {
   );
 }
 
-// XP leaderboard of every explorer with XP (GET /api/user/leaderboard). Open
-// to guests too; a signed-in user's own row is highlighted, and shown below
+// XP leaderboard of every explorer with XP (GET /api/user/leaderboard).
+// Signed-in users only (2026-11-02); the user's own row is highlighted, and shown below
 // the table if they are outside the top 100.
 export default function LeaderboardPage() {
   const { user } = useAuth();
@@ -79,7 +79,6 @@ export default function LeaderboardPage() {
           </>
         )}
 
-        {!user && <p className="guide-body" style={{ color: 'var(--text-muted)', marginTop: 16 }}>{t('leaderboard.guestNote')}</p>}
       </div>
     </div>
   );
