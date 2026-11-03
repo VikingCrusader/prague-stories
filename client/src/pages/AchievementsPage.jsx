@@ -113,7 +113,6 @@ export default function AchievementsPage() {
                     aria-pressed={active}
                     onClick={() => setDifficulty(active ? null : d)}
                   >
-                    <span className="ach-filter__dot" aria-hidden="true" />
                     {t(`ach.difficulty.${d}`)} <span className="ach-filter__count">{n}</span>
                   </button>
                 );

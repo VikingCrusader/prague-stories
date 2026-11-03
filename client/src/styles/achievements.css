@@ -608,48 +608,46 @@ html:not([data-lang="zh"]) .ach-unlock__name {
   box-shadow: 0 0 10px color-mix(in srgb, var(--diff-diamond) 55%, transparent);
 }
 
-/* Difficulty filter above the list (2026-11-02): one chip per tier with its
-   colour dot, the active one outlined in its own tier colour. */
-.ach-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+/* Difficulty filter (AchievementsPage): chips outlined and lettered in each
+   tier's metal; only the picked one is solid, text as on the tier badges
+   (2026-11-03, user's call; were outlined grey chips with a colour square).
+   "All" is grey (user's call). One line on every screen: on phones the count
+   goes under the name so all five fit. */
+.ach-filter { display: flex; gap: 8px; margin: 0 0 16px; }
 .ach-filter__chip {
   display: inline-flex;
   align-items: center;
   gap: 7px;
   padding: 6px 12px;
   background: var(--bg-card);
-  border: 2px solid var(--border);
-  color: var(--text-muted);
+  border: 2px solid var(--chip);
+  color: var(--chip);
   font-family: var(--ui-font);
   font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
   cursor: pointer;
-  --chip: var(--gold);
+  --chip: var(--text-muted); /* "All" is grey */
+  --chip-text: var(--bg-surface);
 }
 .ach-filter__chip[data-difficulty="easy"] { --chip: var(--diff-bronze); }
 .ach-filter__chip[data-difficulty="medium"] { --chip: var(--diff-silver); }
 .ach-filter__chip[data-difficulty="hard"] { --chip: var(--diff-gold); }
-.ach-filter__chip[data-difficulty="extreme"] { --chip: var(--diff-diamond); }
-.ach-filter__chip:hover { border-color: var(--chip); color: var(--text-primary); }
-.ach-filter__chip--active {
-  border-color: var(--chip);
-  color: var(--text-primary);
-  background: color-mix(in srgb, var(--chip) 14%, var(--bg-card));
-}
-.ach-filter__dot { width: 10px; height: 10px; background: var(--chip); flex-shrink: 0; }
-.ach-filter__count { font-size: 12px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
-/* Phones: one line that scrolls sideways instead of wrapping onto two. */
+.ach-filter__chip[data-difficulty="extreme"] { --chip: var(--diff-diamond); --chip-text: #fff; }
+.ach-filter__chip:hover { background: color-mix(in srgb, var(--chip) 14%, var(--bg-card)); }
+.ach-filter__chip--active,
+.ach-filter__chip--active:hover { background: var(--chip); color: var(--chip-text); }
+.ach-filter__count { font-size: 12px; opacity: 0.8; font-variant-numeric: tabular-nums; }
 @media (max-width: 600px) {
-  .ach-filter {
-    gap: 6px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scrollbar-width: none;
-    margin-right: -16px;
-    padding-right: 16px;
+  .ach-filter { gap: 5px; }
+  .ach-filter__chip {
+    flex: 1 1 auto; min-width: 0;
+    flex-direction: column; justify-content: center; gap: 1px;
+    padding: 4px 2px; font-size: 12px; line-height: 1.2;
   }
-  .ach-filter::-webkit-scrollbar { display: none; }
-  .ach-filter__chip { flex-shrink: 0; white-space: nowrap; }
-  .ach-filter__chip { padding: 5px 8px; gap: 5px; font-size: 13px; }
-  .ach-filter__dot { width: 8px; height: 8px; }
+  .ach-filter__count { font-size: 11px; }
+  /* Czech tier names are the longest (Diamantová). */
+  html[data-lang="cz"] .ach-filter__chip { font-size: 10.5px; letter-spacing: 0; }
 }
 
 /* Difficulty in every row (2026-11-02, user request): a solid rectangular
