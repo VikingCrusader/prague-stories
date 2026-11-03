@@ -611,8 +611,8 @@ html:not([data-lang="zh"]) .ach-unlock__name {
 /* Difficulty filter (AchievementsPage): chips outlined and lettered in each
    tier's metal; only the picked one is solid, text as on the tier badges
    (2026-11-03, user's call; were outlined grey chips with a colour square).
-   "All" is grey (user's call). One line on every screen: on phones the count
-   goes under the name so all five fit. */
+   "All" is grey (user's call). One line on every screen, the count beside the
+   name (on phones the chips shrink to fit). */
 .ach-filter { display: flex; gap: 8px; margin: 0 0 16px; }
 .ach-filter__chip {
   display: inline-flex;
@@ -639,15 +639,15 @@ html:not([data-lang="zh"]) .ach-unlock__name {
 .ach-filter__chip--active:hover { background: var(--chip); color: var(--chip-text); }
 .ach-filter__count { font-size: 12px; opacity: 0.8; font-variant-numeric: tabular-nums; }
 @media (max-width: 600px) {
-  .ach-filter { gap: 5px; }
+  .ach-filter { gap: 4px; }
   .ach-filter__chip {
-    flex: 1 1 auto; min-width: 0;
-    flex-direction: column; justify-content: center; gap: 1px;
-    padding: 4px 2px; font-size: 12px; line-height: 1.2;
+    flex: 1 1 auto; min-width: 0; justify-content: center;
+    gap: 3px; padding: 5px 4px; font-size: 12px; letter-spacing: 0;
   }
   .ach-filter__count { font-size: 11px; }
   /* Czech tier names are the longest (Diamantová). */
-  html[data-lang="cz"] .ach-filter__chip { font-size: 10.5px; letter-spacing: 0; }
+  html[data-lang="cz"] .ach-filter__chip { font-size: 10.5px; padding: 5px 3px; gap: 2px; }
+  html[data-lang="cz"] .ach-filter__count { font-size: 10px; }
 }
 
 /* Difficulty in every row (2026-11-02, user request): a solid rectangular
