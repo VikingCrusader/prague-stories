@@ -252,6 +252,8 @@
   overflow: hidden;
 }
 .ach-tile__rate { font-size: 12px; color: var(--text-muted); }
+/* Unlock date under the name on the profile tiles (2026-11-03). */
+.ach-tile__date { font-family: var(--ui-font); font-size: 12px; color: var(--gold); white-space: nowrap; }
 .ach-viewall {
   display: inline-block;
   margin-top: 12px;

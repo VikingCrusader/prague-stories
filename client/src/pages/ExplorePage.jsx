@@ -37,13 +37,14 @@ export default function ExplorePage() {
   const [rarity, setRarity]             = useState(null);
   // Default to the city proper: cards tagged `outside` lie beyond Prague's
   // administrative boundary (day trips), shown only on "Show all".
-  const [cityOnly, setCityOnly]         = useState(true);
+  const [cityOnly, setCityOnly]         = useState(() => !state?.showAll);
   // District / historical-quarter filter; only offered in "City only" mode.
   const [area, setArea]                 = useState(null);
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
   // Filters to open with, from a link's state (the profile's expedition
-  // strip sends { collection: true, rarity: 'expedition' }); read once.
+  // strip sends { collection: true, rarity: 'expedition' } for "All", and
+  // { showAll: true, rarity: 'expedition' } from its empty nudge); read once.
   const [initialFilter] = useState(() => (state?.collection || state?.rarity ? { collection: !!state.collection, rarity: state.rarity ?? null } : null));
 
   // Refetched when the signed-in user changes, e.g. when a sign-in that

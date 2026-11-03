@@ -40,13 +40,14 @@ function Thumb({ location, onOpen, details }) {
 
 // Profile (2026-11-03, user request): the newest few cards of one kind
 // (treasure-hunt finds, expedition cards) as small covers, with the total and
-// a link to all of them; a one-line nudge when there are none yet.
+// a link to all of them; a one-line nudge when there are none yet. Without
+// `allTo` / `emptyTo` (someone else's profile) those links are left out.
 // `details` (the treasure strip, whose finds differ in rarity; expedition
 // cards are all one) colours each name in its card's rarity and adds a line
 // above the cover (2026-11-03, user's call: under the name it read as part
 // of it) with the rarity and the XP that find paid ("+200 XP", hunt
 // multiplier included; left out on old check-ins that didn't store it).
-export default function RecentCardStrip({ title, data, allTo, allState, emptyText, emptyLinkText, emptyTo, onOpen, details = false }) {
+export default function RecentCardStrip({ title, data, allTo, allState, emptyText, emptyLinkText, emptyTo, emptyState, onOpen, details = false }) {
   const t = useT();
   const convert = useConvert();
   if (!data) return null;
@@ -56,7 +57,7 @@ export default function RecentCardStrip({ title, data, allTo, allState, emptyTex
         <h2 className="px-title card-strip__title">
           {title} <span className="card-strip__count">{data.count}</span>
         </h2>
-        {data.count > 0 && <Link to={allTo} state={allState} className="card-strip__all">{t('dashboard.seeAll')}</Link>}
+        {allTo && data.count > 0 && <Link to={allTo} state={allState} className="card-strip__all">{t('dashboard.seeAll')}</Link>}
       </div>
       {data.cards.length > 0 ? (
         <div className="card-strip__row">
@@ -64,7 +65,7 @@ export default function RecentCardStrip({ title, data, allTo, allState, emptyTex
         </div>
       ) : (
         <p className="card-strip__empty">
-          {convert(emptyText)} <Link to={emptyTo}>{convert(emptyLinkText)}</Link>
+          {convert(emptyText)}{emptyTo && <> <Link to={emptyTo} state={emptyState}>{convert(emptyLinkText)}</Link></>}
         </p>
       )}
     </section>

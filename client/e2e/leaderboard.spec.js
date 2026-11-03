@@ -55,27 +55,46 @@ test.describe('Leaderboard', () => {
     await expect(page).toHaveURL(/\/login$/);
   });
 
-  test('clicking a name opens that explorer\'s profile and collection', async ({ page }) => {
+  test('clicking a name opens that explorer\'s profile, laid out like your own, without their whole collection', async ({ page }) => {
     await page.addInitScript(() => localStorage.setItem('token', 'fake-jwt-token'));
     await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
     await page.route('**/api/locations', route => route.fulfill({ json: [] }));
     await page.route('**/api/user/leaderboard', route => route.fulfill({ json: { entries: [row(1, 'ada', 11310)], me: null, total: 1 } }));
-    const card = (slug, name, rarity) => ({ _id: slug, slug, name, localizedNames: {}, labels: ['church'], rarity, xpReward: 20, coverImage: '', pixelArtKey: '', coordinates: { lat: 50.08, lng: 14.42 }, unlocked: true });
+    const card = (slug, name, rarity) => ({ slug, name, localizedNames: {}, labels: ['castle', 'outside'], rarity, coverImage: '', pixelArtKey: '' });
     await page.route('**/api/user/explorers/ada', route => route.fulfill({ json: {
-      username: 'ada', totalXP: 11310, rank: 1, totalCards: 1300, totalAchievements: 20, isMe: false,
-      levelInfo: { level: 6, title: 'Cartographer', progress: 50, nextLevelXP: 20000 },
-      rarityCount: { common: 0, rare: 1, superior: 0, epic: 1, mythic: 0, legend: 0 },
-      achievements: [{ id: 'first', name: 'First Steps', description: 'x', icon: '🥾', unlocked: true, unlockedAt: '2026-01-01' }],
-      cards: [card('tyn-church', 'Týn Church', 'epic'), card('st-giles', 'St. Giles', 'rare')],
+      username: 'ada', isMe: false, joinedAt: '2026-01-01',
+      progress: {
+        totalCheckins: 2, presetCheckins: 2, totalPreset: 1300, unlockPercent: 0, cityCheckins: 0, totalCity: 1100, cityUnlockPercent: 0,
+        districtProgress: [{ district: 'Praha 1', total: 40, collected: 0 }],
+        labelCount: { castle: 2 }, rarityCount: { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0, expedition: 2 },
+        levelInfo: { level: 6, title: 'Cartographer', progress: 50, nextLevelXP: 20000 }, totalXP: 11310, rank: 1,
+        recentFinds: { treasure: { count: 0, cards: [] }, expedition: { count: 2, cards: [card('karlstejn', 'Karlštejn', 'expedition'), card('melnik', 'Mělník', 'expedition')] } },
+      },
+      achievements: [
+        { id: 'first', name: 'First Steps', description: 'x', icon: '🥾', difficulty: 'easy', unlocked: true, unlockedAt: '2026-01-01', progress: null },
+        { id: 'ten', name: 'Ten', description: 'y', icon: '🎯', difficulty: 'easy', unlocked: false, unlockedAt: null, progress: null },
+      ],
     } }));
     await page.goto('/leaderboard');
     await page.getByRole('link', { name: 'ada' }).click();
     await expect(page).toHaveURL(/\/explorer\/ada$/);
-    await expect(page.getByRole('heading', { name: 'ada' })).toBeVisible();
-    await expect(page.getByText('#1')).toBeVisible();
-    await expect(page.getByText('2 / 1,300')).toBeVisible();
-    await expect(page.locator('.location-grid .loc-card')).toHaveCount(2);
-    await expect(page.locator('.location-grid')).toContainText('Týn Church');
+    await expect(page.getByRole('heading', { name: 'ada', exact: true })).toBeVisible();
+    await expect(page.locator('.level-badge__num')).toHaveText('LVL 6');
+    await expect(page.locator('.week-card__item--rank .week-card__n')).toHaveText('#1');
+    await expect(page.locator('.rarity-compact')).toBeVisible();
+    await expect(page.locator('.ach-showcase .ach-tile')).toHaveCount(1);
+    // Their achievements heading isn't a link to the viewer's own list.
+    await expect(page.locator('h2.px-title', { hasText: 'Achievements' })).toBeVisible();
+    await expect(page.locator('h2.px-title a')).toHaveCount(0);
+    const exp = page.locator('.card-strip').filter({ hasText: 'Expeditions' });
+    await expect(exp.locator('.card-strip__item')).toHaveCount(2);
+    await expect(exp.getByRole('link', { name: 'All →' })).toHaveCount(0);
+    // No nudge to the viewer's own treasure hunt, just the plain line.
+    const treasure = page.locator('.card-strip').filter({ hasText: 'Treasure Hunt Finds' });
+    await expect(treasure).toContainText('No treasure found yet.');
+    await expect(treasure.getByRole('link')).toHaveCount(0);
+    await expect(page.locator('.district-progress__row')).toHaveCount(1);
+    await expect(page.locator('.location-grid')).toHaveCount(0); // no full collection
     await page.getByRole('link', { name: '← Leaderboard' }).click();
     await expect(page).toHaveURL(/\/leaderboard$/);
   });

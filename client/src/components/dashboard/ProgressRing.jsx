@@ -5,7 +5,7 @@ export default function ProgressRing({ percent, size = 160, label = 'UNLOCKED' }
   const cx        = size / 2;
 
   return (
-    <svg width={size} height={size} style={{ display: 'block' }}>
+    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} style={{ display: 'block', flex: '0 0 auto' }}>
       {/* track */}
       <circle cx={cx} cy={cx} r={r} fill="none" stroke="var(--bg-input, #1a1f3a)" strokeWidth={12} />
       {/* progress */}

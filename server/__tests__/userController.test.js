@@ -2,7 +2,9 @@ import request from 'supertest';
 import app from '../src/app.js';
 import Location from '../src/models/Location.js';
 import User from '../src/models/User.js';
+import { ACHIEVEMENTS, ACHIEVEMENT_XP } from '../src/services/gamification.js';
 import CheckIn from '../src/models/CheckIn.js';
+import { startOfPragueWeek } from '../src/utils/pragueTime.js';
 import { connectTestDB, closeTestDB, clearTestDB } from './testUtils/db.js';
 import { createAuthedUser } from './testUtils/auth.js';
 
@@ -122,6 +124,38 @@ describe('GET /api/user/progress', () => {
     expect(expedition.count).toBe(8);
     expect(expedition.cards.map(c => c.slug)).toEqual(['out-8', 'out-7', 'out-6', 'out-5', 'out-4', 'out-3']);
     expect(expedition.cards[0].description).toBeUndefined();
+  });
+
+  test('this week: cards and XP since Monday, and the rank compared with then (check-ins and achievements)', async () => {
+    const { token, user } = await createAuthedUser();
+    const loc = await Location.create({ name: 'L', slug: 'l', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    // "This week" starts on Monday 0:00 in Prague: one moment just after it,
+    // one the day before (any day of the week the test runs on).
+    const weekStart = startOfPragueWeek().getTime();
+    const thisWeek = new Date(weekStart + 1000);
+    const old = new Date(weekStart - 24 * 3600 * 1000);
+    // Me: 400 XP now, 380 of them this week (check-in), so 20 a week ago.
+    await User.updateOne({ _id: user._id }, { totalXP: 400 });
+    await CheckIn.create({ user: user._id, location: loc._id, checkedInAt: thisWeek, xpEarned: 380 });
+    // B: 300 now, 50 a week ago (a 250-XP achievement this week is impossible,
+    // so use a medium one plus a check-in); C: 100 now, all of it old.
+    const medium = ACHIEVEMENTS.find(a => a.difficulty === 'medium');
+    const b = await User.create({ username: 'bbb', email: 'b@x.cz', password: 'secret1', totalXP: 300, achievements: [{ id: medium.id, unlockedAt: thisWeek }] });
+    await CheckIn.create({ user: b._id, location: loc._id, checkedInAt: thisWeek, xpEarned: 300 - 50 - ACHIEVEMENT_XP.medium });
+    await User.create({ username: 'ccc', email: 'c@x.cz', password: 'secret1', totalXP: 100, achievements: [{ id: medium.id, unlockedAt: old }] });
+
+    // A week ago: C 100, B 50, me 20 (3rd). Now: me 400, B 300, C 100 (1st).
+    let res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${token}`);
+    expect(res.body.rank).toBe(1);
+    expect(res.body.week).toEqual({ cards: 1, xp: 380, rankChange: { delta: 2 } });
+
+    // All of a user's XP from this week: new on the leaderboard.
+    const fresh = await createAuthedUser({ username: 'fresh', email: 'fresh@x.cz' });
+    await User.updateOne({ _id: fresh.user._id }, { totalXP: 10 });
+    const loc2 = await Location.create({ name: 'M', slug: 'm', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    await CheckIn.create({ user: fresh.user._id, location: loc2._id, checkedInAt: thisWeek, xpEarned: 10 });
+    res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${fresh.token}`);
+    expect(res.body.week).toEqual({ cards: 1, xp: 10, rankChange: { isNew: true } });
   });
 
   test('counts cards and collected cards per district, Praha 1 to 22 in order', async () => {
@@ -817,8 +851,8 @@ describe('GET /api/user/leaderboard', () => {
 });
 
 describe('GET /api/user/explorers/:username', () => {
-  test('shows a listed explorer\'s level, rank, cards and achievements, without their email', async () => {
-    await Location.create({ name: 'A', slug: 'a', coordinates: CHARLES_BRIDGE, rarity: 'rare', xpReward: 20 });
+  test('shows a listed explorer\'s profile like the own one (progress and achievements), without their email or full collection', async () => {
+    await Location.create({ name: 'A', slug: 'a', coordinates: CHARLES_BRIDGE, rarity: 'rare', xpReward: 20, district: 'Praha 1' });
     await Location.create({ name: 'B', slug: 'b', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
     await Location.create({ name: 'C', slug: 'c', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
     const { token, user } = await createAuthedUser();
@@ -828,16 +862,21 @@ describe('GET /api/user/explorers/:username', () => {
     const viewer = await createAuthedUser({ username: 'viewer', email: 'viewer@example.com' });
     const res = await request(app).get(`/api/user/explorers/${encodeURIComponent(user.username)}`).set('Authorization', `Bearer ${viewer.token}`);
     expect(res.status).toBe(200);
-    expect(res.body).toMatchObject({ username: user.username, rank: 1, totalCards: 3, isMe: false });
-    expect(res.body.totalXP).toBe((await User.findById(user._id).lean()).totalXP);
-    expect(res.body.rarityCount).toMatchObject({ rare: 1, common: 1 });
-    expect(res.body.cards.map(c => c.slug).sort()).toEqual(['a', 'b']);
-    expect(res.body.cards[0]).toMatchObject({ unlocked: true });
-    expect(res.body.cards[0].description).toBeUndefined();
-    // Two of three city cards: a quarter and half of the city (an early-bird
-    // unlock may join them when the tests run between 4:00 and 7:00 in Prague).
-    expect(res.body.achievements.map(a => a.id)).toEqual(expect.arrayContaining(['a_quarter', 'half_the_city']));
-    expect(res.body.achievements.map(a => a.id)).not.toContain('the_last_mile');
+    expect(res.body).toMatchObject({ username: user.username, isMe: false });
+    const p = res.body.progress;
+    expect(p).toMatchObject({ rank: 1, totalPreset: 3, presetCheckins: 2 });
+    expect(p.totalXP).toBe((await User.findById(user._id).lean()).totalXP);
+    expect(p.rarityCount).toMatchObject({ rare: 1, common: 1 });
+    expect(p.districtProgress).toEqual([{ district: 'Praha 1', total: 1, collected: 1 }]);
+    expect(p.recentFinds.expedition).toEqual({ count: 0, cards: [] });
+    expect(res.body.cards).toBeUndefined();
+    // The whole catalogue, theirs unlocked. Two of three city cards: a
+    // quarter and half of the city (an early-bird unlock may join them when
+    // the tests run between 4:00 and 7:00 in Prague).
+    const unlocked = res.body.achievements.filter(a => a.unlocked).map(a => a.id);
+    expect(unlocked).toEqual(expect.arrayContaining(['a_quarter', 'half_the_city']));
+    expect(unlocked).not.toContain('the_last_mile');
+    expect(res.body.achievements.find(a => a.id === 'the_last_mile')).toMatchObject({ unlocked: false, progress: null });
     expect(JSON.stringify(res.body)).not.toContain(user.email);
 
     const own = await request(app).get(`/api/user/explorers/${encodeURIComponent(user.username)}`).set('Authorization', `Bearer ${token}`);

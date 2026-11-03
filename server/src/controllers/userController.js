@@ -5,10 +5,11 @@ import {
   ACHIEVEMENTS, ACHIEVEMENT_XP, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS,
   HUNT_MULTIPLIERS, HUNT_MISS_STEPS, HUNT_CLUE_STEPS, HUNT_CLUE_ORDER, HUNT_CLOSE_KEYS, HUNT_FREE_CLUE_AT,
   HIDDEN_DRAW_HIT_M, HUNT_MIN_START_M, HUNT_TREND_STEP_M, HUNT_TREND_SAME_M, HUNT_TREND_MAX_M,
-  HUNT_EXCLUDED_SLUGS, riverSideOf, huntXp, huntReading, huntStepOf, huntMissCount,
+  HUNT_EXCLUDED_SLUGS, riverSideOf, huntXp, huntReading, huntStepOf, huntMissCount, achievementXp,
 } from '../services/gamification.js';
 import { haversineDistance, compassDirection } from '../utils/geo.js';
 import { inPrague } from '../utils/pragueBoundary.js';
+import { startOfPragueWeek } from '../utils/pragueTime.js';
 import { recordCheckIn } from './checkinController.js';
 import { parsePreferences } from '../utils/preferences.js';
 import { syncAchievements } from '../services/achievementStats.js';
@@ -20,8 +21,51 @@ export async function getProfile(req, res) {
 const RECENT_CARDS = 6;
 const RECENT_CARD_FIELDS = 'slug name localizedNames labels rarity coverImage pixelArtKey';
 
-export async function getProgress(req, res, next) {
-  try {
+// XP each listed user earned since `since`. XP only comes from check-ins
+// (each storing the XP it paid) and achievements (each with its unlock time).
+function xpEarnedSince(u, checkinXp, since) {
+  return (checkinXp.get(u._id.toString()) || 0)
+    + (u.achievements || []).filter(a => a.unlockedAt && new Date(a.unlockedAt) >= since)
+      .reduce((n, a) => n + achievementXp(a.id), 0);
+}
+
+// The profile's "This week" card (2026-11-03): cards collected and XP earned
+// since Monday 0:00 in Prague (the week resets then, user's call), and how
+// the leaderboard rank moved since. Nothing stores past ranks, so every
+// listed user's XP on Monday is their XP now minus what they earned since.
+// rankChange is { delta } (rank then minus rank now, so positive means up),
+// { isNew: true } when the user had no XP on Monday, or null when they
+// aren't listed now.
+async function weekProgress(user, rankNow) {
+  const since = startOfPragueWeek();
+  const listed = rankNow
+    ? await User.find({ totalXP: { $gt: 0 }, hideFromLeaderboard: { $ne: true } }).select('totalXP achievements').lean()
+    : [];
+  const ids = rankNow ? listed.map(u => u._id) : [user._id];
+  const earned = await CheckIn.aggregate([
+    { $match: { user: { $in: ids }, checkedInAt: { $gte: since } } },
+    { $group: { _id: '$user', xp: { $sum: { $ifNull: ['$xpEarned', 0] } }, n: { $sum: 1 } } },
+  ]);
+  const checkinXp = new Map(earned.map(e => [e._id.toString(), e.xp]));
+  const mine = earned.find(e => e._id.toString() === user._id.toString());
+  const week = { cards: mine?.n || 0, xp: xpEarnedSince(user, checkinXp, since), rankChange: null };
+  if (rankNow) {
+    const xpThen = u => u.totalXP - xpEarnedSince(u, checkinXp, since);
+    const me = listed.find(u => u._id.toString() === user._id.toString());
+    const myThen = me ? xpThen(me) : 0;
+    week.rankChange = myThen <= 0
+      ? { isNew: true }
+      : { delta: 1 + listed.filter(u => xpThen(u) > myThen).length - rankNow };
+  }
+  return week;
+}
+
+// Everything the profile shows about one user's collection: totals and the
+// ring, labels, rarities, districts, rank and the newest treasure finds and
+// expedition cards. `user` is null for a guest (all zeros). Shared by the
+// user's own profile (GET /progress) and another explorer's public one
+// (GET /explorers/:username), which has the same layout since 2026-11-03.
+async function buildProgress(user) {
     const totalPreset = await Location.countDocuments({});
     // The city proper (no `outside` label), which the profile ring shows by
     // default; "All" switches it to every card (2026-11-03).
@@ -36,8 +80,8 @@ export async function getProgress(req, res, next) {
       .map(d => ({ district: d._id, total: d.total, collected: 0 }))
       .sort((a, b) => Number(a.district.slice(6)) - Number(b.district.slice(6)));
 
-    if (!req.user) {
-      return res.json({
+    if (!user) {
+      return {
         totalCheckins: 0,
         presetCheckins: 0,
         totalPreset,
@@ -51,11 +95,12 @@ export async function getProgress(req, res, next) {
         levelInfo: calculateLevel(0),
         totalXP: 0,
         rank: null,
+        week: { cards: 0, xp: 0, rankChange: null },
         recentFinds: { treasure: { count: 0, cards: [] }, expedition: { count: 0, cards: [] } },
-      });
+      };
     }
 
-    const allCheckins = await CheckIn.find({ user: req.user._id })
+    const allCheckins = await CheckIn.find({ user: user._id })
       .populate('location', 'addedBy labels slug rarity district')
       .lean();
 
@@ -83,17 +128,18 @@ export async function getProgress(req, res, next) {
       if (d) d.collected++;
     }
 
-    const levelInfo = calculateLevel(req.user.totalXP);
+    const levelInfo = calculateLevel(user.totalXP);
     // Leaderboard rank, counted the way the leaderboard does (ties share a
     // rank); null for users it doesn't list (no XP yet, or hidden).
-    const rank = req.user.totalXP > 0 && !req.user.hideFromLeaderboard
-      ? await User.countDocuments({ totalXP: { $gt: req.user.totalXP }, hideFromLeaderboard: { $ne: true } }) + 1
+    const rank = user.totalXP > 0 && !user.hideFromLeaderboard
+      ? await User.countDocuments({ totalXP: { $gt: user.totalXP }, hideFromLeaderboard: { $ne: true } }) + 1
       : null;
+    const week = await weekProgress(user, rank);
 
     // The profile's two strips (2026-11-03): the newest treasure-hunt finds
     // and the newest outside (expedition) cards, a few each, plus totals.
     const recent = async (match, locFilter) => {
-      const list = await CheckIn.find({ user: req.user._id, ...match })
+      const list = await CheckIn.find({ user: user._id, ...match })
         .sort({ checkedInAt: -1 })
         .populate({ path: 'location', select: RECENT_CARD_FIELDS })
         .lean();
@@ -107,7 +153,7 @@ export async function getProgress(req, res, next) {
       expedition: await recent({}, l => (l.labels || []).includes('outside')),
     };
 
-    res.json({
+    return {
       totalCheckins: allCheckins.length,
       presetCheckins,
       totalPreset,
@@ -119,10 +165,16 @@ export async function getProgress(req, res, next) {
       labelCount,
       rarityCount,
       levelInfo,
-      totalXP: req.user.totalXP,
+      totalXP: user.totalXP,
       rank,
+      week,
       recentFinds,
-    });
+    };
+}
+
+export async function getProgress(req, res, next) {
+  try {
+    res.json(await buildProgress(req.user ?? null));
   } catch (err) {
     next(err);
   }
@@ -556,6 +608,30 @@ async function achievementUnlockRates() {
 // also whether it is unlocked and the progress toward it (with, for
 // "check in at these places" achievements, which of the places are done;
 // a place with no card yet comes back with `missing: true`).
+// One catalogue entry as the achievement list and the profiles show it,
+// without progress (getAchievements adds that for the signed-in user).
+function achievementEntry(ach, earned, rates) {
+  return {
+    id:             ach.id,
+    icon:           ach.icon,
+    name:           ach.name,
+    name_cz:        ach.name_cz,
+    name_zh:        ach.name_zh,
+    flavor:         ach.flavor,
+    flavor_cz:      ach.flavor_cz,
+    flavor_zh:      ach.flavor_zh,
+    description:    ach.description,
+    description_cz: ach.description_cz,
+    description_zh: ach.description_zh,
+    difficulty:     ach.difficulty,
+    xp:             ACHIEVEMENT_XP[ach.difficulty] || 0,
+    unlockRate:     rates[ach.id],
+    unlocked:       earned.has(ach.id),
+    unlockedAt:     earned.get(ach.id) ?? null,
+    progress:       null,
+  };
+}
+
 export async function getAchievements(req, res, next) {
   try {
     const user = req.user;
@@ -572,25 +648,7 @@ export async function getAchievements(req, res, next) {
       : [];
 
     const all = ACHIEVEMENTS.map(ach => {
-      const out = {
-        id:             ach.id,
-        icon:           ach.icon,
-        name:           ach.name,
-        name_cz:        ach.name_cz,
-        name_zh:        ach.name_zh,
-        flavor:         ach.flavor,
-        flavor_cz:      ach.flavor_cz,
-        flavor_zh:      ach.flavor_zh,
-        description:    ach.description,
-        description_cz: ach.description_cz,
-        description_zh: ach.description_zh,
-        difficulty:     ach.difficulty,
-        xp:             ACHIEVEMENT_XP[ach.difficulty] || 0,
-        unlockRate:     rates[ach.id],
-        unlocked:       earned.has(ach.id),
-        unlockedAt:     earned.get(ach.id) ?? null,
-        progress:       null,
-      };
+      const out = achievementEntry(ach, earned, rates);
       if (stats) {
         const { current, target, slugs: list, quarter, rarities, district, labels, note, unit, counts } = ach.progress(stats);
         // The real count, even past the target (533 / 54), user's call 2026-11-02;
@@ -738,55 +796,29 @@ export async function getLeaderboard(req, res, next) {
   }
 }
 
-// Location fields a card in someone's collection needs (no description).
-const CARD_FIELDS = 'slug name localizedNames labels rarity xpReward coverImage pixelArtKey coordinates quarter district';
-
-// Another explorer's public profile, opened from the leaderboard: level,
-// XP, rank, cards collected (by rarity), unlocked achievements, and the
-// collected cards themselves, newest first. Only users the leaderboard
-// shows (XP above zero, not hideFromLeaderboard) can be looked up; anyone
-// else is a 404, so hidden test accounts stay hidden. No email.
+// Another explorer's public profile, opened from the leaderboard. Since
+// 2026-11-03 (user's call) it has the same layout as the user's own profile:
+// the same progress payload (ring, rank, rarities, labels, districts, newest
+// treasure finds and expedition cards) and the whole achievement catalogue
+// with their unlocks, but no longer every card they have collected. Only
+// users the leaderboard shows (XP above zero, not hideFromLeaderboard) can be
+// looked up; anyone else is a 404, so hidden test accounts stay hidden. No
+// email.
 export async function getExplorer(req, res, next) {
   try {
     const target = await User.findOne({
       username: req.params.username, totalXP: { $gt: 0 }, hideFromLeaderboard: { $ne: true },
-    }).select('username totalXP achievements createdAt').lean();
+    }).select('username totalXP achievements createdAt hideFromLeaderboard').lean();
     if (!target) return res.status(404).json({ message: 'Explorer not found' });
 
-    const checkins = await CheckIn.find({ user: target._id })
-      .sort({ checkedInAt: -1 })
-      .populate({ path: 'location', select: CARD_FIELDS })
-      .lean();
-    const cards = checkins.filter(c => c.location).map(c => ({
-      ...c.location,
-      unlocked: true,
-      _checkedInAt: c.checkedInAt,
-      _guessAttempt: c.guessAttempt,
-    }));
-    const rarityCount = { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0, expedition: 0 };
-    for (const c of cards) if ((c.rarity || 'common') in rarityCount) rarityCount[c.rarity || 'common']++;
-
     const earned = new Map((target.achievements || []).map(a => [a.id, a.unlockedAt]));
-    const achievements = ACHIEVEMENTS.filter(a => earned.has(a.id)).map(a => ({
-      id: a.id, name: a.name, name_cz: a.name_cz, name_zh: a.name_zh,
-      flavor: a.flavor, flavor_cz: a.flavor_cz, flavor_zh: a.flavor_zh, xp: ACHIEVEMENT_XP[a.difficulty] || 0,
-      description: a.description, description_cz: a.description_cz, description_zh: a.description_zh,
-      icon: a.icon, unlocked: true, unlockedAt: earned.get(a.id) ?? null,
-    }));
-
-    const ahead = await User.countDocuments({ totalXP: { $gt: target.totalXP }, hideFromLeaderboard: { $ne: true } });
+    const { rates } = await achievementUnlockRates();
     res.json({
       username: target.username,
-      totalXP: target.totalXP,
-      levelInfo: calculateLevel(target.totalXP),
-      rank: ahead + 1,
       joinedAt: target.createdAt ?? null,
-      totalCards: await Location.countDocuments({}),
-      totalAchievements: ACHIEVEMENTS.length,
-      rarityCount,
-      achievements,
-      cards,
       isMe: req.user?._id?.toString() === target._id.toString(),
+      progress: await buildProgress(target),
+      achievements: ACHIEVEMENTS.map(a => achievementEntry(a, earned, rates)),
     });
   } catch (err) {
     next(err);

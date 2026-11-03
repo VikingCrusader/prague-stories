@@ -15,6 +15,7 @@ const PROGRESS = {
   levelInfo: { level: 2, title: 'Apprentice Explorer', progress: 40, nextLevelXP: 200 },
   totalXP: 140,
   rank: 12,
+  week: { cards: 5, xp: 380, rankChange: { delta: 3 } },
   recentFinds: {
     treasure: { count: 0, cards: [] },
     expedition: {
@@ -68,23 +69,57 @@ test.describe('Dashboard', () => {
     await expect(page.locator('.stat-card--ring svg')).toContainText('38%');
     await expect(page.locator('.stat-card--ring .stat-card__value')).toHaveText('4');
     await expect(page.getByText('8 cards in Prague, 2 outside')).toBeVisible();
-    await expect(page.getByText('1 / 2', { exact: true })).toBeVisible(); // achievements unlocked count
+    // Cards by rarity, compact, beside the ring (the rarity mock: legend 1).
+    const rarity = page.locator('.rarity-compact');
+    await expect(rarity.locator('.rarity-compact__item')).toHaveCount(7);
+    await expect(rarity.locator('.rarity-compact__item', { hasText: 'Legendary' })).toContainText('1');
   });
 
-  test('shows the leaderboard rank, which opens the leaderboard; "—" when not listed', async ({ page }) => {
-    const rank = page.locator('a.stat-card--link');
+  test('"This week" shows the rank and how it moved, new cards and XP; the rank opens the leaderboard', async ({ page }) => {
+    const card = page.locator('.week-card');
+    await expect(card.locator('.stat-card__label')).toHaveText('This week(resets every Monday)');
+    const rank = card.locator('.week-card__item--rank');
     await expect(rank).toContainText('Leaderboard rank');
-    await expect(rank.locator('.stat-card__value')).toHaveText('#12');
-    await expect(rank).toHaveAttribute('href', '/leaderboard');
+    await expect(rank.locator('.week-card__n')).toHaveText('#12▲3');
+    await expect(rank.locator('.rank-change--up')).toHaveText('▲3');
+    await expect(rank.locator('a')).toHaveAttribute('href', '/leaderboard');
+    await expect(card.locator('.week-card__item', { hasText: 'New cards' }).locator('.week-card__n')).toHaveText('+5');
+    await expect(card.locator('.week-card__item', { hasText: 'XP gained' }).locator('.week-card__n')).toHaveText('+380');
     await expect(page.getByText('Total XP')).toHaveCount(0);
 
-    await page.route('**/api/user/progress', route => route.fulfill({ json: { ...PROGRESS, rank: null } }));
-    await page.reload();
-    await expect(page.locator('a.stat-card--link .stat-card__value')).toHaveText('—');
+    const show = async (week, extra = {}) => {
+      await page.unroute('**/api/user/progress');
+      await page.route('**/api/user/progress', route => route.fulfill({ json: { ...PROGRESS, ...extra, week } }));
+      await page.reload();
+      await page.locator('.week-card').waitFor();
+    };
+    await show({ cards: 0, xp: 0, rankChange: { delta: -2 } });
+    await expect(rank.locator('.rank-change--down')).toHaveText('▼2');
+    await expect(card.locator('.week-card__item', { hasText: 'New cards' }).locator('.week-card__n')).toHaveText('0');
+    await show({ cards: 0, xp: 0, rankChange: { delta: 0 } });
+    await expect(rank.locator('.week-card__n')).toHaveText('#12');
+    await show({ cards: 1, xp: 10, rankChange: { isNew: true } });
+    await expect(rank.locator('.rank-change--up')).toHaveText('New');
+    await show({ cards: 0, xp: 0, rankChange: null }, { rank: null });
+    await expect(rank.locator('.week-card__n')).toHaveText('—');
+
+    // On a desktop the rank isn't also shown beside the level badge.
+    await expect(page.locator('a.stat-card--rank-top')).toBeHidden();
+
+    // On a phone the rank sits beside the level badge instead, and the
+    // "This week" card keeps only new cards and XP.
+    await page.setViewportSize({ width: 390, height: 844 });
+    await expect(rank).toBeHidden();
+    await expect(card.locator('.week-card__item', { hasText: 'New cards' })).toBeVisible();
+    await expect(page.locator('a.stat-card--rank-top')).toBeVisible();
+    const badge = await page.locator('.level-badge').boundingBox();
+    const top = await page.locator('a.stat-card--rank-top').boundingBox();
+    expect(top.x).toBeGreaterThan(badge.x + badge.width - 1);
+    expect(Math.abs(top.y - badge.y)).toBeLessThan(20);
   });
 
   test('levels are listed from the navbar XP figure, not on the profile', async ({ page }) => {
-    await expect(page.getByText('1 / 2', { exact: true })).toBeVisible();
+    await expect(page.locator('.rarity-compact')).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Explorer Levels' })).toHaveCount(0);
 
     await page.locator('.navbar__user').click();
@@ -106,6 +141,7 @@ test.describe('Dashboard', () => {
     const tiles = page.locator('.ach-showcase .ach-tile');
     await expect(tiles).toHaveCount(1); // only unlocked ones
     await expect(tiles.first()).toContainText('First Steps');
+    await expect(tiles.first().locator('.ach-tile__date')).toHaveText('1 Jan 2026');
     await expect(tiles.first()).not.toContainText('of players');   // share hidden for now
 
     await tiles.first().click();
@@ -178,6 +214,19 @@ test.describe('Dashboard', () => {
     await expect(exp.locator('.card-strip__name').first()).toHaveText('Karlstejn');
     const box = await exp.locator('.card-strip__cover').first().boundingBox();
     expect(box.width).toBeLessThanOrEqual(112); // a thumbnail, not a full card
+    // One row only: all six side by side here, three on a phone.
+    const tops = await exp.locator('.card-strip__item').evaluateAll(els => els.map(e => e.getBoundingClientRect().top));
+    expect(new Set(tops).size).toBe(1);
+    await page.setViewportSize({ width: 390, height: 844 });
+    const shown = exp.locator('.card-strip__item:visible');
+    await expect(shown).toHaveCount(3);
+    const phoneTops = await shown.evaluateAll(els => els.map(e => e.getBoundingClientRect().top));
+    expect(new Set(phoneTops).size).toBe(1);
+    // The ring's totals go on two lines on a phone.
+    const parts = page.locator('.ring-stats__part');
+    const [a, b] = [await parts.nth(0).boundingBox(), await parts.nth(1).boundingBox()];
+    expect(b.y).toBeGreaterThan(a.y);
+    await page.setViewportSize({ width: 1280, height: 720 });
 
     await page.route('**/api/locations/karlstejn', route => route.fulfill({ json: { ...PROGRESS.recentFinds.expedition.cards[0], description: { en: 'A castle.' }, coordinates: { lat: 49.9, lng: 14.2 } } }));
     await exp.locator('.card-strip__item').first().click();
@@ -198,6 +247,26 @@ test.describe('Dashboard', () => {
     await page.locator('.card-strip').filter({ hasText: 'Expeditions' }).getByRole('link', { name: 'All →' }).click();
     await expect(page).toHaveURL(/\/explore/);
     await expect(page.locator('.loc-card')).toHaveCount(2);
+    await expect(page.locator('.explore-rarity-blurb')).toContainText('beyond the city limits');
+  });
+
+  test('with no expedition cards yet, the nudge opens Explore on Show all, filtered to Expedition', async ({ page }) => {
+    await page.route('**/api/user/progress', route => route.fulfill({ json: { ...PROGRESS, recentFinds: { ...PROGRESS.recentFinds, expedition: { count: 0, cards: [] } } } }));
+    const card = (i, name, extra) => ({
+      _id: String(i), name, slug: name.toLowerCase(), localizedNames: { cz: name, zh: name }, coverImage: '', pixelArtKey: '',
+      unlocked: false, coordinates: { lat: 50.0865, lng: 14.4114 }, ...extra,
+    });
+    await page.route('**/api/locations', route => route.fulfill({ json: [
+      card(1, 'Bridge', { labels: ['bridge'], rarity: 'legend', xpReward: 100, unlocked: true }),
+      card(2, 'Melnik', { labels: ['castle', 'outside'], rarity: 'expedition', xpReward: 120 }),
+      card(3, 'Roztoky', { labels: ['castle', 'outside'], rarity: 'expedition', xpReward: 60 }),
+    ] }));
+    await page.reload();
+    const exp = page.locator('.card-strip').filter({ hasText: 'Expeditions' });
+    await expect(exp).toContainText('No expedition cards yet.');
+    await exp.getByRole('link', { name: 'See the places beyond Prague.' }).click();
+    await expect(page).toHaveURL(/\/explore/);
+    await expect(page.locator('.loc-card')).toHaveCount(2); // both outside cards, neither collected
     await expect(page.locator('.explore-rarity-blurb')).toContainText('beyond the city limits');
   });
 

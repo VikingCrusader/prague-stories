@@ -1,7 +1,7 @@
 import { useState, useRef, useLayoutEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
-import { achField, formatPercent, SHOW_UNLOCK_RATE } from '../../utils/achievementText';
+import { achField, formatPercent, formatAchDate, SHOW_UNLOCK_RATE } from '../../utils/achievementText';
 import AchievementIcon from './AchievementIcon';
 
 // Dashboard summary (2026-11-02): how much of the catalogue is unlocked, and
@@ -40,7 +40,9 @@ function useGridColumns(ref, active) {
   return cols;
 }
 
-export default function RarestAchievements({ achievements, onOpen }) {
+// `titleLink` (default on) makes the heading a link to /achievements; off on
+// someone else's profile, where that page would show the viewer's own.
+export default function RarestAchievements({ achievements, onOpen, titleLink = true }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -59,7 +61,7 @@ export default function RarestAchievements({ achievements, onOpen }) {
   return (
     <section style={{ marginTop: 28 }}>
       <h2 className="px-title" style={{ fontSize: 22, marginBottom: 14 }}>
-        <Link to="/achievements">{t('dashboard.achievements')}</Link>
+        {titleLink ? <Link to="/achievements">{t('dashboard.achievements')}</Link> : t('dashboard.achievements')}
       </h2>
       <div className="ach-summary">
         <span>{t('ach.summary', { n: unlocked.length, total: achievements.length, pct: formatPercent(pct, lang) })}</span>
@@ -72,6 +74,7 @@ export default function RarestAchievements({ achievements, onOpen }) {
               <button key={a.id} type="button" className="ach-tile" onClick={() => onOpen(a)}>
                 <span className="ach-icon" data-difficulty={a.difficulty}><AchievementIcon achievement={a} /></span>
                 <span className="ach-tile__name">{convert(achField(a, 'name', lang))}</span>
+                {a.unlockedAt && <span className="ach-tile__date">{formatAchDate(a.unlockedAt, lang)}</span>}
                 {SHOW_UNLOCK_RATE && <span className="ach-tile__rate">{t('ach.rate', { pct: formatPercent(a.unlockRate, lang) })}</span>}
               </button>
             ))}

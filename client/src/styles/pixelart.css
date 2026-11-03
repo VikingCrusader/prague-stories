@@ -1481,6 +1481,33 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 .dashboard-page { flex: 1; padding: 24px; max-width: 1200px; margin: 0 auto; width: 100%; }
 .dashboard-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .stat-card--tall { grid-row: span 2; }
+.ring-stats { min-width: 0; }
+/* Hidden on wider screens; `.stat-card` in the selector so it beats
+   .stat-card--link's display further down. */
+.stat-card.stat-card--rank-top { display: none; }
+.rank-change { margin-left: 10px; font-size: 0.5em; font-weight: 700; vertical-align: middle; }
+.rank-change--up { color: var(--success-text, #5fd068); }
+.rank-change--down { color: var(--text-muted); }
+/* "This week" card beside the ring: rank, new cards, XP gained. */
+.week-card__note { margin-left: 8px; font-size: 12px; color: var(--text-muted); text-transform: none; letter-spacing: 0; font-weight: 400; }
+.week-card__list { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.week-card__item { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.week-card__name { font-size: 13px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.week-card__n { font-size: 26px; line-height: 1.2; color: var(--gold); text-decoration: none; white-space: nowrap; }
+a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline; outline: none; }
+.ring-stats__line { font-size: 16px; color: var(--text-muted); font-weight: 700; }
+.rarity-compact__list {
+  list-style: none; margin: 12px 0 0; padding: 0;
+  display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px;
+}
+.rarity-compact__item { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; text-align: center; }
+.rarity-compact__name { font-size: 13px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rarity-compact__n { font-weight: 700; font-size: 22px; line-height: 1.2; }
+/* Czech and English names don't fit seven across on a phone: 4 + 3 there. */
+@media (max-width: 600px) {
+  .rarity-compact__n { font-size: 18px; }
+  html:not([data-lang="zh"]) .rarity-compact__list { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 10px; }
+}
 
 /* Profile strips: newest treasure finds / expedition cards (RecentCardStrip.jsx). */
 .card-strip { margin-top: 28px; }
@@ -1516,8 +1543,11 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 .card-strip__xp { color: var(--gold); }
 .card-strip__empty { font-size: 15px; color: var(--text-muted); margin: 0; }
 .card-strip__empty a { color: var(--gold); text-decoration: underline; }
+/* One row only, on every screen (2026-11-03, user's call): six on wider
+   screens, three on phones (the rest are hidden there). */
 @media (max-width: 600px) {
   .card-strip__row { grid-template-columns: repeat(3, minmax(0, 110px)); gap: 10px; }
+  .card-strip__item:nth-child(n + 4) { display: none; }
 }
 .stat-card--link { display: block; color: inherit; text-decoration: none; }
 .stat-card--link:hover, .stat-card--link:focus-visible { border-color: var(--gold); outline: none; }
@@ -1553,12 +1583,6 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 }
 .stat-card__value { font-size: 32px; color: var(--gold); }
 
-.achievements-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 12px;
-  margin-top: 16px;
-}
 .ach-badge {
   background: var(--bg-card);
   border: 3px solid var(--border);
@@ -2257,9 +2281,22 @@ html[data-lang="zh"] .detail-title-name {
      comfortably ("OF 1112 LOCATION CARDS" was breaking mid-phrase).
      Stacking the ring above the text instead gives the text the full
      card width. */
-  .stat-card--ring { flex-direction: column; align-items: flex-start !important; }
-  .rarity-strip-row { flex-wrap: wrap !important; justify-content: flex-start !important; gap: 10px !important; }
-  .rarity-strip-row > div { font-size: 13px !important; }
+  /* Phones: the stats stay beside a smaller ring (2026-11-03, user's call;
+     they used to drop below it, leaving a wide gap to the ring's right). */
+  .stat-card--ring { gap: 14px !important; padding: 16px; }
+  /* The rank moves up beside the level badge; the XP bar takes the next line. */
+  .level-row { gap: 12px !important; }
+  .stat-card.stat-card--rank-top { display: flex; flex-direction: column; justify-content: center; flex: 1; min-width: 0; padding: 8px 14px; }
+  .stat-card--rank-top .stat-card__value { font-size: 24px; }
+  .stat-card--rank-top .rank-change { display: block; margin: 2px 0 0; font-size: 13px; }
+  .week-card__item--rank { display: none; }
+  .week-card__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .level-row__xp { flex-basis: 100% !important; }
+  .stat-card--ring svg { width: 104px; height: 104px; }
+  .ring-stats .stat-card__value { font-size: 26px; }
+  .ring-stats__line { font-size: 14px; }
+  .ring-stats__sep { display: none; }
+  .ring-stats__part { display: block; }
   .guide-page { padding: 12px 14px; }
   .guide-h2 { font-size: 15px; }
   .guide-faq__q { font-size: 14px; }
