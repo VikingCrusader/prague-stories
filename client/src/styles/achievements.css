@@ -215,12 +215,6 @@
 .ach-modal__date { color: var(--gold); }
 
 /* ── Dashboard: rarest achievements, one row only ────────── */
-.ach-showcase__label {
-  font-family: var(--ui-font);
-  font-size: 14px;
-  color: var(--text-muted);
-  margin-bottom: 8px;
-}
 .ach-showcase {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -261,6 +255,10 @@
 .ach-viewall {
   display: inline-block;
   margin-top: 12px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
   font-family: var(--ui-font);
   font-size: 15px;
   color: var(--gold);
@@ -735,3 +733,6 @@ html[data-lang="zh"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 108px; }
   .ach-showcase { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 8px; }
   .ach-showcase .ach-tile { padding: 10px 6px; margin-bottom: 8px; }
 }
+
+/* "All achievements" expanded in place (2026-11-03): every row shows. */
+.ach-showcase--all { grid-auto-rows: auto; }

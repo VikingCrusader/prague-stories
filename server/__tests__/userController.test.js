@@ -85,6 +85,62 @@ describe('GET /api/user/progress', () => {
     const res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${token}`);
     expect(res.body).toMatchObject({ presetCheckins: 2, totalPreset: 3, unlockPercent: 67, cityCheckins: 1, totalCity: 2, cityUnlockPercent: 50 });
   });
+
+  test('gives the leaderboard rank, ties sharing it; null with no XP or when hidden', async () => {
+    const { token, user } = await createAuthedUser();
+    let res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${token}`);
+    expect(res.body.rank).toBeNull();
+
+    await User.updateOne({ _id: user._id }, { totalXP: 50 });
+    await User.create({ username: 'ahead', email: 'ahead@x.cz', password: 'secret1', totalXP: 80 });
+    await User.create({ username: 'tied', email: 'tied@x.cz', password: 'secret1', totalXP: 50 });
+    await User.create({ username: 'hidden', email: 'hidden@x.cz', password: 'secret1', totalXP: 999, hideFromLeaderboard: true });
+    res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${token}`);
+    expect(res.body.rank).toBe(2);
+
+    await User.updateOne({ _id: user._id }, { hideFromLeaderboard: true });
+    res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${token}`);
+    expect(res.body.rank).toBeNull();
+  });
+
+  test('lists the newest treasure finds and expedition cards, six at most, with totals', async () => {
+    const { token, user } = await createAuthedUser();
+    const day = n => new Date(Date.UTC(2026, 0, n));
+    for (let i = 1; i <= 8; i++) {
+      const loc = await Location.create({ name: `Out ${i}`, slug: `out-${i}`, coordinates: CHARLES_BRIDGE, labels: ['castle', 'outside'] });
+      await CheckIn.create({ user: user._id, location: loc._id, checkedInAt: day(i) });
+    }
+    const hunt = await Location.create({ name: 'Hunt', slug: 'hunt', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    await CheckIn.create({ user: user._id, location: hunt._id, checkedInAt: day(20), guessAttempt: 2, xpEarned: 50 });
+
+    const res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${token}`);
+    const { treasure, expedition } = res.body.recentFinds;
+    expect(treasure.count).toBe(1);
+    expect(treasure.cards.map(c => c.slug)).toEqual(['hunt']);
+    expect(treasure.cards[0]._xpEarned).toBe(50);
+    expect(res.body.recentFinds.expedition.cards[0]._xpEarned).toBeNull();
+    expect(expedition.count).toBe(8);
+    expect(expedition.cards.map(c => c.slug)).toEqual(['out-8', 'out-7', 'out-6', 'out-5', 'out-4', 'out-3']);
+    expect(expedition.cards[0].description).toBeUndefined();
+  });
+
+  test('counts cards and collected cards per district, Praha 1 to 22 in order', async () => {
+    await Location.create({ name: 'A', slug: 'a', coordinates: CHARLES_BRIDGE, district: 'Praha 10', rarity: 'common', xpReward: 10 });
+    await Location.create({ name: 'B', slug: 'b', coordinates: CHARLES_BRIDGE, district: 'Praha 2', rarity: 'common', xpReward: 10 });
+    await Location.create({ name: 'C', slug: 'c', coordinates: CHARLES_BRIDGE, district: 'Praha 2', rarity: 'common', xpReward: 10 });
+    await Location.create({ name: 'Out', slug: 'out', coordinates: CHARLES_BRIDGE, labels: ['castle', 'outside'] });
+    const { token } = await createAuthedUser();
+    await checkIn(token, 'b');
+    await checkIn(token, 'out');
+
+    const res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${token}`);
+    expect(res.body.districtProgress).toEqual([
+      { district: 'Praha 2', total: 2, collected: 1 },
+      { district: 'Praha 10', total: 1, collected: 0 },
+    ]);
+    const guest = await request(app).get('/api/user/progress');
+    expect(guest.body.districtProgress.map(d => d.collected)).toEqual([0, 0]);
+  });
 });
 
 describe('GET /api/user/achievements', () => {

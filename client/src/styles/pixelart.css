@@ -1480,12 +1480,69 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 /* ── Dashboard ────────────────────────────────────────────── */
 .dashboard-page { flex: 1; padding: 24px; max-width: 1200px; margin: 0 auto; width: 100%; }
 .dashboard-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.stat-card--tall { grid-row: span 2; }
+
+/* Profile strips: newest treasure finds / expedition cards (RecentCardStrip.jsx). */
+.card-strip { margin-top: 28px; }
+.card-strip__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.card-strip__title { font-size: 22px; margin: 0; }
+.card-strip__count { color: var(--text-muted); font-size: 0.75em; }
+.card-strip__all { font-family: var(--ui-font); font-size: 15px; color: var(--gold); text-decoration: underline; white-space: nowrap; }
+.card-strip__row { display: grid; grid-template-columns: repeat(6, minmax(0, 110px)); gap: 14px; }
+.card-strip__item {
+  display: flex; flex-direction: column; gap: 6px; min-width: 0;
+  padding: 0; background: none; border: none; color: inherit; font: inherit; cursor: pointer; text-align: center;
+}
+.card-strip__cover {
+  display: flex; align-items: center; justify-content: center;
+  aspect-ratio: 1; overflow: hidden;
+  background: var(--bg-card); border: 2px solid var(--border); box-shadow: 3px 3px 0 var(--shadow);
+}
+.card-strip__item[data-rarity="rare"] .card-strip__cover { border-color: var(--rarity-rare); }
+.card-strip__item[data-rarity="superior"] .card-strip__cover { border-color: var(--rarity-superior); }
+.card-strip__item[data-rarity="epic"] .card-strip__cover { border-color: var(--rarity-epic); }
+.card-strip__item[data-rarity="mythic"] .card-strip__cover { border-color: var(--rarity-mythic); }
+.card-strip__item[data-rarity="legend"] .card-strip__cover { border-color: var(--rarity-legend); }
+.card-strip__item[data-rarity="expedition"] .card-strip__cover { border-color: var(--rarity-expedition); }
+.card-strip__cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.card-strip__item:hover .card-strip__cover, .card-strip__item:focus-visible .card-strip__cover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--shadow); }
+.card-strip__item:focus-visible { outline: none; }
+.card-strip__emoji { font-size: 2rem; }
+.card-strip__name {
+  font-family: var(--ui-font); font-size: 13px; line-height: 1.3; color: var(--text-primary);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.card-strip__meta { display: flex; flex-wrap: wrap; justify-content: center; column-gap: 6px; font-family: var(--ui-font); font-size: 12px; font-weight: 700; line-height: 1.3; }
+.card-strip__xp { color: var(--gold); }
+.card-strip__empty { font-size: 15px; color: var(--text-muted); margin: 0; }
+.card-strip__empty a { color: var(--gold); text-decoration: underline; }
+@media (max-width: 600px) {
+  .card-strip__row { grid-template-columns: repeat(3, minmax(0, 110px)); gap: 10px; }
+}
+.stat-card--link { display: block; color: inherit; text-decoration: none; }
+.stat-card--link:hover, .stat-card--link:focus-visible { border-color: var(--gold); outline: none; }
 .stat-card {
   background: var(--bg-surface);
   border: 3px solid var(--border);
   box-shadow: 4px 4px 0 var(--shadow);
   padding: 20px 24px;
 }
+/* Profile: progress per district under the ring (DistrictProgress.jsx). */
+.district-progress__list {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr)); column-gap: 28px; row-gap: 7px;
+}
+.district-progress__summary { display: flex; align-items: baseline; gap: 10px; margin: 2px 0 14px; flex-wrap: wrap; }
+.district-progress__summary-text { font-size: 16px; color: var(--text-muted); font-weight: 700; }
+.district-progress__row--unvisited .district-progress__name { color: var(--text-muted); opacity: 0.6; }
+.district-progress__row { display: flex; align-items: center; gap: 8px; font-size: 14px; min-width: 0; }
+.district-progress__name { flex: 0 0 auto; width: 6.5em; color: var(--text-primary); white-space: nowrap; }
+.district-progress__bar {
+  flex: 1; height: 8px; min-width: 30px;
+  background: var(--bg-card); border: 2px solid var(--border);
+}
+.district-progress__fill { display: block; height: 100%; }
+.district-progress__count { flex: 0 0 4.6em; text-align: right; color: var(--text-muted); font-weight: 700; font-size: 13px; }
 .stat-card__label {
   font-family: var(--ui-font);
   font-size: 13px;
@@ -2062,6 +2119,7 @@ html[data-lang="zh"] .detail-title-name {
   .map-container { flex: none; height: 52vh; min-height: 260px; }
   .map-sidebar { width: 100%; border-left: none; border-top: 3px solid var(--gold); flex: 1; overflow-y: auto; }
   .dashboard-grid { grid-template-columns: 1fr; }
+  .stat-card--tall { grid-row: auto; }
 }
 
 @media (max-width: 600px) {

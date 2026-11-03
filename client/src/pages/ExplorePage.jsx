@@ -42,6 +42,9 @@ export default function ExplorePage() {
   const [area, setArea]                 = useState(null);
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
+  // Filters to open with, from a link's state (the profile's expedition
+  // strip sends { collection: true, rarity: 'expedition' }); read once.
+  const [initialFilter] = useState(() => (state?.collection || state?.rarity ? { collection: !!state.collection, rarity: state.rarity ?? null } : null));
 
   // Refetched when the signed-in user changes, e.g. when a sign-in that
   // was retried in the background (AuthContext) lands after the first load.
@@ -247,7 +250,7 @@ export default function ExplorePage() {
         </div>
       </div>
 
-      <LocationGrid locations={sortedLocations} collectionLocations={sortedAll} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} onRarityChange={setRarity} />
+      <LocationGrid locations={sortedLocations} collectionLocations={sortedAll} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} onRarityChange={setRarity} initialFilter={initialFilter} />
 
       {selectedSlug && (
         <LocationDetail

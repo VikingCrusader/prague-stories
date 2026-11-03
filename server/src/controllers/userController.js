@@ -17,12 +17,24 @@ export async function getProfile(req, res) {
   res.json({ user: req.user.toPublicJSON() });
 }
 
+const RECENT_CARDS = 6;
+const RECENT_CARD_FIELDS = 'slug name localizedNames labels rarity coverImage pixelArtKey';
+
 export async function getProgress(req, res, next) {
   try {
     const totalPreset = await Location.countDocuments({});
     // The city proper (no `outside` label), which the profile ring shows by
     // default; "All" switches it to every card (2026-11-03).
     const totalCity = await Location.countDocuments({ labels: { $ne: 'outside' } });
+    // Cards per správní obvod (Praha 1–22), for the profile's district list
+    // (2026-11-03); `collected` is filled in below for a signed-in user.
+    const districtTotals = await Location.aggregate([
+      { $match: { district: { $regex: /^Praha \d+$/ } } },
+      { $group: { _id: '$district', total: { $sum: 1 } } },
+    ]);
+    const districtProgress = districtTotals
+      .map(d => ({ district: d._id, total: d.total, collected: 0 }))
+      .sort((a, b) => Number(a.district.slice(6)) - Number(b.district.slice(6)));
 
     if (!req.user) {
       return res.json({
@@ -33,15 +45,18 @@ export async function getProgress(req, res, next) {
         cityCheckins: 0,
         totalCity,
         cityUnlockPercent: 0,
+        districtProgress,
         labelCount: {},
         rarityCount: { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0, expedition: 0 },
         levelInfo: calculateLevel(0),
         totalXP: 0,
+        rank: null,
+        recentFinds: { treasure: { count: 0, cards: [] }, expedition: { count: 0, cards: [] } },
       });
     }
 
     const allCheckins = await CheckIn.find({ user: req.user._id })
-      .populate('location', 'addedBy labels slug rarity')
+      .populate('location', 'addedBy labels slug rarity district')
       .lean();
 
     const presetCheckins = allCheckins.filter(c => c.location).length;
@@ -62,8 +77,35 @@ export async function getProgress(req, res, next) {
       const r = ci.location.rarity || 'common';
       if (r in rarityCount) rarityCount[r]++;
     }
+    const byDistrict = new Map(districtProgress.map(d => [d.district, d]));
+    for (const ci of allCheckins) {
+      const d = ci.location && byDistrict.get(ci.location.district);
+      if (d) d.collected++;
+    }
 
     const levelInfo = calculateLevel(req.user.totalXP);
+    // Leaderboard rank, counted the way the leaderboard does (ties share a
+    // rank); null for users it doesn't list (no XP yet, or hidden).
+    const rank = req.user.totalXP > 0 && !req.user.hideFromLeaderboard
+      ? await User.countDocuments({ totalXP: { $gt: req.user.totalXP }, hideFromLeaderboard: { $ne: true } }) + 1
+      : null;
+
+    // The profile's two strips (2026-11-03): the newest treasure-hunt finds
+    // and the newest outside (expedition) cards, a few each, plus totals.
+    const recent = async (match, locFilter) => {
+      const list = await CheckIn.find({ user: req.user._id, ...match })
+        .sort({ checkedInAt: -1 })
+        .populate({ path: 'location', select: RECENT_CARD_FIELDS })
+        .lean();
+      const cards = list.filter(c => c.location && locFilter(c.location));
+      // _xpEarned: what that check-in paid (hunt multiplier included); null
+      // on legacy check-ins that didn't store it.
+      return { count: cards.length, cards: cards.slice(0, RECENT_CARDS).map(c => ({ ...c.location, _xpEarned: c.xpEarned ?? null })) };
+    };
+    const recentFinds = {
+      treasure: await recent({ guessAttempt: { $gte: 1 } }, () => true),
+      expedition: await recent({}, l => (l.labels || []).includes('outside')),
+    };
 
     res.json({
       totalCheckins: allCheckins.length,
@@ -73,10 +115,13 @@ export async function getProgress(req, res, next) {
       cityCheckins,
       totalCity,
       cityUnlockPercent,
+      districtProgress,
       labelCount,
       rarityCount,
       levelInfo,
       totalXP: req.user.totalXP,
+      rank,
+      recentFinds,
     });
   } catch (err) {
     next(err);

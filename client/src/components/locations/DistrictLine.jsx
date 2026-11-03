@@ -5,7 +5,7 @@ import { quarterName } from '../../utils/pragueQuarters';
 // One colour per správní obvod (index = district number - 1), hues spread
 // by the golden angle so neighbouring numbers never look alike; all dark
 // enough for the light pill text.
-const DISTRICT_COLORS = [
+export const DISTRICT_COLORS = [
   '#6f2020', // Praha 1
   '#268241', // Praha 2
   '#4e206f', // Praha 3
