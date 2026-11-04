@@ -752,6 +752,36 @@ export async function saveHistoryProgress(req, res, next) {
   }
 }
 
+// Notes that the user opened the guide to a district or quarter (the client
+// sends this only for areas that have one). Ten different ones unlock
+// Know Your Way Around; like history progress, the sync only runs when it can
+// fire.
+const AREA_GUIDE_TARGET = 10;
+export async function markAreaGuideRead(req, res, next) {
+  try {
+    const { kind, value } = req.body ?? {};
+    const ok = (kind === 'district' && typeof value === 'string' && /^Praha ([1-9]|1\d|2[0-2])$/.test(value))
+      || (kind === 'quarter' && typeof value === 'string' && value.length > 0 && value.length <= 60);
+    if (!ok) return res.status(400).json({ message: 'kind and value are required' });
+    const key = `${kind}:${value}`;
+    const updated = await User.findOneAndUpdate(
+      { _id: req.user._id },
+      { $addToSet: { areaGuidesRead: key } },
+      { new: true, projection: { areaGuidesRead: 1 } },
+    ).lean();
+    const read = updated?.areaGuidesRead?.length ?? 0;
+    let sync = null;
+    const has = (req.user.achievements || []).some(a => a.id === 'know_the_area');
+    if (!has && read >= AREA_GUIDE_TARGET) {
+      req.user.areaGuidesRead = updated.areaGuidesRead;
+      sync = await syncAchievements(req.user);
+    }
+    res.json({ read, newAchievements: sync?.newAchievements ?? [], achievementProgress: sync?.progress ?? null });
+  } catch (err) {
+    next(err);
+  }
+}
+
 // Leaderboard size: the top this many explorers by XP.
 const LEADERBOARD_SIZE = 100;
 

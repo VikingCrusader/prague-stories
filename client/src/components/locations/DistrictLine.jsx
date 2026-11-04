@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
+import AreaGuideModal from './AreaGuideModal';
 import { LABEL_COLORS } from '../../utils/pixelArtMap';
 import { quarterName } from '../../utils/pragueQuarters';
 
@@ -32,11 +34,13 @@ export const DISTRICT_COLORS = [
 
 // Where a card sits, on its own line below the descriptive labels: its
 // historical quarter and Prague správní obvod ("Smíchov" + "Praha 5"), or
-// "Outside Prague" for cards labelled `outside`.
+// "Outside Prague" for cards labelled `outside`. Each pill is a button that
+// opens its area's guide in AreaGuideModal (or a "coming soon" note there).
 export default function DistrictLine({ loc, style }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
+  const [guide, setGuide] = useState(null);
   const outside = loc.labels?.includes('outside');
   const n = loc.district?.match(/^Praha (\d+)$/)?.[1];
   if (!outside && !n) return null;
@@ -50,12 +54,22 @@ export default function DistrictLine({ loc, style }) {
   // Historical quarter (katastrální území) first, then the modern district;
   // both in the district's colour, so the pair reads as one place.
   const bg = { backgroundColor: DISTRICT_COLORS[n - 1] };
+  const pill = (kind, value, text) => (
+    <button
+      type="button"
+      className="detail-label-pill area-guide-pill"
+      style={bg}
+      title={t('areaGuide.open')}
+      onClick={e => { e.stopPropagation(); setGuide({ kind, value }); }}
+    >
+      {convert(text)}
+    </button>
+  );
   return (
     <div className="loc-card__labels" style={style}>
-      {loc.quarter && (
-        <span className="detail-label-pill" style={bg}>{convert(quarterName(loc.quarter, lang))}</span>
-      )}
-      <span className="detail-label-pill" style={bg}>{convert(t('detail.district', { n }))}</span>
+      {loc.quarter && pill('quarter', loc.quarter, quarterName(loc.quarter, lang))}
+      {pill('district', loc.district, t('detail.district', { n }))}
+      {guide && <AreaGuideModal kind={guide.kind} value={guide.value} onClose={() => setGuide(null)} />}
     </div>
   );
 }

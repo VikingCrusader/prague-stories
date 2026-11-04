@@ -371,6 +371,35 @@ describe('/api/user/history-progress', () => {
   });
 });
 
+describe('POST /api/user/area-guide-read', () => {
+  test('requires authentication', async () => {
+    expect((await request(app).post('/api/user/area-guide-read').send({ kind: 'district', value: 'Praha 1' })).status).toBe(401);
+  });
+
+  test('rejects an unknown kind or district', async () => {
+    const { token } = await createAuthedUser();
+    const auth = { Authorization: `Bearer ${token}` };
+    expect((await request(app).post('/api/user/area-guide-read').set(auth).send({ kind: 'city', value: 'Praha 1' })).status).toBe(400);
+    expect((await request(app).post('/api/user/area-guide-read').set(auth).send({ kind: 'district', value: 'Praha 23' })).status).toBe(400);
+  });
+
+  test('counts each area once and unlocks Know Your Way Around at ten', async () => {
+    const { token } = await createAuthedUser();
+    const auth = { Authorization: `Bearer ${token}` };
+    const post = body => request(app).post('/api/user/area-guide-read').set(auth).send(body);
+    await post({ kind: 'district', value: 'Praha 1' });
+    const again = await post({ kind: 'district', value: 'Praha 1' });
+    expect(again.body.read).toBe(1);
+    for (let n = 2; n <= 8; n++) await post({ kind: 'district', value: `Praha ${n}` });
+    const ninth = await post({ kind: 'quarter', value: 'Staré Město' });
+    expect(ninth.body.read).toBe(9);
+    expect(ninth.body.newAchievements).toEqual([]);
+    const tenth = await post({ kind: 'quarter', value: 'Malá Strana' });
+    expect(tenth.body.read).toBe(10);
+    expect(tenth.body.newAchievements.map(a => a.id)).toContain('know_the_area');
+  });
+});
+
 describe('PUT /api/user/preferences', () => {
   test('requires authentication', async () => {
     expect((await request(app).put('/api/user/preferences').send({ theme: 'light' })).status).toBe(401);

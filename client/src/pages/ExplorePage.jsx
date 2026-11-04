@@ -4,6 +4,7 @@ import { locationAPI } from '../services/api';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { quarterName } from '../utils/pragueQuarters';
 import { AREA_BLURBS } from '../utils/areaBlurbs';
+import AreaGuideModal from '../components/locations/AreaGuideModal';
 import { RARITY_BLURB } from '../utils/rarityBlurbs';
 import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
 import { useAuth } from '../context/AuthContext';
@@ -27,6 +28,7 @@ export default function ExplorePage() {
   const navigate = useNavigate();
   const userPos                          = useUserPosition();
   const [locations, setLocations]       = useState([]);
+  const [areaGuide, setAreaGuide]       = useState(null);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [autoCheckIn, setAutoCheckIn]   = useState(false);
   // "My Collections" is on (reported by LocationGrid): the header then adds a
@@ -152,13 +154,20 @@ export default function ExplorePage() {
   const [compact, setCompact] = useState(false);
   let hereText = null;
   let hereKey = null;
+  let hereParts = null;
   if (myArea) {
     const quarter = quarterName(myArea.quarter, lang);
     const district = myArea.district ? t('detail.district', { n: myArea.district.slice(6) }) : null;
     hereKey = `${lang}|${myArea.district}|${myArea.quarter}`;
-    hereText = lang === 'zh'
-      ? `${district ? `${district}，` : ''}${quarter}${compact ? '' : `（${myArea.quarter}）`}`
-      : district ? `${district}, ${quarter}` : quarter;
+    // The district and the quarter are separate buttons, each opening its own
+    // guide (AreaGuideModal; an area without one yet says it is coming).
+    const quarterText = lang === 'zh' && !compact ? `${quarter}（${myArea.quarter}）` : quarter;
+    hereParts = {
+      district: district && { kind: 'district', value: myArea.district, text: district },
+      sep: lang === 'zh' ? '，' : ', ',
+      quarter: { kind: 'quarter', value: myArea.quarter, text: quarterText },
+    };
+    hereText = `${district ? district + hereParts.sep : ''}${quarterText}`;
   }
   useEffect(() => { setCompact(false); }, [hereKey]);
 
@@ -222,14 +231,36 @@ export default function ExplorePage() {
           <div style={{ flex: '1 1 320px', minWidth: 0 }}>
             <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
             {areaActive
-              ? areaBlurb && !rarityBlurb && <p className="explore-area-blurb">{convert(areaBlurb[lang] || areaBlurb.en)}</p>
+              ? areaBlurb && !rarityBlurb && (
+                <p className="explore-area-blurb">
+                  {convert(areaBlurb[lang] || areaBlurb.en)}
+                  {' '}
+                  <button type="button" className="area-guide-link" onClick={() => setAreaGuide({ kind: area.kind, value: area.value })}>
+                    {convert(t('areaGuide.more'))}
+                  </button>
+                </p>
+              )
               : cityOnly && hereText
                 ? (
                   <p ref={hereRef} className="explore-here">
                     <svg viewBox="0 0 24 24" aria-hidden="true">
                       <path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" />
                     </svg>
-                    <span>{convert(hereText)}</span>
+                    <span className="explore-here__parts">
+                      {[hereParts.district, hereParts.quarter].filter(Boolean).map((part, i) => (
+                        <span key={part.kind} className="explore-here__seg">
+                          {i > 0 && <span className="explore-here__divider" aria-hidden="true" />}
+                          <button
+                            type="button"
+                            className="explore-here__part"
+                            title={t('areaGuide.open')}
+                            onClick={() => setAreaGuide({ kind: part.kind, value: part.value })}
+                          >
+                            {convert(part.text)}
+                          </button>
+                        </span>
+                      ))}
+                    </span>
                   </p>
                 )
               // With a rarity picked, its description replaces the intro line.
@@ -256,6 +287,10 @@ export default function ExplorePage() {
           <div className="explore-header__scope">{scopeToggle}</div>
         </div>
       </div>
+
+      {areaGuide && (
+        <AreaGuideModal kind={areaGuide.kind} value={areaGuide.value} locations={locations} onClose={() => setAreaGuide(null)} />
+      )}
 
       <LocationGrid locations={sortedLocations} collectionLocations={sortedAll} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} onRarityChange={setRarity} initialFilter={initialFilter} />
 

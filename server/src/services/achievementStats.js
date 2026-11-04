@@ -188,6 +188,7 @@ export async function buildAchievementStats(userId, user = null) {
     totalCheckins: allCheckins.length,
     artCount,
     historyEraReached,
+    areaGuidesRead: (user?.areaGuidesRead || []).length,
     unlockDayMax: Math.max(0, ...Object.values(unlockDays)),
     unlockToday: unlockDays[pragueDayHour(new Date()).day] || 0,
     presetCheckins,

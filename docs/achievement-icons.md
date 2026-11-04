@@ -507,3 +507,9 @@ two_horses: side by side, a proud bronze statue of a knight on a horse on a tall
 ```
 the_ex: two people sitting in two separate armchairs a polite little distance apart, both turned toward an old box television showing an ice-hockey game; between them a shared bowl of popcorn. Each holds a small flag: on the left the Czech flag (white stripe on top, red below, blue triangle at the pole), on the right the Slovak flag (white, blue and red horizontal stripes with a small red shield bearing a white double cross). A half-packed cardboard box of their split-up belongings sits on the floor between the armchairs. On the wall above the television hangs a framed photo of the two of them standing arm in arm, its glass cracked straight down the middle, splitting the two apart. The two figures, their flags and the cracked photo large.
 ```
+
+### Group 47: 门儿清, done (second try: the book became a phone, at the user's request; the generator drew a rounded inner panel again, cropped away)
+
+```
+know_the_area: a passenger sitting by the window of an old red-and-cream Prague tram, absorbed in a smartphone held in both hands; the glowing phone screen shows a little map of a city district with a big gold location pin on it, its light falling on the passenger's face. Through the tram window, red roofs and a church spire slide past, the very place on the screen. The passenger, the glowing phone and the window large.
+```

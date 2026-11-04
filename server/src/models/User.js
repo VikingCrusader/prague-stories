@@ -83,6 +83,9 @@ const userSchema = new mongoose.Schema({
     updatedAt: { type: Date, default: null },
     _id: false,
   },
+  // Area guides the user has opened (AreaGuideModal), as "district:Praha 7"
+  // or "quarter:Staré Město", for the Know Your Way Around achievement.
+  areaGuidesRead: { type: [String], default: [] },
   // Display preferences (colour theme, language, Chinese script), so they
   // follow the user to any device. null = never chosen.
   preferences: {

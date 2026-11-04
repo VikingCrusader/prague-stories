@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getProfile, getProgress, getAchievements, getRandomDraw, drawRandomLocation, getTreasures, guessHiddenDraw, takeHuntClue, getHistoryProgress, saveHistoryProgress, savePreferences, saveLocationConsent,getLeaderboard, getExplorer } from '../controllers/userController.js';
+import { getProfile, getProgress, getAchievements, getRandomDraw, drawRandomLocation, getTreasures, guessHiddenDraw, takeHuntClue, getHistoryProgress, saveHistoryProgress, markAreaGuideRead, savePreferences, saveLocationConsent,getLeaderboard, getExplorer } from '../controllers/userController.js';
 import { protect, optionalAuth } from '../middleware/auth.js';
 
 const router = Router();
@@ -14,6 +14,7 @@ router.post('/random-draw/guess', protect, guessHiddenDraw);
 router.post('/random-draw/clue', protect, takeHuntClue);
 router.get('/history-progress', protect, getHistoryProgress);
 router.put('/history-progress', protect, saveHistoryProgress);
+router.post('/area-guide-read', protect, markAreaGuideRead);
 router.put('/preferences', protect, savePreferences);
 router.put('/location-consent', protect, saveLocationConsent);
 // Signed-in users only (guests can't see the leaderboard, 2026-11-02).

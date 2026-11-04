@@ -2569,3 +2569,65 @@ html[data-lang="zh"] .detail-title-name {
   pointer-events: none;
 }
 @media (hover: hover) and (pointer: fine) { .card-showcase__hint { display: none; } }
+
+/* Area guides (AreaGuideModal): the longer write-up of a district or
+   quarter, opened from its pill under a card, the Explore "More about this
+   area" link or the "where you are" badge. Above the card detail overlay. */
+.area-guide-overlay { z-index: 260; }
+.area-guide { max-width: 640px; padding: 22px 24px 26px; }
+.area-guide__title { font-size: 24px; margin: 0 0 12px; padding-right: 44px; }
+.area-guide__progress { margin: 0 0 18px; }
+.area-guide__progress-text {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+  font-size: 15px; font-weight: 700; color: var(--text-primary); margin-bottom: 6px;
+}
+.area-guide__pct { color: var(--gold); }
+.area-guide__bar {
+  height: 10px; border: 2px solid var(--border); background: var(--bg-card);
+  overflow: hidden;
+}
+.area-guide__fill { display: block; height: 100%; }
+.area-guide__section + .area-guide__section { margin-top: 18px; }
+.area-guide__heading {
+  margin: 0 0 6px; font-size: 18px; font-weight: 700; color: var(--gold);
+}
+.area-guide__section p {
+  margin: 0 0 10px; font-size: 16px; line-height: 1.75; color: var(--text-primary);
+}
+.area-guide__section p:last-child { margin-bottom: 0; }
+/* Famous landmarks: a row of name tags, the collected ones in gold. */
+.area-guide__landmarks { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.area-guide__landmark {
+  padding: 5px 12px; border: 2px solid var(--border); background: var(--bg-card);
+  font-size: 15px; font-weight: 700; line-height: 1.4; color: var(--text-primary);
+}
+.area-guide__landmark--got { border-color: var(--gold); color: var(--gold); }
+/* Phones: a sheet pulled up from the bottom, so a long read scrolls inside. */
+@media (max-width: 600px) {
+  .area-guide-overlay { align-items: flex-end; padding: 0; }
+  .area-guide { max-height: 88vh; padding: 18px 16px 24px; border-left: 0; border-right: 0; border-bottom: 0; box-shadow: none; }
+  .area-guide__title { font-size: 21px; }
+}
+/* A pill or badge that opens a guide. */
+.area-guide-pill { cursor: pointer; font: inherit; font-family: var(--ui-font); font-weight: 700; }
+.area-guide-pill:hover { filter: brightness(1.18); }
+.area-guide-link {
+  background: none; border: 0; padding: 0; font: inherit; cursor: pointer;
+  color: var(--gold); text-decoration: underline; text-underline-offset: 3px;
+  white-space: nowrap;
+}
+.area-guide-link:hover { filter: brightness(1.15); }
+.area-guide__soon { margin: 8px 0 0; font-size: 16px; color: var(--text-muted); font-style: italic; }
+/* The "where you are" badge: district and quarter are each a button. */
+/* Two segments split by a thin rule, so they read as two buttons; the
+   pressed one darkens a little. */
+.explore-here__parts, .explore-here__seg { display: inline-flex; align-items: center; }
+.explore-here__divider {
+  width: 2px; height: 1.15em; margin: 0 10px; background: currentColor; opacity: 0.35; flex-shrink: 0;
+}
+.explore-here__part { line-height: 1.3; }
+.explore-here__part {
+  background: none; border: 0; padding: 0 2px; margin: 0; font: inherit; color: inherit; cursor: pointer;
+}
+.explore-here__part:hover { filter: brightness(1.2); }
+.explore-here__part:active { background: color-mix(in srgb, currentColor 14%, transparent); }

@@ -83,6 +83,7 @@ export const userAPI = {
   getTreasures:     () => api.get('/user/treasures'),
   getHistoryProgress:  ()     => api.get('/user/history-progress'),
   saveHistoryProgress: (slug) => api.put('/user/history-progress', { slug }),
+  markAreaGuideRead:   (kind, value) => api.post('/user/area-guide-read', { kind, value }),
   savePreferences:     (prefs) => api.put('/user/preferences', prefs),
   saveLocationConsent: (decision) => api.put('/user/location-consent', decision),
 };
