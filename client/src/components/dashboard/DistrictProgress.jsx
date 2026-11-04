@@ -22,7 +22,8 @@ export default function DistrictProgress({ districts, own = false }) {
   const visited = districts.filter(d => d.collected > 0).length;
   return (
     <div className="stat-card district-progress" style={{ gridColumn: '1 / -1' }}>
-      <div className="stat-card__label">{t('dashboard.districtProgress')}</div>
+      {/* A gold section title like Achievements and the strips (2026-11-04). */}
+      <h2 className="px-title district-progress__title">{t('dashboard.districtProgress')}</h2>
       <div className="district-progress__summary">
         <span className="stat-card__value">{visited} / {districts.length}</span>
         <span className="district-progress__summary-text">{t('dashboard.districtsVisited')}</span>

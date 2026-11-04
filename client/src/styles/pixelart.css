@@ -1552,6 +1552,7 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 .district-map__caption-count { font-weight: 700; color: var(--gold); }
 .district-map__caption-hint { color: var(--text-muted); font-size: 13px; }
 .district-map + .district-progress__list { margin-top: 12px; }
+.district-progress__title { font-size: 22px; margin: 0 0 14px; }
 .rarity-compact__name { font-size: 13px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .rarity-compact__n { font-weight: 700; font-size: 22px; line-height: 1.2; }
 /* Czech and English names don't fit seven across on a phone: 4 + 3 there. */

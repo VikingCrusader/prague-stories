@@ -28,11 +28,14 @@ export default function Navbar() {
 
       {(user || guest) && (
         <div className="navbar__links">
+          {/* Order (2026-11-04, user's call): going out (Explore, Map,
+              Treasure Hunt), reading (History, then the Guide), and the
+              user's own progress last (Achievements, Profile). */}
           <NavLink to="/explore"   className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.explore')}</NavLink>
           <NavLink to="/map"       className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.map')}</NavLink>
-          <NavLink to="/guide"     className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.guide')}</NavLink>
           <NavLink to="/treasure-hunt" className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.treasureHunt')}</NavLink>
           <NavLink to="/history"   className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.history')}</NavLink>
+          <NavLink to="/guide"     className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.guide')}</NavLink>
           <NavLink to="/achievements" className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.achievements')}</NavLink>
           <NavLink to="/dashboard" className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.dashboard')}</NavLink>
         </div>
