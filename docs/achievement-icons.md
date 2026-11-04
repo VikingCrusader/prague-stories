@@ -344,10 +344,12 @@ covered in planet symbols and circles, a compass needle pointing at one star
 ### Group 27: the nation and its kings (真理必胜 · 国王之庭 · 以人为本), all three done
 
 ```
-LEFT (truth_prevails): a raised fist gripping the pole of a LARGE, fully
-unfurled Czech flag (white stripe on top, red stripe below, a blue triangle
-at the pole), clearly lit and waving; at the bottom, a small stack of old
-books with a quill. Hand and flag large.
+LEFT (truth_prevails), redrawn 2026-11-04 when it became Gold (the first one
+was a fist holding the flag): a large old book lying open, a LARGE Czech flag
+on a slim pole rising out of its pages as if growing from the writing, a quill
+in an inkwell beside it, a few glowing illegible letters drifting up, the
+green dome of the National Museum small in the distance. The revival "wrote"
+the nation into being.
 MIDDLE (aula_regia): a royal gold crown resting on a carved stone tomb slab
 in a quiet Gothic cloister; a small monk sits at the slab's end writing in a
 thick open chronicle, his quill moving fast.
@@ -498,4 +500,10 @@ vampire: a pale, polite cartoon vampire in a black high-collared cape (an origin
 both_banks (redrawn: the first try drew a fairy-tale castle, and the walkers stood on the bridge): a wide river seen from above with a stone bridge across it. On the left bank, on a hill, Prague Castle: a LONG, LOW row of pale palace buildings stretched along the ridge, with the tall dark Gothic spires of a cathedral rising from behind its middle; NOT a fairy-tale castle, NOT a cluster of round towers with pointed roofs. On the right bank, Gothic spires and red roofs. A tiny walker stands on each riverbank (on the grass, not on the bridge) waving at the other, and they are clearly the same person, with the same red scarf.
 little_eiffel: a slim steel lattice lookout tower on a green wooded hill, unmistakably shaped like a small Eiffel Tower; at its foot a tiny red funicular car climbing the slope, and in the corner a much bigger Eiffel Tower silhouette far away on the horizon, looking jealous. The hill tower large.
 two_horses: side by side, a proud bronze statue of a knight on a horse on a tall stone pedestal, and the same knight sitting on a horse that hangs upside down by its legs from the ceiling of an elegant glass-roofed arcade, as if it were the most normal thing in the world. Both horses large.
+```
+
+### Group 46: 前任, done (redrawn with the cracked photo on the wall; its inner panel border was cropped off)
+
+```
+the_ex: two people sitting in two separate armchairs a polite little distance apart, both turned toward an old box television showing an ice-hockey game; between them a shared bowl of popcorn. Each holds a small flag: on the left the Czech flag (white stripe on top, red below, blue triangle at the pole), on the right the Slovak flag (white, blue and red horizontal stripes with a small red shield bearing a white double cross). A half-packed cardboard box of their split-up belongings sits on the floor between the armchairs. On the wall above the television hangs a framed photo of the two of them standing arm in arm, its glass cracked straight down the middle, splitting the two apart. The two figures, their flags and the cracked photo large.
 ```

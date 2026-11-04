@@ -538,6 +538,11 @@ const JOSEFOV = quarterShareWith("Josefov", 0.8, ["old-new-synagogue-17826016307
 // City of Silver: Kutná Hora and its four big sights (user's list, 2026-11-03).
 const SILVER_CITY = placesOnly(["kutna-hora", "vlassky-dvur", "kostel-svate-barbory", "kostnice-sedlec", "sedlecky-klaster"]);
 const PHO = placesOnly(["sapa-praha"]);
+// The Ex: the Slovak Embassy, and the New Building of the National Museum,
+// once the Federal Assembly, which voted Czechoslovakia out of existence on
+// 25 November 1992 (user's idea, 2026-11-04; Silver for the second place).
+// To be linked to the Velvet Divorce event once the timeline gets there.
+const THE_EX = placesOnly(["velvyslanectvi-slovenske-republiky", "nova-budova-narodniho-muzea"]);
 // Where Two Rivers Meet: the Berounka flows into the Vltava at Lahovice.
 // One card, but out of the way, hence Silver (user's call, 2026-11-04).
 const CONFLUENCE = placesOnly(["soutok-berounky-vltavy"]);
@@ -622,11 +627,16 @@ function STARTING_ZONE({ checkedSlugs = [] }) {
 }
 
 // Batch of 2026-11-04 (user's ideas, names partly Claude's).
-// Truth Prevails: the revival's and the First Republic's men and houses,
-// plus ten National Revival cards.
+// Truth Prevails: the motto's story from Hus to the First Republic.
+// Raised to Gold on 2026-11-04 (user's call: it is the national motto),
+// following the motto's own story: Hus ("the truth of the Lord prevails"),
+// the revival (its men and houses, Vyšehrad Cemetery where many of them lie)
+// and the First Republic, which put it on the presidential standard in 1920
+// (Masaryk, and Lány, where he died and is buried); 20 National Revival cards.
 const TRUTH_PREVAILS = placesAndLabels(
-  ["palackeho-namesti", "pomnik-josefa-jungmanna", "national-museum", "national-theatre", "pamatnik-tg-masaryka"],
-  [["national-revival", 10]]);
+  ["pamatnik-jana-husa", "palackeho-namesti", "pomnik-josefa-jungmanna", "national-museum", "national-theatre",
+    "vysehrad-cemetery", "pamatnik-tg-masaryka", "zamek-lany"],
+  [["national-revival", 20]]);
 // Generalissimo: Wallenstein's palace in the Lesser Town and what belongs to it.
 const WALLENSTEIN = placesOnly([
   "wallenstein-palace", "wallenstein-garden-1783750953785", "valdstejnska-jizdarna",
@@ -1915,6 +1925,22 @@ export const ACHIEVEMENTS = [
     progress: KUNRATICE_KING,
   },
   {
+    id: "the_ex",
+    icon: "💔",
+    name: "The Ex",
+    name_cz: "Ex",
+    name_zh: "前任",
+    flavor: "Seventy-four years together, then an amicable split in 1993. They still watch hockey together.",
+    flavor_cz: "Sedmdesát čtyři let spolu, v roce 1993 rozchod v dobrém. Na hokej se dívají spolu dodnes.",
+    flavor_zh: "在一起七十四年，1993年和平分手。现在还常常一起看冰球。",
+    description: "Check in at the Slovak Embassy and at the New Building of the National Museum, once the Federal Assembly, which voted to dissolve Czechoslovakia in November 1992.",
+    description_cz: "Přihlaste se u Velvyslanectví Slovenské republiky a v Nové budově Národního muzea, bývalém Federálním shromáždění, které v listopadu 1992 odhlasovalo zánik Československa.",
+    description_zh: "打卡斯洛伐克大使馆，以及国家博物馆新馆。新馆原是联邦议会大楼，1992年11月，联邦议会在这里投票解散了捷克斯洛伐克。",
+    difficulty: "medium",
+    check: (stats) => done(THE_EX(stats)),
+    progress: THE_EX,
+  },
+  {
     id: "after_white_mountain",
     icon: "⚔️",
     name: "Two Hours",
@@ -2131,10 +2157,10 @@ export const ACHIEVEMENTS = [
     flavor: "A dictionary, a history, a theatre, a museum, and a republic at the end of it all.",
     flavor_cz: "Slovník, dějiny, divadlo, muzeum a na konci toho všeho republika.",
     flavor_zh: "一部词典，一部历史，一座剧院，一座博物馆，最后换来一个共和国。",
-    description: "Check in at Palacký Square, the Josef Jungmann Monument, the National Museum, the National Theatre and the T. G. Masaryk Memorial, and collect at least 10 National Revival cards.",
-    description_cz: "Přihlaste se na Palackého náměstí, u Pomníku Josefa Jungmanna, v Národním muzeu, v Národním divadle a u Památníku Tomáše Garrigua Masaryka a sesbírejte alespoň 10 karet Národní obrození.",
-    description_zh: "打卡帕拉茨基广场、约瑟夫·荣格曼纪念碑、国家博物馆、国家剧院和托马斯·马萨里克纪念像，并收集至少10张“民族复兴”卡片。",
-    difficulty: "medium",
+    description: "Check in at the Jan Hus Monument, Palacký Square, the Josef Jungmann Monument, the National Museum, the National Theatre, Vyšehrad Cemetery, the T. G. Masaryk Memorial and Lány Chateau, and collect at least 20 National Revival cards.",
+    description_cz: "Přihlaste se u Památníku Jana Husa, na Palackého náměstí, u Pomníku Josefa Jungmanna, v Národním muzeu, v Národním divadle, na Vyšehradském hřbitově, u Památníku Tomáše Garrigua Masaryka a na zámku Lány a sesbírejte alespoň 20 karet Národní obrození.",
+    description_zh: "打卡扬·胡斯纪念碑、帕拉茨基广场、约瑟夫·荣格曼纪念碑、国家博物馆、国家剧院、维谢赫拉德公墓、托马斯·马萨里克纪念像和拉尼城堡，并收集至少20张“民族复兴”卡片。",
+    difficulty: "hard",
     check: (stats) => done(TRUTH_PREVAILS(stats)),
     progress: TRUTH_PREVAILS,
   },
@@ -2176,9 +2202,9 @@ export const ACHIEVEMENTS = [
     name: "AEIOU",
     name_cz: "AEIOU",
     name_zh: "AEIOU",
-    flavor: "Five vowels, the Habsburgs' motto, and nobody ever agreed what they stood for.",
-    flavor_cz: "Pět samohlásek, heslo Habsburků, a nikdo se nikdy neshodl, co znamenají.",
-    flavor_zh: "五个元音，哈布斯堡家族的座右铭，至于是什么意思，从来没人说得清。",
+    flavor: "The Habsburgs ruled Prague for almost four hundred years; their motto supposedly meant \"Austria rules the world\", and in the end they couldn't even keep Bohemia.",
+    flavor_cz: "Habsburkové vládli Praze skoro čtyři sta let; jejich heslo prý znamenalo „Rakousko vládne světu“, a nakonec si neudrželi ani Čechy.",
+    flavor_zh: "哈布斯堡家族在布拉格坐了近四百年江山，座右铭据说是“奥地利统治全世界”，最后连波希米亚都没留住。",
     description: "Check in at the Royal Garden, Queen Anne's Summer Palace, Hvězda Game Reserve, the Ball Game Hall of Prague Castle, the New Royal Palace and the Maria Theresa Statue.",
     description_cz: "Přihlaste se v Královské zahradě, v Letohrádku královny Anny, v oboře Hvězda, v Míčovně Pražského hradu, v Novém královském paláci a u Sochy Marie Terezie.",
     description_zh: "打卡皇家花园、安娜王后夏宫、星形猎苑、布拉格城堡球场馆、新皇宫和玛丽亚·特蕾莎雕像。",

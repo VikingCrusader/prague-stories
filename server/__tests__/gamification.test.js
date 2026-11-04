@@ -450,9 +450,11 @@ describe('evaluateAchievements', () => {
 
   test('the 2026-11-04 batch', () => {
     const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
-    const truth = ['palackeho-namesti', 'pomnik-josefa-jungmanna', 'national-museum', 'national-theatre', 'pamatnik-tg-masaryka'];
-    expect(ids({ checkedSlugs: truth, labelCount: { 'national-revival': 10 } })).toContain('truth_prevails');
-    expect(ids({ checkedSlugs: truth, labelCount: { 'national-revival': 9 } })).not.toContain('truth_prevails');
+    const truth = ['pamatnik-jana-husa', 'palackeho-namesti', 'pomnik-josefa-jungmanna', 'national-museum', 'national-theatre',
+      'vysehrad-cemetery', 'pamatnik-tg-masaryka', 'zamek-lany'];
+    expect(ids({ checkedSlugs: truth, labelCount: { 'national-revival': 20 } })).toContain('truth_prevails');
+    expect(ids({ checkedSlugs: truth, labelCount: { 'national-revival': 19 } })).not.toContain('truth_prevails');
+    expect(ids({ checkedSlugs: truth.slice(0, 7), labelCount: { 'national-revival': 25 } })).not.toContain('truth_prevails');
     expect(ids({ labelCount: { renaissance: 13 } })).toContain('renaissance_man');
     expect(ids({ labelCount: { baroque: 49 } })).not.toContain('all_that_glitters');
     expect(ids({ labelCount: { baroque: 50 } })).toContain('all_that_glitters');
@@ -574,6 +576,12 @@ describe('evaluateAchievements', () => {
     expect(ids({ checkedSlugs: ['petrin-tower', 'lanova-draha-petrin', 'mirror-maze-petrin'] })).toContain('little_eiffel');
     expect(ids({ checkedSlugs: ['petrin-tower', 'ruzovy-sad-petrin', 'mirror-maze-petrin'] })).not.toContain('little_eiffel');
     expect(ids({ checkedSlugs: ['pomnik-sv-vaclava', 'kino-lucerna'] })).toContain('two_horses');
+  });
+
+  test('the_ex: the Slovak Embassy and the old Federal Assembly', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ checkedSlugs: ['velvyslanectvi-slovenske-republiky', 'nova-budova-narodniho-muzea'] })).toContain('the_ex');
+    expect(ids({ checkedSlugs: ['velvyslanectvi-slovenske-republiky'] })).not.toContain('the_ex');
   });
 
   test('virginia_creeper needs any one card on each of the ten hills', () => {
