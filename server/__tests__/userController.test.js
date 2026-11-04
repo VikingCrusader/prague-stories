@@ -175,6 +175,21 @@ describe('GET /api/user/progress', () => {
     const guest = await request(app).get('/api/user/progress');
     expect(guest.body.districtProgress.map(d => d.collected)).toEqual([0, 0]);
   });
+  test('counts cards and collected cards per quarter', async () => {
+    await Location.create({ name: 'A', slug: 'a', coordinates: CHARLES_BRIDGE, district: 'Praha 2', quarter: 'Vinohrady', rarity: 'common', xpReward: 10 });
+    await Location.create({ name: 'B', slug: 'b', coordinates: CHARLES_BRIDGE, district: 'Praha 2', quarter: 'Vinohrady', rarity: 'common', xpReward: 10 });
+    await Location.create({ name: 'C', slug: 'c', coordinates: CHARLES_BRIDGE, district: 'Praha 1', quarter: 'Staré Město', rarity: 'common', xpReward: 10 });
+    const { token } = await createAuthedUser();
+    await checkIn(token, 'a');
+
+    const res = await request(app).get('/api/user/progress').set('Authorization', `Bearer ${token}`);
+    expect(res.body.quarterProgress).toEqual([
+      { quarter: 'Staré Město', total: 1, collected: 0 },
+      { quarter: 'Vinohrady', total: 2, collected: 1 },
+    ]);
+    const guest = await request(app).get('/api/user/progress');
+    expect(guest.body.quarterProgress.map(q => q.collected)).toEqual([0, 0]);
+  });
 });
 
 describe('GET /api/user/achievements', () => {

@@ -41,9 +41,10 @@ export default function ExplorePage() {
   // administrative boundary (day trips), shown only on "Show all".
   const [cityOnly, setCityOnly]         = useState(() => !state?.showAll);
   // District / historical-quarter filter; only offered in "City only" mode.
-  // A link's state can open it on one district (the profile's district
-  // rows send { district: 'Praha 7' }, 2026-11-04).
-  const [area, setArea]                 = useState(() => (state?.district ? { kind: 'district', value: state.district } : null));
+  // A link's state can open it on one district or quarter (the profile's
+  // rows send { district: 'Praha 7' } or { quarter: 'Holešovice' }, 2026-11-04).
+  const [area, setArea]                 = useState(() => (state?.district ? { kind: 'district', value: state.district }
+    : state?.quarter ? { kind: 'quarter', value: state.quarter } : null));
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
   // Filters to open with, from a link's state (the profile's expedition

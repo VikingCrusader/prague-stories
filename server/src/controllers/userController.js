@@ -79,6 +79,15 @@ async function buildProgress(user) {
     const districtProgress = districtTotals
       .map(d => ({ district: d._id, total: d.total, collected: 0 }))
       .sort((a, b) => Number(a.district.slice(6)) - Number(b.district.slice(6)));
+    // The same per katastrální území, for the profile map's quarter view
+    // (2026-11-04).
+    const quarterTotals = await Location.aggregate([
+      { $match: { quarter: { $type: 'string' }, district: { $regex: /^Praha \d+$/ } } },
+      { $group: { _id: '$quarter', total: { $sum: 1 } } },
+    ]);
+    const quarterProgress = quarterTotals
+      .map(q => ({ quarter: q._id, total: q.total, collected: 0 }))
+      .sort((a, b) => a.quarter.localeCompare(b.quarter, 'cs'));
 
     if (!user) {
       return {
@@ -90,6 +99,7 @@ async function buildProgress(user) {
         totalCity,
         cityUnlockPercent: 0,
         districtProgress,
+        quarterProgress,
         labelCount: {},
         rarityCount: { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0, expedition: 0 },
         levelInfo: calculateLevel(0),
@@ -101,7 +111,7 @@ async function buildProgress(user) {
     }
 
     const allCheckins = await CheckIn.find({ user: user._id })
-      .populate('location', 'addedBy labels slug rarity district')
+      .populate('location', 'addedBy labels slug rarity district quarter')
       .lean();
 
     const presetCheckins = allCheckins.filter(c => c.location).length;
@@ -126,6 +136,11 @@ async function buildProgress(user) {
     for (const ci of allCheckins) {
       const d = ci.location && byDistrict.get(ci.location.district);
       if (d) d.collected++;
+    }
+    const byQuarter = new Map(quarterProgress.map(q => [q.quarter, q]));
+    for (const ci of allCheckins) {
+      const q = ci.location && byQuarter.get(ci.location.quarter);
+      if (q) q.collected++;
     }
 
     const levelInfo = calculateLevel(user.totalXP);
@@ -162,6 +177,7 @@ async function buildProgress(user) {
       totalCity,
       cityUnlockPercent,
       districtProgress,
+      quarterProgress,
       labelCount,
       rarityCount,
       levelInfo,

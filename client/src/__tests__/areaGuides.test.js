@@ -3,8 +3,7 @@ import en from '../utils/areaGuides/en.js';
 import cz from '../utils/areaGuides/cz.js';
 import zh from '../utils/areaGuides/zh.js';
 import { QUARTERS } from '../utils/pragueQuarters.js';
-import { readFileSync } from 'fs';
-import { join } from 'path';
+import { QUARTER_DISTRICT } from '../utils/quarterDistricts.js';
 
 const langs = { en, cz, zh };
 
@@ -41,13 +40,10 @@ describe('area guides', () => {
     }
   });
 
-  // Every quarter with a guide must be pickable in the Explore quarter menu
-  // (FEATURED_QUARTERS in AreaFilter.jsx, read as text so the test needn't
-  // load the component).
-  it('lists every quarter that has a guide in the historical-division menu', () => {
-    const src = readFileSync(join(__dirname, '../components/locations/AreaFilter.jsx'), 'utf8');
-    const start = src.indexOf('FEATURED_QUARTERS = [');
-    const menu = [...src.slice(start, src.indexOf('];', start)).matchAll(/'([^']+)'/g)].map(m => m[1]);
-    expect(AREA_GUIDE_KEYS.quarter.filter(q => !menu.includes(q))).toEqual([]);
+  // Every quarter can be picked in the "All quarters" pop-up of the area
+  // filter, which groups them by district (utils/quarterDistricts.js).
+  it('places every quarter under a district for the all-quarters pop-up', () => {
+    expect(Object.keys(QUARTER_DISTRICT).sort()).toEqual(Object.keys(QUARTERS).sort());
+    for (const d of Object.values(QUARTER_DISTRICT)) expect(d).toMatch(/^Praha ([1-9]|1\d|2[0-2])$/);
   });
 });

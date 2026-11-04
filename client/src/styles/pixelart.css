@@ -1503,7 +1503,8 @@ button.level-badge--btn:hover { border-color: var(--gold); }
   .profile-layout__side > .stat-card { flex: 1; }
   .profile-layout__top { align-self: stretch; display: flex; flex-direction: column; }
   .profile-layout__top > .profile-card { flex: 1; }
-  .profile-layout__side .district-map__svg { max-width: 760px; }
+  .profile-layout__side .district-map__svg,
+  .profile-layout__side .district-map__stage { max-width: 760px; }
 }
 .stat-card--tall { grid-row: span 2; }
 .ring-stats { min-width: 0; }
@@ -1514,7 +1515,63 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 .rank-change--up { color: var(--success-text, #5fd068); }
 .rank-change--down { color: var(--text-muted); }
 /* "This week" card beside the ring: rank, new cards, XP gained. */
-.week-card__note { margin-left: 8px; font-size: 12px; color: var(--text-muted); text-transform: none; letter-spacing: 0; font-weight: 400; }
+.week-card__note { margin-left: 8px; font-size: 12px; color: var(--text-muted); text-transform: none; letter-spacing: 0; font-weight: 400; text-shadow: none; }
+/* Gold titles of the week and rarity cards, the same as the district card's. */
+.profile-card-title { font-size: 22px; margin: 0; line-height: 21px; }
+/* Profile headings get fixed line heights, the ones Chinese renders with, so
+   a card is the same height in every language (2026-11-04, user's call: the
+   Chinese sizes are the standard). Left to the font, Alegreya Sans made
+   English and Czech cards 2 to 4 px taller. */
+.district-progress__title,
+.card-strip__title,
+.profile-card h2.px-title,
+.dashboard-title { line-height: 32px; }
+/* Spans inside those headings keep a line height relative to their own,
+   smaller font, as before; inheriting the fixed px value made the line
+   taller. */
+.week-card__note { line-height: 1.05; }
+.card-strip__count { line-height: 1.6; }
+/* One-line labels the profile shrinks to fit (FIT_LABELS in ProfileBody,
+   utils/fitText.js) instead of letting them wrap. */
+.profile-body { display: contents; }
+.stat-card--rank-top .stat-card__label,
+.district-progress__title,
+.card-strip__title,
+.profile-card-title { white-space: nowrap; overflow: hidden; min-width: 0; }
+.profile-body .district-progress__head { flex-wrap: nowrap; }
+.profile-body .district-progress__head .district-map__toggle { flex: none; }
+.profile-body .district-progress__head .filter-btn { white-space: nowrap; }
+.profile-body .card-strip__head { flex-wrap: nowrap; min-width: 0; }
+.profile-body .card-strip__all { flex: none; }
+.profile-body .card-strip__empty { white-space: nowrap; overflow: hidden; }
+.profile-body .stat-card--rank-top .stat-card__label { line-height: 21px; }
+/* Achievement and card names under the thumbnails: one line in every
+   language (they were allowed two, and longer English names took the second
+   line more often, making the cards and so the page taller), shrunk to fit,
+   then cut with an ellipsis. */
+.profile-body .card-strip__name,
+.profile-body .ach-tile__name {
+  display: block; -webkit-line-clamp: unset; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;
+}
+.profile-body .card-strip__meta { flex-wrap: nowrap; white-space: nowrap; overflow: hidden; max-width: 100%; }
+/* Fixed line heights, so a name shrunk to fit doesn't make its line shorter. */
+.profile-body .card-strip__name { line-height: 17px; }
+.profile-body .card-strip__meta { line-height: 16px; }
+.profile-body .ach-tile__name { line-height: 18px; }
+/* The progress ring card: title on top, ring and numbers below. */
+.ring-card { display: flex; flex-direction: column; gap: 8px; }
+.ring-card__body { flex: 1; display: flex; align-items: center; gap: 24px; min-height: 0; }
+/* Standing alone (one-column grid), the card sizes to its content: the ring
+   gives up the title's height so the card stays as tall as before. */
+@media (min-width: 601px) and (max-width: 900px) {
+  .ring-card__body svg { width: 111px; height: 111px; }
+}
+@media (max-width: 600px) {
+  .stat-card--ring.ring-card { gap: 2px !important; }
+  .ring-card > .profile-card-title { font-size: 18px; }
+  .ring-card__body { gap: 14px; }
+  .stat-card--ring .ring-card__body svg { width: 79px; height: 79px; }
+}
 .week-card__list { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
 .week-card__item { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .week-card__name { font-size: 13px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -1542,6 +1599,31 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 .district-map__area--unvisited { fill: var(--text-muted); fill-opacity: 0.14; }
 .district-map__area--picked { stroke: var(--text-primary); stroke-width: 5; }
 .district-map__area--link { cursor: pointer; }
+/* District / quarter switch above the map; in the quarter view the 112
+   shapes get thinner borders and the district outlines are drawn on top. */
+.district-map__toggle { display: flex; justify-content: center; gap: 8px; margin-bottom: 10px; }
+.district-map__toggle .filter-btn { padding: 6px 14px; font-size: 14px; }
+/* Quarter view: strokes stay the same on screen at any zoom. Not zoomed,
+   a finger can still scroll the page (pan-y); zoomed, the map takes the
+   gestures. */
+.district-map__svg--quarters { touch-action: pan-y; }
+.district-map__svg--zoomed { touch-action: none; cursor: grab; }
+.district-map__svg--quarters .district-map__area { stroke-width: 1; vector-effect: non-scaling-stroke; }
+.district-map__svg--quarters .district-map__area--picked { stroke-width: 2.5; }
+.district-map__outline { fill: none; stroke: var(--text-primary); stroke-opacity: 0.55; stroke-width: 2; stroke-linejoin: round; pointer-events: none; vector-effect: non-scaling-stroke; }
+.district-map__qname {
+  font-weight: 700; text-anchor: middle; dominant-baseline: central;
+  fill: var(--text-primary); paint-order: stroke; stroke: var(--bg-card); stroke-width: 3px;
+  vector-effect: non-scaling-stroke; pointer-events: none; user-select: none;
+}
+.district-map__stage { position: relative; max-width: 560px; margin: 0 auto; overflow: hidden; }
+.district-map__stage .district-map__svg { max-width: 100%; }
+.district-map__zoom { position: absolute; right: 4px; bottom: 4px; display: flex; flex-direction: column; gap: 4px; }
+.district-map__zoom button {
+  width: 30px; height: 30px; padding: 0; font-size: 18px; font-weight: 700; line-height: 1;
+  background: var(--bg-surface); color: var(--text-primary); border: 2px solid var(--border); cursor: pointer;
+}
+.district-map__zoom button:disabled { opacity: 0.4; cursor: default; }
 .district-map__num {
   font-size: 26px; font-weight: 700; text-anchor: middle; dominant-baseline: central;
   fill: var(--text-primary); paint-order: stroke; stroke: var(--bg-card); stroke-width: 5px;
@@ -1552,13 +1634,18 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 .district-map__caption-count { font-weight: 700; color: var(--gold); }
 .district-map__caption-hint { color: var(--text-muted); font-size: 13px; }
 .district-map + .district-progress__list { margin-top: 12px; }
-.district-progress__title { font-size: 22px; margin: 0 0 14px; }
+.district-progress__title { font-size: 22px; margin: 0; }
+/* Title and the district / quarter toggle share one line. */
+.district-progress__head { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin: 0 0 14px; }
+.district-progress__head .district-map__toggle { margin: 0; }
+.district-progress__head .district-map__toggle .filter-btn { padding: 2px 12px; font-size: 13px; }
 .rarity-compact__name { font-size: 13px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .rarity-compact__n { font-weight: 700; font-size: 22px; line-height: 1.2; }
 /* Czech and English names don't fit seven across on a phone: 4 + 3 there. */
 @media (max-width: 600px) {
   .rarity-compact__n { font-size: 18px; }
-  html:not([data-lang="zh"]) .rarity-compact__list { grid-template-columns: repeat(4, minmax(0, 1fr)); row-gap: 10px; }
+  /* All seven rarities in one row in every language too; English and Czech
+     names shrink to fit (was four plus three, 2026-11-04). */
 }
 
 /* Profile strips: newest treasure finds / expedition cards (RecentCardStrip.jsx). */
@@ -1572,6 +1659,9 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 .profile-card .ach-viewall { margin-bottom: 0; }
 /* Treasure finds and expeditions side by side, four each (2026-11-04). */
 .profile-strips { margin-top: 20px; }
+/* Two equal halves whatever the titles' length, so the covers (sized by the
+   column) are the same in every language. */
+@media (min-width: 901px) { .profile-strips { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
 /* The keep-screen-on toggle is for phones: hidden where there's a mouse. */
 @media (hover: hover) and (pointer: fine) { .wake-lock-row { display: none !important; } }
 .profile-strips .profile-card { margin-top: 0; }
@@ -1641,6 +1731,18 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
   background: var(--bg-card); border: 2px solid var(--border);
 }
 .district-progress__fill { display: block; height: 100%; }
+/* Quarter names are longer than "Prague 7": a wider name column, cut with
+   an ellipsis (the full name is in the title). */
+.district-progress__list--quarters .district-progress__name { width: 8.5em; overflow: hidden; text-overflow: ellipsis; }
+/* The quarter pager is an item in the list's grid, a full row wide and one
+   row high, so the card is no taller than with the 22 districts. */
+.district-progress__pager { grid-column: 1 / -1; display: flex; justify-content: center; align-items: center; gap: 18px; font-size: 14px; }
+.district-progress__page-btn {
+  background: none; border: 0; padding: 0; font: inherit; font-weight: 700; color: var(--gold); cursor: pointer;
+}
+.district-progress__page-btn:disabled { color: var(--text-muted); opacity: 0.5; cursor: default; }
+.district-progress__row--pad { visibility: hidden; }
+.district-progress__page { font-weight: 700; color: var(--text-muted); font-size: 14px; }
 .district-progress__count { flex: 0 0 auto; min-width: 4.6em; white-space: nowrap; text-align: right; color: var(--text-muted); font-weight: 700; font-size: 13px; }
 .stat-card__label {
   font-family: var(--ui-font);
@@ -2608,8 +2710,20 @@ html[data-lang="zh"] .detail-title-name {
   .area-guide { max-height: 88vh; padding: 18px 16px 24px; border-left: 0; border-right: 0; border-bottom: 0; box-shadow: none; }
   .area-guide__title { font-size: 21px; }
 }
-/* The area menu grew to 60 quarters: keep it to a scrollable height. */
-.area-filter__panel { max-height: min(60vh, 520px); overflow-y: auto; }
+/* "Show all" at the end of the quarter dropdown, and the pop-up it opens
+   with every quarter grouped by district (QuarterPickerModal). */
+.area-filter__show-all { border-style: dashed; color: var(--gold); }
+.quarter-picker { max-width: 720px; padding: 22px 24px 26px; }
+.quarter-picker__title { font-size: 22px; margin: 0 0 14px; padding-right: 44px; }
+.quarter-picker__group + .quarter-picker__group { margin-top: 14px; }
+.quarter-picker__district {
+  margin: 0 0 8px; padding-left: 10px; border-left: 4px solid var(--gold);
+  font-size: 16px; font-weight: 700; color: var(--text-primary);
+}
+.quarter-picker__list { display: flex; flex-wrap: wrap; gap: 6px; }
+@media (max-width: 600px) {
+  .quarter-picker { padding: 18px 14px 22px; }
+}
 /* A pill or badge that opens a guide. */
 .area-guide-pill { cursor: pointer; font: inherit; font-family: var(--ui-font); font-weight: 700; }
 .area-guide-pill:hover { filter: brightness(1.18); }

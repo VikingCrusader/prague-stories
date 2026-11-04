@@ -38,3 +38,14 @@ Coordinates are always supplied by the user.
 | Uhříněves Jewish cemetery | Uhříněves | Named in the Uhříněves guide | 2026-11-04 |
 | Uhříněves chateau (Institute of Animal Science) | Uhříněves | The chateau housing the national animal-science institute, named in the Prague 22 and Uhříněves guides | 2026-11-04 |
 | Radotín cement works | Radotín | The big works that shaped the town; industrial, so optional | 2026-11-04 |
+| Ďáblice cemetery (Ďáblický hřbitov) | Ďáblice | Mass graves of people executed under the Nazis and in the 1950s, including the Operation Anthropoid paratroopers; named in the Ďáblice guide | 2026-11-04 |
+| Ďáblický háj (forest) | Ďáblice | The large wood around the observatory and the Ládví tower | 2026-11-04 |
+| Střížkov metro station | Střížkov | The 2008 glass "caterpillar" vault; Střížkov has no card at all yet | 2026-11-04 |
+| Šeberák pond | Šeberov / Kunratice | Popular natural swimming pond; Šeberov has no card yet | 2026-11-04 |
+| Pitkovická stráň | Pitkovice | Protected steppe slope full of wild flowers; Pitkovice has no card yet | 2026-11-04 |
+| Schwerin monument (Štěrboholy) | Štěrboholy | Marks where Field Marshal Schwerin fell in the 1757 Battle of Prague, named in the Štěrboholy guide | 2026-11-04 |
+| Točná airfield | Točná | The small sport airfield on the plateau, named in the Točná guide | 2026-11-04 |
+| Lysolaje valley nature reserve (Lysolajské údolí) | Lysolaje | The valley the Lysolaje guide is about; only the swimming pond and the convent have cards | 2026-11-04 |
+| Radlice: ČSOB headquarters | Radlice | The bank's award-winning 2007 headquarters that turned Radlice into an office district; commercial, so optional | 2026-11-04 |
+
+No convincing landmark was found for Hostavice, Miškovice, Benice, Lipany, Nedvězí and Újezd u Průhonic, which still have no card; small village chapels or greens would do if a card is wanted.

@@ -1492,5 +1492,257 @@ export default {
         'Come by train, stroll around the little town\'s square and church, then cycle out to the surrounding fields and ponds to see Prague\'s countryside.',
       ] },
     ],
+    'Hodkovičky': [
+      { h: 'Overview', p: ['Hodkovičky is a narrow riverside strip on the right bank of the Vltava between Braník and Modřany, belonging to Prague 4. It is mostly quiet villas and gardens, with a cycle path along the river and a railway bridge spanning the water overhead.'] },
+      { h: 'History', p: ['Hodkovičky began as a small riverside village and became a villa quarter for Praguers in the early 20th century. The railway bridge was built in the 1950s and nicknamed the "Bridge of the Intelligentsia", because many of the labourers who built it were teachers, lawyers and intellectuals sent to do hard labour by the communist regime.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Lhotka': [
+      { h: 'Overview', p: ['Lhotka lies south of Krč in Prague 4, half old village and half 1970s housing estate. It has an old farmstead, a new church and a natural swimming pond where the neighbourhood cools off in summer.'] },
+      { h: 'History', p: ['Lhotka is a very common Czech village name, meaning roughly "the new village given time off from taxes": newly cleared villages in the Middle Ages were often let off paying for a while. For centuries this was farmland, until in the 1970s a housing estate went up on the fields and surrounded the old village.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Holyně': [
+      { h: 'Overview', p: ['Holyně is a small village on the plateau in the south-west of Prague, part of the Slivenec borough in Prague 5, surrounded by fields with a limestone valley next to it. It is one of the smallest and quietest quarters in Prague.'] },
+      { h: 'History', p: ['For centuries Holyně has been a small farming village with only a few farmsteads and a green. It joined Prague together with Slivenec only in the 1970s and still looks like the countryside.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Radlice': [
+      { h: 'Overview', p: ['Radlice lies in a valley between Smíchov and Jinonice and belongs to Prague 5. At the bottom of the valley are old factories and new office blocks, on the slopes villas and little woods. In recent years a big bank moved its headquarters here, and Radlice has become one of Prague\'s new office districts.'] },
+      { h: 'History', p: ['Radlice began as a small village in the valley and grew in the 19th century with the factories of Smíchov, gaining a foundry and workers\' housing. It joined Greater Prague in 1922. For most of the 20th century it was a factory district; after 1989 the old works slowly turned into office buildings.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Slivenec': [
+      { h: 'Overview', p: ['Slivenec is a small borough on the south-western edge of Prague, under the administration of Prague 5. It has an old Gothic church, a few farmsteads and open fields, and beneath the surrounding slopes lies a red limestone.'] },
+      { h: 'History', p: ['In the Middle Ages Slivenec belonged to the Knights of the Cross with the Red Star, and its All Saints\' Church dates from the 13th century. The village produced a limestone with red veins, known as "Slivenec marble", which for centuries was carted into Prague and used in many of its buildings. Slivenec joined Prague in 1974.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Lysolaje': [
+      { h: 'Overview', p: ['Lysolaje is a small village in a valley on the north-western edge of Prague, under the administration of Prague 6 but a borough of its own. The valley has a convent, a natural swimming pond and a nature reserve, surrounded by woods and fields.'] },
+      { h: 'History', p: ['For centuries Lysolaje was a farming village, with crops and orchards on the slopes of the valley. It joined Prague in 1968 and still has only a little over a thousand residents, one of the most rural places in Prague.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Nebušice': [
+      { h: 'Overview', p: ['Nebušice lies in the north-west of Prague, north of the Šárka valley, under the administration of Prague 6 but a borough of its own. It is a quiet area of villas and new housing, with a church, an international school and heights looking out over the valley.'] },
+      { h: 'History', p: ['Nebušice began as a farming village on the plateau. It joined Prague in 1974, and over the following decades family houses spread over its fields, with many foreign families moving in too, since Prague\'s international school opened here.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Přední Kopanina': [
+      { h: 'Overview', p: ['Přední Kopanina is a small village beside the airport runway, under the administration of Prague 6. Its most striking sight is an ancient church on a small hill, with planes sweeping overhead from time to time.'] },
+      { h: 'History', p: ['The Church of St Mary Magdalene in Přední Kopanina is one of the oldest churches in Prague, its earliest parts dating back to the 12th century. For centuries the village was farmsteads and fields, and it only joined Prague in 1974. Today an eight-hundred-year-old church and an international airport are neighbours.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Veleslavín': [
+      { h: 'Overview', p: ['Veleslavín lies in Prague 6 between Vokovice and Ruzyně, with a small chateau, a few housing estates and a metro station. It is a quiet residential area, and the road to the airport runs right through it.'] },
+      { h: 'History', p: ['Veleslavín began as a village with a small chateau. The most famous Prague publisher of the 16th century, Daniel Adam, carried "Veleslavín" in his name, and the books he published gave the period its name in Czech literature, the "Veleslavín era". Veleslavín joined Greater Prague in 1922.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Březiněves': [
+      { h: 'Overview', p: ['Březiněves is a small village on the northern edge of Prague, under the administration of Prague 8 but a borough of its own, surrounded by fields, a few country lanes and some newly built houses.'] },
+      { h: 'History', p: ['Březiněves has "birch" in its name and for centuries was a small farming village. It joined Prague in 1974, yet it has changed little and is still the quietest corner of Prague 8.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Dolní Chabry': [
+      { h: 'Overview', p: ['Dolní Chabry lies in the north of Prague, under the administration of Prague 8, a borough of its own. It has an old church, some new housing, and a big stone said once to have been a man.'] },
+      { h: 'History', p: ['Dolní Chabry is an old village that joined Prague in 1968. On its edge stands a prehistoric standing stone the locals call the "Petrified Farmhand". Legend has it that a farmhand was turned to stone, either because he was made to work on a holy day or because he cursed while slacking; there are many versions, and the stone just keeps standing there.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Čimice': [
+      { h: 'Overview', p: ['Čimice lies east of Bohnice in Prague 8, with an old village and a housing estate on one side and a deep valley on the other, a nature reserve of rocks, a stream and woods.'] },
+      { h: 'History', p: ['Čimice began as a farming village on the plateau; it joined Prague in 1968, and a housing estate later went up next to it. The valley was never built on and is now where Prague 8 goes for walks and runs.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Ďáblice': [
+      { h: 'Overview', p: ['Ďáblice lies in the north of Prague, under the administration of Prague 8, a borough of its own. It has an observatory, a surveying tower, a large wood, and a cemetery with a heavy history.'] },
+      { h: 'History', p: ['To Czech ears the name Ďáblice sounds like "devil", but it is an ordinary old village that joined Prague in 1968. Its cemetery holds several mass graves: many of those executed during the Nazi occupation and in the 1950s were secretly buried here, among them the paratroopers who assassinated Heydrich in 1942.'] },
+      { h: 'Fun facts', p: ['A place that sounds like "Devil Village" has built an observatory on its hill, open to the public on clear nights for anyone who wants to look at the stars.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Hrdlořezy': [
+      { h: 'Overview', p: ['Hrdlořezy lies on the Rokytka stream in the east of the city and belongs to Prague 9, a small old neighbourhood beside a nature park.'] },
+      { h: 'History', p: ['The name Hrdlořezy translates literally as "throat-cutters", which startles everyone who hears it for the first time. Linguists tend to think it really comes from an old personal name or nickname and has nothing to do with murder, but the locals enjoy the effect the name has.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Střížkov': [
+      { h: 'Overview', p: ['Střížkov lies on the heights in the north of Prague 9, right next to Prosek, an area of housing estates and new apartment blocks. Its metro station has a vault like a giant glass caterpillar and is one of the most distinctive stations in Prague.'] },
+      { h: 'History', p: ['Střížkov began as a small village on the heights. In the second half of the 20th century housing estates went up around it, and in 2008 metro line C arrived; the station\'s glass vault caused quite a debate in Prague at the time.'] },
+    ],
+    'Křeslice': [
+      { h: 'Overview', p: ['Křeslice is a small village on the south-eastern edge of Prague, under the administration of Prague 11, a borough of its own. Surrounded by fields and woods, it is only a few kilometres from the tower blocks of South Town, yet entirely rural.'] },
+      { h: 'History', p: ['For centuries Křeslice was a small farming village, and it joined Prague in 1968. On its edge stands a ring of large upright stones jokingly called the "Průhonice Stonehenge", though it is not, of course, as old as the English one.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Újezd u Průhonic': [
+      { h: 'Overview', p: ['Újezd u Průhonic lies on the south-eastern edge of Prague, under the administration of Prague 11, a borough of its own. It borders the Průhonice park just outside the city, with houses, ponds and fields all around.'] },
+      { h: 'History', p: ['Újezd began as a small farming village; "u Průhonic", "by Průhonice", was added to tell it apart from the countless other Czech villages called Újezd. It joined Prague in 1974, and plenty of new housing has been built since.'] },
+    ],
+    'Šeberov': [
+      { h: 'Overview', p: ['Šeberov lies on the south-eastern edge of Prague, under the administration of Prague 11, a borough of its own. It has several ponds, a wood and quiet family houses, and a pond nearby is a popular natural swimming spot in summer.'] },
+      { h: 'History', p: ['Šeberov is an old farming village whose ponds were dug centuries ago for fish farming. It joined Prague in 1974 and is now a quiet "back garden" beside South Town.'] },
+    ],
+    'Cholupice': [
+      { h: 'Overview', p: ['Cholupice is one of the southernmost places in Prague and belongs to Prague 12, a small village on the plateau surrounded by fields, a pheasantry forest and a small reservoir.'] },
+      { h: 'History', p: ['For centuries Cholupice was a farming village; the forest beside it was once a pheasantry where nobles raised game birds and is now a nature reserve. It joined Prague in 1974 and still looks like the countryside.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Kamýk': [
+      { h: 'Overview', p: ['Kamýk lies in Prague 12 north of Modřany and is mostly a 1980s housing estate. It also has a weather station that sends weather balloons up every day, and an avenue of old oaks.'] },
+      { h: 'History', p: ['The name Kamýk means "rock", and it was once a tiny spot on the heights. In the 1980s a housing estate was built here, and the weather station next to it is an important observing station of the Czech weather service, so part of Prague\'s weather forecast starts right here.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Komořany': [
+      { h: 'Overview', p: ['Komořany is a small riverside village on the right bank of the Vltava south of Modřany, belonging to Prague 12. There is a cycle path along the river, a memorial in the village, and the headquarters of the Czech Hydrometeorological Institute.'] },
+      { h: 'History', p: ['For centuries Komořany was a fishing and farming village, and it joined Prague in 1968. Its low riverside land is often flooded, and the great flood of 2002 left it under water again.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Libuš': [
+      { h: 'Overview', p: ['Libuš lies in the south of Prague, under the administration of Prague 12, a borough of its own, with an old village, new housing estates and wide fields. Metro line D, planned for decades, will one day have a station here.'] },
+      { h: 'History', p: ['The name Libuš sounds very like the legendary princess Libuše, but that is only a coincidence. It began as a farming village, joined Prague in 1968, and as housing went up on its fields, its population kept growing.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Písnice': [
+      { h: 'Overview', p: ['Písnice is one of the southernmost places in Prague and belongs to Prague 12, an old village surrounded by new housing and fields. The 50th parallel runs right past the village, where a monument marks it.'] },
+      { h: 'History', p: ['The name Písnice comes from "sand", and for centuries it was a farming village; it joined Prague in 1968. Today people mostly come here to stand on the 50th parallel and take a photo with one foot to the north and one to the south.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Točná': [
+      { h: 'Overview', p: ['Točná lies on the plateau in the south of Prague and belongs to Prague 12. It has an old village, a small airfield and a nature reserve hiding the earthworks of an ancient stronghold.'] },
+      { h: 'History', p: ['In prehistoric times and the early Middle Ages there was already a fortified stronghold on the heights beside Točná, and its earth ramparts can still be seen. Later there was only a farming village here. In the 20th century a small airfield was built on the plateau, now used by light aircraft and gliders. Točná joined Prague in 1974.'] },
+      { h: 'Fun facts', p: ['Točná also has an "astronomical clock" made by a local, not quite on the scale of the one in the Old Town, but it tells the time all the same.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Třebonice': [
+      { h: 'Overview', p: ['Třebonice is an old village in the west of Prague, belonging to Prague 13. The village itself is tiny, but its land holds a big IKEA and a warehouse district, so many Praguers have been here without knowing its name.'] },
+      { h: 'History', p: ['For centuries Třebonice was a farming village, and the hamlet of Krteň nearby has an ancient church. It joined Prague in 1974, and since then roads, shopping centres and warehouses have gone up around it.'] },
+      { h: 'Fun facts', p: ['Everyone says they are going to "the IKEA at Zličín", but that IKEA is actually in Třebonice. The village also has a great slab of stone laid across other stones, called the "Stone Table", which looks like a prehistoric dolmen.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Zadní Kopanina': [
+      { h: 'Overview', p: ['Zadní Kopanina is a small village on the south-western edge of Prague, part of the Řeporyje borough, surrounded by fields and valleys, with an old clay pit on its edge.'] },
+      { h: 'History', p: ['"Kopanina" means roughly "land dug and cleared", and both Zadní Kopanina and Přední Kopanina in Prague 6 are villages of that kind. For centuries it was a small farming village; it only joined Prague in 1974 and is still home to just a few dozen households.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Hostavice': [
+      { h: 'Overview', p: ['Hostavice lies in the east of Prague and belongs to Prague 14, between Černý Most and Dolní Počernice: a small village and a new housing development.'] },
+      { h: 'History', p: ['Hostavice is an old village that lived off farming for centuries. It joined Prague along with the villages around it, and new housing has since gone up on its edge, though the old village centre is still there.'] },
+    ],
+    'Dolní Měcholupy': [
+      { h: 'Overview', p: ['Dolní Měcholupy lies in the south-east of Prague, under the administration of Prague 15, a borough of its own, with an old village, new housing and a large industrial zone.'] },
+      { h: 'History', p: ['For centuries Dolní Měcholupy was a farming village, and it joined Prague in 1974. Factories and warehouses were later built beside it, making it part of Prague\'s south-eastern industrial zone, with the old village tucked away in the middle.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Dubeč': [
+      { h: 'Overview', p: ['Dubeč lies on the south-eastern edge of Prague, under the administration of Prague 15, a borough of its own. It is made up of two small villages, Dubeč and Dubeček, surrounded by fields and ponds.'] },
+      { h: 'History', p: ['The name Dubeč comes from "oak". St Peter\'s Church on the little hill at Dubeček is an old Romanesque church more than eight hundred years old. Dubeč joined Prague in 1974 and is still a quiet patch of countryside.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Horní Měcholupy': [
+      { h: 'Overview', p: ['Horní Měcholupy lies in the south-east of Prague and belongs to Prague 15. It is mostly a 1980s housing estate that runs into the Petrovice estate, and the old village still has a little bell tower.'] },
+      { h: 'History', p: ['Horní Měcholupy began as a small farming village and joined Prague in 1968. In the 1980s large housing estates went up around the village, and tens of thousands of people moved in.'] },
+      { h: 'Fun facts', p: ['There is a place here called "The Mole\'s World", a name that makes every Czech think at once of the little cartoon mole known to children all over the world.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Petrovice': [
+      { h: 'Overview', p: ['Petrovice lies in the south-east of Prague, under the administration of Prague 15, a borough of its own, with a small chateau, an old church and a large 1980s housing estate.'] },
+      { h: 'History', p: ['Petrovice is an old village with a small chateau and a church of St James. It joined Prague in 1968, and in the 1980s a housing estate was built on its fields, leaving the chateau and the church in the middle of it.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Štěrboholy': [
+      { h: 'Overview', p: ['Štěrboholy lies in the east of Prague, under the administration of Prague 15, a borough of its own. Today it is known for two things: a big outlet centre and a big shopping centre.'] },
+      { h: 'History', p: ['In May 1757 the army of the Prussian king Frederick II and the Austrian army fought a great battle near Štěrboholy, known as the Battle of Prague. Prussia won, but one of its most famous field marshals, Schwerin, fell while leading a charge, and a monument still stands where he died. Štěrboholy joined Prague in 1974.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Lahovice': [
+      { h: 'Overview', p: ['Lahovice is a small village where the Berounka meets the Vltava, belonging to Prague 16. The village is tiny, surrounded by riverbanks, meadows and a motorway bridge.'] },
+      { h: 'History', p: ['For centuries Lahovice was a riverside fishing and farming village, and being low-lying it was often flooded; the great flood of 2002 left it under water once again. It later became part of Zbraslav and joined Prague with it in 1974.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Lipence': [
+      { h: 'Overview', p: ['Lipence is a small borough on the Berounka at the south-western edge of Prague, under the administration of Prague 16. It has an old village and an old watermill, surrounded by hillsides and woods.'] },
+      { h: 'History', p: ['The name Lipence comes from "lime tree", and for centuries it was a farming village by the river. It joined Prague in 1974 and still has only a few thousand residents, one of the most rural places in Prague.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Lochkov': [
+      { h: 'Overview', p: ['Lochkov is a small village on the south-western edge of Prague, under the administration of Prague 16, a borough of its own. It has a small chateau, surrounded by limestone quarries and fields.'] },
+      { h: 'History', p: ['Lochkov is an old village whose small chateau was rebuilt several times and belonged to various noble families. The limestone around it has been quarried for many years. Lochkov joined Prague in 1974 and still has only about a thousand residents.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Sobín': [
+      { h: 'Overview', p: ['Sobín is a small village in the west of Prague, part of the Zličín borough in Prague 17, surrounded by fields. It is best known for Prague\'s highest point.'] },
+      { h: 'History', p: ['For centuries Sobín was a small farming village, and it joined Prague with Zličín in 1974. The unremarkable field on its edge, 399 metres above sea level, is the highest place in all of Prague.'] },
+      { h: 'Fun facts', p: ['Prague\'s highest point has no summit and no lookout tower, just a marker in a flat field. Standing there, you will wonder whether you have come to the wrong place.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Zličín': [
+      { h: 'Overview', p: ['Zličín lies in the west of Prague, under the administration of Prague 17, and is the western end of metro line B. Beside the station are a big shopping centre and a warehouse district, with the old village tucked away behind them.'] },
+      { h: 'History', p: ['Zličín began as a farming village and joined Prague in 1974. After the metro arrived in the 1990s, shopping centres and logistics warehouses went up on its fields, yet the farmsteads and church of the old village have survived.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Miškovice': [
+      { h: 'Overview', p: ['Miškovice is a small village in the north of Prague, part of the Čakovice borough in Prague 18, surrounded by fields.'] },
+      { h: 'History', p: ['For centuries Miškovice was a small farming village, and it joined Prague together with Čakovice. It still looks like a little village: one main road, a few farmsteads, a field.'] },
+    ],
+    'Třeboradice': [
+      { h: 'Overview', p: ['Třeboradice is a small village in the north of Prague, part of the Čakovice borough in Prague 18. It has an old church, a heating plant and Prague\'s northernmost point.'] },
+      { h: 'History', p: ['Třeboradice is an old farming village whose Church of the Assumption is several centuries old. It joined Prague together with Čakovice, and today it is best known for the spot in the fields north of the village marked as "Prague\'s North Pole".'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Satalice': [
+      { h: 'Overview', p: ['Satalice lies in the north-east of Prague, under the administration of Prague 19, a borough of its own. It has an ancient pheasantry forest, a small chapel and quiet family houses.'] },
+      { h: 'History', p: ['For centuries Satalice was a farming village; the forest beside it was once a pheasantry where nobles raised game birds, with oaks several centuries old. Satalice joined Prague in 1974.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Vinoř': [
+      { h: 'Overview', p: ['Vinoř lies in the north-east of Prague, under the administration of Prague 19, a borough of its own. It has two chateaux, Vinoř\'s own and the one at neighbouring Ctěnice, surrounded by fields and ponds.'] },
+      { h: 'History', p: ['The name Vinoř sounds as if it has to do with wine. It is an old village whose chateau was rebuilt several times. The nearby chateau at Ctěnice, once restored, became a venue for exhibitions and events. Vinoř joined Prague in 1974.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Běchovice': [
+      { h: 'Overview', p: ['Běchovice lies in the east of Prague, under the administration of Prague 21, a borough of its own. The old post road runs through it, and the village still has an old coaching inn.'] },
+      { h: 'History', p: ['Běchovice was a village on the main road east, and for centuries coaches changed horses and travellers rested here. In 1897 the first Běchovice to Prague run set off from here, and the race is still held today, the oldest road race in Europe. Běchovice joined Prague in 1974.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Koloděje': [
+      { h: 'Overview', p: ['Koloděje lies in the east of Prague, under the administration of Prague 21, a borough of its own, with a Baroque chateau and a small church, surrounded by fields and woods.'] },
+      { h: 'History', p: ['Koloděje is an old village whose chateau was rebuilt several times and later passed into state ownership; for years it has been used for receptions and official events and is not normally open to the public. Koloděje joined Prague in 1974.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Újezd nad Lesy': [
+      { h: 'Overview', p: ['Újezd nad Lesy lies at the eastern edge of Prague and is the centre of Prague 21, next to the Klánovice forest. It is a quiet area of family houses and gardens, and Prague\'s easternmost point is here too.'] },
+      { h: 'History', p: ['Its full name means "Újezd by the woods", to avoid confusion with the countless other Czech villages called Újezd. It began as a farming village, grew into a villa quarter in the 20th century and joined Prague in 1974.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Benice': [
+      { h: 'Overview', p: ['Benice is a small village on the south-eastern edge of Prague, under the administration of Prague 22, a borough of its own and one of the least populated in the city, surrounded by fields.'] },
+      { h: 'History', p: ['For centuries Benice was a small farming village, and it joined Prague in 1974. Today only a few hundred people live here, and the fields stretch on beyond the city boundary.'] },
+    ],
+    'Hájek u Uhříněvsi': [
+      { h: 'Overview', p: ['Hájek is a small village next to Uhříněves, belonging to Prague 22, surrounded by fields and ponds.'] },
+      { h: 'History', p: ['The name Hájek means "little grove", and for centuries it was a small farming village. It joined Prague together with Uhříněves.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Kolovraty': [
+      { h: 'Overview', p: ['Kolovraty is a small borough on the south-eastern edge of Prague, under the administration of Prague 22, with its own railway station, an old village and new housing.'] },
+      { h: 'History', p: ['Kolovraty is an old village that gave its name to the Kolowrat family, one of the oldest noble houses in Bohemia, which went on to produce governors, ministers and great landowners famous in both Vienna and Prague. Kolovraty joined Prague in 1974.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Královice': [
+      { h: 'Overview', p: ['Královice is a small village on the south-eastern edge of Prague, under the administration of Prague 22, a borough of its own, with a well-preserved small Gothic castle.'] },
+      { h: 'History', p: ['The name Královice means "the king\'s people". The small Gothic castle in the village was built in the Middle Ages and has kept much of its original form, one of the best-preserved medieval fortified manors in Prague. Královice joined Prague in 1974.'] },
+      { h: 'Famous landmarks', landmarks: true },
+    ],
+    'Lipany': [
+      { h: 'Overview', p: ['Lipany is a small village on the south-eastern edge of Prague, belonging to Prague 22, surrounded by fields.'] },
+      { h: 'History', p: ['For centuries Lipany was a small farming village, and it later joined Prague.'] },
+      { h: 'Fun facts', p: ['Note: this is not the Lipany of the decisive battle of the Hussite Wars in 1434; that battle was fought beside another village of the same name east of Prague.'] },
+    ],
+    'Nedvězí u Říčan': [
+      { h: 'Overview', p: ['Nedvězí is a small village on the south-eastern edge of Prague, under the administration of Prague 22, a borough of its own, surrounded by fields and woods.'] },
+      { h: 'History', p: ['For centuries Nedvězí was a small farming village. It joined Prague in 1974 and still has only a few hundred residents, one of the quietest corners of Prague.'] },
+    ],
+    'Pitkovice': [
+      { h: 'Overview', p: ['Pitkovice is a small village on the south-eastern edge of Prague, belonging to Prague 22, right next to a slope covered with wild flowers, which is a protected nature site.'] },
+      { h: 'History', p: ['For centuries Pitkovice was a small farming village, and it joined Prague together with the villages around it. The slope beside the village was never ploughed and has kept many rare steppe plants.'] },
+    ],
   },
 };

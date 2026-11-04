@@ -1492,5 +1492,257 @@ export default {
         'Přijeďte vlakem, projděte se kolem náměstí a kostela městečka a pak vyrazte na kole do okolních polí a k rybníkům, ať vidíte pražský venkov.',
       ] },
     ],
+    'Hodkovičky': [
+      { h: 'Přehled', p: ['Hodkovičky jsou úzký pruh břehu na pravé straně Vltavy mezi Braníkem a Modřany a patří k Praze 4. Jsou tu hlavně klidné vily a zahrady, podél řeky cyklostezka a nad hlavou železniční most přes vodu.'] },
+      { h: 'Historie', p: ['Hodkovičky začínaly jako malá ves u řeky a na začátku 20. století se staly vilovou čtvrtí Pražanů. Železniční most postavili v padesátých letech a říká se mu Most inteligence, protože mezi dělníky, kteří ho stavěli, byla spousta učitelů, právníků a intelektuálů, které komunistický režim poslal na těžkou práci.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Lhotka': [
+      { h: 'Přehled', p: ['Lhotka leží jižně od Krče v Praze 4, napůl stará ves a napůl sídliště ze sedmdesátých let. Je tu starý dvůr, nový kostel a přírodní koupací biotop, kde se okolí v létě osvěží.'] },
+      { h: 'Historie', p: ['Lhotka je velmi časté české jméno vsi a znamená zhruba „nová ves s lhůtou“: nově vymýcené vsi ve středověku často chvíli neplatily dávky. Po staletí tu byla pole, až v sedmdesátých letech na nich vyrostlo sídliště a obklopilo starou ves.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Holyně': [
+      { h: 'Přehled', p: ['Holyně je malá ves na planině na jihozápadě Prahy, součást městské části Slivenec v Praze 5, obklopená poli, s vápencovým údolím hned vedle. Patří k nejmenším a nejtišším pražským katastrálním územím.'] },
+      { h: 'Historie', p: ['Holyně je po staletí malou zemědělskou vsí s několika statky a návsí. K Praze se připojila spolu se Slivencem až v sedmdesátých letech a dodnes vypadá jako venkov.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Radlice': [
+      { h: 'Přehled', p: ['Radlice leží v údolí mezi Smíchovem a Jinonicemi a patří k Praze 5. Na dně údolí jsou staré továrny a nové kancelářské budovy, ve svazích vily a lesíky. V posledních letech sem velká banka přestěhovala své sídlo a z Radlic se stala jedna z nových pražských kancelářských čtvrtí.'] },
+      { h: 'Historie', p: ['Radlice začínaly jako malá ves v údolí a v 19. století rostly spolu se smíchovskými továrnami, přibyla slévárna a dělnické domy. K Velké Praze se připojily v roce 1922. Většinu 20. století to byla tovární čtvrť; po roce 1989 se staré areály pomalu měnily v kanceláře.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Slivenec': [
+      { h: 'Přehled', p: ['Slivenec je malá městská část na jihozápadním okraji Prahy ve správním obvodu Prahy 5. Je tu starý gotický kostel, několik statků a pole a pod okolními svahy leží červený vápenec.'] },
+      { h: 'Historie', p: ['Ve středověku patřil Slivenec Křižovníkům s červenou hvězdou a kostel Všech svatých pochází ze 13. století. Ves dávala vápenec s červenými žilkami, známý jako slivenecký mramor, který se po staletí vozil do Prahy a použil se na mnoha stavbách. K Praze se Slivenec připojil v roce 1974.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Lysolaje': [
+      { h: 'Přehled', p: ['Lysolaje jsou malá ves v údolí na severozápadním okraji Prahy ve správním obvodu Prahy 6, ale samostatná městská část. V údolí je klášter, přírodní koupací biotop a přírodní rezervace, kolem lesy a pole.'] },
+      { h: 'Historie', p: ['Lysolaje byly po staletí zemědělskou vsí s poli a sady na svazích údolí. K Praze se připojily v roce 1968 a dodnes mají jen něco přes tisíc obyvatel, jedno z nejvenkovštějších míst Prahy.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Nebušice': [
+      { h: 'Přehled', p: ['Nebušice leží na severozápadě Prahy severně od Šáreckého údolí ve správním obvodu Prahy 6, ale jsou samostatnou městskou částí. Je to klidná oblast vil a nových domů s kostelem, mezinárodní školou a výšinami s výhledem do údolí.'] },
+      { h: 'Historie', p: ['Nebušice začínaly jako zemědělská ves na planině. K Praze se připojily v roce 1974 a za další desetiletí se po polích rozrostly rodinné domy; nastěhovalo se i mnoho cizích rodin, protože tu otevřela pražská mezinárodní škola.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Přední Kopanina': [
+      { h: 'Přehled', p: ['Přední Kopanina je malá ves vedle letištní ranveje ve správním obvodu Prahy 6. Nejnápadnější je tu starobylý kostel na malém pahorku, nad kterým občas prolétají letadla.'] },
+      { h: 'Historie', p: ['Kostel svaté Máří Magdalény v Přední Kopanině patří k nejstarším kostelům v Praze, jeho nejstarší části sahají do 12. století. Po staletí tu byly statky a pole a k Praze se ves připojila až v roce 1974. Dnes jsou sousedy osm set let starý kostel a mezinárodní letiště.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Veleslavín': [
+      { h: 'Přehled', p: ['Veleslavín leží v Praze 6 mezi Vokovicemi a Ruzyní a má malý zámek, několik sídlišť a stanici metra. Je to klidná obytná čtvrť a vede jí silnice na letiště.'] },
+      { h: 'Historie', p: ['Veleslavín začínal jako ves s malým zámkem. Nejslavnější pražský nakladatel 16. století, Daniel Adam, nesl Veleslavín ve jménu a knihy, které vydával, daly celé době v české literatuře jméno „doba veleslavínská“. K Velké Praze se Veleslavín připojil v roce 1922.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Březiněves': [
+      { h: 'Přehled', p: ['Březiněves je malá ves na severním okraji Prahy ve správním obvodu Prahy 8, ale samostatná městská část, obklopená poli, několika polními cestami a pár novými domy.'] },
+      { h: 'Historie', p: ['Březiněves má ve jméně břízu a po staletí byla malou zemědělskou vsí. K Praze se připojila v roce 1974, ale změnila se jen málo a dodnes je nejtišším koutem Prahy 8.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Dolní Chabry': [
+      { h: 'Přehled', p: ['Dolní Chabry leží na severu Prahy ve správním obvodu Prahy 8 a jsou samostatnou městskou částí. Je tu starý kostel, nějaká nová zástavba a velký kámen, o kterém se říká, že býval člověkem.'] },
+      { h: 'Historie', p: ['Dolní Chabry jsou stará ves, která se k Praze připojila v roce 1968. Na jejím okraji stojí pravěký menhir, kterému místní říkají Zkamenělý slouha. Podle pověsti se slouha proměnil v kámen, buď protože musel pracovat ve svátek, nebo protože při lenošení klel; verzí je spousta a kámen tam pořád stojí.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Čimice': [
+      { h: 'Přehled', p: ['Čimice leží východně od Bohnic v Praze 8, na jedné straně stará ves a sídliště, na druhé hluboké údolí, přírodní rezervace se skalami, potokem a lesy.'] },
+      { h: 'Historie', p: ['Čimice začínaly jako zemědělská ves na planině, k Praze se připojily v roce 1968 a později vedle vyrostlo sídliště. Údolí nikdo nezastavěl a dnes sem Praha 8 chodí na procházky a běhat.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Ďáblice': [
+      { h: 'Přehled', p: ['Ďáblice leží na severu Prahy ve správním obvodu Prahy 8 a jsou samostatnou městskou částí. Je tu hvězdárna, geodetická věž, velký háj a hřbitov s těžkou historií.'] },
+      { h: 'Historie', p: ['Jméno Ďáblice zní českému uchu jako ďábel, ale je to obyčejná stará ves, která se k Praze připojila v roce 1968. Na jejím hřbitově je několik hromadných hrobů: mnoho popravených za nacistické okupace i v padesátých letech tu bylo tajně pohřbeno, mezi nimi i parašutisté, kteří v roce 1942 provedli atentát na Heydricha.'] },
+      { h: 'Zajímavosti', p: ['Místo, které zní jako „ďáblova ves“, si na kopci postavilo hvězdárnu, která za jasných nocí pouští veřejnost dívat se na hvězdy.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Hrdlořezy': [
+      { h: 'Přehled', p: ['Hrdlořezy leží na potoce Rokytce na východě města a patří k Praze 9; je to malá stará čtvrť vedle přírodního parku.'] },
+      { h: 'Historie', p: ['Jméno Hrdlořezy každého, kdo ho slyší poprvé, vyleká. Jazykovědci se spíš kloní k tomu, že pochází ze starého osobního jména nebo přezdívky a s vraždami nemá nic společného, ale místní si účinek toho jména užívají.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Střížkov': [
+      { h: 'Přehled', p: ['Střížkov leží na výšinách na severu Prahy 9 hned vedle Proseka a tvoří ho sídliště a nové bytové domy. Zdejší stanice metra má klenbu jako obří skleněná housenka a patří k nejosobitějším stanicím v Praze.'] },
+      { h: 'Historie', p: ['Střížkov začínal jako malá ves na výšině. Ve druhé polovině 20. století kolem vyrostla sídliště a v roce 2008 sem dojelo metro C; skleněná klenba stanice tehdy v Praze vyvolala docela debatu.'] },
+    ],
+    'Křeslice': [
+      { h: 'Přehled', p: ['Křeslice jsou malá ves na jihovýchodním okraji Prahy ve správním obvodu Prahy 11 a samostatná městská část. Obklopené poli a lesy jsou jen pár kilometrů od paneláků Jižního Města, a přece úplně venkovské.'] },
+      { h: 'Historie', p: ['Křeslice byly po staletí malou zemědělskou vsí a k Praze se připojily v roce 1968. Na jejich okraji stojí kruh velkých vztyčených kamenů, kterému se žertem říká „průhonický Stonehenge“, i když tak starý jako ten anglický samozřejmě není.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Újezd u Průhonic': [
+      { h: 'Přehled', p: ['Újezd u Průhonic leží na jihovýchodním okraji Prahy ve správním obvodu Prahy 11 a je samostatnou městskou částí. Sousedí s Průhonickým parkem hned za hranicí města a kolem jsou domy, rybníky a pole.'] },
+      { h: 'Historie', p: ['Újezd začínal jako malá zemědělská ves; přívlastek „u Průhonic“ dostal, aby se odlišil od nespočtu jiných českých Újezdů. K Praze se připojil v roce 1974 a od té doby tu přibylo hodně nové zástavby.'] },
+    ],
+    'Šeberov': [
+      { h: 'Přehled', p: ['Šeberov leží na jihovýchodním okraji Prahy ve správním obvodu Prahy 11 a je samostatnou městskou částí. Má několik rybníků, les a klidné rodinné domy a nedaleký rybník je v létě oblíbeným přírodním koupalištěm.'] },
+      { h: 'Historie', p: ['Šeberov je stará zemědělská ves, jejíž rybníky vznikly před staletími kvůli chovu ryb. K Praze se připojil v roce 1974 a dnes je tichou „zahradou za domem“ Jižního Města.'] },
+    ],
+    'Cholupice': [
+      { h: 'Přehled', p: ['Cholupice patří k nejjižnějším místům Prahy a k Praze 12; je to malá ves na planině obklopená poli, bažantnicí a malou nádrží.'] },
+      { h: 'Historie', p: ['Cholupice byly po staletí zemědělskou vsí; les vedle býval bažantnicí, kde šlechta chovala pernatou zvěř, a dnes je přírodní rezervací. K Praze se připojily v roce 1974 a pořád vypadají jako venkov.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Kamýk': [
+      { h: 'Přehled', p: ['Kamýk leží v Praze 12 severně od Modřan a je hlavně sídlištěm z osmdesátých let. Je tu také meteorologická stanice, která každý den vypouští meteorologické balony, a alej starých dubů.'] },
+      { h: 'Historie', p: ['Jméno Kamýk znamená malý kámen či skálu a kdysi tu bylo jen nepatrné místo na výšině. V osmdesátých letech tu vyrostlo sídliště a meteorologická stanice vedle je důležitým pozorovacím místem české meteorologické služby, takže část pražské předpovědi počasí začíná právě tady.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Komořany': [
+      { h: 'Přehled', p: ['Komořany jsou malá ves u řeky na pravém břehu Vltavy jižně od Modřan a patří k Praze 12. Podél řeky vede cyklostezka, ve vsi stojí pomník a sídlí tu Český hydrometeorologický ústav.'] },
+      { h: 'Historie', p: ['Komořany byly po staletí rybářskou a zemědělskou vsí a k Praze se připojily v roce 1968. Jejich nízké pozemky u řeky často zaplavuje voda a velká povodeň v roce 2002 je znovu zatopila.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Libuš': [
+      { h: 'Přehled', p: ['Libuš leží na jihu Prahy ve správním obvodu Prahy 12 a je samostatnou městskou částí se starou vsí, novými sídlišti a rozlehlými poli. Linka metra D, plánovaná celá desetiletí, tu jednou bude mít stanici.'] },
+      { h: 'Historie', p: ['Jméno Libuš zní hodně jako bájná kněžna Libuše, ale je to jen náhoda. Libuš začínala jako zemědělská ves, k Praze se připojila v roce 1968 a s tím, jak na polích rostly domy, jí pořád přibývalo obyvatel.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Písnice': [
+      { h: 'Přehled', p: ['Písnice patří k nejjižnějším místům Prahy a k Praze 12; je to stará ves obklopená novou zástavbou a poli. Kolem vsi vede přímo 50. rovnoběžka a označuje ji pomník.'] },
+      { h: 'Historie', p: ['Jméno Písnice pochází od písku a po staletí to byla zemědělská ves; k Praze se připojila v roce 1968. Dnes sem lidé jezdí hlavně kvůli tomu, aby se postavili na 50. rovnoběžku a vyfotili se s jednou nohou na severu a druhou na jihu.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Točná': [
+      { h: 'Přehled', p: ['Točná leží na planině na jihu Prahy a patří k Praze 12. Je tu stará ves, malé letiště a přírodní rezervace, která skrývá valy dávného hradiště.'] },
+      { h: 'Historie', p: ['Už v pravěku a raném středověku stálo na výšině u Točné opevněné hradiště a jeho hliněné valy jsou vidět dodnes. Později tu zůstala jen zemědělská ves. Ve 20. století vzniklo na planině malé letiště, kde dnes startují sportovní letadla a větroně. K Praze se Točná připojila v roce 1974.'] },
+      { h: 'Zajímavosti', p: ['Točná má také „orloj“ od místního autora, rozměry se s tím staroměstským samozřejmě měřit nemůže, ale čas ukazuje stejně.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Třebonice': [
+      { h: 'Přehled', p: ['Třebonice jsou stará ves na západě Prahy a patří k Praze 13. Samotná ves je maličká, ale na jejím katastru stojí velká IKEA a skladový areál, takže tu spousta Pražanů byla, aniž by znali její jméno.'] },
+      { h: 'Historie', p: ['Třebonice byly po staletí zemědělskou vsí a nedaleká osada Krteň má starobylý kostel. K Praze se připojily v roce 1974 a od té doby kolem vyrostly silnice, obchodní centra a sklady.'] },
+      { h: 'Zajímavosti', p: ['Všichni říkají, že jedou „do IKEA na Zličíně“, ale ta IKEA stojí ve skutečnosti v Třebonicích. Ve vsi je i velká kamenná deska položená na jiných kamenech, Kamenný stůl, která vypadá jako pravěký dolmen.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Zadní Kopanina': [
+      { h: 'Přehled', p: ['Zadní Kopanina je malá ves na jihozápadním okraji Prahy, součást městské části Řeporyje, obklopená poli a údolími, se starou hliníkovou jámou na okraji.'] },
+      { h: 'Historie', p: ['Kopanina znamená zhruba „vykopaná, vymýcená půda“ a Zadní Kopanina i Přední Kopanina v Praze 6 jsou právě takové vsi. Po staletí byla malou zemědělskou vsí, k Praze se připojila až v roce 1974 a dodnes tu žije jen pár desítek domácností.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Hostavice': [
+      { h: 'Přehled', p: ['Hostavice leží na východě Prahy a patří k Praze 14, mezi Černým Mostem a Dolními Počernicemi: malá ves a nová obytná zástavba.'] },
+      { h: 'Historie', p: ['Hostavice jsou stará ves, která po staletí žila z hospodaření. K Praze se připojila spolu s okolními vsemi a na jejím okraji od té doby vyrostly nové domy, ale staré jádro vsi zůstalo.'] },
+    ],
+    'Dolní Měcholupy': [
+      { h: 'Přehled', p: ['Dolní Měcholupy leží na jihovýchodě Prahy ve správním obvodu Prahy 15 a jsou samostatnou městskou částí se starou vsí, novou zástavbou a velkou průmyslovou zónou.'] },
+      { h: 'Historie', p: ['Dolní Měcholupy byly po staletí zemědělskou vsí a k Praze se připojily v roce 1974. Později vedle vyrostly továrny a sklady a obec se stala součástí jihovýchodní průmyslové zóny Prahy, se starou vsí schovanou uprostřed.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Dubeč': [
+      { h: 'Přehled', p: ['Dubeč leží na jihovýchodním okraji Prahy ve správním obvodu Prahy 15 a je samostatnou městskou částí. Tvoří ji dvě vesničky, Dubeč a Dubeček, obklopené poli a rybníky.'] },
+      { h: 'Historie', p: ['Jméno Dubeč pochází od dubu. Kostel svatého Petra na pahorku v Dubečku je starý románský kostel s historií přes osm set let. K Praze se Dubeč připojila v roce 1974 a dodnes je tichým kouskem venkova.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Horní Měcholupy': [
+      { h: 'Přehled', p: ['Horní Měcholupy leží na jihovýchodě Prahy a patří k Praze 15. Jsou to hlavně sídliště z osmdesátých let, které navazuje na petrovické, a ve staré vsi stojí malá zvonička.'] },
+      { h: 'Historie', p: ['Horní Měcholupy začínaly jako malá zemědělská ves a k Praze se připojily v roce 1968. V osmdesátých letech kolem vsi vyrostla velká sídliště a nastěhovaly se desítky tisíc lidí.'] },
+      { h: 'Zajímavosti', p: ['Je tu místo jménem Krtkův svět a každý Čech si při tom jméně hned vybaví malého kresleného krtka, kterého znají děti po celém světě.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Petrovice': [
+      { h: 'Přehled', p: ['Petrovice leží na jihovýchodě Prahy ve správním obvodu Prahy 15 a jsou samostatnou městskou částí s malým zámkem, starým kostelem a velkým sídlištěm z osmdesátých let.'] },
+      { h: 'Historie', p: ['Petrovice jsou stará ves s malým zámkem a kostelem svatého Jakuba. K Praze se připojily v roce 1968 a v osmdesátých letech vyrostlo na jejich polích sídliště, uprostřed kterého zůstal zámek i kostel.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Štěrboholy': [
+      { h: 'Přehled', p: ['Štěrboholy leží na východě Prahy ve správním obvodu Prahy 15 a jsou samostatnou městskou částí. Dnes jsou známé dvěma věcmi: velkým outletem a velkým obchodním centrem.'] },
+      { h: 'Historie', p: ['V květnu 1757 svedla vojska pruského krále Fridricha II. a rakouská armáda u Štěrbohol velkou bitvu, bitvu u Prahy. Prusové zvítězili, ale jeden z jejich nejslavnějších polních maršálů, Schwerin, padl při útoku a na místě, kde zemřel, dodnes stojí pomník. K Praze se Štěrboholy připojily v roce 1974.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Lahovice': [
+      { h: 'Přehled', p: ['Lahovice jsou malá ves, kde se Berounka vlévá do Vltavy, a patří k Praze 16. Ves je maličká, kolem jsou břehy, louky a dálniční most.'] },
+      { h: 'Historie', p: ['Lahovice byly po staletí rybářskou a zemědělskou vsí u řeky a kvůli nízké poloze je často zaplavovala voda; velká povodeň v roce 2002 je zatopila znovu. Později se staly součástí Zbraslavi a spolu s ní se v roce 1974 připojily k Praze.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Lipence': [
+      { h: 'Přehled', p: ['Lipence jsou malá městská část na Berounce na jihozápadním okraji Prahy ve správním obvodu Prahy 16. Je tu stará ves a starý vodní mlýn, kolem svahy a lesy.'] },
+      { h: 'Historie', p: ['Jméno Lipence pochází od lípy a po staletí to byla zemědělská ves u řeky. K Praze se připojily v roce 1974 a dodnes tu žije jen pár tisíc lidí, jedno z nejvenkovštějších míst Prahy.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Lochkov': [
+      { h: 'Přehled', p: ['Lochkov je malá ves na jihozápadním okraji Prahy ve správním obvodu Prahy 16 a samostatná městská část. Má malý zámek a kolem vápencové lomy a pole.'] },
+      { h: 'Historie', p: ['Lochkov je stará ves, jejíž malý zámek byl několikrát přestavěn a patřil různým šlechtickým rodům. Okolní vápenec se tu lámal mnoho let. K Praze se Lochkov připojil v roce 1974 a dodnes má jen kolem tisíce obyvatel.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Sobín': [
+      { h: 'Přehled', p: ['Sobín je malá ves na západě Prahy, součást městské části Zličín v Praze 17, obklopená poli. Nejznámější je nejvyšším bodem Prahy.'] },
+      { h: 'Historie', p: ['Sobín byl po staletí malou zemědělskou vsí a k Praze se připojil spolu se Zličínem v roce 1974. Nenápadné pole na jeho okraji ve výšce 399 metrů nad mořem je nejvyšším místem celé Prahy.'] },
+      { h: 'Zajímavosti', p: ['Nejvyšší bod Prahy nemá vrchol ani rozhlednu, jen označení na rovném poli. Když tam stojíte, budete se ptát, jestli jste nezabloudili.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Zličín': [
+      { h: 'Přehled', p: ['Zličín leží na západě Prahy ve správním obvodu Prahy 17 a je západní konečnou linky metra B. Vedle stanice je velké obchodní centrum a skladový areál a stará ves se schovává za nimi.'] },
+      { h: 'Historie', p: ['Zličín začínal jako zemědělská ves a k Praze se připojil v roce 1974. Když sem v devadesátých letech dojelo metro, vyrostla na jeho polích obchodní centra a logistické sklady, ale statky a kostel staré vsi se zachovaly.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Miškovice': [
+      { h: 'Přehled', p: ['Miškovice jsou malá ves na severu Prahy, součást městské části Čakovice v Praze 18, obklopená poli.'] },
+      { h: 'Historie', p: ['Miškovice byly po staletí malou zemědělskou vsí a k Praze se připojily spolu s Čakovicemi. Pořád vypadají jako vesnička: jedna hlavní silnice, pár statků, pole.'] },
+    ],
+    'Třeboradice': [
+      { h: 'Přehled', p: ['Třeboradice jsou malá ves na severu Prahy, součást městské části Čakovice v Praze 18. Je tu starý kostel, teplárna a nejsevernější bod Prahy.'] },
+      { h: 'Historie', p: ['Třeboradice jsou stará zemědělská ves, jejíž kostel Nanebevzetí Panny Marie je starý několik století. K Praze se připojily spolu s Čakovicemi a dnes jsou nejznámější místem v polích severně od vsi, které je označené jako „severní pól Prahy“.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Satalice': [
+      { h: 'Přehled', p: ['Satalice leží na severovýchodě Prahy ve správním obvodu Prahy 19 a jsou samostatnou městskou částí. Je tu starobylá bažantnice, malá kaple a klidné rodinné domy.'] },
+      { h: 'Historie', p: ['Satalice byly po staletí zemědělskou vsí; les vedle býval bažantnicí, kde šlechta chovala pernatou zvěř, s duby starými několik století. K Praze se Satalice připojily v roce 1974.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Vinoř': [
+      { h: 'Přehled', p: ['Vinoř leží na severovýchodě Prahy ve správním obvodu Prahy 19 a je samostatnou městskou částí. Má dva zámky, vlastní vinořský a sousední v Ctěnicích, obklopené poli a rybníky.'] },
+      { h: 'Historie', p: ['Jméno Vinoř zní, jako by mělo něco společného s vínem. Je to stará ves, jejíž zámek byl několikrát přestavěn. Nedaleký zámek v Ctěnicích se po obnově stal místem výstav a akcí. K Praze se Vinoř připojila v roce 1974.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Běchovice': [
+      { h: 'Přehled', p: ['Běchovice leží na východě Prahy ve správním obvodu Prahy 21 a jsou samostatnou městskou částí. Vede jimi stará poštovní silnice a ve vsi je dodnes starý zájezdní hostinec.'] },
+      { h: 'Historie', p: ['Běchovice byly vsí na hlavní silnici na východ a po staletí se tu přepřahali koně a odpočívali cestující. V roce 1897 odtud vyběhl první závod Běchovice–Praha a běhá se dodnes, nejstarší silniční běh v Evropě. K Praze se Běchovice připojily v roce 1974.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Koloděje': [
+      { h: 'Přehled', p: ['Koloděje leží na východě Prahy ve správním obvodu Prahy 21 a jsou samostatnou městskou částí s barokním zámkem a malým kostelem, obklopené poli a lesy.'] },
+      { h: 'Historie', p: ['Koloděje jsou stará ves, jejíž zámek byl několikrát přestavěn a později přešel do vlastnictví státu; léta slouží k recepcím a oficiálním akcím a běžně není přístupný. K Praze se Koloděje připojily v roce 1974.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Újezd nad Lesy': [
+      { h: 'Přehled', p: ['Újezd nad Lesy leží na východním okraji Prahy a je středem Prahy 21, hned vedle Klánovického lesa. Je to klidná oblast rodinných domů a zahrad a je tu i nejvýchodnější bod Prahy.'] },
+      { h: 'Historie', p: ['Přívlastek „nad Lesy“ má zabránit záměně s nespočtem jiných českých Újezdů. Obec začínala jako zemědělská ves, ve 20. století se rozrostla ve vilovou čtvrť a k Praze se připojila v roce 1974.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Benice': [
+      { h: 'Přehled', p: ['Benice jsou malá ves na jihovýchodním okraji Prahy ve správním obvodu Prahy 22, samostatná městská část a jedna z nejméně obydlených v Praze, obklopená poli.'] },
+      { h: 'Historie', p: ['Benice byly po staletí malou zemědělskou vsí a k Praze se připojily v roce 1974. Dnes tu žije jen pár set lidí a pole se táhnou dál za hranici města.'] },
+    ],
+    'Hájek u Uhříněvsi': [
+      { h: 'Přehled', p: ['Hájek je malá ves vedle Uhříněvsi, patří k Praze 22 a obklopují ho pole a rybníky.'] },
+      { h: 'Historie', p: ['Jméno Hájek znamená malý háj a po staletí to byla malá zemědělská ves. K Praze se připojil spolu s Uhříněvsí.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Kolovraty': [
+      { h: 'Přehled', p: ['Kolovraty jsou malá městská část na jihovýchodním okraji Prahy ve správním obvodu Prahy 22, s vlastním nádražím, starou vsí a novou zástavbou.'] },
+      { h: 'Historie', p: ['Kolovraty jsou stará ves, po níž dostal jméno rod Kolovratů, jeden z nejstarších šlechtických rodů v Čechách, z něhož později vzešli místodržitelé, ministři a velcí statkáři proslulí ve Vídni i v Praze. K Praze se Kolovraty připojily v roce 1974.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Královice': [
+      { h: 'Přehled', p: ['Královice jsou malá ves na jihovýchodním okraji Prahy ve správním obvodu Prahy 22 a samostatná městská část s dobře zachovanou gotickou tvrzí.'] },
+      { h: 'Historie', p: ['Jméno Královice znamená „královi lidé“. Gotická tvrz ve vsi pochází ze středověku a z velké části si uchovala původní podobu; patří k nejzachovalejším středověkým tvrzím v Praze. K Praze se Královice připojily v roce 1974.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
+    ],
+    'Lipany': [
+      { h: 'Přehled', p: ['Lipany jsou malá ves na jihovýchodním okraji Prahy, patří k Praze 22 a obklopují je pole.'] },
+      { h: 'Historie', p: ['Lipany byly po staletí malou zemědělskou vsí a později se připojily k Praze.'] },
+      { h: 'Zajímavosti', p: ['Pozor: tohle nejsou ty Lipany, u kterých se v roce 1434 odehrála rozhodující bitva husitských válek; ta proběhla u jiné stejnojmenné vsi na východ od Prahy.'] },
+    ],
+    'Nedvězí u Říčan': [
+      { h: 'Přehled', p: ['Nedvězí je malá ves na jihovýchodním okraji Prahy ve správním obvodu Prahy 22, samostatná městská část obklopená poli a lesy.'] },
+      { h: 'Historie', p: ['Nedvězí bylo po staletí malou zemědělskou vsí. K Praze se připojilo v roce 1974 a dodnes má jen pár set obyvatel, jeden z nejtišších koutů Prahy.'] },
+    ],
+    'Pitkovice': [
+      { h: 'Přehled', p: ['Pitkovice jsou malá ves na jihovýchodním okraji Prahy, patří k Praze 22 a hned vedle je svah plný lučních květin, chráněné přírodní místo.'] },
+      { h: 'Historie', p: ['Pitkovice byly po staletí malou zemědělskou vsí a k Praze se připojily spolu s okolními vsemi. Svah vedle vsi nikdy nikdo nezoral a zachovala se na něm spousta vzácných stepních rostlin.'] },
+    ],
   },
 };

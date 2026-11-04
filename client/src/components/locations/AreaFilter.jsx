@@ -1,25 +1,20 @@
 import { useState, useEffect, useRef } from 'react';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { quarterName } from '../../utils/pragueQuarters';
+import QuarterPickerModal from './QuarterPickerModal';
 
 const DISTRICTS = Array.from({ length: 22 }, (_, i) => `Praha ${i + 1}`);
 
-// The historical-division menu lists the well-known quarters: the old royal
-// towns and the 19th-century suburbs first, then (2026-11-04) the larger
-// suburbs and villages that get an area guide of their own, roughly by
-// district. The small villages stay off the menu (their cards still show
-// their quarter in the detail view).
+// The historical-division dropdown lists the best-known quarters: the old
+// royal towns, the 19th-century suburbs and a few big estates. "Show all"
+// opens QuarterPickerModal with every quarter, grouped by district
+// (user's call, 2026-11-04, after the dropdown grew to 61 and got cramped).
 export const FEATURED_QUARTERS = [
   'Hradčany', 'Malá Strana', 'Staré Město', 'Josefov', 'Nové Město', 'Vyšehrad',
   'Smíchov', 'Vinohrady', 'Žižkov', 'Karlín', 'Libeň', 'Holešovice', 'Bubeneč',
   'Dejvice', 'Břevnov', 'Střešovice', 'Vršovice', 'Nusle', 'Košíře', 'Podolí',
   'Braník', 'Troja', 'Vysočany', 'Strašnice', 'Zbraslav',
-  'Krč', 'Michle', 'Kunratice', 'Záběhlice', 'Hlubočepy', 'Motol', 'Jinonice',
-  'Liboc', 'Ruzyně', 'Vokovice', 'Sedlec', 'Suchdol', 'Bohnice', 'Kobylisy',
-  'Prosek', 'Hloubětín', 'Malešice', 'Hostivař', 'Černý Most', 'Dolní Počernice',
-  'Kyje', 'Chodov', 'Háje', 'Modřany', 'Stodůlky', 'Řeporyje', 'Radotín',
-  'Velká Chuchle', 'Malá Chuchle', 'Řepy', 'Letňany', 'Čakovice', 'Kbely',
-  'Horní Počernice', 'Klánovice', 'Uhříněves',
+  'Hlubočepy', 'Krč', 'Bohnice', 'Chodov', 'Stodůlky',
 ];
 
 // area: null, or { kind: 'district' | 'quarter', value } (value = the Czech
@@ -32,6 +27,7 @@ export default function AreaFilter({ area, onChange, inline = false, style }) {
   const convert = useConvert();
   const [open, setOpen] = useState(false);
   const [tab, setTab]   = useState(area?.kind ?? 'district');
+  const [showAll, setShowAll] = useState(false);
   const ref = useRef(null);
 
   useEffect(() => {
@@ -83,12 +79,27 @@ export default function AreaFilter({ area, onChange, inline = false, style }) {
               {convert(nameOf(tab, v))}
             </button>
           ))}
+          {tab === 'quarter' && (
+            <button
+              className="label-pill area-filter__show-all"
+              onClick={() => { setShowAll(true); setOpen(false); }}
+            >
+              {t('area.showAll')}
+            </button>
+          )}
           {area && (
             <button className="label-pill label-pill--clear" onClick={() => onChange(null)}>
               ✕ {t('grid.clearLabels')}
             </button>
           )}
         </div>
+      )}
+      {showAll && (
+        <QuarterPickerModal
+          current={area?.kind === 'quarter' ? area.value : null}
+          onPick={q => pick('quarter', q)}
+          onClose={() => setShowAll(false)}
+        />
       )}
     </div>
   );

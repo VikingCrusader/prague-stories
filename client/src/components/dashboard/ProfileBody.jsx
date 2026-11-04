@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
+import { useFitText } from '../../utils/fitText';
 import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { RARITY_VAR, RARITY_LABEL, ALL_RARITIES } from '../../utils/rarity';
@@ -19,6 +20,19 @@ import AchievementModal from '../achievements/AchievementModal';
 // else's: links that would lead to the viewer's own cards are left out.
 // `progress` is the /progress payload, `achievements` the whole catalogue.
 const firstFour = d => (d ? { ...d, cards: (d.cards || []).slice(0, 4) } : d);
+
+const FIT_LABELS = [
+  '.stat-card--rank-top .stat-card__label',
+  '.rarity-compact__name',
+  '.district-progress__title',
+  '.district-progress__head .filter-btn',
+  '.card-strip__title',
+  '.profile-card-title',
+  '.card-strip__empty',
+  '.card-strip__name',
+  '.card-strip__meta',
+  '.ach-tile__name',
+].join(', ');
 
 export default function ProfileBody({ progress, achievements, username, own = true, isGuest = false }) {
   const t       = useT();
@@ -54,8 +68,14 @@ export default function ProfileBody({ progress, achievements, username, own = tr
   );
   const plus = n => (n > 0 ? `+${n}` : '0');
 
+  // Labels that stay on one line in every language, shrinking instead of
+  // wrapping, so the cards keep the Chinese sizes (2026-11-04, user's call).
+  const fitRef = useRef(null);
+  useFitText(fitRef, FIT_LABELS, [lang, progress, achievements], 8);
+
   return (
-    <>
+    // display: contents, only there so the fit can find its labels.
+    <div ref={fitRef} className="profile-body">
       {/* Level + XP */}
       <div className="level-row" style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginBottom: 24 }}>
         <button type="button" className="level-badge level-badge--btn" onClick={() => setLevelsOpen(true)} title={t('nav.levelsHint')}>
@@ -109,7 +129,14 @@ export default function ProfileBody({ progress, achievements, username, own = tr
             the user has, and the line under it gives the city and outside
             totals (2026-11-03, user's call). It spans two rows, with the XP
             and achievement totals stacked beside it (2026-11-03). */}
-        <div className="stat-card stat-card--ring stat-card--tall" style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
+        {/* Gold title in the top-left corner like the other profile cards
+            (2026-11-04). The card must keep its size (user's call): side by
+            side with the week and rarity cards it has room to spare; where
+            it stands alone (900px and narrower) the ring shrinks by the
+            title's height instead (pixelart.css, .ring-card__body svg). */}
+        <div className="stat-card stat-card--ring stat-card--tall ring-card">
+          <h2 className="px-title profile-card-title">{t('dashboard.collectionTitle')}</h2>
+          <div className="ring-card__body">
           <ProgressRing percent={progress.cityUnlockPercent ?? unlockPercent} size={140} label={t('dashboard.unlockedRing')} />
           <div className="ring-stats">
             <div className="stat-card__value">{progress.presetCheckins}</div>
@@ -125,6 +152,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
                 : t('dashboard.ofPreset', { n: totalPreset })}
             </div>
           </div>
+          </div>
         </div>
 
         {/* This week, stacked with cards by rarity beside the ring
@@ -133,10 +161,11 @@ export default function ProfileBody({ progress, achievements, username, own = tr
             rank card, which replaced a total-XP card that repeated the XP
             bar above. */}
         <div className="stat-card week-card">
-          <div className="stat-card__label">
+          {/* Gold section titles like the district card's (2026-11-04). */}
+          <h2 className="px-title profile-card-title">
             {t('dashboard.thisWeek')}
             <span className="week-card__note">{t('dashboard.weekResets')}</span>
-          </div>
+          </h2>
           <ul className="week-card__list">
             <li className="week-card__item week-card__item--rank">
               <span className="week-card__name">{t('dashboard.rank')}</span>
@@ -157,7 +186,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
             total that the achievements section right below repeated, and
             the full-width rarity row that used to sit lower down. */}
         <div className="stat-card rarity-compact">
-          <div className="stat-card__label">{t('dashboard.rarityBreakdown')}</div>
+          <h2 className="px-title profile-card-title">{t('dashboard.rarityBreakdown')}</h2>
           <ul className="rarity-compact__list">
             {ALL_RARITIES.map(r => {
               const inner = (
@@ -191,7 +220,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
 
       {/* The districts as a map and a list (2026-11-03; the map 2026-11-04). */}
       <div className="profile-layout__side">
-        <DistrictProgress districts={progress.districtProgress} own={own && !isGuest} />
+        <DistrictProgress districts={progress.districtProgress} quarters={progress.quarterProgress} own={own && !isGuest} />
       </div>
 
       <div className="profile-layout__bottom">
@@ -231,6 +260,6 @@ export default function ProfileBody({ progress, achievements, username, own = tr
       {levelsOpen && <LevelsModal currentLevel={levelInfo.level} onClose={() => setLevelsOpen(false)} />}
       {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
       {selectedAch && <AchievementModal achievement={selectedAch} onClose={() => setSelectedAch(null)} />}
-    </>
+    </div>
   );
 }
