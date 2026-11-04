@@ -16717,6 +16717,40 @@ Hrad založil roku 1241 Zdeslav z Divišova, jehož rod po něm převzal jméno:
   },
 
   {
+    name: 'Točník and Žebrák Castles',
+    slug: 'hrady-tocnik-a-zebrak',
+    localizedNames: { cz: 'Hrady Točník a Žebrák', zh: '托奇尼克与热布拉克城堡' },
+    labels: ['castle and fortress', 'ruin', 'gothic', 'outside'],
+    coordinates: { lat: 49.88726899690607, lng: 13.883243772188617 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/To%C4%8Dn%C3%ADk',
+    description: {
+      en: `Two castles on two neighbouring hills, about fifty kilometres southwest of Prague: the older Žebrák below, the bigger Točník above. They look like a matching pair, but they are really a before and after. When a king's favourite castle burned, he didn't rebuild it. He built a better one next door.
+
+Žebrák went up in the second half of the 13th century to guard the crossroads of the roads to Křivoklát and Zbiroh, and under the Luxembourgs it became a royal castle. Wenceslas IV loved it as a base for hunting in the deep forests around. In 1395 it burned, and the fire showed how cramped and exposed the old castle was. So around the turn of the 15th century the king raised Točník on the higher hill, a roomier and safer residence, more palace than fortress.
+
+After his death in 1419 the crown pledged both castles again and again, and owners came and went. In 1425 the Hussites besieged the castles for three days and gave up. In 1557 Jan the Elder of Lobkowicz bought it and rebuilt it in Renaissance style, with sgraffito on the walls. The Thirty Years' War ended its useful life, and in the 17th century both castles were left to decay. Since 1923, when the Club of Czech Tourists took them over, they have been a favourite day trip, and today they belong to the state.
+
+🎁 Bonus: Žebrák burned once more in the 16th century, and the royal chamber lost interest in it. The men who held it next were convinced a treasure was hidden in the walls, and dug for it so eagerly that parts of the old palace collapsed. No treasure was ever found. The ruin is what they left behind.`,
+      cz: `Dva hrady na dvou sousedních kopcích, asi padesát kilometrů jihozápadně od Prahy: starší Žebrák dole, větší Točník nahoře. Vypadají jako sourozenci, ve skutečnosti jsou to ale „před“ a „po“. Když králi vyhořel oblíbený hrad, neopravoval ho. Postavil si vedle lepší.
+
+Žebrák vznikl ve druhé polovině 13. století, aby střežil křižovatku cest na Křivoklát a Zbiroh, a za Lucemburků se stal královským hradem. Václav IV. ho miloval jako základnu pro lov v okolních hlubokých lesích. Roku 1395 hrad vyhořel a požár ukázal, jak je starý hrad stísněný a špatně chráněný. Kolem přelomu 14. a 15. století proto král postavil na vyšším kopci Točník, prostornější a bezpečnější sídlo, spíš palác než pevnost.
+
+Po jeho smrti roku 1419 koruna oba hrady znovu a znovu zastavovala a majitelé se střídali. Roku 1425 obléhali hrady husité tři dny a pak to vzdali. Roku 1557 ho koupil Jan starší z Lobkovic a přestavěl ho renesančně, se sgrafity na zdech. Třicetiletá válka ukončila jeho užitečný život a v 17. století byly oba hrady ponechány zkáze. Od roku 1923, kdy je převzal Klub českých turistů, jsou oblíbeným výletním cílem, dnes patří státu.
+
+🎁 Bonus: Žebrák v 16. století vyhořel ještě jednou a královská komora o něj ztratila zájem. Zástavní držitelé, kteří ho pak dostali, byli přesvědčeni, že je ve zdech ukrytý poklad, a kopali po něm tak horlivě, že se části starého paláce zřítily. Žádný poklad se nenašel. Zřícenina je to, co po nich zůstalo.`,
+      zh: `布拉格西南约五十公里，两座相邻的山头上各有一座城堡：山下是较老的热布拉克，山上是更大的托奇尼克。它们看上去像一对兄弟，其实是“之前”和“之后”。国王心爱的城堡烧了，他没有修，而是在隔壁盖了一座更好的。
+
+热布拉克建于13世纪下半叶，守着通往克日沃克拉特和兹比罗赫两条道路的岔口，卢森堡王朝时成了王室城堡。瓦茨拉夫四世很喜欢它，把这里当作在周围密林里打猎的据点。1395年城堡失火，这场火让人看清了老城堡有多局促、多难防守。于是在14、15世纪之交，国王在更高的山头上建起了托奇尼克，一座更宽敞、更安全的居所，与其说是要塞，不如说是宫殿。
+
+1419年他去世后，王室把两座城堡一次又一次地抵押出去，主人换了一个又一个。1425年胡斯派围攻这两座城堡三天，最后放弃了。1557年，老扬·洛布科维茨买下它，按文艺复兴风格改建，墙上绘了五彩刮画。三十年战争结束了它的用处，17世纪两座城堡都被弃置，渐渐荒废。1923年捷克旅游者俱乐部接手后，这里成了很受欢迎的出游地，如今归国家所有。
+
+🎁 彩蛋：热布拉克在16世纪又烧了一次，王室从此对它失去了兴趣。后来拿到抵押权的人坚信墙里藏着宝藏，挖得太卖力，把老宫殿的一部分都挖塌了。宝藏始终没找到，留下来的就是这片废墟。`,
+    },
+  },
+
+  {
     name: 'Fraternization Monument',
     slug: 'sbratreni-vrchlickeho-sady',
     localizedNames: { cz: 'Sbratření (Vrchlického sady)', zh: '"兄弟情谊"纪念雕塑' },
@@ -28726,6 +28760,36 @@ Pól leží na hranici pražské Zbraslavi a obce Zvole, asi 200 metrů od prvn�
 南极位于布拉格的兹布拉斯拉夫区和兹沃莱村交界处，离弗拉内村的第一排房子大约200米，在河滩上，坐标北纬49°56′31″、东经14°23′44″。它是四个“布拉格极点”之一，也就是全市辖区最北、最南、最东、最西的四个点。2020年11月底，油管博主雅内克·鲁贝什和洪扎·米库尔卡，也就是“布拉格小伙”二人组，联合布拉格规划与发展研究院院长翁德热·博哈奇，在实地立起了标志。每个极点用的都是同一种：一根圆锥形、顶部呈半圆的水泥桩，重180公斤，挂着红黑两色的说明牌。四个极点里，南极通常被认为最值得一去。伏尔塔瓦河就从旁边流过，两岸是长满树林的河谷山坡，河对岸有一座老采石场和位于斯特尔纳迪的林业研究所。它也是最好到的一个：A2自行车道从市中心的维托尼一路沿河过来，大约15公里，火车和公交车都在一公里外的弗拉内停靠。
 
 🎁 彩蛋：布拉格北极是铁路道口旁的一根桩子，因为挡着铁路保护区，连真正的极点都没能站上去。南极的运气好多了：它的桩子就立在该立的地方，还附带河景。从布拉格市中心骑车出发，不用离开河岸，就能一路骑到这座城市的最底边。`,
+    },
+  },
+
+  {
+    name: "Teleček, Prague's Highest Point",
+    slug: 'telecek-nejvyssi-bod-prahy',
+    localizedNames: { cz: 'Teleček – nejvyšší bod Prahy', zh: '布拉格最高点泰莱切克' },
+    labels: ['nature', 'hidden-gem'],
+    district: 'Praha 17',
+    quarter: 'Sobín',
+    coordinates: { lat: 50.05417389171108, lng: 14.263318976533341 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Sob%C3%ADn',
+    description: {
+      en: `Prague's highest point is not a peak, a tower or a castle. It is a gently sloping field on the western edge of the city, 399 metres above sea level, within earshot of the D5 motorway. No summit cross, no view, no crowds: just the quiet satisfaction of standing higher than anyone else in Prague.
+
+Teleček lies on the city boundary south of Sobín, a former village that now belongs to Praha-Zličín, where Prague meets the village of Chrášťany. It isn't really a hill of its own. The city line simply crosses the slope of Růžová, a low hill whose 410-metre top lies just outside Prague, so the highest point of the capital is wherever the border happens to run. For comparison, Petřín reaches 327 metres and Vítkov 270. For a long time the spot was marked on few maps and nowhere on the ground, and a city survey later confirmed that the real top of the slope belongs to the neighbours.
+
+🎁 Bonus: The lowest point of Prague is where the Vltava leaves the city at Suchdol, at around 177 metres. The whole city, from river to field, spans a little over 220 metres of height: roughly the Žižkov TV Tower, which is 216 metres tall.`,
+      cz: `Nejvyšší bod Prahy není vrchol, věž ani hrad. Je to mírně svažité pole na západním okraji města, 399 metrů nad mořem, na doslech od dálnice D5. Žádný vrcholový kříž, žádný výhled, žádné davy: jen tichá radost z toho, že stojíte výš než kdokoli jiný v Praze.
+
+Teleček leží na hranici města jižně od Sobína, bývalé vsi, která dnes patří k Praze-Zličínu, tam, kde Praha sousedí s Chrášťany. Vlastně to není samostatný kopec. Hranice města prostě přetíná svah Růžové, nízkého vrchu, jehož vrchol ve výšce 410 metrů leží kousek za Prahou, takže nejvyšší bod metropole je tam, kudy zrovna vede hranice. Pro srovnání: Petřín měří 327 metrů a Vítkov 270. Dlouho ho zachycovalo jen málo map a v terénu nebyl označený vůbec, a městské měření později potvrdilo, že skutečný vrchol svahu patří sousedům.
+
+🎁 Bonus: Nejnižší bod Prahy je místo, kde Vltava opouští město u Suchdola, ve výšce kolem 177 metrů. Celé město, od řeky po pole, tak má výškový rozdíl něco přes 220 metrů: zhruba jako Žižkovský vysílač, který měří 216 metrů.`,
+      zh: `布拉格的最高点不是山峰，不是高塔，也不是城堡，而是城市西缘一片缓缓倾斜的田地，海拔399米，D5高速公路的车声隐约可闻。没有山顶十字架，没有风景，也没有人群，只有一种安静的满足：此刻你站得比布拉格的任何人都高。
+
+泰莱切克位于索宾以南的市界上。索宾原本是个村子，如今属于布拉格-兹利钦，在这里与赫拉什佳尼村接壤。它其实算不上一座独立的山，只是市界恰好穿过了鲁若瓦山的山坡。这座矮山的山顶海拔410米，就在布拉格界外不远，所以首都的最高点，取决于边界正好从哪里经过。作为对比，佩特任山高327米，维特科夫山270米。很长时间里，这个地方只出现在少数地图上，实地也没有任何标记，后来市里的一次测量又确认，这片山坡真正的顶点属于邻居。
+
+🎁 彩蛋：布拉格的最低点是伏尔塔瓦河在苏赫多尔流出市界的地方，海拔约177米。整座城市从河面到田野，高差只有二百二十多米，差不多就是日什科夫电视塔的高度，那座塔高216米。`,
     },
   },
   {

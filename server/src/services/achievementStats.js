@@ -1,6 +1,8 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
+import HistoryEvent from '../models/HistoryEvent.js';
+import { HISTORY_ERAS } from '../data/historyEras.js';
 import { HISTORY_LABELS, HUNT_EXCLUDED_SLUGS, riverSideOf, evaluateAchievements, describeAchievement, achievementXp, calculateLevel, RANDOM_DRAW_WINDOW_MS, saintOf } from './gamification.js';
 import { haversineDistance } from '../utils/geo.js';
 
@@ -29,6 +31,13 @@ function huntTimedOut(draw, now = Date.now()) {
     && now - new Date(draw.drawnAt).getTime() >= RANDOM_DRAW_WINDOW_MS);
 }
 
+// The `order` of the era a History Timeline event belongs to (0 if unknown).
+export async function historyEraOrder(slug) {
+  if (!slug) return 0;
+  const ev = await HistoryEvent.findOne({ slug }, 'era').lean();
+  return HISTORY_ERAS.find(e => e.key === ev?.era)?.order ?? 0;
+}
+
 // `user` (optional) adds what only the user document knows (the last hunt).
 export async function buildAchievementStats(userId, user = null) {
   const allCheckins = await CheckIn.find({ user: userId }).populate('location', 'slug name localizedNames labels addedBy quarter district xpReward rarity coordinates').lean();
@@ -36,6 +45,7 @@ export async function buildAchievementStats(userId, user = null) {
   const checkedSlugs = [];
   let presetCheckins = 0;
   let historyCount = 0;
+  let artCount = 0;       // cards with the sculpture or the cultural label (Art Lover)
   let cityCheckins = 0;   // cards inside Prague (no `outside` label)
   let huntTenX = 0;       // treasure-hunt finds that paid 10x
   let expeditionCheckins = 0; // cards outside Prague (rarity expedition)
@@ -60,6 +70,7 @@ export async function buildAchievementStats(userId, user = null) {
       labelCount[lb] = (labelCount[lb] || 0) + 1;
     }
     if ((ci.location.labels || []).some(lb => HISTORY_LABELS.has(lb))) historyCount++;
+    if ((ci.location.labels || []).some(lb => lb === 'sculpture' || lb === 'cultural')) artCount++;
     checkedSlugs.push(ci.location.slug);
     if (!ci.location.addedBy) presetCheckins++;
     if ((ci.location.labels || []).includes('outside')) expeditionCheckins++;
@@ -139,6 +150,8 @@ export async function buildAchievementStats(userId, user = null) {
     .filter(ci => ci.location && !NO_BANK.has(ci.location.slug) && !(ci.location.labels || []).includes('outside') && ci.location.quarter)
     .map(ci => ({ t: new Date(ci.checkedInAt || ci.createdAt || 0).getTime(), side: riverSideOf(ci.location.quarter) }))
     .sort((a, b) => a.t - b.t);
+  // Both Banks: on how many banks of the Vltava the user has a card (0-2).
+  const banksVisited = new Set(banked.map(b => b.side)).size;
   let zigzag = 0;
   for (let i = 0, start = 0; i < banked.length; i++) {
     if (i > 0 && banked[i].side === banked[i - 1].side) start = i;
@@ -160,8 +173,23 @@ export async function buildAchievementStats(userId, user = null) {
     ]),
   ]);
 
+  // Turning the Page: the era of the History Timeline event the user is on.
+  const historyEraReached = await historyEraOrder(user?.historyProgress?.slug);
+
+  // High Five: achievements unlocked per Prague day (itself not counted).
+  const unlockDays = {};
+  for (const a of (user?.achievements || [])) {
+    if (a.id === 'high_five' || !a.unlockedAt) continue;
+    const { day } = pragueDayHour(new Date(a.unlockedAt));
+    unlockDays[day] = (unlockDays[day] || 0) + 1;
+  }
+
   return {
     totalCheckins: allCheckins.length,
+    artCount,
+    historyEraReached,
+    unlockDayMax: Math.max(0, ...Object.values(unlockDays)),
+    unlockToday: unlockDays[pragueDayHour(new Date()).day] || 0,
     presetCheckins,
     totalLocations,
     landmarkTotal,
@@ -188,6 +216,7 @@ export async function buildAchievementStats(userId, user = null) {
     saintCount,
     burst5min,
     zigzag,
+    banksVisited,
     rarityCount,
     embassySlugs: embassies.map(e => e.slug),
     districtCount,

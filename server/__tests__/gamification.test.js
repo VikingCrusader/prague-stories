@@ -148,9 +148,9 @@ describe('evaluateAchievements', () => {
     expect(evaluateAchievements({ ...baseStats, expeditionCheckins: 0 }, []).map(a => a.id)).not.toContain('out_of_town');
   });
 
-  test('devout_believer needs 30 church cards', () => {
-    expect(evaluateAchievements({ ...baseStats, labelCount: { church: 30 } }, []).map(a => a.id)).toContain('devout_believer');
-    expect(evaluateAchievements({ ...baseStats, labelCount: { church: 29 } }, []).map(a => a.id)).not.toContain('devout_believer');
+  test('devout_believer needs 40 church cards', () => {
+    expect(evaluateAchievements({ ...baseStats, labelCount: { church: 40 } }, []).map(a => a.id)).toContain('devout_believer');
+    expect(evaluateAchievements({ ...baseStats, labelCount: { church: 39 } }, []).map(a => a.id)).not.toContain('devout_believer');
   });
 
   test('veni_vidi_vici needs every legend card', () => {
@@ -374,7 +374,7 @@ describe('evaluateAchievements', () => {
   test('the evening batch: area shares with places, easter eggs, White Mountain', () => {
     const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
     const wild = ['prokopske-valley', 'divoka-sarka', 'krucifix-motol', 'modranska-rokle', 'viewpoint-dobeka-1782864480282', 'rozhledna-cibulka'];
-    expect(ids({ checkedSlugs: wild, labelCount: { nature: 15 } })).toContain('wild_prague');
+    expect(ids({ checkedSlugs: wild, labelCount: { nature: 25 } })).toContain('wild_prague');
     expect(ids({ checkedSlugs: wild.slice(1), labelCount: { nature: 30 } })).not.toContain('wild_prague');
     const q = (quarter, total, n, slugs) => ({ checkedSlugs: slugs, quarterTotal: { [quarter]: total }, quarterCount: { [quarter]: n } });
     expect(ids(q('Žižkov', 30, 15, ['zizkov-tv-tower', 'zizkov-horse-statue']))).toContain('tower_and_general');
@@ -446,6 +446,156 @@ describe('evaluateAchievements', () => {
     const [ach] = evaluateAchievements(stats, []);
     expect(typeof ach.id).toBe('string');
     expect(ach.unlockedAt).toBeInstanceOf(Date);
+  });
+
+  test('the 2026-11-04 batch', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    const truth = ['palackeho-namesti', 'pomnik-josefa-jungmanna', 'national-museum', 'national-theatre', 'pamatnik-tg-masaryka'];
+    expect(ids({ checkedSlugs: truth, labelCount: { 'national-revival': 10 } })).toContain('truth_prevails');
+    expect(ids({ checkedSlugs: truth, labelCount: { 'national-revival': 9 } })).not.toContain('truth_prevails');
+    expect(ids({ labelCount: { renaissance: 13 } })).toContain('renaissance_man');
+    expect(ids({ labelCount: { baroque: 49 } })).not.toContain('all_that_glitters');
+    expect(ids({ labelCount: { baroque: 50 } })).toContain('all_that_glitters');
+    const art = ['filmove-ateliery-barrandov', 'dox-centre', 'state-opera', 'estates-theatre', 'miminka-kampa'];
+    expect(ids({ artCount: 50, checkedSlugs: art })).toContain('art_lover');
+    expect(ids({ artCount: 50, checkedSlugs: art.slice(1) })).not.toContain('art_lover');
+    expect(ids({ artCount: 50, checkedSlugs: [...art.slice(0, 4), 'rudolfinum'] })).not.toContain('art_lover');
+    expect(ids({ artCount: 49, checkedSlugs: art })).not.toContain('art_lover');
+    const sm = { quarterTotal: { 'Staré Město': 120 } };
+    expect(ids({ ...sm, quarterCount: { 'Staré Město': 108 } })).toContain('old_town_regular');
+    expect(ids({ ...sm, quarterCount: { 'Staré Město': 107 } })).not.toContain('old_town_regular');
+    const z = ['zbraslavsky-zamek'];
+    expect(ids({ checkedSlugs: z, quarterTotal: { Zbraslav: 12 }, quarterCount: { Zbraslav: 10 } })).toContain('aula_regia');
+    expect(ids({ checkedSlugs: z, quarterTotal: { Zbraslav: 12 }, quarterCount: { Zbraslav: 9 } })).not.toContain('aula_regia');
+  });
+
+  test('knight_errant (any three of eight castles) and paradise_found', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ checkedSlugs: ['hrady-tocnik-a-zebrak', 'zamek-orlik', 'bezdez-castle'] })).toContain('knight_errant');
+    expect(ids({ checkedSlugs: ['kost-castle', 'zamek-orlik', 'bezdez-castle'] })).not.toContain('knight_errant');
+    const paradise = ['hrad-trosky', 'kost-castle', 'hrad-valdstejn', 'hruboskalsko', 'zricenina-hradu-rotstejn'];
+    expect(ids({ checkedSlugs: paradise.slice(2) })).toContain('paradise_found');
+    expect(ids({ checkedSlugs: paradise.slice(3) })).not.toContain('paradise_found');
+  });
+
+  test('emperors_spring and rose_of_the_south: the main city plus any one more', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ checkedSlugs: ['karlovy-vary', 'cheb-castle'] })).toContain('emperors_spring');
+    expect(ids({ checkedSlugs: ['loket-castle', 'jachymov', 'cheb'] })).not.toContain('emperors_spring');
+    expect(ids({ checkedSlugs: ['karlovy-vary'] })).not.toContain('emperors_spring');
+    expect(ids({ checkedSlugs: ['cesky-krumlov', 'trebon'] })).toContain('rose_of_the_south');
+    expect(ids({ checkedSlugs: ['hrad-rozmberk', 'trebon'] })).not.toContain('rose_of_the_south');
+  });
+
+  test('iron_and_golden_king: St Vitus, one castle or monastery, one town', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ checkedSlugs: ['st-vitus-cathedral', 'klaster-zlata-koruna', 'nymburk'] })).toContain('iron_and_golden_king');
+    expect(ids({ checkedSlugs: ['st-vitus-cathedral', 'pisek', 'nymburk', 'caslav'] })).not.toContain('iron_and_golden_king');
+    expect(ids({ checkedSlugs: ['pisek', 'bezdez-castle', 'zvikov-castle'] })).not.toContain('iron_and_golden_king');
+  });
+
+  test('early bronze: 10 and 25 cards, the tourist trio, two days in a row', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ totalCheckins: 10 })).toContain('small_harvest');
+    expect(ids({ totalCheckins: 24 })).not.toContain('getting_the_hang');
+    expect(ids({ totalCheckins: 25 })).toContain('getting_the_hang');
+    expect(ids({ checkedSlugs: ['tyn-church', 'charles-bridge', 'st-vitus-cathedral'] })).toContain('tourist_trio');
+    expect(ids({ checkedSlugs: ['tyn-church', 'charles-bridge'] })).not.toContain('tourist_trio');
+    expect(ids({ longestStreak: 2 })).toContain('see_you_tomorrow');
+    expect(ids({ longestStreak: 1 })).not.toContain('see_you_tomorrow');
+  });
+
+  test('turning_the_page: reading position in the second era or later', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ historyEraReached: 2 })).toContain('turning_the_page');
+    expect(ids({ historyEraReached: 7 })).toContain('turning_the_page');
+    expect(ids({ historyEraReached: 1 })).not.toContain('turning_the_page');
+  });
+
+  test('starter_pack: the six square landmarks plus any four of the other fourteen', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    const must = ['old-town-square', 'tyn-church', 'mariansky-sloup', 'old-town-hall', 'astronomical-clock', 'pamatnik-jana-husa'];
+    const four = ['27-krizu-staromestske-namesti', 'stone-bell-house', 'dum-u-minuty', 'dum-zlaty-kriz'];
+    expect(ids({ checkedSlugs: [...must, ...four] })).toContain('starter_pack');
+    expect(ids({ checkedSlugs: [...must, ...four.slice(1)] })).not.toContain('starter_pack');
+    expect(ids({ checkedSlugs: [...must.slice(1), ...four, 'storch-house'] })).not.toContain('starter_pack');
+  });
+
+  test('spring_among_the_ruins needs 15 ruin cards', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ labelCount: { ruin: 15 } })).toContain('spring_among_the_ruins');
+    expect(ids({ labelCount: { ruin: 14 } })).not.toContain('spring_among_the_ruins');
+  });
+
+  test('highs_and_lows: Teleček and Praha-Sedlec station', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ checkedSlugs: ['telecek-nejvyssi-bod-prahy', 'nadrazi-praha-sedlec'] })).toContain('highs_and_lows');
+    expect(ids({ checkedSlugs: ['telecek-nejvyssi-bod-prahy'] })).not.toContain('highs_and_lows');
+  });
+
+  test('coast_of_bohemia: ten waterbody cards with the four required', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    const four = ['rudolfuv-rybnik', 'prokopske-jezirko', 'hostiva-reservoir-1783430212752', 'meandry-botice'];
+    expect(ids({ checkedSlugs: four, labelCount: { waterbody: 10 } })).toContain('coast_of_bohemia');
+    expect(ids({ checkedSlugs: four, labelCount: { waterbody: 9 } })).not.toContain('coast_of_bohemia');
+    expect(ids({ checkedSlugs: four.slice(1), labelCount: { waterbody: 12 } })).not.toContain('coast_of_bohemia');
+  });
+
+  test('pure_gold, they_glow_at_night, where_two_rivers_meet', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ rarityCount: { legend: 5 } })).toContain('pure_gold');
+    expect(ids({ rarityCount: { legend: 4 } })).not.toContain('pure_gold');
+    expect(ids({ rarityCount: { epic: 10, mythic: 5, legend: 5, expedition: 10, superior: 50 } })).toContain('they_glow_at_night');
+    expect(ids({ rarityCount: { epic: 10, mythic: 5, legend: 5, expedition: 9, superior: 50 } })).not.toContain('they_glow_at_night');
+    expect(ids({ checkedSlugs: ['soutok-berounky-vltavy'] })).toContain('where_two_rivers_meet');
+    expect(ids({ checkedSlugs: ['zamek-brandys-nad-labem', 'zamek-melnik'] })).toContain('vltava_to_elbe');
+    expect(ids({ checkedSlugs: ['stara-boleslav'] })).not.toContain('vltava_to_elbe');
+  });
+
+  test('little_poland: half of Bohnice with the estate, Krakov and the hospital', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    const three = ['bohnice', 'oc-krakov', 'psychiatricka-nemocnice-bohnice'];
+    const q = (n, slugs) => ({ checkedSlugs: slugs, quarterTotal: { Bohnice: 20 }, quarterCount: { Bohnice: n } });
+    expect(ids(q(10, three))).toContain('little_poland');
+    expect(ids(q(9, three))).not.toContain('little_poland');
+    expect(ids(q(15, three.slice(1)))).not.toContain('little_poland');
+  });
+
+  test('vampire needs 25 castle and fortress cards', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ labelCount: { 'castle and fortress': 25 } })).toContain('vampire');
+    expect(ids({ labelCount: { 'castle and fortress': 24 } })).not.toContain('vampire');
+  });
+
+  test('both_banks, little_eiffel, two_horses', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ banksVisited: 2 })).toContain('both_banks');
+    expect(ids({ banksVisited: 1 })).not.toContain('both_banks');
+    expect(ids({ checkedSlugs: ['petrin-tower', 'lanova-draha-petrin', 'mirror-maze-petrin'] })).toContain('little_eiffel');
+    expect(ids({ checkedSlugs: ['petrin-tower', 'ruzovy-sad-petrin', 'mirror-maze-petrin'] })).not.toContain('little_eiffel');
+    expect(ids({ checkedSlugs: ['pomnik-sv-vaclava', 'kino-lucerna'] })).toContain('two_horses');
+  });
+
+  test('virginia_creeper needs any one card on each of the ten hills', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    const hills = ['lanova-draha-petrin', 'vinicni-svah-vitkov', 'rotunda-sv-martina', 'letenske-jezirko',
+      'maidens-castles-dvn-1783211067574', 'geodeticka-vez-ladvi', 'mohyla-bile-hory', 'parukarka', 'tyrsuv-vrch',
+      'televizni-stredisko-kavci-hory'];
+    expect(ids({ checkedSlugs: hills })).toContain('virginia_creeper');
+    expect(ids({ checkedSlugs: [...hills.slice(1), 'vitkov-national-memorial'] })).not.toContain('virginia_creeper');
+    const p = ACHIEVEMENTS.find(a => a.id === 'virginia_creeper').progress({ checkedSlugs: ['lanova-draha-petrin'] });
+    expect(p).toMatchObject({ current: 1, target: 10 });
+    expect(p.slugs[0]).toBe('lanova-draha-petrin');
+    expect(p.slugs[1]).toBe('vitkov-national-memorial');
+  });
+
+  test('high_five counts the ones unlocked in the same pass', () => {
+    const ids = (s, have = []) => evaluateAchievements({ ...baseStats, ...s }, have).map(a => a.id);
+    expect(ids({ unlockDayMax: 5 })).toContain('high_five');
+    expect(ids({ unlockDayMax: 4, unlockToday: 2 })).not.toContain('high_five');
+    // four earlier today, plus Renaissance Man now
+    expect(ids({ unlockToday: 4, labelCount: { renaissance: 13 } })).toContain('high_five');
+    expect(ids({ unlockDayMax: 9 }, ['high_five'])).not.toContain('high_five');
   });
 });
 

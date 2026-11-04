@@ -17,6 +17,18 @@ export default function AchievementModal({ achievement: ach, onClose }) {
   const text = field => convert(achField(ach, field, lang));
   const p = ach.progress;
   const pct = p ? Math.min(100, Math.round((p.current / p.target) * 100)) : 0;
+  const renderPlaces = list => (
+    <ul className="ach-places">
+      {list.map(pl => (
+        <li key={pl.slug} className={`ach-places__item${pl.done ? ' ach-places__item--done' : ''}`}>
+          <span className="ach-places__mark" aria-hidden="true">{pl.done ? '✓' : '○'}</span>
+          {pl.missing
+            ? <span className="ach-places__missing">{pl.slug} · {t('ach.noCard')}</span>
+            : <span>{convert(getLocName(pl, lang))}</span>}
+        </li>
+      ))}
+    </ul>
+  );
 
   return (
     <div className="px-overlay" onClick={onClose}>
@@ -65,7 +77,8 @@ export default function AchievementModal({ achievement: ach, onClose }) {
             {p.counts && p.counts.map(c => (
               <div className="ach-modal__quarter" key={c.label}>
                 <div className="ach-modal__sublabel">
-                  {LABEL_DEFINITIONS[c.label]?.emoji} {convert(LABEL_DEFINITIONS[c.label]?.[lang] || LABEL_DEFINITIONS[c.label]?.en || c.label)}
+                  {/* "a|b": one bar for cards with either label (Art Lover) */}
+                  {c.label.split('|').map(l => `${LABEL_DEFINITIONS[l]?.emoji || ''} ${convert(LABEL_DEFINITIONS[l]?.[lang] || LABEL_DEFINITIONS[l]?.en || l)}`.trim()).join(' / ')}
                 </div>
                 <div className="ach-progress">
                   <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${Math.min(100, Math.round((c.current / c.target) * 100))}%` }} /></span>
@@ -83,18 +96,20 @@ export default function AchievementModal({ achievement: ach, onClose }) {
                 ))}
               </ul>
             )}
-            {p.places && (
-              <ul className="ach-places">
-                {p.places.map(pl => (
-                  <li key={pl.slug} className={`ach-places__item${pl.done ? ' ach-places__item--done' : ''}`}>
-                    <span className="ach-places__mark" aria-hidden="true">{pl.done ? '✓' : '○'}</span>
-                    {pl.missing
-                      ? <span className="ach-places__missing">{pl.slug} · {t('ach.noCard')}</span>
-                      : <span>{convert(getLocName(pl, lang))}</span>}
-                  </li>
-                ))}
-              </ul>
+            {p.places?.length > 0 && p.picks && (
+              <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>{t('ach.required')}</div>
             )}
+            {p.places?.length > 0 && renderPlaces(p.places)}
+            {p.picks?.map((g, i) => (
+              <div key={i}>
+                <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>
+                  {g.label
+                    ? t('ach.pickNOf', { group: convert(g.label[lang] || g.label.en), n: g.need })
+                    : t('ach.pickN', { n: g.need })}
+                </div>
+                {renderPlaces(g.places)}
+              </div>
+            ))}
             {p.rarities && (
               <ul className="ach-places ach-places--rarities">
                 {p.rarities.map(r => (

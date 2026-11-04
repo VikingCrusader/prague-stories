@@ -12,7 +12,7 @@ import { inPrague } from '../utils/pragueBoundary.js';
 import { startOfPragueWeek } from '../utils/pragueTime.js';
 import { recordCheckIn } from './checkinController.js';
 import { parsePreferences } from '../utils/preferences.js';
-import { syncAchievements } from '../services/achievementStats.js';
+import { syncAchievements, historyEraOrder } from '../services/achievementStats.js';
 
 export async function getProfile(req, res) {
   res.json({ user: req.user.toPublicJSON() });
@@ -642,7 +642,11 @@ export async function getAchievements(req, res, next) {
     const earned = new Map((user?.achievements || []).map(a => [a.id, a.unlockedAt]));
     const { rates, players } = await achievementUnlockRates();
 
-    const slugs = [...new Set(ACHIEVEMENTS.flatMap(a => (stats && a.progress(stats).slugs) || []))];
+    const slugs = [...new Set(ACHIEVEMENTS.flatMap(a => {
+      if (!stats) return [];
+      const pr = a.progress(stats);
+      return [...(pr.slugs || []), ...(pr.picks || []).flatMap(g => g.slugs)];
+    }))];
     const places = slugs.length
       ? await Location.find({ slug: { $in: slugs } }, 'slug name localizedNames').lean()
       : [];
@@ -650,7 +654,7 @@ export async function getAchievements(req, res, next) {
     const all = ACHIEVEMENTS.map(ach => {
       const out = achievementEntry(ach, earned, rates);
       if (stats) {
-        const { current, target, slugs: list, quarter, rarities, district, labels, note, unit, counts } = ach.progress(stats);
+        const { current, target, slugs: list, picks, quarter, rarities, district, labels, note, unit, counts } = ach.progress(stats);
         // The real count, even past the target (533 / 54), user's call 2026-11-02;
         // the client caps only the bar.
         out.progress = { current, target };
@@ -661,14 +665,15 @@ export async function getAchievements(req, res, next) {
         if (district) out.progress.district = district;
         if (quarter) out.progress.quarter = quarter;
         if (rarities) out.progress.rarities = rarities;
-        if (list) {
-          out.progress.places = list.map(slug => {
-            const loc = places.find(p => p.slug === slug);
-            return loc
-              ? { slug, name: loc.name, localizedNames: loc.localizedNames, done: stats.checkedSlugs.includes(slug) }
-              : { slug, missing: true, done: false };
-          });
-        }
+        const placeOf = slug => {
+          const loc = places.find(p => p.slug === slug);
+          return loc
+            ? { slug, name: loc.name, localizedNames: loc.localizedNames, done: stats.checkedSlugs.includes(slug) }
+            : { slug, missing: true, done: false };
+        };
+        if (list) out.progress.places = list.map(placeOf);
+        // "Any N of these" groups: listed apart from the required places.
+        if (picks) out.progress.picks = picks.map(g => ({ need: g.need, label: g.label, places: g.slugs.map(placeOf) }));
       }
       return out;
     });
@@ -732,7 +737,16 @@ export async function saveHistoryProgress(req, res, next) {
     }
     const updatedAt = new Date();
     await User.updateOne({ _id: req.user._id }, { $set: { historyProgress: { slug, updatedAt } } });
-    res.json({ slug, updatedAt });
+    // Turning the Page: reaching the second era unlocks it on the spot. The
+    // full sync only runs when it can fire, since this is sent every few
+    // seconds while reading.
+    let sync = null;
+    const has = (req.user.achievements || []).some(a => a.id === 'turning_the_page');
+    if (!has && await historyEraOrder(slug) >= 2) {
+      req.user.historyProgress = { slug, updatedAt };
+      sync = await syncAchievements(req.user);
+    }
+    res.json({ slug, updatedAt, newAchievements: sync?.newAchievements ?? [], achievementProgress: sync?.progress ?? null });
   } catch (err) {
     next(err);
   }

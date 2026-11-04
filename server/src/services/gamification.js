@@ -260,7 +260,10 @@ export const LEVELS = [
 // list, Steam style), `description` (the exact requirement, shown in the
 // detail), `icon`, `check(stats)` (unlocked?) and `progress(stats)`, which
 // returns { current, target } and, for "check in at these places" ones, the
-// `slugs` involved (the controller adds which are done). Stats come from
+// `slugs` involved (the controller adds which are done); "any N of these"
+// ones put each such list in `picks: [{ need, slugs, label? }]`, with `slugs`
+// left for the places that are required, so the detail can list them apart
+// (`label` names a group, { en, cz, zh }, when there is more than one). Stats come from
 // buildAchievementStats (services/achievementStats.js).
 // Zličín's terminal card is IKEA Zličín (next to the station); the Letňany
 // card's slug really does keep the ň.
@@ -466,6 +469,12 @@ const placesAndLabels = (slugs, counts) => ({ checkedSlugs = [], labelCount = {}
   };
 };
 const NEW_FACES = placesAndLabels(["dancing-house", "pankrac-skyline"], [["contemporary", 15]]);
+// The Coast of Bohemia: ten Waterbody cards, four of them required (user's
+// list, 2026-11-04). Named after the coast Shakespeare gave landlocked
+// Bohemia in The Winter's Tale.
+const COAST_OF_BOHEMIA = placesAndLabels(
+  ["rudolfuv-rybnik", "prokopske-jezirko", "hostiva-reservoir-1783430212752", "meandry-botice"],
+  [["waterbody", 10]]);
 const OTHER_SIDE = placesAndLabels(["haje", "dum-zelenohorska", "budova-centrotex"], [["brutalism", 5], ["communism", 5]]);
 
 // Seven Bridges: the seven central Vltava bridges, a walk from Štefánik
@@ -511,12 +520,17 @@ const placesOnly = (slugs) => ({ checkedSlugs = [] }) => ({
 const WILD_PRAGUE = placesAndLabels(
   ["prokopske-valley", "divoka-sarka", "krucifix-motol", "modranska-rokle",
     "viewpoint-dobeka-1782864480282", "rozhledna-cibulka"],
-  [["nature", 15]]);
+  [["nature", 25]]);
 const ZIZKOV = quarterShareWith("Žižkov", 0.5, ["zizkov-tv-tower", "zizkov-horse-statue"]);
 // Nusle: the valley's old nickname Jamrtál (Jammertal, valley of laments)
 // comes from the Swedish guns of 1639 and 1648; the valley card is required
 // next to the bridge so the name reads as that history, not as the bridge's
 // sad reputation.
+// Little Poland: half of the Bohnice cards, with the housing estate (its
+// streets are named after Polish cities), the Krakov shopping centre (its
+// card lies just over the line in Troja) and the psychiatric hospital, whose
+// grounds host the Mezi ploty festival. User's idea, 2026-11-04.
+const BOHNICE = quarterShareWith("Bohnice", 0.5, ["bohnice", "oc-krakov", "psychiatricka-nemocnice-bohnice"]);
 const NUSLE = quarterShareWith("Nusle", 0.4, ["nusle-bridge", "nuselske-udoli"]);
 const VYSEHRAD = quarterShareWith("Vyšehrad", 0.8, ["sousosi-premysl-a-libuse"]);
 // The slug "josefov" is the Spanish Synagogue's card, not the whole quarter.
@@ -524,6 +538,23 @@ const JOSEFOV = quarterShareWith("Josefov", 0.8, ["old-new-synagogue-17826016307
 // City of Silver: Kutná Hora and its four big sights (user's list, 2026-11-03).
 const SILVER_CITY = placesOnly(["kutna-hora", "vlassky-dvur", "kostel-svate-barbory", "kostnice-sedlec", "sedlecky-klaster"]);
 const PHO = placesOnly(["sapa-praha"]);
+// Where Two Rivers Meet: the Berounka flows into the Vltava at Lahovice.
+// One card, but out of the way, hence Silver (user's call, 2026-11-04).
+const CONFLUENCE = placesOnly(["soutok-berounky-vltavy"]);
+// From the Vltava to the Elbe: any two of four places on the Elbe (user's
+// list and call, 2026-11-04: the point is the Elbe, so no stricter rule).
+const ELBE_SLUGS = ["zamek-brandys-nad-labem", "melnik-stare-mesto", "zamek-melnik", "stara-boleslav"];
+function ELBE({ checkedSlugs = [] }) {
+  return { current: Math.min(2, ELBE_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length), target: 2, slugs: [], picks: [{ need: 2, slugs: ELBE_SLUGS }] };
+}
+// They Glow at Night: cards of Epic rarity or higher, Expedition included.
+const GLOWING_RARITIES = ["epic", "mythic", "legend", "expedition"];
+const glowingCount = ({ rarityCount = {} }) => GLOWING_RARITIES.reduce((n, r) => n + (rarityCount[r] || 0), 0);
+// Highs and Lows: Teleček, the city's highest point (399 m), and Praha-Sedlec
+// station on the Vltava, standing in for the lowest point (about 177 m, where
+// the river leaves the city at Suchdol; there is no exact point). User's
+// design, 2026-11-04.
+const HIGHS_AND_LOWS = placesOnly(["telecek-nejvyssi-bod-prahy", "nadrazi-praha-sedlec"]);
 const KUNRATICE_KING = placesOnly(["new-castle-ruins-near-kunratice-1783003399902"]);
 const WHITE_MOUNTAIN = placesOnly([
   "mohyla-bile-hory", "hvezda-game-reserve",
@@ -550,6 +581,177 @@ const TROJA = quarterCountWith("Troja", 5, ["trojsky-kun"]);
 // Neutral Fan: both sides of the Prague derby (Slavia's Fortuna Arena,
 // Sparta's epet ARENA), the O2 Arena and the Great Strahov Stadium.
 const STADIUMS = placesOnly(["fortuna-arena", "epet-arena", "o2-arena", "strahov-stadium"]);
+// The Fridge Magnet Trio (冰箱贴三件套): the three sights nearly every visitor sees first.
+const TOURIST_TRIO = placesOnly(["tyn-church", "charles-bridge", "st-vitus-cathedral"]);
+// Eiffel's Little Brother (埃菲尔铁塔的弟弟): Petřín Tower and the funicular, plus the Rose Garden or the
+// Mirror Maze (Bronze, 2026-11-04).
+function LITTLE_EIFFEL({ checkedSlugs = [] }) {
+  const must = ["petrin-tower", "lanova-draha-petrin"];
+  const pick = ["ruzovy-sad-petrin", "mirror-maze-petrin"];
+  return {
+    current: must.filter((slug) => checkedSlugs.includes(slug)).length + (pick.some((slug) => checkedSlugs.includes(slug)) ? 1 : 0),
+    target: 3,
+    slugs: must,
+    picks: [{ need: 1, slugs: pick }],
+  };
+}
+// Two Horses: St Wenceslas on Wenceslas Square, and David Černý's version
+// in the Lucerna passage, riding an upside-down dead horse.
+const TWO_HORSES = placesOnly(["pomnik-sv-vaclava", "kino-lucerna"]);
+// Starter Pack (新手村, Bronze): the six landmarks of Old Town Square, plus
+// any four of the other fourteen cards on and right around it (within about
+// 130 m of its centre; the next ring, Celetná and Melantrichova, is left
+// out). Four, not ten, so one walk round the square does it (user's call,
+// 2026-11-04).
+const OLD_TOWN_SQUARE_MUST = ["old-town-square", "tyn-church", "mariansky-sloup", "old-town-hall", "astronomical-clock", "pamatnik-jana-husa"];
+const OLD_TOWN_SQUARE_SLUGS = [
+  "27-krizu-staromestske-namesti", "palac-goltz-kinskych", "stone-bell-house",
+  "dum-u-bileho-jednorozce", "storch-house", "dum-u-lazara", "schieruv-dum", "park-u-staromestskeho-namesti",
+  "prazska-mestska-pojistovna", "dum-u-clovicku", "dum-zlaty-kriz", "kostel-sv-mikulase-stare-mesto",
+  "dum-u-zlateho-slona", "dum-u-minuty",
+];
+function STARTING_ZONE({ checkedSlugs = [] }) {
+  const must = OLD_TOWN_SQUARE_MUST.filter((slug) => checkedSlugs.includes(slug)).length;
+  const n = OLD_TOWN_SQUARE_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length;
+  return {
+    current: must + Math.min(n, 4),
+    target: OLD_TOWN_SQUARE_MUST.length + 4,
+    slugs: OLD_TOWN_SQUARE_MUST,
+    picks: [{ need: 4, slugs: OLD_TOWN_SQUARE_SLUGS }],
+  };
+}
+
+// Batch of 2026-11-04 (user's ideas, names partly Claude's).
+// Truth Prevails: the revival's and the First Republic's men and houses,
+// plus ten National Revival cards.
+const TRUTH_PREVAILS = placesAndLabels(
+  ["palackeho-namesti", "pomnik-josefa-jungmanna", "national-museum", "national-theatre", "pamatnik-tg-masaryka"],
+  [["national-revival", 10]]);
+// Generalissimo: Wallenstein's palace in the Lesser Town and what belongs to it.
+const WALLENSTEIN = placesOnly([
+  "wallenstein-palace", "wallenstein-garden-1783750953785", "valdstejnska-jizdarna",
+  "herkulova-fontana-valdstejnska-zahrada", "artificial-stalactite-wall-1783751377817",
+]);
+// AEIOU: the Habsburgs from Ferdinand I to Maria Theresa (Rudolf II has his
+// own, Cabinet of Curiosities, so the two lists don't share a place).
+const HABSBURG = placesOnly([
+  "kralovska-zahrada", "queen-annes-summer-palace-1782584407663", "hvezda-game-reserve",
+  "micovna-prazskeho-hradu", "new-royal-palace", "socha-marie-terezie",
+]);
+const RUDOLF = placesOnly([
+  "golden-lane", "jeleni-prikop", "rudolfova-stola", "rudolfuv-rybnik",
+  "speculum-alchemiae", "tycho-brahe-kepler-monument",
+]);
+// Aula Regia: Zbraslav, where the Cistercian monastery (now the chateau)
+// buried Wenceslas II. St James's church, where his remains are, is not
+// required: it can only be entered with a ticket (user's call, 2026-11-04);
+// its card still counts toward the 80%.
+const ZBRASLAV = quarterShareWith("Zbraslav", 0.8, ["zbraslavsky-zamek"]);
+// Barrande's Apprentice: Barrandov is named after the geologist Joachim Barrande.
+const BARRANDE = placesAndLabels(
+  ["barrandovske-skaly", "brank-rock-cliff-1783427336440", "tramvajova-zastavka-geologicka"],
+  [["geology", 15]]);
+const OLD_TOWN = quarterShareWith("Staré Město", 0.9, []);
+const LESSER_TOWN = quarterShareWith("Malá Strana", 0.9, []);
+// Virginia Creeper: one card on each of the city's ten hills. Each entry is
+// a hill's cards, the first one the one shown while none is done.
+const HILLS = [
+  ["petrin-tower", "ruzovy-sad-petrin", "lanova-draha-petrin", "mirror-maze-petrin"],
+  ["vitkov-national-memorial", "vinicni-svah-vitkov"],
+  ["vysehrad", "basilika-sv-petra-pavla", "vysehrad-cemetery", "rotunda-sv-martina", "kaple-sv-ludmily",
+    "stare-purkrabstvi", "sousosi-premysl-a-libuse", "vysehrad-wall-walkway", "libusina-lazen",
+    "kaple-panny-marie-sancovske", "taborska-brana", "cihelna-brana", "vysehrad-leopold-gate",
+    "pracharna-goticky-sklep", "v-pevnosti-street-in-the-fortness-1783208618265", "brana-spicka",
+    "nove-dekanstvi-vysehrad", "romansky-most-vysehrad"],
+  ["vyhlidka-na-letne", "letn-plain-1782906159291", "letna-park", "letensky-zamecek",
+    "letenske-jezirko", "the-letn-carousel--1783352292475"],
+  ["dvn-hillfort-ruins-1783473947717", "maidens-castles-dvn-1783211067574"],
+  ["geodeticka-vez-ladvi"],
+  ["mohyla-bile-hory", "the-pilgrimage-site-of-our-lady-of-victory-on-white-mountain-1783352113593"],
+  ["parukarka"],
+  ["tyrsuv-vrch"],
+  ["televizni-stredisko-kavci-hory", "residence-building-kav-hory-1782866857630"],
+];
+// Knight Errant: any three of eight great Bohemian castles (user's list,
+// 2026-11-04; Točník and Žebrák share one card). Kost and Trosky belong to
+// Paradise Found instead, so the two lists don't overlap.
+const CASTLE_TOUR_SLUGS = [
+  "karlstejn-castle", "krivoklat-castle", "zamek-konopiste", "hrad-cesky-sternberk",
+  "bezdez-castle", "zamek-orlik", "zvikov-castle", "hrady-tocnik-a-zebrak",
+];
+// Paradise Found: any three of five places in the heart of the Bohemian
+// Paradise (Český ráj); three is what a day trip without a car manages
+// (user's call, 2026-11-04).
+const PARADISE_SLUGS = ["hrad-trosky", "kost-castle", "hrad-valdstejn", "hruboskalsko", "zricenina-hradu-rotstejn"];
+function PARADISE({ checkedSlugs = [] }) {
+  return { current: Math.min(3, PARADISE_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length), target: 3, slugs: [], picks: [{ need: 3, slugs: PARADISE_SLUGS }] };
+}
+function CASTLE_TOUR({ checkedSlugs = [] }) {
+  return { current: Math.min(3, CASTLE_TOUR_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length), target: 3, slugs: [], picks: [{ need: 3, slugs: CASTLE_TOUR_SLUGS }] };
+}
+// One place that must be done plus any one of the others (The Emperor's
+// Spring: Karlovy Vary and one more in West Bohemia; Rose of the South:
+// Český Krumlov and one more in South Bohemia). Two places, so a day trip
+// without a car manages it (user's call, 2026-11-04).
+const anchorPlusOne = (main, others) => ({ checkedSlugs = [] }) => ({
+  current: (checkedSlugs.includes(main) ? 1 : 0) + (others.some((slug) => checkedSlugs.includes(slug)) ? 1 : 0),
+  target: 2,
+  slugs: [main],
+  picks: [{ need: 1, slugs: others }],
+});
+const WEST_SPA = anchorPlusOne("karlovy-vary", ["loket-castle", "jachymov", "cheb", "cheb-castle"]);
+const SOUTH_ROSE = anchorPlusOne("cesky-krumlov", [
+  "hrad-rozmberk", "klaster-zlata-koruna", "zamek-hluboka-nad-vltavou", "ceske-budejovice", "trebon", "jindrichuv-hradec",
+]);
+// The Iron and Golden King: Otakar II's tomb in St Vitus, plus at least
+// one castle or monastery and one town he founded or built (2026-11-04,
+// user's design: the castle builder and the town founder). Only his own
+// foundations: towns he merely made royal (Jihlava, Ústí) and Houska were
+// tried and dropped (user's call). Vysoké Mýto is there as his statue's card.
+const OTAKAR_CASTLES = ["bezdez-castle", "zvikov-castle", "klaster-zlata-koruna"];
+const OTAKAR_TOWNS = ["ceske-budejovice", "pisek", "nymburk", "caslav", "socha-premysla-otakara-ii"];
+function OTAKAR({ checkedSlugs = [] }) {
+  const has = (list) => (list.some((slug) => checkedSlugs.includes(slug)) ? 1 : 0);
+  return {
+    current: (checkedSlugs.includes("st-vitus-cathedral") ? 1 : 0) + has(OTAKAR_CASTLES) + has(OTAKAR_TOWNS),
+    target: 3,
+    slugs: ["st-vitus-cathedral"],
+    picks: [
+      { need: 1, slugs: OTAKAR_CASTLES, label: { en: "Castles or monastery", cz: "Hrady nebo klášter", zh: "城堡或修道院" } },
+      { need: 1, slugs: OTAKAR_TOWNS, label: { en: "Towns", cz: "Města", zh: "城市" } },
+    ],
+  };
+}
+// Art Lover: the Barrandov Film Studios (film has no other card), one place
+// for each other art, picked from a group (user's call, 2026-11-04: the
+// achievement is about covering the arts, not a fixed list), plus 50 cards
+// with either art label (one bar). The Mucha Museum is the old museum's
+// card, not Savarin Palace (user's call).
+const ART_GROUPS = [
+  { slugs: ["mucha-museum", "veletrzni-palace", "museum-kampa-1782563427306", "klaster-sv-anezky-ceske", "dox-centre"],
+    label: { en: "Galleries", cz: "Galerie", zh: "美术馆" } },
+  { slugs: ["rudolfinum", "state-opera", "muzeum-antonina-dvoraka", "smetana-museum"],
+    label: { en: "Music", cz: "Hudba", zh: "音乐" } },
+  { slugs: ["national-theatre", "estates-theatre"],
+    label: { en: "Theatre", cz: "Divadlo", zh: "戏剧" } },
+  { slugs: ["kafka-rotating-head", "musoleum-david-cerny", "miminka-kampa", "curajici-postavy-david-cerny", "quo-vadis-trabant"],
+    label: { en: "Sculpture", cz: "Sochařství", zh: "雕塑" } },
+];
+function ART_PROGRESS({ checkedSlugs = [], artCount = 0 }) {
+  const film = checkedSlugs.includes("filmove-ateliery-barrandov") ? 1 : 0;
+  const groupsDone = ART_GROUPS.filter((g) => g.slugs.some((slug) => checkedSlugs.includes(slug))).length;
+  return {
+    current: film + groupsDone + Math.min(artCount, 50),
+    target: 1 + ART_GROUPS.length + 50,
+    slugs: ["filmove-ateliery-barrandov"],
+    picks: ART_GROUPS.map((g) => ({ need: 1, slugs: g.slugs, label: g.label })),
+    counts: [{ label: "sculpture|cultural", current: artCount, target: 50 }],
+  };
+}
+function HILLS_PROGRESS({ checkedSlugs = [] }) {
+  const slugs = HILLS.map((hill) => hill.find((slug) => checkedSlugs.includes(slug)) || hill[0]);
+  return { current: slugs.filter((slug) => checkedSlugs.includes(slug)).length, target: HILLS.length, slugs };
+}
 
 const METRO_TERMINALS = ["nemocnice-motol", "depo-hostivar", "haje", "letňany", "cerny-most", "ikea-zlicin"];
 
@@ -590,6 +792,152 @@ export const ACHIEVEMENTS = [
     difficulty: "easy",
     check: ({ totalCheckins }) => (totalCheckins || 0) >= 1,
     progress: ({ totalCheckins }) => ({ current: totalCheckins || 0, target: 1 }),
+  },
+  // Early Bronze steps (2026-11-04, user's call: new players got nothing
+  // between their first card and the 54th).
+  {
+    id: "small_harvest",
+    icon: "🧺",
+    name: "A Small Harvest",
+    name_cz: "Malá úroda",
+    name_zh: "小有收获",
+    flavor: "Ten cards in, and the deck is starting to feel heavy in your pocket.",
+    flavor_cz: "Deset karet a balíček už začíná v kapse vážit.",
+    flavor_zh: "十张卡片到手，口袋里的这副牌开始有点分量了。",
+    description: "Collect 10 cards.",
+    description_cz: "Sesbírejte 10 karet.",
+    description_zh: "收集10张卡片。",
+    difficulty: "easy",
+    check: ({ totalCheckins }) => (totalCheckins || 0) >= 10,
+    progress: ({ totalCheckins }) => ({ current: totalCheckins || 0, target: 10 }),
+  },
+  {
+    id: "getting_the_hang",
+    icon: "🧭",
+    name: "Getting the Hang of It",
+    name_cz: "Už to jde",
+    name_zh: "渐入佳境",
+    flavor: "Twenty-five cards, and you've stopped checking the map every five minutes.",
+    flavor_cz: "Pětadvacet karet a už se nedíváte do mapy každých pět minut.",
+    flavor_zh: "二十五张卡片，你已经不用每五分钟看一次地图了。",
+    description: "Collect 25 cards.",
+    description_cz: "Sesbírejte 25 karet.",
+    description_zh: "收集25张卡片。",
+    difficulty: "easy",
+    check: ({ totalCheckins }) => (totalCheckins || 0) >= 25,
+    progress: ({ totalCheckins }) => ({ current: totalCheckins || 0, target: 25 }),
+  },
+  {
+    id: "tourist_trio",
+    icon: "🧲",
+    name: "The Fridge Magnet Trio",
+    name_cz: "Magnetky na lednici",
+    name_zh: "冰箱贴三件套",
+    flavor: "Týn, the bridge, the cathedral: the three on every fridge magnet in town. Now you've seen the real ones.",
+    flavor_cz: "Týn, most, katedrála: ta trojice z každé magnetky ve městě. Teď jste viděli i ty skutečné.",
+    flavor_zh: "泰恩教堂、查理大桥、圣维特大教堂，城里每块冰箱贴上都是这三样。现在你见过真的了。",
+    description: "Check in at the Church of Our Lady before Týn, Charles Bridge and St. Vitus Cathedral.",
+    description_cz: "Přihlaste se v chrámu Matky Boží před Týnem, na Karlově mostě a v katedrále svatého Víta.",
+    description_zh: "打卡泰恩前的圣母教堂、查理大桥和圣维特大教堂。",
+    difficulty: "easy",
+    check: (stats) => done(TOURIST_TRIO(stats)),
+    progress: TOURIST_TRIO,
+  },
+  {
+    id: "starter_pack",
+    icon: "🗺️",
+    name: "Starter Pack",
+    name_cz: "Startovní balíček",
+    name_zh: "新手村",
+    flavor: "Every adventurer in Prague starts here: a clock, a column, two spires, and a crowd that never leaves.",
+    flavor_cz: "Každý pražský dobrodruh začíná tady: orloj, sloup, dvě věže a dav, který nikdy neodejde.",
+    flavor_zh: "每个布拉格冒险者都从这里出发：一座钟、一根柱子、两座尖塔，还有永远散不去的人群。",
+    description: "Check in at Old Town Square, the Church of Our Lady before Týn, the Marian Column, the Old Town Hall, the Astronomical Clock and the Jan Hus Monument, and at any 4 of the other 14 places on and around the square.",
+    description_cz: "Přihlaste se na Staroměstském náměstí, v chrámu Matky Boží před Týnem, u Mariánského sloupu, na Staroměstské radnici, u orloje a u Pomníku mistra Jana Husa a na libovolných 4 z dalších 14 míst na náměstí a kolem něj.",
+    description_zh: "打卡老城广场、泰恩前的圣母教堂、圣母柱、老城市政厅、天文钟和扬·胡斯纪念碑，再在广场及周边的其余14个地点中任选4个打卡。",
+    difficulty: "easy",
+    check: (stats) => done(STARTING_ZONE(stats)),
+    progress: STARTING_ZONE,
+  },
+  {
+    id: "both_banks",
+    icon: "🌉",
+    name: "Both Banks",
+    name_cz: "Na obou březích",
+    name_zh: "此岸彼岸",
+    flavor: "Castle side, Old Town side: you've stood on both, and the Vltava kept flowing in between.",
+    flavor_cz: "Hradní strana, staroměstská strana: stáli jste na obou a Vltava mezi nimi klidně tekla dál.",
+    flavor_zh: "城堡这边、老城那边，你都站过了，伏尔塔瓦河在中间照常流。",
+    description: "Collect a card on each bank of the Vltava (cards on bridges and islands don't count).",
+    description_cz: "Seberte kartu na každém břehu Vltavy (karty na mostech a ostrovech se nepočítají).",
+    description_zh: "在伏尔塔瓦河两岸各收集一张卡片（桥上和岛上的卡片不算）。",
+    difficulty: "easy",
+    check: ({ banksVisited }) => (banksVisited || 0) >= 2,
+    progress: ({ banksVisited }) => ({ current: banksVisited || 0, target: 2 }),
+  },
+  {
+    id: "little_eiffel",
+    icon: "🗼",
+    name: "Eiffel's Little Brother",
+    name_cz: "Mladší bratr Eiffelovky",
+    name_zh: "埃菲尔铁塔的弟弟",
+    flavor: "A fifth of the height of the Eiffel Tower, but it stands on a hill.",
+    flavor_cz: "Pětina výšky Eiffelovy věže, ale zato stojí na kopci.",
+    flavor_zh: "只有埃菲尔铁塔的五分之一高，但人家站在山上。",
+    description: "Check in at Petřín Observation Tower and the Petřín Funicular, and at the Petřín Rose Garden or the Mirror Maze.",
+    description_cz: "Přihlaste se u Rozhledny na Petříně a u Lanové dráhy na Petřín a v Růžovém sadu nebo v Zrcadlovém bludišti.",
+    description_zh: "打卡佩特任瞭望塔和佩特任缆车，再打卡佩特任玫瑰园或镜子迷宫中的一处。",
+    difficulty: "easy",
+    check: (stats) => done(LITTLE_EIFFEL(stats)),
+    progress: LITTLE_EIFFEL,
+  },
+  {
+    id: "two_horses",
+    icon: "🐴",
+    name: "Two Horses",
+    name_cz: "Dva koně",
+    name_zh: "两匹马",
+    flavor: "On the square, St Wenceslas rides proudly. In the Lucerna passage, David Černý has him riding a dead horse hung upside down.",
+    flavor_cz: "Na náměstí svatý Václav hrdě jede na koni. V pasáži Lucerna ho David Černý posadil na mrtvého koně zavěšeného hlavou dolů.",
+    flavor_zh: "广场上，圣瓦茨拉夫骑着马威风凛凛；卢采尔纳宫的拱廊里，大卫·切尔尼让他骑在一匹倒挂的死马上。",
+    description: "Check in at the St. Wenceslas Statue and at Lucerna Palace.",
+    description_cz: "Přihlaste se u Pomníku svatého Václava a v paláci Lucerna.",
+    description_zh: "打卡圣瓦茨拉夫骑马雕像和卢采尔纳宫。",
+    difficulty: "easy",
+    check: (stats) => done(TWO_HORSES(stats)),
+    progress: TWO_HORSES,
+  },
+  {
+    id: "see_you_tomorrow",
+    icon: "🌅",
+    name: "See You Tomorrow",
+    name_cz: "Zítra zase",
+    name_zh: "明天见",
+    flavor: "You came back the next day. Prague noticed.",
+    flavor_cz: "Druhý den jste se vrátili. Praha si toho všimla.",
+    flavor_zh: "第二天你又来了，布拉格都看在眼里。",
+    description: "Collect at least one new card on two days in a row (Prague time).",
+    description_cz: "Seberte alespoň jednu novou kartu ve dvou po sobě jdoucích dnech (podle pražského času).",
+    description_zh: "连续两天（布拉格时间）每天至少收集一张新卡片。",
+    difficulty: "easy",
+    check: ({ longestStreak }) => (longestStreak || 0) >= 2,
+    progress: ({ longestStreak }) => ({ current: Math.min(longestStreak || 0, 2), target: 2 }),
+  },
+  {
+    id: "turning_the_page",
+    icon: "📖",
+    name: "Turning the Page",
+    name_cz: "Obracíme list",
+    name_zh: "翻开史书",
+    flavor: "The legends are behind you. Real history starts here.",
+    flavor_cz: "Pověsti máte za sebou. Tady začínají skutečné dějiny.",
+    flavor_zh: "传说翻过去了，真正的历史从这里开始。",
+    description: "Reach the second era of the History Timeline, reading on or jumping there from the contents.",
+    description_cz: "Dostaňte se na Časové ose k druhému období, ať už čtením, nebo skokem z obsahu.",
+    description_zh: "在历史时间线中读到第二个时代，顺着读下去或从目录跳过去都算。",
+    difficulty: "easy",
+    check: ({ historyEraReached }) => (historyEraReached || 0) >= 2,
+    progress: ({ historyEraReached }) => ({ current: (historyEraReached || 0) >= 2 ? 1 : 0, target: 1 }),
   },
   {
     id: "century",
@@ -649,6 +997,22 @@ export const ACHIEVEMENTS = [
       target: 1,
       slugs: ["jizni-pol-prahy"],
     }),
+  },
+  {
+    id: "highs_and_lows",
+    icon: "🏔️",
+    name: "Highs and Lows",
+    name_cz: "Nahoře i dole",
+    name_zh: "跌宕起伏",
+    flavor: "From a field at 399 metres to the river at about 177: all of Prague's ups and downs in two stops.",
+    flavor_cz: "Z pole ve výšce 399 metrů k řece ve výšce asi 177: všechna pražská nahoru a dolů na dvou zastávkách.",
+    flavor_zh: "从海拔399米的田野到约177米的河边，布拉格所有的起起落落，两站就走完了。",
+    description: "Check in at Teleček, the highest point of Prague, and at Praha-Sedlec station by the lowest. Prague has no exact lowest point: it lies roughly where the Vltava leaves the city at Suchdol, and the station stands for it.",
+    description_cz: "Přihlaste se na Telečku, nejvyšším bodě Prahy, a na nádraží Praha-Sedlec u toho nejnižšího. Přesný nejnižší bod Praha nemá: leží zhruba tam, kde Vltava opouští město u Suchdola, a nádraží ho zastupuje.",
+    description_zh: "打卡布拉格最高点泰莱切克，以及最低点附近的布拉格-塞德莱茨火车站。布拉格没有一个确切的最低点，它大致在伏尔塔瓦河流出城市的苏赫多尔一带，这座火车站就代表那里。",
+    difficulty: "medium",
+    check: (stats) => done(HIGHS_AND_LOWS(stats)),
+    progress: HIGHS_AND_LOWS,
   },
   {
     id: "bounty_hunter",
@@ -721,18 +1085,18 @@ export const ACHIEVEMENTS = [
   {
     id: "devout_believer",
     icon: "⛪",
-    name: "Devout Believer",
-    name_cz: "Zbožný věřící",
-    name_zh: "虔诚的信徒",
-    flavor: "Thirty churches, and you still look up every time you walk in.",
-    flavor_cz: "Třicet kostelů, a pořád se pokaždé po vstupu podíváte nahoru.",
-    flavor_zh: "三十座教堂，每次进门，你还是会抬头看。",
-    description: "Collect 30 cards with the “church” label.",
-    description_cz: "Sesbírejte 30 karet se štítkem „Kostel“.",
-    description_zh: "收集30张带“教堂”标签的卡片。",
+    name: "God Be With You",
+    name_cz: "Pánbůh s vámi",
+    name_zh: "愿主保佑",
+    flavor: "Forty churches, and you still look up every time you walk in.",
+    flavor_cz: "Čtyřicet kostelů, a pořád se pokaždé po vstupu podíváte nahoru.",
+    flavor_zh: "四十座教堂，每次进门，你还是会抬头看。",
+    description: "Collect 40 cards with the “church” label.",
+    description_cz: "Sesbírejte 40 karet se štítkem „Kostel“.",
+    description_zh: "收集40张带“教堂”标签的卡片。",
     difficulty: "hard",
-    check: ({ labelCount }) => (labelCount.church || 0) >= 30,
-    progress: ({ labelCount }) => ({ current: labelCount.church || 0, target: 30 }),
+    check: ({ labelCount }) => (labelCount.church || 0) >= 40,
+    progress: ({ labelCount }) => ({ current: labelCount.church || 0, target: 40 }),
   },
   {
     id: "veni_vidi_vici",
@@ -1429,10 +1793,10 @@ export const ACHIEVEMENTS = [
     flavor: "Gorges, cliffs and wild woods, all within reach of a tram stop.",
     flavor_cz: "Rokle, skály a divoké lesy, a všechno kousek od tramvajové zastávky.",
     flavor_zh: "峡谷、悬崖和野林子，全在电车站走得到的地方。",
-    description: "Collect at least 15 Nature and Landscape cards, including Prokopské Valley, Divoká Šárka, the Crucifix on the Motol Rock, Modřany Gorge, the Dobeška viewpoint and the Cibulka lookout tower.",
-    description_cz: "Sesbírejte alespoň 15 karet Příroda a krajina, mezi nimi Prokopské údolí, Divoká Šárka, Krucifix v Motole, Modřanská rokle, Vyhlídka Dobeška a Rozhledna Cibulka.",
-    description_zh: "收集至少15张“自然与风景”卡片，其中必须包括普罗科普山谷、狂野沙尔卡、莫托尔岩上的十字架、莫德扎尼峡谷、多贝什卡观景台和奇布尔卡瞭望塔。",
-    difficulty: "medium",
+    description: "Collect at least 25 Nature and Landscape cards, including Prokopské Valley, Divoká Šárka, the Crucifix on the Motol Rock, Modřany Gorge, the Dobeška viewpoint and the Cibulka lookout tower.",
+    description_cz: "Sesbírejte alespoň 25 karet Příroda a krajina, mezi nimi Prokopské údolí, Divoká Šárka, Krucifix v Motole, Modřanská rokle, Vyhlídka Dobeška a Rozhledna Cibulka.",
+    description_zh: "收集至少25张“自然与风景”卡片，其中必须包括普罗科普山谷、狂野沙尔卡、莫托尔岩上的十字架、莫德扎尼峡谷、多贝什卡观景台和奇布尔卡瞭望塔。",
+    difficulty: "hard",
     check: (stats) => done(WILD_PRAGUE(stats)),
     progress: WILD_PRAGUE,
   },
@@ -1467,6 +1831,22 @@ export const ACHIEVEMENTS = [
     difficulty: "medium",
     check: (stats) => done(NUSLE(stats)),
     progress: NUSLE,
+  },
+  {
+    id: "little_poland",
+    icon: "🏢",
+    name: "Little Poland",
+    name_cz: "Malé Polsko",
+    name_zh: "布拉格的小波兰",
+    flavor: "Streets named after Polish cities, a shopping centre called Kraków, and a psychiatric hospital that throws a music festival.",
+    flavor_cz: "Ulice pojmenované po polských městech, obchodní centrum Krakov a psychiatrická nemocnice, která pořádá hudební festival.",
+    flavor_zh: "街道以波兰城市命名，购物中心叫克拉科夫，还有一座会办音乐节的精神病院。",
+    description: "Collect half of the cards in Bohnice, including the Bohnice Housing Area, Krakov Shopping Centre and Bohnice Psychiatric Hospital.",
+    description_cz: "Sesbírejte polovinu karet v Bohnicích, mezi nimi Sídliště Bohnice, OC Krakov a Psychiatrická nemocnice Bohnice.",
+    description_zh: "收集波赫尼采一半的卡片，其中必须包括波赫尼采住宅区、克拉科夫购物中心和波赫尼采精神病院。",
+    difficulty: "medium",
+    check: (stats) => done(BOHNICE(stats)),
+    progress: BOHNICE,
   },
   {
     id: "libuse_prophecy",
@@ -1740,6 +2120,409 @@ export const ACHIEVEMENTS = [
     check: ({ zigzag }) => (zigzag || 0) >= 6,
     progress: ({ zigzag }) => ({ current: zigzag || 0, target: 6 }),
   },
+  {
+    id: "truth_prevails",
+    icon: "🇨🇿",
+    name: "Truth Prevails",
+    name_cz: "Pravda vítězí",
+    name_zh: "真理必胜",
+    flavor: "A dictionary, a history, a theatre, a museum, and a republic at the end of it all.",
+    flavor_cz: "Slovník, dějiny, divadlo, muzeum a na konci toho všeho republika.",
+    flavor_zh: "一部词典，一部历史，一座剧院，一座博物馆，最后换来一个共和国。",
+    description: "Check in at Palacký Square, the Josef Jungmann Monument, the National Museum, the National Theatre and the T. G. Masaryk Memorial, and collect at least 10 National Revival cards.",
+    description_cz: "Přihlaste se na Palackého náměstí, u Pomníku Josefa Jungmanna, v Národním muzeu, v Národním divadle a u Památníku Tomáše Garrigua Masaryka a sesbírejte alespoň 10 karet Národní obrození.",
+    description_zh: "打卡帕拉茨基广场、约瑟夫·荣格曼纪念碑、国家博物馆、国家剧院和托马斯·马萨里克纪念像，并收集至少10张“民族复兴”卡片。",
+    difficulty: "medium",
+    check: (stats) => done(TRUTH_PREVAILS(stats)),
+    progress: TRUTH_PREVAILS,
+  },
+  {
+    id: "renaissance_man",
+    icon: "📐",
+    name: "Renaissance Man",
+    name_cz: "Renesanční člověk",
+    name_zh: "以人为本",
+    flavor: "Arcades, sgraffito and gables: you've learned to spot an Italian idea in a Bohemian town.",
+    flavor_cz: "Arkády, sgrafita a štíty: italský nápad v českém městě už poznáte na první pohled.",
+    flavor_zh: "拱廊、五彩刮画和山墙：你已经能一眼认出波希米亚城里的意大利点子。",
+    description: "Collect 13 Renaissance cards.",
+    description_cz: "Sesbírejte 13 karet Renesance.",
+    description_zh: "收集13张“文艺复兴”卡片。",
+    difficulty: "medium",
+    check: ({ labelCount }) => (labelCount.renaissance || 0) >= 13,
+    progress: ({ labelCount }) => ({ current: labelCount.renaissance || 0, target: 13 }),
+  },
+  {
+    id: "generalissimo",
+    icon: "⚔️",
+    name: "Generalissimo",
+    name_cz: "Generalissimus",
+    name_zh: "大元帅",
+    flavor: "He tore down twenty-six houses to make room for one palace, and paid for it with estates seized after White Mountain.",
+    flavor_cz: "Pro jeden palác dal zbořit šestadvacet domů a zaplatil ho statky zabavenými po Bílé hoře.",
+    flavor_zh: "为了一座宫殿，他拆了二十六栋房子，花的是白山战役后没收来的庄园。",
+    description: "Check in at Wallenstein Palace, the Wallenstein Garden, the Wallenstein Riding School, the Hercules Fighting the Dragon Fountain and the artificial stalactite wall.",
+    description_cz: "Přihlaste se ve Valdštejnském paláci, ve Valdštejnské zahradě, ve Valdštejnské jízdárně, u Herkulovy kašny a u Umělé krápníkové stěny.",
+    description_zh: "打卡华伦斯坦宫、华伦斯坦花园、华伦斯坦骑术学校、赫拉克勒斯战龙喷泉和钟乳石墙。",
+    difficulty: "easy",
+    check: (stats) => done(WALLENSTEIN(stats)),
+    progress: WALLENSTEIN,
+  },
+  {
+    id: "aeiou",
+    icon: "🦅",
+    name: "AEIOU",
+    name_cz: "AEIOU",
+    name_zh: "AEIOU",
+    flavor: "Five vowels, the Habsburgs' motto, and nobody ever agreed what they stood for.",
+    flavor_cz: "Pět samohlásek, heslo Habsburků, a nikdo se nikdy neshodl, co znamenají.",
+    flavor_zh: "五个元音，哈布斯堡家族的座右铭，至于是什么意思，从来没人说得清。",
+    description: "Check in at the Royal Garden, Queen Anne's Summer Palace, Hvězda Game Reserve, the Ball Game Hall of Prague Castle, the New Royal Palace and the Maria Theresa Statue.",
+    description_cz: "Přihlaste se v Královské zahradě, v Letohrádku královny Anny, v oboře Hvězda, v Míčovně Pražského hradu, v Novém královském paláci a u Sochy Marie Terezie.",
+    description_zh: "打卡皇家花园、安娜王后夏宫、星形猎苑、布拉格城堡球场馆、新皇宫和玛丽亚·特蕾莎雕像。",
+    difficulty: "medium",
+    check: (stats) => done(HABSBURG(stats)),
+    progress: HABSBURG,
+  },
+  {
+    id: "all_that_glitters",
+    icon: "✨",
+    name: "All That Glitters",
+    name_cz: "Zlato a štuk",
+    name_zh: "金碧辉煌",
+    flavor: "Gold, marble that is really painted plaster, and saints who never stand still.",
+    flavor_cz: "Zlato, mramor, který je ve skutečnosti malovaný štuk, a světci, kteří nikdy nestojí klidně.",
+    flavor_zh: "金箔、其实是彩绘灰泥的大理石，还有从来站不安稳的圣人。",
+    description: "Collect 50 Baroque cards.",
+    description_cz: "Sesbírejte 50 karet Baroko.",
+    description_zh: "收集50张“巴洛克”卡片。",
+    difficulty: "hard",
+    check: ({ labelCount }) => (labelCount.baroque || 0) >= 50,
+    progress: ({ labelCount }) => ({ current: labelCount.baroque || 0, target: 50 }),
+  },
+  {
+    id: "pure_gold",
+    icon: "🌟",
+    name: "Pure Gold",
+    name_cz: "Ryzí zlato",
+    name_zh: "金光闪闪",
+    flavor: "Five legendary cards. Mind your eyes.",
+    flavor_cz: "Pět legendárních karet. Pozor na oči.",
+    flavor_zh: "五张传说卡，小心闪到眼睛。",
+    description: "Collect 5 Legendary cards.",
+    description_cz: "Sesbírejte 5 legendárních karet.",
+    description_zh: "收集5张“传说”卡片。",
+    difficulty: "easy",
+    check: ({ rarityCount = {} }) => (rarityCount.legend || 0) >= 5,
+    progress: ({ rarityCount = {} }) => ({ current: rarityCount.legend || 0, target: 5 }),
+  },
+  {
+    id: "they_glow_at_night",
+    icon: "✨",
+    name: "They Glow at Night",
+    name_cz: "V noci svítí",
+    name_zh: "它们晚上会发光",
+    flavor: "Keep them in a drawer, or nobody in the house will get any sleep.",
+    flavor_cz: "Schovejte je do šuplíku, jinak se v domě nikdo nevyspí.",
+    flavor_zh: "把它们收进抽屉吧，不然家里谁都睡不着。",
+    description: "Collect 30 cards of Epic rarity or higher (Epic, Mythic and Legendary; Expedition cards count too).",
+    description_cz: "Sesbírejte 30 karet vzácnosti Epická a vyšší (Epická, Mýtická a Legendární; počítají se i karty Výpravy).",
+    description_zh: "收集30张稀有度在“史诗”及以上的卡片（史诗、神话、传说，远征卡也算）。",
+    difficulty: "medium",
+    check: (stats) => glowingCount(stats) >= 30,
+    progress: (stats) => ({ current: glowingCount(stats), target: 30 }),
+  },
+  {
+    id: "where_two_rivers_meet",
+    icon: "🏞️",
+    name: "Where Two Rivers Meet",
+    name_cz: "Kde se řeky potkávají",
+    name_zh: "两河交汇",
+    flavor: "The Berounka comes all the way from Plzeň to end here. The Vltava doesn't even slow down.",
+    flavor_cz: "Berounka teče celou cestu z Plzně, aby tady skončila. Vltava ani nezpomalí.",
+    flavor_zh: "贝罗温卡河从比尔森一路流来，在这里走到尽头；伏尔塔瓦河连脚步都没放慢。",
+    description: "Check in at the Berounka–Vltava Confluence.",
+    description_cz: "Přihlaste se u Soutoku Berounky a Vltavy.",
+    description_zh: "打卡贝罗温卡与伏尔塔瓦河交汇处。",
+    difficulty: "medium",
+    check: (stats) => done(CONFLUENCE(stats)),
+    progress: CONFLUENCE,
+  },
+  {
+    id: "vltava_to_elbe",
+    icon: "⛵",
+    name: "From the Vltava to the Elbe",
+    name_cz: "Od Vltavy k Labi",
+    name_zh: "从伏尔塔瓦到易北河",
+    flavor: "At Mělník the Vltava gives up its name and flows on as the Elbe, all the way to Hamburg.",
+    flavor_cz: "U Mělníka se Vltava vzdá svého jména a teče dál jako Labe, až do Hamburku.",
+    flavor_zh: "到了梅尔尼克，伏尔塔瓦河交出名字，改叫易北河，一路流到汉堡。",
+    description: "Check in at any 2 of these 4 places on the Elbe: Brandýs nad Labem Castle, Mělník Old Town, Mělník Chateau and Stará Boleslav.",
+    description_cz: "Přihlaste se na libovolných 2 z těchto 4 míst na Labi: zámek Brandýs nad Labem, Staré město Mělník, zámek Mělník a Stará Boleslav.",
+    description_zh: "在易北河畔的以下4个地点中任选2个打卡：拉贝河畔布兰迪斯城堡、梅尔尼克老城、梅尔尼克城堡和旧博莱斯拉夫。",
+    difficulty: "hard",
+    check: (stats) => done(ELBE(stats)),
+    progress: ELBE,
+  },
+  {
+    id: "spring_among_the_ruins",
+    icon: "🏚️",
+    name: "Spring Among the Ruins",
+    name_cz: "Jaro mezi troskami",
+    name_zh: "城春草木深",
+    flavor: "The castles fell, and the trees moved in.",
+    flavor_cz: "Hrady padly a nastěhovaly se do nich stromy.",
+    flavor_zh: "城堡塌了，树住了进来。",
+    description: "Collect 15 Ruin cards.",
+    description_cz: "Sesbírejte 15 karet Zřícenina.",
+    description_zh: "收集15张“遗迹”卡片。",
+    difficulty: "hard",
+    check: ({ labelCount }) => (labelCount.ruin || 0) >= 15,
+    progress: ({ labelCount }) => ({ current: labelCount.ruin || 0, target: 15 }),
+  },
+  {
+    id: "vampire",
+    icon: "🧛",
+    name: "Vampire",
+    name_cz: "Upír",
+    name_zh: "吸血鬼",
+    flavor: "Twenty-five castles. People are starting to ask whether you sleep in a coffin.",
+    flavor_cz: "Pětadvacet hradů. Lidé se začínají ptát, jestli nespíte v rakvi.",
+    flavor_zh: "二十五座城堡了，大家开始怀疑你是不是睡在棺材里。",
+    description: "Collect 25 Castle & Fortress cards.",
+    description_cz: "Sesbírejte 25 karet Hrad & Pevnost.",
+    description_zh: "收集25张“城堡与要塞”卡片。",
+    difficulty: "hard",
+    check: ({ labelCount }) => (labelCount["castle and fortress"] || 0) >= 25,
+    progress: ({ labelCount }) => ({ current: labelCount["castle and fortress"] || 0, target: 25 }),
+  },
+  {
+    id: "coast_of_bohemia",
+    icon: "🌊",
+    name: "The Coast of Bohemia",
+    name_cz: "Pobřeží Čech",
+    name_zh: "波希米亚海岸",
+    flavor: "Shakespeare gave Bohemia a coast. You'll have to make do with ponds.",
+    flavor_cz: "Shakespeare dal Čechám mořské pobřeží. Vy si budete muset vystačit s rybníky.",
+    flavor_zh: "莎士比亚给了波希米亚一片海岸，你就将就着逛逛池塘吧。",
+    description: "Collect at least 10 Waterbody cards, including Rudolf's Pond, Prokopské Pond, the Hostivař Reservoir and the Meanders of the Botič.",
+    description_cz: "Sesbírejte alespoň 10 karet Vodní plocha, mezi nimi Rudolfův rybník, Prokopské jezírko, Vodní nádrž Hostivař a Meandry Botiče.",
+    description_zh: "收集至少10张“水体”卡片，其中必须包括鲁道夫池塘、普罗科普斯克池塘、霍斯蒂瓦日水库和博季奇河曲。",
+    difficulty: "hard",
+    check: (stats) => done(COAST_OF_BOHEMIA(stats)),
+    progress: COAST_OF_BOHEMIA,
+  },
+  {
+    id: "aula_regia",
+    icon: "👑",
+    name: "Aula Regia",
+    name_cz: "Aula Regia",
+    name_zh: "国王之庭",
+    flavor: "A king founded a monastery here to be buried in, and the abbots wrote his chronicle.",
+    flavor_cz: "Král tu založil klášter, aby v něm byl pohřben, a opati mu sepsali kroniku.",
+    flavor_zh: "一位国王在这里建了修道院，好让自己长眠于此；院长们则替他写下了编年史。",
+    description: "Collect 80% of the cards in Zbraslav, including Zbraslav Chateau.",
+    description_cz: "Sesbírejte 80 % karet na Zbraslavi, mezi nimi Zbraslavský zámek.",
+    description_zh: "收集兹布拉斯拉夫80%的卡片，其中必须包括兹布拉斯拉夫宫。",
+    difficulty: "medium",
+    check: (stats) => done(ZBRASLAV(stats)),
+    progress: ZBRASLAV,
+  },
+  {
+    id: "barrandes_apprentice",
+    icon: "🪨",
+    name: "Barrande's Apprentice",
+    name_cz: "Barrandův učeň",
+    name_zh: "巴兰德的学徒",
+    flavor: "A Frenchman came to Prague to teach a prince, stayed to study trilobites, and a whole district was named after him.",
+    flavor_cz: "Francouz přijel do Prahy učit prince, zůstal kvůli trilobitům a pojmenovali po něm celou čtvrť.",
+    flavor_zh: "一个法国人来布拉格给王子当家教，却为了三叶虫留了下来，后来整个街区都以他命名。",
+    description: "Collect at least 15 Geology cards, including the Barrandov Rocks, the Braník Rock Cliff and the Geologická tram stop.",
+    description_cz: "Sesbírejte alespoň 15 karet Geologie, mezi nimi Barrandovské skály, Bránické skály a Tramvajová zastávka Geologická.",
+    description_zh: "收集至少15张“地质”卡片，其中必须包括巴兰多夫岩层、布拉尼克岩壁和Geologická电车站。",
+    difficulty: "hard",
+    check: (stats) => done(BARRANDE(stats)),
+    progress: BARRANDE,
+  },
+  {
+    id: "old_town_regular",
+    icon: "🕰️",
+    name: "Old Town Regular",
+    name_cz: "Staroměstský štamgast",
+    name_zh: "老城常客",
+    flavor: "You know which alley skips the crowd at the clock, and you no longer wait for the apostles.",
+    flavor_cz: "Víte, kterou uličkou obejít dav u orloje, a na apoštoly už nečekáte.",
+    flavor_zh: "你知道哪条小巷能绕开天文钟前的人群，也早就不再等那些使徒出场了。",
+    description: "Collect 90% of the cards in the Old Town.",
+    description_cz: "Sesbírejte 90 % karet na Starém Městě.",
+    description_zh: "收集老城90%的卡片。",
+    difficulty: "extreme",
+    check: (stats) => done(OLD_TOWN(stats)),
+    progress: OLD_TOWN,
+  },
+  {
+    id: "lesser_town_not_less",
+    icon: "🏘️",
+    name: "Not So Lesser",
+    name_cz: "Malá Strana není malá",
+    name_zh: "小城不小",
+    flavor: "The Lesser Town isn't so lesser after all, and neither is its list of sights.",
+    flavor_cz: "Malá Strana zas tak malá není, a ani seznam jejích pamětihodností.",
+    flavor_zh: "小城其实不算小，景点也不算少。",
+    description: "Collect 90% of the cards in the Lesser Town.",
+    description_cz: "Sesbírejte 90 % karet na Malé Straně.",
+    description_zh: "收集小城90%的卡片。",
+    difficulty: "extreme",
+    check: (stats) => done(LESSER_TOWN(stats)),
+    progress: LESSER_TOWN,
+  },
+  {
+    id: "art_lover",
+    icon: "🎨",
+    name: "Art Lover",
+    name_cz: "Milovník umění",
+    name_zh: "文艺青年",
+    flavor: "Statues, stages and galleries: you came for the city and stayed for the art.",
+    flavor_cz: "Sochy, jeviště a galerie: přišli jste kvůli městu a zůstali kvůli umění.",
+    flavor_zh: "雕像、舞台和画廊：你为了城市而来，却为了艺术留下。",
+    description: "Check in at the Barrandov Film Studios and at one place for each of the other arts: a gallery, a music venue, a theatre and a sculpture (the choices are listed below), and collect 50 cards with the Sculpture or the Culture and Art label (a card with both counts once).",
+    description_cz: "Přihlaste se ve Filmových ateliérech Barrandov a na jednom místě za každé další umění: v galerii, v hudebním sále nebo muzeu, v divadle a u sochy (na výběr níže), a sesbírejte 50 karet se štítkem Socha nebo Kultura a umění (karta s oběma se počítá jednou).",
+    description_zh: "打卡巴兰多夫电影制片厂，再为其他每门艺术各打卡一处：美术馆、音乐、戏剧、雕塑（可选地点见下方），并收集50张带“雕塑”或“文化与艺术”标签的卡片（两个标签都有的卡片只算一次）。",
+    difficulty: "hard",
+    check: (stats) => done(ART_PROGRESS(stats)),
+    progress: ART_PROGRESS,
+  },
+  {
+    id: "cabinet_of_curiosities",
+    icon: "🔭",
+    name: "Cabinet of Curiosities",
+    name_cz: "Kabinet kuriozit",
+    name_zh: "珍奇柜",
+    flavor: "Astronomers, alchemists and lions at the castle: Rudolf II collected everything, people included.",
+    flavor_cz: "Astronomové, alchymisté a lvi na Hradě: Rudolf II. sbíral všechno, lidi nevyjímaje.",
+    flavor_zh: "天文学家、炼金术士，还有城堡里的狮子：鲁道夫二世什么都收藏，连人也不例外。",
+    description: "Check in at Golden Lane, the Deer Moat, the Rudolf Tunnel, Rudolf's Pond, Speculum Alchemiae and the Tycho Brahe and Johannes Kepler Monument.",
+    description_cz: "Přihlaste se ve Zlaté uličce, v Jelením příkopu, u Rudolfovy štoly, u Rudolfova rybníka, v Speculum Alchemiae a u Sousoší Tychona Brahe a Johanna Keplera.",
+    description_zh: "打卡黄金巷、鹿沟、鲁道夫水道、鲁道夫池塘、炼金术之镜和第谷·布拉赫与约翰内斯·开普勒纪念雕像。",
+    difficulty: "medium",
+    check: (stats) => done(RUDOLF(stats)),
+    progress: RUDOLF,
+  },
+  {
+    id: "virginia_creeper",
+    icon: "⛰️",
+    name: "Virginia Creeper",
+    name_cz: "Přísavník",
+    name_zh: "爬山虎",
+    flavor: "Prague has more hills than Rome, and you've climbed every one of them.",
+    flavor_cz: "Praha má víc kopců než Řím a vy jste vylezli na všechny.",
+    flavor_zh: "布拉格的山比罗马还多，而你一座不落地爬了个遍。",
+    description: "Collect one card on each of Prague's ten hills: Petřín, Vítkov, Vyšehrad, Letná, Děvín, Ládví, White Mountain, Parukářka, Tyršův vrch and Kavčí hory.",
+    description_cz: "Seberte jednu kartu na každém z deseti pražských kopců: Petřín, Vítkov, Vyšehrad, Letná, Děvín, Ládví, Bílá hora, Parukářka, Tyršův vrch a Kavčí hory.",
+    description_zh: "在布拉格十座山上各收集一张卡片：佩特任山、维特科夫山、高堡、莱特纳、德文山、拉德维山、白山、帕鲁卡日卡山、蒂尔什山和卡夫奇山。",
+    difficulty: "hard",
+    check: (stats) => done(HILLS_PROGRESS(stats)),
+    progress: HILLS_PROGRESS,
+  },
+  {
+    id: "knight_errant",
+    icon: "🏰",
+    name: "Knight Errant",
+    name_cz: "Potulný rytíř",
+    name_zh: "游侠骑士",
+    flavor: "One castle is a trip. Three castles is a quest.",
+    flavor_cz: "Jeden hrad je výlet. Tři hrady jsou výprava rytíře.",
+    flavor_zh: "去一座城堡叫出游，去三座城堡才叫游侠。",
+    description: "Check in at any 3 of these 8 castles: Karlštejn, Křivoklát, Konopiště, Český Šternberk, Bezděz, Orlík, Zvíkov, and Točník and Žebrák.",
+    description_cz: "Přihlaste se na libovolných 3 z těchto 8 hradů a zámků: Karlštejn, Křivoklát, Konopiště, Český Šternberk, Bezděz, Orlík, Zvíkov a Točník se Žebrákem.",
+    description_zh: "在以下8处城堡中任选3处打卡：卡尔什泰因、克日沃克拉特、科诺皮什捷、切斯基什滕贝克、贝兹杰兹、奥尔利克、兹维科夫，以及托奇尼克与热布拉克。",
+    difficulty: "extreme",
+    check: (stats) => done(CASTLE_TOUR(stats)),
+    progress: CASTLE_TOUR,
+  },
+  {
+    id: "paradise_found",
+    icon: "🪨",
+    name: "Paradise Found",
+    name_cz: "Ráj nalezen",
+    name_zh: "复乐园",
+    flavor: "Sandstone towers, castles grown out of the rock, and a two-towered ruin you can see from miles away.",
+    flavor_cz: "Pískovcové věže, hrady vyrostlé ze skály a zřícenina se dvěma věžemi, vidět na míle daleko.",
+    flavor_zh: "砂岩石塔、从岩石里长出来的城堡，还有一座几十里外都看得见的双塔废墟。",
+    description: "Check in at any 3 of these 5 places in the Bohemian Paradise: Trosky Castle, Kost Castle, Valdštejn Castle, Hruboskalsko and the Rotštejn Castle Ruins.",
+    description_cz: "Přihlaste se na libovolných 3 z těchto 5 míst v Českém ráji: hrad Trosky, hrad Kost, hrad Valdštejn, Hruboskalsko a zřícenina hradu Rotštejn.",
+    description_zh: "在波希米亚天堂的以下5个地点中任选3个打卡：特罗斯基城堡、科斯特城堡、瓦尔德什特因城堡、赫鲁博斯卡尔斯科和罗特什捷因城堡遗迹。",
+    difficulty: "extreme",
+    check: (stats) => done(PARADISE(stats)),
+    progress: PARADISE,
+  },
+  {
+    id: "emperors_spring",
+    icon: "♨️",
+    name: "The Emperor's Spring",
+    name_cz: "Císařský pramen",
+    name_zh: "皇帝的温泉",
+    flavor: "Legend says Charles IV's hound fell into a hot spring. Six centuries later, people still queue to drink from it.",
+    flavor_cz: "Podle pověsti spadl Karlu IV. pes do horkého pramene. O šest století později na něj lidé pořád stojí frontu.",
+    flavor_zh: "传说查理四世的猎犬掉进了一眼热泉。六百年后，人们还在排队喝那里的水。",
+    description: "Check in at Karlovy Vary and at any one of Loket Castle, Jáchymov, Cheb and Cheb Castle.",
+    description_cz: "Přihlaste se v Karlových Varech a na kterémkoli z těchto míst: hrad Loket, Jáchymov, Cheb a Chebský hrad.",
+    description_zh: "打卡卡罗维发利，以及洛克特城堡、雅希莫夫、海布、赫布城堡中的任意一处。",
+    difficulty: "extreme",
+    check: (stats) => done(WEST_SPA(stats)),
+    progress: WEST_SPA,
+  },
+  {
+    id: "rose_of_the_south",
+    icon: "🌹",
+    name: "Rose of the South",
+    name_cz: "Růže jihu",
+    name_zh: "南方的玫瑰",
+    flavor: "In Krumlov the Rožmberks' red rose blooms on every gate. South Bohemia has plenty more where that came from.",
+    flavor_cz: "V Krumlově kvete rožmberská červená růže na každé bráně. Jižní Čechy jich mají v zásobě ještě víc.",
+    flavor_zh: "在克鲁姆洛夫，罗森贝格家族的红玫瑰开在每一道城门上。南波希米亚还有的是好地方。",
+    description: "Check in at Český Krumlov and at any one of Rožmberk Castle, Zlatá Koruna Monastery, Hluboká Castle, České Budějovice, Třeboň and Jindřichův Hradec Castle.",
+    description_cz: "Přihlaste se v Českém Krumlově a na kterémkoli z těchto míst: hrad Rožmberk, klášter Zlatá Koruna, zámek Hluboká nad Vltavou, České Budějovice, Třeboň a Jindřichův Hradec.",
+    description_zh: "打卡克鲁姆洛夫，以及罗森贝格城堡、金冕修道院、赫卢博卡城堡、捷克布杰约维采、特热邦、因德日赫城堡中的任意一处。",
+    difficulty: "extreme",
+    check: (stats) => done(SOUTH_ROSE(stats)),
+    progress: SOUTH_ROSE,
+  },
+  {
+    id: "iron_and_golden_king",
+    icon: "👑",
+    name: "The Iron and Golden King",
+    name_cz: "Král železný a zlatý",
+    name_zh: "铁与金之王",
+    flavor: "Otakar II founded towns all over Bohemia, and Königsberg on the Baltic was named after him. Then he lost it all on the Marchfeld.",
+    flavor_cz: "Přemysl Otakar II. zakládal města po celých Čechách a po něm se jmenoval i Královec u Baltu. Pak o všechno přišel na Moravském poli.",
+    flavor_zh: "奥托卡二世在波希米亚各地建城，连波罗的海边的柯尼斯堡都以他命名。然后，他在马尔希费尔德输掉了一切。",
+    description: "Check in at St. Vitus Cathedral, where Otakar II is buried, at one castle or monastery he built (Bezděz Castle, Zvíkov Castle or Zlatá Koruna Monastery) and at one town he founded (České Budějovice, Písek, Nymburk, Čáslav, or Vysoké Mýto with his statue).",
+    description_cz: "Přihlaste se v katedrále svatého Víta, kde je pohřben Přemysl Otakar II., na jednom hradu nebo v klášteře, které postavil (hrad Bezděz, hrad Zvíkov nebo klášter Zlatá Koruna), a v jednom městě, které založil (České Budějovice, Písek, Nymburk, Čáslav nebo Vysoké Mýto s jeho sochou).",
+    description_zh: "打卡奥托卡二世长眠的圣维特大教堂，再打卡一处他修建的城堡或修道院（贝兹杰兹城堡、兹维科夫城堡或金冕修道院），以及一座他创建的城市（捷克布杰约维采、皮塞克、宁布尔克、恰斯拉夫，或立着他雕像的维索凯米托）。",
+    difficulty: "extreme",
+    check: (stats) => done(OTAKAR(stats)),
+    progress: OTAKAR,
+  },
+  // Checked after all the others (evaluateAchievements), so the ones
+  // unlocked in the same pass count too.
+  {
+    id: "high_five",
+    icon: "🖐️",
+    name: "High Five",
+    name_cz: "Plácni si!",
+    name_zh: "五福临门",
+    flavor: "The achievement of achievements.",
+    flavor_cz: "Úspěch všech úspěchů.",
+    flavor_zh: "成就的成就。",
+    description: "Unlock 5 achievements on the same day (Prague time).",
+    description_cz: "Odemkněte 5 úspěchů během jednoho dne (podle pražského času).",
+    description_zh: "在同一天（布拉格时间）内解锁5个成就。",
+    difficulty: "medium",
+    after: true,
+    check: ({ unlockDayMax }) => (unlockDayMax || 0) >= 5,
+    progress: ({ unlockDayMax }) => ({ current: unlockDayMax || 0, target: 5 }),
+  },
 ];
 
 export function calculateLevel(xp) {
@@ -1789,8 +2572,17 @@ export function describeAchievement({ id, unlockedAt }) {
 export function evaluateAchievements(stats, existingIds) {
   const newlyUnlocked = [];
   for (const ach of ACHIEVEMENTS) {
-    if (existingIds.includes(ach.id)) continue;
+    if (ach.after || existingIds.includes(ach.id)) continue;
     if (ach.check(stats))
+      newlyUnlocked.push({ id: ach.id, unlockedAt: new Date() });
+  }
+  // Achievements about achievements (High Five) run last, with today's
+  // count raised by what this pass just unlocked.
+  const today = (stats.unlockToday || 0) + newlyUnlocked.length;
+  const after = { ...stats, unlockDayMax: Math.max(stats.unlockDayMax || 0, today) };
+  for (const ach of ACHIEVEMENTS) {
+    if (!ach.after || existingIds.includes(ach.id)) continue;
+    if (ach.check(after))
       newlyUnlocked.push({ id: ach.id, unlockedAt: new Date() });
   }
   return newlyUnlocked;

@@ -159,7 +159,7 @@ export default function HistoryPage() {
     const timer = setTimeout(() => {
       pendingServerSave.current = null;
       userAPI.saveHistoryProgress(activeSlug).catch(() => {});
-    }, 3000);
+    }, 2000);
     return () => clearTimeout(timer);
   }, [activeSlug, restored, user]);
 

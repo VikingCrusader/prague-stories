@@ -67,7 +67,7 @@ RIGHT (hidden_depths): a deep, dark stone well seen from above; at the very
 bottom, only the corner of a glowing red card is visible.
 ```
 
-### Group 3: kinds of cards (五颜六色 · 出城去 · 虔诚的信徒), all three done
+### Group 3: kinds of cards (五颜六色 · 出城去 · 愿主保佑), all three done
 
 ```
 LEFT (all_the_colours): a painter's palette with exactly six paint blobs:
@@ -314,4 +314,188 @@ city_of_silver (done; the accepted image has a miner's pick instead of the skull
 
 ```
 back_and_forth: a winding blue river running down the middle of the picture, a castle on a hill on the left bank and Gothic Old Town spires on the right bank; a small walker in a red scarf, slightly dizzy with little stars circling the head, leaps across the river, and a dotted golden footprint trail zigzags back and forth across the water five or six times behind them. The walker and the zigzag trail are large and clear. (No bridge: bridge cards don't count for this one.)
+```
+
+### Group 26: emperors and a general (AEIOU · 珍奇柜 · 大元帅), all three done (the general's hat came out a Napoleonic bicorne, accepted)
+
+AEIOU done, regenerated on a gold background (an exception to the dark
+background, user's call: black eagle on gold, the Habsburg colours). For that
+one the style block's palette line was changed to "black, charcoal, warm gold,
+brick red, parchment, on a bright golden-yellow background (the Habsburg
+black-and-gold colours) with a soft vignette of slightly deeper gold at the
+edges", and the subject asked for the crown and letters in a deeper gold with
+dark outlines.
+
+```
+LEFT (aeiou): a big black double-headed eagle with one crown above both
+heads; a red ribbon in its talons reads "AEIOU" in gold letters (the only
+text allowed). The two heads turn to each other with puzzled looks, as if
+neither knows what the letters mean.
+MIDDLE (cabinet_of_curiosities): an open wooden curiosity cabinet crammed
+with odd treasures: a brass telescope, a glass flask bubbling green smoke, a
+narwhal tusk and a stuffed crocodile on top; a small lion cub peeks out of
+the half-open bottom drawer.
+RIGHT (generalissimo): a gold-tipped commander's baton lying across a black
+general's hat with a huge red plume; beside them an unrolled star chart
+covered in planet symbols and circles, a compass needle pointing at one star
+(the general trusted his horoscope more than his officers).
+```
+
+### Group 27: the nation and its kings (真理必胜 · 国王之庭 · 以人为本), all three done
+
+```
+LEFT (truth_prevails): a raised fist gripping the pole of a LARGE, fully
+unfurled Czech flag (white stripe on top, red stripe below, a blue triangle
+at the pole), clearly lit and waving; at the bottom, a small stack of old
+books with a quill. Hand and flag large.
+MIDDLE (aula_regia): a royal gold crown resting on a carved stone tomb slab
+in a quiet Gothic cloister; a small monk sits at the slab's end writing in a
+thick open chronicle, his quill moving fast.
+RIGHT (renaissance_man): a Renaissance house facade covered in black-and-white
+sgraffito; drawn on the wall in white chalk, a large circle with a square
+inside it, and a small cheerful man standing in the middle with arms and legs
+spread to touch the lines, as if measuring the building with himself.
+```
+
+### Group 28: Old Town, Lesser Town, Baroque (老城常客 · 小城不小 · 金碧辉煌), all three done (the first altar try came back as a giant key; it was redone with the altar spelled out and "NOT a key, NOT a castle, NOT soldiers")
+
+```
+LEFT (old_town_regular): a big astronomical clock dial in blue and gold with
+its zodiac ring, Gothic stone around it; the little skeleton figure beside
+the dial raises his hourglass like a toast to a coffee cup steaming on a café
+table in the foreground. Clock large.
+MIDDLE (lesser_town_not_less): a dense cluster of red-roofed Baroque houses
+climbing a hill to a large green copper dome and a bell tower; a yellow tape
+measure is stretched across the rooftops and runs out of the picture on both
+sides, still not long enough.
+RIGHT (all_that_glitters): a swirling gilded Baroque altar with twisted
+columns and golden sunrays; a chubby cherub on top polishes the gold with a
+small cloth, sweating, and sparkles fly everywhere.
+```
+
+### Group 29: rocks, hills, art (巴兰德的学徒 · 爬山虎 · 文艺青年), all three done
+
+```
+LEFT (barrandes_apprentice): a large fossil trilobite in a slab of layered
+grey limestone, seen through a big brass magnifying glass, with a geologist's
+hammer beside it; through the lens, the trilobite's eye looks back at the
+viewer in surprise. Trilobite large.
+MIDDLE (virginia_creeper): a climbing vine with bright red autumn leaves
+creeping up a steep green hill toward a small steel lattice lookout tower on
+the top; the vine's leading tip wears a tiny backpack.
+RIGHT (art_lover): a white marble bust wearing a black beret and a long red
+scarf, a tiny coffee cup and a sketchbook in front of it, red theatre curtains
+half open behind it.
+```
+
+### Group 30: an achievement of achievements (五福临门), done
+
+```
+high_five: two hands meeting in a high five in the middle of the picture, a
+burst of gold sparks at the touch, and five small gold medals flying out of
+the burst like fireworks. Hands large.
+```
+
+### Group 31: 游侠骑士, done
+
+```
+knight_errant: a small knight on a horse riding along a winding road; along the road, three castles on wooded hills one behind the other, the nearest two with a small gold pennant planted on their towers and the farthest still without one. The knight and the nearest castle large.
+```
+
+### Group 32: 复乐园, done
+
+```
+paradise_found: tall pale sandstone rock towers rising out of a green pine forest, and on a steep hill behind them a ruined castle with two tall towers of different heights on two rock peaks; a small open gate in the foreground, made of two rock pillars, as if the way into paradise. The rock towers and the two-towered ruin large.
+```
+
+### Group 33: 皇帝的温泉 · 南方的玫瑰, both done (the rose came with a painted border, cropped off)
+
+```
+emperors_spring: a steaming hot spring bubbling up in an elegant stone colonnade with columns, a small porcelain spa cup with a spout in front of it; a hunting dog sits beside the spring with wet ears, looking very pleased with itself. The colonnade, cup and dog large.
+rose_of_the_south: a large red five-petalled heraldic rose with a gold centre, carved on a stone castle gate, with a round painted Renaissance castle tower behind it rising over red rooftops and a river bend.
+```
+
+### Group 34: 铁与金之王, done
+
+```
+iron_and_golden_king: a king's crown split down the middle, the left half dark iron and the right half shining gold, resting on a stone tomb slab; behind it, a small map of Bohemia dotted with tiny towns and castles, each with a little flag stuck in it like pins.
+```
+
+### Group 35: early Bronze (小有收获 · 渐入佳境 · 冰箱贴三件套 · 明天见), all four done
+
+```
+small_harvest: a small wicker basket holding a neat little stack of ten playing cards, a few autumn leaves and a red apple beside it, as if the cards had just been picked.
+getting_the_hang: a folded paper city map tucked away in a back pocket of jeans, only its corner sticking out, a confident walking boot mid-stride beside it on cobblestones.
+tourist_trio: a white fridge door with three big colourful souvenir fridge magnets stuck on it: one shaped like the two dark Gothic spires of Týn Church, one like a stone bridge with statues and a bridge tower, one like a big Gothic cathedral on a hill; a hand is pressing the last magnet into place. The three magnets large.
+see_you_tomorrow: a pocket calendar with two pages side by side, each with a small gold tick, a sunrise over red rooftops and church spires behind it.
+```
+
+### Group 36: 翻开史书, done
+
+```
+turning_the_page: a big old leather-bound history book lying open, one page caught mid-turn; on the left page a small drawing of a dragon and a crowned legendary princess, on the right page a small drawing of a real stone castle and a king with a sword; a reading candle beside it.
+```
+
+### Group 37: 新手村, done
+
+```
+starter_pack: Old Town Square drawn like the starting village of an old role-playing game: the astronomical clock tower and the two dark spires of Týn Church around a cobbled square, a column with a gold statue in the middle; a tiny new adventurer with a wooden sword and a backpack stands in the centre, and a big gold exclamation mark floats above the clock like a quest marker (the only symbol allowed). Square, clock and adventurer large.
+```
+
+### Group 38: 城春草木深, done
+
+```
+spring_among_the_ruins: a ruined castle tower with half its wall fallen away and no roof, a young tree growing straight out of the top and ivy and spring blossoms climbing the stones; a small bird sits in the empty window. The tower and the tree large.
+```
+
+### Group 39: 跌宕起伏, done with the redraw prompt below (the first image, drawn for the Teleček-only 一览众山小, showed only the high point; it stays as the Teleček card's cover)
+
+Redraw prompt for both ends:
+
+```
+highs_and_lows: a split scene in one picture: on the upper left, a tiny climber in mountaineering gear planting a little flag on top of a gently sloping farm field with a motorway behind it; a winding dotted footpath zigzags down across the picture to the lower right, where the same tiny figure sits relaxed on the bank of a wide blue river next to a small railway platform with a train, dangling their feet over the water. The two figures, the flag and the river large.
+```
+
+```
+highs_and_lows (as drawn): a tiny climber in full mountaineering gear (rope, ice axe, goggles) planting a little flag in the middle of a perfectly flat, ordinary farm field; a motorway with small cars in the background and a gentle hill on the horizon. The climber and flag large.
+```
+
+### Group 40: 波希米亚海岸, done
+
+```
+coast_of_bohemia: a tiny Prague pond with reeds and a single duck, on whose shore stand a striped beach umbrella, a deckchair and a little sandcastle; a toy sailing ship floats in the pond and a lighthouse no taller than the reeds stands at its edge. The pond, umbrella and lighthouse large.
+```
+
+### Group 41: 金光闪闪 · 它们晚上会发光 · 两河交汇, all three done
+
+```
+pure_gold: a fan of five golden playing cards, each with a small crown, shining so brightly that a tiny figure in front shields their eyes with one hand and puts on sunglasses with the other.
+they_glow_at_night: a dark bedroom at night, a half-open wooden drawer glowing from inside with purple, red, gold and silver light from a stack of cards; a sleepy figure in a nightcap peeks over the blanket at it, eyes wide open.
+where_two_rivers_meet: seen from above, two rivers meeting in a Y shape among green meadows, one narrower and a little browner, one wide and blue; a small walker with a backpack stands on the tip of land between them, a pair of binoculars raised.
+```
+
+### Group 42: 从伏尔塔瓦到易北河, done
+
+```
+vltava_to_elbe: a castle on a hill above a wide river bend where two rivers meet; on the water below, a small boat carries a wooden signpost with two arrows, the boatman cheerfully taking down one painted river sign and putting up another, as if the river were changing its name right there. Castle, boat and signpost large.
+```
+
+### Group 43: 布拉格的小波兰, done (second try)
+
+```
+little_poland (redrawn: the first try's flag was too small, and the user asked for a Czech flag too, for the Czech-Polish friendship the estate was built to show): two LARGE flags, fully unfurled side by side and clearly lit, flying from the roof of a grey concrete panel block of flats: the Polish flag (a white stripe on top, a red stripe below, no emblem) and the Czech flag (a white stripe on top, a red stripe below and a blue triangle at the pole), their poles leaning toward each other like a handshake; below, a hospital park with an old fence, over which a little stage with musicians and a cheerful crowd can be seen. The two flags large. NOT a picture frame, NO border.
+```
+
+### Group 44: 吸血鬼, done
+
+```
+vampire: a pale, polite cartoon vampire in a black high-collared cape (an original character, not Dracula from any film), standing at the gate of a dark Gothic castle on a crag under a full moon, holding a thick stack of playing cards like a proud collector; a few bats circle the towers. The vampire and the castle large.
+```
+
+### Group 45: 此岸彼岸 · 埃菲尔铁塔的弟弟 · 两匹马 (埃菲尔铁塔的弟弟 and 两匹马 done; 此岸彼岸 uses the first, wrong try for now, fairy-tale castle; redraw with the prompt below)
+
+```
+both_banks (redrawn: the first try drew a fairy-tale castle, and the walkers stood on the bridge): a wide river seen from above with a stone bridge across it. On the left bank, on a hill, Prague Castle: a LONG, LOW row of pale palace buildings stretched along the ridge, with the tall dark Gothic spires of a cathedral rising from behind its middle; NOT a fairy-tale castle, NOT a cluster of round towers with pointed roofs. On the right bank, Gothic spires and red roofs. A tiny walker stands on each riverbank (on the grass, not on the bridge) waving at the other, and they are clearly the same person, with the same red scarf.
+little_eiffel: a slim steel lattice lookout tower on a green wooded hill, unmistakably shaped like a small Eiffel Tower; at its foot a tiny red funicular car climbing the slope, and in the corner a much bigger Eiffel Tower silhouette far away on the horizon, looking jealous. The hill tower large.
+two_horses: side by side, a proud bronze statue of a knight on a horse on a tall stone pedestal, and the same knight sitting on a horse that hangs upside down by its legs from the ceiling of an elegant glass-roofed arcade, as if it were the most normal thing in the world. Both horses large.
 ```
