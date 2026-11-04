@@ -17,8 +17,9 @@ const PAGE_SIZE = 60;
 
 // `onCollectionChange` (optional) hears whether "My Collections" is on, so
 // the page header can react to it (ExplorePage's showcase hint).
-// `initialFilter` ({ collection, rarity }) opens the grid already filtered,
-// e.g. My Collections + Expedition from the profile's expedition strip.
+// `initialFilter` ({ collection, rarity, label }) opens the grid already
+// filtered, e.g. My Collections + Expedition from the profile's expedition
+// strip, or My Collections + one label from the profile's label counts.
 export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter }) {
   const t = useT();
   const { lang } = useLang();
@@ -28,7 +29,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // City only says (ExplorePage passes that list as collectionLocations).
   const locations = discovered && collectionLocations ? collectionLocations : scopedLocations;
   useEffect(() => { onCollectionChange?.(discovered); }, [discovered, onCollectionChange]);
-  const [activeLabels, setActiveLabels]     = useState(new Set());
+  const [activeLabels, setActiveLabels]     = useState(() => new Set(initialFilter?.label ? [initialFilter.label] : []));
   const [activeRarities, setActiveRarities] = useState(() => new Set(initialFilter?.rarity ? [initialFilter.rarity] : []));
   // The picked rarity (or null), so ExplorePage can show its description.
   const activeRarity = activeRarities.size ? [...activeRarities][0] : null;

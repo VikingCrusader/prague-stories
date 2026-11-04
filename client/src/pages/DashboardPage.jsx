@@ -55,8 +55,10 @@ export default function DashboardPage() {
         isGuest={guest && !user}
       />
 
-      {/* Wake lock toggle */}
-      <div style={{ marginTop: 28, display: 'flex', justifyContent: 'flex-end' }}>
+      {/* Wake lock toggle: phones and tablets only, hidden on a computer with
+          a mouse (2026-11-04, user's call), where the screen staying on
+          doesn't matter for walking around. */}
+      <div className="wake-lock-row" style={{ marginTop: 28, display: 'flex', justifyContent: 'flex-end' }}>
         {wakeLock.supported ? (
           <button
             onClick={wakeLock.toggle}

@@ -1915,9 +1915,9 @@ export const ACHIEVEMENTS = [
   {
     id: "after_white_mountain",
     icon: "⚔️",
-    name: "After White Mountain",
-    name_cz: "Po Bílé hoře",
-    name_zh: "白山之后",
+    name: "Two Hours",
+    name_cz: "Dvě hodiny",
+    name_zh: "两个钟头",
     flavor: "A battle of barely two hours on a hill west of Prague, and it decided Bohemia's fate for the next three centuries.",
     flavor_cz: "Bitva, která na kopci za Prahou trvala sotva dvě hodiny, a rozhodla o osudu Čech na další tři století.",
     flavor_zh: "布拉格西郊的一座山坡，一场不到两个小时的战役，决定了波希米亚此后三百年的命运。",

@@ -39,13 +39,19 @@ export default function ExplorePage() {
   // administrative boundary (day trips), shown only on "Show all".
   const [cityOnly, setCityOnly]         = useState(() => !state?.showAll);
   // District / historical-quarter filter; only offered in "City only" mode.
-  const [area, setArea]                 = useState(null);
+  // A link's state can open it on one district (the profile's district
+  // rows send { district: 'Praha 7' }, 2026-11-04).
+  const [area, setArea]                 = useState(() => (state?.district ? { kind: 'district', value: state.district } : null));
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
   // Filters to open with, from a link's state (the profile's expedition
   // strip sends { collection: true, rarity: 'expedition' } for "All", and
-  // { showAll: true, rarity: 'expedition' } from its empty nudge); read once.
-  const [initialFilter] = useState(() => (state?.collection || state?.rarity ? { collection: !!state.collection, rarity: state.rarity ?? null } : null));
+  // { showAll: true, rarity: 'expedition' } from its empty nudge; the
+  // profile's rarity and label counts send { collection: true, rarity } or
+  // { collection: true, label }); read once.
+  const [initialFilter] = useState(() => (state?.collection || state?.rarity || state?.label
+    ? { collection: !!state.collection, rarity: state.rarity ?? null, label: state.label ?? null }
+    : null));
 
   // Refetched when the signed-in user changes, e.g. when a sign-in that
   // was retried in the background (AuthContext) lands after the first load.

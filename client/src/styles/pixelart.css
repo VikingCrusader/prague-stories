@@ -1480,6 +1480,31 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 /* ── Dashboard ────────────────────────────────────────────── */
 .dashboard-page { flex: 1; padding: 24px; max-width: 1200px; margin: 0 auto; width: 100%; }
 .dashboard-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+/* Profile below the level row (2026-11-04, user's call): one column, the
+   district map between the achievements and the strips; on wide screens the
+   page fills the width and the map takes the right half. */
+.profile-layout { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-areas: "top" "side" "bottom"; }
+.profile-layout__top { grid-area: top; min-width: 0; }
+.profile-layout__side { grid-area: side; min-width: 0; margin-top: 28px; }
+.profile-layout__bottom { grid-area: bottom; min-width: 0; }
+@media (min-width: 1400px) {
+  .dashboard-page { max-width: 2400px; }
+  .profile-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: 1fr auto;
+    grid-template-areas: "top side" "bottom side";
+    column-gap: 28px; align-items: start;
+  }
+  /* The district card runs down to the bottom of the treasure and
+     expedition cards (2026-11-04, user's call). If it is the taller one,
+     the achievements card takes up the difference, so the strips stay
+     right under it and the two bottom edges still meet. */
+  .profile-layout__side { margin-top: 0; align-self: stretch; display: flex; flex-direction: column; }
+  .profile-layout__side > .stat-card { flex: 1; }
+  .profile-layout__top { align-self: stretch; display: flex; flex-direction: column; }
+  .profile-layout__top > .profile-card { flex: 1; }
+  .profile-layout__side .district-map__svg { max-width: 760px; }
+}
 .stat-card--tall { grid-row: span 2; }
 .ring-stats { min-width: 0; }
 /* Hidden on wider screens; `.stat-card` in the selector so it beats
@@ -1501,6 +1526,32 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
   display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px;
 }
 .rarity-compact__item { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; text-align: center; }
+/* A count on the profile that opens the matching filter (2026-11-04): it
+   doesn't look like a link, only its text is underlined on hover. */
+.quiet-link { color: inherit; text-decoration: none; cursor: pointer; }
+.quiet-link:hover .rarity-compact__name,
+.quiet-link:hover .quiet-link__text { text-decoration: underline; text-underline-offset: 3px; }
+.rarity-compact__link { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; }
+.district-progress__link { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 0; }
+/* District map on the profile (2026-11-04): gold as deep as the share
+   collected, grey where the user hasn't been. */
+.district-map { margin: 4px 0 10px; }
+.district-map--loading { aspect-ratio: 1000 / 761; }
+.district-map__svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; }
+.district-map__area { fill: var(--gold); stroke: var(--bg-card); stroke-width: 3; stroke-linejoin: round; transition: fill-opacity 0.15s; }
+.district-map__area--unvisited { fill: var(--text-muted); fill-opacity: 0.14; }
+.district-map__area--picked { stroke: var(--text-primary); stroke-width: 5; }
+.district-map__area--link { cursor: pointer; }
+.district-map__num {
+  font-size: 26px; font-weight: 700; text-anchor: middle; dominant-baseline: central;
+  fill: var(--text-primary); paint-order: stroke; stroke: var(--bg-card); stroke-width: 5px;
+  pointer-events: none; user-select: none;
+}
+.district-map__caption { display: flex; justify-content: center; align-items: baseline; gap: 10px; min-height: 1.6em; margin-top: 6px; font-size: 15px; }
+.district-map__caption-name { font-weight: 700; color: var(--text-primary); }
+.district-map__caption-count { font-weight: 700; color: var(--gold); }
+.district-map__caption-hint { color: var(--text-muted); font-size: 13px; }
+.district-map + .district-progress__list { margin-top: 12px; }
 .rarity-compact__name { font-size: 13px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .rarity-compact__n { font-weight: 700; font-size: 22px; line-height: 1.2; }
 /* Czech and English names don't fit seven across on a phone: 4 + 3 there. */
@@ -1511,6 +1562,23 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 
 /* Profile strips: newest treasure finds / expedition cards (RecentCardStrip.jsx). */
 .card-strip { margin-top: 28px; }
+/* Profile sections framed like the stat cards (2026-11-04): the card gives
+   the spacing, so the section inside drops its own top margin. */
+.profile-card { margin-top: 20px; }
+.profile-card > section { margin-top: 0 !important; }
+.profile-card .px-title { margin-top: 0; }
+.profile-card .ach-showcase { padding-bottom: 0; }
+.profile-card .ach-viewall { margin-bottom: 0; }
+/* Treasure finds and expeditions side by side, four each (2026-11-04). */
+.profile-strips { margin-top: 20px; }
+/* The keep-screen-on toggle is for phones: hidden where there's a mouse. */
+@media (hover: hover) and (pointer: fine) { .wake-lock-row { display: none !important; } }
+.profile-strips .profile-card { margin-top: 0; }
+.profile-strips .card-strip__row { grid-template-columns: repeat(4, minmax(0, 110px)); }
+@media (max-width: 600px) {
+  .profile-strips .card-strip__row { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+  .profile-strips .card-strip__item:nth-child(n + 4) { display: flex; }
+}
 .card-strip__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
 .card-strip__title { font-size: 22px; margin: 0; }
 .card-strip__count { color: var(--text-muted); font-size: 0.75em; }
@@ -1572,7 +1640,7 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
   background: var(--bg-card); border: 2px solid var(--border);
 }
 .district-progress__fill { display: block; height: 100%; }
-.district-progress__count { flex: 0 0 4.6em; text-align: right; color: var(--text-muted); font-weight: 700; font-size: 13px; }
+.district-progress__count { flex: 0 0 auto; min-width: 4.6em; white-space: nowrap; text-align: right; color: var(--text-muted); font-weight: 700; font-size: 13px; }
 .stat-card__label {
   font-family: var(--ui-font);
   font-size: 13px;

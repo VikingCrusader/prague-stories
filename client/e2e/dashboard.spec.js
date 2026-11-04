@@ -210,16 +210,16 @@ test.describe('Dashboard', () => {
 
     const exp = page.locator('.card-strip').filter({ hasText: 'Expeditions' });
     await expect(exp.locator('.card-strip__count')).toHaveText('8');
-    await expect(exp.locator('.card-strip__item')).toHaveCount(6);
+    await expect(exp.locator('.card-strip__item')).toHaveCount(4);
     await expect(exp.locator('.card-strip__name').first()).toHaveText('Karlstejn');
     const box = await exp.locator('.card-strip__cover').first().boundingBox();
     expect(box.width).toBeLessThanOrEqual(112); // a thumbnail, not a full card
-    // One row only: all six side by side here, three on a phone.
+    // One row only, four at most (2026-11-04), on a phone too.
     const tops = await exp.locator('.card-strip__item').evaluateAll(els => els.map(e => e.getBoundingClientRect().top));
     expect(new Set(tops).size).toBe(1);
     await page.setViewportSize({ width: 390, height: 844 });
     const shown = exp.locator('.card-strip__item:visible');
-    await expect(shown).toHaveCount(3);
+    await expect(shown).toHaveCount(4);
     const phoneTops = await shown.evaluateAll(els => els.map(e => e.getBoundingClientRect().top));
     expect(new Set(phoneTops).size).toBe(1);
     // The ring's totals go on two lines on a phone.

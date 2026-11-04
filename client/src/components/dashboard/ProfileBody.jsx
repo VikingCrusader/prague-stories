@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
-import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { RARITY_VAR, RARITY_LABEL, ALL_RARITIES } from '../../utils/rarity';
 import ProgressRing from './ProgressRing';
 import DistrictProgress from './DistrictProgress';
@@ -12,12 +11,15 @@ import RarestAchievements from '../achievements/RarestAchievements';
 import AchievementModal from '../achievements/AchievementModal';
 
 // The profile itself, below the page header: level and XP, the ring with the
-// rank and cards by rarity, achievements, the newest treasure finds and
-// expedition cards, then labels and districts. The user's own profile
+// rank and cards by rarity, achievements, the district map, and the newest
+// treasure finds and expedition cards (the label breakdown was dropped
+// 2026-11-04, user's call: hard to read). The user's own profile
 // (DashboardPage) and another explorer's (ExplorerPage) both use it, so the
 // two look the same (2026-11-03, user's call). `own` is false on someone
 // else's: links that would lead to the viewer's own cards are left out.
 // `progress` is the /progress payload, `achievements` the whole catalogue.
+const firstFour = d => (d ? { ...d, cards: (d.cards || []).slice(0, 4) } : d);
+
 export default function ProfileBody({ progress, achievements, username, own = true, isGuest = false }) {
   const t       = useT();
   const { lang } = useLang();
@@ -29,7 +31,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
   // A card opened from the treasure / expedition strips.
   const [openSlug, setOpenSlug] = useState(null);
 
-  const { levelInfo, totalXP, unlockPercent, labelCount, rarityCount, totalPreset } = progress;
+  const { levelInfo, totalXP, unlockPercent, rarityCount, totalPreset } = progress;
   // Rank movement since Monday 0:00 in Prague, when the week resets
   // (2026-11-03): green ▲ up, a muted grey ▼ down (red is the site's accent,
   // and dropping isn't an error), nothing when unchanged, "new" when they had
@@ -93,6 +95,12 @@ export default function ProfileBody({ progress, achievements, username, own = tr
         </div>
       </div>
 
+      {/* Below the level row: the overview, achievements, strips and labels
+          in one column, the district map in the other on wide screens; on
+          narrower ones the map sits between the achievements and the strips
+          (2026-11-04, user's call). */}
+      <div className="profile-layout">
+      <div className="profile-layout__top">
       <div className="dashboard-grid">
         {/* Progress Ring. The check-in count line under the totals was
             dropped (2026-11-03): check-ins can't be undone, so it only
@@ -151,79 +159,73 @@ export default function ProfileBody({ progress, achievements, username, own = tr
         <div className="stat-card rarity-compact">
           <div className="stat-card__label">{t('dashboard.rarityBreakdown')}</div>
           <ul className="rarity-compact__list">
-            {ALL_RARITIES.map(r => (
-              <li key={r} className="rarity-compact__item" style={{ color: RARITY_VAR[r] }}>
-                <span className="rarity-compact__name">{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>
-                <span className="rarity-compact__n">{rarityCount?.[r] ?? 0}</span>
-              </li>
-            ))}
+            {ALL_RARITIES.map(r => {
+              const inner = (
+                <>
+                  <span className="rarity-compact__name">{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>
+                  <span className="rarity-compact__n">{rarityCount?.[r] ?? 0}</span>
+                </>
+              );
+              return (
+                <li key={r} className="rarity-compact__item" style={{ color: RARITY_VAR[r] }}>
+                  {/* Own profile: opens My Collections filtered to this rarity
+                      (2026-11-04). Not styled as a link; underlined on hover. */}
+                  {own && (rarityCount?.[r] || 0) > 0
+                    ? <Link to="/explore" state={{ collection: true, rarity: r, showAll: r === 'expedition' }} className="quiet-link rarity-compact__link">{inner}</Link>
+                    : inner}
+                </li>
+              );
+            })}
           </ul>
         </div>
 
       </div>
 
       {/* Achievements: share unlocked, the rarest ones, and every one when expanded */}
-      <RarestAchievements achievements={achievements} onOpen={setSelectedAch} titleLink={own} />
+      {/* Achievements, treasure finds and expeditions each in a card like
+          the stat cards above (2026-11-04, user's call). */}
+      <div className="stat-card profile-card">
+        <RarestAchievements achievements={achievements} onOpen={setSelectedAch} titleLink={own} />
+      </div>
+      </div>
+
+      {/* The districts as a map and a list (2026-11-03; the map 2026-11-04). */}
+      <div className="profile-layout__side">
+        <DistrictProgress districts={progress.districtProgress} own={own && !isGuest} />
+      </div>
+
+      <div className="profile-layout__bottom">
+
 
       {/* The newest treasure finds and expedition cards, small (2026-11-03).
           On someone else's profile the links to "all" and the nudges are
           left out: they would lead to the viewer's own cards. */}
+      {/* Side by side, four cards at most each (2026-11-04, user's call). */}
       {!isGuest && progress.recentFinds && (
-        <>
-          <RecentCardStrip
-            title={t('dashboard.treasures')}
-            data={progress.recentFinds.treasure}
-            allTo={own ? '/treasure-hunt' : null} allState={{ showFinds: true }}
-            details
-            emptyText={t('dashboard.treasuresEmpty')} emptyLinkText={t('dashboard.treasuresLink')} emptyTo={own ? '/treasure-hunt' : null}
-            onOpen={setOpenSlug}
-          />
-          <RecentCardStrip
-            title={t('dashboard.expeditions')}
-            data={progress.recentFinds.expedition}
-            allTo={own ? '/explore' : null} allState={{ collection: true, rarity: 'expedition' }}
-            emptyText={t('dashboard.expeditionsEmpty')} emptyLinkText={t('dashboard.expeditionsLink')} emptyTo={own ? '/explore' : null} emptyState={{ showAll: true, rarity: 'expedition' }}
-            onOpen={setOpenSlug}
-          />
-        </>
+        <div className="dashboard-grid profile-strips">
+          <div className="stat-card profile-card">
+            <RecentCardStrip
+              title={t('dashboard.treasures')}
+              data={firstFour(progress.recentFinds.treasure)}
+              allTo={own ? '/treasure-hunt' : null} allState={{ showFinds: true }}
+              details
+              emptyText={t('dashboard.treasuresEmpty')} emptyLinkText={t('dashboard.treasuresLink')} emptyTo={own ? '/treasure-hunt' : null}
+              onOpen={setOpenSlug}
+            />
+          </div>
+          <div className="stat-card profile-card">
+            <RecentCardStrip
+              title={t('dashboard.expeditions')}
+              data={firstFour(progress.recentFinds.expedition)}
+              allTo={own ? '/explore' : null} allState={{ collection: true, rarity: 'expedition' }}
+              emptyText={t('dashboard.expeditionsEmpty')} emptyLinkText={t('dashboard.expeditionsLink')} emptyTo={own ? '/explore' : null} emptyState={{ showAll: true, rarity: 'expedition' }}
+              onOpen={setOpenSlug}
+            />
+          </div>
+        </div>
       )}
 
-      {/* The detailed numbers come last (2026-11-03, user's call): labels
-          and districts, after the trophies above them. */}
-      <div className="dashboard-grid" style={{ marginTop: 28 }}>
-        {/* Label Breakdown, full width */}
-        <div className="stat-card" style={{ gridColumn: '1 / -1' }}>
-          <div className="stat-card__label" style={{ marginBottom: 10 }}>{t('dashboard.categoryBreakdown')}</div>
-          {(() => {
-            const entries = Object.entries(LABEL_DEFINITIONS)
-              .filter(([key]) => isGuest || (labelCount?.[key] || 0) > 0)
-              .sort(([keyA], [keyB]) => (labelCount?.[keyB] || 0) - (labelCount?.[keyA] || 0));
-            if (!isGuest && entries.length === 0) {
-              return <div style={{ color: 'var(--text-muted)', fontSize: 15 }}>—</div>;
-            }
-            return (
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                {entries.map(([key, def]) => (
-                  <div key={key} style={{
-                    display: 'flex', alignItems: 'center', gap: 5,
-                    background: 'var(--bg-surface)',
-                    border: '2px solid var(--border, #333)',
-                    padding: '4px 8px',
-                    fontSize: 13,
-                  }}>
-                    <span>{convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}</span>
-                    <span style={{ color: 'var(--gold)', fontSize: 13, fontWeight: 700 }}>
-                      {labelCount?.[key] || 0}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            );
-          })()}
-        </div>
-
-        {/* Collected out of all cards in each district, Praha 1 to 22 (2026-11-03). */}
-        <DistrictProgress districts={progress.districtProgress} />
+      </div>
       </div>
 
       {levelsOpen && <LevelsModal currentLevel={levelInfo.level} onClose={() => setLevelsOpen(false)} />}
