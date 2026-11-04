@@ -7,7 +7,12 @@
 export const AREA_GUIDE_KEYS = {
   district: Array.from({ length: 22 }, (_, i) => `Praha ${i + 1}`),
   quarter: ['Staré Město', 'Malá Strana', 'Nové Město', 'Josefov', 'Hradčany', 'Vyšehrad', 'Vinohrady', 'Žižkov', 'Smíchov', 'Karlín', 'Holešovice', 'Libeň', 'Bubeneč', 'Dejvice', 'Břevnov',
-    'Troja', 'Nusle', 'Vršovice', 'Zbraslav'],
+    'Troja', 'Nusle', 'Vršovice', 'Zbraslav',
+    'Braník', 'Krč', 'Podolí', 'Michle', 'Kunratice', 'Záběhlice', 'Hlubočepy', 'Košíře',
+    'Motol', 'Jinonice', 'Liboc', 'Ruzyně', 'Střešovice', 'Vokovice', 'Sedlec', 'Suchdol',
+    'Bohnice', 'Kobylisy', 'Vysočany', 'Prosek', 'Hloubětín', 'Strašnice', 'Malešice', 'Hostivař',
+    'Černý Most', 'Dolní Počernice', 'Kyje', 'Chodov', 'Háje', 'Modřany', 'Stodůlky', 'Řeporyje',
+    'Radotín', 'Velká Chuchle', 'Malá Chuchle', 'Řepy', 'Letňany', 'Čakovice', 'Kbely', 'Horní Počernice', 'Klánovice', 'Uhříněves'],
 };
 
 // The "Famous landmarks" section of a guide (`{ h, landmarks: true }` in the
@@ -93,6 +98,93 @@ export const AREA_LANDMARKS = {
       'zbraslavsky-zamek', 'kostel-svateho-jakuba-vetsiho-zbraslav', 'jizni-pol-prahy', 'vila-vladislava-vancury', 'kostel-svateho-havla-zbraslav',
       'karluv-stanek', 'lom-zbraslav', 'kaplicka-panny-marie-zbraslavske', 'zbraslav',
     ],
+    'Braník': [
+      'brank-rock-cliff-1783427336440', 'viewpoint-dobeka-1782864480282', 'old-brank-1783436995414', 'dominikansky-dvur',
+      'brank-brewery-1782863740784', 'branicke-ledarny', 'kostel-sv-prokopa-branik', 'barrandovsky-most',
+    ],
+    'Krč': [
+      'kr-castle-1782864170066', 'rybnik-sykorka-a-zamecky-rybnik', 'nemocnice-krc', 'v-tower', 'budejovicke-namesti', 'kacerov',
+    ],
+    'Podolí': [
+      'podolska-vodarna', 'podol-swimming-stadium-1783209825060', 'zlute-lazne', 'porodnice-podoli',
+      'televizni-stredisko-kavci-hory', 'podol-profile-1783209955360', 'kostel-svateho-michaela-archandela-podoli', 'dvorecky-most',
+    ],
+    'Michle': [
+      'michelska-vodarenska-vez', 'plynarna-michle', 'sbor-alberta-schweitzera-michle', 'kostel-narozeni-panny-marie-michle',
+      'bb-centrum', 'tyrsuv-vrch', 'bohdalec-1783882752559', 'budova-filadelfie',
+    ],
+    'Kunratice': [
+      'new-castle-ruins-near-kunratice-1783003399902', 'st-james-apostle', 'kunratice-fortress-1783377528490', 'sapa-praha',
+      'monument-to-the-legionnaires-fallen-in-the-world-war-1783377752694',
+    ],
+    'Záběhlice': [
+      'zabehlicky-zamek', 'hamersky-rybnik', 'kostel-sv-anezky-ceske-sporilov', 'kostel-narozeni-panny-marie-zabehlice',
+    ],
+    'Hlubočepy': [
+      'old-hluboepy-town-1783210594463', 'hlubocepske-viadukty', 'barrandovske-skaly', 'barrandovske-terasy', 'filmove-ateliery-barrandov',
+      'historical-town-backlot-1783281864604', 'church-of-st-philip-and-james-in-zlchov-1783288824141', 'hlubocepsky-zamecek', 'prokopske-jezirko', 'dvn-hillfort-ruins-1783473947717',
+    ],
+    'Košíře': [
+      'cibulka-manor-1782666966501', 'rozhledna-cibulka', 'cinsky-pavilon-cibulka', 'kostel-sv-jana-nepomuckeho-kosire', 'plzenska-ulice',
+    ],
+    'Motol': ['nemocnice-motol', 'zamek-motol', 'krucifix-motol', 'golf-club-praha', 'motolsky-pivovar', 'maltezsky-mlyn'],
+    'Jinonice': ['prokopske-valley', 'butovicke-hradiste', 'jinonice-chateau-1783285307832', 'aviatica', 'tunel-prokopske-udoli', 'knihobudka-prokopske-udoli'],
+    'Liboc': [
+      'hvezda-game-reserve', 'libocka-brana', 'hradiste-sarka', 'nebusicka-vyhlidka', 'vodovodni-stola-svetluska',
+      'socha-jana-rohace-z-dube', 'kostel-svateho-fabiana-a-sebestiana-liboc', 'schubertova-vila',
+    ],
+    'Ruzyně': ['vaclav-havel-airport', 'mohyla-bile-hory', 'zapadni-pol-prahy', 'kasarna-ruzyne', 'ruzyn-prison-1782570848316'],
+    'Střešovice': ['mullerova-vila', 'muzeum-mhd', 'ustredni-budova-orechovka', 'kostel-sv-norberta', 'pomnik-padlym-prvni-svetove-valky-stresovice'],
+    'Vokovice': ['divoka-sarka', 'lake-dzban', 'sidliste-cerveny-vrch', 'evropska-trida', 'afi-vokovice'],
+    'Sedlec': ['v-sedlci', 'zamek-sedlec', 'kaple-nejsvetejsi-trojice-sedlec', 'nadrazi-praha-sedlec'],
+    'Suchdol': ['suchdol', 'czech-university-of-life-sciences-prague-1782583672397', 'kaple-svateho-vaclava-suchdol', 'komunitni-zahrada-suchdol'],
+    'Bohnice': [
+      'psychiatricka-nemocnice-bohnice', 'kostel-svateho-vaclava-bohnice', 'divadlo-za-plotem', 'kostel-svateho-petra-a-pavla-bohnice',
+      'zamek-bohnice', 'statek-vranych', 'bohnice', 'dum-zelenohorska', 'dynamitka-bohnice', 'prirodni-park-drahan-troja',
+    ],
+    'Kobylisy': ['-1782584125681', 'kobylisy'],
+    'Vysočany': ['pragovka-art-district', 'vysocanska-radnice', 'lidovy-dum-vysocany', 'cukrovar-vysocany', 'kolbenova', 'afi-city-tower'],
+    'Prosek': ['kostel-svateho-vaclava-prosek', 'prosecka-vyhlidka', 'vinarsky-sloup-prosek'],
+    'Hloubětín': ['prazsky-zlom', 'krizovnicky-dvur-hloubetin', 'hloubetinsky-zamek', 'kostel-svateho-jiri-hloubetin', 'kejruv-mlyn', 'cihelna-v-bazantnici'],
+    'Strašnice': [
+      'trmalova-vila', 'radio-free-europe', 'fragment-berlinske-zdi-strasnice', 'hagibor', 'kostel-neposkvrneneho-poceti',
+      'strasnicke-divadlo', 'cervenkova-kaple', 'becvaruv-dvur',
+    ],
+    'Malešice': ['byty-malesice', 'spalovna-malesice', 'malesicky-viadukt', 'vyklenkova-kaple-malesice', 'jiraskova-vila-malesice', 'malesicky-park', 'milicova-modlitebna'],
+    'Hostivař': [
+      'hostiva-reservoir-1783430212752', 'meandry-botice', 'stara-hostivar', 'hostiva-hillfort-1783430582163', 'kostel-steti-sv-jana-krtitele-hostivar',
+      'toulcuv-dvur', 'hraz-preharady-hostivar', 'horejsi-a-dolejsi-mlyn-hostivar',
+    ],
+    'Černý Most': ['rajsk-zahrada-metro-station-1783287225844', 'cerny-most'],
+    'Dolní Počernice': [
+      'zamek-dolni-pocernice', 'park-u-cenku', 'vybeh-pro-zubry-dolni-pocernice', 'kostel-nanebevzeti-panny-marie-dolni-pocernice',
+      'nejmensi-prazska-rozhledna', 'xaverovsky-haj',
+    ],
+    'Kyje': ['kostel-svateho-bartolomeje-kyje', 'kyjsky-rybnik', 'rozhledna-doubravka', 'praha-kyje-zeleznicni-zastavka'],
+    'Chodov': ['chodovska-tvrz', 'narodni-archiv', 'westfield-chodov', 'kunraticky-forest', 'komunitni-centrum-matky-terezy', 'the-park-chodov'],
+    'Háje': ['cosmonauts-monument-1783380746060', 'haje', 'zoopark-milicov', '-1783379166594'],
+    'Modřany': ['modranska-rokle', 'modranska-vinice', 'kostel-panny-marie-modrany', 'radnice-prahy-12'],
+    'Stodůlky': [
+      'centralni-park-praha', 'stredoveky-skanzen-repora', 'stare-stodulky', 'church-of-st-james-the-greater-in-stodlky-1783286156715',
+      'slunecni-namesti', 'luiny-housing-estate-1783285925113', 'sidliste-velka-ohrada', 'trifot-1783351996047', 'centralni-depozitar-upm', 'most-metra-hurka-luziny',
+    ],
+    'Řeporyje': [
+      'dalejsky-profil', 'vapenka-biskup-kvis-kotrba', 'zeleznicni-viadukt-reporyje', 'kostel-svateho-petra-a-pavla-reporyje',
+      'pomnik-ruske-osvobozenecke-armady-reporyje', 'trunecku-mlyn', 'pozary',
+    ],
+    'Radotín': [
+      'radotinske-skaly', 'radotinske-udoli', 'hvizdalka', 'biotop-radotin', 'radotinska-lavka',
+      'kostel-svateho-petra-a-pavla-radotin', 'prazska-pastvina', 'byvala-tovarna-janka', 'radotin',
+    ],
+    'Velká Chuchle': ['dostihove-zavodiste-velka-chuchle', 'velka-chuchle', 'pacold-lime-kiln-1783428336935', 'church-of-st-john-of-nepomuk-1783465388619'],
+    'Malá Chuchle': ['marys-spring-1783463381068', 'chuchelske-lazne', 'kostel-narozeni-panny-marie-mala-chuchle', 'mlyn-a-cukrovar-mala-chuchle', 'zookoutek-mala-chuchle'],
+    'Řepy': ['the-pilgrimage-site-of-our-lady-of-victory-on-white-mountain-1783352113593', 'domov-sv-karla-boromejskeho', 'lesopark-repy', 'repy'],
+    'Letňany': ['letiste-letnany', 'pva-expo-praha', 'kaple-svateho-krize-letnany', 'letňany', 'mestska-cast-praha-18-letnany'],
+    'Čakovice': ['zamek-cakovice', 'kostel-svateho-remigia-cakovice', 'akovice-1782388528328', 'urad-mc-praha-cakovice'],
+    'Kbely': ['letecke-muzeum-kbely', 'praha-kbely-airport-1783209394743'],
+    'Horní Počernice': ['chvalsky-zamek'],
+    'Klánovice': ['klanovsky-les', 'klanovice', 'kostel-nanebevzeti-panny-marie-klanovice'],
+    'Uhříněves': ['uhrineves', 'kostel-vsech-svatych-uhrineves', 'vila-na-zamecku-uhrineves', 'evangelicky-kostel-uhrineves', 'radnice-praha-22'],
   },
 };
 

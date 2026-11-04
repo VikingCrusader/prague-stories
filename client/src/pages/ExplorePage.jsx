@@ -231,10 +231,11 @@ export default function ExplorePage() {
           <div style={{ flex: '1 1 320px', minWidth: 0 }}>
             <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
             {areaActive
-              ? areaBlurb && !rarityBlurb && (
+              // The short blurb (if the area has one) and the link to its guide.
+              ? !rarityBlurb && (
                 <p className="explore-area-blurb">
-                  {convert(areaBlurb[lang] || areaBlurb.en)}
-                  {' '}
+                  {areaBlurb && convert(areaBlurb[lang] || areaBlurb.en)}
+                  {areaBlurb && ' '}
                   <button type="button" className="area-guide-link" onClick={() => setAreaGuide({ kind: area.kind, value: area.value })}>
                     {convert(t('areaGuide.more'))}
                   </button>

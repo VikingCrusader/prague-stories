@@ -4,15 +4,22 @@ import { quarterName } from '../../utils/pragueQuarters';
 
 const DISTRICTS = Array.from({ length: 22 }, (_, i) => `Praha ${i + 1}`);
 
-// The historical-division menu lists only the well-known quarters: the old
-// royal towns, then the 19th-century suburbs that grew into the inner city.
-// The small villages absorbed into Prague later stay off the menu (their
-// cards still show their quarter in the detail view).
+// The historical-division menu lists the well-known quarters: the old royal
+// towns and the 19th-century suburbs first, then (2026-11-04) the larger
+// suburbs and villages that get an area guide of their own, roughly by
+// district. The small villages stay off the menu (their cards still show
+// their quarter in the detail view).
 export const FEATURED_QUARTERS = [
   'Hradčany', 'Malá Strana', 'Staré Město', 'Josefov', 'Nové Město', 'Vyšehrad',
   'Smíchov', 'Vinohrady', 'Žižkov', 'Karlín', 'Libeň', 'Holešovice', 'Bubeneč',
   'Dejvice', 'Břevnov', 'Střešovice', 'Vršovice', 'Nusle', 'Košíře', 'Podolí',
   'Braník', 'Troja', 'Vysočany', 'Strašnice', 'Zbraslav',
+  'Krč', 'Michle', 'Kunratice', 'Záběhlice', 'Hlubočepy', 'Motol', 'Jinonice',
+  'Liboc', 'Ruzyně', 'Vokovice', 'Sedlec', 'Suchdol', 'Bohnice', 'Kobylisy',
+  'Prosek', 'Hloubětín', 'Malešice', 'Hostivař', 'Černý Most', 'Dolní Počernice',
+  'Kyje', 'Chodov', 'Háje', 'Modřany', 'Stodůlky', 'Řeporyje', 'Radotín',
+  'Velká Chuchle', 'Malá Chuchle', 'Řepy', 'Letňany', 'Čakovice', 'Kbely',
+  'Horní Počernice', 'Klánovice', 'Uhříněves',
 ];
 
 // area: null, or { kind: 'district' | 'quarter', value } (value = the Czech

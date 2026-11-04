@@ -843,5 +843,654 @@ export default {
         'Sjeďte z centra na kole podél řeky nebo autobusem na jih, prohlédněte si zámek a kostel vedle něj a naobědvejte se na náměstí. Odpoledne se jděte podívat, jak se obě řeky potkávají, a nakonec najděte nejjižnější bod Prahy.',
       ] },
     ],
+    'Braník': [
+      { h: 'Přehled', p: [
+        'Braník leží na pravém břehu Vltavy jižně od Podolí a patří k Praze 4. U řeky se zvedá šedobílá vápencová skála a pod ní jsou uličky staré vesnice, starý pivovar a řada ledáren, nahoře ve svazích sídliště. Patří k místům, kde je Praha nejblíž řece a kde nejvíc připomíná městečko za městem.',
+      ] },
+      { h: 'Historie', p: [
+        'Braník začínal jako vesnice u řeky a od 17. století patřil pražským dominikánům, kteří tu postavili dvůr, jenž stojí dodnes. Vesnice žila z řeky: lámal se tu vápenec, pálilo vápno a sekal led. Na začátku 20. století se skupina pražských hostinských složila a založila tu pivovar a branické pivo se proslavilo po celém městě. K Velké Praze se Braník připojil v roce 1922; pivovar zavřel v roce 2007.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Než přišly ledničky, spoléhaly pražské hospody a pivovary na přírodní led. V zimě dělníci sekali zamrzlou Vltavu na velké kvádry a táhli je do branických ledáren na břehu, kde vydržely až do léta. Řada ledáren u řeky stojí dodnes, jen led už v nich dávno nikdo neskladuje.',
+        'Na vrcholu skály je vyhlídka, odkud je vidět celá Vltava i Barrandov na protějším břehu.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Dojděte po cyklostezce podél řeky pod skálu a podívejte se na lezce, pak zajděte do staré vesnice k dominikánskému dvoru a starému pivovaru a skončete na vrcholu skály, kde počkáte na západ slunce nad řekou.',
+      ] },
+    ],
+    'Krč': [
+      { h: 'Přehled', p: [
+        'Krč leží jižně od Pankráce a patří k Praze 4. Na severu jsou kancelářské budovy, stanice metra a nejvyšší obytná věž Prahy, na jihu velký les a mezi nimi malý novogotický zámek, několik velkých nemocnic a skupina výzkumných ústavů. Do Krče se v Praze jezdí k lékaři nebo za vědou a o víkendu sem Praha 4 mizí do lesa.',
+      ] },
+      { h: 'Historie', p: [
+        'Krč začínala jako vesnice na okraji lesa s malým zámkem a několika rybníky. K Velké Praze se připojila v roce 1922 a o pár let později tu město postavilo sociální ústav pro staré a nemocné, Masarykovy domovy, z nichž vyrostla dnešní velká nemocnice. Za komunismu přibyly v Krči i celostátní lékařské výzkumné ústavy a skupina laboratoří Akademie věd a „jet do Krče“ znamenalo pro Pražany často jet k doktorovi. Po roce 1989 rostly podél ulic na severu kancelářské budovy jedna za druhou.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Krčský zámek vypadá středověce, ale novogotickou podobu dostal až v 19. století: zámek, který se dělá starším, než je. Obytná věž na severu je nejvyšší v Praze a z nejvyššího patra je vidět půlka města.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Začněte u zámku, obejděte rybníky vedle něj a pak se ponořte na hodinu či dvě do Krčského lesa; cestou zpátky se podívejte nahoru na nové panorama, které vyrostlo na severu.',
+      ] },
+    ],
+    'Podolí': [
+      { h: 'Přehled', p: [
+        'Podolí je úzký pruh břehu mezi vyšehradskou skálou a Braníkem a patří k Praze 4. Mezi Vltavou a strmým svahem se tu tísní vodárna, která vypadá jako palác, velký plavecký stadion, porodnice a Česká televize. Spousta Pražanů přišla na svět právě v Podolí.',
+      ] },
+      { h: 'Historie', p: [
+        'Podolí začínalo jako malá vesnice u řeky, jejíž obyvatelé rybařili, hospodařili a lámali vápenec ve svahu. V 19. století tu vznikla cementárna a desítky let tu všechno pokrýval prach. K Velké Praze se Podolí připojilo v roce 1922; o pár let později postavil Antonín Engel, architekt Dejvic, u řeky honosnou vodárnu, která zásobovala celé město. V roce 1965 vyrostl na místě cementárny velký plavecký stadion a z prašné průmyslové vesnice se stalo místo, kam Pražané chodí plavat a opalovat se.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Hala podolské vodárny je tak honosná, že se jí říká „katedrála vody“, a dnes v ní sídlí muzeum vodárenství. Porodnice začínala v roce 1914 jako sanatorium a stala se nejznámější pražskou porodnicí; „narodil jsem se v Podolí“ může říct spousta Pražanů.',
+        'U silnice u plaveckého stadionu je také odkrytá skalní stěna, vrstvy jedna na druhé, a geologové ji čtou jako knihu napsanou před stovkami milionů let.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'V létě si zaplavte ve venkovním bazénu stadionu nebo na plovárně u řeky, pak se projděte podél řeky až pod vyšehradskou skálu a cestou kolem vodárny se podívejte na „katedrálu vody“.',
+      ] },
+    ],
+    'Michle': [
+      { h: 'Přehled', p: [
+        'Michle leží jihovýchodně od Nuslí a dělí se o ni Praha 4 a Praha 10. Je tu kostel staré vesnice, bývalá velká plynárna s vodárenskou věží, několik malých kopců a jeden z největších kancelářských komplexů v Praze. Michle není krásná, ale velmi názorně ukazuje, jak Praha vyrostla z vesnic ve velkoměsto.',
+      ] },
+      { h: 'Historie', p: [
+        'Michle začínala jako vesnice na svahu obklopená vinicemi a statky. V 19. století se sem nastěhovalo mnoho dělníků a židovských rodin a obec si postavila synagogu. K Velké Praze se Michle připojila v roce 1922 a o pár let později tu město postavilo svou největší plynárnu, která z uhlí vyráběla svítiplyn pro lampy i kuchyně celé Prahy až do sedmdesátých let. Po roce 1989 vyrostly na volných pozemcích u plynárny velké kancelářské budovy a z Michle se stalo místo, kam se jezdí do práce.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Michelská synagoga přežila válku, později ji převzala křesťanská církev a pojmenovala ji po lékaři a filozofovi Albertu Schweitzerovi. Slouží dodnes a na jejích zdech je pořád trochu vidět, čím bývala.',
+        'Stojí i vodárenská věž plynárny, vysoká a štíhlá, nejviditelnější stopa průmyslové minulosti Michle.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Začněte výstupem na některý z malých kopců s výhledem na jihovýchod Prahy, pak najděte starou vodárenskou věž a bývalou synagogu a nakonec projděte kancelářským komplexem, ať vidíte, jak vypadá nová Michle.',
+      ] },
+    ],
+    'Kunratice': [
+      { h: 'Přehled', p: [
+        'Kunratice leží na jihu Prahy ve správním obvodu Prahy 4, ale jsou samostatnou městskou částí s vlastním náměstím, kostelem a starým zámkem. Na severu je velký les a na západě největší vietnamská tržnice ve městě. Kunratice dodnes působí jako městečko a součástí Prahy se staly až v roce 1968.',
+      ] },
+      { h: 'Historie', p: [
+        'Jméno Kunratice pochází od muže jménem Konrád; tak se jmenovala středověká ves. Na začátku 15. století postavil král Václav IV. v lese u vsi nový hrad a rád v něm pobýval, daleko od pražských sporů. V roce 1419, krátce po první pražské defenestraci, na tom hradě zemřel, prý ho ranila mrtvice, když se o ní dozvěděl. Za husitských válek byl hrad zničen a zbyly jen zříceniny.',
+        'Další staletí zůstaly Kunratice vesnicí s malým zámkem a barokním kostelem. V roce 1999 se na západě, v areálu bývalého masokombinátu, otevřela vietnamská tržnice Sapa a dnes je jedním z center vietnamské komunity v celé zemi.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Král na svém oblíbeném hradě zemřel vzteky nad špatnou zprávou z Prahy. Tak to aspoň vypráví pověst. Hrad se dnes skrývá hluboko v lese a chvíli trvá, než ho najdete.',
+        'Sapě se říká „pražská malá Hanoj“ a zdejší phở se často prohlašuje za nejautentičtější ve městě.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Projděte se kolem náměstí a kostela městečka, pak zamiřte do lesa na severu najít zříceninu králova hradu a nakonec dojděte na západ do Sapy na misku phở.',
+      ] },
+    ],
+    'Záběhlice': [
+      { h: 'Přehled', p: [
+        'Záběhlice leží v údolí potoka Botiče a dělí se o ně Praha 4 a Praha 10. Je tu stará vesnice, malý barokní zámek, velký rybník a zahradní město Spořilov z dvacátých let: řady řadových domků s malými zahradami, tiché jako z jiné doby.',
+      ] },
+      { h: 'Historie', p: [
+        'Záběhlice začínaly jako vesnice na Botiči s mlýny a hamrem na potoce, odkud má jméno rybník Hamr. V 18. století tu vznikl malý barokní zámek. K Velké Praze se Záběhlice připojily v roce 1922 a o pár let později se pole ve svahu rozparcelovala na zahradní město Spořilov, které prý dostalo jméno po spořitelně, jež výstavbu financovala. Tisíce rodin střední třídy se nastěhovaly do domků se zahradou, což byl tehdy v Praze velmi nový způsob života.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Domy na Spořilově jsou skoro stejné: dvě patra, vpředu zahrádka, vzadu záhonek, úhledně seřazené podél desítek ulic. Uprostřed zahradního města stojí modernistický kostel ze třicátých let zasvěcený svaté Anežce České.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Projděte se podél Botiče od staré vesnice k rybníku a pak se zatoulejte do spořilovských ulic, ať vidíte, jak si Pražané před sto lety představovali dobrý život.',
+      ] },
+    ],
+    'Hlubočepy': [
+      { h: 'Přehled', p: [
+        'Hlubočepy leží na levém břehu Vltavy jižně od Smíchova a patří k Praze 5. Patří k nim stará vesnice schovaná v údolí, řady vápencových skal, barrandovské filmové ateliéry a velké sídliště na vrcholu skal. Málokde v Praze se krajina mění tak rychle: od starých statků na dně údolí k panelákům na hraně skály je to jedna jízda tramvají.',
+      ] },
+      { h: 'Historie', p: [
+        'Hlubočepy začínaly jako malá vesnice v údolí, která žila z lámání vápence a pálení vápna. V roce 1872 tudy vedla železnice se dvěma vysokými kamennými viadukty, kterým se později začalo říkat Pražský Semmering. K Velké Praze se obec připojila v roce 1922.',
+        'Koncem dvacátých let postavil architekt Václav M. Havel na skále nad řekou terasovou restauraci a vilovou čtvrť a pojmenoval ji Barrandov po francouzském geologovi Joachimu Barrandovi, který tu zkoumal horninové vrstvy. O pár let později vybudoval jeho bratr Miloš Havel vedle filmové ateliéry. První byl otcem pozdějšího prezidenta Václava Havla, druhý jeho strýcem. V osmdesátých letech vyrostlo na vrcholu skal velké sídliště a tramvaj se k němu dostala až v roce 2003.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Na zadním dvoře barrandovských ateliérů stojí obrovské „středověké město“ s hradbami, věžemi i náměstím, celé jen kulisa, kde se natočila spousta historických filmů.',
+        'Horninové vrstvy ve skalách znají geologové po celém světě: stovky milionů let staré mořské dno postavené na výšku vedle tramvajové zastávky.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Začněte procházkou starou vesnicí v údolí a podívejte se na oba železniční viadukty, pak vyjeďte tramvají na skály a od terasové restaurace se rozhlédněte po Vltavě a nakonec se projděte po stezce podél skal kolem mořského dna starého stovky milionů let.',
+      ] },
+    ],
+    'Košíře': [
+      { h: 'Přehled', p: [
+        'Košíře leží západně od Smíchova a patří k Praze 5. Táhnou se podél staré cesty na Plzeň, v údolí jsou staré činžáky a vily a ve svahu romantický zámecký park. Košíře nejsou velké, ale patří k nejzelenějším starým pražským předměstím.',
+      ] },
+      { h: 'Historie', p: [
+        'Košíře začínaly jako vesnice v údolí za Smíchovem obklopená vinicemi a usedlostmi a vedla jimi prastará cesta na Plzeň a do měst na západě. V 19. století, jak na Smíchově přibývalo továren, vyrostly i v Košířích nájemní domy a usadili se tu dělníci a úředníci. K Velké Praze se připojily v roce 1922.',
+        'V roce 1817 koupil pasovský biskup usedlost Cibulka ve svahu a proměnil ji v romantický krajinářský park s umělou zříceninou, poustevnou, rozhlednou a čínským pavilonem.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'V 19. století evropská šlechta milovala čínské stavby ve svých zahradách a košířský biskup nebyl výjimkou. Jeho čínský pavilon se dodnes schovává mezi stromy, do barokní Prahy se vůbec nehodí, a o to je roztomilejší.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Vejděte do Košíř po staré cestě kolem starých domů, pak vystoupejte do svahu a v lese Cibulky najděte čínský pavilon a rozhlednu, z jejíhož vrcholu je vidět celý západ Prahy.',
+      ] },
+    ],
+    'Motol': [
+      { h: 'Přehled', p: [
+        'Motol leží na západě Prahy v údolí, kterým protéká potok, a patří k Praze 5. V údolí je starý zámek, starý mlýn a jedno z nejstarších pražských golfových hřišť; ve svahu stojí největší nemocnice v zemi. Pro většinu Pražanů znamená slovo „Motol“ prostě „nemocnice“.',
+      ] },
+      { h: 'Historie', p: [
+        'Motol začínal jako vesnice u potoka s malým zámkem, malým pivovarem a několika mlýny. K Velké Praze se připojil v roce 1922 a ve dvacátých letech vzniklo v údolí golfové hřiště, v tehdejší Praze vzácná zábava. Za komunismu vyrostla ve svahu obrovská nemocnice, k níž později přibyla i jedna z lékařských fakult Univerzity Karlovy, a dnes je to největší nemocnice a dětská nemocnice v zemi.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Na skále v údolí stojí osamělý kříž, který uvidíte, jen když se ze silnice podíváte nahoru. Starému mlýnu v údolí se říká Maltézský, prý podle maltézských rytířů, kteří tu kdysi měli pozemky.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Projděte kus údolí potoka kolem zámku, mlýna a kříže na skále; obří komplex na vzdáleném svahu je nemocnice, která Motol proslavila.',
+      ] },
+    ],
+    'Jinonice': [
+      { h: 'Přehled', p: [
+        'Jinonice leží na západě Prahy 5. Na jedné straně jsou nové kancelářské budovy a bydlení, na druhé jedno z nejkrásnějších pražských údolí, Prokopské údolí, s vápencovými skalami, loukami a lesy po stranách a hluboko uvnitř se zbytky slovanského hradiště starého přes tisíc let.',
+      ] },
+      { h: 'Historie', p: [
+        'Už v 8. a 9. století postavili Slované na výšině nad údolím opevněné sídliště, Butovické hradiště, starší než Pražský hrad. Později tu zůstala jen ves, statky a malý zámek. K Velké Praze se Jinonice připojily v roce 1922; ve 20. století tu desítky let fungovala továrna na letecké motory a její areál se mezitím proměnil v kanceláře.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Prokopské údolí nese jméno po českém světci Prokopovi, který byl podle legendy poustevníkem žijícím v jeskyni a dokázal vyhánět ďábly. V údolí je také malá knihobudka, kde kolemjdoucí mohou nechat jednu knihu a vzít si jinou.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Vejděte z Jinonic do Prokopského údolí, projděte ho až do hloubi a pak vystoupejte na výšinu ke zbytkům prastarého slovanského hradiště. Údolím se dá dojít až do Hlubočep a o víkendech je plné pejskařů a cyklistů.',
+      ] },
+    ],
+    'Liboc': [
+      { h: 'Přehled', p: [
+        'Liboc leží na západě Prahy 6 mezi Šáreckým údolím a Bílou horou. Proslavila ji hlavně prastará obora obehnaná vysokou zdí s letohrádkem ve tvaru hvězdy uprostřed. Samotná ves je malá a tak tichá, že skoro zapomenete, že letiště je jen pár kilometrů odtud.',
+      ] },
+      { h: 'Historie', p: [
+        'Liboc začínala jako ves na okraji Šáreckého údolí, kde leží i zbytky starého slovanského hradiště. Ve třicátých letech 16. století ohradil Ferdinand I. vedle vsi oboru a v roce 1555 v ní jeho syn, arcivévoda Ferdinand Tyrolský, postavil letohrádek ve tvaru šesticípé hvězdy, jehož plány prý zčásti navrhl sám.',
+        'V roce 1620 se za zdí obory strhla bitva na Bílé hoře a poslední vojáci, kteří vydrželi, padli právě u ní. Skála tu skrývá i vodovodní štolu vylámanou před staletími, která prý zásobovala vodou okolí Hradu. K Velké Praze se Liboc připojila v roce 1922.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Letohrádek Hvězda má šest cípů a místnosti uvnitř jsou samé kosočtverce a trojúhelníky, ani jedna čtvercová; prý byl postaven pro potěšení arcivévodovy manželky, dívky z neurozeného rodu. Jestli je to pravda, se historici dodnes přou.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Vejděte do obory branou a po rovné aleji dojděte k letohrádku Hvězda, pak z obory vyjděte na sever do Šáreckého údolí a najděte zbytky slovanského hradiště.',
+      ] },
+    ],
+    'Ruzyně': [
+      { h: 'Přehled', p: [
+        'Ruzyně leží na západním okraji Prahy a patří k Praze 6. Skoro celou ji zabírá jediná věc: Letiště Václava Havla. Vedle letiště jsou kasárna, věznice a mohyla připomínající bitvu na Bílé hoře a leží tu i nejzápadnější bod Prahy.',
+      ] },
+      { h: 'Historie', p: [
+        'Ruzyně začínala jako ves na planině západně od Prahy obklopená poli. Osmého listopadu 1620 se na nedalekých svazích asi dvě hodiny bojovalo na Bílé hoře a o osudu Čech na další tři století bylo rozhodnuto. V roce 1920 byla na bojišti navršena pamětní mohyla.',
+        'V roce 1937 se na ruzyňských polích otevřelo nové pražské letiště s krásnou funkcionalistickou odbavovací budovou, která stojí dodnes. Letiště za desítky let pořád rostlo a v roce 2012 bylo přejmenováno na Letiště Václava Havla po dramatikovi, z něhož se stal prezident.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'První dojem spousty lidí z Prahy jsou vlastně ruzyňská pole a ranveje. A nejzápadnější bod Prahy? Leží na nenápadném místě u letiště a většina těch, kdo tu startují a přistávají, nad ním jen přeletí.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Pokud tu nejste kvůli letu, postavte se k mohyle na Bílé hoře a podívejte se na svah, který rozhodl o osudu Čech, a pak u letiště hledejte nejzápadnější bod Prahy.',
+      ] },
+    ],
+    'Střešovice': [
+      { h: 'Přehled', p: [
+        'Střešovice leží severozápadně od Hradčan a patří k Praze 6. Je to klidná vilová čtvrť a zahradní město s ulicemi lemovanými domy se zahrádkami, mezi nimiž stojí světoznámá modernistická vila. Sídlí tu i Ústřední vojenská nemocnice a muzeum plné starých tramvají.',
+      ] },
+      { h: 'Historie', p: [
+        'Střešovice začínaly jako malá ves za Hradem obklopená vinicemi a usedlostmi. K Velké Praze se připojily v roce 1922, právě když bylo mladé Československo nadšené zahradními městy, a na jejich svazích vyrostla Ořechovka, kolonie rodinných a řadových domů se zahradami. V roce 1930 tu architekt Adolf Loos postavil pro stavebního podnikatele Müllerovu vilu, která se stala milníkem moderní architektury.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Zvenku vypadá Müllerova vila jako prostá bílá krabice, ale uvnitř připomíná bludiště: každá místnost má podlahu v jiné výšce a schody se mezi nimi proplétají. Loos tomu říkal raumplan, prostorové plánování.',
+        'Muzeum MHD sídlí ve staré vozovně z roku 1909 a je plné tramvají, které za víc než sto let projezdily pražské ulice, a některé z nich v létě vyjíždějí a vozí cestující po městě.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Začněte v muzeu MHD, ať vidíte, jak se pražské tramvaje měnily, pak se projděte uličkami Ořechovky kolem starých domů se zahradami, a pokud máte předem rezervaci, nahlédněte do Müllerovy vily a jejího „bludiště“.',
+      ] },
+    ],
+    'Vokovice': [
+      { h: 'Přehled', p: [
+        'Vokovice leží na západě Prahy 6. Na jedné straně je sídliště ze šedesátých let a nové kancelářské budovy, na druhé nejdivočejší pražské údolí, Divoká Šárka, se strmými skalami, potokem a nádrží, která patří v létě k nejoblíbenějším koupalištím ve městě.',
+      ] },
+      { h: 'Historie', p: [
+        'Vokovice začínaly jako ves na okraji Šáreckého údolí obklopená poli a mlýny. K Velké Praze se připojily v roce 1922 a v šedesátých letech vyrostlo na Červeném vrchu sídliště. Nádrž v údolí vznikla ve druhé polovině 20. století a brzy se z ní stalo skvělé místo ke koupání.',
+        'Šárecké údolí nese jméno po bájné bojovnici Šárce. V pověsti o dívčí válce předstírala, že je přivázaná ke stromu, aby nalákala družinu rytířů, a pak troubením na roh přivolala družky, které je pobily.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Podle pověsti Šárka později skočila z jedné skály v údolí, které se dodnes říká Dívčí skok. Nádrž se jmenuje Džbán a v létě jsou její břehy plné opalujících se lidí, někteří se opalují opravdu důkladně.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Vydejte se ze sídliště do Divoké Šárky a jděte podél potoka až k nádrži, v létě si zaplavte, a pak vystoupejte na skály a najděte Dívčí skok.',
+      ] },
+    ],
+    'Sedlec': [
+      { h: 'Přehled', p: [
+        'Sedlec je malá vesnice na severu Prahy na levém břehu Vltavy a patří k Praze 6. Sevřený mezi řekou a strmými skalami má jen jednu starou ulici, malý zámeček, kapličku a malé nádraží. Pozor, není to tentýž Sedlec jako ten u Kutné Hory s kostnicí, i když se jmenuje stejně.',
+      ] },
+      { h: 'Historie', p: [
+        'Sedlec je stará rybářská ves na Vltavě, jejíž obyvatelé lovili ryby v řece, pěstovali víno na svazích a lámali kámen ve skalách. V 19. století vedla podél břehu železnice do Drážďan a ves dostala malé nádraží. K Velké Praze se Sedlec připojil v roce 1922, ale dodnes vypadá jako vesnice.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Vltava opouští Prahu nedaleko Sedlce a tohle je jedno z nejnižších míst ve městě. Když sem dojdete z nejvyššího bodu Prahy, klesnete cestou o víc než dvě stě metrů.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Přijeďte do Sedlce vlakem nebo po cyklostezce podél řeky, projděte se starou ulicí a pak pokračujte podél řeky na sever a podívejte se, jak Vltava opouští Prahu.',
+      ] },
+    ],
+    'Suchdol': [
+      { h: 'Přehled', p: [
+        'Suchdol leží na severozápadním okraji Prahy ve správním obvodu Prahy 6, ale je samostatnou městskou částí. Na planině je vesnice a zemědělská univerzita, pod planinou hluboké údolí Vltavy. K Praze se připojil až v roce 1968 a pořád má v sobě kus venkova.',
+      ] },
+      { h: 'Historie', p: [
+        'Suchdol znamená „suchý důl“ a začínal jako zemědělská ves na planině. V šedesátých letech se sem přestěhovala pražská zemědělská vysoká škola; dnes je to Česká zemědělská univerzita s pokusnými poli, skleníky a zvířaty v areálu a se studenty, kterých je víc než místních. K Praze se Suchdol připojil v roce 1968.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Univerzita, která učí pěstovat plodiny a chovat dobytek, sídlí přímo na okraji Prahy a její areál s pokusnými poli, skleníky a stájemi je ve městě vzácnou „farmou“. Ve vsi je také komunitní zahrada, kde sousedé společně pěstují zeleninu.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Projděte se po areálu univerzity a po vsi, pak se vydejte po stezkách podél okraje planiny až nad údolí Vltavy a podívejte se dolů na řeku, která právě opouští Prahu.',
+      ] },
+    ],
+    'Bohnice': [
+      { h: 'Přehled', p: [
+        'Bohnice leží na severu Prahy na vysokém břehu Vltavy a patří k Praze 8. Je tu stará vesnice, velké sídliště ze sedmdesátých let a psychiatrická nemocnice, která připomíná malé město: za její zdí jsou desítky budov, kostel, statek a divadlo. Jméno Bohnice zná v zemi skoro každý a důvodem je právě nemocnice.',
+      ] },
+      { h: 'Historie', p: [
+        'Bohnice začínaly jako zemědělská ves na vysokém břehu se starobylým kostelem a malým zámkem. V roce 1909 postavila Praha vedle vsi obrovskou psychiatrickou léčebnu podle tehdy nejmodernějších představ: pacienti bydleli v jednotlivých pavilonech v zahradě a pracovali na statku. Brzy se stala jednou z největších psychiatrických nemocnic v Evropě.',
+        'K Velké Praze se Bohnice připojily v roce 1922; v sedmdesátých a osmdesátých letech vyrostlo na polích vedle vsi velké sídliště a nastěhovaly se desítky tisíc lidí. Spousta jeho ulic nese jména polských měst, a proto se mu někdy říká „pražské Malé Polsko“.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        '„Měl bys jít do Bohnic“ znamená česky zhruba „ty ses zbláznil“. Bohničtí vám ale radši řeknou, jak krásný je areál nemocnice a že se tu každý rok koná divadelní a hudební festival Mezi ploty, kterého se účastní pacienti i diváci společně.',
+        'V 19. století fungovala v bohnickém údolí i dynamitka: místo, které se později proslavilo nemocnicí, začínalo s výbušninami.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Projděte se areálem nemocnice kolem kostela a starých pavilonů, pak zajděte do staré vesnice ke starobylému kostelu a skončete v lese na hraně vysokého břehu, odkud uvidíte, jak se pod vámi stáčí Vltava.',
+      ] },
+    ],
+    'Kobylisy': [
+      { h: 'Přehled', p: [
+        'Kobylisy leží na výšinách Prahy 8 mezi Libní a Bohnicemi, jsou to hlavně činžáky a sídliště z 20. století s náměstím uprostřed. Je to obyčejná pražská čtvrť, a přece je tu místo, na které Pražané nikdy nezapomenou.',
+      ] },
+      { h: 'Historie', p: [
+        'Kobylisy začínaly jako malá ves na výšině a jejich jméno zní českému uchu, jako by souviselo s kobylou. K Velké Praze se připojily v roce 1922 a během dalších desetiletí se po polích rozrostly činžáky a sídliště, k nimž později dojelo i metro C.',
+        'V roce 1942, po atentátu na Heydricha, popravili nacisté na vojenské střelnici v Kobylisích několik set Čechů: členy odboje, ale i spoustu obyčejných lidí, kteří se do toho dostali jen kvůli sympatiím nebo mlčení. Střelnice je dnes památníkem se zachovanou zdí a popravčími kůly.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Většina dní v Kobylisích je obyčejná: nákup na náměstí, metrem do města, o víkendu procházka v nedalekém lese. Památník stojí tiše vedle sídliště a spousta lidí z okolí kolem něj chodí každý den.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Pokud přijdete do Kobylis, zastavte se prosím na chvíli u památníku na střelnici. Je malý a vůbec ne rušný, ale zaslouží si pár tichých minut.',
+      ] },
+    ],
+    'Vysočany': [
+      { h: 'Přehled', p: [
+        'Vysočany leží na severovýchodě Prahy, patří k Praze 9 a jsou jednou z nejstarších průmyslových čtvrtí města. Sto let tu velké továrny vyráběly auta, lokomotivy, tramvaje i tanky; dnes se staré haly jedna po druhé mění v kanceláře, byty a umělecké prostory a jejich hlavní ulicí vede linka metra B.',
+      ] },
+      { h: 'Historie', p: [
+        'Vysočany začínaly jako ves na potoce Rokytce s mlýny a cukrovarem. Na konci 19. století sem přišly velké strojírny a automobilka, z celé země se sem hrnuli dělníci a z Vysočan se rychle stalo průmyslové město, které se v roce 1922 připojilo k Velké Praze.',
+        'V březnu 1945 bombardovala spojenecká letadla Vysočany, aby zničila továrny vyrábějící zbraně pro nacisty, a při náletu zahynulo mnoho dělníků a obyvatel. V srpnu 1968, den poté, co do Prahy vjely sovětské tanky, se v jedné zdejší továrně tajně sešel mimořádný sjezd komunistické strany, aby proti invazi protestoval.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Staré haly automobilky se dnes jmenují Pragovka a jsou plné ateliérů a galerií s graffiti ve vrstvách na zdech. Před sto lety se tu vyráběla auta, dnes se tu vyrábí umění.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Projděte hlavní ulicí podél béčka a podívejte se, jak staré tovární haly stojí vedle nových kancelářských budov, a pak zahněte do Pragovky na okruh po ateliérech a galeriích.',
+      ] },
+    ],
+    'Prosek': [
+      { h: 'Přehled', p: [
+        'Prosek leží na výšině na severu Prahy 9 a má jeden z nejstarších pražských kostelů, velké sídliště ze šedesátých let a pískovcové skály s výhledem na východ města. Je tu klid a zeleň a parky začínají hned pod paneláky.',
+      ] },
+      { h: 'Historie', p: [
+        'Prosek je velmi stará ves: na konci 12. století tu postavili románský kamenný kostel, který slouží dodnes. Po staletí pokrývaly jižní svah výšiny vinice. K Velké Praze se Prosek připojil v roce 1922; v šedesátých letech vyrostlo na jeho polích jedno z prvních velkých pražských sídlišť a později sem dojelo i metro C.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Ve vsi stojí starý kamenný sloup, který prý připomíná lidi, kteří tu kdysi na svazích pěstovali révu a dělali víno. V proseckých pískovcových skalách jsou také ručně vytesané sklepy, které kdysi sloužily jako skladiště.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Začněte u starého kostela, starého přes osm set let, pak dojděte na vyhlídku na hraně pískovcových skal s výhledem na východní panorama a nakonec se projděte parkem na sídlišti.',
+      ] },
+    ],
+    'Hloubětín': [
+      { h: 'Přehled', p: [
+        'Hloubětín leží na potoce Rokytce na východě města a dělí se o něj Praha 9 a Praha 14. Je tu stará ves, malý zámek, dvůr, který kdysi patřil rytířskému řádu, staré tovární ubytovny a zlom, který dobře znají geologové.',
+      ] },
+      { h: 'Historie', p: [
+        'Hloubětín začínal jako ves na Rokytce a ve středověku patřil Křižovníkům s červenou hvězdou, jejichž dvůr ve vsi stojí dodnes. Později tu přibyl malý zámek a cihelna. Ve 20. století postavily nedaleké velké strojírny v Hloubětíně ubytovny pro dělníky a z obce se stalo místo, kde bydleli dělníci. K Velké Praze se připojil v roce 1922.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'V Hloubětíně je Pražský zlom, místo, kde se setkávají horniny ze dvou úplně odlišných období, a geologové se sem jezdí speciálně dívat. Když před ním stojíte, můžete mít jednu nohu v jedné epoše a druhou v jiné.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Jděte po stezce podél Rokytky kolem starého mlýna a křižovnického dvora, pak se podívejte na zlom a nakonec si odpočiňte u kostela ve staré vsi.',
+      ] },
+    ],
+    'Strašnice': [
+      { h: 'Přehled', p: [
+        'Strašnice leží v Praze 10 mezi Vinohrady a sídlišti na východě. Jsou tu klidné vilové ulice, několik velkých hřbitovů, jedna z prvních moderních vil v Praze a centrála mezinárodní rozhlasové stanice. Jméno zní trochu strašidelně, místo je ale překvapivě poklidné.',
+      ] },
+      { h: 'Historie', p: [
+        'Strašnice začínaly jako ves za městem obklopená poli a usedlostmi. Na konci 19. století počet obyvatel Vinohrad pořád rostl a hřbitovy přestaly stačit, a tak Vinohrady otevřely na strašnických pozemcích velký hřbitov a později vedle něj vyrostlo krematorium. K Velké Praze se Strašnice připojily v roce 1922 a v první polovině 20. století rostly na jejich polích vily a činžáky.',
+        'Před druhou světovou válkou tu bylo židovské sportoviště Hagibor, které nacisté za války proměnili v internační tábor. Dnes je tu centrum sociální péče.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Vinohradský hřbitov leží vlastně ve Strašnicích a jeho nejslavnějším „obyvatelem“ je Václav Havel, jehož hrob je stále pokrytý květinami a červenými srdíčky. Před centrálou rozhlasové stanice stojí kus Berlínské zdi a připomíná novinářům, kteří tu pracují, odkud jejich práce vzešla.',
+        'V roce 1903 tu architekt Jan Kotěra postavil vilu pro jednoho učitele a ta je považována za první moderní vilu v Čechách.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Začněte u Havlova hrobu na hřbitově, pak se jděte podívat na kus Berlínské zdi a nakonec se projděte vilovými ulicemi a najděte první moderní vilu v Čechách.',
+      ] },
+    ],
+    'Malešice': [
+      { h: 'Přehled', p: [
+        'Malešice leží na východě města a dělí se o ně Praha 9 a Praha 10. Je tu stará ves, sídliště ze šedesátých let, spalovna odpadu, která vytápí velkou část města, a železniční viadukt překračující údolí.',
+      ] },
+      { h: 'Historie', p: [
+        'Malešice začínaly jako zemědělská ves obklopená usedlostmi a poli. V roce 1757 svedly nedaleko pruská a rakouská vojska velkou bitvu, bitvu u Prahy, a malá kaple u vsi ji dodnes připomíná. K Velké Praze se Malešice připojily v roce 1922; v šedesátých letech vyrostlo vedle vsi jedno z prvních pražských panelových sídlišť.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Velká část pražského odpadu skončí v malešické spalovně, kde se spálí a promění v elektřinu a teplo, které se vrátí lidem domů. V Malešicích je také vila, jejíž zahrada je dnes malou botanickou zahradou.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Prohlédněte si ve staré vsi kapličku připomínající bitvu, projděte se parkem a botanickou zahradou a nakonec se postavte pod železniční viadukt, když nad vámi projíždí vlak.',
+      ] },
+    ],
+    'Hostivař': [
+      { h: 'Přehled', p: [
+        'Hostivař leží na jihovýchodě Prahy a patří k Praze 15. Je tu stará ves, velká přehrada, rozlehlý lesopark a řada meandrů potoka Botiče, ale také sídliště, průmyslová zóna a obchodní centrum. V létě sem Pražané jezdí opalovat se k přehradě.',
+      ] },
+      { h: 'Historie', p: [
+        'Hostivař je velmi stará: už v raném středověku tu stálo slovanské hradiště, z něhož se později stala ves na Botiči s mlýny a starobylým kostelem. V roce 1963 byla proti proudu postavena přehrada na ochranu před povodněmi; v roce 1968 se Hostivař připojila k Praze a na jejích polích vyrostla sídliště a továrny.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Hostivařskou přehradu postavili na ochranu před povodněmi, ale Pražané brzy zjistili, že je skvělá na koupání, a dnes patří k nejoblíbenějším pražským „plážím“. Pod hrází se Botič vine lesem v řadě meandrů, jednom z nejhezčích úseků potoka v Praze.',
+        'Ve staré vsi je také ekologická farma, kam se městské děti chodí dívat na ovce a krmit slepice.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'V létě si vezměte plavky na přehradu, pak jděte po proudu podél meandrů Botiče a skončete ve staré vsi u starobylého kostela a ekologické farmy.',
+      ] },
+    ],
+    'Černý Most': [
+      { h: 'Přehled', p: [
+        'Černý Most leží na severovýchodě Prahy, patří k Praze 14 a je jedním z nejmladších velkých pražských sídlišť. Končí tu linka metra B, vedle konečné je velké obchodní centrum a autobusové nádraží a za nimi dálnice a pole.',
+      ] },
+      { h: 'Historie', p: [
+        'Jméno Černý Most je mnohem starší než sídliště. Prý tu kdysi přes potok vedl dřevěný most se začouzeným, zčernalým dřevem a časem se celému místu začalo říkat Černý Most. Po staletí tu byla jen pole a pár statků u hlavní silnice. V osmdesátých letech začaly na polích růst paneláky, v devadesátých přibyla druhá etapa a vzniklo jedno z posledních velkých pražských sídlišť. Metro B sem dojelo v roce 1998.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Stanice metra na Černém Mostě se jmenuje Rajská zahrada a nad nástupištěm se klene ocelová stříška rozevřená jako stan; spousta lidí ji považuje za jednu z nejhezčích stanic v Praze. Vystoupíte z ráje a o pár kroků dál jste v obchodním centru, což Pražany velmi těší.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Dojeďte béčkem na konečnou a podívejte se nahoru na stříšku nad nástupištěm Rajské zahrady, pak se projděte sídlištěm a podívejte se, jak vypadá poslední generace pražských sídlišť.',
+      ] },
+    ],
+    'Dolní Počernice': [
+      { h: 'Přehled', p: [
+        'Dolní Počernice leží na východě Prahy ve správním obvodu Prahy 14, ale jsou samostatnou městskou částí. Je tu zámek se zámeckým parkem, starý kostel, několik lesíků a největší rybník v Praze. K Praze se připojily až v roce 1974 a dodnes vypadají jako městečko.',
+      ] },
+      { h: 'Historie', p: [
+        'Dolní Počernice jsou stará ves, která už ve středověku měla tvrz a kostel, a během staletí patřila celé řadě šlechticů. Tvrz byla později přestavěna na malý zámek a vedle něj vznikl anglický krajinářský park. Velký rybník jižně od vsi vybudovali ve středověku a dodnes je největším rybníkem v Praze.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Stádo zubrů uvnitř hranic hlavního města zní zvláštně, ale Dolní Počernice ho opravdu mají. Mohutná zvířata žijí ve výběhu u zámku a u dětí jsou nejoblíbenějšími obyvateli městečka.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Projděte se zámeckým parkem a zajděte za zubry, pak zamiřte na jih k velkému rybníku, obejděte ho celý a nakonec vystoupejte na maličkou rozhlednu.',
+      ] },
+    ],
+    'Kyje': [
+      { h: 'Přehled', p: [
+        'Kyje leží na východě Prahy a patří k Praze 14. Je tu osm set let starý románský kostel, velký rybník, malé nádraží a nově postavená rozhledna. Paneláky Černého Mostu jsou hned vedle, a přece si Kyje zachovaly ráz staré vesnice.',
+      ] },
+      { h: 'Historie', p: [
+        'Kyje jsou velmi stará ves: na začátku 13. století tu postavili kamenný kostel, jeden z nejzachovalejších románských kostelů v Praze, na jehož zdech jsou dodnes stopy středověku. Po staletí tu byly statky a rybníky. K Praze se Kyje připojily v roce 1968; později na sousedních polích vyrostlo sídliště Černý Most a z Kyjí se stala „stará vesnice“ pod paneláky.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'V létě sedí na břehu Kyjského rybníka rybáři a v zimě, když zamrzne, se z něj stane kluziště. Rozhledna na svahu není vysoká, ale z vrcholu uvidíte starý kostel i vzdálená sídliště najednou.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Začněte u starého románského kostela, obejděte rybník a nakonec vystoupejte na rozhlednu a podívejte se, jak stará vesnice a nové město stojí vedle sebe.',
+      ] },
+    ],
+    'Chodov': [
+      { h: 'Přehled', p: [
+        'Chodov leží na jihovýchodě Prahy, patří k Praze 11 a tvoří severní polovinu sídliště Jižní Město. Je tu malá středověká tvrz, jedno z největších obchodních center v zemi, kancelářský park a Národní archiv a hned na západě velký les.',
+      ] },
+      { h: 'Historie', p: [
+        'Chodov začínal jako zemědělská ves s malou gotickou tvrzí, která patřila místní šlechtě. Po staletí tu byla pole a statky. K Praze se připojil v roce 1968 a hned nato, v sedmdesátých letech, vyrostla na jeho polích první etapa Jižního Města a do paneláků se nastěhovaly desítky tisíc lidí. Tvrz zůstala zachována a dnes je kulturním centrem s koncerty a výstavami.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Malá středověká tvrz s vodním příkopem, která se náhle objeví mezi paneláky, patří k nejpůvabnějším pohledům na Chodově. Přestěhoval se sem i Národní archiv, takže staletí českých listin leží na okraji Jižního Města.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Začněte výstavou v tvrzi nebo posezením na jejím nádvoří, pak se projděte lesem na západě a až budete unavení, odpočiňte si v obřím obchodním centru vedle.',
+      ] },
+    ],
+    'Háje': [
+      { h: 'Přehled', p: [
+        'Háje leží na jihovýchodě Prahy, patří k Praze 11 a tvoří jižní polovinu Jižního Města. Je tu konečná linky metra C, panelák vedle paneláku, a na východě les s malou zoo.',
+      ] },
+      { h: 'Historie', p: [
+        'Háje začínaly jako malá ves a jméno mluví samo za sebe. K Praze se připojily v roce 1968 a v osmdesátých letech tu vyrostla druhá etapa Jižního Města. V roce 1980 sem dojelo metro C; konečná se nejdřív jmenovala Kosmonautů na počest společného sovětsko-československého letu do vesmíru a na Háje byla přejmenována až v roce 1990.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Z místa jménem Háje je dnes les paneláků. Jméno ale úplně nelže: hned na východ od sídliště je Milíčovský les a v něm se schovává malá zoo.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Dojeďte céčkem na konečnou a podívejte se na sochu kosmonautů před stanicí, pak projděte sídlištěm do lesa na východě a najděte malou zoo.',
+      ] },
+    ],
+    'Modřany': [
+      { h: 'Přehled', p: [
+        'Modřany leží na jihu Prahy na pravém břehu Vltavy a patří k Praze 12. U řeky je dlouhá cyklostezka a stará ves, ve svazích velké sídliště a mezi nimi hluboká rokle a vinice.',
+      ] },
+      { h: 'Historie', p: [
+        'Modřany začínaly jako ves u řeky, jejíž obyvatelé pěstovali víno, hospodařili a rybařili. V 19. století tu vznikl velký cukrovar a z Modřan se stalo průmyslové městečko. K Praze se připojily v roce 1968; v osmdesátých letech vyrostlo ve svazích velké sídliště a nastěhovaly se desítky tisíc lidí.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Na modřanských svazích se dodnes pěstuje réva; je to jedna z mála pražských vinic, kde se ještě dělá víno. Rokle vedle sídliště je hluboká a divoká a pár minut uvnitř už město neslyšíte.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Projeďte se kus po cyklostezce podél řeky, pak vejděte do Modřanské rokle a nakonec vystoupejte do svahu k vinici.',
+      ] },
+    ],
+    'Stodůlky': [
+      { h: 'Přehled', p: [
+        'Stodůlky leží na jihozápadě Prahy, patří k Praze 13 a jsou středem Jihozápadního Města. Patří k nim sídliště Lužiny, Nové Butovice, Velká Ohrada a další, uprostřed s velkým Centrálním parkem a na okraji s kostelem a statky staré vesnice Stodůlky.',
+      ] },
+      { h: 'Historie', p: [
+        'Stodůlky začínaly jako zemědělská ves a jméno mluví samo za sebe. Po staletí tu byla pole, statky a malý kostel. K Praze se připojily v roce 1974 a v osmdesátých a devadesátých letech na jejich polích vyrostlo Jihozápadní Město a dojelo sem metro B. Patří k posledním velkým pražským sídlištím a už při plánování se v něm počítalo s velkými zelenými plochami.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Vedle sídliště podle archeologických nálezů zrekonstruovali malou vesnici ze 14. století s dřevěnými chalupami, doškovými střechami a ploty a občas se tu konají středověké slavnosti. Od metra je to jen pár minut pěšky, a přece to působí jako návrat o sedm set let.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Udělejte si dlouhý okruh Centrálním parkem, podívejte se na vesnický kostel ve starých Stodůlkách a skončete ve zrekonstruované středověké vesnici, ať vidíte, jak vypadal okraj Prahy před sedmi sty lety.',
+      ] },
+    ],
+    'Řeporyje': [
+      { h: 'Přehled', p: [
+        'Řeporyje leží na jihozápadním okraji Prahy ve správním obvodu Prahy 13, ale jsou samostatnou městskou částí. Je to stará ves schovaná v údolí, obklopená vápencem, starými vápenkami a železničním viaduktem, a kolem vede Pražský okruh.',
+      ] },
+      { h: 'Historie', p: [
+        'Řeporyje jsou prastará ves v údolí, která po staletí žila z hospodaření a pálení vápna, a v údolí dodnes stojí staré vápenky. V 19. století tudy vedla železnice po viaduktu. K Praze se Řeporyje připojily v roce 1974. Horninové vrstvy po obou stranách údolí jsou proslulé a geologové na nich zkoumají moře stará stovky milionů let.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'V roce 2020 postavily Řeporyje ve vsi pomník vojákům takzvané Ruské osvobozenecké armády, kteří v květnu 1945 přešli na druhou stranu a pomohli Pražskému povstání proti nacistům. Moskva zuřila, i v Česku se o tom vášnivě debatovalo a malá ves se rázem ocitla v mezinárodních zprávách.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Projděte se vsí kolem starých vápenek a kostela, jděte údolím na východ k odkrytým horninovým vrstvám a skončete pod železničním viaduktem, kde počkáte, až přejede vlak.',
+      ] },
+    ],
+    'Radotín': [
+      { h: 'Přehled', p: [
+        'Radotín leží v jihozápadním cípu Prahy na Berounce a patří k Praze 16. Je to městečko s vlastním náměstím a kostelem, obklopené vápencovými skalami, lomy a velkou cementárnou, a přitom je jeho údolí přírodní rezervací s přírodním koupacím biotopem.',
+      ] },
+      { h: 'Historie', p: [
+        'Radotín začínal jako ves na Berounce, která žila z říční dopravy a vápence. V 19. století tu vznikla velká cementárna, lom následoval lom a z Radotína se stalo průmyslové městečko, později povýšené na město. V roce 1974 se spolu se sousední Zbraslaví připojil k Praze.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Radotínské lomy vydaly obrovské množství mořských zkamenělin starých stovky milionů let a geologové sem dodnes jezdí hledat trilobity. Na jedné straně hučící cementárna, na druhé tiché údolí a pastviny: takový je v Radotíně kontrast.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Přejděte po lávce přes Berounku do Radotína, projděte kus údolí, zaplavte si v přírodním biotopu a nakonec se postavte pod skály a podívejte se na kámen, který se tu láme víc než sto let.',
+      ] },
+    ],
+    'Velká Chuchle': [
+      { h: 'Přehled', p: [
+        'Velká Chuchle leží na levém břehu Vltavy na jihu Prahy ve správním obvodu Prahy 16, ale je samostatnou městskou částí. Nejznámější je dostihovým závodištěm, a má i starou ves, starou vápenku a kostel na malém kopci.',
+      ] },
+      { h: 'Historie', p: [
+        'Velká Chuchle začínala jako malá ves na Vltavě, která žila z vápence a polí. V roce 1906 vzniklo na loukách u řeky dostihové závodiště a víc než sto let patří k nejdůležitějším závodištím v zemi. Velká povodeň v roce 2002 zaplavila celé závodiště, které bylo později obnoveno. K Praze se Velká Chuchle připojila v roce 1968.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'V den dostihů se Chuchle mění v jedno z nejživějších míst Prahy: na tribunách jedni vážně sázejí a druzí přišli jen posedět na slunci, dát si pivo a dívat se na krásné koně. Stará vápenka ve svahu je dnes tichou technickou památkou.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Vyberte si dostihový den a nasajte atmosféru na tribunách, pak se projděte starou vsí, vystoupejte ke kostelu na kopci a podívejte se na starou vápenku.',
+      ] },
+    ],
+    'Malá Chuchle': [
+      { h: 'Přehled', p: [
+        'Malá Chuchle leží kousek na sever od Velké Chuchle, sevřená mezi Vltavou a strmým svahem, a patří k Praze 16. Je tu starý kostel, pramen s prý léčivými účinky, starý mlýn a cukrovar a malý zookoutek.',
+      ] },
+      { h: 'Historie', p: [
+        'Malá Chuchle je malá vesnice u řeky. V 19. století tu pod svahem objevili pramen bohatý na železo, otevřely se malé lázně a Pražané sem jezdili lodí na koupele a léčení. Ve vsi byl i mlýn a cukrovar. Později lázně upadly a z Malé Chuchle se zase stala tichá vesnička.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Pramen pod svahem se jmenuje Mariánský a prý má léčivé účinky; lidé si sem dodnes chodí s lahvemi pro vodu. V Malé Chuchli je také zookoutek, kam se městské děti často chodí dívat na zvířata.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Dojeďte nebo dojděte podél řeky do Malé Chuchle, podívejte se na pramen a starý kostel a vezměte děti na okruh po zookoutku.',
+      ] },
+    ],
+    'Řepy': [
+      { h: 'Přehled', p: [
+        'Řepy leží na západě Prahy a patří k Praze 17. Je tu sídliště z osmdesátých let, lesopark, starý domov řádových sester a barokní poutní kostel na Bílé hoře. Bělohorské bojiště je hned vedle.',
+      ] },
+      { h: 'Historie', p: [
+        'Řepy začínaly jako zemědělská ves pod Bílou horou. Po bitvě roku 1620 postavila vítězná katolická strana na bojišti malou kapli a v 18. století ji rozšířila na barokní poutní kostel s ambity, oslavující „vítězství Panny Marie“. Koncem 19. století postavily řádové sestry ve vsi velký domov pro nemocné a staré. K Praze se Řepy připojily v roce 1968 a v osmdesátých letech na jejich polích vyrostlo velké sídliště.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Tatáž bitva, kterou si Češi pamatují jako národní katastrofu, byla pro vítěznou stranu vítězstvím, kvůli kterému stálo za to postavit kostel. Poutní kostel na Bílé hoře stojí mezi těmito dvěma vzpomínkami.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Začněte u poutního kostela na Bílé hoře a obejděte jeho ambity, pak se chvíli postavte na bojišti vedle a nakonec se projděte řepským lesoparkem.',
+      ] },
+    ],
+    'Letňany': [
+      { h: 'Přehled', p: [
+        'Letňany leží na severu Prahy a patří k Praze 18. Jsou severní konečnou linky metra C, s výstavištěm a starým letištěm, obklopené novými bytovými domy, staršími sídlišti a poli.',
+      ] },
+      { h: 'Historie', p: [
+        'Letňany začínaly jako malá ves. Po vzniku Československa v roce 1918 tu vznikla továrna na letadla Letov i s letištěm a Letňany se staly jednou z kolébek českého leteckého průmyslu, kde se za desítky let postavilo mnoho vojenských i civilních letadel. K Praze se Letňany připojily v roce 1968 a metro C sem dojelo v roce 2008.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Staré letňanské letiště je pořád v provozu, jen z něj nestartují dopravní letadla, ale malá letadla, větroně a parašutisté. Výstaviště hostí po celý rok autosalony, svatební veletrhy a výstavy motorek a pokaždé, když přijede metro, proudí davy k velkým halám.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Dojeďte céčkem na konečnou a podívejte se na letišti, jak startují a přistávají malá letadla, a pokud je zrovna veletrh, projděte se po halách.',
+      ] },
+    ],
+    'Čakovice': [
+      { h: 'Přehled', p: [
+        'Čakovice leží na severu Prahy a patří k Praze 18, s barokním zámkem a parkem, starým kostelem a nádražím. Pořád působí jako městečko a sousední Miškovice a Třeboradice jsou dodnes tiché vesničky.',
+      ] },
+      { h: 'Historie', p: [
+        'Čakovice začínaly jako zemědělská ves se šlechtickým zámkem. V 19. století tu vznikl velký cukrovar, řepná pole se táhla až k obzoru a z Čakovic se stalo malé průmyslové městečko. Později se připojily k Praze a zámek i park se zachovaly dodnes.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Nejsevernější bod Prahy leží v Třeboradicích vedle Čakovic, nenápadné místo uprostřed polí; postavte se na něj a celé město máte na jihu.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Projděte se zámeckým parkem a podívejte se na starý kostel, pak se projeďte na kole přes pole a najděte nejsevernější bod Prahy.',
+      ] },
+    ],
+    'Kbely': [
+      { h: 'Přehled', p: [
+        'Kbely leží na severovýchodě Prahy a patří k Praze 19. Skoro celé je zabírá vojenské letiště a jeho letecké muzeum, obklopené rodinnými domy a zahradami.',
+      ] },
+      { h: 'Historie', p: [
+        'Kbely začínaly jako malá ves. V roce 1918, sotva vzniklo Československo, bylo na polích vedle vsi postaveno první vojenské letiště země. V roce 1923 odsud odstartoval i první pravidelný let Československých aerolinií, do Bratislavy. Civilní lety se později přestěhovaly do Ruzyně a Kbely zůstaly základnou letectva. K Praze se připojily v roce 1968.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Letecké muzeum ve Kbelích vystavuje desítky starých letadel, od dvouplošníků z první světové války po proudové stíhačky z doby studené války, většinu pod širým nebem a ve starých hangárech, a vstupné nevybírá.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Zajděte se podívat na letadla do leteckého muzea, nejlépe za hezkého počasí, protože spousta z nich stojí venku; se štěstím uvidíte i start vojenského letadla z ranveje.',
+      ] },
+    ],
+    'Horní Počernice': [
+      { h: 'Přehled', p: [
+        'Horní Počernice leží na severovýchodním okraji Prahy a jsou samy o sobě Prahou 20, kolem sedmnácti tisíc lidí. Vyrostly ze starých vsí Horní Počernice, Chvaly a Svépravice a mají vlastní divadlo, kulturní centrum a starý zámek, kolem kterého vede dálnice.',
+      ] },
+      { h: 'Historie', p: [
+        'Horní Počernice začínaly jako hrstka vsí podél hlavní silnice na severovýchod. Tvrz v Chvalech pochází ze středověku a později byla několikrát přestavěna na malý zámek. Ve 20. století vsi srostly v městečko, které se v roce 1974 připojilo k Praze.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Chvalský zámek je dnes kulturním centrem s výstavami, koncerty a programem pro děti. Dětské narozeniny na zámku starém několik set let se v každém pražském obvodu nepořádají.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Zajděte na výstavu na Chvalský zámek a pak se jen tak projděte ulicemi městečka a jeho starými vsemi.',
+      ] },
+    ],
+    'Klánovice': [
+      { h: 'Přehled', p: [
+        'Klánovice leží na východním okraji Prahy, patří k Praze 21 a jsou vilovou čtvrtí schovanou v lese. Kolem dokola je velký Klánovický les, ulice lemují víc než sto let staré vily a příměstské nádraží stojí na kraji lesa.',
+      ] },
+      { h: 'Historie', p: [
+        'Klánovice jsou mladé místo. V roce 1878 koupil tenhle les pražský stavitel, rozparceloval v něm kolonii letních vil a místo dostalo jméno po něm. Jakmile sem vedla železnice, jezdili sem bohatí Pražané vlakem na letní byt a vila rostla za vilou. K Praze se Klánovice připojily v roce 1974.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'Klánovický les patří k největším lesům v okolí Prahy, s přírodními rezervacemi a rybníky. Místní vystoupí z vlaku rovnou do lesa, a takový způsob života si letní hosté užívali už před víc než sto lety.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Přijeďte příměstským vlakem, projděte se starými ulicemi vilové čtvrti kolem letních vil z doby před víc než sto lety a pak vyrazte do lesa, jak daleko chcete.',
+      ] },
+    ],
+    'Uhříněves': [
+      { h: 'Přehled', p: [
+        'Uhříněves leží na jihovýchodním okraji Prahy a je středem Prahy 22, městečkem s vlastním náměstím, kostelem a nádražím. Obklopují ji pole, rybníky a několik malých vsí a za posledních dvacet let k ní přibylo hodně nové výstavby.',
+      ] },
+      { h: 'Historie', p: [
+        'Uhříněves je stará ves, z níž se stalo malé městečko s trhem, kostelem a malým šlechtickým zámkem. Žila tu i židovská obec, po níž zůstal starý židovský hřbitov. Ve 20. století vznikl v zámku státní výzkumný ústav živočišné výroby, který zkoumá skot a prasata, a sídlí tam dodnes. K Praze se Uhříněves připojila v roce 1974.',
+      ] },
+      { h: 'Zajímavosti', p: [
+        'V Uhříněvsi je vlak mnohem pohodlnější než metro, protože metro tu vůbec není. Vlakem jste v centru zhruba za dvacet minut a za oknem máte celou cestu pole.',
+      ] },
+      { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: [
+        'Přijeďte vlakem, projděte se kolem náměstí a kostela městečka a pak vyrazte na kole do okolních polí a k rybníkům, ať vidíte pražský venkov.',
+      ] },
+    ],
   },
 };

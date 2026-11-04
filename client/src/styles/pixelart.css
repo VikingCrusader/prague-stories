@@ -2608,6 +2608,8 @@ html[data-lang="zh"] .detail-title-name {
   .area-guide { max-height: 88vh; padding: 18px 16px 24px; border-left: 0; border-right: 0; border-bottom: 0; box-shadow: none; }
   .area-guide__title { font-size: 21px; }
 }
+/* The area menu grew to 60 quarters: keep it to a scrollable height. */
+.area-filter__panel { max-height: min(60vh, 520px); overflow-y: auto; }
 /* A pill or badge that opens a guide. */
 .area-guide-pill { cursor: pointer; font: inherit; font-family: var(--ui-font); font-weight: 700; }
 .area-guide-pill:hover { filter: brightness(1.18); }

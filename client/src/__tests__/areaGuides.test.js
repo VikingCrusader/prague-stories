@@ -3,6 +3,8 @@ import en from '../utils/areaGuides/en.js';
 import cz from '../utils/areaGuides/cz.js';
 import zh from '../utils/areaGuides/zh.js';
 import { QUARTERS } from '../utils/pragueQuarters.js';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
 const langs = { en, cz, zh };
 
@@ -37,5 +39,15 @@ describe('area guides', () => {
         expect([key, !!AREA_LANDMARKS[kind]?.[key]?.length]).toEqual([key, has]);
       }
     }
+  });
+
+  // Every quarter with a guide must be pickable in the Explore quarter menu
+  // (FEATURED_QUARTERS in AreaFilter.jsx, read as text so the test needn't
+  // load the component).
+  it('lists every quarter that has a guide in the historical-division menu', () => {
+    const src = readFileSync(join(__dirname, '../components/locations/AreaFilter.jsx'), 'utf8');
+    const start = src.indexOf('FEATURED_QUARTERS = [');
+    const menu = [...src.slice(start, src.indexOf('];', start)).matchAll(/'([^']+)'/g)].map(m => m[1]);
+    expect(AREA_GUIDE_KEYS.quarter.filter(q => !menu.includes(q))).toEqual([]);
   });
 });

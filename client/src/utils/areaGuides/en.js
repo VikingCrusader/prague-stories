@@ -843,5 +843,654 @@ export default {
         'Cycle along the river or take the bus south from the centre, see the chateau and the church next to it, and have lunch on the square. In the afternoon go and watch the two rivers meet, and finish by finding Prague\'s southernmost point.',
       ] },
     ],
+    'Braník': [
+      { h: 'Overview', p: [
+        'Braník lies on the right bank of the Vltava south of Podolí and belongs to Prague 4. By the river rises a pale grey limestone cliff, and below it are the lanes of the old village, an old brewery and a row of ice houses, with housing estates on the slopes above. It is one of the places in Prague closest to the river, and one that feels most like a small town outside the city.',
+      ] },
+      { h: 'History', p: [
+        'Braník began as a riverside village, and from the 17th century it belonged to Prague\'s Dominican friars, who built a farmstead here that still stands. The village lived off the river: quarrying limestone, burning lime and cutting ice. In the early 20th century a group of Prague innkeepers clubbed together to open a brewery here, and Braník beer became famous across the city. Braník joined Greater Prague in 1922; the brewery closed in 2007.',
+      ] },
+      { h: 'Fun facts', p: [
+        'Before refrigerators, Prague\'s pubs and breweries relied on natural ice. In winter, workers cut the frozen Vltava into great blocks and hauled them into the ice houses on the riverbank at Braník, where they kept until summer. The row of ice houses still stands by the river, though it has long since stopped storing ice.',
+        'At the top of the cliff there is a lookout, with a clear view over the Vltava and Barrandov on the far bank.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Follow the riverside cycle path to the foot of the cliff and watch the climbers, then walk into the old village to see the Dominicans\' farmstead and the old brewery, and finish at the top of the cliff waiting for a sunset over the river.',
+      ] },
+    ],
+    'Krč': [
+      { h: 'Overview', p: [
+        'Krč lies south of Pankrác and belongs to Prague 4. To the north are office blocks, metro stations and Prague\'s tallest residential tower, to the south a large forest, and in between a little neo-Gothic castle, several big hospitals and a cluster of research institutes. Krč is where Prague goes to see a doctor or do research, and where Prague 4 disappears into the woods at the weekend.',
+      ] },
+      { h: 'History', p: [
+        'Krč began as a village on the edge of the forest, with a small castle and a few ponds. It joined Greater Prague in 1922, and a few years later the city built a welfare institution here for the elderly and the sick, named the Masaryk Homes, which grew into today\'s large hospital. Under communism Krč also gained national medical research institutes and a group of Academy of Sciences laboratories, and for Praguers "going to Krč" often meant going to the doctor. After 1989 office blocks went up one after another along the streets in the north.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The little castle in Krč looks medieval, but it was only remodelled in neo-Gothic style in the 19th century: a castle dressed up to look old. The residential tower in the north is the tallest in Prague, and from the top floor you can see half the city.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Start at the castle, walk round the ponds next to it, then plunge into the Krč forest for an hour or two, and on the way back look up at the new skyline that has grown up in the north.',
+      ] },
+    ],
+    'Podolí': [
+      { h: 'Overview', p: [
+        'Podolí is a narrow strip of riverside between the rock of Vyšehrad and Braník, and belongs to Prague 4. The Vltava on one side and a steep slope on the other squeeze in a waterworks that looks like a palace, a large swimming stadium, a maternity hospital and Czech Television. Many Praguers first came into the world in Podolí.',
+      ] },
+      { h: 'History', p: [
+        'Podolí began as a small riverside village whose people fished, farmed and quarried the limestone on the slope. In the 19th century a cement works opened here and filled the air with dust for decades. Podolí joined Greater Prague in 1922; a few years later Antonín Engel, the architect who planned Dejvice, built a grand waterworks by the river to supply the whole city. In 1965 a large swimming stadium went up on the site of the cement works, and Podolí turned from a dusty industrial village into the place where Praguers go to swim and sunbathe.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The hall of the Podolí waterworks is so grand that it is called the "cathedral of water", and it now houses a museum of the water supply. The maternity hospital began in 1914 as a sanatorium and became Prague\'s best-known delivery ward; "I was born in Podolí" is something a great many Praguers can say.',
+        'By the road at the swimming stadium there is also an exposed rock face, its layers stacked one on top of another, which geologists read like a book written hundreds of millions of years ago.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'In summer, swim a few lengths in the stadium\'s outdoor pool or at the riverside baths, then walk along the river to the foot of the Vyšehrad rock, and as you pass the waterworks, take a look at the "cathedral of water".',
+      ] },
+    ],
+    'Michle': [
+      { h: 'Overview', p: [
+        'Michle lies south-east of Nusle and is split between Prague 4 and Prague 10. It has the church of the old village, a former great gasworks and its water tower, a few small hills, and one of the largest office complexes in Prague. Michle is not pretty, but it shows very clearly how Prague grew from villages into a big city.',
+      ] },
+      { h: 'History', p: [
+        'Michle began as a hillside village surrounded by vineyards and farms. In the 19th century many workers and Jewish families settled here, and the village built a synagogue. Michle joined Greater Prague in 1922, and a few years later the city built its largest gasworks here, turning coal into town gas for the street lamps and kitchens of all Prague, which it did until the 1970s. After 1989 large office blocks went up on the empty land beside the gasworks, and Michle became a place where people go to work.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The Michle synagogue survived the war and was later taken over by a Christian church and renamed in honour of the doctor and philosopher Albert Schweitzer. It is still in use, and its walls still faintly show what it used to be.',
+        'The gasworks\' water tower still stands too, tall and slender, the most visible mark left by Michle\'s industrial age.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Start by climbing one of the little hills for a view of south-east Prague, then go and find the old water tower and the former synagogue, and finish by walking through the office complex to see what the new Michle looks like.',
+      ] },
+    ],
+    'Kunratice': [
+      { h: 'Overview', p: [
+        'Kunratice lies in the south of Prague, under the administration of Prague 4, but it is a borough of its own, with its own square, church and an old castle. To the north is a large forest, and to the west the biggest Vietnamese market in the city. Kunratice still feels like a small town, and only became part of Prague in 1968.',
+      ] },
+      { h: 'History', p: [
+        'The name Kunratice comes from a man called Konrad; it was the name of a medieval village. In the early 15th century King Wenceslas IV built a new castle in the forest near the village, and he loved staying there, far from the quarrels of Prague. In 1419, shortly after Prague\'s first defenestration, the king died in that castle, of a stroke on hearing the news, it is said. The castle was destroyed in the Hussite Wars and only ruins remain.',
+        'For centuries afterwards Kunratice stayed a village with a small chateau and a Baroque church. In 1999 a Vietnamese market called Sapa opened on the site of an old meat-processing plant to the west, and today it is one of the centres of the Vietnamese community in the whole country.',
+      ] },
+      { h: 'Fun facts', p: [
+        'A king, in his favourite castle, died of rage at bad news from Prague. At least, that is how the legend goes. The castle now lies hidden deep in the forest, and it takes a bit of a walk to find it.',
+        'Sapa is called "Prague\'s Little Hanoi", and its pho is often said to be the most authentic in the city.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Wander around the little town\'s square and church, then head into the forest to the north to find the ruins of the king\'s castle, and finish by walking west to Sapa for a bowl of pho.',
+      ] },
+    ],
+    'Záběhlice': [
+      { h: 'Overview', p: [
+        'Záběhlice lies in the valley of the little Botič stream and is split between Prague 4 and Prague 10. It has an old village, a small Baroque chateau, a large pond, and the 1920s garden suburb of Spořilov: row upon row of terraced houses with little gardens, as quiet as another era.',
+      ] },
+      { h: 'History', p: [
+        'Záběhlice began as a village on the Botič, with mills and a hammer forge on the stream; the pond\'s name, Hamr, the "hammer", dates from then. In the 18th century the village gained a small Baroque chateau. Záběhlice joined Greater Prague in 1922, and a few years later the fields on the slope were laid out as the garden suburb of Spořilov, said to be named after the savings bank that financed the building. Thousands of middle-class families moved into little houses with gardens, a very new way of living for Prague at the time.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The houses of Spořilov are almost identical: two storeys, a little garden in front and a vegetable patch behind, lined up neatly along dozens of streets. In the middle of the garden suburb stands a modernist church from the 1930s, dedicated to the Czech saint Agnes.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Walk along the Botič from the old village to the pond, then take a turn through the streets of Spořilov and see how Praguers a hundred years ago imagined the good life.',
+      ] },
+    ],
+    'Hlubočepy': [
+      { h: 'Overview', p: [
+        'Hlubočepy lies on the left bank of the Vltava south of Smíchov and belongs to Prague 5. It takes in an old village tucked into a valley, ranks of limestone cliffs, the Barrandov film studios and a large housing estate on top of the cliffs. Few places in Prague change so much in so short a distance: from the old farmhouses at the bottom of the valley to the tower blocks on the clifftop is just one tram ride.',
+      ] },
+      { h: 'History', p: [
+        'Hlubočepy began as a small village in a valley, living off quarrying limestone and burning lime. In 1872 a railway came through, with two tall stone viaducts that were later nicknamed "the Prague Semmering". The village joined Greater Prague in 1922.',
+        'At the end of the 1920s the architect Václav M. Havel built a terrace restaurant and a villa quarter on the clifftop above the river and named it Barrandov, after the French geologist Joachim Barrande, who had studied the rock layers here. A few years later his brother Miloš Havel built a film studio next to it. The first was the father of the future president Václav Havel, the second his uncle. In the 1980s a large housing estate went up on the clifftop, and it only got its tram line in 2003.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The back lot of the Barrandov studios holds a huge "medieval town", complete with walls, towers and a square, all of it scenery, where many costume films have been shot.',
+        'The rock layers in the cliffs are known to geologists all over the world: a sea floor hundreds of millions of years old, standing on end beside a tram stop.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Start with a walk round the old village in the valley and a look at the two railway viaducts, then take the tram up the cliffs and look out over the Vltava from beside the terrace restaurant, and finish with a stretch of the path along the cliffs past a sea floor hundreds of millions of years old.',
+      ] },
+    ],
+    'Košíře': [
+      { h: 'Overview', p: [
+        'Košíře lies west of Smíchov and belongs to Prague 5. It stretches along the old road to Plzeň, with old apartment blocks and villas in the valley and a romantic estate park on the hillside. Košíře is not large, but it is one of the greenest of Prague\'s old suburbs.',
+      ] },
+      { h: 'History', p: [
+        'Košíře began as a village in the valley behind Smíchov, surrounded by vineyards and farmsteads, with an ancient road running through it to Plzeň and the cities to the west. In the 19th century, as more and more factories opened in Smíchov, Košíře too gained rented apartment blocks and became home to workers and clerks. It joined Greater Prague in 1922.',
+        'In 1817 a bishop from Passau bought the Cibulka estate on the hillside and turned it into a Romantic landscape garden, with a mock ruin, a hermit\'s hut, a lookout tower and a Chinese pavilion.',
+      ] },
+      { h: 'Fun facts', p: [
+        'In the 19th century European aristocrats loved building Chinese-style follies in their gardens, and the bishop of Košíře was no exception. His Chinese pavilion still hides among the trees, completely out of place in Baroque Prague and all the more charming for it.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Walk into Košíře along the old road past its old houses, then climb the hillside and look for the Chinese pavilion and the lookout tower among the trees of Cibulka, and take in western Prague from the top of the tower.',
+      ] },
+    ],
+    'Motol': [
+      { h: 'Overview', p: [
+        'Motol lies in the west of Prague in a valley with a stream running through it, and belongs to Prague 5. In the valley are an old chateau, an old mill and one of Prague\'s oldest golf courses; on the hillside stands the largest hospital in the country. For most Praguers the word "Motol" simply means "hospital".',
+      ] },
+      { h: 'History', p: [
+        'Motol began as a village by the stream, with a small chateau, a little brewery and a few mills. It joined Greater Prague in 1922, and in the 1920s a golf course was laid out in the valley, a rare pastime in Prague at the time. Under communism a huge hospital went up on the hillside, later joined by one of Charles University\'s medical faculties, and today it is the largest hospital and children\'s hospital in the country.',
+      ] },
+      { h: 'Fun facts', p: [
+        'A lone crucifix stands on a rock in the valley, visible only if you look up from the road. The old mill in the valley is called the Maltese Mill, said to be named after the Knights of Malta, who once owned land around here.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Walk a stretch of the stream valley past the chateau, the mill and the crucifix on its rock; the huge complex on the distant hillside is the hospital that made Motol famous.',
+      ] },
+    ],
+    'Jinonice': [
+      { h: 'Overview', p: [
+        'Jinonice lies in the west of Prague 5. On one side are new office blocks and housing; on the other is one of the most beautiful valleys in Prague, the Prokop valley, with limestone cliffs, meadows and woods along its sides and, deep inside, the remains of a Slavic stronghold more than a thousand years old.',
+      ] },
+      { h: 'History', p: [
+        'As early as the 8th and 9th centuries, the Slavs built a walled settlement on the heights above the valley, the Butovice hillfort, older than Prague Castle. Later there was nothing here but a village, farmsteads and a small chateau. Jinonice joined Greater Prague in 1922; in the 20th century a factory making aircraft engines worked here for decades, and its site has since been turned into offices.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The Prokop valley is named after the Czech saint Procopius, who in legend was a hermit living in a cave who could drive out devils. The valley also has a little book exchange where passers-by can leave a book and take another.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Walk from Jinonice into the Prokop valley and on into its depths, then climb up to the heights to see the remains of the ancient Slavic stronghold. The whole valley can be walked all the way to Hlubočepy, and at weekends it is full of dog walkers and cyclists.',
+      ] },
+    ],
+    'Liboc': [
+      { h: 'Overview', p: [
+        'Liboc lies in the west of Prague 6, between the Šárka valley and White Mountain. It is best known for an ancient game reserve enclosed by a high wall, with a star-shaped summer palace in the middle. The village itself is small and so quiet that you almost forget the airport is only a few kilometres away.',
+      ] },
+      { h: 'History', p: [
+        'Liboc began as a village on the edge of the Šárka valley, where the remains of an ancient Slavic stronghold also lie. In the 1530s Ferdinand I fenced off a game reserve next to the village, and in 1555 his son, Archduke Ferdinand of Tyrol, built a six-pointed star-shaped summer palace in it, part of which he is said to have designed himself.',
+        'In 1620 the Battle of White Mountain was fought outside the reserve\'s walls, and the last soldiers to hold out fell beside them. The rock here also hides a water tunnel cut centuries ago, said to have supplied water to the castle area. Liboc joined Greater Prague in 1922.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The Star summer palace has six points, and the rooms inside are all diamonds and triangles, not a single one square; it is said to have been built to please the archduke\'s wife, a commoner. Whether that is true, historians are still arguing.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Enter the reserve through its gate and follow the straight avenue to the Star summer palace, then leave the reserve and head north into the Šárka valley to find the remains of the Slavic stronghold.',
+      ] },
+    ],
+    'Ruzyně': [
+      { h: 'Overview', p: [
+        'Ruzyně lies at the western edge of Prague and belongs to Prague 6. It is almost entirely taken up by one thing: Václav Havel Airport. Next to the airport are a barracks, a prison and a burial mound commemorating the Battle of White Mountain, and Prague\'s westernmost point is here too.',
+      ] },
+      { h: 'History', p: [
+        'Ruzyně began as a village on the plateau west of Prague, surrounded by fields. On 8 November 1620 the Battle of White Mountain was fought on the nearby slopes for about two hours, and the fate of Bohemia for the next three centuries was decided. In 1920 a memorial mound was raised on the battlefield.',
+        'In 1937 Prague\'s new airport opened on the fields of Ruzyně, with a handsome functionalist terminal that still stands. Over the decades the airport kept growing, and in 2012 it was renamed Václav Havel Airport, after the playwright who became president.',
+      ] },
+      { h: 'Fun facts', p: [
+        'Many people\'s first impression of Prague is really the fields and runways of Ruzyně. As for Prague\'s westernmost point, it lies in an unremarkable spot near the airport, and most of the people taking off and landing here fly straight over it.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'If you are not here for a flight, go and stand by the mound on White Mountain and look at the slope that decided Bohemia\'s fate, then look for Prague\'s westernmost point near the airport.',
+      ] },
+    ],
+    'Střešovice': [
+      { h: 'Overview', p: [
+        'Střešovice lies north-west of Hradčany and belongs to Prague 6. It is a quiet quarter of villas and a garden suburb, its streets lined with houses with little gardens, among them a world-famous modernist villa. It is also home to Prague\'s Central Military Hospital and a museum full of old trams.',
+      ] },
+      { h: 'History', p: [
+        'Střešovice began as a small village behind the castle, surrounded by vineyards and farmsteads. It joined Greater Prague in 1922, just as the young Czechoslovakia was enthusiastic about garden suburbs, and Ořechovka, an estate of detached and terraced houses with gardens, went up on its slopes. In 1930 the architect Adolf Loos built the Müller Villa here for a building contractor, and it became a landmark of modern architecture.',
+      ] },
+      { h: 'Fun facts', p: [
+        'From outside the Müller Villa looks like a plain white box, but inside it is like a maze: every room has its floor at a different height, and the stairs weave between them. Loos called this his "Raumplan", planning in space.',
+        'The tram museum is in an old depot from 1909, full of the trams that have run through Prague\'s streets over more than a century, and some of them come out in summer to take passengers on a ride round the city.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Start at the tram museum to see how Prague\'s trams have changed, then wander the little streets of Ořechovka past the old houses with their gardens, and if you have booked ahead, go inside the Müller Villa to see its "maze".',
+      ] },
+    ],
+    'Vokovice': [
+      { h: 'Overview', p: [
+        'Vokovice lies in the west of Prague 6. On one side are 1960s housing and new office blocks; on the other is Prague\'s wildest valley, Divoká Šárka, with steep rock faces, a stream and a reservoir that is one of the city\'s favourite places to swim in summer.',
+      ] },
+      { h: 'History', p: [
+        'Vokovice began as a village on the edge of the Šárka valley, surrounded by fields and mills. It joined Greater Prague in 1922, and in the 1960s a housing estate went up on Červený vrch. The reservoir in the valley was built in the second half of the 20th century and soon became a fine place for a swim.',
+        'The Šárka valley is named after Šárka, the woman warrior of legend. In the story of the Maidens\' War she pretended to be tied to a tree to lure a band of knights, then blew a horn to call her sisters, who wiped them out.',
+      ] },
+      { h: 'Fun facts', p: [
+        'Legend says Šárka later leapt to her death from a rock in the valley, and the rock is still called the Maiden\'s Leap. The reservoir is called Džbán, "the jug", and in summer its banks are packed with sunbathers, some of them thoroughly so.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Walk from the housing estate into Divoká Šárka and follow the stream to the reservoir, and in summer go in for a swim, then climb the cliffs and look for the Maiden\'s Leap.',
+      ] },
+    ],
+    'Sedlec': [
+      { h: 'Overview', p: [
+        'Sedlec is a small village in the north of Prague on the left bank of the Vltava, belonging to Prague 6. Squeezed between the river and steep rock faces, it has just one old street, a small manor, a little chapel and a small railway station. Note that it is not the same place as the Sedlec near Kutná Hora with the bone church, even though the name is the same.',
+      ] },
+      { h: 'History', p: [
+        'Sedlec is an old fishing village on the Vltava whose people fished the river, grew vines on the slopes and quarried the rock faces. In the 19th century the railway to Dresden was built along the riverbank and the village got a little station. Sedlec joined Greater Prague in 1922, yet it still looks like a village today.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The Vltava leaves Prague near Sedlec, and this is one of the lowest places in the city. Walk here from Prague\'s highest point and you drop more than two hundred metres on the way.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Come to Sedlec by train or along the riverside cycle path, stroll down the old street, then follow the river north to see how the Vltava leaves Prague.',
+      ] },
+    ],
+    'Suchdol': [
+      { h: 'Overview', p: [
+        'Suchdol lies on the north-western edge of Prague, under the administration of Prague 6, but it is a borough of its own. On the plateau are the village and an agricultural university, and at the foot of the plateau the deep valley of the Vltava. It only joined Prague in 1968 and still has a touch of the countryside about it.',
+      ] },
+      { h: 'History', p: [
+        'Suchdol means "dry valley", and it began as a farming village on the plateau. In the 1960s Prague\'s agricultural university moved here; today it is the Czech University of Life Sciences, with test fields, greenhouses and livestock on its campus, and more students than villagers. Suchdol joined Prague in 1968.',
+      ] },
+      { h: 'Fun facts', p: [
+        'A university that teaches farming and stock-raising sits right on the edge of Prague, its campus a rare "farm" within the city, complete with test fields, greenhouses and animal sheds. The village also has a community garden where neighbours grow vegetables together.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Walk around the university campus and the village, then follow the paths along the edge of the plateau to the rim of the Vltava valley and look down at the river on its way out of Prague.',
+      ] },
+    ],
+    'Bohnice': [
+      { h: 'Overview', p: [
+        'Bohnice lies in the north of Prague on the high bank of the Vltava and belongs to Prague 8. It has an old village, a large 1970s housing estate, and a psychiatric hospital that is like a small town: inside its walls are dozens of buildings, a church, a farm and a theatre. Almost everyone in the country knows the name Bohnice, and the hospital is the reason.',
+      ] },
+      { h: 'History', p: [
+        'Bohnice began as a farming village on the high bank, with an ancient church and a small chateau. In 1909 Prague built a huge psychiatric hospital beside the village, following the latest ideas of the day: patients were spread out across separate buildings in a garden and put to work on the farm. It soon became one of the largest psychiatric hospitals in Europe.',
+        'Bohnice joined Greater Prague in 1922; in the 1970s and 80s a large housing estate went up on the fields beside the village and tens of thousands of people moved in. Many of the estate\'s streets are named after Polish cities, which is why some call it "Prague\'s Little Poland".',
+      ] },
+      { h: 'Fun facts', p: [
+        'In Czech, "they should send you to Bohnice" means roughly "you\'ve lost your mind". People in Bohnice would rather tell you how beautiful the hospital grounds are, and that every year they host a theatre and music festival called "Between the Fences", where patients and audiences take part together.',
+        'In the 19th century a dynamite factory also worked in the Bohnice valley: a place later famous for its hospital started out handling explosives.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Take a walk in the hospital grounds to see the church and the old buildings, then go to the old village for its ancient church, and finish in the woods on the edge of the high bank, watching the Vltava bend below you.',
+      ] },
+    ],
+    'Kobylisy': [
+      { h: 'Overview', p: [
+        'Kobylisy lies on the heights of Prague 8 between Libeň and Bohnice, mostly 20th-century apartment blocks and housing estates with a square in the middle. It is an ordinary Prague neighbourhood, yet it holds a place Praguers will never forget.',
+      ] },
+      { h: 'History', p: [
+        'Kobylisy began as a small village on the heights; to Czech ears its name sounds connected with "mare". It joined Greater Prague in 1922, and over the following decades apartment blocks and housing estates spread over its fields, later joined by metro line C.',
+        'In 1942, after the assassination of Heydrich, the Nazis executed several hundred Czechs at an army shooting range in Kobylisy: members of the resistance, but also many ordinary people caught up merely for their sympathy or their silence. The shooting range is now a memorial, with the wall and the execution posts preserved.',
+      ] },
+      { h: 'Fun facts', p: [
+        'Most days in Kobylisy are ordinary: shopping on the square, the metro into town, a walk in the nearby woods at the weekend. The memorial stands quietly beside the housing estate, and many of the people who live nearby walk past it every day.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'If you come to Kobylisy, please go and stand for a while at the shooting range memorial. It is small and not at all busy, but it deserves a few quiet minutes of your time.',
+      ] },
+    ],
+    'Vysočany': [
+      { h: 'Overview', p: [
+        'Vysočany lies in the north-east of Prague, belongs to Prague 9 and is one of the oldest industrial districts in the city. For a hundred years its great factories built cars, locomotives, trams and tanks; today the old halls are turning one by one into offices, flats and art spaces, and metro line B runs right along its main street.',
+      ] },
+      { h: 'History', p: [
+        'Vysočany began as a village on the Rokytka stream, with mills and a sugar factory. At the end of the 19th century large engineering works and a car factory moved in, workers poured in from all over the country, and Vysočany quickly became an industrial town, joining Greater Prague in 1922.',
+        'In March 1945 Allied bombers attacked Vysočany to destroy the factories making weapons for the Nazis, and many workers and residents were killed in the raid. In August 1968, the day after Soviet tanks rolled into Prague, the Czechoslovak Communist Party secretly held an extraordinary congress in one of the factories here to protest against the invasion.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The car factory\'s old halls are now called Pragovka and are full of artists\' studios and galleries, with graffiti layered on the walls. A hundred years ago they made cars here; today they make art.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Walk the main street along metro line B and see the old factory halls standing side by side with new office blocks, then turn into Pragovka for a round of the studios and galleries.',
+      ] },
+    ],
+    'Prosek': [
+      { h: 'Overview', p: [
+        'Prosek lies on the heights in the north of Prague 9, with one of the oldest churches in Prague, a large 1960s housing estate and a sandstone cliff looking out over the east of the city. It is quiet and green, with parks right below the blocks of flats.',
+      ] },
+      { h: 'History', p: [
+        'Prosek is a very old village: at the end of the 12th century it built a Romanesque stone church that is still in use. For centuries the southern slope of the heights was covered with vineyards. It joined Greater Prague in 1922; in the 1960s one of Prague\'s first large housing estates went up on its fields, and metro line C later followed.',
+      ] },
+      { h: 'Fun facts', p: [
+        'An old stone column stands in the village, said to honour the people who once grew grapes and made wine on these slopes. The sandstone cliff of Prosek also has caves cut by hand, once used for storage.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Start with the old church, more than eight hundred years old, then walk to the lookout at the edge of the sandstone cliff for a view of the eastern skyline, and finish with a walk in the estate\'s park.',
+      ] },
+    ],
+    'Hloubětín': [
+      { h: 'Overview', p: [
+        'Hloubětín lies on the Rokytka stream in the east of the city and is split between Prague 9 and Prague 14. It has an old village, a small chateau, a farmstead that once belonged to an order of knights, old factory hostels and a fault line well known to geologists.',
+      ] },
+      { h: 'History', p: [
+        'Hloubětín began as a village on the Rokytka, and in the Middle Ages it belonged to the Knights of the Cross with the Red Star, whose farmstead in the village still stands. Later the village gained a small chateau and a brickworks. In the 20th century the big engineering works nearby built hostels here for their workers, and Hloubětín became a place where workers lived. It joined Greater Prague in 1922.',
+      ] },
+      { h: 'Fun facts', p: [
+        'Hloubětín has the "Prague Fault", where two kinds of rock from completely different ages meet, and geologists come specially to see it. Standing in front of it, you can put one foot in one age and the other foot in another.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Follow the path along the Rokytka past the old mill and the knights\' farmstead, then go and look at the fault, and finish with a rest by the church in the old village.',
+      ] },
+    ],
+    'Strašnice': [
+      { h: 'Overview', p: [
+        'Strašnice lies in Prague 10, between Vinohrady and the housing estates of the east. It has quiet villa streets, several large cemeteries, one of Prague\'s first modern villas and the headquarters of an international broadcaster. The name sounds a little frightening; the place is surprisingly peaceful.',
+      ] },
+      { h: 'History', p: [
+        'Strašnice began as a village outside the city, surrounded by fields and farmsteads. At the end of the 19th century Vinohrady\'s population kept growing and its cemeteries ran out of room, so Vinohrady opened a large cemetery on Strašnice land, and later a crematorium was built next to it. Strašnice joined Greater Prague in 1922, and in the first half of the 20th century villas and apartment blocks went up on its fields.',
+        'Before the Second World War there was a Jewish sports ground here called Hagibor, which the Nazis turned into an internment camp. Today it is a social care centre.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The Vinohrady Cemetery is actually in Strašnice, and its most famous resident is Václav Havel, whose grave is always covered with flowers and red hearts. A section of the Berlin Wall stands outside the broadcaster\'s headquarters, reminding the journalists who work there where their work began.',
+        'In 1903 the architect Jan Kotěra built a villa here for a teacher, and it is considered the first modern villa in the Czech lands.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Start by finding Havel\'s grave in the cemetery, then go and see the section of the Berlin Wall, and finish with a walk along the villa streets looking for the first modern villa in the Czech lands.',
+      ] },
+    ],
+    'Malešice': [
+      { h: 'Overview', p: [
+        'Malešice lies in the east of the city and is split between Prague 9 and Prague 10. It has an old village, a 1960s housing estate, a waste incinerator that heats a good part of the city, and a railway viaduct striding across a valley.',
+      ] },
+      { h: 'History', p: [
+        'Malešice began as a farming village surrounded by farmsteads and fields. In 1757 the Prussian and Austrian armies fought a great battle nearby, the Battle of Prague, and a small chapel by the village still commemorates it. Malešice joined Greater Prague in 1922; in the 1960s one of Prague\'s first prefabricated housing estates went up beside the village.',
+      ] },
+      { h: 'Fun facts', p: [
+        'Much of Prague\'s rubbish ends up in the incinerator at Malešice, where it is burned and turned into electricity and heating that go back into people\'s homes. Malešice also has a villa whose garden is now a small botanical garden.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'See the little chapel commemorating the battle in the old village, walk in the park and the botanical garden, and finish standing under the railway viaduct as a train passes overhead.',
+      ] },
+    ],
+    'Hostivař': [
+      { h: 'Overview', p: [
+        'Hostivař lies in the south-east of Prague and belongs to Prague 15. It has an old village, a large reservoir, a big forest park and a string of bends on the little Botič stream, as well as housing estates, an industrial zone and a shopping centre. In summer Praguers come here to sunbathe by the reservoir.',
+      ] },
+      { h: 'History', p: [
+        'Hostivař is very old: in the early Middle Ages there was already a Slavic stronghold here, which later became a village on the Botič with mills and an ancient church. In 1963 a reservoir was built upstream to protect against floods; in 1968 Hostivař joined Prague, and housing estates and factories went up on its fields.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The Hostivař reservoir was built to protect against floods, but Praguers soon discovered it was perfect for swimming, and today it is one of the city\'s favourite "beaches". Below the dam, the Botič winds through the forest in a string of bends, one of the prettiest stretches of stream in Prague.',
+        'The old village also has an ecological farm where city children come to see the sheep and feed the chickens.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'In summer bring a swimsuit to the reservoir, then walk downstream along the bends of the Botič, and finish in the old village with its ancient church and ecological farm.',
+      ] },
+    ],
+    'Černý Most': [
+      { h: 'Overview', p: [
+        'Černý Most lies in the north-east of Prague, belongs to Prague 14 and is one of the city\'s youngest large housing estates. The eastern end of metro line B is here, with a big shopping centre and a coach station beside the terminus, and beyond them the motorway and open fields.',
+      ] },
+      { h: 'History', p: [
+        'The name Černý Most, "Black Bridge", is much older than the estate. It is said that a wooden bridge once crossed a stream here, its timber blackened by smoke, and in time the whole area came to be called the Black Bridge. For centuries it was nothing but fields and a few farms beside the main road. In the 1980s housing blocks began going up on the fields, a second phase followed in the 1990s, and it became one of Prague\'s last large housing estates. Metro line B arrived in 1998.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The metro station at Černý Most is called Rajská zahrada, "Paradise Garden", with a steel canopy spreading over the platform like a tent, and many people think it one of the most beautiful stations in Prague. Step out of Paradise and a few steps later you are at the shopping centre, a contrast Praguers find very satisfying.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Take line B to the end and look up at the canopy over the Paradise Garden platform, then walk round the estate to see what Prague\'s last generation of housing estates looks like.',
+      ] },
+    ],
+    'Dolní Počernice': [
+      { h: 'Overview', p: [
+        'Dolní Počernice lies in the east of Prague, under the administration of Prague 14, but it is a borough of its own. It has a chateau and chateau park, an old church, a few woods and the largest pond in Prague. It only joined Prague in 1974 and still looks like a small town.',
+      ] },
+      { h: 'History', p: [
+        'Dolní Počernice is an old village that already had a castle and a church in the Middle Ages, and over the centuries it belonged to a succession of nobles. The castle was later rebuilt as a small chateau, and an English landscape park was laid out beside it. The great pond south of the village was dug in the Middle Ages and is still the largest pond in Prague.',
+      ] },
+      { h: 'Fun facts', p: [
+        'A herd of European bison within the city limits of a capital sounds odd, but Dolní Počernice really has one. The big beasts live in an enclosure near the chateau and are the little town\'s most popular residents with children.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Stroll through the chateau park and go and see the bison, then head south to the great pond and walk all the way round it, and finish by climbing the tiny lookout tower.',
+      ] },
+    ],
+    'Kyje': [
+      { h: 'Overview', p: [
+        'Kyje lies in the east of Prague and belongs to Prague 14. It has an eight-hundred-year-old Romanesque church, a large pond, a little railway station and a newly built lookout tower. The tower blocks of Černý Most are right next door, yet Kyje has kept the look of an old village.',
+      ] },
+      { h: 'History', p: [
+        'Kyje is a very old village: at the beginning of the 13th century it built a stone church that is one of the best-preserved Romanesque churches in Prague, its walls still showing traces of the Middle Ages. For centuries this was a place of farms and ponds. Kyje joined Prague in 1968; later the Černý Most estate was built on the fields next to it, and Kyje became the "old village" at the foot of the tower blocks.',
+      ] },
+      { h: 'Fun facts', p: [
+        'In summer the banks of the Kyje pond are lined with anglers, and when it freezes in winter it becomes a skating rink. The lookout tower on the slope is not tall, but from the top you can see both the old church and the distant housing estates.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Start with the old Romanesque church, walk round the pond, and finish by climbing the lookout tower to see how the old village and the new town sit side by side.',
+      ] },
+    ],
+    'Chodov': [
+      { h: 'Overview', p: [
+        'Chodov lies in the south-east of Prague, belongs to Prague 11 and forms the northern half of the Jižní Město ("South Town") housing estate. It has a small medieval castle, one of the largest shopping centres in the country, an office park and the National Archives, with a large forest right next to it on the west.',
+      ] },
+      { h: 'History', p: [
+        'Chodov began as a farming village with a small Gothic castle belonging to the local nobility. For centuries it was fields and farms. It joined Prague in 1968, and straight afterwards, in the 1970s, the first phase of South Town went up on its fields and tens of thousands of people moved into the tower blocks. The little castle was kept and is now a cultural centre with concerts and exhibitions.',
+      ] },
+      { h: 'Fun facts', p: [
+        'A small medieval castle with a moat appearing suddenly among the tower blocks is one of the most delightful sights in Chodov. The National Archives moved here too, so centuries of Czech documents are kept on the edge of South Town.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Start by catching an exhibition at the little castle or sitting in its courtyard, then take a walk in the forest to the west, and when you are tired, rest in the huge shopping centre next door.',
+      ] },
+    ],
+    'Háje': [
+      { h: 'Overview', p: [
+        'Háje lies in the south-east of Prague, belongs to Prague 11 and forms the southern half of the South Town housing estate. It is the end of metro line C, tower block after tower block, with a forest and a little zoo to the east.',
+      ] },
+      { h: 'History', p: [
+        'The name Háje means "groves", and it began as a small village. It joined Prague in 1968, and in the 1980s the second phase of South Town shot up here. In 1980 metro line C reached it; the terminus was first called Kosmonautů, "Cosmonauts", after the joint Soviet and Czechoslovak space flight, and was only renamed Háje in 1990.',
+      ] },
+      { h: 'Fun facts', p: [
+        'A place called "groves" is now a forest of tower blocks. Still, the name is not entirely wrong: right beside the estate to the east is the Milíčov forest, with a little zoo tucked away in it.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Take line C to the end and look at the cosmonaut statue outside the station, then cross the estate into the forest to the east and look for the little zoo.',
+      ] },
+    ],
+    'Modřany': [
+      { h: 'Overview', p: [
+        'Modřany lies in the south of Prague on the right bank of the Vltava and belongs to Prague 12. By the river are a long cycle path and the old village, on the slopes a large housing estate, and in between a deep gorge and a vineyard.',
+      ] },
+      { h: 'History', p: [
+        'Modřany began as a riverside village whose people grew grapes, farmed and fished the river. In the 19th century a large sugar refinery opened here, and Modřany became a small industrial town. It joined Prague in 1968; in the 1980s a large housing estate went up on the slopes and tens of thousands of people moved in.',
+      ] },
+      { h: 'Fun facts', p: [
+        'Vines still grow on the slopes of Modřany, one of the few vineyards in Prague still making wine. The gorge beside the estate is deep and wild, and a few minutes inside it you can no longer hear the city.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Ride a stretch of the riverside cycle path, then walk into the Modřany gorge, and finish by climbing the slope to the vineyard.',
+      ] },
+    ],
+    'Stodůlky': [
+      { h: 'Overview', p: [
+        'Stodůlky lies in the south-west of Prague, belongs to Prague 13 and is the centre of Jihozápadní Město, "South-West Town". It takes in the housing estates of Lužiny, Nové Butovice, Velká Ohrada and others, with a very large Central Park in the middle and the church and farmsteads of the old village of Stodůlky on the edge.',
+      ] },
+      { h: 'History', p: [
+        'Stodůlky began as a farming village; its name means "little barns". For centuries it was fields, farmsteads and a small church. It joined Prague in 1974, and in the 1980s and 90s South-West Town was built on its fields and metro line B arrived. It is one of Prague\'s last large housing estates, and large green spaces were left in it from the planning stage.',
+      ] },
+      { h: 'Fun facts', p: [
+        'Beside the estate, a small 14th-century village has been reconstructed from archaeological finds, with timber houses, thatched roofs and fences, and medieval festivities are held there from time to time. It is only a few minutes\' walk from the metro, yet it feels like going back seven hundred years.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Walk a long loop round the Central Park, see the village church in old Stodůlky, and finish at the reconstructed medieval village to see what the outskirts of Prague looked like seven hundred years ago.',
+      ] },
+    ],
+    'Řeporyje': [
+      { h: 'Overview', p: [
+        'Řeporyje lies on the south-western edge of Prague, under the administration of Prague 13, but it is a borough of its own. It is an old village tucked into a valley, surrounded by limestone, old lime kilns and a railway viaduct, with the Prague ring road running past.',
+      ] },
+      { h: 'History', p: [
+        'Řeporyje is an ancient village in a valley that for centuries lived off farming and burning lime, and old lime kilns still stand in the valley. In the 19th century the railway came through on a viaduct. Řeporyje joined Prague in 1974. The rock layers on both sides of the valley are famous, a place where geologists study seas hundreds of millions of years old.',
+      ] },
+      { h: 'Fun facts', p: [
+        'In 2020 Řeporyje put up a memorial in the village to the soldiers of the "Russian Liberation Army" who changed sides in May 1945 and helped the Prague uprising against the Nazis. Moscow was furious, the move was hotly debated in the Czech Republic too, and the little village suddenly found itself in the international news.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Walk round the village to see the old lime kilns and the church, follow the valley east to see the exposed rock layers, and finish under the railway viaduct, waiting for a train to cross.',
+      ] },
+    ],
+    'Radotín': [
+      { h: 'Overview', p: [
+        'Radotín lies in the south-western corner of Prague on the Berounka river and belongs to Prague 16. It is a small town with its own square and church, surrounded by limestone cliffs, quarries and a big cement works, yet its valley is a nature reserve with a natural swimming pond.',
+      ] },
+      { h: 'History', p: [
+        'Radotín began as a village on the Berounka that lived off river trade and limestone. In the 19th century a large cement works opened here, quarry followed quarry, and Radotín became an industrial town and later gained town status. In 1974 it joined Prague together with neighbouring Zbraslav.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The quarries of Radotín have yielded huge numbers of marine fossils hundreds of millions of years old, and geologists still come looking for trilobites. A roaring cement works on one side, a quiet valley and grazing meadows on the other: that is how big the contrast is in Radotín.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Cross the footbridge over the Berounka into Radotín, walk a stretch of the valley, have a swim in the natural pond, and finish standing under the cliffs to look at rock that has been quarried for more than a century.',
+      ] },
+    ],
+    'Velká Chuchle': [
+      { h: 'Overview', p: [
+        'Velká Chuchle lies on the left bank of the Vltava in the south of Prague, under the administration of Prague 16, but it is a borough of its own. It is best known for its racecourse, and also has an old village, an old lime kiln and a church on a small hill.',
+      ] },
+      { h: 'History', p: [
+        'Velká Chuchle began as a small village on the Vltava that lived off limestone and farming. In 1906 a racecourse was built on the riverside meadows, and for more than a century it has been one of the most important racecourses in the country. The great flood of 2002 submerged the whole racecourse, which was later rebuilt. Velká Chuchle joined Prague in 1968.',
+      ] },
+      { h: 'Fun facts', p: [
+        'On race days Chuchle becomes one of the liveliest places in Prague: in the stands some people bet seriously, while others have only come to sit in the sun, drink a beer and look at beautiful horses. The old lime kiln on the hillside is now a quiet industrial monument.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Pick a race day and soak up the atmosphere in the stands, then walk round the old village and up to the church on the hill, and take a look at the old lime kiln.',
+      ] },
+    ],
+    'Malá Chuchle': [
+      { h: 'Overview', p: [
+        'Malá Chuchle lies just north of Velká Chuchle, squeezed between the Vltava and a steep hillside, and belongs to Prague 16. It has an old church, a spring said to have healing powers, an old mill and sugar factory, and a little petting zoo.',
+      ] },
+      { h: 'History', p: [
+        'Malá Chuchle is a small riverside village. In the 19th century a spring rich in iron was found at the foot of the hill, a small spa opened here, and Praguers came by boat to bathe and take the cure. The village also had a mill and a sugar factory. Later the spa faded, and Malá Chuchle became a quiet little village again.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The spring at the foot of the hill is called Mary\'s Spring and is said to have healing powers, and people still come with bottles to fill. Malá Chuchle also has a little petting zoo where city children often come to see the animals.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Cycle or walk along the river to Malá Chuchle, see the spring and the old church, and take the children for a round of the petting zoo.',
+      ] },
+    ],
+    'Řepy': [
+      { h: 'Overview', p: [
+        'Řepy lies in the west of Prague and belongs to Prague 17. It has a 1980s housing estate, a forest park, the old home of a religious order of sisters and a Baroque pilgrimage church on White Mountain. The battlefield of White Mountain is right next door.',
+      ] },
+      { h: 'History', p: [
+        'Řepy began as a farming village at the foot of White Mountain. After the battle of 1620 the victorious Catholic side built a small chapel on the battlefield, and in the 18th century it was enlarged into a Baroque pilgrimage church with cloisters, celebrating the "victory of Our Lady". At the end of the 19th century an order of sisters built a large home in the village to care for the sick and the elderly. Řepy joined Prague in 1968, and in the 1980s a large housing estate went up on its fields.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The same battle that Czechs remember as a national disaster was, for the winning side, a victory worth building a church for. The pilgrimage church on White Mountain stands between those two memories.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Start at the pilgrimage church on White Mountain and walk round its cloisters, then stand for a while on the battlefield next to it, and finish with a walk in the Řepy forest park.',
+      ] },
+    ],
+    'Letňany': [
+      { h: 'Overview', p: [
+        'Letňany lies in the north of Prague and belongs to Prague 18. It is the northern end of metro line C, with an exhibition centre and an old airfield, surrounded by new apartment blocks, older estates and fields.',
+      ] },
+      { h: 'History', p: [
+        'Letňany began as a small village. After Czechoslovakia was founded in 1918, an aircraft factory called Letov was set up here along with an airfield, and Letňany became one of the cradles of the Czech aircraft industry, building many military and civilian planes over the decades. Letňany joined Prague in 1968, and metro line C arrived in 2008.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The old Letňany airfield is still in use, though what takes off is not airliners but light aircraft, gliders and parachutists. The exhibition centre hosts motor shows, wedding fairs and motorbike shows all year round, and every time a metro train pulls in, the crowds stream towards the big halls.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Take line C to the end and watch the light aircraft take off and land at the airfield, and if a fair is on, take a turn round the halls.',
+      ] },
+    ],
+    'Čakovice': [
+      { h: 'Overview', p: [
+        'Čakovice lies in the north of Prague and belongs to Prague 18, with a Baroque chateau and its park, an old church and a railway station. It still feels like a small town, and neighbouring Miškovice and Třeboradice are still quiet little villages.',
+      ] },
+      { h: 'History', p: [
+        'Čakovice began as a farming village with a nobleman\'s chateau. In the 19th century a large sugar refinery opened here, with beet fields stretching to the horizon, and Čakovice became a small industrial town. It later joined Prague, and the chateau and its park have survived to this day.',
+      ] },
+      { h: 'Fun facts', p: [
+        'Prague\'s northernmost point is in Třeboradice next to Čakovice, just an unremarkable spot in the middle of the fields; stand on it and the whole city lies to your south.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Stroll through the chateau park and look at the old church, then cycle across the fields to find Prague\'s northernmost point.',
+      ] },
+    ],
+    'Kbely': [
+      { h: 'Overview', p: [
+        'Kbely lies in the north-east of Prague and belongs to Prague 19. It is almost entirely taken up by a military airfield and its aviation museum, surrounded by family houses and gardens.',
+      ] },
+      { h: 'History', p: [
+        'Kbely began as a small village. In 1918, when Czechoslovakia had only just been founded, the country\'s first military airfield was built on the fields beside it. In 1923 Czechoslovak Airlines\' first scheduled flight also took off from Kbely, bound for Bratislava. Civilian flights later moved to Ruzyně, and Kbely has remained an air force base. It joined Prague in 1968.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The aviation museum in Kbely shows dozens of old aircraft, from First World War biplanes to Cold War jet fighters, most of them in the open air and in old hangars, and it does not charge for entry.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Go and see the planes at the aviation museum, ideally on a fine day, since many of them stand outside; with a bit of luck you may also see a military aircraft take off from the runway.',
+      ] },
+    ],
+    'Horní Počernice': [
+      { h: 'Overview', p: [
+        'Horní Počernice lies on the north-eastern edge of Prague and is Prague 20 all by itself, about seventeen thousand people. It grew out of the old villages of Horní Počernice, Chvaly and Svépravice, and has its own theatre, cultural centre and an old chateau, with the motorway running past.',
+      ] },
+      { h: 'History', p: [
+        'Horní Počernice began as a handful of villages along the main road to the north-east. The castle in Chvaly dates from the Middle Ages and was later rebuilt several times into a small chateau. In the 20th century the villages grew into a small town, which joined Prague in 1974.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The chateau in Chvaly is now a cultural centre with exhibitions, concerts and children\'s activities. Children\'s birthday parties in a castle several hundred years old are not something you find in every district of Prague.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'See an exhibition at the chateau in Chvaly, then wander the streets of the little town and its old villages.',
+      ] },
+    ],
+    'Klánovice': [
+      { h: 'Overview', p: [
+        'Klánovice lies at the eastern edge of Prague, belongs to Prague 21 and is a villa quarter hidden in a forest. All around is the great Klánovice forest, its streets are lined with villas more than a century old, and the suburban railway station stands at the edge of the woods.',
+      ] },
+      { h: 'History', p: [
+        'Klánovice is a young place. In 1878 a Prague builder bought this forest and laid out a colony of summer villas in it, and the place was named after him. Once the railway arrived, wealthy Praguers came out by train to spend the summer here, and villa after villa went up. Klánovice joined Prague in 1974.',
+      ] },
+      { h: 'Fun facts', p: [
+        'The Klánovice forest is one of the largest forests around Prague, with nature reserves and ponds. People who live here step off the train straight into the woods, a way of life the summer visitors were already enjoying more than a century ago.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Come by suburban train, walk the old streets of the villa quarter to see the summer villas of more than a century ago, then head into the forest as far as you like.',
+      ] },
+    ],
+    'Uhříněves': [
+      { h: 'Overview', p: [
+        'Uhříněves lies on the south-eastern edge of Prague and is the centre of Prague 22, a small town with its own square, church and railway station. It is surrounded by fields, ponds and a few small villages, with plenty of new housing added over the past twenty years.',
+      ] },
+      { h: 'History', p: [
+        'Uhříněves is an old village that grew into a small market town, with a market, a church and a nobleman\'s small chateau. It also had a Jewish community, which left behind an old Jewish cemetery. In the 20th century a national institute of animal science was set up in the chateau to study cattle and pigs, and it is still there today. Uhříněves joined Prague in 1974.',
+      ] },
+      { h: 'Fun facts', p: [
+        'In Uhříněves the train is far more convenient than the metro, because there is no metro here at all. The train into the centre takes only about twenty minutes, with fields outside the window all the way.',
+      ] },
+      { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: [
+        'Come by train, stroll around the little town\'s square and church, then cycle out to the surrounding fields and ponds to see Prague\'s countryside.',
+      ] },
+    ],
   },
 };

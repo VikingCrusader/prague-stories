@@ -240,5 +240,185 @@ export const AREA_BLURBS = {
       cz: 'Až do roku 1974 samostatné město s klášterem, který roku 1292 založil Václav II. jako pohřebiště Přemyslovců. Leží tu poslední králové rodu.',
       zh: '1974年以前还是独立的小镇，镇上的修道院由瓦茨拉夫二世于1292年创建，作为普舍米斯尔家族的墓葬教堂。这个王朝的最后几位国王就长眠于此。',
     },
+    'Krč': {
+      en: 'Hospitals, research institutes and a neo-Gothic castle on the edge of a big forest, with the tallest residential tower in Prague to the north.',
+      cz: 'Nemocnice, výzkumné ústavy a novogotický zámek na kraji velkého lesa, na severu nejvyšší obytná věž Prahy.',
+      zh: '医院、研究所和一座新哥特式小城堡，都挨着一大片森林；北边立着布拉格最高的住宅楼。',
+    },
+    'Michle': {
+      en: "An old hill village that became the city's gasworks and then one of its biggest office districts. Not pretty, but very honest about how Prague grew.",
+      cz: 'Stará vesnice na kopci, ze které se stala městská plynárna a pak jedno z největších kancelářských center. Není krásná, ale poctivě ukazuje, jak Praha rostla.',
+      zh: '山坡上的老村子，先变成了全城的煤气厂，后来又成了最大的写字楼区之一。不漂亮，却很诚实地展示了布拉格是怎么长大的。',
+    },
+    'Kunratice': {
+      en: 'A small town in all but name, where a king died at his forest castle in 1419 and the best pho in Prague is served today.',
+      cz: 'Městečko ve všem kromě jména, kde v roce 1419 zemřel král na svém lesním hradě a kde se dnes vaří nejlepší phở v Praze.',
+      zh: '除了名字，样样都像一座小镇：1419年一位国王死在这里的森林城堡里，今天这里有全布拉格最好吃的河粉。',
+    },
+    'Záběhlice': {
+      en: 'A village on the Botič with a Baroque chateau and a big pond, plus Spořilov, the 1920s garden suburb of identical little houses.',
+      cz: 'Vesnice na Botiči s barokním zámkem a velkým rybníkem a k tomu Spořilov, zahradní město z dvacátých let se stejnými domky.',
+      zh: '博季奇河边的村子，有一座巴洛克小城堡和一个大池塘，还有1920年代那片一模一样小房子组成的花园城斯波日洛夫。',
+    },
+    'Hlubočepy': {
+      en: 'A village in a valley, cliffs of ancient sea floor, the Barrandov film studios and a housing estate on top. All within one tram ride.',
+      cz: 'Vesnice v údolí, skály z prastarého mořského dna, barrandovské ateliéry a nahoře sídliště. Všechno v dosahu jedné tramvaje.',
+      zh: '山谷里的老村子，远古海底变成的峭壁，巴兰多夫电影制片厂，还有崖顶的住宅区，坐一趟电车就能全看到。',
+    },
+    'Motol': {
+      en: 'A stream valley with an old chateau, a mill and an early golf course, under the hill with the largest hospital in the country.',
+      cz: 'Údolí potoka se starým zámkem, mlýnem a jedním z prvních golfových hřišť, pod kopcem s největší nemocnicí v zemi.',
+      zh: '一条小溪流过的山谷，有老城堡、老磨坊和一座早年的高尔夫球场，山坡上是全国最大的医院。',
+    },
+    'Jinonice': {
+      en: 'Office blocks on one side, the Prokop valley on the other, with a Slavic stronghold older than Prague Castle deep inside it.',
+      cz: 'Na jedné straně kanceláře, na druhé Prokopské údolí a hluboko v něm slovanské hradiště starší než Pražský hrad.',
+      zh: '一边是写字楼，一边是普罗科普峡谷，峡谷深处有一座比布拉格城堡还老的斯拉夫城堡遗址。',
+    },
+    'Liboc': {
+      en: 'A quiet village beside a walled game reserve with a star-shaped Renaissance summer palace. White Mountain is just outside the wall.',
+      cz: 'Tichá ves vedle obory obehnané zdí s renesančním letohrádkem ve tvaru hvězdy. Bílá hora je hned za zdí.',
+      zh: '一个安静的村子，挨着一片围墙环绕的林苑，林苑中间是一座星形的文艺复兴夏宫，白山就在墙外。',
+    },
+    'Ruzyně': {
+      en: 'The airport, a barracks, a prison and the mound on White Mountain. For many visitors, the first piece of Prague they ever see.',
+      cz: 'Letiště, kasárna, věznice a mohyla na Bílé hoře. Pro spoustu návštěvníků první kousek Prahy, který kdy uvidí.',
+      zh: '机场、兵营、监狱和白山上的土冢。对很多游客来说，这是他们看到的第一块布拉格。',
+    },
+    'Vokovice': {
+      en: 'A 1960s housing estate next to Divoká Šárka, the wildest valley in Prague, with cliffs, a stream and a reservoir to swim in.',
+      cz: 'Sídliště ze šedesátých let vedle Divoké Šárky, nejdivočejšího pražského údolí se skalami, potokem a nádrží ke koupání.',
+      zh: '1960年代的住宅区，旁边就是布拉格最野的山谷野沙尔卡，有峭壁、溪流和一座可以游泳的水库。',
+    },
+    'Sedlec': {
+      en: 'A one-street fishing village between the Vltava and the cliffs, near where the river leaves Prague. Not the Sedlec with the bone church.',
+      cz: 'Rybářská ves o jedné ulici mezi Vltavou a skalami, kousek od místa, kde řeka opouští Prahu. Ne ten Sedlec s kostnicí.',
+      zh: '夹在伏尔塔瓦河和峭壁之间、只有一条街的渔村，伏尔塔瓦河就在附近流出布拉格。不是那个有人骨教堂的塞德莱茨。',
+    },
+    'Suchdol': {
+      en: 'A farming village on the plateau that became home to Prague\'s agricultural university, above the deep valley of the Vltava.',
+      cz: 'Zemědělská ves na planině, kde se usadila pražská zemědělská univerzita, nad hlubokým údolím Vltavy.',
+      zh: '高原上的农业村子，后来成了布拉格农业大学的所在地，脚下是伏尔塔瓦河的深谷。',
+    },
+    'Bohnice': {
+      en: 'An old village, a 1970s housing estate with Polish street names, and a psychiatric hospital so big it is a small town of its own.',
+      cz: 'Stará ves, sídliště ze sedmdesátých let s ulicemi pojmenovanými po polských městech a psychiatrická nemocnice tak velká, že je sama malým městem.',
+      zh: '一座老村子，一片用波兰城市命名街道的1970年代住宅区，还有一座大得像小城的精神病院。',
+    },
+    'Kobylisy': {
+      en: 'An ordinary neighbourhood of flats on the heights of Prague 8, and the site of the 1942 executions at the Kobylisy shooting range.',
+      cz: 'Obyčejná čtvrť činžáků na výšinách Prahy 8 a místo poprav na kobyliské střelnici v roce 1942.',
+      zh: '8区高地上一片普通的公寓街区，也是1942年科贝利西射击场处决发生的地方。',
+    },
+    'Prosek': {
+      en: 'A Romanesque church more than eight hundred years old, one of Prague\'s first big housing estates, and a sandstone cliff with a view east.',
+      cz: 'Románský kostel starý přes osm set let, jedno z prvních velkých pražských sídlišť a pískovcové skály s výhledem na východ.',
+      zh: '一座八百多年的罗曼式教堂，布拉格最早的大型住宅区之一，还有一道能远眺城东的砂岩崖。',
+    },
+    'Hloubětín': {
+      en: 'A village on the Rokytka with a knights\' farmstead, a small chateau and the Prague Fault, where rocks of two different ages meet.',
+      cz: 'Ves na Rokytce s křižovnickým dvorem, malým zámkem a Pražským zlomem, kde se potkávají horniny dvou různých období.',
+      zh: '罗基特卡河边的村子，有骑士团的庄园、一座小城堡，还有两种不同年代岩石相遇的「布拉格断层」。',
+    },
+    'Malešice': {
+      en: 'An old village, an early prefab housing estate, the incinerator that heats much of Prague and a railway viaduct across the valley.',
+      cz: 'Stará ves, jedno z prvních panelových sídlišť, spalovna, která vytápí velkou část Prahy, a železniční viadukt přes údolí.',
+      zh: '老村子、早期的预制板住宅区、给大半个布拉格供暖的焚烧厂，还有一座横跨山谷的铁路高架桥。',
+    },
+    'Hostivař': {
+      en: 'A reservoir built against floods that became one of Prague\'s favourite beaches, with the Botič winding through a forest park below it.',
+      cz: 'Přehrada postavená proti povodním, ze které se stala jedna z nejoblíbenějších pražských pláží, a pod ní Botič vinoucí se lesoparkem.',
+      zh: '一座为防洪而修、结果成了全城最受欢迎「海滩」之一的水库，下游的博季奇河在森林公园里蜿蜒。',
+    },
+    'Černý Most': {
+      en: 'One of Prague\'s youngest housing estates, at the end of metro line B, with a station called Paradise Garden and a shopping centre next to it.',
+      cz: 'Jedno z nejmladších pražských sídlišť na konečné béčka, se stanicí jménem Rajská zahrada a obchodním centrem hned vedle.',
+      zh: '布拉格最年轻的住宅区之一，在地铁B线的终点，车站叫「天堂花园」，旁边就是购物中心。',
+    },
+    'Dolní Počernice': {
+      en: 'A small town of its own with a chateau park, a herd of European bison and the largest pond in Prague.',
+      cz: 'Samostatné městečko se zámeckým parkem, stádem zubrů a největším rybníkem v Praze.',
+      zh: '一座独立的小镇，有城堡公园、一群欧洲野牛，还有布拉格最大的池塘。',
+    },
+    'Kyje': {
+      en: 'An old village with one of Prague\'s best-preserved Romanesque churches and a big pond, right at the foot of the Černý Most tower blocks.',
+      cz: 'Stará ves s jedním z nejzachovalejších pražských románských kostelů a velkým rybníkem, přímo pod paneláky Černého Mostu.',
+      zh: '一座老村子，有布拉格保存最好的罗曼式教堂之一和一个大池塘，就在黑桥的高楼脚下。',
+    },
+    'Chodov': {
+      en: 'The northern half of South Town: tower blocks, a huge shopping centre, the National Archives and a medieval castle with a moat among them.',
+      cz: 'Severní polovina Jižního Města: paneláky, obří obchodní centrum, Národní archiv a mezi nimi středověká tvrz s vodním příkopem.',
+      zh: '「南城」的北半部：高楼、巨大的购物中心、国家档案馆，中间还藏着一座带护城河的中世纪小城堡。',
+    },
+    'Háje': {
+      en: 'The southern half of South Town and the end of metro line C, whose terminus was called Cosmonauts until 1990.',
+      cz: 'Jižní polovina Jižního Města a konečná linky C, která se až do roku 1990 jmenovala Kosmonautů.',
+      zh: '「南城」的南半部，也是地铁C线的终点，那座车站1990年以前叫「宇航员站」。',
+    },
+    'Modřany': {
+      en: 'An old riverside village with a former sugar refinery, a big housing estate on the slope, a wild gorge and a working vineyard.',
+      cz: 'Stará ves u řeky s bývalým cukrovarem, velkým sídlištěm ve svahu, divokou roklí a vinicí, kde se pořád dělá víno.',
+      zh: '河边的老村子，有一座旧糖厂、山坡上的大型住宅区、一道野性的峡谷和一片还在酿酒的葡萄园。',
+    },
+    'Stodůlky': {
+      en: 'The heart of South-West Town, with a big Central Park, the old village church and a reconstructed 14th-century village.',
+      cz: 'Srdce Jihozápadního Města s velkým Centrálním parkem, kostelem staré vsi a zrekonstruovanou vesnicí ze 14. století.',
+      zh: '「西南城」的中心，有很大的中央公园、老村子的教堂，还有一座复原的14世纪村庄。',
+    },
+    'Řeporyje': {
+      en: 'An old village in a limestone valley with lime kilns and a railway viaduct, which made the international news over a monument in 2020.',
+      cz: 'Stará ves ve vápencovém údolí s vápenkami a železničním viaduktem, která se v roce 2020 kvůli jednomu pomníku dostala do světových zpráv.',
+      zh: '石灰岩山谷里的老村子，有老石灰窑和铁路高架桥，2020年因为一座纪念碑上了国际新闻。',
+    },
+    'Radotín': {
+      en: 'A small town on the Berounka with a big cement works and limestone quarries full of fossils, next to a quiet valley reserve.',
+      cz: 'Městečko na Berounce s velkou cementárnou a vápencovými lomy plnými zkamenělin, hned vedle tichého údolí v rezervaci.',
+      zh: '贝龙卡河边的小城，有一座大水泥厂和满是化石的石灰岩采石场，旁边就是安静的山谷保护区。',
+    },
+    'Velká Chuchle': {
+      en: 'A riverside village with one of the country\'s most important racecourses, open since 1906.',
+      cz: 'Ves u řeky s jedním z nejdůležitějších dostihových závodišť v zemi, otevřeným v roce 1906.',
+      zh: '河边的小村子，有一座1906年开张、全国最重要的赛马场之一。',
+    },
+    'Malá Chuchle': {
+      en: 'A little riverside village that was once a small spa, with a spring said to heal, an old church and a petting zoo.',
+      cz: 'Vesnička u řeky, kdysi malé lázně, s pramenem, který prý léčí, starým kostelem a zookoutkem.',
+      zh: '河边的小村子，从前是一个小温泉镇，有一眼据说能治病的泉水、一座老教堂和一个小动物角。',
+    },
+    'Řepy': {
+      en: 'A 1980s housing estate at the foot of White Mountain, with the Baroque pilgrimage church built by the battle\'s winners.',
+      cz: 'Sídliště z osmdesátých let pod Bílou horou s barokním poutním kostelem, který postavili vítězové bitvy.',
+      zh: '白山脚下的1980年代住宅区，旁边是战役获胜一方修建的巴洛克朝圣教堂。',
+    },
+    'Letňany': {
+      en: 'The northern end of metro line C, with an exhibition centre and the airfield where the Czech aircraft industry began.',
+      cz: 'Severní konečná linky C s výstavištěm a letištěm, kde začínal český letecký průmysl.',
+      zh: '地铁C线的北端，有展览中心，还有捷克航空工业起步的那座机场。',
+    },
+    'Čakovice': {
+      en: 'A small town with a Baroque chateau and park, a former sugar refinery and Prague\'s northernmost point just next door.',
+      cz: 'Městečko s barokním zámkem a parkem, bývalým cukrovarem a nejsevernějším bodem Prahy hned vedle.',
+      zh: '有巴洛克城堡和公园、一座旧糖厂的小镇，布拉格的最北端就在隔壁。',
+    },
+    'Kbely': {
+      en: 'Czechoslovakia\'s first military airfield, where the national airline\'s first flight took off in 1923, and a free aviation museum.',
+      cz: 'První vojenské letiště Československa, odkud v roce 1923 odstartoval první let národních aerolinií, a letecké muzeum bez vstupného.',
+      zh: '捷克斯洛伐克的第一座军用机场，1923年国家航空公司的第一次航班从这里起飞，还有一座免费的航空博物馆。',
+    },
+    'Horní Počernice': {
+      en: 'Prague 20 all by itself: a small town grown from three villages, with a theatre and an old chateau that is now a cultural centre.',
+      cz: 'Sama o sobě Praha 20: městečko srostlé ze tří vsí, s divadlem a starým zámkem, z něhož je dnes kulturní centrum.',
+      zh: '自己就是整个20区：三个村子连成的小城，有剧院，还有一座改成文化中心的老城堡。',
+    },
+    'Klánovice': {
+      en: 'An 1870s summer-villa colony hidden in one of the largest forests around Prague, twenty minutes from the centre by train.',
+      cz: 'Kolonie letních vil ze sedmdesátých let 19. století schovaná v jednom z největších lesů kolem Prahy, dvacet minut vlakem od centra.',
+      zh: '1870年代的避暑别墅区，藏在布拉格周边最大的森林之一里，坐火车二十分钟到市中心。',
+    },
+    'Uhříněves': {
+      en: 'A small market town with its own square, an old Jewish cemetery and a national institute of animal science in its chateau.',
+      cz: 'Malé městečko s vlastním náměstím, starým židovským hřbitovem a státním ústavem živočišné výroby v zámku.',
+      zh: '有自己广场的小市镇，有一座老犹太墓地，城堡里是一所国家级的畜牧研究所。',
+    },
   },
 };
