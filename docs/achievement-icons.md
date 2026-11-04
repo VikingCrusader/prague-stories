@@ -492,7 +492,7 @@ little_poland (redrawn: the first try's flag was too small, and the user asked f
 vampire: a pale, polite cartoon vampire in a black high-collared cape (an original character, not Dracula from any film), standing at the gate of a dark Gothic castle on a crag under a full moon, holding a thick stack of playing cards like a proud collector; a few bats circle the towers. The vampire and the castle large.
 ```
 
-### Group 45: 此岸彼岸 · 埃菲尔铁塔的弟弟 · 两匹马 (埃菲尔铁塔的弟弟 and 两匹马 done; 此岸彼岸 uses the first, wrong try for now, fairy-tale castle; redraw with the prompt below)
+### Group 45: 此岸彼岸 · 埃菲尔铁塔的弟弟 · 两匹马 (埃菲尔铁塔的弟弟 and 两匹马 done; 此岸彼岸 done with the redraw prompt below, plus "a SQUARE composition" and "Do NOT write any text" (one try wrote the prompt text into the picture))
 
 ```
 both_banks (redrawn: the first try drew a fairy-tale castle, and the walkers stood on the bridge): a wide river seen from above with a stone bridge across it. On the left bank, on a hill, Prague Castle: a LONG, LOW row of pale palace buildings stretched along the ridge, with the tall dark Gothic spires of a cathedral rising from behind its middle; NOT a fairy-tale castle, NOT a cluster of round towers with pointed roofs. On the right bank, Gothic spires and red roofs. A tiny walker stands on each riverbank (on the grass, not on the bridge) waving at the other, and they are clearly the same person, with the same red scarf.
