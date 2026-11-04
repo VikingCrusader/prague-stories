@@ -948,12 +948,14 @@ export const ACHIEVEMENTS = [
     flavor: "A hundred stories, and Prague still has more.",
     flavor_cz: "Sto příběhů, a Praha jich má pořád víc.",
     flavor_zh: "一百个故事，布拉格还有更多。",
-    description: "Check in to 100 of the preset locations.",
-    description_cz: "Přihlaste se na 100 přednastavených míst.",
-    description_zh: "打卡100个预设地点。",
+    description: "Collect 100 cards.",
+    description_cz: "Sesbírejte 100 karet.",
+    description_zh: "收集100张卡片。",
     difficulty: "hard",
-    check: ({ presetCheckins }) => presetCheckins >= 100,
-    progress: ({ presetCheckins }) => ({ current: presetCheckins, target: 100 }),
+    // Every card counts, user-added ones too (2026-11-04, user's call: no
+    // more "preset locations"; was presetCheckins).
+    check: ({ totalCheckins }) => (totalCheckins || 0) >= 100,
+    progress: ({ totalCheckins }) => ({ current: totalCheckins || 0, target: 100 }),
   },
   {
     id: "subway_maniac",

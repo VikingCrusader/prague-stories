@@ -424,8 +424,8 @@ iron_and_golden_king: a king's crown split down the middle, the left half dark i
 ### Group 35: early Bronze (小有收获 · 渐入佳境 · 冰箱贴三件套 · 明天见), all four done
 
 ```
-small_harvest: a small wicker basket holding a neat little stack of ten playing cards, a few autumn leaves and a red apple beside it, as if the cards had just been picked.
-getting_the_hang: a folded paper city map tucked away in a back pocket of jeans, only its corner sticking out, a confident walking boot mid-stride beside it on cobblestones.
+small_harvest (redrawn 2026-11-04 with game cards instead of playing cards): a round wicker basket with a tall arched handle on a dark grey stone ledge, a shiny red apple at the front right and a few autumn leaves around it; inside, about ten plain game cards (NOT playing cards; white, blue, green, purple, red, gold) stand up slightly fanned out, as if just picked.
+getting_the_hang (redrawn 2026-11-04; the first one was a map in a jeans pocket, then a card path uphill was tried twice): a hand rising from the bottom, palm open, fingers spread as if casting a spell, with about twenty plain game cards (NOT playing cards; white, blue, green, purple, red, gold) floating in a ring around it, sparkles and glowing trails between them, a dim blue Prague skyline at dusk behind. The pair to first_step's single card in a hand.
 tourist_trio: a white fridge door with three big colourful souvenir fridge magnets stuck on it: one shaped like the two dark Gothic spires of Týn Church, one like a stone bridge with statues and a bridge tower, one like a big Gothic cathedral on a hill; a hand is pressing the last magnet into place. The three magnets large.
 see_you_tomorrow: a pocket calendar with two pages side by side, each with a small gold tick, a sunrise over red rooftops and church spires behind it.
 ```

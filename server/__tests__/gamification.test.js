@@ -94,9 +94,9 @@ describe('evaluateAchievements', () => {
     expect(evaluateAchievements(baseStats, [])).toEqual([]);
   });
 
-  test('unlocks century at 100 preset check-ins, not at 99', () => {
-    expect(evaluateAchievements({ ...baseStats, presetCheckins: 100 }, []).map(a => a.id)).toContain('century');
-    expect(evaluateAchievements({ ...baseStats, presetCheckins: 99 }, []).map(a => a.id)).not.toContain('century');
+  test('unlocks century at 100 cards, not at 99', () => {
+    expect(evaluateAchievements({ ...baseStats, totalCheckins: 100 }, []).map(a => a.id)).toContain('century');
+    expect(evaluateAchievements({ ...baseStats, totalCheckins: 99 }, []).map(a => a.id)).not.toContain('century');
   });
 
   test('does not re-unlock already earned achievements', () => {
