@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { quarterName } from '../../utils/pragueQuarters';
@@ -143,6 +144,15 @@ export default function AchievementModal({ achievement: ach, onClose }) {
             : <span>{t('common.locked')}</span>}
           {SHOW_UNLOCK_RATE && ach.unlockRate != null && <span>{t('ach.rate', { pct: formatPercent(ach.unlockRate, lang) })}</span>}
         </div>
+        {ach.historyEvents?.length > 0 && (
+          <div className="ach-modal__section ach-modal__history">
+            {ach.historyEvents.map(event => (
+              <Link key={event.slug} to={`/history?event=${event.slug}`} onClick={onClose}>
+                {t('ach.readHistory')}: {convert(event.title[lang] || event.title.en)}
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

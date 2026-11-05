@@ -761,11 +761,25 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
 
 /* Timeline, see HistoryAxis.jsx. */
 .history-axis { flex: none; display: flex; flex-direction: column; gap: 6px; }
-.history-axis__eras { display: flex; gap: 2px; height: 24px; }
+/* Draggable (useDragBand). While dragging, the bands follow the pointer directly. */
+.history-axis__eras, .history-axis__events { cursor: grab; touch-action: pan-y; user-select: none; -webkit-user-select: none; }
+.is-dragging, .is-dragging * { cursor: grabbing !important; }
+.is-dragging .history-axis__track, .is-dragging .history-axis__eras-track, .is-dragging .history-axis__now { transition: none; }
+.history-axis__eras { position: relative; height: 40px; overflow: clip; }
+.history-axis__eras-track {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  display: flex;
+  width: max-content;
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
 .history-axis__era {
   position: relative;
-  flex: 1 1 0;
-  min-width: 12px;
+  flex: none;
+  box-sizing: border-box;
   padding: 0 4px;
   overflow: hidden;
   font: inherit;
@@ -776,7 +790,8 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
   border-radius: 3px;
   cursor: pointer;
 }
-.history-axis__era:hover { color: var(--gold); border-color: var(--gold); }
+.history-axis__era:hover:not(:disabled) { color: var(--gold); border-color: var(--gold); }
+.history-axis__era:disabled { opacity: 0.5; border-style: dashed; cursor: default; }
 .history-axis__era.is-active { color: var(--gold); border-color: var(--gold); font-weight: 700; }
 .history-axis__era-fill {
   position: absolute;
@@ -784,9 +799,10 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
   background: color-mix(in srgb, var(--gold) 18%, transparent);
   transition: width 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.history-axis__era-label { position: relative; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.history-axis__era-label, .history-axis__era-years { position: relative; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.25; }
+.history-axis__era-years { font-size: 12px; font-weight: 400; opacity: 0.85; }
 
-.history-axis__events { position: relative; height: 62px; overflow: hidden; }
+.history-axis__events { position: relative; height: 62px; overflow: clip; }
 .history-axis__line { position: absolute; left: 0; right: 0; top: 9px; height: 2px; background: var(--border); }
 .history-axis__track {
   position: absolute;
@@ -842,11 +858,13 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
   background: var(--bg-card);
   border: 2px solid var(--gold);
   border-radius: 6px;
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
 }
 .history-axis__now-year { font-size: 17px; font-weight: 700; line-height: 1.3; }
 .history-axis__now-name { font-size: 13px; line-height: 1.3; }
 @media (prefers-reduced-motion: reduce) {
-  .history-axis__track, .history-axis__era-fill { transition: none; }
+  .history-axis__track, .history-axis__eras-track, .history-axis__era-fill, .history-axis__now { transition: none; }
 }
 
 .history-book__stage { position: relative; flex: 1; min-height: 0; overflow: hidden; }
@@ -870,9 +888,28 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
 }
 .history-book__head { position: relative; flex: none; text-align: center; }
 .history-book__bottom { flex: 1 1 0; min-height: 0; display: flex; gap: 12px; }
-.history-book__bottom > .history-book__links, .history-book__bottom > .history-book__refs { min-width: 0; }
-.history-book__bg { flex: 0 0 230px; display: flex; flex-direction: column; gap: 10px; overflow-y: auto; padding: 12px 14px; }
-.history-book__page--overview .history-book__bg { position: absolute; right: 0; bottom: 0; }
+.history-book__bottom > .history-book__links { min-width: 0; }
+.history-book__more-col { flex: 0 0 300px; min-width: 0; min-height: 0; display: flex; flex-direction: column; gap: 12px; }
+.history-book__more { flex: 0 1 auto; min-height: 0; display: flex; flex-direction: column; gap: 10px; overflow-y: auto; padding: 12px 16px; }
+.history-book__more:only-child { flex: 1; }
+.history-book__ach { flex: 1 1 45%; min-height: 0; overflow-y: auto; padding: 12px 14px; }
+.history-book__more .history-event__landmarks-label { margin: 0; }
+.history-book__more .history-event__reference-maps { margin: 0; padding: 0; border: 0; }
+.history-book__page--overview .history-book__more { position: absolute; right: 0; bottom: 0; }
+.history-book__float-body .history-book__wiki { margin-top: 12px; }
+.history-book__wiki {
+  display: block;
+  flex: none;
+  padding: 8px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: var(--gold);
+  border: 2px solid var(--border);
+  border-radius: 6px;
+}
+.history-book__wiki:hover { border-color: var(--gold); }
 .history-book__bg-button {
   flex: none;
   padding: 8px 10px;
@@ -906,10 +943,10 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
 }
 .history-book__float--image { border-style: solid; }
 .history-book__images { cursor: zoom-in; }
-.history-book__zoom { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 10px; padding: 8px 16px 14px; }
-.history-book__zoom img { flex: 1 1 0; min-height: 0; width: 100%; object-fit: contain; }
-.history-book__zoom-caption { flex: none; max-height: 22%; overflow-y: auto; }
-.history-book__zoom-caption .history-landmark-caption { margin: 0; text-align: center; }
+.history-book__zoom { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: 16px; padding: 8px 16px 14px; }
+.history-book__zoom img { flex: 0 1 auto; min-height: 0; width: 100%; height: auto; object-fit: contain; }
+.history-book__zoom-caption { flex: none; max-height: 34%; overflow-y: auto; padding: 0 12px; }
+.history-book__zoom-caption .history-landmark-caption { margin: 0; font-size: 19px !important; line-height: 1.6 !important; text-align: center; }
 .history-book__float-bar { flex: none; display: flex; justify-content: space-between; align-items: center; padding: 10px 14px 0; }
 .history-book__float-tabs { display: flex; gap: 6px; }
 .history-book__float-tabs button, .history-book__float-close {
@@ -937,17 +974,46 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
 }
 .history-book__main { min-height: 0; display: flex; flex-direction: column; gap: 12px; }
 .history-book__text { flex: 1; overflow-y: auto; }
-.history-book__refs { flex: none; max-height: 20vh; overflow-y: auto; padding: 10px 24px; }
-.history-book__refs--fill { flex: 1; max-height: none; }
 .history-book__side { min-height: 0; display: flex; flex-direction: column; gap: 12px; }
 .history-book__gallery { flex: none; display: grid; grid-auto-columns: minmax(0, 1fr); gap: 12px; }
+.history-book__gallery--side { grid-template-columns: auto minmax(0, 1fr); }
+.history-book__gallery--side .history-book__images .history-event__image { max-height: min(calc(45vh - 160px), 20vw); }
+/* width: 0 + min-width: 100%: the column takes its width from the image alone. */
+.history-book__gallery--side .history-book__captions { width: 0; min-width: 100%; }
+/* height: 0 + min-height: 100%: the rows take their height from the image alone. */
+.history-book__gallery--side .history-book__more-col { height: 0; min-height: 100%; }
 .history-book__images { display: flex; justify-content: center; align-items: center; padding: 12px; }
 .history-book__images .history-event__image-figure { flex: 0 1 auto; min-width: 0; margin: 0; }
-.history-book__images .history-event__image { display: block; width: auto; height: auto; max-width: 100%; max-height: 32vh; margin: 0 auto; }
-.history-book__captions { max-height: 14vh; overflow-y: auto; padding: 10px 16px; }
-.history-book__captions .history-landmark-caption { margin: 0; text-align: center; }
+.history-book__images .history-event__image { display: block; width: auto; height: auto; max-width: 100%; max-height: 30vh; margin: 0 auto; }
+/* Two lines; hovering shows the rest, growing upward over the image. */
+.history-book__captions { position: relative; box-sizing: border-box; height: 64px; display: flex; align-items: center; justify-content: center; padding: 8px 14px; }
+.history-book__captions:hover { z-index: 5; }
+.history-book__captions .history-landmark-caption {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px !important;
+  text-align: center;
+}
+.history-book__captions .history-landmark-caption:hover {
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  display: block;
+  padding: 6px 10px;
+  overflow: visible;
+  background: var(--bg-card);
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+}
 /* Pages instead of scrolling (LandmarkPager); auto only rescues a single row taller than the panel. */
 .history-book__links { position: relative; flex: 1 1 0; display: flex; flex-direction: column; overflow-y: auto; padding: 12px 24px; }
+/* Not squeezed by the flex column, or LandmarkPager measures rows too short. */
+.history-book__links > .history-event__landmarks { flex: none; }
 .history-book__links-pager { position: absolute; top: 10px; right: 20px; display: flex; align-items: center; gap: 10px; color: var(--text-muted); font-size: 15px; z-index: 1; }
 .history-book__links-pager button {
   width: 34px;
@@ -966,7 +1032,39 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
 
 .history-book .location-grid.history-landmark-grid { grid-template-columns: repeat(auto-fit, minmax(170px, 200px)); justify-content: center; }
 .history-book .history-landmark-grid > .history-landmark-item { grid-column: auto; }
-.history-book__links .history-landmark-grid { zoom: var(--landmark-zoom, 1); }
+.history-book__links .location-grid.history-landmark-grid {
+  grid-template-columns: repeat(auto-fit, minmax(max(150px, calc(170px * var(--landmark-zoom, 1))), calc(200px * var(--landmark-zoom, 1) + 24px)));
+}
+.history-book__links .loc-card { zoom: var(--landmark-zoom, 1); width: 100%; min-width: 0; box-sizing: border-box; }
+/* A fixed number of lines (LandmarkPager picks it); hovering shows the rest, growing upward over the card. */
+.history-book__links .history-landmark-caption {
+  position: relative;
+  box-sizing: content-box;
+  --caption-scale: max(1, var(--landmark-zoom, 1)); /* grows with the cards, never shrinks */
+  height: calc(20px * var(--caption-scale) * var(--caption-lines, 4));
+  margin: 6px 0 0;
+  font-size: calc(13px * var(--caption-scale));
+  line-height: calc(20px * var(--caption-scale)) !important;
+}
+.history-book__links .history-landmark-caption > span {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--caption-lines, 4);
+  overflow: hidden;
+}
+.history-book__links .history-landmark-caption > span:hover {
+  position: absolute;
+  left: -6px;
+  right: -6px;
+  bottom: -4px;
+  z-index: 3;
+  display: block;
+  padding: 4px 6px;
+  overflow: visible;
+  background: var(--bg-card);
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+}
 
 .history-book__page--overview { justify-content: center; align-items: center; overflow-y: auto; }
 .history-book__page--overview .history-detail-panel { max-width: 900px; width: 100%; }
@@ -994,3 +1092,51 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
 .history-book__turn:last-child { justify-self: end; }
 .history-book__turn:disabled { opacity: 0.35; cursor: default; }
 .history-book__count { color: var(--text-muted); font-size: 16px; }
+
+/* Related achievements on a card (EventAchievements), in the feed and the book view. */
+.history-event__achievements { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
+.history-book__ach .history-event__achievements { margin-top: 0; }
+.history-book__ach .history-event__landmarks-label { margin: 0; }
+.history-event__achievement {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-width: 0;
+  padding: 10px;
+  font: inherit;
+  font-size: 15px;
+  text-align: left;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.history-event__achievement:hover { border-color: var(--gold); }
+.history-event__achievement .ach-icon { flex: none; width: 56px; height: 56px; font-size: 30px; }
+.history-event__achievement-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.history-event__achievement-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 8px; }
+.history-event__achievement-name { min-width: 0; font-weight: 700; }
+.history-event__achievement-flavor { font-size: 14px; line-height: 1.4; color: var(--text-muted); }
+.history-event__achievement .ach-progress { margin-top: 2px; }
+.ach-modal__history { display: flex; flex-direction: column; gap: 6px; }
+.ach-modal__history a { color: var(--gold); }
+
+/* The two side panels are short at 1080p: tighter, so the progress bar shows. */
+.history-book__more-col .history-event__landmarks-label { font-size: 18px; line-height: 1.3; }
+.history-book__more { gap: 6px; padding: 10px 14px; }
+.history-book__more .history-book__wiki { padding: 5px 8px; font-size: 14px; }
+.history-book__more .history-event__reference-maps-link { padding: 4px 8px; font-size: 13px; line-height: 1.4; }
+.history-book__ach { padding: 10px 12px; }
+.history-book__ach .history-event__achievements { gap: 6px; }
+.history-book__ach .history-event__achievement { gap: 10px; padding: 6px 8px; }
+.history-book__ach .history-event__achievement .ach-icon { width: 48px; height: 48px; }
+.history-book__ach .ach-badge-pill { padding: 0 6px; font-size: 12px; }
+.history-book__ach .history-event__achievement-flavor {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 1.35;
+}

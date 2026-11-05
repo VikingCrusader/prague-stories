@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useRef, useState } from 'react';
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { historyAPI, userAPI, saveHistoryProgressOnExit } from '../services/api';
 import { useAuth } from '../context/AuthContext';
@@ -10,10 +10,14 @@ import HistoryEraDivider from '../components/history/HistoryEraDivider';
 import LocationDetail from '../components/locations/LocationDetail';
 import HistoryHero from '../components/history/HistoryHero';
 import HistoryBook from '../components/history/HistoryBook';
+import AchievementModal from '../components/achievements/AchievementModal';
 
 // Cards with their own sidebar entry. Background and era-overview cards
 // have none (see HistorySidebar), so scroll-spy and the initial highlight
 // skip them.
+// Where a section lands: its scroll-margin-top in history.css.
+const SECTION_TOP = 76;
+
 const isNavCard = (event) => event.cardType !== 'background' && event.cardType !== 'overview';
 
 // Desktop reads one event per screen (HistoryBook); phones and narrow windows
@@ -58,6 +62,10 @@ export default function HistoryPage() {
   // away.
   const [openLandmarkSlug, setOpenLandmarkSlug] = useState(null);
 
+  // Achievements tied to timeline events, and the one opened from a card.
+  const [achievements, setAchievements] = useState([]);
+  const [openAchievement, setOpenAchievement] = useState(null);
+
   const sectionEls = useRef(new Map());
   // Set while a sidebar/link jump is animating. Scroll-spy pauses meanwhile,
   // so the highlight (and the sidebar, which scrolls to follow it) doesn't
@@ -87,6 +95,23 @@ export default function HistoryPage() {
       });
     return () => { cancelled = true; };
   }, [user?._id]);
+
+  useEffect(() => {
+    let cancelled = false;
+    userAPI.getAchievements()
+      .then(res => { if (!cancelled) setAchievements(res.data.achievements); })
+      .catch(() => {}); // the cards just go without
+    return () => { cancelled = true; };
+  }, [user?._id]);
+
+  const events = useMemo(() => {
+    if (!data) return [];
+    const bySlug = new Map();
+    for (const ach of achievements) {
+      for (const { slug } of ach.historyEvents ?? []) bySlug.set(slug, [...(bySlug.get(slug) ?? []), ach]);
+    }
+    return data.events.map(e => (bySlug.has(e.slug) ? { ...e, relatedAchievements: bySlug.get(e.slug) } : e));
+  }, [data, achievements]);
 
   // Our own restore replaces the browser's pixel-offset one, which would
   // land somewhere arbitrary now that the feed arrives asynchronously.
@@ -187,9 +212,12 @@ export default function HistoryPage() {
     setRestored(true);
   }, [data, resumeSlug, restored]);
 
-  // Browser back/forward in the book view.
+  // Browser back/forward in the book view, and a link from an achievement
+  // opened on this page, in either view.
   useEffect(() => {
-    if (isBook && restored && urlSlug && data?.events.some(e => e.slug === urlSlug)) setActiveSlug(urlSlug);
+    if (!restored || !urlSlug || !data?.events.some(e => e.slug === urlSlug)) return;
+    if (isBook) setActiveSlug(urlSlug);
+    else scrollToSlug(urlSlug);
   }, [urlSlug]);
 
   // Next/previous replace the history entry, so Back doesn't step through
@@ -251,9 +279,25 @@ export default function HistoryPage() {
       removeEventListener('wheel', takeOver);
       removeEventListener('touchstart', takeOver);
       removeEventListener('keydown', takeOver);
-      jumpRef.current = null;
-      if (snap) el.scrollIntoView({ block: 'start' });
-      window.dispatchEvent(new Event('scroll')); // let scroll-spy catch up
+      const done = () => {
+        jumpRef.current = null;
+        window.dispatchEvent(new Event('scroll')); // let scroll-spy catch up
+      };
+      if (!snap) { done(); return; }
+      // Landing lays out the panels around the target at their real heights,
+      // which can push it away again, by tens of thousands of px on a long
+      // jump, so snap until it stays put.
+      let frames = 0;
+      let still = 0;
+      const land = () => {
+        if (Math.abs(el.getBoundingClientRect().top - SECTION_TOP) > 8) {
+          still = 0;
+          el.scrollIntoView({ block: 'start' });
+        } else still += 1;
+        if (still < 8 && ++frames < 120) requestAnimationFrame(land);
+        else done();
+      };
+      land();
     };
     const takeOver = () => finish(false);
     timer = setInterval(() => {
@@ -285,12 +329,13 @@ export default function HistoryPage() {
         <WithLang>{({ lang: viewLang, convert: viewConvert, t: viewT }) => (
         isBook ? (
           <HistoryBook
-            events={data.events}
+            events={events}
             eras={data.eras}
             activeSlug={activeSlug}
             onGo={goToPage}
             onOpenLandmark={setOpenLandmarkSlug}
-            paused={!!openLandmarkSlug}
+            onOpenAchievement={setOpenAchievement}
+            paused={!!openLandmarkSlug || !!openAchievement}
           />
         ) : (
         <>
@@ -310,7 +355,7 @@ export default function HistoryPage() {
           />
           <div className="history-feed">
             <HistoryHero t={viewT} convert={viewConvert} placement="feed" />
-            {data.events.map((event, i) => {
+            {events.map((event, i) => {
               // Only the sidebar shows era groupings by default — the feed
               // itself is one continuous scroll with no visual break, so a
               // reader would otherwise sail from one era's last event
@@ -332,6 +377,7 @@ export default function HistoryPage() {
                     era={era}
                     chapter={data.eras.findIndex(e => e.key === event.era) + 1}
                     onOpenLandmark={setOpenLandmarkSlug}
+                    onOpenAchievement={setOpenAchievement}
                     onNavigateToEvent={scrollToSlug}
                     sectionRef={el => {
                       if (el) sectionEls.current.set(event.slug, el);
@@ -348,6 +394,8 @@ export default function HistoryPage() {
         )}</WithLang>
         </LanguageOverride>
       ) : null}
+
+      {openAchievement && <AchievementModal achievement={openAchievement} onClose={() => setOpenAchievement(null)} />}
 
       {openLandmarkSlug && (
         <LocationDetail

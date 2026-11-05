@@ -1,3 +1,5 @@
+import HistoryEvent from '../models/HistoryEvent.js';
+import { ACHIEVEMENT_HISTORY_EVENTS } from '../data/achievementHistoryEvents.js';
 import User from '../models/User.js';
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
@@ -667,8 +669,15 @@ export async function getAchievements(req, res, next) {
       ? await Location.find({ slug: { $in: slugs } }, 'slug name localizedNames').lean()
       : [];
 
+    const historyDocs = await HistoryEvent.find(
+      { slug: { $in: Object.values(ACHIEVEMENT_HISTORY_EVENTS).flat() } },
+      'slug title',
+    ).lean();
+    const historyBySlug = new Map(historyDocs.map(e => [e.slug, { slug: e.slug, title: e.title }]));
+
     const all = ACHIEVEMENTS.map(ach => {
       const out = achievementEntry(ach, earned, rates);
+      out.historyEvents = (ACHIEVEMENT_HISTORY_EVENTS[ach.id] || []).map(slug => historyBySlug.get(slug)).filter(Boolean);
       if (stats) {
         const { current, target, slugs: list, picks, quarter, rarities, district, labels, note, unit, counts } = ach.progress(stats);
         // The real count, even past the target (533 / 54), user's call 2026-11-02;

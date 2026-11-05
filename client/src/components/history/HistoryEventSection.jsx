@@ -8,6 +8,8 @@ import LocationCard from '../locations/LocationCard';
 import HISTORY_IMAGE_SIZES from '../../utils/historyImageSizes.json';
 
 import { renderInlineLinks } from '../../utils/historyMarkup';
+import { achField } from '../../utils/achievementText';
+import AchievementIcon from '../achievements/AchievementIcon';
 import HistoryOverviewCard from './HistoryOverviewCard';
 
 // One event's full write-up, rendered as an in-flow section inside
@@ -49,15 +51,15 @@ function landmarkStarts(n, cols) {
   return rows.flatMap(k => Array.from({ length: k }, (_, i) => (i === 0 && k < cols ? cols - k + 1 : null)));
 }
 
-export default function HistoryEventSection({ event, era, chapter, onOpenLandmark, onNavigateToEvent, sectionRef }) {
+export default function HistoryEventSection({ event, era, chapter, onOpenLandmark, onOpenAchievement, onNavigateToEvent, sectionRef }) {
   // Era-overview cards (cardType 'overview') have a structure of their own.
   if (event.cardType === 'overview') {
     return <HistoryOverviewCard event={event} era={era} chapter={chapter} onNavigateToEvent={onNavigateToEvent} sectionRef={sectionRef} />;
   }
-  return <EventCard event={event} onOpenLandmark={onOpenLandmark} onNavigateToEvent={onNavigateToEvent} sectionRef={sectionRef} />;
+  return <EventCard event={event} onOpenLandmark={onOpenLandmark} onOpenAchievement={onOpenAchievement} onNavigateToEvent={onNavigateToEvent} sectionRef={sectionRef} />;
 }
 
-function EventCard({ event, onOpenLandmark, onNavigateToEvent, sectionRef }) {
+function EventCard({ event, onOpenLandmark, onOpenAchievement, onNavigateToEvent, sectionRef }) {
   const t = useT();
   // Background cards (see HistoryEvent model) are non-dated explainer
   // asides, not narrative events — they get a distinct visual treatment
@@ -96,6 +98,7 @@ function EventCard({ event, onOpenLandmark, onNavigateToEvent, sectionRef }) {
           <EventImages event={event} />
           <EventReferences event={event} />
           <EventLandmarks event={event} onOpenLandmark={onOpenLandmark} />
+          <EventAchievements event={event} onOpen={onOpenAchievement} />
         </>
       )}
     </div>
@@ -105,7 +108,7 @@ function EventCard({ event, onOpenLandmark, onNavigateToEvent, sectionRef }) {
 // The pieces of a card, shared by the scrolling feed (EventCard above) and the
 // desktop one-page-per-event view (HistoryBook), which lays them out in panels.
 
-export function EventTitle({ event }) {
+export function EventTitle({ event, link = true }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -121,7 +124,7 @@ export function EventTitle({ event }) {
         <div className="history-event__year">{convert(event.year[lang] || event.year.en)}</div>
       )}
       <h2 className="history-event__title">
-        {event.wikipediaUrl ? (
+        {link && event.wikipediaUrl ? (
           <a
             className="history-event__title-link"
             href={event.wikipediaUrl}
@@ -245,6 +248,47 @@ export function EventImages({ event, captions = true }) {
   );
 }
 
+// Achievements tied to this event (see ACHIEVEMENT_HISTORY_EVENTS on the server),
+// with the reader's progress; guests just see what there is to earn.
+export function EventAchievements({ event, onOpen }) {
+  const t = useT();
+  const { lang } = useLang();
+  const convert = useConvert();
+  if (!event.relatedAchievements?.length) return null;
+  return (
+    <div className="history-event__achievements">
+      <div className="history-event__landmarks-label">{t('history.relatedAchievements')}</div>
+      {event.relatedAchievements.map(ach => {
+        const p = ach.progress;
+        return (
+          <button key={ach.id} type="button" className="history-event__achievement" onClick={() => onOpen(ach)}>
+            <span className={`ach-icon${ach.unlocked ? '' : ' ach-icon--locked'}`} data-difficulty={ach.difficulty}>
+              <AchievementIcon achievement={ach} />
+            </span>
+            <span className="history-event__achievement-body">
+              <span className="history-event__achievement-head">
+                <span className="history-event__achievement-name">
+                  {ach.unlocked && '✓ '}{convert(achField(ach, 'name', lang))}
+                </span>
+                {ach.difficulty && (
+                  <span className="ach-badge-pill" data-difficulty={ach.difficulty}>{t(`ach.difficulty.${ach.difficulty}`)}</span>
+                )}
+              </span>
+              <span className="history-event__achievement-flavor">{convert(achField(ach, 'flavor', lang))}</span>
+              {p && (
+                <span className="ach-progress">
+                  <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${Math.min(100, Math.round((p.current / p.target) * 100))}%` }} /></span>
+                  <span className="ach-progress__count">{p.current} / {p.target}</span>
+                </span>
+              )}
+            </span>
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
 // The image captions on their own, for layouts that show them apart from the images.
 export function EventImageCaptions({ event }) {
   const { lang } = useLang();
@@ -358,7 +402,7 @@ export function EventLandmarks({ event, onOpenLandmark }) {
                     onClick={() => onOpenLandmark(landmark.slug)}
                   />
                   <p className="history-landmark-caption">
-                    {convert(relation[lang] || relation.en)}
+                    <span>{convert(relation[lang] || relation.en)}</span>
                   </p>
                 </div>
               );

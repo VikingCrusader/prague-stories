@@ -1,25 +1,46 @@
 import { Fragment, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import HistoryEventSection, {
-  EventTitle, EventHook, EventSummary, EventImages, EventImageCaptions, EventReferences, EventLandmarks,
+  EventTitle, EventHook, EventSummary, EventImages, EventImageCaptions, EventReferences, EventLandmarks, EventAchievements,
 } from './HistoryEventSection';
 import HistoryAxis from './HistoryAxis';
+
+// "Wikipedia: <article>", the name read from the link (.../wiki/Great_Fire_of_Prague).
+// The few links to other sites just show the site.
+function wikipediaLabel(url, prefix) {
+  try {
+    const { hostname, pathname, hash } = new URL(url);
+    if (!hostname.endsWith('wikipedia.org')) return hostname;
+    const title = decodeURIComponent(pathname.split('/').pop()).replace(/_/g, ' ');
+    const section = decodeURIComponent(hash.slice(1)).replace(/_/g, ' ');
+    return `${prefix}${title}${section ? `: ${section}` : ''}`;
+  } catch {
+    return url;
+  }
+}
 
 // Must match the page and axis animations in history.css.
 const TURN_MS = 500;
 
 // The landmark panel turns pages instead of scrolling. All cards are rendered
-// once and measured: rows too tall for the panel are scaled down to fit, then
-// split into pages of whole rows. A resize measures again.
-const MIN_LANDMARK_ZOOM = 0.6;
+// once and measured: cards too tall for the panel are scaled down to fit, then
+// split into pages of whole rows; with room to spare they grow to fill the
+// panel, up to MAX_LANDMARK_ZOOM. Only the cards scale: captions keep their size
+// and a fixed height (history.css), so a long caption can't shrink anything.
+// A resize measures again.
+const MIN_LANDMARK_ZOOM = 0.55;
+const MAX_LANDMARK_ZOOM = 1.45;
+const CAPTION_LINE = 20; // px, as in history.css
 
 function LandmarkPager({ event, onOpenLandmark }) {
   const t = useT();
   const panelRef = useRef(null);
   const sizeRef = useRef('');
+  const grownRef = useRef(false);
   const [pages, setPages] = useState(null);
   const [page, setPage] = useState(0);
   const [zoom, setZoom] = useState(1);
+  const [captionLines, setCaptionLines] = useState(4);
 
   useEffect(() => {
     const observer = new ResizeObserver(([entry]) => {
@@ -27,12 +48,23 @@ function LandmarkPager({ event, onOpenLandmark }) {
       const size = `${Math.round(width)}x${Math.round(height)}`;
       if (size !== sizeRef.current) {
         sizeRef.current = size;
+        grownRef.current = false;
         setZoom(1);
+        setCaptionLines(4);
         setPages(null);
       }
     });
-    observer.observe(panelRef.current);
-    return () => observer.disconnect();
+    const panel = panelRef.current;
+    observer.observe(panel);
+    // A card grows when its cover arrives, which the observer doesn't see.
+    const onImageLoad = () => {
+      if (panel.scrollHeight > panel.clientHeight + 1) setPages(null);
+    };
+    panel.addEventListener('load', onImageLoad, true);
+    return () => {
+      observer.disconnect();
+      panel.removeEventListener('load', onImageLoad, true);
+    };
   }, []);
 
   useLayoutEffect(() => {
@@ -48,11 +80,28 @@ function LandmarkPager({ event, onOpenLandmark }) {
         row.bottom = Math.max(row.bottom, rowBottom);
       } else rows.push({ start: i, end: i + 1, top, bottom: rowBottom });
     });
-    const room = bottom - (rows[0]?.top ?? 0);
+    const room = bottom - (rows[0]?.top ?? 0) - 3; // a little spare, or a stray scrollbar can appear
     const tallest = Math.max(...rows.map(row => row.bottom - row.top));
-    if (zoom === 1 && tallest > room) {
-      setZoom(Math.max(MIN_LANDMARK_ZOOM, (room / tallest) * 0.97));
+    if (tallest > room + 1 && zoom > MIN_LANDMARK_ZOOM) {
+      const card = Math.max(...[...panel.querySelectorAll('.loc-card')].map(el => el.getBoundingClientRect().height));
+      const roomForCard = room - (tallest - card);
+      // Short of space, two caption lines leave the cards a sensible size.
+      const tighten = captionLines === 4 && (roomForCard / card) * zoom < 0.7;
+      if (tighten) setCaptionLines(2);
+      const fit = zoom * ((roomForCard + (tighten ? 2 * CAPTION_LINE : 0)) / card) * 0.97;
+      setZoom(Math.max(MIN_LANDMARK_ZOOM, Math.min(fit, zoom)));
       return; // measure again at the new size
+    }
+    if (zoom === 1 && !grownRef.current && rows.length) {
+      grownRef.current = true;
+      const gap = rows[1] ? rows[1].top - rows[0].bottom : 12;
+      const perPage = Math.min(rows.length, Math.max(1, Math.floor((room + gap) / (tallest + gap))));
+      const card = Math.max(...[...panel.querySelectorAll('.loc-card')].map(el => el.getBoundingClientRect().height));
+      const grow = ((room - gap * (perPage - 1)) / perPage - (tallest - card)) / card;
+      if (grow > 1.03) {
+        setZoom(Math.min(MAX_LANDMARK_ZOOM, grow * 0.98));
+        return; // measure again at the new size
+      }
     }
     const next = [];
     for (const row of rows) {
@@ -62,13 +111,13 @@ function LandmarkPager({ event, onOpenLandmark }) {
     }
     setPages(next);
     setPage(p => Math.min(p, Math.max(0, next.length - 1)));
-  }, [pages, zoom]);
+  }, [pages, zoom, captionLines]);
 
   const shown = pages?.[page];
   const landmarks = shown ? event.relatedLandmarks.slice(shown.start, shown.end) : event.relatedLandmarks;
 
   return (
-    <div className="history-book__panel history-book__links" ref={panelRef} style={{ '--landmark-zoom': zoom }}>
+    <div className="history-book__panel history-book__links" ref={panelRef} style={{ '--landmark-zoom': zoom, '--caption-lines': captionLines }}>
       {pages?.length > 1 && (
         <div className="history-book__links-pager">
           <button type="button" aria-label={t('history.prevPage')} disabled={page === 0} onClick={() => setPage(page - 1)}>‹</button>
@@ -108,11 +157,16 @@ function BackgroundWindow({ cards, openSlug, onOpen, onClose, onNavigateToEvent 
         <button type="button" className="history-book__float-close" aria-label={t('history.collapseCard')} onClick={onClose}>×</button>
       </div>
       <div className="history-book__float-body" key={card.slug}>
-        <EventTitle event={card} />
+        <EventTitle event={card} link={false} />
         <EventHook event={card} />
         <EventSummary event={card} onNavigateToEvent={onNavigateToEvent} />
         <EventImages event={card} />
         <EventReferences event={card} />
+        {card.wikipediaUrl && (
+          <a className="history-book__wiki" href={card.wikipediaUrl} target="_blank" rel="noopener noreferrer">
+            {wikipediaLabel(card.wikipediaUrl, t('history.wikipediaPrefix'))}
+          </a>
+        )}
       </div>
     </aside>
   );
@@ -150,7 +204,7 @@ function ImageWindow({ event, shown, onShow, onClose }) {
 //
 // Background cards take no page: each belongs to the page before it and opens
 // in a floating window from a button there, or from an in-text link anywhere.
-export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLandmark, paused }) {
+export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLandmark, onOpenAchievement, paused }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -249,14 +303,18 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
     ? events.find(e => e.slug === openBackground)
     : null;
   const windowCards = linked ? [...ownBackgrounds, linked] : ownBackgrounds;
-  // Beside the landmarks: the page's background cards, one button each.
-  const backgroundPanel = (page) => {
+  // Everything to read on from a page: its background cards, references and
+  // Wikipedia. Beside a lone image, otherwise beside the landmarks.
+  const hasMore = (page) => !!(backgrounds.get(page.slug) || page.referenceMaps?.links?.length || page.wikipediaUrl);
+  const hasSidePanels = (page) => hasMore(page) || page.relatedAchievements?.length > 0;
+  const morePanel = (page) => {
+    if (!hasMore(page)) return null;
     const cards = backgrounds.get(page.slug);
-    if (!cards) return null;
     return (
-      <div className="history-book__panel history-book__bg">
-        <div className="history-event__landmarks-label">{t('history.backgroundLabel')}</div>
-        {cards.map(card => (
+      <div className="history-book__panel history-book__more">
+        <div className="history-event__landmarks-label">{t('history.readMore')}</div>
+        {cards && <span className="history-event__reference-maps-label">{t('history.backgroundLabel')}</span>}
+        {cards?.map(card => (
           <button
             key={card.slug}
             type="button"
@@ -267,6 +325,26 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
             {convert(card.title[lang] || card.title.en)}
           </button>
         ))}
+        <EventReferences event={page} />
+        {page.wikipediaUrl && (
+          <a className="history-book__wiki" href={page.wikipediaUrl} target="_blank" rel="noopener noreferrer">
+            {wikipediaLabel(page.wikipediaUrl, t('history.wikipediaPrefix'))}
+          </a>
+        )}
+      </div>
+    );
+  };
+  // Read-more above, the page's achievements below, each its own panel.
+  const sidePanels = (page, style) => {
+    if (!hasSidePanels(page)) return null;
+    return (
+      <div className="history-book__more-col" style={style}>
+        {morePanel(page)}
+        {page.relatedAchievements?.length > 0 && (
+          <div className="history-book__panel history-book__ach">
+            <EventAchievements event={page} onOpen={onOpenAchievement} />
+          </div>
+        )}
       </div>
     );
   };
@@ -282,8 +360,9 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
 
   const renderPage = (ev, current) => {
     const hasImages = ev.images?.length > 0;
+    // A lone image leaves room beside it for the side panels.
+    const moreBeside = ev.images?.length === 1 && hasSidePanels(ev);
     const hasLandmarks = ev.relatedLandmarks?.length > 0;
-    const hasReferences = ev.referenceMaps?.links?.length > 0;
     const pageEra = eras.findIndex(e => e.key === ev.era);
     const turnClass = turn ? ` history-book__page--${current ? 'in' : 'out'}-${turn.dir > 0 ? 'next' : 'prev'}` : '';
     return ev.cardType === 'overview' ? (
@@ -295,7 +374,7 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
             onOpenLandmark={onOpenLandmark}
             onNavigateToEvent={jump}
           />
-          {backgroundPanel(ev)}
+          {morePanel(ev)}
           {current && backgroundWindow}
         </div>
       ) : (
@@ -303,20 +382,17 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
           <div className="history-book__columns">
             <div className="history-book__main">
               <header className="history-book__panel history-book__head">
-                <EventTitle event={ev} />
+                <EventTitle event={ev} link={false} />
                 <EventHook event={ev} />
               </header>
               <div className="history-book__panel history-book__text">
                 <EventSummary event={ev} onNavigateToEvent={jump} />
               </div>
-              {hasReferences && hasLandmarks && (
-                <div className="history-book__panel history-book__refs"><EventReferences event={ev} /></div>
-              )}
             </div>
             <div className="history-book__side">
               {hasImages && (
                 // One column per image, each with its caption in its own panel below.
-                <div className="history-book__gallery">
+                <div className={`history-book__gallery${moreBeside ? ' history-book__gallery--side' : ''}`}>
                   {ev.images.map((src, i) => {
                     const caption = ev.imageCaptions?.[i];
                     const one = { images: [src], imageCaptions: [caption] };
@@ -340,24 +416,18 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
                       </Fragment>
                     );
                   })}
+                  {moreBeside && sidePanels(ev, { gridColumn: 2, gridRow: '1 / 3' })}
                 </div>
               )}
               <div className="history-book__bottom">
-                {hasReferences && !hasLandmarks && (
-                  <div className="history-book__panel history-book__refs history-book__refs--fill">
-                    <EventReferences event={ev} />
-                  </div>
-                )}
-                {hasLandmarks && <LandmarkPager event={ev} onOpenLandmark={onOpenLandmark} />}
-                {/* A card with nothing here keeps the panel, so the layout stays the same. */}
-                {!hasLandmarks && !hasReferences && (
+                {hasLandmarks ? (
+                  <LandmarkPager event={ev} onOpenLandmark={onOpenLandmark} />
+                ) : (
                   <div className="history-book__panel history-book__links">
-                    <p className="history-book__no-landmarks">
-                      {t('history.noLandmarks')}
-                    </p>
+                    <p className="history-book__no-landmarks">{t('history.noLandmarks')}</p>
                   </div>
                 )}
-                {backgroundPanel(ev)}
+                {!moreBeside && sidePanels(ev)}
               </div>
             </div>
           </div>
