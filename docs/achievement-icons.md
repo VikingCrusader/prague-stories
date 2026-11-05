@@ -513,3 +513,19 @@ the_ex: two people sitting in two separate armchairs a polite little distance ap
 ```
 know_the_area: a passenger sitting by the window of an old red-and-cream Prague tram, absorbed in a smartphone held in both hands; the glowing phone screen shows a little map of a city district with a big gold location pin on it, its light falling on the passenger's face. Through the tram window, red roofs and a church spire slide past, the very place on the screen. The passenger, the glowing phone and the window large.
 ```
+
+### Group 48: 司空见惯 · 高耸入云 · 此心安处 · 圣鲁德米拉的面纱 · 冰箱贴四件套, all five done (inner panels and vignettes cropped away; tourist_trio redrawn with four magnets)
+
+```
+seen_it_all: a bored tourist slumped on a bench in front of a magnificent old Prague street of pastel Baroque houses, yawning hugely with one hand over the mouth, not looking at any of it; beside the tourist a tall, teetering stack of plain cream-coloured game cards.
+reaching_for_the_sky: looking up from the ground at a soaring dark Gothic cathedral tower, its pointed arches and spires narrowing as they rise, the very tip disappearing into a bank of cloud; a tiny pigeon sits on a gargoyle halfway up, looking dizzy.
+good_place_to_live: a neat small-town square with a little white town hall tower and a green lawn; in the middle a large gold first-place rosette ribbon pinned to a garden fence, and a contented person in a deck chair with a cup of coffee, a small train in the background heading off toward a distant city.
+ludmilas_veil: a long pale veil lying across dark stone on a hilltop, with the low broken walls of a small ruined castle behind it under a cold moon; a single gold cross of light rests on the veil. Solemn and quiet, no figures, NO joke.
+tourist_trio: a white fridge door with FOUR big colourful souvenir fridge magnets stuck on it: one shaped like the two dark Gothic spires of Týn Church, one like the round gold Astronomical Clock, one like a stone bridge with statues, one like a tall Gothic cathedral with a green spire.
+```
+
+### Group 49: 一路向北, done (its inner panel cropped away)
+
+```
+down_the_vltava: a small wooden rowing boat drifting down a wide river seen from slightly above, the rower resting the oars and letting the current do the work; along the banks, one after another into the distance, a small white chateau on a rock, a broken castle ruin on a cliff and a little church on a hill; a gold compass needle on the boat's bow points forward, north.
+```

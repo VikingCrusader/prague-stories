@@ -225,7 +225,7 @@ describe('evaluateAchievements', () => {
   });
 
   test('operation_anthropoid needs all its places', () => {
-    const all = ["heydrich-assassination-site", "cathedral-cyril-methodius", "petschek-palace-1782567720752", "-1782584125681", "pankrc-prison-1782564726175"];
+    const all = ["heydrich-assassination-site", "cathedral-cyril-methodius", "petschek-palace-1782567720752", "-1782584125681", "pankrc-prison-1782564726175", "zamek-panenske-brezany"];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('operation_anthropoid');
     expect(ids(all.slice(1))).not.toContain('operation_anthropoid');
@@ -246,24 +246,24 @@ describe('evaluateAchievements', () => {
   });
 
   test('jingling_keys needs all its places', () => {
-    const all = ["kampus-albertov", "pamatnik-sametove-revoluce", "wenceslas-square", "melantrich", "letn-plain-1782906159291", "lavicka-vaclava-havla", "srdce-pro-vaclava-havla"];
+    const all = ["kampus-albertov", "pamatnik-sametove-revoluce", "wenceslas-square", "melantrich", "letn-plain-1782906159291", "lavicka-vaclava-havla", "srdce-pro-vaclava-havla", "kaple-sv-vaclava-vinohradsky-hrbitov"];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('jingling_keys');
     expect(ids(all.slice(1))).not.toContain('jingling_keys');
   });
 
   test('behind_the_iron_curtain needs all its places', () => {
-    const all = ["palac-goltz-kinskych", "stara-celnice", "memorial-to-the-victims-of-communism-1782565714871", "statni-bezpecnost-bartolomejska", "namesti-hrdinu", "pankrc-prison-1782564726175", "ruzyn-prison-1782570848316", "letna-park", "john-lennon-wall"];
+    const all = ["palac-goltz-kinskych", "stara-celnice", "memorial-to-the-victims-of-communism-1782565714871", "statni-bezpecnost-bartolomejska", "namesti-hrdinu", "pankrc-prison-1782564726175", "ruzyn-prison-1782570848316", "dablicky-hrbitov", "letna-park", "john-lennon-wall"];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('behind_the_iron_curtain');
     expect(ids(all.slice(1))).not.toContain('behind_the_iron_curtain');
   });
 
-  test('never_forget needs all five places, Lidice and Terezín included', () => {
-    const all = ['pinkas-synagogue', 'praha-hlavni-nadrazi', 'petschek-palace-1782567720752', 'lidice', 'koncentracni-tabor-terezin'];
+  test('never_forget needs all nine places, Lidice and Terezín included', () => {
+    const all = ['pinkas-synagogue', 'praha-hlavni-nadrazi', 'petschek-palace-1782567720752', 'lidice', 'pamatnik-detskych-obeti-valky', 'hromadny-hrob-lidice', 'muzeum-pamatniku-lidice', 'pamatnik-lidickych-zen-zena-s-ruzi', 'koncentracni-tabor-terezin'];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('never_forget');
-    expect(ids(all.slice(0, 4))).not.toContain('never_forget');
+    expect(ids(all.slice(0, -1))).not.toContain('never_forget');
   });
 
   test('charles_iv needs all six places, Karlštejn included', () => {
@@ -436,9 +436,9 @@ describe('evaluateAchievements', () => {
     expect(ids({ checkedSlugs: ['trojsky-kun'], quarterCount: { Troja: 5 } })).toContain('troy_not_in_greece');
     expect(ids({ checkedSlugs: [], quarterCount: { Troja: 9 } })).not.toContain('troy_not_in_greece');
     expect(ids({ checkedSlugs: ['trojsky-kun'], quarterCount: { Troja: 4 } })).not.toContain('troy_not_in_greece');
-    const four = ['fortuna-arena', 'epet-arena', 'o2-arena', 'strahov-stadium'];
-    expect(ids({ checkedSlugs: four })).toContain('neutral_fan');
-    expect(ids({ checkedSlugs: four.slice(1) })).not.toContain('neutral_fan');
+    const grounds = ['fortuna-arena', 'epet-arena', 'o2-arena', 'strahov-stadium', 'stadion-juliska', 'dolicek', 'stadion-viktoria-zizkov'];
+    expect(ids({ checkedSlugs: grounds })).toContain('neutral_fan');
+    expect(ids({ checkedSlugs: grounds.slice(1) })).not.toContain('neutral_fan');
   });
 
   test('each unlocked achievement has id (string) and unlockedAt (Date)', () => {
@@ -501,8 +501,26 @@ describe('evaluateAchievements', () => {
     expect(ids({ totalCheckins: 10 })).toContain('small_harvest');
     expect(ids({ totalCheckins: 24 })).not.toContain('getting_the_hang');
     expect(ids({ totalCheckins: 25 })).toContain('getting_the_hang');
-    expect(ids({ checkedSlugs: ['tyn-church', 'charles-bridge', 'st-vitus-cathedral'] })).toContain('tourist_trio');
-    expect(ids({ checkedSlugs: ['tyn-church', 'charles-bridge'] })).not.toContain('tourist_trio');
+    expect(ids({ checkedSlugs: ['tyn-church', 'astronomical-clock', 'charles-bridge', 'st-vitus-cathedral'] })).toContain('tourist_trio');
+    expect(ids({ checkedSlugs: ['tyn-church', 'charles-bridge', 'st-vitus-cathedral'] })).not.toContain('tourist_trio');
+  });
+
+  test('new count and place achievements (2026-11-05)', () => {
+    const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
+    expect(ids({ rarityCount: { common: 200 } })).toContain('seen_it_all');
+    expect(ids({ rarityCount: { common: 199 } })).not.toContain('seen_it_all');
+    expect(ids({ labelCount: { gothic: 40 } })).toContain('reaching_for_the_sky');
+    expect(ids({ labelCount: { gothic: 39 } })).not.toContain('reaching_for_the_sky');
+    expect(ids({ checkedSlugs: ['ricany'] })).toContain('good_place_to_live');
+    const veil = ['beroun', 'kraluv-dvur', 'zricenina-hradu-tetin'];
+    expect(ids({ checkedSlugs: veil })).toContain('ludmilas_veil');
+    expect(ids({ checkedSlugs: veil.slice(1) })).not.toContain('ludmilas_veil');
+    const river = ['zamek-stredoceskeho-muzea-roztoky', 'roztoky-u-prahy', 'levy-hradec', 'libehrad', 'kostel-nanebevzeti-p-marie-a-sv-vaclava-kralupy', 'zamek-nelahozeves', 'zamek-veltrusy'];
+    expect(ids({ checkedSlugs: river })).toContain('down_the_vltava');
+    expect(ids({ checkedSlugs: river.slice(1) })).not.toContain('down_the_vltava');
+    const rocks = ['barrandovske-skaly', 'brank-rock-cliff-1783427336440', 'tramvajova-zastavka-geologicka', 'podol-profile-1783209955360', 'letensky-profil', 'prazsky-zlom'];
+    expect(ids({ checkedSlugs: rocks, labelCount: { geology: 15 } })).toContain('barrandes_apprentice');
+    expect(ids({ checkedSlugs: rocks.slice(0, 5), labelCount: { geology: 15 } })).not.toContain('barrandes_apprentice');
     expect(ids({ longestStreak: 2 })).toContain('see_you_tomorrow');
     expect(ids({ longestStreak: 1 })).not.toContain('see_you_tomorrow');
   });

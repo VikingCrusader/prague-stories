@@ -1183,7 +1183,7 @@ export default {
         'Before the Second World War there was a Jewish sports ground here called Hagibor, which the Nazis turned into an internment camp. Today it is a social care centre.',
       ] },
       { h: 'Fun facts', p: [
-        'The Vinohrady Cemetery is actually in Strašnice, and its most famous resident is Václav Havel, whose grave is always covered with flowers and red hearts. A section of the Berlin Wall stands outside the broadcaster\'s headquarters, reminding the journalists who work there where their work began.',
+        'The Vinohrady Cemetery lies on the border with Strašnice, and its most famous resident is Václav Havel, whose grave is always covered with flowers and red hearts. A section of the Berlin Wall stands outside the broadcaster\'s headquarters, reminding the journalists who work there where their work began.',
         'In 1903 the architect Jan Kotěra built a villa here for a teacher, and it is considered the first modern villa in the Czech lands.',
       ] },
       { h: 'Famous landmarks', landmarks: true },
@@ -1554,7 +1554,7 @@ export default {
     ],
     'Ďáblice': [
       { h: 'Overview', p: ['Ďáblice lies in the north of Prague, under the administration of Prague 8, a borough of its own. It has an observatory, a surveying tower, a large wood, and a cemetery with a heavy history.'] },
-      { h: 'History', p: ['To Czech ears the name Ďáblice sounds like "devil", but it is an ordinary old village that joined Prague in 1968. Its cemetery holds several mass graves: many of those executed during the Nazi occupation and in the 1950s were secretly buried here, among them the paratroopers who assassinated Heydrich in 1942.'] },
+      { h: 'History', p: ['To Czech ears the name Ďáblice sounds like "devil", but it is an ordinary old village that joined Prague in 1968. The big cemetery on its border with Střížkov holds several mass graves: many of those executed during the Nazi occupation and in the 1950s were secretly buried there. Tradition adds the paratroopers who assassinated Heydrich in 1942, though the dates make that doubtful.'] },
       { h: 'Fun facts', p: ['A place that sounds like "Devil Village" has built an observatory on its hill, open to the public on clear nights for anyone who wants to look at the stars.'] },
       { h: 'Famous landmarks', landmarks: true },
     ],
@@ -1566,6 +1566,7 @@ export default {
     'Střížkov': [
       { h: 'Overview', p: ['Střížkov lies on the heights in the north of Prague 9, right next to Prosek, an area of housing estates and new apartment blocks. Its metro station has a vault like a giant glass caterpillar and is one of the most distinctive stations in Prague.'] },
       { h: 'History', p: ['Střížkov began as a small village on the heights. In the second half of the 20th century housing estates went up around it, and in 2008 metro line C arrived; the station\'s glass vault caused quite a debate in Prague at the time.'] },
+      { h: 'Famous landmarks', landmarks: true },
     ],
     'Křeslice': [
       { h: 'Overview', p: ['Křeslice is a small village on the south-eastern edge of Prague, under the administration of Prague 11, a borough of its own. Surrounded by fields and woods, it is only a few kilometres from the tower blocks of South Town, yet entirely rural.'] },
@@ -1743,6 +1744,7 @@ export default {
     'Pitkovice': [
       { h: 'Overview', p: ['Pitkovice is a small village on the south-eastern edge of Prague, belonging to Prague 22, right next to a slope covered with wild flowers, which is a protected nature site.'] },
       { h: 'History', p: ['For centuries Pitkovice was a small farming village, and it joined Prague together with the villages around it. The slope beside the village was never ploughed and has kept many rare steppe plants.'] },
+      { h: 'Famous landmarks', landmarks: true },
     ],
   },
 };

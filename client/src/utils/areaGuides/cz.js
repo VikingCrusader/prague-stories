@@ -1183,7 +1183,7 @@ export default {
         'Před druhou světovou válkou tu bylo židovské sportoviště Hagibor, které nacisté za války proměnili v internační tábor. Dnes je tu centrum sociální péče.',
       ] },
       { h: 'Zajímavosti', p: [
-        'Vinohradský hřbitov leží vlastně ve Strašnicích a jeho nejslavnějším „obyvatelem“ je Václav Havel, jehož hrob je stále pokrytý květinami a červenými srdíčky. Před centrálou rozhlasové stanice stojí kus Berlínské zdi a připomíná novinářům, kteří tu pracují, odkud jejich práce vzešla.',
+        'Vinohradský hřbitov leží na hranici se Strašnicemi a jeho nejslavnějším „obyvatelem“ je Václav Havel, jehož hrob je stále pokrytý květinami a červenými srdíčky. Před centrálou rozhlasové stanice stojí kus Berlínské zdi a připomíná novinářům, kteří tu pracují, odkud jejich práce vzešla.',
         'V roce 1903 tu architekt Jan Kotěra postavil vilu pro jednoho učitele a ta je považována za první moderní vilu v Čechách.',
       ] },
       { h: 'Nejslavnější památky', landmarks: true },
@@ -1554,7 +1554,7 @@ export default {
     ],
     'Ďáblice': [
       { h: 'Přehled', p: ['Ďáblice leží na severu Prahy ve správním obvodu Prahy 8 a jsou samostatnou městskou částí. Je tu hvězdárna, geodetická věž, velký háj a hřbitov s těžkou historií.'] },
-      { h: 'Historie', p: ['Jméno Ďáblice zní českému uchu jako ďábel, ale je to obyčejná stará ves, která se k Praze připojila v roce 1968. Na jejím hřbitově je několik hromadných hrobů: mnoho popravených za nacistické okupace i v padesátých letech tu bylo tajně pohřbeno, mezi nimi i parašutisté, kteří v roce 1942 provedli atentát na Heydricha.'] },
+      { h: 'Historie', p: ['Jméno Ďáblice zní českému uchu jako ďábel, ale je to obyčejná stará ves, která se k Praze připojila v roce 1968. Na velkém hřbitově na hranici se Střížkovem je několik hromadných hrobů: mnoho popravených za nacistické okupace i v padesátých letech tu bylo tajně pohřbeno. Tradice k nim řadí i parašutisty, kteří v roce 1942 provedli atentát na Heydricha, data tomu ale příliš nesvědčí.'] },
       { h: 'Zajímavosti', p: ['Místo, které zní jako „ďáblova ves“, si na kopci postavilo hvězdárnu, která za jasných nocí pouští veřejnost dívat se na hvězdy.'] },
       { h: 'Nejslavnější památky', landmarks: true },
     ],
@@ -1566,6 +1566,7 @@ export default {
     'Střížkov': [
       { h: 'Přehled', p: ['Střížkov leží na výšinách na severu Prahy 9 hned vedle Proseka a tvoří ho sídliště a nové bytové domy. Zdejší stanice metra má klenbu jako obří skleněná housenka a patří k nejosobitějším stanicím v Praze.'] },
       { h: 'Historie', p: ['Střížkov začínal jako malá ves na výšině. Ve druhé polovině 20. století kolem vyrostla sídliště a v roce 2008 sem dojelo metro C; skleněná klenba stanice tehdy v Praze vyvolala docela debatu.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
     ],
     'Křeslice': [
       { h: 'Přehled', p: ['Křeslice jsou malá ves na jihovýchodním okraji Prahy ve správním obvodu Prahy 11 a samostatná městská část. Obklopené poli a lesy jsou jen pár kilometrů od paneláků Jižního Města, a přece úplně venkovské.'] },
@@ -1743,6 +1744,7 @@ export default {
     'Pitkovice': [
       { h: 'Přehled', p: ['Pitkovice jsou malá ves na jihovýchodním okraji Prahy, patří k Praze 22 a hned vedle je svah plný lučních květin, chráněné přírodní místo.'] },
       { h: 'Historie', p: ['Pitkovice byly po staletí malou zemědělskou vsí a k Praze se připojily spolu s okolními vsemi. Svah vedle vsi nikdy nikdo nezoral a zachovala se na něm spousta vzácných stepních rostlin.'] },
+      { h: 'Nejslavnější památky', landmarks: true },
     ],
   },
 };

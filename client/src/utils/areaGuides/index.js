@@ -58,10 +58,12 @@ export const AREA_LANDMARKS = {
     'Vinohrady': [
       'namesti-miru', 'kostel-nejsvetejsiho-srdce-pane', 'namesti-jiriho-z-podebrad', 'riegrovy-sady', 'vinohrady-rose-garden',
       'divadlo-na-vinohradech', 'state-opera', 'praha-hlavni-nadrazi', 'czech-radio-building-1782668063575', 'vinohradsky-pavilon',
+      'kaple-sv-vaclava-vinohradsky-hrbitov',
     ],
     'Žižkov': [
       'zizkov-tv-tower', 'vitkov-national-memorial', 'zizkov-horse-statue', 'olsanske-hrbitovy', 'new-jewish-cemetery-1782861254358',
       'armadni-muzeum-zizkov', 'hasek-memorial', 'kostel-sv-prokopa-sladkovskeho', 'palac-akropolis', 'nakladove-nadrazi-zizkov',
+      'stadion-viktoria-zizkov',
     ],
     'Smíchov': [
       'andel', 'zlaty-andel', 'staropramen-navstevnicke-centrum', 'bertramka-villa-1782603107689', 'portheimka',
@@ -78,6 +80,7 @@ export const AREA_LANDMARKS = {
     'Libeň': [
       'libensky-zamek-radnice', 'heydrich-assassination-site', 'hrabalova-zed', 'libensky-most', 'o2-arena',
       'zamecek-rokoska', 'socha-barikadniku', 'church-of-st-adalbert-libe-1783749248181', 'libenska-sokolovna', 'fakultni-nemocnice-bulovka',
+      'nova-libenska-synagoga', 'libensky-pristav',
     ],
     'Bubeneč': [
       'stromovka-park', 'vystaviste-praha', 'mistodrzitelsky-letohradek', 'rudolfova-stola', 'cisarsky-ostrov',
@@ -86,6 +89,7 @@ export const AREA_LANDMARKS = {
     'Dejvice': [
       'vitezne-namesti', 'cvut', 'narodni-technicka-knihovna', 'hotel-international-prague', 'osada-baba-1782602049700',
       'baba-ruin-1782603894525', 'zamecek-hanspaulka', 'sarecke-udoli', 'kostel-sv-mateje', 'pomnik-nikoly-tesly',
+      'stadion-juliska',
     ],
     'Břevnov': [
       'bevnov-monastery-1782583396582', 'strahov-stadium', 'kajetanka-park', 'vetrny-mlyn-brevnov', 'ladronka',
@@ -102,6 +106,7 @@ export const AREA_LANDMARKS = {
     'Vršovice': [
       'kostel-sv-vaclava-vrsovice', 'fortuna-arena', 'vrovice-castle-1782567405263', 'koh-i-noor', 'kulturni-dum-eden',
       'praha-vrsovice-nadrazi', 'kostel-sv-mikulase-vrsovice', 'husuv-sbor-vrsovice', 'kubanske-namesti', 'vrsovicka-zalozna',
+      'dolicek',
     ],
     'Zbraslav': [
       'zbraslavsky-zamek', 'kostel-svateho-jakuba-vetsiho-zbraslav', 'jizni-pol-prahy', 'vila-vladislava-vancury', 'kostel-svateho-havla-zbraslav',
@@ -124,7 +129,7 @@ export const AREA_LANDMARKS = {
     ],
     'Kunratice': [
       'new-castle-ruins-near-kunratice-1783003399902', 'st-james-apostle', 'kunratice-fortress-1783377528490', 'sapa-praha',
-      'monument-to-the-legionnaires-fallen-in-the-world-war-1783377752694',
+      'monument-to-the-legionnaires-fallen-in-the-world-war-1783377752694', 'rybnik-seberak',
     ],
     'Záběhlice': [
       'zabehlicky-zamek', 'hamersky-rybnik', 'kostel-sv-anezky-ceske-sporilov', 'kostel-narozeni-panny-marie-zabehlice',
@@ -136,7 +141,7 @@ export const AREA_LANDMARKS = {
     'Košíře': [
       'cibulka-manor-1782666966501', 'rozhledna-cibulka', 'cinsky-pavilon-cibulka', 'kostel-sv-jana-nepomuckeho-kosire', 'plzenska-ulice',
     ],
-    'Motol': ['nemocnice-motol', 'zamek-motol', 'krucifix-motol', 'golf-club-praha', 'motolsky-pivovar', 'maltezsky-mlyn'],
+    'Motol': ['nemocnice-motol', 'zamek-motol', 'krematorium-motol', 'krucifix-motol', 'golf-club-praha', 'motolsky-pivovar', 'maltezsky-mlyn'],
     'Jinonice': ['prokopske-valley', 'butovicke-hradiste', 'jinonice-chateau-1783285307832', 'aviatica', 'tunel-prokopske-udoli', 'knihobudka-prokopske-udoli'],
     'Liboc': [
       'hvezda-game-reserve', 'libocka-brana', 'hradiste-sarka', 'nebusicka-vyhlidka', 'vodovodni-stola-svetluska',
@@ -157,7 +162,7 @@ export const AREA_LANDMARKS = {
     'Hloubětín': ['prazsky-zlom', 'krizovnicky-dvur-hloubetin', 'hloubetinsky-zamek', 'kostel-svateho-jiri-hloubetin', 'kejruv-mlyn', 'cihelna-v-bazantnici'],
     'Strašnice': [
       'trmalova-vila', 'radio-free-europe', 'fragment-berlinske-zdi-strasnice', 'hagibor', 'kostel-neposkvrneneho-poceti',
-      'strasnicke-divadlo', 'cervenkova-kaple', 'becvaruv-dvur',
+      'strasnicke-divadlo', 'cervenkova-kaple', 'becvaruv-dvur', 'kaple-sv-vaclava-vinohradsky-hrbitov',
     ],
     'Malešice': ['byty-malesice', 'spalovna-malesice', 'malesicky-viadukt', 'vyklenkova-kaple-malesice', 'jiraskova-vila-malesice', 'malesicky-park', 'milicova-modlitebna'],
     'Hostivař': [
@@ -167,7 +172,7 @@ export const AREA_LANDMARKS = {
     'Černý Most': ['rajsk-zahrada-metro-station-1783287225844', 'cerny-most'],
     'Dolní Počernice': [
       'zamek-dolni-pocernice', 'park-u-cenku', 'vybeh-pro-zubry-dolni-pocernice', 'kostel-nanebevzeti-panny-marie-dolni-pocernice',
-      'nejmensi-prazska-rozhledna', 'xaverovsky-haj',
+      'nejmensi-prazska-rozhledna', 'xaverovsky-haj', 'pocernicky-rybnik',
     ],
     'Kyje': ['kostel-svateho-bartolomeje-kyje', 'kyjsky-rybnik', 'rozhledna-doubravka', 'praha-kyje-zeleznicni-zastavka'],
     'Chodov': ['chodovska-tvrz', 'narodni-archiv', 'westfield-chodov', 'kunraticky-forest', 'komunitni-centrum-matky-terezy', 'the-park-chodov'],
@@ -206,8 +211,10 @@ export const AREA_LANDMARKS = {
     'Březiněves': ['brezineves'],
     'Dolní Chabry': ['zkamenely-slouha', 'kostel-steti-sv-jana-krtitele-dolni-chabry'],
     'Čimice': ['cimicke-udoli'],
-    'Ďáblice': ['hvezdarna-dablice', 'geodeticka-vez-ladvi'],
-    'Hrdlořezy': ['prirodni-park-smetanka'],
+    'Ďáblice': ['hvezdarna-dablice', 'geodeticka-vez-ladvi', 'dablicky-hrbitov'],
+    'Hrdlořezy': ['prirodni-park-smetanka', 'meandry-rokytky'],
+    'Střížkov': ['stanice-metra-strizkov', 'dablicky-hrbitov'],
+    'Pitkovice': ['pitkovicka-stran'],
     'Křeslice': ['kameny-pruhonicky-stonehenge'],
     'Cholupice': ['cholupice', 'cholupicka-bazantnice', 'libusska-prehrada'],
     'Kamýk': ['meteorologicka-vez-libus', 'stromoradi-dubu-letnich-hodkovicky'],
@@ -221,7 +228,7 @@ export const AREA_LANDMARKS = {
     'Dubeč': ['church-of-st-peter-in-dubeek-1782865438795'],
     'Horní Měcholupy': ['krtkuv-svet', 'zvonicka-dacicka-horni-mecholupy'],
     'Petrovice': ['zamek-petrovice', 'kostel-svateho-jakuba-starsiho-petrovice'],
-    'Štěrboholy': ['sterboholy', 'fashion-arena-prague-outlet', 'europark-praha'],
+    'Štěrboholy': ['pamatnik-bitvy-u-sterbohol', 'sterboholy', 'fashion-arena-prague-outlet', 'europark-praha'],
     'Lahovice': ['soutok-berounky-vltavy', 'radotinsky-most'],
     'Lipence': ['lipence', 'bluksky-mlyn'],
     'Lochkov': ['zamek-lochkov'],

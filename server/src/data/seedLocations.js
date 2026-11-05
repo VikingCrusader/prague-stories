@@ -33872,6 +33872,496 @@ Uvnitř stoupá pod světlíkem třiramenné schodiště s fontánou mezi pilí�
 🎁 彩蛋：教长府后面的花园，其实是一片葡萄园。2002年由教士团的堂长多莱扎尔提议种下，大约130株葡萄（米勒-图高、葡萄牙蓝和黑皮诺），每年能酿出约300瓶“维谢赫拉德混酿”。不过您买不到：教士团只留着它，在自己的正式场合上喝。`,
     },
   },
+  {
+    name: 'Střížkov Metro Station',
+    slug: 'stanice-metra-strizkov',
+    localizedNames: { cz: 'Stanice metra Střížkov', zh: '斯特日日科夫地铁站' },
+    labels: ['transport', 'contemporary'],
+    district: 'Praha 9',
+    quarter: 'Střížkov',
+    coordinates: { lat: 50.12619241655782, lng: 14.489537973073563 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/St%C5%99%C3%AD%C5%BEkov_(Prague_Metro)',
+    description: {
+      en: `Most Prague metro stations hide underground and hope you won't notice them. Střížkov does the opposite: it rises over the Prosek housing estate as a huge glass and steel shell, and the press has never quite agreed whether it looks like a whale or a drop of water. To some passengers it is simply a giant caterpillar.
+
+The station opened on 8 May 2008 as part of the extension of line C from Ládví to Letňany, and it is one of the most striking and also one of the most expensive in the network, at about 1.3 billion crowns. The platforms lie only about 13 metres down, but the building above them climbs high over the ground. The whole roof hangs from two massive white arches that cross along the station's axis, each spanning 150 metres. Walkways on two levels carry passengers between the side platforms, and the toughened glass came from France.
+
+The architect was Patrik Kotas, who has spent much of his career on transport buildings. There was no competition for the design: he was simply chosen as the project's architect, which did not stop all of Prague from having an opinion once the arches went up.
+
+🎁 Bonus: Beauty has a maintenance bill. When the station was being finished, the Czech press reported that cleaning and looking after the glass roof would be so demanding that the job would need climbers on ropes.`,
+      cz: `Většina pražských stanic metra se schovává pod zem a doufá, že si jí nevšimnete. Střížkov to dělá přesně naopak: nad sídlištěm Prosek se zvedá jako obrovská skořápka ze skla a oceli a noviny se dodnes neshodly, jestli připomíná velrybu, nebo kapku vody. Někteří cestující v ní prostě vidí obří housenku.
+
+Stanice se otevřela 8. května 2008 s prodloužením linky C z Ládví do Letňan a patří k architektonicky nejvýraznějším, ale také k nejdražším v síti: stála asi 1,3 miliardy korun. Nástupiště leží jen zhruba 13 metrů pod povrchem, ale budova nad nimi stoupá vysoko nad terén. Celá střecha visí na dvou mohutných bílých obloucích, které se protínají v ose stanice a každý má rozpětí 150 metrů. Mezi bočními nástupišti přecházejí cestující po lávkách ve dvou úrovních a tvrzené sklo pochází z Francie.
+
+Autorem je architekt Patrik Kotas, který se dopravním stavbám věnuje velkou část své kariéry. Soutěž se nekonala: byl prostě vybrán jako architekt projektu, což nikomu v Praze nezabránilo mít názor, jakmile oblouky vyrostly.
+
+🎁 Bonus: Krása má svůj účet za údržbu. Když se stanice dokončovala, psal český tisk, že čištění a údržba prosklené střechy budou tak náročné, že si s nimi poradí jen horolezci na lanech.`,
+      zh: `布拉格的地铁站大多躲在地下，巴不得您别注意到它们。斯特日日科夫偏偏反着来：它在普罗塞克住宅区上方拱起一个巨大的玻璃钢壳。报纸至今没商量好它到底像一头鲸鱼还是一滴水，有些乘客看到的，干脆就是一条巨型毛毛虫。
+
+车站在2008年5月8日开通，是地铁C线从拉德维延伸到莱特尼亚尼的一部分。它是全网最抢眼的车站之一，也是最贵的车站之一，造价约13亿克朗。站台只在地下大约13米，上面的建筑却高高地拱出地面。整个屋顶吊在两道沿车站中轴线相交的白色巨拱上，每道跨度150米。乘客在两层天桥上往来于两侧站台，钢化玻璃来自法国。
+
+建筑师是帕特里克·科塔斯，他职业生涯的很大一部分都花在交通建筑上。这个设计没有经过竞赛，他是被直接选定的项目建筑师。不过巨拱一立起来，全布拉格还是人人都有了意见。
+
+🎁 彩蛋：美是要付维护费的。车站快完工的时候，捷克媒体报道说，这个玻璃屋顶的清洁和保养难度极大，只有吊在绳子上的攀岩工人才干得了。`,
+    },
+  },
+  {
+    name: 'Šeberák Pond',
+    slug: 'rybnik-seberak',
+    localizedNames: { cz: 'Rybník Šeberák', zh: '舍贝拉克池塘' },
+    labels: ['waterbody', 'nature'],
+    district: 'Praha 4',
+    quarter: 'Kunratice',
+    coordinates: { lat: 50.01123798086421, lng: 14.492893548746844 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `On a hot Prague afternoon, half of the city's south seems to arrive here with a towel. Šeberák is one of the biggest natural swimming spots in Prague: a pond of about seven and a half hectares with a beach, lawns and a nudist corner, where nobody has to pretend to be anywhere more glamorous.
+
+The pond lies on the Kunratice stream and is the largest of the ponds along it. Written sources first mention it in 1602 in connection with Kunratice, and for centuries it was simply a fishpond. From about 1937 to 1955 it also earned its keep in winter, when ice was cut from it. Swimming came later and has had an uneven career. For years the pond was privately owned and fought over, until the City of Prague bought it in 2017 together with the nearby Olšanský pond, and from the 2020 season it again worked as a natural bathing place.
+
+Natural also means that nature has a say. The water quality has been a long-running problem, and the hygiene office has at times banned swimming altogether (it did so in 2024), so check the notices before you jump in.
+
+🎁 Bonus: The name points the wrong way. The pond is named after neighbouring Šeberov, and that is the village people assume it belongs to, but it actually lies in Kunratice.`,
+      cz: `Za horkého pražského odpoledne sem jako by s ručníkem dorazila polovina jihu města. Šeberák je jedno z největších přírodních koupališť v Praze: rybník o rozloze asi sedm a půl hektaru s pláží, trávníky a nudistickým koutem, kde si nikdo nemusí hrát na to, že je někde vznešenějším.
+
+Rybník leží na Kunratickém potoce a je největší z tamních rybníků. Písemné prameny ho poprvé zmiňují roku 1602 v souvislosti s Kunraticemi a po staletí byl prostě rybníkem na chov ryb. Přibližně v letech 1937 až 1955 si vydělával i v zimě, kdy se na něm těžil led. Koupání přišlo později a mělo proměnlivý osud. Dlouho byl rybník v soukromých rukou a vedly se o něj spory, až ho v roce 2017 koupilo hlavní město Praha spolu s nedalekým Olšanským rybníkem a od sezony 2020 tu znovu funguje přírodní koupaliště.
+
+Přírodní ovšem znamená, že příroda má slovo. Kvalita vody je dlouhodobým problémem a hygienici už koupání úplně zakázali (například v roce 2024), takže než skočíte do vody, podívejte se na vývěsku.
+
+🎁 Bonus: Jméno ukazuje špatným směrem. Rybník se jmenuje po sousedním Šeberově a právě k němu ho lidé obvykle přiřazují, ve skutečnosti ale leží v Kunraticích.`,
+      zh: `布拉格炎热的下午，南城好像有一半人都拎着毛巾来了这里。舍贝拉克是布拉格最大的天然游泳场之一：一片约七公顷半的池塘，有沙滩、草坪和一个天体角落，谁也不用假装自己身在什么更高档的地方。
+
+池塘在昆拉蒂采溪上，是这条溪沿线最大的一个。文献里第一次提到它是在1602年，与昆拉蒂采有关。几百年里它就是个养鱼塘，大约1937年到1955年，冬天还靠采冰挣点外快。游泳是后来才有的事，而且一路起起落落。池塘长期掌握在私人手里，纠纷不断，直到2017年布拉格市政府把它和附近的奥尔尚斯基池塘一起买下，从2020年夏天起，这里才重新成了天然游泳场。
+
+不过“天然”也意味着大自然说了算。水质问题由来已久，卫生部门有时干脆禁止下水（2024年就禁过一次），所以跳下去之前，先看看告示。
+
+🎁 彩蛋：这个名字把人指错了方向。池塘以邻村舍贝罗夫命名，大家也总以为它属于那里，其实它在昆拉蒂采。`,
+    },
+  },
+  {
+    name: 'Pitkovice Slope',
+    slug: 'pitkovicka-stran',
+    localizedNames: { cz: 'Pitkovická stráň', zh: '皮特科维采山坡' },
+    labels: ['nature', 'hidden-gem'],
+    district: 'Praha 22',
+    quarter: 'Pitkovice',
+    coordinates: { lat: 50.02438554146659, lng: 14.575149513023376 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pitkovick%C3%A1_str%C3%A1%C5%88',
+    description: {
+      en: `Prague's protected nature comes in all sizes, and this one is about the size of a football pitch without the corners. It is a small rocky spur above the Pitkovice stream, facing the sun, covered in dry steppe grassland and guarding a few flowers that are far rarer than the place looks.
+
+The site has been a nature monument since 1969, and it covers just 5,525 square metres. The south-facing slope over shale and greywacke is dry and warm, which suits plants that would struggle almost anywhere else in the city. The treasures here are the Bohemian pasqueflower, the Bohemian gagea, a small yellow flower of early spring, and Triumfetti's cornflower. Come in spring: this is a place to see in flower, and in August you may wonder what the fuss is about.
+
+People shaped the slope as much as the climate did. Until 1947 sheep, goats and cattle grazed the slopes along the stream, and grazing kept the bushes down. A quarry next door worked until 1940. From about 1920 to 1970 the surroundings were planted with trees that didn't belong here, such as black locust and black pine, and today conservation volunteers look after the spur so that it doesn't vanish under them.
+
+🎁 Bonus: During the Second World War the slope was dug up with trenches for military exercises. The pits have long since grassed over, but you can still make them out among the rare flowers. The rock also had a much grander old name: Belvedere.`,
+      cz: `Chráněná příroda má v Praze všechny velikosti a tahle je zhruba jako fotbalové hřiště bez rohů. Malý skalní ostroh nad Pitkovickým potokem se vystavuje slunci, pokrývá ho suchá stepní tráva a hlídá několik květin, které jsou mnohem vzácnější, než jak to tu vypadá.
+
+Přírodní památkou je místo od roku 1969 a měří pouhých 5 525 metrů čtverečních. Jižní svah na břidlicích a drobách je suchý a teplý, což vyhovuje rostlinám, které by jinde ve městě skoro nepřežily. Pokladem jsou tu koniklec luční český, křivatec český, drobná žlutá květina časného jara, a chrpa chlumní. Přijďte na jaře: tohle je místo na květy a v srpnu si možná řeknete, co na něm všichni mají.
+
+Svah utvářeli lidé stejně jako podnebí. Až do roku 1947 se na stráních podél potoka pásly ovce, kozy a dobytek a pastva držela křoví zkrátka. Vedlejší lom fungoval do roku 1940. Zhruba od roku 1920 do roku 1970 se okolí zalesňovalo nevhodnými dřevinami, jako je akát nebo borovice černá, a dnes o ostroh pečují ochránci přírody, aby pod nimi nezmizel.
+
+🎁 Bonus: Za druhé světové války byl svah rozkopaný zákopy pro vojenská cvičení. Jámy dávno zarostly trávou, ale mezi vzácnými květinami je pořád rozeznáte. Skála měla kdysi i mnohem vznešenější jméno: Belveder.`,
+      zh: `布拉格的自然保护地大大小小都有，这一块差不多就是一个缺了角的足球场。一道小小的岩石山嘴伸在皮特科维采溪上方，朝着太阳，长满干燥的草原植被，守着几种比这地方的模样珍贵得多的花。
+
+这里1969年就成了自然保护地，面积只有5525平方米。朝南的山坡下面是页岩和杂砂岩，又干又暖，正合那些在城里别处几乎活不下去的植物的心意。这里的宝贝是捷克草地白头翁、捷克顶冰花（一种早春开的小黄花）和山矢车菊。要来就春天来：这地方是看花的，八月来您大概会纳闷大家在激动什么。
+
+这道山坡，人出的力不比气候少。直到1947年，溪边的山坡上还放着羊和牛，啃掉了灌木。隔壁的采石场一直开到1940年。大约1920年到1970年，周围种上了本不属于这里的树，比如刺槐和黑松。如今靠自然保护志愿者照料，这道山嘴才没有被它们吞掉。
+
+🎁 彩蛋：二战期间，这道山坡被挖了军事演习用的战壕。坑早就长满了草，但在珍稀的花丛之间依然看得出来。这块岩石以前还有个气派得多的名字：观景楼。`,
+    },
+  },
+  {
+    name: 'Battle of Štěrboholy Memorial',
+    slug: 'pamatnik-bitvy-u-sterbohol',
+    localizedNames: { cz: 'Památník bitvy u Štěrbohol', zh: '什捷尔博霍利战役纪念碑' },
+    labels: ['monument', 'early-modern', 'hidden-gem'],
+    district: 'Praha 15',
+    quarter: 'Štěrboholy',
+    coordinates: { lat: 50.07604846481105, lng: 14.556331996452897 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Battle_of_Prague_(1757)',
+    description: {
+      en: `A small, quiet stone among fields and warehouses, a short walk from a shopping outlet, marks the bloodiest battle fought on Czech soil in the 18th century. It is a modest ending for a spot that has had more monuments than most capitals' main squares, and has lost nearly all of them.
+
+On 6 May 1757, early in the Seven Years' War, Frederick II of Prussia attacked the Austrian army outside Prague. The Prussians call it the Battle of Prague, the Czechs the Battle of Štěrboholy. Prussia won, at a terrible price on both sides. When a Prussian infantry attack wavered, the 72-year-old Field Marshal Kurt Christoph von Schwerin seized a regimental flag and led the men forward himself. He was shot dead almost at once. His body was embalmed and taken back to Prussia, while thousands of soldiers were buried here where they fell.
+
+A wooden column went up on the battlefield first. In 1824 Ondřej Schurch, steward of the Michle estate, replaced it with a stone monument. In 1839 King Frederick William III of Prussia added a cast-iron one on a mound behind it, a richly decorated classicist pylon about three and a half metres high, linked with the great Berlin architect Schinkel. The plot around them became a Prussian military cemetery, owned by the Prussian state, ringed by a moat and tended by a paid war invalid.
+
+🎁 Bonus: In 1939 to 1945 the German army used the cemetery for its garrison, and in 1945 the whole place was swept away, monuments included. The small memorial you see today was unveiled for the battle's 250th anniversary in 2007, and it does what its predecessors did not: it remembers both the Prussian and the Austrian dead.`,
+      cz: `Malý, tichý kámen mezi poli a sklady, kousek od outletu, připomíná nejkrvavější bitvu 18. století svedenou na českém území. Je to skromný konec pro místo, které mělo víc pomníků než nejedno hlavní náměstí a skoro o všechny přišlo.
+
+Dne 6. května 1757, na začátku sedmileté války, napadl pruský král Fridrich II. rakouskou armádu před Prahou. Prusové tomu říkají bitva u Prahy, Češi bitva u Štěrbohol. Prusko zvítězilo, za hroznou cenu na obou stranách. Když pruský pěší útok zakolísal, popadl dvaasedmdesátiletý polní maršál Kurt Christoph von Schwerin pluku prapor a vedl muže vpřed sám. Vzápětí padl. Jeho tělo bylo nabalzamováno a převezeno do Pruska, zatímco tisíce vojáků pohřbili tady, kde padli.
+
+Na bojišti nejdřív stanul dřevěný sloup. Roku 1824 ho správce michelského statku Ondřej Schurch nahradil kamenným pomníkem. Roku 1839 přibyl z příkazu pruského krále Fridricha Viléma III. na pahorku za ním pomník litinový, bohatě zdobený klasicistní pylon vysoký asi tři a půl metru, spojovaný s velkým berlínským architektem Schinkelem. Pozemek kolem se stal pruským vojenským hřbitovem v majetku pruského státu, obehnaným vodním příkopem, o který se staral placený válečný invalida.
+
+🎁 Bonus: V letech 1939 až 1945 využívala hřbitov německá armáda jako posádkový a roku 1945 bylo celé místo i s pomníky odstraněno. Malý památník, který tu stojí dnes, byl odhalen v roce 2007 k 250. výročí bitvy a dělá to, co jeho předchůdci nedělali: připomíná pruské i rakouské padlé.`,
+      zh: `田野和仓库之间，离奥特莱斯没几步，立着一块小小的、安静的石头，它纪念的是18世纪捷克土地上最血腥的一场战役。这地方曾经拥有的纪念碑比许多首都的中心广场还多，后来几乎全丢光了，这块石头算是个低调的收场。
+
+1757年5月6日，七年战争刚开始，普鲁士国王腓特烈二世在布拉格城外攻打奥地利军队。普鲁士人叫它布拉格战役，捷克人叫它什捷尔博霍利战役。普鲁士赢了，双方都付出了可怕的代价。普鲁士步兵的进攻动摇时，72岁的陆军元帅库尔特·克里斯托夫·冯·什未林抓起团旗，亲自带队往前冲，随即中弹身亡。他的遗体经过防腐运回普鲁士，成千上万的士兵则就地埋在这里。
+
+战场上最早立的是一根木柱。1824年，米赫勒庄园的管家翁德热伊·舒尔赫把它换成了石碑。1839年，普鲁士国王腓特烈·威廉三世下令在后面的土丘上再立一座铸铁纪念碑，那是一根约三米半高、装饰华丽的古典主义方尖塔，据说和柏林大建筑师申克尔有关。周围的土地成了普鲁士军人公墓，归普鲁士政府所有，四周围着水沟，还雇了一位伤残老兵看守。
+
+🎁 彩蛋：1939年到1945年，德军把这座公墓用作驻军墓地；1945年，整个地方连同纪念碑被一并清除。今天您看到的这座小纪念碑是2007年战役250周年时揭幕的，它做到了前辈们没做到的事：同时纪念普鲁士和奥地利两边的死者。`,
+    },
+  },
+  {
+    name: 'Ďáblice Cemetery',
+    slug: 'dablicky-hrbitov',
+    localizedNames: { cz: 'Ďáblický hřbitov', zh: '达布利采公墓' },
+    labels: ['monument', 'cubism', 'world-wars', 'communism'],
+    district: 'Praha 8',
+    quarter: 'Střížkov',
+    coordinates: { lat: 50.1360628426176, lng: 14.48139009775852 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/%C4%8E%C3%A1blice_Cemetery',
+    description: {
+      en: `This is Prague's second-largest cemetery after Olšany, and one of the heaviest places in the city. Behind Cubist gates lie more than 20,000 ordinary graves and about 70 mass graves, where two regimes hid the people they had killed. Since 2017 it has been a national cultural monument.
+
+It was built in 1912 to 1914 to a design by Vlastislav Hofman, one of the leading figures of Czech Cubism, and it was founded as Prague's Central Cemetery. In the 1920s the city planned it as one of three huge burial grounds around its edge. Only part of that plan was carried out, but Hofman's sharply angled walls and gatehouses remain a rare case of Cubism applied to a graveyard.
+
+From 1943 the mass graves here took in the bodies of people executed by the Nazis, along with unidentified bodies and remains from autopsies. After the war came executed Nazi criminals, among them K. H. Frank, buried without a marker. After 1948 the communist regime used the same pits for people it had executed or who had died in its prisons, so that nobody could visit them. In the 1990s an honorary burial ground for the victims of the 1950s was set up in the northern part. Zdena Mašínová, the mother of the Mašín brothers, lies here, and Josef Toufar, the priest beaten to death in custody in 1950, lay here until he was exhumed in 2014 and reburied in his parish of Číhošť. In the middle of the cemetery is the honorary ground of those who fought on the barricades in May 1945.
+
+🎁 Bonus: For decades people have said that the paratroopers who killed Heydrich lie here too. The dates make that doubtful: the Ďáblice pits only came into use in August 1943, a year after the men died, and before that such remains went to the Vinohrady Cemetery if they were not cremated. Where they really lie is still not settled.`,
+      cz: `Je to po Olšanech druhý největší pražský hřbitov a jedno z nejtěžších míst ve městě. Za kubistickými branami leží přes 20 000 běžných hrobů a asi 70 hromadných hrobů, do nichž dva režimy ukryly lidi, které zabily. Od roku 2017 je národní kulturní památkou.
+
+Vznikl v letech 1912 až 1914 podle projektu Vlastislava Hofmana, jedné z vůdčích osobností českého kubismu, a založen byl jako Pražský ústřední hřbitov. Ve 20. letech s ním město počítalo jako s jedním ze tří obřích pohřebišť na okraji Prahy. Plán se uskutečnil jen zčásti, ale Hofmanovy ostře lomené zdi a vstupní stavby zůstávají vzácným příkladem kubismu na hřbitově.
+
+Od roku 1943 se do zdejších hromadných hrobů ukládala těla lidí popravených nacisty spolu s neidentifikovanými těly a ostatky po pitvách. Po válce sem přibyli popravení nacističtí zločinci, mezi nimi K. H. Frank, v neoznačených hrobech. Po roce 1948 využil tytéž šachty komunistický režim pro ty, které popravil nebo kteří zemřeli v jeho věznicích, aby je nikdo nemohl navštívit. V 90. letech vzniklo v severní části čestné pohřebiště obětí padesátých let. Leží tu Zdena Mašínová, matka bratří Mašínů, a do své exhumace v roce 2014 a nového pohřbu v Číhošti tu ležel i kněz Josef Toufar, umučený ve vazbě v roce 1950. Uprostřed hřbitova je čestné pohřebiště bojovníků z barikád z května 1945.
+
+🎁 Bonus: Desítky let se říká, že tu leží i parašutisté, kteří zabili Heydricha. Data tomu ale příliš nesvědčí: ďáblické šachty se začaly používat až v srpnu 1943, rok po jejich smrti, a do té doby končily podobné ostatky, pokud nebyly zpopelněny, na Vinohradském hřbitově. Kde skutečně leží, dodnes není rozhodnuto.`,
+      zh: `这是布拉格仅次于奥尔尚尼公墓的第二大公墓，也是全城最沉重的地方之一。立体主义风格的大门后面，有两万多座普通墓穴，还有大约70处集体墓，两个政权把自己杀害的人藏在了这里。2017年，它被列为国家文化古迹。
+
+公墓建于1912年至1914年，设计者是捷克立体主义的领军人物之一弗拉斯季斯拉夫·霍夫曼。它建成时叫布拉格中央公墓。1920年代，市里规划在城市边缘建三座巨型墓地，它是其中之一。这个计划只实现了一部分，但霍夫曼棱角分明的围墙和门楼留了下来，立体主义用在墓园上，这样的例子并不多见。
+
+从1943年起，这里的集体墓开始接收被纳粹处决者的遗体，还有身份不明的尸体和解剖后的遗骸。战后埋进来的是被处决的纳粹罪犯，其中包括卡尔·赫尔曼·弗兰克，都没有墓碑。1948年之后，共产党政权用同样的墓坑埋葬被它处决或死在狱中的人，好让谁也无法前来祭奠。1990年代，公墓北部建起了1950年代受难者的荣誉墓区。马欣兄弟的母亲兹德娜·马欣诺娃葬在这里；1950年在关押中被折磨致死的神父约瑟夫·托法尔也曾葬在这里，直到2014年被迁出，重新安葬在他的教区奇霍什季。公墓中部是1945年5月街垒战士的荣誉墓区。
+
+🎁 彩蛋：几十年来，人们一直说刺杀海德里希的伞兵也埋在这里。但时间对不上：这里的墓坑直到1943年8月才启用，那时他们已经牺牲一年多了；此前这类遗体如果没有火化，都送到了维诺赫拉迪公墓。他们究竟葬在哪里，至今没有定论。`,
+    },
+  },
+  {
+    name: 'Počernice Pond',
+    slug: 'pocernicky-rybnik',
+    localizedNames: { cz: 'Počernický rybník', zh: '波切尔尼采池塘' },
+    labels: ['waterbody', 'nature'],
+    district: 'Praha 14',
+    quarter: 'Dolní Počernice',
+    coordinates: { lat: 50.087823510193566, lng: 14.583212626394387 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Prague has a whole river to show off, so it rarely boasts about its ponds. But this one has a title: at about 19 hectares it is the largest pond in the city, tucked behind the chateau park of Dolní Počernice at the far eastern end of town, with waterbirds in place of tourists.
+
+It lies on the Rokytka, the stream that crosses eastern Prague on its way to the Vltava, and it is the most important pond in that whole catchment. Together with the chateau park beside it, the water forms a nature monument of more than 41 hectares. Reed beds around the banks give birds a place to nest, and the park, laid out in the 19th century, gives everyone else a place to walk. The pond was restored in 2003 to 2006 with the help of EU funds.
+
+Fish farming here is deliberately gentle. The city keeps the stock light for the sake of the water, and the fish caught here go on to stock other Prague ponds, which makes this a sort of nursery for the capital's anglers.
+
+🎁 Bonus: The pond has a small place in the history of science. On 2 June 1888 the zoologist Antonín Frič set up a wooden, portable field laboratory on its right bank to study life in fresh water. Locals called it Broukárna, roughly "the Bug Shed", and the local heritage sign calls it the first hydrobiological station in the world. The hut is long gone, and a few years later it had packed up and moved on.`,
+      cz: `Praha se může chlubit celou řekou, takže o rybnících moc nemluví. Tenhle má ale titul: s plochou asi 19 hektarů je největším rybníkem ve městě. Schovává se za zámeckým parkem v Dolních Počernicích na samém východním konci města a místo turistů tu jsou vodní ptáci.
+
+Leží na Rokytce, potoce, který protíná východ Prahy na cestě k Vltavě, a je nejvýznamnějším rybníkem v celém jejím povodí. Spolu se sousedním zámeckým parkem tvoří přírodní památku o rozloze přes 41 hektarů. Rákosiny u břehů dávají ptákům místo k hnízdění a park založený v 19. století všem ostatním místo k procházce. V letech 2003 až 2006 prošel rybník revitalizací s podporou fondů EU.
+
+Rybí hospodářství je tu záměrně mírné. Město drží obsádku nízko kvůli vodě a odlovené ryby slouží k zarybňování dalších pražských rybníků, takže jde o takovou školku pro pražské rybáře.
+
+🎁 Bonus: Rybník má své malé místo v dějinách vědy. Dne 2. června 1888 postavil na jeho pravém břehu zoolog Antonín Frič dřevěnou přenosnou terénní laboratoř pro výzkum života ve sladké vodě. Říkalo se jí Broukárna a místní informační tabule ji označuje za první hydrobiologickou stanici na světě. Bouda dávno neexistuje a za pár let se stejně sbalila a odstěhovala jinam.`,
+      zh: `布拉格有一整条河可以炫耀，所以很少提它的池塘。但这一个是有头衔的：它约19公顷，是全城最大的池塘，藏在城市最东头下波切尔尼采的城堡花园后面，这里见不到游客，只有水鸟。
+
+池塘在罗基特卡河上。这条小河穿过布拉格东部流向伏尔塔瓦河，这里是全流域最重要的池塘。池塘和旁边的城堡花园一起，组成了一片41公顷多的自然保护地。岸边的芦苇丛给鸟儿筑巢，19世纪建的花园则留给其他所有人散步。2003年到2006年，池塘在欧盟资金的支持下做过一次修复。
+
+这里的养鱼是有意放轻手脚的。为了水质，市政府控制着鱼的数量，捞上来的鱼再放到布拉格别的池塘里，所以这里算得上首都垂钓者的育苗所。
+
+🎁 彩蛋：这片池塘在科学史上也有个小位置。1888年6月2日，动物学家安东宁·弗里奇在右岸搭起一座可以拆装的木头野外实验室，研究淡水里的生物。当地人管它叫“虫子棚”，本地的文物标牌称它是世界上第一座水生生物研究站。小屋早就没了，而且没过几年，它就打包搬到了别处。`,
+    },
+  },
+  {
+    name: 'Motol Cemetery and Crematorium',
+    slug: 'krematorium-motol',
+    localizedNames: { cz: 'Krematorium a hřbitov Motol', zh: '摩托尔公墓和火葬场' },
+    labels: ['municipal', 'communism'],
+    district: 'Praha 5',
+    quarter: 'Motol',
+    coordinates: { lat: 50.06538966209818, lng: 14.325425876740741 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Krematorium_Motol',
+    description: {
+      en: `Prague's second crematorium stands in a meadow under a wooded hill on Plzeňská Street, with a woodland urn grove behind it. Most of the people who come here are saying goodbye to someone. For decades almost nobody knew that it also held the ashes of people the state had wanted forgotten.
+
+A first design for a crematorium on the left bank was drawn up in 1937 but rejected. The rising number of cremations brought the city back to the idea, the competition was won by the architect Josef Karel Říha, and building began in 1951. It opened in 1954, with a columbarium and an urn grove laid out as a forest cemetery, with a scattering meadow around a small pond. The whole complex has been a protected cultural monument since 2021.
+
+In the 1950s the communist regime disposed of the bodies of people it had executed by cremating them, first at Strašnice and later at Motol. The urns carried no names, only cover numbers, and they were put into a common grave here without the families being told. Urns were still being moved in the 1960s: on 5 May 1965, 78 of them were brought over from Pankrác prison. Only in 1999 did the documentation centre of the Confederation of Political Prisoners find the records showing what the grave held. An honorary burial ground opened on 20 May 2000, and about two-thirds of the people laid there have since been identified. Former prisoners still gather here each year.
+
+🎁 Bonus: Before the gate stands the stone figure of a woman, Grief, by Miloslav Hejný, made for the place in 1955. The second statue of that year, Vilím Amort's bronze Fading Beauty, was a nude, and in such a setting she made people uneasy, so a bush and a tree were planted around her. They still hide most of her.`,
+      cz: `Druhé pražské krematorium stojí na louce pod zalesněným návrším v Plzeňské ulici a za ním se rozkládá lesní urnový háj. Většina lidí sem přichází se někým rozloučit. Po desetiletí skoro nikdo nevěděl, že je tu uložen i popel lidí, na které měl svět podle státu zapomenout.
+
+První návrh krematoria na levém břehu vznikl už v roce 1937, ale nebyl přijat. K myšlence se město vrátilo kvůli rostoucímu počtu kremací, soutěž vyhrál architekt Josef Karel Říha a stavba začala roku 1951. Provoz byl zahájen roku 1954 a vzniklo i kolumbárium a urnový háj koncipovaný jako lesní hřbitov s loučkou rozptylu kolem jezírka. Celý areál je od roku 2021 kulturní památkou.
+
+V padesátých letech se komunistický režim zbavoval těl popravených kremací, nejprve ve Strašnicích, později v Motole. Urny nenesly jména, jen krycí čísla, a ukládaly se tu do společného hrobu, aniž se to rodiny dozvěděly. Urny se sem převážely ještě v šedesátých letech: 5. května 1965 jich dorazilo 78 z pankrácké věznice. Teprve v roce 1999 nalezlo dokumentační středisko Konfederace politických vězňů záznamy, které ukázaly, co hrob skrývá. Čestné pohřebiště bylo otevřeno 20. května 2000 a asi dvě třetiny lidí, kteří tu leží, se od té doby podařilo identifikovat. Bývalí vězni se tu dodnes každý rok scházejí.
+
+🎁 Bonus: Před branou stojí kamenná socha ženy Bol od Miloslava Hejného, vytvořená pro toto místo v roce 1955. Druhá socha z téhož roku, bronzová Dohasínající krása Vilíma Amorta, je akt a v pietním prostředí budila rozpaky, a tak kolem ní vysadili keř a strom. Dodnes ji z větší části zakrývají.`,
+      zh: `布拉格的第二座火葬场在普尔森大街边，立在一片树木葱郁的山丘下的草地上，后面是一片林间骨灰园。来这里的人，大多是来和亲人告别的。几十年间，几乎没人知道这里还存放着另一些人的骨灰：国家要让他们被彻底遗忘。
+
+1937年就有过一份在伏尔塔瓦河左岸建火葬场的方案，没有通过。火化的人越来越多，市政府又想起了这件事，建筑师约瑟夫·卡雷尔·日哈赢得了竞赛，1951年开工。1954年火葬场启用，同时建起了骨灰堂和一片森林墓园式的骨灰园，小池塘周围是撒灰的草地。2021年起，整个园区被列为文化古迹。
+
+1950年代，共产党政权靠火化处理被处决者的遗体，先在斯特拉什尼采，后来在摩托尔。骨灰盒上没有名字，只有代号，被放进这里的一座合葬墓，家属毫不知情。直到1960年代还有骨灰盒运来：1965年5月5日，从潘克拉茨监狱送来了78个。1999年，政治犯联合会的档案中心才查到记录，弄清这座墓里埋着什么。荣誉墓区于2000年5月20日落成，埋在这里的人，如今约三分之二已确认身份。当年的狱友至今每年都来这里聚会悼念。
+
+🎁 彩蛋：大门前立着一座米洛斯拉夫·海伊尼的石雕女像《哀痛》，是1955年专为此地创作的。同年的另一座雕像是维利姆·阿莫特的青铜像《渐逝之美》，是一尊裸体，在这样的场合让人不大自在，于是人们在周围种了一丛灌木和一棵树。它们至今还遮着雕像的大半。`,
+    },
+  },
+  {
+    name: 'Juliska Stadium',
+    slug: 'stadion-juliska',
+    localizedNames: { cz: 'Stadion Juliska', zh: '尤利斯卡球场' },
+    labels: ['cafe', 'communism'],
+    district: 'Praha 6',
+    quarter: 'Dejvice',
+    coordinates: { lat: 50.11158368576012, lng: 14.388695841124317 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Stadion_Juliska',
+    description: {
+      en: `Most great football clubs earn their squads. Dukla Prague had a simpler method: it was the army's club, so a talented young player could find himself called up for military service and, by a remarkable coincidence, posted to its team. Juliska, in the hills above Dejvice, is where that system played its home games.
+
+The stadium was built in 1960 to give Dukla a new home, and it opened with a match against Wiener Sportclub. It arrived in the club's best years. Dukla won eleven Czechoslovak league titles in all, many of them in the 1950s and 1960s, led by Josef Masopust, who had been drafted in from Teplice in 1952 and in 1962 was named European Footballer of the Year.
+
+The biggest crowd of its history came on 8 March 1967, when about 20,000 people packed in for Ajax Amsterdam in the European Cup. Dukla went through that night and reached the semi-final, where it lost to Celtic. With the end of communism the army's money went too, and the club fell a long way before climbing back. The stadium now feels far too large for its crowds, and that is much of its charm.
+
+🎁 Bonus: In Britain the club is immortal for an entirely different reason. In 1986 the Birkenhead band Half Man Half Biscuit released a song called "All I Want for Christmas Is a Dukla Prague Away Kit". British fans have been making the pilgrimage ever since, and the kit, maroon with yellow sleeves, could be bought here on match days.`,
+      cz: `Většina velkých klubů si kádr musí vydřít. Dukla Praha to měla jednodušší: byla klubem armády, takže talentovaný mladík mohl dostat povolávací rozkaz a shodou podivuhodných okolností skončit právě v jejím mužstvu. Juliska na výšině nad Dejvicemi je místo, kde tenhle systém hrál domácí zápasy.
+
+Stadion byl postaven v roce 1960 jako nový domov Dukly a otevřen zápasem s Wiener Sportclubem. Přišel v nejlepších letech klubu. Dukla získala celkem jedenáct československých ligových titulů, z velké části v 50. a 60. letech, v čele s Josefem Masopustem, který přišel z Teplic v roce 1952 a v roce 1962 se stal nejlepším fotbalistou Evropy.
+
+Největší návštěvu v historii zažil stadion 8. března 1967, kdy se na Ajax Amsterdam v Poháru mistrů evropských zemí sešlo asi 20 000 lidí. Dukla tehdy postoupila a došla až do semifinále, kde podlehla Celticu. S koncem komunismu skončily i armádní peníze a klub spadl hodně hluboko, než se zase vyškrábal zpátky. Stadion je dnes na své publikum příliš velký, a v tom je kus jeho kouzla.
+
+🎁 Bonus: V Británii je klub nesmrtelný z úplně jiného důvodu. V roce 1986 vydala kapela Half Man Half Biscuit z Birkenheadu píseň „All I Want for Christmas Is a Dukla Prague Away Kit“ (K Vánocům chci jen venkovní dres Dukly Praha). Britští fanoušci sem od té doby jezdí na pouť a dres, vínový se žlutými rukávy, se tu dal v den zápasu koupit.`,
+      zh: `大多数豪门的阵容都是一点点攒起来的。布拉格杜克拉的办法简单得多：它是军队的球队，所以一个有天赋的小伙子可能收到一纸入伍通知，然后极其巧合地被分到了这支队。德伊维采上方高地上的尤利斯卡球场，就是这套体系踢主场的地方。
+
+球场建于1960年，给杜克拉安了个新家，开幕战的对手是维也纳体育俱乐部。它赶上了这支球队最好的年头。杜克拉一共拿过十一次捷克斯洛伐克联赛冠军，大多在1950和1960年代，领军人物是1952年从特普利采招来的约瑟夫·马索普斯特，他在1962年当选欧洲足球先生。
+
+球场史上最多的观众出现在1967年3月8日，约两万人挤进来看欧洲冠军杯对阿贾克斯。杜克拉那一晚成功晋级，一路打进半决赛，输给了凯尔特人。共产主义结束，军队的钱也跟着没了，球队一路下坠，后来才又爬回来。这座球场如今对它的观众来说实在太大，它的魅力也有一大半在这里。
+
+🎁 彩蛋：在英国，这支球队因为一件完全不相干的事而不朽。1986年，来自伯肯黑德的乐队“半人半饼干”发了一首歌，歌名叫《圣诞节我只想要一件杜克拉客场球衣》。从那以后英国球迷就不断来这里朝圣，那件紫红配黄袖的球衣，比赛日在这里就能买到。`,
+    },
+  },
+  {
+    name: 'Ďolíček Stadium',
+    slug: 'dolicek',
+    localizedNames: { cz: 'Ďolíček', zh: '德约利切克球场' },
+    labels: ['cafe'],
+    district: 'Praha 10',
+    quarter: 'Vršovice',
+    coordinates: { lat: 50.0664154321603, lng: 14.453936982958846 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Eol%C3%AD%C4%8Dek',
+    description: {
+      en: `A football ground whose name means "the little dip", squeezed in among the apartment blocks of Vršovice, and home to a Czech club with a kangaroo on its badge. Ďolíček makes no sense at all until you've stood on its terraces, and then it makes more sense than most stadiums.
+
+Bohemians, the club in green and white, were Vršovice's team long before they took that name: they started out here in the 1890s, and they have called this ground home since it opened on 27 March 1932 with a match against Slavia. Its official name was Dannerův stadion, after Zdeněk Danner, the director of the Vršovice savings bank, who did much to get it built. Nobody calls it that. The ground sits in a hollow, the stands crowd up to the touchlines, and a full house of a little over 6,000 sounds like a great many more.
+
+Its great day came in 1983, when Bohemians won the Czechoslovak league for the only time. Harder days followed. In the seasons 2010/11 and 2011/12 the team had to leave and play at Slavia's stadium down the road, a painful address for any Bohemians fan, because Ďolíček no longer met the requirements. The team did come home, and the club has now secured the ground for decades to come, with a rebuild planned that would add a new south stand and take it past 8,000.
+
+🎁 Bonus: The kangaroo is real history. In 1927 the team toured Australia and took the name Bohemians, so that the locals would know where they were from. They came home with two young kangaroos, a gift for President Masaryk, who passed them on to a Prague zoo. The animal has been on the badge ever since.`,
+      cz: `Fotbalové hřiště, které se jmenuje jako malý dolík, je vmáčknuté mezi vršovické činžáky a hraje na něm český klub s klokanem ve znaku. Ďolíček nedává vůbec žádný smysl, dokud nestojíte v jeho hledišti, a pak ho dává víc než většina stadionů.
+
+Zelenobílí Bohemians byli vršovickým klubem dávno předtím, než se tak začali jmenovat: začínali tu už v 90. letech 19. století a tenhle stadion je jejich domovem od otevření 27. března 1932 zápasem se Slavií. Oficiálně se jmenoval Dannerův stadion po Zdeňku Dannerovi, řediteli Vršovické záložny, který se o jeho vznik významně zasloužil. Nikdo mu tak neříká. Stadion leží v prohlubni, tribuny se tlačí až k postranním čarám a plný stadion s něco přes 6 000 lidmi zní jako mnohem víc.
+
+Jeho velký den přišel v roce 1983, kdy Bohemians jedinkrát vyhráli československou ligu. Pak přišly i horší dny. V sezonách 2010/11 a 2011/12 musel tým kvůli nevyhovujícím podmínkám odejít a hrát na nedalekém stadionu Slavie, pro každého fanouška Bohemky bolestná adresa. Tým se ale domů vrátil a klub si dnes stadion zajistil na desítky let dopředu; chystaná přestavba má přinést novou jižní tribunu a přes 8 000 míst.
+
+🎁 Bonus: Klokan je skutečná historie. V roce 1927 jel tým na turné do Austrálie a přijal jméno Bohemians, aby tamní lidé věděli, odkud je. Domů se vrátil se dvěma mladými klokany, darem pro prezidenta Masaryka, který je předal jedné z pražských zoo. Zvíře je od té doby ve znaku.`,
+      zh: `一座球场，名字的意思是“小坑”，挤在弗尔绍维采的公寓楼之间，主人是一支队徽上画着袋鼠的捷克球队。德约利切克在您站上它的看台之前完全说不通，站上去之后，却比大多数球场都说得通。
+
+绿白军团波希米亚队在用上这个名字之前，早就是弗尔绍维采的球队了：他们19世纪90年代就在这里起步，而这座球场从1932年3月27日揭幕起就是他们的家，揭幕战的对手是斯拉维亚。球场的官方名字叫丹纳球场，纪念为修建它出了大力的弗尔绍维采储蓄银行行长兹德涅克·丹纳，但没人这么叫。球场坐落在一个洼地里，看台紧贴边线，满场不过六千出头，听起来却远不止这个数。
+
+它的高光时刻在1983年，波希米亚队唯一一次夺得捷克斯洛伐克联赛冠军。之后也有难过的日子。2010/11和2011/12两个赛季，球场不达标，球队只好搬去不远处斯拉维亚的主场踢球，对波希米亚球迷来说，这个地址真是扎心。球队后来还是回了家，俱乐部如今已确保未来几十年都能留在这里，计划中的改造将新建南看台，把容量提到八千以上。
+
+🎁 彩蛋：袋鼠确有其事。1927年球队远赴澳大利亚巡回比赛，为了让当地人知道他们来自哪里，取了“波希米亚人”这个名字。回国时他们带着两只小袋鼠，是送给马萨里克总统的礼物，总统又转送给了布拉格的一家动物园。从那以后，袋鼠就一直在队徽上。`,
+    },
+  },
+  {
+    name: 'Viktoria Žižkov Stadium',
+    slug: 'stadion-viktoria-zizkov',
+    localizedNames: { cz: 'Stadion FK Viktoria Žižkov', zh: '日什科夫维多利亚球场' },
+    labels: ['cafe'],
+    district: 'Praha 3',
+    quarter: 'Žižkov',
+    coordinates: { lat: 50.08443209901411, lng: 14.444249405356615 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/FK_Viktoria_Stadion',
+    description: {
+      en: `A proper football stadium wedged so tightly between the tenements of Seifertova that the neighbours can watch from their kitchens. Žižkov has always done things its own way, and its football club is no exception: small, stubborn, permanently in some sort of trouble, and once the champion of a whole country.
+
+Viktoria Žižkov dates from 1903, when a club of that name was set up by Sokol members, and in the 1927/28 season it did what nobody else outside Sparta and Slavia had managed and won the Czechoslovak league. The old ground in the Ohrada area closed that same year, and the club's fortunes wandered through decades of mergers and new names. The present stadium, on the site once occupied by Prague's first municipal gasworks, opened in 1952, and Viktoria has played here since the 1960s.
+
+The ground is small, the stands are close, and the tram bell comes through the game from the street outside. The club's later moments of glory came in the cups. Viktoria won the Czech Cup in 2001, and on 17 September 2002 it beat Rangers 2-0 in the first leg of a UEFA Cup tie. The Scots won 3-1 at Ibrox after extra time, but Viktoria went through on away goals.
+
+🎁 Bonus: Viktoria's home is about a tram stop from the main station and surrounded by Žižkov's pubs, which may explain the feeling, shared by many a visiting fan, that this is less a stadium than a neighbourhood with a pitch in it.`,
+      cz: `Pořádný fotbalový stadion vklíněný mezi seifertovské činžáky tak těsně, že se sousedé mohou dívat z kuchyně. Žižkov si vždycky dělal věci po svém a jeho klub není výjimkou: malý, tvrdohlavý, věčně v nějakých potížích a kdysi mistr celé republiky.
+
+Viktoria Žižkov se datuje od roku 1903, kdy klub tohoto jména založili sokolové, a v sezoně 1927/28 dokázala to, co nikdo mimo Spartu a Slavii, a vyhrála československou ligu. Staré hřiště na Ohradě se téhož roku zavřelo a osudy klubu pak bloudily desetiletími fúzí a nových jmen. Dnešní stadion, na místě někdejší první pražské městské plynárny, byl otevřen v roce 1952 a Viktoria tu hraje od 60. let.
+
+Stadion je malý, tribuny jsou blízko a do hry zaznívá zvonek tramvaje z ulice. Pozdější slavné chvíle prožil klub v pohárech. V roce 2001 vyhrála Viktoria Český pohár a 17. září 2002 porazila v prvním zápase Poháru UEFA Rangers 2:0. Skotové sice na Ibroxu po prodloužení vyhráli 3:1, Viktoria ale postoupila díky gólům na hřišti soupeře.
+
+🎁 Bonus: Domov Viktorky je asi jednu zastávku tramvají od hlavního nádraží a obklopují ho žižkovské hospody. Možná proto má nejeden hostující fanoušek pocit, že to není ani tak stadion jako čtvrť, ve které je hřiště.`,
+      zh: `这是一座货真价实的足球场，却紧紧卡在塞弗特大街的老公寓楼之间，邻居们在厨房里就能看球。日什科夫向来按自己的规矩办事，这里的球队也不例外：个子小，脾气倔，永远陷在某种麻烦里，却当过全国冠军。
+
+日什科夫维多利亚的历史要从1903年算起，那年索科尔体操协会的成员组建了同名俱乐部。1927/28赛季，它做到了斯巴达和斯拉维亚之外没人做到的事，赢得了捷克斯洛伐克联赛冠军。老球场所在的奥赫拉达同年关闭，此后几十年，俱乐部在合并和改名之间辗转。现在的球场建在布拉格第一座市政煤气厂的旧址上，1952年启用，维多利亚从1960年代起在这里比赛。
+
+球场很小，看台很近，街上的电车铃声一直飘进比赛里。球队后来的高光时刻都在杯赛上。2001年维多利亚夺得捷克杯，2002年9月17日在联盟杯首回合2比0击败了流浪者。苏格兰人在伊布罗克斯球场加时3比1赢回一场，但维多利亚靠客场进球晋级。
+
+🎁 彩蛋：维多利亚的主场离中央火车站大约一站电车的距离，周围全是日什科夫的小酒馆。也许正因如此，不少客队球迷都觉得，这里与其说是一座球场，不如说是一片街区，只是里面有块球场。`,
+    },
+  },
+  {
+    name: 'Chapel of St. Wenceslas (Vinohrady Cemetery)',
+    slug: 'kaple-sv-vaclava-vinohradsky-hrbitov',
+    localizedNames: { cz: 'Kaple sv. Václava (Vinohradský hřbitov)', zh: '圣瓦茨拉夫小教堂（维诺赫拉迪公墓）' },
+    labels: ['church', 'historicism'],
+    district: 'Praha 10',
+    quarter: 'Vinohrady',
+    coordinates: { lat: 50.07678448093859, lng: 14.482002657538539 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `The neo-Gothic chapel at the centre of the Vinohrady Cemetery is a fine building that most visitors walk straight past on the way to something else: a family tomb in its side wall, usually marked by candles, flowers and red hearts. Václav Havel is buried here.
+
+The Chapel of St. Wenceslas was built in 1897 to a design by the architect Antonín Turek, and it is the dominant building of the cemetery. It serves as a ceremonial hall, and it also works as a lapidarium, sheltering valuable original funerary sculptures. Its arcades, along the sides of the chapel, hold some of the cemetery's old family tombs.
+
+One of them belongs to the Havels, a well-off Prague family of builders. Václav Havel, playwright, dissident and the first president of free Czechoslovakia, died in December 2011, and his urn was placed in the tomb alongside the relatives who were already there, including his first wife Olga, who had died in 1996. There is no state mausoleum and nothing grand about it, and that suits the man. Thousands of candles collect here on the anniversaries, and the heart he used to draw beside his signature has been left here so often that it has become the place's own symbol.
+
+🎁 Bonus: Havel signed his letters and his papers with a small hand-drawn heart, a habit that outlived him. If you are looking for him, don't go inside: walk around the left side of the chapel to the arcade and look for the flowers.`,
+      cz: `Novogotická kaple uprostřed Vinohradského hřbitova je pěkná stavba, kolem které většina návštěvníků rovnou projde k něčemu jinému: k rodinné hrobce v její boční zdi, obvykle označené svíčkami, květinami a červenými srdíčky. Je tu pohřben Václav Havel.
+
+Kaple sv. Václava vznikla v roce 1897 podle projektu architekta Antonína Turka a je dominantou hřbitova. Slouží jako obřadní síň a zároveň jako lapidárium, kde jsou uloženy cenné originály náhrobních plastik. V arkádách po jejích stranách jsou některé staré rodinné hrobky hřbitova.
+
+Jedna z nich patří Havlům, zámožné pražské stavitelské rodině. Václav Havel, dramatik, disident a první prezident svobodného Československa, zemřel v prosinci 2011 a jeho urna byla uložena do hrobky k příbuzným, kteří tu už leželi, včetně první ženy Olgy, která zemřela v roce 1996. Není tu žádné státní mauzoleum ani nic velkolepého, a to k němu sedí. O výročích se tu sejdou tisíce svíček a srdíčko, které kreslil vedle svého podpisu, sem lidé nosí tak často, že se stalo znamením tohoto místa.
+
+🎁 Bonus: Havel podepisoval dopisy i listiny s malým ručně kresleným srdíčkem a tenhle zvyk ho přežil. Pokud ho hledáte, nechoďte dovnitř: obejděte kapli zleva k arkádě a řiďte se květinami.`,
+      zh: `维诺赫拉迪公墓中央的这座新哥特式小教堂是座漂亮的建筑，但大多数访客都直接走过它，奔向别的东西：它侧墙里的一座家族墓，墓前总是摆着蜡烛、鲜花和红色的心。瓦茨拉夫·哈维尔葬在这里。
+
+圣瓦茨拉夫小教堂建于1897年，由建筑师安东宁·图雷克设计，是整座公墓的主体建筑。它是举行葬礼的礼堂，同时也是一座石刻陈列室，收藏着珍贵的墓葬雕塑原作。小教堂两侧的拱廊里，安放着公墓一些古老的家族墓。
+
+其中一座属于哈维尔家，这是布拉格一个富裕的建筑商家族。瓦茨拉夫·哈维尔，剧作家、异见者、自由捷克斯洛伐克的第一任总统，2011年12月去世，骨灰放进了这座家族墓，和早已长眠在此的亲人在一起，其中包括1996年去世的第一任妻子奥尔佳。这里没有国家陵墓，也没有任何排场，这倒很像他本人。每逢纪念日，这里会聚起成千上万支蜡烛；他生前画在签名旁的那颗心，人们也一次次带到这里，如今成了这个地方自己的标记。
+
+🎁 彩蛋：哈维尔签信件和文件时，习惯在旁边手画一颗小小的心，这个习惯比他活得更久。如果您是来找他的，不用进教堂：从左边绕到拱廊，跟着鲜花走就行。`,
+    },
+  },
+  {
+    name: 'Meanders of the Rokytka',
+    slug: 'meandry-rokytky',
+    localizedNames: { cz: 'Meandry Rokytky', zh: '罗基特卡河曲' },
+    labels: ['nature', 'waterbody'],
+    district: 'Praha 9',
+    quarter: 'Hrdlořezy',
+    coordinates: { lat: 50.098073952098616, lng: 14.516604009925675 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `A freight railway to one side, the city all around, and in between a stream that has been allowed to go back to wandering about as if none of it were there. This loop of the Rokytka in Hrdlořezy is one of the most pleasant surprises in the whole of Prague 9.
+
+The Rokytka crosses eastern Prague to join the Vltava in Libeň, and over the last century it had a hard time of it: like most city streams it was straightened and penned in to keep it out of everyone's way. Here it has been given back a natural channel, and it has responded by doing what streams do, bending into a series of meanders across a floodplain of meadows.
+
+The floodplain lies under the northern slope of the Smetanka hill and is part of the Smetanka nature park, founded in 2010 on land in Hloubětín, Kyje, Hrdlořezy and Vysočany. The stream splits the park in two, and a path along the water makes this one of the easiest ways to walk across this part of the city. Bring the kind of shoes that don't mind a little mud after rain.
+
+🎁 Bonus: Hrdlořezy sounds alarming, because taken literally the name means "throat-cutters". Linguists think it has more to do with an old personal name or nickname than with any murder, which has not stopped anyone from enjoying it.`,
+      cz: `Na jedné straně nákladní trať, všude kolem město a mezi tím potok, který se smí zase toulat, jako by tu nic z toho nebylo. Tahle smyčka Rokytky v Hrdlořezích patří k nejpříjemnějším překvapením celé Prahy 9.
+
+Rokytka protíná východ Prahy a v Libni se vlévá do Vltavy a za poslední století to neměla lehké: jako většinu městských potoků ji napřímili a sevřeli, aby nikomu nepřekážela. Tady dostala zpátky přírodní koryto a zareagovala, jak potoky umějí, a začala se v meandrech vinout lučnatou nivou.
+
+Niva leží pod severním svahem vrchu Smetanka a patří do přírodního parku Smetanka, založeného v roce 2010 na území Hloubětína, Kyjí, Hrdlořez a Vysočan. Potok park dělí na dvě části a cesta podél vody je jedním z nejsnazších způsobů, jak tuhle část města přejít pěšky. Po dešti se hodí boty, kterým nevadí trochu bláta.
+
+🎁 Bonus: Jméno Hrdlořezy zní znepokojivě. Jazykovědci si ale myslí, že má spíš co do činění se starým osobním jménem nebo přezdívkou než s jakoukoli vraždou, což nikomu nebrání si ho užívat.`,
+      zh: `一边是货运铁路，四周都是城市，中间有一条小河，又被允许像这些都不存在似的到处闲逛。赫尔德洛热齐的这段罗基特卡河湾，是整个9区最让人惊喜的地方之一。
+
+罗基特卡河穿过布拉格东部，在利本汇入伏尔塔瓦河。上个世纪它的日子不好过：和大多数城市河流一样，它被截弯取直、关进河道，免得碍事。在这里，它重新得到了一条自然的河床，于是做了河流最擅长的事：在长满青草的河滩上绕出一串河曲。
+
+河滩在斯梅坦卡山的北坡脚下，属于斯梅坦卡自然公园。这座公园2010年成立，地跨赫罗贝京、基耶、赫尔德洛热齐和维索恰尼。小河把公园分成两半，沿着水边的小路，是步行穿过这片城区最轻松的办法之一。雨后来，请穿一双不怕沾点泥的鞋。
+
+🎁 彩蛋：赫尔德洛热齐这个名字听着吓人，直译是“割喉的人”。语言学家认为它更可能来自一个古老的人名或绰号，和凶杀没什么关系，不过这并不妨碍大家津津乐道。`,
+    },
+  },
+  {
+    name: 'Libeň Harbour',
+    slug: 'libensky-pristav',
+    localizedNames: { cz: 'Libeňský přístav', zh: '利本河港' },
+    labels: ['waterbody', 'factory', 'national-revival'],
+    district: 'Praha 8',
+    quarter: 'Libeň',
+    coordinates: { lat: 50.10498925424713, lng: 14.467513750417528 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Libe%C5%88sk%C3%BD_p%C5%99%C3%ADstav',
+    description: {
+      en: `In the 1890s the town of Libeň watched Holešovice get a new harbour across the Vltava and decided it needed one of its own. It got one, too, and the water is still here, now with flats and offices along its edge instead of barges and cranes.
+
+The first plan, by Jan Kaftan in 1891, was sent back for revision. The design by Antonín Smrček of 1893 was deeper and bigger, with 20,000 square metres of water at a depth of 1.8 metres, two arms separated by a widening mole, and a protective dyke along the Vltava. It was sized to unload fifteen large Elbe ships of 700 tonnes at the same time. To make room, the Rokytka stream had to be moved out of the way. The Lanna company built it between 1893 and 1896.
+
+Then the competition won. The harbour opposite in Holešovice took the traffic, and Libeň's slowly faded. In 1924 the Vltava-Elbe company bought it and set up a ship repair yard, the eastern basin was filled in around 1927 to 1928, and the yard grew into a shipbuilder, Loděnice Praga. Nationalised after 1945 as České loděnice, it turned out suction dredgers and other specialised vessels, until the yards shut in the 1990s. Flood defences were finished in 2005, and the DOCK housing and office project was completed around the basin in 2022.
+
+🎁 Bonus: The harbour was dug by a great steam excavator that had already done the same job across the river at Holešovice. An account of the time described it scooping up earth with iron buckets into trucks that passed through it "as through an iron gate", then being hauled off by locomotive to build a road embankment at Bulovka. Even the digger was second-hand from the rival.`,
+      cz: `V 90. letech 19. století sledovalo město Libeň, jak za Vltavou v Holešovicích vzniká nový přístav, a usoudilo, že potřebuje vlastní. Taky ho dostalo a voda je tu dodnes, jen na jejím břehu místo člunů a jeřábů stojí byty a kanceláře.
+
+První plán Jana Kaftana z roku 1891 šel k přepracování. Návrh Antonína Smrčka z roku 1893 byl hlubší a větší: 20 000 metrů čtverečních vodní plochy s hloubkou 1,8 metru, dvě ramena oddělená rozšiřujícím se molem a ochranná hráz podél Vltavy. Byl dimenzován na současné vykládání patnácti velkých labských lodí o nosnosti 700 tun. Aby se tu všechno vešlo, musela se přeložit Rokytka. Přístav postavila v letech 1893 až 1896 firma Lanna.
+
+Pak zvítězila konkurence. Protější holešovický přístav si vzal provoz a libeňský pomalu upadal. V roce 1924 ho koupila Vltavsko-labská společnost a zřídila tu opravnu lodí, východní bazén byl kolem let 1927 až 1928 zasypán a z opravny vyrostla loděnice, Loděnice Praga. Po roce 1945 byl podnik znárodněn a jako České loděnice vyráběl sací bagry a jiná specializovaná plavidla, až v 90. letech skončil. Protipovodňová ochrana byla dokončena v roce 2005 a v roce 2022 byl kolem bazénu dokončen bytový a kancelářský projekt DOCK.
+
+🎁 Bonus: Přístav vyhloubilo mohutné parní rýpadlo, které předtím dělalo totéž na druhé straně řeky v Holešovicích. Tehdejší popis líčí, jak železnými putnami nabírá zeminu do vozíků, jež jím projíždějí „jako železnou branou“, a lokomotiva je pak tahá k Bulovce na stavbu silničního náspu. I to rýpadlo bylo z druhé ruky od soupeře.`,
+      zh: `19世纪90年代，利本镇眼看着河对岸的霍莱绍维采修起新港口，觉得自己也得有一个。它还真有了一个，这片水面至今还在，只是岸边的驳船和起重机换成了公寓和写字楼。
+
+1891年扬·卡夫坦的第一版方案被打回重做。1893年安东宁·斯姆尔切克的方案更深也更大：两万平方米水面，水深1.8米，两道港池由一条逐渐加宽的防波堤隔开，沿伏尔塔瓦河修了防护堤。设计能力是同时卸十五艘700吨的易北河大船。为了腾地方，罗基特卡河还得挪开。港口由兰纳公司在1893年至1896年建成。
+
+然后竞争赢了。对岸的霍莱绍维采港抢走了生意，利本港慢慢没落。1924年，伏尔塔瓦-易北河公司买下它，开了一家修船厂；大约1927到1928年，东港池被填平；修船厂逐渐发展成造船厂，叫普拉加造船厂。1945年后工厂收归国有，改名捷克造船厂，生产吸泥船和其他专用船只，直到1990年代关闭。2005年防洪工程完工，2022年，港池周围的DOCK住宅办公项目建成。
+
+🎁 彩蛋：挖这座港口的，是一台庞大的蒸汽挖掘机，它之前刚在河对岸的霍莱绍维采干过同样的活。当时的记述描写它用铁斗把土铲进小车，小车“像穿过一道铁门”从它身下驶过，再由火车头拉到布洛夫卡去修路堤。就连这台挖掘机，都是竞争对手用过的二手货。`,
+    },
+  },
+  {
+    name: 'New Libeň Synagogue',
+    slug: 'nova-libenska-synagoga',
+    localizedNames: { cz: 'Nová libeňská synagoga', zh: '利本新犹太会堂' },
+    labels: ['jewish', 'historicism'],
+    district: 'Praha 8',
+    quarter: 'Libeň',
+    coordinates: { lat: 50.10412214239916, lng: 14.474039359012126 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `The traffic of Palmovka rushes past this tall, unexpected building, and few people on the trams could tell you what it is. It is one of only a handful of synagogues left in Prague outside the old Jewish Town, and it survived a good deal more than the junction outside it.
+
+Libeň had an old Jewish community with its own ghetto down by the river, and the river was the problem. Floods kept damaging the old synagogue in Koželužská Street, so the community decided to build on higher ground, outside the ghetto. The foundation stone was laid on 23 November 1846 by Archduke Stephen, and it took a slow twelve years until the synagogue was consecrated in 1858. Who designed it remains unclear. It was built in a neo-Romanesque style with oriental touches, an early example of Romantic historicism, and inside it is a three-aisled basilica with galleries.
+
+The community that built it did not survive the 20th century. The Nazis deported Libeň's Jews, and in the years that followed the old Jewish streets were cleared away. The synagogue itself was taken off the demolition list at the very last moment. It was returned to Prague's Jewish Community after 1989 and has been a protected monument since 1993, and since 1995 the Serpens association has used it for exhibitions of contemporary art and occasional theatre.
+
+🎁 Bonus: The "new" in its name has been out of date for over 160 years. It only meant that it was newer than the old synagogue down the hill, which stood for a few years after the consecration and was then pulled down.`,
+      cz: `Kolem této vysoké, nečekané stavby se valí doprava z Palmovky a málokdo v tramvaji by vám řekl, co to je. Patří mezi hrstku synagog, které v Praze zbyly mimo staré Židovské Město, a přežila toho mnohem víc než křižovatka před ní.
+
+Libeň měla starou židovskou obec s vlastním ghettem dole u řeky a právě řeka byla problém. Povodně opakovaně poškozovaly starou synagogu v Koželužské ulici, a tak se obec rozhodla stavět výš, mimo ghetto. Základní kámen položil 23. listopadu 1846 arcivévoda Štěpán a trvalo pomalých dvanáct let, než byla synagoga roku 1858 vysvěcena. Kdo ji navrhl, není jasné. Vznikla v novorománském slohu s orientálními prvky, v duchu raného romantického historismu, a uvnitř je trojlodní bazilikou s emporami.
+
+Obec, která ji postavila, 20. století nepřežila. Nacisté libeňské Židy deportovali a v dalších letech staré židovské ulice zmizely. Samotnou synagogu vyřadili z demoličního plánu na poslední chvíli. Po roce 1989 se vrátila pražské židovské obci, od roku 1993 je kulturní památkou a od roku 1995 ji sdružení Serpens využívá pro výstavy současného umění a občasné divadlo.
+
+🎁 Bonus: Slovo „nová“ v jejím jménu je přes 160 let zastaralé. Znamenalo jen to, že je novější než stará synagoga dole pod kopcem, která po vysvěcení ještě pár let stála a pak byla zbořena.`,
+      zh: `帕尔莫夫卡的车流从这座高大而意外的建筑旁呼啸而过，电车上没几个人说得出它是什么。它是布拉格老犹太城之外仅存的少数几座犹太会堂之一，经历的风雨比门前的路口多得多。
+
+利本有一个古老的犹太社区，自己的隔都就在河边，而问题也正出在河上。洪水一次次毁坏科热卢日斯卡街上的老会堂，社区于是决定搬到隔都以外的高处重建。1846年11月23日，斯特凡大公为它奠基，慢吞吞地盖了十二年，1858年才举行落成礼。谁设计的至今不清楚。它是新罗马式风格，带些东方元素，属于早期浪漫主义历史风格，内部是带楼廊的三通廊巴西利卡式。
+
+建起它的社区没能熬过20世纪。纳粹把利本的犹太人驱逐一空，在之后的岁月里，老犹太街区被陆续拆除。会堂本身是在最后一刻才从拆除名单上划掉的。1989年后，它被归还给布拉格犹太社区，1993年起成为文化古迹，1995年起由蛇形协会用来办当代艺术展，偶尔也演戏。
+
+🎁 彩蛋：名字里的“新”已经过时160多年了。它的意思只是比山下那座老会堂新，而老会堂在新会堂落成后又立了几年，就被拆掉了。`,
+    },
+  },
 ];
 
 async function run() {

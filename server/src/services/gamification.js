@@ -274,7 +274,7 @@ const HOSPITAL_SLUGS = [
   "nemocnice-na-frantisku", "italian-hospital-1782409426667", "nemocnice-milosrdnych-sester",
   "fakultni-nemocnice-bulovka", "psychiatricka-nemocnice-bohnice",
 ];
-// Top of the Class: nine universities and libraries (user's list, 2026-11-02).
+// Straight-A Student (学霸): nine universities and libraries (user's list, 2026-11-02).
 const SCHOOL_SLUGS = [
   "kampus-albertov", "karolinum", "cvut", "narodni-technicka-knihovna", "dum-u-lazara", "vse-praha",
   "czech-university-of-life-sciences-prague-1782583672397", "national-library-czech-republic",
@@ -340,6 +340,7 @@ const ANTHROPOID_SLUGS = [
   "petschek-palace-1782567720752",
   "-1782584125681",
   "pankrc-prison-1782564726175",
+  "zamek-panenske-brezany",
 ];
 // Barricades in May: the Prague Uprising of 5-9 May 1945.
 const UPRISING_SLUGS = [
@@ -371,6 +372,7 @@ const VELVET_SLUGS = [
   "letn-plain-1782906159291",
   "lavicka-vaclava-havla",
   "srdce-pro-vaclava-havla",
+  "kaple-sv-vaclava-vinohradsky-hrbitov",
 ];
 // Behind the Iron Curtain: 1948, the show trials, the StB and the wall of John Lennon.
 const IRON_CURTAIN_SLUGS = [
@@ -381,6 +383,7 @@ const IRON_CURTAIN_SLUGS = [
   "namesti-hrdinu",
   "pankrc-prison-1782564726175",
   "ruzyn-prison-1782570848316",
+  "dablicky-hrbitov",
   "letna-park",
   "john-lennon-wall",
 ];
@@ -390,7 +393,8 @@ const IRON_CURTAIN_SLUGS = [
 // "extreme" achievement (user's call, 2026-11-02).
 const NEVER_FORGET_SLUGS = [
   "pinkas-synagogue", "praha-hlavni-nadrazi", "petschek-palace-1782567720752",
-  "lidice", "koncentracni-tabor-terezin",
+  "lidice", "pamatnik-detskych-obeti-valky", "hromadny-hrob-lidice", "muzeum-pamatniku-lidice",
+  "pamatnik-lidickych-zen-zena-s-ruzi", "koncentracni-tabor-terezin",
 ];
 // Charles IV (user's list, 2026-11-02), in the order he founded them:
 // Emmaus and Our Lady of the Snows (1347), the university (1348),
@@ -585,9 +589,16 @@ const quarterCountWith = (quarter, count, slugs) => ({ checkedSlugs = [], quarte
 const TROJA = quarterCountWith("Troja", 5, ["trojsky-kun"]);
 // Neutral Fan: both sides of the Prague derby (Slavia's Fortuna Arena,
 // Sparta's epet ARENA), the O2 Arena and the Great Strahov Stadium.
-const STADIUMS = placesOnly(["fortuna-arena", "epet-arena", "o2-arena", "strahov-stadium"]);
-// The Fridge Magnet Trio (冰箱贴三件套): the three sights nearly every visitor sees first.
-const TOURIST_TRIO = placesOnly(["tyn-church", "charles-bridge", "st-vitus-cathedral"]);
+const STADIUMS = placesOnly(["fortuna-arena", "epet-arena", "o2-arena", "strahov-stadium", "stadion-juliska", "dolicek", "stadion-viktoria-zizkov"]);
+// The Fridge Magnet Four (冰箱贴四件套; the id keeps "trio"): the four sights nearly every visitor sees first.
+const TOURIST_TRIO = placesOnly(["tyn-church", "astronomical-clock", "charles-bridge", "st-vitus-cathedral"]);
+// A Good Place to Live: Říčany, first in the Czech quality-of-life index.
+const RICANY = placesOnly(["ricany"]);
+// St Ludmila's Veil: Beroun, Králův Dvůr and the castle at Tetín, where she was killed in 921.
+const LUDMILA_VEIL = placesOnly(["beroun", "kraluv-dvur", "zricenina-hradu-tetin"]);
+// Down the Vltava (一路向北; the user's first name 溯游北上 means upstream, but north of Prague the river flows north).
+const DOWN_THE_VLTAVA = placesOnly(["zamek-stredoceskeho-muzea-roztoky", "roztoky-u-prahy", "levy-hradec", "libehrad",
+  "kostel-nanebevzeti-p-marie-a-sv-vaclava-kralupy", "zamek-nelahozeves", "zamek-veltrusy"]);
 // Eiffel's Little Brother (埃菲尔铁塔的弟弟): Petřín Tower and the funicular, plus the Rose Garden or the
 // Mirror Maze (Bronze, 2026-11-04).
 function LITTLE_EIFFEL({ checkedSlugs = [] }) {
@@ -657,9 +668,10 @@ const RUDOLF = placesOnly([
 // required: it can only be entered with a ticket (user's call, 2026-11-04);
 // its card still counts toward the 80%.
 const ZBRASLAV = quarterShareWith("Zbraslav", 0.8, ["zbraslavsky-zamek"]);
-// Barrande's Apprentice: Barrandov is named after the geologist Joachim Barrande.
+// Amateur Geologist (地理爱好者; the id keeps Barrande): Barrandov is named after the geologist Joachim Barrande.
 const BARRANDE = placesAndLabels(
-  ["barrandovske-skaly", "brank-rock-cliff-1783427336440", "tramvajova-zastavka-geologicka"],
+  ["barrandovske-skaly", "brank-rock-cliff-1783427336440", "tramvajova-zastavka-geologicka",
+    "podol-profile-1783209955360", "letensky-profil", "prazsky-zlom"],
   [["geology", 15]]);
 const OLD_TOWN = quarterShareWith("Staré Město", 0.9, []);
 const LESSER_TOWN = quarterShareWith("Malá Strana", 0.9, []);
@@ -840,15 +852,15 @@ export const ACHIEVEMENTS = [
   {
     id: "tourist_trio",
     icon: "🧲",
-    name: "The Fridge Magnet Trio",
+    name: "The Fridge Magnet Four",
     name_cz: "Magnetky na lednici",
-    name_zh: "冰箱贴三件套",
-    flavor: "Týn, the bridge, the cathedral: the three on every fridge magnet in town. Now you've seen the real ones.",
-    flavor_cz: "Týn, most, katedrála: ta trojice z každé magnetky ve městě. Teď jste viděli i ty skutečné.",
-    flavor_zh: "泰恩教堂、查理大桥、圣维特大教堂，城里每块冰箱贴上都是这三样。现在你见过真的了。",
-    description: "Check in at the Church of Our Lady before Týn, Charles Bridge and St. Vitus Cathedral.",
-    description_cz: "Přihlaste se v chrámu Matky Boží před Týnem, na Karlově mostě a v katedrále svatého Víta.",
-    description_zh: "打卡泰恩前的圣母教堂、查理大桥和圣维特大教堂。",
+    name_zh: "冰箱贴四件套",
+    flavor: "Týn, the clock, the bridge, the cathedral: the four on every fridge magnet in town. Now you've seen the real ones.",
+    flavor_cz: "Týn, orloj, most, katedrála: ta čtveřice z každé magnetky ve městě. Teď jste viděli i ty skutečné.",
+    flavor_zh: "泰恩教堂、天文钟、查理大桥、圣维特大教堂，城里每块冰箱贴上都是这四样。现在你见过真的了。",
+    description: "Check in at the Church of Our Lady before Týn, the Astronomical Clock, Charles Bridge and St. Vitus Cathedral.",
+    description_cz: "Přihlaste se v chrámu Matky Boží před Týnem, u orloje, na Karlově mostě a v katedrále svatého Víta.",
+    description_zh: "打卡泰恩前的圣母教堂、天文钟、查理大桥和圣维特大教堂。",
     difficulty: "easy",
     check: (stats) => done(TOURIST_TRIO(stats)),
     progress: TOURIST_TRIO,
@@ -1208,7 +1220,7 @@ export const ACHIEVEMENTS = [
   {
     id: "top_of_the_class",
     icon: "🎓",
-    name: "Top of the Class",
+    name: "Straight-A Student",
     name_cz: "Premiant",
     name_zh: "学霸",
     flavor: "Nine schools and libraries, and not a single exam.",
@@ -1349,10 +1361,10 @@ export const ACHIEVEMENTS = [
     flavor: "Seven paratroopers, one church crypt, and a story that must not be forgotten.",
     flavor_cz: "Sedm parašutistů, jedna kostelní krypta a příběh, na který se nesmí zapomenout.",
     flavor_zh: "七名伞兵，一座教堂的地下室，和一段不该被遗忘的故事。",
-    description: "Check in at these 5 places: Reinhard Heydrich Assassination Site, Cathedral of Saints Cyril and Methodius, Petschek Palace, Kobylisy Shooting Range and Pankrác Prison.",
-    description_cz: "Přihlaste se na těchto 5 místech: Místo atentátu na Heydricha, Katedrála sv. Cyrila a Metoděje, Petschkův palác, Památník protifašistického odboje Střelnice Kobylisy a Vazební věznice Praha Pankrác.",
-    description_zh: "打卡以下5个地点：海德里希暗杀地点、圣西里尔与美多德大教堂、佩切克宫(前布拉格盖世太保总部)、科比利西射击场(反法西斯抵抗运动纪念碑)和潘克拉茨监狱。",
-    difficulty: "medium",
+    description: "Check in at these 6 places: Reinhard Heydrich Assassination Site, Cathedral of Saints Cyril and Methodius, Petschek Palace, Kobylisy Shooting Range, Pankrác Prison and Panenské Břežany Upper Castle, Heydrich's home outside Prague.",
+    description_cz: "Přihlaste se na těchto 6 místech: Místo atentátu na Heydricha, Katedrála sv. Cyrila a Metoděje, Petschkův palác, Památník protifašistického odboje Střelnice Kobylisy, Vazební věznice Praha Pankrác a Horní zámek Panenské Břežany, Heydrichovo sídlo za Prahou.",
+    description_zh: "打卡以下6个地点：海德里希暗杀地点、圣西里尔与美多德大教堂、佩切克宫(前布拉格盖世太保总部)、科比利西射击场(反法西斯抵抗运动纪念碑)、潘克拉茨监狱和海德里希在布拉格城外的住所帕内内斯凯布热扎尼上城堡。",
+    difficulty: "hard",
     check: ({ checkedSlugs }) => ANTHROPOID_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({
       current: ANTHROPOID_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length,
@@ -1409,9 +1421,9 @@ export const ACHIEVEMENTS = [
     flavor: "In November 1989, hundreds of thousands jingled their keys: time to go home.",
     flavor_cz: "V listopadu 1989 zacinkaly statisíce klíčů: je čas jít domů.",
     flavor_zh: "1989年11月，几十万人一起摇响钥匙：该走的，可以走了。",
-    description: "Check in at these 7 places: Albertov Campus, Velvet Revolution Memorial, Václav Square, Melantrich, Letná Plain, Václav Havel's Bench and Heart for Václav Havel.",
-    description_cz: "Přihlaste se na těchto 7 místech: Kampus Albertov, Památník sametové revoluce 17. listopadu 1989, Václavské náměstí, Palác Hvězda (Melantrich), Letenská pláň, Lavička Václava Havla a Srdce pro Václava Havla.",
-    description_zh: "打卡以下7个地点：阿尔贝托夫校区、天鹅绒革命纪念碑（1989年11月17日）、瓦茨拉夫广场、梅兰特里赫大楼（星辰宫）、莱特纳广场、瓦茨拉夫·哈维尔长椅和哈维尔之心。",
+    description: "Check in at these 8 places: Albertov Campus, Velvet Revolution Memorial, Václav Square, Melantrich, Letná Plain, Václav Havel's Bench, Heart for Václav Havel and the Chapel of St. Wenceslas (Vinohrady Cemetery), where Havel is buried.",
+    description_cz: "Přihlaste se na těchto 8 místech: Kampus Albertov, Památník sametové revoluce 17. listopadu 1989, Václavské náměstí, Palác Hvězda (Melantrich), Letenská pláň, Lavička Václava Havla, Srdce pro Václava Havla a Kaple sv. Václava (Vinohradský hřbitov), kde je Havel pohřben.",
+    description_zh: "打卡以下8个地点：阿尔贝托夫校区、天鹅绒革命纪念碑（1989年11月17日）、瓦茨拉夫广场、梅兰特里赫大楼（星辰宫）、莱特纳广场、瓦茨拉夫·哈维尔长椅、哈维尔之心和哈维尔长眠的圣瓦茨拉夫小教堂（维诺赫拉迪公墓）。",
     difficulty: "medium",
     check: ({ checkedSlugs }) => VELVET_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({
@@ -1429,9 +1441,9 @@ export const ACHIEVEMENTS = [
     flavor: "In those years some were locked up, and others wrote freedom on a wall.",
     flavor_cz: "V těch letech jedny zavírali do vězení a jiní psali svobodu na zeď.",
     flavor_zh: "那些年，有人被关进监狱，有人在墙上写下自由。",
-    description: "Check in at these 9 places: Goltz-Kinský Palace, Old Customs House (Museum of Communism), Memorial to the Victims of Communism, State Security (StB) Headquarters, Heroes' Square and Milada Horáková Memorial, Pankrác Prison, Ruzyně Prison, Letná Prague Metronome and John Lennon Wall.",
-    description_cz: "Přihlaste se na těchto 9 místech: Palác Goltz-Kinských, Stará celnice (Muzeum komunismu), Pomník obětem komunismu, Sídlo Státní bezpečnosti (StB), Náměstí Hrdinů a památník Milady Horákové, Vazební věznice Praha Pankrác, Vazební věznice Praha Ruzyně, Letenské Pražský metronom a Lennonova zeď.",
-    description_zh: "打卡以下9个地点：戈尔兹-金斯基宫、老海关大楼(共产主义博物馆)、共产主义受害者纪念碑、国家安全局（StB）总部、英雄广场和米拉达·霍拉科娃博士纪念碑、潘克拉茨监狱、鲁济涅监狱、莱特纳节拍器和列侬墙。",
+    description: "Check in at these 10 places: Goltz-Kinský Palace, Old Customs House (Museum of Communism), Memorial to the Victims of Communism, State Security (StB) Headquarters, Heroes' Square and Milada Horáková Memorial, Pankrác Prison, Ruzyně Prison, Ďáblice Cemetery, Letná Prague Metronome and John Lennon Wall.",
+    description_cz: "Přihlaste se na těchto 10 místech: Palác Goltz-Kinských, Stará celnice (Muzeum komunismu), Pomník obětem komunismu, Sídlo Státní bezpečnosti (StB), Náměstí Hrdinů a památník Milady Horákové, Vazební věznice Praha Pankrác, Vazební věznice Praha Ruzyně, Ďáblický hřbitov, Letenské Pražský metronom a Lennonova zeď.",
+    description_zh: "打卡以下10个地点：戈尔兹-金斯基宫、老海关大楼(共产主义博物馆)、共产主义受害者纪念碑、国家安全局（StB）总部、英雄广场和米拉达·霍拉科娃博士纪念碑、潘克拉茨监狱、鲁济涅监狱、达布利采公墓、莱特纳节拍器和列侬墙。",
     difficulty: "hard",
     check: ({ checkedSlugs }) => IRON_CURTAIN_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({
@@ -1449,9 +1461,9 @@ export const ACHIEVEMENTS = [
     flavor: "Nearly 80,000 names on the walls of a synagogue, and a village razed to the ground. Remember them.",
     flavor_cz: "Téměř 80 000 jmen na zdech synagogy a vesnice srovnaná se zemí. Pamatujte na ně.",
     flavor_zh: "一座会堂墙上近八万个名字，一个被夷为平地的村庄。记住他们。",
-    description: "Check in at these 5 places, two of them outside Prague: Pinkas Synagogue, Prague Main Station, Petschek Palace, Lidice and Terezín Concentration Camp.",
-    description_cz: "Přihlaste se na těchto 5 místech, z nichž dvě jsou mimo Prahu: Pinkasova synagoga, Praha hlavní nádraží, Petschkův palác, Lidice a Koncentrační tábor Terezín.",
-    description_zh: "打卡以下5个地点，其中两处在布拉格以外：平卡斯犹太会堂、布拉格主火车站、佩切克宫(前布拉格盖世太保总部)、利迪策和特雷津集中营。",
+    description: "Check in at these 9 places, six of them outside Prague: Pinkas Synagogue, Prague Main Station, Petschek Palace, Lidice, Memorial to the Child Victims of War, Mass Grave of the Lidice Men, Lidice Memorial Museum, Memorial to the Lidice Women (Woman with a Rose) and Terezín Concentration Camp.",
+    description_cz: "Přihlaste se na těchto 9 místech, z nichž šest je mimo Prahu: Pinkasova synagoga, Praha hlavní nádraží, Petschkův palác, Lidice, Památník dětských obětí války, Hromadný hrob zavražděných lidických mužů, Muzeum Památníku Lidice, Památník lidických žen (socha Žena s růží) a Koncentrační tábor Terezín.",
+    description_zh: "打卡以下9个地点，其中六处在布拉格以外：平卡斯犹太会堂、布拉格主火车站、佩切克宫(前布拉格盖世太保总部)、利迪策、二战儿童受难者纪念碑、利迪策遇难男性集体墓、利迪策纪念馆博物馆、利迪策妇女纪念碑（“持玫瑰的女人”雕像）和特雷津集中营。",
     difficulty: "extreme",
     check: ({ checkedSlugs }) => NEVER_FORGET_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({
@@ -2125,9 +2137,9 @@ export const ACHIEVEMENTS = [
     flavor: "You've been to both Slavia's ground and Sparta's. Now you have to pick a side.",
     flavor_cz: "Byli jste na Slavii i na Spartě. Teď si musíte vybrat stranu.",
     flavor_zh: "斯拉维亚和斯巴达的主场你都去过了，现在总得选一边了吧。",
-    description: "Check in at Fortuna Arena, epet ARENA, O2 Arena Praha and the Great Strahov Stadium.",
-    description_cz: "Přihlaste se ve Fortuna Areně, epet ARENĚ, O2 Areně Praha a na Velkém strahovském stadionu.",
-    description_zh: "打卡幸运竞技场、epet竞技场、O2竞技场和斯特拉霍夫大球场。",
+    description: "Check in at Fortuna Arena, epet ARENA, O2 Arena Praha, the Great Strahov Stadium, Juliska Stadium, Ďolíček Stadium and Viktoria Žižkov Stadium.",
+    description_cz: "Přihlaste se ve Fortuna Areně, epet ARENĚ, O2 Areně Praha, na Velkém strahovském stadionu, na Julisce, v Ďolíčku a na stadionu Viktorie Žižkov.",
+    description_zh: "打卡幸运竞技场、epet竞技场、O2竞技场、斯特拉霍夫大球场、尤利斯卡球场、德约利切克球场和日什科夫维多利亚球场。",
     difficulty: "medium",
     check: (stats) => done(STADIUMS(stats)),
     progress: STADIUMS,
@@ -2375,15 +2387,15 @@ export const ACHIEVEMENTS = [
   {
     id: "barrandes_apprentice",
     icon: "🪨",
-    name: "Barrande's Apprentice",
-    name_cz: "Barrandův učeň",
-    name_zh: "巴兰德的学徒",
+    name: "Amateur Geologist",
+    name_cz: "Amatérský geolog",
+    name_zh: "地理爱好者",
     flavor: "A Frenchman came to Prague to teach a prince, stayed to study trilobites, and a whole district was named after him.",
     flavor_cz: "Francouz přijel do Prahy učit prince, zůstal kvůli trilobitům a pojmenovali po něm celou čtvrť.",
     flavor_zh: "一个法国人来布拉格给王子当家教，却为了三叶虫留了下来，后来整个街区都以他命名。",
-    description: "Collect at least 15 Geology cards, including the Barrandov Rocks, the Braník Rock Cliff and the Geologická tram stop.",
-    description_cz: "Sesbírejte alespoň 15 karet Geologie, mezi nimi Barrandovské skály, Bránické skály a Tramvajová zastávka Geologická.",
-    description_zh: "收集至少15张“地质”卡片，其中必须包括巴兰多夫岩层、布拉尼克岩壁和Geologická电车站。",
+    description: "Collect at least 15 Geology cards, including the Barrandov Rocks, the Braník Rock Cliff, the Geologická tram stop, the Podolí Profile, the Letná Profile and the Prague Fault.",
+    description_cz: "Sesbírejte alespoň 15 karet Geologie, mezi nimi Barrandovské skály, Bránické skály, Tramvajová zastávka Geologická, Podolský profil, Letenský profil a Pražský zlom.",
+    description_zh: "收集至少15张“地质”卡片，其中必须包括巴兰多夫岩层、布拉尼克岩壁、Geologická电车站、波多尔剖面、莱特纳地质剖面和布拉格断层。",
     difficulty: "hard",
     check: (stats) => done(BARRANDE(stats)),
     progress: BARRANDE,
@@ -2566,6 +2578,86 @@ export const ACHIEVEMENTS = [
     after: true,
     check: ({ unlockDayMax }) => (unlockDayMax || 0) >= 5,
     progress: ({ unlockDayMax }) => ({ current: unlockDayMax || 0, target: 5 }),
+  },
+  {
+    id: "seen_it_all",
+    icon: "🥱",
+    name: "Seen It All Before",
+    name_cz: "To už jsme viděli",
+    name_zh: "司空见惯",
+    flavor: "Two hundred places any other city would put on a postcard, and you barely looked up.",
+    flavor_cz: "Dvě stě míst, která by jinde dali na pohlednici, a vy jste skoro ani nezvedli hlavu.",
+    flavor_zh: "别的城市要印上明信片的地方，你走了两百处，眼皮都不抬一下。",
+    description: "Collect 200 Common cards.",
+    description_cz: "Sesbírejte 200 karet vzácnosti Běžné.",
+    description_zh: "收集200张“常见”卡片。",
+    difficulty: "extreme",
+    check: ({ rarityCount = {} }) => (rarityCount.common || 0) >= 200,
+    progress: ({ rarityCount = {} }) => ({ current: rarityCount.common || 0, target: 200 }),
+  },
+  {
+    id: "reaching_for_the_sky",
+    icon: "⛪",
+    name: "Reaching for the Sky",
+    name_cz: "Až do nebe",
+    name_zh: "高耸入云",
+    flavor: "Forty Gothic buildings, every stone of them trying to get a little closer to heaven.",
+    flavor_cz: "Čtyřicet gotických staveb a každý jejich kámen se snaží být o kousek blíž nebi.",
+    flavor_zh: "四十处哥特式建筑，每一块石头都想离天堂再近一点。",
+    description: "Collect 40 Gothic cards.",
+    description_cz: "Sesbírejte 40 karet Gotika.",
+    description_zh: "收集40张“哥特式”卡片。",
+    difficulty: "hard",
+    check: ({ labelCount }) => (labelCount.gothic || 0) >= 40,
+    progress: ({ labelCount }) => ({ current: labelCount.gothic || 0, target: 40 }),
+  },
+  {
+    id: "good_place_to_live",
+    icon: "🏡",
+    name: "A Good Place to Live",
+    name_cz: "Tady se žije dobře",
+    name_zh: "此心安处",
+    flavor: "Year after year the quality-of-life index puts Říčany first in the country. You went to see why.",
+    flavor_cz: "Index kvality života staví Říčany rok co rok na první místo v zemi. Jeli jste se podívat proč.",
+    flavor_zh: "生活质量指数年年把日查尼排在全国第一。你专程来看看为什么。",
+    description: "Check in at Říčany.",
+    description_cz: "Přihlaste se v Říčanech.",
+    description_zh: "打卡日查尼。",
+    difficulty: "medium",
+    check: (stats) => done(RICANY(stats)),
+    progress: RICANY,
+  },
+  {
+    id: "ludmilas_veil",
+    icon: "🧣",
+    name: "St Ludmila's Veil",
+    name_cz: "Závoj svaté Ludmily",
+    name_zh: "圣鲁德米拉的面纱",
+    flavor: "Two towns on the Berounka, and the hill at Tetín where in 921 a duchess was strangled with her own veil.",
+    flavor_cz: "Dvě města na Berounce a návrší v Tetíně, kde byla roku 921 kněžna uškrcena vlastním závojem.",
+    flavor_zh: "贝罗温卡河边的两座小城，和921年一位公爵夫人被自己的面纱勒死的泰钦山头。",
+    description: "Check in at Beroun, Králův Dvůr and the Tetín Castle Ruins.",
+    description_cz: "Přihlaste se v Berouně, v Králově Dvoře a na Pozůstatcích hradu Tetína.",
+    description_zh: "打卡贝隆、国王庭院和泰钦城堡遗迹。",
+    difficulty: "hard",
+    check: (stats) => done(LUDMILA_VEIL(stats)),
+    progress: LUDMILA_VEIL,
+  },
+  {
+    id: "down_the_vltava",
+    icon: "🛶",
+    name: "Down the Vltava",
+    name_cz: "Po proudu Vltavy",
+    name_zh: "一路向北",
+    flavor: "The Vltava leaves Prague heading north. Follow it: a hillfort where Bohemia's Christianity began, a ruin on a cliff, Dvořák's birthplace and a Baroque summer palace.",
+    flavor_cz: "Vltava opouští Prahu směrem na sever. Jeďte za ní: hradiště, kde začínalo české křesťanství, zřícenina na skále, Dvořákův rodný kraj a barokní letní sídlo.",
+    flavor_zh: "伏尔塔瓦河出了布拉格，就朝北流去。跟着它走：波希米亚基督教起步的古城堡、悬崖上的废墟、德沃夏克的故乡和一座巴洛克夏宫。",
+    description: "Check in at these 7 places on the Vltava north of Prague: Central Bohemian Museum Chateau, Roztoky u Prahy, Levý Hradec Hillfort, Liběhrad Ruin, the Church of the Assumption of the Virgin Mary and St. Wenceslas in Kralupy nad Vltavou, Nelahozeves Chateau and Veltrusy Chateau.",
+    description_cz: "Přihlaste se na těchto 7 místech na Vltavě severně od Prahy: Zámek Středočeského muzea v Roztokách u Prahy, Roztoky u Prahy, Hradiště Levý Hradec, Zřícenina hradu Liběhrad, Kostel Nanebevzetí Panny Marie a svatého Václava v Kralupech nad Vltavou, Zámek Nelahozeves a Zámek Veltrusy.",
+    description_zh: "打卡布拉格以北伏尔塔瓦河畔的以下7个地点：罗兹托基中波希米亚博物馆城堡、罗兹托基、莱维赫拉德茨古城堡遗址、利别赫拉德城堡遗址、克拉卢皮圣母升天暨圣瓦茨拉夫教堂、内拉霍泽维斯城堡和维尔特鲁西城堡。",
+    difficulty: "extreme",
+    check: (stats) => done(DOWN_THE_VLTAVA(stats)),
+    progress: DOWN_THE_VLTAVA,
   },
 ];
 
