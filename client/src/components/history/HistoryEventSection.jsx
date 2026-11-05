@@ -59,9 +59,6 @@ export default function HistoryEventSection({ event, era, chapter, onOpenLandmar
 
 function EventCard({ event, onOpenLandmark, onNavigateToEvent, sectionRef }) {
   const t = useT();
-  const { lang } = useLang();
-  const convert = useConvert();
-  const userPos = useUserPosition();
   // Background cards (see HistoryEvent model) are non-dated explainer
   // asides, not narrative events — they get a distinct visual treatment
   // (an icon+label instead of a year, no Wikipedia-link title) and a
@@ -79,6 +76,43 @@ function EventCard({ event, onOpenLandmark, onNavigateToEvent, sectionRef }) {
       data-slug={event.slug}
       className={`history-detail-panel history-detail-panel--${event.tone}${isBackground ? ' history-detail-panel--background' : ''}`}
     >
+      <EventTitle event={event} />
+
+      {isBackground && (
+        <button
+          type="button"
+          className="history-event__background-toggle"
+          onClick={() => setExpanded(x => !x)}
+          aria-expanded={expanded}
+        >
+          {expanded ? t('history.collapseCard') : t('history.expandCard')}
+        </button>
+      )}
+
+      {showBody && (
+        <>
+          <EventHook event={event} />
+          <EventSummary event={event} onNavigateToEvent={onNavigateToEvent} />
+          <EventImages event={event} />
+          <EventReferences event={event} />
+          <EventLandmarks event={event} onOpenLandmark={onOpenLandmark} />
+        </>
+      )}
+    </div>
+  );
+}
+
+// The pieces of a card, shared by the scrolling feed (EventCard above) and the
+// desktop one-page-per-event view (HistoryBook), which lays them out in panels.
+
+export function EventTitle({ event }) {
+  const t = useT();
+  const { lang } = useLang();
+  const convert = useConvert();
+  const isBackground = event.cardType === 'background';
+
+  return (
+    <>
       {isBackground ? (
         <div className="history-event__background-tag">
           <span>{t('history.backgroundLabel')}</span>
@@ -101,189 +135,237 @@ function EventCard({ event, onOpenLandmark, onNavigateToEvent, sectionRef }) {
           convert(event.title[lang] || event.title.en)
         )}
       </h2>
+    </>
+  );
+}
 
-      {isBackground && (
-        <button
-          type="button"
-          className="history-event__background-toggle"
-          onClick={() => setExpanded(x => !x)}
-          aria-expanded={expanded}
-        >
-          {expanded ? t('history.collapseCard') : t('history.expandCard')}
-        </button>
-      )}
+export function EventHook({ event }) {
+  const { lang } = useLang();
+  const convert = useConvert();
 
-      {showBody && (
-        <>
-          <p className="history-event__hook">
-            {/* Four ornamental corners (history.css). */}
-            {['tl', 'tr', 'bl', 'br'].map((c) => (
-              <span key={c} className={`history-event__hook-corner history-event__hook-corner--${c}`} aria-hidden="true" />
-            ))}
-            {convert(event.hookLine[lang] || event.hookLine.en)}
-          </p>
-          {/* summary supports multi-paragraph text: split on \n and filter blank
-              lines, same convention LocationDetail uses for `description`, so a
-              '\n\n' in the source data renders as a paragraph break instead of
-              collapsing into one dense block. Falls back to a single <p> for
-              the (still-common) one-paragraph summaries.
+  return (
+    <>
+      <p className="history-event__hook">
+        {/* Four ornamental corners (history.css). */}
+        {['tl', 'tr', 'bl', 'br'].map((c) => (
+          <span key={c} className={`history-event__hook-corner history-event__hook-corner--${c}`} aria-hidden="true" />
+        ))}
+        {convert(event.hookLine[lang] || event.hookLine.en)}
+      </p>
+    </>
+  );
+}
 
-              A paragraph that's just a "[[quote:N]]" marker (its own line,
-              nothing else) is swapped for event.quotes[N] and rendered as a
-              distinct blockquote — decorative quotation marks, italic text,
-              a right-aligned "— Source" attribution — instead of a plain
-              <p>. Lets a primary-source quote stand apart from the summary's
-              own prose instead of sitting inline as quoted text.
+export function EventSummary({ event, onNavigateToEvent }) {
+  const { lang } = useLang();
+  const convert = useConvert();
 
-              A non-quote paragraph is still passed through renderInlineLinks
-              (see above) — any "[[link:slug]]text[[/link]]" mid-sentence
-              becomes an underlined clickable span jumping to that other
-              event's own section. */}
-          {convert(event.summary[lang] || event.summary.en)
-            .split("\n")
-            .filter((p) => p.trim())
-            .map((para, i) => {
-              const quoteMatch = para.trim().match(/^\[\[quote:(\d+)\]\]$/);
-              if (quoteMatch) {
-                const quote = event.quotes?.[Number(quoteMatch[1])];
-                if (!quote) return null;
-                return (
-                  <blockquote key={i} className="history-event__quote">
-                    <p className="history-event__quote-text">
-                      {convert(quote.text[lang] || quote.text.en)}
-                    </p>
-                    {(quote.attribution?.[lang] || quote.attribution?.en) && (
-                      <cite className="history-event__quote-attribution">
-                        — {convert(quote.attribution[lang] || quote.attribution.en)}
-                      </cite>
-                    )}
-                  </blockquote>
-                );
-              }
+  return (
+    <>
+      {/* summary supports multi-paragraph text: split on \n and filter blank
+          lines, same convention LocationDetail uses for `description`, so a
+          '\n\n' in the source data renders as a paragraph break instead of
+          collapsing into one dense block. Falls back to a single <p> for
+          the (still-common) one-paragraph summaries.
+
+          A paragraph that's just a "[[quote:N]]" marker (its own line,
+          nothing else) is swapped for event.quotes[N] and rendered as a
+          distinct blockquote — decorative quotation marks, italic text,
+          a right-aligned "— Source" attribution — instead of a plain
+          <p>. Lets a primary-source quote stand apart from the summary's
+          own prose instead of sitting inline as quoted text.
+
+          A non-quote paragraph is still passed through renderInlineLinks
+          (see above) — any "[[link:slug]]text[[/link]]" mid-sentence
+          becomes an underlined clickable span jumping to that other
+          event's own section. */}
+      {convert(event.summary[lang] || event.summary.en)
+        .split("\n")
+        .filter((p) => p.trim())
+        .map((para, i) => {
+          const quoteMatch = para.trim().match(/^\[\[quote:(\d+)\]\]$/);
+          if (quoteMatch) {
+            const quote = event.quotes?.[Number(quoteMatch[1])];
+            if (!quote) return null;
+            return (
+              <blockquote key={i} className="history-event__quote">
+                <p className="history-event__quote-text">
+                  {convert(quote.text[lang] || quote.text.en)}
+                </p>
+                {(quote.attribution?.[lang] || quote.attribution?.en) && (
+                  <cite className="history-event__quote-attribution">
+                    — {convert(quote.attribution[lang] || quote.attribution.en)}
+                  </cite>
+                )}
+              </blockquote>
+            );
+          }
+          return (
+            <p key={i} className="history-event__summary">{renderInlineLinks(para, onNavigateToEvent)}</p>
+          );
+        })}
+    </>
+  );
+}
+
+export function EventImages({ event, captions = true }) {
+  const { lang } = useLang();
+  const convert = useConvert();
+
+  return (
+    <>
+      {event.images?.map((src, i) => {
+        const caption = event.imageCaptions?.[i];
+        const captionText = caption?.[lang] || caption?.en;
+        return (
+          <figure key={src} className="history-event__image-figure">
+            <img
+              className="history-event__image"
+              src={src}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width={HISTORY_IMAGE_SIZES[src]?.[0]}
+              height={HISTORY_IMAGE_SIZES[src]?.[1]}
+            />
+            {captions && captionText && (
+              // Reuses .history-landmark-caption rather than a new
+              // class — same "small muted caption under an image"
+              // role, and it already carries the tuned EN/CZ (white,
+              // weight 600) and ZH (LXGW WenKai TC) overrides in
+              // global.css that a brand-new class would need repeating.
+              <figcaption className="history-landmark-caption">
+                {convert(captionText)}
+              </figcaption>
+            )}
+          </figure>
+        );
+      })}
+    </>
+  );
+}
+
+// The image captions on their own, for layouts that show them apart from the images.
+export function EventImageCaptions({ event }) {
+  const { lang } = useLang();
+  const convert = useConvert();
+  return (
+    <>
+      {event.imageCaptions?.map((caption, i) => {
+        const text = caption?.[lang] || caption?.en;
+        return text ? <p key={i} className="history-landmark-caption">{convert(text)}</p> : null;
+      })}
+    </>
+  );
+}
+
+export function EventReferences({ event }) {
+  const t = useT();
+  const { lang } = useLang();
+  const convert = useConvert();
+
+  return (
+    <>
+      {event.referenceMaps?.links?.length > 0 && (
+        <div className="history-event__reference-maps">
+          <span className="history-event__reference-maps-label">{t('history.referenceMapsLabel')}</span>
+          {(event.referenceMaps.caption?.[lang] || event.referenceMaps.caption?.en) && (
+            <p className="history-event__reference-maps-caption">
+              {convert(event.referenceMaps.caption[lang] || event.referenceMaps.caption.en)}
+            </p>
+          )}
+          <ul className="history-event__reference-maps-list">
+            {event.referenceMaps.links.map((map) => {
+              const isYouTube = /(^|\.)youtube\.com$|(^|\.)youtu\.be$/.test(
+                (() => {
+                  try {
+                    return new URL(map.url).hostname;
+                  } catch {
+                    return '';
+                  }
+                })()
+              );
               return (
-                <p key={i} className="history-event__summary">{renderInlineLinks(para, onNavigateToEvent)}</p>
+                <li key={map.url}>
+                  <a
+                    className="history-event__reference-maps-link"
+                    href={map.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {isYouTube ? (
+                      // Video links show a YouTube play-button glyph instead of
+                      // the year chip — the label (e.g. "1955") is redundant
+                      // once the icon itself says "this is a video."
+                      <svg
+                        className="history-event__reference-maps-icon"
+                        viewBox="0 0 24 17"
+                        width="24"
+                        height="17"
+                        aria-label="YouTube"
+                      >
+                        <rect width="24" height="17" rx="4" fill="#FF0000" />
+                        <polygon points="9.5,4.5 9.5,12.5 16,8.5" fill="#FFFFFF" />
+                      </svg>
+                    ) : (
+                      <span className="history-event__reference-maps-year">{map.label}</span>
+                    )}
+                    {(map.description?.[lang] || map.description?.en) && (
+                      <span className="history-event__reference-maps-desc">
+                        {convert(map.description[lang] || map.description.en)}
+                      </span>
+                    )}
+                  </a>
+                </li>
               );
             })}
-
-          {event.images?.map((src, i) => {
-            const caption = event.imageCaptions?.[i];
-            const captionText = caption?.[lang] || caption?.en;
-            return (
-              <figure key={src} className="history-event__image-figure">
-                <img
-                  className="history-event__image"
-                  src={src}
-                  alt=""
-                  loading="lazy"
-                  decoding="async"
-                  width={HISTORY_IMAGE_SIZES[src]?.[0]}
-                  height={HISTORY_IMAGE_SIZES[src]?.[1]}
-                />
-                {captionText && (
-                  // Reuses .history-landmark-caption rather than a new
-                  // class — same "small muted caption under an image"
-                  // role, and it already carries the tuned EN/CZ (white,
-                  // weight 600) and ZH (LXGW WenKai TC) overrides in
-                  // global.css that a brand-new class would need repeating.
-                  <figcaption className="history-landmark-caption">
-                    {convert(captionText)}
-                  </figcaption>
-                )}
-              </figure>
-            );
-          })}
-
-          {event.referenceMaps?.links?.length > 0 && (
-            <div className="history-event__reference-maps">
-              <span className="history-event__reference-maps-label">{t('history.referenceMapsLabel')}</span>
-              {(event.referenceMaps.caption?.[lang] || event.referenceMaps.caption?.en) && (
-                <p className="history-event__reference-maps-caption">
-                  {convert(event.referenceMaps.caption[lang] || event.referenceMaps.caption.en)}
-                </p>
-              )}
-              <ul className="history-event__reference-maps-list">
-                {event.referenceMaps.links.map((map) => {
-                  const isYouTube = /(^|\.)youtube\.com$|(^|\.)youtu\.be$/.test(
-                    (() => {
-                      try {
-                        return new URL(map.url).hostname;
-                      } catch {
-                        return '';
-                      }
-                    })()
-                  );
-                  return (
-                    <li key={map.url}>
-                      <a
-                        className="history-event__reference-maps-link"
-                        href={map.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {isYouTube ? (
-                          // Video links show a YouTube play-button glyph instead of
-                          // the year chip — the label (e.g. "1955") is redundant
-                          // once the icon itself says "this is a video."
-                          <svg
-                            className="history-event__reference-maps-icon"
-                            viewBox="0 0 24 17"
-                            width="24"
-                            height="17"
-                            aria-label="YouTube"
-                          >
-                            <rect width="24" height="17" rx="4" fill="#FF0000" />
-                            <polygon points="9.5,4.5 9.5,12.5 16,8.5" fill="#FFFFFF" />
-                          </svg>
-                        ) : (
-                          <span className="history-event__reference-maps-year">{map.label}</span>
-                        )}
-                        {(map.description?.[lang] || map.description?.en) && (
-                          <span className="history-event__reference-maps-desc">
-                            {convert(map.description[lang] || map.description.en)}
-                          </span>
-                        )}
-                      </a>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          )}
-
-          {event.relatedLandmarks.length > 0 && (
-            <div className="history-event__landmarks">
-              <div className="history-event__landmarks-label">{t('history.relatedLandmarksLabel')}</div>
-
-              <div className="location-grid history-landmark-grid">
-                {event.relatedLandmarks.map(({ landmark, relation }, i, all) => {
-                  const distance = userPos
-                    ? haversineDistance(userPos.lat, userPos.lng, landmark.coordinates.lat, landmark.coordinates.lng)
-                    : null;
-                  const start3 = landmarkStarts(all.length, 3)[i];
-                  const start2 = landmarkStarts(all.length, 2)[i];
-                  return (
-                    <div
-                      key={landmark.slug}
-                      className="history-landmark-item"
-                      style={{ '--start-3': start3 ?? 'auto', '--start-2': start2 ?? 'auto' }}
-                    >
-                      <LocationCard
-                        location={{ ...landmark, unlocked: true }}
-                        holdable={!!landmark.unlocked}
-                        distance={distance}
-                        onClick={() => onOpenLandmark(landmark.slug)}
-                      />
-                      <p className="history-landmark-caption">
-                        {convert(relation[lang] || relation.en)}
-                      </p>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-        </>
+          </ul>
+        </div>
       )}
-    </div>
+    </>
+  );
+}
+
+export function EventLandmarks({ event, onOpenLandmark }) {
+  const t = useT();
+  const { lang } = useLang();
+  const convert = useConvert();
+  const userPos = useUserPosition();
+
+  return (
+    <>
+      {event.relatedLandmarks.length > 0 && (
+        <div className="history-event__landmarks">
+          <div className="history-event__landmarks-label">{t('history.relatedLandmarksLabel')}</div>
+
+          <div className="location-grid history-landmark-grid">
+            {event.relatedLandmarks.map(({ landmark, relation }, i, all) => {
+              const distance = userPos
+                ? haversineDistance(userPos.lat, userPos.lng, landmark.coordinates.lat, landmark.coordinates.lng)
+                : null;
+              const start3 = landmarkStarts(all.length, 3)[i];
+              const start2 = landmarkStarts(all.length, 2)[i];
+              return (
+                <div
+                  key={landmark.slug}
+                  className="history-landmark-item"
+                  style={{ '--start-3': start3 ?? 'auto', '--start-2': start2 ?? 'auto' }}
+                >
+                  <LocationCard
+                    location={{ ...landmark, unlocked: true }}
+                    holdable={!!landmark.unlocked}
+                    distance={distance}
+                    onClick={() => onOpenLandmark(landmark.slug)}
+                  />
+                  <p className="history-landmark-caption">
+                    {convert(relation[lang] || relation.en)}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+    </>
   );
 }

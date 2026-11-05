@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { historyAPI, userAPI, saveHistoryProgressOnExit } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { loadLocalHistoryProgress, saveLocalHistoryProgress, newerHistoryProgress } from '../utils/historyProgress';
@@ -8,13 +9,34 @@ import HistoryEventSection from '../components/history/HistoryEventSection';
 import HistoryEraDivider from '../components/history/HistoryEraDivider';
 import LocationDetail from '../components/locations/LocationDetail';
 import HistoryHero from '../components/history/HistoryHero';
+import HistoryBook from '../components/history/HistoryBook';
 
 // Cards with their own sidebar entry. Background and era-overview cards
 // have none (see HistorySidebar), so scroll-spy and the initial highlight
 // skip them.
 const isNavCard = (event) => event.cardType !== 'background' && event.cardType !== 'overview';
 
+// Desktop reads one event per screen (HistoryBook); phones and narrow windows
+// keep the scrolling feed.
+const BOOK_QUERY = '(min-width: 1024px)';
+
+function useIsBook() {
+  const [isBook, setIsBook] = useState(() => window.matchMedia(BOOK_QUERY).matches);
+  useEffect(() => {
+    const query = window.matchMedia(BOOK_QUERY);
+    const onChange = () => setIsBook(query.matches);
+    query.addEventListener('change', onChange);
+    return () => query.removeEventListener('change', onChange);
+  }, []);
+  return isBook;
+}
+
 export default function HistoryPage() {
+  const isBook = useIsBook();
+  // ?event=<slug> links straight to an event and, in the book view, follows
+  // the page being read.
+  const [searchParams, setSearchParams] = useSearchParams();
+  const urlSlug = searchParams.get('event');
   const { lang } = useLang();
   const convert = useConvert();
 
@@ -95,6 +117,14 @@ export default function HistoryPage() {
     return () => { cancelled = true; };
   }, [lang]);
 
+  // A window narrowed from the book view to the feed: put the feed on the page
+  // being read before scroll-spy (next effect) reads the scroll position.
+  useEffect(() => {
+    if (!isBook && restored && activeSlug) {
+      sectionEls.current.get(activeSlug)?.scrollIntoView({ block: 'start' });
+    }
+  }, [isBook]);
+
   // Scroll-spy: the sidebar is a persistent nav (sticky, see history.css)
   // sitting next to a normal scrollable feed of every event's full write-up
   // — not a click-to-swap detail pane. As the user scrolls the feed (at the
@@ -107,7 +137,7 @@ export default function HistoryPage() {
   // inside, which needs a full recheck of every section's position on each
   // scroll rather than just the entries whose intersection just changed.
   useEffect(() => {
-    if (!data) return;
+    if (!data || isBook) return;
     const TRIGGER_Y = 100; // px from the top of the viewport
     let raf = null;
 
@@ -137,17 +167,37 @@ export default function HistoryPage() {
     recompute();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
-  }, [data]);
+  }, [data, isBook]);
 
   useEffect(() => {
     if (restored || !data || resumeSlug === undefined) return;
-    const el = resumeSlug && sectionEls.current.get(resumeSlug);
-    if (el) {
-      setActiveSlug(resumeSlug);
-      el.scrollIntoView({ block: 'start' });
+    const target = urlSlug || resumeSlug;
+    if (isBook) {
+      // Unlike the feed's highlight, a book page can be any card, so a first
+      // visit opens on the very first one (the era overview).
+      const known = data.events.some(e => e.slug === target);
+      setActiveSlug(known ? target : data.events[0]?.slug ?? null);
+    } else {
+      const el = target && sectionEls.current.get(target);
+      if (el) {
+        setActiveSlug(target);
+        el.scrollIntoView({ block: 'start' });
+      }
     }
     setRestored(true);
   }, [data, resumeSlug, restored]);
+
+  // Browser back/forward in the book view.
+  useEffect(() => {
+    if (isBook && restored && urlSlug && data?.events.some(e => e.slug === urlSlug)) setActiveSlug(urlSlug);
+  }, [urlSlug]);
+
+  // Next/previous replace the history entry, so Back doesn't step through
+  // every page read; a jump (in-text link) pushes one, so Back returns from it.
+  const goToPage = (slug, { push = false } = {}) => {
+    setActiveSlug(slug);
+    setSearchParams({ event: slug }, { replace: !push });
+  };
 
   // Save on every change locally; for signed-in users also to the server,
   // debounced while scrolling and flushed when the page is hidden or left.
@@ -225,14 +275,24 @@ export default function HistoryPage() {
   const scrollToEvent = (event) => scrollToSlug(event.slug);
 
   return (
-    <div className="guide-page history-page">
-      {loading ? (
+    <div className={`guide-page history-page${isBook ? ' history-page--book' : ''}`}>
+      {loading || (isBook && !restored) ? (
         <div style={{ display: 'flex', justifyContent: 'center', padding: 40 }}>
           <div className="spinner" />
         </div>
       ) : data ? (
         <LanguageOverride lang={dataLang}>
         <WithLang>{({ lang: viewLang, convert: viewConvert, t: viewT }) => (
+        isBook ? (
+          <HistoryBook
+            events={data.events}
+            eras={data.eras}
+            activeSlug={activeSlug}
+            onGo={goToPage}
+            onOpenLandmark={setOpenLandmarkSlug}
+            paused={!!openLandmarkSlug}
+          />
+        ) : (
         <>
         <HistoryHero t={viewT} convert={viewConvert} placement="top" />
         <div className="history-layout">
@@ -284,6 +344,7 @@ export default function HistoryPage() {
           </div>
         </div>
         </>
+        )
         )}</WithLang>
         </LanguageOverride>
       ) : null}
