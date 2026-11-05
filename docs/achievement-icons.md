@@ -171,7 +171,7 @@ motion lines, and a white-red-blue ribbon tied to the key ring.
 
 (Group 11 is light in tone; it does not need the solemn line.)
 
-### Group 12: occupation (类人猿行动 · 五月的街垒 · 勿忘)  *solemn*, all three done
+### Group 12: occupation (类人猿行动 · 五月的街垒 · 八万个名字)  *solemn*, all three done
 
 ```
 LEFT (operation_anthropoid): a single parachute descending through a night sky
@@ -180,6 +180,21 @@ MIDDLE (may_barricades): a street barricade of stacked cobblestones and an
 overturned tram, with a small white-red-blue flag on top, in grey dawn light.
 RIGHT (never_forget): one lit memorial candle in front of a stone wall covered
 in rows of tiny handwritten names (illegible lines, not real text).
+```
+
+Added 2026-11-05, done (light tone, no solemn line):
+
+```
+city_villages (城中村): a tiny old village chapel with a duck pond in front of it,
+large in the foreground, with tall grey panel apartment blocks looming right
+behind it on all sides.
+```
+
+Added 2026-11-05, *solemn*, done (add "large and fill most of the square" to the subject):
+
+```
+eighty_two_children (八十二个孩子): a single rose lying on the grass at the feet of
+a small bronze child figure, in an empty green field at dusk.
 ```
 
 ### Group 13: the Cold War, plus a default icon (坦克与春天 · 铁幕之下 · 默认图标)  *solemn*, all three done

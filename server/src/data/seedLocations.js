@@ -34094,21 +34094,21 @@ Rybí hospodářství je tu záměrně mírné. Město drží obsádku nízko kv
     xpReward: 30,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Krematorium_Motol',
     description: {
-      en: `Prague's second crematorium stands in a meadow under a wooded hill on Plzeňská Street, with a woodland urn grove behind it. Most of the people who come here are saying goodbye to someone. For decades almost nobody knew that it also held the ashes of people the state had wanted forgotten.
+      en: `Prague's second crematorium stands in a meadow under a wooded hill on Plzeňská Street, with a woodland urn grove behind it. Most of the people who come here are saying goodbye to someone. For decades almost nobody knew that it also held the ashes of people the state had wanted forgotten. The cemetery has a controlled entrance and is not open to sightseers. If you are passing, slow down and keep your voice low, so as not to disturb families visiting their relatives.
 
 A first design for a crematorium on the left bank was drawn up in 1937 but rejected. The rising number of cremations brought the city back to the idea, the competition was won by the architect Josef Karel Říha, and building began in 1951. It opened in 1954, with a columbarium and an urn grove laid out as a forest cemetery, with a scattering meadow around a small pond. The whole complex has been a protected cultural monument since 2021.
 
 In the 1950s the communist regime disposed of the bodies of people it had executed by cremating them, first at Strašnice and later at Motol. The urns carried no names, only cover numbers, and they were put into a common grave here without the families being told. Urns were still being moved in the 1960s: on 5 May 1965, 78 of them were brought over from Pankrác prison. Only in 1999 did the documentation centre of the Confederation of Political Prisoners find the records showing what the grave held. An honorary burial ground opened on 20 May 2000, and about two-thirds of the people laid there have since been identified. Former prisoners still gather here each year.
 
 🎁 Bonus: Before the gate stands the stone figure of a woman, Grief, by Miloslav Hejný, made for the place in 1955. The second statue of that year, Vilím Amort's bronze Fading Beauty, was a nude, and in such a setting she made people uneasy, so a bush and a tree were planted around her. They still hide most of her.`,
-      cz: `Druhé pražské krematorium stojí na louce pod zalesněným návrším v Plzeňské ulici a za ním se rozkládá lesní urnový háj. Většina lidí sem přichází se někým rozloučit. Po desetiletí skoro nikdo nevěděl, že je tu uložen i popel lidí, na které měl svět podle státu zapomenout.
+      cz: `Druhé pražské krematorium stojí na louce pod zalesněným návrším v Plzeňské ulici a za ním se rozkládá lesní urnový háj. Většina lidí sem přichází se někým rozloučit. Po desetiletí skoro nikdo nevěděl, že je tu uložen i popel lidí, na které měl svět podle státu zapomenout. Areál má kontrolovaný vstup a prohlídky tu nejsou možné. Pokud jdete kolem, zpomalte a ztište hlas, ať nerušíte rodiny, které sem přicházejí za svými blízkými.
 
 První návrh krematoria na levém břehu vznikl už v roce 1937, ale nebyl přijat. K myšlence se město vrátilo kvůli rostoucímu počtu kremací, soutěž vyhrál architekt Josef Karel Říha a stavba začala roku 1951. Provoz byl zahájen roku 1954 a vzniklo i kolumbárium a urnový háj koncipovaný jako lesní hřbitov s loučkou rozptylu kolem jezírka. Celý areál je od roku 2021 kulturní památkou.
 
 V padesátých letech se komunistický režim zbavoval těl popravených kremací, nejprve ve Strašnicích, později v Motole. Urny nenesly jména, jen krycí čísla, a ukládaly se tu do společného hrobu, aniž se to rodiny dozvěděly. Urny se sem převážely ještě v šedesátých letech: 5. května 1965 jich dorazilo 78 z pankrácké věznice. Teprve v roce 1999 nalezlo dokumentační středisko Konfederace politických vězňů záznamy, které ukázaly, co hrob skrývá. Čestné pohřebiště bylo otevřeno 20. května 2000 a asi dvě třetiny lidí, kteří tu leží, se od té doby podařilo identifikovat. Bývalí vězni se tu dodnes každý rok scházejí.
 
 🎁 Bonus: Před branou stojí kamenná socha ženy Bol od Miloslava Hejného, vytvořená pro toto místo v roce 1955. Druhá socha z téhož roku, bronzová Dohasínající krása Vilíma Amorta, je akt a v pietním prostředí budila rozpaky, a tak kolem ní vysadili keř a strom. Dodnes ji z větší části zakrývají.`,
-      zh: `布拉格的第二座火葬场在普尔森大街边，立在一片树木葱郁的山丘下的草地上，后面是一片林间骨灰园。来这里的人，大多是来和亲人告别的。几十年间，几乎没人知道这里还存放着另一些人的骨灰：国家要让他们被彻底遗忘。
+      zh: `布拉格的第二座火葬场在普尔森大街边，立在一片树木葱郁的山丘下的草地上，后面是一片林间骨灰园。来这里的人，大多是来和亲人告别的。几十年间，几乎没人知道这里还存放着另一些人的骨灰：国家要让他们被彻底遗忘。墓园设有门禁，不对外开放参观。路过时请放慢脚步，压低声音，以免打扰前来探望亲人的家属。
 
 1937年就有过一份在伏尔塔瓦河左岸建火葬场的方案，没有通过。火化的人越来越多，市政府又想起了这件事，建筑师约瑟夫·卡雷尔·日哈赢得了竞赛，1951年开工。1954年火葬场启用，同时建起了骨灰堂和一片森林墓园式的骨灰园，小池塘周围是撒灰的草地。2021年起，整个园区被列为文化古迹。
 
@@ -34360,6 +34360,273 @@ Obec, která ji postavila, 20. století nepřežila. Nacisté libeňské Židy d
 建起它的社区没能熬过20世纪。纳粹把利本的犹太人驱逐一空，在之后的岁月里，老犹太街区被陆续拆除。会堂本身是在最后一刻才从拆除名单上划掉的。1989年后，它被归还给布拉格犹太社区，1993年起成为文化古迹，1995年起由蛇形协会用来办当代艺术展，偶尔也演戏。
 
 🎁 彩蛋：名字里的“新”已经过时160多年了。它的意思只是比山下那座老会堂新，而老会堂在新会堂落成后又立了几年，就被拆掉了。`,
+    },
+  },
+  {
+    name: 'Jarov (Dolní Břežany)',
+    slug: 'jarov-dolni-brezany',
+    localizedNames: { cz: 'Jarov (Dolní Břežany)', zh: '亚罗夫（下布热扎尼）' },
+    labels: ['village-and-town', 'nature', 'outside'],
+    coordinates: { lat: 49.947163954449294, lng: 14.396847252689328 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Jarov is a long, thin settlement squeezed between the Vltava and steep wooded hills, just beyond Prague's southern edge. About ninety people live here, which leaves plenty of room for the view. Officially you have left the capital. The river has not noticed, and carries on north towards the city as if nothing had happened.
+
+Jarov is one of the four parts of Dolní Břežany, although the main village lies well away from the water. Down here the valley leaves room for little more than a strip of houses along the bank, and the forested slopes do the rest. This is one of the last stretches where the Vltava still feels like a river cutting through hills, before Prague takes it over. A little way upstream stands the dam at Vrané nad Vltavou, built in the 1930s as the last step of the Vltava Cascade, so the water sliding past Jarov has already come down a whole staircase of reservoirs.
+
+🎁 Bonus: Prague's southernmost point is only about 600 metres from here, and it lies further south than Jarov does. So this village outside the city sits north of the city's own southern tip, which tells you how oddly the boundary runs along this valley.`,
+      cz: `Jarov je dlouhá, úzká osada vtěsnaná mezi Vltavu a strmé zalesněné svahy, kousek za jižním okrajem Prahy. Žije tu asi devadesát lidí, takže na výhled zbývá spousta místa. Oficiálně jste opustili hlavní město. Řeka si toho nevšimla a teče dál na sever k Praze, jako by se nic nestalo.
+
+Jarov je jednou ze čtyř částí Dolních Břežan, i když hlavní obec leží od vody daleko. Tady dole údolí nechává místo sotva pro pruh domů podél břehu a zbytek obstarají zalesněné svahy. Je to jeden z posledních úseků, kde Vltava ještě působí jako řeka prořezávající se kopci, než si ji převezme Praha. Kousek proti proudu stojí přehrada Vrané nad Vltavou, postavená ve 30. letech jako poslední stupeň Vltavské kaskády, takže voda, která míjí Jarov, už sešla celé schodiště nádrží.
+
+🎁 Bonus: Nejjižnější bod Prahy je odsud jen asi 600 metrů a leží jižněji než Jarov. Tato osada mimo město tak leží severně od jižního cípu města, což dobře ukazuje, jak podivně tudy hranice vede.`,
+      zh: `亚罗夫是一条细长的小聚落，夹在伏尔塔瓦河和陡峭的林坡之间，刚过布拉格的南缘。这里只住着大约九十个人，所以风景有的是地方摆。按官方说法，您已经离开首都了。河水可没注意到，照样向北流往城里，好像什么都没发生。
+
+亚罗夫是下布热扎尼的四个组成部分之一，不过主村离水边很远。到了这里，河谷只容得下沿岸一溜房子，剩下的都交给了长满树林的山坡。这是伏尔塔瓦河最后几段还像一条在群山间穿行的河的地方，再往前，它就归布拉格了。稍往上游是弗拉内河畔弗尔塔瓦的大坝，建于1930年代，是伏尔塔瓦梯级水电站的最后一级，所以流过亚罗夫的水，已经走完了一整段水库组成的台阶。
+
+🎁 彩蛋：布拉格的最南点离这里只有大约600米，而且比亚罗夫还要靠南。也就是说，这个城外的聚落反而在城市南端的北边，这一带的边界走得有多古怪，由此可见。`,
+    },
+  },
+  {
+    name: 'Modřany Station',
+    slug: 'nadrazi-modrany',
+    localizedNames: { cz: 'Nádraží Modřany', zh: '莫德扎尼火车站' },
+    labels: ['transport', 'national-revival', 'hidden-gem'],
+    district: 'Praha 12',
+    quarter: 'Modřany',
+    coordinates: { lat: 50.003937785394385, lng: 14.403296658375423 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Modřany Station is a small stop that most passengers use without a second look. Walk out of it towards the water, though, and you reach one of the best places on the edge of Prague to enjoy the Vltava: a wide river, wooded slopes on the far side and very little city in the way.
+
+The railway came here because of sugar. The new sugar factory in Modřany needed a way to bring in raw materials and send out what it made, and that is what set the line going. The first passenger train ran the whole route from Čerčany through Vrané to Prague on 1 May 1900. The line became part of the Posázavský Pacifik, the route that carried generations of Prague trampers out to the woods at weekends, and today it is still an everyday local line. Step outside and the bank is long, flat and calm, shared by walkers and cyclists.
+
+🎁 Bonus: In 1897 the inventor František Křižík tried out his battery-powered railcar on the line towards Vrané, so this quiet stretch of riverside saw electric trains being tested before the 19th century was over.`,
+      cz: `Nádraží Modřany je malá zastávka, které si většina cestujících ani nevšimne. Stačí z ní ale vyjít k vodě a jste na jednom z nejlepších míst na okraji Prahy, odkud si užít Vltavu: široká řeka, zalesněné svahy na druhém břehu a skoro žádné město v cestě.
+
+Železnice sem přišla kvůli cukru. Nový modřanský cukrovar potřeboval přivážet suroviny a odvážet výrobky, a to dalo trati první impuls. První osobní vlak projel celou trasu z Čerčan přes Vrané do Prahy 1. května 1900. Trať se stala součástí Posázavského pacifiku, kterým celé generace pražských trampů vyrážely o víkendech do lesů, a dodnes je to běžná místní trať. Hned za nádražím je dlouhý, rovný a klidný břeh, o který se dělí chodci a cyklisté.
+
+🎁 Bonus: V roce 1897 tu vynálezce František Křižík na trati směrem na Vrané zkoušel svůj akumulátorový motorový vůz, takže tenhle tichý kus nábřeží viděl zkoušky elektrických vlaků ještě v 19. století.`,
+      zh: `莫德扎尼火车站是个小站，大多数乘客都不会多看一眼。可只要从站里往水边走，就到了在布拉格城郊欣赏伏尔塔瓦河最好的位置之一：宽阔的河面，对岸长满树林的山坡，眼前几乎没有城市挡着。
+
+这条铁路是因为糖才修到这里的。新建的莫德扎尼糖厂需要运进原料、运出产品，这条线就这样起了头。1900年5月1日，第一列客车跑完了从切尔恰尼经弗拉内到布拉格的全程。这条线后来成了“波萨扎瓦太平洋线”的一部分，一代又一代布拉格的徒步爱好者周末坐着它去林子里，如今它依然是一条日常的本地线路。一出车站，就是一段长长的、平坦而安静的河岸，散步的人和骑车的人共用。
+
+🎁 彩蛋：1897年，发明家弗朗蒂舍克·克日日克在通往弗拉内的这条线上试验了他的蓄电池机车，所以这段安静的河岸，在19世纪就见过电动列车的试车。`,
+    },
+  },
+  {
+    name: 'Kovářský Pond',
+    slug: 'kovarsky-rybnik',
+    localizedNames: { cz: 'Kovářský rybník', zh: '科瓦日斯基池塘' },
+    labels: ['waterbody', 'nature'],
+    district: 'Praha 11',
+    quarter: 'Šeberov',
+    coordinates: { lat: 50.01437565513854, lng: 14.51557093707037 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Kovářský Pond is the quiet cousin of Šeberák. While its famous neighbour fills up with swimmers on hot days, this one mostly keeps to itself among the houses and trees of Šeberov. Nobody crosses Prague to see it, which is rather the point of coming.
+
+The ponds around Šeberov are what remains of a large spring area, and Kovářský belongs to the chain of water around the source of the Kunratice Stream. It lies outside the protected Hrnčíře Meadows nearby, and it has had a harder time of it than its better-known neighbours: it has been in private hands, and in July 2007 a heatwave and rubbish dumped at its far end were blamed for a large fish die-off.
+
+🎁 Bonus: "Kovářský" means "the blacksmith's". Standing on the bank today, you will find plenty of ducks and no sign of a blacksmith.`,
+      cz: `Kovářský rybník je tichý příbuzný Šeberáku. Zatímco jeho slavný soused se v horkých dnech plní plavci, tenhle si drží odstup mezi domy a stromy Šeberova. Nikdo kvůli němu nejede přes celou Prahu, a právě proto se sem vyplatí zajít.
+
+Rybníky kolem Šeberova jsou pozůstatkem rozsáhlé prameništní oblasti a Kovářský patří do řetězce vod u pramenů Kunratického potoka. Leží mimo nedaleké chráněné Hrnčířské louky a neměl to tak snadné jako jeho známější sousedé: býval v soukromých rukou a v červenci 2007 tu došlo k velkému úhynu ryb, který se přičítal vedru a skládce v zadní části rybníka.
+
+🎁 Bonus: Název odkazuje na kováře. Když dnes stojíte na břehu, kachen tu najdete dost, po kováři ale ani stopy.`,
+      zh: `科瓦日斯基池塘是舍贝拉克湖那位安静的亲戚。天一热，它那位出名的邻居就挤满了游泳的人，这里却只在舍贝罗夫的房子和树木之间自顾自地待着。没有人会为了它穿过大半个布拉格，这恰恰是来这里的理由。
+
+舍贝罗夫周围的池塘，是一大片泉源地带留下的痕迹，科瓦日斯基池塘也属于昆拉蒂采溪源头一带的这串水面。它在附近受保护的赫尔恩奇日草甸之外，日子也不如名气更大的邻居好过：它曾是私人产业，2007年7月这里出现过大批死鱼，人们归咎于酷暑和堆在池塘后半部的垃圾。
+
+🎁 彩蛋：这个名字的意思是“铁匠的”。今天站在岸边，鸭子有的是，铁匠的影子却一点也找不到。`,
+    },
+  },
+  {
+    name: 'Church of St. Martin (Lipany)',
+    slug: 'kostel-svateho-martina-lipany',
+    localizedNames: { cz: 'Kostel svatého Martina (Lipany)', zh: '圣马丁教堂（利帕尼）' },
+    labels: ['church', 'historicism'],
+    district: 'Praha 22',
+    quarter: 'Lipany',
+    coordinates: { lat: 50.00010819583979, lng: 14.619175630092435 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `This is an ordinary country church with its small cemetery, in a village whose name will send history fans the wrong way. This is not the Lipany of the great 1434 battle that ended the Hussite Wars. That one lies east of Prague. This Lipany is named after lime trees, and its fame is much quieter.
+
+The church was standing before 1352, and the village is older still: a Havel of Lipany is recorded before 1325. In the Thirty Years' War the church was damaged and lost three bells, and the burnt rectory was never rebuilt. What you see today has a neo-Romanesque look.
+
+The hardest years came in the 20th century. During the Second World War Lipany lost its local self-government, and three of its five farmers were forcibly moved with their families to the border region. The village became part of Prague on 1 July 1974 and has belonged to the Kolovraty borough since 1990.
+
+🎁 Bonus: In 1949 the villagers hid a monument to the agrarian politician Antonín Švehla in an old well on a local farm, out of reach of the new regime. It later came back up and now stands in Říčany.`,
+      cz: `Obyčejný venkovský kostel s malým hřbitovem ve vsi, jejíž jméno zavede milovníky historie na špatnou stopu. Tohle nejsou ty Lipany z velké bitvy roku 1434, která ukončila husitské války. Ty leží na východ od Prahy. Tyto Lipany mají jméno po lípách a jejich sláva je mnohem tišší.
+
+Kostel stál už před rokem 1352 a ves je ještě starší: Havel z Lipan je doložen před rokem 1325. Za třicetileté války byl kostel poškozen a přišel o tři zvony a vypálená fara už nebyla obnovena. Dnešní podoba působí novorománsky.
+
+Nejtěžší léta přišla ve 20. století. Za druhé světové války ztratily Lipany místní samosprávu a tři z pěti sedláků byli s rodinami nuceně vysídleni do pohraničí. Součástí Prahy se ves stala 1. července 1974 a od roku 1990 patří k městské části Kolovraty.
+
+🎁 Bonus: V roce 1949 ukryli místní pomník agrárního politika Antonína Švehly do staré studny na jednom ze statků, mimo dosah nového režimu. Později se vrátil na světlo a dnes stojí v Říčanech.`,
+      zh: `这是一座带小墓园的普通乡村教堂，所在村子的名字却会把历史爱好者引错路。这里不是1434年那场终结胡斯战争的大战的利帕尼，那一个在布拉格以东。这个利帕尼得名于椴树，名气要安静得多。
+
+教堂在1352年之前就已经立在这里，村子更早：1325年之前就有“利帕尼的哈维尔”的记载。三十年战争中教堂受损，丢了三口钟，烧毁的牧师住宅再也没有重建。今天看到的样子带着新罗马式的味道。
+
+最难的日子在20世纪。第二次世界大战期间，利帕尼失去了地方自治，五户农民里有三户被迫举家迁往边境地区。1974年7月1日，村子并入布拉格，1990年起归属科洛夫拉蒂城区。
+
+🎁 彩蛋：1949年，当地人把农民党政治家安东宁·什韦赫拉的纪念碑藏进了一处农庄的旧井里，躲开了新政权。它后来重见天日，如今立在日查尼。`,
+    },
+  },
+  {
+    name: 'Milíčov Forest and Ponds',
+    slug: 'milicovsky-les-a-rybniky',
+    localizedNames: { cz: 'Milíčovský les a rybníky', zh: '米利乔夫森林与池塘' },
+    labels: ['nature', 'waterbody'],
+    district: 'Praha 11',
+    quarter: 'Újezd u Průhonic',
+    coordinates: { lat: 50.02641521509062, lng: 14.541120370921252 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mil%C3%AD%C4%8Dovsk%C3%BD_les_a_rybn%C3%ADky',
+    description: {
+      en: `Walk a few minutes from the panel blocks of South Town and the city simply stops. Milíčov is a forest with a chain of ponds, a nature monument where frogs and kingfishers go about their business beside Prague's biggest housing estate, apparently unaware that anyone built one.
+
+It began in the 18th century as a game reserve with a pheasantry, and in the 19th century it became a well-known hunting ground, thanks to Count Arnošt Emanuel Silva-Tarouca, founder of the park at Průhonice. Most of today's forest was planted between 1890 and 1910. Building South Town in the 1980s drained much of the area and cost it many plants, but it was declared a nature monument in 1988. The ponds line the Milíčov Stream: Milíčovský, the largest, then little Kančík, Homolka and, further on, Vrah with its island.
+
+It is one of the best places in Prague for amphibians, with newts, fire-bellied toads, tree frogs and several kinds of frog. Herons and kingfishers fish here, and the woods hold the great capricorn beetle, very rare in the Czech Republic.
+
+🎁 Bonus: One of the ponds is called Vrah, which means "murderer". It is a perfectly peaceful pond. Bring a friend anyway.`,
+      cz: `Stačí pár minut chůze od paneláků Jižního Města a město prostě skončí. Milíčov je les s řetězcem rybníků, přírodní památka, kde si žáby a ledňáčci žijí svůj život hned vedle největšího pražského sídliště, jako by o něm nikdo neřekl.
+
+Vznikl v 18. století jako obora s bažantnicí a v 19. století se proslavil jako honitba zásluhou hraběte Arnošta Emanuela Silva-Taroucy, zakladatele průhonického parku. Většina dnešního lesa byla vysázena v letech 1890 až 1910. Stavba Jižního Města v 80. letech území silně odvodnila a připravila o řadu rostlin, přírodní památkou se ale stalo v roce 1988. Rybníky lemují Milíčovský potok: největší Milíčovský, pak drobný Kančík, Homolka a dál Vrah s ostrůvkem.
+
+Pro obojživelníky je to jedno z nejlepších míst v Praze: žijí tu čolci, kuňky, rosničky i několik druhů skokanů. Loví tu volavky a ledňáčci a v lese žije tesařík obrovský, v Česku velmi vzácný.
+
+🎁 Bonus: Jeden z rybníků se jmenuje Vrah. Je to naprosto poklidný rybník. Přesto si s sebou vezměte kamaráda.`,
+      zh: `从南城的板式楼走上几分钟，城市就到头了。米利乔夫是一片带着一串池塘的森林，也是一处自然遗迹。青蛙和翠鸟就在布拉格最大的住宅区旁边过自己的日子，好像压根没听说过这回事。
+
+它在18世纪是一座带雉鸡场的猎苑，19世纪因为普鲁霍尼采公园的创建者阿恩斯特·埃马努埃尔·席尔瓦-塔鲁卡伯爵而成了有名的猎场。今天的森林大部分种于1890年到1910年间。1980年代修建南城时，这一带的水被大量排干，失去了许多植物，不过1988年它被列为自然遗迹。池塘沿着米利乔夫溪排开：最大的米利乔夫池塘，小小的坎奇克，霍莫尔卡，再往前是带小岛的弗拉赫。
+
+这里是布拉格两栖动物最丰富的地方之一，有蝾螈、铃蟾、雨蛙和好几种蛙。鹭和翠鸟在这里捕鱼，林子里还有在捷克非常罕见的大天牛。
+
+🎁 彩蛋：有一个池塘名叫弗拉赫，捷克语的意思是“凶手”。它其实是个再平静不过的池塘。不过还是带个朋友一起来吧。`,
+    },
+  },
+  {
+    name: 'Nedvězí',
+    slug: 'nedvezi-u-rican',
+    localizedNames: { cz: 'Nedvězí', zh: '内德维耶齐' },
+    labels: ['village-and-town'],
+    district: 'Praha 22',
+    quarter: 'Nedvězí u Říčan',
+    coordinates: { lat: 50.01739239479468, lng: 14.65212789055249 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Nedv%C4%9Bz%C3%AD_u_%C5%98%C3%AD%C4%8Dan',
+    description: {
+      en: `Nedvězí is a village of a few hundred people on Prague's south-eastern edge, and its great moment came not on a battlefield but in a council debate about a bear. Few places in the capital can say that an insult to Berlin settled their coat of arms.
+
+The village is first recorded in 1313, in the property list of the Vyšehrad chapter. Its name most likely comes from the Czech word for bear, or from a man called Bear, and it was an independent municipality from 1867 until it joined Prague on 1 July 1974. In May 1993 the city assembly approved its arms: a bear holding a flail, on a green field. It was one of the few district arms approved at the time, and some councillors objected that the bear broke the rules of heraldry and looked too much like the bear of Berlin. The argument was ended by deputy mayor Jiří Exner: "I think the Berlin bear is even uglier than this one."
+
+🎁 Bonus: A meadow by the Rokytka here holds a protected small-leaved lime, the second largest of its kind in Prague by the girth of its trunk. No bear has been reported.`,
+      cz: `Nedvězí je ves s několika stovkami obyvatel na jihovýchodním okraji Prahy a její velký okamžik nepřišel na bitevním poli, ale při debatě zastupitelů o medvědovi. Málokteré místo v hlavním městě může říct, že o jeho znaku rozhodla urážka Berlína.
+
+První zmínka o vsi pochází z roku 1313 ze soupisu majetku vyšehradské kapituly. Jméno má nejspíš od medvěda nebo od člověka jménem Medvěd a od roku 1867 byla samostatnou obcí, dokud se 1. července 1974 nestala součástí Prahy. V květnu 1993 schválilo zastupitelstvo města její znak: medvěda s cepem v tlapách na zeleném poli. Patřil k několika málo tehdy schváleným znakům městských částí a někteří zastupitelé namítali, že medvěd odporuje pravidlům heraldiky a příliš se podobá berlínskému. Debatu ukončil náměstek Jiří Exner: „Myslím si, že berlínský medvěd je ještě ošklivější než tento.“
+
+🎁 Bonus: Na louce u Rokytky tu roste chráněná lípa malolistá, podle obvodu kmene druhá největší svého druhu v Praze. Medvěd tu zatím hlášen nebyl.`,
+      zh: `内德维耶齐是布拉格东南边缘一个只有几百人的村子，它的高光时刻不在战场上，而在一场关于一头熊的议会辩论里。首都没几个地方能说，自己的徽章是靠损了柏林一句才定下来的。
+
+村子最早见于1313年维谢赫拉德教士团的财产清单。它的名字多半来自捷克语的“熊”，或者一个叫“熊”的人。1867年起它是独立的村镇，1974年7月1日并入布拉格。1993年5月，市议会批准了它的徽章：绿地上一头爪握连枷的熊。这是当时少数获批的城区徽章之一，一些议员反对，说这头熊不合纹章学规范，又和柏林的熊太像。辩论最后被副市长伊日·埃克斯纳一句话结束了：“我认为柏林的熊比这头还丑。”
+
+🎁 彩蛋：这里罗基特卡河边的草地上有一棵受保护的小叶椴，按树干周长算是布拉格同类中第二大的。至今没有人报告看到过熊。`,
+    },
+  },
+  {
+    name: 'Miškovice',
+    slug: 'miskovice',
+    localizedNames: { cz: 'Miškovice', zh: '米什科维采' },
+    labels: ['village-and-town'],
+    district: 'Praha 18',
+    quarter: 'Miškovice',
+    coordinates: { lat: 50.15935127750338, lng: 14.543121077777108 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mi%C5%A1kovice',
+    description: {
+      en: `Miškovice is an unremarkable little village, and it would be the first to admit it. There is a square. Beside the square is a pond. Beside the pond is a belfry. That is more or less the tour, and it is over before your coffee gets cold.
+
+And yet this small place on the northern edge of the city is one of the more than a hundred cadastral areas that make up the capital, with exactly the same standing on the map as the Old Town. Today it belongs to the Čakovice borough in Prague 18 and has about 1,800 residents. A fortified manor once stood here by the farm, but it is long gone.
+
+🎁 Bonus: If you have made it here, you have seen a side of Prague that almost no visitor ever does. The Old Town has the crowds. Miškovice has the pond to itself.`,
+      cz: `Miškovice jsou nenápadná vesnička a samy by to přiznaly jako první. Je tu náves. Vedle návsi rybník. Vedle rybníka zvonička. To je zhruba celá prohlídka a skončí dřív, než vám vychladne káva.
+
+A přesto je toto malé místo na severním okraji města jedním z více než stovky katastrálních území, z nichž se skládá hlavní město, se stejným postavením na mapě jako Staré Město. Dnes patří k městské části Čakovice v Praze 18 a žije tu asi 1 800 lidí. Při poplužním dvoře tu kdysi stávala tvrz, ta je ale dávno pryč.
+
+🎁 Bonus: Pokud jste se dostali až sem, viděli jste kus Prahy, který skoro žádný návštěvník nikdy neuvidí. Staré Město má davy. Miškovice mají rybník samy pro sebe.`,
+      zh: `米什科维采是个平平无奇的小村子，这一点它自己都会第一个承认。这里有个广场。广场旁边有个池塘。池塘旁边有座钟楼。参观基本就这些，您的咖啡还没凉就看完了。
+
+可就是这么个城市北缘的小地方，也是组成首都的一百多个地籍区之一，在地图上和老城平起平坐。如今它属于布拉格18区的恰科维采城区，住着大约1800人。农庄旁曾有一座设防宅邸，早就没了。
+
+🎁 彩蛋：能走到这里，您就看到了几乎没有游客见过的布拉格。老城有人山人海，米什科维采有一整个池塘。`,
+    },
+  },
+  {
+    name: 'Hostavice',
+    slug: 'hostavice',
+    localizedNames: { cz: 'Hostavice', zh: '霍斯塔维采' },
+    labels: ['village-and-town'],
+    district: 'Praha 14',
+    quarter: 'Hostavice',
+    coordinates: { lat: 50.09153564801555, lng: 14.561800741747223 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hostavice',
+    description: {
+      en: `Hostavice is a quiet village on a stream in the east of Prague, the sort of place you pass on the way to somewhere else. In the 1930s, though, the country's most famous shoe firm looked at these fields and saw a city of the future. The city never turned up.
+
+First recorded in 1432, Hostavice lived off farming until the middle of the 19th century. A small belfry by the entrance to the chateau park and a tall granary opposite it are what remains of the old village. The "chateau" itself is a large single-storey villa from the late 19th century. In 1934 it was bought with the land of the estate by the Baťa shoe firm, which planned a garden city here. It was never fully built, and before the war the empty land served as a military training ground. Hostavice joined Prague in 1968.
+
+🎁 Bonus: The Hostavice Stream splits the village in two before running into the Rokytka just below it. A short walk along the water takes you through the whole unbuilt future.`,
+      cz: `Hostavice jsou tichá ves u potoka na východě Prahy, takové místo, kterým člověk jen projíždí. Ve 30. letech se ale na zdejší pole podívala nejslavnější obuvnická firma v zemi a uviděla město budoucnosti. To město nikdy nedorazilo.
+
+První písemné zprávy o Hostavicích pocházejí z roku 1432 a až do poloviny 19. století se tu žilo ze zemědělství. Ze staré vsi zbyla zvonička u vstupu do zámeckého parku a vysoký špýchar naproti ní. Takzvaný zámek je velká přízemní vila z konce 19. století. Roku 1934 ji i s pozemky velkostatku koupila obuvnická firma Baťa, která tu chtěla založit zahradní město. Nikdy nebylo úplně postaveno a nezastavěné pozemky sloužily před válkou jako vojenské cvičiště. K Praze byly Hostavice připojeny v roce 1968.
+
+🎁 Bonus: Hostavický potok rozděluje ves na dvě části a kousek pod ní se vlévá do Rokytky. Krátká procházka podél vody vás provede celou nepostavenou budoucností.`,
+      zh: `霍斯塔维采是布拉格东部溪边一个安静的村子，属于那种路过去别处时才会经过的地方。可在1930年代，全国最有名的鞋业公司看着这片田地，看到了一座未来之城。这座城始终没有来。
+
+霍斯塔维采最早见于1432年的记载，到19世纪中叶都靠种地过日子。老村留下来的，是城堡公园入口旁的小钟楼和对面高高的粮仓。所谓的“城堡”，其实是19世纪末的一座大型单层别墅。1934年，巴塔鞋业连同庄园的土地一起买下了它，打算在这里建一座花园城市。这座城没有全部建成，空着的土地在战前成了军事训练场。1968年，霍斯塔维采并入布拉格。
+
+🎁 彩蛋：霍斯塔维采溪把村子分成两半，流到村子下方不远处汇入罗基特卡河。沿着水走一小段，就能走完这段没有建成的未来。`,
+    },
+  },
+  {
+    name: 'Benice',
+    slug: 'benice-praha',
+    localizedNames: { cz: 'Benice', zh: '贝尼采' },
+    labels: ['village-and-town'],
+    district: 'Praha 22',
+    quarter: 'Benice',
+    coordinates: { lat: 50.0133426014005, lng: 14.605075101984157 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Benice_(Praha)',
+    description: {
+      en: `Benice is a small village among the fields of south-eastern Prague, and it holds a record you would not expect to hear boasted about: the smallest cemetery in the city. Prague has burial grounds the size of small towns. Benice has one you could lose behind a barn.
+
+The village is first recorded in 1356, and its older name, Zbynice, meant the village of Zbyňa's people. It was an independent municipality from 1850 until it joined Prague on 1 July 1974. There is a belfry, and the site of an old fortified manor on the grounds of a farm that has since been pulled down. A coaching inn once stood on the old imperial road here, and it is gone too. The little cemetery, on K Lipanům street, has protected lime trees that give it more shade than it has graves to cover.
+
+🎁 Bonus: The street holding Prague's smallest cemetery is named after the neighbouring village of Lipany, so even the record holder only gets directions to somewhere else.`,
+      cz: `Benice jsou malá ves mezi poli na jihovýchodě Prahy a drží rekord, kterým by se chlubil málokdo: nejmenší hřbitov ve městě. Praha má pohřebiště velká jako malá města. Benice mají jedno, které byste mohli ztratit za stodolou.
+
+První písemná zmínka o vsi pochází z roku 1356 a její starší jméno Zbynice znamenalo ves Zbyňových lidí. V letech 1850 až 1974 byla samostatnou obcí, od 1. července 1974 je součástí Prahy. Je tu zvonička a místo bývalé tvrze na pozemku dnes zbořeného dvora. Na staré císařské silnici tu stávala formanská hospoda, ani ta už tu není. Hřbitůvek v ulici K Lipanům má chráněné lípy, které mu dávají víc stínu, než má hrobů.
+
+🎁 Bonus: Ulice s nejmenším hřbitovem v Praze se jmenuje po sousedních Lipanech, takže i držitel rekordu jen ukazuje cestu někam jinam.`,
+      zh: `贝尼采是布拉格东南田野间的小村子，它保持着一项没什么人会拿来炫耀的纪录：全城最小的公墓。布拉格有的墓地大得像座小城，贝尼采这一座，放在谷仓后面都能找不着。
+
+村子最早见于1356年的记载，旧名兹比尼采，意思是“兹比尼亚家的人的村子”。1850年到1974年它是独立的村镇，1974年7月1日并入布拉格。这里有一座小钟楼，还有一处设防宅邸的旧址，所在的农庄如今已经拆了。老帝国大道边曾有一家车马客栈，也早没了。这座小公墓在通往利帕尼的街上，里面受保护的椴树投下的树荫，比它要遮的坟墓还多。
+
+🎁 彩蛋：布拉格最小的公墓所在的街，是以邻村利帕尼命名的。连纪录保持者也只是在给别的地方指路。`,
     },
   },
 ];

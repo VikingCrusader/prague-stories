@@ -259,11 +259,25 @@ describe('evaluateAchievements', () => {
     expect(ids(all.slice(1))).not.toContain('behind_the_iron_curtain');
   });
 
-  test('never_forget needs all nine places, Lidice and Terezín included', () => {
-    const all = ['pinkas-synagogue', 'praha-hlavni-nadrazi', 'petschek-palace-1782567720752', 'lidice', 'pamatnik-detskych-obeti-valky', 'hromadny-hrob-lidice', 'muzeum-pamatniku-lidice', 'pamatnik-lidickych-zen-zena-s-ruzi', 'koncentracni-tabor-terezin'];
+  test('never_forget needs all five places, Terezín included', () => {
+    const all = ['pinkas-synagogue', 'praha-bubny-station', 'hagibor', 'praha-hlavni-nadrazi', 'koncentracni-tabor-terezin'];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('never_forget');
     expect(ids(all.slice(0, -1))).not.toContain('never_forget');
+  });
+
+  test('city_villages needs any 12 of its villages', () => {
+    const all = ['stare-stodulky', 'stara-hostivar', 'stary-zlicin', 'velka-chuchle', 'holyne', 'lipence', 'klukovice', 'ujezd-nad-lesy', 'sobin', 'trebonice', 'komorany', 'miskovice'];
+    const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
+    expect(ids(all)).toContain('city_villages');
+    expect(ids(all.slice(0, -1))).not.toContain('city_villages');
+  });
+
+  test('eighty_two_children needs all five Lidice places', () => {
+    const all = ['lidice', 'pamatnik-detskych-obeti-valky', 'hromadny-hrob-lidice', 'muzeum-pamatniku-lidice', 'pamatnik-lidickych-zen-zena-s-ruzi'];
+    const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
+    expect(ids(all)).toContain('eighty_two_children');
+    expect(ids(all.slice(0, -1))).not.toContain('eighty_two_children');
   });
 
   test('charles_iv needs all six places, Karlštejn included', () => {

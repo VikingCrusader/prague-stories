@@ -913,6 +913,7 @@ export default {
       { h: 'Historie', p: [
         'Jméno Kunratice pochází od muže jménem Konrád; tak se jmenovala středověká ves. Na začátku 15. století postavil král Václav IV. v lese u vsi nový hrad a rád v něm pobýval, daleko od pražských sporů. V roce 1419, krátce po první pražské defenestraci, na tom hradě zemřel, prý ho ranila mrtvice, když se o ní dozvěděl. Za husitských válek byl hrad zničen a zbyly jen zříceniny.',
         'Další staletí zůstaly Kunratice vesnicí s malým zámkem a barokním kostelem. V roce 1999 se na západě, v areálu bývalého masokombinátu, otevřela vietnamská tržnice Sapa a dnes je jedním z center vietnamské komunity v celé zemi.',
+        'Proč zrovna Vietnamci na okraji Prahy? Za komunismu přijímalo Československo lidi ze spřáteleného Vietnamu: v roce 1956 asi stovku školních dětí a od 70. let tisíce mladých lidí na zaučení do továren. Když po roce 1989 dohody skončily, mnozí zůstali a začali se živit prodejem oblečení ve stáncích. Všechny ty stánky potřebovaly místo, kde nakoupit zboží, a tím místem se stala Sapa.',
       ] },
       { h: 'Zajímavosti', p: [
         'Král na svém oblíbeném hradě zemřel vzteky nad špatnou zprávou z Prahy. Tak to aspoň vypráví pověst. Hrad se dnes skrývá hluboko v lese a chvíli trvá, než ho najdete.',

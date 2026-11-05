@@ -391,10 +391,15 @@ const IRON_CURTAIN_SLUGS = [
 // walls of names, the station Winton's trains left from, the Gestapo HQ,
 // and two places outside Prague (Lidice, Terezín), which make it the first
 // "extreme" achievement (user's call, 2026-11-02).
+// Eighty Thousand Names: the Holocaust in Prague (the id is older than the name).
 const NEVER_FORGET_SLUGS = [
-  "pinkas-synagogue", "praha-hlavni-nadrazi", "petschek-palace-1782567720752",
+  "pinkas-synagogue", "praha-bubny-station", "hagibor", "praha-hlavni-nadrazi",
+  "koncentracni-tabor-terezin",
+];
+// Eighty-Two Children: Lidice, split out of the above on 2026-11-05.
+const LIDICE_SLUGS = [
   "lidice", "pamatnik-detskych-obeti-valky", "hromadny-hrob-lidice", "muzeum-pamatniku-lidice",
-  "pamatnik-lidickych-zen-zena-s-ruzi", "koncentracni-tabor-terezin",
+  "pamatnik-lidickych-zen-zena-s-ruzi",
 ];
 // Charles IV (user's list, 2026-11-02), in the order he founded them:
 // Emmaus and Our Lady of the Snows (1347), the university (1348),
@@ -660,7 +665,7 @@ const HABSBURG = placesOnly([
   "micovna-prazskeho-hradu", "new-royal-palace", "socha-marie-terezie",
 ]);
 const RUDOLF = placesOnly([
-  "golden-lane", "jeleni-prikop", "rudolfova-stola", "rudolfuv-rybnik",
+  "new-royal-palace", "golden-lane", "jeleni-prikop", "rudolfova-stola", "rudolfuv-rybnik",
   "speculum-alchemiae", "tycho-brahe-kepler-monument",
 ]);
 // Aula Regia: Zbraslav, where the Cistercian monastery (now the chateau)
@@ -707,6 +712,18 @@ const CASTLE_TOUR_SLUGS = [
 const PARADISE_SLUGS = ["hrad-trosky", "kost-castle", "hrad-valdstejn", "hruboskalsko", "zricenina-hradu-rotstejn"];
 function PARADISE({ checkedSlugs = [] }) {
   return { current: Math.min(3, PARADISE_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length), target: 3, slugs: [], picks: [{ need: 3, slugs: PARADISE_SLUGS }] };
+}
+// City Villages (城中村, user's list, 2026-11-05): old village centres the city grew around.
+const CITY_VILLAGE_SLUGS = [
+  "stare-stodulky", "stara-hostivar", "stary-zlicin", "velka-chuchle", "old-hluboepy-town-1783210594463",
+  "holyne", "lipence", "klukovice", "ujezd-nad-lesy", "sobin", "trebonice", "zadni-kopanina", "komorany",
+  "cholupice", "sterboholy", "dolni-mecholupy", "tocna", "psnice-1783428724036", "benice-praha", "hostavice",
+  "miskovice", "nedvezi-u-rican", "hajek-u-uhrinevsi", "kolovraty", "brezineves", "v-sedlci",
+];
+const CITY_VILLAGES_NEEDED = 12;
+function CITY_VILLAGES({ checkedSlugs }) {
+  const current = CITY_VILLAGE_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length;
+  return { current: Math.min(CITY_VILLAGES_NEEDED, current), target: CITY_VILLAGES_NEEDED, slugs: [], picks: [{ need: CITY_VILLAGES_NEEDED, slugs: CITY_VILLAGE_SLUGS }] };
 }
 function CASTLE_TOUR({ checkedSlugs = [] }) {
   return { current: Math.min(3, CASTLE_TOUR_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length), target: 3, slugs: [], picks: [{ need: 3, slugs: CASTLE_TOUR_SLUGS }] };
@@ -1455,21 +1472,41 @@ export const ACHIEVEMENTS = [
   {
     id: "never_forget",
     icon: "🕯️",
-    name: "Never Forget",
-    name_cz: "Nezapomeneme",
-    name_zh: "勿忘",
-    flavor: "Nearly 80,000 names on the walls of a synagogue, and a village razed to the ground. Remember them.",
-    flavor_cz: "Téměř 80 000 jmen na zdech synagogy a vesnice srovnaná se zemí. Pamatujte na ně.",
-    flavor_zh: "一座会堂墙上近八万个名字，一个被夷为平地的村庄。记住他们。",
-    description: "Check in at these 9 places, six of them outside Prague: Pinkas Synagogue, Prague Main Station, Petschek Palace, Lidice, Memorial to the Child Victims of War, Mass Grave of the Lidice Men, Lidice Memorial Museum, Memorial to the Lidice Women (Woman with a Rose) and Terezín Concentration Camp.",
-    description_cz: "Přihlaste se na těchto 9 místech, z nichž šest je mimo Prahu: Pinkasova synagoga, Praha hlavní nádraží, Petschkův palác, Lidice, Památník dětských obětí války, Hromadný hrob zavražděných lidických mužů, Muzeum Památníku Lidice, Památník lidických žen (socha Žena s růží) a Koncentrační tábor Terezín.",
-    description_zh: "打卡以下9个地点，其中六处在布拉格以外：平卡斯犹太会堂、布拉格主火车站、佩切克宫(前布拉格盖世太保总部)、利迪策、二战儿童受难者纪念碑、利迪策遇难男性集体墓、利迪策纪念馆博物馆、利迪策妇女纪念碑（“持玫瑰的女人”雕像）和特雷津集中营。",
+    name: "Eighty Thousand Names",
+    name_cz: "Osmdesát tisíc jmen",
+    name_zh: "八万个名字",
+    flavor: "Nearly 80,000 names on the walls of a synagogue, and the small station they left from. Remember them.",
+    flavor_cz: "Téměř 80 000 jmen na zdech synagogy a malé nádraží, odkud odjížděli. Pamatujte na ně.",
+    flavor_zh: "一座会堂墙上近八万个名字，一座他们离开时的小车站。记住他们。",
+    description: "Check in at these 5 places, one of them outside Prague: Pinkas Synagogue, Praha-Bubny Station, Hagibor, Prague Main Station and Terezín Concentration Camp.",
+    description_cz: "Přihlaste se na těchto 5 místech, z nichž jedno je mimo Prahu: Pinkasova synagoga, nádraží Praha-Bubny, Hagibor, Praha hlavní nádraží a Koncentrační tábor Terezín.",
+    description_zh: "打卡以下5个地点，其中一处在布拉格以外：平卡斯犹太会堂、布布尼车站、哈吉博、布拉格主火车站和特雷津集中营。",
     difficulty: "extreme",
     check: ({ checkedSlugs }) => NEVER_FORGET_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({
       current: NEVER_FORGET_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length,
       target: NEVER_FORGET_SLUGS.length,
       slugs: NEVER_FORGET_SLUGS,
+    }),
+  },
+  {
+    id: "eighty_two_children",
+    icon: "🌹",
+    name: "Eighty-Two Children",
+    name_cz: "Dvaaosmdesát dětí",
+    name_zh: "八十二个孩子",
+    flavor: "On 10 June 1942 a village was wiped off the map. Eighty-two of its children never came home.",
+    flavor_cz: "10. června 1942 zmizela z mapy jedna vesnice. Dvaaosmdesát jejích dětí se už nevrátilo domů.",
+    flavor_zh: "1942年6月10日，一座村庄被从地图上抹去。村里八十二个孩子再也没有回家。",
+    description: "Check in at these 5 places in Lidice, outside Prague: Lidice, Memorial to the Child Victims of War, Mass Grave of the Lidice Men, Lidice Memorial Museum and Memorial to the Lidice Women (Woman with a Rose).",
+    description_cz: "Přihlaste se na těchto 5 místech v Lidicích mimo Prahu: Lidice, Památník dětských obětí války, Hromadný hrob zavražděných lidických mužů, Muzeum Památníku Lidice a Památník lidických žen (socha Žena s růží).",
+    description_zh: "打卡布拉格以外利迪策的以下5个地点：利迪策、二战儿童受难者纪念碑、利迪策遇难男性集体墓、利迪策纪念馆博物馆和利迪策妇女纪念碑（“持玫瑰的女人”雕像）。",
+    difficulty: "hard",
+    check: ({ checkedSlugs }) => LIDICE_SLUGS.every((slug) => checkedSlugs.includes(slug)),
+    progress: ({ checkedSlugs }) => ({
+      current: LIDICE_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length,
+      target: LIDICE_SLUGS.length,
+      slugs: LIDICE_SLUGS,
     }),
   },
   {
@@ -2457,9 +2494,9 @@ export const ACHIEVEMENTS = [
     flavor: "Astronomers, alchemists and lions at the castle: Rudolf II collected everything, people included.",
     flavor_cz: "Astronomové, alchymisté a lvi na Hradě: Rudolf II. sbíral všechno, lidi nevyjímaje.",
     flavor_zh: "天文学家、炼金术士，还有城堡里的狮子：鲁道夫二世什么都收藏，连人也不例外。",
-    description: "Check in at Golden Lane, the Deer Moat, the Rudolf Tunnel, Rudolf's Pond, Speculum Alchemiae and the Tycho Brahe and Johannes Kepler Monument.",
-    description_cz: "Přihlaste se ve Zlaté uličce, v Jelením příkopu, u Rudolfovy štoly, u Rudolfova rybníka, v Speculum Alchemiae a u Sousoší Tychona Brahe a Johanna Keplera.",
-    description_zh: "打卡黄金巷、鹿沟、鲁道夫水道、鲁道夫池塘、炼金术之镜和第谷·布拉赫与约翰内斯·开普勒纪念雕像。",
+    description: "Check in at the New Royal Palace, Golden Lane, the Deer Moat, the Rudolf Tunnel, Rudolf's Pond, Speculum Alchemiae and the Tycho Brahe and Johannes Kepler Monument.",
+    description_cz: "Přihlaste se v Novém královském paláci, ve Zlaté uličce, v Jelením příkopu, u Rudolfovy štoly, u Rudolfova rybníka, v Speculum Alchemiae a u Sousoší Tychona Brahe a Johanna Keplera.",
+    description_zh: "打卡新皇宫、黄金巷、鹿沟、鲁道夫水道、鲁道夫池塘、炼金术之镜和第谷·布拉赫与约翰内斯·开普勒纪念雕像。",
     difficulty: "medium",
     check: (stats) => done(RUDOLF(stats)),
     progress: RUDOLF,
@@ -2479,6 +2516,22 @@ export const ACHIEVEMENTS = [
     difficulty: "hard",
     check: (stats) => done(HILLS_PROGRESS(stats)),
     progress: HILLS_PROGRESS,
+  },
+  {
+    id: "city_villages",
+    icon: "🏘️",
+    name: "City Villages",
+    name_cz: "Vesnice ve městě",
+    name_zh: "城中村",
+    flavor: "Prague swallowed them whole. They kept their ponds and chapels anyway.",
+    flavor_cz: "Praha je spolkla celé. Své rybníky a kapličky si přesto nechaly.",
+    flavor_zh: "布拉格把它们整个吞了下去，它们还是留着自己的池塘和小教堂。",
+    description: "Check in at any 12 of these 26 old villages inside Prague.",
+    description_cz: "Přihlaste se v libovolných 12 z těchto 26 starých vesnic na území Prahy.",
+    description_zh: "在布拉格城内以下26个老村子中任选12个打卡。",
+    difficulty: "hard",
+    check: (stats) => done(CITY_VILLAGES(stats)),
+    progress: CITY_VILLAGES,
   },
   {
     id: "knight_errant",

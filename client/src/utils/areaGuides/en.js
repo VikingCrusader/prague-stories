@@ -913,6 +913,7 @@ export default {
       { h: 'History', p: [
         'The name Kunratice comes from a man called Konrad; it was the name of a medieval village. In the early 15th century King Wenceslas IV built a new castle in the forest near the village, and he loved staying there, far from the quarrels of Prague. In 1419, shortly after Prague\'s first defenestration, the king died in that castle, of a stroke on hearing the news, it is said. The castle was destroyed in the Hussite Wars and only ruins remain.',
         'For centuries afterwards Kunratice stayed a village with a small chateau and a Baroque church. In 1999 a Vietnamese market called Sapa opened on the site of an old meat-processing plant to the west, and today it is one of the centres of the Vietnamese community in the whole country.',
+        'Why Vietnamese, in a Prague suburb? Under communism Czechoslovakia took in people from its ally Vietnam: about a hundred schoolchildren in 1956, then, from the 1970s, thousands of young trainees for its factories. When those agreements ended after 1989, many stayed and made a living selling clothes from market stalls. All those stalls needed somewhere to buy their stock, and that place became Sapa.',
       ] },
       { h: 'Fun facts', p: [
         'A king, in his favourite castle, died of rage at bad news from Prague. At least, that is how the legend goes. The castle now lies hidden deep in the forest, and it takes a bit of a walk to find it.',
