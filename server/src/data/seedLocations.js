@@ -34629,6 +34629,91 @@ První písemná zmínka o vsi pochází z roku 1356 a její starší jméno Zby
 🎁 彩蛋：布拉格最小的公墓所在的街，是以邻村利帕尼命名的。连纪录保持者也只是在给别的地方指路。`,
     },
   },
+  {
+    name: 'Praga Arena',
+    slug: 'praga-arena',
+    localizedNames: { cz: 'Praga Arena', zh: '普拉加赛车馆' },
+    labels: ['contemporary', 'restaurants-and-cafes'],
+    district: 'Praha 20',
+    quarter: 'Horní Počernice',
+    coordinates: { lat: 50.115782954880274, lng: 14.60661991169213 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Praga Arena is what happens when you put a racetrack indoors and let adults pretend they are not competing. This huge go-kart hall on Prague's north-eastern edge is one of the most modern in Europe, and nobody who walks in has ever claimed to be just there for the fun of it.
+
+The hall covers 17,000 square metres, and its track runs up to 930 metres, with a layout that changes about every three months, so regulars cannot simply learn it by heart. The karts carry the Praga name, an old Czech vehicle brand, and run on four-stroke engines. If you would rather watch than steer, the restaurant with its bar and grill looks straight out onto the track.
+
+🎁 Bonus: You do not have to race to check in here. A coffee and a good view of someone else taking the corner too fast is a perfectly respectable way to enjoy a kart track.`,
+      cz: `Praga Arena je to, co vznikne, když závodní dráhu dáte pod střechu a necháte dospělé předstírat, že nesoutěží. Tato obrovská motokárová hala na severovýchodním okraji Prahy patří k nejmodernějším v Evropě a nikdo, kdo sem vejde, tu nikdy nebyl jen tak pro zábavu.
+
+Hala má 17 000 metrů čtverečních a její trať měří až 930 metrů. Její konfigurace se zhruba po třech měsících mění, takže se ji stálí hosté nemohou prostě naučit nazpaměť. Motokáry nesou jméno Praga, staré české značky vozidel, a jezdí se čtyřtaktními motory. Kdo se raději dívá, než řídí, má z restaurace s barem a grilem výhled přímo na dráhu.
+
+🎁 Bonus: Abyste se tu přihlásili, závodit nemusíte. Káva a dobrý výhled na někoho, kdo do zatáčky vjel moc rychle, je naprosto úctyhodný způsob, jak si užít motokárovou dráhu.`,
+      zh: `普拉加赛车馆，就是把赛道搬进室内，再让大人们假装自己没在较劲的结果。这座位于布拉格东北边缘的巨型卡丁车馆是欧洲最现代的场馆之一，走进来的人，没有一个真的只是来玩玩。
+
+场馆占地1.7万平方米，赛道最长930米，布局大约每三个月换一次，所以常客也没法把它背下来。卡丁车挂着捷克老牌车辆品牌普拉加的名字，用四冲程发动机。如果您更想看而不想开，带吧台和烤架的餐厅正对着赛道。
+
+🎁 彩蛋：在这里打卡不一定要比赛。喝杯咖啡，看别人弯道冲得太快，也是享受卡丁车赛道的一种体面方式。`,
+    },
+  },
+  {
+    name: 'Praha-Horní Počernice Station',
+    slug: 'nadrazi-praha-horni-pocernice',
+    localizedNames: { cz: 'Nádraží Praha-Horní Počernice', zh: '上波切尔尼采火车站' },
+    labels: ['transport', 'national-revival'],
+    district: 'Praha 20',
+    quarter: 'Horní Počernice',
+    coordinates: { lat: 50.116514160735356, lng: 14.612839797809512 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Praha-Horn%C3%AD_Po%C4%8Dernice_(n%C3%A1dra%C5%BE%C3%AD)',
+    description: {
+      en: `This is a station that has stayed in exactly the same place while the world kept changing its name. It has been here since 1873, it has gone by three names, and its local trains have been quietly carrying people into Prague through all of them.
+
+It opened on 4 October 1873, with the whole line of the Austrian North Western Railway, under the name Chvaly-Počernice. The original building was enlarged to its present size in 1929, the year the name changed to Horní Počernice. The town joined Prague in 1974, and two years later the station picked up its "Praha" too. Rebuilding on the line has since brought an island platform and a step-free underpass, and the station handles freight as well as local trains on the route towards Lysá nad Labem.
+
+🎁 Bonus: During the works of 2022 to 2024 the station building was fully renovated, and a café moved in. After a century and a half, waiting for a train here finally comes with a decent coffee.`,
+      cz: `Tohle nádraží zůstalo přesně na svém místě, zatímco svět mu pořád měnil jméno. Stojí tu od roku 1873, vystřídalo tři názvy a jeho místní vlaky přes všechny tiše vozily lidi do Prahy.
+
+Otevřeno bylo 4. října 1873 se zahájením provozu celé trati Rakouské severozápadní dráhy, a to pod názvem Chvaly-Počernice. Původní budova byla do dnešní podoby rozšířena v roce 1929, kdy se název změnil na Horní Počernice. Město se v roce 1974 stalo součástí Prahy a o dva roky později přibylo i nádraží do jména „Praha“. Přestavba trati sem později přinesla ostrovní nástupiště a bezbariérový podchod a stanice slouží kromě místních vlaků ve směru na Lysou nad Labem i nákladní dopravě.
+
+🎁 Bonus: Při pracích v letech 2022 až 2024 byla staniční budova kompletně zrekonstruována a nastěhovala se do ní kavárna. Po století a půl se tu tedy na vlak konečně čeká s pořádnou kávou.`,
+      zh: `世界一直在给这座车站改名，它却一直待在原地。它1873年就在这里，换过三个名字，本地列车一路把人们悄悄送进布拉格。
+
+车站于1873年10月4日随奥地利西北铁路全线通车启用，当时叫赫瓦利-波切尔尼采。1929年，原来的站房扩建成今天的样子，同一年名字改成了上波切尔尼采。1974年这座小城并入布拉格，两年后车站的名字也加上了“布拉格”。后来线路改造又带来了岛式站台和无障碍地下通道。除了开往利萨的本地列车，这里也办理货运。
+
+🎁 彩蛋：2022年到2024年施工期间，站房全面翻修，还开了一家咖啡馆。过了一个半世纪，在这里等车终于能喝上一杯像样的咖啡了。`,
+    },
+  },
+  {
+    name: 'Church of St. Ludmila (Chvaly)',
+    slug: 'kostel-sv-ludmily-chvaly',
+    localizedNames: { cz: 'Kostel sv. Ludmily (Chvaly)', zh: '圣卢德米拉教堂（赫瓦利）' },
+    labels: ['church', 'early-modern'],
+    district: 'Praha 20',
+    quarter: 'Horní Počernice',
+    coordinates: { lat: 50.11150647513817, lng: 14.595226802735375 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `This small church stands so close to Chvaly Chateau that the two read as one building, and that is more or less how it began: as the chateau's own chapel. It later grew up, changed its saint and moved out in spirit, if not in distance.
+
+The Jesuits, who took over the estate in 1652, built a chapel of St Anne here in 1660, right beside the old fortress. The fire of 1734 that turned the fortress into a chateau probably damaged the chapel as well. After the Jesuit order was abolished in 1773, it was rebuilt in 1793 and 1794 as the Church of St Ludmila, and the tower came in the early 19th century.
+
+🎁 Bonus: Church and chateau still form a single architectural whole, but they no longer share a landlord. The chateau belongs to the Horní Počernice district and the church to the Church, so these two very close neighbours now answer to different owners.`,
+      cz: `Tento malý kostel stojí tak blízko Chvalského zámku, že oba působí jako jedna stavba, a tak to víceméně začalo: jako zámecká kaple. Později vyrostl, vyměnil světici a osamostatnil se, i když ne vzdáleností.
+
+Jezuité, kteří panství převzali roku 1652, tu v roce 1660 postavili hned vedle staré tvrze kapli svaté Anny. Požár roku 1734, po němž se z tvrze stal zámek, kapli nejspíš také poškodil. Po zrušení jezuitského řádu v roce 1773 byla v letech 1793 a 1794 přestavěna na kostel svaté Ludmily a věž přibyla na počátku 19. století.
+
+🎁 Bonus: Kostel a zámek dodnes tvoří jeden stavební celek, ale majitele už společného nemají. Zámek patří městské části Horní Počernice a kostel církvi, takže tihle velmi blízcí sousedé dnes odpovídají každý někomu jinému.`,
+      zh: `这座小教堂和赫瓦利城堡挨得太近，看上去就像同一栋建筑，它一开始也差不多就是这样：城堡自己的小礼拜堂。后来它长大了，换了主保圣人，算是自立了门户，只是距离没变。
+
+1652年接手庄园的耶稣会士，1660年在老要塞旁边建了一座圣安妮小礼拜堂。1734年那场把要塞变成城堡的大火，大概也波及了它。1773年耶稣会被取缔后，它在1793年到1794年间改建成圣卢德米拉教堂，钟楼是19世纪初加上的。
+
+🎁 彩蛋：教堂和城堡至今仍是一个建筑整体，却不再是同一个主人。城堡归上波切尔尼采城区，教堂归教会，这对贴得极近的邻居如今各听各的。`,
+    },
+  },
 ];
 
 async function run() {
