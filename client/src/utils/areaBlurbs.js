@@ -251,9 +251,9 @@ export const AREA_BLURBS = {
       zh: '山坡上的老村子，先变成了全城的煤气厂，后来又成了最大的写字楼区之一。不漂亮，却很诚实地展示了布拉格是怎么长大的。',
     },
     'Kunratice': {
-      en: 'A small town in all but name, where a king died at his forest castle in 1419 and the best pho in Prague is served today.',
-      cz: 'Městečko ve všem kromě jména, kde v roce 1419 zemřel král na svém lesním hradě a kde se dnes vaří nejlepší phở v Praze.',
-      zh: '除了名字，样样都像一座小镇：1419年一位国王死在这里的森林城堡里，今天这里有全布拉格最好吃的河粉。',
+      en: 'A small town in all but name, where a king died at his forest castle in 1419 and the ruins still hide among the trees.',
+      cz: 'Městečko ve všem kromě jména, kde v roce 1419 zemřel král na svém lesním hradě, jehož zřícenina se dodnes skrývá mezi stromy.',
+      zh: '除了名字，样样都像一座小镇：1419年一位国王死在这里的森林城堡里，城堡的废墟至今藏在林子里。',
     },
     'Záběhlice': {
       en: 'A village on the Botič with a Baroque chateau and a big pond, plus Spořilov, the 1920s garden suburb of identical little houses.',
@@ -354,6 +354,11 @@ export const AREA_BLURBS = {
       en: 'The southern half of South Town and the end of metro line C, whose terminus was called Cosmonauts until 1990.',
       cz: 'Jižní polovina Jižního Města a konečná linky C, která se až do roku 1990 jmenovala Kosmonautů.',
       zh: '「南城」的南半部，也是地铁C线的终点，那座车站1990年以前叫「宇航员站」。',
+    },
+    'Písnice': {
+      en: "An old farming village on the 50th parallel that ended up, on the site of a former meat plant, with Prague's Little Hanoi and the best pho in the city.",
+      cz: 'Stará zemědělská ves na 50. rovnoběžce, která v areálu bývalého masokombinátu přišla k pražské Malé Hanoji a nejlepšímu phở ve městě.',
+      zh: '北纬50度线上的老农村，在一座旧肉类加工厂的地皮上，长出了布拉格的「小河内」和全城最好吃的河粉。',
     },
     'Modřany': {
       en: 'An old riverside village with a former sugar refinery, a big housing estate on the slope, a wild gorge and a working vineyard.',

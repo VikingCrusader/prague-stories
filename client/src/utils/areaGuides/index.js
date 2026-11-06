@@ -128,7 +128,7 @@ export const AREA_LANDMARKS = {
       'bb-centrum', 'tyrsuv-vrch', 'bohdalec-1783882752559', 'budova-filadelfie',
     ],
     'Kunratice': [
-      'new-castle-ruins-near-kunratice-1783003399902', 'st-james-apostle', 'kunratice-fortress-1783377528490', 'sapa-praha',
+      'new-castle-ruins-near-kunratice-1783003399902', 'st-james-apostle', 'kunratice-fortress-1783377528490',
       'monument-to-the-legionnaires-fallen-in-the-world-war-1783377752694', 'rybnik-seberak',
     ],
     'Záběhlice': [
@@ -220,7 +220,7 @@ export const AREA_LANDMARKS = {
     'Kamýk': ['meteorologicka-vez-libus', 'stromoradi-dubu-letnich-hodkovicky'],
     'Komořany': ['komorany', 'pomnik-neznamemu-padlemu-sance'],
     'Libuš': ['libu-1782390702981'],
-    'Písnice': ['prubeh-50-rovnobezky', 'psnice-1783428724036', 'cesky-svaz-zpracovatelu-masa'],
+    'Písnice': ['sapa-praha', 'prubeh-50-rovnobezky', 'psnice-1783428724036', 'cesky-svaz-zpracovatelu-masa'],
     'Točná': ['tocna', 'prirodni-rezervace-sance', 'tocensky-havlickuv-orloj'],
     'Třebonice': ['trebonice', 'kostel-svateho-jana-a-pavla-krten', 'kamenny-stul-dolmen-bel', 'ikea-zlicin'],
     'Zadní Kopanina': ['zadni-kopanina', 'lom-na-hlinu'],

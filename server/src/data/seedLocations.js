@@ -34714,6 +34714,38 @@ Jezuité, kteří panství převzali roku 1652, tu v roce 1660 postavili hned ve
 🎁 彩蛋：教堂和城堡至今仍是一个建筑整体，却不再是同一个主人。城堡归上波切尔尼采城区，教堂归教会，这对贴得极近的邻居如今各听各的。`,
     },
   },
+  {
+    name: 'Říčany Castle Ruins',
+    slug: 'zricenina-hradu-ricany',
+    localizedNames: { cz: 'Zřícenina Říčanského hradu', zh: '日查尼城堡遗迹' },
+    labels: ['ruin', 'castle and fortress', 'medieval', 'outside'],
+    coordinates: { lat: 49.9915, lng: 14.6518 },
+    rarity: 'expedition',
+    xpReward: 60,
+    description: {
+      en: `A commuter town is an unlikely home for one of the finest noble castles of 13th-century Bohemia, yet here it stands, or at least here stands one tall wall of it. The rest went the way most things go in the suburbs: it was quietly turned into other people's houses.
+
+The castle was probably built between 1260 and 1270 by Ondřej of Všechromy, a court official of King Přemysl Otakar II, whose family went on to call themselves the Lords of Říčany. He seems to have brought royal taste home from work. The castle was a small oval of stone with ponds on three sides, a square tower with walls 2.7 metres thick, and a two-storey palace whose upper hall had a fireplace, cross vaults and fine Gothic windows. It was a royal castle in miniature, something only a rich man very close to the king could afford, and only one other such noble castle is known, Vízmburk.
+
+It stayed with the family until November 1420, when Diviš of Říčany, a Catholic opponent of the Hussites, was besieged by Jan Žižka's army. There was no storming. The garrison was starved out in under two weeks, Diviš was taken prisoner as he left with his family, and the priests he had sheltered were burned nearby on Žižka's orders; the accounts give seven, nine or eleven of them. The Hussites kept the castle whole and put their own men in it, and it stayed with the citizens of Prague until 1485. Nobody much looked after it from then on. It was recorded as deserted in 1544, and by 1785 an official register found nothing there but a stone quarry.
+
+🎁 Bonus: What finally brought the castle down was not Žižka but the neighbours, who carried it off as building stone until the middle of the 19th century, when Prague day-trippers started coming to look at it. Parts of the castle are presumably still standing, just in the walls of Říčany's houses.`,
+      cz: `Satelitní město je nečekaný domov pro jeden z nejlepších šlechtických hradů Čech 13. století, a přesto tu stojí, nebo tu aspoň stojí jedna jeho vysoká zeď. Zbytek skončil tak, jak to na předměstí chodí: v tichosti se proměnil v domy jiných lidí.
+
+Hrad postavil nejspíš mezi lety 1260 a 1270 Ondřej ze Všechrom, dvořan krále Přemysla Otakara II., jehož rod si pak začal říkat páni z Říčan. Královský vkus si zřejmě přinesl z práce domů. Hrad byl malý kamenný ovál s rybníky ze tří stran, se čtverhrannou věží se zdmi silnými 2,7 metru a dvoupatrovým palácem, jehož horní sál měl krb, křížové klenby a krásná gotická okna. Byl to královský hrad v miniatuře, jaký si mohl dovolit jen bohatý muž z nejbližšího králova okolí, a známe jen jeden další takový šlechtický hrad, Vízmburk.
+
+V rukou rodu zůstal až do listopadu 1420, kdy Diviše z Říčan, katolického odpůrce husitů, oblehlo vojsko Jana Žižky. K útoku nedošlo. Posádku vyhladověli za necelé dva týdny, Diviše zajali, když s rodinou odcházel, a kněze, kterým poskytl útočiště, dal Žižka nedaleko upálit; prameny jich uvádějí sedm, devět nebo jedenáct. Husité hrad nezbořili a osadili ho vlastními lidmi a až do roku 1485 zůstal v rukou pražských měšťanů. Pak se o něj už skoro nikdo nestaral. Roku 1544 je uváděn jako pustý a úřední soupis z roku 1785 tu našel už jen kamenolom.
+
+🎁 Bonus: Hrad nakonec nesrazil Žižka, ale sousedé, kteří ho rozebírali na stavební kámen až do poloviny 19. století, kdy se na něj začali jezdit dívat pražští výletníci. Kusy hradu nejspíš stojí dodnes, jen ve zdech říčanských domů.`,
+      zh: `通勤小城里藏着13世纪波希米亚最出色的贵族城堡之一，这事听着不太可能，可它就立在这儿，至少它的一堵高墙还立在这儿。其余部分的下场和郊区的大多数东西一样：悄悄变成了别人家的房子。
+
+城堡大概建于1260年到1270年之间，修建者是国王普舍米斯尔·奥托卡二世的宫廷官员、弗舍赫罗米的昂德热，他的家族后来自称日查尼领主。他似乎把王室的品味从单位带回了家。这是一座小小的椭圆形石头城堡，三面环池塘，方形塔楼的墙厚达2.7米，两层高的宫殿楼上大厅有壁炉、十字拱顶和精美的哥特式窗户。这是一座微缩版的王室城堡，只有国王身边的富人才造得起，这样的贵族城堡已知的只有另一座，维兹姆布尔克。
+
+城堡一直留在这个家族手里，直到1420年11月。城堡主人迪维什是反对胡斯派的天主教贵族，这时被扬·杰式卡的军队围住了。没有强攻。守军不到两周就被饿得投降，迪维什带着家人出城时被俘，他收留的神父被杰式卡下令在附近烧死，人数各家说法不一，有七人、九人和十一人。胡斯派没有拆城堡，而是派自己人驻守，此后它一直归布拉格市民所有，直到1485年。从那以后就没什么人管它了。1544年的记录里它已经荒废，1785年的官方登记册在这里只找到一座采石场。
+
+🎁 彩蛋：真正把城堡拆掉的不是杰式卡，而是街坊邻居。他们一直把它当建材搬，直到19世纪中叶布拉格的一日游客开始来这里参观才停手。城堡的不少部分大概至今还立着，只不过是在日查尼人家的墙里。`,
+    },
+  },
 ];
 
 async function run() {

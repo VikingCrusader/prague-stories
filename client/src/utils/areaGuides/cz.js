@@ -73,20 +73,20 @@ export default {
         'Najdete tu každou podobu Prahy: staré činžáky v údolí, vily a skály u řeky, zahradní město, celá sídliště panelových domů a na pankrácké pláni nejvyšší kancelářské budovy ve městě. Na pohlednice se Praha 4 dostane málokdy. Je to místo, kde Pražané opravdu žijí.',
       ] },
       { h: 'Stereotypy', p: [
-        'Pro lidi z centra je Praha 4 „noclehárna“: paneláky, nic k vidění a obyvatelé, kteří do města jezdí jen do práce. Praha 4 odpovídá jednoduše: máme lesy, řeku, místa k parkování a nejlepší phở ve městě.',
+        'Pro lidi z centra je Praha 4 „noclehárna“: paneláky, nic k vidění a obyvatelé, kteří do města jezdí jen do práce. Praha 4 odpovídá jednoduše: máme lesy, řeku a místa k parkování. A vy?',
         'Dalším stereotypem je vztah lásky a nenávisti k lince C. Ve špičce je natřískaná jako konzerva sardinek, ale bez ní by se tu život zastavil.',
       ] },
       { h: 'Všední den', p: [
         'Typický život na Praze 4 vypadá takhle: byt ve dvanáctipatrovém paneláku, ráno namačkaný v céčku do práce, večer nákup v supermarketu pod domem a o víkendu s dětmi do lesa nebo k řece. Zdejší lesy jsou opravdové lesy, dost velké na běh, kolo i venčení psa, a u řeky jsou koupaliště, plavecký stadion a cyklostezky, za letních večerů plné lidí.',
         'Život na sídlišti není romantický, ale je praktický: škola, lékař, supermarket i tramvajová zastávka jsou kousek pěšky. Staré Nusle a staré vesnice u řeky si zachovaly vlastní hospody, kostely a sousedskou atmosféru. Když tam bydlíte dost dlouho, máte pocit, že bydlíte na vesnici, která má shodou okolností metro.',
         'Praha 4 patří k největším pracovištím města. V kancelářských věžích na Pankráci a kolem Budějovické sídlí banky, pojišťovny a velké firmy a v obvodu je i Česká televize. V Krči jsou velké nemocnice a celostátní lékařské výzkumné ústavy, takže vědci a lékaři tvoří velkou část zdejších obyvatel.',
-        'Se 130 tisíci obyvateli je tu škol opravdu hodně. Na jihu je také vietnamská komunita s vlastní tržnicí a spousta dětí z vietnamských rodin tu vyrůstá a chodí do školy.',
+        'Se 130 tisíci obyvateli je tu škol opravdu hodně.',
       ] },
       { h: 'Zajímavosti', p: [
         'Praha 4 má most, kterému v břiše jezdí metro: auta jedou nahoře, vlaky přejíždějí údolí uvnitř. A má i pivo, jehož pivovar dávno zavřel, a přesto se pořád prodává, jako člověk, který se už dávno odstěhoval, ale všichni mu dál říkají starou přezdívkou.',
       ] },
       { h: 'Kudy kam', p: [
-        'Projeďte se na kole po cyklostezce podél řeky na jih kolem skal, koupališť a starých vesnic, pak strávte půl dne v lese a nakonec si dejte misku phở na jihu obvodu. Možná pak usoudíte, že pohlednice jsou k Praze 4 dost nespravedlivé.',
+        'Projeďte se na kole po cyklostezce podél řeky na jih kolem skal, koupališť a starých vesnic, pak strávte půl dne v lese. Možná pak usoudíte, že pohlednice jsou k Praze 4 dost nespravedlivé.',
       ] },
     ],
     'Praha 5': [
@@ -244,6 +244,7 @@ export default {
       ] },
       { h: 'Všední den', p: [
         'Lidé ze sídlišť jezdí do města tramvají nebo autobusem, protože metro tu nikdy nebylo. Linka D, plánovaná celá desetiletí, se konečně staví a na Praze 12 se na ni čeká už od dob jejich rodičů. O víkendu je Modřanská rokle a nábřeží zahradou celého obvodu.',
+        'Na jižním okraji, v Písnici, je Sapa, největší vietnamská tržnice ve městě, s vlastní školou a školkou. Spousta dětí z vietnamských rodin tu vyrůstá a chodí do školy a Pražané sem jezdí přes celé město na misku phở.',
       ] },
       { h: 'Zajímavosti', p: [
         'Prahou 12 prochází přímo 50. rovnoběžka a místo označuje pomník, takže si můžete udělat fotku s jednou nohou na severu a druhou na jihu. Na Kamýku je navíc meteorologická stanice, která každý den vypouští do nebe meteorologické balony, takže část pražské předpovědi počasí začíná právě tady.',
@@ -908,20 +909,18 @@ export default {
     ],
     'Kunratice': [
       { h: 'Přehled', p: [
-        'Kunratice leží na jihu Prahy ve správním obvodu Prahy 4, ale jsou samostatnou městskou částí s vlastním náměstím, kostelem a starým zámkem. Na severu je velký les a na západě největší vietnamská tržnice ve městě. Kunratice dodnes působí jako městečko a součástí Prahy se staly až v roce 1968.',
+        'Kunratice leží na jihu Prahy ve správním obvodu Prahy 4, ale jsou samostatnou městskou částí s vlastním náměstím, kostelem a starým zámkem. Na severu je velký les. Kunratice dodnes působí jako městečko a součástí Prahy se staly až v roce 1968.',
       ] },
       { h: 'Historie', p: [
         'Jméno Kunratice pochází od muže jménem Konrád; tak se jmenovala středověká ves. Na začátku 15. století postavil král Václav IV. v lese u vsi nový hrad a rád v něm pobýval, daleko od pražských sporů. V roce 1419, krátce po první pražské defenestraci, na tom hradě zemřel, prý ho ranila mrtvice, když se o ní dozvěděl. Za husitských válek byl hrad zničen a zbyly jen zříceniny.',
-        'Další staletí zůstaly Kunratice vesnicí s malým zámkem a barokním kostelem. V roce 1999 se na západě, v areálu bývalého masokombinátu, otevřela vietnamská tržnice Sapa a dnes je jedním z center vietnamské komunity v celé zemi.',
-        'Proč zrovna Vietnamci na okraji Prahy? Za komunismu přijímalo Československo lidi ze spřáteleného Vietnamu: v roce 1956 asi stovku školních dětí a od 70. let tisíce mladých lidí na zaučení do továren. Když po roce 1989 dohody skončily, mnozí zůstali a začali se živit prodejem oblečení ve stáncích. Všechny ty stánky potřebovaly místo, kde nakoupit zboží, a tím místem se stala Sapa.',
+        'Další staletí zůstaly Kunratice vesnicí s malým zámkem a barokním kostelem.',
       ] },
       { h: 'Zajímavosti', p: [
         'Král na svém oblíbeném hradě zemřel vzteky nad špatnou zprávou z Prahy. Tak to aspoň vypráví pověst. Hrad se dnes skrývá hluboko v lese a chvíli trvá, než ho najdete.',
-        'Sapě se říká „pražská malá Hanoj“ a zdejší phở se často prohlašuje za nejautentičtější ve městě.',
       ] },
       { h: 'Nejslavnější památky', landmarks: true },
       { h: 'Kudy kam', p: [
-        'Projděte se kolem náměstí a kostela městečka, pak zamiřte do lesa na severu najít zříceninu králova hradu a nakonec dojděte na západ do Sapy na misku phở.',
+        'Projděte se kolem náměstí a kostela městečka, pak zamiřte do lesa na severu najít zříceninu králova hradu.',
       ] },
     ],
     'Záběhlice': [
@@ -1603,9 +1602,15 @@ export default {
       { h: 'Nejslavnější památky', landmarks: true },
     ],
     'Písnice': [
-      { h: 'Přehled', p: ['Písnice patří k nejjižnějším místům Prahy a k Praze 12; je to stará ves obklopená novou zástavbou a poli. Kolem vsi vede přímo 50. rovnoběžka a označuje ji pomník.'] },
-      { h: 'Historie', p: ['Jméno Písnice pochází od písku a po staletí to byla zemědělská ves; k Praze se připojila v roce 1968. Dnes sem lidé jezdí hlavně kvůli tomu, aby se postavili na 50. rovnoběžku a vyfotili se s jednou nohou na severu a druhou na jihu.'] },
+      { h: 'Přehled', p: ['Písnice patří k nejjižnějším místům Prahy a k Praze 12; je to stará ves obklopená novou zástavbou a poli. Kolem vsi vede přímo 50. rovnoběžka a označuje ji pomník a kousek severněji leží největší vietnamská tržnice ve městě.'] },
+      { h: 'Historie', p: [
+        'Jméno Písnice pochází od písku a po staletí to byla zemědělská ves; k Praze se připojila v roce 1968. Dnes sem lidé jezdí, aby se postavili na 50. rovnoběžku a vyfotili se s jednou nohou na severu a druhou na jihu.',
+        'V roce 1999 se na severním konci Písnice, v areálu bývalého masokombinátu, otevřela vietnamská tržnice Sapa a dnes je jedním z center vietnamské komunity v celé zemi.',
+        'Proč zrovna Vietnamci na okraji Prahy? Za komunismu přijímalo Československo lidi ze spřáteleného Vietnamu: v roce 1956 asi stovku školních dětí a od 70. let tisíce mladých lidí na zaučení do továren. Když po roce 1989 dohody skončily, mnozí zůstali a začali se živit prodejem oblečení ve stáncích. Všechny ty stánky potřebovaly místo, kde nakoupit zboží, a tím místem se stala Sapa.',
+      ] },
+      { h: 'Zajímavosti', p: ['Sapě se říká „pražská malá Hanoj“ a zdejší phở se často prohlašuje za nejautentičtější ve městě.'] },
       { h: 'Nejslavnější památky', landmarks: true },
+      { h: 'Kudy kam', p: ['Vyfoťte se na 50. rovnoběžce a pak dojděte pár minut na sever po Libušské do Sapy na misku phở.'] },
     ],
     'Točná': [
       { h: 'Přehled', p: ['Točná leží na planině na jihu Prahy a patří k Praze 12. Je tu stará ves, malé letiště a přírodní rezervace, která skrývá valy dávného hradiště.'] },

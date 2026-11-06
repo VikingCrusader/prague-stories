@@ -73,20 +73,20 @@ export default {
         'Every kind of Prague is here: old apartment blocks in the valley, villas and cliffs by the river, a garden suburb, whole estates of housing blocks, and on the heights of Pankrác the tallest office buildings in the city. Prague 4 rarely makes it onto postcards. It is where Praguers actually live.',
       ] },
       { h: 'Stereotypes', p: [
-        'To people in the centre, Prague 4 is a "dormitory district": housing blocks, nothing to see, and residents who never come into town except to work. Prague 4 has a simple reply: we have forests, a river, parking spaces, and the best pho in the city.',
+        'To people in the centre, Prague 4 is a "dormitory district": housing blocks, nothing to see, and residents who never come into town except to work. Prague 4 has a simple reply: we have forests, a river and parking spaces. Do you?',
         'Another stereotype is the love-hate relationship with metro line C. At rush hour it is packed like a tin of sardines, but without it life in the district would grind to a halt.',
       ] },
       { h: 'Everyday life', p: [
         'A typical life in Prague 4 goes like this: a flat in a twelve-storey block, a squeeze onto metro line C to get to work in the morning, groceries from the supermarket downstairs in the evening, and the forest or the river with the kids at the weekend. The forests here are real forests, big enough for running, cycling and dog walking, and the riverside has swimming spots, a swimming stadium and cycle paths, packed on summer evenings.',
         'Life in the housing blocks is not romantic, but it is convenient: schools, doctors, supermarkets and tram stops are all within walking distance. Old Nusle and the old villages along the river have kept their own pubs, churches and neighbourly feel. Live there long enough and you will feel you live in a village that just happens to have a metro.',
         "Prague 4 is one of the city's biggest places to work. The office towers around Pankrác and Budějovická hold the headquarters of banks, insurers and large companies, and Czech Television is in the district too. Krč has large hospitals and national medical research institutes, so researchers and doctors make up a big share of the people here.",
-        'With 130,000 residents, the district is full of schools. In the south there is also a Vietnamese community with its own market, and many children of Vietnamese families grow up and go to school around here.',
+        'With 130,000 residents, the district is full of schools.',
       ] },
       { h: 'Fun facts', p: [
         'Prague 4 has a bridge with the metro running through its belly: cars drive on top while the trains cross the valley inside it. It also has a beer whose brewery closed long ago, yet the beer is still on sale, like someone who moved away years ago but is still called by their old nickname.',
       ] },
       { h: 'Getting around', p: [
-        'Cycle south along the riverside path past cliffs, swimming spots and old villages, then spend half a day in the forest, and finish with a bowl of pho in the south of the district. Afterwards you may feel the postcards have been rather unfair to Prague 4.',
+        'Cycle south along the riverside path past cliffs, swimming spots and old villages, then spend half a day in the forest. Afterwards you may feel the postcards have been rather unfair to Prague 4.',
       ] },
     ],
     'Praha 5': [
@@ -244,6 +244,7 @@ export default {
       ] },
       { h: 'Everyday life', p: [
         'People on the estates take the tram or bus into town every day, because there has never been a metro here. Metro line D, planned for decades, is finally being built, and people in Prague 12 have been waiting for it since their parents\' day. At the weekend, the Modřany gorge and the riverside are the whole district\'s back garden.',
+        'On the southern edge, in Písnice, is Sapa, the biggest Vietnamese market in the city, with its own school and kindergarten. Many children of Vietnamese families grow up and go to school around here, and Praguers cross the whole city for a bowl of pho.',
       ] },
       { h: 'Fun facts', p: [
         'The 50th parallel runs right through Prague 12, and a monument marks the spot, so you can take a photo with one foot to the north and one foot to the south. Kamýk also has a weather station that sends weather balloons up into the sky every day, so part of Prague\'s weather forecast starts here.',
@@ -908,20 +909,18 @@ export default {
     ],
     'Kunratice': [
       { h: 'Overview', p: [
-        'Kunratice lies in the south of Prague, under the administration of Prague 4, but it is a borough of its own, with its own square, church and an old castle. To the north is a large forest, and to the west the biggest Vietnamese market in the city. Kunratice still feels like a small town, and only became part of Prague in 1968.',
+        'Kunratice lies in the south of Prague, under the administration of Prague 4, but it is a borough of its own, with its own square, church and an old castle. To the north is a large forest. Kunratice still feels like a small town, and only became part of Prague in 1968.',
       ] },
       { h: 'History', p: [
         'The name Kunratice comes from a man called Konrad; it was the name of a medieval village. In the early 15th century King Wenceslas IV built a new castle in the forest near the village, and he loved staying there, far from the quarrels of Prague. In 1419, shortly after Prague\'s first defenestration, the king died in that castle, of a stroke on hearing the news, it is said. The castle was destroyed in the Hussite Wars and only ruins remain.',
-        'For centuries afterwards Kunratice stayed a village with a small chateau and a Baroque church. In 1999 a Vietnamese market called Sapa opened on the site of an old meat-processing plant to the west, and today it is one of the centres of the Vietnamese community in the whole country.',
-        'Why Vietnamese, in a Prague suburb? Under communism Czechoslovakia took in people from its ally Vietnam: about a hundred schoolchildren in 1956, then, from the 1970s, thousands of young trainees for its factories. When those agreements ended after 1989, many stayed and made a living selling clothes from market stalls. All those stalls needed somewhere to buy their stock, and that place became Sapa.',
+        'For centuries afterwards Kunratice stayed a village with a small chateau and a Baroque church.',
       ] },
       { h: 'Fun facts', p: [
         'A king, in his favourite castle, died of rage at bad news from Prague. At least, that is how the legend goes. The castle now lies hidden deep in the forest, and it takes a bit of a walk to find it.',
-        'Sapa is called "Prague\'s Little Hanoi", and its pho is often said to be the most authentic in the city.',
       ] },
       { h: 'Famous landmarks', landmarks: true },
       { h: 'Getting around', p: [
-        'Wander around the little town\'s square and church, then head into the forest to the north to find the ruins of the king\'s castle, and finish by walking west to Sapa for a bowl of pho.',
+        'Wander around the little town\'s square and church, then head into the forest to the north to find the ruins of the king\'s castle.',
       ] },
     ],
     'Záběhlice': [
@@ -1603,9 +1602,15 @@ export default {
       { h: 'Famous landmarks', landmarks: true },
     ],
     'Písnice': [
-      { h: 'Overview', p: ['Písnice is one of the southernmost places in Prague and belongs to Prague 12, an old village surrounded by new housing and fields. The 50th parallel runs right past the village, where a monument marks it.'] },
-      { h: 'History', p: ['The name Písnice comes from "sand", and for centuries it was a farming village; it joined Prague in 1968. Today people mostly come here to stand on the 50th parallel and take a photo with one foot to the north and one to the south.'] },
+      { h: 'Overview', p: ['Písnice is one of the southernmost places in Prague and belongs to Prague 12, an old village surrounded by new housing and fields. The 50th parallel runs right past the village, where a monument marks it, and just to the north lies the biggest Vietnamese market in the city.'] },
+      { h: 'History', p: [
+        'The name Písnice comes from "sand", and for centuries it was a farming village; it joined Prague in 1968. Today people come here to stand on the 50th parallel and take a photo with one foot to the north and one to the south.',
+        'In 1999 a Vietnamese market called Sapa opened on the site of an old meat-processing plant at the north end of Písnice, and today it is one of the centres of the Vietnamese community in the whole country.',
+        'Why Vietnamese, in a Prague suburb? Under communism Czechoslovakia took in people from its ally Vietnam: about a hundred schoolchildren in 1956, then, from the 1970s, thousands of young trainees for its factories. When those agreements ended after 1989, many stayed and made a living selling clothes from market stalls. All those stalls needed somewhere to buy their stock, and that place became Sapa.',
+      ] },
+      { h: 'Fun facts', p: ['Sapa is called "Prague\'s Little Hanoi", and its pho is often said to be the most authentic in the city.'] },
       { h: 'Famous landmarks', landmarks: true },
+      { h: 'Getting around', p: ['Take your photo on the 50th parallel, then walk a few minutes north along Libušská to Sapa for a bowl of pho.'] },
     ],
     'Točná': [
       { h: 'Overview', p: ['Točná lies on the plateau in the south of Prague and belongs to Prague 12. It has an old village, a small airfield and a nature reserve hiding the earthworks of an ancient stronghold.'] },
