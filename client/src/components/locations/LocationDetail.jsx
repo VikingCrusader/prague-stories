@@ -697,7 +697,7 @@ export default function LocationDetail({
                     borderTop: "1px solid var(--divider, #222)",
                   }}
                 >
-                  {user && (
+                  {user?.isAdmin && (
                     <button
                       className="px-btn px-btn--outline px-btn--sm"
                       onClick={() => setShowEdit(true)}

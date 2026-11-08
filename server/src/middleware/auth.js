@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
+import { isAdmin } from '../utils/admin.js';
 
 export async function optionalAuth(req, res, next) {
   const header = req.headers.authorization;
@@ -9,6 +10,12 @@ export async function optionalAuth(req, res, next) {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     req.user = await User.findById(decoded.id).select('-password');
   } catch { /* invalid token — proceed unauthenticated */ }
+  next();
+}
+
+// After `protect`: only the admin account gets through.
+export function adminOnly(req, res, next) {
+  if (!isAdmin(req.user)) return res.status(403).json({ message: 'Only the admin can edit cards' });
   next();
 }
 

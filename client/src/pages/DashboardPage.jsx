@@ -34,14 +34,14 @@ export default function DashboardPage() {
         <h1 className="px-title dashboard-title" style={{ fontSize: guest ? 22 : 26, margin: 0 }}>
           {guest && !user ? t('dashboard.titleGuest') : t('dashboard.title')}
         </h1>
-        {/* Logout lives here rather than in the navbar (2026-10-11), and so
+        {/* On phones logout lives here (on desktop in the navbar since 2026-11-08), and so
             do the ways to the Privacy page (location consent) and, since
             2026-11-02, the leaderboard. */}
         <div style={{ display: 'flex', gap: 8, flexShrink: 0, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
           {user && <Link to="/leaderboard" className="px-btn px-btn--dark px-btn--sm">{t('nav.leaderboard')}</Link>}
           <Link to="/privacy" className="px-btn px-btn--dark px-btn--sm">{t('privacy.title')}</Link>
           {user && (
-            <button className="px-btn px-btn--dark px-btn--sm" onClick={() => { logout(); navigate('/login'); }}>
+            <button className="px-btn px-btn--dark px-btn--sm dashboard-logout" onClick={() => { logout(); navigate('/login'); }}>
               {t('nav.logout')}
             </button>
           )}

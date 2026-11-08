@@ -565,6 +565,26 @@ test('the toolbar stays at the top, and past the third row offers the way back',
   await expect(back).toHaveCount(0);
 });
 
+test('only the admin gets the Edit button; logout sits in the navbar on desktop and on the profile on phones', async ({ page }) => {
+  await page.route('**/api/locations/*', route => route.fulfill({ json: { ...CARDS[0], description: { en: 'x', cz: 'x', zh: 'x' } } }));
+  await page.setViewportSize({ width: 1920, height: 940 });
+  await page.goto('/explore');
+  await expect(page.locator('.navbar__github')).toHaveCount(0);
+  await expect(page.locator('.navbar__logout')).toBeVisible();
+  await page.locator('.explore-main .loc-card').first().click();
+  const edit = page.locator('.px-modal--detail').getByRole('button', { name: 'Edit', exact: true });
+  await expect(page.locator('.px-modal--detail')).toBeVisible();
+  await expect(edit).toHaveCount(0);
+
+  await page.route('**/api/auth/me', route => route.fulfill({ json: { user: { ...USER, isAdmin: true } } }));
+  await page.reload();
+  await page.locator('.explore-main .loc-card').first().click();
+  await expect(edit).toBeVisible();
+
+  await page.setViewportSize({ width: 412, height: 800 });
+  await expect(page.locator('.navbar__logout')).toBeHidden();
+});
+
 test('too narrow or too short for the column, Explore stays stacked', async ({ page }) => {
   for (const [width, height] of [[1100, 900], [1366, 650]]) {
     await page.setViewportSize({ width, height });

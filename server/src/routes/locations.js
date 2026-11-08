@@ -5,7 +5,7 @@ import {
   getLocations, getLocation, createLocation, deleteLocation, updateLocation,
   uploadCoverImage, upload,
 } from '../controllers/locationController.js';
-import { protect } from '../middleware/auth.js';
+import { protect, adminOnly } from '../middleware/auth.js';
 
 const router = Router();
 
@@ -25,8 +25,8 @@ async function optionalAuth(req, res, next) {
 router.get('/',        optionalAuth, getLocations);
 router.get('/:slug',   optionalAuth, getLocation);
 router.post('/',       protect, createLocation);
-router.put('/:slug',   protect, updateLocation);
-router.delete('/:slug', protect, deleteLocation);
-router.post('/:slug/cover', protect, upload.single('cover'), uploadCoverImage);
+router.put('/:slug',   protect, adminOnly, updateLocation);
+router.delete('/:slug', protect, adminOnly, deleteLocation);
+router.post('/:slug/cover', protect, adminOnly, upload.single('cover'), uploadCoverImage);
 
 export default router;

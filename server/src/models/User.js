@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
-import { calculateLevel } from '../services/gamification.js';
+import { calculateLevel } from '../services/gamification.js';
+import { isAdmin } from '../utils/admin.js';
 
 const achievementSchema = new mongoose.Schema({
   id:         { type: String, required: true },
@@ -120,6 +121,7 @@ userSchema.methods.toPublicJSON = function () {
   return {
     _id:           this._id,
     username:      this.username,
+    isAdmin:       isAdmin(this),
     email:         this.email,
     totalXP:       this.totalXP,
     explorerLevel: calculateLevel(this.totalXP).level,

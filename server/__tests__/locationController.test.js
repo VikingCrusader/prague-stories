@@ -215,7 +215,7 @@ describe('PUT /api/locations/:slug', () => {
   });
 
   test('404s for an unknown slug', async () => {
-    const { token } = await createAuthedUser();
+    const { token } = await createAuthedUser({ username: 'evan' });
     const res = await request(app)
       .put('/api/locations/does-not-exist')
       .set('Authorization', `Bearer ${token}`)
@@ -225,7 +225,7 @@ describe('PUT /api/locations/:slug', () => {
 
   test('updates fields and keeps rarity/xpReward in sync', async () => {
     await createLocation();
-    const { token } = await createAuthedUser();
+    const { token } = await createAuthedUser({ username: 'evan' });
 
     const res = await request(app)
       .put('/api/locations/charles-bridge')
@@ -247,7 +247,7 @@ describe('PUT /api/locations/:slug', () => {
 
   test('adding the outside label turns a card into expedition, removing it drops it to common', async () => {
     await createLocation();
-    const { token } = await createAuthedUser();
+    const { token } = await createAuthedUser({ username: 'evan' });
     const put = body => request(app).put('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`).send(body);
 
     let res = await put({ labels: ['castle', 'outside'], coordinates: { lat: 50.3, lng: 14.4 } });
@@ -264,7 +264,7 @@ describe('PUT /api/locations/:slug', () => {
 
   test("refuses to change the story of a card the user hasn't collected", async () => {
     const location = await createLocation({ description: { en: 'A bridge.', cz: 'Most.', zh: '桥。' } });
-    const { token, user } = await createAuthedUser();
+    const { token, user } = await createAuthedUser({ username: 'evan' });
     const put = () => request(app).put('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`)
       .send({ description: { en: 'Changed.' } });
     expect((await put()).status).toBe(403);
@@ -283,14 +283,14 @@ describe('DELETE /api/locations/:slug', () => {
   });
 
   test('404s for an unknown slug', async () => {
-    const { token } = await createAuthedUser();
+    const { token } = await createAuthedUser({ username: 'evan' });
     const res = await request(app).delete('/api/locations/does-not-exist').set('Authorization', `Bearer ${token}`);
     expect(res.status).toBe(404);
   });
 
   test('deletes the location and any of its check-ins', async () => {
     const location = await createLocation();
-    const { token, user } = await createAuthedUser();
+    const { token, user } = await createAuthedUser({ username: 'evan' });
     await CheckIn.create({ user: user._id, location: location._id });
 
     const res = await request(app).delete('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`);
@@ -298,6 +298,26 @@ describe('DELETE /api/locations/:slug', () => {
     expect(res.status).toBe(200);
     expect(await Location.findOne({ slug: 'charles-bridge' })).toBeNull();
     expect(await CheckIn.find({ location: location._id })).toHaveLength(0);
+  });
+});
+
+describe('editing cards is for the admin account only', () => {
+  test('another signed-in user gets a 403 and nothing changes', async () => {
+    await createLocation();
+    const { token } = await createAuthedUser();
+    const res = await request(app).put('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`).send({ name: 'Renamed' });
+    expect(res.status).toBe(403);
+    expect((await Location.findOne({ slug: 'charles-bridge' })).name).not.toBe('Renamed');
+    const cover = await request(app).post('/api/locations/charles-bridge/cover').set('Authorization', `Bearer ${token}`);
+    expect(cover.status).toBe(403);
+    const del = await request(app).delete('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`);
+    expect(del.status).toBe(403);
+    expect(await Location.countDocuments({ slug: 'charles-bridge' })).toBe(1);
+  });
+
+  test('the public user says who is the admin', async () => {
+    expect((await createAuthedUser({ username: 'evan' })).user.isAdmin).toBe(true);
+    expect((await createAuthedUser()).user.isAdmin).toBe(false);
   });
 });
 
@@ -310,7 +330,7 @@ describe('POST /api/locations/:slug/cover', () => {
 
   test('400s when no file is attached', async () => {
     await createLocation();
-    const { token } = await createAuthedUser();
+    const { token } = await createAuthedUser({ username: 'evan' });
     const res = await request(app)
       .post('/api/locations/charles-bridge/cover')
       .set('Authorization', `Bearer ${token}`);
@@ -318,7 +338,7 @@ describe('POST /api/locations/:slug/cover', () => {
   });
 
   test('404s for an unknown slug even with a file attached', async () => {
-    const { token } = await createAuthedUser();
+    const { token } = await createAuthedUser({ username: 'evan' });
     const res = await request(app)
       .post('/api/locations/does-not-exist/cover')
       .set('Authorization', `Bearer ${token}`)

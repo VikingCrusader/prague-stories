@@ -1288,8 +1288,6 @@ button.navbar__user:hover { text-decoration: underline; text-underline-offset: 3
 /* Profile level badge doubles as the way into LevelsModal. */
 button.level-badge--btn { font: inherit; color: inherit; text-align: left; cursor: pointer; }
 button.level-badge--btn:hover { border-color: var(--gold); }
-.navbar__github { display: flex; align-items: center; color: var(--gold); opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
-.navbar__github:hover { opacity: 1; transform: scale(1.1); }
 .navbar__theme { display: flex; align-items: center; background: none; border: none; padding: 0; cursor: pointer; color: var(--gold); opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
 .navbar__theme:hover { opacity: 1; transform: scale(1.1); }
 
@@ -1316,7 +1314,6 @@ button.level-badge--btn:hover { border-color: var(--gold); }
     padding: 8px 16px;
   }
   .navbar__right { gap: 14px; }
-  .navbar__github svg { width: 34px; height: 34px; }
   .navbar__theme svg { width: 30px; height: 30px; }
 }
 
@@ -2330,7 +2327,6 @@ html[data-lang="zh"] .detail-title-name {
   html:not([data-lang="zh"]) .navbar__logo { font-size: 22px; }
   html[data-lang="zh"] .navbar .navbar__logo { font-size: 22px !important; }
   .navbar__right { gap: 8px; }
-  .navbar__github svg { width: 26px; height: 26px; }
   .navbar__theme svg { width: 24px; height: 24px; }
   html:not([data-lang="zh"]) .navbar__right .lang-tab:not(.lang-tab--zh),
   .lang-tab { padding: 5px 9px; font-size: 12px; }
@@ -2360,7 +2356,6 @@ html[data-lang="zh"] .detail-title-name {
   .navbar__logo-icon { height: 28px; }
   /* No GitHub link on phones, so the logo and the right cluster fit on
      one row instead of the cluster wrapping under a lonely logo. */
-  .navbar__github { display: none; }
   .navbar { column-gap: 8px; }
   .navbar__right { order: 2; margin-left: auto; gap: 4px; flex-wrap: nowrap; }
   .navbar .navbar__right .lang-tab { padding: 5px 5px; letter-spacing: 0 !important; }
@@ -2995,6 +2990,16 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .district-map__glow { opacity: 0; pointer-events: none; transition: opacity 0.6s ease; }
 .district-map__glow--on { opacity: 1; pointer-events: auto; cursor: pointer; }
 @media (prefers-reduced-motion: reduce) { .district-map__glow { transition: none; } }
+
+/* Logout: in the navbar on desktop, on the profile page on phones. */
+.navbar__logout { flex: none; white-space: nowrap; }
+@media (max-width: 600px) { .navbar__logout { display: none; } }
+@media (min-width: 601px) { .dashboard-logout { display: none; } }
+/* English and Czech are longer: the one-row navbar needs tighter links just above its breakpoint. */
+@media (min-width: 1440px) and (max-width: 1535px) {
+  html:not([data-lang="zh"]) .navbar__links { gap: 4px; margin-left: 8px; }
+  html:not([data-lang="zh"]) .navbar__link { padding-left: 8px; padding-right: 8px; }
+}
 
 /* The side column below 2K (1080p, MacBooks, iPads sideways; exploreLayout.js):
    the same parts, narrower and packed tighter, since height is what these lack. */

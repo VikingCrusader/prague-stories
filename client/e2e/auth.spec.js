@@ -114,7 +114,7 @@ test.describe('Logout', () => {
     await page.goto('/explore');
     await expect(page.getByText('40 XP · Lv 2')).toBeVisible();
 
-    // Logout lives on the Profile page, not in the navbar.
+    // Logout is in the navbar on desktop (on the Profile page on phones).
     await page.route('**/api/user/progress', route => route.fulfill({ json: {
       levelInfo: { level: 2, title: 'Wanderer', progress: 10, nextLevelXP: 100 },
       totalXP: 40, totalCheckins: 0, unlockPercent: 0, labelCount: {}, rarityCount: {}, totalPreset: 0,
