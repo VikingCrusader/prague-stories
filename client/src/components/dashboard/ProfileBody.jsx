@@ -33,6 +33,7 @@ const FIT_LABELS = [
   '.card-strip__empty',
   '.card-strip__name',
   '.card-strip__meta',
+  '.week-card__name',
 ].join(', ');
 
 export default function ProfileBody({ progress, achievements, username, own = true, isGuest = false }) {
@@ -107,7 +108,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
         {/* Phones: the rank beside the level badge (2026-11-03); the "This
             week" card below then leaves its rank column out. */}
         <Link to="/leaderboard" className="stat-card stat-card--link stat-card--rank-top">
-          <div className="stat-card__label">{t('dashboard.rank')}</div>
+          <div className="stat-card__label">{t('dashboard.rankShort')}</div>
           <div className="stat-card__value">{rankValue}</div>
         </Link>
 

@@ -275,9 +275,9 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   );
   const stats = (
     <p className="explore-stats" style={{ margin: 0 }}>
-      <span>{unlocked}</span>{cityScoped && <> / <span>{total}</span></>} {t('explore.statsLabel')}
+      <span>{unlocked}</span>{cityScoped && <> / <span>{total}</span></>} <em className="explore-stats__long">{t('explore.statsLabel')}</em><em className="explore-stats__short">{t('explore.statsLabelShort')}</em>
       {/* A total and a share only for the city: expedition cards are an extra, not the goal (user's call). */}
-      {cityScoped && total > 0 && <>{' '}<br /><em className="explore-stats__label">{t('explore.progress')} </em><span>{(unlocked / total * 100).toFixed(1)}%</span></>}
+      {cityScoped && total > 0 && <>{' '}<br /><em className="explore-stats__label explore-stats__long">{t('explore.progress')} </em><em className="explore-stats__short">{t('explore.progressShort')} </em><span>{(unlocked / total * 100).toFixed(1)}%</span></>}
     </p>
   );
 
@@ -292,7 +292,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         onClearAll: () => { setActiveLabels(new Set()); setActiveRarities(new Set()); },
       }), appliedSlot)}
 
-      <div className={wide ? 'explore-toolbar' : undefined} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: wide ? 8 : 16 }}>
+      <div className={`explore-sortbar${wide ? ' explore-toolbar' : ''}`} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: wide ? 8 : 16 }}>
         {stats}
         {showBackToTop && (
           <button type="button" className="filter-btn explore-toolbar__top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>

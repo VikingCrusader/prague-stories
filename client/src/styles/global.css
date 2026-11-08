@@ -1075,3 +1075,126 @@ html[data-lang="zh"] .navbar .navbar__user {
 }
 
 :root:not([data-theme="light"]) ::placeholder { color: var(--text-muted); opacity: 0.8; }
+
+/* EN/CZ reading text in LXGW WenKai (2026-11-08, trial at the user's call), only where
+   text wraps freely, since it runs about 25-30% wider. Its ellipsis and middle dot sit
+   Chinese-style, so those two come from a system serif. */
+@font-face {
+  font-family: "Reading Punctuation";
+  src: local("Georgia"), local("Times New Roman"), local("Noto Serif");
+  unicode-range: U+2026, U+00B7;
+}
+:root { --reading-font: "Reading Punctuation", "LXGW WenKai TC", "Alegreya Sans", sans-serif; }
+html:not([data-lang="zh"]) .detail-desc,
+html:not([data-lang="zh"]) .detail-desc p,
+html:not([data-lang="zh"]) .loc-card__story > p,
+html:not([data-lang="zh"]) .card-preview,
+html:not([data-lang="zh"]) .card-preview *,
+html:not([data-lang="zh"]) .area-guide__text p,
+html:not([data-lang="zh"]) .history-event__summary,
+html:not([data-lang="zh"]) .history-event__hook,
+html:not([data-lang="zh"]) .guide-page:not(.draw-page) .guide-body,
+html:not([data-lang="zh"]) .guide-page:not(.draw-page) .guide-intro,
+html:not([data-lang="zh"]) .guide-page:not(.draw-page) .guide-tip,
+html:not([data-lang="zh"]) .guide-page:not(.draw-page) .guide-faq__a,
+html:not([data-lang="zh"]) .guide-page:not(.draw-page) .guide-challenge,
+html:not([data-lang="zh"]) .explore-side,
+/* The whole side column, its blackletter headings (.px-title) excepted. */
+html:not([data-lang="zh"]) .explore-side *:not(.px-title):not(.px-title *),
+html:not([data-lang="zh"]) .ach-modal__flavor {
+  font-family: var(--reading-font) !important;
+}
+html:not([data-lang="zh"]) .explore-side input::placeholder {
+  font-family: var(--reading-font) !important;
+  font-weight: 400;
+}
+
+/* EN/CZ: the navbar (not the blackletter logo), in bold, and the cards on Explore. */
+@media (min-width: 601px) {
+  html:not([data-lang="zh"]) .navbar *:not(.navbar__logo):not(.navbar__logo *) {
+    font-family: var(--reading-font) !important;
+    font-weight: 700;
+  }
+  html:not([data-lang="zh"]) .navbar .navbar__link { font-size: 17px; }
+}
+html:not([data-lang="zh"]) .explore-page .loc-card,
+html:not([data-lang="zh"]) .explore-page .loc-card *,
+html:not([data-lang="zh"]) .card-showcase .loc-card,
+html:not([data-lang="zh"]) .card-showcase .loc-card * {
+  font-family: var(--reading-font) !important;
+}
+
+/* EN/CZ: quote boxes in the same face as the History titles; Explore's count, sort button and its dropdown in the reading font. */
+html:not([data-lang="zh"]) .history-event__quote-text {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif;
+}
+html:not([data-lang="zh"]) .explore-page .explore-sortbar,
+html:not([data-lang="zh"]) .explore-page .explore-sortbar * {
+  font-family: var(--reading-font) !important;
+}
+
+/* EN/CZ: the whole profile in the reading font, its page title in blackletter; a card's detail pop-up keeps the shared look. */
+html:not([data-lang="zh"]) .dashboard-page,
+html:not([data-lang="zh"]) .dashboard-page *:not(.dashboard-title):not(.px-modal--detail):not(.px-modal--detail *):not(.ach-row__name):not(.ach-modal__name):not(.ach-tile__name):not(.ach-unlock__name):not(.rarity-compact__name):not(.card-strip__empty):not(.card-strip__empty *):not(.stat-card--rank-top .stat-card__label) {
+  font-family: var(--reading-font) !important;
+}
+/* Too narrow for the wider face: these labels keep the original font. */
+html:not([data-lang="zh"]) .dashboard-page .rarity-compact__name,
+html:not([data-lang="zh"]) .dashboard-page .card-strip__empty,
+html:not([data-lang="zh"]) .dashboard-page .card-strip__empty * {
+  font-family: "Alegreya Sans", sans-serif !important;
+}
+html:not([data-lang="zh"]) .dashboard-page .stat-card--rank-top .stat-card__label {
+  font-family: var(--ui-font) !important;
+}
+/* Narrow phones: the level badge keeps the original font, or the row runs past the screen. */
+@media (max-width: 600px) {
+  html:not([data-lang="zh"]) #root .dashboard-page .level-badge,
+  html:not([data-lang="zh"]) #root .dashboard-page .level-badge * { font-family: var(--ui-font-text) !important; }
+}
+html:not([data-lang="zh"]) .dashboard-title {
+  font-family: "Manufacturing Consent", serif !important;
+  font-size: 34px !important;
+  font-weight: 400;
+}
+
+/* EN/CZ phones: the blackletter profile title gets its own line above the buttons. */
+@media (max-width: 600px) {
+  html:not([data-lang="zh"]) .dashboard-head { flex-wrap: wrap !important; }
+  html:not([data-lang="zh"]) .dashboard-title { flex: 1 1 100%; font-size: 30px !important; word-break: normal; overflow-wrap: normal; }
+}
+/* The sort button stays on one line beside the wider count. */
+html:not([data-lang="zh"]) .explore-page .explore-sortbar > .label-filter { flex: none; }
+html:not([data-lang="zh"]) .explore-page .explore-sortbar .filter-btn { white-space: nowrap; }
+/* The count: on phones a short word, so it stays on one line in EN/CZ. */
+.explore-stats__long, .explore-stats__short { font-style: normal; }
+.explore-stats__short { display: none; }
+@media (max-width: 600px) {
+  html:not([data-lang="zh"]) .explore-stats__long { display: none; }
+  html:not([data-lang="zh"]) .explore-stats__short { display: inline; }
+  html:not([data-lang="zh"]) .explore-stats { font-size: 15px; white-space: nowrap; }
+}
+
+/* EN/CZ, Explore without the side column: position, search and filters; the blackletter title stays. */
+html:not([data-lang="zh"]) .explore-page .explore-header *:not(.px-title):not(.px-title *),
+html:not([data-lang="zh"]) .explore-page .filter-bar,
+html:not([data-lang="zh"]) .explore-page .filter-bar * {
+  font-family: var(--reading-font) !important;
+}
+html:not([data-lang="zh"]) .explore-page .filter-bar input::placeholder { font-family: var(--reading-font) !important; font-weight: 400; }
+
+/* EN/CZ: the card detail, Map, Achievements and Treasure Hunt in the reading font (page titles, achievement names and difficulty badges keep theirs). */
+html:not([data-lang="zh"]) .px-modal--detail,
+html:not([data-lang="zh"]) .px-modal--detail *,
+html:not([data-lang="zh"]) .map-page,
+html:not([data-lang="zh"]) .map-page *,
+html:not([data-lang="zh"]) .achievements-page,
+html:not([data-lang="zh"]) .achievements-page *:not(h1):not(.ach-badge-pill):not(.ach-row__tier):not(.ach-row__name):not(.ach-modal__name):not(.ach-tile__name):not(.ach-unlock__name),
+html:not([data-lang="zh"]) .ach-modal,
+html:not([data-lang="zh"]) .ach-modal *:not(.ach-badge-pill):not(.ach-row__tier):not(.ach-row__name):not(.ach-modal__name):not(.ach-tile__name):not(.ach-unlock__name),
+html:not([data-lang="zh"]) .ach-unlock,
+html:not([data-lang="zh"]) .ach-unlock *:not(.ach-row__name):not(.ach-modal__name):not(.ach-tile__name):not(.ach-unlock__name),
+html:not([data-lang="zh"]) .draw-page,
+html:not([data-lang="zh"]) .draw-page *:not(h1) {
+  font-family: var(--reading-font) !important;
+}

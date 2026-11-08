@@ -304,7 +304,9 @@ test.describe('Dashboard', () => {
       await page.locator('.rarity-compact__item', { hasText: 'Legendary' }).getByRole('button').click();
       await expect(page.locator('.profile-gallery .loc-card')).toHaveCount(20); // collected ones of this rarity only
       await expect(page.locator('.profile-gallery .card-strip__count')).toHaveText('20');
-      expect(Math.abs(await widthOn('.profile-gallery') - onExplore)).toBeLessThan(1);
+      // With the side column Explore scales its cards to fit whole rows; the window keeps them full size.
+      if (width >= 1180 && height >= 700) expect(await widthOn('.profile-gallery')).toBeGreaterThanOrEqual(onExplore - 1);
+      else expect(Math.abs(await widthOn('.profile-gallery') - onExplore)).toBeLessThan(1);
       if (wide) expect(await columns()).toBeGreaterThan(6); // Explore stops at six
     }
     await expect(page).toHaveURL(/\/dashboard/);

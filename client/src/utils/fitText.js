@@ -14,7 +14,7 @@ export function fitText(root, selector, min = 9) {
     let size = parseFloat(getComputedStyle(el).fontSize);
     for (let i = 0; i < 40 && el.scrollWidth > el.clientWidth + 0.5 && size > min; i++) {
       size -= 0.5;
-      el.style.fontSize = `${size}px`;
+      el.style.setProperty('font-size', `${size}px`, 'important'); // some labels have an !important size
     }
   }
 }
@@ -27,10 +27,12 @@ export function useFitText(ref, selector, deps, min) {
     const run = () => fitText(root, selector, min);
     run();
     document.fonts?.ready.then(run);
+    // Font files load by character set, so a label can get its font after `ready`.
+    document.fonts?.addEventListener?.('loadingdone', run);
     const target = root.parentElement || root;
     const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(run) : null;
     ro?.observe(target);
-    return () => ro?.disconnect();
+    return () => { ro?.disconnect(); document.fonts?.removeEventListener?.('loadingdone', run); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, deps);
 }

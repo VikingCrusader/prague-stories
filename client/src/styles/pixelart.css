@@ -3010,6 +3010,10 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
   .explore-side { gap: 8px; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; }
   .explore-side::-webkit-scrollbar { display: none; }
   .explore-map-fold { width: 100%; flex: none; }
+  /* LXGW WenKai runs wide: EN/CZ keep the map's toggle on one line and leave room for a two-line hint. */
+  html:not([data-lang="zh"]) .explore-side .district-map__toggle .filter-btn { padding: 4px 8px; font-size: 13.5px; white-space: nowrap; }
+  html:not([data-lang="zh"]) .explore-side .district-map__toggle-label { font-size: 13.5px; }
+  html:not([data-lang="zh"]) .explore-side > .district-map { height: calc((var(--explore-side-w) - 12px) / 1.314 + 96px); }
   /* A scrolling column clips what sticks out, so the dropdowns span it exactly. */
   .explore-side .filter-bar__bottom { position: relative; }
   .explore-side .filter-bar__bottom .label-filter { position: static; }
