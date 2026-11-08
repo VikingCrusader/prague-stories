@@ -4,10 +4,13 @@ import { useLayoutEffect } from 'react';
 // call), at any screen size. The layout is compact and has fixed columns
 // (pixelart.css, `.profile-body` under ONE_PAGE), so at about 1080p it fits at
 // close to its normal size; the page is then zoomed a little to fit exactly:
-// larger on big screens, smaller on small ones. Phones and very short windows
-// keep the normal scrolling page, and a 2K screen or larger keeps the normal
+// larger on big screens, smaller on small ones. Phones, portrait screens such as
+// an upright iPad, and very short windows keep the normal scrolling page, and a
+// 2K screen or larger keeps the normal
 // wide layout, which fits it already (user's call).
-const ONE_PAGE = '(min-width: 1024px) and (max-width: 2399px) and (min-height: 500px), (min-width: 2400px) and (min-height: 500px) and (max-height: 1199px)';
+const ONE_PAGE = '(min-width: 1024px) and (max-width: 2399px) and (min-height: 500px) and (orientation: landscape), (min-width: 2400px) and (min-height: 500px) and (max-height: 1199px)';
+// Macs and iPads (iPadOS reports itself as a Mac; an iPhone is too narrow to get here).
+export const IS_APPLE = /Macintosh|Mac OS X/.test(navigator.userAgent);
 const MIN_ZOOM = 0.5;
 const MAX_ZOOM = 1.6;
 // The three columns need about this much width, so a narrow, tall window can't zoom in.
@@ -54,12 +57,21 @@ function fitPage(body) {
   const kids = [...page.children];
   kids.forEach(k => { k.style.zoom = ''; });
   body.style.height = '';
+  body.classList.remove('profile-body--tall', 'profile-body--apple');
   if (!window.matchMedia(ONE_PAGE).matches) return;
   const pageRect = page.getBoundingClientRect();
   const bottom = pageRect.bottom - parseFloat(getComputedStyle(page).paddingBottom);
   const width = pageRect.width - 2 * parseFloat(getComputedStyle(page).paddingLeft);
   const maxZoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, width / MIN_LAYOUT_WIDTH));
-  const zoom = solveZoom(kids, body, bottom, maxZoom);
+  // On a Mac or iPad: two rows of rarities, and a third row of achievements if the
+  // page needn't shrink for it.
+  let zoom;
+  if (IS_APPLE) {
+    body.classList.add('profile-body--apple', 'profile-body--tall');
+    zoom = solveZoom(kids, body, bottom, maxZoom);
+    if (zoom < maxZoom) body.classList.remove('profile-body--tall');
+  }
+  if (!body.classList.contains('profile-body--tall')) zoom = solveZoom(kids, body, bottom, maxZoom);
   // The cards share out whatever the zoom left over.
   body.style.height = `${(bottom - viewportRect(body).top) / zoom}px`;
 }

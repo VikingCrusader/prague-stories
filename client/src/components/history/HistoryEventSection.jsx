@@ -12,13 +12,9 @@ import { achField } from '../../utils/achievementText';
 import AchievementIcon from '../achievements/AchievementIcon';
 import HistoryOverviewCard from './HistoryOverviewCard';
 
-// One event's full write-up, rendered as an in-flow section inside
-// HistoryPage's scrollable feed — not a single "selected event" detail
-// pane. The whole feed scrolls as an ordinary page; HistorySidebar is the
-// persistent nav (sticky, see history.css) that either scrolls a section
-// into view on click or gets highlighted by scroll-spy as the user scrolls
-// past it (see HistoryPage's IntersectionObserver). `sectionRef` is how
-// HistoryPage gets a DOM node per event to observe/scrollIntoView.
+// A background or era-overview card as one panel, and the pieces of an event
+// card that HistoryPaged and HistoryBook lay out themselves. `sectionRef` gives
+// the caller the card's DOM node, to scroll to it.
 //
 // Related landmarks render inside the shared `.location-grid` class from
 // Explore, so column widths/gaps still match Explore's grid — but each
@@ -105,8 +101,7 @@ function EventCard({ event, onOpenLandmark, onOpenAchievement, onNavigateToEvent
   );
 }
 
-// The pieces of a card, shared by the scrolling feed (EventCard above) and the
-// desktop one-page-per-event view (HistoryBook), which lays them out in panels.
+// The pieces of a card, shared by EventCard above, HistoryPaged and HistoryBook.
 
 export function EventTitle({ event, link = true }) {
   const t = useT();
@@ -289,6 +284,9 @@ export function EventAchievements({ event, onOpen }) {
   );
 }
 
+// A cut-off caption shows the rest on hover, and on a tap for touch screens.
+const toggleCaption = (e) => e.currentTarget.classList.toggle('is-open');
+
 // The image captions on their own, for layouts that show them apart from the images.
 export function EventImageCaptions({ event }) {
   const { lang } = useLang();
@@ -297,7 +295,7 @@ export function EventImageCaptions({ event }) {
     <>
       {event.imageCaptions?.map((caption, i) => {
         const text = caption?.[lang] || caption?.en;
-        return text ? <p key={i} className="history-landmark-caption">{convert(text)}</p> : null;
+        return text ? <p key={i} className="history-landmark-caption" onClick={toggleCaption}>{convert(text)}</p> : null;
       })}
     </>
   );
@@ -401,7 +399,8 @@ export function EventLandmarks({ event, onOpenLandmark }) {
                     distance={distance}
                     onClick={() => onOpenLandmark(landmark.slug)}
                   />
-                  <p className="history-landmark-caption">
+                  {/* On the paragraph: the hovered span becomes a floating box, which can move it out from under the pointer. */}
+                  <p className="history-landmark-caption" onClick={(e) => e.currentTarget.firstElementChild.classList.toggle('is-open')}>
                     <span>{convert(relation[lang] || relation.en)}</span>
                   </p>
                 </div>

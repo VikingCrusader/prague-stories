@@ -40,12 +40,12 @@ function useGridColumns(ref, active) {
   return cols;
 }
 
-export function AchievementTile({ achievement: a, onOpen }) {
+export function AchievementTile({ achievement: a, onOpen, extra = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   return (
-    <button type="button" className="ach-tile" onClick={() => onOpen(a)}>
+    <button type="button" className={`ach-tile${extra ? ' ach-tile--extra' : ''}`} onClick={() => onOpen(a)}>
       <span className="ach-icon" data-difficulty={a.difficulty}><AchievementIcon achievement={a} /></span>
       <span className="ach-tile__name">{convert(achField(a, 'name', lang))}</span>
       {a.unlockedAt && <span className="ach-tile__date">{formatAchDate(a.unlockedAt, lang)}</span>}
@@ -67,6 +67,7 @@ export default function RarestAchievements({ achievements, onOpen, onSeeAll, tit
   const newestRow = [...unlocked].sort(newestFirst).slice(0, cols);
   const rest = unlocked.filter(a => !newestRow.includes(a)).sort(rarestFirst);
   const tiles = [...newestRow, ...rest.slice(0, cols)];
+  const thirdRow = rest.slice(cols, cols * 2);
   const hasMore = rest.length > cols;
 
   return (
@@ -84,6 +85,7 @@ export default function RarestAchievements({ achievements, onOpen, onSeeAll, tit
       {tiles.length > 0 ? (
         <div ref={gridRef} className="ach-showcase">
           {tiles.map(a => <AchievementTile key={a.id} achievement={a} onOpen={onOpen} />)}
+          {thirdRow.map(a => <AchievementTile key={a.id} achievement={a} onOpen={onOpen} extra />)}
         </div>
       ) : (
         <p className="guide-body" style={{ color: 'var(--text-muted)' }}>{t('ach.noneYet')}</p>

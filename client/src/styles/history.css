@@ -24,147 +24,6 @@
    back to the real, window-level scroll context. */
 .history-page { display: flex; flex-direction: column; overflow-y: visible; }
 
-.history-layout {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-  max-width: 1100px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-/* ── Sidebar ─────────────────────────────────────────────────────────── */
-/* Sticks in place as `.history-feed` scrolls past it (76px clears the
-   app's own sticky 60px navbar). The max-height + overflow is just a
-   fallback for viewports too short to fit the whole era list — the common
-   case is the sidebar simply staying put in full while the page scrolls.
-   z-index is required, not decorative: `.loc-card` (inside the feed) is
-   `position: relative`, so once the sidebar and feed share the same
-   horizontal space — the mobile column layout below 820px, where the
-   sidebar is full-width above the feed instead of beside it — both are
-   `position` + `z-index: auto`, which stack by DOM order, and the feed's
-   cards come *after* the sidebar in the markup. Without an explicit
-   z-index here the scrolling cards paint over the sticky sidebar as they
-   pass underneath it instead of staying behind it. Keep this comfortably
-   below the navbar's z-index: 100 (pixelart.css) so the sidebar never
-   competes with it. */
-.history-sidebar {
-  flex: 0 0 280px;
-  position: sticky;
-  top: 76px;
-  z-index: 10;
-  align-self: flex-start;
-  max-height: calc(100vh - 96px);
-  overflow-y: auto;
-  border: 3px solid var(--border);
-  border-radius: 6px;
-  background: var(--bg-surface);
-}
-
-.history-sidebar__era {
-  /* Was var(--era-accent, var(--border)) — a different colour per era
-     (including red and purple). Unified to the site's one canonical gold,
-     same as the title text below, so the sidebar reads as one consistent
-     nav rather than a per-era palette. */
-  border-left: 4px solid var(--gold);
-  border-bottom: 1px solid var(--border);
-}
-.history-sidebar__era:last-child { border-bottom: none; }
-
-.history-sidebar__era-title {
-  font-family: var(--ui-font-text);
-  font-size: 13px;
-  line-height: 1.6;
-  color: var(--gold);
-  text-shadow: 1px 1px 0 var(--shadow);
-  padding: 12px 14px 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-/* Applied alongside .history-sidebar__era-title (not instead of it) on the
-   content eras' <button> — only overrides what needs to change to turn a
-   static heading into a horizontal, clickable toggle row; font/color/
-   text-shadow/padding all still come from the base rule above since both
-   classes land on the same element. */
-.history-sidebar__era-title--toggle {
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
-  min-width: 0;
-  background: none;
-  border: none;
-  cursor: pointer;
-  text-align: left;
-}
-.history-sidebar__era-chevron {
-  display: inline-block;
-  flex: 0 0 auto;
-  transition: transform 0.15s ease;
-}
-.history-sidebar__era-chevron--open { transform: rotate(90deg); }
-/* Same fix as .history-landmark-item's min-width: 0 (see that comment) —
-   a flex item's default auto min-width refuses to shrink below its
-   content's own natural (unwrapped) width, which for a long Chinese era
-   title in the pixel font is wide enough to force this row past a narrow
-   mobile sidebar's bounds instead of wrapping. flex: 1 lets it actually
-   take the row's remaining space instead of just sizing to content. */
-/* Wraps title-text + year-range so they stack vertically next to the
-   chevron inside the row-direction toggle button — same min-width: 0 fix
-   as title-text itself needs, for the same reason (see the comment above). */
-.history-sidebar__era-title-stack {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-.history-sidebar__era-title-text {
-  flex: 1;
-  min-width: 0;
-  overflow-wrap: break-word;
-}
-.history-sidebar__era-year-range {
-  font-family: inherit;
-  font-size: 13px;
-  font-weight: 400;
-  color: var(--text-strong, #ffffff);
-  text-shadow: none;
-}
-
-.history-sidebar__item {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  width: 100%;
-  text-align: left;
-  background: none;
-  border: none;
-  border-left: 3px solid transparent;
-  cursor: pointer;
-  padding: 9px 14px 9px 11px;
-  transition: background 0.12s ease, border-color 0.12s ease;
-}
-.history-sidebar__item:hover { background: color-mix(in srgb, var(--fg-tint) 4%, transparent); }
-.history-sidebar__item--active {
-  background: color-mix(in srgb, var(--gold) 8%, transparent);
-  border-left-color: var(--gold);
-}
-.history-sidebar__item-year {
-  flex: 0 0 auto;
-  font-size: 12px;
-  color: var(--text-primary);
-  font-weight: 700;
-  min-width: 32px;
-}
-.history-sidebar__item--active .history-sidebar__item-year { color: var(--gold); }
-.history-sidebar__item-title {
-  font-size: 14px;
-  color: var(--text-primary);
-  line-height: 1.35;
-}
-
 /* ── Era colour themes ───────────────────────────────────────────────── */
 /* --era-accent is currently unread — the sidebar (above) was switched to
    a flat var(--gold) for both its title text and left-border stripe, so
@@ -245,15 +104,6 @@
   font-style: italic;
   color: var(--text-muted);
   line-height: 1.5;
-}
-
-/* ── Feed ────────────────────────────────────────────────────────────── */
-.history-feed {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
 }
 
 /* Each event's section — scroll-margin-top matches the sidebar's sticky
@@ -590,42 +440,6 @@
 }
 
 @media (max-width: 820px) {
-  .history-layout {
-    flex-direction: column;
-    /* .history-layout's base rule sets align-items: flex-start — needed
-       on desktop's row layout so the sidebar and feed can each have
-       independent heights (the sidebar is shorter and sticky). Once this
-       switches to flex-direction: column, the cross axis becomes
-       horizontal instead of vertical, and flex-start along that axis
-       means children shrink-to-fit their own content's preferred width
-       instead of stretching to the container's full width. .history-feed
-       has no explicit width of its own, so it was sizing itself to the
-       widest content inside it — in practice the 2-column .location-grid
-       inside related-landmark sections, which wants ~630-680px — and
-       that inflated width was overflowing the actual ~350-400px mobile
-       viewport, dragging the whole page (including the navbar) into
-       horizontal scroll. Overriding back to stretch here is the actual
-       fix; .history-sidebar's explicit width: 100% below happened to
-       mask the same underlying problem for itself only. */
-    align-items: stretch;
-  }
-  .history-sidebar {
-    /* Was max-height: 220px with the desktop overflow-y/position: sticky
-       still inherited — meant as a "too-short-viewport" fallback for the
-       side-by-side desktop layout, but on mobile .history-layout stacks
-       to a column instead, so the sidebar is a full-width block above the
-       feed, not competing for vertical space next to it. Left in place,
-       that combination clipped the era/event list into a tiny internally
-       -scrolling box that cut names off mid-list. Mobile doesn't need the
-       height cap or the scroll container, and sticky stops making sense
-       once this block is tall and full-width — it would just pin itself
-       over the feed instead of scrolling away normally. */
-    flex: none;
-    width: 100%;
-    max-height: none;
-    overflow-y: visible;
-    position: static;
-  }
   .history-detail-panel { width: 100%; padding: 18px 20px; }
   .history-event__title { font-size: 11px; }
   .history-era-divider { gap: 10px; }
@@ -739,11 +553,6 @@
    Zhuque at the same size). Phones still shrink it to fit one line. */
 html:not([data-lang="zh"]) .history-hero .explore-title { font-size: 46px !important; }
 html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; }
-.history-hero--top { display: none; }
-@media (max-width: 820px) {
-  .history-hero--top { display: block; }
-  .history-hero--feed { display: none; }
-}
 
 /* ── Book view (desktop): one event per screen, see HistoryBook.jsx ───── */
 .history-page--book { padding: 0; overflow: hidden; }
@@ -987,7 +796,7 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
 .history-book__images .history-event__image { display: block; width: auto; height: auto; max-width: 100%; max-height: 30vh; margin: 0 auto; }
 /* Two lines; hovering shows the rest, growing upward over the image. */
 .history-book__captions { position: relative; box-sizing: border-box; height: 64px; display: flex; align-items: center; justify-content: center; padding: 8px 14px; }
-.history-book__captions:hover { z-index: 5; }
+.history-book__captions:hover, .history-book__captions:has(.is-open) { z-index: 5; }
 .history-book__captions .history-landmark-caption {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -998,7 +807,8 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
   line-height: 22px !important;
   text-align: center;
 }
-.history-book__captions .history-landmark-caption:hover {
+.history-book__captions .history-landmark-caption:hover,
+.history-book__captions .history-landmark-caption.is-open {
   position: absolute;
   left: 6px;
   right: 6px;
@@ -1052,7 +862,8 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
   -webkit-line-clamp: var(--caption-lines, 4);
   overflow: hidden;
 }
-.history-book__links .history-landmark-caption > span:hover {
+.history-book__links .history-landmark-caption > span:hover,
+.history-book__links .history-landmark-caption > span.is-open {
   position: absolute;
   left: -6px;
   right: -6px;
@@ -1139,4 +950,85 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
   overflow: hidden;
   font-size: 13px;
   line-height: 1.35;
+}
+
+/* ── Paged view (below 2K, HistoryPaged.jsx): the original layout, one event at
+   a time under the timeline; the page scrolls as usual. ───────────────── */
+.history-paged { display: flex; flex-direction: column; gap: 14px; width: 100%; }
+/* Text left, the rest right, across the screen, ending level; the landmarks show
+   whole, nine a page at most. Narrow screens stack, with the usual landmark grid. */
+.history-paged__columns { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; align-items: stretch; }
+.history-paged__side { display: flex; flex-direction: column; min-width: 0; }
+@media (min-width: 1024px) {
+  .history-paged__columns { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+  .history-paged__columns--solo { grid-template-columns: minmax(0, 1fr); }
+}
+.history-paged__side > :first-child { margin-top: 0; }
+.history-paged__images { display: grid; gap: 14px; }
+.history-paged__images .history-event__image-figure { margin: 0; min-width: 0; }
+.history-paged__side .history-book__links { flex: none; margin-top: 18px; padding: 0; background: none; border: 0; border-radius: 0; overflow: visible; }
+.history-paged__side .history-book__links .history-landmark-caption { height: auto; }
+.history-paged__side .history-book__links-pager { top: 0; right: 0; }
+.history-paged__side .history-book__links .history-event__landmarks-label { margin-top: 0; }
+/* Cards per row: two on phones (the base grid), three on an upright tablet, then
+   by how wide the right column is. */
+@media (min-width: 601px) and (max-width: 1023px) {
+  .history-paged__side .location-grid.history-landmark-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .history-paged__side .history-landmark-grid > .history-landmark-item { grid-column: auto; }
+}
+@media (min-width: 1024px) and (max-width: 1249px) {
+  .history-paged__side .location-grid.history-landmark-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+}
+@media (min-width: 1250px) {
+  .history-paged__side .location-grid.history-landmark-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+}
+.history-paged__side .history-book__links .history-landmark-grid > .history-landmark-item { grid-column: auto; }
+@media (min-width: 1700px) {
+  .history-paged__side .location-grid.history-landmark-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+/* Related achievements and reading: moved into a column when it has room
+   (HistoryPaged), otherwise across the page under both. */
+.history-paged__text > div + div > .history-paged__block,
+.history-paged__side > div > .history-paged__block { margin-top: 20px; }
+.history-paged__bottom { display: flex; flex-direction: column; gap: 14px; padding-top: 14px; padding-bottom: 14px; }
+.history-paged__block .history-event__achievements { margin-top: 0; }
+/* Compact: the heading beside the links, on one line if they fit. */
+.history-paged__reading { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; }
+.history-paged__reading .history-event__landmarks-label { margin: 0; text-align: left; }
+.history-paged__reading-links { flex: 1 1 280px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.history-paged__reading-links > * { margin: 0; width: auto; max-width: 100%; }
+.history-paged__reading-links .history-event__reference-maps { flex: 0 1 auto; padding: 0; border: 0; }
+.history-paged__reading .history-event__background-toggle { display: none; }
+.history-paged .history-detail-panel { content-visibility: visible; }
+.history-paged__page { display: flex; flex-direction: column; gap: 24px; min-width: 0; animation: history-paged-in 220ms ease-out; }
+@keyframes history-paged-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .history-paged__page { animation: none; } }
+.history-paged .history-book__nav { margin-top: 4px; }
+/* The pull-to-turn hint: for touch screens only. */
+.history-paged__pull { display: none; }
+@media (hover: none) {
+  .history-paged__pull { position: relative; display: block; overflow: hidden; padding: 12px 8px; text-align: center; font-size: 14px; color: var(--text-muted); border: 1px dashed var(--border); border-radius: 6px; }
+  .history-paged__pull > span:last-child { position: relative; }
+  .history-paged__pull-bar { position: absolute; inset: 0 auto 0 0; background: color-mix(in srgb, var(--gold) 28%, transparent); }
+}
+@media (max-width: 600px) {
+  .history-paged .history-book__turn { min-width: 0; padding: 10px 16px; font-size: 16px; }
+}
+
+/* The book view on a Mac or iPad (HistoryPage): shorter than a 2K screen, so the
+   images and their captions give up height to the landmarks, which turn pages. */
+.history-book__links:has(.history-book__links-pager) .history-event__landmarks-label { text-align: left; }
+@media (max-width: 2399px), (max-height: 1199px) {
+  .history-book { gap: 8px; padding: 8px 24px; }
+  .history-book__page, .history-book__columns, .history-book__main, .history-book__side, .history-book__bottom { gap: 8px; }
+  .history-book__images { padding: 6px; }
+  .history-book__images .history-event__image { max-height: 17vh; }
+  .history-book__gallery--side .history-book__images .history-event__image { max-height: min(calc(34vh - 120px), 20vw); }
+  .history-book__captions { height: 36px; padding: 2px 10px; }
+  .history-book__captions .history-landmark-caption { -webkit-line-clamp: 1; line-clamp: 1; font-size: 14px !important; line-height: 1.4 !important; }
+  .history-book__links { padding: 8px 14px; }
+  .history-book__links .history-event__landmarks-label { margin: 0 0 4px; font-size: 20px; line-height: 1.2; }
+  .history-book__links-pager { top: 4px; right: 10px; }
+  .history-book__more-col { flex-basis: 240px; gap: 8px; }
+  .history-book__links .history-landmark-caption > span, .history-book__captions .history-landmark-caption { cursor: pointer; }
 }

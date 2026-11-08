@@ -241,6 +241,8 @@
   min-width: 0;
 }
 .ach-tile:hover, .ach-tile:focus-visible { background: var(--bg-surface); outline: none; }
+/* A third row, only a landscape iPad with room shows it (pixelart.css). */
+.ach-tile--extra { display: none; }
 .ach-tile__name {
   font-family: var(--ui-font);
   font-size: 14px;

@@ -169,8 +169,8 @@ test.describe('Dashboard', () => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.reload();
 
-    const names = () => page.locator('.ach-showcase .ach-tile .ach-tile__name').allTextContents();
-    await expect(page.locator('.ach-showcase .ach-tile')).toHaveCount(6);
+    const names = () => page.locator('.ach-showcase .ach-tile:not(.ach-tile--extra) .ach-tile__name').allTextContents();
+    await expect(page.locator('.ach-showcase .ach-tile:not(.ach-tile--extra)')).toHaveCount(6);
     expect(await names()).toEqual(['new-gold', 'new-bronze-2', 'new-bronze-1', 'old-diamond', 'old-gold', 'mid-silver']);
 
     await page.getByRole('button', { name: 'All achievements →' }).click();
@@ -179,7 +179,7 @@ test.describe('Dashboard', () => {
     await expect(gallery.locator('.ach-tile')).toHaveCount(8); // unlocked only
     await expect(gallery.locator('.card-strip__count')).toHaveText('8');
     expect(await gallery.locator('.ach-tile__name').allTextContents()).toEqual(['old-diamond', 'new-gold', 'old-gold', 'mid-silver', 'old-silver', 'new-bronze-2', 'new-bronze-1', 'mid-bronze']);
-    await expect(page.locator('.ach-showcase .ach-tile')).toHaveCount(6); // the profile doesn't grow
+    await expect(page.locator('.ach-showcase .ach-tile:not(.ach-tile--extra)')).toHaveCount(6); // the profile doesn't grow
 
     // A tile's detail opens on top; closing it (or Escape meanwhile) leaves the window.
     await gallery.locator('.ach-tile').first().click();
@@ -476,6 +476,10 @@ test.describe('Dashboard', () => {
       await page.waitForFunction(h => document.documentElement.scrollHeight === h && !!document.querySelector('.profile-body')?.style.zoom, height);
       await expect.poll(size, { message: `${width}x${height}` }).toEqual({ page: height, screen: height, wide: 0, clipped: 0 });
     }
+    // So does an upright tablet, which scrolls.
+    await page.setViewportSize({ width: 1024, height: 1366 });
+    await expect.poll(() => page.evaluate(() => document.querySelector('.profile-body').style.zoom)).toBe('');
+
     // A 2K screen keeps the normal wide layout, unzoomed.
     await page.setViewportSize({ width: 2560, height: 1440 });
     await expect.poll(() => page.evaluate(() => document.querySelector('.profile-body').style.zoom)).toBe('');
@@ -484,6 +488,17 @@ test.describe('Dashboard', () => {
     await page.setViewportSize({ width: 390, height: 844 });
     await expect.poll(() => page.evaluate(() => document.querySelector('.profile-body').style.zoom)).toBe('');
     expect((await size()).page).toBeGreaterThan(844);
+  });
+
+  test('a computer that is not a Mac or iPad keeps one row of rarities', async ({ page }) => {
+    const layout = () => page.evaluate(() => {
+      const tops = sel => new Set([...document.querySelectorAll(sel)].map(e => Math.round(e.getBoundingClientRect().top))).size;
+      return { rarityRows: tops('.rarity-compact__item'), stripRows: tops('.profile-strips > .profile-card'), over: document.documentElement.scrollHeight - innerHeight };
+    });
+    await page.setViewportSize({ width: 1180, height: 820 });
+    await expect.poll(layout).toEqual({ rarityRows: 1, stripRows: 1, over: 0 });
+    await page.setViewportSize({ width: 1920, height: 1080 });
+    await expect.poll(layout).toEqual({ rarityRows: 1, stripRows: 1, over: 0 });
   });
 
   test('a progress row opens the same guide window instead of going to Explore', async ({ page }) => {

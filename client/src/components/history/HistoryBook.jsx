@@ -7,7 +7,7 @@ import HistoryAxis from './HistoryAxis';
 
 // "Wikipedia: <article>", the name read from the link (.../wiki/Great_Fire_of_Prague).
 // The few links to other sites just show the site.
-function wikipediaLabel(url, prefix) {
+export function wikipediaLabel(url, prefix) {
   try {
     const { hostname, pathname, hash } = new URL(url);
     if (!hostname.endsWith('wikipedia.org')) return hostname;
@@ -197,10 +197,26 @@ function ImageWindow({ event, shown, onShow, onClose }) {
   );
 }
 
-// The desktop History page: one event per screen, turned with the buttons or
-// the arrow keys, never by scrolling the page. Everything fits the window;
-// only a panel whose content is too long scrolls, inside itself. Phones keep
-// the scrolling feed (see HistoryPage).
+// Pages to turn through: every event except background cards, each of which
+// belongs to the page before it.
+export function groupPages(events) {
+  const pages = [];
+  const backgrounds = new Map(); // page slug -> its background cards
+  const hostOf = new Map(); // background slug -> page slug
+  for (const e of events) {
+    if (e.cardType !== 'background') { pages.push(e); continue; }
+    const host = pages[pages.length - 1]?.slug;
+    if (!host) continue;
+    hostOf.set(e.slug, host);
+    backgrounds.set(host, [...(backgrounds.get(host) ?? []), e]);
+  }
+  return { pages, backgrounds, hostOf };
+}
+
+// The History page on a 2K screen or larger: one event per screen, turned with
+// the buttons or the arrow keys, never by scrolling the page. Everything fits
+// the window; only a panel whose content is too long scrolls, inside itself.
+// Smaller screens use HistoryPaged.
 //
 // Background cards take no page: each belongs to the page before it and opens
 // in a floating window from a button there, or from an in-text link anywhere.
@@ -210,19 +226,7 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
   const convert = useConvert();
   const rootRef = useRef(null);
 
-  const { pages, backgrounds, hostOf } = useMemo(() => {
-    const pages = [];
-    const backgrounds = new Map(); // page slug -> its background cards
-    const hostOf = new Map(); // background slug -> page slug
-    for (const e of events) {
-      if (e.cardType !== 'background') { pages.push(e); continue; }
-      const host = pages[pages.length - 1]?.slug;
-      if (!host) continue;
-      hostOf.set(e.slug, host);
-      backgrounds.set(host, [...(backgrounds.get(host) ?? []), e]);
-    }
-    return { pages, backgrounds, hostOf };
-  }, [events]);
+  const { pages, backgrounds, hostOf } = useMemo(() => groupPages(events), [events]);
 
   // An old reading position or a link can still name a background card:
   // show the page it belongs to, with the card open.

@@ -2816,7 +2816,7 @@ html[data-lang="zh"] .detail-title-name {
    so the height doesn't jump with the width; utils/fitPage.js then zooms the
    page a little to fit (same media query there). A 2K screen or larger keeps
    the normal wide layout, which fits it already (user's call). */
-@media (min-width: 1024px) and (max-width: 2399px) and (min-height: 500px), (min-width: 2400px) and (min-height: 500px) and (max-height: 1199px) {
+@media (min-width: 1024px) and (max-width: 2399px) and (min-height: 500px) and (orientation: landscape), (min-width: 2400px) and (min-height: 500px) and (max-height: 1199px) {
   #root:has(.dashboard-page) { height: 100vh; height: 100dvh; }
   .dashboard-page { max-width: none; min-height: 0; display: flex; flex-direction: column; overflow: hidden; padding: 10px 24px 12px; }
   .dashboard-head { margin-bottom: 6px !important; align-items: center !important; }
@@ -2860,7 +2860,8 @@ html[data-lang="zh"] .detail-title-name {
   .profile-body .district-progress__head { margin-bottom: 0; }
   .profile-body .district-progress__summary { margin: 0 0 4px; }
   .profile-body .district-map { flex: 1; min-height: 0; display: flex; flex-direction: column; margin: 0 0 4px; }
-  .profile-body .district-map--loading { aspect-ratio: auto; }
+  /* As tall as the loaded map needs: the page's zoom may be worked out before the boundaries arrive. */
+  .profile-body .district-map--loading { aspect-ratio: auto; min-height: 320px; }
   /* The map fills its space but keeps its own proportions (DistrictMap works
      out pointer positions from the svg's box). */
   .profile-body .district-map__stage { flex: 1; min-height: 290px; width: 100%; max-width: none; container-type: size; display: flex; align-items: center; justify-content: center; }
@@ -2871,3 +2872,10 @@ html[data-lang="zh"] .detail-title-name {
   .profile-body .district-progress .district-progress__toggle[aria-expanded="true"] { margin-bottom: 6px; }
   .profile-body .district-progress__list { flex: none; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 20px; row-gap: 3px; }
 }
+
+/* iPads and Macs (2026-11-08, user's call; fitPage.js sets the classes): the
+   rarities take two rows and, when it fits without shrinking the page, the
+   achievements a third. */
+.profile-body--apple .rarity-compact__list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px 4px; }
+.profile-body--tall .profile-layout__top > .profile-card .ach-showcase { grid-template-rows: auto auto auto; }
+.profile-body--tall .ach-showcase .ach-tile--extra { display: flex; }
