@@ -22,22 +22,21 @@ import ExploreMap from '../components/locations/ExploreMap';
 import ExploreApplied from '../components/locations/ExploreApplied';
 import AchievementModal from '../components/achievements/AchievementModal';
 import { closestAchievements } from '../utils/achievementText';
+import { EXPLORE_SIDE_QUERY } from '../utils/exploreLayout';
 
 let toastId = 0;
 
-// A 2K screen: the title, filters and a map move into a side column, and the
-// cards take the rest of the width (2026-11-08, user's call).
-const WIDE_QUERY = '(min-width: 2400px)';
-
-function useWide() {
-  const [wide, setWide] = useState(() => window.matchMedia(WIDE_QUERY).matches);
+// The title, filters and a map in a side column, the cards taking the rest of the
+// width (2026-11-08, user's call); pixelart.css makes it compact below 2K.
+function useMedia(queryText) {
+  const [matches, setMatches] = useState(() => window.matchMedia(queryText).matches);
   useEffect(() => {
-    const query = window.matchMedia(WIDE_QUERY);
-    const onChange = () => setWide(query.matches);
+    const query = window.matchMedia(queryText);
+    const onChange = () => setMatches(query.matches);
     query.addEventListener('change', onChange);
     return () => query.removeEventListener('change', onChange);
-  }, []);
-  return wide;
+  }, [queryText]);
+  return matches;
 }
 
 export default function ExplorePage() {
@@ -47,7 +46,9 @@ export default function ExplorePage() {
   const { user, guest } = useAuth();
   const { state, search } = useLocation();
   const navigate = useNavigate();
-  const wide = useWide();
+  const wide = useMedia(EXPLORE_SIDE_QUERY);
+  // Below 2K the column scrolls and the map can be folded away.
+  const belowTwoK = useMedia('(max-width: 2399px)');
   const [filterSlot, setFilterSlot] = useState(null);
   const [appliedSlot, setAppliedSlot] = useState(null);
   const [tip] = useState(() => EXPLORE_TIPS[Math.floor(Math.random() * EXPLORE_TIPS.length)]);
@@ -86,6 +87,18 @@ export default function ExplorePage() {
       .then(res => setLocations(res.data))
       .finally(() => setLoading(false));
   }, [userId]);
+
+  // The side column sits right under the navbar, which is taller on some widths.
+  useLayoutEffect(() => {
+    const nav = document.querySelector('.navbar');
+    if (!wide || !nav) return undefined;
+    const root = document.documentElement;
+    const measure = () => root.style.setProperty('--navbar-h', `${nav.offsetHeight}px`);
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(nav);
+    return () => { ro.disconnect(); root.style.removeProperty('--navbar-h'); };
+  }, [wide]);
 
   // The "Next up" card on a 2K screen; read again after each new card.
   const [achData, setAchData] = useState(null);
@@ -416,7 +429,7 @@ export default function ExplorePage() {
           <aside className="explore-side">
             {header}
             <div ref={setFilterSlot} className="explore-side__filters" />
-            <ExploreMap locations={locations} area={area} onArea={setArea} outside={!cityOnly} here={myArea} />
+            <ExploreMap locations={locations} area={area} onArea={setArea} outside={!cityOnly} here={myArea} foldable={belowTwoK} />
             <div ref={setAppliedSlot} className="explore-side__applied" />
           </aside>
           <div className="explore-main">{grid}</div>

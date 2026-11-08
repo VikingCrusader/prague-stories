@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { useLang, useConvert } from '../../context/LanguageContext';
+import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { RARITY_LABEL } from '../../utils/rarity';
 import DistrictMap from '../dashboard/DistrictMap';
 import { isInCity } from './ScopeToggle';
@@ -23,10 +23,22 @@ const countBy = (locations, key) => {
 // (`here`, { district, quarter }), which only marks it and filters nothing.
 // `outside` ("Show all") lights up the land around the city, and a click there
 // shows only the expedition cards, area { kind: 'outside' }.
-export default function ExploreMap({ locations, area, onArea, outside, here }) {
+// `foldable` (below 2K, where the column scrolls): a button folds the map away.
+// A folded map remembers the choice on this device.
+const FOLD_KEY = 'exploreMapFolded';
+const readFolded = () => { try { return localStorage.getItem(FOLD_KEY) === '1'; } catch { return false; } };
+
+export default function ExploreMap({ locations, area, onArea, outside, here, foldable = false }) {
+  const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const [mode, setMode] = useState('district');
+  const [foldedPref, setFolded] = useState(readFolded);
+  const folded = foldable && foldedPref;
+  const toggleFold = () => {
+    setFolded(!foldedPref);
+    try { localStorage.setItem(FOLD_KEY, foldedPref ? '0' : '1'); } catch { /* only a convenience */ }
+  };
   const districts = useMemo(() => countBy(locations, 'district'), [locations]);
   const quarters = useMemo(() => countBy(locations, 'quarter'), [locations]);
   const selected = area?.kind === mode ? area.value : null;
@@ -43,17 +55,26 @@ export default function ExploreMap({ locations, area, onArea, outside, here }) {
     };
   }, [locations, area, lang, convert, onArea]);
   return (
-    <DistrictMap
-      districts={districts}
-      quarters={quarters}
-      own
-      mode={mode}
-      onModeChange={(next) => { setMode(next); onArea(null); }}
-      selected={marked}
-      onSelect={(name) => onArea(name === selected ? null : { kind: mode, value: name })}
-      hintKey={outside ? 'explore.mapHintAll' : 'explore.mapHint'}
-      glow={outside}
-      outsideArea={outsideArea}
-    />
+    <>
+      {foldable && (
+        <button type="button" className="filter-btn explore-map-fold" aria-expanded={!folded} onClick={toggleFold}>
+          {t(folded ? 'explore.mapUnfold' : 'explore.mapFold')}
+        </button>
+      )}
+      {!folded && (
+        <DistrictMap
+          districts={districts}
+          quarters={quarters}
+          own
+          mode={mode}
+          onModeChange={(next) => { setMode(next); onArea(null); }}
+          selected={marked}
+          onSelect={(name) => onArea(name === selected ? null : { kind: mode, value: name })}
+          hintKey={outside ? 'explore.mapHintAll' : 'explore.mapHint'}
+          glow={outside}
+          outsideArea={outsideArea}
+        />
+      )}
+    </>
   );
 }

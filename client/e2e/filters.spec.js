@@ -1,5 +1,8 @@
 import { test, expect } from '@playwright/test';
 
+// The stacked layout; the side column has its own tests (exploreWide.spec.js).
+test.use({ viewport: { width: 1100, height: 800 } });
+
 const LOCATIONS = [
   {
     _id: '1', name: 'Charles Bridge', slug: 'charles-bridge',

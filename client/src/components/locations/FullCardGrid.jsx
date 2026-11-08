@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import LocationCard from './LocationCard';
 import { useT } from '../../context/LanguageContext';
+import { EXPLORE_SIDE_QUERY, exploreSideWidth } from '../../utils/exploreLayout';
 
 const PAGE_SIZE = 60;
 // `loadOnClick` on a phone: about five screens, one screen holds only four cards.
@@ -9,13 +10,15 @@ const PHONE_BATCH = 20;
 const POPUP_CHROME_PX = 90;
 
 // The width a card has on Explore at this screen size: .explore-page is at
-// most 1600 px wide with 24 px padding (from 2400 px it has no limit, less the
-// 440 px side column and its 24 px gap), its .location-grid is
+// most 1600 px wide with 24 px padding (with the side column it has no limit,
+// less the column and its gap), its .location-grid is
 // auto-fill minmax(230px, 1fr) with 16 px gaps. Phones don't use this, they
 // share .location-grid's two columns.
 function exploreCardWidth() {
   const screen = document.documentElement.clientWidth;
-  const width = screen >= 2400 ? screen - 48 - 464 : Math.min(screen, 1600) - 48;
+  const width = window.matchMedia(EXPLORE_SIDE_QUERY).matches
+    ? screen - 48 - exploreSideWidth(screen)
+    : Math.min(screen, 1600) - 48;
   const columns = Math.max(1, Math.floor((width + 16) / 246));
   return (width - 16 * (columns - 1)) / columns;
 }

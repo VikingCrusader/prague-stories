@@ -28,7 +28,8 @@ test.describe('Explore on a 2K screen', () => {
     const side = page.locator('.explore-side');
     await expect(side.locator('.explore-title')).toBeVisible();
     await expect(side.locator('.filter-bar__search')).toBeVisible();
-    await expect(side.locator('.explore-stats')).toBeVisible();
+    await expect(page.locator('.explore-main .explore-stats')).toBeVisible(); // by the sort button
+    await expect(side.locator('.explore-stats')).toHaveCount(0);
     await expect(side.locator('.area-filter')).toHaveCount(0);
     const tops = await Promise.all(['.filter-bar__search', '.scope-toggle', '.filter-bar__bottom'].map(s => side.locator(s).boundingBox()));
     expect(tops[0].y).toBeLessThan(tops[1].y);
@@ -177,6 +178,10 @@ test.describe('Explore on a 2K screen', () => {
     await page.locator('.explore-side .scope-toggle').click();
     await expect(cards).toHaveCount(32);
     await expect(item).toHaveCount(0);
+  });
+
+  test('at 2K the map has no fold button', async ({ page }) => {
+    await expect(page.locator('.explore-map-fold')).toHaveCount(0);
   });
 
   test('the side column does not move at all when the cards scroll', async ({ page }) => {
@@ -393,11 +398,58 @@ test('hovering a card previews its names, status, labels and first paragraph', a
   await page.mouse.up();
 });
 
-test('below 2K Explore is unchanged', async ({ page }) => {
-  await page.setViewportSize({ width: 1920, height: 1080 });
-  await page.goto('/explore');
-  await page.locator('.location-grid .loc-card').first().waitFor();
-  await expect(page.locator('.explore-side')).toHaveCount(0);
-  await expect(page.locator('.area-filter').first()).toBeVisible();
-  await expect(page.locator('.district-map')).toHaveCount(0);
+test('too narrow or too short for the column, Explore stays stacked', async ({ page }) => {
+  for (const [width, height] of [[1100, 900], [1366, 650]]) {
+    await page.setViewportSize({ width, height });
+    await page.goto('/explore');
+    await page.locator('.location-grid .loc-card').first().waitFor();
+    await expect(page.locator('.explore-side')).toHaveCount(0);
+    await expect(page.locator('.area-filter').first()).toBeVisible();
+    await expect(page.locator('.district-map')).toHaveCount(0);
+  }
 });
+
+for (const [name, width, height, column] of [['13-inch MacBook', 1440, 790, 340], ['1080p', 1920, 940, 440], ['iPad sideways', 1194, 760, 340]]) {
+  test(`a compact side column on a ${name}, inside the screen`, async ({ page }) => {
+    await page.setViewportSize({ width, height });
+    await page.goto('/explore');
+    await page.locator('.district-map__area').first().waitFor();
+    const side = await page.locator('.explore-side').boundingBox();
+    expect(side.width).toBe(column);
+    expect(side.y + side.height).toBeLessThanOrEqual(height);
+    expect((await page.locator('.district-map__svg').boundingBox()).width).toBeGreaterThan(column - 30); // as big as the column allows
+    await expect(page.locator('.explore-next')).toBeVisible();
+    await expect(page.locator('.explore-side')).toHaveCSS('overflow-y', 'auto');
+    await expect(page.locator('.explore-side')).toHaveCSS('scrollbar-width', 'none');
+
+    await expect(page.locator('.explore-main .explore-stats')).toHaveCount(1); // by the sort button
+    await expect(page.locator('.explore-side .explore-stats')).toHaveCount(0);
+    const statsBox = await page.locator('.explore-main .explore-stats').boundingBox();
+    expect(statsBox.height).toBeLessThan(40); // one line
+
+    const dropdown = page.locator('.explore-side .filter-bar__bottom .label-filter .filter-btn').first();
+    await dropdown.click();
+    const panel = await page.locator('.explore-side .label-filter__panel').boundingBox();
+    expect(panel.x).toBeGreaterThanOrEqual(side.x); // not clipped by the scrolling column
+    expect(panel.x + panel.width).toBeLessThanOrEqual(side.x + side.width);
+    await dropdown.click();
+
+    const fold = page.locator('.explore-map-fold');
+    await expect(fold).toHaveText('Hide map');
+    await fold.click();
+    await expect(page.locator('.district-map')).toHaveCount(0);
+    await expect(fold).toHaveText('Show map');
+    await fold.click();
+    await page.locator('.district-map__area').first().waitFor();
+    await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.setViewportSize({ width, height: height - 1 });
+    await page.setViewportSize({ width, height });
+    const start = (await page.locator('.explore-side').boundingBox()).y;
+    await page.evaluate(() => window.scrollTo(0, 30));
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(30);
+    expect((await page.locator('.explore-side').boundingBox()).y).toBe(start); // doesn't hop when scrolling starts
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await page.locator('.district-map__area').nth(5).click();
+    await expect(page.locator('.explore-main .loc-card')).toHaveCount(20);
+  });
+}

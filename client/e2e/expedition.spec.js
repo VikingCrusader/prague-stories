@@ -1,5 +1,8 @@
 import { test, expect } from '@playwright/test';
 
+// The stacked layout; the side column has its own tests (exploreWide.spec.js).
+test.use({ viewport: { width: 1100, height: 800 } });
+
 const card = (i, name, extra) => ({
   _id: String(i), name, slug: name.toLowerCase().replace(/\W+/g, '-'),
   localizedNames: { cz: name, zh: name }, coverImage: '', pixelArtKey: '', unlocked: true,

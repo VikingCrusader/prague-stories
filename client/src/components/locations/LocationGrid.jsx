@@ -251,13 +251,13 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   const stats = (
     <p className="explore-stats" style={{ margin: 0 }}>
       <span>{unlocked}</span>{!discovered && <> / <span>{total}</span></>} {t('explore.statsLabel')}
-      {!discovered && total > 0 && <><br />{t('explore.progress')} <span>{(unlocked / total * 100).toFixed(1)}%</span></>}
+      {!discovered && total > 0 && <>{' '}<br /><em className="explore-stats__label">{t('explore.progress')} </em><span>{(unlocked / total * 100).toFixed(1)}%</span></>}
     </p>
   );
 
   return (
     <>
-      {wide ? (filterSlot && createPortal(<>{filterBar}{stats}</>, filterSlot)) : filterBar}
+      {wide ? (filterSlot && createPortal(filterBar, filterSlot)) : filterBar}
       {wide && appliedSlot && createPortal(renderApplied({
         labels: [...activeLabels],
         onClearLabel: toggleLabel,
@@ -267,7 +267,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
       }), appliedSlot)}
 
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
-        {!wide && stats}
+        {stats}
         <div className="label-filter" ref={sortPanelRef}>
           <button
             className={`filter-btn${sortOpen || sort !== 'distance' ? ' filter-btn--active' : ''}`}

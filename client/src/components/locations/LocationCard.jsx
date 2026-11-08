@@ -45,7 +45,8 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
   const teasing = !unlocked && nearby;
   const showName = unlocked || teasing;
   const checkedInMs = location._checkedInAt ? new Date(location._checkedInAt).getTime() : NaN;
-  const isNew = unlocked && !flipping && Date.now() - checkedInMs < NEW_BADGE_MS;
+  // Not over the story panel, where the badge would cover the card's name.
+  const isNew = unlocked && !flipping && !story && Date.now() - checkedInMs < NEW_BADGE_MS;
 
   // Long press (touch) or double click (mouse) on a collected card opens the
   // showcase. A mouse click on such a card waits DOUBLE_CLICK_MS for a

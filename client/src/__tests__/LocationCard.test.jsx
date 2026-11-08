@@ -51,6 +51,11 @@ describe('LocationCard', () => {
     expect(never.container.querySelector('.loc-card__new')).toBeNull();
   });
 
+  test('no NEW over the story, where it would cover the name', () => {
+    const { container } = renderCard({ unlocked: true, _checkedInAt: new Date().toISOString() }, { showcase: true, story: ['A paragraph.'] });
+    expect(container.querySelector('.loc-card__new')).toBeNull();
+  });
+
   test('a card found on a treasure hunt carries no hunt badge (the detail view says it)', () => {
     const { container } = renderCard({ unlocked: true, _guessAttempt: 1 });
     expect(container.querySelector('.loc-card__hunt, .loc-card__seal')).toBeNull();

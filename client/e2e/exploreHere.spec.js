@@ -1,5 +1,8 @@
 import { test, expect } from '@playwright/test';
 
+// The stacked layout; the side column has its own tests (exploreWide.spec.js).
+test.use({ viewport: { width: 1100, height: 800 } });
+
 const USER = { _id: 'u1', username: 'explorer', email: 'e@example.com', totalXP: 140, explorerLevel: 2 };
 const LOC = {
   _id: '1', name: 'Karlín Palace', slug: 'palac-karlin', localizedNames: { cz: 'Palác Karlín', zh: '卡林宫' },
