@@ -152,7 +152,7 @@ test.describe('Dashboard', () => {
     await expect(modal).toHaveCount(0);
   });
 
-  test('first row is the newest, second the rarest of the rest; "All achievements" opens the other unlocked ones in place', async ({ page }) => {
+  test('first row is the newest, second the rarest of the rest; "All achievements" opens every unlocked one in a window', async ({ page }) => {
     // Phone width: three columns. Day n = unlocked on 2026-01-n.
     const ach = (id, difficulty, day) => ({
       id, name: id, name_cz: '', name_zh: '', description: `${id} desc`, description_cz: '', description_zh: '',
@@ -173,19 +173,50 @@ test.describe('Dashboard', () => {
     await expect(page.locator('.ach-showcase .ach-tile')).toHaveCount(6);
     expect(await names()).toEqual(['new-gold', 'new-bronze-2', 'new-bronze-1', 'old-diamond', 'old-gold', 'mid-silver']);
 
-    await page.getByRole('button', { name: 'All achievements ↓' }).click();
+    await page.getByRole('button', { name: 'All achievements →' }).click();
     await expect(page).toHaveURL(/\/dashboard/);
-    await expect(page.locator('.ach-showcase .ach-tile')).toHaveCount(8); // unlocked only
-    expect((await names()).slice(6)).toEqual(['old-silver', 'mid-bronze']);
-    await expect(page.locator('.ach-showcase .ach-tile').nth(7)).toBeVisible();
+    const gallery = page.locator('.profile-gallery');
+    await expect(gallery.locator('.ach-tile')).toHaveCount(8); // unlocked only
+    await expect(gallery.locator('.card-strip__count')).toHaveText('8');
+    expect(await gallery.locator('.ach-tile__name').allTextContents()).toEqual(['old-diamond', 'new-gold', 'old-gold', 'mid-silver', 'old-silver', 'new-bronze-2', 'new-bronze-1', 'mid-bronze']);
+    await expect(page.locator('.ach-showcase .ach-tile')).toHaveCount(6); // the profile doesn't grow
 
-    await page.getByRole('button', { name: 'Show less ↑' }).click();
-    await expect(page.locator('.ach-showcase .ach-tile')).toHaveCount(6);
+    // A tile's detail opens on top; closing it (or Escape meanwhile) leaves the window.
+    await gallery.locator('.ach-tile').first().click();
+    await expect(page.locator('.ach-modal')).toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(gallery).toBeVisible();
+    await page.locator('.ach-modal .px-modal__close').click();
+    await expect(page.locator('.ach-modal')).toHaveCount(0);
+    await expect(gallery).toBeVisible();
+
+    await gallery.locator('.px-modal__close').click();
+    await expect(gallery).toHaveCount(0);
+    await page.getByRole('button', { name: 'All achievements →' }).click();
+    await expect(gallery).toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(gallery).toHaveCount(0);
+  });
+
+  test('"All achievements" sits top right in the card head, like the strips', async ({ page }) => {
+    const ach = i => ({ ...ACHIEVEMENTS.achievements[0], id: `a${i}`, name: 'From the Vltava to the Elbe' });
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: { ...ACHIEVEMENTS, achievements: Array.from({ length: 30 }, (_, i) => ach(i)) } }));
+    await page.reload();
+    const button = page.getByRole('button', { name: 'All achievements →' });
+    const card = page.locator('.profile-card', { has: page.locator('.ach-showcase') });
+    await expect(card.locator('.card-strip__head').getByRole('button')).toHaveText('All achievements →');
+    const b = await button.boundingBox();
+    const showcase = await card.locator('.ach-showcase').boundingBox();
+    expect(b.y).toBeLessThan(showcase.y);
+    expect(b.x + b.width).toBeGreaterThan(showcase.x + showcase.width - 8);
+    // A long English name takes two lines without being cut.
+    const name = card.locator('.ach-tile__name').first();
+    expect(await name.evaluate(e => e.scrollHeight <= e.clientHeight + 1)).toBe(true);
   });
 
   test('no "All achievements" button when everything fits in two rows', async ({ page }) => {
     await expect(page.locator('.ach-showcase .ach-tile')).toHaveCount(1);
-    await expect(page.getByRole('button', { name: 'All achievements ↓' })).toHaveCount(0);
+    await expect(page.getByRole('button', { name: 'All achievements →' })).toHaveCount(0);
   });
 
   test('lists collected out of all cards for each district, Praha 1 to 22', async ({ page }) => {
@@ -206,7 +237,7 @@ test.describe('Dashboard', () => {
     const treasure = page.locator('.card-strip').filter({ hasText: 'Treasure Hunt Finds' });
     await expect(treasure).toContainText('No treasure found yet.');
     await expect(treasure.getByRole('link', { name: 'Start a treasure hunt.' })).toHaveAttribute('href', '/treasure-hunt');
-    await expect(treasure.getByRole('link', { name: 'All →' })).toHaveCount(0);
+    await expect(treasure.getByRole('button', { name: 'All →' })).toHaveCount(0);
 
     const exp = page.locator('.card-strip').filter({ hasText: 'Expeditions' });
     await expect(exp.locator('.card-strip__count')).toHaveText('8');
@@ -233,21 +264,281 @@ test.describe('Dashboard', () => {
     await expect(page.locator('.modal-overlay, .px-modal').first()).toBeVisible();
   });
 
-  test('"All →" on the expedition strip opens My Collections filtered to Expedition', async ({ page }) => {
-    const card = (i, name, extra) => ({
-      _id: String(i), name, slug: name.toLowerCase(), localizedNames: { cz: name, zh: name }, coverImage: '', pixelArtKey: '',
-      unlocked: true, coordinates: { lat: 50.0865, lng: 14.4114 }, ...extra,
+  test('"All →" on the expedition strip opens a window with every expedition card, on a phone too', async ({ page }) => {
+    const cards = Array.from({ length: 8 }, (_, i) => ({
+      slug: `out-${i}`, name: `Out ${i}`, localizedNames: { cz: `Out ${i}`, zh: `Out ${i}` }, labels: ['castle', 'outside'], rarity: 'expedition', coverImage: '', pixelArtKey: '',
+    }));
+    await page.route('**/api/user/expeditions', route => route.fulfill({ json: cards }));
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.locator('.card-strip').filter({ hasText: 'Expeditions' }).getByRole('button', { name: 'All →' }).click();
+    await expect(page).toHaveURL(/\/dashboard/);
+    const gallery = page.locator('.profile-gallery');
+    await expect(gallery.locator('.card-strip__item:visible')).toHaveCount(8);
+    await expect(gallery.locator('.card-strip__meta')).toHaveCount(0);
+
+    await page.route('**/api/locations/out-0', route => route.fulfill({ json: { ...cards[0], description: { en: 'A castle.' }, coordinates: { lat: 49.9, lng: 14.2 } } }));
+    await gallery.locator('.card-strip__item').first().click();
+    await expect(page.locator('.px-modal--detail')).toBeVisible();
+    await expect(gallery).toBeVisible();
+  });
+
+  test('a rarity opens its collected cards whole, at Explore\'s size, as many to a row as fit', async ({ page }) => {
+    const card = (i, rarity, unlocked) => ({
+      _id: String(i), name: `Card ${i}`, slug: `card-${i}`, localizedNames: { cz: `Card ${i}`, zh: `Card ${i}` }, labels: ['castle'], coverImage: '', pixelArtKey: '',
+      rarity, xpReward: 100, unlocked, _checkedInAt: unlocked ? `2026-01-${String(i + 1).padStart(2, '0')}T00:00:00.000Z` : null, coordinates: { lat: 50.0865, lng: 14.4114 },
     });
     await page.route('**/api/locations', route => route.fulfill({ json: [
-      card(1, 'Bridge', { labels: ['bridge'], rarity: 'legend', xpReward: 100 }),
-      card(2, 'Melnik', { labels: ['castle', 'outside'], rarity: 'expedition', xpReward: 120 }),
-      card(3, 'Roztoky', { labels: ['castle', 'outside'], rarity: 'expedition', xpReward: 60 }),
-      card(4, 'Locked', { labels: ['castle', 'outside'], rarity: 'expedition', xpReward: 60, unlocked: false }),
+      ...Array.from({ length: 20 }, (_, i) => card(i, 'legend', true)),
+      card(20, 'legend', false),
+      card(21, 'rare', true),
     ] }));
-    await page.locator('.card-strip').filter({ hasText: 'Expeditions' }).getByRole('link', { name: 'All →' }).click();
-    await expect(page).toHaveURL(/\/explore/);
-    await expect(page.locator('.loc-card')).toHaveCount(2);
-    await expect(page.locator('.explore-rarity-blurb')).toContainText('beyond the city limits');
+    const columns = () => page.locator('.profile-gallery .loc-card').evaluateAll(els => new Set(els.map(e => Math.round(e.getBoundingClientRect().left))).size);
+    const widthOn = async selector => page.locator(`${selector} .loc-card`).first().evaluate(e => e.getBoundingClientRect().width);
+
+    for (const [width, height, wide] of [[2560, 1440, true], [1280, 800, false], [700, 900, false], [390, 844, false]]) {
+      await page.setViewportSize({ width, height });
+      await page.goto('/explore');
+      await page.locator('.location-grid .loc-card').first().waitFor();
+      const onExplore = await widthOn('.location-grid');
+      await page.goto('/dashboard');
+      await page.locator('.rarity-compact__item', { hasText: 'Legendary' }).getByRole('button').click();
+      await expect(page.locator('.profile-gallery .loc-card')).toHaveCount(20); // collected ones of this rarity only
+      await expect(page.locator('.profile-gallery .card-strip__count')).toHaveText('20');
+      expect(Math.abs(await widthOn('.profile-gallery') - onExplore)).toBeLessThan(1);
+      if (wide) expect(await columns()).toBeGreaterThan(6); // Explore stops at six
+    }
+    await expect(page).toHaveURL(/\/dashboard/);
+    await expect(page.locator('.profile-gallery .loc-card__name').first()).toHaveText('Card 19'); // newest first
+
+    await page.route('**/api/locations/card-19', route => route.fulfill({ json: { ...card(19, 'legend', true), description: { en: 'A castle.' } } }));
+    await page.locator('.profile-gallery .loc-card').first().click();
+    await expect(page.locator('.px-modal--detail')).toBeVisible();
+    await expect(page.locator('.profile-gallery')).toBeVisible();
+  });
+
+  test('empty strips never widen the page, and their text fits, in any language', async ({ page }) => {
+    await page.route('**/api/user/progress', route => route.fulfill({ json: { ...PROGRESS, recentFinds: { treasure: { count: 0, cards: [] }, expedition: { count: 0, cards: [] } } } }));
+    for (const lang of ['zh', 'en', 'cz']) {
+      await page.addInitScript(l => localStorage.setItem('lang', l), lang);
+      for (const width of [390, 700, 900]) {
+        await page.setViewportSize({ width, height: 844 });
+        await page.goto('/dashboard');
+        await page.locator('.card-strip__empty').first().waitFor();
+        await page.evaluate(() => document.fonts.ready);
+        await page.waitForTimeout(150);
+        const m = await page.evaluate(() => ({
+          page: document.documentElement.scrollWidth,
+          cut: [...document.querySelectorAll('.card-strip__empty')].filter(e => e.scrollWidth > e.clientWidth + 1).length,
+        }));
+        expect(m, `${lang} at ${width}`).toEqual({ page: width, cut: 0 });
+      }
+    }
+  });
+
+  test('from the map, a district opens its guide beside the cards collected there on a wide screen', async ({ page }) => {
+    const card = (i, district, unlocked) => ({
+      _id: String(i), name: `Card ${i}`, slug: `card-${i}`, localizedNames: { cz: `Card ${i}`, zh: `Card ${i}` }, labels: ['castle'], coverImage: '', pixelArtKey: '',
+      rarity: 'rare', xpReward: 20, unlocked, _checkedInAt: unlocked ? `2026-01-${String(i + 1).padStart(2, '0')}T00:00:00.000Z` : null, district, quarter: 'Dejvice', coordinates: { lat: 50.1, lng: 14.39 },
+    });
+    await page.route('**/api/locations', route => route.fulfill({ json: [
+      ...Array.from({ length: 12 }, (_, i) => card(i, 'Praha 11', true)),
+      card(12, 'Praha 11', false),
+      card(13, 'Praha 1', true),
+    ] }));
+    await page.route('**/api/user/area-guide-read', route => route.fulfill({ json: {} }));
+    const openDistrict = async () => {
+      const area = page.locator('.district-map__area').nth(5); // Praha 11 in the map's order
+      await area.waitFor();
+      await area.hover();
+      await area.click();
+    };
+    await page.setViewportSize({ width: 2560, height: 1440 });
+    await page.reload();
+    await openDistrict();
+    const guide = page.locator('.area-guide--split');
+    await expect(guide.locator('.area-guide__section').first()).toBeVisible();
+    const cards = guide.locator('.area-guide__collection .loc-card');
+    await expect(guide.locator('.area-guide__title')).toHaveText('Prague 11');
+    await expect(cards).toHaveCount(12); // collected, in this district only
+    const text = await guide.locator('.area-guide__text').boundingBox();
+    const shelf = await guide.locator('.area-guide__collection').boundingBox();
+    expect(shelf.x).toBeGreaterThanOrEqual(text.x + text.width - 1);
+    expect((await guide.boundingBox()).width).toBeGreaterThan(2400);
+
+    // A card's detail opens on top; Escape leaves both, then closes the guide once it's alone.
+    await page.route('**/api/locations/card-*', route => route.fulfill({ json: { ...card(11, 'Praha 11', true), description: { en: 'A castle.' } } }));
+    await cards.first().click();
+    const detail = page.locator('.px-modal--detail');
+    await expect(detail).toBeVisible();
+    const box = await detail.boundingBox();
+    const top = await page.evaluate(({ x, y }) => !!document.elementFromPoint(x, y)?.closest('.px-modal--detail'), { x: box.x + box.width / 2, y: box.y + box.height / 2 });
+    expect(top).toBe(true);
+    await page.keyboard.press('Escape');
+    await expect(guide).toBeVisible();
+    await detail.locator('.px-modal__close').first().click();
+    await expect(detail).toHaveCount(0);
+    await page.keyboard.press('Escape');
+    await expect(guide).toHaveCount(0);
+
+    // Narrower screens stack the cards under the text.
+    await page.setViewportSize({ width: 1000, height: 800 });
+    await page.reload();
+    await openDistrict();
+    await expect(page.locator('.area-guide--stacked .loc-card')).toHaveCount(12);
+    await expect(page.locator('.area-guide--split')).toHaveCount(0);
+  });
+
+  test('the progress list is folded behind a button below a 2K screen', async ({ page }) => {
+    const list = page.locator('.district-progress__list');
+    const toggle = page.locator('.district-progress__toggle');
+    await page.setViewportSize({ width: 2560, height: 1440 });
+    await expect(list).toBeVisible();
+    await expect(toggle).toBeHidden();
+
+    // A computer below 2K: opening it leaves the page at one screen.
+    await page.setViewportSize({ width: 1920, height: 1080 });
+    await expect(list).toBeHidden();
+    await toggle.click();
+    await expect(list).toBeVisible();
+    await expect(page.locator('.district-map__svg')).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollHeight)).toBe(1080);
+    expect(await page.locator('.district-progress').evaluate(c => c.scrollHeight <= c.clientHeight + 2)).toBe(true);
+    await toggle.click();
+
+    await page.setViewportSize({ width: 390, height: 844 });
+    await expect(list).toBeHidden();
+    await expect(page.locator('.district-map')).toBeVisible();
+    await expect(toggle).toHaveText(/Show details/);
+    await toggle.click();
+    await expect(list).toBeVisible();
+    await expect(toggle).toHaveText(/Hide details/);
+    await toggle.click();
+    await expect(list).toBeHidden();
+  });
+
+  test('the collection card opens every collected card, a screen at a time behind a More button', async ({ page }) => {
+    const card = (i, unlocked) => ({
+      _id: String(i), name: `Card ${i}`, slug: `card-${i}`, localizedNames: { cz: `Card ${i}`, zh: `Card ${i}` }, labels: ['castle', ...(i % 2 ? ['outside'] : [])], coverImage: '', pixelArtKey: '',
+      rarity: i % 2 ? 'expedition' : 'rare', xpReward: 20, unlocked, _checkedInAt: unlocked ? new Date(2026, 0, 1, 0, i).toISOString() : null, coordinates: { lat: 50.07, lng: 14.42 },
+    });
+    await page.route('**/api/locations', route => route.fulfill({ json: [...Array.from({ length: 200 }, (_, i) => card(i, true)), card(200, false)] }));
+    const gallery = page.locator('.profile-gallery');
+    const cards = gallery.locator('.loc-card');
+    const more = gallery.locator('.full-card-grid__more');
+
+    await page.setViewportSize({ width: 1920, height: 1080 });
+    await page.reload();
+    await expect(page.locator('.ring-card')).toHaveCSS('display', 'flex'); // being clickable doesn't change its layout
+    await page.locator('.ring-card').click();
+    await expect(gallery.locator('.px-title')).toContainText('My Collections');
+    await expect(gallery.locator('.card-strip__count')).toHaveText('200'); // every collected card, outside ones too
+    await expect(cards.first().locator('.loc-card__name')).toHaveText('Card 199'); // newest first
+    const first = await cards.count();
+    expect(first).toBeLessThan(200);
+    const columns = await cards.evaluateAll(els => els.filter(e => Math.abs(e.getBoundingClientRect().top - els[0].getBoundingClientRect().top) < 5).length);
+    expect(first % columns).toBe(0); // whole rows
+    const scroller = await gallery.locator('.profile-gallery__scroll').boundingBox();
+    const lastBottom = await cards.last().evaluate(e => e.getBoundingClientRect().bottom);
+    expect(lastBottom).toBeGreaterThan(scroller.y + scroller.height - 1); // fills the screen
+    await expect(more).toContainText(`${200 - first} left`);
+    await more.click();
+    await expect(cards).toHaveCount(first * 2);
+    await page.keyboard.press('Escape');
+
+    // Phones: a bigger batch, and the button goes when all are in.
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.reload();
+    await page.locator('.ring-card').click();
+    await expect(cards).toHaveCount(20);
+    for (let n = 40; n <= 200; n += 20) {
+      await more.click();
+      await expect(cards).toHaveCount(n);
+    }
+    await expect(more).toHaveCount(0);
+  });
+
+  test('a collection card with nothing in it does not open', async ({ page }) => {
+    await page.route('**/api/user/progress', route => route.fulfill({ json: { ...PROGRESS, presetCheckins: 0 } }));
+    await page.reload();
+    await page.locator('.ring-card').click();
+    await expect(page.locator('.profile-gallery')).toHaveCount(0);
+  });
+
+  test('on a computer the profile is one screen at any size; a phone scrolls', async ({ page }) => {
+    const size = () => page.evaluate(() => ({
+      page: document.documentElement.scrollHeight,
+      screen: window.innerHeight,
+      wide: document.documentElement.scrollWidth - window.innerWidth,
+      clipped: [...document.querySelectorAll('.stat-card')].filter(c => getComputedStyle(c).display !== 'none' && c.scrollHeight > c.clientHeight + 2).length,
+    }));
+    for (const [width, height] of [[1920, 1080], [1366, 650], [1024, 700]]) {
+      await page.setViewportSize({ width, height });
+      await page.waitForFunction(h => document.documentElement.scrollHeight === h && !!document.querySelector('.profile-body')?.style.zoom, height);
+      await expect.poll(size, { message: `${width}x${height}` }).toEqual({ page: height, screen: height, wide: 0, clipped: 0 });
+    }
+    // A 2K screen keeps the normal wide layout, unzoomed.
+    await page.setViewportSize({ width: 2560, height: 1440 });
+    await expect.poll(() => page.evaluate(() => document.querySelector('.profile-body').style.zoom)).toBe('');
+    await expect(page.locator('.profile-body')).toHaveCSS('display', 'contents');
+
+    await page.setViewportSize({ width: 390, height: 844 });
+    await expect.poll(() => page.evaluate(() => document.querySelector('.profile-body').style.zoom)).toBe('');
+    expect((await size()).page).toBeGreaterThan(844);
+  });
+
+  test('a progress row opens the same guide window instead of going to Explore', async ({ page }) => {
+    await page.route('**/api/locations', route => route.fulfill({ json: [
+      { _id: '1', name: 'Bridge', slug: 'bridge', localizedNames: { cz: 'Bridge', zh: 'Bridge' }, labels: ['bridge'], coverImage: '', pixelArtKey: '', rarity: 'rare', xpReward: 20, unlocked: true, district: 'Praha 2', quarter: 'Nové Město', coordinates: { lat: 50.07, lng: 14.42 } },
+    ] }));
+    await page.route('**/api/user/area-guide-read', route => route.fulfill({ json: {} }));
+    await page.reload();
+    await page.locator('.district-progress__toggle').click();
+    const row = name => page.locator('.district-progress__row').filter({ has: page.getByText(name, { exact: true }) }).getByRole('button');
+
+    await row('Prague 2').click();
+    const guide = page.locator('.area-guide--split');
+    await expect(guide.locator('.area-guide__title')).toHaveText('Prague 2');
+    await expect(guide.locator('.area-guide__collection .loc-card')).toHaveCount(1);
+    await expect(page).toHaveURL(/\/dashboard/);
+    await page.keyboard.press('Escape');
+    await expect(guide).toHaveCount(0);
+
+    // A district with nothing collected yet opens too, as on the map.
+    await row('Prague 1').click();
+    await expect(guide.locator('.area-guide__title')).toHaveText('Prague 1');
+    await expect(guide).toContainText('No cards collected here yet.');
+    await page.keyboard.press('Escape');
+
+    // Phones: the overview only, the rest folded, the cards underneath.
+    await page.setViewportSize({ width: 390, height: 844 });
+    await row('Prague 2').click();
+    const stacked = page.locator('.area-guide--stacked');
+    const sections = stacked.locator('.area-guide__section');
+    await expect(guide).toHaveCount(0);
+    await expect(sections).toHaveCount(1);
+    await expect(stacked.locator('.area-guide__collection .loc-card')).toHaveCount(1);
+    expect(Math.abs(await stacked.locator('.loc-card').evaluate(e => e.getBoundingClientRect().width) - 176)).toBeLessThan(1); // Explore's two columns at this width
+    const more = stacked.getByRole('button', { name: 'Read more' });
+    await more.click();
+    expect(await sections.count()).toBeGreaterThan(1);
+    await stacked.evaluate(el => { el.scrollTop = el.scrollHeight; });
+    await expect(stacked.locator('.px-modal__close')).toBeInViewport(); // pinned while scrolling
+    await stacked.getByRole('button', { name: 'Show less' }).click();
+    await expect(sections).toHaveCount(1);
+    await expect(stacked.getByRole('button', { name: 'Read more' })).toBeVisible();
+
+    await page.route('**/api/locations/bridge', route => route.fulfill({ json: { slug: 'bridge', name: 'Bridge', localizedNames: {}, labels: ['bridge'], rarity: 'rare', unlocked: true, description: { en: 'A bridge.' }, coordinates: { lat: 50.07, lng: 14.42 } } }));
+    await stacked.locator('.loc-card').click();
+    const detail = page.locator('.px-modal--detail');
+    await expect(detail).toBeVisible();
+    const box = await detail.boundingBox();
+    expect(await page.evaluate(({ x, y }) => !!document.elementFromPoint(x, y)?.closest('.px-modal--detail'), { x: box.x + box.width / 2, y: box.y + box.height / 2 })).toBe(true);
+  });
+
+  test('the window says so when the cards cannot be loaded', async ({ page }) => {
+    await page.route('**/api/user/expeditions', route => route.fulfill({ status: 500, json: {} }));
+    await page.locator('.card-strip').filter({ hasText: 'Expeditions' }).getByRole('button', { name: 'All →' }).click();
+    await expect(page.locator('.profile-gallery')).toContainText('could not be loaded');
   });
 
   test('with no expedition cards yet, the nudge opens Explore on Show all, filtered to Expedition', async ({ page }) => {
@@ -270,12 +561,10 @@ test.describe('Dashboard', () => {
     await expect(page.locator('.explore-rarity-blurb')).toContainText('beyond the city limits');
   });
 
-  test('"All →" on the treasure strip opens the finds on the Treasure Hunt page', async ({ page }) => {
+  test('"All →" on the treasure strip opens the finds in a window, with rarity and XP', async ({ page }) => {
     const find = { ...PROGRESS.recentFinds.expedition.cards[0], slug: 'gate', name: 'Gate', labels: ['gate'], rarity: 'rare', unlocked: true, _xpEarned: 200 };
     await page.route('**/api/user/progress', route => route.fulfill({ json: { ...PROGRESS, recentFinds: { ...PROGRESS.recentFinds, treasure: { count: 1, cards: [find] } } } }));
     await page.route('**/api/user/treasures', route => route.fulfill({ json: [find] }));
-    await page.route('**/api/locations', route => route.fulfill({ json: [] }));
-    await page.route(/\/api\/user\/(random-draw|hardcore-hunt)/, route => route.fulfill({ json: { active: false, canDraw: true } }));
     await page.reload();
     // Names in the treasure strip take their card's rarity colour.
     await expect(page.locator('.card-strip').filter({ hasText: 'Treasure Hunt Finds' }).locator('.card-strip__name'))
@@ -284,9 +573,10 @@ test.describe('Dashboard', () => {
       .not.toHaveAttribute('style', /rarity/);
     await expect(page.locator('.card-strip').filter({ hasText: 'Treasure Hunt Finds' }).locator('.card-strip__meta')).toHaveText(/Rare\s*\+200 XP/);
     await expect(page.locator('.card-strip').filter({ hasText: 'Expeditions' }).locator('.card-strip__meta')).toHaveCount(0);
-    await page.locator('.card-strip').filter({ hasText: 'Treasure Hunt Finds' }).getByRole('link', { name: 'All →' }).click();
-    await expect(page).toHaveURL(/\/treasure-hunt/);
-    await expect(page.getByRole('button', { name: 'Hide my treasure finds' })).toBeVisible();
-    await expect(page.locator('.hunt-finds .loc-card')).toHaveCount(1);
+    await page.locator('.card-strip').filter({ hasText: 'Treasure Hunt Finds' }).getByRole('button', { name: 'All →' }).click();
+    await expect(page).toHaveURL(/\/dashboard/);
+    const gallery = page.locator('.profile-gallery');
+    await expect(gallery.locator('.card-strip__item')).toHaveCount(1);
+    await expect(gallery.locator('.card-strip__meta')).toHaveText(/Rare\s*\+200 XP/);
   });
 });

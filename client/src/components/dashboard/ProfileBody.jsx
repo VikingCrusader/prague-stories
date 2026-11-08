@@ -1,11 +1,13 @@
 import { useRef, useState } from 'react';
 import { useFitText } from '../../utils/fitText';
+import { useFitPage } from '../../utils/fitPage';
 import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { RARITY_VAR, RARITY_LABEL, ALL_RARITIES } from '../../utils/rarity';
 import ProgressRing from './ProgressRing';
 import DistrictProgress from './DistrictProgress';
 import RecentCardStrip from './RecentCardStrip';
+import ProfileGallery from './ProfileGallery';
 import LevelsModal from './LevelsModal';
 import LocationDetail from '../locations/LocationDetail';
 import RarestAchievements from '../achievements/RarestAchievements';
@@ -31,7 +33,6 @@ const FIT_LABELS = [
   '.card-strip__empty',
   '.card-strip__name',
   '.card-strip__meta',
-  '.ach-tile__name',
 ].join(', ');
 
 export default function ProfileBody({ progress, achievements, username, own = true, isGuest = false }) {
@@ -44,6 +45,8 @@ export default function ProfileBody({ progress, achievements, username, own = tr
   const [levelsOpen, setLevelsOpen] = useState(false);
   // A card opened from the treasure / expedition strips.
   const [openSlug, setOpenSlug] = useState(null);
+  // The "All" window: 'achievements', 'treasure', 'expedition', 'collection', a rarity or null.
+  const [gallery, setGallery] = useState(null);
 
   const { levelInfo, totalXP, unlockPercent, rarityCount, totalPreset } = progress;
   // Rank movement since Monday 0:00 in Prague, when the week resets
@@ -67,14 +70,25 @@ export default function ProfileBody({ progress, achievements, username, own = tr
     </>
   );
   const plus = n => (n > 0 ? `+${n}` : '0');
+  const canOpenCollection = own && progress.presetCheckins > 0;
+  const collectionProps = canOpenCollection ? {
+    role: 'button',
+    tabIndex: 0,
+    'aria-label': t('grid.filterDiscovered'),
+    onClick: () => setGallery('collection'),
+    onKeyDown: e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setGallery('collection'); } },
+  } : {};
 
   // Labels that stay on one line in every language, shrinking instead of
   // wrapping, so the cards keep the Chinese sizes (2026-11-04, user's call).
   const fitRef = useRef(null);
+  // First the page's zoom, since it changes the width the labels get.
+  useFitPage(fitRef, [lang, progress, achievements]);
   useFitText(fitRef, FIT_LABELS, [lang, progress, achievements], 8);
 
   return (
-    // display: contents, only there so the fit can find its labels.
+    <>
+    {/* display: contents, only there so the fit can find its labels. */}
     <div ref={fitRef} className="profile-body">
       {/* Level + XP */}
       <div className="level-row" style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginBottom: 24 }}>
@@ -134,7 +148,9 @@ export default function ProfileBody({ progress, achievements, username, own = tr
             side with the week and rarity cards it has room to spare; where
             it stands alone (900px and narrower) the ring shrinks by the
             title's height instead (pixelart.css, .ring-card__body svg). */}
-        <div className="stat-card stat-card--ring stat-card--tall ring-card">
+        {/* Own profile: opens every collected card in a window (2026-11-08,
+            user's call). */}
+        <div className={`stat-card stat-card--ring stat-card--tall ring-card${canOpenCollection ? ' ring-card--link' : ''}`} {...collectionProps}>
           <h2 className="px-title profile-card-title">{t('dashboard.collectionTitle')}</h2>
           <div className="ring-card__body">
           <ProgressRing percent={progress.cityUnlockPercent ?? unlockPercent} size={140} label={t('dashboard.unlockedRing')} />
@@ -197,10 +213,10 @@ export default function ProfileBody({ progress, achievements, username, own = tr
               );
               return (
                 <li key={r} className="rarity-compact__item" style={{ color: RARITY_VAR[r] }}>
-                  {/* Own profile: opens My Collections filtered to this rarity
-                      (2026-11-04). Not styled as a link; underlined on hover. */}
+                  {/* Own profile: opens this rarity's collected cards in a
+                      window (2026-11-08). Not styled as a link; underlined on hover. */}
                   {own && (rarityCount?.[r] || 0) > 0
-                    ? <Link to="/explore" state={{ collection: true, rarity: r, showAll: r === 'expedition' }} className="quiet-link rarity-compact__link">{inner}</Link>
+                    ? <button type="button" className="quiet-link rarity-compact__link" onClick={() => setGallery(r)}>{inner}</button>
                     : inner}
                 </li>
               );
@@ -214,7 +230,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
       {/* Achievements, treasure finds and expeditions each in a card like
           the stat cards above (2026-11-04, user's call). */}
       <div className="stat-card profile-card">
-        <RarestAchievements achievements={achievements} onOpen={setSelectedAch} titleLink={own} />
+        <RarestAchievements achievements={achievements} onOpen={setSelectedAch} onSeeAll={() => setGallery('achievements')} titleLink={own} />
       </div>
       </div>
 
@@ -236,7 +252,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
             <RecentCardStrip
               title={t('dashboard.treasures')}
               data={firstFour(progress.recentFinds.treasure)}
-              allTo={own ? '/treasure-hunt' : null} allState={{ showFinds: true }}
+              onSeeAll={own ? () => setGallery('treasure') : null}
               details
               emptyText={t('dashboard.treasuresEmpty')} emptyLinkText={t('dashboard.treasuresLink')} emptyTo={own ? '/treasure-hunt' : null}
               onOpen={setOpenSlug}
@@ -246,7 +262,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
             <RecentCardStrip
               title={t('dashboard.expeditions')}
               data={firstFour(progress.recentFinds.expedition)}
-              allTo={own ? '/explore' : null} allState={{ collection: true, rarity: 'expedition' }}
+              onSeeAll={own ? () => setGallery('expedition') : null}
               emptyText={t('dashboard.expeditionsEmpty')} emptyLinkText={t('dashboard.expeditionsLink')} emptyTo={own ? '/explore' : null} emptyState={{ showAll: true, rarity: 'expedition' }}
               onOpen={setOpenSlug}
             />
@@ -257,9 +273,23 @@ export default function ProfileBody({ progress, achievements, username, own = tr
       </div>
       </div>
 
-      {levelsOpen && <LevelsModal currentLevel={levelInfo.level} onClose={() => setLevelsOpen(false)} />}
-      {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
-      {selectedAch && <AchievementModal achievement={selectedAch} onClose={() => setSelectedAch(null)} />}
     </div>
+    {/* Outside .profile-body so the pop-ups aren't zoomed with the page and the
+        gallery's names wrap instead of shrinking; the details come after the
+        gallery, so they open on top of it. */}
+    {levelsOpen && <LevelsModal currentLevel={levelInfo.level} onClose={() => setLevelsOpen(false)} />}
+    {gallery && (
+      <ProfileGallery
+        kind={gallery}
+        achievements={achievements}
+        paused={!!selectedAch || !!openSlug}
+        onClose={() => setGallery(null)}
+        onOpenAchievement={setSelectedAch}
+        onOpenCard={setOpenSlug}
+      />
+    )}
+    {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
+    {selectedAch && <AchievementModal achievement={selectedAch} onClose={() => setSelectedAch(null)} />}
+    </>
   );
 }

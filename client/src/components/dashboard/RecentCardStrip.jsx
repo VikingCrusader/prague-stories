@@ -8,7 +8,7 @@ import { RARITY_VAR, RARITY_LABEL } from '../../utils/rarity';
 
 // A small cover with the name under it, for the profile's strips. Same cover
 // order as LocationCard: local thumb, local full size, Cloudinary thumb, emoji.
-function Thumb({ location, onOpen, details }) {
+export function CardThumb({ location, onOpen, details }) {
   const { lang } = useLang();
   const convert = useConvert();
   const name = convert(getLocName(location, lang));
@@ -40,14 +40,15 @@ function Thumb({ location, onOpen, details }) {
 
 // Profile (2026-11-03, user request): the newest few cards of one kind
 // (treasure-hunt finds, expedition cards) as small covers, with the total and
-// a link to all of them; a one-line nudge when there are none yet. Without
-// `allTo` / `emptyTo` (someone else's profile) those links are left out.
+// a button that opens all of them (`onSeeAll`, ProfileGallery); a one-line
+// nudge when there are none yet. Without `onSeeAll` / `emptyTo` (someone
+// else's profile) those are left out.
 // `details` (the treasure strip, whose finds differ in rarity; expedition
 // cards are all one) colours each name in its card's rarity and adds a line
 // above the cover (2026-11-03, user's call: under the name it read as part
 // of it) with the rarity and the XP that find paid ("+200 XP", hunt
 // multiplier included; left out on old check-ins that didn't store it).
-export default function RecentCardStrip({ title, data, allTo, allState, emptyText, emptyLinkText, emptyTo, emptyState, onOpen, details = false }) {
+export default function RecentCardStrip({ title, data, onSeeAll, emptyText, emptyLinkText, emptyTo, emptyState, onOpen, details = false }) {
   const t = useT();
   const convert = useConvert();
   if (!data) return null;
@@ -57,11 +58,11 @@ export default function RecentCardStrip({ title, data, allTo, allState, emptyTex
         <h2 className="px-title card-strip__title">
           {title} <span className="card-strip__count">{data.count}</span>
         </h2>
-        {allTo && data.count > 0 && <Link to={allTo} state={allState} className="card-strip__all">{t('dashboard.seeAll')}</Link>}
+        {onSeeAll && data.count > 0 && <button type="button" className="card-strip__all" onClick={onSeeAll}>{t('dashboard.seeAll')}</button>}
       </div>
       {data.cards.length > 0 ? (
         <div className="card-strip__row">
-          {data.cards.map(loc => <Thumb key={loc.slug} location={loc} onOpen={onOpen} details={details} />)}
+          {data.cards.map(loc => <CardThumb key={loc.slug} location={loc} onOpen={onOpen} details={details} />)}
         </div>
       ) : (
         <p className="card-strip__empty">

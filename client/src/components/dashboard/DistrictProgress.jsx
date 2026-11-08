@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { DISTRICT_COLORS } from '../locations/DistrictLine';
+import AreaGuideModal from '../locations/AreaGuideModal';
 import { quarterName } from '../../utils/pragueQuarters';
 import { QUARTER_DISTRICT } from '../../utils/quarterDistricts';
 import DistrictMap from './DistrictMap';
@@ -12,10 +12,9 @@ import DistrictMap from './DistrictMap';
 // card under the XP and achievement totals. Above the list, how many of the
 // 22 districts the user has been to (at least one card collected there);
 // districts not yet visited have their name greyed.
-// On the user's own profile (`own`) a visited district's row opens Explore
-// filtered to that district (2026-11-04), not styled as a link, its name
-// underlined on hover. My Collections ignores the area filter, so it opens
-// the district's whole list, collected cards and locked ones.
+// On the user's own profile (`own`) a row opens the area's guide with the
+// cards collected there, like the map (2026-11-08, user's call; it used to go
+// to Explore), not styled as a link, its name underlined on hover.
 // The map's district / quarter toggle switches the summary and the list too
 // (2026-11-04, user's call): in the quarter view every quarter with cards,
 // grouped by district (utils/quarterDistricts.js) and sorted by name, bars in
@@ -32,6 +31,8 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
   const convert = useConvert();
   const [mode, setMode] = useState('district');
   const [page, setPage] = useState(0);
+  const [guide, setGuide] = useState(null);
+  const [listOpen, setListOpen] = useState(false);
 
   const quarterRows = useMemo(() => {
     const collator = new Intl.Collator(lang === 'zh' ? 'zh' : lang === 'cz' ? 'cs' : 'en');
@@ -41,8 +42,9 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
       .sort((a, b) => dn(a.quarter) - dn(b.quarter) || collator.compare(quarterName(a.quarter, lang), quarterName(b.quarter, lang)));
   }, [quarters, lang]);
 
-  // The map comes first, the list always under it (a fold button was tried
-  // and dropped, 2026-11-04, user's call).
+  // The map comes first, the list under it. Below a 2K screen the list starts
+  // folded behind a button (2026-11-08, user's call; pixelart.css); from 2K up
+  // it has neither the fold nor the button.
   if (!districts?.length) return null;
   const isQ = mode === 'quarter' && quarterRows.length > 0;
   const changeMode = m => { setMode(m); setPage(0); };
@@ -51,11 +53,11 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
   const rows = isQ
     ? quarterRows.slice(page * QUARTER_PAGE, (page + 1) * QUARTER_PAGE).map(q => {
       const n = Number((QUARTER_DISTRICT[q.quarter] || 'Praha 1').slice(6));
-      return { key: q.quarter, name: quarterName(q.quarter, lang), color: DISTRICT_COLORS[n - 1], state: { quarter: q.quarter }, ...q };
+      return { key: q.quarter, name: quarterName(q.quarter, lang), color: DISTRICT_COLORS[n - 1], ...q };
     })
     : districts.map(d => {
       const n = Number(d.district.slice(6));
-      return { key: d.district, name: t('detail.district', { n }), color: DISTRICT_COLORS[n - 1], state: { district: d.district }, ...d };
+      return { key: d.district, name: t('detail.district', { n }), color: DISTRICT_COLORS[n - 1], ...d };
     });
   const all = isQ ? quarterRows : districts;
   const visited = all.filter(d => d.collected > 0).length;
@@ -85,7 +87,10 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
         <span className="district-progress__summary-text">{t(isQ ? 'dashboard.quartersVisited' : 'dashboard.districtsVisited')}</span>
       </div>
       <DistrictMap districts={districts} quarters={quarters} own={own} mode={mode} onModeChange={changeMode} showToggle={false} />
-      <ul className={`district-progress__list${isQ ? ' district-progress__list--quarters' : ''}`}>
+      <button type="button" className="filter-btn district-progress__toggle" aria-expanded={listOpen} onClick={() => setListOpen(o => !o)}>
+        {t(listOpen ? 'dashboard.hideDetails' : 'dashboard.showDetails')}
+      </button>
+      <ul className={`district-progress__list${isQ ? ' district-progress__list--quarters' : ''}${listOpen ? ' district-progress__list--open' : ''}`}>
         {rows.map(r => {
           const pct = r.total ? Math.round((r.collected / r.total) * 100) : 0;
           const inner = (
@@ -99,8 +104,8 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
           );
           return (
             <li key={r.key} className={`district-progress__row${r.collected ? '' : ' district-progress__row--unvisited'}`}>
-              {own && r.collected
-                ? <Link to="/explore" state={r.state} className="quiet-link district-progress__link">{inner}</Link>
+              {own
+                ? <button type="button" className="quiet-link district-progress__link" onClick={() => setGuide({ kind: isQ ? 'quarter' : 'district', value: r.key })}>{inner}</button>
                 : inner}
             </li>
           );
@@ -120,6 +125,7 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
           </li>
         )}
       </ul>
+      {guide && <AreaGuideModal kind={guide.kind} value={guide.value} withCollection onClose={() => setGuide(null)} />}
     </div>
   );
 }

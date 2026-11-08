@@ -30,7 +30,7 @@ export default function DashboardPage() {
 
   return (
     <div className="dashboard-page">
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12, marginBottom: 20 }}>
+      <div className="dashboard-head" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12, marginBottom: 20 }}>
         <h1 className="px-title dashboard-title" style={{ fontSize: guest ? 22 : 26, margin: 0 }}>
           {guest && !user ? t('dashboard.titleGuest') : t('dashboard.title')}
         </h1>

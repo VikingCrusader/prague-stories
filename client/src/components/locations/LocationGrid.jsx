@@ -17,14 +17,13 @@ const PAGE_SIZE = 60;
 
 // `onCollectionChange` (optional) hears whether "My Collections" is on, so
 // the page header can react to it (ExplorePage's showcase hint).
-// `initialFilter` ({ collection, rarity, label }) opens the grid already
-// filtered, e.g. My Collections + Expedition from the profile's expedition
-// strip, or My Collections + one label from the profile's label counts.
+// `initialFilter` ({ rarity, label }) opens the grid already filtered, e.g. on
+// Expedition from the nudge on the profile's empty expedition strip.
 export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
-  const [discovered, setDiscovered]         = useState(!!initialFilter?.collection);
+  const [discovered, setDiscovered]         = useState(false);
   // "My Collections" lists every collected card, city or outside, whatever
   // City only says (ExplorePage passes that list as collectionLocations).
   const locations = discovered && collectionLocations ? collectionLocations : scopedLocations;

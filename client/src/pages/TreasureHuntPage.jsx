@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { useLocation } from 'react-router-dom';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import LocationOffNotice from '../components/shared/LocationOffNotice';
@@ -97,22 +96,6 @@ export default function TreasureHuntPage() {
     }
     setFindsOpen(open => !open);
   };
-  // The profile's treasure strip links here with { showFinds: true }: open
-  // the finds and scroll down to them once they have loaded.
-  const { state: navState } = useLocation();
-  const findsRef = useRef(null);
-  const scrollToFinds = useRef(false);
-  useEffect(() => {
-    if (navState?.showFinds && user && !scrollToFinds.current && !findsOpen) {
-      scrollToFinds.current = true;
-      toggleFinds();
-    }
-  }, [navState, user]); // eslint-disable-line react-hooks/exhaustive-deps
-  useEffect(() => {
-    if (scrollToFinds.current && finds !== null) {
-      findsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  }, [finds]);
   // Open on a first visit; folding it (phones only) is remembered.
   const [challengeOpen, setChallengeOpen] = useState(() => {
     try { return localStorage.getItem(CHALLENGE_FOLDED_KEY) !== '1'; } catch { return true; }
@@ -413,7 +396,7 @@ export default function TreasureHuntPage() {
         {user && (
           <>
             <hr className="px-divider" />
-            <section ref={findsRef} className="guide-section hunt-finds">
+            <section className="guide-section hunt-finds">
               <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <button type="button" className="px-btn px-btn--dark" onClick={toggleFinds} aria-expanded={findsOpen}>
                   {findsOpen ? t('draw.hideFinds') : t('draw.showFinds')}

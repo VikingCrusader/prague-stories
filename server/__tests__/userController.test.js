@@ -845,6 +845,26 @@ describe('GET /api/user/treasures', () => {
   });
 });
 
+describe('GET /api/user/expeditions', () => {
+  test('lists every outside card the user has, past the profile strip\'s six, newest first', async () => {
+    await Location.create({ name: 'city', slug: 'city', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['church'], quarter: 'Staré Město', description: { en: 'long text' } });
+    const { token, user } = await createAuthedUser();
+    await checkIn(token, 'city');
+    for (let i = 1; i <= 8; i++) {
+      const loc = await Location.create({ name: `out-${i}`, slug: `out-${i}`, coordinates: CHARLES_BRIDGE, labels: ['castle', 'outside'], description: { en: 'long text' } });
+      await CheckIn.create({ user: user._id, location: loc._id, checkedInAt: new Date(2026, 0, i) });
+    }
+    const res = await request(app).get('/api/user/expeditions').set('Authorization', `Bearer ${token}`);
+    expect(res.status).toBe(200);
+    expect(res.body.map(c => c.slug)).toEqual(['out-8', 'out-7', 'out-6', 'out-5', 'out-4', 'out-3', 'out-2', 'out-1']);
+    expect(res.body[0].description).toBeUndefined();
+  });
+
+  test('requires auth', async () => {
+    expect((await request(app).get('/api/user/expeditions')).status).toBe(401);
+  });
+});
+
 describe('GET /api/user/leaderboard', () => {
   async function seedUsers() {
     const people = [['ada', 500], ['bob', 300], ['cyd', 300], ['dan', 10], ['eve', 0], ['admin000', 46010]];

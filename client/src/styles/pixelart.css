@@ -1545,21 +1545,24 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 .profile-body .card-strip__all { flex: none; }
 .profile-body .card-strip__empty { white-space: nowrap; overflow: hidden; }
 .profile-body .stat-card--rank-top .stat-card__label { line-height: 21px; }
-/* Achievement and card names under the thumbnails: one line in every
-   language (they were allowed two, and longer English names took the second
-   line more often, making the cards and so the page taller), shrunk to fit,
-   then cut with an ellipsis. */
-.profile-body .card-strip__name,
-.profile-body .ach-tile__name {
+/* Card names under the thumbnails: one line in every language (they were
+   allowed two, and longer English names took the second line more often,
+   making the cards and so the page taller), shrunk to fit, then cut with an
+   ellipsis. */
+.profile-body .card-strip__name {
   display: block; -webkit-line-clamp: unset; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;
 }
 .profile-body .card-strip__meta { flex-wrap: nowrap; white-space: nowrap; overflow: hidden; max-width: 100%; }
 /* Fixed line heights, so a name shrunk to fit doesn't make its line shorter. */
 .profile-body .card-strip__name { line-height: 17px; }
 .profile-body .card-strip__meta { line-height: 16px; }
-.profile-body .ach-tile__name { line-height: 18px; }
+/* Achievement names get two lines (2026-11-08, user's call), always reserved,
+   so a tile is the same height in every language. */
+.profile-body .ach-tile__name { line-height: 18px; height: 36px; }
 /* The progress ring card: title on top, ring and numbers below. */
 .ring-card { display: flex; flex-direction: column; gap: 8px; }
+.ring-card--link { cursor: pointer; }
+.ring-card--link:hover, .ring-card--link:focus-visible { border-color: var(--gold); outline: none; }
 .ring-card__body { flex: 1; display: flex; align-items: center; gap: 24px; min-height: 0; }
 /* Standing alone (one-column grid), the card sizes to its content: the ring
    gives up the title's height so the card stays as tall as before. */
@@ -1588,8 +1591,8 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 .quiet-link { color: inherit; text-decoration: none; cursor: pointer; }
 .quiet-link:hover .rarity-compact__name,
 .quiet-link:hover .quiet-link__text { text-decoration: underline; text-underline-offset: 3px; }
-.rarity-compact__link { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; }
-.district-progress__link { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 0; }
+.rarity-compact__link { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; width: 100%; padding: 0; background: none; border: none; font: inherit; }
+.district-progress__link { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 0; padding: 0; background: none; border: none; font: inherit; text-align: left; }
 /* District map on the profile (2026-11-04): gold as deep as the share
    collected, grey where the user hasn't been. */
 .district-map { margin: 4px 0 10px; }
@@ -1610,7 +1613,6 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 .district-map__svg--zoomed { touch-action: none; cursor: grab; }
 .district-map__svg--quarters .district-map__area { stroke-width: 1; vector-effect: non-scaling-stroke; }
 .district-map__svg--quarters .district-map__area--picked { stroke-width: 2.5; }
-.district-map__outline { fill: none; stroke: var(--text-primary); stroke-opacity: 0.55; stroke-width: 2; stroke-linejoin: round; pointer-events: none; vector-effect: non-scaling-stroke; }
 .district-map__qname {
   font-weight: 700; text-anchor: middle; dominant-baseline: central;
   fill: var(--text-primary); paint-order: stroke; stroke: var(--bg-card); stroke-width: 3px;
@@ -1656,7 +1658,6 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 .profile-card > section { margin-top: 0 !important; }
 .profile-card .px-title { margin-top: 0; }
 .profile-card .ach-showcase { padding-bottom: 0; }
-.profile-card .ach-viewall { margin-bottom: 0; }
 /* Treasure finds and expeditions side by side, four each (2026-11-04). */
 .profile-strips { margin-top: 20px; }
 /* Two equal halves whatever the titles' length, so the covers (sized by the
@@ -1664,6 +1665,9 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 @media (min-width: 901px) { .profile-strips { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
 /* The keep-screen-on toggle is for phones: hidden where there's a mouse. */
 @media (hover: hover) and (pointer: fine) { .wake-lock-row { display: none !important; } }
+/* Phones: a plain 1fr track would grow to the one-line "nothing yet" text and
+   widen the page before that text can shrink to fit. */
+@media (max-width: 600px) { .profile-body .profile-strips { grid-template-columns: minmax(0, 1fr); } }
 .profile-strips .profile-card { margin-top: 0; }
 .profile-strips .card-strip__row { grid-template-columns: repeat(4, minmax(0, 110px)); }
 @media (max-width: 600px) {
@@ -1673,7 +1677,31 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 .card-strip__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
 .card-strip__title { font-size: 22px; margin: 0; }
 .card-strip__count { color: var(--text-muted); font-size: 0.75em; }
-.card-strip__all { font-family: var(--ui-font); font-size: 15px; color: var(--gold); text-decoration: underline; white-space: nowrap; }
+.card-strip__all { padding: 0; background: none; border: none; cursor: pointer; font-family: var(--ui-font); font-size: 15px; color: var(--gold); text-decoration: underline; white-space: nowrap; }
+/* The profile's "All" window (ProfileGallery.jsx): the title stays put and the
+   tiles scroll under it, so the close button never scrolls away. */
+.px-modal.profile-gallery { max-width: 980px; display: flex; flex-direction: column; overflow: hidden; padding: 22px 24px 24px; }
+.profile-gallery__title { font-size: 22px; margin: 0 0 14px; padding-right: 44px; }
+.profile-gallery__scroll { flex: 1; min-height: 0; overflow-y: auto; }
+.profile-gallery__grid { display: grid; gap: 12px; padding: 0 3px 3px 0; /* the tiles' drop shadow */ }
+.profile-gallery__grid--ach { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+.profile-gallery__grid--cards { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 16px 14px; }
+/* One rarity's cards, whole and at Explore's size (--card-w, set in
+   FullCardGrid.jsx): the window takes the screen's width and fits as many
+   as it can. Phones keep .location-grid's two columns. */
+.px-modal.profile-gallery--wide { max-width: none; }
+.full-card-grid__more { display: block; margin: 16px auto 4px; min-width: 220px; }
+@media (min-width: 601px) {
+  .full-card-grid { grid-template-columns: repeat(auto-fill, var(--card-w)); justify-content: center; padding: 0 4px 4px 0; }
+}
+@media (max-width: 600px) {
+  .px-modal.profile-gallery { padding: 18px 14px 20px; }
+  .profile-gallery__grid--ach { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .profile-gallery__grid--ach .ach-tile { padding: 10px 6px; }
+  .profile-gallery__grid--cards { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 8px; }
+  /* Strips outside the profile hide their fourth card on phones. */
+  .profile-gallery__grid .card-strip__item:nth-child(n + 4) { display: flex; }
+}
 .card-strip__row { display: grid; grid-template-columns: repeat(6, minmax(0, 110px)); gap: 14px; }
 .card-strip__item {
   display: flex; flex-direction: column; gap: 6px; min-width: 0;
@@ -1723,6 +1751,14 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 }
 .district-progress__summary { display: flex; align-items: baseline; gap: 10px; margin: 2px 0 14px; flex-wrap: wrap; }
 .district-progress__summary-text { font-size: 16px; color: var(--text-muted); font-weight: 700; }
+.district-progress .district-progress__toggle { display: none; }
+/* Below a 2K screen the list starts folded (phones 2026-11-08; computers the
+   same day, user's call). */
+@media (max-width: 2399px), (max-height: 1199px) {
+  .district-progress .district-progress__toggle { display: block; width: 100%; margin-top: 12px; text-align: center; }
+  .district-progress .district-progress__toggle[aria-expanded="true"] { margin-bottom: 12px; }
+  .district-progress__list:not(.district-progress__list--open) { display: none; }
+}
 .district-progress__row--unvisited .district-progress__name { color: var(--text-muted); opacity: 0.6; }
 .district-progress__row { display: flex; align-items: center; gap: 8px; font-size: 14px; min-width: 0; }
 .district-progress__name { flex: 0 0 auto; width: 6.5em; color: var(--text-primary); white-space: nowrap; }
@@ -2678,6 +2714,33 @@ html[data-lang="zh"] .detail-title-name {
 .area-guide-overlay { z-index: 260; }
 .area-guide { max-width: 640px; padding: 22px 24px 26px; }
 .area-guide__title { font-size: 24px; margin: 0 0 12px; padding-right: 44px; }
+/* From the profile's map and list (2026-11-08, user's call). No detail can lie
+   under it there, so it sits at the level of the other pop-ups and a card's
+   detail can open over it. On a wide screen the write-up is on the left and
+   the cards collected there on the right, each scrolling on its own, filling
+   the screen. On smaller ones (--stacked) the cards run on under the text and
+   everything scrolls together, so the close button stays pinned. */
+.area-guide-overlay--profile { z-index: 200; }
+.area-guide--stacked .px-modal__close { position: sticky; float: right; top: 0; margin-left: 8px; }
+.area-guide__more { display: block; margin-top: 12px; font-family: var(--ui-font); font-size: 15px; }
+.area-guide__collection.area-guide__collection--stacked { display: block; clear: both; margin-top: 22px; padding: 18px 0 0; border-left: 0; border-top: 2px solid var(--border); }
+/* Between phone and wide: edge to edge, so as many cards fit as on Explore. */
+@media (min-width: 601px) {
+  .area-guide-overlay--stacked { padding: 16px 0 0; align-items: flex-end; }
+  .px-modal.area-guide--stacked { max-width: none; padding-left: 12px; padding-right: 12px; border-left: 0; border-right: 0; border-bottom: 0; }
+}
+.area-guide__collection--stacked .area-guide__collection-title { font-size: 21px; padding-right: 0; }
+.area-guide__collection--stacked .area-guide__collection-scroll { overflow: visible; }
+@media (max-width: 600px) { .px-modal.area-guide--stacked { padding-left: 14px; padding-right: 14px; } }
+.px-modal.area-guide--split {
+  max-width: none; height: calc(100vh - 32px); max-height: none; padding: 0; overflow: hidden;
+  display: grid; grid-template-columns: minmax(0, 640px) minmax(0, 1fr);
+}
+.area-guide--split .area-guide__title { padding-right: 0; }
+.area-guide__text { min-height: 0; overflow-y: auto; padding: 22px 24px 26px; }
+.area-guide__collection { min-height: 0; display: flex; flex-direction: column; padding: 22px 24px 24px; border-left: 2px solid var(--border); }
+.area-guide__collection-title { font-size: 24px; margin: 0 0 14px; padding-right: 44px; }
+.area-guide__collection-scroll { flex: 1; min-height: 0; overflow-y: auto; }
 .area-guide__progress { margin: 0 0 18px; }
 .area-guide__progress-text {
   display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
@@ -2747,3 +2810,64 @@ html[data-lang="zh"] .detail-title-name {
 }
 .explore-here__part:hover { filter: brightness(1.2); }
 .explore-here__part:active { background: color-mix(in srgb, currentColor 14%, transparent); }
+
+/* The profile on a computer: one screen, no scrolling, at any screen size
+   (2026-11-08, user's call). Three columns, compact and with fixed column counts
+   so the height doesn't jump with the width; utils/fitPage.js then zooms the
+   page a little to fit (same media query there). A 2K screen or larger keeps
+   the normal wide layout, which fits it already (user's call). */
+@media (min-width: 1024px) and (max-width: 2399px) and (min-height: 500px), (min-width: 2400px) and (min-height: 500px) and (max-height: 1199px) {
+  #root:has(.dashboard-page) { height: 100vh; height: 100dvh; }
+  .dashboard-page { max-width: none; min-height: 0; display: flex; flex-direction: column; overflow: hidden; padding: 10px 24px 12px; }
+  .dashboard-head { margin-bottom: 6px !important; align-items: center !important; }
+  .wake-lock-row { display: none !important; }
+  .profile-body { display: flex; flex-direction: column; flex: none; min-height: 0; }
+  .profile-body .level-row { margin-bottom: 12px !important; flex-wrap: nowrap !important; flex: none; }
+  .profile-layout {
+    flex: 1; min-height: 0;
+    grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.35fr) minmax(0, 1.13fr);
+    grid-template-rows: minmax(0, 1fr) auto;
+    grid-template-areas: "stats ach side" "stats strips side";
+    gap: 14px 16px; align-items: stretch;
+  }
+  .profile-body .stat-card { padding: 14px 18px; }
+
+  /* Left: the three stat cards share the height, each with its content centred
+     under its title. */
+  .profile-layout__top { display: contents; }
+  .profile-layout__top > .dashboard-grid { grid-area: stats; display: flex; flex-direction: column; gap: 14px; min-width: 0; min-height: 0; }
+  .profile-layout__top > .dashboard-grid > .stat-card { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; }
+  .profile-layout__top > .dashboard-grid > .ring-card { flex-grow: 1.35; }
+  .profile-body .week-card__list, .profile-body .rarity-compact__list { margin-top: auto; margin-bottom: auto; }
+
+  /* Middle: achievements in four columns; tiles keep their own height. */
+  .profile-layout__top > .profile-card { grid-area: ach; margin-top: 0; display: flex; min-width: 0; min-height: 0; }
+  .profile-layout__top > .profile-card > section { flex: 1; display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+  .profile-body .card-strip__head { margin-bottom: 6px; }
+  .profile-body .ach-summary { margin: 0 0 8px; }
+  .profile-layout__top > .profile-card .ach-showcase { flex: 1; min-height: 0; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: auto auto; align-content: center; }
+  .profile-body .ach-showcase .ach-tile { padding: 8px 6px; gap: 3px; margin-bottom: 10px; }
+  .profile-body .ach-showcase .ach-tile .ach-icon { width: 52px; height: 52px; }
+  .profile-layout__bottom { grid-area: strips; min-width: 0; }
+  .profile-layout__bottom .profile-strips { margin-top: 0; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
+  .profile-strips .card-strip__row { grid-template-columns: repeat(4, minmax(0, 88px)); gap: 10px; }
+  .profile-strips .card-strip__item { gap: 3px; }
+
+  /* Right: the map takes the card; opening the list shrinks it to make room,
+     so nothing else on the page moves. */
+  .profile-layout__side { grid-area: side; margin-top: 0; display: flex; flex-direction: column; min-width: 0; min-height: 0; align-self: stretch; }
+  .profile-layout__side > .stat-card { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  .profile-body .district-progress__head { margin-bottom: 0; }
+  .profile-body .district-progress__summary { margin: 0 0 4px; }
+  .profile-body .district-map { flex: 1; min-height: 0; display: flex; flex-direction: column; margin: 0 0 4px; }
+  .profile-body .district-map--loading { aspect-ratio: auto; }
+  /* The map fills its space but keeps its own proportions (DistrictMap works
+     out pointer positions from the svg's box). */
+  .profile-body .district-map__stage { flex: 1; min-height: 290px; width: 100%; max-width: none; container-type: size; display: flex; align-items: center; justify-content: center; }
+  .profile-body .district-progress:has(.district-progress__list--open) .district-map__stage { min-height: 0; overflow: hidden; }
+  .profile-body .district-map__stage .district-map__svg { flex: none; width: min(100cqw, 131.4cqh); max-width: none; height: auto; margin: 0; }
+  .profile-body .district-map__caption { margin-top: 2px; }
+  .profile-body .district-progress .district-progress__toggle { margin-top: 4px; flex: none; }
+  .profile-body .district-progress .district-progress__toggle[aria-expanded="true"] { margin-bottom: 6px; }
+  .profile-body .district-progress__list { flex: none; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 20px; row-gap: 3px; }
+}

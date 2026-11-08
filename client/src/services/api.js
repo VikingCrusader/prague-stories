@@ -81,6 +81,7 @@ export const userAPI = {
   // Takes a clue ('labels', 'direction' or 'distance') for half a step of multiplier.
   takeHuntClue:     pos => api.post('/user/random-draw/clue', pos || {}),
   getTreasures:     () => api.get('/user/treasures'),
+  getExpeditions:   () => api.get('/user/expeditions'),
   getHistoryProgress:  ()     => api.get('/user/history-progress'),
   saveHistoryProgress: (slug) => api.put('/user/history-progress', { slug }),
   markAreaGuideRead:   (kind, value) => api.post('/user/area-guide-read', { kind, value }),

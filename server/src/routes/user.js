@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getProfile, getProgress, getAchievements, getRandomDraw, drawRandomLocation, getTreasures, guessHiddenDraw, takeHuntClue, getHistoryProgress, saveHistoryProgress, markAreaGuideRead, savePreferences, saveLocationConsent,getLeaderboard, getExplorer } from '../controllers/userController.js';
+import { getProfile, getProgress, getAchievements, getRandomDraw, drawRandomLocation, getTreasures, getExpeditions, guessHiddenDraw, takeHuntClue, getHistoryProgress, saveHistoryProgress, markAreaGuideRead, savePreferences, saveLocationConsent,getLeaderboard, getExplorer } from '../controllers/userController.js';
 import { protect, optionalAuth } from '../middleware/auth.js';
 
 const router = Router();
@@ -10,6 +10,7 @@ router.get('/achievements', optionalAuth, getAchievements);
 router.get('/random-draw',  protect,      getRandomDraw);
 router.post('/random-draw', protect,      drawRandomLocation);
 router.get('/treasures', protect, getTreasures);
+router.get('/expeditions', protect, getExpeditions);
 router.post('/random-draw/guess', protect, guessHiddenDraw);
 router.post('/random-draw/clue', protect, takeHuntClue);
 router.get('/history-progress', protect, getHistoryProgress);

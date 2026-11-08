@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { quarterName } from '../../utils/pragueQuarters';
 import { loadPragueAreas } from '../../utils/pragueAreas';
+import { viewportRect } from '../../utils/fitPage';
 import AreaGuideModal from '../locations/AreaGuideModal';
 
 // Profile (2026-11-04, user's call): the 22 správní obvody drawn as a small
@@ -15,8 +16,8 @@ import AreaGuideModal from '../locations/AreaGuideModal';
 // pop-up over the profile (2026-11-04, user's call; it used to open Explore
 // filtered to the district).
 // A toggle above the map switches to the 112 katastrální území (quarters),
-// coloured the same way from `quarters` (quarterProgress), with the district
-// borders drawn over them for orientation; the district view is the default
+// coloured the same way from `quarters` (quarterProgress), without the district
+// borders (2026-11-08, user's call: too busy); the district view is the default
 // (2026-11-04, user's call). Clicking a quarter opens the quarter's guide.
 // Only the quarter view zooms (user's call, same day): mouse wheel, drag to
 // pan once zoomed, two-finger pinch, and +/-/reset buttons for phones, all by
@@ -101,7 +102,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
     return clamp(px - (px - c.x) * (w / c.w), py - (py - c.y) * (w / c.w), w);
   });
   const toMap = (clientX, clientY, c = view || { x: 0, y: 0, w: W }) => {
-    const r = svgRef.current.getBoundingClientRect();
+    const r = viewportRect(svgRef.current);
     return [c.x + ((clientX - r.left) / r.width) * c.w, c.y + ((clientY - r.top) / r.height) * (c.w * H / W)];
   };
 
@@ -111,7 +112,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
     if (!el || !isQ) return undefined;
     const onWheel = e => {
       e.preventDefault();
-      const r = el.getBoundingClientRect();
+      const r = viewportRect(el);
       setView(prev => {
         const c = prev || { x: 0, y: 0, w: W };
         const px = c.x + ((e.clientX - r.left) / r.width) * c.w;
@@ -146,8 +147,8 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
       gesture.current.moved += 10;
     } else if (pts.length === 1 && view) {
       // Drag to pan, only once zoomed in.
-      const r = svgRef.current.getBoundingClientRect();
-      const dx = ((e.clientX - lx) / r.width) * view.w;
+      const r = viewportRect(svgRef.current);
+      const dx =((e.clientX - lx) / r.width) * view.w;
       const dy = ((e.clientY - ly) / r.height) * (view.w * H / W);
       gesture.current.moved += Math.abs(e.clientX - lx) + Math.abs(e.clientY - ly);
       setView(c => (c ? clamp(c.x - dx, c.y - dy, c.w) : c));
@@ -178,7 +179,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
   // wider on screen than the name (a rough estimate of the text width).
   let quarterLabels = null;
   if (isQ && view && W / view.w >= LABEL_ZOOM) {
-    const screenW = svgRef.current?.getBoundingClientRect().width || 560;
+    const screenW = (svgRef.current && viewportRect(svgRef.current).width) || 560;
     const unit = view.w / screenW; // map units per screen pixel
     const fontSize = LABEL_PX * unit;
     const charPx = lang === 'zh' ? LABEL_PX : LABEL_PX * 0.6;
@@ -244,10 +245,6 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
             </path>
           );
         })}
-        {/* In the quarter view, the district borders on top for orientation. */}
-        {isQ && shapes.list.map(s => (
-          <path key={`o-${s.name}`} d={s.path} fillRule="evenodd" className="district-map__outline" />
-        ))}
         {!isQ && shapes.list.map(s => (
           <text key={s.name} x={s.label[0]} y={s.label[1]} className="district-map__num">{s.name.slice(6)}</text>
         ))}
@@ -269,7 +266,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
             </>
           : <span className="district-map__caption-hint">{t('dashboard.districtMapHint')}</span>}
       </div>
-      {guide && <AreaGuideModal kind={guide.kind} value={guide.value} onClose={() => setGuide(null)} />}
+      {guide && <AreaGuideModal kind={guide.kind} value={guide.value} withCollection onClose={() => setGuide(null)} />}
     </div>
   );
 }

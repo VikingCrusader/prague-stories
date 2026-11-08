@@ -60,6 +60,9 @@ export default function AchievementsPage() {
   // Difficulty filter (2026-11-02): one tier at a time, picking it again
   // shows them all, like the rarity filter on Explore.
   const [difficulty, setDifficulty] = useState(null);
+  // "Not yet unlocked" only (2026-11-08), combines with the difficulty filter.
+  // Guests have nothing unlocked, so they don't get it.
+  const [lockedOnly, setLockedOnly] = useState(false);
 
   useEffect(() => {
     userAPI.getAchievements().then(res => setData(res.data)).catch(() => setFailed(true));
@@ -68,6 +71,19 @@ export default function AchievementsPage() {
   const list = data ? sortAchievements(data.achievements) : [];
   const unlocked = list.filter(a => a.unlocked).length;
   const pct = list.length ? Math.round((unlocked / list.length) * 100) : 0;
+  // The chips count what the locked-only toggle leaves.
+  const pool = user && lockedOnly ? list.filter(a => !a.unlocked) : list;
+  const shown = pool.filter(a => !difficulty || a.difficulty === difficulty);
+  const allChip = (
+    <button
+      type="button"
+      className={`ach-filter__chip${difficulty ? '' : ' ach-filter__chip--active'}`}
+      aria-pressed={!difficulty}
+      onClick={() => setDifficulty(null)}
+    >
+      {t('ach.filterAll')} <span className="ach-filter__count">{pool.length}</span>
+    </button>
+  );
 
   return (
     <div className="guide-page achievements-page">
@@ -91,36 +107,49 @@ export default function AchievementsPage() {
                 <Link to="/login" style={{ textDecoration: 'underline' }}>{t('ach.guestNote')}</Link>
               </p>
             )}
-            <div className="ach-filter" role="group" aria-label={t('ach.difficulty')}>
-              <button
-                type="button"
-                className={`ach-filter__chip${difficulty ? '' : ' ach-filter__chip--active'}`}
-                aria-pressed={!difficulty}
-                onClick={() => setDifficulty(null)}
-              >
-                {t('ach.filterAll')} <span className="ach-filter__count">{list.length}</span>
-              </button>
-              {DIFFICULTIES.map(d => {
-                const n = list.filter(a => a.difficulty === d).length;
-                if (!n) return null;
-                const active = difficulty === d;
-                return (
+            <div className="ach-filter-bar">
+              {user && (
+                <div className="ach-filter ach-filter--main">
+                  {allChip}
                   <button
-                    key={d}
                     type="button"
-                    data-difficulty={d}
-                    className={`ach-filter__chip${active ? ' ach-filter__chip--active' : ''}`}
-                    aria-pressed={active}
-                    onClick={() => setDifficulty(active ? null : d)}
+                    className={`ach-filter__chip${lockedOnly ? ' ach-filter__chip--active' : ''}`}
+                    aria-pressed={lockedOnly}
+                    onClick={() => setLockedOnly(v => !v)}
                   >
-                    {t(`ach.difficulty.${d}`)} <span className="ach-filter__count">{n}</span>
+                    {t('ach.filterLocked')} <span className="ach-filter__count">{list.length - unlocked}</span>
                   </button>
-                );
-              })}
+                </div>
+              )}
+              <div className="ach-filter" role="group" aria-label={t('ach.difficulty')}>
+                {!user && allChip}
+                {DIFFICULTIES.map(d => {
+                  // A tier stays listed at 0 under the toggle, so a picked chip can't vanish.
+                  if (!list.some(a => a.difficulty === d)) return null;
+                  const n = pool.filter(a => a.difficulty === d).length;
+                  const active = difficulty === d;
+                  return (
+                    <button
+                      key={d}
+                      type="button"
+                      data-difficulty={d}
+                      className={`ach-filter__chip${active ? ' ach-filter__chip--active' : ''}`}
+                      aria-pressed={active}
+                      onClick={() => setDifficulty(active ? null : d)}
+                    >
+                      {t(`ach.difficulty.${d}`)} <span className="ach-filter__count">{n}</span>
+                    </button>
+                  );
+                })}
+              </div>
             </div>
-            <ul className="ach-list">
-              {list.filter(a => !difficulty || a.difficulty === difficulty).map(a => <AchievementRow key={a.id} ach={a} onOpen={setOpen} />)}
-            </ul>
+            {shown.length ? (
+              <ul className="ach-list">
+                {shown.map(a => <AchievementRow key={a.id} ach={a} onOpen={setOpen} />)}
+              </ul>
+            ) : (
+              <p className="guide-body ach-empty">{t('ach.filterLockedEmpty')}</p>
+            )}
           </>
         )}
       </div>

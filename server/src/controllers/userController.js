@@ -595,7 +595,22 @@ export async function getTreasures(req, res, next) {
       _checkedInAt: c.checkedInAt,
       _guessAttempt: c.guessAttempt,
       _huntMode: c.huntMode ?? null,
+      _xpEarned: c.xpEarned ?? null,
     })));
+  } catch (err) {
+    next(err);
+  }
+}
+
+// Every outside (expedition) card the user has, newest first, for the
+// profile's "All" window; the profile itself only gets the newest few.
+export async function getExpeditions(req, res, next) {
+  try {
+    const checkins = await CheckIn.find({ user: req.user._id })
+      .sort({ checkedInAt: -1 })
+      .populate({ path: 'location', select: RECENT_CARD_FIELDS })
+      .lean();
+    res.json(checkins.filter(c => (c.location?.labels || []).includes('outside')).map(c => c.location));
   } catch (err) {
     next(err);
   }

@@ -43,17 +43,14 @@ export default function ExplorePage() {
   // District / historical-quarter filter; only offered in "City only" mode.
   // A link's state can open it on one district or quarter (the profile's
   // rows send { district: 'Praha 7' } or { quarter: 'Holešovice' }, 2026-11-04).
-  const [area, setArea]                 = useState(() => (state?.district ? { kind: 'district', value: state.district }
-    : state?.quarter ? { kind: 'quarter', value: state.quarter } : null));
+  const [area, setArea]                 = useState(null);
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
   // Filters to open with, from a link's state (the profile's expedition
-  // strip sends { collection: true, rarity: 'expedition' } for "All", and
-  // { showAll: true, rarity: 'expedition' } from its empty nudge; the
-  // profile's rarity and label counts send { collection: true, rarity } or
-  // { collection: true, label }); read once.
-  const [initialFilter] = useState(() => (state?.collection || state?.rarity || state?.label
-    ? { collection: !!state.collection, rarity: state.rarity ?? null, label: state.label ?? null }
+  // strip sends { showAll: true, rarity: 'expedition' } from its empty
+  // nudge); read once.
+  const [initialFilter] = useState(() => (state?.rarity || state?.label
+    ? { rarity: state.rarity ?? null, label: state.label ?? null }
     : null));
 
   // Refetched when the signed-in user changes, e.g. when a sign-in that

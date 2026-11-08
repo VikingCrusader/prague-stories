@@ -254,19 +254,6 @@
 .ach-tile__rate { font-size: 12px; color: var(--text-muted); }
 /* Unlock date under the name on the profile tiles (2026-11-03). */
 .ach-tile__date { font-family: var(--ui-font); font-size: 12px; color: var(--gold); white-space: nowrap; }
-.ach-viewall {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 0;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-family: var(--ui-font);
-  font-size: 15px;
-  color: var(--gold);
-  text-decoration: underline;
-}
-
 /* ── Achievement unlocked banner (AchievementUnlocked.jsx) ─────────────
    Above the level-up modal (z-index 500). The flash and banner ignore
    clicks except the banner itself. */
@@ -729,10 +716,58 @@ html[data-lang="zh"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 108px; }
 /* No bottom padding: the margin already leaves room for the drop shadow,
    and with padding the top edge of a third row peeked out. */
 .ach-showcase { padding-bottom: 0; }
+/* Bigger tiles on the profile (2026-11-08), room for two-line names. */
+@media (min-width: 601px) {
+  .ach-showcase { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+  .ach-showcase .ach-tile .ach-icon { width: 64px; height: 64px; }
+}
 @media (max-width: 600px) {
   .ach-showcase { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 8px; }
-  .ach-showcase .ach-tile { padding: 10px 6px; margin-bottom: 8px; }
+  .ach-showcase .ach-tile { padding: 10px 3px; margin-bottom: 8px; }
+  /* Three to a row: long English and Czech names need three smaller lines; the
+     same height is reserved in every language, so the tiles match. */
+  .profile-body .ach-tile__name { height: 45px; -webkit-line-clamp: 3; }
+  html:not([data-lang="zh"]) .profile-body .ach-tile__name { font-size: 12px; line-height: 15px; }
 }
 
-/* "All achievements" expanded in place (2026-11-03): every row shows. */
-.ach-showcase--all { grid-auto-rows: auto; }
+/* Filter bar (2026-11-08, user's call): "All" and "Not yet unlocked" first,
+   then the difficulties, on one line; on phones the first two get a line of
+   their own above the difficulties. Guests have no toggle, so their "All"
+   stays in the difficulty line. */
+.ach-filter-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 16px; }
+.ach-filter-bar .ach-filter { margin: 0; }
+.ach-empty { color: var(--text-muted); }
+@media (max-width: 600px) {
+  .ach-filter-bar { flex-direction: column; align-items: stretch; gap: 6px; }
+  .ach-filter--main .ach-filter__chip { flex: 1 1 0; }
+}
+
+/* Wide screens (2026-11-08, user's call: at 2560 px two thirds of the page
+   stood empty): the page widens and the list becomes a grid, three columns
+   from 1200 px and two from 900 px. A card is laid out like a phone row, icon
+   and text on top and the date and tier along the bottom, so the footers line
+   up across a row however long the text is. Narrower screens keep the list. */
+@media (min-width: 900px) {
+  .achievements-page .guide-wrap { max-width: 1920px; }
+  .ach-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .ach-list > li { display: flex; min-width: 0; }
+  .ach-row {
+    display: grid;
+    grid-template-columns: 102px minmax(0, 1fr);
+    grid-template-rows: 1fr auto;
+    gap: 12px 18px;
+  }
+  .ach-row .ach-progress { max-width: none; }
+  .ach-row__side {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .ach-row__tier { order: 2; margin-left: auto; }
+}
+@media (min-width: 1200px) {
+  .ach-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
