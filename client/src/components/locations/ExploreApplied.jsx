@@ -1,8 +1,90 @@
+import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
-import { RARITY_LABEL, RARITY_VAR } from '../../utils/rarity';
+import { RARITY_LABEL, RARITY_VAR, ALL_RARITIES } from '../../utils/rarity';
 import { LABEL_BLURB, RARITY_QUIP, GUEST_INTRO } from '../../utils/filterBlurbs';
+import { useFitText } from '../../utils/fitText';
+import { achField } from '../../utils/achievementText';
+import ProgressRing from '../dashboard/ProgressRing';
+import AchievementIcon from '../achievements/AchievementIcon';
+import { isInCity } from './ScopeToggle';
+
+// My Collections with no filter on: the profile's ring and rarity counts
+// (2026-11-08, user's call), worked out from the cards the page already has, so
+// a new check-in shows at once. Same rule as the profile: the percentage is the
+// city proper, the big number every collected card.
+function CollectionSummary({ locations }) {
+  const t = useT();
+  const { lang } = useLang();
+  const convert = useConvert();
+  const ref = useRef(null);
+  useFitText(ref, '.rarity-compact__name', [lang], 8);
+  const city = locations.filter(isInCity);
+  const collected = locations.filter(l => l.unlocked);
+  const percent = city.length ? Math.round((city.filter(l => l.unlocked).length / city.length) * 100) : 0;
+  const count = r => collected.filter(l => (l.rarity || 'common') === r).length;
+  return (
+    <div ref={ref} className="explore-applied__default explore-collection">
+      <h2 className="px-title profile-card-title">{t('dashboard.collectionTitle')}</h2>
+      <div className="ring-card__body">
+        <ProgressRing percent={percent} size={140} label={t('dashboard.unlockedRing')} />
+        <div className="ring-stats">
+          <div className="stat-card__value">{collected.length}</div>
+          <div className="ring-stats__line">
+            <span className="ring-stats__part">{t('dashboard.ofCity', { n: city.length })}</span>
+            <span className="ring-stats__part">{t('dashboard.ofOutside', { n: locations.length - city.length })}</span>
+          </div>
+        </div>
+      </div>
+      <h2 className="px-title profile-card-title">{t('dashboard.rarityBreakdown')}</h2>
+      <ul className="rarity-compact__list">
+        {ALL_RARITIES.map(r => (
+          <li key={r} className="rarity-compact__item" style={{ color: RARITY_VAR[r] }}>
+            <span className="rarity-compact__name">{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>
+            <span className="rarity-compact__n">{count(r)}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+// The second card when no filter is on (2026-11-08, user's idea): the nearest
+// card to collect, the next level, and the achievements closest to done, each
+// opening its detail. The list takes the space left and shows as many whole rows
+// as fit: rows that don't fit wrap into a second column, which is clipped.
+function NextUp({ nearest, level, achievements, onOpenAchievement }) {
+  const t = useT();
+  const { lang } = useLang();
+  const convert = useConvert();
+  return (
+    <div className="explore-applied__default explore-next">
+      <div className="explore-applied__head"><span className="explore-applied__name">{t('explore.nextUp')}</span></div>
+      {nearest && <p className="explore-applied__stat">{convert(t('explore.nearestLocked', { distance: nearest }))}</p>}
+      {level && (
+        <div className="explore-next__level">
+          <span>{convert(t('explore.nextLevel', { n: level.left, level: level.next }))}</span>
+          <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${level.percent}%` }} /></span>
+        </div>
+      )}
+      <div className="explore-next__list">
+        {achievements.map(a => (
+          <button key={a.id} type="button" className="explore-next__ach" onClick={() => onOpenAchievement(a)}>
+            <span className="ach-icon ach-icon--locked" data-difficulty={a.difficulty}><AchievementIcon achievement={a} /></span>
+            <span className="explore-next__body">
+              <span className="explore-next__name">{convert(achField(a, 'name', lang))}</span>
+              <span className="ach-progress">
+                <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${Math.round((a.progress.current / a.progress.target) * 100)}%` }} /></span>
+                <span className="ach-progress__count">{a.progress.current} / {a.progress.target}{a.progress.unit ? ` ${a.progress.unit}` : ''}</span>
+              </span>
+            </span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 // An area's name opens its guide (2026-11-08, user's call: no separate link).
 function AreaName({ name, onOpen }) {
@@ -28,7 +110,7 @@ function Item({ name, nameNode, color, onClear, children }) {
 // mode. With no filter on: the district and quarter the player is in, each with
 // its line, and how far the nearest card still to collect is (`here`); or, without a
 // position in Prague, a `tip`; a guest gets what the app is for and a link to the Guide.
-export default function ExploreApplied({ area, areaName, areaBlurb, onClearArea, onOpenGuide, rarity, onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false }) {
+export default function ExploreApplied({ area, areaName, areaBlurb, onClearArea, onOpenGuide, rarity, onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -37,7 +119,8 @@ export default function ExploreApplied({ area, areaName, areaBlurb, onClearArea,
   return (
     <>
       {notes.map(note => <p key={note.key} className="explore-applied__note">{note.body}</p>)}
-      {!anyFilter && here && (
+      {!anyFilter && collection && <CollectionSummary locations={collection} />}
+      {!anyFilter && !collection && here && (
         <div className="explore-applied__default">
           {here.areas.map(area_ => (
             <div key={area_.name} className="explore-applied__area">
@@ -45,16 +128,16 @@ export default function ExploreApplied({ area, areaName, areaBlurb, onClearArea,
               {area_.blurb && <p className="explore-applied__text">{pick(area_.blurb)}</p>}
             </div>
           ))}
-          {here.nearest && <p className="explore-applied__stat">{convert(t('explore.nearestLocked', { distance: here.nearest }))}</p>}
         </div>
       )}
-      {!anyFilter && !here && (
+      {!anyFilter && !collection && !here && (
         <div className={`explore-applied__default${isGuest ? ' explore-applied__default--intro' : ''}`}>
           <div className="explore-applied__head"><span className="explore-applied__name">{t(isGuest ? 'explore.guestIntroTitle' : 'explore.tipTitle')}</span></div>
           {pick(isGuest ? GUEST_INTRO : tip).split('\n').map(line => <p key={line} className="explore-applied__text">{line}</p>)}
           {isGuest && <p className="explore-applied__stat"><Link to="/guide" className="area-guide-link">{convert(t('explore.guideLink'))}</Link></p>}
         </div>
       )}
+      {!anyFilter && !collection && nextUp && <NextUp {...nextUp} onOpenAchievement={onOpenAchievement} />}
       {anyFilter && <button type="button" className="filter-btn explore-applied__clear-all" onClick={onClearAll}>{t('explore.clearFilters')}</button>}
       {area && (
         <Item nameNode={<AreaName name={areaName} onOpen={onOpenGuide} />} onClear={onClearArea}>

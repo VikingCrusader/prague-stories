@@ -31,6 +31,17 @@ export function sortAchievements(list) {
   });
 }
 
+// The locked achievements the player has started, nearest to done first; among
+// equals, the one with the fewest steps left.
+export function closestAchievements(list, n) {
+  const frac = a => a.progress.current / a.progress.target;
+  const left = a => a.progress.target - a.progress.current;
+  return list
+    .filter(a => !a.unlocked && a.progress?.target > 0 && a.progress.current > 0 && a.progress.current < a.progress.target)
+    .sort((a, b) => frac(b) - frac(a) || left(a) - left(b))
+    .slice(0, n);
+}
+
 // The share of players who have an achievement is hidden for now (2026-11-02,
 // user's call: with few players the numbers mean little). The server still
 // sends unlockRate, and the dashboard still uses it to pick the rarest ones;

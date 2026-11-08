@@ -2906,10 +2906,37 @@ html[data-lang="zh"] .detail-title-name {
   text-decoration: underline; text-underline-offset: 3px;
 }
 .explore-applied__name--link:hover { filter: brightness(1.15); }
+/* "Next up" takes what the area card leaves. Rows that don't fit wrap into a
+   second column and are clipped; those that do share the spare height. */
+.explore-next { flex: 1 0 auto; box-sizing: border-box; display: flex; flex-direction: column; gap: 6px; }
+.explore-next .explore-applied__stat { margin: 0; }
+.explore-next__level { display: flex; flex-direction: column; gap: 4px; font-size: 15px; color: var(--text-primary); }
+.explore-next__list { flex: 1 1 0; min-height: 60px; display: flex; flex-flow: column wrap; gap: 6px 24px; overflow: hidden; }
+.explore-next__ach {
+  flex: 1 0 60px; max-height: 84px; width: 100%; box-sizing: border-box; min-width: 0;
+  display: flex; align-items: center; gap: 10px; padding: 4px 8px;
+  background: none; border: 2px solid var(--border); color: var(--text-primary); font: inherit; text-align: left; cursor: pointer;
+}
+.explore-next__ach:hover { border-color: var(--gold); }
+.explore-next__ach .ach-icon { flex: none; width: 46px; height: 46px; font-size: 26px; }
+.explore-next__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.explore-next__name { font-size: 15px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.explore-next__ach .ach-progress { max-width: none; margin: 0; }
+/* Fills the space left under the map: the ring's row takes it and the ring grows
+   to that row's height, so it adapts to whatever the note above leaves. */
+.explore-collection { flex: 1 0 auto; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px; padding: 14px; }
+.explore-collection .ring-card__body { flex: 1 1 0; min-height: 140px; gap: 18px; container-type: size; }
+.explore-collection .ring-card__body svg { width: min(100cqh, 194px); height: min(100cqh, 194px); }
+.explore-collection .ring-stats .stat-card__value { font-size: 46px; line-height: 1.15; }
+.explore-collection .ring-stats__part { display: block; }
+.explore-collection .rarity-compact__list { margin-top: 0; }
+.explore-collection .rarity-compact__name { font-size: 14px; }
+.explore-collection .rarity-compact__n { font-size: 28px; }
 .explore-applied__clear { flex: none; padding: 0 4px; background: none; border: 0; font: inherit; font-size: 15px; color: var(--text-muted); cursor: pointer; }
 .explore-applied__clear:hover { color: var(--gold); }
 .explore-applied__text { margin: 4px 0 0; font-size: 15px; line-height: 1.5; color: var(--text-primary); }
 .explore-side .explore-header { margin-bottom: 0; }
+.explore-side .explore-here { display: flex; width: fit-content; max-width: 100%; box-sizing: border-box; margin: 6px auto 0; }
 /* Fixed heights where the text changes with the filters, so the map doesn't move. */
 .explore-side .explore-title { height: 64px; line-height: 64px !important; margin-bottom: 4px; overflow: hidden; }
 .explore-side .explore-stats { line-height: 25px; min-height: 50px; }

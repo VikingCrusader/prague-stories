@@ -1,6 +1,6 @@
 import { useState, useEffect, useLayoutEffect, useCallback, useMemo, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { locationAPI } from '../services/api';
+import { locationAPI, userAPI } from '../services/api';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { quarterName } from '../utils/pragueQuarters';
 import { AREA_BLURBS } from '../utils/areaBlurbs';
@@ -20,6 +20,8 @@ import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
 import AreaFilter, { matchesArea } from '../components/locations/AreaFilter';
 import ExploreMap from '../components/locations/ExploreMap';
 import ExploreApplied from '../components/locations/ExploreApplied';
+import AchievementModal from '../components/achievements/AchievementModal';
+import { closestAchievements } from '../utils/achievementText';
 
 let toastId = 0;
 
@@ -84,6 +86,17 @@ export default function ExplorePage() {
       .then(res => setLocations(res.data))
       .finally(() => setLoading(false));
   }, [userId]);
+
+  // The "Next up" card on a 2K screen; read again after each new card.
+  const [achData, setAchData] = useState(null);
+  const [openAch, setOpenAch] = useState(null);
+  const collectedCount = useMemo(() => locations.filter(l => l.unlocked).length, [locations]);
+  useEffect(() => {
+    if (!wide || !userId || loading) return undefined;
+    let stale = false;
+    userAPI.getAchievements().then(res => { if (!stale) setAchData(res.data); }).catch(() => {});
+    return () => { stale = true; };
+  }, [wide, userId, loading, collectedCount]);
 
   useEffect(() => {
     if (state?.openSlug) {
@@ -250,7 +263,8 @@ export default function ExplorePage() {
   // The title always sits on exactly one line, filling it on phones. Area
   // names are short, so they keep the base size and only ever shrink.
   const titleRef = useRef(null);
-  useFitOneLine(titleRef, [titleText, lang, loading], { maxScale: areaActive ? 1 : 1.5 });
+  // In the 2K side column the main title fills the column's width too.
+  useFitOneLine(titleRef, [titleText, lang, loading, wide], { maxScale: areaActive ? 1 : wide ? 1.8 : 1.5, growBelow: wide ? Infinity : 600 });
 
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -275,13 +289,29 @@ export default function ExplorePage() {
   // What the space under the map says while no filter is on.
   let hereCard = null;
   if (wide && myArea?.district) {
-    const nearest = sortedAll.find(l => !l.unlocked && l._distance != null);
     hereCard = {
       areas: [
         { kind: 'district', value: myArea.district, name: t('detail.district', { n: myArea.district.slice(6) }) },
         { kind: 'quarter', value: myArea.quarter, name: quarterName(myArea.quarter, lang) },
       ].map(a => ({ ...a, blurb: AREA_BLURBS[a.kind][a.value], onOpenGuide: () => setAreaGuide({ kind: a.kind, value: a.value }) })),
+    };
+  }
+
+  let nextUp = null;
+  if (wide && user) {
+    const nearest = sortedAll.find(l => !l.unlocked && l._distance != null);
+    const levels = achData?.levels ?? [];
+    const xp = user.totalXP ?? 0;
+    const nextIndex = levels.findIndex(l => l.xpRequired > xp);
+    const floor = nextIndex > 0 ? levels[nextIndex - 1].xpRequired : 0;
+    nextUp = {
       nearest: nearest ? formatDistance(nearest._distance) : null,
+      level: nextIndex < 0 ? null : {
+        next: levels[nextIndex].level,
+        left: levels[nextIndex].xpRequired - xp,
+        percent: Math.round(((xp - floor) / (levels[nextIndex].xpRequired - floor)) * 100),
+      },
+      achievements: closestAchievements(achData?.achievements ?? [], 12),
     };
   }
 
@@ -365,6 +395,9 @@ export default function ExplorePage() {
           here={hereCard}
           tip={tip}
           isGuest={guest && !user}
+          collection={inCollection && user ? locations : null}
+          nextUp={nextUp}
+          onOpenAchievement={setOpenAch}
           area={area}
           areaName={titleText}
           areaBlurb={areaBlurb}
@@ -408,6 +441,8 @@ export default function ExplorePage() {
           autoCheckIn={autoCheckIn}
         />
       )}
+
+      {openAch && <AchievementModal achievement={openAch} onClose={() => setOpenAch(null)} />}
 
       <ToastContainer toasts={toasts} onDismiss={dismissToast} />
     </div>

@@ -53,10 +53,49 @@ test.describe('Explore on a 2K screen', () => {
     await expect(page.locator('.district-map__selected')).toHaveCount(0);
   });
 
+  test('My Collections with no filter shows the ring and rarity counts; any filter replaces them', async ({ page }) => {
+    const summary = page.locator('.explore-collection');
+    await expect(summary).toHaveCount(0);
+    await page.getByRole('button', { name: 'My Collections' }).click();
+    await expect(summary.locator('svg text').first()).toHaveText('31%'); // 10 of the 32 city cards
+    await expect(summary.locator('.stat-card__value')).toHaveText('10');
+    await expect(summary.locator('.rarity-compact__item')).toHaveCount(7);
+    await expect(summary.locator('.rarity-compact__item').nth(1)).toContainText('10'); // rare
+
+    await page.locator('.district-map__area').nth(5).click();
+    await expect(summary).toHaveCount(0);
+    await expect(page.locator('.explore-applied__item')).toHaveCount(1);
+    await page.getByRole('button', { name: 'Clear filters' }).click();
+    await expect(summary).toHaveCount(1);
+
+    await page.getByRole('button', { name: 'My Collections' }).click();
+    await expect(summary).toHaveCount(0);
+  });
+
+  test('with no filter a second card shows the next level and the achievements closest to done', async ({ page }) => {
+    const ach = (id, current, target) => ({ id, name: `Ach ${id}`, flavor: 'x', description: 'y', difficulty: 'easy', unlocked: false, progress: { current, target } });
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: { achievements: [ach('far', 1, 10), ach('near', 9, 10), ach('none', 0, 5)], levels: [{ level: 1, xpRequired: 0 }, { level: 2, xpRequired: 80 }, { level: 3, xpRequired: 240 }] } }));
+    await page.reload();
+    const next = page.locator('.explore-next');
+    await expect(next).toContainText('100 XP to level 3');
+    const rows = next.locator('.explore-next__ach');
+    await expect(rows).toHaveCount(2);
+    await expect(rows.first()).toContainText('Ach near');
+    await expect(rows.first()).toContainText('9 / 10');
+    const [card, panel] = await Promise.all([next.boundingBox(), page.locator('.explore-side__applied').boundingBox()]);
+    expect(Math.abs(card.y + card.height - panel.y - panel.height)).toBeLessThan(1); // fills the column
+    await rows.first().click();
+    await expect(page.locator('.ach-modal')).toContainText('Ach near');
+    await page.locator('.ach-modal .px-modal__close').click();
+
+    await page.locator('.district-map__area').nth(5).click();
+    await expect(next).toHaveCount(0); // a filter takes its place
+  });
+
   test('the filters that are on show under the map with their lines, and clear from there', async ({ page }) => {
     const applied = page.locator('.explore-side__applied .explore-applied__item');
     await expect(applied).toHaveCount(0);
-    await expect(page.locator('.explore-applied__default')).toContainText('Tip'); // no position: a tip
+    await expect(page.locator('.explore-applied__default:not(.explore-next)')).toContainText('Tip'); // no position: a tip
 
     await page.locator('.district-map__area').nth(5).click(); // Praha 11
     await expect(applied).toHaveCount(1);
@@ -213,9 +252,11 @@ test('with nothing chosen the map marks where the player is, without filtering',
   await expect(marked).toHaveCount(1);
   await expect(marked).toHaveCSS('fill', 'rgb(224, 32, 44)');
   await expect(page.locator('.explore-main .loc-card')).toHaveCount(32); // only marked, not filtered
-  const card = page.locator('.explore-applied__default');
+  const card = page.locator('.explore-applied__default:not(.explore-next)');
+  const [badge, title] = await Promise.all([page.locator('.explore-here').boundingBox(), page.locator('.explore-side .explore-header').boundingBox()]);
+  expect(Math.abs((badge.x + badge.width / 2) - (title.x + title.width / 2))).toBeLessThan(1); // centred in the column
   await expect(card).toContainText('Prague 12');
-  await expect(card).toContainText('Your nearest uncollected card is');
+  await expect(page.locator('.explore-next')).toContainText('Your nearest uncollected card is');
   await expect(card).toContainText('Kamýk');
   await expect(card).not.toContainText('Cards collected here');
   await expect(card.locator('.explore-applied__name--link')).toHaveCount(2); // district and quarter
@@ -248,7 +289,7 @@ test('with nothing chosen the map marks where the player is, without filtering',
 test('a guest gets a link to the guide under the tip; a signed-in player does not', async ({ browser, page }) => {
   await page.setViewportSize({ width: 2560, height: 1300 });
   await page.goto('/explore');
-  await expect(page.locator('.explore-applied__default')).toContainText('Tip');
+  await expect(page.locator('.explore-applied__default:not(.explore-next)')).toContainText('Tip');
   await expect(page.locator('.explore-applied__default a')).toHaveCount(0);
 
   const context = await browser.newContext({
