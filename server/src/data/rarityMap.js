@@ -727,7 +727,6 @@ export const SLUG_RARITY = {
   'pracharna-goticky-sklep':        'epic',     // 14th-c. palace cellar + 17th-c. powder store, Vyšehrad underground exhibit
 
   // ── Smíchov / Košíře extra batch (2026-07-29) ────────────────────────────
-  'micka-point':                    'rare',     // neighborhood cat, hundreds of pilgrimage-style Google reviews
   'vetraci-veze-strahovskeho-tunelu': 'superior', // twin 48m Strahov Tunnel ventilation chimneys, built 1984-95
 
   // ── Suchdol / Horoměřice / Stodůlky batch (2026-07-30) ──────────────────

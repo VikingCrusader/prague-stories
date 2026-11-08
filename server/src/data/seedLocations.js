@@ -18218,41 +18218,6 @@ Kino zahájilo provoz v roce 1923 filmem s Charliem Chaplinem a do roku 1927 k n
     },
   },
   {
-    name: 'Micka Point',
-    slug: 'micka-point',
-    localizedNames: { cz: 'Micka Point', zh: '米卡打卡点' },
-    labels: ['hidden-gem', 'street'],
-    district: 'Praha 5',
-    quarter: 'Smíchov',
-    coordinates: { lat: 50.074870021293876, lng: 14.391610850300061 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: '',
-    description: {
-      en: `Micka Point is not a monument or a museum. It is a cat. Micka lives behind a garden fence in Smíchov and, without any effort on her part, has collected more devoted visitors and online reviews than some of the historic sights nearby.
-
-Her fame spread by word of mouth and through hundreds of reviews written by people who made a special trip to see her. They describe waiting patiently by the fence, comparing notes on whether she is in the mood to be stroked, and sometimes getting a swipe of the paw for their trouble. The reviews come in Czech, English, French and German, and many read less like a cat sighting and more like a report from a small pilgrimage: was she there, was she gracious, was it worth the walk.
-
-Like any street celebrity, Micka keeps her own hours. Some days she holds court by the fence, some days she is nowhere to be seen, and some recent reviews mention changes around the garden. If you come, come politely, and do not take it personally if she ignores you.
-
-🎁 Bonus: On online maps this fence has its own pin, star ratings and photos, just like a restaurant or a castle. Somewhere in Prague, a cat is being rated on a five-star scale, and she could not care less.`,
-      cz: `Micka Point není památka ani muzeum. Je to kočka. Micka žije za plotem zahrady na Smíchově a bez jakéhokoli vlastního úsilí si získala víc oddaných návštěvníků a recenzí na internetu než některé historické památky v okolí.
-
-Její sláva se šířila ústně a díky stovkám recenzí od lidí, kteří se za ní vypravili schválně. Popisují, jak trpělivě čekali u plotu, jak si vyměňovali zkušenosti, jestli má zrovna náladu na hlazení, a jak občas za svou snahu schytali ránu packou. Recenze přicházejí česky, anglicky, francouzsky i německy a mnohé se nečtou jako zpráva o zahlédnutí kočky, ale spíš jako zpráva z malé pouti: byla tam, byla milostivá, stálo to za tu cestu?
-
-Jako každá pouliční celebrita má Micka svou vlastní pracovní dobu. Některé dny přijímá u plotu, jindy není k vidění a některé novější recenze zmiňují změny kolem zahrady. Pokud přijdete, přijďte zdvořile a neberte si osobně, když si vás nebude všímat.
-
-🎁 Bonus: Na internetových mapách má tenhle plot svůj vlastní špendlík, hvězdičky i fotky, stejně jako restaurace nebo hrad. Někde v Praze je kočka hodnocena na pětihvězdičkové stupnici a je jí to úplně jedno.`,
-      zh: `米卡打卡点不是纪念碑，也不是博物馆。它是一只猫。米卡住在斯米霍夫一道花园栅栏后面，自己毫不费力，却比附近一些历史景点收获了更多忠实访客和网上评论。
-
-她的名气靠口口相传，还有几百条专程来看她的人写下的评论。他们描述自己在栅栏边耐心等待，互相交流她今天有没有心情让人摸，偶尔还挨上一爪子作为回报。评论有捷克语、英语、法语和德语，很多读起来不像看到一只猫的记录，倒像一次小小朝圣的报告：她在不在，她赏不赏脸，这一趟走得值不值。
-
-像所有街头名人一样，米卡有自己的营业时间。有些日子她在栅栏边接见访客，有些日子不见踪影，最近的一些评论还提到花园周围有了些变化。如果你来，请客客气气的，她不理你也别往心里去。
-
-🎁 彩蛋：在网络地图上，这道栅栏有自己的定位、星级评分和照片，跟餐馆或城堡一样。在布拉格某处，一只猫正被人用五星制打分，而她对此毫不在乎。`,
-    },
-  },
-  {
     name: 'Strahov Tunnel Ventilation Towers',
     slug: 'vetraci-veze-strahovskeho-tunelu',
     localizedNames: { cz: 'Větrací věže strahovského tunelu', zh: '斯特拉霍夫隧道通风塔' },
@@ -34744,6 +34709,546 @@ V rukou rodu zůstal až do listopadu 1420, kdy Diviše z Říčan, katolického
 城堡一直留在这个家族手里，直到1420年11月。城堡主人迪维什是反对胡斯派的天主教贵族，这时被扬·杰式卡的军队围住了。没有强攻。守军不到两周就被饿得投降，迪维什带着家人出城时被俘，他收留的神父被杰式卡下令在附近烧死，人数各家说法不一，有七人、九人和十一人。胡斯派没有拆城堡，而是派自己人驻守，此后它一直归布拉格市民所有，直到1485年。从那以后就没什么人管它了。1544年的记录里它已经荒废，1785年的官方登记册在这里只找到一座采石场。
 
 🎁 彩蛋：真正把城堡拆掉的不是杰式卡，而是街坊邻居。他们一直把它当建材搬，直到19世纪中叶布拉格的一日游客开始来这里参观才停手。城堡的不少部分大概至今还立着，只不过是在日查尼人家的墙里。`,
+    },
+  },
+  {
+    name: 'Footbridge from Nový Smíchov to Sacré Coeur Park',
+    slug: 'lavka-novy-smichov-sacre-coeur',
+    localizedNames: { cz: 'Lávka z OC Nový Smíchov do parku Sacré Coeur', zh: '新斯米霍夫通往圣心公园的天桥' },
+    labels: ['bridge', 'contemporary', 'hidden-gem'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.073184838134075, lng: 14.400993983328993 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Some footbridges cross rivers. This one crosses a street so that you can walk out of a food court and into a park without once touching the pavement. Eat, shop, give up and keep walking: it may be the shortest route in Prague from a plastic tray to birdsong.
+
+The bridge leaves the first floor of the Nový Smíchov shopping centre and lands directly in Sacré Coeur Park, a quiet stretch of lawns and benches named after the old convent up the slope. Behind you are escalators, perfume and fried noodles. In front of you is nothing much at all, which is the point. At no stage does anyone have to go downstairs, and for a tired shopper that counts as a triumph of urban planning.
+
+🎁 Bonus: The park is also the obvious place to eat whatever you bought a minute ago. The pigeons worked this out long before you did.`,
+      cz: `Některé lávky vedou přes řeky. Tahle vede přes ulici, abyste z food courtu došli do parku, aniž byste se dotkli chodníku. Najíst se, nakoupit, vzdát to a jít dál: možná nejkratší cesta v Praze od plastového tácu k ptačímu zpěvu.
+
+Lávka vychází z prvního patra obchodního centra Nový Smíchov a končí přímo v parku Sacré Coeur, klidném místě s trávníky a lavičkami, pojmenovaném po starém klášteře nad ním. Za vámi zůstávají eskalátory, parfémy a smažené nudle. Před vámi není skoro nic, a o to právě jde. Nikdo přitom nemusí sejít ani jeden schod, což je pro unaveného nakupujícího vrchol urbanismu.
+
+🎁 Bonus: Park je také ideální místo, kde sníst to, co jste si před minutou koupili. Holubi na to přišli dávno před vámi.`,
+      zh: `有的天桥跨河，这座天桥跨一条马路，好让你从美食城直接走进公园，鞋底都不用沾一下人行道。吃饱了，逛累了，放弃了，接着走就行。从塑料托盘到鸟叫声，这大概是布拉格最短的一条路。
+
+天桥从新斯米霍夫购物中心的二楼出发，直接落在圣心公园里。这是一片安静的草地和长椅，名字来自坡上那座老修道院。身后是扶梯、香水和炒面味，眼前几乎什么都没有，要的就是这个。全程连一级楼梯都不用下，对逛累了的人来说，这就是城市规划的巅峰。
+
+🎁 彩蛋：刚买的外卖，正好端到公园里吃。这件事鸽子比你早想明白很久了。`,
+    },
+  },
+  {
+    name: 'Kinský Garden',
+    slug: 'zahrada-kinskych',
+    localizedNames: { cz: 'Zahrada Kinských', zh: '金斯基花园' },
+    labels: ['park', 'nature', 'national-revival'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.07888070062962, lng: 14.403858397199722 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `Petřín has a Lesser Town side, which tourists know, and a Smíchov side, which dogs know. This is the second one: winding steps, wide views and a steady traffic of Praguers being pulled uphill by their pets, all kept apart from the rest of the hill by the Hunger Wall.
+
+Until the 19th century these slopes were vineyards. Prince Rudolf Kinský had them turned into an English-style landscape garden, designed by his estate manager František Höhnel and built in stages from the 1820s to 1861. The flat lower part came first, along with the classicist summer palace by Heinrich Koch. Rudolf did not see the end of it: he died after a fall from his horse, and his widow Vilemína finished the work.
+
+Today the garden covers almost 22 hectares of the hill's southern and south-eastern slope, with two ornamental ponds and a waterfall. Since 1901 the summer palace has housed the Ethnographic Museum.
+
+🎁 Bonus: Charles IV's wall marks the top of the garden, so the dog walkers here and the tourists beyond are separated by 14th-century masonry. As crowd control goes, it has lasted remarkably well.`,
+      cz: `Petřín má malostranskou stranu, kterou znají turisté, a smíchovskou, kterou znají psi. Tohle je ta druhá: klikaté schody, široké výhledy a stálý provoz Pražanů, které jejich mazlíčci táhnou do kopce, a od zbytku vrchu to celé odděluje Hladová zeď.
+
+Až do 19. století tu byly vinice. Kníže Rudolf Kinský je nechal proměnit v krajinářskou zahradu anglického typu podle návrhu svého hospodářského správce Františka Höhnela a stavělo se po etapách od dvacátých let až do roku 1861. Jako první vznikla rovná dolní část a klasicistní letohrádek od Jindřicha Kocha. Rudolf se konce nedočkal: zemřel po pádu z koně a dílo dokončila vdova Vilemína.
+
+Dnes má zahrada téměř 22 hektarů na jižním a jihovýchodním svahu vrchu, se dvěma okrasnými jezírky a vodopádem. V letohrádku sídlí od roku 1901 Národopisné muzeum.
+
+🎁 Bonus: Horní okraj zahrady tvoří hradba Karla IV., takže pejskaře a turisty za ní dělí zdivo ze 14. století. Na regulaci davů to funguje překvapivě dlouho.`,
+      zh: `佩特任山有小城区那一面，游客熟；也有斯米霍夫这一面，狗熟。这里就是后者：蜿蜒的台阶，开阔的风景，络绎不绝的布拉格人被自家宠物拽着上山，一道饥饿之墙把这边和山的另一半隔开。
+
+直到19世纪，这片山坡都还是葡萄园。鲁道夫·金斯基亲王请自己的庄园总管弗朗季谢克·赫内尔设计，把它改成英式风景园，从1820年代一路分期建到1861年。最先完工的是山下平坦的部分，还有建筑师金德里奇·科赫的古典主义夏宫。鲁道夫没能看到完工：他坠马身亡，遗孀维勒米娜接着把花园建完。
+
+如今花园占了山南和东南坡近22公顷，有两座观赏池塘和一道瀑布。夏宫从1901年起是民族志博物馆。
+
+🎁 彩蛋：花园的上沿就是查理四世的城墙，于是这边遛狗的人和墙那头的游客，被一堵14世纪的石墙隔开了。论人流管控，这堵墙用得可真久。`,
+    },
+  },
+  {
+    name: 'London Plane in Kinský Garden',
+    slug: 'platan-zahrada-kinskych',
+    localizedNames: { cz: 'Platan javorolistý v zahradě Kinských', zh: '金斯基花园的百年悬铃木' },
+    labels: ['nature', 'national-revival', 'hidden-gem'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.078914999911426, lng: 14.403206351348325 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Trees do not usually get legal status, a place in a rescue programme and a theft in the family. This London plane has managed all three. Planted while the garden was first being laid out, it is now about 180 years old and one of the largest trees to be seen anywhere on Petřín.
+
+It stands alone near the main entrance from Kinský Square, in the flat lower part of the garden. That section was built first, to a design by Heinrich Koch, in a phase that lasted until 1836 and included planting this tree. On 30 July 1998 it was declared a memorial tree for its size, age and botanical value, and in 2004 it was one of 13 trees chosen to give seeds, grafts and cuttings to a programme saving the gene pool of memorial trees.
+
+🎁 Bonus: In 1928 a statue by Karel Dvořák, Fourteen-Year-Old Girl, was placed near the tree. It was later damaged and stolen, until a customer recognised it in an antique shop. It now waits in the Prague City Museum's depository, and the museum plans to put a copy back here.`,
+      cz: `Stromy obvykle nemívají právní status, místo v záchranném programu a krádež v příbuzenstvu. Tenhle platan javorolistý to stihl všechno. Vysadili ho, když zahrada teprve vznikala, dnes mu je asi 180 let a patří k největším stromům, jaké na Petříně uvidíte.
+
+Stojí osamoceně u hlavního vchodu od náměstí Kinských, v rovné dolní části zahrady. Ta vznikla jako první podle návrhu Jindřicha Kocha a tato etapa, trvající do roku 1836, zahrnovala i výsadbu tohoto stromu. Dne 30. července 1998 byl pro svůj vzrůst, stáří a dendrologický význam vyhlášen památným stromem a v roce 2004 se stal jedním ze 13 stromů vybraných pro odběr semen, roubů a řízků v programu záchrany genofondu památných stromů.
+
+🎁 Bonus: V roce 1928 k němu umístili sochu Čtrnáctiletá od Karla Dvořáka. Později byla poškozena a ukradena, dokud ji jeden zákazník nepoznal ve starožitnictví. Dnes je v depozitáři Muzea hlavního města Prahy, které sem plánuje vrátit její kopii.`,
+      zh: `一棵树，有法律身份，进过拯救计划，身边还闹过失窃案，并不多见。这棵英国梧桐全占了。它种于花园初建之时，如今约180岁，是整座佩特任山上看得到的最大的树之一。
+
+它独自立在金斯基广场主入口附近，花园地势低平的部分。这一带按建筑师金德里奇·科赫的设计最先建成，工程持续到1836年，种下这棵树正是其中一项。1998年7月30日，它因体型、树龄和树木学价值被认定为纪念树。2004年，它又成为13棵入选的树之一，为拯救纪念树基因库的计划提供种子、接穗和插条。
+
+🎁 彩蛋：1928年，雕塑家卡雷尔·德沃夏克的《十四岁少女》被安放在这棵树旁。雕像后来遭到破坏并被盗，直到一位顾客在古董店里认出了它。如今它存放在布拉格城市博物馆的库房里，博物馆打算复制一座放回原处。`,
+    },
+  },
+  {
+    name: 'Hercules and the Hydra in Kinský Garden',
+    slug: 'socha-herkula-s-hydrou-zahrada-kinskych',
+    localizedNames: { cz: 'Socha Herkula s Hydrou v dolním jezírku', zh: '下池中的赫拉克勒斯与九头蛇' },
+    labels: ['sculpture', 'baroque'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.077806445528296, lng: 14.398241733138796 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Hercules has been wrestling the Hydra for more than three centuries, and for the last eighty-odd years he has been doing it in a pond. Nobody asked him about the wet feet. Most people who pass by are looking for the waterfall, and the greatest hero of antiquity gets a quick glance on the way.
+
+The statue is Baroque, from the late 17th century, and it did not begin its career here. It stood on Kampa until 1939, when it was moved to the lower of the garden's two ponds, above the summer palace. The subject is his second labour: a many-headed water serpent that grew two heads for every one cut off, which makes a pond a fairly reasonable setting after all.
+
+🎁 Bonus: The upper pond has its own resident, a sea lion by the sculptor Jan Lauda from 1953. Between the two of them, only one looks relaxed.`,
+      cz: `Herkules zápasí s Hydrou už přes tři století a posledních osmdesát let to dělá v rybníčku. Na mokré nohy se ho nikdo neptal. Většina kolemjdoucích hledá vodopád a největšímu hrdinovi antiky věnuje jen rychlý pohled cestou.
+
+Barokní socha z konce 17. století tu nezačínala. Stála na Kampě až do roku 1939, kdy ji přemístili do dolního ze dvou jezírek zahrady nad letohrádkem. Námětem je jeho druhý úkol: mnohohlavá vodní saň, které za každou useknutou hlavu narostly dvě, takže jezírko je nakonec docela logické prostředí.
+
+🎁 Bonus: Horní jezírko má vlastního obyvatele, lachtana od sochaře Jana Laudy z roku 1953. Z těch dvou vypadá uvolněně jen jeden.`,
+      zh: `赫拉克勒斯和九头蛇打了三百多年，最近这八十多年是站在水池里打的。脚湿不湿，从来没人问过他。路过的人多半在找瀑布，古代第一英雄只分到顺路的一瞥。
+
+这是一尊17世纪末的巴洛克雕像，最初并不在这里。它原本立在坎帕岛上，1939年才搬到花园两座池塘中靠下的那座，就在夏宫上方。题材是他的第二项任务：一条多头水蛇，砍掉一个头就长出两个。这么一想，放在水池里还挺合理。
+
+🎁 彩蛋：上面那座池塘有自己的住户，是雕塑家扬·劳达1953年做的海狮。这两位当中，看起来轻松的只有一个。`,
+    },
+  },
+  {
+    name: 'Petřín Viewing Terrace',
+    slug: 'vyhlidkova-terasa-petrin',
+    localizedNames: { cz: 'Vyhlídková terasa (Vyhlídka)', zh: '佩特任观景台' },
+    labels: ['nature', 'hidden-gem'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.080196165695426, lng: 14.401007302411658 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `The viewpoint at the Castle has a fine view and a fine view of the back of someone's head, as tour groups from every continent arrive in formation. This terrace has the first without the second. Almost nobody seems to know about it except the people of Smíchov walking their dogs.
+
+It sits high on the Smíchov side of Petřín, close to the Hunger Wall, reached by the paths and steps that wander up through the Kinský Garden. There is no ticket, no queue and nobody holding up a numbered paddle. The climb does the filtering that a turnstile does elsewhere, and the city below looks no worse for having been earned.
+
+🎁 Bonus: To blend in with the regulars you will need a dog. Failing that, look as if you have lost one.`,
+      cz: `Vyhlídka u Hradu nabízí krásný pohled a ještě krásnější pohled na cizí zátylek, protože tam ve formaci přijíždějí zájezdy ze všech kontinentů. Tahle terasa má jen to první. Skoro nikdo o ní neví, kromě Smíchováků venčících psy.
+
+Leží vysoko na smíchovské straně Petřína, kousek od Hladové zdi, a vedou k ní cesty a schody klikatící se Zahradou Kinských. Žádný lístek, žádná fronta, nikdo s očíslovanou tabulkou nad hlavou. Výstup tu dělá to, co jinde turniket, a město dole není o nic horší jen proto, že jste si ho museli zasloužit.
+
+🎁 Bonus: Abyste zapadli mezi místní, budete potřebovat psa. Pokud žádného nemáte, tvařte se, že jste ho ztratili.`,
+      zh: `城堡的观景台风景很好，前面的后脑勺也很多，各国旅游团都排着队往那儿去。这座观景台只有前者，没有后者。除了来遛狗的斯米霍夫本地人，几乎没人知道这里。
+
+它在佩特任山斯米霍夫一侧的高处，离饥饿之墙不远，顺着金斯基花园里弯弯绕绕的小路和台阶走上来就到了。不要门票，不用排队，也没有人举着号码牌。别处靠闸机筛人，这里靠爬坡。脚下的城市，并不因为要费点力气才看得到，就变得难看一分。
+
+🎁 彩蛋：想混进本地人当中，你需要一条狗。实在没有，就装出一副狗刚跑丢的样子。`,
+    },
+  },
+  {
+    name: 'Upper Bastion of the Hunger Wall',
+    slug: 'horni-bastion-hladova-zed',
+    localizedNames: { cz: 'Horní bastion (Hladová zeď)', zh: '饥饿之墙上层棱堡' },
+    labels: ['castle and fortress', 'medieval'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08075455006743, lng: 14.401752936598228 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `The Hunger Wall spends most of its length being a wall. Here, high on Petřín, it makes a small effort to be something more. A bastion is what happens when a line of stones decides it would like to see around corners, and this one has been keeping an eye on an empty hillside for centuries.
+
+Charles IV had the wall built across Petřín between 1360 and 1362 to protect the Lesser Town and the Castle from the south and west, with battlements, loopholes and bastions along the way. The story goes that it gave paid work to the poor during a famine, which is where the name comes from, and the phrase later became a Czech byword for public works nobody really needs.
+
+🎁 Bonus: Before the famine stuck to it, the wall had a much more cheerful name: Zubatá, the Toothed One, after its battlements.`,
+      cz: `Hladová zeď se po většinu své délky věnuje tomu, že je zeď. Tady, vysoko na Petříně, se trochu snaží být něčím víc. Bastion vznikne, když řada kamenů zatouží vidět za roh, a tenhle už staletí hlídá prázdný svah.
+
+Karel IV. nechal zeď přes Petřín postavit v letech 1360 až 1362, aby chránila Malou Stranu a Hrad od jihu a západu, a měla cimbuří, střílny i bašty. Podle pověsti dala výdělek chudým v době hladomoru, odtud její jméno, a později se „hladová zeď“ stala českým označením pro veřejné práce, které nikdo moc nepotřebuje.
+
+🎁 Bonus: Než na ní ulpěl hlad, měla zeď mnohem veselejší jméno: Zubatá, podle cimbuří.`,
+      zh: `饥饿之墙大部分时候都只是一堵墙。到了佩特任山高处这里，它稍微努力了一下。棱堡这东西，就是一排石头忽然想看看拐角后面有什么，而这一座已经盯着空荡荡的山坡好几百年了。
+
+查理四世在1360年到1362年间下令修筑这道横跨佩特任山的城墙，从南面和西面保护小城区和城堡，沿途设有雉堞、射孔和棱堡。据说它在饥荒时给穷人提供了工钱，名字由此而来。后来“饥饿之墙”成了捷克语里的一句话，专指没人真正需要的公共工程。
+
+🎁 彩蛋：在“饥饿”贴到它身上之前，这堵墙有个喜庆得多的名字：“长牙的”，因为城头的雉堞像一排牙齿。`,
+    },
+  },
+  {
+    name: 'Petřín Rocks',
+    slug: 'petrinske-skalky',
+    localizedNames: { cz: 'Petřínské skalky', zh: '佩特任岩壁' },
+    labels: ['geology', 'nature'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.08043512930927, lng: 14.399989242360887 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `People climb Petřín for the tower, the roses and the funicular. A few rocks poking out of the hillside have no such publicity, yet they are the only thing up here that remembers Prague as the bottom of a sea, and they have had official protection for it since 1988.
+
+The outcrops and small cliffs in the upper part of the hill are a nature monument for what they show: sandstones laid down in a Cretaceous sea, resting on Ordovician shales that are hundreds of millions of years older. The gap between the two layers is a stretch of Earth's history that simply left no record here. The site is also protected for its plants, which have made themselves at home on the bare rock.
+
+🎁 Bonus: Stone from Petřín's quarries went into many of Prague's older buildings, so a good part of this hill is now standing somewhere else in the city.`,
+      cz: `Na Petřín se chodí kvůli rozhledně, růžím a lanovce. Pár skal čouhajících ze svahu takovou reklamu nemá, a přitom jsou jediné, co si tu pamatuje Prahu jako mořské dno. Chráněné jsou od roku 1988.
+
+Výchozy a skalky v horní části vrchu jsou přírodní památkou kvůli tomu, co ukazují: pískovce usazené v křídovém moři leží na ordovických břidlicích, které jsou o stovky milionů let starší. Mezera mezi oběma vrstvami je úsek dějin Země, který tu prostě nezanechal záznam. Chráněné jsou i rostliny, které se na holé skále zabydlely.
+
+🎁 Bonus: Kámen z petřínských lomů skončil v mnoha starších pražských stavbách, takže značná část tohoto kopce dnes stojí jinde ve městě.`,
+      zh: `人们爬佩特任山，为的是铁塔、玫瑰和缆车。山坡上露出来的几块石头没有这种名气，可它们是这里唯一还记得布拉格当过海底的东西，1988年起就受到了正式保护。
+
+山上部的露头和小岩壁之所以被列为自然保护地，是因为它们展示的东西：白垩纪海洋里沉积的砂岩，直接压在比它老几亿年的奥陶纪页岩上。两层之间的空白，是地球历史中在这里没留下任何记录的一段。在光秃秃的岩石上安了家的植物，也一并受到保护。
+
+🎁 彩蛋：佩特任山采石场的石头，用在了布拉格许多老建筑上。所以这座山有不小一部分，如今正立在城里别的地方。`,
+    },
+  },
+  {
+    name: 'Petřín Pond',
+    slug: 'petrinske-jezirko',
+    localizedNames: { cz: 'Petřínské jezírko', zh: '佩特任小池' },
+    labels: ['waterbody', 'nature'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.07919581017874, lng: 14.398387468947675 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `A hilltop is not where water naturally chooses to settle, so somebody had to insist. This little pond is the work of 19th-century garden designers who felt that a romantic landscape was incomplete without something to reflect the trees, and who were prepared to bring it up a hill to prove the point.
+
+It belongs to the Kinský Garden, which was laid out with two ornamental ponds and a waterfall as a romantic complement to the summer palace below. Today the paths around it were rebuilt in the garden's recent restoration, and a children's playground stands not far away, which supplies most of the sound effects.
+
+🎁 Bonus: The upper pond's permanent guest is a sea lion, sculpted by Jan Lauda in 1953. It is a long way from the sea and has not complained once.`,
+      cz: `Vrch kopce není místo, kde by se voda sama od sebe usadila, takže na tom někdo musel trvat. Tohle jezírko je dílem zahradních architektů 19. století, podle nichž byla romantická krajina neúplná bez něčeho, v čem se zrcadlí stromy, a kteří to byli ochotni dokázat i do kopce.
+
+Patří k Zahradě Kinských, která dostala dvě okrasná jezírka a vodopád jako romantický doplněk letohrádku pod nimi. Cesty kolem něj byly obnoveny při nedávné rekonstrukci zahrady a nedaleko stojí dětské hřiště, které zajišťuje většinu zvukového doprovodu.
+
+🎁 Bonus: Stálým hostem horního jezírka je lachtan, kterého v roce 1953 vytesal Jan Lauda. Od moře je hodně daleko a ještě si nestěžoval.`,
+      zh: `山坡不是水自己愿意待的地方，所以肯定有人坚持过。这座小池是19世纪园林师的手笔，他们觉得浪漫的风景里必须有点能倒映树影的东西，为此不惜把水弄上山。
+
+它属于金斯基花园。花园建了两座观赏池塘和一道瀑布，作为山下夏宫的浪漫陪衬。周围的小路在近年的花园修复中重新铺过，不远处还有一座儿童游乐场，这里的背景音大多由它提供。
+
+🎁 彩蛋：上面那座池塘的常住客人是一头海狮，出自雕塑家扬·劳达1953年之手。它离大海很远，至今没抱怨过一句。`,
+    },
+  },
+  {
+    name: 'Květnice Garden',
+    slug: 'zahrada-kvetnice',
+    localizedNames: { cz: 'Zahrada Květnice', zh: '克维特尼采花园' },
+    labels: ['park', 'nature', 'world-wars'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.080627376400535, lng: 14.398168188336896 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Next door the Rose Garden gets the crowds and the wedding photographers. Tucked against the old city walls, this small enclosed garden gets the people who know that roses are only one idea. It is a garden for those who like their flowers to come with a planting plan and a surprising amount of ambition.
+
+Květnice was created between 1935 and 1937 as part of the Rose Garden, to a design by the architect Z. Profous. On about 1,600 square metres of made-up ground beside the Baroque fortifications, more than 3,000 perennials and bulbs were planted. With over a hundred species of woody plants and perennials it has no real equivalent among Prague's gardens, and the city has recently restored it for visitors.
+
+🎁 Bonus: The whole thing stands on fill brought in for the purpose, so one of the hill's most delicate corners is, strictly speaking, a very successful pile of earth.`,
+      cz: `Vedle v Růžovém sadu jsou davy a svatební fotografové. Tahle malá uzavřená zahrada schovaná u starých hradeb patří těm, kdo vědí, že růže jsou jen jeden z nápadů. Je pro lidi, kteří mají rádi květiny s osazovacím plánem a překvapivou dávkou ambicí.
+
+Květnice vznikla v letech 1935 až 1937 jako součást Růžového sadu podle návrhu architekta Z. Profouse. Na navážce o ploše asi 1 600 metrů čtverečních u barokního opevnění zde bylo vysazeno přes 3 000 trvalek a cibulovin. S více než stovkou druhů dřevin a trvalek nemá mezi pražskými zahradami obdoby a město ji nedávno pro návštěvníky obnovilo.
+
+🎁 Bonus: Celá stojí na navezené zemině, takže jeden z nejjemnějších koutů Petřína je vlastně velmi úspěšná hromada hlíny.`,
+      zh: `隔壁的玫瑰园有人潮和婚纱摄影师。这座藏在老城墙边的小小围园，留给那些知道“玫瑰只是思路之一”的人。在这里，花都带着种植方案，还有一股出人意料的雄心。
+
+克维特尼采花园建于1935年到1937年，是玫瑰园的一部分，由建筑师Z.普罗富斯设计。在巴洛克城防旁边约1600平方米的填土上，种下了3000多株宿根花卉和球根植物。这里有一百多种木本和宿根植物，在布拉格的花园里找不到第二家，近年市政府又把它修复后重新向游人开放。
+
+🎁 彩蛋：整座花园都建在专门运来的填土上。也就是说，佩特任山最精致的角落之一，严格来讲是一堆非常成功的土。`,
+    },
+  },
+  {
+    name: 'Magic Cave',
+    slug: 'magicka-jeskyne',
+    localizedNames: { cz: 'Magická jeskyně', zh: '魔法洞穴' },
+    labels: ['museum', 'cultural', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.081393507751635, lng: 14.400058963208195 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `From outside it is a house on Petřín. Inside, one man has spent years persuading three storeys of that house that they are a cave. Geologists would object, but this cave was never formed by water. It was formed by plaster, several tonnes of it, and by an unusually firm idea of what the inside of a house should be.
+
+The artist is Reon Argondian, born Jan Zahradník, who trained his hand as a restorer of old masters and uses Renaissance painting techniques to depict an imaginary land called Argondia. About 80 of his paintings hang among the sculpted walls. The project goes back to the 1970s in Brittany, and the Petřín cavern opened in 2005.
+
+🎁 Bonus: Argondia has no borders, no embassy and no tourist board, yet it has had a permanent address on Petřín for about twenty years, which is more than some real countries managed in the 20th century.`,
+      cz: `Zvenku je to dům na Petříně. Uvnitř jeden člověk léta přesvědčoval tři jeho patra, že jsou jeskyně. Geologové by namítali, ale tuhle jeskyni nevymodelovala voda. Vymodelovalo ji několik tun sádry a neobvykle pevná představa o tom, jak má vypadat vnitřek domu.
+
+Jejím autorem je Reon Argondian, vlastním jménem Jan Zahradník, který se vyučil jako restaurátor starých mistrů a renesanční malířskou technikou zachycuje vymyšlenou zemi Argondii. Mezi modelovanými stěnami visí asi 80 jeho obrazů. Projekt sahá do sedmdesátých let v Bretani a petřínská jeskyně byla otevřena v roce 2005.
+
+🎁 Bonus: Argondie nemá hranice, velvyslanectví ani turistickou centrálu, a přesto má na Petříně stálou adresu už asi dvacet let, což je víc, než kolik zvládly některé skutečné státy ve 20. století.`,
+      zh: `从外面看，这只是佩特任山上的一栋房子。里面，有一个人花了好多年，说服这栋三层小楼相信自己是个山洞。地质学家会有意见，因为这个洞不是水冲出来的，是好几吨石膏，加上一个异常坚定的想法做出来的。
+
+作者叫雷翁·阿尔贡迪安，本名扬·扎赫拉德尼克，当过古典名画修复师，用文艺复兴的画法描绘一个虚构的国度阿尔贡迪亚。雕塑般的洞壁之间挂着他的大约80幅画。这个项目最早可以追溯到1970年代的布列塔尼，佩特任山上的这处洞穴于2005年开放。
+
+🎁 彩蛋：阿尔贡迪亚没有边界，没有大使馆，也没有旅游局，却在佩特任山上有了二十来年的固定地址。20世纪有些真实存在的国家，都没撑这么久。`,
+    },
+  },
+  {
+    name: 'Ruins of the U Jezírka Restaurant',
+    slug: 'ruiny-restaurace-u-jezirka',
+    localizedNames: { cz: 'Ruiny bývalé výletní restaurace U jezírka', zh: '池畔旅游餐厅废墟' },
+    labels: ['ruin', 'hidden-gem'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.07875870236465, lng: 14.39871103389231 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Walkers coming down through the Kinský Garden sometimes stop here and wonder what exactly this is meant to be. It looks like an art installation about neglect. It is, in fact, just neglect: a former excursion restaurant, wrapped in ivy, that has been waiting more than twenty years for somebody to make a decision.
+
+The restaurant was destroyed by fire in 2002 and has stood derelict ever since, while the garden around it has been restored with new paths and lighting. Nobody has cleared it and nobody has rebuilt it, so nature has quietly taken over the project. The ivy now does the work of both the architect and the demolition crew.
+
+🎁 Bonus: In one of the best-kept gardens in Prague, this is the one spot that looks exactly as if no one is in charge, which is what makes it so restful.`,
+      cz: `Chodci, kteří scházejí Zahradou Kinských, se tu občas zastaví a přemítají, co to vlastně má být. Vypadá to jako umělecká instalace o zanedbanosti. Ve skutečnosti je to prostě zanedbanost: bývalá výletní restaurace obrostlá břečťanem, která přes dvacet let čeká, až se někdo rozhodne.
+
+Restauraci v roce 2002 zničil požár a od té doby chátrá, zatímco zahrada kolem dostala nové cesty i osvětlení. Nikdo ji neodklidil a nikdo ji neobnovil, takže projekt tiše převzala příroda. Břečťan dnes dělá zároveň architekta i demoliční četu.
+
+🎁 Bonus: V jedné z nejlépe udržovaných pražských zahrad je tohle jediné místo, které vypadá přesně tak, jako by to tu nikdo neměl na starosti, a právě proto je tak uklidňující.`,
+      zh: `从金斯基花园走下来的人，有时会在这里停下，琢磨这东西摆在这儿到底什么用意。它看起来像一件关于荒废的装置艺术。其实它就是荒废本身：一座爬满常春藤的旧郊游餐厅，等人拿主意已经等了二十多年。
+
+餐厅2002年毁于一场大火，此后一直荒着，周围的花园却铺了新路，装了新灯。没人清理，也没人重建，于是大自然悄悄接手了这个项目。如今常春藤一边当建筑师，一边当拆迁队。
+
+🎁 彩蛋：在布拉格保养得最好的花园之一里，只有这一处看起来完全没人管，也正因为这样，待着特别舒服。`,
+    },
+  },
+  {
+    name: 'Statue of Milan Rastislav Štefánik',
+    slug: 'socha-milana-rastislava-stefanika',
+    localizedNames: { cz: 'Socha Milana Rastislava Štefánika', zh: '米兰·拉斯季斯拉夫·什特凡尼克雕像' },
+    labels: ['monument', 'sculpture', 'world-wars'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.081393800288346, lng: 14.39754837398835 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `It is hard to fit Milan Rastislav Štefánik on one plinth. Astronomer, French general, pilot, diplomat and co-founder of a country, he packed all of it into 38 years. The bronze here stands outside the observatory that bears his name, which is at least the right address for a man who started out looking at the sky.
+
+Born in 1880 in what is now Slovakia, Štefánik studied astronomy at Charles University in Prague, then went to France, where he observed from Mont Blanc and travelled the world on scientific missions. In the First World War he became a pilot and a general in the French army, and together with Masaryk and Beneš he worked to create Czechoslovakia. He died on 4 May 1919, when his plane crashed on the approach to Bratislava. The statue is by Bohumil Kafka.
+
+🎁 Bonus: Kafka here is the sculptor, not the writer. Prague has enough statues to need the distinction.`,
+      cz: `Milana Rastislava Štefánika je těžké vměstnat na jeden podstavec. Astronom, francouzský generál, letec, diplomat a spoluzakladatel státu, a to všechno stihl za 38 let. Bronz tu stojí před hvězdárnou nesoucí jeho jméno, což je pro muže, který začínal pohledem do nebe, aspoň správná adresa.
+
+Štefánik se narodil roku 1880 na dnešním Slovensku, vystudoval astronomii na Univerzitě Karlově v Praze a odešel do Francie, kde pozoroval z Mont Blanku a cestoval po světě s vědeckými výpravami. Za první světové války se stal letcem a generálem francouzské armády a s Masarykem a Benešem usiloval o vznik Československa. Zahynul 4. května 1919, když se jeho letadlo zřítilo při přiblížení k Bratislavě. Autorem sochy je Bohumil Kafka.
+
+🎁 Bonus: Kafka je tady sochař, ne spisovatel. Praha má tolik soch, že to rozlišení potřebuje.`,
+      zh: `米兰·拉斯季斯拉夫·什特凡尼克很难塞进一座基座。天文学家、法国将军、飞行员、外交官、一个国家的联合创始人，这些他38年全干完了。这尊铜像立在以他命名的天文台外面，对一个从仰望星空起步的人来说，这地址至少是对的。
+
+他1880年生于今天的斯洛伐克，在布拉格的查理大学读天文学，后来去了法国，在勃朗峰上做观测，又随科学考察队走遍世界。第一次世界大战中，他成了法国军队的飞行员和将军，和马萨里克、贝奈斯一起为捷克斯洛伐克的诞生奔走。1919年5月4日，他的飞机在飞近布拉迪斯拉发时坠毁，他不幸遇难。雕像出自博胡米尔·卡夫卡之手。
+
+🎁 彩蛋：这位卡夫卡是雕塑家，不是那位作家。布拉格的雕像多到需要特别说明一下。`,
+    },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Statue_of_Milan_Rastislav_%C5%A0tef%C3%A1nik,_Prague',
+  },
+  {
+    name: 'Waterfalls in Kinský Garden',
+    slug: 'vodopady-zahrada-kinskych',
+    localizedNames: { cz: 'Vodopády v zahradě Kinských', zh: '金斯基花园瀑布' },
+    labels: ['waterbody', 'nature', 'national-revival'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.07789531027915, lng: 14.398116069148335 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Niagara has nothing to fear. Still, a waterfall halfway up a Prague hillside is a pleasant surprise, and this one was put here on purpose by people who believed a proper garden should have a little drama in it, even if the drama had to be scheduled, plumbed and kept to a modest scale.
+
+The Kinský Garden was laid out between the 1820s and 1861 as a romantic setting for the summer palace below it, and romance at the time called for winding paths, picturesque rocks and water that moved. So the garden was given two ornamental ponds and a waterfall between them and the slope. The sound carries just far enough to make the walk feel wilder than it is, and Hercules, fighting the Hydra in the lower pond a few steps away, gets the benefit of the soundtrack.
+
+🎁 Bonus: The Czech name is in the plural. Count them yourself and decide whether that was optimism.`,
+      cz: `Niagara se bát nemusí. Přesto je vodopád v půli pražského svahu milé překvapení a stojí tu záměrně, díky lidem, kteří věřili, že pořádná zahrada potřebuje trochu dramatu, i kdyby mělo být naplánované, svedené potrubím a v rozumném měřítku.
+
+Zahrada Kinských vznikala od dvacátých let až do roku 1861 jako romantické prostředí pro letohrádek pod ní a romantika tehdy vyžadovala klikaté cesty, malebné skály a vodu, která se hýbe. Zahrada proto dostala dvě okrasná jezírka a vodopád. Jeho zvuk nese přesně tak daleko, aby procházka působila divočeji, než jaká je, a těží z něj i Herkules, který pár kroků odsud zápasí s Hydrou v dolním jezírku.
+
+🎁 Bonus: Český název je v množném čísle. Spočítejte si je sami a posuďte, jestli to nebyl optimismus.`,
+      zh: `尼亚加拉大可放心。不过在布拉格的半山腰碰上一道瀑布，还是挺让人惊喜的。它是有人特意放在这里的，这些人相信，像样的花园总得有点戏剧性，哪怕这戏剧性得提前规划、接好水管，规模还要控制得体。
+
+金斯基花园从1820年代一直建到1861年，是山下夏宫的浪漫布景。当时的浪漫，讲究弯曲的小路、入画的山石和会动的水，于是花园里有了两座观赏池塘和一道瀑布。水声传得不远不近，刚好让这段路走起来比实际更野一点。几步之外在下池里和九头蛇搏斗的赫拉克勒斯，也跟着沾了这段配乐的光。
+
+🎁 彩蛋：它的捷克语名字用的是复数。到底有几道，你自己数数，再判断当年起名的人是不是有点乐观。`,
+    },
+  },
+  {
+    name: 'Love Statue (Petřín)',
+    slug: 'socha-laska-petrin',
+    localizedNames: { cz: 'Socha Láska', zh: '爱情雕像' },
+    labels: ['sculpture', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.0818070680423, lng: 14.396327223792177 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Most statues make you read a plaque to find out what they are about. This one has saved everybody the trouble by being called Love. It stands a short walk from the top of the funicular, on a hill where the subject has been taken seriously for a very long time, and where it hardly needed the extra signage.
+
+Petřín is Prague's traditional hill for couples. Its slopes bloom with fruit trees in spring, the Rose Garden lies just nearby, and further down the statue of the poet Karel Hynek Mácha has become a meeting place for people in love. A sculpture on the theme, in the middle of all that, is less a work of art than a statement of the obvious, and it is all the more pleasant for that.
+
+🎁 Bonus: Bring someone along, or come alone and have a word with the statue. On this hill, nobody will think it odd.`,
+      cz: `Většina soch vás nutí číst ceduli, abyste zjistili, o čem jsou. Tahle všem ušetřila práci tím, že se jmenuje Láska. Stojí kousek od horní stanice lanovky, na kopci, kde se toto téma bere vážně už velmi dlouho a kde by se bez dalšího označení obešlo.
+
+Petřín je tradiční pražský kopec zamilovaných. Na jaře rozkvétají jeho ovocné stromy, hned vedle leží Růžový sad a níže se socha básníka Karla Hynka Máchy stala místem schůzek zamilovaných. Socha na toto téma uprostřed toho všeho je spíš konstatováním zřejmého než uměleckým objevem, a o to je příjemnější.
+
+🎁 Bonus: Vezměte někoho s sebou, nebo přijďte sami a promluvte si se sochou. Na tomhle kopci se tomu nikdo divit nebude.`,
+      zh: `大多数雕像都得看牌子才知道讲什么。这一尊省了大家的事，它就叫“爱情”。它离缆车上站只有几步路，而在这座山上，这个主题早就被认真对待了很久，本来也用不着再立个标识。
+
+佩特任山是布拉格传统的情侣山。春天山坡上果树开花，玫瑰园就在旁边，山下的诗人马哈雕像更成了恋人约会的地方。在这一切中间立一尊爱情雕像，与其说是艺术创见，不如说是陈述事实，而这也正是它讨人喜欢的地方。
+
+🎁 彩蛋：带个人来吧。或者一个人来，跟雕像聊两句。在这座山上，没人会觉得奇怪。`,
+    },
+  },
+  {
+    name: 'Calvary Chapel (Petřín)',
+    slug: 'kaple-kalvarie-petrin',
+    localizedNames: { cz: 'Kaple Kalvárie', zh: '佩特任受难堂' },
+    labels: ['church', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.083212377337894, lng: 14.396437500401111 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Thousands of people reach the top of Petřín each day thinking about the tower. A few of them notice that they have also just finished a pilgrimage. This small Baroque chapel beside St Lawrence is where the hill's Way of the Cross comes to its climax, whether or not the visitor had planned on any penance.
+
+The chapel dates from the 1730s, when the first Stations of the Cross were laid out on Petřín, and the Cathedral of St Lawrence next door counts them among the earliest in the country. The route was rebuilt in the 1830s by the architect Josef Kranner as the fourteen niche chapels still lining the path, with pictures by Josef Führich. The chapel itself has since been fully restored.
+
+🎁 Bonus: Look up at the facade: the sgraffito of the Resurrection is based on a design by Mikoláš Aleš, one of the great names of Czech 19th-century art, working in rather less grand circumstances than his National Theatre commissions.`,
+      cz: `Na vrchol Petřína denně přicházejí tisíce lidí s myšlenkou na rozhlednu. Někteří si všimnou, že právě dokončili i pouť. V této malé barokní kapli vedle svatého Vavřince vrcholí zdejší křížová cesta, ať už návštěvník s pokáním počítal, nebo ne.
+
+Kaple pochází ze 30. let 18. století, kdy na Petříně vznikla první křížová cesta, a sousední katedrála sv. Vavřince ji řadí k nejstarším v zemi. Ve 30. letech 19. století trasu přebudoval architekt Josef Kranner do podoby čtrnácti výklenkových kapliček, které dodnes lemují cestu, s obrazy Josefa Führicha. Samotná kaple prošla kompletní obnovou.
+
+🎁 Bonus: Podívejte se na průčelí: sgrafito Zmrtvýchvstání vzniklo podle návrhu Mikoláše Alše, jednoho z velkých jmen českého umění 19. století, v o dost skromnějších podmínkách, než jaké měl v Národním divadle.`,
+      zh: `每天有成千上万的人登上佩特任山，心里想着铁塔。其中少数人会发现，自己刚刚还顺便走完了一段朝圣路。圣劳伦斯教堂旁边这座小小的巴洛克礼拜堂，正是山上这条苦路的高潮，不管游客有没有打算赎罪。
+
+礼拜堂建于18世纪30年代，当时佩特任山上修起了第一条苦路，隔壁的圣劳伦斯主教座堂把它算作捷克最早的苦路之一。19世纪30年代，建筑师约瑟夫·克兰纳把路线改建成今天路边的十四座壁龛小堂，画作出自约瑟夫·富里希之手。礼拜堂本身也已经全面修复。
+
+🎁 彩蛋：抬头看看立面。那幅《复活》五彩刮画，是按米科拉什·阿莱什的设计做的。这位19世纪捷克艺术的大人物在这里的工作条件，可比他给国家剧院干活时朴素多了。`,
+    },
+  },
+  {
+    name: 'Chapel of the Holy Sepulchre (Petřín)',
+    slug: 'kaple-boziho-hrobu-petrin',
+    localizedNames: { cz: 'Kaple Božího hrobu', zh: '佩特任圣墓礼拜堂' },
+    labels: ['church', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08348501067227, lng: 14.395628395171709 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Not everyone in 18th-century Bohemia could get to Jerusalem, so Jerusalem was brought to within walking distance. This little chapel near the top of Petřín is a copy of the tomb of Christ, placed at the end of the hill's pilgrimage route and within sight of a replica Eiffel Tower, which makes this a remarkably busy corner for imitations.
+
+It was built in 1737, with the priest Norbert Saazer and the painter Jan Ferdinand Schor credited with the work, and the route leading to it was renewed in the 1830s by Count Karel Chotek in a Classicist style. A renovation in 2019 cost around two million crowns, which is still cheaper than going to the Holy Land for everyone involved.
+
+🎁 Bonus: Researchers have counted 26 copies of the Holy Sepulchre in the Czech Republic alone. This is among the Prague examples, so if you have seen one of the others you can now start a collection.`,
+      cz: `Ne každý se v Čechách 18. století dostal do Jeruzaléma, a tak byl Jeruzalém přinesen na dosah pěšky. Tato kaplička poblíž vrcholu Petřína je kopií Kristova hrobu na konci zdejší poutní cesty a na dohled od repliky Eiffelovky, takže jde o pozoruhodně rušný kout napodobenin.
+
+Postavena byla v roce 1737 a jako autoři se uvádějí kněz Norbert Saazer a malíř Jan Ferdinand Schor. Cestu k ní ve 30. letech 19. století klasicistně obnovil hrabě Karel Chotek. Oprava v roce 2019 vyšla asi na dva miliony korun, což je pořád levnější než poslat všechny do Svaté země.
+
+🎁 Bonus: Badatelé napočítali jen v Česku 26 kopií Božího hrobu. Tahle patří k těm pražským, takže pokud jste viděli některou jinou, můžete si založit sbírku.`,
+      zh: `18世纪的波希米亚，不是人人都去得了耶路撒冷，于是耶路撒冷被搬到了走路能到的地方。佩特任山顶附近这座小礼拜堂是基督圣墓的复制品，就在山上朝圣路的尽头，抬眼还能看见仿埃菲尔铁塔，这个角落的“复制品”密度着实不低。
+
+它建于1737年，记载中的建造者是神父诺贝特·萨策尔和画家扬·费迪南德·绍尔。通向它的道路在19世纪30年代由卡雷尔·霍泰克伯爵以古典主义风格重修。2019年的一次修缮花了约两百万克朗，还是比把所有人送去圣地便宜。
+
+🎁 彩蛋：研究者光在捷克就数出了26座圣墓复制品，这座是布拉格的其中之一。要是你见过别的，现在可以开始集邮了。`,
+    },
+  },
+  {
+    name: 'Statue of Jaroslav Vrchlický',
+    slug: 'socha-jaroslava-vrchlickeho-petrin',
+    localizedNames: { cz: 'Socha Jaroslava Vrchlického', zh: '雅罗斯拉夫·弗尔赫利茨基雕像' },
+    labels: ['monument', 'sculpture', 'national-revival'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08506708386685, lng: 14.396591293731964 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Jaroslav Vrchlický wrote so much that a statue seems almost a modest response. Poet, playwright and tireless translator, he produced a shelf of Czech literature largely by himself, and he now stands on a quiet stretch of Petřín, where few passers-by have read him and where, for once, nobody is asking him for another volume.
+
+Born Emil Frída in 1853, he took a pen name and set about bringing world literature into Czech, translating Dante, Goethe and many others while writing his own verse and plays at an astonishing rate. He died in 1912. The sandstone monument is the work of the sculptor Josef Wagner, who worked on it for a long stretch between 1936 and 1956.
+
+🎁 Bonus: Twenty years on a single monument may sound slow, but with the war in the middle of it, the sculptor still finished his project faster than the subject would have needed to translate another shelf.`,
+      cz: `Jaroslav Vrchlický napsal tolik, že socha působí skoro jako skromná odpověď. Básník, dramatik a neúnavný překladatel vytvořil téměř sám celou polici české literatury a dnes stojí na klidném úseku Petřína, kde ho málokdo z kolemjdoucích četl a kde po něm aspoň jednou nikdo nechce další svazek.
+
+Narodil se roku 1853 jako Emil Frída, přijal pseudonym a pustil se do převádění světové literatury do češtiny, překládal Danta, Goetha a mnohé další a přitom psal v ohromném tempu vlastní verše a hry. Zemřel v roce 1912. Pískovcový pomník je dílem sochaře Josefa Wagnera, který na něm pracoval s přestávkami v letech 1936 až 1956.
+
+🎁 Bonus: Dvacet let na jednom pomníku zní pomalu, ale i s válkou uprostřed to sochař stihl rychleji, než by portrétovaný přeložil další polici knih.`,
+      zh: `雅罗斯拉夫·弗尔赫利茨基写得太多，一尊雕像几乎显得寒酸。他是诗人、剧作家、不知疲倦的翻译家，一个人写出了捷克文学的一整排书架。如今他站在佩特任山安静的一段路上，路过的人很少读过他，倒也总算没人再催他交下一卷了。
+
+他1853年出生，本名埃米尔·弗里达，用笔名开始把世界文学搬进捷克语，翻译但丁、歌德等许多人，同时以惊人的速度写自己的诗和戏剧，1912年去世。这座砂岩纪念像出自雕塑家约瑟夫·瓦格纳之手，他从1936年到1956年断断续续做了很久。
+
+🎁 彩蛋：一座雕像做二十年听着很慢，但中间还隔着一场战争。要是换这位诗人来，这点时间他大概又能译出一排书架。`,
+    },
+  },
+  {
+    name: 'Statue of Jan Neruda',
+    slug: 'socha-jana-nerudy-petrin',
+    localizedNames: { cz: 'Socha Jana Nerudy', zh: '扬·聂鲁达雕像' },
+    labels: ['monument', 'sculpture', 'national-revival'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08297036525437, lng: 14.402250896988761 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Jan Neruda spent his life writing about the neighbours of the Lesser Town with affection and very little mercy. It is only fair that he should stand on the slope above them for ever, keeping an eye on the place. His bronze looks over the lower gardens of Petřín, close to the funicular and to the streets he made famous.
+
+Neruda, who lived from 1834 to 1891, was a poet and journalist, and his Tales of the Lesser Quarter remain one of the great portraits of the city in Czech. He was born close by, in the now-demolished Újezd barracks. The statue, by Jan Simota, went up in 1970, and it has not had an entirely peaceful retirement: it was once knocked off its base during the night and had to be put back.
+
+🎁 Bonus: Yes, this is the Neruda whose name a young Chilean poet borrowed. Pablo was the one who borrowed it, and Jan was here first.`,
+      cz: `Jan Neruda strávil život psaním o malostranských sousedech s láskou a velmi malým slitováním. Je jen spravedlivé, že na ně teď navěky dohlíží ze svahu nad nimi. Jeho bronz shlíží přes dolní petřínské sady, nedaleko lanovky i ulic, které proslavil.
+
+Neruda, který žil v letech 1834 až 1891, byl básník a novinář a jeho Povídky malostranské zůstávají jedním z největších portrétů města v češtině. Narodil se nedaleko, v dnes už zbořených újezdských kasárnách. Socha od Jana Simoty byla odhalena v roce 1970 a její důchod nebyl úplně klidný: jednou v noci ji někdo povalil a musela se vracet zpátky na podstavec.
+
+🎁 Bonus: Ano, je to ten Neruda, jehož jméno si vypůjčil mladý chilský básník. Půjčil si ho Pablo, Jan tu byl první.`,
+      zh: `扬·聂鲁达一辈子都在写小城区的街坊邻居，满怀深情，毫不留情。如今让他永远站在山坡上盯着他们，也算公平。这尊铜像俯瞰佩特任山下部的花园，离缆车和他写红的那些街道都不远。
+
+聂鲁达生于1834年，卒于1891年，是诗人和记者，他的《小城故事》至今仍是捷克语里描绘布拉格最好的作品之一。他就出生在附近如今已拆除的乌耶兹德兵营。这尊雕像出自扬·西莫塔之手，1970年立起，退休生活也不算太平：有一天夜里它被人推倒过，后来才又放回基座。
+
+🎁 彩蛋：没错，一位智利年轻诗人借的就是这个姓。借名字的是巴勃罗，先来的是扬。`,
+    },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Statue_of_Jan_Neruda,_Prague',
+  },
+  {
+    name: 'Fountain with Sculptures of Boys',
+    slug: 'fontana-s-plastikami-chlapcu',
+    localizedNames: { cz: 'Fontána s plastikami chlapců', zh: '男孩雕塑喷泉' },
+    labels: ['sculpture', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08309409051221, lng: 14.402048046814357 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Twenty steps from Jan Neruda, who spent his life observing the people of the Lesser Town with a critical eye, a group of boys is busy doing nothing of any literary interest whatsoever. Nobody has written a story about them. They are simply a small fountain on a hill, and they seem perfectly content with that.
+
+The fountain stands in the lower part of the Petřín gardens, near the funicular, where the paths from Újezd start climbing. It is the kind of thing a city puts in a park so that walkers have somewhere to pause and small children have somewhere to be pulled away from. Most people go straight past on their way up, which leaves it to those who are out of breath.
+
+🎁 Bonus: The climb from here is steep, and this is the last good excuse to stop and look at something before admitting you just need a rest.`,
+      cz: `Dvacet kroků od Jana Nerudy, který celý život kriticky pozoroval lidi z Malé Strany, se skupina chlapců věnuje činnosti bez jakéhokoli literárního významu. Nikdo o nich nenapsal povídku. Jsou prostě malá fontána na kopci a zdá se, že jim to naprosto stačí.
+
+Fontána stojí v dolní části petřínských sadů nedaleko lanovky, tam, kde cesty od Újezdu začínají stoupat. Je to ten typ věci, kterou město dá do parku, aby se chodci měli kde zastavit a malé děti odkud odtahovat. Většina lidí cestou nahoru jde rovnou kolem, a tak zůstává těm, kterým došel dech.
+
+🎁 Bonus: Výstup je odtud strmý a tohle je poslední dobrá záminka zastavit se a něco si prohlédnout, než přiznáte, že si prostě potřebujete odpočinout.`,
+      zh: `离扬·聂鲁达只有二十步，这位一辈子用挑剔的眼光打量小城区居民的作家身旁，一群男孩正忙着干一些毫无文学价值的事。没人为他们写过故事。他们就是山上的一座小喷泉，看起来对此相当满意。
+
+喷泉在佩特任山花园的下部，靠近缆车，从乌耶兹德上来的小路正是从这里开始变陡。城市往公园里放这种东西，就是为了让行人有地方停一停，让小孩有地方被大人拽走。大多数人上山时径直走过，于是它留给了那些喘不上气的人。
+
+🎁 彩蛋：从这里往上坡很陡，这是你承认“我就是想歇会儿”之前，最后一个可以假装看风景的好借口。`,
     },
   },
 ];
