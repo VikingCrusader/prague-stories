@@ -7,6 +7,7 @@ import { LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { RARITY_VAR } from '../../utils/rarity';
 import { formatDistance } from '../../utils/geolocation';
 import { formatAchDate } from '../../utils/achievementText';
+import { viewportRect } from '../../utils/fitPage';
 import DistrictLine, { descriptiveLabels } from './DistrictLine';
 
 const HOVERS = '(hover: hover) and (pointer: fine)';
@@ -126,7 +127,7 @@ export function useCardPreview(locations) {
       if (slug === current.current) return;
       current.current = slug;
       dismiss();
-      if (slug) timer.current = setTimeout(() => setShown({ slug, rect: card.getBoundingClientRect() }), DELAY_MS);
+      if (slug) timer.current = setTimeout(() => setShown({ slug, rect: viewportRect(card) }), DELAY_MS);
     },
     onMouseLeave: () => {
       current.current = null;

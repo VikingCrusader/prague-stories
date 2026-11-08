@@ -36,7 +36,7 @@ const GLOW = 220; // map units the glow reaches past the city's bounding box
 // with `selected` outlined and `hintKey` for the line under the map. `glow`
 // (true or false, left out elsewhere) lights up the land around the city;
 // `outsideArea` ({ name, collected, total, selected, onClick }) makes it clickable.
-export default function DistrictMap({ districts, quarters, own = false, mode: modeProp, onModeChange, showToggle = true, selected = null, onSelect, hintKey = 'dashboard.districtMapHint', glow, outsideArea }) {
+export default function DistrictMap({ districts, quarters, own = false, mode: modeProp, onModeChange, showToggle = true, toggleLabel = null, selected = null, onSelect, hintKey = 'dashboard.districtMapHint', glow, outsideArea }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -210,6 +210,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
     <div className="district-map">
       {showToggle && (
       <div className="district-map__toggle" role="tablist">
+          {toggleLabel && <span className="district-map__toggle-label" role="presentation">{toggleLabel}</span>}
           {['district', 'quarter'].map(m => (
             <button
               key={m}

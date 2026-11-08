@@ -24,7 +24,7 @@ test.describe('Explore on a 2K screen', () => {
     await page.locator('.district-map__area').first().waitFor();
   });
 
-  test('the title, filters and map sit in a side column, the cards fill the rest, eight to a row', async ({ page }) => {
+  test('the title, filters and map sit in a side column, the cards fill the rest, nine to a row', async ({ page }) => {
     const side = page.locator('.explore-side');
     await expect(side.locator('.explore-title')).toBeVisible();
     await expect(side.locator('.filter-bar__search')).toBeVisible();
@@ -34,7 +34,7 @@ test.describe('Explore on a 2K screen', () => {
     const tops = await Promise.all(['.filter-bar__search', '.scope-toggle', '.filter-bar__bottom'].map(s => side.locator(s).boundingBox()));
     expect(tops[0].y).toBeLessThan(tops[1].y);
     expect(tops[1].y).toBeLessThan(tops[2].y);
-    await expect.poll(() => page.locator('.explore-main .loc-card').evaluateAll(els => new Set(els.map(e => Math.round(e.getBoundingClientRect().left))).size)).toBe(8);
+    await expect.poll(() => page.locator('.explore-main .loc-card').evaluateAll(els => new Set(els.map(e => Math.round(e.getBoundingClientRect().left))).size)).toBe(9);
   });
 
   test('clicking the map filters the cards, a second click clears; it works inside My Collections', async ({ page }) => {
@@ -75,14 +75,35 @@ test.describe('Explore on a 2K screen', () => {
 
   test('with no filter a second card shows the next level and the achievements closest to done', async ({ page }) => {
     const ach = (id, current, target) => ({ id, name: `Ach ${id}`, flavor: 'x', description: 'y', difficulty: 'easy', unlocked: false, progress: { current, target } });
-    await page.route('**/api/user/achievements', route => route.fulfill({ json: { achievements: [ach('far', 1, 10), ach('near', 9, 10), ach('none', 0, 5)], levels: [{ level: 1, xpRequired: 0 }, { level: 2, xpRequired: 80 }, { level: 3, xpRequired: 240 }] } }));
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: { achievements: [ach('far', 1, 10), ach('near', 9, 10), ach('none', 0, 5)], levels: [{ level: 1, xpRequired: 0, title: 'One' }, { level: 2, xpRequired: 80, title: 'Two' }, { level: 3, xpRequired: 240, title: 'Market-Goer' }] } }));
+    const draw = { active: true, expiresAt: new Date(Date.now() + 3600 * 1000 * 2.5).toISOString() };
+    await page.route('**/api/user/random-draw', route => route.fulfill({ json: draw }));
+    await page.route('**/api/user/history-progress*', route => route.fulfill({ json: { slug: 'a', updatedAt: null, summary: { read: 12, total: 300, title: { en: 'The Goose and the Swan' }, era: { en: 'On the Eve of the Storm' }, startYear: 1415.3 } } }));
     await page.reload();
     const next = page.locator('.explore-next');
-    await expect(next).toContainText('100 XP to level 3');
+    await expect(next).toContainText('100 XP to level 3 · Market-Goer');
+    await expect(next.locator('.explore-next__hunt')).toHaveText(/^Treasure hunt: 02:(29|30):\d\d$/);
+    await expect(next.locator('.explore-next__hunt')).toHaveAttribute('href', '/treasure-hunt');
+    await expect(next.locator('.explore-next__sub')).toHaveText('Almost there');
+    await expect(next.locator('.explore-next__reading')).toHaveText('History: On the Eve of the Storm · 1415 · The Goose and the Swan');
+    await expect(next.locator('.explore-next__reading')).toHaveAttribute('href', '/history');
+    await expect(next.locator('.ach-bar')).toHaveCount(2); // only the achievements' own bars
+    const looks = await next.locator('.explore-next__row').evaluateAll(els => els.map(e => { const c = getComputedStyle(e); return `${c.fontSize} ${c.color}`; }));
+    expect(new Set(looks).size).toBe(1);
+    const order = await next.locator('.explore-next__row').evaluateAll(els => els.map(e => e.className.split('__').pop()));
+    expect(order).toEqual(['level', 'hunt', 'reading']); // no position here, so no nearest-card row
+    await next.locator('.explore-next__level').click();
+    await expect(page.locator('.levels-modal')).toContainText('Market-Goer');
+    await page.locator('.levels-modal .px-modal__close').click();
     const rows = next.locator('.explore-next__ach');
     await expect(rows).toHaveCount(2);
     await expect(rows.first()).toContainText('Ach near');
     await expect(rows.first()).toContainText('9 / 10');
+    await expect(rows.first().locator('.ach-badge-pill')).toHaveText('Bronze');
+    const [nameBox, pillBox] = await Promise.all([rows.first().locator('.explore-next__name').boundingBox(), rows.first().locator('.ach-badge-pill').boundingBox()]);
+    expect(pillBox.width).toBeLessThan(90); // only as wide as its word, leaving the name room
+    expect(pillBox.x).toBeGreaterThan(nameBox.x + nameBox.width - 1); // on the name's line, to its right
+    expect(Math.abs((pillBox.y + pillBox.height / 2) - (nameBox.y + nameBox.height / 2))).toBeLessThan(4);
     const [card, panel] = await Promise.all([next.boundingBox(), page.locator('.explore-side__applied').boundingBox()]);
     expect(Math.abs(card.y + card.height - panel.y - panel.height)).toBeLessThan(1); // fills the column
     await rows.first().click();
@@ -91,6 +112,44 @@ test.describe('Explore on a 2K screen', () => {
 
     await page.locator('.district-map__area').nth(5).click();
     await expect(next).toHaveCount(0); // a filter takes its place
+  });
+
+  test('long level, era and event names stay on one line and end in dots', async ({ page }) => {
+    const long = 'A Very Long Name That Goes On And On Well Past The Width Of The Whole Column Here';
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: { achievements: [], levels: [{ level: 1, xpRequired: 0, title: 'One' }, { level: 2, xpRequired: 900, title: long }] } }));
+    await page.route('**/api/user/history-progress*', route => route.fulfill({ json: { slug: 'a', updatedAt: null, summary: { read: 1, total: 9, title: { en: long }, era: { en: long }, startYear: 1415 } } }));
+    await page.reload();
+    await page.locator('.explore-next__reading').waitFor();
+    for (const selector of ['.explore-next__level', '.explore-next__reading']) {
+      const box = await page.locator(selector).first().evaluate(e => ({ cut: e.scrollWidth > e.clientWidth, height: e.getBoundingClientRect().height, ellipsis: getComputedStyle(e).textOverflow }));
+      expect(box.cut, selector).toBe(true);
+      expect(box.ellipsis, selector).toBe('ellipsis');
+      expect(box.height, selector).toBeLessThan(30);
+    }
+  });
+
+  test('at 2K the column never scrolls with the second card showing, however short the window', async ({ page }) => {
+    const ach = id => ({ id, name: `Ach ${id}`, flavor: 'x', description: 'y', difficulty: 'hard', unlocked: false, progress: { current: 9, target: 10 } });
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: { achievements: ['a', 'b', 'c', 'd', 'e'].map(ach), levels: [{ level: 1, xpRequired: 0, title: 'One' }, { level: 2, xpRequired: 900, title: 'Two' }] } }));
+    await page.route('**/api/user/history-progress*', route => route.fulfill({ json: { slug: 'a', updatedAt: null, summary: { read: 1, total: 9, title: { en: 'Title' }, era: { en: 'Era' }, startYear: 1415 } } }));
+    await page.reload();
+    await page.locator('.explore-next__ach').first().waitFor();
+    for (const height of [1400, 1254, 1100, 900]) {
+      await page.setViewportSize({ width: 2560, height });
+      await expect.poll(() => page.evaluate(() => {
+        const panel = document.querySelector('.explore-side__applied');
+        const side = document.querySelector('.explore-side');
+        return panel.scrollHeight <= panel.clientHeight && side.scrollHeight <= side.clientHeight;
+      }), `${height}`).toBe(true);
+    }
+  });
+
+  test('with no hunt running the second card says one can start', async ({ page }) => {
+    await page.route('**/api/user/random-draw', route => route.fulfill({ json: { active: false, canDraw: true, location: null, drawnAt: null, expiresAt: null } }));
+    await page.reload();
+    const hunt = page.locator('.explore-next .explore-next__hunt');
+    await expect(hunt).toHaveText('A treasure hunt is ready to start');
+    await expect(hunt).toHaveAttribute('href', '/treasure-hunt');
   });
 
   test('the filters that are on show under the map with their lines, and clear from there', async ({ page }) => {
@@ -291,6 +350,24 @@ test('with nothing chosen the map marks where the player is, without filtering',
   await context.close();
 });
 
+test('the nearest-card row opens that card, and it comes first', async ({ browser }) => {
+  const context = await browser.newContext({
+    viewport: { width: 2560, height: 1300 }, baseURL: 'http://localhost:5173',
+    geolocation: { latitude: 50.02, longitude: 14.44 }, permissions: ['geolocation'],
+    storageState: { cookies: [], origins: [{ origin: 'http://localhost:5173', localStorage: [{ name: 'locationConsent', value: JSON.stringify({ granted: true, version: 2, at: '2026-10-22T00:00:00.000Z' }) }, { name: 'token', value: 'fake-jwt-token' }] }] },
+  });
+  const page = await context.newPage();
+  await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
+  await page.route('**/api/locations', route => route.fulfill({ json: CARDS }));
+  await page.route('**/api/locations/*', route => route.fulfill({ json: { ...CARDS[1], description: { en: 'x', cz: 'x', zh: 'x' }, storyLocked: true } }));
+  await page.goto('/explore');
+  const row = page.locator('.explore-next__row').first();
+  await expect(row).toHaveClass(/explore-next__nearest/);
+  await row.click();
+  await expect(page.locator('.px-modal--detail')).toBeVisible();
+  await context.close();
+});
+
 test('a guest gets a link to the guide under the tip; a signed-in player does not', async ({ browser, page }) => {
   await page.setViewportSize({ width: 2560, height: 1300 });
   await page.goto('/explore');
@@ -396,6 +473,48 @@ test('hovering a card previews its names, status, labels and first paragraph', a
   await page.mouse.down();
   await expect(preview).toHaveCount(0);
   await page.mouse.up();
+});
+
+test('below 2K the cards shrink with the window; Windows at 125% gets six to a row', async ({ page }) => {
+  await page.setViewportSize({ width: 1536, height: 730 });
+  await page.goto('/explore');
+  const grid = page.locator('.explore-main .location-grid');
+  await page.locator('.explore-main .loc-card').first().waitFor();
+  await expect.poll(() => grid.evaluate(e => getComputedStyle(e).gridTemplateColumns.split(' ').length)).toBe(6);
+  const zoom = await grid.evaluate(e => parseFloat(e.style.zoom));
+  expect(zoom).toBeGreaterThan(0.72);
+  expect(zoom).toBeLessThan(0.8);
+  // At 2K the same fit, for three rows: at this height one more column than usual.
+  await page.setViewportSize({ width: 2560, height: 1300 });
+  await expect.poll(() => grid.evaluate(e => getComputedStyle(e).gridTemplateColumns.split(' ').length)).toBe(9);
+});
+
+test('the toolbar stays at the top, and past the third row offers the way back', async ({ page }) => {
+  const many = Array.from({ length: 58 }, (_, i) => card(i, 'Praha 1', 'Staré Město', true));
+  await page.route('**/api/locations', route => route.fulfill({ json: many }));
+  await page.setViewportSize({ width: 1920, height: 940 });
+  await page.goto('/explore');
+  await page.locator('.explore-main .loc-card').first().waitFor();
+  const bar = page.locator('.explore-toolbar');
+  const back = page.getByRole('button', { name: 'Back to top' });
+  await expect(back).toHaveCount(0);
+  const columns = await page.locator('.explore-main .location-grid').evaluate(e => getComputedStyle(e).gridTemplateColumns.split(' ').length);
+
+  const third = page.locator('.explore-main .loc-card').nth(columns * 2);
+  await page.evaluate(() => window.scrollTo(0, 40));
+  await expect.poll(async () => (await bar.boundingBox()).y).toBe(60); // right under the navbar
+  await expect(back).toHaveCount(0);
+
+  await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+  await expect(back).toBeVisible();
+  const [barBox, backBox, sortBox] = await Promise.all([bar.boundingBox(), back.boundingBox(), bar.locator('.label-filter .filter-btn').boundingBox()]);
+  expect(barBox.y).toBe(60);
+  expect(backBox.x + backBox.width).toBeLessThanOrEqual(sortBox.x); // left of the sort button
+  expect((await third.boundingBox()).y).toBeLessThan(barBox.y + barBox.height);
+
+  await back.click();
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
+  await expect(back).toHaveCount(0);
 });
 
 test('too narrow or too short for the column, Explore stays stacked', async ({ page }) => {

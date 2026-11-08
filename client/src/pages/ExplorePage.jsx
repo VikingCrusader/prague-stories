@@ -21,6 +21,7 @@ import AreaFilter, { matchesArea } from '../components/locations/AreaFilter';
 import ExploreMap from '../components/locations/ExploreMap';
 import ExploreApplied from '../components/locations/ExploreApplied';
 import AchievementModal from '../components/achievements/AchievementModal';
+import LevelsModal from '../components/dashboard/LevelsModal';
 import { closestAchievements } from '../utils/achievementText';
 import { EXPLORE_SIDE_QUERY } from '../utils/exploreLayout';
 
@@ -103,13 +104,25 @@ export default function ExplorePage() {
   // The "Next up" card on a 2K screen; read again after each new card.
   const [achData, setAchData] = useState(null);
   const [openAch, setOpenAch] = useState(null);
+  const [levelsOpen, setLevelsOpen] = useState(false);
+  const [huntStatus, setHuntStatus] = useState(null);
+  const [reading, setReading] = useState(null);
+  // No position on purpose: with one, this call also stores the clues walking brought.
+  const refreshHunt = useCallback(() => {
+    userAPI.getRandomDraw().then(res => setHuntStatus(res.data)).catch(() => {});
+  }, []);
   const collectedCount = useMemo(() => locations.filter(l => l.unlocked).length, [locations]);
   useEffect(() => {
     if (!wide || !userId || loading) return undefined;
     let stale = false;
     userAPI.getAchievements().then(res => { if (!stale) setAchData(res.data); }).catch(() => {});
+    refreshHunt();
     return () => { stale = true; };
-  }, [wide, userId, loading, collectedCount]);
+  }, [wide, userId, loading, collectedCount, refreshHunt]);
+  useEffect(() => {
+    if (!wide || !userId) return;
+    userAPI.getHistoryProgress(true).then(res => setReading(res.data.summary)).catch(() => {});
+  }, [wide, userId]);
 
   useEffect(() => {
     if (state?.openSlug) {
@@ -318,12 +331,21 @@ export default function ExplorePage() {
     const nextIndex = levels.findIndex(l => l.xpRequired > xp);
     const floor = nextIndex > 0 ? levels[nextIndex - 1].xpRequired : 0;
     nextUp = {
-      nearest: nearest ? formatDistance(nearest._distance) : null,
+      // Straight to the card's detail, never the nearby auto check-in.
+      nearest: nearest ? {
+        distance: formatDistance(nearest._distance),
+        onOpen: () => { setAutoCheckIn(false); setSelectedSlug(nearest.slug); },
+      } : null,
+      onOpenLevels: () => setLevelsOpen(true),
       level: nextIndex < 0 ? null : {
         next: levels[nextIndex].level,
+        name: (lang === 'zh' ? levels[nextIndex].title_zh : lang === 'cz' ? levels[nextIndex].title_cz : null) ?? levels[nextIndex].title,
         left: levels[nextIndex].xpRequired - xp,
         percent: Math.round(((xp - floor) / (levels[nextIndex].xpRequired - floor)) * 100),
       },
+      hunt: huntStatus,
+      onHuntEnded: refreshHunt,
+      reading,
       achievements: closestAchievements(achData?.achievements ?? [], 12),
     };
   }
@@ -399,6 +421,7 @@ export default function ExplorePage() {
       onRarityChange={setRarity}
       initialFilter={initialFilter}
       wide={wide}
+      fitRows={!wide ? 0 : belowTwoK ? 2 : 3}
       filterSlot={filterSlot}
       appliedSlot={appliedSlot}
       renderApplied={(filters) => (
@@ -456,6 +479,7 @@ export default function ExplorePage() {
       )}
 
       {openAch && <AchievementModal achievement={openAch} onClose={() => setOpenAch(null)} />}
+      {levelsOpen && <LevelsModal currentLevel={user?.explorerLevel ?? 1} onClose={() => setLevelsOpen(false)} />}
 
       <ToastContainer toasts={toasts} onDismiss={dismissToast} />
     </div>

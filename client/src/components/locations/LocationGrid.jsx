@@ -2,6 +2,8 @@ import { useState, useMemo, useEffect, useRef, useDeferredValue } from 'react';
 import { createPortal } from 'react-dom';
 import LocationCard from './LocationCard';
 import { useCardPreview } from './CardPreview';
+import { useFitRows } from '../../hooks/useFitRows';
+import { viewportRect } from '../../utils/fitPage';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES } from '../../utils/rarity';
@@ -24,7 +26,7 @@ const PAGE_SIZE = 60;
 // for the filters that are on into `appliedSlot`.
 // `initialFilter` ({ rarity, label }) opens the grid already filtered, e.g. on
 // Expedition from the nudge on the profile's empty expedition strip.
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter, wide = false, filterSlot = null, appliedSlot = null, renderApplied }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, renderApplied }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -49,6 +51,28 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   const deferredSearch = useDeferredValue(search);
   const labelPanelRef  = useRef(null);
   const sentinelRef    = useRef(null);
+  const gridRef        = useRef(null);
+  useFitRows(gridRef, fitRows);
+  // The side-column layout's toolbar stays at the top; once the third row has
+  // scrolled up to it, it also offers the way back (2026-11-08, user's call).
+  const [showBackToTop, setShowBackToTop] = useState(false);
+  useEffect(() => {
+    if (!wide) { setShowBackToTop(false); return undefined; }
+    let frame = 0;
+    const check = () => {
+      frame = 0;
+      const grid = gridRef.current;
+      const bar = grid?.previousElementSibling;
+      if (!bar) return;
+      const columns = getComputedStyle(grid).gridTemplateColumns.split(' ').length;
+      const third = grid.children[columns * 2];
+      setShowBackToTop(!!third && viewportRect(third).top <= bar.getBoundingClientRect().bottom);
+    };
+    const onScroll = () => { if (!frame) frame = requestAnimationFrame(check); };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    check();
+    return () => { window.removeEventListener('scroll', onScroll); cancelAnimationFrame(frame); };
+  }, [wide]);
   const rarityPanelRef = useRef(null);
   const sortPanelRef   = useRef(null);
 
@@ -266,8 +290,13 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         onClearAll: () => { setActiveLabels(new Set()); setActiveRarities(new Set()); },
       }), appliedSlot)}
 
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
+      <div className={wide ? 'explore-toolbar' : undefined} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: wide ? 8 : 16 }}>
         {stats}
+        {showBackToTop && (
+          <button type="button" className="filter-btn explore-toolbar__top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+            {t('explore.backToTop')}
+          </button>
+        )}
         <div className="label-filter" ref={sortPanelRef}>
           <button
             className={`filter-btn${sortOpen || sort !== 'distance' ? ' filter-btn--active' : ''}`}
@@ -291,7 +320,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         </div>
       </div>
 
-      <div className="location-grid" {...previewHandlers}>
+      <div ref={gridRef} className="location-grid" {...previewHandlers}>
         {filtered.slice(0, visibleCount).map(loc => (
           <LocationCard
             key={loc._id}

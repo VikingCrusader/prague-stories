@@ -573,7 +573,7 @@ test.describe('Dashboard', () => {
     await exp.getByRole('link', { name: 'See the places beyond Prague.' }).click();
     await expect(page).toHaveURL(/\/explore/);
     await expect(page.locator('.loc-card')).toHaveCount(2); // both outside cards, neither collected
-    await expect(page.locator('.explore-rarity-blurb')).toContainText('beyond the city limits');
+    await expect(page.locator('.explore-applied__item')).toContainText('Bring a sandwich'); // the side column's filter line
   });
 
   test('"All →" on the treasure strip opens the finds in a window, with rarity and XP', async ({ page }) => {

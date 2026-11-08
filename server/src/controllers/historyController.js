@@ -102,6 +102,22 @@ async function getCachedPayload(lang) {
   return cache.byLang.get(lang);
 }
 
+// How far a reader at `slug` has got: dated events read so far (background and
+// overview cards don't count) out of all of them, and the card they are on.
+export async function historyReadingSummary(slug) {
+  const { eras, events } = await getCachedPayload('all');
+  const isEvent = e => (e.cardType ?? 'event') === 'event';
+  const at = slug ? events.findIndex(e => e.slug === slug) : -1;
+  return {
+    read: at < 0 ? 0 : events.slice(0, at + 1).filter(isEvent).length,
+    total: events.filter(isEvent).length,
+    title: at < 0 ? null : events[at].title,
+    era: at < 0 ? null : eras.find(era => era.key === events[at].era)?.title ?? null,
+    // An era's overview card has no year of its own, as on the timeline.
+    startYear: at < 0 || events[at].cardType === 'overview' ? null : events[at].startYear,
+  };
+}
+
 // Test hook: the in-memory cache would otherwise outlive a test's DB reset
 // whenever two tests happen to produce the same count/updatedAt stamp.
 export function clearHistoryCache() {

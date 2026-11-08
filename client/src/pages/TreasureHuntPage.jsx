@@ -11,19 +11,7 @@ import LocationDetail from '../components/locations/LocationDetail';
 import TreasureHuntPanel from '../components/draw/TreasureHuntPanel';
 import DeckShuffle, { SHUFFLE_MS, prefersReducedMotion } from '../components/draw/DeckShuffle';
 import { unlockAudio, playShuffleSound, playClueSound, playMissSound, playHuntWinSound, HUNT_WIN_SOUND_MS } from '../utils/sound';
-
-function pad2(n) {
-  return String(n).padStart(2, '0');
-}
-
-function formatCountdown(ms) {
-  if (ms <= 0) return '00:00:00';
-  const totalSec = Math.floor(ms / 1000);
-  const hrs = Math.floor(totalSec / 3600);
-  const mins = Math.floor((totalSec % 3600) / 60);
-  const secs = totalSec % 60;
-  return `${pad2(hrs)}:${pad2(mins)}:${pad2(secs)}`;
-}
+import { formatCountdown } from '../utils/formatCountdown';
 
 // The hunt's clues, for the rules section, in the order they come: the
 // distance always, then each clue free within its distance or bought early

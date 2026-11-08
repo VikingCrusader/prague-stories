@@ -15,6 +15,7 @@ import { startOfPragueWeek } from '../utils/pragueTime.js';
 import { recordCheckIn } from './checkinController.js';
 import { parsePreferences } from '../utils/preferences.js';
 import { syncAchievements, historyEraOrder } from '../services/achievementStats.js';
+import { historyReadingSummary } from './historyController.js';
 
 export async function getProfile(req, res) {
   res.json({ user: req.user.toPublicJSON() });
@@ -761,9 +762,16 @@ export async function saveLocationConsent(req, res, next) {
   }
 }
 
-export async function getHistoryProgress(req, res) {
-  const { slug = null, updatedAt = null } = req.user.historyProgress ?? {};
-  res.json({ slug, updatedAt });
+// `?summary=1` adds how far along that is (Explore's Next up card).
+export async function getHistoryProgress(req, res, next) {
+  try {
+    const { slug = null, updatedAt = null } = req.user.historyProgress ?? {};
+    const body = { slug, updatedAt };
+    if (req.query.summary) body.summary = await historyReadingSummary(slug);
+    res.json(body);
+  } catch (err) {
+    next(err);
+  }
 }
 
 // Saves the History Timeline event the user is currently reading. Sent often

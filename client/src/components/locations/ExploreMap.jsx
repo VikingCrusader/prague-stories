@@ -68,6 +68,7 @@ export default function ExploreMap({ locations, area, onArea, outside, here, fol
           own
           mode={mode}
           onModeChange={(next) => { setMode(next); onArea(null); }}
+          toggleLabel={t('explore.mapFilterLabel')}
           selected={marked}
           onSelect={(name) => onArea(name === selected ? null : { kind: mode, value: name })}
           hintKey={outside ? 'explore.mapHintAll' : 'explore.mapHint'}

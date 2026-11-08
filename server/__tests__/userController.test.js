@@ -4,6 +4,8 @@ import Location from '../src/models/Location.js';
 import User from '../src/models/User.js';
 import { ACHIEVEMENTS, ACHIEVEMENT_XP } from '../src/services/gamification.js';
 import CheckIn from '../src/models/CheckIn.js';
+import HistoryEvent from '../src/models/HistoryEvent.js';
+import { clearHistoryCache } from '../src/controllers/historyController.js';
 import { startOfPragueWeek } from '../src/utils/pragueTime.js';
 import { connectTestDB, closeTestDB, clearTestDB } from './testUtils/db.js';
 import { createAuthedUser } from './testUtils/auth.js';
@@ -377,6 +379,24 @@ describe('/api/user/history-progress', () => {
     const res = await request(app).get('/api/user/history-progress').set('Authorization', `Bearer ${token}`);
     expect(res.body.slug).toBe('st-wenceslas-murder');
     expect(new Date(res.body.updatedAt).getTime()).toBeGreaterThan(0);
+  });
+
+  test('with ?summary=1 says how many dated events are read, leaving out background cards', async () => {
+    clearHistoryCache();
+    const text = { en: 'x', cz: 'x', zh: 'x' };
+    const event = (slug, startYear, extra) => ({ slug, era: 'legends-origins', startYear, year: text, title: { en: slug, cz: slug, zh: slug }, hookLine: text, summary: text, ...extra });
+    await HistoryEvent.create([event('first', 700), event('aside', 701, { cardType: 'background' }), event('second', 702), event('third', 703)]);
+    const { token } = await createAuthedUser();
+    const get = () => request(app).get('/api/user/history-progress?summary=1').set('Authorization', `Bearer ${token}`);
+
+    expect((await get()).body.summary).toEqual({ read: 0, total: 3, title: null, era: null, startYear: null });
+    await request(app).put('/api/user/history-progress').set('Authorization', `Bearer ${token}`).send({ slug: 'second' });
+    const res = await get();
+    expect(res.body.summary.read).toBe(2);
+    expect(res.body.summary.total).toBe(3);
+    expect(res.body.summary.title.en).toBe('second');
+    expect(res.body.summary.era.zh).toBeTruthy();
+    expect(res.body.summary.startYear).toBe(702);
   });
 
   test('rejects a missing or non-string slug', async () => {

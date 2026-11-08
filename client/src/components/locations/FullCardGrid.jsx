@@ -16,9 +16,8 @@ const POPUP_CHROME_PX = 90;
 // share .location-grid's two columns.
 function exploreCardWidth() {
   const screen = document.documentElement.clientWidth;
-  const width = window.matchMedia(EXPLORE_SIDE_QUERY).matches
-    ? screen - 48 - exploreSideWidth(screen)
-    : Math.min(screen, 1600) - 48;
+  const hasSide = window.matchMedia(EXPLORE_SIDE_QUERY).matches;
+  const width = hasSide ? screen - 48 - exploreSideWidth(screen) : Math.min(screen, 1600) - 48;
   const columns = Math.max(1, Math.floor((width + 16) / 246));
   return (width - 16 * (columns - 1)) / columns;
 }

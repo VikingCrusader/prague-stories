@@ -1,5 +1,6 @@
 import { useLayoutEffect, useMemo, useRef } from 'react';
 import { useLang, useConvert } from '../../context/LanguageContext';
+import { bareYear } from '../../utils/bareYear';
 
 // Width of one event on the axis; the track slides by whole nodes, so the
 // current one always sits in the middle, under the fixed gold frame.
@@ -10,13 +11,6 @@ const ERA_MIN_W = 170;
 const ERA_PAGE_W = 5;
 const ERA_GAP = 2;
 const eraWidth = (count) => Math.max(ERA_MIN_W, count * ERA_PAGE_W);
-
-function bareYear(startYear, lang) {
-  const year = Math.trunc(startYear);
-  if (year >= 0) return String(year);
-  if (lang === 'zh') return `前${-year}`;
-  return lang === 'cz' ? `${-year} př. n. l.` : `${-year} BC`;
-}
 
 const DRAG_THRESHOLD = 5; // px before a press counts as a drag, not a click
 const FRICTION_MS = 325; // how quickly a flick dies away

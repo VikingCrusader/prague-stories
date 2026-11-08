@@ -29,8 +29,8 @@ export function viewportRect(el) {
     probe.remove();
   }
   const r = el.getBoundingClientRect();
-  const zoom = (rectsIgnoreZoom && parseFloat(el.closest('.profile-body')?.style.zoom)) || 1;
-  return { left: r.left * zoom, top: r.top * zoom, bottom: r.bottom * zoom, width: r.width * zoom, height: r.height * zoom };
+  const zoom = (rectsIgnoreZoom && parseFloat(el.closest('.profile-body, .location-grid')?.style.zoom)) || 1;
+  return { left: r.left * zoom, top: r.top * zoom, right: r.right * zoom, bottom: r.bottom * zoom, width: r.width * zoom, height: r.height * zoom };
 }
 
 // The largest zoom that fits, by halves.
