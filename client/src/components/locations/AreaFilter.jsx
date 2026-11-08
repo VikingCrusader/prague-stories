@@ -24,7 +24,8 @@ export const FEATURED_QUARTERS = [
 export const matchesArea = (l, area) => {
   if (!area) return true;
   if (area.kind === 'outside') return !isInCity(l);
-  return l[area.kind] === area.value;
+  // A quarter can reach over a district line: `district` narrows it to that side.
+  return l[area.kind] === area.value && (!area.district || l.district === area.district);
 };
 
 export default function AreaFilter({ area, onChange, inline = false, style }) {

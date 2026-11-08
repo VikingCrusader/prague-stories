@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { RARITY_LABEL } from '../../utils/rarity';
 import DistrictMap from '../dashboard/DistrictMap';
@@ -33,6 +33,8 @@ export default function ExploreMap({ locations, area, onArea, outside, here, fol
   const { lang } = useLang();
   const convert = useConvert();
   const [mode, setMode] = useState('district');
+  // A filter set from elsewhere (the area card) shows on the matching map.
+  useEffect(() => { if (area?.kind === 'district' || area?.kind === 'quarter') setMode(area.kind); }, [area]);
   const [foldedPref, setFolded] = useState(readFolded);
   const folded = foldable && foldedPref;
   const toggleFold = () => {

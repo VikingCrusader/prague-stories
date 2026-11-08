@@ -350,6 +350,40 @@ test('with nothing chosen the map marks where the player is, without filtering',
   await context.close();
 });
 
+test('clicking the area card anywhere but a name filters to district and quarter together', async ({ browser }) => {
+  const context = await browser.newContext({
+    viewport: { width: 2560, height: 1300 }, baseURL: 'http://localhost:5173',
+    geolocation: { latitude: 50.02, longitude: 14.44 }, permissions: ['geolocation'],
+    storageState: { cookies: [], origins: [{ origin: 'http://localhost:5173', localStorage: [{ name: 'locationConsent', value: JSON.stringify({ granted: true, version: 2, at: '2026-10-22T00:00:00.000Z' }) }, { name: 'token', value: 'fake-jwt-token' }] }] },
+  });
+  const page = await context.newPage();
+  await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
+  await page.route('**/api/locations', route => route.fulfill({ json: [card(1, 'Praha 12', 'Kamýk', false), card(2, 'Praha 4', 'Kamýk', false), card(3, 'Praha 12', 'Modřany', false)] }));
+  await page.goto('/explore');
+  const cards = page.locator('.explore-main .loc-card');
+  const here = page.locator('.explore-here-card');
+  await here.locator('.explore-applied__name--link').first().click();
+  await expect(page.locator('.area-guide')).toBeVisible(); // a name still opens its guide
+  await expect(cards).toHaveCount(3);
+  await page.keyboard.press('Escape');
+  await page.locator('.px-modal__close').first().click({ timeout: 1000 }).catch(() => {});
+  await here.locator('.explore-applied__text').first().click();
+  await expect(cards).toHaveCount(1);
+  await expect(page.locator('.explore-side .explore-title')).toContainText('12');
+  await expect(page.locator('.explore-side .explore-title')).toContainText('Kamýk');
+  await expect(page.locator('.district-map__selected')).toHaveCount(1); // on the quarter map
+  const items = page.locator('.explore-applied__item');
+  await expect(items).toHaveCount(2); // two filters, not one
+  await expect(items.first()).toContainText('Prague 12');
+  await expect(items.nth(1)).toContainText('Kamýk');
+  await items.first().locator('.explore-applied__clear').click(); // only the district goes
+  await expect(cards).toHaveCount(2);
+  await expect(items).toHaveCount(1);
+  await page.getByRole('button', { name: 'Clear filters' }).click();
+  await expect(cards).toHaveCount(3);
+  await context.close();
+});
+
 test('the nearest-card row opens that card, and it comes first', async ({ browser }) => {
   const context = await browser.newContext({
     viewport: { width: 2560, height: 1300 }, baseURL: 'http://localhost:5173',

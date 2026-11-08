@@ -270,7 +270,7 @@ export default function ExplorePage() {
   // On a 2K screen these move under the map (ExploreApplied).
   const rarityBlurb = rarity && !wide ? (RARITY_BLURB[lang] || RARITY_BLURB.en)[rarity] : null;
   const titleText  = areaActive
-    ? convert(beyondCity ? (RARITY_LABEL[lang]?.expedition ?? RARITY_LABEL.en.expedition) : area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : quarterName(area.value, lang))
+    ? convert(beyondCity ? (RARITY_LABEL[lang]?.expedition ?? RARITY_LABEL.en.expedition) : area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : `${area.district ? `${t('detail.district', { n: area.district.slice(6) })}${lang === 'zh' ? '，' : ', '}` : ''}${quarterName(area.value, lang)}`)
     : t(guest ? 'explore.titleGuest' : cityOnly ? 'explore.titleCity' : 'explore.title');
 
   const changeScope = city => { setCityOnly(city); if (!city || beyondCity) setArea(null); };
@@ -316,11 +316,26 @@ export default function ExplorePage() {
   let hereCard = null;
   if (wide && myArea?.district) {
     hereCard = {
+      // Anywhere but the names: the cards in both the district and the quarter.
+      onFilter: () => setArea({ kind: 'quarter', value: myArea.quarter, district: myArea.district }),
       areas: [
         { kind: 'district', value: myArea.district, name: t('detail.district', { n: myArea.district.slice(6) }) },
         { kind: 'quarter', value: myArea.quarter, name: quarterName(myArea.quarter, lang) },
       ].map(a => ({ ...a, blurb: AREA_BLURBS[a.kind][a.value], onOpenGuide: () => setAreaGuide({ kind: a.kind, value: a.value }) })),
     };
+  }
+
+  // The filters on the area, one entry each: a district and quarter chosen together
+  // are two filters, and clearing one leaves the other.
+  const guideFor = (kind, value) => () => setAreaGuide({ kind, value });
+  let areaItems = [];
+  if (area?.district) {
+    areaItems = [
+      { key: 'district', name: convert(t('detail.district', { n: area.district.slice(6) })), blurb: AREA_BLURBS.district[area.district], onClear: () => setArea({ kind: 'quarter', value: area.value }), onOpenGuide: guideFor('district', area.district) },
+      { key: 'quarter', name: convert(quarterName(area.value, lang)), blurb: AREA_BLURBS.quarter[area.value], onClear: () => setArea({ kind: 'district', value: area.district }), onOpenGuide: guideFor('quarter', area.value) },
+    ];
+  } else if (area) {
+    areaItems = [{ key: 'area', name: titleText, blurb: areaBlurb, onClear: () => setArea(null), onOpenGuide: beyondCity ? null : guideFor(area.kind, area.value) }];
   }
 
   let nextUp = null;
@@ -435,11 +450,8 @@ export default function ExplorePage() {
           nextUp={nextUp}
           onOpenAchievement={setOpenAch}
           area={area}
-          areaName={titleText}
-          areaBlurb={areaBlurb}
-          onClearArea={() => setArea(null)}
+          areaItems={areaItems}
           onClearAll={() => { filters.onClearAll(); setArea(null); }}
-          onOpenGuide={beyondCity ? null : () => setAreaGuide({ kind: area.kind, value: area.value })}
         />
       )}
     />

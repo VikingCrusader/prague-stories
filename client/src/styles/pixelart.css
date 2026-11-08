@@ -2900,6 +2900,8 @@ html[data-lang="zh"] .detail-title-name {
 .explore-applied__default--intro { flex: 1 0 auto; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; }
 .explore-applied__default--intro .explore-applied__text { margin: 0; }
 .explore-applied__area + .explore-applied__area { margin-top: 10px; }
+.explore-here-card { cursor: pointer; }
+.explore-here-card:hover { border-color: var(--gold); }
 .explore-applied__stat { margin: 4px 0 0; font-size: 15px; line-height: 1.5; color: var(--gold); }
 .explore-applied__head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .explore-applied__name { font-family: var(--ui-font); font-size: 17px; font-weight: 700; color: var(--gold); }
@@ -2953,7 +2955,7 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .explore-side .explore-header { margin-bottom: 0; }
 .explore-side .explore-here { display: flex; width: fit-content; max-width: 100%; box-sizing: border-box; margin: 6px auto 0; }
 /* Fixed heights where the text changes with the filters, so the map doesn't move. */
-.explore-side .explore-title { height: 64px; line-height: 64px !important; margin-bottom: 4px; overflow: hidden; }
+.explore-side .explore-title { height: 64px; line-height: 64px !important; margin-bottom: 4px; overflow: hidden; text-align: center; }
 .explore-main { min-width: 0; }
 /* The count sits on one line, left of the sort button. */
 .explore-main > div:first-child { gap: 16px; }

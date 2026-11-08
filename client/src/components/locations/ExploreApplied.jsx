@@ -150,7 +150,7 @@ function Item({ name, nameNode, color, onClear, children }) {
 // mode. With no filter on: the district and quarter the player is in, each with
 // its line, and how far the nearest card still to collect is (`here`); or, without a
 // position in Prague, a `tip`; a guest gets what the app is for and a link to the Guide.
-export default function ExploreApplied({ area, areaName, areaBlurb, onClearArea, onOpenGuide, rarity, onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement }) {
+export default function ExploreApplied({ area, areaItems = [], rarity, onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -161,10 +161,10 @@ export default function ExploreApplied({ area, areaName, areaBlurb, onClearArea,
       {notes.map(note => <p key={note.key} className="explore-applied__note">{note.body}</p>)}
       {!anyFilter && collection && <CollectionSummary locations={collection} />}
       {!anyFilter && !collection && here && (
-        <div className="explore-applied__default">
+        <div className="explore-applied__default explore-here-card" onClick={here.onFilter}>
           {here.areas.map(area_ => (
             <div key={area_.name} className="explore-applied__area">
-              <AreaName name={convert(area_.name)} onOpen={area_.onOpenGuide} />
+              <AreaName name={convert(area_.name)} onOpen={(e) => { e.stopPropagation(); area_.onOpenGuide(); }} />
               {area_.blurb && <p className="explore-applied__text">{pick(area_.blurb)}</p>}
             </div>
           ))}
@@ -179,11 +179,11 @@ export default function ExploreApplied({ area, areaName, areaBlurb, onClearArea,
       )}
       {!anyFilter && !collection && nextUp && <NextUp {...nextUp} onOpenAchievement={onOpenAchievement} />}
       {anyFilter && <button type="button" className="filter-btn explore-applied__clear-all" onClick={onClearAll}>{t('explore.clearFilters')}</button>}
-      {area && (
-        <Item nameNode={<AreaName name={areaName} onOpen={onOpenGuide} />} onClear={onClearArea}>
-          {pick(areaBlurb)}
+      {areaItems.map(item => (
+        <Item key={item.key} nameNode={<AreaName name={item.name} onOpen={item.onOpenGuide} />} onClear={item.onClear}>
+          {pick(item.blurb)}
         </Item>
-      )}
+      ))}
       {rarity && (
         <Item name={convert(RARITY_LABEL[lang]?.[rarity] ?? RARITY_LABEL.en[rarity])} color={RARITY_VAR[rarity]} onClear={onClearRarity}>
           {pick(RARITY_QUIP[rarity])}
