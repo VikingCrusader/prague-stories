@@ -425,5 +425,255 @@ export const AREA_BLURBS = {
       cz: 'Malé městečko s vlastním náměstím, starým židovským hřbitovem a státním ústavem živočišné výroby v zámku.',
       zh: '有自己广场的小市镇，有一座老犹太墓地，城堡里是一所国家级的畜牧研究所。',
     },
+    "Hodkovičky": {
+      en: "A strip of riverside villas under a railway bridge nicknamed the Bridge of the Intelligentsia. Why? It depends who built it.",
+      cz: "Pás vil u řeky pod železničním mostem přezdívaným Most inteligence. Proč? Záleží na tom, kdo ho stavěl.",
+      zh: "河边一溜别墅，头顶的铁路桥外号“知识分子之桥”，至于为什么，得看是谁修的。",
+    },
+    "Lhotka": {
+      en: "Half old village, half 1970s estate, with a swimming pond and a name that roughly means a new village let off its taxes.",
+      cz: "Napůl stará vesnice, napůl sídliště ze sedmdesátých let, s koupacím rybníkem a jménem, které zhruba znamená novou vesnici osvobozenou od daní.",
+      zh: "一半老村子，一半1970年代住宅区，有个游泳池塘，名字大意是“免了税的新村子”。",
+    },
+    "Holyně": {
+      en: "A few farmsteads, a green and a limestone valley: one of the smallest and quietest corners of Prague.",
+      cz: "Pár statků, náves a vápencové údolí: jeden z nejmenších a nejtišších koutů Prahy.",
+      zh: "几座农庄、一块绿地、一道石灰岩山谷，布拉格最小最安静的角落之一。",
+    },
+    "Radlice": {
+      en: "Old factories and new office blocks at the bottom of a valley, where a big bank decided the future was.",
+      cz: "Staré továrny a nové kanceláře na dně údolí, kde se jedna velká banka rozhodla mít budoucnost.",
+      zh: "谷底是老工厂和新写字楼，一家大银行认定未来就在这条山沟里。",
+    },
+    "Slivenec": {
+      en: "A Gothic church, open fields and the red-veined limestone that Prague spent centuries carting off as marble.",
+      cz: "Gotický kostel, pole a vápenec s červenými žilkami, který si Praha staletí odvážela jako mramor.",
+      zh: "哥特式老教堂、大片田野，还有被布拉格当大理石运了几百年的红纹石灰岩。",
+    },
+    "Lysolaje": {
+      en: "A valley village with a convent, a swimming pond and little more than a thousand residents.",
+      cz: "Vesnice v údolí s klášterem, koupacím rybníkem a sotva tisícovkou obyvatel.",
+      zh: "山谷里的小村，一座修女院、一个游泳池塘，人口才一千多。",
+    },
+    "Nebušice": {
+      en: "Farm fields turned family houses above the Šárka valley, with Prague's international school drawing families from abroad.",
+      cz: "Z polí nad Šárkou jsou rodinné domy a mezinárodní škola sem láká rodiny ze zahraničí.",
+      zh: "沙尔卡山谷北边的田野盖满了独栋房，国际学校又引来了不少外国家庭。",
+    },
+    "Přední Kopanina": {
+      en: "An eight-hundred-year-old church on a hill, with planes from the airport next door for company.",
+      cz: "Osm set let starý kostel na kopečku a za sousedy letadla z letiště.",
+      zh: "小山上一座八百多年的教堂，邻居是隔壁机场的飞机。",
+    },
+    "Veleslavín": {
+      en: "A quiet stop on the airport road, whose name was carried by the publisher who gave a whole literary era its title.",
+      cz: "Tichá zastávka na cestě na letiště, jejíž jméno nesl nakladatel, po němž se jmenuje celá literární éra.",
+      zh: "去机场路上的安静一站，16世纪那位大出版商名字里的“韦莱斯拉温”就是这里。",
+    },
+    "Březiněves": {
+      en: "A village named after birch trees, and the quietest corner of Prague 8.",
+      cz: "Vesnice pojmenovaná po břízách a nejtišší kout Prahy 8.",
+      zh: "名字里有白桦的小村，8区最安静的角落。",
+    },
+    "Dolní Chabry": {
+      en: "An old village with a prehistoric standing stone said to be a farmhand turned to stone. There are many versions, and only one stone.",
+      cz: "Stará vesnice s pravěkým menhirem, o němž se vypráví, že to býval zkamenělý čeledín. Verzí je mnoho, kámen jen jeden.",
+      zh: "老村边立着一块史前立石，传说是个被变成石头的长工。版本很多，石头只有一块。",
+    },
+    "Čimice": {
+      en: "An estate on one side, a deep wooded valley on the other: the place Prague 8 goes for a run.",
+      cz: "Z jedné strany sídliště, z druhé hluboké zalesněné údolí, kam si Praha 8 chodí zaběhat.",
+      zh: "一边是住宅区，一边是深谷，8区的人都来这儿跑步。",
+    },
+    "Ďáblice": {
+      en: "It sounds like the devil but is an ordinary village, with an observatory, a big wood and a cemetery that holds the graves of the executed.",
+      cz: "Zní to jako čert, ale je to obyčejná vesnice s hvězdárnou, velkým lesem a hřbitovem, kde leží popravení.",
+      zh: "名字听着像魔鬼，其实是个普通村子，有天文台、大树林，和一座埋着被处决者的公墓。",
+    },
+    "Hrdlořezy": {
+      en: "The name means throat-cutters. Linguists say it's innocent; the locals enjoy the effect.",
+      cz: "Jméno znamená přesně to, co si myslíte. Jazykovědci tvrdí, že je nevinné, místní si ten efekt užívají.",
+      zh: "名字直译是“割喉的人”。语言学家说跟杀人无关，本地人很享受这个效果。",
+    },
+    "Střížkov": {
+      en: "Housing estates on the heights, and a metro station under what looks like a giant glass caterpillar.",
+      cz: "Sídliště na kopci a stanice metra pod něčím, co vypadá jako obří skleněná housenka.",
+      zh: "高地上的住宅区，地铁站顶着一只巨大的玻璃毛毛虫。",
+    },
+    "Křeslice": {
+      en: "Entirely rural, a few kilometres from South Town's towers, with a ring of stones jokingly called the Průhonice Stonehenge.",
+      cz: "Úplný venkov pár kilometrů od věžáků Jižního Města, s kruhem kamenů přezdívaným průhonický Stonehenge.",
+      zh: "离南城高楼才几公里，却完全是乡下，村边还有一圈“普鲁霍尼采巨石阵”。",
+    },
+    "Újezd u Průhonic": {
+      en: "One of countless Czech Újezds, with 'by Průhonice' added so nobody gets the wrong one.",
+      cz: "Jeden z nespočtu českých Újezdů, ten u Průhonic, aby se nepletl.",
+      zh: "捷克有无数个乌耶兹德，这个特意注明“普鲁霍尼采旁”，免得认错。",
+    },
+    "Šeberov": {
+      en: "Old fish ponds, a wood and family houses: South Town's quiet back garden.",
+      cz: "Staré rybníky, les a rodinné domy: tichá zahrádka Jižního Města.",
+      zh: "老鱼塘、树林、独栋房，南城安静的后花园。",
+    },
+    "Cholupice": {
+      en: "One of Prague's southernmost spots, beside a forest where nobles once raised pheasants.",
+      cz: "Jedno z nejjižnějších míst Prahy, vedle lesa, kde šlechta kdysi chovala bažanty.",
+      zh: "布拉格最南的地方之一，旁边的森林曾是贵族养野鸡的雉苑。",
+    },
+    "Kamýk": {
+      en: "A 1980s estate with a weather station that sends up a balloon every day. Complaints about the forecast may be addressed here.",
+      cz: "Sídliště z osmdesátých let s meteorologickou stanicí, která každý den vypouští balon. Stížnosti na předpověď směřujte sem.",
+      zh: "1980年代的住宅区，气象台每天放探空气球。天气预报不准，可以来这儿投诉。",
+    },
+    "Komořany": {
+      en: "A riverside village that houses the national weather institute and got flooded in 2002 anyway.",
+      cz: "Vesnice u řeky, kde sídlí hydrometeorologický ústav, a v roce 2002 ji stejně zaplavilo.",
+      zh: "捷克水文气象局就设在这个河边小村，2002年它还是被淹了。",
+    },
+    "Libuš": {
+      en: "Nothing to do with Princess Libuše, but a great deal to do with a metro line planned for decades.",
+      cz: "S kněžnou Libuší nemá nic společného, zato už desítky let čeká na metro D.",
+      zh: "跟公主莉布谢没关系，倒是跟规划了几十年的地铁D线很有关系。",
+    },
+    "Točná": {
+      en: "A plateau with an old village, gliders overhead and the earth ramparts of a stronghold older than all of it.",
+      cz: "Planina se starou vesnicí, kluzáky nad hlavou a valy hradiště, které je starší než to všechno.",
+      zh: "高原上有老村子和滑翔机，还有比这些都老得多的城堡土墙。",
+    },
+    "Třebonice": {
+      en: "You have probably been here: it's where the IKEA everyone calls Zličín actually stands.",
+      cz: "Nejspíš jste tu byli: právě tady stojí IKEA, které všichni říkají Zličín.",
+      zh: "你多半来过：大家嘴里的“兹利钦宜家”，其实就在这儿。",
+    },
+    "Zadní Kopanina": {
+      en: "A few dozen households, fields, valleys and an old clay pit, on land whose name means dug and cleared.",
+      cz: "Pár desítek domácností, pole, údolí a staré hliniště na půdě, jejíž jméno znamená vykopaná a vymýcená.",
+      zh: "几十户人家，田野、山谷和一个老黏土坑。名字的意思就是“开垦出来的地”。",
+    },
+    "Hostavice": {
+      en: "An old farming village holding its ground between Černý Most and the new houses on its edge.",
+      cz: "Stará zemědělská vesnice, která si drží místo mezi Černým Mostem a novými domy.",
+      zh: "夹在黑桥和新住宅之间，老村子的中心硬是留了下来。",
+    },
+    "Dolní Měcholupy": {
+      en: "Factories and warehouses all round, and an old farming village tucked away in the middle.",
+      cz: "Kolem dokola továrny a sklady, uprostřed schovaná stará vesnice.",
+      zh: "四周是工厂和仓库，老村子藏在正中间。",
+    },
+    "Dubeč": {
+      en: "Two villages, ponds, and a Romanesque church more than eight hundred years old on a little hill.",
+      cz: "Dvě vesnice, rybníky a na kopečku románský kostel starý přes osm set let.",
+      zh: "两个小村、几片池塘，小山上一座八百多岁的罗曼式教堂。",
+    },
+    "Horní Měcholupy": {
+      en: "Tens of thousands moved in around a village that kept its little bell tower.",
+      cz: "Kolem vesnice se nastěhovaly desetitisíce lidí a ona si nechala svou zvoničku.",
+      zh: "几万人搬到村子周围，老村子只守住了一座小钟楼。",
+    },
+    "Petrovice": {
+      en: "A small chateau and a church left standing in the middle of a 1980s housing estate.",
+      cz: "Zámeček a kostel, které zůstaly stát uprostřed sídliště z osmdesátých let.",
+      zh: "一座小城堡和一座教堂，被留在了1980年代住宅区的正中间。",
+    },
+    "Štěrboholy": {
+      en: "The Battle of Prague was fought here in 1757; today the fiercest fighting is at the outlet centre.",
+      cz: "Roku 1757 se tu bojovala bitva u Prahy, dnes se nejtvrději bojuje v outletu.",
+      zh: "1757年的布拉格战役打在这里，如今最激烈的争夺发生在奥特莱斯。",
+    },
+    "Lahovice": {
+      en: "A tiny village where the Berounka meets the Vltava, which is lovely until they both rise.",
+      cz: "Malá vesnice na soutoku Berounky s Vltavou. Krásné místo, dokud nestoupnou obě.",
+      zh: "贝龙卡河和伏尔塔瓦河在这儿交汇，风景很好，只要两条河别一起涨水。",
+    },
+    "Lipence": {
+      en: "An old watermill, wooded slopes and the Berounka: named after lime trees and in no hurry.",
+      cz: "Starý mlýn, zalesněné stráně a Berounka. Pojmenováno po lípách a nikam nespěchá.",
+      zh: "老水磨、山坡树林、贝龙卡河，名字来自椴树，日子也过得不紧不慢。",
+    },
+    "Lochkov": {
+      en: "A small chateau among limestone quarries, and about a thousand residents.",
+      cz: "Zámeček mezi vápencovými lomy a asi tisíc obyvatel.",
+      zh: "石灰岩采石场中间有座小城堡，全村一千人左右。",
+    },
+    "Sobín": {
+      en: "Home of Prague's highest point, 399 metres up and indistinguishable from a field.",
+      cz: "Tady je nejvyšší bod Prahy, 399 metrů nad mořem a k nerozeznání od pole.",
+      zh: "布拉格的最高点在这儿，海拔399米，看上去就是一块田。",
+    },
+    "Zličín": {
+      en: "The end of metro line B, where shopping centres landed on the fields and the old village hid behind them.",
+      cz: "Konečná béčka, kde na pole přistála nákupní centra a stará vesnice se schovala za ně.",
+      zh: "地铁B线的终点，田野上落满了购物中心，老村子躲在它们身后。",
+    },
+    "Miškovice": {
+      en: "One main road, a few farmsteads and a field: the complete village, nothing added.",
+      cz: "Jedna hlavní silnice, pár statků a pole: vesnice v plném rozsahu.",
+      zh: "一条主路、几座农庄、一片田，村子该有的都有了。",
+    },
+    "Třeboradice": {
+      en: "An old church, a heating plant and, out in the fields, Prague's North Pole.",
+      cz: "Starý kostel, teplárna a v polích pražský severní pól.",
+      zh: "老教堂、供热厂，田野里还有“布拉格北极”。",
+    },
+    "Satalice": {
+      en: "Family houses beside a forest of centuries-old oaks where nobles once raised pheasants.",
+      cz: "Rodinné domy vedle lesa se staletými duby, kde šlechta kdysi chovala bažanty.",
+      zh: "独栋房旁边是几百岁的老橡树林，当年贵族在这儿养野鸡。",
+    },
+    "Vinoř": {
+      en: "It sounds like wine and has two chateaux, which is a fair consolation.",
+      cz: "Zní to jako víno a má dva zámky, což je slušná náhrada.",
+      zh: "名字听着像葡萄酒，酒没有，城堡倒有两座。",
+    },
+    "Běchovice": {
+      en: "Coaches once changed horses here; since 1897 runners have set off for Prague in Europe's oldest road race.",
+      cz: "Kdysi se tu přepřahalo, od roku 1897 odtud běžci vyrážejí do Prahy v nejstarším silničním závodě Evropy.",
+      zh: "当年马车在这儿换马，1897年起长跑选手从这儿奔向布拉格，欧洲最古老的公路长跑。",
+    },
+    "Koloděje": {
+      en: "A Baroque chateau kept for official receptions, so you are welcome to admire the outside.",
+      cz: "Barokní zámek pro oficiální přijetí, takže si ho můžete prohlédnout zvenčí.",
+      zh: "巴洛克城堡专门用来接待贵宾，所以欢迎你从外面欣赏。",
+    },
+    "Újezd nad Lesy": {
+      en: "Family houses beside the Klánovice forest, and Prague's easternmost point.",
+      cz: "Rodinné domy u klánovického lesa a nejvýchodnější bod Prahy.",
+      zh: "克拉诺维采森林边的独栋房，布拉格的最东端也在这儿。",
+    },
+    "Benice": {
+      en: "A few hundred people, and fields that carry on past the city limits without noticing.",
+      cz: "Pár set lidí a pole, která pokračují za hranici města, aniž by si toho všimla.",
+      zh: "几百口人，田野一直延伸到城市边界之外，压根没注意到边界。",
+    },
+    "Hájek u Uhříněvsi": {
+      en: "Its name means little grove, and it has ponds and fields to go with it.",
+      cz: "Malý háj, rybníky a pole, nic víc a nic míň.",
+      zh: "名字意思是“小树林”，四周是田野和池塘，名副其实。",
+    },
+    "Kolovraty": {
+      en: "The village that lent its name to the Kolowrats, one of Bohemia's oldest noble houses.",
+      cz: "Vesnice, která dala jméno Kolovratům, jednomu z nejstarších českých šlechtických rodů.",
+      zh: "波希米亚最古老的贵族之一科洛夫拉特家族，名字就来自这个村子。",
+    },
+    "Královice": {
+      en: "The king's people, as the name goes, and one of Prague's best-preserved small medieval castles.",
+      cz: "Jméno prozrazuje královské lidi a ve vsi stojí jeden z nejzachovalejších středověkých hrádků v Praze.",
+      zh: "名字意思是“国王的人”，村里有布拉格保存最好的中世纪小城堡之一。",
+    },
+    "Lipany": {
+      en: "Not that Lipany: the battle of 1434 happened beside another village of the same name.",
+      cz: "Tohle nejsou ty Lipany: bitva roku 1434 se odehrála u jiné vesnice stejného jména.",
+      zh: "不是那个利帕尼：1434年的决战打在另一个同名的村子旁边。",
+    },
+    "Nedvězí u Říčan": {
+      en: "A few hundred residents, fields, woods and one of the quietest corners of Prague.",
+      cz: "Pár set obyvatel, pole, lesy a jeden z nejtišších koutů Prahy.",
+      zh: "几百口人，田野和树林，布拉格最安静的角落之一。",
+    },
+    "Pitkovice": {
+      en: "A village beside a never-ploughed slope where rare steppe flowers have quietly carried on.",
+      cz: "Vesnice pod nikdy neoranou strání, kde si vzácné stepní květiny žijí dál.",
+      zh: "村边的山坡从没被开垦过，罕见的草原野花就这么一直开着。",
+    },
   },
 };

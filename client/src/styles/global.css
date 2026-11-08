@@ -11,7 +11,10 @@
   --bg-surface: #141830;
   --bg-card: #111428;
   --text-primary: #f0e6c8;
-  --text-muted: #7a6e5f;
+  --text-muted: #e6dcc2;
+  --text-dim: #d8cdb2;
+  --shape-muted: #7a6e5f; /* grey for shapes and rules; --text-muted is for text */
+  --map-selected: #e0202c;
   --gold: #ffd700;
   --gold-dark: #b89b00;
   --gold-shadow: #7a6600;
@@ -968,6 +971,8 @@ html[data-lang="zh"] .explore-title {
   --text-body: #2a2119;
   --text-overview: #5a3a1c;
   --text-dim: #8a7a64;
+  --shape-muted: #6b5c48;
+  --map-selected: #1a5fc8; /* the map itself is red on this theme */
   --danger-text: #b3261e;
   --success-text: #2e7d32;
   --pink-text: #a8327a;
@@ -1068,3 +1073,5 @@ html:not([data-lang="zh"]) .explore-rarity-blurb {
 html[data-lang="zh"] .navbar .navbar__user {
   font-size: 16px !important;
 }
+
+:root:not([data-theme="light"]) ::placeholder { color: var(--text-muted); opacity: 0.8; }

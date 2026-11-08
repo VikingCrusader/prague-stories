@@ -413,7 +413,7 @@ export default function GuidePage() {
           {c.challenge}
         </div>
 
-        <div className="guide-tip" style={{ borderLeftColor: 'var(--text-muted)', marginBottom: 24 }}>
+        <div className="guide-tip" style={{ borderLeftColor: 'var(--shape-muted)', marginBottom: 24 }}>
           <span>{c.localChallenge}</span>
         </div>
 
@@ -547,7 +547,7 @@ export default function GuidePage() {
 
         <hr className="px-divider" />
 
-        <div className="guide-tip" style={{ borderLeftColor: 'var(--text-muted)', marginBottom: 24 }}>
+        <div className="guide-tip" style={{ borderLeftColor: 'var(--shape-muted)', marginBottom: 24 }}>
           <span>{c.pixelNote}</span>
         </div>
 

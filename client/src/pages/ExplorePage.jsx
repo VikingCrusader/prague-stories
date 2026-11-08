@@ -6,18 +6,37 @@ import { quarterName } from '../utils/pragueQuarters';
 import { AREA_BLURBS } from '../utils/areaBlurbs';
 import AreaGuideModal from '../components/locations/AreaGuideModal';
 import { RARITY_BLURB } from '../utils/rarityBlurbs';
+import { RARITY_LABEL } from '../utils/rarity';
+import { RARITY_QUIP, EXPLORE_TIPS } from '../utils/filterBlurbs';
 import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
 import { useAuth } from '../context/AuthContext';
 import { useUserPosition } from '../hooks/useUserPosition';
-import { haversineDistance, NEARBY_REVEAL_M } from '../utils/geolocation';
+import { haversineDistance, NEARBY_REVEAL_M, formatDistance } from '../utils/geolocation';
 import LocationGrid from '../components/locations/LocationGrid';
 import LocationDetail from '../components/locations/LocationDetail';
 import ToastContainer from '../components/shared/Toast';
 import { useFitOneLine } from '../hooks/useFitOneLine';
 import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
 import AreaFilter, { matchesArea } from '../components/locations/AreaFilter';
+import ExploreMap from '../components/locations/ExploreMap';
+import ExploreApplied from '../components/locations/ExploreApplied';
 
 let toastId = 0;
+
+// A 2K screen: the title, filters and a map move into a side column, and the
+// cards take the rest of the width (2026-11-08, user's call).
+const WIDE_QUERY = '(min-width: 2400px)';
+
+function useWide() {
+  const [wide, setWide] = useState(() => window.matchMedia(WIDE_QUERY).matches);
+  useEffect(() => {
+    const query = window.matchMedia(WIDE_QUERY);
+    const onChange = () => setWide(query.matches);
+    query.addEventListener('change', onChange);
+    return () => query.removeEventListener('change', onChange);
+  }, []);
+  return wide;
+}
 
 export default function ExplorePage() {
   const t = useT();
@@ -26,6 +45,10 @@ export default function ExplorePage() {
   const { user, guest } = useAuth();
   const { state, search } = useLocation();
   const navigate = useNavigate();
+  const wide = useWide();
+  const [filterSlot, setFilterSlot] = useState(null);
+  const [appliedSlot, setAppliedSlot] = useState(null);
+  const [tip] = useState(() => EXPLORE_TIPS[Math.floor(Math.random() * EXPLORE_TIPS.length)]);
   const userPos                          = useUserPosition();
   const [locations, setLocations]       = useState([]);
   const [areaGuide, setAreaGuide]       = useState(null);
@@ -114,9 +137,16 @@ export default function ExplorePage() {
   // City only / area filter. "My Collections" always lists every collected
   // card, city or outside, and hides both controls (it gets sortedAll);
   // leaving it brings back the scope and area picked before.
+  // On a 2K screen the map filters whatever is shown, My Collections included.
   const sortedLocations = useMemo(
-    () => (cityOnly ? sortedAll.filter(l => isInCity(l) && matchesArea(l, area)) : sortedAll),
-    [sortedAll, cityOnly, area],
+    () => (cityOnly
+      ? sortedAll.filter(l => isInCity(l) && matchesArea(l, area))
+      : wide ? sortedAll.filter(l => matchesArea(l, area)) : sortedAll),
+    [sortedAll, cityOnly, area, wide],
+  );
+  const collectionLocations = useMemo(
+    () => (wide ? sortedAll.filter(l => matchesArea(l, area)) : sortedAll),
+    [sortedAll, area, wide],
   );
 
   // Tapping a locked card within NEARBY_REVEAL_M (the wobbling lock) opens
@@ -193,18 +223,24 @@ export default function ExplorePage() {
   }, [hereText, lang, compact]);
 
   // With an area picked, the title becomes the area's name plus a short intro.
-  const areaActive = cityOnly && !inCollection && area;
-  const areaBlurb  = areaActive ? AREA_BLURBS[area.kind]?.[area.value] : null;
+  const areaActive = wide ? area : cityOnly && !inCollection && area;
+  const beyondCity = area?.kind === 'outside';
+  const areaBlurb  = !areaActive ? null : beyondCity ? RARITY_QUIP.expedition : AREA_BLURBS[area.kind]?.[area.value];
   // Under the title / "where you are" line, one description at a time: the
   // picked rarity's first, then the area's, then the My Collections hint.
-  const rarityBlurb = rarity ? (RARITY_BLURB[lang] || RARITY_BLURB.en)[rarity] : null;
+  // On a 2K screen these move under the map (ExploreApplied).
+  const rarityBlurb = rarity && !wide ? (RARITY_BLURB[lang] || RARITY_BLURB.en)[rarity] : null;
   const titleText  = areaActive
-    ? convert(area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : quarterName(area.value, lang))
+    ? convert(beyondCity ? (RARITY_LABEL[lang]?.expedition ?? RARITY_LABEL.en.expedition) : area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : quarterName(area.value, lang))
     : t(guest ? 'explore.titleGuest' : cityOnly ? 'explore.titleCity' : 'explore.title');
 
-  const changeScope = city => { setCityOnly(city); if (!city) setArea(null); };
+  const changeScope = city => { setCityOnly(city); if (!city || beyondCity) setArea(null); };
   // My Collections shows every collected card, so it has neither control.
-  const scopeToggle = inCollection ? null : (
+  const scopeToggle = wide ? (
+    <div className={`scope-controls${inCollection ? ' scope-controls--off' : ''}`}>
+      <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
+    </div>
+  ) : inCollection ? null : (
     <div className="scope-controls">
       <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
       {cityOnly && <AreaFilter area={area} onChange={setArea} />}
@@ -222,13 +258,39 @@ export default function ExplorePage() {
     </div>
   );
 
-  return (
-    <div className="explore-page">
+  // Touch screens get the long-press version, mice the double click.
+  const showcaseHint = (
+    <>
+      <span className="explore-hint--touch">{convert(t('explore.showcaseHintTouch'))}</span>
+      <span className="explore-hint--mouse">{convert(t('explore.showcaseHintMouse'))}</span>
+    </>
+  );
+  // On a 2K screen the lines that come and go with a mode sit under the map, so
+  // the header keeps its height and the map stays where it is (user's call).
+  const sideNotes = [
+    !cityOnly && !inCollection && { key: 'all', body: convert(t('explore.allBlurb')) },
+    inCollection && hasCollected && { key: 'hint', body: showcaseHint },
+  ].filter(Boolean);
+
+  // What the space under the map says while no filter is on.
+  let hereCard = null;
+  if (wide && myArea?.district) {
+    const nearest = sortedAll.find(l => !l.unlocked && l._distance != null);
+    hereCard = {
+      areas: [
+        { kind: 'district', value: myArea.district, name: t('detail.district', { n: myArea.district.slice(6) }) },
+        { kind: 'quarter', value: myArea.quarter, name: quarterName(myArea.quarter, lang) },
+      ].map(a => ({ ...a, blurb: AREA_BLURBS[a.kind][a.value], onOpenGuide: () => setAreaGuide({ kind: a.kind, value: a.value }) })),
+      nearest: nearest ? formatDistance(nearest._distance) : null,
+    };
+  }
+
+  const header = (
       <div className="explore-header">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
           <div style={{ flex: '1 1 320px', minWidth: 0 }}>
             <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
-            {areaActive
+            {areaActive && !wide
               // The short blurb (if the area has one) and the link to its guide.
               ? !rarityBlurb && (
                 <p className="explore-area-blurb">
@@ -239,7 +301,7 @@ export default function ExplorePage() {
                   </button>
                 </p>
               )
-              : cityOnly && hereText
+              : (cityOnly || wide) && hereText
                 ? (
                   <p ref={hereRef} className="explore-here">
                     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -264,7 +326,7 @@ export default function ExplorePage() {
                 )
               // With a rarity picked, its description replaces the intro line.
               : rarityBlurb ? null
-              : cityOnly
+              : cityOnly || wide
                 // Phones get a shorter line, so it fits on one line.
                 ? <p className="explore-area-blurb">
                     <span className="explore-blurb--wide">{convert(t('explore.cityBlurb'))}</span>
@@ -274,24 +336,68 @@ export default function ExplorePage() {
                 // where the showcase hint below takes its place.
                 : !inCollection && <p className="explore-area-blurb">{convert(t('explore.allBlurb'))}</p>}
             {rarityBlurb && <p className="explore-rarity-blurb">{convert(rarityBlurb)}</p>}
-            {inCollection && hasCollected && !areaActive && !rarityBlurb && (
-              // Touch screens get the long-press version, mice the double click. Not
-              // shown under an area filter, where the area blurb has the space.
-              <p className="explore-showcase-hint">
-                <span className="explore-hint--touch">{convert(t('explore.showcaseHintTouch'))}</span>
-                <span className="explore-hint--mouse">{convert(t('explore.showcaseHintMouse'))}</span>
-              </p>
+            {!wide && inCollection && hasCollected && !areaActive && !rarityBlurb && (
+              // Not shown under an area filter, where the area blurb has the space.
+              <p className="explore-showcase-hint">{showcaseHint}</p>
             )}
           </div>
-          <div className="explore-header__scope">{scopeToggle}</div>
+          {!wide && <div className="explore-header__scope">{scopeToggle}</div>}
         </div>
       </div>
+  );
+  const grid = (
+    <LocationGrid
+      locations={sortedLocations}
+      collectionLocations={collectionLocations}
+      onCardClick={handleCardClick}
+      scopeToggle={scopeToggle}
+      hideOutsideLabel={cityOnly}
+      onCollectionChange={setInCollection}
+      onRarityChange={setRarity}
+      initialFilter={initialFilter}
+      wide={wide}
+      filterSlot={filterSlot}
+      appliedSlot={appliedSlot}
+      renderApplied={(filters) => (
+        <ExploreApplied
+          {...filters}
+          notes={sideNotes}
+          here={hereCard}
+          tip={tip}
+          isGuest={guest && !user}
+          area={area}
+          areaName={titleText}
+          areaBlurb={areaBlurb}
+          onClearArea={() => setArea(null)}
+          onClearAll={() => { filters.onClearAll(); setArea(null); }}
+          onOpenGuide={beyondCity ? null : () => setAreaGuide({ kind: area.kind, value: area.value })}
+        />
+      )}
+    />
+  );
+
+  return (
+    <div className={`explore-page${wide ? ' explore-page--wide' : ''}`}>
+      {wide ? (
+        <>
+          <aside className="explore-side">
+            {header}
+            <div ref={setFilterSlot} className="explore-side__filters" />
+            <ExploreMap locations={locations} area={area} onArea={setArea} outside={!cityOnly} here={myArea} />
+            <div ref={setAppliedSlot} className="explore-side__applied" />
+          </aside>
+          <div className="explore-main">{grid}</div>
+        </>
+      ) : (
+        <>
+          {header}
+          {grid}
+        </>
+      )}
 
       {areaGuide && (
         <AreaGuideModal kind={areaGuide.kind} value={areaGuide.value} locations={locations} onClose={() => setAreaGuide(null)} />
       )}
-
-      <LocationGrid locations={sortedLocations} collectionLocations={sortedAll} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} onRarityChange={setRarity} initialFilter={initialFilter} />
 
       {selectedSlug && (
         <LocationDetail

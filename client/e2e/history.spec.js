@@ -32,8 +32,11 @@ test.describe('History below 2K', () => {
     await expect(page.locator('.history-axis')).toBeVisible();
     await expect(page.locator('.history-paged__page .history-event__title')).toHaveText('Title first');
     const summary = await page.locator('.history-event__summary').first().boundingBox();
-    const landmarks = await page.locator('.history-event__landmarks').boundingBox();
-    expect(landmarks.x).toBeGreaterThan(summary.x + summary.width - 1); // text left, the rest right
+    // Polled: the landmark wall is remounted when it measures again after the fonts load.
+    await expect.poll(async () => {
+      const landmarks = await page.locator('.history-event__landmarks').boundingBox();
+      return !!landmarks && landmarks.x > summary.x + summary.width - 1; // text left, the rest right
+    }).toBe(true);
     await expect(page.locator('.history-paged__reading')).toContainText('Related Reading');
     const [text, side] = await Promise.all(['.history-paged__text', '.history-paged__side'].map(c => page.locator(c).boundingBox()));
     expect(Math.abs(text.y + text.height - (side.y + side.height))).toBeLessThan(2); // the two end level

@@ -9,11 +9,13 @@ const PHONE_BATCH = 20;
 const POPUP_CHROME_PX = 90;
 
 // The width a card has on Explore at this screen size: .explore-page is at
-// most 1600 px wide with 24 px padding, its .location-grid is
+// most 1600 px wide with 24 px padding (from 2400 px it has no limit, less the
+// 440 px side column and its 24 px gap), its .location-grid is
 // auto-fill minmax(230px, 1fr) with 16 px gaps. Phones don't use this, they
 // share .location-grid's two columns.
 function exploreCardWidth() {
-  const width = Math.min(document.documentElement.clientWidth, 1600) - 48;
+  const screen = document.documentElement.clientWidth;
+  const width = screen >= 2400 ? screen - 48 - 464 : Math.min(screen, 1600) - 48;
   const columns = Math.max(1, Math.floor((width + 16) / 246));
   return (width - 16 * (columns - 1)) / columns;
 }

@@ -25,7 +25,8 @@ const DOUBLE_CLICK_MS = 250;
 // real collected state here; otherwise an uncollected card's story could be
 // read in the showcase). `story` (showcase only): paragraphs that fill the
 // whole card in a scrolling panel, under the card's name; only the frame stays.
-function LocationCard({ location, onClick, distance, nearby = false, showcase = false, story = null, holdable = true }) {
+// `previewable`: the hover preview (CardPreview.jsx) replaces the browser tooltip.
+function LocationCard({ location, onClick, distance, nearby = false, showcase = false, story = null, holdable = true, previewable = false }) {
   const { lang } = useLang();
   const convert = useConvert();
   const t = useT();
@@ -131,7 +132,8 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
       onPointerCancel={clearPress}
       onPointerLeave={clearPress}
       onContextMenu={gestures ? e => e.preventDefault() : undefined}
-      title={showName ? name : '???'}
+      title={previewable ? undefined : showName ? name : '???'}
+      data-slug={slug}
       data-rarity={rarity}
       data-gem={rarity === 'expedition' ? expeditionGem(xpReward) : undefined}
       style={{ border: `3px solid ${rarity === 'expedition' ? 'var(--rarity-expedition-card, var(--rarity-expedition))' : RARITY_VAR[rarity]}` }}
@@ -191,11 +193,14 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
           <div className="loc-card__name" style={!showName ? { textAlign: 'center' } : { color: RARITY_VAR[rarity] }}>
             {showName ? name : '???'}
           </div>
-          {showName && lang !== 'cz' && location.localizedNames?.cz && (
+          {lang !== 'cz' && (showName && location.localizedNames?.cz ? (
             <div className="loc-card__cz-name">
               {location.localizedNames.cz}
             </div>
-          )}
+          ) : (
+            // Holds the line on Explore, so every card there is the same size.
+            <div className="loc-card__cz-name loc-card__cz-name--empty" aria-hidden="true">&nbsp;</div>
+          ))}
         </div>
         {firstLabel && (
           <div className="loc-card__labels">

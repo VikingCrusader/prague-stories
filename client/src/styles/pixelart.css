@@ -1599,7 +1599,7 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 .district-map--loading { aspect-ratio: 1000 / 761; }
 .district-map__svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; }
 .district-map__area { fill: var(--gold); stroke: var(--bg-card); stroke-width: 3; stroke-linejoin: round; transition: fill-opacity 0.15s; }
-.district-map__area--unvisited { fill: var(--text-muted); fill-opacity: 0.14; }
+.district-map__area--unvisited { fill: var(--shape-muted); fill-opacity: 0.14; }
 .district-map__area--picked { stroke: var(--text-primary); stroke-width: 5; }
 .district-map__area--link { cursor: pointer; }
 /* District / quarter switch above the map; in the quarter view the 112
@@ -2879,3 +2879,92 @@ html[data-lang="zh"] .detail-title-name {
 .profile-body--apple .rarity-compact__list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px 4px; }
 .profile-body--tall .profile-layout__top > .profile-card .ach-showcase { grid-template-rows: auto auto auto; }
 .profile-body--tall .ach-showcase .ach-tile--extra { display: flex; }
+
+/* Explore on a 2K screen (ExplorePage): title, filters and map in a side column
+   that stays put while the cards scroll. */
+.explore-page--wide { max-width: none; display: grid; grid-template-columns: 440px minmax(0, 1fr); gap: 24px; align-items: start; }
+/* top: exactly where it sits unscrolled (navbar 60 + page padding 20), or it hops when scrolling starts. */
+.explore-side { position: sticky; top: 80px; height: calc(100vh - 88px); display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.explore-side > * { flex-shrink: 0; }
+/* The filters that are on, under the map; the one part of the column that scrolls. */
+/* It gives way before the map does, down to room for about one filter. */
+.explore-side > .explore-side__applied { flex: 1 1000 0; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 8px; }
+.explore-side > .explore-side__applied:not(:empty) { min-height: 100px; }
+/* Stays in view while the list under it scrolls. */
+.explore-applied__clear-all { flex: none; position: sticky; top: 0; z-index: 1; width: 100%; }
+.explore-applied__note { flex: none; margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-primary); }
+.explore-applied__item, .explore-applied__default { flex: none; padding: 10px 12px; background: var(--bg-card); border: 2px solid var(--border); }
+/* The guest's introduction fills the column to the bottom, paragraphs spread evenly. */
+.explore-applied__default--intro { flex: 1 0 auto; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; }
+.explore-applied__default--intro .explore-applied__text { margin: 0; }
+.explore-applied__area + .explore-applied__area { margin-top: 10px; }
+.explore-applied__stat { margin: 4px 0 0; font-size: 15px; line-height: 1.5; color: var(--gold); }
+.explore-applied__head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.explore-applied__name { font-family: var(--ui-font); font-size: 17px; font-weight: 700; color: var(--gold); }
+.explore-applied__name--link {
+  display: block; padding: 0; background: none; border: 0; text-align: left; cursor: pointer;
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.explore-applied__name--link:hover { filter: brightness(1.15); }
+.explore-applied__clear { flex: none; padding: 0 4px; background: none; border: 0; font: inherit; font-size: 15px; color: var(--text-muted); cursor: pointer; }
+.explore-applied__clear:hover { color: var(--gold); }
+.explore-applied__text { margin: 4px 0 0; font-size: 15px; line-height: 1.5; color: var(--text-primary); }
+.explore-side .explore-header { margin-bottom: 0; }
+/* Fixed heights where the text changes with the filters, so the map doesn't move. */
+.explore-side .explore-title { height: 64px; line-height: 64px !important; margin-bottom: 4px; overflow: hidden; }
+.explore-side .explore-stats { line-height: 25px; min-height: 50px; }
+.explore-main { min-width: 0; }
+.explore-main > div:first-child { justify-content: flex-end !important; }
+.explore-side__filters { display: flex; flex-direction: column; gap: 10px; position: relative; z-index: 20; }
+.explore-side .filter-bar { flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: 8px; margin: 0; }
+.explore-side .filter-bar__top { display: flex; flex-direction: column; gap: 8px; }
+.explore-side .filter-bar__search { width: 100%; max-width: none; box-sizing: border-box; }
+.explore-side .filter-bar__scope { display: flex; }
+.explore-side .scope-controls, .explore-side .scope-toggle { width: 100%; }
+.explore-side .scope-controls--off { opacity: 0.45; pointer-events: none; }
+.explore-side .filter-bar__bottom { display: flex; gap: 8px; }
+.explore-side .filter-bar__bottom > * { flex: 1 1 0; min-width: 0; }
+.explore-side .filter-bar__bottom .filter-btn { width: 100%; }
+/* The column never runs past the screen (user's rule): on a short window the map
+   shrinks with it, keeping its own proportions, and the filters under it scroll. */
+.explore-side > .district-map { flex: 0 1 430px; min-height: 170px; margin: 0; display: flex; flex-direction: column; }
+@media (max-height: 1000px) {
+  .explore-side .district-map__stage { padding: 8px !important; }
+  .explore-side .explore-area-blurb { display: none; }
+}
+.explore-side > .district-map--loading { aspect-ratio: auto; }
+.explore-side .district-map__toggle, .explore-side .district-map__caption { flex: none; }
+.explore-side .label-filter__panel { max-height: calc(100vh - 360px); overflow-y: auto; }
+.explore-side .district-map__toggle { display: flex; justify-content: center; gap: 8px; margin-bottom: 8px; }
+.explore-side .district-map__stage { flex: 1; min-height: 0; width: 100%; max-width: none; box-sizing: border-box; padding: 26px; overflow: hidden; container-type: size; display: flex; align-items: center; justify-content: center; }
+.explore-side .district-map__stage .district-map__svg { flex: none; width: min(100cqw, 131.4cqh); max-width: none; height: auto; margin: 0; }
+.district-map__selected { fill: var(--map-selected); stroke: #ff8a80; stroke-width: 2; stroke-linejoin: round; pointer-events: none; vector-effect: non-scaling-stroke; }
+/* On the light theme the map itself is red, so the chosen area is blue (--map-selected). */
+:root[data-theme="light"] .district-map__selected { stroke: #0b2a63; }
+/* "Show all": the land around the city lights up. */
+.district-map__glow { opacity: 0; pointer-events: none; transition: opacity 0.6s ease; }
+.district-map__glow--on { opacity: 1; pointer-events: auto; cursor: pointer; }
+@media (prefers-reduced-motion: reduce) { .district-map__glow { transition: none; } }
+
+/* Explore: the Czech name under a card's title stays on one line, and a card with
+   no name to show keeps the line empty, so every card is the same size (2026-11-08,
+   user's call). The footer is as tall as the legendary one, whose text is larger. */
+.loc-card__cz-name--empty { display: none; }
+.explore-page .loc-card__footer { min-height: 23px; }
+.explore-page .loc-card__cz-name { display: block; max-width: 100%; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Hover preview of an Explore card (CardPreview.jsx). Below the pop-ups (200). */
+.card-preview { position: fixed; z-index: 150; box-sizing: border-box; padding: 14px 16px; background: var(--bg-surface); border: 3px solid; box-shadow: 4px 4px 0 var(--shadow); pointer-events: none; animation: card-preview-in 120ms ease-out; }
+@keyframes card-preview-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .card-preview { animation: none; } }
+.card-preview__name { font-family: var(--ui-font); font-size: 20px; font-weight: 700; line-height: 1.3; }
+.card-preview__czech { margin-top: 2px; font-size: 15px; font-weight: 600; line-height: 1.3; color: var(--text-muted); }
+.card-preview__meta { display: flex; justify-content: space-between; gap: 12px; margin-top: 8px; font-size: 14px; color: var(--text-muted); }
+.card-preview__status--got { color: var(--gold); font-weight: 700; }
+.card-preview__labels { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 8px; }
+.card-preview__labels:empty { display: none; }
+/* The detail view's coloured pills (labels, then quarter and district), smaller. */
+.card-preview .loc-card__labels { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 6px; padding: 0; }
+.card-preview .detail-label-pill.detail-label-pill { padding: 2px 9px; font-size: 13px; line-height: 1.5; }
+.card-preview__text { margin: 10px 0 0; font-size: 15px; line-height: 1.6; color: var(--text-primary); }
+.card-preview__loading { height: 60px; margin-top: 10px; background: color-mix(in srgb, var(--text-muted) 12%, transparent); }

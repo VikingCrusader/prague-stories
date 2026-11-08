@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { quarterName } from '../../utils/pragueQuarters';
 import QuarterPickerModal from './QuarterPickerModal';
+import { isInCity } from './ScopeToggle';
 
 const DISTRICTS = Array.from({ length: 22 }, (_, i) => `Praha ${i + 1}`);
 
@@ -18,8 +19,13 @@ export const FEATURED_QUARTERS = [
 ];
 
 // area: null, or { kind: 'district' | 'quarter', value } (value = the Czech
-// name stored on Location.district / Location.quarter).
-export const matchesArea = (l, area) => !area || l[area.kind] === area.value;
+// name stored on Location.district / Location.quarter), or { kind: 'outside' }
+// for everything beyond the city (Explore's map at 2K).
+export const matchesArea = (l, area) => {
+  if (!area) return true;
+  if (area.kind === 'outside') return !isInCity(l);
+  return l[area.kind] === area.value;
+};
 
 export default function AreaFilter({ area, onChange, inline = false, style }) {
   const t = useT();

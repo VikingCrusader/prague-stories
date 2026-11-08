@@ -29,8 +29,14 @@ const W = 1000;
 const MAX_ZOOM = 10;
 const LABEL_ZOOM = 2;
 const LABEL_PX = 12;
+const OUTSIDE = 'outside'; // `picked` while the pointer is on the land around the city
+const GLOW = 220; // map units the glow reaches past the city's bounding box
 
-export default function DistrictMap({ districts, quarters, own = false, mode: modeProp, onModeChange, showToggle = true }) {
+// `onSelect` makes a click choose an area instead of opening its guide (Explore),
+// with `selected` outlined and `hintKey` for the line under the map. `glow`
+// (true or false, left out elsewhere) lights up the land around the city;
+// `outsideArea` ({ name, collected, total, selected, onClick }) makes it clickable.
+export default function DistrictMap({ districts, quarters, own = false, mode: modeProp, onModeChange, showToggle = true, selected = null, onSelect, hintKey = 'dashboard.districtMapHint', glow, outsideArea }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -164,11 +170,15 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
   if (!shapes) return <div className="district-map district-map--loading" />;
 
   const data = isQ ? byQuarter : byName;
-  const pickedData = picked && (data[picked] || (isQ ? { collected: 0, total: 0 } : null));
+  const onOutside = picked === OUTSIDE;
+  const glowColor = outsideArea?.selected ? 'var(--map-selected)' : 'var(--gold)';
+  const pickedData = onOutside ? (glow ? outsideArea : null) : picked && (data[picked] || (isQ ? { collected: 0, total: 0 } : null));
   const pickedName = !picked ? null
+    : onOutside ? outsideArea?.name
     : isQ ? quarterName(picked, lang) : t('detail.district', { n: Number(picked.slice(6)) });
   const onClick = name => {
     if (suppressClick.current) { suppressClick.current = false; return; }
+    if (onSelect) { onSelect(name); return; }
     if (own && picked === name) setGuide({ kind: mode, value: name });
     else setPicked(name);
   };
@@ -221,12 +231,37 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
         className={`district-map__svg${isQ ? ' district-map__svg--quarters' : ''}${isQ && view ? ' district-map__svg--zoomed' : ''}`}
         role="img"
         aria-label={t('dashboard.districtProgress')}
+        style={glow !== undefined && !view ? { overflow: 'visible' } : undefined}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerEnd}
         onPointerCancel={onPointerEnd}
         onPointerLeave={onPointerEnd}
       >
+        {glow !== undefined && (
+          <>
+            <defs>
+              <radialGradient id="district-map-glow">
+                <stop offset="0.6" style={{ stopColor: glowColor, stopOpacity: outsideArea?.selected ? 0.85 : 0.6 }} />
+                <stop offset="1" style={{ stopColor: glowColor, stopOpacity: 0 }} />
+              </radialGradient>
+              <mask id="district-map-outside" maskUnits="userSpaceOnUse" x={-GLOW} y={-GLOW} width={W + 2 * GLOW} height={H + 2 * GLOW}>
+                <rect x={-GLOW} y={-GLOW} width={W + 2 * GLOW} height={H + 2 * GLOW} fill="white" />
+                {shapes.list.map(s => <path key={s.name} d={s.path} fill="black" stroke="black" strokeWidth="3" />)}
+              </mask>
+            </defs>
+            <rect
+              className={`district-map__glow${glow ? ' district-map__glow--on' : ''}${glow && outsideArea?.selected ? ' district-map__glow--picked' : ''}`}
+              onMouseEnter={outsideArea ? () => setPicked(OUTSIDE) : undefined}
+              onClick={outsideArea && glow ? () => {
+                if (suppressClick.current) { suppressClick.current = false; return; }
+                outsideArea.onClick();
+              } : undefined}
+              x={-GLOW} y={-GLOW} width={W + 2 * GLOW} height={H + 2 * GLOW}
+              fill="url(#district-map-glow)" mask="url(#district-map-outside)"
+            />
+          </>
+        )}
         {shapeList.map(s => {
           const d = data[s.name];
           const pct = d?.total ? d.collected / d.total : 0;
@@ -245,6 +280,9 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
             </path>
           );
         })}
+        {shapeList.filter(s => s.name === selected).map(s => (
+          <path key={`sel-${s.name}`} d={s.path} fillRule="evenodd" className="district-map__selected" />
+        ))}
         {!isQ && shapes.list.map(s => (
           <text key={s.name} x={s.label[0]} y={s.label[1]} className="district-map__num">{s.name.slice(6)}</text>
         ))}
@@ -264,7 +302,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
               <span className="district-map__caption-name">{convert(pickedName)}</span>
               <span className="district-map__caption-count">{pickedData.collected} / {pickedData.total}</span>
             </>
-          : <span className="district-map__caption-hint">{t('dashboard.districtMapHint')}</span>}
+          : <span className="district-map__caption-hint">{t(hintKey)}</span>}
       </div>
       {guide && <AreaGuideModal kind={guide.kind} value={guide.value} withCollection onClose={() => setGuide(null)} />}
     </div>

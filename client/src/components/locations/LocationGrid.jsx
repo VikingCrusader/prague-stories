@@ -1,5 +1,7 @@
 import { useState, useMemo, useEffect, useRef, useDeferredValue } from 'react';
+import { createPortal } from 'react-dom';
 import LocationCard from './LocationCard';
+import { useCardPreview } from './CardPreview';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES } from '../../utils/rarity';
@@ -17,9 +19,12 @@ const PAGE_SIZE = 60;
 
 // `onCollectionChange` (optional) hears whether "My Collections" is on, so
 // the page header can react to it (ExplorePage's showcase hint).
+// `wide` (Explore on a 2K screen) puts the search, filters and count into
+// `filterSlot`, an element in the side column, and what `renderApplied` returns
+// for the filters that are on into `appliedSlot`.
 // `initialFilter` ({ rarity, label }) opens the grid already filtered, e.g. on
 // Expedition from the nudge on the profile's empty expedition strip.
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter, wide = false, filterSlot = null, appliedSlot = null, renderApplied }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -141,6 +146,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   const rarityOptions = cityScoped ? CITY_RARITIES : ALL_RARITIES;
 
   const hasMore = visibleCount < filtered.length;
+  const { handlers: previewHandlers, preview } = useCardPreview(filtered);
 
   useEffect(() => {
     const el = sentinelRef.current;
@@ -156,98 +162,112 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   const unlocked = filtered.filter(l => l.unlocked).length;
   const total    = filtered.length;
 
-  return (
-    <>
-      <div className="filter-bar">
-        <div className="filter-bar__top">
-          <input
-            className="filter-bar__search"
-            placeholder={t('grid.searchPlaceholder')}
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-          />
-          {scopeToggle && <div className="filter-bar__scope">{scopeToggle}</div>}
-        </div>
-        <div className="filter-bar__bottom">
+  const filterBar = (
+    <div className="filter-bar">
+      <div className="filter-bar__top">
+        <input
+          className="filter-bar__search"
+          placeholder={t('grid.searchPlaceholder')}
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+        />
+        {scopeToggle && <div className="filter-bar__scope">{scopeToggle}</div>}
+      </div>
+      <div className="filter-bar__bottom">
+        <button
+          className={`filter-btn${discovered ? ' filter-btn--active' : ''}`}
+          onClick={() => {
+            // "My collection" opens sorted by most recently collected; leaving
+            // it drops that sort, which only exists inside the collection.
+            if (discovered) { if (sort === 'checkin') setSort('distance'); }
+            else setSort('checkin');
+            setDiscovered(d => !d);
+          }}
+        >
+          {t('grid.filterDiscovered')}
+        </button>
+        <div className="label-filter" ref={labelPanelRef}>
           <button
-            className={`filter-btn${discovered ? ' filter-btn--active' : ''}`}
-            onClick={() => {
-              // "My collection" opens sorted by most recently collected; leaving
-              // it drops that sort, which only exists inside the collection.
-              if (discovered) { if (sort === 'checkin') setSort('distance'); }
-              else setSort('checkin');
-              setDiscovered(d => !d);
-            }}
+            className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
+            onClick={() => { setLabelsOpen(o => !o); setRaritiesOpen(false); }}
           >
-            {t('grid.filterDiscovered')}
+            {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
           </button>
-          <div className="label-filter" ref={labelPanelRef}>
-            <button
-              className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
-              onClick={() => { setLabelsOpen(o => !o); setRaritiesOpen(false); }}
-            >
-              {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
-            </button>
-            {labelsOpen && (
-              <div className="label-filter__panel">
-                <LabelFilterGroups
-                  activeLabels={activeLabels}
-                  onToggle={toggleLabel}
-                  hidden={cityScoped ? ['outside'] : []}
-                />
-                {activeLabels.size > 0 && (
-                  <button
-                    className="label-pill label-pill--clear"
-                    onClick={() => setActiveLabels(new Set())}
-                  >
-                    ✕ {t('grid.clearLabels')}
-                  </button>
-                )}
-              </div>
-            )}
-          </div>
-          <div className="label-filter" ref={rarityPanelRef}>
-            <button
-              className={`filter-btn${raritiesOpen || activeRarities.size > 0 ? ' filter-btn--active' : ''}`}
-              onClick={() => { setRaritiesOpen(o => !o); setLabelsOpen(false); }}
-            >
-              {t('grid.filterRarity')}{activeRarities.size > 0 ? ` (${activeRarities.size})` : ' ▼'}
-            </button>
-            {raritiesOpen && (
-              <div className="label-filter__panel">
-                {rarityOptions.map(r => (
-                  <button
-                    key={r}
-                    className={`label-pill${activeRarities.has(r) ? ' label-pill--active' : ''}`}
-                    onClick={() => toggleRarity(r)}
-                    style={activeRarities.has(r) ? {
-                      borderColor: RARITY_VAR[r],
-                      color: RARITY_VAR[r],
-                      background: `color-mix(in srgb, ${RARITY_VAR[r]} 9%, transparent)`,
-                    } : undefined}
-                  >
-                    {RARITY_ICON[r]} {convert(RARITY_LABEL[lang]?.[r] ?? r)}
-                  </button>
-                ))}
-                {activeRarities.size > 0 && (
-                  <button
-                    className="label-pill label-pill--clear"
-                    onClick={() => setActiveRarities(new Set())}
-                  >
-                    ✕ {t('grid.clearLabels')}
-                  </button>
-                )}
-              </div>
-            )}
-          </div>
+          {labelsOpen && (
+            <div className="label-filter__panel">
+              <LabelFilterGroups
+                activeLabels={activeLabels}
+                onToggle={toggleLabel}
+                hidden={cityScoped ? ['outside'] : []}
+              />
+              {activeLabels.size > 0 && (
+                <button
+                  className="label-pill label-pill--clear"
+                  onClick={() => setActiveLabels(new Set())}
+                >
+                  ✕ {t('grid.clearLabels')}
+                </button>
+              )}
+            </div>
+          )}
+        </div>
+        <div className="label-filter" ref={rarityPanelRef}>
+          <button
+            className={`filter-btn${raritiesOpen || activeRarities.size > 0 ? ' filter-btn--active' : ''}`}
+            onClick={() => { setRaritiesOpen(o => !o); setLabelsOpen(false); }}
+          >
+            {t('grid.filterRarity')}{activeRarities.size > 0 ? ` (${activeRarities.size})` : ' ▼'}
+          </button>
+          {raritiesOpen && (
+            <div className="label-filter__panel">
+              {rarityOptions.map(r => (
+                <button
+                  key={r}
+                  className={`label-pill${activeRarities.has(r) ? ' label-pill--active' : ''}`}
+                  onClick={() => toggleRarity(r)}
+                  style={activeRarities.has(r) ? {
+                    borderColor: RARITY_VAR[r],
+                    color: RARITY_VAR[r],
+                    background: `color-mix(in srgb, ${RARITY_VAR[r]} 9%, transparent)`,
+                  } : undefined}
+                >
+                  {RARITY_ICON[r]} {convert(RARITY_LABEL[lang]?.[r] ?? r)}
+                </button>
+              ))}
+              {activeRarities.size > 0 && (
+                <button
+                  className="label-pill label-pill--clear"
+                  onClick={() => setActiveRarities(new Set())}
+                >
+                  ✕ {t('grid.clearLabels')}
+                </button>
+              )}
+            </div>
+          )}
         </div>
       </div>
+    </div>
+  );
+  const stats = (
+    <p className="explore-stats" style={{ margin: 0 }}>
+      <span>{unlocked}</span>{!discovered && <> / <span>{total}</span></>} {t('explore.statsLabel')}
+      {!discovered && total > 0 && <><br />{t('explore.progress')} <span>{(unlocked / total * 100).toFixed(1)}%</span></>}
+    </p>
+  );
+
+  return (
+    <>
+      {wide ? (filterSlot && createPortal(<>{filterBar}{stats}</>, filterSlot)) : filterBar}
+      {wide && appliedSlot && createPortal(renderApplied({
+        labels: [...activeLabels],
+        onClearLabel: toggleLabel,
+        rarity: activeRarity,
+        onClearRarity: () => setActiveRarities(new Set()),
+        onClearAll: () => { setActiveLabels(new Set()); setActiveRarities(new Set()); },
+      }), appliedSlot)}
 
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
-        <p className="explore-stats" style={{ margin: 0 }}>
-          <span>{unlocked}</span>{!discovered && <> / <span>{total}</span></>} {t('explore.statsLabel')}
-          {!discovered && total > 0 && <><br />{t('explore.progress')} <span>{(unlocked / total * 100).toFixed(1)}%</span></>}
-        </p>
+        {!wide && stats}
         <div className="label-filter" ref={sortPanelRef}>
           <button
             className={`filter-btn${sortOpen || sort !== 'distance' ? ' filter-btn--active' : ''}`}
@@ -271,7 +291,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         </div>
       </div>
 
-      <div className="location-grid">
+      <div className="location-grid" {...previewHandlers}>
         {filtered.slice(0, visibleCount).map(loc => (
           <LocationCard
             key={loc._id}
@@ -279,6 +299,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             onClick={onCardClick}
             distance={loc._distance}
             nearby={!loc.unlocked && loc._distance != null && loc._distance <= NEARBY_REVEAL_M}
+            previewable
           />
         ))}
         {filtered.length === 0 && (
@@ -288,6 +309,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         )}
       </div>
       {hasMore && <div ref={sentinelRef} style={{ height: 1 }} />}
+      {preview}
     </>
   );
 }
