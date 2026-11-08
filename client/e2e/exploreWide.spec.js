@@ -254,6 +254,20 @@ test.describe('Explore on a 2K screen', () => {
     }
   });
 
+  test('each picked rarity gets its own line under the map and clears on its own', async ({ page }) => {
+    const buttons = page.locator('.explore-side .label-filter > .filter-btn');
+    await buttons.nth(1).click();
+    await page.locator('.explore-side .label-pill', { hasText: 'Rare' }).click();
+    await page.locator('.explore-side .label-pill', { hasText: 'Common' }).click();
+    await buttons.nth(1).click();
+    const items = page.locator('.explore-applied__item');
+    await expect(items).toHaveCount(2);
+    await expect(page.locator('.explore-main .loc-card')).toHaveCount(32); // all the mock's city cards are Rare
+    await items.filter({ hasText: 'Common' }).locator('.explore-applied__clear').click();
+    await expect(items).toHaveCount(1);
+    await expect(items).toContainText('Rare');
+  });
+
   test('one button clears the area, rarity and labels together', async ({ page }) => {
     const clear = page.getByRole('button', { name: 'Clear filters' });
     await expect(clear).toHaveCount(0);

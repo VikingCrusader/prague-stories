@@ -61,7 +61,7 @@ export default function ExplorePage() {
   // "My Collections" is on (reported by LocationGrid): the header then adds a
   // line about holding a card to admire it (CardShowcase).
   const [inCollection, setInCollection] = useState(false);
-  // The rarity picked in LocationGrid's filter (one at a time), or null: its
+  // The rarity picked in LocationGrid's filter when exactly one is, or null: its
   // description (the Guide's line) shows under the title.
   const [rarity, setRarity]             = useState(null);
   // Default to the city proper: cards tagged `outside` lie beyond Prague's

@@ -150,12 +150,12 @@ function Item({ name, nameNode, color, onClear, children }) {
 // mode. With no filter on: the district and quarter the player is in, each with
 // its line, and how far the nearest card still to collect is (`here`); or, without a
 // position in Prague, a `tip`; a guest gets what the app is for and a link to the Guide.
-export default function ExploreApplied({ area, areaItems = [], rarity, onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement }) {
+export default function ExploreApplied({ area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const pick = (entry) => (entry ? convert(entry[lang] || entry.en) : null);
-  const anyFilter = area || rarity || labels.length > 0;
+  const anyFilter = area || rarities.length > 0 || labels.length > 0;
   return (
     <>
       {notes.map(note => <p key={note.key} className="explore-applied__note">{note.body}</p>)}
@@ -184,11 +184,11 @@ export default function ExploreApplied({ area, areaItems = [], rarity, onClearRa
           {pick(item.blurb)}
         </Item>
       ))}
-      {rarity && (
-        <Item name={convert(RARITY_LABEL[lang]?.[rarity] ?? RARITY_LABEL.en[rarity])} color={RARITY_VAR[rarity]} onClear={onClearRarity}>
-          {pick(RARITY_QUIP[rarity])}
+      {rarities.map(r => (
+        <Item key={r} name={convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])} color={RARITY_VAR[r]} onClear={() => onClearRarity(r)}>
+          {pick(RARITY_QUIP[r])}
         </Item>
-      )}
+      ))}
       {labels.map(key => (
         <Item key={key} name={pick(LABEL_DEFINITIONS[key])} onClear={() => onClearLabel(key)}>
           {pick(LABEL_BLURB[key])}

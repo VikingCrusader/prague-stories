@@ -122,7 +122,7 @@ export default function MapPage() {
 
   // One rarity at a time, as on Explore.
   const toggleRarity = (r) => {
-    setActiveRarities(prev => (prev.has(r) ? new Set() : new Set([r])));
+    setActiveRarities(prev => { const next = new Set(prev); if (!next.delete(r)) next.add(r); return next; });
   };
 
   const addToast = (message, type = 'success') => {

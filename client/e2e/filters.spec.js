@@ -75,20 +75,27 @@ test.describe('Explore grid — search & filters', () => {
     expect(names).toContain('Charles Bridge');
   });
 
-  test('one rarity at a time, with its description under the title', async ({ page }) => {
+  test('rarities add up; the description under the title shows with exactly one', async ({ page }) => {
     await page.getByRole('button', { name: /^Rarity/ }).click();
     const panel = page.locator('.label-filter__panel');
     await panel.getByRole('button', { name: /Legend/ }).click();
     await expect(page.locator('.explore-rarity-blurb')).toContainText('The most magnificent landmarks of Prague.');
     await expect(page.locator('.explore-area-blurb')).toHaveCount(0); // the intro line gives way
 
-    // Picking another rarity replaces the first instead of adding to it.
+    const legendCount = await page.locator('.loc-card').count();
+
+    // Picking another rarity adds to the first, and the single description goes.
     await panel.getByRole('button', { name: /Rare/ }).click();
+    await expect(page.locator('.loc-card')).toHaveCount(legendCount + 1);
+    await expect(page.locator('.explore-rarity-blurb')).toHaveCount(0);
+
+    // Taking one off leaves the other, with its description back.
+    await panel.getByRole('button', { name: /Legend/ }).click();
     await expect(page.locator('.loc-card')).toHaveCount(1);
     await expect(page.locator('.loc-card__name')).toHaveText('Petřín Tower');
     await expect(page.locator('.explore-rarity-blurb')).toContainText('makes you look twice');
 
-    // Picking it again clears the filter and the description.
+    // Picking the last one again clears the filter and the description.
     await panel.getByRole('button', { name: /Rare/ }).click();
     await expect(page.locator('.loc-card')).toHaveCount(4);
     await expect(page.locator('.explore-rarity-blurb')).toHaveCount(0);

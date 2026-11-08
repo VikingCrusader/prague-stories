@@ -252,39 +252,39 @@ export const LABEL_BLURB = {
 
 export const RARITY_QUIP = {
   common: {
-    en: 'Prague-common, which anywhere else would be a postcard.',
-    cz: 'Běžné po pražsku. Jinde by to byla pohlednice.',
-    zh: '布拉格式的普通，放别处就是明信片。',
+    en: "Prague's everyday scenery: the church you pass, the old house on the corner, the small park down the road. Tour groups skip them, yet they are what the city is really made of. Anywhere else, each one would be a postcard.",
+    cz: 'Každodenní pražská kulisa: kostel, kolem kterého chodíte, starý dům na rohu, malý park o ulici dál. Zájezdy je míjejí, a přitom z nich město doopravdy je. Kdekoli jinde by každé z nich bylo pohlednicí.',
+    zh: '布拉格的日常风景：路过的教堂、街角的老楼、社区里的小公园。旅行团不会来，这座城市却正是由它们组成的。放到别的城市，每一处都够格上明信片。',
   },
   rare: {
-    en: "You'll walk past, stop, and walk back.",
-    cz: 'Projdete kolem, zastavíte se a vrátíte se.',
-    zh: '你会走过去，停下来，再退回来。',
+    en: "Places that make you look twice in the street, for an unusual shape or a good story behind them. You'll walk past, stop, and walk back.",
+    cz: 'Místa, kvůli kterým se na ulici ohlédnete, ať už pro neobvyklý tvar, nebo pro dobrý příběh. Projdete kolem, zastavíte se a vrátíte se.',
+    zh: '走在街上会让你忍不住多看一眼的地方，要么造型别致，要么背后藏着一段好故事。你会走过去，停下来，再退回来。',
   },
   superior: {
-    en: 'Rare, but with better hiding places.',
-    cz: 'Vzácné, jen s lepšími úkryty.',
-    zh: '和稀有差不多，只是更会躲。',
+    en: 'One step above rare: just as eye-catching, only better at hiding. They wait at the back of a courtyard, the end of a lane or the far side of a hill, and finding one feels like a small personal victory.',
+    cz: 'O stupeň výš než vzácné: upoutají stejně, jen se umí lépe schovat. Čekají v hloubi dvora, na konci uličky nebo za kopcem a najít je je malé osobní vítězství.',
+    zh: '比稀有再高一级，一样吸引眼球，只是更会躲。它们藏在院子深处、巷子尽头或者山坡背面，找到的时候难免有点得意。',
   },
   epic: {
-    en: 'The building the whole neighbourhood gives directions by.',
-    cz: 'Stavba, podle které celá čtvrť popisuje cestu.',
-    zh: '整片街区指路都要靠它。',
+    en: 'Grand and lavish, usually the most striking building for streets around, with a story to match the scale. The whole neighbourhood gives directions by it.',
+    cz: 'Velkolepé a honosné, obvykle nejnápadnější stavba v širokém okolí, s příběhem odpovídajícím rozměrům. Podle ní popisuje cestu celá čtvrť.',
+    zh: '宏伟华丽，往往是一片城区里最醒目的建筑，背后的故事也撑得起这份气派。整片街区指路都要靠它。',
   },
   mythic: {
-    en: "You won't stumble on these. You have to mean it.",
-    cz: 'Náhodou sem nezabloudíte. Musíte chtít.',
-    zh: '不会碰巧路过，得是真心要来。',
+    en: "Hard to find and rarely visited, yet they carry real historical or cultural weight. Plenty of locals couldn't tell you where they are. You won't stumble on these: you have to mean it.",
+    cz: 'Těžko k nalezení a málo navštěvované, a přece historicky či kulturně zásadní. Mnohý Pražan by vám neřekl, kde jsou. Náhodou sem nezabloudíte, musíte chtít.',
+    zh: '极难寻觅，鲜有人至，却承载着重要的历史或文化意义。不少地方连本地人都说不清在哪儿。不会碰巧路过，得是真心要来。',
   },
   legend: {
-    en: 'If you skip these, your mother will ask why.',
-    cz: 'Když je vynecháte, maminka se bude ptát proč.',
-    zh: '不去的话，回家你妈都要问为什么。',
+    en: "The most magnificent landmarks of Prague. Look out over the skyline from any high point and they are the first things you see, and they turn up on every postcard. If you haven't been here, you haven't really been to Prague.",
+    cz: 'Nejvelkolepější památky Prahy. Při pohledu na panorama z výšky je uvidíte jako první a nechybějí na žádné pohlednici. Kdo tu nebyl, jako by v Praze nebyl.',
+    zh: '布拉格最宏伟的地标。站在高处眺望天际线，一眼就能认出它们，它们也是明信片上的常客。没来过这里，就等于没来过布拉格。',
   },
   expedition: {
-    en: 'Bring a sandwich. The tram does not go this far.',
-    cz: 'Vezměte si svačinu. Tramvaj tak daleko nejede.',
-    zh: '带上三明治吧，电车到不了这儿。',
+    en: 'Beyond Prague, castles, old towns and open country are waiting. The further from Charles Bridge, the more XP, and the stone in the frame tells you what the trip is worth. Bring a sandwich. The tram does not go this far.',
+    cz: 'Za Prahou čekají hrady, stará města a volná krajina. Čím dál od Karlova mostu, tím víc XP, a kámen v rámu prozradí, kolik ta cesta stojí. Vezměte si svačinu. Tramvaj tak daleko nejede.',
+    zh: '出了布拉格，还有城堡、古镇和山野在等你。离查理大桥越远，经验越多，框上的宝石会告诉你这一趟值多少。带上三明治吧，电车到不了这儿。',
   },
 };
 

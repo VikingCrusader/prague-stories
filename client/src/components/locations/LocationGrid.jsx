@@ -38,7 +38,8 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   const [activeLabels, setActiveLabels]     = useState(() => new Set(initialFilter?.label ? [initialFilter.label] : []));
   const [activeRarities, setActiveRarities] = useState(() => new Set(initialFilter?.rarity ? [initialFilter.rarity] : []));
   // The picked rarity (or null), so ExplorePage can show its description.
-  const activeRarity = activeRarities.size ? [...activeRarities][0] : null;
+  // The header only has room for one description, so it shows with a single rarity.
+  const activeRarity = activeRarities.size === 1 ? [...activeRarities][0] : null;
   useEffect(() => { onRarityChange?.(activeRarity); }, [activeRarity, onRarityChange]);
   const [labelsOpen, setLabelsOpen]         = useState(false);
   const [raritiesOpen, setRaritiesOpen]     = useState(false);
@@ -114,7 +115,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // One rarity at a time (2026-10-16): picking another replaces it, picking
   // the active one again clears it.
   const toggleRarity = r => {
-    setActiveRarities(prev => (prev.has(r) ? new Set() : new Set([r])));
+    setActiveRarities(prev => { const next = new Set(prev); if (!next.delete(r)) next.add(r); return next; });
   };
 
   const filtered = useMemo(() => {
@@ -285,8 +286,8 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
       {wide && appliedSlot && createPortal(renderApplied({
         labels: [...activeLabels],
         onClearLabel: toggleLabel,
-        rarity: activeRarity,
-        onClearRarity: () => setActiveRarities(new Set()),
+        rarities: ALL_RARITIES.filter(r => activeRarities.has(r)),
+        onClearRarity: toggleRarity,
         onClearAll: () => { setActiveLabels(new Set()); setActiveRarities(new Set()); },
       }), appliedSlot)}
 
