@@ -2942,6 +2942,7 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .explore-collection .ring-stats .stat-card__value { font-size: 46px; line-height: 1.15; }
 .explore-collection .ring-stats__part { display: block; }
 .explore-collection .rarity-compact__list { margin-top: 0; }
+.explore-collection .quiet-link:hover .rarity-compact__n { text-decoration: underline; text-underline-offset: 3px; }
 .explore-collection .rarity-compact__name { font-size: 14px; }
 .explore-collection .rarity-compact__n { font-size: 28px; }
 .explore-applied__clear { flex: none; padding: 0 4px; background: none; border: 0; font: inherit; font-size: 15px; color: var(--text-muted); cursor: pointer; }

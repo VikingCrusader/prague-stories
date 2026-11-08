@@ -62,6 +62,14 @@ test.describe('Explore on a 2K screen', () => {
     await expect(summary.locator('.stat-card__value')).toHaveText('10');
     await expect(summary.locator('.rarity-compact__item')).toHaveCount(7);
     await expect(summary.locator('.rarity-compact__item').nth(1)).toContainText('10'); // rare
+    await expect(summary.locator('.rarity-compact__item').nth(0).locator('button')).toHaveCount(0); // none collected, nothing to filter
+    await expect(page.locator('.explore-stats')).not.toContainText('/');
+
+    await summary.locator('.rarity-compact__item').nth(1).locator('button').click(); // filters the collection
+    await expect(summary).toHaveCount(0);
+    await expect(page.locator('.explore-applied__item')).toContainText('Rare');
+    await page.getByRole('button', { name: 'Clear filters' }).click();
+    await expect(summary).toHaveCount(1);
 
     await page.locator('.district-map__area').nth(5).click();
     await expect(summary).toHaveCount(0);
@@ -304,6 +312,16 @@ test.describe('Explore on a 2K screen', () => {
       expect(sizes.svg).toBeLessThanOrEqual(sizes.stage);
       expect(sizes.last).toBeLessThanOrEqual(sizes.side);
     }
+  });
+
+  test('the count has a total and a share in the city only', async ({ page }) => {
+    const stats = page.locator('.explore-stats');
+    await expect(stats).toContainText('/');
+    await expect(stats).toContainText('%');
+    await page.locator('.explore-side .scope-toggle').click();
+    await expect(stats).not.toContainText('/');
+    await expect(stats).not.toContainText('%');
+    await expect(stats).toContainText('10');
   });
 
   test('Show all lights up the land around the city', async ({ page }) => {

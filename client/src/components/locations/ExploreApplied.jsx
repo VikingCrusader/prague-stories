@@ -16,7 +16,7 @@ import { isInCity } from './ScopeToggle';
 // (2026-11-08, user's call), worked out from the cards the page already has, so
 // a new check-in shows at once. Same rule as the profile: the percentage is the
 // city proper, the big number every collected card.
-function CollectionSummary({ locations }) {
+function CollectionSummary({ locations, onPickRarity }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -43,8 +43,17 @@ function CollectionSummary({ locations }) {
       <ul className="rarity-compact__list">
         {ALL_RARITIES.map(r => (
           <li key={r} className="rarity-compact__item" style={{ color: RARITY_VAR[r] }}>
-            <span className="rarity-compact__name">{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>
-            <span className="rarity-compact__n">{count(r)}</span>
+            {count(r) > 0 ? (
+              <button type="button" className="quiet-link rarity-compact__link" onClick={() => onPickRarity(r)}>
+                <span className="rarity-compact__name">{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>
+                <span className="rarity-compact__n">{count(r)}</span>
+              </button>
+            ) : (
+              <>
+                <span className="rarity-compact__name">{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>
+                <span className="rarity-compact__n">0</span>
+              </>
+            )}
           </li>
         ))}
       </ul>
@@ -159,7 +168,7 @@ export default function ExploreApplied({ area, areaItems = [], rarities = [], on
   return (
     <>
       {notes.map(note => <p key={note.key} className="explore-applied__note">{note.body}</p>)}
-      {!anyFilter && collection && <CollectionSummary locations={collection} />}
+      {!anyFilter && collection && <CollectionSummary locations={collection} onPickRarity={onClearRarity} />}
       {!anyFilter && !collection && here && (
         <div className="explore-applied__default explore-here-card" onClick={here.onFilter}>
           {here.areas.map(area_ => (
