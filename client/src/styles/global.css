@@ -1145,12 +1145,12 @@ html:not([data-lang="zh"]) .dashboard-page .card-strip__empty * {
   font-family: "Alegreya Sans", sans-serif !important;
 }
 html:not([data-lang="zh"]) .dashboard-page .stat-card--rank-top .stat-card__label {
-  font-family: var(--ui-font) !important;
+  font-family: "Alegreya Sans SC", "Alegreya Sans", sans-serif !important;
 }
 /* Narrow phones: the level badge keeps the original font, or the row runs past the screen. */
 @media (max-width: 600px) {
   html:not([data-lang="zh"]) #root .dashboard-page .level-badge,
-  html:not([data-lang="zh"]) #root .dashboard-page .level-badge * { font-family: var(--ui-font-text) !important; }
+  html:not([data-lang="zh"]) #root .dashboard-page .level-badge * { font-family: "Alegreya Sans", sans-serif !important; }
 }
 html:not([data-lang="zh"]) .dashboard-title {
   font-family: "Manufacturing Consent", serif !important;
@@ -1196,5 +1196,58 @@ html:not([data-lang="zh"]) .ach-unlock,
 html:not([data-lang="zh"]) .ach-unlock *:not(.ach-row__name):not(.ach-modal__name):not(.ach-tile__name):not(.ach-unlock__name),
 html:not([data-lang="zh"]) .draw-page,
 html:not([data-lang="zh"]) .draw-page *:not(h1) {
+  font-family: var(--reading-font) !important;
+}
+
+/* ZH: the Czech name on Explore cards in LXGW WenKai too. */
+html[data-lang="zh"] .explore-page .loc-card__cz-name,
+html[data-lang="zh"] .card-showcase .loc-card__cz-name {
+  font-family: var(--reading-font) !important;
+}
+
+/* EN/CZ: a card's name is Palatino everywhere (grid, hover preview, detail, Map, profile); its Czech line stays in the reading font. :is(#root, body) outranks the page-wide rules and also reaches portals. */
+html:not([data-lang="zh"]) :is(#root, body) .loc-card__name,
+html:not([data-lang="zh"]) :is(#root, body) .card-preview__name,
+html:not([data-lang="zh"]) :is(#root, body) .detail-title-name,
+html:not([data-lang="zh"]) :is(#root, body) .card-strip__name,
+html:not([data-lang="zh"]) :is(#root, body) .map-page .map-sidebar h3.px-title {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif !important;
+}
+html:not([data-lang="zh"]) :is(#root, body) .loc-card__name { font-weight: 700; }
+
+/* EN/CZ side column: names in Palatino, like cards and achievements; controls and content stay in the reading font. */
+html:not([data-lang="zh"]) #root .explore-side .explore-applied__name,
+html:not([data-lang="zh"]) #root .explore-side .explore-next__name {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif !important;
+}
+
+/* EN/CZ History: everything in the reading font but the titles, quote boxes, badges and names. */
+html:not([data-lang="zh"]) .history-page *:not(.px-title):not(.history-event__title):not(.history-event__title *):not(.history-era-divider__title):not(.history-era-divider__title *):not(.history-event__quote-text):not(.history-event__quote-text *):not(.ach-badge-pill):not(.history-axis__era-label):not(.history-event__achievement-name):not(.history-axis__name) {
+  font-family: var(--reading-font) !important;
+}
+html:not([data-lang="zh"]) .history-page .history-axis__era-label,
+html:not([data-lang="zh"]) .history-page .history-event__achievement-name {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif !important;
+}
+/* The timeline's event names are cut short in the wider face: they keep the original font. */
+html:not([data-lang="zh"]) .history-page .history-axis__name { font-family: "Alegreya Sans", sans-serif !important; }
+/* The treasure hunt's longer buttons wrap inside their panel. */
+html:not([data-lang="zh"]) .hunt-panel .px-btn { white-space: normal; max-width: 100%; box-sizing: border-box; justify-content: center; text-align: center; }
+
+/* EN/CZ: the reading font is now the default. Places that keep another face either name it
+   outright or, like the phone navbar, get the old values back here. */
+html:not([data-lang="zh"]) {
+  --ui-font: var(--reading-font);
+  --ui-font-text: var(--reading-font);
+}
+@media (max-width: 600px) {
+  html:not([data-lang="zh"]) .navbar { --ui-font: "Alegreya Sans SC", "Alegreya Sans", sans-serif; --ui-font-text: "Alegreya Sans", sans-serif; }
+}
+html:not([data-lang="zh"]) .leaderboard-page *:not(h1),
+html:not([data-lang="zh"]) .auth-page *:not(h1):not(.px-title),
+html:not([data-lang="zh"]) .privacy-page *:not(h1),
+html:not([data-lang="zh"]) .location-consent__box,
+html:not([data-lang="zh"]) .location-consent__box *,
+html:not([data-lang="zh"]) .area-guide *:not(.px-title) {
   font-family: var(--reading-font) !important;
 }
