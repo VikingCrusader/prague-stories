@@ -10,12 +10,21 @@
   box-shadow: none;
   overflow: visible;
   height: 100%;
-  filter: drop-shadow(3px 4px 0 var(--card-shadow, rgba(0, 0, 0, 0.5)));
+  /* Thickness: the packet's own outline repeated down and to the right in a darker
+     foil, so even the serrated edge has depth. It takes no room in the layout. */
+  --edge: color-mix(in srgb, var(--foil) 50%, #000);
+  --extrude: drop-shadow(1px 1px 0 var(--edge)) drop-shadow(1px 1px 0 var(--edge)) drop-shadow(1px 1px 0 var(--edge)) drop-shadow(1px 1px 0 var(--edge));
+  filter: var(--extrude) drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.45));
 }
+.loc-card.pack-card--sealed { --edge: #2a2a2a; }
 .loc-card.pack-card:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
+/* Laid out like a card (LocationCard's classes): the 3px of padding stand where a
+   card has its border, and the serrated edge stays inside them, so the cover,
+   name and the rest sit exactly where a neighbouring card's do. */
 .pack-card__foil {
-  --zig: 5px;
+  --zig: 4px;
+  --crimp: 13px;
   --zig-top: conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(2 * var(--zig)) 51% repeat-x;
   --zig-bottom: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / calc(2 * var(--zig)) 51% repeat-x;
   position: relative;
@@ -23,101 +32,119 @@
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 7px;
-  padding: 20px 9px 20px;
+  padding: 3px;
   overflow: hidden;
   color: #f5e3b0;
-  background: linear-gradient(112deg,
-    color-mix(in srgb, var(--foil) 70%, #fff) 0%,
-    var(--foil) 26%,
-    color-mix(in srgb, var(--foil) 68%, #000) 52%,
-    var(--foil) 76%,
-    color-mix(in srgb, var(--foil) 78%, #fff) 100%);
+  background:
+    /* The bulge of a filled packet: lit in the middle, falling away towards the seals. */
+    radial-gradient(70% 58% at 42% 44%, rgba(255, 255, 255, 0.17), transparent 72%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.32) 0, transparent 9%, transparent 91%, rgba(0, 0, 0, 0.36) 100%),
+    linear-gradient(112deg,
+      color-mix(in srgb, var(--foil) 70%, #fff) 0%,
+      var(--foil) 26%,
+      color-mix(in srgb, var(--foil) 68%, #000) 52%,
+      var(--foil) 76%,
+      color-mix(in srgb, var(--foil) 78%, #fff) 100%);
   -webkit-mask: var(--zig-top), var(--zig-bottom);
   mask: var(--zig-top), var(--zig-bottom);
+  /* Where the seals end, a small pinch in each side. */
+  clip-path: polygon(
+    0 0, 100% 0,
+    100% var(--crimp), calc(100% - 5px) calc(var(--crimp) + 4px), 100% calc(var(--crimp) + 8px),
+    100% calc(100% - var(--crimp) - 8px), calc(100% - 5px) calc(100% - var(--crimp) - 4px), 100% calc(100% - var(--crimp)),
+    100% 100%, 0 100%,
+    0 calc(100% - var(--crimp)), 5px calc(100% - var(--crimp) - 4px), 0 calc(100% - var(--crimp) - 8px),
+    0 calc(var(--crimp) + 8px), 5px calc(var(--crimp) + 4px), 0 var(--crimp));
+  /* Puffed like a filled packet: lit down one side, in shade down the other. */
+  box-shadow:
+    inset 11px 0 14px -7px rgba(255, 255, 255, 0.55),
+    inset -14px 0 18px -6px rgba(0, 0, 0, 0.65);
 }
-/* The crimped seals along the two ends. */
-.pack-card__foil::before,
-.pack-card__foil::after {
+/* Crumpled foil, under the art and the text. */
+.pack-card__foil::before {
   content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 13px;
-  background: repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.22) 0 1px, rgba(0, 0, 0, 0.24) 1px 4px);
-}
-.pack-card__foil::before { top: 0; border-bottom: 1px solid color-mix(in srgb, var(--pack-gold) 70%, transparent); }
-.pack-card__foil::after { bottom: 0; border-top: 1px solid color-mix(in srgb, var(--pack-gold) 70%, transparent); }
-
-.pack-card__head { text-align: center; min-width: 0; }
-.pack-card .loc-card__name.pack-card__name {
-  color: #f8e8b8;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin: 0;
-}
-.pack-card .loc-card__cz-name.pack-card__cz { color: rgba(248, 232, 184, 0.72); text-align: center; }
-
-.pack-card__art {
-  position: relative;
-  aspect-ratio: 1;
-  flex: none;
-  overflow: hidden;
-  border: 1px solid color-mix(in srgb, var(--pack-gold) 75%, transparent);
-  background: rgba(0, 0, 0, 0.3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.pack-card__art > img:not(.pack-card__lock) { width: 100%; height: 100%; object-fit: cover; display: block; }
-.pack-card__emoji { font-size: 3rem; }
-.pack-card__lock { position: absolute; width: 34%; height: auto; left: 33%; top: 33%; }
-.pack-card--sealed .pack-card__art > img:not(.pack-card__lock) { filter: grayscale(0.45) brightness(0.6); }
-
-.pack-card__foot { margin-top: auto; min-width: 0; }
-.pack-card__label {
-  text-align: center;
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  color: rgba(248, 232, 184, 0.82);
-  margin-bottom: 4px;
-}
-.pack-card__progress { display: flex; align-items: center; gap: 7px; }
-.pack-card__track { flex: 1; min-width: 0; height: 6px; background: rgba(0, 0, 0, 0.42); display: block; }
-.pack-card__fill { display: block; height: 100%; background: var(--pack-gold); transition: width 400ms; }
-.pack-card__count { font-size: 12px; white-space: nowrap; color: #f8e8b8; }
-
-/* Unlocked: the top seal is gone and the edge is torn. */
-.pack-card--open .pack-card__foil,
-.pack-card--complete .pack-card__foil {
-  -webkit-mask: linear-gradient(#000 0 0) top / 100% 51% no-repeat, var(--zig-bottom);
-  mask: linear-gradient(#000 0 0) top / 100% 51% no-repeat, var(--zig-bottom);
-  clip-path: polygon(0 11px, 6% 6px, 13% 12px, 21% 4px, 30% 10px, 38% 3px, 47% 11px, 55% 5px, 64% 12px, 72% 4px, 81% 10px, 90% 5px, 100% 11px, 100% 100%, 0 100%);
-}
-.pack-card--open .pack-card__foil::before,
-.pack-card--complete .pack-card__foil::before { display: none; }
-
-.pack-card__sheen {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(118deg, transparent 32%, rgba(255, 255, 255, 0.26) 46%, transparent 60%) 120% 0 / 260% 100% no-repeat;
-  transition: background-position 650ms ease;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'320'%20height%3D'460'%3E%3Cfilter%20id%3D'c'%20x%3D'0'%20y%3D'0'%20width%3D'100%25'%20height%3D'100%25'%3E%3CfeTurbulence%20type%3D'fractalNoise'%20baseFrequency%3D'0.014%200.022'%20numOctaves%3D'4'%20seed%3D'7'%2F%3E%3CfeDiffuseLighting%20lighting-color%3D'%23fff'%20surfaceScale%3D'5'%20diffuseConstant%3D'1.1'%3E%3CfeDistantLight%20azimuth%3D'225'%20elevation%3D'52'%2F%3E%3C%2FfeDiffuseLighting%3E%3C%2Ffilter%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20filter%3D'url(%23c)'%2F%3E%3C%2Fsvg%3E") center / cover no-repeat;
+  mix-blend-mode: overlay;
+  opacity: 0.62;
 }
-.pack-card:hover .pack-card__sheen { background-position: -40% 0; }
+/* The two heat-sealed ends. */
+.pack-card__crimp {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  height: var(--crimp);
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.34) 0 1px, rgba(255, 255, 255, 0.06) 1px 2px, rgba(0, 0, 0, 0.34) 2px 4px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.2) 50%, rgba(255, 255, 255, 0.14));
+}
+.pack-card__crimp--top { top: 0; border-bottom: 1px solid color-mix(in srgb, var(--pack-gold) 80%, transparent); box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
+.pack-card__crimp--bottom { bottom: 0; border-top: 1px solid color-mix(in srgb, var(--pack-gold) 80%, transparent); box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.4); }
 
-/* Complete: the only state that keeps moving. */
-.pack-card--complete .pack-card__sheen {
-  background: linear-gradient(115deg, #ff5f9e, #ffd166, #6df0c2, #5fb4ff, #c78bff, #ff5f9e) 0 0 / 300% 300%;
-  mix-blend-mode: color-dodge;
-  opacity: 0.42;
-  animation: pack-holo 6s linear infinite;
+.pack-card .loc-card__banner { position: relative; }
+.pack-card .loc-card__body { position: relative; }
+/* The art sits in a gold frame, drawn outside it so nothing moves. */
+.pack-card .loc-card__banner > img:not(.pack-card__lock) {
+  box-shadow: 0 0 0 1px var(--pack-gold), 0 0 0 3px rgba(0, 0, 0, 0.45), 0 0 0 4px color-mix(in srgb, var(--pack-gold) 55%, transparent), 0 6px 12px rgba(0, 0, 0, 0.45);
 }
-.loc-card.pack-card--complete { filter: drop-shadow(0 0 7px color-mix(in srgb, var(--pack-gold) 65%, transparent)); }
-.pack-card--complete[data-offscreen] .pack-card__sheen { animation-play-state: paused; }
-@keyframes pack-holo { to { background-position: 300% 300%; } }
+.pack-card .loc-card__name { color: #f8e8b8; }
+.pack-card .loc-card__cz-name { color: rgba(248, 232, 184, 0.72); }
+.pack-card .loc-card__xp, .pack-card .loc-card__dist { color: #f8e8b8; }
+.pack-card :is(.loc-card__name, .loc-card__cz-name, .loc-card__xp, .loc-card__dist) { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75), 0 0 6px rgba(0, 0, 0, 0.35); }
+.pack-card__lock { position: absolute; width: 34%; height: auto; left: 33%; top: 50%; transform: translateY(-50%); }
+
+/* The progress bar takes the label's place and, being one, its exact size. */
+.pack-card .label-pill-sm.pack-card__bar { position: relative; overflow: hidden; background: rgba(0, 0, 0, 0.42) !important; color: transparent; }
+.pack-card__fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--pack-gold); transition: width 400ms; }
+
+/* Always a closed packet, the same at both ends (user's call). Under three cards it
+   is locked and has no colour; after that it has its colours and stays still; only
+   a complete one gets the effects. */
+.pack-card--sealed .pack-card__foil { filter: grayscale(1) brightness(0.82); }
+
+.pack-card__sheen { display: none; }
+.pack-card--complete .loc-card__banner,
+.pack-card--complete .loc-card__body { position: relative; z-index: 1; }
+/* The holographic foil lies under the art and the text, so neither washes out. */
+.pack-card--complete .pack-card__sheen {
+  display: block;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, #ff5f9e, #ffd166, #6df0c2, #5fb4ff, #c78bff, #ff5f9e) 0 0 / 300% 300%;
+  mix-blend-mode: hard-light;
+  opacity: 0.6;
+  animation: pack-holo 5s ease-in-out infinite alternate;
+}
+/* A band of light crosses the whole packet, art included. */
+.pack-card--complete .pack-card__foil::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(118deg, transparent 42%, rgba(255, 255, 255, 0.6) 50%, transparent 58%) 130% 0 / 260% 100% no-repeat;
+  animation: pack-glint 3.8s ease-in-out infinite;
+}
+.loc-card.pack-card--complete { animation: pack-glow 2.6s ease-in-out infinite; }
+.pack-card--complete[data-offscreen],
+.pack-card--complete[data-offscreen] .pack-card__sheen,
+.pack-card--complete[data-offscreen] .pack-card__foil::after { animation-play-state: paused; }
+/* Within the oversized gradient and back, so its edge never comes into view. */
+@keyframes pack-holo { to { background-position: 100% 100%; } }
+@keyframes pack-glint { 0% { background-position: 130% 0; } 55%, 100% { background-position: -30% 0; } }
+@keyframes pack-glow {
+  0%, 100% { filter: var(--extrude) drop-shadow(0 0 5px color-mix(in srgb, var(--pack-gold) 60%, transparent)); }
+  50% { filter: var(--extrude) drop-shadow(0 0 14px var(--pack-gold)); }
+}
+@keyframes pack-glow-3d {
+  0%, 100% { filter: drop-shadow(0 0 8px color-mix(in srgb, var(--pack-gold) 60%, transparent)); }
+  50% { filter: drop-shadow(0 0 20px var(--pack-gold)); }
+}
 
 .map-board .map-tile--pack .map-tile__name { color: var(--gold); -webkit-line-clamp: 2; }
 /* The bar gives way to the count, which always shows whole. */
@@ -186,12 +213,13 @@
 @keyframes pack-pop { from { transform: scale(0.3); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 .pack-open__pack .loc-card { cursor: default; }
 .pack-open__strip {
-  --zig: 5px;
+  --zig: 4px;
   position: absolute;
+  z-index: 3;
   left: 0;
   right: 0;
   top: -1px;
-  height: 18px;
+  height: 15px;
   background: linear-gradient(112deg, color-mix(in srgb, var(--foil) 70%, #fff), var(--foil) 55%, color-mix(in srgb, var(--foil) 78%, #fff));
   -webkit-mask: conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(2 * var(--zig)) 100% repeat-x;
   mask: conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(2 * var(--zig)) 100% repeat-x;
@@ -232,8 +260,53 @@
   .pack-open, .pack-open__pack, .pack-open__text { animation: none; }
   .pack-open__strip { animation: none; display: none; }
   .pack-open__card { animation-duration: 1ms; animation-delay: 0ms; }
-  .pack-card--complete .pack-card__sheen { animation: none; }
+  .pack-card--complete .pack-card__sheen, .loc-card.pack-card--complete { animation: none; }
+  .pack-card--complete .pack-card__foil::after { display: none; }
 }
 
 /* Labels and rarity don't apply to packs. */
 .filter-bar .filter-btn:disabled:not(.filter-btn--current) { opacity: 0.45; cursor: default; }
+
+/* Enlarged in the showcase (CardShowcase). */
+.card-showcase__card .loc-card.pack-card { height: 368px; box-shadow: none; filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.55)); }
+.card-showcase__card .loc-card.pack-card--complete { animation-name: pack-glow-3d; }
+/* A real solid while it turns: the two faces apart by the packet's thickness and
+   side walls between them, pinched in towards the seals. */
+.card-showcase__flip--pack { --pack-depth: 7px; }
+.card-showcase__flip--pack > .card-showcase__face { transform: translateZ(var(--pack-depth)); }
+.card-showcase__flip--pack > .card-showcase__face--back { transform: rotateY(180deg) translateZ(var(--pack-depth)); }
+.card-showcase__flip--flat.card-showcase__flip--pack > .card-showcase__face { transform: none; }
+.pack-side {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: calc(var(--pack-depth) * 2);
+  background:
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0 1px, transparent 1px 5px),
+    linear-gradient(90deg, color-mix(in srgb, var(--foil) 55%, #000), color-mix(in srgb, var(--foil) 80%, #fff) 50%, color-mix(in srgb, var(--foil) 55%, #000));
+  clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
+  backface-visibility: visible;
+}
+.pack-side--left { left: calc(var(--pack-depth) * -1); transform: rotateY(-90deg); }
+.pack-side--right { right: calc(var(--pack-depth) * -1); transform: rotateY(90deg); }
+.card-showcase__flip--flat > .pack-side { display: none; }
+.pack-side--sealed { filter: grayscale(1); }
+.pack-card .loc-card__story { position: relative; z-index: 1; margin: 20px 12px; }
+.pack-card .loc-card__story, .pack-card .loc-card__story-title, .pack-card .loc-card__story-sub { text-shadow: none; }
+
+/* The other side of the packet. */
+.pack-back .pack-card__foil { align-items: stretch; justify-content: center; }
+.pack-back__seam {
+  position: absolute;
+  top: var(--crimp);
+  bottom: var(--crimp);
+  left: 50%;
+  width: 24px;
+  transform: translateX(-50%);
+  background: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0 1px, rgba(0, 0, 0, 0.26) 1px 4px);
+  box-shadow: 3px 0 5px rgba(0, 0, 0, 0.42), -1px 0 0 rgba(255, 255, 255, 0.18);
+}
+.pack-back__print { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 0 16px; text-align: center; }
+.pack-back__emblem { display: block; width: 76%; height: auto; filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.55)); }
+:is(#root, body) .pack-back__mark { font-family: "Manufacturing Consent", serif; font-size: 34px; line-height: 1.1; color: var(--pack-gold); text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7); }
+.pack-back__name { color: #f8e8b8; font-size: 15px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75); }

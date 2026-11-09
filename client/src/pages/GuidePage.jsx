@@ -127,8 +127,8 @@ const CONTENT = {
     packsIntro: "Some places are too big for one card. A card pack bundles the cards of one connected corner of the city, such as Prague Castle or Vyšehrad, into a sealed foil packet. You can't collect a pack itself, since it has no single spot to stand on. You collect the cards inside it, on foot, the usual way.",
     packs: [
       { b: "Finding them:", rest: " tap Packs on Explore and the wall of cards becomes a wall of packets; search and the area filter still work. A card that belongs to a pack names it in its detail, and packs also turn up in the History Timeline and the area guides." },
-      { b: "Sealed:", rest: " a padlocked packet, with a progress bar where a card would show its distance. Open it to see the start of its story and every card inside, the ones you're missing behind locks." },
-      { b: "Torn open:", rest: " collect three of its cards and the packet rips open on screen. You get +20 XP and the pack's full story." },
+      { b: "Sealed:", rest: " a grey, padlocked packet with a progress bar. Open it to see the start of its story and every card inside, the ones you're missing behind locks." },
+      { b: "Torn open:", rest: " collect three of its cards and the packet rips open on screen. It gets its colours, and you get +20 XP and the pack's full story." },
       { b: "Complete:", rest: " collect every card and the wrapper turns holographic. The reward is 15 XP per card, at least 100 and at most 800." },
     ],
     packsOutro: "Each reward is paid once and stays yours. If a new card joins a pack later, the bar will admit you're one short, but nothing is taken back.",
@@ -254,8 +254,8 @@ const CONTENT = {
     packsIntro: "Některá místa jsou na jednu kartu moc velká. Balíček spojuje karty jednoho souvislého kouta města, třeba Pražského hradu nebo Vyšehradu, do zapečetěného obalu z fólie. Samotný balíček sesbírat nejde, protože nemá jedno místo, kde by se dalo stát. Sbíráš karty uvnitř, pěšky, jako obvykle.",
     packs: [
       { b: "Kde je najdeš:", rest: " klepni na Průzkumu na Balíčky a ze zdi karet se stane zeď balíčků; hledání a filtr oblasti fungují dál. Karta, která do balíčku patří, ho uvádí ve svém detailu a balíčky se objevují i v Historii a v průvodcích po oblastech." },
-      { b: "Zapečetěný:", rest: " obal se zámkem a ukazatelem postupu tam, kde má karta vzdálenost. Otevři ho a uvidíš začátek příběhu a všechny karty uvnitř, ty chybějící pod zámkem." },
-      { b: "Roztržený:", rest: " sesbírej tři jeho karty a balíček se na obrazovce roztrhne. Dostaneš +20 XP a celý příběh balíčku." },
+      { b: "Zapečetěný:", rest: " šedý obal se zámkem a ukazatelem postupu. Otevři ho a uvidíš začátek příběhu a všechny karty uvnitř, ty chybějící pod zámkem." },
+      { b: "Roztržený:", rest: " sesbírej tři jeho karty a balíček se na obrazovce roztrhne. Získá barvy a ty dostaneš +20 XP a celý příběh balíčku." },
       { b: "Kompletní:", rest: " sesbírej všechny karty a obal získá holografický lesk. Odměna je 15 XP za kartu, nejméně 100 a nejvýš 800." },
     ],
     packsOutro: "Každá odměna se vyplácí jednou a zůstává ti. Když do balíčku později přibude nová karta, ukazatel přizná, že ti jedna chybí, ale nic ti nevezme.",
@@ -381,8 +381,8 @@ const CONTENT = {
     packsIntro: "有些地方太大，一张卡装不下。卡包把城里一片相连区域的卡片打包在一起，比如布拉格城堡或维谢赫拉德，封进一个锡纸包装里。卡包本身没法打卡，因为它没有一个能站上去的确切位置。你要收集的是包里的卡片，照旧靠两条腿。",
     packs: [
       { b: "在哪找：", rest: "点探索页的“卡包”，卡片墙就变成卡包墙，搜索和区域筛选照常可用。属于某个卡包的卡片，详情里会写明所属卡包。城史和区域指南里也会出现卡包。" },
-      { b: "封口：", rest: "未解锁的卡包挂着一把锁，卡片显示距离的位置换成了进度条。点开能看到故事的开头和包内所有卡片，还没收集的都挂着锁头。" },
-      { b: "撕开：", rest: "收集其中三张，卡包会当场撕开。你得到 +20 XP 和卡包的完整故事。" },
+      { b: "封口：", rest: "未解锁的卡包是灰色的，挂着一把锁，下面有进度条。点开能看到故事的开头和包内所有卡片，还没收集的都挂着锁头。" },
+      { b: "撕开：", rest: "收集其中三张，卡包会当场撕开并恢复色彩。你得到 +20 XP 和卡包的完整故事。" },
       { b: "集齐：", rest: "收集全部卡片后，包装会泛起全息光泽。奖励按卡片数量计算，每张 15 XP，最少 100，最多 800。" },
     ],
     packsOutro: "每份奖励只发一次，发了就是你的。如果之后有新卡加入，进度条会老实显示你还差一张，但已得的奖励不会收回。",

@@ -66,6 +66,30 @@ test.describe('card packs', () => {
     await expect(page.locator('.detail-packs__pack')).toBeVisible();
   });
 
+  test('an unlocked pack can be picked up and turned over; a sealed one cannot', async ({ page }) => {
+    await setup(page);
+    await page.goto('/explore');
+    await page.locator('.filter-btn', { hasText: 'Packs' }).click();
+    await page.locator('.explore-main .pack-card[data-pack="prague-castle"]').dblclick();
+    await page.waitForTimeout(400);
+    await expect(page.locator('.card-showcase')).toHaveCount(0);
+    await page.keyboard.press('Escape');
+    await page.locator('.explore-main .pack-card[data-pack="vysehrad"]').dblclick();
+    const showcase = page.locator('.card-showcase');
+    await expect(showcase.locator('.card-showcase__face .pack-card').first()).toBeVisible();
+    await expect(page.locator('.pack-detail')).toHaveCount(0);
+    const flip = showcase.locator('.card-showcase__flip');
+    const box = await flip.boundingBox();
+    await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+    await page.mouse.down();
+    await page.mouse.move(box.x + box.width / 2 + 340, box.y + box.height / 2, { steps: 12 });
+    await page.mouse.up();
+    await expect.poll(() => flip.evaluate(el => el.style.transform)).toMatch(/rotateY\((-?180|180)(\.\d+)?deg\)/);
+    await expect(showcase.locator('.pack-back__mark')).toHaveText('Prague Stories');
+    await page.keyboard.press('Escape');
+    await expect(showcase).toHaveCount(0);
+  });
+
   test('a pack earned shows the opening moment once', async ({ page }) => {
     await setup(page, { newPacks: [{ slug: 'prague-castle', name: 'Prague Castle', localizedNames: SEALED.localizedNames, foil: SEALED.foil, stage: 'unlock', xp: 20, collected: 3, total: 29, cards: ['golden-lane', 'dalibor-tower', 'st-vitus-cathedral'] }] });
     await page.goto('/explore');
@@ -88,7 +112,7 @@ test('on the History page a related landmark can be a pack, with the player\'s p
   await page.route('**/api/user/history-progress*', route => route.fulfill({ json: { slug: null, updatedAt: null } }));
   await page.goto('/history');
   const pack = page.locator('.history-landmark-item .pack-card');
-  await expect(pack).toContainText('1 / 29');
+  await expect(pack).toContainText('1/29');
   await pack.click();
   await expect(page.locator('.pack-detail').getByText('Only the preview.')).toBeVisible();
 });

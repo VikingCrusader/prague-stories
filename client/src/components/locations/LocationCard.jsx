@@ -9,13 +9,10 @@ import CardShowcase from './CardShowcase';
 import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
 import { watchOffscreen } from '../../utils/pauseOffscreen';
+import { useHoldGestures } from '../../hooks/useHoldGestures';
 
 // Cards the user collected within this window get a green "NEW" tag.
 const NEW_BADGE_MS = 48 * 60 * 60 * 1000;
-// Showcase gestures on a collected card: hold this long on a touch screen,
-// or click twice within this long with a mouse.
-const LONG_PRESS_MS = 450;
-const DOUBLE_CLICK_MS = 250;
 
 // `nearby` (Explore only): a still-locked card within NEARBY_REVEAL_M of the
 // user. It reveals its name, drops the grey filter everywhere except the
@@ -51,46 +48,9 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
   // Not over the story panel, where the badge would cover the card's name.
   const isNew = unlocked && !flipping && !story && Date.now() - checkedInMs < NEW_BADGE_MS;
 
-  // Long press (touch) or double click (mouse) on a collected card opens the
-  // showcase. A mouse click on such a card waits DOUBLE_CLICK_MS for a
-  // possible second click before opening the detail as usual.
-  // How the showcase was opened ('touch' or 'mouse'), or false when closed.
-  const [showcaseOpen, setShowcaseOpen] = useState(false);
+  // Long press or double click on a collected card opens the showcase.
   const gestures = holdable && unlocked && !flipping && !showcase;
-  const press = useRef({ timer: null, fired: false, x: 0, y: 0, pointer: 'mouse', clickTimer: null });
-  const clearPress = () => { clearTimeout(press.current.timer); press.current.timer = null; };
-  useEffect(() => () => { clearTimeout(press.current.timer); clearTimeout(press.current.clickTimer); }, []);
-  const handlePointerDown = e => {
-    press.current.pointer = e.pointerType;
-    if (!gestures || e.pointerType === 'mouse') return;
-    press.current.fired = false;
-    press.current.x = e.clientX;
-    press.current.y = e.clientY;
-    clearPress();
-    press.current.timer = setTimeout(() => {
-      press.current.fired = true;
-      navigator.vibrate?.(12);
-      setShowcaseOpen('touch');
-    }, LONG_PRESS_MS);
-  };
-  const handlePointerMove = e => {
-    if (press.current.timer && Math.hypot(e.clientX - press.current.x, e.clientY - press.current.y) > 10) clearPress();
-  };
-  // The finger that opened the showcase lifts over it: cancel the mouse
-  // events and click the browser would emulate, or they land on the
-  // showcase and close it again at once.
-  const handleTouchEnd = e => { if (press.current.fired) e.preventDefault(); };
-  const handleClick = () => {
-    if (press.current.fired) { press.current.fired = false; return; }
-    if (!gestures || press.current.pointer !== 'mouse') { onClick(slug); return; }
-    if (press.current.clickTimer) {
-      clearTimeout(press.current.clickTimer);
-      press.current.clickTimer = null;
-      setShowcaseOpen('mouse');
-      return;
-    }
-    press.current.clickTimer = setTimeout(() => { press.current.clickTimer = null; onClick(slug); }, DOUBLE_CLICK_MS);
-  };
+  const { handlers, showcaseOpen, closeShowcase } = useHoldGestures({ enabled: gestures, onTap: () => onClick(slug) });
 
   useEffect(() => {
     if (!prevUnlockedRef.current && unlocked) { setFlipping(true); playUnlockSound(rarity); }
@@ -129,14 +89,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
     <div
       ref={cardRef}
       className={`loc-card${(!unlocked || flipping) ? ' loc-card--locked' : ''}${flipping ? ' loc-card--flipping' : ''}${teasing && !flipping ? ' loc-card--nearby' : ''}${gestures ? ' loc-card--holdable' : ''}`}
-      onClick={handleClick}
-      onPointerDown={handlePointerDown}
-      onPointerMove={handlePointerMove}
-      onPointerUp={clearPress}
-      onTouchEnd={handleTouchEnd}
-      onPointerCancel={clearPress}
-      onPointerLeave={clearPress}
-      onContextMenu={gestures ? e => e.preventDefault() : undefined}
+      {...handlers}
       title={previewable ? undefined : showName ? name : '???'}
       data-slug={slug}
       data-rarity={rarity}
@@ -232,7 +185,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
       </div>
       </>)}
     </div>
-    {showcaseOpen && <CardShowcase location={location} openedBy={showcaseOpen} onClose={() => setShowcaseOpen(false)} />}
+    {showcaseOpen && <CardShowcase location={location} openedBy={showcaseOpen} onClose={closeShowcase} />}
     </>
   );
 }

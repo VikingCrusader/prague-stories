@@ -79,7 +79,7 @@ export default function PackUnlocked() {
               })}
             </div>
             <div className="pack-open__pack">
-              <PackCard pack={{ ...current, unlocked: true, completed: complete }} />
+              <PackCard pack={{ ...current, unlocked: true, completed: complete }} holdable={false} />
               <div className="pack-open__strip" style={{ '--foil': current.foil }} aria-hidden="true" />
             </div>
           </div>

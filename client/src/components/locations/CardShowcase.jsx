@@ -1,7 +1,8 @@
 import { useState, useEffect, useLayoutEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import LocationCard from './LocationCard';
-import { locationAPI } from '../../services/api';
+import PackCard, { PackBack } from '../packs/PackCard';
+import { locationAPI, packAPI } from '../../services/api';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 
 // The card's box before scaling: the grid card's width with the draw page's
@@ -37,7 +38,9 @@ const showsBack = deg => { const a = ((deg % 360) + 360) % 360; return a > 90 &&
 //   page's card back and back again. It follows the finger, then a spring
 //   settles it on the nearest face; a quick flick turns it over even after
 //   a short drag.
-export default function CardShowcase({ location, openedBy = 'mouse', onClose }) {
+// `pack` instead of `location`: the same for a card pack, its story being the
+// pack's text and its back the other side of the packet.
+export default function CardShowcase({ location, pack, openedBy = 'mouse', onClose }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -79,10 +82,11 @@ export default function CardShowcase({ location, openedBy = 'mouse', onClose }) 
   }, [onClose]);
 
   useEffect(() => {
-    locationAPI.getOne(location.slug).then(res => setDescription(res.data.description || {})).catch(() => setDescription({}));
-  }, [location.slug]);
+    const request = pack ? packAPI.getOne(pack.slug) : locationAPI.getOne(location.slug);
+    request.then(res => setDescription(res.data.description || {})).catch(() => setDescription({}));
+  }, [location?.slug, pack?.slug]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const text = description ? convert(description[lang] || description.en || '') : null;
+  const text = description ? convert(description[lang] || description.en || description.zh || '') : null;
   const story = text === null ? [t('showcase.loading')] : text.split('\n').filter(l => l.trim());
 
   const setSpin = deg => { spin.current.angle = deg; setAngle(deg); };
@@ -180,18 +184,21 @@ export default function CardShowcase({ location, openedBy = 'mouse', onClose }) 
     >
       <div className="card-showcase__card" style={{ '--showcase-scale': scale }}>
         <div
-          className={`card-showcase__flip${flat ? ' card-showcase__flip--flat' : ''}`}
+          className={`card-showcase__flip${flat ? ' card-showcase__flip--flat' : ''}${pack ? ' card-showcase__flip--pack' : ''}`}
           style={{ transform: flat ? 'none' : `rotateY(${angle}deg)` }}
         >
+          {pack && ['left', 'right'].map(side => <span key={side} className={`pack-side pack-side--${side}`} style={{ '--foil': pack.foil }} aria-hidden="true" />)}
           <div
             className="card-showcase__face"
             // While reading, taps on the card don't close the showcase.
             onClick={storyOpen ? e => e.stopPropagation() : undefined}
           >
-            <LocationCard location={location} onClick={() => {}} showcase story={storyOpen ? story : null} />
+            {pack
+              ? <PackCard pack={pack} showcase story={storyOpen ? story : null} />
+              : <LocationCard location={location} onClick={() => {}} showcase story={storyOpen ? story : null} />}
           </div>
           <div className="card-showcase__face card-showcase__face--back" aria-hidden={!back}>
-            <img src="/pixel-art/cardback-plain.webp" alt="" draggable={false} />
+            {pack ? <PackBack pack={pack} /> : <img src="/pixel-art/cardback-plain.webp" alt="" draggable={false} />}
           </div>
         </div>
       </div>
