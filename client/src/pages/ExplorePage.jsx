@@ -55,6 +55,7 @@ export default function ExplorePage() {
   const belowTwoK = useMedia('(max-width: 2399px)');
   const [filterSlot, setFilterSlot] = useState(null);
   const [appliedSlot, setAppliedSlot] = useState(null);
+  const [exitSlot, setExitSlot] = useState(null);
   // No side column: the area map and the list of filters open in a bottom sheet.
   const [drawer, setDrawer] = useState(null); // 'map' | 'applied' | 'next'
   const closeDrawer = useCallback(() => setDrawer(null), []);
@@ -291,7 +292,7 @@ export default function ExplorePage() {
   const rarityBlurb = rarity && !wide ? (RARITY_BLURB[lang] || RARITY_BLURB.en)[rarity] : null;
   const titleText  = areaActive
     ? convert(beyondCity ? (RARITY_LABEL[lang]?.expedition ?? RARITY_LABEL.en.expedition) : area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : `${area.district ? `${t('detail.district', { n: area.district.slice(6) })}${lang === 'zh' ? '，' : ', '}` : ''}${quarterName(area.value, lang)}`)
-    : t(guest ? 'explore.titleGuest' : cityOnly ? 'explore.titleCity' : 'explore.title');
+    : t(guest ? 'explore.titleGuest' : inCollection ? 'explore.titleCollection' : cityOnly ? 'explore.titleCity' : 'explore.title');
 
   const changeScope = city => { setCityOnly(city); if (!city || beyondCity) setArea(null); };
   // My Collections shows every collected card, so it has neither control.
@@ -475,6 +476,8 @@ export default function ExplorePage() {
       fitRows={!wide ? 0 : belowTwoK ? 2 : 3}
       filterSlot={filterSlot}
       appliedSlot={appliedSlot}
+      exitSlot={exitSlot}
+      loadTreasures={user ? userAPI.getTreasures : null}
       onCountChange={setShownCount}
       filtersFolded={!wide && filtersFolded}
       onToggleFilters={toggleFilters}
@@ -519,6 +522,7 @@ export default function ExplorePage() {
             {header}
             <div ref={setFilterSlot} className="explore-side__filters" />
             <ExploreMap locations={locations} area={area} onArea={setArea} outside={!cityOnly} here={myArea} foldable={belowTwoK} />
+            <div ref={setExitSlot} className="explore-side__exit" />
             <div ref={setAppliedSlot} className="explore-side__applied" />
           </aside>
           <div className="explore-main">{grid}</div>

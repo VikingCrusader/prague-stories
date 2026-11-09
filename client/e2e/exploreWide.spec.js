@@ -17,6 +17,85 @@ test.beforeEach(async ({ page }) => {
   await page.route('**/api/locations', route => route.fulfill({ json: CARDS }));
 });
 
+test('with the side column My Collections stays lit and disabled, and a long Back to Explore under the map leads out, without moving the map', async ({ page }) => {
+  await page.setViewportSize({ width: 1180, height: 700 });
+  await page.goto('/explore');
+  await page.locator('.district-map__area').first().waitFor();
+  const cards = page.locator('.explore-main .loc-card');
+  const map = page.locator('.district-map__svg');
+  const mapTop = async () => (await map.boundingBox()).y;
+  const start = await mapTop();
+  await page.getByRole('button', { name: 'My Collections' }).click();
+  const back = page.getByRole('button', { name: 'Back to Explore' });
+  await expect(cards).toHaveCount(10);
+  await expect(page.locator('.explore-side .explore-title')).toHaveText("All You've Collected So Far");
+  const mine = page.getByRole('button', { name: 'My Collections' });
+  await expect(mine).toBeDisabled();
+  await expect(mine).toHaveClass(/filter-btn--active/);
+  await expect(page.locator('.explore-side__exit .filter-btn')).toHaveCount(1);
+  const [backBox, mapBox, sideBox] = await Promise.all([back.boundingBox(), map.boundingBox(), page.locator('.explore-side__filters').boundingBox()]);
+  expect(backBox.y).toBeGreaterThan(mapBox.y + mapBox.height - 1);
+  expect(Math.abs(backBox.width - sideBox.width)).toBeLessThan(2);
+  expect(await back.evaluate(el => el.scrollWidth <= el.clientWidth)).toBe(true);
+  expect(await mapTop()).toBe(start);
+  await back.click();
+  await expect(cards).toHaveCount(32);
+  await expect(page.locator('.explore-side .explore-title')).toHaveText('Collect Every Card in Prague');
+  await expect(page.getByRole('button', { name: 'My Collections' })).toBeVisible();
+});
+
+test('a card off screen pauses its animations and restarts them when it comes back', async ({ page }) => {
+  const MYTHIC = Array.from({ length: 60 }, (_, i) => card(i, 'Praha 11', 'Chodov', true, { rarity: 'mythic', xpReward: 70 }));
+  await page.route('**/api/locations', route => route.fulfill({ json: MYTHIC }));
+  await page.setViewportSize({ width: 1920, height: 940 });
+  await page.goto('/explore');
+  await page.locator('.district-map__area').first().waitFor();
+  const cards = page.locator('.explore-main .loc-card');
+  await expect(cards).toHaveCount(60);
+  const states = at => cards.nth(at).evaluate(el => [...new Set(el.getAnimations({ subtree: true }).map(a => a.playState))].join());
+  await expect.poll(() => states(0)).toBe('running');
+  await expect.poll(() => states(59)).toBe('paused');
+  await cards.nth(59).scrollIntoViewIfNeeded();
+  await expect.poll(() => states(59)).toBe('running');
+  await expect.poll(() => states(0)).toBe('paused');
+});
+
+test('Treasure Hunt Finds in the collection card shows the count and filters to those cards', async ({ page }) => {
+  await page.route('**/api/user/treasures', route => route.fulfill({ json: [{ slug: 'card-0' }, { slug: 'card-2' }, { slug: 'card-4' }, { slug: 'card-6' }] }));
+  await page.setViewportSize({ width: 2560, height: 1300 });
+  await page.goto('/explore');
+  await page.locator('.district-map__area').first().waitFor();
+  await page.getByRole('button', { name: 'My Collections' }).click();
+  const cards = page.locator('.explore-main .loc-card');
+  await expect(cards).toHaveCount(10);
+  const row = page.locator('.explore-collection__hunt');
+  await expect(row).toContainText('Treasure Hunt Finds: 4');
+  await row.getByRole('button', { name: 'Show' }).click();
+  await expect(cards).toHaveCount(4);
+  await expect(page.locator('.explore-collection')).toHaveCount(0);
+  await expect(page.locator('.explore-applied__item')).toContainText('Treasure Hunt Finds');
+  await page.getByRole('button', { name: 'Clear filters' }).click();
+  await expect(cards).toHaveCount(10);
+  await expect(row).toBeVisible();
+  await row.getByRole('button', { name: 'Show' }).click();
+  await expect(cards).toHaveCount(4);
+  await page.getByRole('button', { name: 'Back to Explore' }).click();
+  await expect(cards).toHaveCount(32);
+  await page.getByRole('button', { name: 'My Collections' }).click();
+  await expect(cards).toHaveCount(10); // the treasure filter did not stay on
+});
+
+test('with no treasure found the Show button is off', async ({ page }) => {
+  await page.route('**/api/user/treasures', route => route.fulfill({ json: [] }));
+  await page.setViewportSize({ width: 2560, height: 1300 });
+  await page.goto('/explore');
+  await page.locator('.district-map__area').first().waitFor();
+  await page.getByRole('button', { name: 'My Collections' }).click();
+  const row = page.locator('.explore-collection__hunt');
+  await expect(row).toContainText('Treasure Hunt Finds: 0');
+  await expect(row.getByRole('button', { name: 'Show' })).toBeDisabled();
+});
+
 test.describe('Explore on a 2K screen', () => {
   test.beforeEach(async ({ page }) => {
     await page.setViewportSize({ width: 2560, height: 1300 });
@@ -77,8 +156,9 @@ test.describe('Explore on a 2K screen', () => {
     await page.getByRole('button', { name: 'Clear filters' }).click();
     await expect(summary).toHaveCount(1);
 
-    await page.getByRole('button', { name: 'My Collections' }).click();
+    await page.getByRole('button', { name: 'Back to Explore' }).click();
     await expect(summary).toHaveCount(0);
+    await expect(page.getByRole('button', { name: 'My Collections' })).toBeVisible();
   });
 
   test('with no filter a second card shows the next level and the achievements closest to done', async ({ page }) => {

@@ -8,6 +8,7 @@ import RarityFrame from './RarityFrame';
 import CardShowcase from './CardShowcase';
 import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
+import { watchOffscreen } from '../../utils/pauseOffscreen';
 
 // Cards the user collected within this window get a green "NEW" tag.
 const NEW_BADGE_MS = 48 * 60 * 60 * 1000;
@@ -42,6 +43,8 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
   const [flipping,    setFlipping]    = useState(false);
   const prevUnlockedRef = useRef(unlocked);
   const labelRef = useRef(null);
+  const cardRef = useRef(null);
+  useEffect(() => (showcase ? undefined : watchOffscreen(cardRef.current)), [showcase]);
   const teasing = !unlocked && nearby;
   const showName = unlocked || teasing;
   const checkedInMs = location._checkedInAt ? new Date(location._checkedInAt).getTime() : NaN;
@@ -124,6 +127,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
   return (
     <>
     <div
+      ref={cardRef}
       className={`loc-card${(!unlocked || flipping) ? ' loc-card--locked' : ''}${flipping ? ' loc-card--flipping' : ''}${teasing && !flipping ? ' loc-card--nearby' : ''}${gestures ? ' loc-card--holdable' : ''}`}
       onClick={handleClick}
       onPointerDown={handlePointerDown}

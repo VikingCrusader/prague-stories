@@ -250,6 +250,12 @@ export const LABEL_BLURB = {
   },
 };
 
+export const TREASURE_BLURB = {
+  en: 'These ones had no address, only clues.',
+  cz: 'Tyhle karty neměly adresu, jen stopy.',
+  zh: '这些卡片没有地址，只有线索。',
+};
+
 export const RARITY_QUIP = {
   common: {
     en: "Prague's everyday scenery: the church you pass, the old house on the corner, the small park down the road. Tour groups skip them, yet they are what the city is really made of. Anywhere else, each one would be a postcard.",

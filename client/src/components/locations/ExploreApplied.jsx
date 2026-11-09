@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { RARITY_LABEL, RARITY_VAR, ALL_RARITIES } from '../../utils/rarity';
-import { LABEL_BLURB, RARITY_QUIP, GUEST_INTRO } from '../../utils/filterBlurbs';
+import { LABEL_BLURB, RARITY_QUIP, GUEST_INTRO, TREASURE_BLURB } from '../../utils/filterBlurbs';
 import { useFitText } from '../../utils/fitText';
 import { achField } from '../../utils/achievementText';
 import { formatCountdown } from '../../utils/formatCountdown';
@@ -16,7 +16,7 @@ import { isInCity } from './ScopeToggle';
 // (2026-11-08, user's call), worked out from the cards the page already has, so
 // a new check-in shows at once. Same rule as the profile: the percentage is the
 // city proper, the big number every collected card.
-function CollectionSummary({ locations, onPickRarity }) {
+function CollectionSummary({ locations, onPickRarity, treasureCount, onShowTreasure }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -57,6 +57,10 @@ function CollectionSummary({ locations, onPickRarity }) {
           </li>
         ))}
       </ul>
+      <div className="explore-collection__hunt">
+        <span>{t('dashboard.treasures')}{lang === 'zh' ? '：' : ': '}<b>{treasureCount ?? '…'}</b></span>
+        <button type="button" className="filter-btn" disabled={!treasureCount} onClick={onShowTreasure}>{t('explore.showTreasures')}</button>
+      </div>
     </div>
   );
 }
@@ -159,16 +163,16 @@ function Item({ name, nameNode, color, onClear, children }) {
 // mode. With no filter on: the district and quarter the player is in, each with
 // its line, and how far the nearest card still to collect is (`here`); or, without a
 // position in Prague, a `tip`; a guest gets what the app is for and a link to the Guide.
-export default function ExploreApplied({ area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement, search = null, onClearSearch, filtersOnly = false }) {
+export default function ExploreApplied({ treasureCount = null, treasureOnly = false, onShowTreasure, onClearTreasure, area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement, search = null, onClearSearch, filtersOnly = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const pick = (entry) => (entry ? convert(entry[lang] || entry.en) : null);
-  const anyFilter = area || rarities.length > 0 || labels.length > 0 || search;
+  const anyFilter = area || treasureOnly || rarities.length > 0 || labels.length > 0 || search;
   return (
     <>
       {notes.map(note => <p key={note.key} className="explore-applied__note">{note.body}</p>)}
-      {!anyFilter && collection && <CollectionSummary locations={collection} onPickRarity={onClearRarity} />}
+      {!anyFilter && collection && <CollectionSummary locations={collection} onPickRarity={onClearRarity} treasureCount={treasureCount} onShowTreasure={onShowTreasure} />}
       {!anyFilter && !collection && here && (
         <div className="explore-applied__default explore-here-card" onClick={here.onFilter}>
           {here.areas.map(area_ => (
@@ -189,6 +193,7 @@ export default function ExploreApplied({ area, areaItems = [], rarities = [], on
       {!anyFilter && !collection && nextUp && <NextUp {...nextUp} onOpenAchievement={onOpenAchievement} />}
       {anyFilter && <button type="button" className="filter-btn explore-applied__clear-all" onClick={onClearAll}>{t(filtersOnly ? 'explore.clearAllFilters' : 'explore.clearFilters')}</button>}
       {search && <Item name={`“${search}”`} onClear={onClearSearch} />}
+      {treasureOnly && <Item name={t('dashboard.treasures')} onClear={onClearTreasure}>{pick(TREASURE_BLURB)}</Item>}
       {areaItems.map(item => (
         <Item key={item.key} nameNode={<AreaName name={item.name} onOpen={item.onOpenGuide} />} onClear={item.onClear}>
           {pick(item.blurb)}

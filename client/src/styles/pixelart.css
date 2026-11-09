@@ -203,6 +203,16 @@
    other clockwise from the top-left corner, then rests (user's pick over
    rising embers, which stay legend's). Each ornament carries a highlight
    band that crosses it once per cycle; the delays stagger them. */
+/* Off screen (utils/pauseOffscreen.js): nothing to animate for. An unlocking card
+   finishes its flip, whose end is what clears the flipping state. */
+.loc-card[data-offscreen]:not(.loc-card--flipping),
+.loc-card[data-offscreen]:not(.loc-card--flipping)::before,
+.loc-card[data-offscreen]:not(.loc-card--flipping)::after,
+.loc-card[data-offscreen]:not(.loc-card--flipping) *,
+.loc-card[data-offscreen]:not(.loc-card--flipping) *::before,
+.loc-card[data-offscreen]:not(.loc-card--flipping) *::after {
+  animation-play-state: paused !important;
+}
 .loc-card[data-rarity="mythic"] .loc-card__orn {
   --orn-c: color-mix(in srgb, var(--rc) 75%, white);
   background: linear-gradient(115deg,
@@ -2937,11 +2947,15 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 /* Fills the space left under the map: the ring's row takes it and the ring grows
    to that row's height, so it adapts to whatever the note above leaves. */
 .explore-collection { flex: 1 0 auto; box-sizing: border-box; display: flex; flex-direction: column; gap: 10px; padding: 14px; }
-.explore-collection .ring-card__body { flex: 1 1 0; min-height: 140px; gap: 18px; container-type: size; }
-.explore-collection .ring-card__body svg { width: min(100cqh, 194px); height: min(100cqh, 194px); }
-.explore-collection .ring-stats .stat-card__value { font-size: 46px; line-height: 1.15; }
+.explore-collection .ring-card__body { flex: 1 1 0; min-height: 120px; gap: 18px; container-type: size; }
+.explore-collection .ring-card__body svg { width: min(100cqh, 150px); height: min(100cqh, 150px); }
+.explore-collection .ring-stats .stat-card__value { font-size: 38px; line-height: 1.15; }
 .explore-collection .ring-stats__part { display: block; }
 .explore-collection .rarity-compact__list { margin-top: 0; }
+.explore-collection__hunt { display: flex; align-items: center; justify-content: space-between; gap: 10px; color: var(--text-primary); font-size: 16px; }
+.explore-collection__hunt b { color: var(--gold); font-weight: 400; font-size: 20px; }
+.explore-side .explore-collection__hunt .filter-btn { flex: none; padding: 3px 14px; }
+.explore-collection__hunt .filter-btn:disabled { opacity: 0.45; cursor: default; }
 .explore-collection .quiet-link:hover .rarity-compact__n { text-decoration: underline; text-underline-offset: 3px; }
 .explore-collection .rarity-compact__name { font-size: 14px; }
 .explore-collection .rarity-compact__n { font-size: 28px; }
@@ -2961,6 +2975,10 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .explore-main .explore-stats br { display: none; }
 .explore-main .explore-stats__label { margin-left: 8px; padding-left: 14px; border-left: 1px solid var(--text-muted); }
 .explore-side__filters { display: flex; flex-direction: column; gap: 10px; position: relative; z-index: 20; }
+/* My Collections while it is open: where you are, not something to press. */
+.explore-side .filter-btn.filter-btn--current { color: var(--shape-muted); background: transparent; cursor: default; }
+.explore-side__exit:empty { display: none; }
+.explore-side__exit .filter-btn { display: block; width: 100%; color: var(--gold); text-align: center; }
 .explore-side .filter-bar { flex-direction: column; flex-wrap: nowrap; align-items: stretch; gap: 8px; margin: 0; }
 .explore-side .filter-bar__top { display: flex; flex-direction: column; gap: 8px; }
 .explore-side .filter-bar__search { width: 100%; max-width: none; box-sizing: border-box; }
@@ -3046,9 +3064,9 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
   .explore-applied__area + .explore-applied__area { margin-top: 6px; }
   .explore-collection { padding: 8px 10px; gap: 6px; }
   .explore-collection { flex: none; }
-  .explore-collection .ring-card__body { flex: none; height: 130px; min-height: 0; gap: 14px; }
-  .explore-collection .ring-card__body svg { width: min(100cqh, 140px); height: min(100cqh, 140px); }
-  .explore-collection .ring-stats .stat-card__value { font-size: 32px; }
+  .explore-collection .ring-card__body { flex: none; height: 100px; min-height: 0; gap: 14px; }
+  .explore-collection .ring-card__body svg { width: min(100cqh, 100px); height: min(100cqh, 100px); }
+  .explore-collection .ring-stats .stat-card__value { font-size: 26px; }
   .explore-collection .ring-stats__line { font-size: 14px; }
   .explore-collection .rarity-compact__name { font-size: 12px; }
   .explore-collection .rarity-compact__n { font-size: 20px; }
