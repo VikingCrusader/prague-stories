@@ -603,6 +603,101 @@ test('only the admin gets the Edit button; logout sits in the navbar on desktop 
   await expect(page.locator('.navbar__logout')).toBeHidden();
 });
 
+test('without the column the area filter opens the map in a bottom sheet; the back button closes it', async ({ page }) => {
+  await page.setViewportSize({ width: 412, height: 800 });
+  await page.goto('/explore');
+  await page.locator('.location-grid .loc-card').first().waitFor();
+  await expect(page.locator('.explore-drawer')).toHaveCount(0);
+  await expect(page.locator('.filter-bar__search')).toBeVisible();
+  await page.locator('.filter-bar__scope .area-filter .filter-btn').click();
+  await expect(page.locator('.explore-drawer .district-map')).toBeVisible();
+  await expect(page.locator('.explore-drawer .filter-bar')).toHaveCount(0);
+  await expect(page.locator('.explore-drawer__clear')).toHaveCount(0);
+  await page.goBack();
+  await expect(page.locator('.explore-drawer')).toHaveCount(0);
+  await expect(page).toHaveURL(/\/explore/);
+  await expect(page.locator('.location-grid .loc-card').first()).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+});
+
+test('without the column the filters and search fold away and stay folded', async ({ page }) => {
+  await page.setViewportSize({ width: 412, height: 800 });
+  await page.goto('/explore');
+  await page.locator('.location-grid .loc-card').first().waitFor();
+  await page.locator('.filter-bar__search').fill('Card');
+  const fold = page.locator('.explore-filters-fold');
+  await fold.click();
+  await expect(page.locator('.filter-bar')).toHaveCount(0);
+  await expect(page.locator('.explore-title')).toBeVisible();
+  await expect(fold).toContainText('(1)'); // the search still applies
+  await page.reload();
+  await page.locator('.explore-filters-fold').waitFor();
+  await expect(page.locator('.filter-bar')).toHaveCount(0);
+  await page.locator('.explore-filters-fold').click();
+  await expect(page.locator('.filter-bar__search')).toBeVisible();
+});
+
+test('without the column, Clear filters appears with any filter and clears them all', async ({ page }) => {
+  await page.setViewportSize({ width: 412, height: 800 });
+  await page.goto('/explore');
+  await page.locator('.location-grid .loc-card').first().waitFor();
+  const clear = page.locator('.explore-clear-filters');
+  await expect(clear).toHaveCount(0);
+  const search = page.locator('.filter-bar__search');
+  await search.fill('zzz-nothing');
+  await expect(page.locator('.location-grid .loc-card')).toHaveCount(0);
+  await page.locator('.filter-bar__bottom > .filter-btn').click(); // My Collections
+  await clear.click();
+  await expect(clear).toHaveCount(0);
+  await expect(search).toHaveValue('');
+  // Clearing keeps My Collections, which is not a filter: only its own button is left.
+  await expect(page.locator('.filter-bar__bottom > .filter-btn')).toHaveClass(/filter-btn--active/);
+  await expect(page.locator('.explore-view-filters')).toHaveCount(0);
+  await expect(page.locator('.explore-filter-actions button')).toHaveCount(1);
+  await page.locator('.explore-leave-collection').click();
+  await expect(page.locator('.explore-leave-collection')).toHaveCount(0);
+  await expect(page.locator('.filter-bar__bottom > .filter-btn')).not.toHaveClass(/filter-btn--active/);
+  await expect(page.locator('.location-grid .loc-card').first()).toBeVisible();
+});
+
+test('without the column, View filters lists the filters with their lines; clearing the last one closes it', async ({ page }) => {
+  await page.setViewportSize({ width: 412, height: 800 });
+  await page.goto('/explore');
+  await page.locator('.location-grid .loc-card').first().waitFor();
+  await page.locator('.filter-bar__search').fill('a');
+  await page.locator('.explore-view-filters').click();
+  const items = page.locator('.explore-drawer .explore-applied__item');
+  await expect(items).toHaveCount(1);
+  await expect(items.first()).toContainText('“a”');
+  await expect(page.locator('.explore-drawer .explore-applied__default')).toHaveCount(0);
+  await items.first().locator('.explore-applied__clear').click();
+  await expect(page.locator('.explore-drawer')).toHaveCount(0);
+  await expect(page.locator('.explore-view-filters')).toHaveCount(0);
+  await expect(page).toHaveURL(/\/explore/);
+});
+
+test('without the column a signed-in player has a level bar that opens Next up', async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('token', 'x'));
+  await page.route('**/api/auth/me', r => r.fulfill({ json: { user: { _id: 'u1', username: 'p', totalXP: 20500, explorerLevel: 37, levelInfo: { level: 37, title: 'Keeper', xp: 20500, nextLevelXP: 21000, progress: 50 } } } }));
+  await page.route('**/api/user/achievements', r => r.fulfill({ json: { achievements: [], levels: [{ level: 37, xpRequired: 20000, title: 'A' }, { level: 38, xpRequired: 21000, title: 'B' }] } }));
+  await page.setViewportSize({ width: 412, height: 800 });
+  await page.goto('/explore');
+  const bar = page.locator('.explore-level');
+  await expect(bar).toContainText('Lv 37');
+  await expect(bar).toContainText('500');
+  await expect(page.locator('.explore-level__fill')).toHaveAttribute('style', /50%/);
+  await bar.click();
+  await expect(page.locator('.explore-drawer .explore-next')).toBeVisible();
+  await page.goBack();
+  await expect(page.locator('.explore-drawer')).toHaveCount(0);
+  await page.setViewportSize({ width: 1536, height: 730 });
+  await expect(page.locator('.explore-header .explore-level')).toHaveCount(0);
+  const meter = page.locator('.explore-toolbar .explore-level');
+  await expect(meter).toContainText('Keeper');
+  await expect(meter).toContainText('500');
+  await expect(page.locator('.navbar__user')).toContainText('Lv 37');
+});
+
 test('too narrow or too short for the column, Explore stays stacked', async ({ page }) => {
   for (const [width, height] of [[1100, 900], [1366, 650]]) {
     await page.setViewportSize({ width, height });

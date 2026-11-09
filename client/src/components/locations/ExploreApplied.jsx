@@ -81,7 +81,7 @@ function HuntCountdown({ expiresAt, onEnded }) {
 // card to collect, the next level, and the achievements closest to done, each
 // opening its detail. The list takes the space left and shows as many whole rows
 // as fit: rows that don't fit wrap into a second column, which is clipped.
-function NextUp({ nearest, level, onOpenLevels, hunt, onHuntEnded, reading, achievements, onOpenAchievement }) {
+export function NextUp({ nearest, level, onOpenLevels, hunt, onHuntEnded, reading, achievements, onOpenAchievement }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -93,14 +93,14 @@ function NextUp({ nearest, level, onOpenLevels, hunt, onHuntEnded, reading, achi
   return (
     <div className="explore-applied__default explore-next">
       <div className="explore-applied__head"><span className="explore-applied__name">{t('explore.nextUp')}</span></div>
-      {nearest && (
-        <button type="button" className="explore-next__row explore-next__nearest" onClick={nearest.onOpen}>
-          {convert(t('explore.nearestLocked', { distance: nearest.distance }))}
-        </button>
-      )}
       {level && (
         <button type="button" className="explore-next__row explore-next__level" onClick={onOpenLevels}>
           {convert(t('explore.nextLevel', { n: level.left, level: level.next }))}{level.name && ` · ${convert(level.name)}`}
+        </button>
+      )}
+      {nearest && (
+        <button type="button" className="explore-next__row explore-next__nearest" onClick={nearest.onOpen}>
+          {convert(t('explore.nearestLocked', { distance: nearest.distance }))}
         </button>
       )}
       {hunt && (hunt.expiresAt
@@ -159,12 +159,12 @@ function Item({ name, nameNode, color, onClear, children }) {
 // mode. With no filter on: the district and quarter the player is in, each with
 // its line, and how far the nearest card still to collect is (`here`); or, without a
 // position in Prague, a `tip`; a guest gets what the app is for and a link to the Guide.
-export default function ExploreApplied({ area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement }) {
+export default function ExploreApplied({ area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement, search = null, onClearSearch, filtersOnly = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const pick = (entry) => (entry ? convert(entry[lang] || entry.en) : null);
-  const anyFilter = area || rarities.length > 0 || labels.length > 0;
+  const anyFilter = area || rarities.length > 0 || labels.length > 0 || search;
   return (
     <>
       {notes.map(note => <p key={note.key} className="explore-applied__note">{note.body}</p>)}
@@ -179,7 +179,7 @@ export default function ExploreApplied({ area, areaItems = [], rarities = [], on
           ))}
         </div>
       )}
-      {!anyFilter && !collection && !here && (
+      {!anyFilter && !collection && !here && !filtersOnly && (
         <div className={`explore-applied__default${isGuest ? ' explore-applied__default--intro' : ''}`}>
           <div className="explore-applied__head"><span className="explore-applied__name">{t(isGuest ? 'explore.guestIntroTitle' : 'explore.tipTitle')}</span></div>
           {pick(isGuest ? GUEST_INTRO : tip).split('\n').map(line => <p key={line} className="explore-applied__text">{line}</p>)}
@@ -187,7 +187,8 @@ export default function ExploreApplied({ area, areaItems = [], rarities = [], on
         </div>
       )}
       {!anyFilter && !collection && nextUp && <NextUp {...nextUp} onOpenAchievement={onOpenAchievement} />}
-      {anyFilter && <button type="button" className="filter-btn explore-applied__clear-all" onClick={onClearAll}>{t('explore.clearFilters')}</button>}
+      {anyFilter && <button type="button" className="filter-btn explore-applied__clear-all" onClick={onClearAll}>{t(filtersOnly ? 'explore.clearAllFilters' : 'explore.clearFilters')}</button>}
+      {search && <Item name={`“${search}”`} onClear={onClearSearch} />}
       {areaItems.map(item => (
         <Item key={item.key} nameNode={<AreaName name={item.name} onOpen={item.onOpenGuide} />} onClear={item.onClear}>
           {pick(item.blurb)}

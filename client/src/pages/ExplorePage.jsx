@@ -17,9 +17,10 @@ import LocationDetail from '../components/locations/LocationDetail';
 import ToastContainer from '../components/shared/Toast';
 import { useFitOneLine } from '../hooks/useFitOneLine';
 import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
-import AreaFilter, { matchesArea } from '../components/locations/AreaFilter';
+import { matchesArea } from '../components/locations/AreaFilter';
 import ExploreMap from '../components/locations/ExploreMap';
-import ExploreApplied from '../components/locations/ExploreApplied';
+import ExploreDrawer from '../components/locations/ExploreDrawer';
+import ExploreApplied, { NextUp } from '../components/locations/ExploreApplied';
 import AchievementModal from '../components/achievements/AchievementModal';
 import LevelsModal from '../components/dashboard/LevelsModal';
 import { closestAchievements } from '../utils/achievementText';
@@ -48,10 +49,27 @@ export default function ExplorePage() {
   const { state, search } = useLocation();
   const navigate = useNavigate();
   const wide = useMedia(EXPLORE_SIDE_QUERY);
+  // Phones have no room beside the count: their level bar sits under the title.
+  const notPhone = useMedia('(min-width: 601px)');
   // Below 2K the column scrolls and the map can be folded away.
   const belowTwoK = useMedia('(max-width: 2399px)');
   const [filterSlot, setFilterSlot] = useState(null);
   const [appliedSlot, setAppliedSlot] = useState(null);
+  // No side column: the area map and the list of filters open in a bottom sheet.
+  const [drawer, setDrawer] = useState(null); // 'map' | 'applied' | 'next'
+  const closeDrawer = useCallback(() => setDrawer(null), []);
+  const [filterCount, setFilterCount] = useState(0);
+  const [shownCount, setShownCount] = useState(0);
+  useEffect(() => { if (wide) setDrawer(null); }, [wide]);
+  // No side column: the filters and search can be folded away, remembered on this device.
+  const [filtersFolded, setFiltersFolded] = useState(() => { try { return localStorage.getItem('exploreFiltersFolded') === '1'; } catch { return false; } });
+  const toggleFilters = () => {
+    setDrawer(null);
+    setFiltersFolded(folded => {
+      try { localStorage.setItem('exploreFiltersFolded', folded ? '0' : '1'); } catch { /* only a convenience */ }
+      return !folded;
+    });
+  };
   const [tip] = useState(() => EXPLORE_TIPS[Math.floor(Math.random() * EXPLORE_TIPS.length)]);
   const userPos                          = useUserPosition();
   const [locations, setLocations]       = useState([]);
@@ -101,7 +119,8 @@ export default function ExplorePage() {
     return () => { ro.disconnect(); root.style.removeProperty('--navbar-h'); };
   }, [wide]);
 
-  // The "Next up" card on a 2K screen; read again after each new card.
+  // The "Next up" card; read again after each new card. Without the side column
+  // it waits until its sheet opens (the level bar reads user.levelInfo).
   const [achData, setAchData] = useState(null);
   const [openAch, setOpenAch] = useState(null);
   const [levelsOpen, setLevelsOpen] = useState(false);
@@ -112,17 +131,18 @@ export default function ExplorePage() {
     userAPI.getRandomDraw().then(res => setHuntStatus(res.data)).catch(() => {});
   }, []);
   const collectedCount = useMemo(() => locations.filter(l => l.unlocked).length, [locations]);
+  const nextUpShown = wide || drawer === 'next';
   useEffect(() => {
-    if (!wide || !userId || loading) return undefined;
+    if (!nextUpShown || !userId || loading) return undefined;
     let stale = false;
     userAPI.getAchievements().then(res => { if (!stale) setAchData(res.data); }).catch(() => {});
     refreshHunt();
     return () => { stale = true; };
-  }, [wide, userId, loading, collectedCount, refreshHunt]);
+  }, [nextUpShown, userId, loading, collectedCount, refreshHunt]);
   useEffect(() => {
-    if (!wide || !userId) return;
+    if (!nextUpShown || !userId) return;
     userAPI.getHistoryProgress(true).then(res => setReading(res.data.summary)).catch(() => {});
-  }, [wide, userId]);
+  }, [nextUpShown, userId]);
 
   useEffect(() => {
     if (state?.openSlug) {
@@ -282,7 +302,13 @@ export default function ExplorePage() {
   ) : inCollection ? null : (
     <div className="scope-controls">
       <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
-      {cityOnly && <AreaFilter area={area} onChange={setArea} />}
+      {cityOnly && (
+        <div className="label-filter area-filter">
+          <button type="button" className={`filter-btn${drawer === 'map' || area ? ' filter-btn--active' : ''}`} style={{ width: '100%', whiteSpace: 'nowrap' }} onClick={() => setDrawer('map')}>
+            {area ? titleText : t('area.button')} ▼
+          </button>
+        </div>
+      )}
     </div>
   );
 
@@ -338,13 +364,21 @@ export default function ExplorePage() {
     areaItems = [{ key: 'area', name: titleText, blurb: areaBlurb, onClear: () => setArea(null), onOpenGuide: beyondCity ? null : guideFor(area.kind, area.value) }];
   }
 
+  const levels = achData?.levels ?? [];
+  const xp = user?.totalXP ?? 0;
+  const nextIndex = levels.findIndex(l => l.xpRequired > xp);
+  const floor = nextIndex > 0 ? levels[nextIndex - 1].xpRequired : 0;
+  const nextLevel = nextIndex < 0 ? null : {
+    next: levels[nextIndex].level,
+    name: (lang === 'zh' ? levels[nextIndex].title_zh : lang === 'cz' ? levels[nextIndex].title_cz : null) ?? levels[nextIndex].title,
+    left: levels[nextIndex].xpRequired - xp,
+    percent: Math.round(((xp - floor) / (levels[nextIndex].xpRequired - floor)) * 100),
+  };
+  const levelInfo = user?.levelInfo;
+
   let nextUp = null;
-  if (wide && user) {
+  if (nextUpShown && user) {
     const nearest = sortedAll.find(l => !l.unlocked && l._distance != null);
-    const levels = achData?.levels ?? [];
-    const xp = user.totalXP ?? 0;
-    const nextIndex = levels.findIndex(l => l.xpRequired > xp);
-    const floor = nextIndex > 0 ? levels[nextIndex - 1].xpRequired : 0;
     nextUp = {
       // Straight to the card's detail, never the nearby auto check-in.
       nearest: nearest ? {
@@ -352,12 +386,7 @@ export default function ExplorePage() {
         onOpen: () => { setAutoCheckIn(false); setSelectedSlug(nearest.slug); },
       } : null,
       onOpenLevels: () => setLevelsOpen(true),
-      level: nextIndex < 0 ? null : {
-        next: levels[nextIndex].level,
-        name: (lang === 'zh' ? levels[nextIndex].title_zh : lang === 'cz' ? levels[nextIndex].title_cz : null) ?? levels[nextIndex].title,
-        left: levels[nextIndex].xpRequired - xp,
-        percent: Math.round(((xp - floor) / (levels[nextIndex].xpRequired - floor)) * 100),
-      },
+      level: nextLevel,
       hunt: huntStatus,
       onHuntEnded: refreshHunt,
       reading,
@@ -370,6 +399,13 @@ export default function ExplorePage() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
           <div style={{ flex: '1 1 320px', minWidth: 0 }}>
             <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
+            {!notPhone && levelInfo && (
+              <button type="button" className="explore-level" aria-label={t('explore.nextUp')} onClick={() => setDrawer('next')}>
+                <span className="explore-level__lv">Lv {levelInfo.level}</span>
+                <span className="explore-level__track"><span className="explore-level__fill" style={{ width: `${levelInfo.progress}%` }} /></span>
+                <span className="explore-level__left">{levelInfo.nextLevelXP ? convert(t('explore.levelLeft', { n: (levelInfo.nextLevelXP - (user.totalXP ?? 0)).toLocaleString(lang === 'cz' ? 'cs-CZ' : 'en-US') })) : 'MAX'}</span>
+              </button>
+            )}
             {areaActive && !wide
               // The short blurb (if the area has one) and the link to its guide.
               ? !rarityBlurb && (
@@ -421,7 +457,7 @@ export default function ExplorePage() {
               <p className="explore-showcase-hint">{showcaseHint}</p>
             )}
           </div>
-          {!wide && <div className="explore-header__scope">{scopeToggle}</div>}
+          {!wide && !filtersFolded && <div className="explore-header__scope">{scopeToggle}</div>}
         </div>
       </div>
   );
@@ -439,6 +475,23 @@ export default function ExplorePage() {
       fitRows={!wide ? 0 : belowTwoK ? 2 : 3}
       filterSlot={filterSlot}
       appliedSlot={appliedSlot}
+      onCountChange={setShownCount}
+      filtersFolded={!wide && filtersFolded}
+      onToggleFilters={toggleFilters}
+      toolbarExtra={notPhone && levelInfo ? (
+        <div className="explore-level-slot">
+        <button type="button" className="explore-level explore-level--toolbar" title={wide ? t('nav.levelsHint') : t('explore.nextUp')} onClick={() => (wide ? setLevelsOpen(true) : setDrawer('next'))}>
+          <span className="explore-level__lv">Lv {levelInfo.level}</span>
+          <span className="explore-level__title">{convert((lang === 'zh' ? levelInfo.title_zh : lang === 'cz' ? levelInfo.title_cz : null) ?? levelInfo.title)}</span>
+          <span className="explore-level__track"><span className="explore-level__fill" style={{ width: `${levelInfo.progress}%` }} /></span>
+          <span className="explore-level__left">{levelInfo.nextLevelXP ? convert(t('nav.xpToLevelUp', { n: levelInfo.nextLevelXP - (user.totalXP ?? 0) })) : 'MAX'}</span>
+        </button>
+        </div>
+      ) : null}
+      onViewFilters={() => setDrawer('applied')}
+      onFilterCount={setFilterCount}
+      onClearFilters={() => { setCityOnly(true); setArea(null); }}
+      filterExtraCount={inCollection ? 0 : (cityOnly ? (area ? 1 : 0) : 1)}
       renderApplied={(filters) => (
         <ExploreApplied
           {...filters}
@@ -446,12 +499,13 @@ export default function ExplorePage() {
           here={hereCard}
           tip={tip}
           isGuest={guest && !user}
-          collection={inCollection && user ? locations : null}
+          collection={wide && inCollection && user ? locations : null}
           nextUp={nextUp}
           onOpenAchievement={setOpenAch}
-          area={area}
-          areaItems={areaItems}
-          onClearAll={() => { filters.onClearAll(); setArea(null); }}
+          area={wide ? area : areaActive || null}
+          areaItems={wide || areaActive ? areaItems : []}
+          filtersOnly={!wide}
+          onClearAll={() => { filters.onClearAll(); if (wide) setArea(null); }}
         />
       )}
     />
@@ -473,6 +527,21 @@ export default function ExplorePage() {
         <>
           {header}
           {grid}
+          {drawer === 'next' && nextUp && (
+            <ExploreDrawer onClose={closeDrawer} label={t('explore.nextUp')}>
+              <div className="explore-side__applied"><NextUp {...nextUp} onOpenAchievement={setOpenAch} /></div>
+            </ExploreDrawer>
+          )}
+          {drawer === 'applied' && (
+            <ExploreDrawer count={shownCount} onClose={closeDrawer} autoClose={filterCount === 0} label={t('explore.viewFilters')}>
+              <div ref={setAppliedSlot} className="explore-side__applied" />
+            </ExploreDrawer>
+          )}
+          {drawer === 'map' && (
+            <ExploreDrawer count={shownCount} onClose={closeDrawer} onClear={area ? () => setArea(null) : null}>
+              <ExploreMap locations={locations} area={area} onArea={setArea} outside={false} here={myArea} />
+            </ExploreDrawer>
+          )}
         </>
       )}
 

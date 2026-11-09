@@ -70,7 +70,7 @@ export function AuthProvider({ children }) {
     if (levelInfo && user && levelInfo.level > (user.explorerLevel ?? 1)) {
       setLevelUpEvent(levelInfo);
     }
-    updateUser({ totalXP, explorerLevel: levelInfo?.level });
+    updateUser({ totalXP, explorerLevel: levelInfo?.level, levelInfo });
   };
 
   const clearLevelUpEvent = () => setLevelUpEvent(null);
@@ -84,7 +84,7 @@ export function AuthProvider({ children }) {
       setUser(prev => {
         if (!prev) return prev;
         if (levelInfo.level > (prev.explorerLevel ?? 1)) setLevelUpEvent(levelInfo);
-        return { ...prev, totalXP, explorerLevel: levelInfo.level };
+        return { ...prev, totalXP, explorerLevel: levelInfo.level, levelInfo };
       });
     };
     window.addEventListener(ACHIEVEMENT_PROGRESS_EVENT, onProgress);

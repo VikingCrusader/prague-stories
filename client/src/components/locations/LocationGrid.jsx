@@ -26,7 +26,7 @@ const PAGE_SIZE = 60;
 // for the filters that are on into `appliedSlot`.
 // `initialFilter` ({ rarity, label }) opens the grid already filtered, e.g. on
 // Expedition from the nudge on the profile's empty expedition strip.
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, renderApplied }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -186,7 +186,22 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // Counted over what the filters and search leave, so the stats follow them.
   const unlocked = filtered.filter(l => l.unlocked).length;
   const total    = filtered.length;
+  useEffect(() => { onCountChange?.(total); }, [total, onCountChange]);
 
+  // My Collections is a view, not a filter: it isn't counted, and has its own way out.
+  const filterCount = activeLabels.size + activeRarities.size + (search.trim() ? 1 : 0) + filterExtraCount;
+  useEffect(() => { onFilterCount?.(filterCount); }, [filterCount, onFilterCount]);
+  const clearAllFilters = () => {
+    setSearch('');
+    setActiveLabels(new Set());
+    setActiveRarities(new Set());
+    // My Collections is left with its own button; its hidden scope and area stay as they were.
+    if (!discovered) onClearFilters?.();
+  };
+  const leaveCollection = () => {
+    if (sort === 'checkin') setSort('distance');
+    setDiscovered(false);
+  };
   const filterBar = (
     <div className="filter-bar">
       <div className="filter-bar__top">
@@ -271,32 +286,60 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
           )}
         </div>
       </div>
+      {!wide && (filterCount > 0 || discovered) && (
+        <div className="explore-filter-actions">
+          {filterCount > 0 && (
+            <>
+              <button type="button" className="filter-btn explore-view-filters" onClick={onViewFilters}>
+                {t('explore.viewFilters')}
+              </button>
+              <button type="button" className="filter-btn explore-clear-filters" onClick={clearAllFilters}>
+                {t('explore.clearAllFilters')}
+              </button>
+            </>
+          )}
+          {discovered && (
+            <button type="button" className="filter-btn explore-leave-collection" onClick={leaveCollection}>
+              {t('explore.backToExplore')}
+            </button>
+          )}
+        </div>
+      )}
     </div>
   );
   const stats = (
     <p className="explore-stats" style={{ margin: 0 }}>
       <span>{unlocked}</span>{cityScoped && <> / <span>{total}</span></>} <em className="explore-stats__long">{t('explore.statsLabel')}</em><em className="explore-stats__short">{t('explore.statsLabelShort')}</em>
       {/* A total and a share only for the city: expedition cards are an extra, not the goal (user's call). */}
-      {cityScoped && total > 0 && <>{' '}<br /><em className="explore-stats__label explore-stats__long">{t('explore.progress')} </em><em className="explore-stats__short">{t('explore.progressShort')} </em><span>{(unlocked / total * 100).toFixed(1)}%</span></>}
+      {cityScoped && total > 0 && <>{' '}<br /><em className="explore-stats__label explore-stats__long">{t('explore.progress')} </em><em className="explore-stats__label explore-stats__short">{t('explore.progressShort')} </em><span>{(unlocked / total * 100).toFixed(1)}%</span></>}
     </p>
   );
 
   return (
     <>
-      {wide ? (filterSlot && createPortal(filterBar, filterSlot)) : filterBar}
-      {wide && appliedSlot && createPortal(renderApplied({
+      {wide ? (filterSlot && createPortal(filterBar, filterSlot)) : !filtersFolded && filterBar}
+      {appliedSlot && createPortal(renderApplied({
+        search: !wide && search.trim() ? search.trim() : null,
+        onClearSearch: () => setSearch(''),
         labels: [...activeLabels],
         onClearLabel: toggleLabel,
         rarities: ALL_RARITIES.filter(r => activeRarities.has(r)),
         onClearRarity: toggleRarity,
-        onClearAll: () => { setActiveLabels(new Set()); setActiveRarities(new Set()); },
+        onClearAll: wide ? () => { setActiveLabels(new Set()); setActiveRarities(new Set()); } : clearAllFilters,
       }), appliedSlot)}
 
-      <div className={`explore-sortbar${wide ? ' explore-toolbar' : ''}`} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: wide ? 8 : 16 }}>
+      <div className={`explore-sortbar${wide ? ' explore-toolbar' : ''}`} style={{ display: 'flex', alignItems: wide ? 'center' : 'stretch', justifyContent: 'space-between', marginBottom: wide ? 8 : 16 }}>
         {stats}
         {showBackToTop && (
           <button type="button" className="filter-btn explore-toolbar__top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             {t('explore.backToTop')}
+          </button>
+        )}
+        {toolbarExtra}
+        <div className="explore-sortbar__actions">
+        {!wide && onToggleFilters && (
+          <button type="button" className={`filter-btn explore-filters-fold${filtersFolded && filterCount > 0 ? ' filter-btn--active' : ''}`} aria-expanded={!filtersFolded} onClick={onToggleFilters}>
+            {filtersFolded ? `${t('explore.filtersUnfold')}${filterCount > 0 ? ` (${filterCount})` : ''}` : t('explore.filtersFold')} <span className="explore-caret">{filtersFolded ? '▼' : '▲'}</span>
           </button>
         )}
         <div className="label-filter" ref={sortPanelRef}>
@@ -304,7 +347,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             className={`filter-btn${sortOpen || sort !== 'distance' ? ' filter-btn--active' : ''}`}
             onClick={() => { setSortOpen(o => !o); setLabelsOpen(false); setRaritiesOpen(false); }}
           >
-            {t(SORT_KEY[sort])} ▼
+            {t(SORT_KEY[sort])} <span className="explore-caret">▼</span>
           </button>
           {sortOpen && (
             <div className="label-filter__panel" style={{ minWidth: 160 }}>
@@ -319,6 +362,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
               ))}
             </div>
           )}
+        </div>
         </div>
       </div>
 

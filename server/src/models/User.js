@@ -125,6 +125,7 @@ userSchema.methods.toPublicJSON = function () {
     email:         this.email,
     totalXP:       this.totalXP,
     explorerLevel: calculateLevel(this.totalXP).level,
+    levelInfo:     calculateLevel(this.totalXP),
     achievements:  this.achievements,
     preferences:   {
       theme:     this.preferences?.theme ?? null,

@@ -3077,3 +3077,66 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .card-preview .detail-label-pill.detail-label-pill { padding: 2px 9px; font-size: 13px; line-height: 1.5; }
 .card-preview__text { margin: 10px 0 0; font-size: 15px; line-height: 1.6; color: var(--text-primary); }
 .card-preview__loading { height: 60px; margin-top: 10px; background: color-mix(in srgb, var(--text-muted) 12%, transparent); }
+
+/* Explore without the side column: the area filter's map in a bottom sheet (ExploreDrawer). */
+.explore-drawer { position: fixed; inset: 0; z-index: 150; --explore-side-w: calc(min(100vw, 560px) - 32px); }
+.explore-drawer__backdrop { position: absolute; inset: 0; background: rgba(0, 0, 0, 0.6); }
+.explore-drawer__sheet {
+  position: absolute; left: 0; right: 0; bottom: 0; margin: 0 auto; width: min(100vw, 560px); max-height: 85vh; max-height: 85dvh;
+  display: flex; flex-direction: column; background: var(--bg-surface); border-top: 3px solid var(--gold);
+  transition: transform 0.22s ease; animation: explore-drawer-up 0.22s ease;
+}
+@keyframes explore-drawer-up { from { transform: translateY(100%); } }
+@media (prefers-reduced-motion: reduce) { .explore-drawer__sheet { animation: none; transition: none; } }
+.explore-drawer__handle { flex: none; display: flex; justify-content: center; padding: 10px 0 8px; cursor: grab; touch-action: none; }
+.explore-drawer__handle span { width: 44px; height: 5px; background: var(--border); }
+.explore-side.explore-drawer__body { position: static; top: auto; flex: 0 1 auto; height: auto; min-height: 0; padding: 0 16px 12px; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; }
+.explore-drawer__foot { flex: none; display: flex; gap: 8px; padding: 10px 16px; border-top: 2px solid var(--border); }
+.explore-drawer__clear { flex: none; white-space: nowrap; }
+.explore-drawer__view { flex: 1 1 0; min-width: 0; justify-content: center; }
+.explore-sortbar__actions { display: flex; flex: none; gap: 8px; }
+.explore-sortbar:not(.explore-toolbar) { flex-wrap: wrap; row-gap: 6px; }
+.explore-sortbar:not(.explore-toolbar) .explore-sortbar__actions { margin-left: auto; }
+.explore-filters-fold { white-space: nowrap; }
+/* The count's two lines and the two buttons beside it are one block: same height, same top and bottom. */
+.explore-sortbar:not(.explore-toolbar) .explore-stats { font-size: 15px; line-height: 1.3; align-self: center; }
+.explore-sortbar:not(.explore-toolbar) .explore-sortbar__actions .label-filter { display: flex; }
+.explore-sortbar:not(.explore-toolbar) .explore-sortbar__actions .filter-btn { min-height: 32px; padding-top: 0; padding-bottom: 0; }
+.explore-sortbar:not(.explore-toolbar) .explore-caret { font-size: 0.6em; vertical-align: 0.1em; }
+@media (max-width: 600px) {
+  .explore-sortbar:not(.explore-toolbar) .explore-stats { font-size: 13.5px; }
+  :is(#root, body) .explore-sortbar:not(.explore-toolbar) .explore-sortbar__actions .filter-btn { font-size: 12px; }
+}
+.explore-filter-actions { flex: 1 1 100%; display: flex; gap: 8px; width: 100%; }
+.explore-filter-actions > .filter-btn { flex: 1 1 0; min-width: 0; color: var(--gold); text-align: center; }
+@media (max-width: 600px) { .explore-filter-actions > .filter-btn { padding-left: 4px; padding-right: 4px; } }
+.explore-drawer .explore-side__applied { display: flex; flex-direction: column; gap: 8px; }
+
+/* Explore without the side column: the level bar under the title, opening Next up. */
+.explore-level { display: flex; align-items: center; gap: 8px; width: 100%; min-height: 30px; margin: 0 0 8px; padding: 0; font: inherit; color: var(--text-primary); background: none; border: 0; cursor: pointer; }
+.explore-level__lv { flex: none; font-size: 14px; font-weight: 700; color: var(--gold); white-space: nowrap; }
+.explore-level__track { flex: 1 1 0; min-width: 40px; height: 8px; background: var(--bg-card); border: 1px solid var(--border); }
+.explore-level__fill { display: block; height: 100%; background: var(--gold); transition: width 0.7s ease; }
+@media (prefers-reduced-motion: reduce) { .explore-level__fill { transition: none; } }
+.explore-level__left { flex: none; font-size: 13px; white-space: nowrap; color: var(--text-primary); }
+.explore-drawer__body:last-child { padding-bottom: 20px; }
+
+/* From 601 px the level sits right next to the sort button, on the count's row, and
+   gives up its parts in turn when the row is short of room. The slot takes the free
+   width (the container the queries measure); the level inside keeps to its right end. */
+.explore-level-slot { flex: 1 1 0; min-width: 0; display: flex; justify-content: flex-end; align-self: center; overflow: hidden; container-type: inline-size; }
+.explore-level--toolbar { flex: 0 1 auto; width: auto; min-width: 0; min-height: 28px; margin: 0 12px 0 16px; }
+/* The bar gives way first, so the title shows whole whenever it can. */
+.explore-level--toolbar .explore-level__track { flex: 0 100 160px; width: 160px; min-width: 60px; }
+/* EN/CZ: the short count leaves the level room on anything under a large screen. */
+@media (min-width: 601px) and (max-width: 1599px) {
+  html:not([data-lang="zh"]) .explore-sortbar .explore-stats__long { display: none; }
+  html:not([data-lang="zh"]) .explore-sortbar .explore-stats__short { display: inline; }
+}
+.explore-level__title { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; color: var(--text-primary); }
+.explore-toolbar__top:has(+ .explore-level-slot) { margin-left: 16px; margin-right: 0; }
+@container (max-width: 430px) { .explore-level__title { display: none; } }
+@container (max-width: 300px) { .explore-level__track { display: none; } }
+@container (max-width: 215px) { .explore-level__left { display: none; } .explore-level__track { display: block; } }
+@container (max-width: 120px) { .explore-level__track { display: none; } }
+@container (max-width: 70px) { .explore-level--toolbar { display: none; } }
