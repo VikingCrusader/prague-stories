@@ -221,6 +221,7 @@ export default function MapPage() {
     }
     pickCard(card);
   };
+  const addFilter = (kind, value) => (kind === 'label' ? setActiveLabels : setActiveRarities)(prev => new Set(prev).add(value));
   const clearFilters = () => { setSearch(''); setActiveLabels(new Set()); setActiveRarities(new Set()); setArea(null); };
   const hasIntro = !!shownDistrict && area?.kind !== 'outside';
   const chips = (
@@ -241,6 +242,7 @@ export default function MapPage() {
       slug={selectedSlug}
       onCheckIn={handleCheckIn}
       onViewDetail={(slug) => navigate('/explore', { state: { openSlug: slug } })}
+      onAddFilter={addFilter}
     />
   );
   const bottomBar = (
@@ -381,7 +383,8 @@ export default function MapPage() {
   );
 }
 
-function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
+// `onAddFilter(kind, value)`: on the Map a label or rarity adds that filter right here.
+function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter }) {
   const { lang } = useLang();
   const t = useT();
   const convert = useConvert();
@@ -513,9 +516,9 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
               clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
               flexShrink: 0,
             }} />
-            <span className="loc-meta__rarity" style={{ color: RARITY_VAR[loc.rarity ?? 'common'] }}>
+            <button type="button" className="loc-meta__rarity tag-button" style={{ color: RARITY_VAR[loc.rarity ?? 'common'] }} onClick={() => onAddFilter('rarity', loc.rarity ?? 'common')}>
               {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
-            </span>
+            </button>
             <span className="loc-meta__xp" style={{ color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
           </div>
           {userPos && (
@@ -535,14 +538,16 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
         )}
         <div className="loc-card__labels" style={{ marginBottom: 4 }}>
           {descriptiveLabels(loc.labels).slice(0, 3).map((lb, i) => (
-            <span
+            <button
+              type="button"
               key={lb}
-              className={`detail-label-pill${i === 0 ? ' detail-label-pill--superior' : ''}`}
+              className={`detail-label-pill area-guide-pill tag-button${i === 0 ? ' detail-label-pill--superior' : ''}`}
               title={LABEL_DEFINITIONS[lb]?.en}
               style={{ backgroundColor: LABEL_COLORS[lb] || 'var(--pill-fallback, rgba(255,255,255,0.07))' }}
+              onClick={() => onAddFilter('label', lb)}
             >
               {convert(LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb)}
-            </span>
+            </button>
           ))}
         </div>
         <DistrictLine loc={loc} style={{ marginBottom: 4 }} />

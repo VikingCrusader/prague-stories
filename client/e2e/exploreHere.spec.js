@@ -79,3 +79,41 @@ test.describe('a landmark in the area guide pop-up', () => {
     await expect(page.locator('.area-guide-overlay .area-guide__title')).toHaveText('Vinohrady');
   });
 });
+
+test.describe('a label or rarity in a card', () => {
+  test.use({ viewport: { width: 2560, height: 1300 } });
+  const card = (i, labels, rarity, unlocked) => ({ ...LOC, _id: String(i), name: `Card ${i}`, slug: `card-${i}`, labels, rarity, unlocked });
+  const CARDS = [card(1, ['church'], 'rare', true), card(2, ['church'], 'mythic', false), card(3, ['park'], 'mythic', false)];
+  const openCard = async page => {
+    await page.addInitScript(() => { localStorage.setItem('lang', 'en'); localStorage.setItem('token', 'fake-jwt-token'); });
+    await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
+    await page.route('**/api/locations', route => route.fulfill({ json: CARDS }));
+    await page.route('**/api/locations/card-*', route => route.fulfill({ json: { ...CARDS[0], description: { en: 'Story.', cz: 'x', zh: 'x' } } }));
+    await page.goto('/explore');
+    await page.locator('.explore-main .loc-card').first().click();
+    await expect(page.getByText('Story.')).toBeVisible();
+  };
+  const cards = page => page.locator('.explore-main .loc-card');
+
+  test('a label shows its note and leads to its cards, closing the card', async ({ page }) => {
+    await openCard(page);
+    await page.locator('.px-modal--detail .detail-label-pill.tag-button').first().click();
+    const note = page.locator('.tag-info');
+    await expect(note).toContainText('Collected: 1 / 2');
+    await page.keyboard.press('Escape');
+    await expect(note).toHaveCount(0);
+    await expect(page.getByText('Story.')).toBeVisible(); // only the note closed
+    await page.locator('.px-modal--detail .detail-label-pill.tag-button').first().click();
+    await note.getByRole('link').click();
+    await expect(page.getByText('Story.')).toHaveCount(0);
+    await expect(cards(page)).toHaveCount(2);
+  });
+
+  test('so does the rarity', async ({ page }) => {
+    await openCard(page);
+    await page.locator('.px-modal--detail .loc-meta__rarity').click();
+    await expect(page.locator('.tag-info')).toContainText('Collected: 1 / 1');
+    await page.locator('.tag-info').getByRole('link').click();
+    await expect(cards(page)).toHaveCount(1);
+  });
+});

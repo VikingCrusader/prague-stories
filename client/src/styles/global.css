@@ -787,7 +787,10 @@ html:not([data-lang="zh"]) .loc-card__xp {
 html:not([data-lang="zh"]) .loc-card__dist,
 html:not([data-lang="zh"]) .loc-meta__rarity,
 html:not([data-lang="zh"]) .loc-meta__distance,
-html:not([data-lang="zh"]) .loc-meta__xp {
+html:not([data-lang="zh"]) .loc-meta__xp,
+html[data-lang="zh"] .loc-meta__rarity,
+html[data-lang="zh"] .loc-meta__distance,
+html[data-lang="zh"] .loc-meta__xp {
   font-size: 16px;
 }
 /* Rarity and distance text bold in every language and both themes

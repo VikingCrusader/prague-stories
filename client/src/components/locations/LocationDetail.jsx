@@ -14,6 +14,7 @@ import { getCurrentPosition, haversineDistance, formatDistance } from "../../uti
 import { useUserPosition } from "../../hooks/useUserPosition";
 import EditLocationForm from "./EditLocationForm";
 import DistrictLine, { descriptiveLabels } from "./DistrictLine";
+import TagButton from "./TagInfo";
 import {
   RARITY_VAR,
   RARITY_LABEL, RARITY_ICON,
@@ -486,13 +487,15 @@ export default function LocationDetail({
                       clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)",
                     }}
                   />
-                  <span
+                  <TagButton
+                    kind="rarity"
+                    value={loc.rarity ?? "common"}
                     className="loc-meta__rarity"
                     style={{ color: RARITY_VAR[loc.rarity ?? "common"] }}
                   >
                     {RARITY_ICON[loc.rarity ?? "common"]}{" "}
                     {convert(RARITY_LABEL[lang]?.[loc.rarity ?? "common"])}
-                  </span>
+                  </TagButton>
                   <span className="loc-meta__xp" style={{ color: "var(--gold)" }}>
                     +{loc.xpReward} XP
                   </span>
@@ -510,9 +513,11 @@ export default function LocationDetail({
               {descriptiveLabels(loc.labels).length > 0 && (
                 <div className="loc-card__labels" style={{ marginBottom: 8 }}>
                   {descriptiveLabels(loc.labels).map((lb, i) => (
-                    <span
+                    <TagButton
                       key={lb}
-                      className={`detail-label-pill${i === 0 ? " detail-label-pill--superior" : ""}`}
+                      kind="label"
+                      value={lb}
+                      className={`detail-label-pill area-guide-pill${i === 0 ? " detail-label-pill--superior" : ""}`}
                       style={{
                         backgroundColor:
                           LABEL_COLORS[lb] || "var(--pill-fallback, rgba(255,255,255,0.07))",
@@ -523,7 +528,7 @@ export default function LocationDetail({
                           LABEL_DEFINITIONS[lb]?.en ||
                           lb,
                       )}
-                    </span>
+                    </TagButton>
                   ))}
                 </div>
               )}

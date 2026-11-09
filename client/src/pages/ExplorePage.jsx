@@ -90,6 +90,13 @@ export default function ExplorePage() {
     ? { rarity: state.rarity ?? null, label: state.label ?? null }
     : null), [state?.rarity, state?.label]);
   useEffect(() => { if (state?.showAll) setCityOnly(false); }, [state?.showAll, locationKey]);
+  // Arriving with a filter from a pop-up on this very page: whatever was open goes.
+  useEffect(() => {
+    if (!state?.rarity && !state?.label) return;
+    setSelectedSlug(null);
+    setAreaGuide(null);
+    setOpenAch(null);
+  }, [locationKey]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Refetched when the signed-in user changes, e.g. when a sign-in that
   // was retried in the background (AuthContext) lands after the first load.

@@ -2752,6 +2752,9 @@ html[data-lang="zh"] .detail-title-name {
   html:not([data-lang="zh"]) .loc-meta__distance {
     font-size: 10px !important;
   }
+  html[data-lang="zh"] :is(.loc-meta__rarity, .loc-meta__xp, .loc-meta__distance) {
+    font-size: 13px !important;
+  }
 }
 
 /* Chinese on mobile: override global 16px/20px sizes down to readable pixel sizes */
@@ -3027,6 +3030,14 @@ html[data-lang="zh"] .detail-title-name {
   .quarter-picker { padding: 18px 14px 22px; }
 }
 /* A pill or badge that opens a guide. */
+.tag-button.loc-meta__rarity { padding: 0; border: 0; background: none; cursor: pointer; font-family: inherit; font-weight: inherit; }
+.tag-button.loc-meta__rarity:hover { filter: brightness(1.18); }
+.tag-info-overlay { z-index: 270; }
+.tag-info { max-width: 420px; padding: 22px 24px 24px; }
+.tag-info__name { font-size: 24px; margin: 0 0 8px; padding-right: 40px; }
+.tag-info__progress { margin: 0 0 10px; color: var(--gold); font-size: 16px; }
+.tag-info__blurb { margin: 0 0 16px; font-size: 16px; line-height: 1.6; color: var(--text-primary); }
+.tag-info__go { display: flex; justify-content: center; text-decoration: none; }
 .area-guide-pill { cursor: pointer; font: inherit; font-family: var(--ui-font); font-weight: 700; }
 .area-guide-pill:hover { filter: brightness(1.18); }
 .area-guide-link {

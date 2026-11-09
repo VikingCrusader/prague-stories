@@ -172,3 +172,22 @@ test.describe('a landmark in an area guide', () => {
     await expect(page.locator('.map-topbar__controls .filter-bar__search')).toHaveValue('');
   });
 });
+
+test.describe('in the card panel', () => {
+  test.use({ viewport: { width: 2560, height: 1300 } });
+  test('a label or rarity adds that filter on the map and keeps the card open', async ({ page }) => {
+    await page.goto('/map');
+    await page.locator('.map-bottom .map-tile').first().click();
+    const panel = page.locator('.map-card');
+    await expect(panel.locator('h3')).toBeVisible();
+    await panel.locator('.detail-label-pill.tag-button').first().click();
+    const chips = page.locator('.map-chip__text');
+    await expect(chips).toHaveCount(1);
+    await panel.locator('.loc-meta__rarity').click();
+    await expect(chips).toHaveCount(2);
+    await panel.locator('.loc-meta__rarity').click(); // already on: stays on
+    await expect(chips).toHaveCount(2);
+    await expect(page.locator('.tag-info')).toHaveCount(0);
+    await expect(panel.locator('h3')).toBeVisible();
+  });
+});
