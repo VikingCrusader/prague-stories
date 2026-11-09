@@ -1,6 +1,6 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useFitText } from '../../utils/fitText';
-import { useFitPage } from '../../utils/fitPage';
+import { useFitPage, ONE_PAGE } from '../../utils/fitPage';
 import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { RARITY_VAR, RARITY_LABEL, ALL_RARITIES } from '../../utils/rarity';
@@ -8,6 +8,8 @@ import ProgressRing from './ProgressRing';
 import DistrictProgress from './DistrictProgress';
 import RecentCardStrip from './RecentCardStrip';
 import ProfileGallery from './ProfileGallery';
+import PackShelf from './PackShelf';
+import PackDetail from '../packs/PackDetail';
 import LevelsModal from './LevelsModal';
 import LocationDetail from '../locations/LocationDetail';
 import RarestAchievements from '../achievements/RarestAchievements';
@@ -21,6 +23,8 @@ import AchievementModal from '../achievements/AchievementModal';
 // two look the same (2026-11-03, user's call). `own` is false on someone
 // else's: links that would lead to the viewer's own cards are left out.
 // `progress` is the /progress payload, `achievements` the whole catalogue.
+const TWO_K = '(min-width: 2400px) and (min-height: 1200px)';
+const shelfLayoutNow = () => (window.matchMedia(TWO_K).matches ? 'side' : window.matchMedia(ONE_PAGE).matches ? 'compact' : 'stack');
 const firstFour = d => (d ? { ...d, cards: (d.cards || []).slice(0, 4) } : d);
 
 const FIT_LABELS = [
@@ -33,7 +37,6 @@ const FIT_LABELS = [
   '.card-strip__empty',
   '.card-strip__name',
   '.card-strip__meta',
-  '.week-card__name',
 ].join(', ');
 
 export default function ProfileBody({ progress, achievements, username, own = true, isGuest = false }) {
@@ -46,16 +49,23 @@ export default function ProfileBody({ progress, achievements, username, own = tr
   const [levelsOpen, setLevelsOpen] = useState(false);
   // A card opened from the treasure / expedition strips.
   const [openSlug, setOpenSlug] = useState(null);
-  // The "All" window: 'achievements', 'treasure', 'expedition', 'collection', a rarity or null.
+  // The "All" window: 'achievements', 'treasure', 'expedition', 'collection', 'packs', a rarity or null.
   const [gallery, setGallery] = useState(null);
+  const [openPack, setOpenPack] = useState(null);
+  const [layoutNow, setLayoutNow] = useState(shelfLayoutNow);
+  useEffect(() => {
+    const onChange = () => setLayoutNow(shelfLayoutNow());
+    const queries = [TWO_K, ONE_PAGE].map(q => window.matchMedia(q));
+    queries.forEach(q => q.addEventListener('change', onChange));
+    return () => queries.forEach(q => q.removeEventListener('change', onChange));
+  }, []);
 
   const { levelInfo, totalXP, unlockPercent, rarityCount, totalPreset } = progress;
   // Rank movement since Monday 0:00 in Prague, when the week resets
   // (2026-11-03): green ▲ up, a muted grey ▼ down (red is the site's accent,
   // and dropping isn't an error), nothing when unchanged, "new" when they had
   // no XP on Monday.
-  const week = progress.week || { cards: 0, xp: 0, rankChange: null };
-  const rc = week.rankChange;
+  const rc = progress.week?.rankChange;
   const rankChange = rc && (rc.isNew || rc.delta) ? (
     <span
       className={`rank-change rank-change--${rc.isNew || rc.delta > 0 ? 'up' : 'down'}`}
@@ -70,7 +80,11 @@ export default function ProfileBody({ progress, achievements, username, own = tr
       {rankChange}
     </>
   );
-  const plus = n => (n > 0 ? `+${n}` : '0');
+  // Only the player's own: the packs are read for whoever is signed in.
+  const shelfLayout = own && !isGuest ? layoutNow : null;
+  const shelf = shelfLayout && (
+    <PackShelf layout={shelfLayout} refresh={progress.presetCheckins} onOpen={setOpenPack} onSeeAll={() => setGallery('packs')} />
+  );
   const canOpenCollection = own && progress.presetCheckins > 0;
   const collectionProps = canOpenCollection ? {
     role: 'button',
@@ -105,8 +119,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
           </div>
         </button>
 
-        {/* Phones: the rank beside the level badge (2026-11-03); the "This
-            week" card below then leaves its rank column out. */}
+        {/* The rank beside the level badge, and how it moved this week. */}
         <Link to="/leaderboard" className="stat-card stat-card--link stat-card--rank-top">
           <div className="stat-card__label">{t('dashboard.rankShort')}</div>
           <div className="stat-card__value">{rankValue}</div>
@@ -172,32 +185,10 @@ export default function ProfileBody({ progress, achievements, username, own = tr
           </div>
         </div>
 
-        {/* This week, stacked with cards by rarity beside the ring
-            (2026-11-03, user's call): the leaderboard rank and how it moved,
-            cards collected and XP earned since Monday. Was a plain
-            rank card, which replaced a total-XP card that repeated the XP
-            bar above. */}
-        <div className="stat-card week-card">
-          {/* Gold section titles like the district card's (2026-11-04). */}
-          <h2 className="px-title profile-card-title">
-            {t('dashboard.thisWeek')}
-            <span className="week-card__note">{t('dashboard.weekResets')}</span>
-          </h2>
-          <ul className="week-card__list">
-            <li className="week-card__item week-card__item--rank">
-              <span className="week-card__name">{t('dashboard.rank')}</span>
-              <Link to="/leaderboard" className="week-card__n">{rankValue}</Link>
-            </li>
-            <li className="week-card__item">
-              <span className="week-card__name">{t('dashboard.weekCards')}</span>
-              <span className="week-card__n">{plus(week.cards)}</span>
-            </li>
-            <li className="week-card__item">
-              <span className="week-card__name">{t('dashboard.weekXp')}</span>
-              <span className="week-card__n">{plus(week.xp)}</span>
-            </li>
-          </ul>
-        </div>
+        {/* Card packs, each one whole, in the place "This week" had (2026-11-09,
+            user's call; those figures moved to the leaderboard). On a 2K screen
+            they stand under the map instead. */}
+        {shelfLayout && shelfLayout !== 'side' && shelf}
 
         {/* Cards by rarity, compact (2026-11-03): replaced an achievements
             total that the achievements section right below repeated, and
@@ -238,6 +229,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
       {/* The districts as a map and a list (2026-11-03; the map 2026-11-04). */}
       <div className="profile-layout__side">
         <DistrictProgress districts={progress.districtProgress} quarters={progress.quarterProgress} own={own && !isGuest} />
+        {shelfLayout === 'side' && shelf}
       </div>
 
       <div className="profile-layout__bottom">
@@ -283,12 +275,14 @@ export default function ProfileBody({ progress, achievements, username, own = tr
       <ProfileGallery
         kind={gallery}
         achievements={achievements}
-        paused={!!selectedAch || !!openSlug}
+        paused={!!selectedAch || !!openSlug || !!openPack}
         onClose={() => setGallery(null)}
         onOpenAchievement={setSelectedAch}
         onOpenCard={setOpenSlug}
+        onOpenPack={setOpenPack}
       />
     )}
+    {openPack && <PackDetail slug={openPack} onClose={() => setOpenPack(null)} />}
     {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
     {selectedAch && <AchievementModal achievement={selectedAch} onClose={() => setSelectedAch(null)} />}
     </>

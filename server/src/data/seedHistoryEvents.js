@@ -7439,14 +7439,6 @@ export const historyEvents = [
     ],
     relatedLandmarks: [
       {
-        slug: "karolinum",
-        relation: {
-          en: "Founded just the year before. Havel of Strahov himself would go on to teach here as its first professor of astronomy.",
-          cz: "Založená právě o rok dřív. Sám Havel ze Strahova zde později učil jako první profesor astronomie.",
-          zh: "就在一年前刚刚建立。斯特拉霍夫的哈维尔本人后来就在这里担任了第一位天文学教授。",
-        },
-      },
-      {
         // Deliberately not 'strahov-monastery'/'strahov-library', despite
         // the tempting name match to Havel "of Strahov" — checked
         // cs.wikipedia's own biography and it doesn't explain the
@@ -7463,6 +7455,14 @@ export const historyEvents = [
           en: "The kind of everyday Prague market square where a traveler's grim stories from abroad would have circulated, while trade went on as if nothing were wrong.",
           cz: "Typické pražské tržní náměstí, kde by kolovaly cestovatelovy ponuré zprávy ze zahraničí, zatímco obchod pokračoval, jako by nic nebylo.",
           zh: "典型的布拉格市集广场，旅人从异乡带回来的可怕传闻，正是在这样的地方流传开来，而交易照旧，仿佛什么都没发生。",
+        },
+      },
+      {
+        slug: "karolinum",
+        relation: {
+          en: "Founded just the year before. Havel of Strahov himself would go on to teach here as its first professor of astronomy.",
+          cz: "Založená právě o rok dřív. Sám Havel ze Strahova zde později učil jako první profesor astronomie.",
+          zh: "就在一年前刚刚建立。斯特拉霍夫的哈维尔本人后来就在这里担任了第一位天文学教授。",
         },
       },
     ],
@@ -8664,6 +8664,14 @@ export const historyEvents = [
       },
     ],
     relatedLandmarks: [
+      {
+        slug: "petrin",
+        relation: {
+          en: "The hill the wall climbs: it runs up from the Lesser Town, over the ridge and on to Strahov.",
+          cz: "Kopec, na který se zeď šplhá: vede z Malé Strany přes hřeben až ke Strahovu.",
+          zh: "这道墙翻越的山丘：它从小城区一路向上，越过山脊，直抵斯特拉霍夫。",
+        },
+      },
       {
         slug: "hunger-wall-1782410203381",
         relation: {
@@ -14180,6 +14188,14 @@ export const historyEvents = [
         },
       },
       {
+        slug: "pankrac",
+        relation: {
+          en: "The plain where the relief army made its main camp in October 1420, glass towers today where tents and a blocked supply road once stood.",
+          cz: "Planina, kde spojenecké vojsko v říjnu 1420 zřídilo svůj hlavní tábor, dnes skleněné věže tam, kde kdysi stály stany a přerušená zásobovací cesta.",
+          zh: "1420年10月，援军就是在这片高地上扎下了主营，如今矗立着玻璃高楼的地方，当年是帐篷和被切断的补给线。",
+        },
+      },
+      {
         slug: "tabor",
         relation: {
           en: "The city this whole fight was really about keeping a road open to, still remembered today in the name of Vyšehrad's own south-eastern gate.",
@@ -14193,14 +14209,6 @@ export const historyEvents = [
           en: "The gate you'd have passed through in 1420 too, in cruder form, the one physical thing this whole siege was actually fought to keep open.",
           cz: "Brána, kterou byste prošli i v roce 1420, byť v hrubší podobě, ta jediná skutečná věc, kvůli jejímu udržení se celé tohle obležení vlastně vedlo.",
           zh: "1420年时人们也是从这里进出的，只是当时更简陋，这整场围城，说到底就是为了守住这条通路。",
-        },
-      },
-      {
-        slug: "pankrac-skyline",
-        relation: {
-          en: "The plain where the relief army made its main camp in October 1420, glass towers today where tents and a blocked supply road once stood.",
-          cz: "Planina, kde spojenecké vojsko v říjnu 1420 zřídilo svůj hlavní tábor, dnes skleněné věže tam, kde kdysi stály stany a přerušená zásobovací cesta.",
-          zh: "1420年10月，援军就是在这片高地上扎下了主营，如今矗立着玻璃高楼的地方，当年是帐篷和被切断的补给线。",
         },
       },
       {
@@ -17786,19 +17794,19 @@ export const historyEvents = [
     ],
     relatedLandmarks: [
       {
-        slug: "kolin",
-        relation: {
-          en: "Where Hynek of Kolštejn and Jan Smiřický met on 4 September 1427 and agreed to seize Prague, with one guest at the table who went and warned the city.",
-          cz: "Zde se 4. září 1427 sešli Hynek z Kolštejna a Jan Smiřický a dohodli se, že se zmocní Prahy. U stolu seděl i host, který pak šel město varovat.",
-          zh: "1427年9月4日，科尔什泰因的海涅克和扬·斯米日茨基在这里密会，商定拿下布拉格。可惜同桌有一位客人，转身就去给城里报了信。",
-        },
-      },
-      {
         slug: "old-town-square",
         relation: {
           en: "Where Hynek of Kolštejn's six hundred horsemen rode in on 6 September 1427, and where Prague's chains and crossbows were waiting for them.",
           cz: "Sem 6. září 1427 vjelo šest set jezdců Hynka z Kolštejna a zde na ně čekaly pražské řetězy a kuše.",
           zh: "1427年9月6日，科尔什泰因的海涅克带来的六百骑兵就冲到了这里，布拉格人的铁链和弩箭早已在此等候。",
+        },
+      },
+      {
+        slug: "kolin",
+        relation: {
+          en: "Where Hynek of Kolštejn and Jan Smiřický met on 4 September 1427 and agreed to seize Prague, with one guest at the table who went and warned the city.",
+          cz: "Zde se 4. září 1427 sešli Hynek z Kolštejna a Jan Smiřický a dohodli se, že se zmocní Prahy. U stolu seděl i host, který pak šel město varovat.",
+          zh: "1427年9月4日，科尔什泰因的海涅克和扬·斯米日茨基在这里密会，商定拿下布拉格。可惜同桌有一位客人，转身就去给城里报了信。",
         },
       },
       {
@@ -19598,6 +19606,14 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
+        slug: "old-town-square",
+        relation: {
+          en: "Where Sigismund sat in state with the Bohemian crown on 26 August 1436 while the councillors of the three Prague towns swore to obey him.",
+          cz: "Zde 26. srpna 1436 seděl Zikmund v majestátu s českou korunou, zatímco mu konšelé tří pražských měst slibovali poslušnost.",
+          zh: "1436年8月26日，西吉斯蒙德头戴波希米亚王冠在这里正襟危坐，布拉格三座城的议员向他宣誓效忠。",
+        },
+      },
+      {
         slug: "jihlava",
         relation: {
           en: "Where the Compacts of Basel were proclaimed on 5 July 1436, and where the Czech estates received Sigismund as king on 14 August.",
@@ -19619,14 +19635,6 @@ export const historyEvents = [
           en: "Built on the site of the King's Court, where Sigismund lived during his single year as king in Prague.",
           cz: "Stojí na místě Králova dvora, kde Zikmund bydlel během svého jediného roku jako král v Praze.",
           zh: "建在当年国王宫的旧址上。西吉斯蒙德在布拉格当国王的那短短一年，就住在国王宫里。",
-        },
-      },
-      {
-        slug: "old-town-square",
-        relation: {
-          en: "Where Sigismund sat in state with the Bohemian crown on 26 August 1436 while the councillors of the three Prague towns swore to obey him.",
-          cz: "Zde 26. srpna 1436 seděl Zikmund v majestátu s českou korunou, zatímco mu konšelé tří pražských měst slibovali poslušnost.",
-          zh: "1436年8月26日，西吉斯蒙德头戴波希米亚王冠在这里正襟危坐，布拉格三座城的议员向他宣誓效忠。",
         },
       },
     ],
@@ -19762,6 +19770,14 @@ export const historyEvents = [
     ],
     relatedLandmarks: [
       {
+        slug: "old-town-square",
+        relation: {
+          en: "Where the timber for Roháč's gallows was taken from, stacked here for the new roof of the Týn church; it may also have been where he was hanged.",
+          cz: "Odtud pocházelo dřevo na Roháčovu šibenici, složené tu pro nový krov Týnského chrámu; možná tu byl i oběšen.",
+          zh: "绞死罗哈奇的绞架，用的就是堆在这里、原本要给泰恩教堂做屋顶的木料；他或许也是在这里被绞死的。",
+        },
+      },
+      {
         slug: "zricenina-hradu-sion",
         relation: {
           en: "Jan Roháč's castle, besieged from May 1437 and stormed on 6 September. Only foundations remain today.",
@@ -19775,14 +19791,6 @@ export const historyEvents = [
           en: "Where Roháč was tortured before his execution in September 1437.",
           cz: "Zde byl Roháč před popravou v září 1437 mučen.",
           zh: "1437年9月罗哈奇被处决前，在这里受了酷刑。",
-        },
-      },
-      {
-        slug: "old-town-square",
-        relation: {
-          en: "Where the timber for Roháč's gallows was taken from, stacked here for the new roof of the Týn church; it may also have been where he was hanged.",
-          cz: "Odtud pocházelo dřevo na Roháčovu šibenici, složené tu pro nový krov Týnského chrámu; možná tu byl i oběšen.",
-          zh: "绞死罗哈奇的绞架，用的就是堆在这里、原本要给泰恩教堂做屋顶的木料；他或许也是在这里被绞死的。",
         },
       },
       {
@@ -28095,6 +28103,14 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
+        slug: "old-town-square",
+        relation: {
+          en: "Where the black-draped scaffold stood, in front of the Old Town Hall, and where twenty-seven men were brought to it in four hours.",
+          cz: "Kde stálo černě potažené popraviště, před Staroměstskou radnicí, a kam za čtyři hodiny přivedli sedmadvacet mužů.",
+          zh: "那座蒙着黑布的断头台就搭在这里，老市政厅前，四个小时里，二十七个人被依次押上台。",
+        },
+      },
+      {
         slug: "27-krizu-staromestske-namesti",
         relation: {
           en: "Twenty-seven white crosses in the paving in front of the Old Town Hall mark where the scaffold stood",
@@ -30696,6 +30712,14 @@ export const historyEvents = [
     ],
     "relatedLandmarks": [
       {
+        slug: "old-town-square",
+        relation: {
+          en: "Where the column went up, in the very middle of the square, to say thank you on the whole city's behalf.",
+          cz: "Kde vyrostl sloup, přesně uprostřed náměstí, aby poděkoval za celé město.",
+          zh: "圣母柱就立在这里，广场的正中央，代表全城说一声谢谢。",
+        },
+      },
+      {
         "slug": "mariansky-sloup",
         "relation": {
           "en": "Raised in 1650 on the spot where the Saxons had put the Palladium on show; today's column is a 2020 replica",
@@ -30718,7 +30742,7 @@ export const historyEvents = [
           "cz": "Domov Palladia země české, reliéfu, který Sasové roku 1632 vystavili na Staroměstském náměstí; sem se vrátil roku 1638",
           "zh": "“波希米亚的守护圣像”的家。1632年萨克森人把它拿到老城广场示众，1638年它才回到这里"
         }
-      }
+      },
     ],
     "images": [
       "/history/the-column-on-the-square-1650.webp"

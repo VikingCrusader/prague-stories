@@ -347,7 +347,7 @@ describe('evaluateAchievements', () => {
 
   test('new_faces and other_side need their places and their label counts', () => {
     const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
-    const two = ['dancing-house', 'pankrac-skyline'];
+    const two = ['dancing-house', 'city-tower-prague'];
     expect(ids({ checkedSlugs: two, labelCount: { contemporary: 15 } })).toContain('new_faces');
     expect(ids({ checkedSlugs: two, labelCount: { contemporary: 14 } })).not.toContain('new_faces');
     expect(ids({ checkedSlugs: two.slice(1), labelCount: { contemporary: 40 } })).not.toContain('new_faces');
@@ -546,9 +546,9 @@ describe('evaluateAchievements', () => {
     expect(ids({ historyEraReached: 1 })).not.toContain('turning_the_page');
   });
 
-  test('starter_pack: the six square landmarks plus any four of the other fourteen', () => {
+  test('starter_pack: the five square landmarks plus any four of the other fourteen', () => {
     const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
-    const must = ['old-town-square', 'tyn-church', 'mariansky-sloup', 'old-town-hall', 'astronomical-clock', 'pamatnik-jana-husa'];
+    const must = ['tyn-church', 'mariansky-sloup', 'old-town-hall', 'astronomical-clock', 'pamatnik-jana-husa'];
     const four = ['27-krizu-staromestske-namesti', 'stone-bell-house', 'dum-u-minuty', 'dum-zlaty-kriz'];
     expect(ids({ checkedSlugs: [...must, ...four] })).toContain('starter_pack');
     expect(ids({ checkedSlugs: [...must, ...four.slice(1)] })).not.toContain('starter_pack');

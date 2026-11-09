@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { DISTRICT_COLORS } from '../locations/DistrictLine';
 import AreaGuideModal from '../locations/AreaGuideModal';
@@ -33,6 +34,13 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
   const [page, setPage] = useState(0);
   const [guide, setGuide] = useState(null);
   const [listOpen, setListOpen] = useState(false);
+  useEffect(() => {
+    if (!listOpen) return undefined;
+    // A guide opened from a row handles Escape itself, first.
+    const onKey = e => { if (e.key === 'Escape') setListOpen(false); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [listOpen]);
 
   const quarterRows = useMemo(() => {
     const collator = new Intl.Collator(lang === 'zh' ? 'zh' : lang === 'cz' ? 'cs' : 'en');
@@ -42,9 +50,8 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
       .sort((a, b) => dn(a.quarter) - dn(b.quarter) || collator.compare(quarterName(a.quarter, lang), quarterName(b.quarter, lang)));
   }, [quarters, lang]);
 
-  // The map comes first, the list under it. Below a 2K screen the list starts
-  // folded behind a button (2026-11-08, user's call; pixelart.css); from 2K up
-  // it has neither the fold nor the button.
+  // The map stays on the page; the list opens in its own small window, on every
+  // screen (2026-11-09, user's call).
   if (!districts?.length) return null;
   const isQ = mode === 'quarter' && quarterRows.length > 0;
   const changeMode = m => { setMode(m); setPage(0); };
@@ -87,44 +94,58 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
         <span className="district-progress__summary-text">{t(isQ ? 'dashboard.quartersVisited' : 'dashboard.districtsVisited')}</span>
       </div>
       <DistrictMap districts={districts} quarters={quarters} own={own} mode={mode} onModeChange={changeMode} showToggle={false} />
-      <button type="button" className="filter-btn district-progress__toggle" aria-expanded={listOpen} onClick={() => setListOpen(o => !o)}>
-        {t(listOpen ? 'dashboard.hideDetails' : 'dashboard.showDetails')}
+      <button type="button" className="filter-btn district-progress__toggle" onClick={() => setListOpen(true)}>
+        {t('dashboard.showDetails')}
       </button>
-      <ul className={`district-progress__list${isQ ? ' district-progress__list--quarters' : ''}${listOpen ? ' district-progress__list--open' : ''}`}>
-        {rows.map(r => {
-          const pct = r.total ? Math.round((r.collected / r.total) * 100) : 0;
-          const inner = (
-            <>
-              <span className="district-progress__name quiet-link__text" title={convert(r.name)}>{convert(r.name)}</span>
-              <span className="district-progress__bar">
-                <span className="district-progress__fill" style={{ width: `${pct}%`, backgroundColor: r.color }} />
-              </span>
-              <span className="district-progress__count">{r.collected} / {r.total}</span>
-            </>
-          );
-          return (
-            <li key={r.key} className={`district-progress__row${r.collected ? '' : ' district-progress__row--unvisited'}`}>
-              {own
-                ? <button type="button" className="quiet-link district-progress__link" onClick={() => setGuide({ kind: isQ ? 'quarter' : 'district', value: r.key })}>{inner}</button>
-                : inner}
-            </li>
-          );
-        })}
-        {isQ && Array.from({ length: Math.max(0, QUARTER_PAGE - rows.length) }, (_, i) => (
-          <li key={`pad-${i}`} className="district-progress__row district-progress__row--pad" aria-hidden="true">&nbsp;</li>
-        ))}
-        {isQ && pages > 1 && (
-          <li className="district-progress__pager">
-            <button type="button" className="district-progress__page-btn" onClick={() => setPage(p => p - 1)} disabled={page === 0}>
-              ‹ {t('dashboard.pagePrev')}
-            </button>
-            <span className="district-progress__page">{page + 1} / {pages}</span>
-            <button type="button" className="district-progress__page-btn" onClick={() => setPage(p => p + 1)} disabled={page >= pages - 1}>
-              {t('dashboard.pageNext')} ›
-            </button>
-          </li>
-        )}
-      </ul>
+      {/* In a portal: the page itself may be zoomed to fit the screen. */}
+      {listOpen && createPortal(
+        <div className="px-overlay" onClick={() => setListOpen(false)}>
+          <div className="px-modal district-details" onClick={e => e.stopPropagation()} role="dialog" aria-label={t(isQ ? 'dashboard.quarterProgress' : 'dashboard.districtProgress')}>
+            <button type="button" className="px-modal__close" onClick={() => setListOpen(false)} aria-label="✕">✕</button>
+            <h2 className="px-title district-details__title">{t(isQ ? 'dashboard.quarterProgress' : 'dashboard.districtProgress')}</h2>
+            <div className="district-progress__summary">
+              <span className="stat-card__value">{visited} / {all.length}</span>
+              <span className="district-progress__summary-text">{t(isQ ? 'dashboard.quartersVisited' : 'dashboard.districtsVisited')}</span>
+            </div>
+            <ul className={`district-progress__list${isQ ? ' district-progress__list--quarters' : ''}`}>
+              {rows.map(r => {
+                const pct = r.total ? Math.round((r.collected / r.total) * 100) : 0;
+                const inner = (
+                  <>
+                    <span className="district-progress__name quiet-link__text" title={convert(r.name)}>{convert(r.name)}</span>
+                    <span className="district-progress__bar">
+                      <span className="district-progress__fill" style={{ width: `${pct}%`, backgroundColor: r.color }} />
+                    </span>
+                    <span className="district-progress__count">{r.collected} / {r.total}</span>
+                  </>
+                );
+                return (
+                  <li key={r.key} className={`district-progress__row${r.collected ? '' : ' district-progress__row--unvisited'}`}>
+                    {own
+                      ? <button type="button" className="quiet-link district-progress__link" onClick={() => setGuide({ kind: isQ ? 'quarter' : 'district', value: r.key })}>{inner}</button>
+                      : inner}
+                  </li>
+                );
+              })}
+              {isQ && Array.from({ length: Math.max(0, QUARTER_PAGE - rows.length) }, (_, i) => (
+                <li key={`pad-${i}`} className="district-progress__row district-progress__row--pad" aria-hidden="true">&nbsp;</li>
+              ))}
+              {isQ && pages > 1 && (
+                <li className="district-progress__pager">
+                  <button type="button" className="district-progress__page-btn" onClick={() => setPage(p => p - 1)} disabled={page === 0}>
+                    ‹ {t('dashboard.pagePrev')}
+                  </button>
+                  <span className="district-progress__page">{page + 1} / {pages}</span>
+                  <button type="button" className="district-progress__page-btn" onClick={() => setPage(p => p + 1)} disabled={page >= pages - 1}>
+                    {t('dashboard.pageNext')} ›
+                  </button>
+                </li>
+              )}
+            </ul>
+          </div>
+        </div>,
+        document.body,
+      )}
       {guide && <AreaGuideModal kind={guide.kind} value={guide.value} withCollection onClose={() => setGuide(null)} />}
     </div>
   );

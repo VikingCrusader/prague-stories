@@ -75,47 +75,44 @@ test.describe('Dashboard', () => {
     await expect(rarity.locator('.rarity-compact__item', { hasText: 'Legendary' })).toContainText('1');
   });
 
-  test('"This week" shows the rank and how it moved, new cards and XP; the rank opens the leaderboard', async ({ page }) => {
-    const card = page.locator('.week-card');
-    await expect(card.locator('.stat-card__label')).toHaveText('This week(resets every Monday)');
-    const rank = card.locator('.week-card__item--rank');
-    await expect(rank).toContainText('Leaderboard rank');
-    await expect(rank.locator('.week-card__n')).toHaveText('#12▲3');
-    await expect(rank.locator('.rank-change--up')).toHaveText('▲3');
-    await expect(rank.locator('a')).toHaveAttribute('href', '/leaderboard');
-    await expect(card.locator('.week-card__item', { hasText: 'New cards' }).locator('.week-card__n')).toHaveText('+5');
-    await expect(card.locator('.week-card__item', { hasText: 'XP gained' }).locator('.week-card__n')).toHaveText('+380');
-    await expect(page.getByText('Total XP')).toHaveCount(0);
-
-    const show = async (week, extra = {}) => {
-      await page.unroute('**/api/user/progress');
-      await page.route('**/api/user/progress', route => route.fulfill({ json: { ...PROGRESS, ...extra, week } }));
-      await page.reload();
-      await page.locator('.week-card').waitFor();
-    };
-    await show({ cards: 0, xp: 0, rankChange: { delta: -2 } });
-    await expect(rank.locator('.rank-change--down')).toHaveText('▼2');
-    await expect(card.locator('.week-card__item', { hasText: 'New cards' }).locator('.week-card__n')).toHaveText('0');
-    await show({ cards: 0, xp: 0, rankChange: { delta: 0 } });
-    await expect(rank.locator('.week-card__n')).toHaveText('#12');
-    await show({ cards: 1, xp: 10, rankChange: { isNew: true } });
-    await expect(rank.locator('.rank-change--up')).toHaveText('New');
-    await show({ cards: 0, xp: 0, rankChange: null }, { rank: null });
-    await expect(rank.locator('.week-card__n')).toHaveText('—');
-
-    // On a desktop the rank isn't also shown beside the level badge.
-    await expect(page.locator('a.stat-card--rank-top')).toBeHidden();
-
-    // On a phone the rank sits beside the level badge instead, and the
-    // "This week" card keeps only new cards and XP.
+  test('the rank and how it moved sit beside the level badge, and "This week" has left the profile', async ({ page }) => {
+    await expect(page.locator('.week-card')).toHaveCount(0);
+    const rank = page.locator('a.stat-card--rank-top');
+    await expect(rank).toBeVisible();
+    await expect(rank).toHaveAttribute('href', '/leaderboard');
+    await expect(rank.locator('.stat-card__value')).toHaveText('#12▲3');
     await page.setViewportSize({ width: 390, height: 844 });
-    await expect(rank).toBeHidden();
-    await expect(card.locator('.week-card__item', { hasText: 'New cards' })).toBeVisible();
-    await expect(page.locator('a.stat-card--rank-top')).toBeVisible();
+    await expect(rank).toBeVisible();
     const badge = await page.locator('.level-badge').boundingBox();
-    const top = await page.locator('a.stat-card--rank-top').boundingBox();
+    const top = await rank.boundingBox();
     expect(top.x).toBeGreaterThan(badge.x + badge.width - 1);
     expect(Math.abs(top.y - badge.y)).toBeLessThan(20);
+  });
+
+  test('opened packs stand on the profile, whole, finished ones first; sealed ones stay away', async ({ page }) => {
+    const base = { foil: '#7a1f2b', districts: ['Praha 1'], quarters: ['Hradčany'], unlockAt: 3, unlockXp: 20, completeXp: 435, memberSlugs: [], localizedNames: { cz: 'x', zh: 'x' }, total: 20 };
+    const packs = [
+      { ...base, slug: 'half', name: 'Half', collected: 10, unlocked: true, completed: false },
+      { ...base, slug: 'done', name: 'Done', collected: 20, unlocked: true, completed: true },
+      { ...base, slug: 'shut', name: 'Shut', collected: 1, unlocked: false, completed: false },
+    ];
+    await page.route('**/api/packs', route => route.fulfill({ json: packs }));
+    await page.route('**/api/packs/done', route => route.fulfill({ json: { ...packs[1], description: { en: 'Text.', cz: 'x', zh: 'x' }, storyLocked: false, members: [] } }));
+    for (const [width, height, layout] of [[1536, 730, 'compact'], [2560, 1300, 'side'], [390, 844, 'stack']]) {
+      await page.setViewportSize({ width, height });
+      await page.reload();
+      const items = page.locator(`.pack-shelf--${layout} .pack-card`);
+      await expect(items).toHaveCount(2);
+      await expect(items.first()).toHaveAttribute('data-pack', 'done');
+      if (layout !== 'stack') expect(await page.evaluate(() => document.documentElement.scrollHeight <= innerHeight)).toBe(true);
+    }
+    await page.setViewportSize({ width: 1536, height: 730 });
+    await page.reload();
+    await page.locator('.pack-shelf .pack-card').first().click();
+    await expect(page.locator('.pack-detail').getByText('Text.')).toBeVisible();
+    await page.keyboard.press('Escape');
+    await page.locator('.pack-shelf__all').click();
+    await expect(page.locator('.profile-gallery .pack-card')).toHaveCount(2);
   });
 
   test('levels are listed from the navbar XP figure, not on the profile', async ({ page }) => {
@@ -222,10 +219,11 @@ test.describe('Dashboard', () => {
   test('lists collected out of all cards for each district, Praha 1 to 22', async ({ page }) => {
     const rows = page.locator('.district-progress__row');
     await expect(page.getByText('By district')).toBeVisible();
+    await page.locator('.district-progress__toggle').click();
     await expect(rows).toHaveCount(22);
     // collected = (i * 7) % 30: zero for Praha 1 only
-    await expect(page.locator('.district-progress__summary')).toContainText('21 / 22');
-    await expect(page.locator('.district-progress__summary')).toContainText('districts visited');
+    await expect(page.locator('.district-details .district-progress__summary')).toContainText('21 / 22');
+    await expect(page.locator('.district-details .district-progress__summary')).toContainText('districts visited');
     await expect(page.locator('.district-progress__row--unvisited')).toHaveCount(1);
     await expect(rows.first()).toContainText('Prague 1');
     await expect(rows.first()).toContainText('0 / 40');
@@ -390,117 +388,19 @@ test.describe('Dashboard', () => {
     await expect(page.locator('.area-guide--split')).toHaveCount(0);
   });
 
-  test('the progress list is folded behind a button below a 2K screen', async ({ page }) => {
-    const list = page.locator('.district-progress__list');
+  test('the progress list opens in its own window on every screen', async ({ page }) => {
+    const list = page.locator('.district-details .district-progress__list');
     const toggle = page.locator('.district-progress__toggle');
-    await page.setViewportSize({ width: 2560, height: 1440 });
-    await expect(list).toBeVisible();
-    await expect(toggle).toBeHidden();
-
-    // A computer below 2K: opening it leaves the page at one screen.
-    await page.setViewportSize({ width: 1920, height: 1080 });
-    await expect(list).toBeHidden();
-    await toggle.click();
-    await expect(list).toBeVisible();
-    await expect(page.locator('.district-map__svg')).toBeVisible();
-    expect(await page.evaluate(() => document.documentElement.scrollHeight)).toBe(1080);
-    expect(await page.locator('.district-progress').evaluate(c => c.scrollHeight <= c.clientHeight + 2)).toBe(true);
-    await toggle.click();
-
-    await page.setViewportSize({ width: 390, height: 844 });
-    await expect(list).toBeHidden();
-    await expect(page.locator('.district-map')).toBeVisible();
-    await expect(toggle).toHaveText(/Show details/);
-    await toggle.click();
-    await expect(list).toBeVisible();
-    await expect(toggle).toHaveText(/Hide details/);
-    await toggle.click();
-    await expect(list).toBeHidden();
-  });
-
-  test('the collection card opens every collected card, a screen at a time behind a More button', async ({ page }) => {
-    const card = (i, unlocked) => ({
-      _id: String(i), name: `Card ${i}`, slug: `card-${i}`, localizedNames: { cz: `Card ${i}`, zh: `Card ${i}` }, labels: ['castle', ...(i % 2 ? ['outside'] : [])], coverImage: '', pixelArtKey: '',
-      rarity: i % 2 ? 'expedition' : 'rare', xpReward: 20, unlocked, _checkedInAt: unlocked ? new Date(2026, 0, 1, 0, i).toISOString() : null, coordinates: { lat: 50.07, lng: 14.42 },
-    });
-    await page.route('**/api/locations', route => route.fulfill({ json: [...Array.from({ length: 200 }, (_, i) => card(i, true)), card(200, false)] }));
-    const gallery = page.locator('.profile-gallery');
-    const cards = gallery.locator('.loc-card');
-    const more = gallery.locator('.full-card-grid__more');
-
-    await page.setViewportSize({ width: 1920, height: 1080 });
-    await page.reload();
-    await expect(page.locator('.ring-card')).toHaveCSS('display', 'flex'); // being clickable doesn't change its layout
-    await page.locator('.ring-card').click();
-    await expect(gallery.locator('.px-title')).toContainText('My Collections');
-    await expect(gallery.locator('.card-strip__count')).toHaveText('200'); // every collected card, outside ones too
-    await expect(cards.first().locator('.loc-card__name')).toHaveText('Card 199'); // newest first
-    const first = await cards.count();
-    expect(first).toBeLessThan(200);
-    const columns = await cards.evaluateAll(els => els.filter(e => Math.abs(e.getBoundingClientRect().top - els[0].getBoundingClientRect().top) < 5).length);
-    expect(first % columns).toBe(0); // whole rows
-    const scroller = await gallery.locator('.profile-gallery__scroll').boundingBox();
-    const lastBottom = await cards.last().evaluate(e => e.getBoundingClientRect().bottom);
-    expect(lastBottom).toBeGreaterThan(scroller.y + scroller.height - 1); // fills the screen
-    await expect(more).toContainText(`${200 - first} left`);
-    await more.click();
-    await expect(cards).toHaveCount(first * 2);
-    await page.keyboard.press('Escape');
-
-    // Phones: a bigger batch, and the button goes when all are in.
-    await page.setViewportSize({ width: 390, height: 844 });
-    await page.reload();
-    await page.locator('.ring-card').click();
-    await expect(cards).toHaveCount(20);
-    for (let n = 40; n <= 200; n += 20) {
-      await more.click();
-      await expect(cards).toHaveCount(n);
-    }
-    await expect(more).toHaveCount(0);
-  });
-
-  test('a collection card with nothing in it does not open', async ({ page }) => {
-    await page.route('**/api/user/progress', route => route.fulfill({ json: { ...PROGRESS, presetCheckins: 0 } }));
-    await page.reload();
-    await page.locator('.ring-card').click();
-    await expect(page.locator('.profile-gallery')).toHaveCount(0);
-  });
-
-  test('on a computer the profile is one screen at any size; a phone scrolls', async ({ page }) => {
-    const size = () => page.evaluate(() => ({
-      page: document.documentElement.scrollHeight,
-      screen: window.innerHeight,
-      wide: document.documentElement.scrollWidth - window.innerWidth,
-      clipped: [...document.querySelectorAll('.stat-card')].filter(c => getComputedStyle(c).display !== 'none' && c.scrollHeight > c.clientHeight + 2).length,
-    }));
-    for (const [width, height] of [[1920, 1080], [1366, 650], [1024, 700]]) {
+    for (const [width, height] of [[2560, 1440], [1920, 1080], [390, 844]]) {
       await page.setViewportSize({ width, height });
-      await page.waitForFunction(h => document.documentElement.scrollHeight === h && !!document.querySelector('.profile-body')?.style.zoom, height);
-      await expect.poll(size, { message: `${width}x${height}` }).toEqual({ page: height, screen: height, wide: 0, clipped: 0 });
+      await expect(list).toHaveCount(0);
+      await expect(page.locator('.district-map')).toBeVisible();
+      await expect(toggle).toHaveText('View details');
+      await toggle.click();
+      await expect(list).toBeVisible();
+      await page.keyboard.press('Escape');
+      await expect(list).toHaveCount(0);
     }
-    // So does an upright tablet, which scrolls.
-    await page.setViewportSize({ width: 1024, height: 1366 });
-    await expect.poll(() => page.evaluate(() => document.querySelector('.profile-body').style.zoom)).toBe('');
-
-    // A 2K screen keeps the normal wide layout, unzoomed.
-    await page.setViewportSize({ width: 2560, height: 1440 });
-    await expect.poll(() => page.evaluate(() => document.querySelector('.profile-body').style.zoom)).toBe('');
-    await expect(page.locator('.profile-body')).toHaveCSS('display', 'contents');
-
-    await page.setViewportSize({ width: 390, height: 844 });
-    await expect.poll(() => page.evaluate(() => document.querySelector('.profile-body').style.zoom)).toBe('');
-    expect((await size()).page).toBeGreaterThan(844);
-  });
-
-  test('a computer that is not a Mac or iPad keeps one row of rarities', async ({ page }) => {
-    const layout = () => page.evaluate(() => {
-      const tops = sel => new Set([...document.querySelectorAll(sel)].map(e => Math.round(e.getBoundingClientRect().top))).size;
-      return { rarityRows: tops('.rarity-compact__item'), stripRows: tops('.profile-strips > .profile-card'), over: document.documentElement.scrollHeight - innerHeight };
-    });
-    await page.setViewportSize({ width: 1180, height: 820 });
-    await expect.poll(layout).toEqual({ rarityRows: 1, stripRows: 1, over: 0 });
-    await page.setViewportSize({ width: 1920, height: 1080 });
-    await expect.poll(layout).toEqual({ rarityRows: 1, stripRows: 1, over: 0 });
   });
 
   test('a progress row opens the same guide window instead of going to Explore', async ({ page }) => {

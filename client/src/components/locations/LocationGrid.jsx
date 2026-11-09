@@ -354,7 +354,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     </div>
   );
   const stats = packsOnly ? (
-    <p className="explore-stats" style={{ margin: 0 }}>{convert(t('pack.count', { n: shownPacks.length }))}</p>
+    <p className="explore-stats" style={{ margin: 0 }}>{convert(t('pack.count', { n: shownPacks.length, done: shownPacks.filter(p => p.completed).length }))}</p>
   ) : (
     <p className="explore-stats" style={{ margin: 0 }}>
       <span>{unlocked}</span>{cityScoped && <> / <span>{total}</span></>} <em className="explore-stats__long">{t('explore.statsLabel')}</em><em className="explore-stats__short">{t('explore.statsLabelShort')}</em>

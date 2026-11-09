@@ -74,7 +74,7 @@ export const AREA_LANDMARKS = {
       'forum-karlin', 'lilith-david-cerny', 'karlinska-synagoga', 'lyckovo-namesti-inteligence', 'florenc',
     ],
     'Holešovice': [
-      'letna-park', 'letn-plain-1782906159291', 'letensky-zamecek', 'veletrzni-palace', 'holesovicka-trznice', 'dox-centre',
+      'letna', 'letna-park', 'letn-plain-1782906159291', 'letensky-zamecek', 'veletrzni-palace', 'holesovicka-trznice', 'dox-centre',
       'technical-museum', 'anthony', 'vodni-elektrarna-stvanice', 'holesovice-docks', 'brana-nenavratna',
     ],
     'Libeň': [
@@ -101,7 +101,7 @@ export const AREA_LANDMARKS = {
     ],
     'Nusle': [
       'nusle-bridge', 'nuselske-udoli', 'pankrc-prison-1782564726175', 'namesti-hrdinu', 'kongresove-centrum-praha',
-      'pankrac-skyline', 'city-tower-prague', 'nuselsky-pivovar', 'nuselska-radnice', 'divadlo-na-fidlovacce', 'cervena-zirafa-pankrac',
+      'pankrac', 'city-tower-prague', 'nuselsky-pivovar', 'nuselska-radnice', 'divadlo-na-fidlovacce', 'cervena-zirafa-pankrac',
     ],
     'Vršovice': [
       'kostel-sv-vaclava-vrsovice', 'fortuna-arena', 'vrovice-castle-1782567405263', 'koh-i-noor', 'kulturni-dum-eden',

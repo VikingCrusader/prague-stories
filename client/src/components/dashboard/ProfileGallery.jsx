@@ -1,22 +1,26 @@
 import { useEffect, useRef, useState } from 'react';
-import { userAPI, locationAPI } from '../../services/api';
+import { userAPI, locationAPI, packAPI } from '../../services/api';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { RARITY_LABEL } from '../../utils/rarity';
 import FullCardGrid from '../locations/FullCardGrid';
 import { AchievementTile, rarestFirst } from '../achievements/RarestAchievements';
 import { CardThumb } from './RecentCardStrip';
+import PackCard from '../packs/PackCard';
+import { openedPacks } from './PackShelf';
 
 const TITLE = {
   achievements: 'dashboard.achievements',
   treasure: 'dashboard.treasures',
   expedition: 'dashboard.expeditions',
   collection: 'grid.filterDiscovered',
+  packs: 'grid.filterPacks',
 };
 
 // `kind` is 'treasure', 'expedition', 'collection' (every collected card) or a rarity.
 function fetchCards(kind) {
   if (kind === 'treasure') return userAPI.getTreasures().then(res => res.data);
   if (kind === 'expedition') return userAPI.getExpeditions().then(res => res.data);
+  if (kind === 'packs') return packAPI.getAll().then(res => openedPacks(res.data));
   return locationAPI.getAll().then(res => res.data
     .filter(l => l.unlocked && (kind === 'collection' || (l.rarity ?? 'common') === kind))
     .sort((a, b) => new Date(b._checkedInAt ?? 0) - new Date(a._checkedInAt ?? 0)));
@@ -29,7 +33,7 @@ function fetchCards(kind) {
 // opening, newest first, since the profile only gets the newest few. `paused`
 // while a detail window is open on top, so Escape doesn't close this one
 // behind it.
-export default function ProfileGallery({ kind, achievements, paused, onClose, onOpenAchievement, onOpenCard }) {
+export default function ProfileGallery({ kind, achievements, paused, onClose, onOpenAchievement, onOpenCard, onOpenPack }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -37,6 +41,7 @@ export default function ProfileGallery({ kind, achievements, paused, onClose, on
   const isRarity = !isAch && !TITLE[kind];
   const isCollection = kind === 'collection';
   const fullCards = isRarity || isCollection;
+  const isPacks = kind === 'packs';
   const [cards, setCards] = useState(null);
   const [failed, setFailed] = useState(false);
   const scrollRef = useRef(null);
@@ -66,7 +71,7 @@ export default function ProfileGallery({ kind, achievements, paused, onClose, on
 
   return (
     <div className="px-overlay" onClick={onClose}>
-      <div className={`px-modal profile-gallery${fullCards ? ' profile-gallery--wide' : ''}`} onClick={e => e.stopPropagation()} role="dialog" aria-label={title}>
+      <div className={`px-modal profile-gallery${fullCards || isPacks ? ' profile-gallery--wide' : ''}`} onClick={e => e.stopPropagation()} role="dialog" aria-label={title}>
         <button type="button" className="px-modal__close" onClick={onClose} aria-label="✕">✕</button>
         <h2 className="px-title profile-gallery__title">
           {title} {count != null && <span className="card-strip__count">{count}</span>}
@@ -80,6 +85,10 @@ export default function ProfileGallery({ kind, achievements, paused, onClose, on
             </div>
           ) : !cards ? (
             <div style={{ display: 'flex', justifyContent: 'center', padding: 24 }}><div className="spinner" /></div>
+          ) : isPacks ? (
+            <div className="profile-gallery__packs">
+              {cards.map(pack => <PackCard key={pack.slug} pack={pack} onClick={onOpenPack} />)}
+            </div>
           ) : fullCards ? (
             cards.length > 0 && <FullCardGrid cards={cards} onOpen={onOpenCard} scrollRef={scrollRef} loadOnClick={isCollection} />
           ) : (

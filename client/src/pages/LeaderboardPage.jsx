@@ -34,10 +34,14 @@ export default function LeaderboardPage() {
   const convert = useConvert();
   const [data, setData] = useState(null);
   const [failed, setFailed] = useState(false);
+  // The player's own week (it was on the profile until 2026-11-09).
+  const [week, setWeek] = useState(null);
 
   useEffect(() => {
     userAPI.getLeaderboard().then(res => setData(res.data)).catch(() => setFailed(true));
+    userAPI.getProgress().then(res => setWeek(res.data.week ?? null)).catch(() => {});
   }, [user]);
+  const plus = n => (n > 0 ? `+${n}` : '0');
 
   return (
     <div className="guide-page leaderboard-page">
@@ -53,6 +57,24 @@ export default function LeaderboardPage() {
           <p className="guide-body" style={{ color: 'var(--text-muted)' }}>{t('leaderboard.empty')}</p>
         ) : (
           <>
+            {week && (
+              <div className="stat-card week-card leaderboard__week">
+                <h2 className="px-title profile-card-title">
+                  {t('dashboard.thisWeek')}
+                  <span className="week-card__note">{t('dashboard.weekResets')}</span>
+                </h2>
+                <ul className="week-card__list">
+                  <li className="week-card__item">
+                    <span className="week-card__name">{t('dashboard.weekCards')}</span>
+                    <span className="week-card__n">{plus(week.cards)}</span>
+                  </li>
+                  <li className="week-card__item">
+                    <span className="week-card__name">{t('dashboard.weekXp')}</span>
+                    <span className="week-card__n">{plus(week.xp)}</span>
+                  </li>
+                </ul>
+              </div>
+            )}
             <p className="leaderboard__total">{t('leaderboard.total', { n: data.total })}</p>
             <div className="leaderboard__scroll">
               <table className="leaderboard">

@@ -477,7 +477,7 @@ const placesAndLabels = (slugs, counts) => ({ checkedSlugs = [], labelCount = {}
     counts: bars,
   };
 };
-const NEW_FACES = placesAndLabels(["dancing-house", "pankrac-skyline"], [["contemporary", 15]]);
+const NEW_FACES = placesAndLabels(["dancing-house", "city-tower-prague"], [["contemporary", 15]]);
 // The Coast of Bohemia: ten Waterbody cards, four of them required (user's
 // list, 2026-11-04). Named after the coast Shakespeare gave landlocked
 // Bohemia in The Winter's Tale.
@@ -619,12 +619,12 @@ function LITTLE_EIFFEL({ checkedSlugs = [] }) {
 // Two Horses: St Wenceslas on Wenceslas Square, and David Černý's version
 // in the Lucerna passage, riding an upside-down dead horse.
 const TWO_HORSES = placesOnly(["pomnik-sv-vaclava", "kino-lucerna"]);
-// Starter Pack (新手村, Bronze): the six landmarks of Old Town Square, plus
+// Starter Pack (新手村, Bronze): the five landmarks of Old Town Square, plus
 // any four of the other fourteen cards on and right around it (within about
 // 130 m of its centre; the next ring, Celetná and Melantrichova, is left
 // out). Four, not ten, so one walk round the square does it (user's call,
 // 2026-11-04).
-const OLD_TOWN_SQUARE_MUST = ["old-town-square", "tyn-church", "mariansky-sloup", "old-town-hall", "astronomical-clock", "pamatnik-jana-husa"];
+const OLD_TOWN_SQUARE_MUST = ["tyn-church", "mariansky-sloup", "old-town-hall", "astronomical-clock", "pamatnik-jana-husa"];
 const OLD_TOWN_SQUARE_SLUGS = [
   "27-krizu-staromestske-namesti", "palac-goltz-kinskych", "stone-bell-house",
   "dum-u-bileho-jednorozce", "storch-house", "dum-u-lazara", "schieruv-dum", "park-u-staromestskeho-namesti",
@@ -891,9 +891,9 @@ export const ACHIEVEMENTS = [
     flavor: "Every adventurer in Prague starts here: a clock, a column, two spires, and a crowd that never leaves.",
     flavor_cz: "Každý pražský dobrodruh začíná tady: orloj, sloup, dvě věže a dav, který nikdy neodejde.",
     flavor_zh: "每个布拉格冒险者都从这里出发：一座钟、一根柱子、两座尖塔，还有永远散不去的人群。",
-    description: "Check in at Old Town Square, the Church of Our Lady before Týn, the Marian Column, the Old Town Hall, the Astronomical Clock and the Jan Hus Monument, and at any 4 of the other 14 places on and around the square.",
-    description_cz: "Přihlaste se na Staroměstském náměstí, v chrámu Matky Boží před Týnem, u Mariánského sloupu, na Staroměstské radnici, u orloje a u Pomníku mistra Jana Husa a na libovolných 4 z dalších 14 míst na náměstí a kolem něj.",
-    description_zh: "打卡老城广场、泰恩前的圣母教堂、圣母柱、老城市政厅、天文钟和扬·胡斯纪念碑，再在广场及周边的其余14个地点中任选4个打卡。",
+    description: "Check in at the Church of Our Lady before Týn, the Marian Column, the Old Town Hall, the Astronomical Clock and the Jan Hus Monument, and at any 4 of the other 14 places on and around the square.",
+    description_cz: "Přihlaste se v chrámu Matky Boží před Týnem, u Mariánského sloupu, na Staroměstské radnici, u orloje a u Pomníku mistra Jana Husa a na libovolných 4 z dalších 14 míst na náměstí a kolem něj.",
+    description_zh: "打卡泰恩前的圣母教堂、圣母柱、老城市政厅、天文钟和扬·胡斯纪念碑，再在广场及周边的其余14个地点中任选4个打卡。",
     difficulty: "easy",
     check: (stats) => done(STARTING_ZONE(stats)),
     progress: STARTING_ZONE,
@@ -1762,9 +1762,9 @@ export const ACHIEVEMENTS = [
     flavor: "In a thousand-year-old city, you went looking for the new buildings.",
     flavor_cz: "V tisícileté Praze jste se šli dívat na nové domy.",
     flavor_zh: "在一座千年古城里，你专挑新房子看。",
-    description: "Collect at least 15 Contemporary Architecture cards, including the Dancing House and the Pankrác Skyline.",
-    description_cz: "Sesbírejte alespoň 15 karet Současná architektura, mezi nimi Tančící dům a Panorama Pankráce.",
-    description_zh: "收集至少15张“当代建筑”卡片，其中必须包括跳舞房子和潘克拉茨天际线。",
+    description: "Collect at least 15 Contemporary Architecture cards, including the Dancing House and City Tower.",
+    description_cz: "Sesbírejte alespoň 15 karet Současná architektura, mezi nimi Tančící dům a City Tower.",
+    description_zh: "收集至少15张“当代建筑”卡片，其中必须包括跳舞房子和布拉格城市塔。",
     difficulty: "medium",
     check: (stats) => done(NEW_FACES(stats)),
     progress: NEW_FACES,

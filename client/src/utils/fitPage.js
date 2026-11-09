@@ -8,7 +8,7 @@ import { useLayoutEffect } from 'react';
 // an upright iPad, and very short windows keep the normal scrolling page, and a
 // 2K screen or larger keeps the normal
 // wide layout, which fits it already (user's call).
-const ONE_PAGE = '(min-width: 1024px) and (max-width: 2399px) and (min-height: 500px) and (orientation: landscape), (min-width: 2400px) and (min-height: 500px) and (max-height: 1199px)';
+export const ONE_PAGE = '(min-width: 1024px) and (max-width: 2399px) and (min-height: 500px) and (orientation: landscape), (min-width: 2400px) and (min-height: 500px) and (max-height: 1199px)';
 // Macs and iPads (iPadOS reports itself as a Mac; an iPhone is too narrow to get here).
 export const IS_APPLE = /Macintosh|Mac OS X/.test(navigator.userAgent);
 const MIN_ZOOM = 0.5;

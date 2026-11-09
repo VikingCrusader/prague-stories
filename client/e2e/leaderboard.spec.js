@@ -38,6 +38,17 @@ test.describe('Leaderboard', () => {
     await expect(page.locator('.leaderboard__me .leaderboard__you')).toHaveText('you');
   });
 
+  test('shows your own week above the table', async ({ page }) => {
+    await page.addInitScript(() => localStorage.setItem('token', 'fake-jwt-token'));
+    await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
+    await page.route('**/api/user/leaderboard', route => route.fulfill({ json: { total: 1, entries: [row(1, 'explorer', 140, true)], me: null } }));
+    await page.route('**/api/user/progress', route => route.fulfill({ json: { week: { cards: 5, xp: 380, rankChange: null } } }));
+    await page.goto('/leaderboard');
+    const week = page.locator('.leaderboard__week');
+    await expect(week.locator('.week-card__item', { hasText: 'New cards' }).locator('.week-card__n')).toHaveText('+5');
+    await expect(week.locator('.week-card__item', { hasText: 'XP gained' }).locator('.week-card__n')).toHaveText('+380');
+  });
+
   test('guests can\'t see it: no button on the dashboard, the pages send them to log in', async ({ page }) => {
     await page.addInitScript(() => sessionStorage.setItem('guest', 'true'));
     await page.route('**/api/locations', route => route.fulfill({ json: [] }));
@@ -80,7 +91,7 @@ test.describe('Leaderboard', () => {
     await expect(page).toHaveURL(/\/explorer\/ada$/);
     await expect(page.getByRole('heading', { name: 'ada', exact: true })).toBeVisible();
     await expect(page.locator('.level-badge__num')).toHaveText('LVL 6');
-    await expect(page.locator('.week-card__item--rank .week-card__n')).toHaveText('#1');
+    await expect(page.locator('a.stat-card--rank-top .stat-card__value')).toHaveText('#1');
     await expect(page.locator('.rarity-compact')).toBeVisible();
     await expect(page.locator('.ach-showcase .ach-tile')).toHaveCount(1);
     // Their achievements heading isn't a link to the viewer's own list.
@@ -93,7 +104,9 @@ test.describe('Leaderboard', () => {
     const treasure = page.locator('.card-strip').filter({ hasText: 'Treasure Hunt Finds' });
     await expect(treasure).toContainText('No treasure found yet.');
     await expect(treasure.getByRole('link')).toHaveCount(0);
+    await page.locator('.district-progress__toggle').click();
     await expect(page.locator('.district-progress__row')).toHaveCount(1);
+    await page.keyboard.press('Escape');
     await expect(page.locator('.location-grid')).toHaveCount(0); // no full collection
     await page.getByRole('link', { name: '← Leaderboard' }).click();
     await expect(page).toHaveURL(/\/leaderboard$/);

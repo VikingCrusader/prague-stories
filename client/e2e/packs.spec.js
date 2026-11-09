@@ -30,6 +30,7 @@ test.describe('card packs', () => {
     await expect(main.locator('.loc-card[data-slug]')).toHaveCount(0);
     await expect(page.locator('.pack-card--sealed .pack-card__lock')).toBeVisible();
     await expect(page.locator('.pack-card--complete')).toHaveCount(1);
+    await expect(page.locator('.explore-stats')).toHaveText('3 card packs, 1 fully collected');
     await expect(page.locator('.filter-btn', { hasText: 'Rarity' })).toBeDisabled();
     await page.locator('.filter-bar__search').fill('castle');
     await expect(main.locator('.pack-card')).toHaveCount(1);

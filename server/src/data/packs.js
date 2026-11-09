@@ -47,6 +47,60 @@ export const PACKS = [
       'taborska-brana', 'cihelna-brana', 'brana-spicka', 'v-pevnosti-street-in-the-fortness-1783208618265',
     ],
   }),
+  pack({
+    slug: 'pankrac',
+    name: 'Pankrác',
+    localizedNames: { cz: 'Pankrác', zh: '潘克拉茨' },
+    foil: '#3b4a63',
+    // The plateau's towers, prison and square; took over the one-point skyline card.
+    members: [
+      'city-empiria-1782389478834', 'city-tower-prague', 'v-tower', 'main-point-pankrc-1783457910577', 'gemini-pankrac',
+      'pankrac-house-sixty-house', 'pankrac-prime-office-building', 'budova-enterprise', 'budova-centrotex', 'arkady-pankrac',
+      'panorama-hotel', 'cervena-zirafa-pankrac', 'central-park-pankrc-1782864735680', 'pankrc-prison-1782564726175',
+      'building-of-high-court-in-prague-1782564438624', 'namesti-hrdinu', 'stanice-metra-prazskeho-povstani',
+      'pomnik-obetem-prazskeho-povstani-doudlebska', 'kostel-sv-pankrace',
+    ],
+  }),
+  pack({
+    slug: 'letna',
+    name: 'Letná',
+    localizedNames: { cz: 'Letná', zh: '莱特纳' },
+    foil: '#2f5d3a',
+    members: [
+      'letna-park', 'letn-plain-1782906159291', 'vyhlidka-na-letne', 'letenske-jezirko', 'letensky-zamecek',
+      'the-letn-carousel--1783352292475', 'hanavsky-pavilon', 'kaple-sv-mari-magdaleny', 'pavilon-expo-58-vystaviste',
+      'vodarenska-vez-letna', 'epet-arena', 'technical-museum', 'kramarova-vila', 'bio-oko',
+    ],
+  }),
+  pack({
+    slug: 'old-town-square',
+    name: 'Old Town Square',
+    localizedNames: { cz: 'Staroměstské náměstí', zh: '老城广场' },
+    foil: '#8a3f1d',
+    // The square and the houses right on it, as in the Starter Pack achievement.
+    // Took over the card of the same slug (and its cover).
+    members: [
+      'tyn-church', 'mariansky-sloup', 'old-town-hall', 'astronomical-clock', 'pamatnik-jana-husa', '27-krizu-staromestske-namesti',
+      'palac-goltz-kinskych', 'stone-bell-house', 'dum-u-bileho-jednorozce', 'storch-house', 'dum-u-lazara', 'schieruv-dum',
+      'park-u-staromestskeho-namesti', 'prazska-mestska-pojistovna', 'dum-u-clovicku', 'dum-zlaty-kriz',
+      'kostel-sv-mikulase-stare-mesto', 'dum-u-zlateho-slona', 'dum-u-minuty',
+    ],
+  }),
+  pack({
+    slug: 'petrin',
+    name: 'Petřín',
+    localizedNames: { cz: 'Petřín', zh: '佩特任' },
+    foil: '#5b3a6e',
+    // The hill from the Seminary Garden over the top to the Kinský Garden.
+    members: [
+      'petrin-tower', 'mirror-maze-petrin', 'kaple-boziho-hrobu-petrin', 'kaple-kalvarie-petrin', 'st-lawrence-cathedral-1782590216064',
+      'socha-jaroslava-vrchlickeho-petrin', 'kaple-jezulatka-petrin', 'seminarska-zahrada', 'socha-jana-nerudy-petrin', 'restaurace-nebozizek',
+      'lanova-draha-petrin', 'socha-laska-petrin', 'socha-milana-rastislava-stefanika', 'stefanikova-hvezdarna',
+      'hunger-wall-1782410203381', 'horni-bastion-hladova-zed', 'ruzovy-sad-petrin', 'zahrada-kvetnice', 'petrinske-skalky',
+      'vyhlidkova-terasa-petrin', 'petrinske-jezirko', 'ruiny-restaurace-u-jezirka', 'st-michael-mystery-church', 'zahrada-kinskych',
+      'platan-zahrada-kinskych', 'vodopady-zahrada-kinskych', 'socha-herkula-s-hydrou-zahrada-kinskych', 'letohradek-kinskych', 'magicka-jeskyne',
+    ],
+  }),
 ];
 
 export const packsOfCard = (slug) => PACKS

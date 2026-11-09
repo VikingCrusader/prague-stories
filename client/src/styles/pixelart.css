@@ -1750,7 +1750,9 @@ html:not([data-lang="zh"]) :is(#root, body) .map-page.map-board--compact .map-to
 .ring-stats { min-width: 0; }
 /* Hidden on wider screens; `.stat-card` in the selector so it beats
    .stat-card--link's display further down. */
-.stat-card.stat-card--rank-top { display: none; }
+/* The rank, beside the level badge. */
+.stat-card.stat-card--rank-top { display: flex; flex-direction: column; justify-content: center; min-width: 130px; padding: 8px 16px; text-decoration: none; }
+.stat-card--rank-top .stat-card__value { font-size: 26px; }
 .rank-change { margin-left: 10px; font-size: 0.5em; font-weight: 700; vertical-align: middle; }
 .rank-change--up { color: var(--success-text, #5fd068); }
 .rank-change--down { color: var(--text-muted); }
@@ -2001,14 +2003,7 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 }
 .district-progress__summary { display: flex; align-items: baseline; gap: 10px; margin: 2px 0 14px; flex-wrap: wrap; }
 .district-progress__summary-text { font-size: 16px; color: var(--text-muted); font-weight: 700; }
-.district-progress .district-progress__toggle { display: none; }
-/* Below a 2K screen the list starts folded (phones 2026-11-08; computers the
-   same day, user's call). */
-@media (max-width: 2399px), (max-height: 1199px) {
-  .district-progress .district-progress__toggle { display: block; width: 100%; margin-top: 12px; text-align: center; }
-  .district-progress .district-progress__toggle[aria-expanded="true"] { margin-bottom: 12px; }
-  .district-progress__list:not(.district-progress__list--open) { display: none; }
-}
+.district-progress .district-progress__toggle { display: block; width: 100%; margin-top: 12px; text-align: center; }
 .district-progress__row--unvisited .district-progress__name { color: var(--text-muted); opacity: 0.6; }
 .district-progress__row { display: flex; align-items: center; gap: 8px; font-size: 14px; min-width: 0; }
 .district-progress__name { flex: 0 0 auto; width: 6.5em; color: var(--text-primary); white-space: nowrap; }
@@ -3104,7 +3099,7 @@ html[data-lang="zh"] .detail-title-name {
   .profile-layout__top > .dashboard-grid { grid-area: stats; display: flex; flex-direction: column; gap: 14px; min-width: 0; min-height: 0; }
   .profile-layout__top > .dashboard-grid > .stat-card { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; }
   .profile-layout__top > .dashboard-grid > .ring-card { flex-grow: 1.35; }
-  .profile-body .week-card__list, .profile-body .rarity-compact__list { margin-top: auto; margin-bottom: auto; }
+  .profile-body .rarity-compact__list { margin-top: auto; margin-bottom: auto; }
 
   /* Middle: achievements in four columns; tiles keep their own height. */
   .profile-layout__top > .profile-card { grid-area: ach; margin-top: 0; display: flex; min-width: 0; min-height: 0; }
@@ -3131,12 +3126,9 @@ html[data-lang="zh"] .detail-title-name {
   /* The map fills its space but keeps its own proportions (DistrictMap works
      out pointer positions from the svg's box). */
   .profile-body .district-map__stage { flex: 1; min-height: 290px; width: 100%; max-width: none; container-type: size; display: flex; align-items: center; justify-content: center; }
-  .profile-body .district-progress:has(.district-progress__list--open) .district-map__stage { min-height: 0; overflow: hidden; }
   .profile-body .district-map__stage .district-map__svg { flex: none; width: min(100cqw, 131.4cqh); max-width: none; height: auto; margin: 0; }
   .profile-body .district-map__caption { margin-top: 2px; }
   .profile-body .district-progress .district-progress__toggle { margin-top: 4px; flex: none; }
-  .profile-body .district-progress .district-progress__toggle[aria-expanded="true"] { margin-bottom: 6px; }
-  .profile-body .district-progress__list { flex: none; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 20px; row-gap: 3px; }
 }
 
 /* iPads and Macs (2026-11-08, user's call; fitPage.js sets the classes): the

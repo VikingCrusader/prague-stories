@@ -120,23 +120,11 @@
   opacity: 0.6;
   animation: pack-holo 5s ease-in-out infinite alternate;
 }
-/* A band of light crosses the whole packet, art included. */
-.pack-card--complete .pack-card__foil::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  pointer-events: none;
-  background: linear-gradient(118deg, transparent 42%, rgba(255, 255, 255, 0.6) 50%, transparent 58%) 130% 0 / 260% 100% no-repeat;
-  animation: pack-glint 3.8s ease-in-out infinite;
-}
 .loc-card.pack-card--complete { animation: pack-glow 2.6s ease-in-out infinite; }
 .pack-card--complete[data-offscreen],
-.pack-card--complete[data-offscreen] .pack-card__sheen,
-.pack-card--complete[data-offscreen] .pack-card__foil::after { animation-play-state: paused; }
+.pack-card--complete[data-offscreen] .pack-card__sheen { animation-play-state: paused; }
 /* Within the oversized gradient and back, so its edge never comes into view. */
 @keyframes pack-holo { to { background-position: 100% 100%; } }
-@keyframes pack-glint { 0% { background-position: 130% 0; } 55%, 100% { background-position: -30% 0; } }
 @keyframes pack-glow {
   0%, 100% { filter: var(--extrude) drop-shadow(0 0 5px color-mix(in srgb, var(--pack-gold) 60%, transparent)); }
   50% { filter: var(--extrude) drop-shadow(0 0 14px var(--pack-gold)); }
@@ -261,7 +249,6 @@
   .pack-open__strip { animation: none; display: none; }
   .pack-open__card { animation-duration: 1ms; animation-delay: 0ms; }
   .pack-card--complete .pack-card__sheen, .loc-card.pack-card--complete { animation: none; }
-  .pack-card--complete .pack-card__foil::after { display: none; }
 }
 
 /* Labels and rarity don't apply to packs. */
@@ -309,3 +296,41 @@
 .pack-back__print { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 0 16px; text-align: center; }
 .pack-back__emblem { display: block; width: 76%; height: auto; filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.55)); }
 :is(#root, body) .pack-back__mark { font-family: "Manufacturing Consent", serif !important; font-size: 34px; line-height: 1.1; color: var(--pack-gold); text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7); }
+
+/* The profile's packs (PackShelf). */
+.pack-shelf { min-width: 0; }
+.pack-shelf__all { padding: 0; border: 0; background: none; color: inherit; font: inherit; cursor: pointer; }
+.pack-shelf__empty { margin: 8px 0 0; font-size: 14px; color: var(--text-muted); }
+.pack-shelf__row { display: flex; min-width: 0; }
+.pack-shelf__item { flex: none; }
+.pack-shelf__item > .loc-card { height: 100%; }
+/* Phones and tablets: ordinary size. */
+.pack-shelf--stack .pack-shelf__row { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); margin-top: 10px; }
+/* A computer's small slot: the title beside the packs, and no small print. */
+.profile-layout__top > .dashboard-grid > .pack-shelf--compact { flex-direction: row; align-items: stretch; gap: 12px; padding-top: 10px; padding-bottom: 10px; }
+.pack-shelf--compact .pack-shelf__title { flex: none; margin: 0; }
+.pack-shelf--compact .pack-shelf__row { flex: 1; min-height: 0; overflow: visible; justify-content: center; position: relative; }
+.pack-shelf--compact .pack-shelf__empty { margin: auto 0; }
+.pack-shelf--compact :is(.loc-card__name, .loc-card__cz-name, .loc-card__footer) { visibility: hidden; }
+/* A 2K screen: a column beside the map, in the width the map never used. */
+.profile-layout__side:has(> .pack-shelf--side) { flex-direction: row; gap: 16px; }
+.profile-layout__side:has(> .pack-shelf--side) > .district-progress { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; }
+.profile-layout__side:has(> .pack-shelf--side) .district-map { margin-top: auto; margin-bottom: auto; }
+.profile-layout__side > .pack-shelf--side { flex: 0 0 340px; min-height: 0; display: flex; flex-direction: column; }
+.pack-shelf--side .pack-shelf__row { flex: 1 1 0; min-height: 0; margin-top: 10px; flex-wrap: wrap; align-content: flex-start; overflow: hidden; padding-bottom: 4px; }
+/* Where the slot is empty (a 2K screen, someone else's profile) the rarities take it. */
+@media (min-width: 901px) {
+  .dashboard-grid > .ring-card + .rarity-compact { grid-row: span 2; }
+}
+.profile-gallery__packs { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; padding: 4px 8px 8px 4px; }
+
+/* The district list's window. */
+.district-details { width: min(760px, 94vw); max-width: none; max-height: 86vh; overflow-y: auto; padding: 24px 26px 26px; }
+.district-details__title { font-size: 24px; margin: 0 0 8px; padding-right: 36px; }
+
+.leaderboard__week { margin: 8px 0 14px; }
+.leaderboard__week .week-card__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 901px) {
+  .ring-card + .rarity-compact { display: flex; flex-direction: column; }
+  .ring-card + .rarity-compact > .rarity-compact__list { margin-top: auto; margin-bottom: auto; }
+}
