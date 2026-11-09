@@ -34,6 +34,12 @@ const districts = await fetchLayer(10, '1=1');
 if (quarters.length !== 112) throw new Error(`expected 112 quarters, got ${quarters.length}`);
 if (districts.length !== 22) throw new Error(`expected 22 districts, got ${districts.length}`);
 
+const [city] = await fetchLayer(12, `kod=${PRAGUE}`);
+if (!city) throw new Error('the city outline is missing');
+const cityOut = fileURLToPath(new URL('../src/utils/pragueCity.json', import.meta.url));
+writeFileSync(cityOut, JSON.stringify({ rings: city.rings }));
+console.log(`wrote the city's outline to ${cityOut}`);
+
 const out = fileURLToPath(new URL('../src/utils/pragueAreas.json', import.meta.url));
 writeFileSync(out, JSON.stringify({ quarters, districts }));
 console.log(`wrote ${quarters.length} quarters and ${districts.length} districts to ${out}`);

@@ -1472,6 +1472,134 @@ button.level-badge--btn:hover { border-color: var(--gold); }
   border-left: 3px solid var(--gold);
   overflow-y: auto;
 }
+/* 2K: two equal side columns around the map, a bar above it and a clearly taller
+   bar below it (2026-11-09, user's outline). The frame only, for now. */
+.map-slot { display: none; }
+@media (min-width: 2400px) and (min-height: 1200px) {
+  .map-page {
+    display: grid;
+    grid-template-columns: 440px minmax(0, 1fr) 440px;
+    grid-template-rows: 120px minmax(0, 1fr) 200px;
+    grid-template-areas:
+      "left top    right"
+      "left map    right"
+      "left bottom right";
+  }
+  .map-container { grid-area: map; min-width: 0; min-height: 0; position: relative; }
+  .map-container .leaflet-container { background: var(--bg-surface); }
+  /* An old printed map's frame: heavy outer rule, a band of paper with sparse ticks,
+     fine inner rule, a small star tile on each corner. Over the map, under its
+     controls; clicks pass through. */
+  .map-frame {
+    --frame-ink: #7a1420;
+    --frame-paper: #f1e7d0;
+    --frame-band: 12px;
+    --frame-tick: 120px;
+    position: absolute; inset: 0; z-index: 900; pointer-events: none; box-sizing: border-box;
+    border: 3px solid var(--frame-ink);
+    background:
+      repeating-linear-gradient(90deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) top / 100% 6px no-repeat,
+      repeating-linear-gradient(90deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) bottom / 100% 6px no-repeat,
+      repeating-linear-gradient(180deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) left / 6px 100% no-repeat,
+      repeating-linear-gradient(180deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) right / 6px 100% no-repeat,
+      linear-gradient(var(--frame-paper), var(--frame-paper)) top / 100% var(--frame-band) no-repeat,
+      linear-gradient(var(--frame-paper), var(--frame-paper)) bottom / 100% var(--frame-band) no-repeat,
+      linear-gradient(var(--frame-paper), var(--frame-paper)) left / var(--frame-band) 100% no-repeat,
+      linear-gradient(var(--frame-paper), var(--frame-paper)) right / var(--frame-band) 100% no-repeat;
+  }
+  .map-frame::after { content: ''; position: absolute; inset: var(--frame-band); border: 1px solid var(--frame-ink); }
+  .map-frame__corner { position: absolute; width: 36px; height: 36px; z-index: 1; }
+  .map-frame__corner--tl { top: -3px; left: -3px; }
+  .map-frame__corner--tr { top: -3px; right: -3px; }
+  .map-frame__corner--bl { bottom: -3px; left: -3px; }
+  .map-frame__corner--br { bottom: -3px; right: -3px; }
+  .map-frame__corner-tile { fill: var(--frame-paper); stroke: var(--frame-ink); stroke-width: 3; }
+  .map-frame__corner-rule { fill: none; stroke: var(--frame-ink); stroke-width: 1; }
+  .map-frame__corner-star { fill: var(--frame-ink); }
+  :root[data-theme="dark"] .map-frame { --frame-ink: #e6c364; --frame-paper: #232b47; }
+  .map-container .leaflet-bottom.leaflet-right { right: 44px; bottom: 19px; }
+  .map-container .leaflet-bottom.leaflet-left { left: 34px; bottom: 9px; }
+  .map-sidebar { display: none; }
+  .map-slot { display: block; min-width: 0; min-height: 0; background: var(--bg-surface); }
+  /* Never scrolls (user's rule): everything in it has a fixed height. */
+  .map-slot--left { grid-area: left; display: flex; flex-direction: column; gap: 10px; padding: 12px; box-sizing: border-box; overflow: hidden; }
+  .map-left__heading { flex: none; font-size: 16px; color: var(--gold); text-align: center; }
+  .map-chips { flex: none; display: flex; flex-direction: column; gap: 6px; }
+  .map-chips__title { font-size: 16px; color: var(--gold); }
+  .map-slot--left .map-chips__clear { width: 100%; height: 42px; padding: 0; color: var(--gold); text-align: center; }
+  .map-slot--left .map-chips__clear:disabled { color: var(--text-muted); opacity: 0.6; cursor: default; }
+  .map-chips__box { height: 110px; box-sizing: border-box; padding: 8px; border: 2px solid var(--border); overflow: hidden; display: flex; flex-wrap: wrap; align-content: flex-start; gap: 6px; position: relative; }
+  .map-chip { max-width: 100%; height: 26px; box-sizing: border-box; display: inline-flex; align-items: center; gap: 5px; padding: 0 8px; border: 1px solid var(--gold); background: none; color: var(--gold); font: inherit; font-size: 14px; white-space: nowrap; cursor: pointer; }
+  .map-chip__text { overflow: hidden; text-overflow: ellipsis; }
+  .map-chip--more { border-color: var(--border); color: var(--text-muted); cursor: default; }
+  .map-chips__none { margin: auto; color: var(--text-muted); font-size: 15px; }
+  .map-slot--left .scope-toggle { width: 100%; }
+  .map-slot--left .district-map { margin: 0; }
+  .map-slot--left .district-map__stage { max-width: none; }
+  /* Takes the height the rest of the column leaves, so the column always fits. */
+  .district-sub { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; border-top: 2px solid var(--border); padding-top: 10px; }
+  .district-sub .district-map__caption { flex: none; }
+  .map-slot--left .explore-here { display: flex; width: fit-content; max-width: 100%; box-sizing: border-box; margin: 0 auto; }
+  .district-sub__stage { flex: 1 1 0; min-height: 0; }
+  .district-sub__stage--empty { display: flex; align-items: center; justify-content: center; box-sizing: border-box; padding: 20px; border: 2px dashed var(--border); color: var(--text-muted); font-size: 18px; text-align: center; }
+  .district-sub__svg { display: block; width: 100%; height: 100%; }
+  .district-sub__name { fill: var(--text-primary); text-anchor: middle; dominant-baseline: middle; pointer-events: none; paint-order: stroke; stroke: var(--bg-surface); stroke-width: 7px; stroke-linejoin: round; }
+  /* contain: the page's height comes from the window, however long the text is;
+     without it a long guide stretched the whole page and the map with it. */
+  .map-slot--right { grid-area: right; overflow-y: auto; box-sizing: border-box; contain: size; }
+  .map-slot--left { contain: size; }
+  .map-info.area-guide { max-width: none; padding: 18px 20px 24px; }
+  .map-info .area-guide__title { padding-right: 0; }
+  .map-info__block + .map-info__block { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--border); }
+  .map-info--compact.area-guide { padding-bottom: 14px; }
+  .map-info--compact .area-guide__title { margin-bottom: 6px; }
+  .map-info--compact .area-guide__progress { margin-bottom: 8px; }
+  .map-info--compact .map-info__block + .map-info__block { margin-top: 12px; padding-top: 12px; }
+  .map-info__blurb { margin: 0; font-size: 15px; line-height: 1.55; color: var(--text-muted); }
+  .map-card { position: relative; border-top: 3px solid var(--gold); }
+  .map-card__close { position: absolute; top: 8px; right: 8px; z-index: 3; width: 34px; height: 34px; border: 2px solid var(--border); background: var(--bg-surface); color: var(--text-muted); font-size: 16px; cursor: pointer; }
+  .map-card__close:hover { border-color: var(--gold); color: var(--gold); }
+  .map-info__empty { height: 100%; display: flex; align-items: center; justify-content: center; box-sizing: border-box; padding: 24px; color: var(--text-muted); font-size: 18px; text-align: center; }
+  .map-slot--top { grid-area: top; position: relative; z-index: 10; }
+  .map-topbar { height: 100%; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 6px 20px 10px; }
+  .map-topbar__title.explore-title { margin: 0; height: 52px; line-height: 52px !important; text-align: center; white-space: nowrap; }
+  html:not([data-lang="zh"]) :is(#root, body) .map-page .map-topbar__title { font-family: "Manufacturing Consent", serif !important; font-size: 48px !important; font-weight: 400; }
+  .map-topbar__controls { display: grid; grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .map-topbar__controls .filter-btn { width: 100%; }
+  .map-topbar__controls .filter-bar__search { width: 100%; min-width: 0; box-sizing: border-box; }
+  .map-slot--bottom { grid-area: bottom; overflow: hidden; }
+  .map-bottom { height: 100%; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px; padding: 10px 16px 8px; }
+  .map-bottom .map-bottom__title { margin: 0; flex: none; line-height: 28px; }
+  html .map-bottom .map-ach .ach-badge-pill:not(.ach-badge-pill--xp) { width: auto; padding: 0 8px; font-size: 13px; white-space: nowrap; }
+  html:not([data-lang="zh"]) .map-bottom .map-tile__name { font-size: 15.5px; }
+  html:not([data-lang="zh"]) .map-bottom .map-ach__name { font-size: 16px; }
+  .map-view-buttons { position: absolute; top: 28px; right: 46px; z-index: 1000; display: flex; flex-direction: column; gap: 8px; }
+  .map-view-buttons .filter-btn { height: 38px; padding: 0 16px; white-space: nowrap; color: var(--gold); border-color: var(--gold); }
+  .map-compass { position: absolute; top: 34px; left: 34px; z-index: 1000; width: 128px; height: 128px; pointer-events: none; user-select: none; }
+  .map-container .leaflet-control-scale-line { background: var(--bg-surface); border-color: var(--gold); color: var(--text-primary); font-size: 13px; line-height: 1.5; }
+  .map-bottom__empty { margin: 0; color: var(--text-muted); font-size: 16px; }
+  .map-row { flex: 1; min-height: 0; display: flex; gap: 10px; overflow: hidden; }
+  /* Six across. The inner box is absolutely placed because a <button> doesn't
+     stretch what's inside it to its own height on every Chrome (124 didn't). */
+  .map-tile, .map-ach { flex: 0 0 calc((100% - 50px) / 6); position: relative; padding: 0; border: 2px solid var(--border); background: var(--bg-card); text-align: left; cursor: pointer; overflow: hidden; font: inherit; }
+  .map-tile__inner, .map-ach__inner { position: absolute; inset: 0; display: flex; }
+  .map-tile__cover { flex: none; height: 100%; aspect-ratio: 1; position: relative; display: flex; align-items: center; justify-content: center; font-size: 40px; background: var(--bg-secondary); overflow: hidden; }
+  .map-tile__image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; filter: saturate(0.15); }
+  .map-tile__lock { position: absolute; top: 50%; left: 50%; width: 62%; height: auto; transform: translate(-50%, -50%); image-rendering: pixelated; }
+  .map-tile__body { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 8px 10px; }
+  .map-tile__name { font-size: 17px; line-height: 1.3; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+  .map-tile__meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; font-size: 14px; color: var(--text-muted); white-space: nowrap; }
+  .map-ach__inner { align-items: center; gap: 10px; padding: 6px 10px; box-sizing: border-box; }
+  .map-ach:hover, .map-tile:hover { filter: brightness(1.05); }
+  .map-ach .ach-icon { flex: none; width: 68px; height: 68px; }
+  .map-ach__body { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 5px; }
+  .map-ach__name { font-size: 17px; line-height: 1.3; color: var(--text-primary); }
+  .map-ach .ach-progress { width: 100%; }
+  /* Over the map's bottom right corner, just above the attribution; clicks pass through. */
+  .map-legend { position: absolute; right: 44px; bottom: 46px; z-index: 1000; pointer-events: none; list-style: none; margin: 0; padding: 7px 12px; display: flex; gap: 18px; background: var(--bg-surface); border: 2px solid var(--border); color: var(--text-primary); font-size: 15px; }
+  .map-legend li { display: flex; align-items: center; gap: 7px; }
+  .map-legend__dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid; box-sizing: border-box; }
+}
 .map-sidebar__empty {
   padding: 32px 24px;
   color: var(--text-muted);

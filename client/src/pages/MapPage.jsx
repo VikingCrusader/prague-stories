@@ -7,6 +7,20 @@ import { getLocName } from '../utils/locName';
 import { getCurrentPosition, haversineDistance, formatDistance } from '../utils/geolocation';
 import { useUserPosition } from '../hooks/useUserPosition';
 import MapView from '../components/map/MapView';
+import MapTopBar from '../components/map/MapTopBar';
+import MapAreaFocus from '../components/map/MapAreaFocus';
+import DistrictQuarters from '../components/map/DistrictQuarters';
+import MapHere from '../components/map/MapHere';
+import MapBoundaries from '../components/map/MapBoundaries';
+import MapAreaInfo from '../components/map/MapAreaInfo';
+import MapBottomBar from '../components/map/MapBottomBar';
+import MapLegend from '../components/map/MapLegend';
+import MapFrame from '../components/map/MapFrame';
+import MapFilterChips from '../components/map/MapFilterChips';
+import AreaGuideModal from '../components/locations/AreaGuideModal';
+import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
+import ExploreMap from '../components/locations/ExploreMap';
+import { useMedia } from '../hooks/useMedia';
 import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
 import AreaFilter, { matchesArea } from '../components/locations/AreaFilter';
 import DistrictLine, { descriptiveLabels } from '../components/locations/DistrictLine';
@@ -17,6 +31,8 @@ import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES, loc
 import { playUnlockSound } from '../utils/sound';
 
 const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
+// The 2K layout; keep in step with the media query in pixelart.css (.map-slot).
+const MAP_BOARD_QUERY = '(min-width: 2400px) and (min-height: 1200px)';
 
 export default function MapPage() {
   // Refetched when the signed-in user changes (see ExplorePage).
@@ -25,8 +41,23 @@ export default function MapPage() {
   const t = useT();
   const convert = useConvert();
   const navigate = useNavigate();
+  const board = useMedia(MAP_BOARD_QUERY);
+  const userPos = useUserPosition();
+  const [areasData, setAreasData] = useState(null);
+  const [areaGuide, setAreaGuide] = useState(null);
+  const knowsPosition = board && !!userPos;
+  useEffect(() => {
+    if (knowsPosition && !areasData) loadPragueAreas().then(setAreasData).catch(() => {});
+  }, [knowsPosition, areasData]);
+  const myArea = useMemo(
+    () => (knowsPosition && areasData ? areaIn(areasData, userPos.lat, userPos.lng) : null),
+    [knowsPosition, areasData, userPos?.lat, userPos?.lng],
+  );
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
+  const [flyTo, setFlyTo]               = useState(null);
+  const rightColumnRef = useRef(null);
+  useEffect(() => { if (rightColumnRef.current) rightColumnRef.current.scrollTop = 0; }, [selectedSlug]);
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
   const [activeLabels, setActiveLabels]     = useState(new Set());
@@ -36,6 +67,7 @@ export default function MapPage() {
   const [search, setSearch]                 = useState('');
   const [cityOnly, setCityOnly]             = useState(true);
   const [area, setArea]                     = useState(null);
+  const [sort, setSort]                     = useState('distance');
   const filterPanelRef  = useRef(null);
   const rarityPanelRef  = useRef(null);
 
@@ -71,7 +103,7 @@ export default function MapPage() {
   }, [raritiesOpen]);
 
   const filteredLocations = useMemo(() => {
-    let list = cityOnly ? locations.filter(l => isInCity(l) && matchesArea(l, area)) : locations;
+    let list = (cityOnly ? locations.filter(isInCity) : locations).filter(l => matchesArea(l, area));
     if (activeLabels.size > 0) {
       list = list.filter(l =>
         Array.from(activeLabels).every(lb => (l.labels || []).includes(lb))
@@ -143,6 +175,17 @@ export default function MapPage() {
   );
 
   const selected = selectedSlug ? filteredLocations.find(l => l.slug === selectedSlug) : null;
+  const collectedCount = locations.filter(l => l.unlocked).length;
+  const changeScope = city => { setCityOnly(city); if (!city || area?.kind === 'outside') setArea(null); };
+  // A quarter chosen inside a district keeps that district chosen on the upper map.
+  const parentDistrict = area?.kind === 'district' ? area.value : area?.kind === 'quarter' ? area.district ?? null : null;
+  const upperArea = parentDistrict ? { kind: 'district', value: parentDistrict } : area;
+  // With no district chosen, the lower map shows the one the player is in.
+  const shownDistrict = parentDistrict ?? myArea?.district ?? null;
+  const pickQuarter = name => setArea(area?.kind === 'quarter' && area.value === name
+    ? { kind: 'district', value: shownDistrict }
+    : { kind: 'quarter', value: name, district: shownDistrict });
+  const markedQuarter = area?.kind === 'quarter' ? area.value : area ? null : myArea?.quarter ?? null;
 
   return (
     <div className="map-page">
@@ -152,7 +195,88 @@ export default function MapPage() {
           selectedSlug={selectedSlug}
           onLocationClick={setSelectedSlug}
           cityOnly={cityOnly}
+          vectorBase={board}
+        >
+          {board && <MapBoundaries area={area} cityOnly={cityOnly} />}
+          {board && <MapAreaFocus area={area} cityOnly={cityOnly} flyTo={flyTo} />}
+        </MapView>
+        {board && <MapFrame />}
+        {board && <MapLegend />}
+      </div>
+
+      {/* The 2K layout; below 2K these aren't shown. */}
+      <div className="map-slot map-slot--left">
+        {board && (
+          <>
+            {myArea && <MapHere here={myArea} onOpenGuide={setAreaGuide} />}
+            <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
+            <div className="map-left__heading">{t('explore.mapFilterLabel')}</div>
+            <ExploreMap locations={locations} area={upperArea} onArea={setArea} outside={!cityOnly} here={myArea} showToggle={false} />
+            <DistrictQuarters
+              district={shownDistrict}
+              selected={markedQuarter}
+              locations={locations}
+              onPick={pickQuarter}
+            />
+            <MapFilterChips
+              area={area}
+              onArea={setArea}
+              search={search}
+              onClearSearch={() => setSearch('')}
+              labels={[...activeLabels]}
+              onToggleLabel={toggleLabel}
+              rarities={[...activeRarities]}
+              onToggleRarity={toggleRarity}
+              onClearAll={() => { setSearch(''); setActiveLabels(new Set()); setActiveRarities(new Set()); setArea(null); }}
+            />
+          </>
+        )}
+      </div>
+      <div className="map-slot map-slot--top">
+        <MapTopBar
+          cityOnly={cityOnly}
+          area={area}
+          search={search}
+          onSearch={setSearch}
+          activeLabels={activeLabels}
+          onToggleLabel={toggleLabel}
+          onClearLabels={() => setActiveLabels(new Set())}
+          activeRarities={activeRarities}
+          onToggleRarity={toggleRarity}
+          onClearRarities={() => setActiveRarities(new Set())}
+          rarityOptions={rarityOptions}
+          sort={sort}
+          onSort={setSort}
         />
+      </div>
+      <div className="map-slot map-slot--bottom">
+        {board && (
+          <MapBottomBar
+            filtered={filteredLocations}
+            selected={selected}
+            sort={sort}
+            userPos={userPos}
+            collectedCount={collectedCount}
+            onPick={card => { setSelectedSlug(card.slug); setFlyTo({ ...card.coordinates }); }}
+          />
+        )}
+      </div>
+      <div className="map-slot map-slot--right" ref={rightColumnRef}>
+        {board && (selected ? (
+          <>
+            <MapAreaInfo district={selected.district ?? null} quarter={selected.quarter ?? null} locations={locations} compact />
+            <div className="map-card">
+              <button type="button" className="map-card__close" aria-label={t('areaGuide.close')} onClick={() => setSelectedSlug(null)}>✕</button>
+              <SidebarDetail
+                slug={selectedSlug}
+                onCheckIn={handleCheckIn}
+                onViewDetail={(slug) => navigate('/explore', { state: { openSlug: slug } })}
+              />
+            </div>
+          </>
+        ) : (
+          <MapAreaInfo district={area?.kind === 'outside' ? null : shownDistrict} quarter={markedQuarter} locations={locations} />
+        ))}
       </div>
 
       <div className="map-sidebar">
@@ -236,7 +360,7 @@ export default function MapPage() {
           </p>
         </div>
 
-        {selected ? (
+        {selected && !board ? (
           <div style={{ padding: 0 }}>
             <div style={{ padding: '12px 16px', borderBottom: '3px solid var(--border)', display: 'flex', justifyContent: 'flex-end' }}>
               <button
@@ -254,6 +378,8 @@ export default function MapPage() {
           <MapSidebarEmpty />
         )}
       </div>
+
+      {areaGuide && <AreaGuideModal kind={areaGuide.kind} value={areaGuide.value} locations={locations} onClose={() => setAreaGuide(null)} />}
 
       {toasts.length > 0 && (
         <div className="toast-container">

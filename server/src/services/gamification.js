@@ -1153,7 +1153,7 @@ export const ACHIEVEMENTS = [
     description_zh: "收集40张带“教堂”标签的卡片。",
     difficulty: "hard",
     check: ({ labelCount }) => (labelCount.church || 0) >= 40,
-    progress: ({ labelCount }) => ({ current: labelCount.church || 0, target: 40 }),
+    progress: ({ labelCount }) => ({ current: labelCount.church || 0, target: 40, countsLabel: "church" }),
   },
   {
     id: "veni_vidi_vici",
@@ -2115,7 +2115,7 @@ export const ACHIEVEMENTS = [
     description_zh: "收集10张带“市政”标签的卡片。",
     difficulty: "easy",
     check: ({ labelCount = {} }) => (labelCount.municipal || 0) >= 10,
-    progress: ({ labelCount = {} }) => ({ current: labelCount.municipal || 0, target: 10 }),
+    progress: ({ labelCount = {} }) => ({ current: labelCount.municipal || 0, target: 10, countsLabel: "municipal" }),
   },
   {
     id: "around_the_world",
@@ -2243,7 +2243,7 @@ export const ACHIEVEMENTS = [
     description_zh: "收集13张“文艺复兴”卡片。",
     difficulty: "medium",
     check: ({ labelCount }) => (labelCount.renaissance || 0) >= 13,
-    progress: ({ labelCount }) => ({ current: labelCount.renaissance || 0, target: 13 }),
+    progress: ({ labelCount }) => ({ current: labelCount.renaissance || 0, target: 13, countsLabel: "renaissance" }),
   },
   {
     id: "generalissimo",
@@ -2291,7 +2291,7 @@ export const ACHIEVEMENTS = [
     description_zh: "收集50张“巴洛克”卡片。",
     difficulty: "hard",
     check: ({ labelCount }) => (labelCount.baroque || 0) >= 50,
-    progress: ({ labelCount }) => ({ current: labelCount.baroque || 0, target: 50 }),
+    progress: ({ labelCount }) => ({ current: labelCount.baroque || 0, target: 50, countsLabel: "baroque" }),
   },
   {
     id: "pure_gold",
@@ -2371,7 +2371,7 @@ export const ACHIEVEMENTS = [
     description_zh: "收集15张“遗迹”卡片。",
     difficulty: "hard",
     check: ({ labelCount }) => (labelCount.ruin || 0) >= 15,
-    progress: ({ labelCount }) => ({ current: labelCount.ruin || 0, target: 15 }),
+    progress: ({ labelCount }) => ({ current: labelCount.ruin || 0, target: 15, countsLabel: "ruin" }),
   },
   {
     id: "vampire",
@@ -2387,7 +2387,7 @@ export const ACHIEVEMENTS = [
     description_zh: "收集25张“城堡与要塞”卡片。",
     difficulty: "hard",
     check: ({ labelCount }) => (labelCount["castle and fortress"] || 0) >= 25,
-    progress: ({ labelCount }) => ({ current: labelCount["castle and fortress"] || 0, target: 25 }),
+    progress: ({ labelCount }) => ({ current: labelCount["castle and fortress"] || 0, target: 25, countsLabel: "castle and fortress" }),
   },
   {
     id: "coast_of_bohemia",
@@ -2662,7 +2662,7 @@ export const ACHIEVEMENTS = [
     description_zh: "收集40张“哥特式”卡片。",
     difficulty: "hard",
     check: ({ labelCount }) => (labelCount.gothic || 0) >= 40,
-    progress: ({ labelCount }) => ({ current: labelCount.gothic || 0, target: 40 }),
+    progress: ({ labelCount }) => ({ current: labelCount.gothic || 0, target: 40, countsLabel: "gothic" }),
   },
   {
     id: "good_place_to_live",

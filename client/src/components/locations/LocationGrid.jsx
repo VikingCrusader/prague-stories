@@ -10,10 +10,10 @@ import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES } fr
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 
 // Expedition sorts first (it pays 60-300 XP), highest XP first among them.
-const RARITY_ORDER = { expedition: -1, legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
-const SORT_MODES = ['distance', 'newest', 'rarity'];
+export const RARITY_ORDER = { expedition: -1, legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
+export const SORT_MODES = ['distance', 'newest', 'rarity'];
 const SORT_MODES_COLLECTED = ['distance', 'newest', 'rarity', 'checkin'];
-const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rarity: 'grid.sortRarity', checkin: 'grid.sortCheckin' };
+export const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rarity: 'grid.sortRarity', checkin: 'grid.sortCheckin' };
 // Cards are mounted in batches as the user scrolls — mounting all ~1300 at once
 // (each with a cover image, a label-fit measurement and a ResizeObserver) made
 // every search keystroke stall.

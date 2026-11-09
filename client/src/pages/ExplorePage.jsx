@@ -25,22 +25,12 @@ import AchievementModal from '../components/achievements/AchievementModal';
 import LevelsModal from '../components/dashboard/LevelsModal';
 import { closestAchievements } from '../utils/achievementText';
 import { EXPLORE_SIDE_QUERY } from '../utils/exploreLayout';
+import { useMedia } from '../hooks/useMedia';
 
 let toastId = 0;
 
 // The title, filters and a map in a side column, the cards taking the rest of the
 // width (2026-11-08, user's call); pixelart.css makes it compact below 2K.
-function useMedia(queryText) {
-  const [matches, setMatches] = useState(() => window.matchMedia(queryText).matches);
-  useEffect(() => {
-    const query = window.matchMedia(queryText);
-    const onChange = () => setMatches(query.matches);
-    query.addEventListener('change', onChange);
-    return () => query.removeEventListener('change', onChange);
-  }, [queryText]);
-  return matches;
-}
-
 export default function ExplorePage() {
   const t = useT();
   const { lang } = useLang();

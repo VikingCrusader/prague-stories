@@ -1210,7 +1210,10 @@ html:not([data-lang="zh"]) :is(#root, body) .loc-card__name,
 html:not([data-lang="zh"]) :is(#root, body) .card-preview__name,
 html:not([data-lang="zh"]) :is(#root, body) .detail-title-name,
 html:not([data-lang="zh"]) :is(#root, body) .card-strip__name,
-html:not([data-lang="zh"]) :is(#root, body) .map-page .map-sidebar h3.px-title {
+html:not([data-lang="zh"]) :is(#root, body) .map-page .map-sidebar h3.px-title,
+html:not([data-lang="zh"]) :is(#root, body) .map-page .map-card h3.px-title,
+html:not([data-lang="zh"]) :is(#root, body) .map-page .map-tile__name,
+html:not([data-lang="zh"]) :is(#root, body) .map-page .map-ach__name {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif !important;
 }
 html:not([data-lang="zh"]) :is(#root, body) .loc-card__name { font-weight: 700; }

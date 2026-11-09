@@ -53,6 +53,9 @@ function emitVersionFile() {
 
 export default defineConfig({
   plugins: [react(), regenerateAssetsOnChange(), emitVersionFile()],
+  // The map library's default build carries its worker inline, which doesn't survive
+  // bundling; the CSP build and its separate worker file (MapVectorBase) are a pair.
+  resolve: { alias: [{ find: /^maplibre-gl$/, replacement: 'maplibre-gl/dist/maplibre-gl-csp.js' }] },
   define: { __BUILD_ID__: JSON.stringify(BUILD_ID) },
   server: {
     proxy: {

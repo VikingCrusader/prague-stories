@@ -28,7 +28,7 @@ const countBy = (locations, key) => {
 const FOLD_KEY = 'exploreMapFolded';
 const readFolded = () => { try { return localStorage.getItem(FOLD_KEY) === '1'; } catch { return false; } };
 
-export default function ExploreMap({ locations, area, onArea, outside, here, foldable = false }) {
+export default function ExploreMap({ locations, area, onArea, outside, here, foldable = false, showToggle = true }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -68,6 +68,7 @@ export default function ExploreMap({ locations, area, onArea, outside, here, fol
           districts={districts}
           quarters={quarters}
           own
+          showToggle={showToggle}
           mode={mode}
           onModeChange={(next) => { setMode(next); onArea(null); }}
           toggleLabel={t('explore.mapFilterLabel')}
