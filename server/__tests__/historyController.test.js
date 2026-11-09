@@ -141,3 +141,11 @@ describe('GET /api/history caching', () => {
     expect(second.body.events[0].title).toEqual({ en: 'Edited' });
   });
 });
+
+test('a related landmark can be a card pack, which wins over a card of the same slug', async () => {
+  await Location.create({ slug: 'vysehrad', name: 'Old card', labels: ['church'], coordinates: { lat: 50, lng: 14 }, description: { en: 'x', cz: 'x', zh: 'x' } });
+  await createEvent({ relatedLandmarks: [{ slug: 'vysehrad', relation: { en: 'x', cz: 'x', zh: 'x' } }] });
+  const res = await request(app).get('/api/history');
+  const [{ landmark }] = res.body.events[0].relatedLandmarks;
+  expect(landmark).toMatchObject({ isPack: true, slug: 'vysehrad', name: 'Vyšehrad' });
+});

@@ -48,7 +48,7 @@ export const AREA_LANDMARKS = {
       'klausova-synagoga', 'vysoka-synagoga', 'zidovska-radnice', 'kafka-statue', 'parizska',
     ],
     'Hradčany': [
-      'st-vitus-cathedral', 'old-royal-palace', 'golden-lane', 'st-georges-basilica', 'dalibor-tower',
+      'prague-castle', 'st-vitus-cathedral', 'old-royal-palace', 'golden-lane', 'st-georges-basilica', 'dalibor-tower',
       'kralovska-zahrada', 'loreta-prague', 'strahov-monastery', 'strahov-library', 'novy-svet', 'ernn-palace-1782591056309',
     ],
     'Vyšehrad': [

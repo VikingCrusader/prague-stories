@@ -5,10 +5,12 @@ import { loadAreaGuide, hasAreaGuide, AREA_LANDMARKS } from '../../utils/areaGui
 import { getLocName } from '../../utils/locName';
 import { quarterName } from '../../utils/pragueQuarters';
 import { AREA_BLURBS } from '../../utils/areaBlurbs';
+import { usePacks } from '../../hooks/usePacks';
+import PackDetail from '../packs/PackDetail';
 
 // One area's guide: its name, the player's progress there, and the sections,
 // or only the first (the overview) with `overviewOnly`.
-function AreaBlock({ kind, value, within, overviewOnly, compact, locations, onPickLandmark }) {
+function AreaBlock({ kind, value, within, overviewOnly, compact, locations, packs, onPickLandmark }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -56,7 +58,7 @@ function AreaBlock({ kind, value, within, overviewOnly, compact, locations, onPi
         <p className="area-guide__soon">{convert(t('areaGuide.comingSoon'))}</p>
       ) : shown.map(s => {
         const marks = s.landmarks
-          ? (AREA_LANDMARKS[kind]?.[value] || []).map(slug => locations.find(l => l.slug === slug)).filter(Boolean)
+          ? (AREA_LANDMARKS[kind]?.[value] || []).map(slug => packs.find(p => p.slug === slug) ?? locations.find(l => l.slug === slug)).filter(Boolean)
           : null;
         if (marks && !marks.length) return null;
         return (
@@ -90,13 +92,18 @@ function AreaBlock({ kind, value, within, overviewOnly, compact, locations, onPi
 // only its progress and one line.
 export default function MapAreaInfo({ district, quarter, locations, compact = false, area = null, onPickLandmark }) {
   const t = useT();
+  const packs = usePacks();
+  // A pack in a landmark list opens over the map; a card goes to the page.
+  const [openPack, setOpenPack] = useState(null);
+  const pick = (l) => (packs.some(p => p.slug === l.slug) ? setOpenPack(l.slug) : onPickLandmark?.(l));
   if (!district) return compact ? null : <div className="map-info__empty">{t('map.pickDistrictIntro')}</div>;
   // Seen whole (`homeDistrict` instead of `district`), its progress counts every card.
   const wholeQuarter = area?.kind === 'quarter' && area.value === quarter && !area.district;
   return (
     <div className={`area-guide map-info${compact ? ' map-info--compact' : ''}`} key={`${district}|${quarter ?? ''}|${compact}`}>
-      <AreaBlock kind="district" value={district} overviewOnly={!!quarter} compact={compact} locations={locations} onPickLandmark={onPickLandmark} />
-      {quarter && <AreaBlock kind="quarter" value={quarter} within={wholeQuarter ? null : district} compact={compact} locations={locations} onPickLandmark={onPickLandmark} />}
+      <AreaBlock kind="district" value={district} overviewOnly={!!quarter} compact={compact} locations={locations} packs={packs} onPickLandmark={pick} />
+      {quarter && <AreaBlock kind="quarter" value={quarter} within={wholeQuarter ? null : district} compact={compact} locations={locations} packs={packs} onPickLandmark={pick} />}
+      {openPack && <PackDetail slug={openPack} onClose={() => setOpenPack(null)} />}
     </div>
   );
 }

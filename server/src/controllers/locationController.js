@@ -7,6 +7,7 @@ import Location from '../models/Location.js';
 import CheckIn from '../models/CheckIn.js';
 import { generateLocationDescription } from '../services/claudeService.js';
 import { RARITY_XP } from '../data/rarityMap.js';
+import { packsOfCard } from '../data/packs.js';
 import cloudinary from '../config/cloudinary.js';
 import { writeCoverThumb, removeCoverThumb } from '../utils/coverThumb.js';
 
@@ -154,7 +155,7 @@ export async function getLocation(req, res, next) {
       huntMode = checkIn?.huntMode ?? null;
     }
 
-    const body = { ...location.toObject(), unlocked, checkedInAt, guessAttempt, xpEarned, huntMode };
+    const body = { ...location.toObject(), unlocked, checkedInAt, guessAttempt, xpEarned, huntMode, packs: packsOfCard(location.slug) };
     if (!unlocked && !isOwnCard(location, req.user)) {
       body.description = storyTeaser(body.description);
       body.storyLocked = true;

@@ -1,0 +1,239 @@
+/* Card packs: PackCard, PackDetail, PackUnlocked. The wrapper keeps its dark foil
+   in both themes, like a printed packet. */
+
+:root { --pack-gold: #e6c35c; }
+
+.loc-card.pack-card {
+  --foil: #5a4a2a;
+  background: none;
+  border: 0 !important;
+  box-shadow: none;
+  overflow: visible;
+  height: 100%;
+  filter: drop-shadow(3px 4px 0 var(--card-shadow, rgba(0, 0, 0, 0.5)));
+}
+.loc-card.pack-card:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+.pack-card__foil {
+  --zig: 5px;
+  --zig-top: conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(2 * var(--zig)) 51% repeat-x;
+  --zig-bottom: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / calc(2 * var(--zig)) 51% repeat-x;
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 20px 9px 20px;
+  overflow: hidden;
+  color: #f5e3b0;
+  background: linear-gradient(112deg,
+    color-mix(in srgb, var(--foil) 70%, #fff) 0%,
+    var(--foil) 26%,
+    color-mix(in srgb, var(--foil) 68%, #000) 52%,
+    var(--foil) 76%,
+    color-mix(in srgb, var(--foil) 78%, #fff) 100%);
+  -webkit-mask: var(--zig-top), var(--zig-bottom);
+  mask: var(--zig-top), var(--zig-bottom);
+}
+/* The crimped seals along the two ends. */
+.pack-card__foil::before,
+.pack-card__foil::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 13px;
+  background: repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.22) 0 1px, rgba(0, 0, 0, 0.24) 1px 4px);
+}
+.pack-card__foil::before { top: 0; border-bottom: 1px solid color-mix(in srgb, var(--pack-gold) 70%, transparent); }
+.pack-card__foil::after { bottom: 0; border-top: 1px solid color-mix(in srgb, var(--pack-gold) 70%, transparent); }
+
+.pack-card__head { text-align: center; min-width: 0; }
+.pack-card .loc-card__name.pack-card__name {
+  color: #f8e8b8;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+.pack-card .loc-card__cz-name.pack-card__cz { color: rgba(248, 232, 184, 0.72); text-align: center; }
+
+.pack-card__art {
+  position: relative;
+  aspect-ratio: 1;
+  flex: none;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--pack-gold) 75%, transparent);
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pack-card__art > img:not(.pack-card__lock) { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pack-card__emoji { font-size: 3rem; }
+.pack-card__lock { position: absolute; width: 34%; height: auto; left: 33%; top: 33%; }
+.pack-card--sealed .pack-card__art > img:not(.pack-card__lock) { filter: grayscale(0.45) brightness(0.6); }
+
+.pack-card__foot { margin-top: auto; min-width: 0; }
+.pack-card__label {
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: rgba(248, 232, 184, 0.82);
+  margin-bottom: 4px;
+}
+.pack-card__progress { display: flex; align-items: center; gap: 7px; }
+.pack-card__track { flex: 1; min-width: 0; height: 6px; background: rgba(0, 0, 0, 0.42); display: block; }
+.pack-card__fill { display: block; height: 100%; background: var(--pack-gold); transition: width 400ms; }
+.pack-card__count { font-size: 12px; white-space: nowrap; color: #f8e8b8; }
+
+/* Unlocked: the top seal is gone and the edge is torn. */
+.pack-card--open .pack-card__foil,
+.pack-card--complete .pack-card__foil {
+  -webkit-mask: linear-gradient(#000 0 0) top / 100% 51% no-repeat, var(--zig-bottom);
+  mask: linear-gradient(#000 0 0) top / 100% 51% no-repeat, var(--zig-bottom);
+  clip-path: polygon(0 11px, 6% 6px, 13% 12px, 21% 4px, 30% 10px, 38% 3px, 47% 11px, 55% 5px, 64% 12px, 72% 4px, 81% 10px, 90% 5px, 100% 11px, 100% 100%, 0 100%);
+}
+.pack-card--open .pack-card__foil::before,
+.pack-card--complete .pack-card__foil::before { display: none; }
+
+.pack-card__sheen {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(118deg, transparent 32%, rgba(255, 255, 255, 0.26) 46%, transparent 60%) 120% 0 / 260% 100% no-repeat;
+  transition: background-position 650ms ease;
+}
+.pack-card:hover .pack-card__sheen { background-position: -40% 0; }
+
+/* Complete: the only state that keeps moving. */
+.pack-card--complete .pack-card__sheen {
+  background: linear-gradient(115deg, #ff5f9e, #ffd166, #6df0c2, #5fb4ff, #c78bff, #ff5f9e) 0 0 / 300% 300%;
+  mix-blend-mode: color-dodge;
+  opacity: 0.42;
+  animation: pack-holo 6s linear infinite;
+}
+.loc-card.pack-card--complete { filter: drop-shadow(0 0 7px color-mix(in srgb, var(--pack-gold) 65%, transparent)); }
+.pack-card--complete[data-offscreen] .pack-card__sheen { animation-play-state: paused; }
+@keyframes pack-holo { to { background-position: 300% 300%; } }
+
+.map-board .map-tile--pack .map-tile__name { color: var(--gold); -webkit-line-clamp: 2; }
+/* The bar gives way to the count, which always shows whole. */
+.map-board .map-tile__progress { display: flex; align-items: center; gap: 8px; min-width: 0; width: 100%; }
+.map-board .map-tile__track { flex: 1 1 0; min-width: 16px; height: 8px; background: var(--bg-secondary); border: 1px solid var(--border); box-sizing: border-box; display: block; }
+.map-board .map-tile__fill { display: block; height: 100%; background: var(--gold); }
+.map-board .map-tile__count { flex: none; font-size: 14px; white-space: nowrap; color: var(--text-muted); }
+
+/* The pack button at the bottom of a card's detail. */
+.detail-packs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--divider, #222); }
+.detail-packs__label { font-size: 14px; color: var(--text-muted); }
+.detail-packs__pack {
+  padding: 3px 12px;
+  border: 1px solid color-mix(in srgb, var(--pack-gold) 70%, transparent);
+  color: #f8e8b8;
+  background: var(--foil, #5a4a2a);
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+}
+.detail-packs__pack:hover { filter: brightness(1.2); }
+
+/* The pack opened. */
+.pack-detail-overlay { z-index: 260; }
+.pack-detail { width: min(1080px, 94vw); max-width: none; max-height: 90vh; overflow-y: auto; padding: 26px 28px 30px; }
+.pack-detail__top { display: flex; gap: 26px; align-items: flex-start; }
+.pack-detail__wrapper { flex: none; width: 240px; position: sticky; top: 0; }
+.pack-detail__wrapper .loc-card { cursor: default; }
+.pack-detail__text { flex: 1; min-width: 0; }
+:is(#root, body) .pack-detail__name { font-size: 32px; margin: 0; padding-right: 36px; }
+.pack-detail__cz { color: var(--text-muted); font-size: 16px; margin-top: 2px; }
+.pack-detail__areas { color: var(--gold); font-size: 15px; margin: 6px 0 12px; }
+.pack-detail__hint { color: var(--gold); font-size: 16px; margin: 12px 0 14px; }
+.pack-detail__para { margin-bottom: 10px; }
+.pack-detail__cards-title { font-size: 22px; margin: 24px 0 12px; }
+.pack-detail__cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; }
+
+@media (max-width: 760px) {
+  .pack-detail { width: 100%; max-height: 92vh; padding: 20px 14px 24px; }
+  .pack-detail__top { flex-direction: column; align-items: stretch; gap: 16px; }
+  .pack-detail__wrapper { position: static; width: min(210px, 60vw); align-self: center; }
+  :is(#root, body) .pack-detail__name { font-size: 26px; text-align: center; padding: 0 28px; }
+  .pack-detail__cz, .pack-detail__areas { text-align: center; }
+  .pack-detail__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+}
+
+/* The moment a pack opens (PackUnlocked). */
+.pack-open {
+  position: fixed;
+  inset: 0;
+  z-index: 280;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 16px;
+  background: rgba(4, 6, 16, 0.86);
+  animation: pack-fade 260ms ease both;
+}
+.pack-open--leaving { animation: pack-fade 300ms ease reverse both; }
+@keyframes pack-fade { from { opacity: 0; } to { opacity: 1; } }
+
+.pack-open__stage { position: relative; width: min(230px, 56vw); padding-top: 96px; }
+.pack-open__pack { position: relative; z-index: 2; animation: pack-pop 480ms cubic-bezier(0.2, 1.4, 0.4, 1) both; }
+@keyframes pack-pop { from { transform: scale(0.3); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+.pack-open__pack .loc-card { cursor: default; }
+.pack-open__strip {
+  --zig: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -1px;
+  height: 18px;
+  background: linear-gradient(112deg, color-mix(in srgb, var(--foil) 70%, #fff), var(--foil) 55%, color-mix(in srgb, var(--foil) 78%, #fff));
+  -webkit-mask: conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(2 * var(--zig)) 100% repeat-x;
+  mask: conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / calc(2 * var(--zig)) 100% repeat-x;
+  transform-origin: 100% 100%;
+  animation: pack-tear 620ms 720ms cubic-bezier(0.5, 0, 0.8, 0.6) both;
+}
+@keyframes pack-tear {
+  0% { transform: none; opacity: 1; }
+  45% { transform: translate(6px, -8px) rotate(-5deg); opacity: 1; }
+  100% { transform: translate(110px, -150px) rotate(-52deg); opacity: 0; }
+}
+.pack-open__fan { position: absolute; left: 50%; top: 150px; z-index: 1; width: 0; height: 0; }
+.pack-open__card {
+  position: absolute;
+  width: 112px;
+  height: 158px;
+  left: -56px;
+  top: 0;
+  overflow: hidden;
+  border: 3px solid var(--pack-gold);
+  background: var(--bg-card);
+  transform-origin: 50% 100%;
+  animation: pack-fan 620ms calc(1180ms + var(--i) * 40ms) cubic-bezier(0.2, 1.3, 0.4, 1) both;
+}
+.pack-open__card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+@keyframes pack-fan {
+  from { transform: translateY(0) rotate(0); opacity: 0; }
+  to { transform: translate(calc(var(--i) * 62px), -128px) rotate(calc(var(--i) * 15deg)); opacity: 1; }
+}
+.pack-open__text { text-align: center; animation: pack-rise 420ms 1600ms ease both; }
+@keyframes pack-rise { from { transform: translateY(12px); opacity: 0; } to { transform: none; opacity: 1; } }
+.pack-open__label { color: var(--pack-gold); font-size: 18px; letter-spacing: 0.06em; }
+.pack-open__name { color: #fff; font-size: 30px; margin: 2px 0; }
+.pack-open__xp { color: var(--pack-gold); font-size: 22px; margin-bottom: 12px; }
+.pack-open__go { min-width: 170px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .pack-open, .pack-open__pack, .pack-open__text { animation: none; }
+  .pack-open__strip { animation: none; display: none; }
+  .pack-open__card { animation-duration: 1ms; animation-delay: 0ms; }
+  .pack-card--complete .pack-card__sheen { animation: none; }
+}
+
+/* Labels and rarity don't apply to packs. */
+.filter-bar .filter-btn:disabled:not(.filter-btn--current) { opacity: 0.45; cursor: default; }

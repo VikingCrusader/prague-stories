@@ -726,17 +726,17 @@ test('without the column, Clear filters appears with any filter and clears them 
   const search = page.locator('.filter-bar__search');
   await search.fill('zzz-nothing');
   await expect(page.locator('.location-grid .loc-card')).toHaveCount(0);
-  await page.locator('.filter-bar__bottom > .filter-btn').click(); // My Collections
+  await page.locator('.filter-bar__bottom > .filter-btn:first-child').click(); // My Collections
   await clear.click();
   await expect(clear).toHaveCount(0);
   await expect(search).toHaveValue('');
   // Clearing keeps My Collections, which is not a filter: only its own button is left.
-  await expect(page.locator('.filter-bar__bottom > .filter-btn')).toHaveClass(/filter-btn--active/);
+  await expect(page.locator('.filter-bar__bottom > .filter-btn:first-child')).toHaveClass(/filter-btn--active/);
   await expect(page.locator('.explore-view-filters')).toHaveCount(0);
   await expect(page.locator('.explore-filter-actions button')).toHaveCount(1);
   await page.locator('.explore-leave-collection').click();
   await expect(page.locator('.explore-leave-collection')).toHaveCount(0);
-  await expect(page.locator('.filter-bar__bottom > .filter-btn')).not.toHaveClass(/filter-btn--active/);
+  await expect(page.locator('.filter-bar__bottom > .filter-btn:first-child')).not.toHaveClass(/filter-btn--active/);
   await expect(page.locator('.location-grid .loc-card').first()).toBeVisible();
 });
 

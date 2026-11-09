@@ -2,6 +2,7 @@ import HistoryEvent from '../models/HistoryEvent.js';
 import Location from '../models/Location.js';
 import CheckIn from '../models/CheckIn.js';
 import { HISTORY_ERAS } from '../data/historyEras.js';
+import { PACKS } from '../data/packs.js';
 
 // Single read endpoint for the whole History Timeline: the era roster (all
 // six, including the five not seeded yet) plus every HistoryEvent, sorted
@@ -81,11 +82,18 @@ async function buildPayload() {
   ).lean();
   const locationBySlug = new Map(locations.map(loc => [loc.slug, { ...loc, unlocked: false }]));
 
+  // A related landmark can be a card pack (data/packs.js); the pack wins over a
+  // card of the same slug. Each player's progress in it is added on the client.
+  const landmarkBySlug = new Map([
+    ...locationBySlug,
+    ...PACKS.map(({ slug, name, localizedNames, foil }) => [slug, { isPack: true, slug, name, localizedNames, foil }]),
+  ]);
+
   const enrichedEvents = events.map(event => ({
     ...event,
     relatedLandmarks: event.relatedLandmarks
-      .filter(r => locationBySlug.has(r.slug))
-      .map(r => ({ relation: r.relation, landmark: locationBySlug.get(r.slug) })),
+      .filter(r => landmarkBySlug.has(r.slug))
+      .map(r => ({ relation: r.relation, landmark: landmarkBySlug.get(r.slug) })),
   }));
 
   // Round-trip through JSON so ObjectIds/Dates become plain values, which

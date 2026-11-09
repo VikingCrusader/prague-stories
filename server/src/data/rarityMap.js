@@ -14,7 +14,6 @@ export const SLUG_RARITY = {
   'karlstejn-castle':             'legend',
   'dancing-house':                'legend',
   'strahov-monastery':            'legend',
-  'vysehrad':                     'legend',
   'national-theatre':             'legend',
 
   // ── EPIC (37 · 15%) ──────────────────────────────────────────────────────

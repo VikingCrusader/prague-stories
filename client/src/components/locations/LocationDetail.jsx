@@ -15,6 +15,7 @@ import { useUserPosition } from "../../hooks/useUserPosition";
 import EditLocationForm from "./EditLocationForm";
 import DistrictLine, { descriptiveLabels } from "./DistrictLine";
 import TagButton from "./TagInfo";
+import PackLinks from "../packs/PackLinks";
 import {
   RARITY_VAR,
   RARITY_LABEL, RARITY_ICON,
@@ -31,6 +32,7 @@ export default function LocationDetail({
   onCheckIn,
   onUpdate,
   autoCheckIn,
+  fromPack = null,
 }) {
   const { lang } = useLang();
   const t = useT();
@@ -724,6 +726,8 @@ export default function LocationDetail({
                   )}
                 </div>
               )}
+
+              <PackLinks packs={loc.packs} fromPack={fromPack} onBack={onClose} />
             </div>
           </>
         ) : null}

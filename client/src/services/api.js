@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { announceAchievements, announceAchievementProgress } from '../utils/achievementEvents';
+import { announceAchievements, announceAchievementProgress, announcePacks, PACK_SHOW_MS } from '../utils/achievementEvents';
 import { HUNT_WIN_SOUND_MS } from '../utils/sound';
 
 const BASE_URL = import.meta.env.PROD
@@ -13,13 +13,13 @@ const api = axios.create({ baseURL: BASE_URL });
 // a find they wait for the hunt fanfare, after a check-in for the card
 // unlock sound.
 api.interceptors.response.use(res => {
+  const url = res.config?.url || '';
+  const delay = url.includes('/random-draw/guess') ? HUNT_WIN_SOUND_MS + 200
+    : url.startsWith('/checkins') ? 1200 : 300;
+  const packs = Array.isArray(res.data?.newPacks) ? res.data.newPacks : [];
+  announcePacks(packs, delay);
   const list = res.data?.newAchievements;
-  if (Array.isArray(list) && list.length) {
-    const url = res.config?.url || '';
-    const delay = url.includes('/random-draw/guess') ? HUNT_WIN_SOUND_MS + 200
-      : url.startsWith('/checkins') ? 1200 : 300;
-    announceAchievements(list, delay);
-  }
+  if (Array.isArray(list) && list.length) announceAchievements(list, delay + packs.length * (PACK_SHOW_MS + 400));
   if (res.data?.achievementProgress) announceAchievementProgress(res.data.achievementProgress);
   return res;
 });
@@ -61,6 +61,11 @@ export const checkinAPI = {
   getAll:  ()              => api.get('/checkins'),
   checkIn: (slug, { note, lat, lng } = {}) => api.post(`/checkins/${slug}`, { note, lat, lng })
     .then(res => { announceCollected(slug); return res; }),
+};
+
+export const packAPI = {
+  getAll: ()     => api.get('/packs'),
+  getOne: (slug) => api.get(`/packs/${slug}`),
 };
 
 export const historyAPI = {

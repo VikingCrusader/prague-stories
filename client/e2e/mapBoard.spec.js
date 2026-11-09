@@ -191,3 +191,20 @@ test.describe('in the card panel', () => {
     await expect(panel.locator('h3')).toBeVisible();
   });
 });
+
+test.describe('a chosen card in the bottom bar', () => {
+  test.use({ viewport: { width: 2560, height: 1300 } });
+  test('packs come first, then achievements, then places nearby', async ({ page }) => {
+    const ach = { id: 'a1', name: 'Churches', difficulty: 'easy', unlocked: false, progress: { current: 1, target: 5, countsLabel: 'church' } };
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: { achievements: [ach], levels: [] } }));
+    await page.route('**/api/packs', route => route.fulfill({ json: [{ slug: 'p1', name: 'The Pack', localizedNames: {}, foil: '#7a1f2b', total: 12, collected: 1, unlocked: false, completed: false, districts: ['Praha 2'], quarters: ['Vinohrady'], memberSlugs: CARDS.map(c => c.slug) }] }));
+    await page.goto('/map');
+    await page.locator('.map-bottom .map-tile').first().click();
+    const titles = page.locator('.map-split > .map-bottom__title');
+    await expect(titles).toHaveCount(3);
+    const lefts = await Promise.all([page.locator('.map-tile--pack'), page.locator('.map-ach'), page.locator('.map-split > .map-tile:not(.map-tile--pack)').first()].map(l => l.boundingBox().then(b => b.x)));
+    expect(lefts[0]).toBeLessThan(lefts[1]);
+    expect(lefts[1]).toBeLessThan(lefts[2]);
+    await expect(page.locator('.map-split > .map-tile, .map-split > .map-ach')).toHaveCount(6);
+  });
+});

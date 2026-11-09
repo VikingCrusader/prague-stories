@@ -4,6 +4,7 @@ import User from '../models/User.js';
 import { evaluateAchievements, describeAchievement, achievementXp, calculateLevel, RANDOM_DRAW_WINDOW_MS } from '../services/gamification.js';
 import { buildAchievementStats } from '../services/achievementStats.js';
 import { haversineDistance } from '../utils/geo.js';
+import { awardPacks } from '../services/packs.js';
 
 const MAX_DISTANCE_METERS = 100;
 
@@ -90,6 +91,8 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
     user.totalXP += newAchievements.reduce((n, a) => n + achievementXp(a.id), 0);
   }
 
+  const newPacks = await awardPacks(user);
+
   const levelInfo = calculateLevel(user.totalXP);
   user.explorerLevel = levelInfo.level;
   await user.save();
@@ -101,5 +104,6 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
     levelInfo,
     // With names and icons, for the unlock announcement.
     newAchievements: newAchievements.map(describeAchievement),
+    newPacks,
   };
 }

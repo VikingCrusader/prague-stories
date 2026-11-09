@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect, useRef, useDeferredValue } from 'react';
 import { createPortal } from 'react-dom';
 import LocationCard from './LocationCard';
+import PackCard from '../packs/PackCard';
 import { useCardPreview } from './CardPreview';
 import { useFitRows } from '../../hooks/useFitRows';
 import { viewportRect } from '../../utils/fitPage';
@@ -26,7 +27,7 @@ const PAGE_SIZE = 60;
 // for the filters that are on into `appliedSlot`.
 // `initialFilter` ({ rarity, label }) opens the grid already filtered, e.g. on
 // Expedition from the nudge on the profile's empty expedition strip.
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -49,6 +50,9 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   }, [discovered, wide, loadTreasures]);
   const [activeLabels, setActiveLabels]     = useState(() => new Set(initialFilter?.label ? [initialFilter.label] : []));
   const [activeRarities, setActiveRarities] = useState(() => new Set(initialFilter?.rarity ? [initialFilter.rarity] : []));
+  // Card packs instead of cards. They have no labels, rarity or distance, so those
+  // filters and the sort are off meanwhile; search and the area still apply.
+  const [packsOnly, setPacksOnly] = useState(false);
   // The picked rarity (or null), so ExplorePage can show its description.
   // The header only has room for one description, so it shows with a single rarity.
   const activeRarity = activeRarities.size === 1 ? [...activeRarities][0] : null;
@@ -161,6 +165,13 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     return list;
   }, [locations, discovered, treasureOnly, treasureSlugs, activeLabels, activeRarities, deferredSearch, sort]);
 
+  const shownPacks = useMemo(() => {
+    const trimmed = deferredSearch.trim();
+    if (!trimmed) return packs;
+    const q = trimmed.toLowerCase();
+    return packs.filter(p => p.name.toLowerCase().includes(q) || p.localizedNames?.cz?.toLowerCase().includes(q) || p.localizedNames?.zh?.includes(trimmed));
+  }, [packs, deferredSearch]);
+
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
   }, [discovered, treasureOnly, activeLabels, activeRarities, deferredSearch, sort]);
@@ -199,16 +210,18 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // Counted over what the filters and search leave, so the stats follow them.
   const unlocked = filtered.filter(l => l.unlocked).length;
   const total    = filtered.length;
-  useEffect(() => { onCountChange?.(total); }, [total, onCountChange]);
+  const shownCount = packsOnly ? shownPacks.length : total;
+  useEffect(() => { onCountChange?.(shownCount); }, [shownCount, onCountChange]);
 
   // My Collections is a view, not a filter: it isn't counted, and has its own way out.
-  const filterCount = activeLabels.size + activeRarities.size + (treasureOnly ? 1 : 0) + (search.trim() ? 1 : 0) + filterExtraCount;
+  const filterCount = activeLabels.size + activeRarities.size + (treasureOnly ? 1 : 0) + (packsOnly ? 1 : 0) + (search.trim() ? 1 : 0) + filterExtraCount;
   useEffect(() => { onFilterCount?.(filterCount); }, [filterCount, onFilterCount]);
   const clearAllFilters = () => {
     setSearch('');
     setActiveLabels(new Set());
     setActiveRarities(new Set());
     setTreasureOnly(false);
+    setPacksOnly(false);
     // My Collections is left with its own button; its hidden scope and area stay as they were.
     if (!discovered) onClearFilters?.();
   };
@@ -216,6 +229,17 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     if (sort === 'checkin') setSort('distance');
     setTreasureOnly(false);
     setDiscovered(false);
+  };
+  const togglePacks = () => {
+    if (!packsOnly) {
+      setActiveLabels(new Set());
+      setActiveRarities(new Set());
+      setLabelsOpen(false);
+      setRaritiesOpen(false);
+      setSortOpen(false);
+      if (discovered) leaveCollection();
+    }
+    setPacksOnly(!packsOnly);
   };
   const filterBar = (
     <div className="filter-bar">
@@ -236,15 +260,20 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             // "My collection" opens sorted by most recently collected; leaving
             // it drops that sort, which only exists inside the collection.
             if (discovered) { leaveCollection(); return; }
+            setPacksOnly(false);
             setSort('checkin');
             setDiscovered(true);
           }}
         >
           {t('grid.filterDiscovered')}
         </button>
+        <button type="button" className={`filter-btn${packsOnly ? ' filter-btn--active' : ''}`} aria-pressed={packsOnly} onClick={togglePacks}>
+          {t('grid.filterPacks')}
+        </button>
         <div className="label-filter" ref={labelPanelRef}>
           <button
             className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
+            disabled={packsOnly}
             onClick={() => { setLabelsOpen(o => !o); setRaritiesOpen(false); }}
           >
             {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
@@ -270,6 +299,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         <div className="label-filter" ref={rarityPanelRef}>
           <button
             className={`filter-btn${raritiesOpen || activeRarities.size > 0 ? ' filter-btn--active' : ''}`}
+            disabled={packsOnly}
             onClick={() => { setRaritiesOpen(o => !o); setLabelsOpen(false); }}
           >
             {t('grid.filterRarity')}{activeRarities.size > 0 ? ` (${activeRarities.size})` : ' ▼'}
@@ -323,7 +353,9 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
       )}
     </div>
   );
-  const stats = (
+  const stats = packsOnly ? (
+    <p className="explore-stats" style={{ margin: 0 }}>{convert(t('pack.count', { n: shownPacks.length }))}</p>
+  ) : (
     <p className="explore-stats" style={{ margin: 0 }}>
       <span>{unlocked}</span>{cityScoped && <> / <span>{total}</span></>} <em className="explore-stats__long">{t('explore.statsLabel')}</em><em className="explore-stats__short">{t('explore.statsLabelShort')}</em>
       {/* A total and a share only for the city: expedition cards are an extra, not the goal (user's call). */}
@@ -352,7 +384,9 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         treasureOnly,
         onShowTreasure: () => setTreasureOnly(true),
         onClearTreasure: () => setTreasureOnly(false),
-        onClearAll: wide ? () => { setActiveLabels(new Set()); setActiveRarities(new Set()); setTreasureOnly(false); } : clearAllFilters,
+        packsOnly,
+        onClearPacks: () => setPacksOnly(false),
+        onClearAll: wide ? () => { setActiveLabels(new Set()); setActiveRarities(new Set()); setTreasureOnly(false); setPacksOnly(false); } : clearAllFilters,
       }), appliedSlot)}
 
       <div className={`explore-sortbar${wide ? ' explore-toolbar' : ''}`} style={{ display: 'flex', alignItems: wide ? 'center' : 'stretch', justifyContent: 'space-between', marginBottom: wide ? 8 : 16 }}>
@@ -369,7 +403,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             {filtersFolded ? `${t('explore.filtersUnfold')}${filterCount > 0 ? ` (${filterCount})` : ''}` : t('explore.filtersFold')} <span className="explore-caret">{filtersFolded ? '▼' : '▲'}</span>
           </button>
         )}
-        <div className="label-filter" ref={sortPanelRef}>
+        <div className="label-filter" ref={sortPanelRef} style={packsOnly ? { display: 'none' } : undefined}>
           <button
             className={`filter-btn${sortOpen || sort !== 'distance' ? ' filter-btn--active' : ''}`}
             onClick={() => { setSortOpen(o => !o); setLabelsOpen(false); setRaritiesOpen(false); }}
@@ -394,7 +428,8 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
       </div>
 
       <div ref={gridRef} className="location-grid" {...previewHandlers}>
-        {filtered.slice(0, visibleCount).map(loc => (
+        {packsOnly && shownPacks.map(pack => <PackCard key={pack.slug} pack={pack} onClick={onPackClick} />)}
+        {!packsOnly && filtered.slice(0, visibleCount).map(loc => (
           <LocationCard
             key={loc._id}
             location={loc}
@@ -404,13 +439,13 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             previewable
           />
         ))}
-        {filtered.length === 0 && (
+        {shownCount === 0 && (
           <p style={{ color: 'var(--text-muted)', gridColumn: '1/-1', padding: 24 }}>
             {t('grid.noResults')}
           </p>
         )}
       </div>
-      {hasMore && <div ref={sentinelRef} style={{ height: 1 }} />}
+      {hasMore && !packsOnly && <div ref={sentinelRef} style={{ height: 1 }} />}
       {preview}
     </>
   );

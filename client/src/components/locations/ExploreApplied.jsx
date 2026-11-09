@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { RARITY_LABEL, RARITY_VAR, ALL_RARITIES } from '../../utils/rarity';
-import { LABEL_BLURB, RARITY_QUIP, GUEST_INTRO, TREASURE_BLURB } from '../../utils/filterBlurbs';
+import { LABEL_BLURB, RARITY_QUIP, GUEST_INTRO, TREASURE_BLURB, PACK_BLURB } from '../../utils/filterBlurbs';
 import { useFitText } from '../../utils/fitText';
 import { achField } from '../../utils/achievementText';
 import { formatCountdown } from '../../utils/formatCountdown';
@@ -163,12 +163,12 @@ function Item({ name, nameNode, color, onClear, children }) {
 // mode. With no filter on: the district and quarter the player is in, each with
 // its line, and how far the nearest card still to collect is (`here`); or, without a
 // position in Prague, a `tip`; a guest gets what the app is for and a link to the Guide.
-export default function ExploreApplied({ treasureCount = null, treasureOnly = false, onShowTreasure, onClearTreasure, area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement, search = null, onClearSearch, filtersOnly = false }) {
+export default function ExploreApplied({ packsOnly = false, onClearPacks, treasureCount = null, treasureOnly = false, onShowTreasure, onClearTreasure, area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement, search = null, onClearSearch, filtersOnly = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const pick = (entry) => (entry ? convert(entry[lang] || entry.en) : null);
-  const anyFilter = area || treasureOnly || rarities.length > 0 || labels.length > 0 || search;
+  const anyFilter = area || packsOnly || treasureOnly || rarities.length > 0 || labels.length > 0 || search;
   return (
     <>
       {notes.map(note => <p key={note.key} className="explore-applied__note">{note.body}</p>)}
@@ -193,6 +193,7 @@ export default function ExploreApplied({ treasureCount = null, treasureOnly = fa
       {!anyFilter && !collection && nextUp && <NextUp {...nextUp} onOpenAchievement={onOpenAchievement} />}
       {anyFilter && <button type="button" className="filter-btn explore-applied__clear-all" onClick={onClearAll}>{t(filtersOnly ? 'explore.clearAllFilters' : 'explore.clearFilters')}</button>}
       {search && <Item name={`“${search}”`} onClear={onClearSearch} />}
+      {packsOnly && <Item name={t('grid.filterPacks')} onClear={onClearPacks}>{pick(PACK_BLURB)}</Item>}
       {treasureOnly && <Item name={t('dashboard.treasures')} onClear={onClearTreasure}>{pick(TREASURE_BLURB)}</Item>}
       {areaItems.map(item => (
         <Item key={item.key} nameNode={<AreaName name={item.name} onOpen={item.onOpenGuide} />} onClear={item.onClear}>

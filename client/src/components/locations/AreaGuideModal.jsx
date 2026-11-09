@@ -9,6 +9,8 @@ import { quarterName } from '../../utils/pragueQuarters';
 import { DISTRICT_COLORS } from './DistrictLine';
 import FullCardGrid from './FullCardGrid';
 import LocationDetail from './LocationDetail';
+import PackDetail from '../packs/PackDetail';
+import { usePacks } from '../../hooks/usePacks';
 
 const SPLIT_QUERY = '(min-width: 1200px)';
 
@@ -59,9 +61,12 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
   // On Explore a landmark replaces the guide (user's call): the guide is gone for
   // good once its card is open. Elsewhere the card lies on top of the guide.
   const [replacedByCard, setReplacedByCard] = useState(false);
+  // A landmark may be a card pack (the whole Castle, Vyšehrad).
+  const packs = usePacks();
+  const [openPack, setOpenPack] = useState(null);
   const openLandmark = (slug) => {
     if (window.location.pathname === '/explore') setReplacedByCard(true);
-    setOpenSlug(slug);
+    if (packs.some(p => p.slug === slug)) setOpenPack(slug); else setOpenSlug(slug);
   };
   const [expanded, setExpanded] = useState(false);
   const modalRef = useRef(null);
@@ -102,13 +107,13 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
     // the card detail underneath it. Not while a card opened from here (its
     // detail or showcase) lies on top.
     const onKey = e => {
-      if (e.key !== 'Escape' || openSlug || document.querySelector('.card-showcase')) return;
+      if (e.key !== 'Escape' || openSlug || openPack || document.querySelector('.card-showcase')) return;
       e.stopPropagation();
       onClose();
     };
     window.addEventListener('keydown', onKey, true);
     return () => window.removeEventListener('keydown', onKey, true);
-  }, [onClose, openSlug]);
+  }, [onClose, openSlug, openPack]);
 
   useEffect(() => {
     const prev = document.body.style.overflow;
@@ -163,7 +168,7 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
         // A landmarks section lists cards by slug (AREA_LANDMARKS), named
         // from the cards, collected ones ticked; hidden until the list loads.
         const marks = s.landmarks
-          ? (AREA_LANDMARKS[kind]?.[value] || []).map(slug => list?.find(l => l.slug === slug)).filter(Boolean)
+          ? (AREA_LANDMARKS[kind]?.[value] || []).map(slug => packs.find(p => p.slug === slug) ?? list?.find(l => l.slug === slug)).filter(Boolean)
           : null;
         if (marks && !marks.length) return null;
         return (
@@ -219,6 +224,7 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
       )}
       {/* After the overlay in the DOM and on its level, so on top of it. */}
       {openSlug && <div className="area-guide-detail"><LocationDetail slug={openSlug} onClose={() => { setOpenSlug(null); if (replacedByCard) onClose(); }} /></div>}
+      {openPack && <PackDetail slug={openPack} onClose={() => { setOpenPack(null); if (replacedByCard) onClose(); }} />}
     </>,
     document.body,
   );

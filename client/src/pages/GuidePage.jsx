@@ -123,6 +123,15 @@ const CONTENT = {
     xpOutro: "There are 100 levels, and their titles walk you through Prague's history: from Newcomer at the Gate at 0 XP, through apprentice, scholar, burgomaster, knight and king, to Soul of Prague at 100,000 XP. The early ones come quickly. The later ones are a long-term project, on purpose: cards, achievements and treasure hunts all count, and you will need all three.",
     tripleTitle: "Bonus XP: the Treasure Hunt",
     triple: "A Treasure Hunt pays up to ten times as much, if you walk all the way there and find it on the first press. Every wrong press costs two steps, and every clue you buy costs one, so asking for a hint is always cheaper than guessing blind. Run out of time and the answer is revealed. You lose nothing but your pride.",
+    packsTitle: "Card Packs",
+    packsIntro: "Some places are too big for one card. A card pack bundles the cards of one connected corner of the city, such as Prague Castle or Vyšehrad, into a sealed foil packet. You can't collect a pack itself, since it has no single spot to stand on. You collect the cards inside it, on foot, the usual way.",
+    packs: [
+      { b: "Finding them:", rest: " tap Packs on Explore and the wall of cards becomes a wall of packets; search and the area filter still work. A card that belongs to a pack names it in its detail, and packs also turn up in the History Timeline and the area guides." },
+      { b: "Sealed:", rest: " a padlocked packet, with a progress bar where a card would show its distance. Open it to see the start of its story and every card inside, the ones you're missing behind locks." },
+      { b: "Torn open:", rest: " collect three of its cards and the packet rips open on screen. You get +20 XP and the pack's full story." },
+      { b: "Complete:", rest: " collect every card and the wrapper turns holographic. The reward is 15 XP per card, at least 100 and at most 800." },
+    ],
+    packsOutro: "Each reward is paid once and stays yours. If a new card joins a pack later, the bar will admit you're one short, but nothing is taken back.",
     achTitle: "Achievements",
     ach: "Sixty-seven achievements, from your very first card to a trip out to Karlštejn, and each one pays XP when it unlocks: 25 for bronze, 150 for silver, 400 for gold and 800 for diamond. They unlock by themselves the moment you qualify, with a fanfare you will learn to love. The Achievements page shows them all, with your progress on every one. This is called design.",
     tipsTitle: "Tips From Those Who Went Before",
@@ -241,6 +250,15 @@ const CONTENT = {
     xpOutro: "Úrovní je 100 a jejich tituly tě provedou dějinami Prahy: od Příchozího u brány s 0 XP přes učně, učence, purkmistra, rytíře a krále až po Duši Prahy se 100 000 XP. Ty první přijdou rychle. Ty pozdější jsou dlouhodobý projekt, a to záměrně: počítají se karty, úspěchy i hledání pokladů a budeš potřebovat všechno.",
     tripleTitle: "Bonusové XP: Hledání pokladu",
     triple: "Hledání pokladu vyplatí až desetinásobek, pokud k pokladu dojdeš pěšky a najdeš ho hned prvním stiskem. Každý stisk vedle stojí dva stupně a každá koupená nápověda jeden, takže zeptat se je vždycky levnější než hádat naslepo. Když čas vyprší, odpověď se odhalí. Nepřijdeš o nic kromě hrdosti.",
+    packsTitle: "Balíčky karet",
+    packsIntro: "Některá místa jsou na jednu kartu moc velká. Balíček spojuje karty jednoho souvislého kouta města, třeba Pražského hradu nebo Vyšehradu, do zapečetěného obalu z fólie. Samotný balíček sesbírat nejde, protože nemá jedno místo, kde by se dalo stát. Sbíráš karty uvnitř, pěšky, jako obvykle.",
+    packs: [
+      { b: "Kde je najdeš:", rest: " klepni na Průzkumu na Balíčky a ze zdi karet se stane zeď balíčků; hledání a filtr oblasti fungují dál. Karta, která do balíčku patří, ho uvádí ve svém detailu a balíčky se objevují i v Historii a v průvodcích po oblastech." },
+      { b: "Zapečetěný:", rest: " obal se zámkem a ukazatelem postupu tam, kde má karta vzdálenost. Otevři ho a uvidíš začátek příběhu a všechny karty uvnitř, ty chybějící pod zámkem." },
+      { b: "Roztržený:", rest: " sesbírej tři jeho karty a balíček se na obrazovce roztrhne. Dostaneš +20 XP a celý příběh balíčku." },
+      { b: "Kompletní:", rest: " sesbírej všechny karty a obal získá holografický lesk. Odměna je 15 XP za kartu, nejméně 100 a nejvýš 800." },
+    ],
+    packsOutro: "Každá odměna se vyplácí jednou a zůstává ti. Když do balíčku později přibude nová karta, ukazatel přizná, že ti jedna chybí, ale nic ti nevezme.",
     achTitle: "Úspěchy",
     ach: "Šedesát sedm úspěchů, od první karty až po výlet na Karlštejn, a každý po odemčení vyplatí XP: 25 za bronzové, 150 za stříbrné, 400 za zlaté a 800 za diamantové. Odemknou se samy ve chvíli, kdy na ně dosáhneš, s fanfárou, kterou si zamiluješ. Stránka Úspěchy ukazuje všechny, s tvým postupem u každého. Tomu se říká design.",
     tipsTitle: "Tipy od těch, kteří šli před tebou",
@@ -359,6 +377,15 @@ const CONTENT = {
     xpOutro: "一共100级，等级称号会带你走一遍布拉格的历史：从0经验值的「城门外的来客」，经过学徒、学者、市长、骑士和国王，一直到100,000经验值的「布拉格之魂」。前面几级升得很快，后面几级是长期工程，这是故意的：卡片、成就和寻宝都算经验，三样你都用得上。",
     tripleTitle: "额外经验：寻宝",
     triple: "寻宝最高十倍，前提是一路走到宝藏跟前，第一次按就中。每猜错一次降两级，每买一条线索只降一级，所以开口要提示永远比闭眼瞎猜划算。时间到了还没找到，答案会揭晓。你损失的只有面子。",
+    packsTitle: "卡包",
+    packsIntro: "有些地方太大，一张卡装不下。卡包把城里一片相连区域的卡片打包在一起，比如布拉格城堡或维谢赫拉德，封进一个锡纸包装里。卡包本身没法打卡，因为它没有一个能站上去的确切位置。你要收集的是包里的卡片，照旧靠两条腿。",
+    packs: [
+      { b: "在哪找：", rest: "点探索页的“卡包”，卡片墙就变成卡包墙，搜索和区域筛选照常可用。属于某个卡包的卡片，详情里会写明所属卡包。城史和区域指南里也会出现卡包。" },
+      { b: "封口：", rest: "未解锁的卡包挂着一把锁，卡片显示距离的位置换成了进度条。点开能看到故事的开头和包内所有卡片，还没收集的都挂着锁头。" },
+      { b: "撕开：", rest: "收集其中三张，卡包会当场撕开。你得到 +20 XP 和卡包的完整故事。" },
+      { b: "集齐：", rest: "收集全部卡片后，包装会泛起全息光泽。奖励按卡片数量计算，每张 15 XP，最少 100，最多 800。" },
+    ],
+    packsOutro: "每份奖励只发一次，发了就是你的。如果之后有新卡加入，进度条会老实显示你还差一张，但已得的奖励不会收回。",
     achTitle: "成就",
     ach: "一共六十七个成就，从第一张卡一直到出城去卡尔什泰因，每个解锁时都给经验：青铜25，白银150，黄金400，钻石800。一满足条件就自动解锁，还会响起一段你迟早会爱上的音效。成就页上能看到全部成就，以及你在每一个上的进度。这叫做设计。",
     tipsTitle: "前人留下的小贴士",
@@ -525,6 +552,17 @@ export default function GuidePage() {
 
           <h3 className="guide-h3" style={h3Gap}>{c.tripleTitle}</h3>
           <p className="guide-body">{c.triple}</p>
+        </section>
+
+        <hr className="px-divider" />
+
+        <section className="guide-section">
+          <h2 className="guide-h2">{c.packsTitle}</h2>
+          <p className="guide-body">{c.packsIntro}</p>
+          {c.packs.map((item, i) => (
+            <p key={i} className="guide-body"><strong>{item.b}</strong>{item.rest}</p>
+          ))}
+          <p className="guide-body" style={{ marginTop: 10 }}>{c.packsOutro}</p>
         </section>
 
         <hr className="px-divider" />

@@ -3,6 +3,7 @@ import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { useUserPosition } from '../../hooks/useUserPosition';
 import { haversineDistance } from '../../utils/geolocation';
 import LocationCard from '../locations/LocationCard';
+import PackCard from '../packs/PackCard';
 // Reserves each lazy image's space before it loads (see
 // scripts/generateHistoryImageSizes.mjs), so sidebar jumps land in place.
 import HISTORY_IMAGE_SIZES from '../../utils/historyImageSizes.json';
@@ -382,7 +383,7 @@ export function EventLandmarks({ event, onOpenLandmark }) {
 
           <div className="location-grid history-landmark-grid">
             {event.relatedLandmarks.map(({ landmark, relation }, i, all) => {
-              const distance = userPos
+              const distance = userPos && landmark.coordinates
                 ? haversineDistance(userPos.lat, userPos.lng, landmark.coordinates.lat, landmark.coordinates.lng)
                 : null;
               const start3 = landmarkStarts(all.length, 3)[i];
@@ -393,12 +394,16 @@ export function EventLandmarks({ event, onOpenLandmark }) {
                   className="history-landmark-item"
                   style={{ '--start-3': start3 ?? 'auto', '--start-2': start2 ?? 'auto' }}
                 >
+                  {landmark.isPack ? (
+                    <PackCard pack={landmark} onClick={onOpenLandmark} />
+                  ) : (
                   <LocationCard
                     location={{ ...landmark, unlocked: true }}
                     holdable={!!landmark.unlocked}
                     distance={distance}
                     onClick={() => onOpenLandmark(landmark.slug)}
                   />
+                  )}
                   {/* On the paragraph: the hovered span becomes a floating box, which can move it out from under the pointer. */}
                   <p className="history-landmark-caption" onClick={(e) => e.currentTarget.firstElementChild.classList.toggle('is-open')}>
                     <span>{convert(relation[lang] || relation.en)}</span>

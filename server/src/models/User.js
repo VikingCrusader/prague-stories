@@ -84,6 +84,11 @@ const userSchema = new mongoose.Schema({
     updatedAt: { type: Date, default: null },
     _id: false,
   },
+  // Card packs (data/packs.js) unlocked and completed: each stage pays once and stays.
+  packs: {
+    type: [{ slug: String, unlockedAt: Date, completedAt: { type: Date, default: null }, _id: false }],
+    default: [],
+  },
   // Area guides the user has opened (AreaGuideModal), as "district:Praha 7"
   // or "quarter:Staré Město", for the Know Your Way Around achievement.
   areaGuidesRead: { type: [String], default: [] },

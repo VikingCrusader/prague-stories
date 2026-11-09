@@ -250,6 +250,12 @@ export const LABEL_BLURB = {
   },
 };
 
+export const PACK_BLURB = {
+  en: 'One walkable corner of the city per pack. Three cards tear it open, all of them pay properly.',
+  cz: 'Co balíček, to jeden kout města na procházku. Tři karty ho roztrhnou, všechny se pořádně vyplatí.',
+  zh: '一个卡包，一片走得完的街区。收集三张就能撕开，集齐才有大奖。',
+};
+
 export const TREASURE_BLURB = {
   en: 'These ones had no address, only clues.',
   cz: 'Tyhle karty neměly adresu, jen stopy.',

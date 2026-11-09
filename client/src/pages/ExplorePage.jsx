@@ -18,6 +18,8 @@ import ToastContainer from '../components/shared/Toast';
 import { useFitOneLine } from '../hooks/useFitOneLine';
 import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
 import { matchesArea } from '../components/locations/AreaFilter';
+import PackDetail from '../components/packs/PackDetail';
+import { usePacks } from '../hooks/usePacks';
 import ExploreMap from '../components/locations/ExploreMap';
 import ExploreDrawer from '../components/locations/ExploreDrawer';
 import ExploreApplied, { NextUp } from '../components/locations/ExploreApplied';
@@ -132,6 +134,16 @@ export default function ExplorePage() {
   }, []);
   const collectedCount = useMemo(() => locations.filter(l => l.unlocked).length, [locations]);
   const nextUpShown = wide || drawer === 'next';
+  const allPacks = usePacks(collectedCount);
+  const [openPack, setOpenPack] = useState(null);
+  // A pack belongs to every district and quarter its cards are in.
+  const areaPacks = useMemo(() => {
+    if (!area) return allPacks;
+    if (area.kind === 'outside') return [];
+    return allPacks.filter(p => (area.kind === 'district'
+      ? p.districts.includes(area.value)
+      : p.quarters.includes(area.value) && (!area.district || p.districts.includes(area.district))));
+  }, [allPacks, area]);
   useEffect(() => {
     if (!nextUpShown || !userId || loading) return undefined;
     let stale = false;
@@ -493,6 +505,8 @@ export default function ExplorePage() {
       ) : null}
       onViewFilters={() => setDrawer('applied')}
       onFilterCount={setFilterCount}
+      packs={areaPacks}
+      onPackClick={setOpenPack}
       onClearFilters={() => { setCityOnly(true); setArea(null); }}
       filterExtraCount={inCollection ? 0 : (cityOnly ? (area ? 1 : 0) : 1)}
       renderApplied={(filters) => (
@@ -563,6 +577,7 @@ export default function ExplorePage() {
         />
       )}
 
+      {openPack && <PackDetail slug={openPack} onClose={() => setOpenPack(null)} onCheckIn={handleCheckIn} />}
       {openAch && <AchievementModal achievement={openAch} onClose={() => setOpenAch(null)} />}
       {levelsOpen && <LevelsModal currentLevel={user?.explorerLevel ?? 1} onClose={() => setLevelsOpen(false)} />}
 

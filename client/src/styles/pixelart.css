@@ -1669,9 +1669,7 @@ html:not([data-lang="zh"]) :is(#root, body) .map-page.map-board--narrow .map-top
 .map-board--phone .map-sheet .map-card { border-top: 0; }
 .map-board--phone .map-bottom { height: auto; padding: 10px 0 4px; gap: 8px; }
 .map-board--phone .map-row, .map-board--phone .map-split { display: flex; flex-direction: column; gap: 8px; }
-.map-board--phone .map-split > .map-ach { order: 1; }
-.map-board--phone .map-split > .map-bottom__title:nth-of-type(2) { order: 2; margin-top: 6px; }
-.map-board--phone .map-split > .map-tile { order: 3; }
+.map-board--phone .map-split > .map-bottom__title:not(:first-child) { margin-top: 6px; }
 .map-board--phone .map-tile, .map-board--phone .map-ach { flex: none; width: 100%; height: 104px; }
 .map-board--narrow .map-topbar__controls .filter-btn { padding-left: 4px; padding-right: 4px; white-space: nowrap; }
 @media (prefers-reduced-motion: reduce) { .map-board--narrow .map-slot--right { transition: none; } }
@@ -2669,7 +2667,7 @@ html[data-lang="zh"] .detail-title-name {
      buttons, instead of a one-column strip inside its button's third of
      the row that stretched My Collections to the panel's height. */
   .filter-bar__bottom > .filter-btn,
-  .filter-bar__bottom > .label-filter > .filter-btn { flex: 1 1 0; min-width: 0; }
+  .filter-bar__bottom > .label-filter > .filter-btn { flex: 1 1 calc(50% - 4px); min-width: 0; }
   .filter-bar__bottom > .label-filter { display: contents; }
   /* All five filter buttons (scope, district, collections, labels,
      rarity) share one size on phones: one line each, smaller type and
@@ -3230,9 +3228,10 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .explore-side .filter-bar__scope { display: flex; }
 .explore-side .scope-controls, .explore-side .scope-toggle { width: 100%; }
 .explore-side .scope-controls--off { opacity: 0.45; pointer-events: none; }
-.explore-side .filter-bar__bottom { display: flex; gap: 8px; }
-.explore-side .filter-bar__bottom > * { flex: 1 1 0; min-width: 0; }
-.explore-side .filter-bar__bottom .filter-btn { width: 100%; }
+/* Two rows of two (user's call): My Collections and Packs, then Labels and Rarity. */
+.explore-side .filter-bar__bottom { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.explore-side .filter-bar__bottom > * { min-width: 0; }
+.explore-side .filter-bar__bottom .filter-btn { width: 100%; white-space: nowrap; }
 /* The column never runs past the screen (user's rule): on a short window the map
    shrinks with it, keeping its own proportions, and the filters under it scroll. */
 .explore-side > .district-map { flex: 0 1 380px; min-height: 170px; margin: 0; display: flex; flex-direction: column; }
@@ -3290,7 +3289,6 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
   .explore-side .filter-bar__top > :first-child, .explore-side .filter-bar__top > .filter-bar__search { flex: 1 1 0; min-width: 0; }
   .explore-side .filter-bar__scope { flex: none; }
   .explore-side .filter-bar__bottom { gap: 6px; }
-  .explore-side .filter-bar__bottom > :first-child { flex-grow: 1.35; }
   .explore-side .filter-bar__bottom .filter-btn { white-space: nowrap; padding-left: 6px; padding-right: 6px; font-size: 14px; }
   /* As tall as the column's width allows. */
   .explore-side > .district-map { flex: none; height: calc((var(--explore-side-w) - 12px) / 1.314 + 78px); min-height: 0; }

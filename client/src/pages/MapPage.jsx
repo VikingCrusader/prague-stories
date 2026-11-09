@@ -14,6 +14,7 @@ import MapHere from '../components/map/MapHere';
 import MapBoundaries from '../components/map/MapBoundaries';
 import MapAreaInfo from '../components/map/MapAreaInfo';
 import MapBottomBar from '../components/map/MapBottomBar';
+import PackLinks from '../components/packs/PackLinks';
 import MapLegend from '../components/map/MapLegend';
 import MapFrame from '../components/map/MapFrame';
 import MapFilterChips from '../components/map/MapFilterChips';
@@ -254,6 +255,7 @@ export default function MapPage() {
       collectedCount={collectedCount}
       maxTiles={maxTiles}
       onPick={pickCard}
+      onCheckIn={handleCheckIn}
     />
   );
   const areaIntro = <MapAreaInfo district={hasIntro ? shownDistrict : null} quarter={markedQuarter} locations={locations} area={area} onPickLandmark={pickLandmark} />;
@@ -615,6 +617,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter }) {
             <p style={{ color: 'var(--danger-text, #ff6b6b)', fontSize: 13, marginTop: 8 }}>{checkInError}</p>
           )}
         </div>
+        <PackLinks packs={loc.packs} />
       </div>
     </>
   );

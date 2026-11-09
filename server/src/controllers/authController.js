@@ -2,6 +2,7 @@ import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
 import { parsePreferences } from '../utils/preferences.js';
 import { syncAchievements } from '../services/achievementStats.js';
+import { syncPacks } from '../services/packs.js';
 
 function signToken(userId) {
   return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
@@ -61,5 +62,14 @@ export async function getMe(req, res) {
   } catch (err) {
     console.error('achievement sync failed', err);
   }
-  res.json({ user: req.user.toPublicJSON(), newAchievements, achievementProgress });
+  let newPacks = [];
+  try {
+    const packs = await syncPacks(req.user);
+    newPacks = packs.newPacks;
+    // Both paid: one level-up moment, from the level before the first of them.
+    if (packs.progress) achievementProgress = { ...packs.progress, levelBefore: achievementProgress?.levelBefore ?? packs.progress.levelBefore };
+  } catch (err) {
+    console.error('pack sync failed', err);
+  }
+  res.json({ user: req.user.toPublicJSON(), newAchievements, achievementProgress, newPacks });
 }

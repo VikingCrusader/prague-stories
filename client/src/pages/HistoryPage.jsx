@@ -6,6 +6,8 @@ import { loadLocalHistoryProgress, saveLocalHistoryProgress, newerHistoryProgres
 import { useLang, LanguageOverride } from '../context/LanguageContext';
 import { IS_APPLE } from '../utils/fitPage';
 import LocationDetail from '../components/locations/LocationDetail';
+import PackDetail from '../components/packs/PackDetail';
+import { usePacks } from '../hooks/usePacks';
 import HistoryBook from '../components/history/HistoryBook';
 import HistoryPaged from '../components/history/HistoryPaged';
 import AchievementModal from '../components/achievements/AchievementModal';
@@ -48,6 +50,8 @@ export default function HistoryPage() {
   // card Explore uses, as an overlay on top of this page — no navigation
   // away.
   const [openLandmarkSlug, setOpenLandmarkSlug] = useState(null);
+  const [openPackSlug, setOpenPackSlug] = useState(null);
+  const packs = usePacks();
 
   // Achievements tied to timeline events, and the one opened from a card.
   const [achievements, setAchievements] = useState([]);
@@ -89,8 +93,19 @@ export default function HistoryPage() {
     for (const ach of achievements) {
       for (const { slug } of ach.historyEvents ?? []) bySlug.set(slug, [...(bySlug.get(slug) ?? []), ach]);
     }
-    return data.events.map(e => (bySlug.has(e.slug) ? { ...e, relatedAchievements: bySlug.get(e.slug) } : e));
-  }, [data, achievements]);
+    const packBySlug = new Map(packs.map(p => [p.slug, p]));
+    return data.events.map(e => ({
+      ...e,
+      ...(bySlug.has(e.slug) ? { relatedAchievements: bySlug.get(e.slug) } : null),
+      relatedLandmarks: e.relatedLandmarks.map(r => (r.landmark.isPack && packBySlug.has(r.landmark.slug)
+        ? { ...r, landmark: { ...r.landmark, ...packBySlug.get(r.landmark.slug) } }
+        : r)),
+    }));
+  }, [data, achievements, packs]);
+  const openLandmark = slug => {
+    const isPack = events.some(e => e.relatedLandmarks.some(r => r.landmark.isPack && r.landmark.slug === slug));
+    (isPack ? setOpenPackSlug : setOpenLandmarkSlug)(slug);
+  };
 
   // Our own restore replaces the browser's pixel-offset one, which would
   // land somewhere arbitrary now that the feed arrives asynchronously.
@@ -184,9 +199,9 @@ export default function HistoryPage() {
               eras={data.eras}
               activeSlug={activeSlug}
               onGo={goToPage}
-              onOpenLandmark={setOpenLandmarkSlug}
+              onOpenLandmark={openLandmark}
               onOpenAchievement={setOpenAchievement}
-              paused={!!openLandmarkSlug || !!openAchievement}
+              paused={!!openLandmarkSlug || !!openPackSlug || !!openAchievement}
             />
           );
         })()}
@@ -194,6 +209,8 @@ export default function HistoryPage() {
       ) : null}
 
       {openAchievement && <AchievementModal achievement={openAchievement} onClose={() => setOpenAchievement(null)} />}
+
+      {openPackSlug && <PackDetail slug={openPackSlug} onClose={() => setOpenPackSlug(null)} />}
 
       {openLandmarkSlug && (
         <LocationDetail

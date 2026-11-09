@@ -685,7 +685,7 @@ const LESSER_TOWN = quarterShareWith("Malá Strana", 0.9, []);
 const HILLS = [
   ["petrin-tower", "ruzovy-sad-petrin", "lanova-draha-petrin", "mirror-maze-petrin"],
   ["vitkov-national-memorial", "vinicni-svah-vitkov"],
-  ["vysehrad", "basilika-sv-petra-pavla", "vysehrad-cemetery", "rotunda-sv-martina", "kaple-sv-ludmily",
+  ["basilika-sv-petra-pavla", "vysehrad-cemetery", "rotunda-sv-martina", "kaple-sv-ludmily",
     "stare-purkrabstvi", "sousosi-premysl-a-libuse", "vysehrad-wall-walkway", "libusina-lazen",
     "kaple-panny-marie-sancovske", "taborska-brana", "cihelna-brana", "vysehrad-leopold-gate",
     "pracharna-goticky-sklep", "v-pevnosti-street-in-the-fortness-1783208618265", "brana-spicka",
