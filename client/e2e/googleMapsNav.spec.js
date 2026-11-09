@@ -99,6 +99,7 @@ test.describe('Click image to navigate on Google Maps — Location Detail View',
 });
 
 test.describe('Click image to navigate on Google Maps — Map Sidebar', () => {
+  test.use({ viewport: { width: 412, height: 860 } }); // the card opens in a sheet
   test('clicking the sidebar image opens Google Maps directions to the location', async ({ page }) => {
     await mockLocations(page);
     await stubGoogleMaps(page);
@@ -108,7 +109,7 @@ test.describe('Click image to navigate on Google Maps — Map Sidebar', () => {
     await expect(page.locator('path.leaflet-interactive')).toHaveCount(1);
     await page.locator('path.leaflet-interactive').first().click();
 
-    const sidebar = page.locator('.map-sidebar');
+    const sidebar = page.locator('.explore-drawer');
     const imageLink = sidebar.locator('a:not(.detail-wiki)');
     await expect(imageLink).toHaveCount(1);
     await expect(imageLink).toHaveAttribute('href', EXPECTED_HREF);

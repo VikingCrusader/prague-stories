@@ -58,6 +58,50 @@ test.describe('Achievements page', () => {
     await expect(modal.getByText('LOCKED')).toBeVisible();
   });
 
+  test('a place listed in an achievement opens its card, without an underline', async ({ page }) => {
+    await page.addInitScript(() => localStorage.setItem('token', 'fake-jwt-token'));
+    await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: SIGNED_IN }));
+    await page.route('**/api/locations/haje', route => route.fulfill({ json: {
+      _id: '1', slug: 'haje', name: 'Háje', localizedNames: { cz: 'Háje', zh: '哈耶' }, labels: ['transport'], rarity: 'rare', xpReward: 20,
+      coordinates: { lat: 50.03, lng: 14.53 }, coverImage: '', pixelArtKey: '', unlocked: true, description: { en: 'The end of the line.', cz: 'x', zh: 'x' },
+    } }));
+    await page.goto('/achievements');
+    await page.locator('.ach-row').filter({ hasText: 'Subway Maniac' }).click();
+    const place = page.locator('.ach-modal .ach-places__open').filter({ hasText: 'Háje' });
+    expect(await place.evaluate(e => getComputedStyle(e).textDecorationLine)).toBe('none');
+    await expect(page.locator('.ach-modal .ach-places__open')).toHaveCount(2); // not the place with no card
+    await place.click();
+    await expect(page.getByText('The end of the line.')).toBeVisible();
+  });
+
+  test('a label or rarity in an achievement leads to Explore, filtered by it', async ({ page }) => {
+    const card = (i, labels, rarity) => ({ _id: String(i), name: `Card ${i}`, slug: `card-${i}`, localizedNames: { cz: 'x', zh: 'x' }, labels, rarity, xpReward: 20, coverImage: '', pixelArtKey: '', unlocked: false, district: 'Praha 2', quarter: 'Vinohrady', coordinates: { lat: 50.07, lng: 14.44 }, createdAt: '2026-01-01T00:00:00.000Z' });
+    await page.addInitScript(() => localStorage.setItem('token', 'fake-jwt-token'));
+    await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
+    await page.route('**/api/locations', route => route.fulfill({ json: [card(1, ['church'], 'rare'), card(2, ['church'], 'mythic'), card(3, ['park'], 'mythic')] }));
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: { players: 4, levels: [], achievements: [
+      ach('devout', 'God Be With You', { progress: { current: 3, target: 40, countsLabel: 'church' } }),
+      ach('depths', 'Hidden Depths', { progress: { current: 1, target: 20, countsRarity: 'mythic' } }),
+    ] } }));
+    await page.setViewportSize({ width: 2560, height: 1300 });
+    const open = async name => {
+      await page.goto('/achievements');
+      await page.locator('.ach-row').filter({ hasText: name }).click();
+      const link = page.locator('.ach-modal .ach-filter-link');
+      await expect(link).toHaveCount(1);
+      expect(await link.evaluate(e => getComputedStyle(e).textDecorationLine)).toBe('none');
+      await link.click();
+      await expect(page).toHaveURL(/\/explore$/);
+    };
+    const cards = page.locator('.explore-main .loc-card');
+    await open('God Be With You');
+    await expect(cards).toHaveCount(2);
+    await open('Hidden Depths');
+    await expect(cards).toHaveCount(2);
+    await expect(page.locator('.loc-card[data-rarity="rare"]')).toHaveCount(0);
+  });
+
   test('the difficulty filter narrows the list but not the unlocked count', async ({ page }) => {
     await page.addInitScript(() => localStorage.setItem('token', 'fake-jwt-token'));
     await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));

@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import L from 'leaflet';
 import { Pane, Polygon, Polyline, useMap, useMapEvents } from 'react-leaflet';
-import { boundaryLines, loadPragueAreas, loadPragueCity, quarterLines } from '../../utils/pragueAreas';
+import { areaIn, boundaryLines, loadPragueAreas, loadPragueCity, quarterLines, quartersInDistrict } from '../../utils/pragueAreas';
 import { useTheme } from '../../context/ThemeContext';
 
-// Further out than this (the "Show all" view of the country) the district lines
-// would run together; the city's boundary stays.
+// With "Show all", further out than this the district lines would run together and
+// only the city's boundary stays. With the city alone they always show, however low
+// the zoom that fits it on a small screen.
 const DISTRICT_LINES_ZOOM = 11;
 // The street map follows the theme (utils/mapStyle.js), so the lines do too.
 const LINE_COLOR = { light: '#7a1420', dark: '#e6c364' };
@@ -15,6 +16,7 @@ const lineStyles = theme => {
     city: { color, weight: 4, opacity: 0.9 },
     district: { color, weight: 1.5, opacity: 0.75 },
     quarter: { color, weight: 3, opacity: 0.95 },
+    quarterGrid: { color, weight: 1, opacity: 0.65 },
   };
 };
 // How dark the land outside the area in play gets. The strength sits on the pane
@@ -35,15 +37,29 @@ function litShapes(data, area, cityOnly) {
   return [named(quarters, area.value), area.district && named(districts, area.district)].filter(Boolean);
 }
 
-// Prague's boundary, the district boundaries, and the darkening around the area in
-// play, all under the markers.
-export default function MapBoundaries({ area, cityOnly }) {
+// Prague's boundary, the district boundaries, the chosen district's quarters and the
+// darkening around the area in play, all under the markers. A click on the map itself
+// (markers keep theirs) goes down a level: to the district there, then, inside the
+// district in play, to the quarter (2026-11-09, user's call).
+export default function MapBoundaries({ area, cityOnly, onArea }) {
   const map = useMap();
   const { theme } = useTheme();
   const styles = useMemo(() => lineStyles(theme), [theme]);
   const [data, setData] = useState(null);
   const [zoom, setZoom] = useState(() => map.getZoom());
-  useMapEvents({ zoomend: e => setZoom(e.target.getZoom()) });
+  const districtInPlay = area?.kind === 'district' ? area.value : area?.kind === 'quarter' ? area.district ?? area.homeDistrict ?? null : null;
+  useMapEvents({
+    zoomend: e => setZoom(e.target.getZoom()),
+    click: e => {
+      if (!data) return;
+      const here = areaIn(data.areas, e.latlng.lat, e.latlng.lng);
+      if (!here?.district) return;
+      if (here.district !== districtInPlay) { onArea({ kind: 'district', value: here.district }); return; }
+      // Already on this quarter: most likely a marker missed by a little.
+      if (area.kind === 'quarter' && area.value === here.quarter) return;
+      onArea({ kind: 'quarter', value: here.quarter, district: districtInPlay });
+    },
+  });
   useEffect(() => {
     let live = true;
     Promise.all([loadPragueAreas(), loadPragueCity()])
@@ -53,6 +69,18 @@ export default function MapBoundaries({ area, cityOnly }) {
   }, []);
   const lines = useMemo(() => (data ? boundaryLines(data.areas, data.city) : null), [data]);
   const dim = useMemo(() => (data ? litShapes(data, area, cityOnly).map(rings => [WORLD, ...toLatLng(rings)]) : []), [data, area, cityOnly]);
+  const quarterGrid = useMemo(() => {
+    if (!data || !districtInPlay) return null;
+    const seen = new Set();
+    return quartersInDistrict(data.areas, districtInPlay)
+      .flatMap(q => quarterLines(data.areas, q.name, districtInPlay))
+      .filter(segment => {
+        const key = segment.map(p => p.join()).sort().join('|');
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+  }, [data, districtInPlay]);
   const quarterLine = useMemo(() => (data && area?.kind === 'quarter' ? quarterLines(data.areas, area.value, area.district) : null), [data, area]);
   // Drawn well past the edges, or dragging the map would uncover a lit strip.
   const dimRenderer = useMemo(() => L.svg({ padding: 1, pane: 'area-dim' }), []);
@@ -63,7 +91,8 @@ export default function MapBoundaries({ area, cityOnly }) {
         {dim.map((positions, i) => <Polygon key={`${i}:${positions[1][0]}`} positions={positions} pathOptions={DIM_STYLE} renderer={dimRenderer} interactive={false} />)}
       </Pane>
       <Pane name="boundaries" style={{ zIndex: 350 }}>
-        {zoom >= DISTRICT_LINES_ZOOM && <Polyline positions={lines.districts} pathOptions={styles.district} interactive={false} />}
+        {(cityOnly || zoom >= DISTRICT_LINES_ZOOM) && <Polyline positions={lines.districts} pathOptions={styles.district} interactive={false} />}
+        {quarterGrid && <Polyline key={districtInPlay} positions={quarterGrid} pathOptions={styles.quarterGrid} interactive={false} />}
         {quarterLine && <Polyline key={`${area.value}:${area.district ?? ''}`} positions={quarterLine} pathOptions={styles.quarter} interactive={false} />}
         <Polyline positions={lines.city} pathOptions={styles.city} interactive={false} />
       </Pane>

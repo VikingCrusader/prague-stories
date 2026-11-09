@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { quarterName } from '../../utils/pragueQuarters';
-import { loadPragueAreas, quartersInDistrict } from '../../utils/pragueAreas';
+import { loadPragueAreas, quarterSpread, quartersInDistrict } from '../../utils/pragueAreas';
 
 const W = 1000;
 const LABEL = 34; // map units, about 14 px at the left column's width
@@ -15,7 +15,7 @@ const pathOf = (rings, xy) => rings.map(r => `M${r.map(p => xy(p).map(n => n.toF
 // choosing a district the player chooses a quarter here (2026-11-09, user's call).
 // With no district chosen it shows the one the player is in; `district` is null
 // when that isn't known either.
-export default function DistrictQuarters({ district, selected, locations, onPick }) {
+export default function DistrictQuarters({ district, selected, locations = [], onPick, area, onArea }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -61,6 +61,12 @@ export default function DistrictQuarters({ district, selected, locations, onPick
       })),
     };
   }, [data, district]);
+
+  // A chosen quarter spread over several districts can be seen whole or just this
+  // district's part (`homeDistrict` on the area marks the whole view and remembers
+  // the district it was reached from).
+  const chosen = area?.kind === 'quarter' && area.value === selected ? selected : null;
+  const spread = useMemo(() => (data && chosen ? quarterSpread(data, chosen) : []), [data, chosen]);
 
   // The slot keeps its size with nothing to draw, so the column never jumps.
   if (!drawing) {
@@ -113,6 +119,17 @@ export default function DistrictQuarters({ district, selected, locations, onPick
         ))}
       </svg>
       </div>
+      {spread.length > 1 ? (
+        <button
+          type="button"
+          className="filter-btn map-whole-quarter"
+          onClick={() => onArea(area.district ? { kind: 'quarter', value: chosen, homeDistrict: district } : { kind: 'quarter', value: chosen, district })}
+        >
+          {convert(area.district
+            ? t('map.wholeQuarter', { name: quarterName(chosen, lang), n: spread.length })
+            : t('map.quarterPartOnly', { district: t('detail.district', { n: district.slice(6) }) }))}
+        </button>
+      ) : (
       <div className="district-map__caption">
         {hovered
           ? <>
@@ -121,6 +138,7 @@ export default function DistrictQuarters({ district, selected, locations, onPick
             </>
           : <span className="district-map__caption-hint">{t('map.pickQuarter')}</span>}
       </div>
+      )}
     </div>
   );
 }

@@ -1465,152 +1465,246 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 /* isolation: Leaflet's panes/controls use z-index 400-1000, which would
    otherwise paint over the sticky navbar (z-index 100) when scrolling. */
 .map-container { flex: 1; isolation: isolate; }
-.map-sidebar {
-  width: 380px;
-  flex-shrink: 0;
-  background: var(--bg-surface);
-  border-left: 3px solid var(--gold);
-  overflow-y: auto;
-}
 /* 2K: two equal side columns around the map, a bar above it and a clearly taller
    bar below it (2026-11-09, user's outline). The frame only, for now. */
 .map-slot { display: none; }
-@media (min-width: 2400px) and (min-height: 1200px) {
-  .map-page {
-    display: grid;
-    grid-template-columns: 440px minmax(0, 1fr) 440px;
-    grid-template-rows: 120px minmax(0, 1fr) 200px;
-    grid-template-areas:
-      "left top    right"
-      "left map    right"
-      "left bottom right";
-  }
-  .map-container { grid-area: map; min-width: 0; min-height: 0; position: relative; }
-  .map-container .leaflet-container { background: var(--bg-surface); }
-  /* An old printed map's frame: heavy outer rule, a band of paper with sparse ticks,
-     fine inner rule, a small star tile on each corner. Over the map, under its
-     controls; clicks pass through. */
-  .map-frame {
-    --frame-ink: #7a1420;
-    --frame-paper: #f1e7d0;
-    --frame-band: 12px;
-    --frame-tick: 120px;
-    position: absolute; inset: 0; z-index: 900; pointer-events: none; box-sizing: border-box;
-    border: 3px solid var(--frame-ink);
-    background:
-      repeating-linear-gradient(90deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) top / 100% 6px no-repeat,
-      repeating-linear-gradient(90deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) bottom / 100% 6px no-repeat,
-      repeating-linear-gradient(180deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) left / 6px 100% no-repeat,
-      repeating-linear-gradient(180deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) right / 6px 100% no-repeat,
-      linear-gradient(var(--frame-paper), var(--frame-paper)) top / 100% var(--frame-band) no-repeat,
-      linear-gradient(var(--frame-paper), var(--frame-paper)) bottom / 100% var(--frame-band) no-repeat,
-      linear-gradient(var(--frame-paper), var(--frame-paper)) left / var(--frame-band) 100% no-repeat,
-      linear-gradient(var(--frame-paper), var(--frame-paper)) right / var(--frame-band) 100% no-repeat;
-  }
-  .map-frame::after { content: ''; position: absolute; inset: var(--frame-band); border: 1px solid var(--frame-ink); }
-  .map-frame__corner { position: absolute; width: 36px; height: 36px; z-index: 1; }
-  .map-frame__corner--tl { top: -3px; left: -3px; }
-  .map-frame__corner--tr { top: -3px; right: -3px; }
-  .map-frame__corner--bl { bottom: -3px; left: -3px; }
-  .map-frame__corner--br { bottom: -3px; right: -3px; }
-  .map-frame__corner-tile { fill: var(--frame-paper); stroke: var(--frame-ink); stroke-width: 3; }
-  .map-frame__corner-rule { fill: none; stroke: var(--frame-ink); stroke-width: 1; }
-  .map-frame__corner-star { fill: var(--frame-ink); }
-  :root[data-theme="dark"] .map-frame { --frame-ink: #e6c364; --frame-paper: #232b47; }
-  .map-container .leaflet-bottom.leaflet-right { right: 44px; bottom: 19px; }
-  .map-container .leaflet-bottom.leaflet-left { left: 34px; bottom: 9px; }
-  .map-sidebar { display: none; }
-  .map-slot { display: block; min-width: 0; min-height: 0; background: var(--bg-surface); }
-  /* Never scrolls (user's rule): everything in it has a fixed height. */
-  .map-slot--left { grid-area: left; display: flex; flex-direction: column; gap: 10px; padding: 12px; box-sizing: border-box; overflow: hidden; }
-  .map-left__heading { flex: none; font-size: 16px; color: var(--gold); text-align: center; }
-  .map-chips { flex: none; display: flex; flex-direction: column; gap: 6px; }
-  .map-chips__title { font-size: 16px; color: var(--gold); }
-  .map-slot--left .map-chips__clear { width: 100%; height: 42px; padding: 0; color: var(--gold); text-align: center; }
-  .map-slot--left .map-chips__clear:disabled { color: var(--text-muted); opacity: 0.6; cursor: default; }
-  .map-chips__box { height: 110px; box-sizing: border-box; padding: 8px; border: 2px solid var(--border); overflow: hidden; display: flex; flex-wrap: wrap; align-content: flex-start; gap: 6px; position: relative; }
-  .map-chip { max-width: 100%; height: 26px; box-sizing: border-box; display: inline-flex; align-items: center; gap: 5px; padding: 0 8px; border: 1px solid var(--gold); background: none; color: var(--gold); font: inherit; font-size: 14px; white-space: nowrap; cursor: pointer; }
-  .map-chip__text { overflow: hidden; text-overflow: ellipsis; }
-  .map-chip--more { border-color: var(--border); color: var(--text-muted); cursor: default; }
-  .map-chips__none { margin: auto; color: var(--text-muted); font-size: 15px; }
-  .map-slot--left .scope-toggle { width: 100%; }
-  .map-slot--left .district-map { margin: 0; }
-  .map-slot--left .district-map__stage { max-width: none; }
-  /* Takes the height the rest of the column leaves, so the column always fits. */
-  .district-sub { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; border-top: 2px solid var(--border); padding-top: 10px; }
-  .district-sub .district-map__caption { flex: none; }
-  .map-slot--left .explore-here { display: flex; width: fit-content; max-width: 100%; box-sizing: border-box; margin: 0 auto; }
-  .district-sub__stage { flex: 1 1 0; min-height: 0; }
-  .district-sub__stage--empty { display: flex; align-items: center; justify-content: center; box-sizing: border-box; padding: 20px; border: 2px dashed var(--border); color: var(--text-muted); font-size: 18px; text-align: center; }
-  .district-sub__svg { display: block; width: 100%; height: 100%; }
-  .district-sub__name { fill: var(--text-primary); text-anchor: middle; dominant-baseline: middle; pointer-events: none; paint-order: stroke; stroke: var(--bg-surface); stroke-width: 7px; stroke-linejoin: round; }
-  /* contain: the page's height comes from the window, however long the text is;
-     without it a long guide stretched the whole page and the map with it. */
-  .map-slot--right { grid-area: right; overflow-y: auto; box-sizing: border-box; contain: size; }
-  .map-slot--left { contain: size; }
-  .map-info.area-guide { max-width: none; padding: 18px 20px 24px; }
-  .map-info .area-guide__title { padding-right: 0; }
-  .map-info__block + .map-info__block { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--border); }
-  .map-info--compact.area-guide { padding-bottom: 14px; }
-  .map-info--compact .area-guide__title { margin-bottom: 6px; }
-  .map-info--compact .area-guide__progress { margin-bottom: 8px; }
-  .map-info--compact .map-info__block + .map-info__block { margin-top: 12px; padding-top: 12px; }
-  .map-info__blurb { margin: 0; font-size: 15px; line-height: 1.55; color: var(--text-muted); }
-  .map-card { position: relative; border-top: 3px solid var(--gold); }
-  .map-card__close { position: absolute; top: 8px; right: 8px; z-index: 3; width: 34px; height: 34px; border: 2px solid var(--border); background: var(--bg-surface); color: var(--text-muted); font-size: 16px; cursor: pointer; }
-  .map-card__close:hover { border-color: var(--gold); color: var(--gold); }
-  .map-info__empty { height: 100%; display: flex; align-items: center; justify-content: center; box-sizing: border-box; padding: 24px; color: var(--text-muted); font-size: 18px; text-align: center; }
-  .map-slot--top { grid-area: top; position: relative; z-index: 10; }
-  .map-topbar { height: 100%; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 6px 20px 10px; }
-  .map-topbar__title.explore-title { margin: 0; height: 52px; line-height: 52px !important; text-align: center; white-space: nowrap; }
-  html:not([data-lang="zh"]) :is(#root, body) .map-page .map-topbar__title { font-family: "Manufacturing Consent", serif !important; font-size: 48px !important; font-weight: 400; }
-  .map-topbar__controls { display: grid; grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: 10px; }
-  .map-topbar__controls .filter-btn { width: 100%; }
-  .map-topbar__controls .filter-bar__search { width: 100%; min-width: 0; box-sizing: border-box; }
-  .map-slot--bottom { grid-area: bottom; overflow: hidden; }
-  .map-bottom { height: 100%; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px; padding: 10px 16px 8px; }
-  .map-bottom .map-bottom__title { margin: 0; flex: none; line-height: 28px; }
-  html .map-bottom .map-ach .ach-badge-pill:not(.ach-badge-pill--xp) { width: auto; padding: 0 8px; font-size: 13px; white-space: nowrap; }
-  html:not([data-lang="zh"]) .map-bottom .map-tile__name { font-size: 15.5px; }
-  html:not([data-lang="zh"]) .map-bottom .map-ach__name { font-size: 16px; }
-  .map-view-buttons { position: absolute; top: 28px; right: 46px; z-index: 1000; display: flex; flex-direction: column; gap: 8px; }
-  .map-view-buttons .filter-btn { height: 38px; padding: 0 16px; white-space: nowrap; color: var(--gold); border-color: var(--gold); }
-  .map-compass { position: absolute; top: 34px; left: 34px; z-index: 1000; width: 128px; height: 128px; pointer-events: none; user-select: none; }
-  .map-container .leaflet-control-scale-line { background: var(--bg-surface); border-color: var(--gold); color: var(--text-primary); font-size: 13px; line-height: 1.5; }
-  .map-bottom__empty { margin: 0; color: var(--text-muted); font-size: 16px; }
-  .map-row { flex: 1; min-height: 0; display: flex; gap: 10px; overflow: hidden; }
-  /* Six across. The inner box is absolutely placed because a <button> doesn't
-     stretch what's inside it to its own height on every Chrome (124 didn't). */
-  .map-tile, .map-ach { flex: 0 0 calc((100% - 50px) / 6); position: relative; padding: 0; border: 2px solid var(--border); background: var(--bg-card); text-align: left; cursor: pointer; overflow: hidden; font: inherit; }
-  .map-tile__inner, .map-ach__inner { position: absolute; inset: 0; display: flex; }
-  .map-tile__cover { flex: none; height: 100%; aspect-ratio: 1; position: relative; display: flex; align-items: center; justify-content: center; font-size: 40px; background: var(--bg-secondary); overflow: hidden; }
-  .map-tile__image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; filter: saturate(0.15); }
-  .map-tile__lock { position: absolute; top: 50%; left: 50%; width: 62%; height: auto; transform: translate(-50%, -50%); image-rendering: pixelated; }
-  .map-tile__body { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 8px 10px; }
-  .map-tile__name { font-size: 17px; line-height: 1.3; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
-  .map-tile__meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; font-size: 14px; color: var(--text-muted); white-space: nowrap; }
-  .map-ach__inner { align-items: center; gap: 10px; padding: 6px 10px; box-sizing: border-box; }
-  .map-ach:hover, .map-tile:hover { filter: brightness(1.05); }
-  .map-ach .ach-icon { flex: none; width: 68px; height: 68px; }
-  .map-ach__body { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 5px; }
-  .map-ach__name { font-size: 17px; line-height: 1.3; color: var(--text-primary); }
-  .map-ach .ach-progress { width: 100%; }
-  /* Over the map's bottom right corner, just above the attribution; clicks pass through. */
-  .map-legend { position: absolute; right: 44px; bottom: 46px; z-index: 1000; pointer-events: none; list-style: none; margin: 0; padding: 7px 12px; display: flex; gap: 18px; background: var(--bg-surface); border: 2px solid var(--border); color: var(--text-primary); font-size: 15px; }
-  .map-legend li { display: flex; align-items: center; gap: 7px; }
-  .map-legend__dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid; box-sizing: border-box; }
+.map-page.map-board {
+  display: grid;
+  --map-side: 440px;
+  --map-top: 120px;
+  --map-bottom: 200px;
+  grid-template-columns: var(--map-side) minmax(0, 1fr) var(--map-side);
+  grid-template-rows: var(--map-top) minmax(0, 1fr) var(--map-bottom);
+  grid-template-areas:
+    "left top    right"
+    "left map    right"
+    "left bottom right";
 }
-.map-sidebar__empty {
-  padding: 32px 24px;
-  color: var(--text-muted);
-  font-size: 17px;
-  text-align: center;
+.map-board .map-container { grid-area: map; min-width: 0; min-height: 0; position: relative; }
+.map-board .map-container .leaflet-container { background: var(--bg-surface); }
+/* An old printed map's frame: heavy outer rule, a band of paper with sparse ticks,
+   fine inner rule, a small star tile on each corner. Over the map, under its
+   controls; clicks pass through. */
+.map-board .map-frame {
+  --frame-ink: #7a1420;
+  --frame-paper: #f1e7d0;
+  --frame-band: 12px;
+  --frame-tick: 120px;
+  position: absolute; inset: 0; z-index: 900; pointer-events: none; box-sizing: border-box;
+  border: 3px solid var(--frame-ink);
+  background:
+    repeating-linear-gradient(90deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) top / 100% 6px no-repeat,
+    repeating-linear-gradient(90deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) bottom / 100% 6px no-repeat,
+    repeating-linear-gradient(180deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) left / 6px 100% no-repeat,
+    repeating-linear-gradient(180deg, var(--frame-ink) 0 1px, transparent 1px var(--frame-tick)) right / 6px 100% no-repeat,
+    linear-gradient(var(--frame-paper), var(--frame-paper)) top / 100% var(--frame-band) no-repeat,
+    linear-gradient(var(--frame-paper), var(--frame-paper)) bottom / 100% var(--frame-band) no-repeat,
+    linear-gradient(var(--frame-paper), var(--frame-paper)) left / var(--frame-band) 100% no-repeat,
+    linear-gradient(var(--frame-paper), var(--frame-paper)) right / var(--frame-band) 100% no-repeat;
 }
-/* Was inline 'Press Start 2P' at 7px, tuned for the pixel font — matches
-   .filter-btn's size just above it now that both are Cinzel. */
-.map-sidebar__count {
-  font-size: 14px;
+.map-board .map-frame::after { content: ''; position: absolute; inset: var(--frame-band); border: 1px solid var(--frame-ink); }
+.map-board .map-frame__corner { position: absolute; width: 36px; height: 36px; z-index: 1; }
+.map-board .map-frame__corner--tl { top: -3px; left: -3px; }
+.map-board .map-frame__corner--tr { top: -3px; right: -3px; }
+.map-board .map-frame__corner--bl { bottom: -3px; left: -3px; }
+.map-board .map-frame__corner--br { bottom: -3px; right: -3px; }
+.map-board .map-frame__corner-tile { fill: var(--frame-paper); stroke: var(--frame-ink); stroke-width: 3; }
+.map-board .map-frame__corner-rule { fill: none; stroke: var(--frame-ink); stroke-width: 1; }
+.map-board .map-frame__corner-star { fill: var(--frame-ink); }
+:root[data-theme="dark"] .map-board .map-frame { --frame-ink: #e6c364; --frame-paper: #232b47; }
+.map-board .map-container .leaflet-bottom.leaflet-right { right: 44px; bottom: 19px; }
+.map-board .map-container .leaflet-bottom.leaflet-left { left: 34px; bottom: 9px; }
+.map-board .map-slot { display: block; min-width: 0; min-height: 0; background: var(--bg-surface); }
+/* Never scrolls (user's rule): everything in it has a fixed height. */
+.map-board .map-slot--left { grid-area: left; display: flex; flex-direction: column; gap: 10px; padding: 12px; box-sizing: border-box; overflow: hidden; }
+.map-board .map-left__heading { flex: none; font-size: 16px; color: var(--gold); text-align: center; }
+.map-board .map-chips { flex: none; display: flex; flex-direction: column; gap: 6px; }
+.map-board .map-chips__title { font-size: 16px; color: var(--gold); }
+.map-board .map-slot--left .map-chips__clear { width: 100%; height: 42px; padding: 0; color: var(--gold); text-align: center; }
+.map-board .map-slot--left .map-chips__clear:disabled { color: var(--text-muted); opacity: 0.6; cursor: default; }
+.map-board .map-chips__box { height: 110px; box-sizing: border-box; padding: 8px; border: 2px solid var(--border); overflow: hidden; display: flex; flex-wrap: wrap; align-content: flex-start; gap: 6px; position: relative; }
+.map-board .map-chip { max-width: 100%; height: 26px; box-sizing: border-box; display: inline-flex; align-items: center; gap: 5px; padding: 0 8px; border: 1px solid var(--gold); background: none; color: var(--gold); font: inherit; font-size: 14px; white-space: nowrap; cursor: pointer; }
+.map-board .map-chip__text { overflow: hidden; text-overflow: ellipsis; }
+.map-board .map-chip--more { border-color: var(--border); color: var(--text-muted); cursor: default; }
+.map-board .map-chips__none { margin: auto; color: var(--text-muted); font-size: 15px; }
+.map-board .map-slot--left .scope-toggle { width: 100%; }
+.map-board .map-slot--left .district-map { margin: 0; }
+.map-board .map-slot--left .district-map__stage { max-width: none; }
+/* Takes the height the rest of the column leaves, so the column always fits. */
+.map-board .district-sub { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; border-top: 2px solid var(--border); padding-top: 10px; }
+.map-board .district-sub .district-map__caption { flex: none; }
+.map-board .map-slot--left .explore-here { display: flex; width: fit-content; max-width: 100%; box-sizing: border-box; margin: 0 auto; }
+.map-board .district-sub__stage { flex: 1 1 0; min-height: 0; }
+.map-board .district-sub__stage--empty { display: flex; align-items: center; justify-content: center; box-sizing: border-box; padding: 20px; border: 2px dashed var(--border); color: var(--text-muted); font-size: 18px; text-align: center; }
+.map-board .district-sub__svg { display: block; width: 100%; height: 100%; }
+.map-board .district-sub__name { fill: var(--text-primary); text-anchor: middle; dominant-baseline: middle; pointer-events: none; paint-order: stroke; stroke: var(--bg-surface); stroke-width: 7px; stroke-linejoin: round; }
+/* contain: the page's height comes from the window, however long the text is;
+   without it a long guide stretched the whole page and the map with it. */
+.map-board .map-slot--right { grid-area: right; overflow-y: auto; box-sizing: border-box; contain: size; }
+.map-board .map-slot--left { contain: size; }
+.map-board .map-info.area-guide { max-width: none; padding: 18px 20px 24px; }
+.map-board .map-info .area-guide__title { padding-right: 0; }
+.map-board .map-info__block + .map-info__block { margin-top: 22px; padding-top: 18px; border-top: 2px solid var(--border); }
+.map-board .map-info--compact.area-guide { padding-bottom: 14px; }
+.map-board .map-info--compact .area-guide__title { margin-bottom: 6px; }
+.map-board .map-info--compact .area-guide__progress { margin-bottom: 8px; }
+.map-board .map-info--compact .map-info__block + .map-info__block { margin-top: 12px; padding-top: 12px; }
+.map-board .map-slot--left .map-whole-quarter { flex: none; width: 100%; min-height: 38px; margin-top: 6px; padding: 4px 8px; border-color: var(--gold); color: var(--gold); line-height: 1.25; text-align: center; white-space: normal; }
+.map-board .map-info__blurb { margin: 0; font-size: 15px; line-height: 1.55; color: var(--text-muted); }
+.map-board .map-card { position: relative; border-top: 3px solid var(--gold); }
+.map-board .map-card__close { position: absolute; top: 8px; right: 8px; z-index: 3; width: 34px; height: 34px; border: 2px solid var(--border); background: var(--bg-surface); color: var(--text-muted); font-size: 16px; cursor: pointer; }
+.map-board .map-card__close:hover { border-color: var(--gold); color: var(--gold); }
+.map-board .map-info__empty { height: 100%; display: flex; align-items: center; justify-content: center; box-sizing: border-box; padding: 24px; color: var(--text-muted); font-size: 18px; text-align: center; }
+.map-board .map-slot--top { grid-area: top; position: relative; z-index: 10; }
+.map-board .map-topbar { height: 100%; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 6px 20px 10px; }
+.map-board .map-topbar__title.explore-title { margin: 0; height: 52px; line-height: 52px !important; text-align: center; white-space: nowrap; }
+html:not([data-lang="zh"]) :is(#root, body) .map-page.map-board .map-topbar__title { font-family: "Manufacturing Consent", serif !important; font-size: 48px !important; font-weight: 400; }
+.map-board .map-topbar__controls { display: grid; grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: 10px; }
+.map-board .map-topbar__controls .filter-btn { width: 100%; }
+.map-board .map-topbar__controls .filter-bar__search { width: 100%; min-width: 0; box-sizing: border-box; }
+.map-board .map-slot--bottom { grid-area: bottom; overflow: hidden; }
+.map-board .map-bottom { height: 100%; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px; padding: 10px 16px 8px; }
+.map-board .map-bottom .map-bottom__title { margin: 0; flex: none; line-height: 28px; }
+html .map-board .map-bottom .map-ach .ach-badge-pill:not(.ach-badge-pill--xp) { width: auto; padding: 0 8px; font-size: 13px; white-space: nowrap; }
+html:not([data-lang="zh"]) .map-board .map-bottom .map-tile__name { font-size: 15.5px; }
+html:not([data-lang="zh"]) .map-board .map-bottom .map-ach__name { font-size: 16px; }
+.map-board .map-view-buttons { position: absolute; top: 28px; right: 46px; z-index: 1000; display: flex; flex-direction: column; gap: 8px; }
+.map-board .map-view-buttons .filter-btn { height: 38px; padding: 0 16px; white-space: nowrap; color: var(--gold); border-color: var(--gold); }
+.map-board .map-compass { position: absolute; top: 34px; left: 34px; z-index: 1000; width: 128px; height: 128px; pointer-events: none; user-select: none; }
+.map-board .map-container .leaflet-control-scale-line { background: var(--bg-surface); border-color: var(--gold); color: var(--text-primary); font-size: 13px; line-height: 1.5; }
+.map-board .map-bottom__empty { margin: 0; color: var(--text-muted); font-size: 16px; }
+.map-board .map-row { flex: 1; min-height: 0; display: flex; gap: 10px; overflow: hidden; }
+.map-board .map-split { flex: 1; min-height: 0; display: grid; grid-template-columns: repeat(var(--map-tiles, 6), minmax(0, 1fr)); grid-template-rows: 28px minmax(0, 1fr); gap: 8px 10px; }
+.map-board .map-split > .map-bottom__title { grid-row: 1; }
+.map-board .map-split > .map-tile, .map-board .map-split > .map-ach { grid-row: 2; }
+/* Six across on 2K. The inner box is absolutely placed because a <button> doesn't
+   stretch what's inside it to its own height on every Chrome (124 didn't). */
+.map-board .map-tile, .map-board .map-ach { flex: 0 0 calc((100% - (var(--map-tiles, 6) - 1) * 10px) / var(--map-tiles, 6)); position: relative; padding: 0; border: 2px solid var(--border); background: var(--bg-card); text-align: left; cursor: pointer; overflow: hidden; font: inherit; }
+.map-board .map-tile__inner, .map-board .map-ach__inner { position: absolute; inset: 0; display: flex; }
+.map-board .map-tile__cover { flex: none; height: 100%; aspect-ratio: 1; position: relative; display: flex; align-items: center; justify-content: center; font-size: 40px; background: var(--bg-secondary); overflow: hidden; }
+.map-board .map-tile__image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; filter: saturate(0.15); }
+.map-board .map-tile__lock { position: absolute; top: 50%; left: 50%; width: 62%; height: auto; transform: translate(-50%, -50%); image-rendering: pixelated; }
+.map-board .map-tile__body { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 8px 10px; }
+.map-board .map-tile__name { font-size: 17px; line-height: 1.3; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.map-board .map-tile__meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; font-size: 14px; color: var(--text-muted); white-space: nowrap; }
+.map-board .map-ach__inner { align-items: center; gap: 10px; padding: 6px 10px; box-sizing: border-box; }
+.map-board .map-ach:hover, .map-board .map-tile:hover { filter: brightness(1.05); }
+.map-board .map-ach .ach-icon { flex: none; width: 68px; height: 68px; }
+.map-board .map-ach__body { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 5px; }
+.map-board .map-ach__name { font-size: 17px; line-height: 1.3; color: var(--text-primary); }
+.map-board .map-ach .ach-progress { width: 100%; }
+/* Over the map's bottom right corner, just above the attribution; clicks pass through. */
+.map-board .map-legend { position: absolute; right: 44px; bottom: 46px; z-index: 1000; pointer-events: none; list-style: none; margin: 0; padding: 7px 12px; display: flex; gap: 18px; background: var(--bg-surface); border: 2px solid var(--border); color: var(--text-primary); font-size: 15px; }
+.map-board .map-legend li { display: flex; align-items: center; gap: 7px; }
+.map-board .map-legend__dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid; box-sizing: border-box; }
+
+/* Macs and iPads use the 2K layout scaled to fit (MapPage sets --map-ui): their
+   screens are sharp enough for it. The map itself isn't zoomed, or Leaflet's
+   pointer positions would be wrong; only the columns and bars are. */
+.map-page.map-board--scaled { --map-side: calc(440px * var(--map-ui, 1)); --map-top: calc(120px * var(--map-ui, 1)); --map-bottom: calc(200px * var(--map-ui, 1)); }
+.map-board--scaled .map-slot { zoom: var(--map-ui, 1); }
+/* What sits on the map shrinks with them. Not the scale bar: its length is a real
+   distance, so only its text and place change. */
+.map-board--scaled :is(.map-frame, .map-compass, .map-view-buttons, .map-legend) { zoom: var(--map-ui, 1); }
+.map-board--scaled .map-container .leaflet-bottom.leaflet-right { right: calc(44px * var(--map-ui, 1)); bottom: calc(19px * var(--map-ui, 1)); }
+.map-board--scaled .map-container .leaflet-bottom.leaflet-left { left: calc(34px * var(--map-ui, 1)); bottom: calc(9px * var(--map-ui, 1)); }
+.map-board--scaled .map-container .leaflet-control-scale-line { font-size: calc(13px * var(--map-ui, 1)); }
+
+/* iPads and narrow laptops: the left column and the map; the right column slides
+   over the map when a card or an area's guide is open. */
+.map-page.map-board.map-board--narrow {
+  --map-side: clamp(270px, 25vw, 320px);
+  --map-bottom: 142px;
+  position: relative;
+  grid-template-columns: var(--map-side) minmax(0, 1fr);
+  grid-template-areas: "left top" "left map" "left bottom";
 }
+.map-board--narrow .map-slot--right {
+  position: absolute; top: var(--map-top); bottom: 0; right: 0; z-index: 1100;
+  width: min(440px, 48%);
+  border-left: 3px solid var(--gold);
+  box-shadow: -6px 0 18px rgba(0, 0, 0, 0.35);
+  transform: translateX(105%); visibility: hidden;
+  transition: transform 0.22s ease, visibility 0.22s;
+}
+.map-board--narrow .map-slot--right.map-slot--open { transform: none; visibility: visible; }
+.map-board--narrow .map-topbar__title.explore-title { max-width: 30%; font-size: 24px !important; }
+html:not([data-lang="zh"]) :is(#root, body) .map-page.map-board--narrow .map-topbar__title { font-size: 26px !important; }
+.map-board--narrow .map-topbar { gap: 12px; padding: 6px 10px 8px; }
+.map-board--narrow .map-topbar__controls { gap: 6px; }
+/* Phones and upright tablets: the whole page is the map, the rest opens in sheets. */
+.map-page.map-board.map-board--phone {
+  --map-side: 0;
+  min-height: 420px;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-areas: "top" "map" "actions";
+}
+.map-board--phone .map-slot--top { height: auto; }
+.map-board--phone .map-topbar { display: block; height: auto; padding: 8px 10px; }
+.map-board--phone .map-topbar__title { display: none; }
+.map-board--phone .map-topbar__controls { position: relative; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.map-board--phone .map-topbar__controls .filter-bar__search { grid-column: 1 / -1; padding: 7px 12px; }
+.map-board--phone .map-topbar__controls .filter-btn { padding: 6px 2px; white-space: nowrap; }
+.map-board--phone .map-topbar__controls .label-filter { position: static; }
+.map-board--phone .map-topbar__controls .label-filter__panel { left: 0; right: 0; width: auto; min-width: 0; max-width: none; max-height: 56vh; overflow-y: auto; box-sizing: border-box; }
+.map-phone-actions { grid-area: actions; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; padding: 8px 10px; background: var(--bg-surface); }
+.map-phone-actions .filter-btn { height: 44px; padding: 0 2px; line-height: 1.15; }
+.map-phone-actions .filter-btn:disabled { opacity: 0.45; }
+.map-board--phone .map-frame { border-width: 2px; background: none; box-shadow: inset 0 0 0 3px var(--frame-paper); --frame-band: 3px; }
+.map-board--phone .map-frame__corner { width: 20px; height: 20px; }
+.map-board--phone .map-frame__corner--tl, .map-board--phone .map-frame__corner--tr { top: -2px; }
+.map-board--phone .map-frame__corner--bl, .map-board--phone .map-frame__corner--br { bottom: -2px; }
+.map-board--phone .map-frame__corner--tl, .map-board--phone .map-frame__corner--bl { left: -2px; }
+.map-board--phone .map-frame__corner--tr, .map-board--phone .map-frame__corner--br { right: -2px; }
+.map-board--phone .map-compass { top: 22px; left: 16px; width: 60px; height: 60px; }
+.map-board--phone .map-view-buttons { top: 16px; right: 16px; gap: 6px; }
+.map-board--phone .map-view-buttons .filter-btn { height: 38px; padding: 0 10px; font-size: 13px; }
+.map-board--phone .map-legend { right: 10px; bottom: 24px; padding: 4px 8px; gap: 10px; font-size: 12px; }
+.map-board--phone .map-container .leaflet-bottom.leaflet-right { right: 22px; bottom: 7px; }
+.map-board--phone .map-container .leaflet-bottom.leaflet-left { left: 0; bottom: 22px; }
+.map-board--phone .map-container .leaflet-control-attribution { font-size: 9px; padding: 0 3px; }
+.map-board--phone .map-container .leaflet-control-scale-line { font-size: 11px; }
+/* Inside the sheets. */
+.map-board--phone .map-sheet .map-card { border-top: 0; }
+.map-board--phone .map-bottom { height: auto; padding: 10px 0 4px; gap: 8px; }
+.map-board--phone .map-row, .map-board--phone .map-split { display: flex; flex-direction: column; gap: 8px; }
+.map-board--phone .map-split > .map-ach { order: 1; }
+.map-board--phone .map-split > .map-bottom__title:nth-of-type(2) { order: 2; margin-top: 6px; }
+.map-board--phone .map-split > .map-tile { order: 3; }
+.map-board--phone .map-tile, .map-board--phone .map-ach { flex: none; width: 100%; height: 104px; }
+.map-board--narrow .map-topbar__controls .filter-btn { padding-left: 4px; padding-right: 4px; white-space: nowrap; }
+@media (prefers-reduced-motion: reduce) { .map-board--narrow .map-slot--right { transition: none; } }
+
+/* An ordinary computer screen (MapPage's COMPACT query): the same layout, tighter. */
+.map-page.map-board--compact { --map-side: clamp(300px, 20vw, 380px); --map-top: 66px; --map-bottom: 152px; }
+.map-board--compact .map-topbar { flex-direction: row; align-items: center; gap: 18px; padding: 6px 16px 8px; }
+.map-board--compact .map-topbar__title.explore-title { flex: none; max-width: 42%; height: 44px; line-height: 44px !important; font-size: 28px !important; overflow: hidden; text-overflow: ellipsis; }
+html:not([data-lang="zh"]) :is(#root, body) .map-page.map-board--compact .map-topbar__title { font-size: 32px !important; }
+.map-board--compact .map-topbar__controls { flex: 1; min-width: 0; }
+.map-board--compact .map-slot--left { gap: 8px; padding: 10px; }
+.map-board--compact .map-chips { margin-top: auto; gap: 4px; }
+.map-board--compact .map-chips__title, .map-board--compact .map-left__heading { font-size: 14px; }
+.map-board--compact .map-chips__box { height: 44px; padding: 7px; }
+.map-board--compact .map-slot--left .map-chips__clear { height: 34px; }
+.map-board--compact .map-info.area-guide { padding: 12px 14px 18px; }
+.map-board--compact .map-card { border-top: 0; }
+.map-board--compact .map-compass { top: 28px; left: 28px; width: 88px; height: 88px; }
+.map-board--compact .map-view-buttons .filter-btn { height: 32px; padding: 0 12px; }
+.map-board--compact .map-legend { padding: 5px 10px; gap: 12px; font-size: 13.5px; }
+.map-board--compact .map-bottom { gap: 4px; padding: 6px 12px 8px; }
+.map-board--compact .map-bottom .map-bottom__title { font-size: 18px; line-height: 24px; }
+.map-board--compact .map-split { grid-template-rows: 24px minmax(0, 1fr); gap: 4px 10px; }
+.map-board--compact .map-tile__body { gap: 3px; padding: 5px 8px; }
+.map-board--compact .map-tile__name, html:not([data-lang="zh"]) .map-board--compact .map-bottom .map-tile__name { font-size: 14.5px; line-height: 1.25; -webkit-line-clamp: 2; }
+.map-board--compact .map-tile__meta { font-size: 13px; }
+.map-board--compact .map-tile__cover { font-size: 28px; }
+.map-board--compact .map-ach__inner { gap: 8px; padding: 4px 8px; }
+.map-board--compact .map-ach .ach-icon { width: 50px; height: 50px; }
+.map-board--compact .map-ach__body { gap: 2px; }
+.map-board--compact .map-ach__name, html:not([data-lang="zh"]) .map-board--compact .map-bottom .map-ach__name { font-size: 14.5px; line-height: 1.25; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; }
+.map-board--compact .map-back { flex: none; width: 100%; height: 32px; padding: 0; color: var(--gold); text-align: center; }
+
 
 /* ── Dashboard ────────────────────────────────────────────── */
 .dashboard-page { flex: 1; padding: 24px; max-width: 1200px; margin: 0 auto; width: 100%; }
@@ -1754,6 +1848,16 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
   vector-effect: non-scaling-stroke; pointer-events: none; user-select: none;
 }
 .district-map__stage { position: relative; max-width: 560px; margin: 0 auto; overflow: hidden; }
+/* One district on its own in the quarter view (Explore). */
+.district-map .district-sub { display: flex; flex-direction: column; width: 100%; min-height: 0; }
+.district-map .district-sub__stage { aspect-ratio: 1.314; min-height: 0; }
+.explore-side .district-map .district-sub { height: 100%; }
+.explore-side .district-map .district-sub__stage { flex: 1 1 0; aspect-ratio: auto; }
+.district-map .district-sub__svg { display: block; width: 100%; height: 100%; }
+.district-map .district-sub__name { fill: var(--text-primary); text-anchor: middle; dominant-baseline: middle; pointer-events: none; paint-order: stroke; stroke: var(--bg-surface); stroke-width: 7px; stroke-linejoin: round; }
+.district-map .district-sub .district-map__caption { flex: none; }
+.district-map .map-whole-quarter { flex: none; width: 100%; min-height: 34px; margin-top: 6px; padding: 4px 8px; border-color: var(--gold); color: var(--gold); line-height: 1.25; text-align: center; white-space: normal; }
+
 .district-map__stage .district-map__svg { max-width: 100%; }
 .district-map__zoom { position: absolute; right: 4px; bottom: 4px; display: flex; flex-direction: column; gap: 4px; }
 .district-map__zoom button {
@@ -2481,8 +2585,6 @@ html[data-lang="zh"] .detail-title-name {
 
 @media (max-width: 900px) {
   .map-page { flex-direction: column; }
-  .map-container { flex: none; height: 52vh; min-height: 260px; }
-  .map-sidebar { width: 100%; border-left: none; border-top: 3px solid var(--gold); flex: 1; overflow-y: auto; }
   .dashboard-grid { grid-template-columns: 1fr; }
   .stat-card--tall { grid-row: auto; }
 }
@@ -2845,6 +2947,8 @@ html[data-lang="zh"] .detail-title-name {
    quarter, opened from its pill under a card, the Explore "More about this
    area" link or the "where you are" badge. Above the card detail overlay. */
 .area-guide-overlay { z-index: 260; }
+/* A card opened from a guide: the guide's level, and later in the page, so on top. */
+.area-guide-detail .px-overlay { z-index: 260; }
 .area-guide { max-width: 640px; padding: 22px 24px 26px; }
 .area-guide__title { font-size: 24px; margin: 0 0 12px; padding-right: 44px; }
 /* From the profile's map and list (2026-11-08, user's call). No detail can lie
@@ -2895,8 +2999,10 @@ html[data-lang="zh"] .detail-title-name {
 .area-guide__section p:last-child { margin-bottom: 0; }
 /* Famous landmarks: a row of name tags, the collected ones in gold. */
 .area-guide__landmarks { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.area-guide__landmark button { display: block; padding: 5px 12px; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.area-guide__landmark:hover { border-color: var(--gold); }
 .area-guide__landmark {
-  padding: 5px 12px; border: 2px solid var(--border); background: var(--bg-card);
+  border: 2px solid var(--border); background: var(--bg-card);
   font-size: 15px; font-weight: 700; line-height: 1.4; color: var(--text-primary);
 }
 .area-guide__landmark--got { border-color: var(--gold); color: var(--gold); }

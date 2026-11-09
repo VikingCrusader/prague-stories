@@ -125,6 +125,7 @@ test.describe('Level-up celebration — Explore page', () => {
 });
 
 test.describe('Level-up celebration — Map sidebar', () => {
+  test.use({ viewport: { width: 412, height: 860 } }); // the card opens in a sheet
   test('collecting from the map sidebar also shows the level-up modal', async ({ page }) => {
     await loginAsUser(page);
     await spyOnVibrate(page);
@@ -152,7 +153,7 @@ test.describe('Level-up celebration — Map sidebar', () => {
     await expect(page.locator('path.leaflet-interactive')).toHaveCount(1);
     await page.locator('path.leaflet-interactive').first().click();
 
-    const sidebar = page.locator('.map-sidebar');
+    const sidebar = page.locator('.explore-drawer');
     await sidebar.getByRole('button', { name: /★ Collect/ }).click();
 
     const levelUpModal = page.locator('.levelup-modal');

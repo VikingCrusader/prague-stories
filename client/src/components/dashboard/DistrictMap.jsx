@@ -4,6 +4,7 @@ import { quarterName } from '../../utils/pragueQuarters';
 import { loadPragueAreas } from '../../utils/pragueAreas';
 import { viewportRect } from '../../utils/fitPage';
 import AreaGuideModal from '../locations/AreaGuideModal';
+import DistrictQuarters from '../map/DistrictQuarters';
 
 // Profile (2026-11-04, user's call): the 22 správní obvody drawn as a small
 // map, each filled in gold as deep as the share of its cards the user has
@@ -36,7 +37,10 @@ const GLOW = 220; // map units the glow reaches past the city's bounding box
 // with `selected` outlined and `hintKey` for the line under the map. `glow`
 // (true or false, left out elsewhere) lights up the land around the city;
 // `outsideArea` ({ name, collected, total, selected, onClick }) makes it clickable.
-export default function DistrictMap({ districts, quarters, own = false, mode: modeProp, onModeChange, showToggle = true, toggleLabel = null, selected = null, onSelect, hintKey = 'dashboard.districtMapHint', glow, outsideArea }) {
+// `focusDistrict` (DistrictQuarters' props, from Explore, where the map is a filter):
+// the quarter view shows only that district instead of the whole city (2026-11-09,
+// user's call). The profile, which is statistics with room to spare, keeps the whole city.
+export default function DistrictMap({ districts, quarters, own = false, mode: modeProp, onModeChange, showToggle = true, toggleLabel = null, selected = null, onSelect, hintKey = 'dashboard.districtMapHint', glow, outsideArea, focusDistrict = null }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -94,6 +98,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
 
   const H = shapes?.height || 1;
   const isQ = mode === 'quarter';
+  const focusName = isQ ? focusDistrict?.district ?? null : null;
   // Keeps the box inside the map and between 1x and MAX_ZOOM; null at 1x.
   const clamp = (x, y, w) => {
     w = Math.min(W, Math.max(W / MAX_ZOOM, w));
@@ -115,7 +120,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
   // The wheel needs a non-passive listener to stop the page scrolling.
   useEffect(() => {
     const el = svgRef.current;
-    if (!el || !isQ) return undefined;
+    if (!el || !isQ || focusName) return undefined;
     const onWheel = e => {
       e.preventDefault();
       const r = viewportRect(el);
@@ -130,7 +135,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
     };
     el.addEventListener('wheel', onWheel, { passive: false });
     return () => el.removeEventListener('wheel', onWheel);
-  }, [isQ, H, shapes]);
+  }, [isQ, H, shapes, focusName]);
 
   const onPointerDown = e => {
     if (!isQ) return;
@@ -226,6 +231,9 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
         </div>
       )}
       <div className="district-map__stage">
+      {focusName ? (
+        <DistrictQuarters {...focusDistrict} />
+      ) : (
       <svg
         ref={svgRef}
         viewBox={vb}
@@ -289,7 +297,8 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
         ))}
         {quarterLabels}
       </svg>
-      {isQ && (
+      )}
+      {isQ && !focusName && (
         <div className="district-map__zoom">
           <button type="button" onClick={() => zoomButton(1.6)} aria-label={t('dashboard.mapZoomIn')}>+</button>
           <button type="button" onClick={() => zoomButton(1 / 1.6)} disabled={!view} aria-label={t('dashboard.mapZoomOut')}>−</button>
@@ -297,6 +306,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
         </div>
       )}
       </div>
+      {!focusName && (
       <div className="district-map__caption">
         {pickedData
           ? <>
@@ -305,6 +315,7 @@ export default function DistrictMap({ districts, quarters, own = false, mode: mo
             </>
           : <span className="district-map__caption-hint">{t(hintKey)}</span>}
       </div>
+      )}
       {guide && <AreaGuideModal kind={guide.kind} value={guide.value} withCollection onClose={() => setGuide(null)} />}
     </div>
   );

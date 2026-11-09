@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef } from 'react';
+import { useState, useEffect, useLayoutEffect, useMemo, useRef, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { locationAPI, checkinAPI } from '../services/api';
 import { useLang, useT, useConvert } from '../context/LanguageContext';
@@ -21,18 +21,34 @@ import AreaGuideModal from '../components/locations/AreaGuideModal';
 import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
 import ExploreMap from '../components/locations/ExploreMap';
 import { useMedia } from '../hooks/useMedia';
+import { IS_APPLE } from '../utils/fitPage';
 import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
-import AreaFilter, { matchesArea } from '../components/locations/AreaFilter';
+import { matchesArea } from '../components/locations/AreaFilter';
+import ExploreDrawer from '../components/locations/ExploreDrawer';
 import DistrictLine, { descriptiveLabels } from '../components/locations/DistrictLine';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
-import LabelFilterGroups from '../components/locations/LabelFilterGroups';
 import { getLocalCoverPath } from '../utils/localCover';
-import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES, lockClosedIcon } from '../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, CITY_RARITIES, ALL_RARITIES, lockClosedIcon } from '../utils/rarity';
 import { playUnlockSound } from '../utils/sound';
 
 const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
-// The 2K layout; keep in step with the media query in pixelart.css (.map-slot).
-const MAP_BOARD_QUERY = '(min-width: 2400px) and (min-height: 1200px)';
+// The page's layouts (.map-board in pixelart.css): a 2K screen as designed; Macs the
+// same scaled to fit (their screens are sharp enough; user's call); ordinary computer
+// screens a tighter version; iPads and narrow laptops that without a right column,
+// which slides out instead; phones and upright tablets a full map, the rest in sheets.
+const TWO_K_QUERY = '(min-width: 2400px) and (min-height: 1200px)';
+const COMPACT_QUERY = '(min-width: 1400px) and (min-height: 650px)';
+const APPLE_QUERY = '(min-width: 1024px) and (orientation: landscape)';
+// Below this the left column, which must not scroll, can't hold both small maps.
+const SHORT_QUERY = '(max-height: 860px)';
+const WIDE_COMPACT_QUERY = '(min-width: 1800px)';
+const NARROW_QUERY = '(min-width: 1024px) and (min-height: 560px)';
+const FOUR_TILES_QUERY = '(min-width: 1180px)';
+// iPads call themselves Macs; a touch screen tells them apart.
+const IS_TABLET = IS_APPLE && navigator.maxTouchPoints > 0;
+// The 2K design's smallest size, which the scale is worked out from.
+const DESIGN_WIDTH = 2400;
+const DESIGN_HEIGHT = 1140;
 
 export default function MapPage() {
   // Refetched when the signed-in user changes (see ExplorePage).
@@ -41,11 +57,38 @@ export default function MapPage() {
   const t = useT();
   const convert = useConvert();
   const navigate = useNavigate();
-  const board = useMedia(MAP_BOARD_QUERY);
+  const twoK = useMedia(TWO_K_QUERY);
+  const compactFits = useMedia(COMPACT_QUERY);
+  const appleFits = useMedia(APPLE_QUERY);
+  const short = useMedia(SHORT_QUERY);
+  const wideCompact = useMedia(WIDE_COMPACT_QUERY);
+  const narrowFits = useMedia(NARROW_QUERY);
+  const fourTiles = useMedia(FOUR_TILES_QUERY);
+  const scaled = !twoK && IS_APPLE && !IS_TABLET && appleFits;
+  const threeColumns = !twoK && !scaled && !IS_TABLET && compactFits;
+  const narrow = !twoK && !scaled && !threeColumns && narrowFits;
+  const compact = threeColumns || narrow;
+  const phone = !twoK && !scaled && !compact;
+  const swapMaps = compact && short;
+  const maxTiles = phone ? 4 : narrow ? (fourTiles ? 4 : 3) : compact ? (wideCompact ? 5 : 4) : 6;
+  const [infoOpen, setInfoOpen] = useState(false);
+  const [sheet, setSheet] = useState(null); // on phones: 'area' | 'info' | 'near'
+  const pageRef = useRef(null);
+  const [uiScale, setUiScale] = useState(1);
   const userPos = useUserPosition();
   const [areasData, setAreasData] = useState(null);
   const [areaGuide, setAreaGuide] = useState(null);
-  const knowsPosition = board && !!userPos;
+  useLayoutEffect(() => {
+    if (!scaled || !pageRef.current) return undefined;
+    const fit = () => {
+      const top = pageRef.current?.getBoundingClientRect().top ?? 0;
+      setUiScale(Math.min(1, window.innerWidth / DESIGN_WIDTH, (window.innerHeight - top) / DESIGN_HEIGHT));
+    };
+    fit();
+    window.addEventListener('resize', fit);
+    return () => window.removeEventListener('resize', fit);
+  });
+  const knowsPosition = !!userPos;
   useEffect(() => {
     if (knowsPosition && !areasData) loadPragueAreas().then(setAreasData).catch(() => {});
   }, [knowsPosition, areasData]);
@@ -56,20 +99,18 @@ export default function MapPage() {
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [flyTo, setFlyTo]               = useState(null);
+  useEffect(() => { if (selectedSlug) setInfoOpen(false); }, [selectedSlug]);
   const rightColumnRef = useRef(null);
   useEffect(() => { if (rightColumnRef.current) rightColumnRef.current.scrollTop = 0; }, [selectedSlug]);
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
   const [activeLabels, setActiveLabels]     = useState(new Set());
   const [activeRarities, setActiveRarities] = useState(new Set());
-  const [labelsOpen, setLabelsOpen]         = useState(false);
-  const [raritiesOpen, setRaritiesOpen]     = useState(false);
   const [search, setSearch]                 = useState('');
   const [cityOnly, setCityOnly]             = useState(true);
   const [area, setArea]                     = useState(null);
   const [sort, setSort]                     = useState('distance');
-  const filterPanelRef  = useRef(null);
-  const rarityPanelRef  = useRef(null);
+  const closeSheet = useCallback(() => { setSheet(null); setSelectedSlug(null); }, []);
 
   useEffect(() => {
     locationAPI.getAll()
@@ -83,24 +124,6 @@ export default function MapPage() {
     window.addEventListener('proximity-checkin', handler);
     return () => window.removeEventListener('proximity-checkin', handler);
   }, []);
-
-  useEffect(() => {
-    if (!labelsOpen) return;
-    const closeOnOutside = (e) => {
-      if (filterPanelRef.current && !filterPanelRef.current.contains(e.target)) setLabelsOpen(false);
-    };
-    document.addEventListener('mousedown', closeOnOutside);
-    return () => document.removeEventListener('mousedown', closeOnOutside);
-  }, [labelsOpen]);
-
-  useEffect(() => {
-    if (!raritiesOpen) return;
-    const closeOnOutside = (e) => {
-      if (rarityPanelRef.current && !rarityPanelRef.current.contains(e.target)) setRaritiesOpen(false);
-    };
-    document.addEventListener('mousedown', closeOnOutside);
-    return () => document.removeEventListener('mousedown', closeOnOutside);
-  }, [raritiesOpen]);
 
   const filteredLocations = useMemo(() => {
     let list = (cityOnly ? locations.filter(isInCity) : locations).filter(l => matchesArea(l, area));
@@ -178,7 +201,7 @@ export default function MapPage() {
   const collectedCount = locations.filter(l => l.unlocked).length;
   const changeScope = city => { setCityOnly(city); if (!city || area?.kind === 'outside') setArea(null); };
   // A quarter chosen inside a district keeps that district chosen on the upper map.
-  const parentDistrict = area?.kind === 'district' ? area.value : area?.kind === 'quarter' ? area.district ?? null : null;
+  const parentDistrict = area?.kind === 'district' ? area.value : area?.kind === 'quarter' ? area.district ?? area.homeDistrict ?? null : null;
   const upperArea = parentDistrict ? { kind: 'district', value: parentDistrict } : area;
   // With no district chosen, the lower map shows the one the player is in.
   const shownDistrict = parentDistrict ?? myArea?.district ?? null;
@@ -186,52 +209,100 @@ export default function MapPage() {
     ? { kind: 'district', value: shownDistrict }
     : { kind: 'quarter', value: name, district: shownDistrict });
   const markedQuarter = area?.kind === 'quarter' ? area.value : area ? null : myArea?.quarter ?? null;
+  const pickCard = card => { setSelectedSlug(card.slug); setFlyTo({ ...card.coordinates }); };
+  // A landmark the filters hide (a label filter, the other side of a district line)
+  // brings its own quarter into view, or the selection wouldn't hold.
+  const pickLandmark = card => {
+    if (!filteredLocations.some(l => l.slug === card.slug)) {
+      setSearch('');
+      setActiveLabels(new Set());
+      setActiveRarities(new Set());
+      setArea(card.quarter ? { kind: 'quarter', value: card.quarter, district: card.district } : null);
+    }
+    pickCard(card);
+  };
+  const clearFilters = () => { setSearch(''); setActiveLabels(new Set()); setActiveRarities(new Set()); setArea(null); };
+  const hasIntro = !!shownDistrict && area?.kind !== 'outside';
+  const chips = (
+    <MapFilterChips
+      area={area}
+      onArea={setArea}
+      search={search}
+      onClearSearch={() => setSearch('')}
+      labels={[...activeLabels]}
+      onToggleLabel={toggleLabel}
+      rarities={[...activeRarities]}
+      onToggleRarity={toggleRarity}
+      onClearAll={clearFilters}
+    />
+  );
+  const cardDetail = selected && (
+    <SidebarDetail
+      slug={selectedSlug}
+      onCheckIn={handleCheckIn}
+      onViewDetail={(slug) => navigate('/explore', { state: { openSlug: slug } })}
+    />
+  );
+  const bottomBar = (
+    <MapBottomBar
+      filtered={filteredLocations}
+      selected={selected}
+      sort={sort}
+      userPos={userPos}
+      collectedCount={collectedCount}
+      maxTiles={maxTiles}
+      onPick={pickCard}
+    />
+  );
+  const areaIntro = <MapAreaInfo district={hasIntro ? shownDistrict : null} quarter={markedQuarter} locations={locations} area={area} onPickLandmark={pickLandmark} />;
 
   return (
-    <div className="map-page">
+    <div
+      ref={pageRef}
+      className={`map-page map-board${compact ? ' map-board--compact' : ''}${narrow ? ' map-board--narrow' : ''}${scaled ? ' map-board--scaled' : ''}${phone ? ' map-board--phone' : ''}`}
+      style={{ '--map-ui': uiScale, '--map-tiles': maxTiles }}
+    >
       <div className="map-container">
         <MapView
           locations={filteredLocations}
           selectedSlug={selectedSlug}
           onLocationClick={setSelectedSlug}
           cityOnly={cityOnly}
-          vectorBase={board}
+          touch={phone}
+          viewButton={narrow && hasIntro && !selected && !infoOpen ? { label: t('map.areaIntro'), onClick: () => setInfoOpen(true) } : null}
         >
-          {board && <MapBoundaries area={area} cityOnly={cityOnly} />}
-          {board && <MapAreaFocus area={area} cityOnly={cityOnly} flyTo={flyTo} />}
+          <MapBoundaries area={area} cityOnly={cityOnly} onArea={setArea} />
+          <MapAreaFocus area={area} cityOnly={cityOnly} flyTo={flyTo} selected={selected} panelRef={narrow ? rightColumnRef : null} />
         </MapView>
-        {board && <MapFrame />}
-        {board && <MapLegend />}
+        <MapFrame />
+        <MapLegend />
       </div>
 
-      {/* The 2K layout; below 2K these aren't shown. */}
+      {!phone && (
       <div className="map-slot map-slot--left">
-        {board && (
           <>
             {myArea && <MapHere here={myArea} onOpenGuide={setAreaGuide} />}
             <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
             <div className="map-left__heading">{t('explore.mapFilterLabel')}</div>
-            <ExploreMap locations={locations} area={upperArea} onArea={setArea} outside={!cityOnly} here={myArea} showToggle={false} />
-            <DistrictQuarters
-              district={shownDistrict}
-              selected={markedQuarter}
-              locations={locations}
-              onPick={pickQuarter}
-            />
-            <MapFilterChips
-              area={area}
-              onArea={setArea}
-              search={search}
-              onClearSearch={() => setSearch('')}
-              labels={[...activeLabels]}
-              onToggleLabel={toggleLabel}
-              rarities={[...activeRarities]}
-              onToggleRarity={toggleRarity}
-              onClearAll={() => { setSearch(''); setActiveLabels(new Set()); setActiveRarities(new Set()); setArea(null); }}
-            />
+            {swapMaps && parentDistrict ? (
+              <button type="button" className="filter-btn map-back" onClick={() => setArea(null)}>{t('map.backToDistricts')}</button>
+            ) : (
+              <ExploreMap locations={locations} area={upperArea} onArea={setArea} outside={!cityOnly} here={myArea} showToggle={false} />
+            )}
+            {(!swapMaps || parentDistrict) && (
+              <DistrictQuarters
+                district={shownDistrict}
+                selected={markedQuarter}
+                locations={locations}
+                onPick={pickQuarter}
+                area={area}
+                onArea={setArea}
+              />
+            )}
+            {chips}
           </>
-        )}
       </div>
+      )}
       <div className="map-slot map-slot--top">
         <MapTopBar
           cityOnly={cityOnly}
@@ -249,135 +320,55 @@ export default function MapPage() {
           onSort={setSort}
         />
       </div>
-      <div className="map-slot map-slot--bottom">
-        {board && (
-          <MapBottomBar
-            filtered={filteredLocations}
-            selected={selected}
-            sort={sort}
-            userPos={userPos}
-            collectedCount={collectedCount}
-            onPick={card => { setSelectedSlug(card.slug); setFlyTo({ ...card.coordinates }); }}
-          />
-        )}
-      </div>
-      <div className="map-slot map-slot--right" ref={rightColumnRef}>
-        {board && (selected ? (
+      {!phone && <div className="map-slot map-slot--bottom">{bottomBar}</div>}
+      {!phone && (
+      <div className={`map-slot map-slot--right${selected || infoOpen ? ' map-slot--open' : ''}`} ref={rightColumnRef}>
+        {narrow && !selected && !infoOpen ? null : selected ? (
           <>
-            <MapAreaInfo district={selected.district ?? null} quarter={selected.quarter ?? null} locations={locations} compact />
+            {/* The column is short on an ordinary screen: there the card has it to itself. */}
+            {!compact && <MapAreaInfo district={selected.district ?? null} quarter={selected.quarter ?? null} locations={locations} compact />}
             <div className="map-card">
               <button type="button" className="map-card__close" aria-label={t('areaGuide.close')} onClick={() => setSelectedSlug(null)}>✕</button>
-              <SidebarDetail
-                slug={selectedSlug}
-                onCheckIn={handleCheckIn}
-                onViewDetail={(slug) => navigate('/explore', { state: { openSlug: slug } })}
-              />
+              {cardDetail}
             </div>
           </>
         ) : (
-          <MapAreaInfo district={area?.kind === 'outside' ? null : shownDistrict} quarter={markedQuarter} locations={locations} />
-        ))}
-      </div>
-
-      <div className="map-sidebar">
-        <div style={{ padding: '12px 16px', borderBottom: '3px solid var(--border)' }}>
-          <input
-            className="filter-bar__search"
-            style={{ width: '100%', minWidth: 0, marginBottom: 8 }}
-            placeholder={t('grid.searchPlaceholder')}
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-          />
-          <div className="filter-row" style={{ display: 'flex', gap: 8 }}>
-            <div className="label-filter" ref={filterPanelRef} style={{ flex: 1, minWidth: 0 }}>
-              <button
-                className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
-                style={{ width: '100%' }}
-                onClick={() => { setLabelsOpen(o => !o); setRaritiesOpen(false); }}
-              >
-                {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
-              </button>
-              {labelsOpen && (
-                <div className="label-filter__panel label-filter__panel--inline">
-                  <LabelFilterGroups
-                    activeLabels={activeLabels}
-                    onToggle={toggleLabel}
-                    hidden={cityOnly ? ['outside'] : []}
-                  />
-                  {activeLabels.size > 0 && (
-                    <button
-                      className="label-pill label-pill--clear"
-                      onClick={() => setActiveLabels(new Set())}
-                    >
-                      ✕ {t('grid.clearLabels')}
-                    </button>
-                  )}
-                </div>
-              )}
-            </div>
-            <div className="label-filter" ref={rarityPanelRef} style={{ flex: 1, minWidth: 0 }}>
-              <button
-                className={`filter-btn${raritiesOpen || activeRarities.size > 0 ? ' filter-btn--active' : ''}`}
-                style={{ width: '100%' }}
-                onClick={() => { setRaritiesOpen(o => !o); setLabelsOpen(false); }}
-              >
-                {t('grid.filterRarity')}{activeRarities.size > 0 ? ` (${activeRarities.size})` : ' ▼'}
-              </button>
-              {raritiesOpen && (
-                <div className="label-filter__panel label-filter__panel--inline">
-                  {rarityOptions.map(r => (
-                    <button
-                      key={r}
-                      className={`label-pill${activeRarities.has(r) ? ' label-pill--active' : ''}`}
-                      onClick={() => toggleRarity(r)}
-                      style={activeRarities.has(r) ? {
-                        borderColor: RARITY_VAR[r],
-                        color: RARITY_VAR[r],
-                        background: `color-mix(in srgb, ${RARITY_VAR[r]} 9%, transparent)`,
-                      } : undefined}
-                    >
-                      {RARITY_ICON[r]} {convert(RARITY_LABEL[lang]?.[r] ?? r)}
-                    </button>
-                  ))}
-                  {activeRarities.size > 0 && (
-                    <button
-                      className="label-pill label-pill--clear"
-                      onClick={() => setActiveRarities(new Set())}
-                    >
-                      ✕ {t('grid.clearLabels')}
-                    </button>
-                  )}
-                </div>
-              )}
-            </div>
-          </div>
-          <div style={{ display: 'flex', gap: 8, marginTop: 8, alignItems: 'flex-start' }}>
-            <ScopeToggle cityOnly={cityOnly} onChange={city => { setCityOnly(city); if (!city) setArea(null); }} style={{ flex: 1, minWidth: 0 }} />
-            {cityOnly && <AreaFilter area={area} onChange={setArea} style={{ flex: 1, minWidth: 0 }} />}
-          </div>
-          <p className="map-sidebar__count" style={{ marginTop: 8, color: 'var(--text-muted)' }}>
-            {t('grid.showing')} {filteredLocations.length}
-          </p>
-        </div>
-
-        {selected && !board ? (
-          <div style={{ padding: 0 }}>
-            <div style={{ padding: '12px 16px', borderBottom: '3px solid var(--border)', display: 'flex', justifyContent: 'flex-end' }}>
-              <button
-                style={{ background: 'none', border: 'none', color: 'var(--text-muted)', fontSize: 18, cursor: 'pointer' }}
-                onClick={() => setSelectedSlug(null)}
-              >✕</button>
-            </div>
-            <SidebarDetail
-              slug={selectedSlug}
-              onCheckIn={handleCheckIn}
-              onViewDetail={(slug) => navigate('/explore', { state: { openSlug: slug } })}
-            />
-          </div>
-        ) : (
-          <MapSidebarEmpty />
+          <>
+            {narrow && <button type="button" className="map-card__close" aria-label={t('areaGuide.close')} onClick={() => setInfoOpen(false)}>✕</button>}
+            {areaIntro}
+          </>
         )}
       </div>
+      )}
+
+      {phone && (
+        <div className="map-phone-actions">
+          <button type="button" className={`filter-btn${area ? ' filter-btn--active' : ''}`} onClick={() => setSheet('area')}>{t('explore.mapFilterLabel')}</button>
+          <button type="button" className="filter-btn" disabled={!hasIntro} onClick={() => setSheet('info')}>{t('map.areaIntro')}</button>
+          <button type="button" className="filter-btn" onClick={() => setSheet('near')}>{t('map.nearby')}</button>
+        </div>
+      )}
+      {phone && (sheet || selected) && (
+        <ExploreDrawer
+          onClose={closeSheet}
+          label={selected ? getLocName(selected, lang) : t('explore.mapFilterLabel')}
+          count={!selected && sheet === 'area' ? filteredLocations.length : undefined}
+        >
+          {selected ? (
+            <div className="map-sheet">
+              <div className="map-card">{cardDetail}</div>
+              {bottomBar}
+            </div>
+          ) : sheet === 'area' ? (
+            <>
+              {myArea && <MapHere here={myArea} onOpenGuide={setAreaGuide} />}
+              <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
+              <ExploreMap locations={locations} area={area} onArea={setArea} outside={!cityOnly} here={myArea} />
+              {chips}
+            </>
+          ) : sheet === 'info' ? areaIntro : bottomBar}
+        </ExploreDrawer>
+      )}
 
       {areaGuide && <AreaGuideModal kind={areaGuide.kind} value={areaGuide.value} locations={locations} onClose={() => setAreaGuide(null)} />}
 
@@ -386,22 +377,6 @@ export default function MapPage() {
           {toasts.map(t => <div key={t.id} className={`toast toast--${t.type}`}>{t.message}</div>)}
         </div>
       )}
-    </div>
-  );
-}
-
-function MapSidebarEmpty() {
-  const t = useT();
-  return (
-    <div className="map-sidebar__empty">
-      <img className="theme-dark-only" src="/pixel-art/app-logo-transparent.webp" alt="" style={{ width: '75%', height: 'auto', marginBottom: 12 }} />
-      <img className="theme-light-only" src="/app-logo-light.webp" alt="" style={{ width: '75%', height: 'auto', marginBottom: 12 }} />
-      <p className="map-sidebar__hint" style={{ lineHeight: 2 }}>
-        {t('map.clickMarker')}
-      </p>
-      <p className="map-sidebar__legend" style={{ marginTop: 12, color: 'var(--text-muted)' }}>
-        {t('map.legend')}
-      </p>
     </div>
   );
 }

@@ -13,12 +13,14 @@ const PRAGUE_CENTER = [50.0755, 14.4378];
 
 const ZOOM_RADIUS = { 10:5, 11:5, 12:5, 13:5, 14:5, 15:6, 16:8, 17:10, 18:10 };
 
+const TOUCH_RADIUS = 2; // a finger needs a bigger target
+
 function scaledRadius(zoom, isSelected) {
   const r = ZOOM_RADIUS[Math.min(Math.max(zoom, 10), 18)] ?? 3;
   return isSelected ? Math.min(r + 3, 13) : r;
 }
 
-function Markers({ locations, selectedSlug, onLocationClick, lang, convert, nightMap }) {
+function Markers({ locations, selectedSlug, onLocationClick, lang, convert, nightMap, touch }) {
   const map = useMap();
   const [zoom, setZoom] = useState(() => map.getZoom());
   // Rounded: ZOOM_RADIUS has whole levels, and fitting an area can stop between them.
@@ -36,13 +38,14 @@ function Markers({ locations, selectedSlug, onLocationClick, lang, convert, nigh
           <CircleMarker
             key={loc._id}
             center={[loc.coordinates.lat, loc.coordinates.lng]}
-            radius={scaledRadius(zoom, isSelected)}
+            radius={scaledRadius(zoom, isSelected) + (touch ? TOUCH_RADIUS : 0)}
             pathOptions={{
               color:       isSelected ? (nightMap ? '#FFD700' : '#fff') : color,
               fillColor:   fill,
               fillOpacity: loc.unlocked || nightMap ? 0.9 : 0.6,
               weight:      isSelected ? 3 : 2,
             }}
+            bubblingMouseEvents={false}
             eventHandlers={{ click: () => onLocationClick(loc.slug) }}
           >
             <Tooltip direction="top" offset={[0, -8]} opacity={0.95}>
@@ -111,7 +114,7 @@ const USER_ZOOM = 15;
 
 // The 2K layout's two ways of moving the view, top right. It opens on the whole city
 // and goes to the player only when asked, and only if they are inside the area in play.
-function ViewButtons({ cityOnly }) {
+function ViewButtons({ cityOnly, extra }) {
   const map = useMap();
   const t = useT();
   const userPos = useUserPosition();
@@ -129,6 +132,7 @@ function ViewButtons({ cityOnly }) {
       <button type="button" className="filter-btn" onClick={() => map.flyToBounds(PRAGUE_BOUNDS, { duration: 0.8 })}>
         {t('map.viewCity')}
       </button>
+      {extra && <button type="button" className="filter-btn" onClick={extra.onClick}>{extra.label}</button>}
     </div>
   );
 }
@@ -140,32 +144,16 @@ function Compass() {
   return <img className="map-compass" src="/map/compass.webp" alt="" onError={() => setMissing(true)} />;
 }
 
-function CenterOnUser({ cityOnly, follow = true }) {
-  const map = useMap();
-  const userPos = useUserPosition();
-  const [done, setDone] = useState(false);
+function AskForPosition() {
   // Signed-in users already have a position watcher (useProximityDetection);
   // guests don't, so ask once here. The result reaches useUserPosition
   // through the shared cache. Only with location consent: opening the map
   // doesn't bring up the consent dialog.
   useEffect(() => { if (hasLocationConsent()) getCurrentPosition().catch(() => {}); }, []);
-  useEffect(() => {
-    const stop = () => setDone(true);
-    map.on('dragstart', stop);
-    return () => { map.off('dragstart', stop); };
-  }, [map]);
-  useEffect(() => {
-    if (!follow || done || !userPos) return;
-    setDone(true);
-    const area = padBounds(cityOnly ? PRAGUE_BOUNDS : CZECHIA_BOUNDS, cityOnly ? 0.25 : 0.15);
-    const [[s, w], [n, e]] = area;
-    if (userPos.lat < s || userPos.lat > n || userPos.lng < w || userPos.lng > e) return;
-    map.setView([userPos.lat, userPos.lng], Math.max(map.getZoom(), USER_ZOOM));
-  }, [map, userPos, done, cityOnly, follow]);
   return null;
 }
 
-export default function MapView({ locations, selectedSlug, onLocationClick, cityOnly = false, vectorBase = false, children = null }) {
+export default function MapView({ locations, selectedSlug, onLocationClick, cityOnly = false, viewButton = null, touch = false, children = null }) {
   const { lang } = useLang();
   const convert = useConvert();
   const [vectorFailed, setVectorFailed] = useState(false);
@@ -176,26 +164,27 @@ export default function MapView({ locations, selectedSlug, onLocationClick, city
       center={PRAGUE_CENTER}
       zoom={13}
       style={{ height: '100%', width: '100%' }}
-      zoomControl={!vectorBase}
+      zoomControl={false}
     >
-      {vectorBase && !vectorFailed ? <MapVectorBase onFail={() => setVectorFailed(true)} /> : (
+      {!vectorFailed ? <MapVectorBase onFail={() => setVectorFailed(true)} /> : (
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
       )}
       <MapAreaLimit cityOnly={cityOnly} />
-      <CenterOnUser cityOnly={cityOnly} follow={!vectorBase} />
-      {vectorBase && <ViewButtons cityOnly={cityOnly} />}
-      {vectorBase && <Compass />}
-      {vectorBase && <ScaleControl position="bottomleft" imperial={false} />}
+      <AskForPosition />
+      <ViewButtons cityOnly={cityOnly} extra={viewButton} />
+      <Compass />
+      <ScaleControl position="bottomleft" imperial={false} />
       <Markers
         locations={locations}
         selectedSlug={selectedSlug}
         onLocationClick={onLocationClick}
         lang={lang}
         convert={convert}
-        nightMap={vectorBase && !vectorFailed && theme === 'dark'}
+        nightMap={!vectorFailed && theme === 'dark'}
+        touch={touch}
       />
       {children}
     </MapContainer>

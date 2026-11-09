@@ -8,7 +8,7 @@ import { AREA_BLURBS } from '../../utils/areaBlurbs';
 
 // One area's guide: its name, the player's progress there, and the sections,
 // or only the first (the overview) with `overviewOnly`.
-function AreaBlock({ kind, value, within, overviewOnly, compact, locations }) {
+function AreaBlock({ kind, value, within, overviewOnly, compact, locations, onPickLandmark }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -68,8 +68,10 @@ function AreaBlock({ kind, value, within, overviewOnly, compact, locations }) {
                   const got = user && l.unlocked;
                   return (
                     <li key={l.slug} className={`area-guide__landmark${got ? ' area-guide__landmark--got' : ''}`}>
-                      {got && <span aria-label={t('areaGuide.landmarkCollected')}>✓ </span>}
-                      {convert(getLocName(l, lang))}
+                      <button type="button" onClick={() => onPickLandmark?.(l)}>
+                        {got && <span aria-label={t('areaGuide.landmarkCollected')}>✓ </span>}
+                        {convert(getLocName(l, lang))}
+                      </button>
                     </li>
                   );
                 })}
@@ -86,13 +88,15 @@ function AreaBlock({ kind, value, within, overviewOnly, compact, locations }) {
 // quarter too, the district shrinks to its overview and the quarter gets the whole
 // guide. `compact` (a card is chosen, its details follow below): each area keeps
 // only its progress and one line.
-export default function MapAreaInfo({ district, quarter, locations, compact = false }) {
+export default function MapAreaInfo({ district, quarter, locations, compact = false, area = null, onPickLandmark }) {
   const t = useT();
   if (!district) return compact ? null : <div className="map-info__empty">{t('map.pickDistrictIntro')}</div>;
+  // Seen whole (`homeDistrict` instead of `district`), its progress counts every card.
+  const wholeQuarter = area?.kind === 'quarter' && area.value === quarter && !area.district;
   return (
     <div className={`area-guide map-info${compact ? ' map-info--compact' : ''}`} key={`${district}|${quarter ?? ''}|${compact}`}>
-      <AreaBlock kind="district" value={district} overviewOnly={!!quarter} compact={compact} locations={locations} />
-      {quarter && <AreaBlock kind="quarter" value={quarter} within={district} compact={compact} locations={locations} />}
+      <AreaBlock kind="district" value={district} overviewOnly={!!quarter} compact={compact} locations={locations} onPickLandmark={onPickLandmark} />
+      {quarter && <AreaBlock kind="quarter" value={quarter} within={wholeQuarter ? null : district} compact={compact} locations={locations} onPickLandmark={onPickLandmark} />}
     </div>
   );
 }

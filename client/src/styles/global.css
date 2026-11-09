@@ -290,9 +290,6 @@ html:not([data-lang="zh"]) .label-pill-sm,
 html:not([data-lang="zh"]) .filter-bar__search,
 html:not([data-lang="zh"]) .filter-btn,
 html:not([data-lang="zh"]) .explore-stats,
-html:not([data-lang="zh"]) .map-sidebar__count,
-html:not([data-lang="zh"]) .map-sidebar__hint,
-html:not([data-lang="zh"]) .map-sidebar__legend,
 html:not([data-lang="zh"]) .guide-h2,
 html:not([data-lang="zh"]) .guide-h3,
 /* .detail-desc.detail-desc--teaser (not just .detail-desc--teaser alone):
@@ -710,7 +707,6 @@ html:not([data-lang="zh"]) .history-sidebar__item-year {
 html:not([data-lang="zh"]) .filter-bar__search,
 html:not([data-lang="zh"]) .filter-btn,
 html:not([data-lang="zh"]) .explore-stats,
-html:not([data-lang="zh"]) .map-sidebar__count,
 html:not([data-lang="zh"]) .guide-h2 {
   font-weight: 700;
 }
@@ -1210,7 +1206,6 @@ html:not([data-lang="zh"]) :is(#root, body) .loc-card__name,
 html:not([data-lang="zh"]) :is(#root, body) .card-preview__name,
 html:not([data-lang="zh"]) :is(#root, body) .detail-title-name,
 html:not([data-lang="zh"]) :is(#root, body) .card-strip__name,
-html:not([data-lang="zh"]) :is(#root, body) .map-page .map-sidebar h3.px-title,
 html:not([data-lang="zh"]) :is(#root, body) .map-page .map-card h3.px-title,
 html:not([data-lang="zh"]) :is(#root, body) .map-page .map-tile__name,
 html:not([data-lang="zh"]) :is(#root, body) .map-page .map-ach__name {

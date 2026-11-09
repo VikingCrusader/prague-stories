@@ -72,6 +72,24 @@ export function quarterLines(data, quarterName, districtName) {
   }));
 }
 
+// The districts a quarter really lies in: those holding at least `minShare` of it,
+// so a sliver over a border doesn't count.
+export function quarterSpread(data, quarterName, minShare = 0.05) {
+  const quarter = data.quarters.find(q => q.name === quarterName);
+  if (!quarter) return [];
+  const box = rings => {
+    const pts = rings.flat();
+    const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]);
+    return { w: Math.min(...xs), e: Math.max(...xs), s: Math.min(...ys), n: Math.max(...ys) };
+  };
+  const q = box(quarter.rings);
+  const parts = data.districts
+    .filter(d => { const b = box(d.rings); return b.w <= q.e && b.e >= q.w && b.s <= q.n && b.n >= q.s; })
+    .map(d => ({ district: d.name, area: quartersInDistrict(data, d.name).find(p => p.name === quarterName)?.area ?? 0 }));
+  const total = parts.reduce((sum, p) => sum + p.area, 0);
+  return parts.filter(p => total && p.area / total >= minShare).map(p => p.district);
+}
+
 let loadingCity = null;
 export function loadPragueCity() {
   if (!loadingCity) loadingCity = import('./pragueCity.json').then(m => m.default);
@@ -117,6 +135,7 @@ export function quartersInDistrict(data, districtName) {
     name,
     rings: h.rings,
     share: h.count / total,
+    area: h.count * dx * dy,
     center: [h.sx / h.count, h.sy / h.count],
     width: h.e - h.w + dx,
     bounds: [[h.s - dy / 2, h.w - dx / 2], [h.n + dy / 2, h.e + dx / 2]],

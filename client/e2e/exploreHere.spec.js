@@ -48,3 +48,34 @@ test.describe('Explore header without a position', () => {
     await expect(page.locator('.explore-here')).toHaveCount(0);
   });
 });
+
+test.describe('a landmark in the area guide pop-up', () => {
+  test.use({ viewport: { width: 2560, height: 1300 }, permissions: ['geolocation'], geolocation: { latitude: 50.075, longitude: 14.44 } });
+  const CARD = { ...LOC, _id: '2', name: 'Peace Square', slug: 'namesti-miru', quarter: 'Vinohrady', district: 'Praha 2', labels: ['square'] };
+  const openGuide = async (page, path) => {
+    await page.route('**/api/locations/namesti-miru', route => route.fulfill({ json: { ...CARD, description: { en: 'A square with a church.', cz: 'x', zh: 'x' } } }));
+    await page.addInitScript(() => { localStorage.setItem('lang', 'en'); localStorage.setItem('token', 'fake-jwt-token'); });
+    await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
+    await page.route('**/api/locations', route => route.fulfill({ json: [CARD] }));
+    await page.goto(path);
+    await page.locator('.explore-here__part').last().click();
+    await page.locator('.area-guide-overlay .area-guide__landmark button').filter({ hasText: 'Peace Square' }).click();
+    await expect(page.getByText('A square with a church.')).toBeVisible();
+  };
+  const closeCard = page => page.locator('.area-guide-detail .px-modal__close').click();
+
+  test('on Explore it replaces the guide', async ({ page }) => {
+    await openGuide(page, '/explore');
+    await expect(page.locator('.area-guide__title')).toHaveCount(0);
+    await closeCard(page);
+    await expect(page.getByText('A square with a church.')).toHaveCount(0);
+    await expect(page.locator('.area-guide__title')).toHaveCount(0);
+  });
+
+  test('elsewhere it opens on top of the guide', async ({ page }) => {
+    await openGuide(page, '/map');
+    await page.getByText('A square with a church.').click(); // reachable, so on top
+    await closeCard(page);
+    await expect(page.locator('.area-guide-overlay .area-guide__title')).toHaveText('Vinohrady');
+  });
+});

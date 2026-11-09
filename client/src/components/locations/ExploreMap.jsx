@@ -34,7 +34,17 @@ export default function ExploreMap({ locations, area, onArea, outside, here, fol
   const convert = useConvert();
   const [mode, setMode] = useState('district');
   // A filter set from elsewhere (the area card) shows on the matching map.
-  useEffect(() => { if (area?.kind === 'district' || area?.kind === 'quarter') setMode(area.kind); }, [area]);
+  useEffect(() => { if (area?.kind === 'quarter') setMode('quarter'); }, [area]);
+  // The district in play: its quarters replace the whole city in the quarter view.
+  const parentDistrict = area?.kind === 'district' ? area.value : area?.kind === 'quarter' ? area.district ?? area.homeDistrict ?? null : null;
+  const changeMode = (next) => {
+    setMode(next);
+    if (next === 'quarter' && area?.kind === 'district') return;
+    onArea(next === 'district' && parentDistrict ? { kind: 'district', value: parentDistrict } : null);
+  };
+  const pickQuarter = (name) => onArea(area?.kind === 'quarter' && area.value === name
+    ? { kind: 'district', value: parentDistrict }
+    : { kind: 'quarter', value: name, district: parentDistrict });
   const [foldedPref, setFolded] = useState(readFolded);
   const folded = foldable && foldedPref;
   const toggleFold = () => {
@@ -70,7 +80,15 @@ export default function ExploreMap({ locations, area, onArea, outside, here, fol
           own
           showToggle={showToggle}
           mode={mode}
-          onModeChange={(next) => { setMode(next); onArea(null); }}
+          onModeChange={changeMode}
+          focusDistrict={mode === 'quarter' && parentDistrict ? {
+            district: parentDistrict,
+            selected: area?.kind === 'quarter' ? area.value : null,
+            locations,
+            onPick: pickQuarter,
+            area,
+            onArea,
+          } : null}
           toggleLabel={t('explore.mapFilterLabel')}
           selected={marked}
           onSelect={(name) => onArea(name === selected ? null : { kind: mode, value: name })}

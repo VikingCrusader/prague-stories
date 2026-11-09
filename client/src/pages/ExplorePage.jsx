@@ -36,7 +36,7 @@ export default function ExplorePage() {
   const { lang } = useLang();
   const convert = useConvert();
   const { user, guest } = useAuth();
-  const { state, search } = useLocation();
+  const { state, search, key: locationKey } = useLocation();
   const navigate = useNavigate();
   const wide = useMedia(EXPLORE_SIDE_QUERY);
   // Phones have no room beside the count: their level bar sits under the title.
@@ -84,10 +84,12 @@ export default function ExplorePage() {
   const [toasts, setToasts]             = useState([]);
   // Filters to open with, from a link's state (the profile's expedition
   // strip sends { showAll: true, rarity: 'expedition' } from its empty
-  // nudge); read once.
-  const [initialFilter] = useState(() => (state?.rarity || state?.label
+  // nudge, an achievement's label or rarity sends that filter). A new link while
+  // already here starts the grid afresh (its `key` below).
+  const initialFilter = useMemo(() => (state?.rarity || state?.label
     ? { rarity: state.rarity ?? null, label: state.label ?? null }
-    : null));
+    : null), [state?.rarity, state?.label]);
+  useEffect(() => { if (state?.showAll) setCityOnly(false); }, [state?.showAll, locationKey]);
 
   // Refetched when the signed-in user changes, e.g. when a sign-in that
   // was retried in the background (AuthContext) lands after the first load.
@@ -454,6 +456,7 @@ export default function ExplorePage() {
   );
   const grid = (
     <LocationGrid
+      key={initialFilter ? locationKey : 'grid'}
       locations={sortedLocations}
       collectionLocations={collectionLocations}
       onCardClick={handleCardClick}

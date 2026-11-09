@@ -56,6 +56,13 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
   const [fetched, setFetched] = useState(null);
   const [wide, setWide] = useState(() => window.matchMedia(SPLIT_QUERY).matches);
   const [openSlug, setOpenSlug] = useState(null);
+  // On Explore a landmark replaces the guide (user's call): the guide is gone for
+  // good once its card is open. Elsewhere the card lies on top of the guide.
+  const [replacedByCard, setReplacedByCard] = useState(false);
+  const openLandmark = (slug) => {
+    if (window.location.pathname === '/explore') setReplacedByCard(true);
+    setOpenSlug(slug);
+  };
   const [expanded, setExpanded] = useState(false);
   const modalRef = useRef(null);
   const split = withCollection && wide;
@@ -168,8 +175,10 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
                   const got = user && l.unlocked;
                   return (
                     <li key={l.slug} className={`area-guide__landmark${got ? ' area-guide__landmark--got' : ''}`}>
-                      {got && <span aria-label={t('areaGuide.landmarkCollected')}>✓ </span>}
-                      {convert(getLocName(l, lang))}
+                      <button type="button" onClick={() => openLandmark(l.slug)}>
+                        {got && <span aria-label={t('areaGuide.landmarkCollected')}>✓ </span>}
+                        {convert(getLocName(l, lang))}
+                      </button>
                     </li>
                   );
                 })}
@@ -190,6 +199,7 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
     // React events bubble out of a portal to the component that rendered it,
     // so clicks stop here instead of reaching (and closing) a detail overlay.
     <>
+      {!replacedByCard && (
       <div className={`px-overlay area-guide-overlay${withCollection ? ' area-guide-overlay--profile' : ''}${stacked ? ' area-guide-overlay--stacked' : ''}`} onClick={e => { e.stopPropagation(); onClose(); }}>
         <div ref={modalRef} className={`px-modal area-guide${split ? ' area-guide--split' : ''}${stacked ? ' area-guide--stacked' : ''}`} onClick={e => e.stopPropagation()} role="dialog" aria-label={convert(title)}>
           <button className="px-modal__close" onClick={onClose} aria-label={t('areaGuide.close')}>✕</button>
@@ -206,8 +216,9 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
           ) : guide}
         </div>
       </div>
+      )}
       {/* After the overlay in the DOM and on its level, so on top of it. */}
-      {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
+      {openSlug && <div className="area-guide-detail"><LocationDetail slug={openSlug} onClose={() => { setOpenSlug(null); if (replacedByCard) onClose(); }} /></div>}
     </>,
     document.body,
   );

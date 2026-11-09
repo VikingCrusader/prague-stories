@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { useAuth } from '../../context/AuthContext';
 import { userAPI } from '../../services/api';
@@ -11,8 +12,6 @@ import { achField } from '../../utils/achievementText';
 import { RARITY_ORDER } from '../locations/LocationGrid';
 import AchievementIcon from '../achievements/AchievementIcon';
 import AchievementModal from '../achievements/AchievementModal';
-
-const MAX_TILES = 6; // as many as fit across the bar on a 2K screen
 
 const byRarity = (a, b) => (RARITY_ORDER[a.rarity] ?? 4) - (RARITY_ORDER[b.rarity] ?? 4) || (b.xpReward ?? 0) - (a.xpReward ?? 0);
 const distanceFrom = (point, l) => haversineDistance(point.lat, point.lng, l.coordinates.lat, l.coordinates.lng);
@@ -72,8 +71,8 @@ function CardRow({ title, items, emptyText, onPick }) {
 
 // The bar under the map on a 2K screen. With no card chosen: the cards still to
 // collect within the filters, in the page's sort order. With a card chosen: the
-// achievements it counts for, or, without any, the uncollected places near it.
-export default function MapBottomBar({ filtered, selected, sort, userPos, collectedCount, onPick }) {
+// achievements it counts for, with uncollected places near it filling the rest of the row.
+export default function MapBottomBar({ filtered, selected, sort, userPos, collectedCount, maxTiles, onPick }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -102,8 +101,8 @@ export default function MapBottomBar({ filtered, selected, sort, userPos, collec
     if (sort === 'distance' && userPos) withDistance.sort((a, b) => a.distance - b.distance);
     else if (sort === 'newest') withDistance.sort((a, b) => new Date(b.location.createdAt) - new Date(a.location.createdAt));
     else withDistance.sort((a, b) => byRarity(a.location, b.location));
-    return withDistance.slice(0, MAX_TILES);
-  }, [todo, sort, userPos]);
+    return withDistance.slice(0, maxTiles);
+  }, [todo, sort, userPos, maxTiles]);
 
   const nearCard = useMemo(() => {
     if (!selected) return [];
@@ -111,8 +110,12 @@ export default function MapBottomBar({ filtered, selected, sort, userPos, collec
       .filter(l => l.slug !== selected.slug)
       .map(location => ({ location, distance: distanceFrom(selected.coordinates, location) }))
       .sort((a, b) => a.distance - b.distance)
-      .slice(0, MAX_TILES);
-  }, [todo, selected]);
+      .slice(0, maxTiles);
+  }, [todo, selected, maxTiles]);
+
+  // Few related achievements: the rest of the row goes to places nearby.
+  const shownRelated = related.slice(0, maxTiles);
+  const fillers = nearCard.slice(0, maxTiles - shownRelated.length);
 
   let body;
   if (!selected) {
@@ -124,10 +127,13 @@ export default function MapBottomBar({ filtered, selected, sort, userPos, collec
     body = <CardRow title={t('map.stripNearCard')} items={nearCard} emptyText={t('map.stripEmpty')} onPick={onPick} />;
   } else {
     body = (
-      <>
-        <h2 className="px-title profile-card-title map-bottom__title">{t('map.relatedAchievements')}</h2>
-        <div className="map-row">
-          {related.slice(0, MAX_TILES).map(a => (
+      // One grid, so the second title starts exactly above the first nearby place.
+      <div className="map-split">
+        <h2 className="px-title profile-card-title map-bottom__title" style={{ gridColumn: `1 / span ${shownRelated.length}` }}>{t('map.relatedAchievements')}</h2>
+        {fillers.length > 0 && (
+          <h2 className="px-title profile-card-title map-bottom__title" style={{ gridColumn: `${shownRelated.length + 1} / span ${maxTiles - shownRelated.length}` }}>{t('map.stripNearCard')}</h2>
+        )}
+        {shownRelated.map(a => (
             <button key={a.id} type="button" className="map-ach" onClick={() => setOpenAch(a)}>
               <span className="map-ach__inner">
                 <span className={`ach-icon${a.unlocked ? '' : ' ach-icon--locked'}`} data-difficulty={a.difficulty}><AchievementIcon achievement={a} /></span>
@@ -141,16 +147,16 @@ export default function MapBottomBar({ filtered, selected, sort, userPos, collec
                 </span>
               </span>
             </button>
-          ))}
-        </div>
-      </>
+        ))}
+        {fillers.map(({ location, distance }) => <CardTile key={location.slug} location={location} distance={distance} onPick={onPick} />)}
+      </div>
     );
   }
 
   return (
     <div className="map-bottom">
       {body}
-      {openAch && <AchievementModal achievement={openAch} onClose={() => setOpenAch(null)} />}
+      {openAch && createPortal(<AchievementModal achievement={openAch} onClose={() => setOpenAch(null)} />, document.body)}
     </div>
   );
 }

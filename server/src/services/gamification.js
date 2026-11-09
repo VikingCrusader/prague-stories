@@ -1212,7 +1212,7 @@ export const ACHIEVEMENTS = [
     description_zh: "收集20张“神话”稀有度的卡片。",
     difficulty: "hard",
     check: ({ rarityCount = {} }) => (rarityCount.mythic || 0) >= 20,
-    progress: ({ rarityCount = {} }) => ({ current: rarityCount.mythic || 0, target: 20 }),
+    progress: ({ rarityCount = {} }) => ({ current: rarityCount.mythic || 0, target: 20, countsRarity: "mythic" }),
   },
   {
     id: "angel_in_white",
@@ -2307,7 +2307,7 @@ export const ACHIEVEMENTS = [
     description_zh: "收集5张“传说”卡片。",
     difficulty: "easy",
     check: ({ rarityCount = {} }) => (rarityCount.legend || 0) >= 5,
-    progress: ({ rarityCount = {} }) => ({ current: rarityCount.legend || 0, target: 5 }),
+    progress: ({ rarityCount = {} }) => ({ current: rarityCount.legend || 0, target: 5, countsRarity: "legend" }),
   },
   {
     id: "they_glow_at_night",
@@ -2646,7 +2646,7 @@ export const ACHIEVEMENTS = [
     description_zh: "收集200张“常见”卡片。",
     difficulty: "extreme",
     check: ({ rarityCount = {} }) => (rarityCount.common || 0) >= 200,
-    progress: ({ rarityCount = {} }) => ({ current: rarityCount.common || 0, target: 200 }),
+    progress: ({ rarityCount = {} }) => ({ current: rarityCount.common || 0, target: 200, countsRarity: "common" }),
   },
   {
     id: "reaching_for_the_sky",

@@ -195,6 +195,11 @@
   color: var(--text-muted);
 }
 .ach-places__item { display: flex; gap: 8px; align-items: baseline; }
+.ach-places__open { padding: 0; border: 0; background: none; color: inherit; font: inherit; text-align: left; text-decoration: none; cursor: pointer; }
+.ach-places__open:hover { color: var(--gold); }
+.ach-modal .ach-filter-link { color: inherit; text-decoration: none; }
+.ach-modal .ach-filter-link:hover { color: var(--gold); }
+.ach-modal .ach-filter-link--gold { color: var(--gold); }
 .ach-places__item--done { color: var(--text-primary); }
 .ach-places__item--done .ach-places__mark { color: var(--gold); }
 .ach-places--rarities { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }

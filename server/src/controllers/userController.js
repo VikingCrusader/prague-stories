@@ -695,13 +695,14 @@ export async function getAchievements(req, res, next) {
       const out = achievementEntry(ach, earned, rates);
       out.historyEvents = (ACHIEVEMENT_HISTORY_EVENTS[ach.id] || []).map(slug => historyBySlug.get(slug)).filter(Boolean);
       if (stats) {
-        const { current, target, slugs: list, picks, quarter, rarities, district, labels, note, unit, counts, countsLabel } = ach.progress(stats);
+        const { current, target, slugs: list, picks, quarter, rarities, district, labels, note, unit, counts, countsLabel, countsRarity } = ach.progress(stats);
         // The real count, even past the target (533 / 54), user's call 2026-11-02;
         // the client caps only the bar.
         out.progress = { current, target };
         if (labels) out.progress.labels = labels;
         if (counts) out.progress.counts = counts;
         if (countsLabel) out.progress.countsLabel = countsLabel;
+        if (countsRarity) out.progress.countsRarity = countsRarity;
         if (note) out.progress.note = note;
         if (unit) out.progress.unit = unit;
         if (district) out.progress.district = district;

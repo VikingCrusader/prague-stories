@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import LocationDetail from '../locations/LocationDetail';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { quarterName } from '../../utils/pragueQuarters';
@@ -17,7 +19,21 @@ export default function AchievementModal({ achievement: ach, onClose }) {
   const convert = useConvert();
   const text = field => convert(achField(ach, field, lang));
   const p = ach.progress;
+  const [openSlug, setOpenSlug] = useState(null);
   const pct = p ? Math.min(100, Math.round((p.current / p.target) * 100)) : 0;
+  // A label or rarity leads to the Explore cards it counts; no underline (user's call).
+  const toExplore = (filter, content, className = '') => (
+    <Link
+      className={`ach-filter-link${className}`}
+      to="/explore"
+      state={{ ...filter, showAll: filter.rarity === 'expedition' || filter.label === 'outside' }}
+      onClick={onClose}
+    >
+      {content}
+    </Link>
+  );
+  const labelText = l => `${LABEL_DEFINITIONS[l]?.emoji || ''} ${convert(LABEL_DEFINITIONS[l]?.[lang] || LABEL_DEFINITIONS[l]?.en || l)}`.trim();
+  const rarityText = r => convert((RARITY_LABEL[lang] || RARITY_LABEL.en)[r]);
   const renderPlaces = list => (
     <ul className="ach-places">
       {list.map(pl => (
@@ -25,13 +41,14 @@ export default function AchievementModal({ achievement: ach, onClose }) {
           <span className="ach-places__mark" aria-hidden="true">{pl.done ? '✓' : '○'}</span>
           {pl.missing
             ? <span className="ach-places__missing">{pl.slug} · {t('ach.noCard')}</span>
-            : <span>{convert(getLocName(pl, lang))}</span>}
+            : <button type="button" className="ach-places__open" onClick={() => setOpenSlug(pl.slug)}>{convert(getLocName(pl, lang))}</button>}
         </li>
       ))}
     </ul>
   );
 
   return (
+    <>
     <div className="px-overlay" onClick={onClose}>
       <div
         className={`px-modal ach-modal${ach.unlocked ? ' ach-modal--unlocked' : ''}`}
@@ -70,6 +87,16 @@ export default function AchievementModal({ achievement: ach, onClose }) {
               <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${pct}%` }} /></span>
               <span className="ach-progress__count">{p.current} / {p.target}{p.unit ? ` ${p.unit}` : ''}</span>
             </div>
+            {p.countsLabel && (
+              <div className="ach-modal__sublabel" style={{ marginTop: 8 }}>
+                {toExplore({ label: p.countsLabel }, t('ach.seeCards', { name: labelText(p.countsLabel) }), ' ach-filter-link--gold')}
+              </div>
+            )}
+            {p.countsRarity && (
+              <div className="ach-modal__sublabel" style={{ marginTop: 8 }}>
+                {toExplore({ rarity: p.countsRarity }, t('ach.seeCards', { name: rarityText(p.countsRarity) }), ' ach-filter-link--gold')}
+              </div>
+            )}
             {p.note && (
               <div className="ach-modal__sublabel" style={{ marginTop: 8 }}>
                 {t('ach.closest', { name: convert(p.note[lang] || p.note.en) })}
@@ -79,7 +106,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
               <div className="ach-modal__quarter" key={c.label}>
                 <div className="ach-modal__sublabel">
                   {/* "a|b": one bar for cards with either label (Art Lover) */}
-                  {c.label.split('|').map(l => `${LABEL_DEFINITIONS[l]?.emoji || ''} ${convert(LABEL_DEFINITIONS[l]?.[lang] || LABEL_DEFINITIONS[l]?.en || l)}`.trim()).join(' / ')}
+                  {c.label.split('|').map((l, i) => <span key={l}>{i > 0 && ' / '}{toExplore({ label: l }, labelText(l))}</span>)}
                 </div>
                 <div className="ach-progress">
                   <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${Math.min(100, Math.round((c.current / c.target) * 100))}%` }} /></span>
@@ -92,7 +119,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
                 {p.labels.map(l => (
                   <li key={l.label} className={`ach-places__item${l.done ? ' ach-places__item--done' : ''}`}>
                     <span className="ach-places__mark" aria-hidden="true">{l.done ? '✓' : '○'}</span>
-                    <span>{LABEL_DEFINITIONS[l.label]?.emoji} {convert(LABEL_DEFINITIONS[l.label]?.[lang] || LABEL_DEFINITIONS[l.label]?.en || l.label)}</span>
+                    {toExplore({ label: l.label }, labelText(l.label))}
                   </li>
                 ))}
               </ul>
@@ -116,7 +143,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
                 {p.rarities.map(r => (
                   <li key={r.rarity} className={`ach-places__item${r.done ? ' ach-places__item--done' : ''}`}>
                     <span className="ach-places__mark" aria-hidden="true">{r.done ? '✓' : '○'}</span>
-                    <span><span style={{ color: RARITY_VAR[r.rarity] }}>{RARITY_ICON[r.rarity]}</span> {convert((RARITY_LABEL[lang] || RARITY_LABEL.en)[r.rarity])}</span>
+                    {toExplore({ rarity: r.rarity }, <><span style={{ color: RARITY_VAR[r.rarity] }}>{RARITY_ICON[r.rarity]}</span> {rarityText(r.rarity)}</>)}
                   </li>
                 ))}
               </ul>
@@ -155,5 +182,8 @@ export default function AchievementModal({ achievement: ach, onClose }) {
         )}
       </div>
     </div>
+    {/* After the overlay and on its level, so on top of it. */}
+    {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
+    </>
   );
 }

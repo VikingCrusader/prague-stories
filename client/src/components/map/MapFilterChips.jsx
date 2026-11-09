@@ -21,7 +21,10 @@ export default function MapFilterChips({ area, onArea, search, onClearSearch, la
     const district = area.kind === 'district' ? area.value : area.district;
     if (district) chips.push({ key: 'district', text: convert(t('detail.district', { n: district.slice(6) })), clear: () => onArea(null) });
     if (area.kind === 'quarter') {
-      chips.push({ key: 'quarter', text: convert(quarterName(area.value, lang)), clear: () => onArea(district ? { kind: 'district', value: district } : null) });
+      chips.push({ key: 'quarter', text: convert(quarterName(area.value, lang)), clear: () => {
+        const back = district ?? area.homeDistrict;
+        onArea(back ? { kind: 'district', value: back } : null);
+      } });
     }
   }
   for (const label of labels) {
