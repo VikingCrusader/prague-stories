@@ -20,7 +20,7 @@ export default function DeckShuffle() {
         const role = i === CARDS - 1 ? 'drawn' : i % 2 ? 'right' : 'left';
         return (
           <div key={i} className={`deck-shuffle__card deck-shuffle__card--${role}`} style={{ '--i': i }}>
-            <img src="/pixel-art/cardback.webp" alt="" draggable={false} />
+            <img src="/brand/hunt-back.webp" alt="" draggable={false} />
           </div>
         );
       })}

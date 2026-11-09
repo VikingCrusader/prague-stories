@@ -113,8 +113,6 @@ function PackCard({ pack, onClick, holdable = true, showcase = false, story = nu
 // and the emblem printed over it (public/pixel-art/pack-emblem.webp, gold on
 // transparent so it suits every colour).
 export function PackBack({ pack }) {
-  const { lang } = useLang();
-  const convert = useConvert();
   const [emblemFailed, setEmblemFailed] = useState(false);
   return (
     <div className={`loc-card pack-card pack-back pack-card--${packState(pack)}`} style={pack.foil ? { '--foil': pack.foil } : undefined}>
@@ -124,7 +122,6 @@ export function PackBack({ pack }) {
         <div className="pack-back__print">
           {!emblemFailed && <img className="pack-back__emblem" src="/pixel-art/pack-emblem.webp" alt="" draggable={false} onError={() => setEmblemFailed(true)} />}
           <div className="pack-back__mark">Prague Stories</div>
-          <div className="pack-back__name">{convert(getLocName(pack, lang))}</div>
         </div>
         <div className="pack-card__sheen" aria-hidden="true" />
       </div>

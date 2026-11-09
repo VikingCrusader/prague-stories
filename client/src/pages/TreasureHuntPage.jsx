@@ -284,7 +284,7 @@ export default function TreasureHuntPage() {
                   <div className="flip-card__inner">
                     <div className="flip-card__face flip-card__face--back">
                       <div className="draw-card draw-card--mystery draw-card--mystery-img">
-                        <img className="draw-card__mystery-img" src="/pixel-art/cardback.webp" alt="???" />
+                        <img className="draw-card__mystery-img" src="/brand/hunt-back.webp" alt="???" />
                       </div>
                     </div>
                     <div className="flip-card__face flip-card__face--front">

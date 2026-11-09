@@ -876,7 +876,7 @@ html:not([data-lang="zh"]) .navbar__logo {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
-  .navbar.navbar--user .navbar__right { align-items: flex-end; }
+  .navbar.navbar--user .navbar__right { align-items: center; }
   html[data-lang="en"] .navbar--user .navbar__right .lang-tabs { height: calc(min(7vw, 30px) * 0.84); }
   html[data-lang="cz"] .navbar--user .navbar__right .lang-tabs { height: calc(min(6.2vw, 28px) * 0.84); }
   html[data-lang="zh"] .navbar--user .navbar__right .lang-tabs { height: calc(min(5.4vw, 26px) * 0.84); }

@@ -9,9 +9,9 @@
   "theme_color": "#ffd700",
   "icons": [
     {
-      "src": "/pixel-art/app-logo.webp",
-      "sizes": "any",
-      "type": "image/webp",
+      "src": "/brand/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]

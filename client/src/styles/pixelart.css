@@ -1253,7 +1253,7 @@ html[data-lang="zh"] .label-filter__group-title { font-size: 13px; letter-spacin
 }
 .navbar__logo {
   display: inline-flex;
-  align-items: flex-end;
+  align-items: center;
   gap: 8px;
   font-family: var(--ui-font-text);
   font-size: 17px;
@@ -1263,9 +1263,22 @@ html[data-lang="zh"] .label-filter__group-title { font-size: 13px; letter-spacin
   text-decoration: none;
 }
 .navbar__logo:hover { text-decoration: none; }
-.navbar__logo-icon { height: 48px; width: auto; flex-shrink: 0; }
-/* Show an element on one theme only (e.g. the gold logo on dark, its
-   wine-red copy /app-logo-light.webp on light). */
+/* 44px: with the navbar's bottom-aligned row this leaves the same gap above and below. */
+.navbar__logo-icon { height: 44px; width: auto; flex-shrink: 0; }
+/* The logo takes the wordmark's colour and shadow: the shadow on the box, because
+   a filter on the masked element itself would be cut away by its mask. */
+/* `top`: the blackletter letters sit a little below the middle of their line, so the logo follows them. */
+.navbar__logo-mark { display: block; position: relative; top: 0.045em; aspect-ratio: 1; filter: drop-shadow(1px 1px 0 var(--shadow)); }
+.navbar__logo-mark::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: currentColor;
+  -webkit-mask: url('/brand/app-mark-mask.webp') center / contain no-repeat;
+  mask: url('/brand/app-mark-mask.webp') center / contain no-repeat;
+}
+/* Show an element on one theme only. */
 :root:not([data-theme="light"]) .theme-light-only,
 :root[data-theme="light"] .theme-dark-only { display: none !important; }
 .navbar__links { display: flex; gap: 8px; margin-left: 16px; }
@@ -2595,6 +2608,7 @@ html[data-lang="zh"] .detail-title-name {
   /* No GitHub link on phones, so the logo and the right cluster fit on
      one row instead of the cluster wrapping under a lonely logo. */
   .navbar { column-gap: 8px; }
+  .navbar { align-items: center; }
   .navbar__right { order: 2; margin-left: auto; gap: 4px; flex-wrap: nowrap; }
   .navbar .navbar__right .lang-tab { padding: 5px 5px; letter-spacing: 0 !important; }
   html[data-lang="zh"] .navbar .navbar__right .lang-tab { font-size: 12px !important; }
@@ -2658,8 +2672,11 @@ html[data-lang="zh"] .detail-title-name {
   .filter-bar__top { flex-wrap: wrap; }
   .filter-bar__top > .filter-bar__search { flex: 1 1 100%; }
   .filter-bar__scope { flex: 1 1 100%; }
-  .filter-bar__scope .scope-controls { flex: 1; align-items: stretch; }
-  .filter-bar__scope .scope-controls > * { flex: 1 1 0; min-width: 0; }
+  /* The same two columns as the rows of filters below. */
+  .filter-bar__scope .scope-controls { flex: 1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; }
+  .filter-bar__scope .scope-controls > * { min-width: 0; }
+  .filter-bar__scope .scope-controls > :only-child { grid-column: 1 / -1; }
+  .filter-bar__scope .scope-toggle { width: 100%; }
   .filter-bar__scope .area-filter { display: flex; }
   .filter-bar__search { min-width: 0; }
   /* The dropdown wrappers drop out of the layout (display: contents), so
@@ -2894,7 +2911,8 @@ html[data-lang="zh"] .detail-title-name {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  box-shadow: 0 0 36px rgba(255, 215, 0, 0.3), 0 6px 24px rgba(0, 0, 0, 0.6);
+  /* The same glow as the front, in the card's rarity colour. */
+  box-shadow: 0 0 36px color-mix(in srgb, var(--rc, #fff) 45%, transparent), 0 6px 24px rgba(0, 0, 0, 0.6);
   -webkit-user-drag: none;
   user-select: none;
 }

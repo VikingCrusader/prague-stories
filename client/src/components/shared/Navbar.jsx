@@ -17,10 +17,8 @@ export default function Navbar() {
   return (
     <nav className={`navbar${user ? ' navbar--user' : ''}`}>
       <span className="navbar__logo" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
-        {/* Gold logo on the dark theme, wine-red copy on the light theme;
-            CSS shows one or the other (pixelart.css). */}
-        <img className="navbar__logo-icon theme-dark-only" src="/pixel-art/app-logo-transparent.webp" alt="" />
-        <img className="navbar__logo-icon theme-light-only" src="/app-logo-light.webp" alt="" />
+        {/* A shape filled with the wordmark's own colour, so the two match on every theme. */}
+        <span className="navbar__logo-icon navbar__logo-mark" aria-hidden="true" />
         {/* Chinese keeps the English blackletter wordmark (no Chinese face
             matches it); the page title etc. still use appName. */}
         {lang === 'zh' ? 'Prague Stories' : t('appName')}

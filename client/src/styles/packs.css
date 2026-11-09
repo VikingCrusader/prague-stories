@@ -308,5 +308,4 @@
 }
 .pack-back__print { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 0 16px; text-align: center; }
 .pack-back__emblem { display: block; width: 76%; height: auto; filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.55)); }
-:is(#root, body) .pack-back__mark { font-family: "Manufacturing Consent", serif; font-size: 34px; line-height: 1.1; color: var(--pack-gold); text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7); }
-.pack-back__name { color: #f8e8b8; font-size: 15px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75); }
+:is(#root, body) .pack-back__mark { font-family: "Manufacturing Consent", serif !important; font-size: 34px; line-height: 1.1; color: var(--pack-gold); text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7); }

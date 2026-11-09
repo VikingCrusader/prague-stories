@@ -4,6 +4,7 @@ import LocationCard from './LocationCard';
 import PackCard, { PackBack } from '../packs/PackCard';
 import { locationAPI, packAPI } from '../../services/api';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
+import { RARITY_VAR } from '../../utils/rarity';
 
 // The card's box before scaling: the grid card's width with the draw page's
 // 644:912 card proportions (see .card-showcase__card in pixelart.css).
@@ -198,7 +199,7 @@ export default function CardShowcase({ location, pack, openedBy = 'mouse', onClo
               : <LocationCard location={location} onClick={() => {}} showcase story={storyOpen ? story : null} />}
           </div>
           <div className="card-showcase__face card-showcase__face--back" aria-hidden={!back}>
-            {pack ? <PackBack pack={pack} /> : <img src="/pixel-art/cardback-plain.webp" alt="" draggable={false} />}
+            {pack ? <PackBack pack={pack} /> : <img src="/brand/card-back.webp" alt="" draggable={false} style={{ '--rc': RARITY_VAR[location.rarity ?? 'common'] }} />}
           </div>
         </div>
       </div>

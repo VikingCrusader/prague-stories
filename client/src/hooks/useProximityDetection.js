@@ -48,14 +48,14 @@ async function fireNotification(location) {
     if (reg?.showNotification) {
       await reg.showNotification(title, {
         body: strings.body(name),
-        icon: '/pixel-art/app-logo.webp',
+        icon: '/brand/app-icon.png',
         tag: `proximity-${location.slug}`,
         data: { slug: location.slug },
       });
     } else {
       new Notification(title, {
         body: strings.body(name),
-        icon: '/pixel-art/app-logo.webp',
+        icon: '/brand/app-icon.png',
         tag: `proximity-${location.slug}`,
       });
     }
