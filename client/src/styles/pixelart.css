@@ -683,6 +683,17 @@
   .loc-card--nearby .loc-card__lock { animation: none; }
 }
 
+/* Uncovered for a guest (Explore, the hand-picked first page, 2026-11-10): it
+   looks collected, except for a small lock in the corner that leaves the cover free. */
+.loc-card--uncovered .loc-card__banner { position: relative; }
+.loc-card--uncovered .loc-card__lock {
+  top: 6px;
+  left: auto;
+  right: 6px;
+  width: 24%;
+  transform: none;
+}
+
 .loc-card__banner {
   padding: 20px 12px 16px;
   display: flex;

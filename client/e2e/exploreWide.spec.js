@@ -608,7 +608,7 @@ test('hovering a card previews its names, status, labels and first paragraph', a
   });
   await page.setViewportSize({ width: 1920, height: 1000 });
   await page.goto('/explore');
-  const cards = page.locator('.location-grid .loc-card');
+  const cards = { first: () => page.locator('.location-grid .loc-card[data-slug="card-1"]'), nth: () => page.locator('.location-grid .loc-card[data-slug="card-2"]') };
   const preview = page.locator('.card-preview');
   await cards.first().waitFor();
   await expect(cards.first()).not.toHaveAttribute('title');

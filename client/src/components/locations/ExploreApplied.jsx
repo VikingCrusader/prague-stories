@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { RARITY_LABEL, RARITY_VAR, ALL_RARITIES } from '../../utils/rarity';
-import { LABEL_BLURB, RARITY_QUIP, GUEST_INTRO, TREASURE_BLURB, PACK_BLURB } from '../../utils/filterBlurbs';
+import { LABEL_BLURB, RARITY_QUIP, GUEST_INTRO, GUEST_FEATURED_NOTE, TREASURE_BLURB, PACK_BLURB } from '../../utils/filterBlurbs';
 import { useFitText } from '../../utils/fitText';
 import { achField } from '../../utils/achievementText';
 import { formatCountdown } from '../../utils/formatCountdown';
@@ -158,12 +158,18 @@ function Item({ name, nameNode, color, onClear, children }) {
   );
 }
 
+// The guest intro's paragraphs, with the note about the uncovered cards second.
+function guestIntro(intro, note) {
+  const [first, ...rest] = intro.split('\n');
+  return note ? [first, note, ...rest] : [first, ...rest];
+}
+
 // The filters that are on, each with its line, under the map on Explore at 2K
 // (2026-11-08, user's call), after `notes`, the lines that belong to the current
 // mode. With no filter on: the district and quarter the player is in, each with
 // its line, and how far the nearest card still to collect is (`here`); or, without a
 // position in Prague, a `tip`; a guest gets what the app is for and a link to the Guide.
-export default function ExploreApplied({ packsOnly = false, onClearPacks, treasureCount = null, treasureOnly = false, onShowTreasure, onClearTreasure, area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement, search = null, onClearSearch, filtersOnly = false }) {
+export default function ExploreApplied({ guestPreview = false, packsOnly = false, onClearPacks, treasureCount = null, treasureOnly = false, onShowTreasure, onClearTreasure, area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement, search = null, onClearSearch, filtersOnly = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -186,7 +192,7 @@ export default function ExploreApplied({ packsOnly = false, onClearPacks, treasu
       {!anyFilter && !collection && !here && !filtersOnly && (
         <div className={`explore-applied__default${isGuest ? ' explore-applied__default--intro' : ''}`}>
           <div className="explore-applied__head"><span className="explore-applied__name">{t(isGuest ? 'explore.guestIntroTitle' : 'explore.tipTitle')}</span></div>
-          {pick(isGuest ? GUEST_INTRO : tip).split('\n').map(line => <p key={line} className="explore-applied__text">{line}</p>)}
+          {(isGuest ? guestIntro(pick(GUEST_INTRO), guestPreview ? pick(GUEST_FEATURED_NOTE) : null) : pick(tip).split('\n')).map(line => <p key={line} className="explore-applied__text">{line}</p>)}
           {isGuest && <p className="explore-applied__stat"><Link to="/guide" className="area-guide-link">{convert(t('explore.guideLink'))}</Link></p>}
         </div>
       )}

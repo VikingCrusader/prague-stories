@@ -66,6 +66,8 @@ export default function ExplorePage() {
   };
   const [tip] = useState(() => EXPLORE_TIPS[Math.floor(Math.random() * EXPLORE_TIPS.length)]);
   const userPos                          = useUserPosition();
+  // A first-time visitor with no position sees the best-known cards uncovered.
+  const guestPreview                     = guest && !user && !userPos;
   const [locations, setLocations]       = useState([]);
   const [areaGuide, setAreaGuide]       = useState(null);
   const [selectedSlug, setSelectedSlug] = useState(null);
@@ -503,6 +505,8 @@ export default function ExplorePage() {
       onFilterCount={setFilterCount}
       packs={gridPacks}
       onPackClick={setOpenPack}
+      areaChosen={!!area}
+      guestPreview={guestPreview}
       onClearFilters={() => { setCityOnly(true); setArea(null); }}
       filterExtraCount={inCollection ? 0 : (cityOnly ? (area ? 1 : 0) : 1)}
       renderApplied={(filters) => (
@@ -512,6 +516,7 @@ export default function ExplorePage() {
           here={hereCard}
           tip={tip}
           isGuest={guest && !user}
+          guestPreview={guestPreview}
           collection={wide && inCollection && user ? locations : null}
           nextUp={nextUp}
           onOpenAchievement={setOpenAch}

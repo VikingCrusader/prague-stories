@@ -169,6 +169,80 @@ test('on the History page a related landmark can be a pack, with the player\'s p
   await expect(page.locator('.pack-detail').getByText('Only the preview.')).toBeVisible();
 });
 
+test.describe('Explore with no position', () => {
+  test.use({ viewport: { width: 2560, height: 1300 } });
+  const RARITIES = ['legend', 'mythic', 'epic', 'superior', 'rare', 'common'];
+  // Five legends in a row first, as the database might return them.
+  const CARDS = [...Array(5).fill('legend'), ...RARITIES, ...RARITIES].map((rarity, i) => ({ ...LOC, _id: `c${i}`, slug: `c${i}`, name: `c${i}`, rarity, unlocked: false }));
+  const items = page => page.locator('.explore-main .loc-card[data-slug], .explore-main .loc-card[data-pack]')
+    .evaluateAll(els => els.map(e => ({ id: e.dataset.pack || e.dataset.slug, pack: !!e.dataset.pack, rarity: e.dataset.rarity })));
+
+  async function setupGrid(page) {
+    await setup(page);
+    await page.route('**/api/locations', route => route.fulfill({ json: CARDS }));
+    await page.route('**/api/packs', route => route.fulfill({ json: [{ ...SEALED, labels: ['park'] }, { ...OPEN, labels: ['park'] }] }));
+    await page.goto('/explore');
+    await expect.poll(async () => (await items(page)).length).toBe(19);
+  }
+
+  test('opens with every rarity, and the packs are spread among the cards', async ({ page }) => {
+    await setupGrid(page);
+    const grid = await items(page);
+    expect(new Set(grid.filter(i => !i.pack).slice(0, 6).map(i => i.rarity))).toEqual(new Set(RARITIES));
+    expect(grid.flatMap((item, i) => (item.pack ? [i] : []))).toEqual([4, 9]);
+  });
+
+  test('the best-known places lead, wherever the database has them', async ({ page }) => {
+    await setup(page);
+    await page.route('**/api/locations', route => route.fulfill({ json: [...CARDS, { ...CARDS[0], _id: 'cb', slug: 'charles-bridge', name: 'Charles Bridge' }] }));
+    await page.goto('/explore');
+    await expect.poll(async () => (await items(page))[0]?.id).toBe('charles-bridge');
+  });
+
+  test('a search brings the matching pack to the front', async ({ page }) => {
+    await setupGrid(page);
+    await page.locator('.explore-side input, .explore-main input').first().fill('Prague Castle');
+    await expect.poll(async () => (await items(page))[0]?.id).toBe('prague-castle');
+  });
+});
+
+test.describe('a guest with no position', () => {
+  test.use({ viewport: { width: 2560, height: 1300 } });
+  const locked = (slug, name) => ({ ...LOC, _id: slug, slug, name, unlocked: false });
+
+  async function setupGuest(page) {
+    await page.addInitScript(() => localStorage.setItem('lang', 'en'));
+    await page.route('**/api/locations', route => route.fulfill({ json: [locked('some-alley', 'Some Alley'), locked('charles-bridge', 'Charles Bridge')] }));
+    await page.route('**/api/packs', route => route.fulfill({ json: [] }));
+    await page.goto('/explore');
+  }
+
+  test('sees the best-known cards uncovered with a small lock, the others as question marks', async ({ page }) => {
+    await setupGuest(page);
+    const famous = page.locator('.loc-card[data-slug="charles-bridge"]');
+    await expect(famous).toHaveClass(/loc-card--uncovered/);
+    await expect(famous).not.toHaveClass(/loc-card--locked/);
+    await expect(famous.locator('.loc-card__name')).toHaveText('Charles Bridge');
+    await expect(famous.locator('.loc-card__lock')).toBeVisible();
+    const other = page.locator('.loc-card[data-slug="some-alley"]');
+    await expect(other).toHaveClass(/loc-card--locked/);
+    await expect(other.locator('.loc-card__name')).toHaveText('???');
+  });
+
+  test('is told so in the side column', async ({ page }) => {
+    await setupGuest(page);
+    await expect(page.locator('.explore-applied__default--intro')).toContainText('The 48 cards up front are only a preview');
+  });
+
+  test('a signed-in player without a position gets no uncovered cards', async ({ page }) => {
+    await setup(page);
+    await page.route('**/api/locations', route => route.fulfill({ json: [locked('charles-bridge', 'Charles Bridge')] }));
+    await page.goto('/explore');
+    await expect(page.locator('.loc-card[data-slug="charles-bridge"]')).toHaveClass(/loc-card--locked/);
+    await expect(page.locator('.loc-card--uncovered')).toHaveCount(0);
+  });
+});
+
 test.describe('packs among the cards on Explore', () => {
   test.use({ viewport: { width: 2560, height: 1300 }, permissions: ['geolocation'], geolocation: { latitude: 50.092, longitude: 14.404 } });
   const card = (slug, lat, labels) => ({ ...LOC, _id: slug, slug, name: slug, coordinates: { lat, lng: 14.404 }, labels });

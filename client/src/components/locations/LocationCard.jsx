@@ -24,7 +24,10 @@ const NEW_BADGE_MS = 48 * 60 * 60 * 1000;
 // read in the showcase). `story` (showcase only): paragraphs that fill the
 // whole card in a scrolling panel, under the card's name; only the frame stays.
 // `previewable`: the hover preview (CardPreview.jsx) replaces the browser tooltip.
-function LocationCard({ location, onClick, distance, nearby = false, showcase = false, story = null, holdable = true, previewable = false }) {
+// `uncovered` (Explore, a guest with no position, the hand-picked first page):
+// a locked card that looks collected, name and cover in full, with only a small
+// corner lock to say it isn't. Its story stays locked on the server as usual.
+function LocationCard({ location, onClick, distance, nearby = false, uncovered: uncoveredProp = false, showcase = false, story = null, holdable = true, previewable = false }) {
   const { lang } = useLang();
   const convert = useConvert();
   const t = useT();
@@ -43,7 +46,9 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
   const cardRef = useRef(null);
   useEffect(() => (showcase ? undefined : watchOffscreen(cardRef.current)), [showcase]);
   const teasing = !unlocked && nearby;
-  const showName = unlocked || teasing;
+  const uncovered = !unlocked && uncoveredProp;
+  const showName = unlocked || teasing || uncovered;
+  const showLabel = unlocked || uncovered;
   const checkedInMs = location._checkedInAt ? new Date(location._checkedInAt).getTime() : NaN;
   // Not over the story panel, where the badge would cover the card's name.
   const isNew = unlocked && !flipping && !story && Date.now() - checkedInMs < NEW_BADGE_MS;
@@ -82,13 +87,13 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
     const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(fit) : null;
     ro?.observe(el);
     return () => { cancelled = true; ro?.disconnect(); };
-  }, [firstLabel, lang, unlocked]);
+  }, [firstLabel, lang, showLabel]);
 
   return (
     <>
     <div
       ref={cardRef}
-      className={`loc-card${(!unlocked || flipping) ? ' loc-card--locked' : ''}${flipping ? ' loc-card--flipping' : ''}${teasing && !flipping ? ' loc-card--nearby' : ''}${gestures ? ' loc-card--holdable' : ''}`}
+      className={`loc-card${((!unlocked && !uncovered) || flipping) ? ' loc-card--locked' : ''}${uncovered ? ' loc-card--uncovered' : ''}${flipping ? ' loc-card--flipping' : ''}${teasing && !flipping ? ' loc-card--nearby' : ''}${gestures ? ' loc-card--holdable' : ''}`}
       {...handlers}
       title={previewable ? undefined : showName ? name : '???'}
       data-slug={slug}
@@ -163,12 +168,12 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
         {firstLabel && (
           <div className="loc-card__labels">
             <span
-              ref={unlocked ? labelRef : null}
+              ref={showLabel ? labelRef : null}
               className="label-pill-sm"
-              title={unlocked ? LABEL_DEFINITIONS[firstLabel]?.en : undefined}
-              style={{ backgroundColor: (unlocked || teasing) ? (LABEL_COLORS[firstLabel] || 'var(--pill-fallback, rgba(255,255,255,0.07))') : 'var(--pill-fallback, rgba(255,255,255,0.05))' }}
+              title={showLabel ? LABEL_DEFINITIONS[firstLabel]?.en : undefined}
+              style={{ backgroundColor: (showLabel || teasing) ? (LABEL_COLORS[firstLabel] || 'var(--pill-fallback, rgba(255,255,255,0.07))') : 'var(--pill-fallback, rgba(255,255,255,0.05))' }}
             >
-              {unlocked
+              {showLabel
                 ? convert(LABEL_DEFINITIONS[firstLabel]?.[lang] || LABEL_DEFINITIONS[firstLabel]?.en || firstLabel)
                 : '???'}
             </span>

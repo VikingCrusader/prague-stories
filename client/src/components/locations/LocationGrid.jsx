@@ -10,6 +10,7 @@ import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES } from '../../utils/rarity';
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 import { packMatches, nearestPackFirst } from '../../utils/packs';
+import { firstVisitOrder, featuredPacksFirst, interleavePacks, isFeatured } from '../../utils/gridOrder';
 
 // Expedition sorts first (it pays 60-300 XP), highest XP first among them.
 export const RARITY_ORDER = { expedition: -1, legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
@@ -28,7 +29,7 @@ const PAGE_SIZE = 60;
 // for the filters that are on into `appliedSlot`.
 // `initialFilter` ({ rarity, label }) opens the grid already filtered, e.g. on
 // Expedition from the nudge on the profile's empty expedition strip.
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick, areaChosen = false, guestPreview = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -163,6 +164,8 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
       if (sort === 'checkin')  return new Date(b._checkedInAt ?? 0) - new Date(a._checkedInAt ?? 0);
       return 0;
     });
+    // No position, so nothing to measure: lead with Prague's best-known places.
+    if (sort === 'distance' && !list.some(l => l._distance != null)) return firstVisitOrder(list);
     return list;
   }, [locations, discovered, treasureOnly, treasureSlugs, activeLabels, activeRarities, deferredSearch, sort]);
 
@@ -175,17 +178,22 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // What the grid shows. Packs stand among the cards, except in a view that is
   // only about cards (My Collections, treasure finds, a rarity: packs have none).
   // Within 100 m of any of its cards a pack goes first, whatever the sort; the
-  // others stand at their nearest card when sorting by distance, and lead the
-  // grid when there is no distance to go by.
+  // others stand at their nearest card when sorting by distance. With no
+  // distance to go by they are spread among the cards, so a first visit isn't a
+  // wall of sealed packs, unless the player narrowed the grid to look for
+  // something (search, labels, an area): then the packs that match lead it.
   const gridItems = useMemo(() => {
     if (packsOnly) return shownPacks;
     if (discovered || treasureOnly || activeRarities.size > 0) return filtered;
     const isNear = p => p._distance != null && p._distance <= NEARBY_REVEAL_M;
     const near = shownPacks.filter(isNear);
     const rest = shownPacks.filter(p => !isNear(p));
-    if (sort !== 'distance') return [...near, ...rest, ...filtered];
-    return [...near, ...[...rest, ...filtered].sort((a, b) => (a._distance ?? Infinity) - (b._distance ?? Infinity))];
-  }, [packsOnly, shownPacks, discovered, treasureOnly, activeRarities, filtered, sort]);
+    if (sort === 'distance' && filtered.some(l => l._distance != null)) {
+      return [...near, ...[...rest, ...filtered].sort((a, b) => (a._distance ?? Infinity) - (b._distance ?? Infinity))];
+    }
+    const narrowed = deferredSearch.trim() || activeLabels.size > 0 || areaChosen;
+    return [...near, ...(narrowed ? [...rest, ...filtered] : interleavePacks(featuredPacksFirst(rest), filtered))];
+  }, [packsOnly, shownPacks, discovered, treasureOnly, activeRarities, filtered, sort, deferredSearch, activeLabels, areaChosen]);
 
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
@@ -447,6 +455,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             onClick={onCardClick}
             distance={item._distance}
             nearby={!item.unlocked && item._distance != null && item._distance <= NEARBY_REVEAL_M}
+            uncovered={guestPreview && isFeatured(item.slug)}
             previewable
           />
         ) : <PackCard key={`pack-${item.slug}`} pack={item} onClick={onPackClick} />))}
