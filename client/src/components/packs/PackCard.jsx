@@ -29,7 +29,9 @@ function Crimps() {
 // Like a collected card, an unlocked pack opens the showcase on a long press or
 // a double click (`holdable` false turns that off). `showcase`: the enlarged
 // copy inside CardShowcase; `story`: the paragraphs that fill it when read.
-function PackCard({ pack, onClick, holdable = true, showcase = false, story = null }) {
+// `artOnly` (the Map and the profile): just the art in its foil and seals, without
+// the name, progress bar and count. The showcase still picks up the whole packet.
+function PackCard({ pack, onClick, holdable = true, showcase = false, story = null, artOnly = false }) {
   const { lang } = useLang();
   const convert = useConvert();
   const t = useT();
@@ -47,7 +49,7 @@ function PackCard({ pack, onClick, holdable = true, showcase = false, story = nu
     <>
     <div
       ref={ref}
-      className={`loc-card pack-card pack-card--${state}${gestures ? ' loc-card--holdable' : ''}`}
+      className={`loc-card pack-card pack-card--${state}${artOnly ? ' pack-card--art' : ''}${gestures ? ' loc-card--holdable' : ''}`}
       style={foil ? { '--foil': foil } : undefined}
       data-pack={slug}
       role="button"
@@ -81,7 +83,7 @@ function PackCard({ pack, onClick, holdable = true, showcase = false, story = nu
           ) : <span style={{ fontSize: '2.8rem' }} aria-hidden="true">🏰</span>}
           {state === 'sealed' && <img className="pack-card__lock" src={lockClosedIcon('common')} alt="" />}
         </div>
-        <div className="loc-card__body">
+        {!artOnly && <div className="loc-card__body">
           <div>
             <div className="loc-card__name">{name}</div>
             {lang !== 'cz' && localizedNames?.cz && <div className="loc-card__cz-name">{localizedNames.cz}</div>}
@@ -98,7 +100,7 @@ function PackCard({ pack, onClick, holdable = true, showcase = false, story = nu
             </div>
             {total != null && <div className="loc-card__dist">{collected}/{total}</div>}
           </div>
-        </div>
+        </div>}
         </>)}
         <div className="pack-card__sheen" aria-hidden="true" />
       </div>

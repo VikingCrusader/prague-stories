@@ -3,7 +3,8 @@
 // few of them, and they change only with the code. A pack must be geographically
 // connected and easy to walk; a merely cultural or historical grouping is not a
 // pack (it may become a "theme" one day). A pack has no coordinates and no
-// rarity. Its districts and quarters come from its cards.
+// rarity. `labels` are the ordinary card labels, picked by hand for the pack as a
+// whole, and filter it on Explore; its districts and quarters come from its cards.
 //
 // `members` are Location slugs, picked by hand: a new card doesn't join a pack
 // on its own. A slug may be in several packs. A slug that no longer resolves
@@ -24,6 +25,7 @@ export const PACKS = [
     name: 'Prague Castle',
     localizedNames: { cz: 'Pražský hrad', zh: '布拉格城堡' },
     foil: '#7a1f2b',
+    labels: ['castle and fortress', 'medieval', 'gothic', 'renaissance'],
     // Inside the walls plus the castle's own gardens; Hradčany Square is outside the gate.
     members: [
       'matyasova-brana', 'new-royal-palace', 'st-vitus-cathedral', 'velka-jizni-vez-katedraly', 'old-royal-palace',
@@ -39,6 +41,7 @@ export const PACKS = [
     name: 'Vyšehrad',
     localizedNames: { cz: 'Vyšehrad', zh: '维谢赫拉德' },
     foil: '#155e63',
+    labels: ['castle and fortress', 'prehistory', 'medieval', 'baroque'],
     // Took over the whole-complex card of the same slug (2026-11-09, user's call).
     members: [
       'basilika-sv-petra-pavla', 'rotunda-sv-martina', 'vysehrad-cemetery', 'sousosi-premysl-a-libuse', 'kaple-sv-ludmily',
@@ -52,6 +55,7 @@ export const PACKS = [
     name: 'Pankrác',
     localizedNames: { cz: 'Pankrác', zh: '潘克拉茨' },
     foil: '#3b4a63',
+    labels: ['contemporary', 'communism', 'world-wars', 'tower'],
     // The plateau's towers, prison and square; took over the one-point skyline card.
     members: [
       'city-empiria-1782389478834', 'city-tower-prague', 'v-tower', 'main-point-pankrc-1783457910577', 'gemini-pankrac',
@@ -66,6 +70,7 @@ export const PACKS = [
     name: 'Letná',
     localizedNames: { cz: 'Letná', zh: '莱特纳' },
     foil: '#2f5d3a',
+    labels: ['park', 'communism'],
     members: [
       'letna-park', 'letn-plain-1782906159291', 'vyhlidka-na-letne', 'letenske-jezirko', 'letensky-zamecek',
       'the-letn-carousel--1783352292475', 'hanavsky-pavilon', 'kaple-sv-mari-magdaleny', 'pavilon-expo-58-vystaviste',
@@ -77,6 +82,7 @@ export const PACKS = [
     name: 'Old Town Square',
     localizedNames: { cz: 'Staroměstské náměstí', zh: '老城广场' },
     foil: '#8a3f1d',
+    labels: ['square', 'medieval', 'gothic', 'baroque'],
     // The square and the houses right on it, as in the Starter Pack achievement.
     // Took over the card of the same slug (and its cover).
     members: [
@@ -91,6 +97,7 @@ export const PACKS = [
     name: 'Petřín',
     localizedNames: { cz: 'Petřín', zh: '佩特任' },
     foil: '#5b3a6e',
+    labels: ['nature', 'park', 'medieval', 'national-revival'],
     // The hill from the Seminary Garden over the top to the Kinský Garden.
     members: [
       'petrin-tower', 'mirror-maze-petrin', 'kaple-boziho-hrobu-petrin', 'kaple-kalvarie-petrin', 'st-lawrence-cathedral-1782590216064',

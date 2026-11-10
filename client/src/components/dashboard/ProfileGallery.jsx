@@ -87,7 +87,7 @@ export default function ProfileGallery({ kind, achievements, paused, onClose, on
             <div style={{ display: 'flex', justifyContent: 'center', padding: 24 }}><div className="spinner" /></div>
           ) : isPacks ? (
             <div className="profile-gallery__packs">
-              {cards.map(pack => <PackCard key={pack.slug} pack={pack} onClick={onOpenPack} />)}
+              {cards.map(pack => <PackCard key={pack.slug} pack={pack} onClick={onOpenPack} artOnly />)}
             </div>
           ) : fullCards ? (
             cards.length > 0 && <FullCardGrid cards={cards} onOpen={onOpenCard} scrollRef={scrollRef} loadOnClick={isCollection} />

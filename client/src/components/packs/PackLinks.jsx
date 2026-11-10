@@ -3,17 +3,17 @@ import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import PackDetail from './PackDetail';
 
-// The last thing in a card's detail: the packs it belongs to. `fromPack`: the pack
+// In a card's detail, between its area pills and its story: the packs it belongs to. `fromPack`: the pack
 // this card was opened from, whose button leads back to it (`onBack`) instead of
 // opening a second copy on top.
-export default function PackLinks({ packs, fromPack = null, onBack }) {
+export default function PackLinks({ packs, fromPack = null, onBack, style, artOnly = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const [open, setOpen] = useState(null);
   if (!packs?.length) return null;
   return (
-    <div className="detail-packs">
+    <div className="detail-packs" style={style}>
       <span className="detail-packs__label">{convert(t('pack.partOf'))}</span>
       {packs.map(p => (
         <button
@@ -26,7 +26,7 @@ export default function PackLinks({ packs, fromPack = null, onBack }) {
           {convert(getLocName(p, lang))}
         </button>
       ))}
-      {open && <PackDetail slug={open} onClose={() => setOpen(null)} />}
+      {open && <PackDetail slug={open} onClose={() => setOpen(null)} artOnly={artOnly} />}
     </div>
   );
 }

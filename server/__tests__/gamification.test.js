@@ -280,12 +280,14 @@ describe('evaluateAchievements', () => {
     expect(ids(all.slice(0, -1))).not.toContain('eighty_two_children');
   });
 
-  test('charles_iv needs all six places, Karlštejn included', () => {
+  test('charles_iv needs all seven places, Karlštejn and the Hunger Wall included', () => {
     const all = ['emmaus-monastery-1782494564055', 'kostel-panny-marie-snezne', 'karolinum',
-      'karlstejn-castle', 'charles-bridge', 'monument-to-charles-iv-1783353104539'];
+      'karlstejn-castle', 'charles-bridge', 'hunger-wall-1782410203381',
+      'monument-to-charles-iv-1783353104539'];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('charles_iv');
     expect(ids(all.filter(s => s !== 'karlstejn-castle'))).not.toContain('charles_iv');
+    expect(ids(all.filter(s => s !== 'hunger-wall-1782410203381'))).not.toContain('charles_iv');
   });
 
   test('time_traveller and architect need one card of each era / style', () => {

@@ -13,6 +13,7 @@ test.beforeEach(async ({ page }) => {
   await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
   await page.route('**/api/locations', route => route.fulfill({ json: CARDS }));
   await page.route('**/api/locations/*', route => route.fulfill({ json: { ...CARDS[0], description: { en: 'x', cz: 'x', zh: 'x' } } }));
+  await page.route('**/api/packs', route => route.fulfill({ json: [] }));
   await page.route('**/api/user/achievements', route => route.fulfill({ json: { achievements: [], levels: [] } }));
 });
 
@@ -206,5 +207,89 @@ test.describe('a chosen card in the bottom bar', () => {
     expect(lefts[0]).toBeLessThan(lefts[1]);
     expect(lefts[1]).toBeLessThan(lefts[2]);
     await expect(page.locator('.map-split > .map-tile, .map-split > .map-ach')).toHaveCount(6);
+  });
+});
+
+test.describe('card packs on the Map', () => {
+  const PACK = { foil: '#7a1f2b', localizedNames: {}, total: 12, collected: 1, unlocked: false, completed: false, unlockAt: 3, unlockXp: 20, labels: ['church'] };
+  const IN_AREA = { ...PACK, slug: 'in-area', name: 'In Area', districts: ['Praha 2'], quarters: ['Vinohrady'], memberSlugs: ['card-0', 'card-1'] };
+  const ELSEWHERE = { ...PACK, slug: 'elsewhere', name: 'Elsewhere', districts: ['Praha 7'], quarters: ['Holešovice'], memberSlugs: ['card-2'], labels: ['park'] };
+  const tileNames = page => page.locator('.map-bottom .map-tile__name');
+
+  test.beforeEach(async ({ page }) => {
+    await page.route('**/api/packs', route => route.fulfill({ json: [ELSEWHERE, IN_AREA] }));
+    await page.route('**/api/packs/in-area', route => route.fulfill({ json: { ...IN_AREA, description: { en: 'Pack story.', cz: 'x', zh: 'x' }, members: CARDS.slice(0, 2) } }));
+  });
+
+  test.describe('with the right column', () => {
+    test.use({ viewport: { width: 2560, height: 1300 } });
+
+    test('the Packs button lists them on the right and a click opens one there, not over the page', async ({ page }) => {
+      await page.goto('/map');
+      await expect(page.locator('.map-slot--right .pack-card')).toHaveCount(0);
+      await page.locator('.map-topbar .filter-btn', { hasText: 'Packs' }).click();
+      await expect(page.locator('.map-slot--right .map-pack-list .pack-card')).toHaveCount(2);
+      await expect(page.locator('.map-topbar .filter-btn', { hasText: 'Rarity' })).toBeDisabled();
+      await expect(page.locator('.map-chip', { hasText: 'Packs' })).toBeVisible();
+      await page.locator('.map-slot--right .pack-card[data-pack="in-area"]').click();
+      await expect(page.locator('.map-slot--right .pack-panel')).toContainText('Pack story.');
+      await expect(page.locator('.pack-detail-overlay')).toHaveCount(0);
+      // A card from the pack lies on top, and closing it comes back to the pack.
+      await page.locator('.pack-panel .pack-detail__cards .loc-card').first().click();
+      await expect(page.locator('.map-slot--right .pack-panel')).toHaveCount(0);
+      await page.locator('.map-slot--right .map-card__close').click();
+      await expect(page.locator('.map-slot--right .pack-panel')).toBeVisible();
+      // Closing the pack comes back to the list; the button leaves it all.
+      await page.locator('.map-slot--right .map-card__close').click();
+      await expect(page.locator('.map-pack-list')).toBeVisible();
+      await page.locator('.map-topbar .filter-btn', { hasText: 'Packs' }).click();
+      await expect(page.locator('.map-pack-list')).toHaveCount(0);
+    });
+
+    test('with an area chosen its packs lead the bottom bar, and one opens on the right', async ({ page }) => {
+      await page.route('**/api/locations', route => route.fulfill({ json: CARDS.map(c => ({ ...c, district: 'Praha 11' })) }));
+      await page.route('**/api/packs', route => route.fulfill({ json: [ELSEWHERE, { ...IN_AREA, districts: ['Praha 11'] }] }));
+      await page.goto('/map');
+      await expect(tileNames(page)).toHaveCount(6);
+      await expect(page.locator('.map-tile--pack')).toHaveCount(0);
+      await page.locator('.map-slot--left .district-map__area').nth(5).click(); // Praha 11
+      await expect(page.locator('.map-tile--pack')).toHaveCount(1);
+      await expect(page.locator('.map-tile--pack')).toContainText('In Area');
+      await expect(page.locator('.map-split > .map-tile')).toHaveCount(6);
+      const [pack, card] = await Promise.all([page.locator('.map-tile--pack').boundingBox(), page.locator('.map-split > .map-tile:not(.map-tile--pack)').first().boundingBox()]);
+      expect(pack.x).toBeLessThan(card.x);
+      await page.locator('.map-tile--pack').click();
+      await expect(page.locator('.map-slot--right .pack-panel')).toContainText('Pack story.');
+    });
+  });
+
+  test.describe('on a phone', () => {
+    test.use({ viewport: { width: 412, height: 860 } });
+    test('the Packs button opens the list in a sheet, a pack opens in it, and four buttons fit', async ({ page }) => {
+      await page.goto('/map');
+      const buttons = page.locator('.map-topbar__controls > .filter-btn, .map-topbar__controls > .label-filter > .filter-btn');
+      await expect(buttons).toHaveCount(4);
+      expect(await buttons.evaluateAll(els => els.every(e => e.scrollWidth <= e.clientWidth))).toBe(true);
+      await page.locator('.map-topbar .filter-btn', { hasText: 'Packs' }).click();
+      await page.locator('.map-pack-list .pack-card[data-pack="in-area"]').click();
+      await expect(page.locator('.pack-panel')).toContainText('Pack story.');
+    });
+  });
+});
+
+test.describe('a pack on the Map', () => {
+  test.use({ viewport: { width: 2560, height: 1300 } });
+  test('shows only its art and foil, in the list and when opened', async ({ page }) => {
+    const pack = { slug: 'p1', name: 'The Pack', foil: '#7a1f2b', localizedNames: {}, total: 12, collected: 4, unlocked: true, completed: false, unlockAt: 3, unlockXp: 20, labels: [], districts: ['Praha 2'], quarters: ['Vinohrady'], memberSlugs: ['card-0'] };
+    await page.route('**/api/packs', route => route.fulfill({ json: [pack] }));
+    await page.route('**/api/packs/p1', route => route.fulfill({ json: { ...pack, description: { en: 'Story.', cz: 'x', zh: 'x' }, members: [] } }));
+    await page.goto('/map');
+    await page.locator('.map-topbar .filter-btn', { hasText: 'Packs' }).click();
+    const listed = page.locator('.map-pack-list .pack-card');
+    await expect(listed.locator('.loc-card__banner')).toHaveCount(1);
+    await expect(listed.locator('.pack-card__crimp')).toHaveCount(2);
+    await expect(listed.locator('.loc-card__body')).toHaveCount(0);
+    await listed.click();
+    await expect(page.locator('.pack-panel .pack-card .loc-card__body')).toHaveCount(0);
   });
 });

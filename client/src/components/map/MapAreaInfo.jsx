@@ -103,7 +103,7 @@ export default function MapAreaInfo({ district, quarter, locations, compact = fa
     <div className={`area-guide map-info${compact ? ' map-info--compact' : ''}`} key={`${district}|${quarter ?? ''}|${compact}`}>
       <AreaBlock kind="district" value={district} overviewOnly={!!quarter} compact={compact} locations={locations} packs={packs} onPickLandmark={pick} />
       {quarter && <AreaBlock kind="quarter" value={quarter} within={wholeQuarter ? null : district} compact={compact} locations={locations} packs={packs} onPickLandmark={pick} />}
-      {openPack && <PackDetail slug={openPack} onClose={() => setOpenPack(null)} />}
+      {openPack && <PackDetail slug={openPack} onClose={() => setOpenPack(null)} artOnly />}
     </div>
   );
 }

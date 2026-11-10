@@ -15,6 +15,10 @@ import MapBoundaries from '../components/map/MapBoundaries';
 import MapAreaInfo from '../components/map/MapAreaInfo';
 import MapBottomBar from '../components/map/MapBottomBar';
 import PackLinks from '../components/packs/PackLinks';
+import PackCard from '../components/packs/PackCard';
+import { PackPanel } from '../components/packs/PackDetail';
+import { usePacks } from '../hooks/usePacks';
+import { packInArea, packMatches, withPackDistance, nearestPackFirst } from '../utils/packs';
 import MapLegend from '../components/map/MapLegend';
 import MapFrame from '../components/map/MapFrame';
 import MapFilterChips from '../components/map/MapFilterChips';
@@ -102,7 +106,10 @@ export default function MapPage() {
   const [flyTo, setFlyTo]               = useState(null);
   useEffect(() => { if (selectedSlug) setInfoOpen(false); }, [selectedSlug]);
   const rightColumnRef = useRef(null);
-  useEffect(() => { if (rightColumnRef.current) rightColumnRef.current.scrollTop = 0; }, [selectedSlug]);
+  // A pack in the right column; a chosen card lies on top of it, and closing the
+  // card comes back to it.
+  const [selectedPack, setSelectedPack] = useState(null);
+  useEffect(() => { if (rightColumnRef.current) rightColumnRef.current.scrollTop = 0; }, [selectedSlug, selectedPack]);
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
   const [activeLabels, setActiveLabels]     = useState(new Set());
@@ -111,7 +118,8 @@ export default function MapPage() {
   const [cityOnly, setCityOnly]             = useState(true);
   const [area, setArea]                     = useState(null);
   const [sort, setSort]                     = useState('distance');
-  const closeSheet = useCallback(() => { setSheet(null); setSelectedSlug(null); }, []);
+  const [packsOnly, setPacksOnly]           = useState(false);
+  const closeSheet = useCallback(() => { setSheet(null); setSelectedSlug(null); setSelectedPack(null); }, []);
 
   useEffect(() => {
     locationAPI.getAll()
@@ -126,8 +134,24 @@ export default function MapPage() {
     return () => window.removeEventListener('proximity-checkin', handler);
   }, []);
 
+  const collectedCount = useMemo(() => locations.filter(l => l.unlocked).length, [locations]);
+  const allPacks = usePacks(collectedCount);
+  // The packs the filters leave, nearest first. Packs have no rarity, so a rarity
+  // filter leaves none (as on Explore).
+  const shownPacks = useMemo(() => {
+    if (activeRarities.size > 0) return [];
+    const matching = allPacks.filter(p => packInArea(p, area) && packMatches(p, search, activeLabels));
+    return withPackDistance(matching, locations, userPos).sort(nearestPackFirst);
+  }, [allPacks, area, search, activeLabels, activeRarities, locations, userPos]);
+
   const filteredLocations = useMemo(() => {
     let list = (cityOnly ? locations.filter(isInCity) : locations).filter(l => matchesArea(l, area));
+    // With the Packs filter the search and labels have picked the packs; the map
+    // shows those packs' cards.
+    if (packsOnly) {
+      const members = new Set(shownPacks.flatMap(p => p.memberSlugs || []));
+      return list.filter(l => members.has(l.slug));
+    }
     if (activeLabels.size > 0) {
       list = list.filter(l =>
         Array.from(activeLabels).every(lb => (l.labels || []).includes(lb))
@@ -145,7 +169,12 @@ export default function MapPage() {
       );
     }
     return list;
-  }, [locations, cityOnly, area, activeLabels, activeRarities, search]);
+  }, [locations, cityOnly, area, activeLabels, activeRarities, search, packsOnly, shownPacks]);
+
+  // Under the Packs filter a pack the filters no longer leave closes, like a card.
+  useEffect(() => {
+    if (packsOnly && selectedPack && !shownPacks.some(p => p.slug === selectedPack)) setSelectedPack(null);
+  }, [packsOnly, selectedPack, shownPacks]);
 
   // An `outside` label filter would empty the map in "City only" mode.
   useEffect(() => {
@@ -199,7 +228,6 @@ export default function MapPage() {
   );
 
   const selected = selectedSlug ? filteredLocations.find(l => l.slug === selectedSlug) : null;
-  const collectedCount = locations.filter(l => l.unlocked).length;
   const changeScope = city => { setCityOnly(city); if (!city || area?.kind === 'outside') setArea(null); };
   // A quarter chosen inside a district keeps that district chosen on the upper map.
   const parentDistrict = area?.kind === 'district' ? area.value : area?.kind === 'quarter' ? area.district ?? area.homeDistrict ?? null : null;
@@ -215,6 +243,7 @@ export default function MapPage() {
   // brings its own quarter into view, or the selection wouldn't hold.
   const pickLandmark = card => {
     if (!filteredLocations.some(l => l.slug === card.slug)) {
+      setPacksOnly(false);
       setSearch('');
       setActiveLabels(new Set());
       setActiveRarities(new Set());
@@ -222,8 +251,22 @@ export default function MapPage() {
     }
     pickCard(card);
   };
-  const addFilter = (kind, value) => (kind === 'label' ? setActiveLabels : setActiveRarities)(prev => new Set(prev).add(value));
-  const clearFilters = () => { setSearch(''); setActiveLabels(new Set()); setActiveRarities(new Set()); setArea(null); };
+  const leavePacks = () => { setPacksOnly(false); setSelectedPack(null); if (sheet === 'packs') setSheet(null); };
+  const togglePacks = () => {
+    if (packsOnly) { leavePacks(); return; }
+    setPacksOnly(true);
+    setSelectedPack(null);
+    setSelectedSlug(null);
+    setActiveRarities(new Set());
+    if (phone) setSheet('packs');
+  };
+  const pickPack = slug => { setSelectedSlug(null); setInfoOpen(false); setSelectedPack(slug); };
+  const pickPackCard = slug => { const card = locations.find(l => l.slug === slug); if (card) pickLandmark(card); };
+  const addFilter = (kind, value) => {
+    if (kind === 'rarity' && packsOnly) leavePacks();
+    (kind === 'label' ? setActiveLabels : setActiveRarities)(prev => new Set(prev).add(value));
+  };
+  const clearFilters = () => { if (packsOnly) leavePacks(); setSearch(''); setActiveLabels(new Set()); setActiveRarities(new Set()); setArea(null); };
   const hasIntro = !!shownDistrict && area?.kind !== 'outside';
   const chips = (
     <MapFilterChips
@@ -235,6 +278,8 @@ export default function MapPage() {
       onToggleLabel={toggleLabel}
       rarities={[...activeRarities]}
       onToggleRarity={toggleRarity}
+      packsOnly={packsOnly}
+      onClearPacks={leavePacks}
       onClearAll={clearFilters}
     />
   );
@@ -255,9 +300,23 @@ export default function MapPage() {
       collectedCount={collectedCount}
       maxTiles={maxTiles}
       onPick={pickCard}
-      onCheckIn={handleCheckIn}
+      packs={allPacks}
+      leadPacks={packsOnly || area ? shownPacks : []}
+      onPickPack={pickPack}
     />
   );
+  const packPanel = selectedPack && <PackPanel slug={selectedPack} refresh={collectedCount} onPickCard={pickPackCard} />;
+  const packList = (
+    <div className="map-pack-list">
+      <h2 className="px-title profile-card-title map-pack-list__title">{t('grid.filterPacks')}</h2>
+      {shownPacks.length ? (
+        <div className="map-pack-list__grid">
+          {shownPacks.map(pack => <PackCard key={pack.slug} pack={pack} onClick={pickPack} artOnly />)}
+        </div>
+      ) : <p className="map-bottom__empty">{t('grid.noResults')}</p>}
+    </div>
+  );
+  const rightOpen = !!(selected || selectedPack || packsOnly || infoOpen);
   const areaIntro = <MapAreaInfo district={hasIntro ? shownDistrict : null} quarter={markedQuarter} locations={locations} area={area} onPickLandmark={pickLandmark} />;
 
   return (
@@ -322,12 +381,14 @@ export default function MapPage() {
           rarityOptions={rarityOptions}
           sort={sort}
           onSort={setSort}
+          packsOnly={packsOnly}
+          onTogglePacks={togglePacks}
         />
       </div>
       {!phone && <div className="map-slot map-slot--bottom">{bottomBar}</div>}
       {!phone && (
-      <div className={`map-slot map-slot--right${selected || infoOpen ? ' map-slot--open' : ''}`} ref={rightColumnRef}>
-        {narrow && !selected && !infoOpen ? null : selected ? (
+      <div className={`map-slot map-slot--right${rightOpen ? ' map-slot--open' : ''}`} ref={rightColumnRef}>
+        {narrow && !rightOpen ? null : selected ? (
           <>
             {/* The column is short on an ordinary screen: there the card has it to itself. */}
             {!compact && <MapAreaInfo district={selected.district ?? null} quarter={selected.quarter ?? null} locations={locations} compact />}
@@ -335,6 +396,16 @@ export default function MapPage() {
               <button type="button" className="map-card__close" aria-label={t('areaGuide.close')} onClick={() => setSelectedSlug(null)}>✕</button>
               {cardDetail}
             </div>
+          </>
+        ) : selectedPack ? (
+          <div className="map-card">
+            <button type="button" className="map-card__close" aria-label={t('areaGuide.close')} onClick={() => setSelectedPack(null)}>✕</button>
+            {packPanel}
+          </div>
+        ) : packsOnly ? (
+          <>
+            {narrow && <button type="button" className="map-card__close" aria-label={t('areaGuide.close')} onClick={leavePacks}>✕</button>}
+            {packList}
           </>
         ) : (
           <>
@@ -352,18 +423,20 @@ export default function MapPage() {
           <button type="button" className="filter-btn" onClick={() => setSheet('near')}>{t('map.nearby')}</button>
         </div>
       )}
-      {phone && (sheet || selected) && (
+      {phone && (sheet || selected || selectedPack) && (
         <ExploreDrawer
           onClose={closeSheet}
-          label={selected ? getLocName(selected, lang) : t('explore.mapFilterLabel')}
-          count={!selected && sheet === 'area' ? filteredLocations.length : undefined}
+          label={selected ? getLocName(selected, lang) : selectedPack ? getLocName(allPacks.find(p => p.slug === selectedPack) ?? { name: '' }, lang) : sheet === 'packs' ? t('grid.filterPacks') : t('explore.mapFilterLabel')}
+          count={!selected && !selectedPack && sheet === 'area' ? filteredLocations.length : undefined}
         >
           {selected ? (
             <div className="map-sheet">
               <div className="map-card">{cardDetail}</div>
               {bottomBar}
             </div>
-          ) : sheet === 'area' ? (
+          ) : selectedPack ? (
+            <div className="map-sheet"><div className="map-card">{packPanel}</div></div>
+          ) : sheet === 'packs' ? packList : sheet === 'area' ? (
             <>
               {myArea && <MapHere here={myArea} onOpenGuide={setAreaGuide} />}
               <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
@@ -553,6 +626,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter }) {
           ))}
         </div>
         <DistrictLine loc={loc} style={{ marginBottom: 4 }} />
+        <PackLinks packs={loc.packs} artOnly style={{ marginTop: 6, marginBottom: 10 }} />
 
         {(() => {
           const paras = desc ? desc.split('\n').filter(l => l.trim()) : [];
@@ -617,7 +691,6 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter }) {
             <p style={{ color: 'var(--danger-text, #ff6b6b)', fontSize: 13, marginTop: 8 }}>{checkInError}</p>
           )}
         </div>
-        <PackLinks packs={loc.packs} />
       </div>
     </>
   );

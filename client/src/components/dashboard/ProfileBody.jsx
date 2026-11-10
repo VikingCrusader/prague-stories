@@ -282,7 +282,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
         onOpenPack={setOpenPack}
       />
     )}
-    {openPack && <PackDetail slug={openPack} onClose={() => setOpenPack(null)} />}
+    {openPack && <PackDetail slug={openPack} onClose={() => setOpenPack(null)} artOnly />}
     {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
     {selectedAch && <AchievementModal achievement={selectedAch} onClose={() => setSelectedAch(null)} />}
     </>

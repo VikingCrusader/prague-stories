@@ -104,6 +104,7 @@ test.describe('Dashboard', () => {
       const items = page.locator(`.pack-shelf--${layout} .pack-card`);
       await expect(items).toHaveCount(2);
       await expect(items.first()).toHaveAttribute('data-pack', 'done');
+      await expect(items.locator('.loc-card__body')).toHaveCount(0);
       if (layout !== 'stack') expect(await page.evaluate(() => document.documentElement.scrollHeight <= innerHeight)).toBe(true);
     }
     await page.setViewportSize({ width: 1536, height: 730 });

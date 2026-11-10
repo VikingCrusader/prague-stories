@@ -403,11 +403,12 @@ const LIDICE_SLUGS = [
 ];
 // Charles IV (user's list, 2026-11-02), in the order he founded them:
 // Emmaus and Our Lady of the Snows (1347), the university (1348),
-// Karlštejn (1348, outside Prague, hence "extreme"), the bridge (1357),
-// and his 1848 statue at its Old Town end.
+// Karlštejn (1348, outside Prague), the bridge (1357), the Hunger Wall
+// (1360-62, added 2026-11-10) and his 1848 statue at the bridge's Old Town end.
 const CHARLES_SLUGS = [
   "emmaus-monastery-1782494564055", "kostel-panny-marie-snezne", "karolinum",
-  "karlstejn-castle", "charles-bridge", "monument-to-charles-iv-1783353104539",
+  "karlstejn-castle", "charles-bridge", "hunger-wall-1782410203381",
+  "monument-to-charles-iv-1783353104539",
 ];
 // ── Helpers for the 2026-11-02 "how, when, what kind" achievements ──────
 const ERA_LABELS = ["prehistory", "medieval", "early-modern", "national-revival", "world-wars", "communism"];
@@ -1518,9 +1519,9 @@ export const ACHIEVEMENTS = [
     flavor: "The old emperor on the 100-crown note? That's him.",
     flavor_cz: "Ten starý císař na stokorunové bankovce? To je on.",
     flavor_zh: "100克朗纸币上的那个老皇帝，就是他。",
-    description: "Check in at these 6 places, one of them outside Prague: Emmaus Monastery, Church of Our Lady of the Snows, Karolinum, Karlštejn Castle, Charles Bridge and Monument to Charles IV.",
-    description_cz: "Přihlaste se na těchto 6 místech, z nichž jedno je mimo Prahu: Emauzské opatství, Kostel Panny Marie Sněžné, Karolinum, Hrad Karlštejn, Karlův most a Pomník Karla IV.",
-    description_zh: "打卡以下6个地点，其中一处在布拉格以外：艾玛乌斯修道院、雪地圣母教堂、卡罗利努姆、卡尔什泰因城堡、查理大桥和查理四世纪念碑。",
+    description: "Check in at these 7 places, one of them outside Prague: Emmaus Monastery, Church of Our Lady of the Snows, Karolinum, Karlštejn Castle, Charles Bridge, Hunger Wall and Monument to Charles IV.",
+    description_cz: "Přihlaste se na těchto 7 místech, z nichž jedno je mimo Prahu: Emauzské opatství, Kostel Panny Marie Sněžné, Karolinum, Hrad Karlštejn, Karlův most, Hladová zeď a Pomník Karla IV.",
+    description_zh: "打卡以下7个地点，其中一处在布拉格以外：艾玛乌斯修道院、雪地圣母教堂、卡罗利努姆、卡尔什泰因城堡、查理大桥、饥饿之墙和查理四世纪念碑。",
     difficulty: "hard",
     check: ({ checkedSlugs }) => CHARLES_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({

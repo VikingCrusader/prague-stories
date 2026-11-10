@@ -20,6 +20,7 @@ import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
 import { matchesArea } from '../components/locations/AreaFilter';
 import PackDetail from '../components/packs/PackDetail';
 import { usePacks } from '../hooks/usePacks';
+import { packInArea, withPackDistance } from '../utils/packs';
 import ExploreMap from '../components/locations/ExploreMap';
 import ExploreDrawer from '../components/locations/ExploreDrawer';
 import ExploreApplied, { NextUp } from '../components/locations/ExploreApplied';
@@ -136,14 +137,7 @@ export default function ExplorePage() {
   const nextUpShown = wide || drawer === 'next';
   const allPacks = usePacks(collectedCount);
   const [openPack, setOpenPack] = useState(null);
-  // A pack belongs to every district and quarter its cards are in.
-  const areaPacks = useMemo(() => {
-    if (!area) return allPacks;
-    if (area.kind === 'outside') return [];
-    return allPacks.filter(p => (area.kind === 'district'
-      ? p.districts.includes(area.value)
-      : p.quarters.includes(area.value) && (!area.district || p.districts.includes(area.district))));
-  }, [allPacks, area]);
+  const areaPacks = useMemo(() => allPacks.filter(p => packInArea(p, area)), [allPacks, area]);
   useEffect(() => {
     if (!nextUpShown || !userId || loading) return undefined;
     let stale = false;
@@ -202,6 +196,8 @@ export default function ExplorePage() {
       }))
       .sort((a, b) => a._distance - b._distance);
   }, [locations, userPos]);
+
+  const gridPacks = useMemo(() => withPackDistance(areaPacks, locations, userPos), [areaPacks, locations, userPos]);
 
   const hasCollected = useMemo(() => locations.some(l => l.unlocked), [locations]);
 
@@ -505,7 +501,7 @@ export default function ExplorePage() {
       ) : null}
       onViewFilters={() => setDrawer('applied')}
       onFilterCount={setFilterCount}
-      packs={areaPacks}
+      packs={gridPacks}
       onPackClick={setOpenPack}
       onClearFilters={() => { setCityOnly(true); setArea(null); }}
       filterExtraCount={inCollection ? 0 : (cityOnly ? (area ? 1 : 0) : 1)}

@@ -87,6 +87,8 @@
 
 .pack-card .loc-card__banner { position: relative; }
 .pack-card .loc-card__body { position: relative; }
+/* Only the art: as much foil under it as over it. */
+.pack-card--art .loc-card__banner { padding-bottom: 20px; }
 /* The art sits in a gold frame, drawn outside it so nothing moves. */
 .pack-card .loc-card__banner > img:not(.pack-card__lock) {
   box-shadow: 0 0 0 1px var(--pack-gold), 0 0 0 3px rgba(0, 0, 0, 0.45), 0 0 0 4px color-mix(in srgb, var(--pack-gold) 55%, transparent), 0 6px 12px rgba(0, 0, 0, 0.45);
@@ -142,7 +144,7 @@
 .map-board .map-tile__count { flex: none; font-size: 14px; white-space: nowrap; color: var(--text-muted); }
 
 /* The pack button at the bottom of a card's detail. */
-.detail-packs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--divider, #222); }
+.detail-packs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
 .detail-packs__label { font-size: 14px; color: var(--text-muted); }
 .detail-packs__pack {
   padding: 3px 12px;
@@ -164,7 +166,8 @@
 .pack-detail__text { flex: 1; min-width: 0; }
 :is(#root, body) .pack-detail__name { font-size: 32px; margin: 0; padding-right: 36px; }
 .pack-detail__cz { color: var(--text-muted); font-size: 16px; margin-top: 2px; }
-.pack-detail__areas { color: var(--gold); font-size: 15px; margin: 6px 0 12px; }
+.loc-card__labels.pack-detail__labels { margin-top: 8px; }
+.loc-card__labels.pack-detail__areas { margin: 8px 0 12px; }
 .pack-detail__hint { color: var(--gold); font-size: 16px; margin: 12px 0 14px; }
 .pack-detail__para { margin-bottom: 10px; }
 .pack-detail__cards-title { font-size: 22px; margin: 24px 0 12px; }
@@ -175,7 +178,8 @@
   .pack-detail__top { flex-direction: column; align-items: stretch; gap: 16px; }
   .pack-detail__wrapper { position: static; width: min(210px, 60vw); align-self: center; }
   :is(#root, body) .pack-detail__name { font-size: 26px; text-align: center; padding: 0 28px; }
-  .pack-detail__cz, .pack-detail__areas { text-align: center; }
+  .pack-detail__cz { text-align: center; }
+  .loc-card__labels.pack-detail__areas, .loc-card__labels.pack-detail__labels { justify-content: center; }
   .pack-detail__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 }
 
@@ -306,12 +310,11 @@
 .pack-shelf__item > .loc-card { height: 100%; }
 /* Phones and tablets: ordinary size. */
 .pack-shelf--stack .pack-shelf__row { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); margin-top: 10px; }
-/* A computer's small slot: the title beside the packs, and no small print. */
+/* A computer's small slot: the title beside the packs. */
 .profile-layout__top > .dashboard-grid > .pack-shelf--compact { flex-direction: row; align-items: stretch; gap: 12px; padding-top: 10px; padding-bottom: 10px; }
 .pack-shelf--compact .pack-shelf__title { flex: none; margin: 0; }
-.pack-shelf--compact .pack-shelf__row { flex: 1; min-height: 0; overflow: visible; justify-content: center; position: relative; }
+.pack-shelf--compact .pack-shelf__row { flex: 1; min-height: 0; overflow: visible; justify-content: center; align-items: center; position: relative; }
 .pack-shelf--compact .pack-shelf__empty { margin: auto 0; }
-.pack-shelf--compact :is(.loc-card__name, .loc-card__cz-name, .loc-card__footer) { visibility: hidden; }
 /* A 2K screen: a column beside the map, in the width the map never used. */
 .profile-layout__side:has(> .pack-shelf--side) { flex-direction: row; gap: 16px; }
 .profile-layout__side:has(> .pack-shelf--side) > .district-progress { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; }
@@ -334,3 +337,14 @@
   .ring-card + .rarity-compact { display: flex; flex-direction: column; }
   .ring-card + .rarity-compact > .rarity-compact__list { margin-top: auto; margin-bottom: auto; }
 }
+
+/* The Map's right column: the packs the filters leave, and one pack opened. */
+.map-pack-list { padding: 14px 16px 18px; }
+.map-pack-list__title { margin: 0 0 12px; }
+.map-pack-list__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.pack-panel { padding: 14px 16px 18px; }
+.pack-panel .pack-detail__top { flex-direction: column; align-items: stretch; gap: 14px; }
+.pack-panel .pack-detail__wrapper { position: static; width: min(190px, 60%); align-self: center; }
+:is(#root, body) .pack-panel .pack-detail__name { font-size: 26px; padding: 0; }
+.pack-panel .pack-detail__cards-title { font-size: 20px; margin-top: 18px; }
+.pack-panel .pack-detail__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }

@@ -1572,7 +1572,7 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 .map-board .map-topbar { height: 100%; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 6px 20px 10px; }
 .map-board .map-topbar__title.explore-title { margin: 0; height: 52px; line-height: 52px !important; text-align: center; white-space: nowrap; }
 html:not([data-lang="zh"]) :is(#root, body) .map-page.map-board .map-topbar__title { font-family: "Manufacturing Consent", serif !important; font-size: 48px !important; font-weight: 400; }
-.map-board .map-topbar__controls { display: grid; grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: 10px; }
+.map-board .map-topbar__controls { display: grid; grid-template-columns: minmax(0, 2fr) repeat(4, minmax(0, 1fr)); gap: 10px; align-items: center; }
 .map-board .map-topbar__controls .filter-btn { width: 100%; }
 .map-board .map-topbar__controls .filter-bar__search { width: 100%; min-width: 0; box-sizing: border-box; }
 .map-board .map-slot--bottom { grid-area: bottom; overflow: hidden; }
@@ -1656,7 +1656,7 @@ html:not([data-lang="zh"]) :is(#root, body) .map-page.map-board--narrow .map-top
 .map-board--phone .map-slot--top { height: auto; }
 .map-board--phone .map-topbar { display: block; height: auto; padding: 8px 10px; }
 .map-board--phone .map-topbar__title { display: none; }
-.map-board--phone .map-topbar__controls { position: relative; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.map-board--phone .map-topbar__controls { position: relative; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
 .map-board--phone .map-topbar__controls .filter-bar__search { grid-column: 1 / -1; padding: 7px 12px; }
 .map-board--phone .map-topbar__controls .filter-btn { padding: 6px 2px; white-space: nowrap; }
 .map-board--phone .map-topbar__controls .label-filter { position: static; }
@@ -1693,6 +1693,7 @@ html:not([data-lang="zh"]) :is(#root, body) .map-page.map-board--narrow .map-top
 .map-board--compact .map-topbar__title.explore-title { flex: none; max-width: 42%; height: 44px; line-height: 44px !important; font-size: 28px !important; overflow: hidden; text-overflow: ellipsis; }
 html:not([data-lang="zh"]) :is(#root, body) .map-page.map-board--compact .map-topbar__title { font-size: 32px !important; }
 .map-board--compact .map-topbar__controls { flex: 1; min-width: 0; }
+.map-board--compact .map-topbar__controls .filter-btn { padding-left: 4px; padding-right: 4px; white-space: nowrap; }
 .map-board--compact .map-slot--left { gap: 8px; padding: 10px; }
 .map-board--compact .map-chips { margin-top: auto; gap: 4px; }
 .map-board--compact .map-chips__title, .map-board--compact .map-left__heading { font-size: 14px; }

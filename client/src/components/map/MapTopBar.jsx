@@ -5,7 +5,7 @@ import { quarterName } from '../../utils/pragueQuarters';
 import LabelFilterGroups from '../locations/LabelFilterGroups';
 import { SORT_MODES, SORT_KEY } from '../locations/LocationGrid';
 
-function Menu({ label, active, children }) {
+function Menu({ label, active, disabled = false, children }) {
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
   useEffect(() => {
@@ -16,7 +16,7 @@ function Menu({ label, active, children }) {
   }, [open]);
   return (
     <div className="label-filter" ref={ref}>
-      <button type="button" className={`filter-btn${open || active ? ' filter-btn--active' : ''}`} onClick={() => setOpen(o => !o)}>
+      <button type="button" className={`filter-btn${open || active ? ' filter-btn--active' : ''}`} disabled={disabled} onClick={() => setOpen(o => !o)}>
         {label} <span className="explore-caret">▼</span>
       </button>
       {open && <div className="label-filter__panel">{children(() => setOpen(false))}</div>}
@@ -31,6 +31,7 @@ export default function MapTopBar({
   activeLabels, onToggleLabel, onClearLabels,
   activeRarities, onToggleRarity, onClearRarities, rarityOptions,
   sort, onSort,
+  packsOnly, onTogglePacks,
 }) {
   const t = useT();
   const { lang } = useLang();
@@ -44,6 +45,7 @@ export default function MapTopBar({
       <h1 className="px-title explore-title map-topbar__title">{convert(title)}</h1>
       <div className="map-topbar__controls">
         <input className="filter-bar__search" placeholder={t('grid.searchPlaceholder')} value={search} onChange={e => onSearch(e.target.value)} />
+        <button type="button" className={`filter-btn${packsOnly ? ' filter-btn--active' : ''}`} aria-pressed={packsOnly} onClick={onTogglePacks}>{t('grid.filterPacks')}</button>
         <Menu label={`${t('grid.filterLabels')}${activeLabels.size ? ` (${activeLabels.size})` : ''}`} active={activeLabels.size > 0}>
           {() => (
             <>
@@ -52,7 +54,7 @@ export default function MapTopBar({
             </>
           )}
         </Menu>
-        <Menu label={`${t('grid.filterRarity')}${activeRarities.size ? ` (${activeRarities.size})` : ''}`} active={activeRarities.size > 0}>
+        <Menu label={`${t('grid.filterRarity')}${activeRarities.size ? ` (${activeRarities.size})` : ''}`} active={activeRarities.size > 0} disabled={packsOnly}>
           {() => (
             <>
               {rarityOptions.map(r => (

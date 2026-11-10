@@ -9,6 +9,7 @@ import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES } from '../../utils/rarity';
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
+import { packMatches, nearestPackFirst } from '../../utils/packs';
 
 // Expedition sorts first (it pays 60-300 XP), highest XP first among them.
 export const RARITY_ORDER = { expedition: -1, legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
@@ -50,8 +51,8 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   }, [discovered, wide, loadTreasures]);
   const [activeLabels, setActiveLabels]     = useState(() => new Set(initialFilter?.label ? [initialFilter.label] : []));
   const [activeRarities, setActiveRarities] = useState(() => new Set(initialFilter?.rarity ? [initialFilter.rarity] : []));
-  // Card packs instead of cards. They have no labels, rarity or distance, so those
-  // filters and the sort are off meanwhile; search and the area still apply.
+  // Packs only, no cards. They have no rarity, so that filter and the sort are
+  // off meanwhile; labels, search and the area still apply.
   const [packsOnly, setPacksOnly] = useState(false);
   // The picked rarity (or null), so ExplorePage can show its description.
   // The header only has room for one description, so it shows with a single rarity.
@@ -165,12 +166,26 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     return list;
   }, [locations, discovered, treasureOnly, treasureSlugs, activeLabels, activeRarities, deferredSearch, sort]);
 
-  const shownPacks = useMemo(() => {
-    const trimmed = deferredSearch.trim();
-    if (!trimmed) return packs;
-    const q = trimmed.toLowerCase();
-    return packs.filter(p => p.name.toLowerCase().includes(q) || p.localizedNames?.cz?.toLowerCase().includes(q) || p.localizedNames?.zh?.includes(trimmed));
-  }, [packs, deferredSearch]);
+  // The packs that search and labels leave, nearest first (as listed without a position).
+  const shownPacks = useMemo(
+    () => packs.filter(p => packMatches(p, deferredSearch, activeLabels)).sort(nearestPackFirst),
+    [packs, deferredSearch, activeLabels],
+  );
+
+  // What the grid shows. Packs stand among the cards, except in a view that is
+  // only about cards (My Collections, treasure finds, a rarity: packs have none).
+  // Within 100 m of any of its cards a pack goes first, whatever the sort; the
+  // others stand at their nearest card when sorting by distance, and lead the
+  // grid when there is no distance to go by.
+  const gridItems = useMemo(() => {
+    if (packsOnly) return shownPacks;
+    if (discovered || treasureOnly || activeRarities.size > 0) return filtered;
+    const isNear = p => p._distance != null && p._distance <= NEARBY_REVEAL_M;
+    const near = shownPacks.filter(isNear);
+    const rest = shownPacks.filter(p => !isNear(p));
+    if (sort !== 'distance') return [...near, ...rest, ...filtered];
+    return [...near, ...[...rest, ...filtered].sort((a, b) => (a._distance ?? Infinity) - (b._distance ?? Infinity))];
+  }, [packsOnly, shownPacks, discovered, treasureOnly, activeRarities, filtered, sort]);
 
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
@@ -194,7 +209,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   }, [cityScoped, activeRarities]);
   const rarityOptions = cityScoped ? CITY_RARITIES : ALL_RARITIES;
 
-  const hasMore = visibleCount < filtered.length;
+  const hasMore = visibleCount < gridItems.length;
   const { handlers: previewHandlers, preview } = useCardPreview(filtered);
 
   useEffect(() => {
@@ -210,7 +225,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // Counted over what the filters and search leave, so the stats follow them.
   const unlocked = filtered.filter(l => l.unlocked).length;
   const total    = filtered.length;
-  const shownCount = packsOnly ? shownPacks.length : total;
+  const shownCount = gridItems.length;
   useEffect(() => { onCountChange?.(shownCount); }, [shownCount, onCountChange]);
 
   // My Collections is a view, not a filter: it isn't counted, and has its own way out.
@@ -232,9 +247,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   };
   const togglePacks = () => {
     if (!packsOnly) {
-      setActiveLabels(new Set());
       setActiveRarities(new Set());
-      setLabelsOpen(false);
       setRaritiesOpen(false);
       setSortOpen(false);
       if (discovered) leaveCollection();
@@ -273,7 +286,6 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
         <div className="label-filter" ref={labelPanelRef}>
           <button
             className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
-            disabled={packsOnly}
             onClick={() => { setLabelsOpen(o => !o); setRaritiesOpen(false); }}
           >
             {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
@@ -428,24 +440,23 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
       </div>
 
       <div ref={gridRef} className="location-grid" {...previewHandlers}>
-        {packsOnly && shownPacks.map(pack => <PackCard key={pack.slug} pack={pack} onClick={onPackClick} />)}
-        {!packsOnly && filtered.slice(0, visibleCount).map(loc => (
+        {gridItems.slice(0, visibleCount).map(item => (item.coordinates ? (
           <LocationCard
-            key={loc._id}
-            location={loc}
+            key={item._id}
+            location={item}
             onClick={onCardClick}
-            distance={loc._distance}
-            nearby={!loc.unlocked && loc._distance != null && loc._distance <= NEARBY_REVEAL_M}
+            distance={item._distance}
+            nearby={!item.unlocked && item._distance != null && item._distance <= NEARBY_REVEAL_M}
             previewable
           />
-        ))}
+        ) : <PackCard key={`pack-${item.slug}`} pack={item} onClick={onPackClick} />))}
         {shownCount === 0 && (
           <p style={{ color: 'var(--text-muted)', gridColumn: '1/-1', padding: 24 }}>
             {t('grid.noResults')}
           </p>
         )}
       </div>
-      {hasMore && !packsOnly && <div ref={sentinelRef} style={{ height: 1 }} />}
+      {hasMore && <div ref={sentinelRef} style={{ height: 1 }} />}
       {preview}
     </>
   );

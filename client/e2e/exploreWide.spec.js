@@ -1,5 +1,8 @@
 import { test, expect } from '@playwright/test';
 
+// Whatever backend happens to be running must not add its packs to the grid.
+test.beforeEach(({ page }) => page.route('**/api/packs', route => route.fulfill({ json: [] })));
+
 const USER = { _id: 'u1', username: 'explorer', email: 'e@example.com', totalXP: 140, explorerLevel: 2 };
 const card = (i, district, quarter, unlocked, extra) => ({
   _id: String(i), name: `Card ${i}`, slug: `card-${i}`, localizedNames: { cz: `Card ${i}`, zh: `Card ${i}` }, labels: ['castle'], coverImage: '', pixelArtKey: '',

@@ -1,5 +1,8 @@
 import { test, expect } from '@playwright/test';
 
+// Whatever backend happens to be running must not add its packs to the grid.
+test.beforeEach(({ page }) => page.route('**/api/packs', route => route.fulfill({ json: [] })));
+
 const LOCATIONS = [
   {
     _id: '1',

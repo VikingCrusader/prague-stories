@@ -12,8 +12,6 @@ import { achField } from '../../utils/achievementText';
 import { RARITY_ORDER } from '../locations/LocationGrid';
 import AchievementIcon from '../achievements/AchievementIcon';
 import AchievementModal from '../achievements/AchievementModal';
-import PackDetail from '../packs/PackDetail';
-import { usePacks } from '../../hooks/usePacks';
 
 const byRarity = (a, b) => (RARITY_ORDER[a.rarity] ?? 4) - (RARITY_ORDER[b.rarity] ?? 4) || (b.xpReward ?? 0) - (a.xpReward ?? 0);
 const distanceFrom = (point, l) => haversineDistance(point.lat, point.lng, l.coordinates.lat, l.coordinates.lng);
@@ -94,19 +92,19 @@ function CardRow({ title, items, emptyText, onPick }) {
   );
 }
 
-// The bar under the map on a 2K screen. With no card chosen: the cards still to
-// collect within the filters, in the page's sort order. With a card chosen: the
-// packs it belongs to, then the achievements it counts for, with uncollected places
-// near it filling the rest of the row (that order is the user's call).
-export default function MapBottomBar({ filtered, selected, sort, userPos, collectedCount, maxTiles, onPick, onCheckIn }) {
+// The bar under the map on a 2K screen. With no card chosen: `leadPacks` (the packs
+// of a chosen area, or all those shown with the Packs filter) come first, then the
+// cards still to collect within the filters, in the page's sort order. With a card
+// chosen: the packs it belongs to, then the achievements it counts for, with
+// uncollected places near it filling the rest of the row (that order is the user's
+// call). A pack clicked here opens through `onPickPack`.
+export default function MapBottomBar({ filtered, selected, sort, userPos, collectedCount, maxTiles, onPick, packs, leadPacks, onPickPack }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const { user } = useAuth();
   const [achievements, setAchievements] = useState(null);
   const [openAch, setOpenAch] = useState(null);
-  const allPacks = usePacks(collectedCount);
-  const [openPack, setOpenPack] = useState(null);
   const userId = user?._id;
   useEffect(() => {
     if (!userId) { setAchievements([]); return undefined; }
@@ -141,7 +139,7 @@ export default function MapBottomBar({ filtered, selected, sort, userPos, collec
       .slice(0, maxTiles);
   }, [todo, selected, maxTiles]);
 
-  const shownPacks = selected ? allPacks.filter(p => p.memberSlugs?.includes(selected.slug)).slice(0, maxTiles) : [];
+  const shownPacks = selected ? packs.filter(p => p.memberSlugs?.includes(selected.slug)).slice(0, maxTiles) : [];
   // Few packs and related achievements: the rest of the row goes to places nearby.
   const shownRelated = related.slice(0, maxTiles - shownPacks.length);
   const firstFiller = shownPacks.length + shownRelated.length;
@@ -150,7 +148,18 @@ export default function MapBottomBar({ filtered, selected, sort, userPos, collec
   let body;
   if (!selected) {
     const titleKey = sort === 'newest' ? 'map.stripNewest' : sort === 'distance' && userPos ? 'map.stripNearest' : 'map.stripRarity';
-    body = <CardRow title={t(titleKey)} items={strip} emptyText={t('map.stripEmpty')} onPick={onPick} />;
+    const lead = leadPacks.slice(0, maxTiles);
+    const cards = strip.slice(0, maxTiles - lead.length);
+    body = !lead.length ? <CardRow title={t(titleKey)} items={strip} emptyText={t('map.stripEmpty')} onPick={onPick} /> : (
+      <div className="map-split">
+        <h2 className="px-title profile-card-title map-bottom__title" style={{ gridColumn: `1 / span ${lead.length}`, order: 0 }}>{t('grid.filterPacks')}</h2>
+        {cards.length > 0 && (
+          <h2 className="px-title profile-card-title map-bottom__title" style={{ gridColumn: `${lead.length + 1} / span ${maxTiles - lead.length}`, order: 4 }}>{t(titleKey)}</h2>
+        )}
+        {lead.map(pack => <PackTile key={pack.slug} pack={pack} onOpen={onPickPack} />)}
+        {cards.map(({ location, distance }) => <CardTile key={location.slug} location={location} distance={distance} onPick={onPick} last />)}
+      </div>
+    );
   } else if (!achievements) {
     body = null;
   } else if (!shownPacks.length && !shownRelated.length) {
@@ -169,7 +178,7 @@ export default function MapBottomBar({ filtered, selected, sort, userPos, collec
         {fillers.length > 0 && (
           <h2 className="px-title profile-card-title map-bottom__title" style={{ gridColumn: `${firstFiller + 1} / span ${maxTiles - firstFiller}`, order: 4 }}>{t('map.stripNearCard')}</h2>
         )}
-        {shownPacks.map(pack => <PackTile key={pack.slug} pack={pack} onOpen={setOpenPack} />)}
+        {shownPacks.map(pack => <PackTile key={pack.slug} pack={pack} onOpen={onPickPack} />)}
         {shownRelated.map(a => (
             <button key={a.id} type="button" className="map-ach" style={{ order: 3 }} onClick={() => setOpenAch(a)}>
               <span className="map-ach__inner">
@@ -194,7 +203,6 @@ export default function MapBottomBar({ filtered, selected, sort, userPos, collec
     <div className="map-bottom">
       {body}
       {openAch && createPortal(<AchievementModal achievement={openAch} onClose={() => setOpenAch(null)} />, document.body)}
-      {openPack && <PackDetail slug={openPack} onClose={() => setOpenPack(null)} onCheckIn={onCheckIn} />}
     </div>
   );
 }

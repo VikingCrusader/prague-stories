@@ -1,5 +1,8 @@
 import { test, expect } from '@playwright/test';
 
+// Whatever backend happens to be running must not add its packs to the grid.
+test.beforeEach(({ page }) => page.route('**/api/packs', route => route.fulfill({ json: [] })));
+
 // The stacked layout; the side column has its own tests (exploreWide.spec.js).
 test.use({ viewport: { width: 1100, height: 800 } });
 

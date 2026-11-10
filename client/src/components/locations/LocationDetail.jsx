@@ -535,7 +535,8 @@ export default function LocationDetail({
                 </div>
               )}
 
-              <DistrictLine loc={loc} style={{ marginBottom: 14 }} />
+              <DistrictLine loc={loc} style={{ marginBottom: loc.packs?.length ? 8 : 14 }} />
+              <PackLinks packs={loc.packs} fromPack={fromPack} onBack={onClose} style={{ marginBottom: 14 }} />
 
               {(() => {
                 const paras = description
@@ -726,8 +727,6 @@ export default function LocationDetail({
                   )}
                 </div>
               )}
-
-              <PackLinks packs={loc.packs} fromPack={fromPack} onBack={onClose} />
             </div>
           </>
         ) : null}

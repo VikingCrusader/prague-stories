@@ -38,7 +38,6 @@ export const DISTRICT_COLORS = [
 // opens its area's guide in AreaGuideModal (or a "coming soon" note there).
 export default function DistrictLine({ loc, style }) {
   const t = useT();
-  const { lang } = useLang();
   const convert = useConvert();
   const [guide, setGuide] = useState(null);
   const outside = loc.labels?.includes('outside');
@@ -51,27 +50,64 @@ export default function DistrictLine({ loc, style }) {
       </span>
     </div>
   );
-  // Historical quarter (katastrální území) first, then the modern district;
-  // both in the district's colour, so the pair reads as one place.
-  const bg = { backgroundColor: DISTRICT_COLORS[n - 1] };
-  const pill = (kind, value, text) => (
+  return (
+    <AreaPills
+      quarters={loc.quarter ? [{ value: loc.quarter, district: loc.district }] : []}
+      districts={[loc.district]}
+      onOpen={setGuide}
+      style={style}
+    >
+      {guide && <AreaGuideModal kind={guide.kind} value={guide.value} onClose={() => setGuide(null)} />}
+    </AreaPills>
+  );
+}
+
+// Historical quarters (katastrální území) first, then the modern districts;
+// each in its district's colour, so a quarter and its district read as one place.
+function AreaPills({ quarters, districts, onOpen, className = '', style, children }) {
+  const t = useT();
+  const { lang } = useLang();
+  const convert = useConvert();
+  const numberOf = district => district?.match(/^Praha (\d+)$/)?.[1];
+  const pill = (kind, value, district, text) => (
     <button
+      key={`${kind}-${value}`}
       type="button"
       className="detail-label-pill area-guide-pill"
-      style={bg}
+      style={{ backgroundColor: DISTRICT_COLORS[numberOf(district) - 1] }}
       title={t('areaGuide.open')}
-      onClick={e => { e.stopPropagation(); setGuide({ kind, value }); }}
+      onClick={e => { e.stopPropagation(); onOpen({ kind, value }); }}
     >
       {convert(text)}
     </button>
   );
   return (
-    <div className="loc-card__labels" style={style}>
-      {loc.quarter && pill('quarter', loc.quarter, quarterName(loc.quarter, lang))}
-      {pill('district', loc.district, t('detail.district', { n }))}
-      {guide && <AreaGuideModal kind={guide.kind} value={guide.value} onClose={() => setGuide(null)} />}
+    <div className={`loc-card__labels ${className}`.trim()} style={style}>
+      {quarters.map(q => pill('quarter', q.value, q.district, quarterName(q.value, lang)))}
+      {districts.map(d => pill('district', d, d, t('detail.district', { n: numberOf(d) })))}
+      {children}
     </div>
   );
+}
+
+// Values by how many items have them, most first; ties keep their first-seen order.
+const byCount = values => {
+  const counts = new Map();
+  values.forEach(v => counts.set(v, (counts.get(v) || 0) + 1));
+  return [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a));
+};
+
+// A card pack's areas: every quarter and district its cards are in, so there
+// can be several. A quarter takes the colour of the district most of its cards
+// are in. The opener keeps the guide, so it can tell what lies on top of it.
+export function PackAreaLine({ cards, onOpen, className }) {
+  const placed = cards.filter(c => /^Praha \d+$/.test(c.district || ''));
+  if (!placed.length) return null;
+  const quarters = byCount(placed.filter(c => c.quarter).map(c => c.quarter)).map(value => ({
+    value,
+    district: byCount(placed.filter(c => c.quarter === value).map(c => c.district))[0],
+  }));
+  return <AreaPills quarters={quarters} districts={byCount(placed.map(c => c.district))} onOpen={onOpen} className={className} />;
 }
 
 // The descriptive labels, minus `outside`, which DistrictLine shows instead.

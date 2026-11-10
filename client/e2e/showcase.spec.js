@@ -1,5 +1,8 @@
 import { test, expect, devices } from '@playwright/test';
 
+// Whatever backend happens to be running must not add its packs to the grid.
+test.beforeEach(({ page }) => page.route('**/api/packs', route => route.fulfill({ json: [] })));
+
 // The card showcase on a phone: long press opens it, swipe up shows the
 // story, swipe down brings the cover back, a sideways drag turns it over.
 // Touches go through CDP so they reach the page as real touch input.
