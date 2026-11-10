@@ -7,6 +7,8 @@ const FIT_ZOOM_SNAP = 0.1;
 const PICKED_CARD_ZOOM = 15;
 const PANEL_MARGIN = 60;
 const PANEL_MIN_ZOOM = 13;
+// A small pack (Kampa, a square) shouldn't zoom in to a single building.
+const PACK_MAX_ZOOM = 16;
 
 function boundsOf(rings) {
   let south = 90, west = 180, north = -90, east = -180;
@@ -22,8 +24,9 @@ function boundsOf(rings) {
 }
 
 // Moves the map to the chosen district or quarter so that it just fits, and back
-// to the whole city when the choice is cleared.
-export default function MapAreaFocus({ area, cityOnly, flyTo, selected, panelRef }) {
+// to the whole city when the choice is cleared. `pack` ({ slug, bounds }), an open
+// pack, takes the area's place while it is open.
+export default function MapAreaFocus({ area, cityOnly, flyTo, selected, panelRef, pack = null }) {
   const map = useMap();
   // Always opens on the whole city, and stays fitted to it if the map's box changes
   // size (the layout settles after the map exists) until the player moves the map.
@@ -48,7 +51,7 @@ export default function MapAreaFocus({ area, cityOnly, flyTo, selected, panelRef
       container.removeEventListener('dblclick', moved);
     };
   }, [map]);
-  useEffect(() => { if (area || flyTo) untouched.current = false; }, [area, flyTo]);
+  useEffect(() => { if (area || flyTo || pack) untouched.current = false; }, [area, flyTo, pack]);
   // `flyTo` ({ lat, lng }, a new object each time): a card picked outside the map.
   // Where a sliding panel covers the map's right side (`panelRef`), the card goes in
   // the middle of what is left, not under the panel.
@@ -75,11 +78,24 @@ export default function MapAreaFocus({ area, cityOnly, flyTo, selected, panelRef
     // flyTo only tells this apart from a card picked below the map.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [map, selectedLat, selectedLng, panelRef]);
-  const key = area && area.kind !== 'outside' ? `${area.kind}:${area.value}:${area.district ?? ''}` : '';
+  // An open pack wins over the area: the map fits the pack's cards, and goes back
+  // to the area (or the city) when the pack closes (2026-11-10, user's call).
+  const areaKey = area && area.kind !== 'outside' ? `${area.kind}:${area.value}:${area.district ?? ''}` : '';
+  const key = pack ? `pack:${pack.slug}` : areaKey;
   const shown = useRef('');
   useEffect(() => {
     if (key === shown.current) return undefined;
     shown.current = key;
+    if (pack) {
+      if (!pack.bounds) return undefined;
+      // A panel sliding over the map's right side shouldn't hide part of the pack.
+      const covered = panelRef?.current?.offsetWidth ?? 0;
+      const { zoomSnap } = map.options;
+      map.options.zoomSnap = FIT_ZOOM_SNAP;
+      map.fitBounds(pack.bounds, { paddingTopLeft: [48, 48], paddingBottomRight: [48 + covered, 48], maxZoom: PACK_MAX_ZOOM });
+      map.options.zoomSnap = zoomSnap;
+      return undefined;
+    }
     if (!key) {
       if (cityOnly) map.fitBounds(PRAGUE_BOUNDS);
       return undefined;
@@ -99,6 +115,6 @@ export default function MapAreaFocus({ area, cityOnly, flyTo, selected, panelRef
       map.options.zoomSnap = zoomSnap;
     }).catch(() => {});
     return () => { live = false; };
-  }, [map, key, area, cityOnly]);
+  }, [map, key, area, cityOnly, pack, panelRef]);
   return null;
 }

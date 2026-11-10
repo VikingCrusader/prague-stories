@@ -281,6 +281,23 @@ test.describe('card packs on the Map', () => {
       await expect(page.locator('.pack-detail-overlay')).toHaveCount(0);
     });
 
+    test('an open pack narrows the map to its cards and is listed as a filter', async ({ page }) => {
+      await page.route('**/api/locations/*', route => route.fulfill({ json: { ...CARDS[0], description: { en: 'x', cz: 'x', zh: 'x' }, packs: [{ slug: 'in-area', name: 'In Area', localizedNames: {}, foil: '#7a1f2b' }] } }));
+      await page.goto('/map');
+      await expect(tileNames(page)).toHaveCount(6);
+      await page.locator('.map-bottom .map-tile').first().click();
+      await page.locator('.map-slot--right .detail-packs__pack').click();
+      await expect(page.locator('.map-slot--right .pack-panel')).toBeVisible();
+      // Only the pack's two cards are left, and the pack leads the filters.
+      await expect(tileNames(page)).toHaveCount(2);
+      const chip = page.locator('.map-chip').first();
+      await expect(chip).toContainText('In Area');
+      // Its chip closes it, and the map has every card again.
+      await chip.click();
+      await expect(page.locator('.map-slot--right .pack-panel')).toHaveCount(0);
+      await expect(tileNames(page)).toHaveCount(6);
+    });
+
     test('picking another area closes the open pack, so the right column follows the area', async ({ page }) => {
       await page.route('**/api/locations', route => route.fulfill({ json: CARDS.map(c => ({ ...c, district: 'Praha 11' })) }));
       await page.route('**/api/packs', route => route.fulfill({ json: [ELSEWHERE, { ...IN_AREA, districts: ['Praha 11'] }] }));

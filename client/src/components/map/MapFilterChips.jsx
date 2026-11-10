@@ -7,13 +7,15 @@ import { quarterName } from '../../utils/pragueQuarters';
 // The filters that are on, each removable, and a way to clear them all, in the
 // left column on a 2K screen. The box has a fixed size and never scrolls (user's
 // rule, 2026-11-09): what doesn't fit is counted in a last "+N".
-export default function MapFilterChips({ area, onArea, search, onClearSearch, labels, onToggleLabel, rarities, onToggleRarity, packsOnly = false, onClearPacks, onClearAll }) {
+export default function MapFilterChips({ pack = null, onClearPack, area, onArea, search, onClearSearch, labels, onToggleLabel, rarities, onToggleRarity, packsOnly = false, onClearPacks, onClearAll }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const boxRef = useRef(null);
 
   const chips = [];
+  // An open pack narrows the map to its cards, so it leads the list (2026-11-10).
+  if (pack) chips.push({ key: 'pack', text: convert(pack), clear: onClearPack });
   if (packsOnly) chips.push({ key: 'packs', text: convert(t('grid.filterPacks')), clear: onClearPacks });
   if (search.trim()) chips.push({ key: 'search', text: `“${search.trim()}”`, clear: onClearSearch });
   if (area?.kind === 'outside') {

@@ -145,12 +145,24 @@ export default function MapPage() {
   }, [allPacks, area, search, activeLabels, activeRarities, locations, userPos]);
 
   const filteredLocations = useMemo(() => {
-    let list = (cityOnly ? locations.filter(isInCity) : locations).filter(l => matchesArea(l, area));
-    // With the Packs filter the search and labels have picked the packs; the map
-    // shows those packs' cards.
-    if (packsOnly) {
-      const members = new Set(shownPacks.flatMap(p => p.memberSlugs || []));
-      return list.filter(l => members.has(l.slug));
+    // An open pack is a filter of its own (2026-11-10, user's call): the map shows
+    // only its cards. The pack is a place, so the area and the scope step aside;
+    // labels, rarity and search still narrow it, except under the Packs filter,
+    // where they have already picked the packs.
+    const openPack = selectedPack ? allPacks.find(p => p.slug === selectedPack) : null;
+    let list;
+    if (openPack) {
+      const members = new Set(openPack.memberSlugs || []);
+      list = locations.filter(l => members.has(l.slug));
+      if (packsOnly) return list;
+    } else {
+      list = (cityOnly ? locations.filter(isInCity) : locations).filter(l => matchesArea(l, area));
+      // With the Packs filter the search and labels have picked the packs; the map
+      // shows those packs' cards.
+      if (packsOnly) {
+        const members = new Set(shownPacks.flatMap(p => p.memberSlugs || []));
+        return list.filter(l => members.has(l.slug));
+      }
     }
     if (activeLabels.size > 0) {
       list = list.filter(l =>
@@ -169,7 +181,7 @@ export default function MapPage() {
       );
     }
     return list;
-  }, [locations, cityOnly, area, activeLabels, activeRarities, search, packsOnly, shownPacks]);
+  }, [locations, cityOnly, area, activeLabels, activeRarities, search, packsOnly, shownPacks, selectedPack, allPacks]);
 
   // Under the Packs filter a pack the filters no longer leave closes, like a card.
   useEffect(() => {
@@ -271,10 +283,26 @@ export default function MapPage() {
     if (kind === 'rarity' && packsOnly) leavePacks();
     (kind === 'label' ? setActiveLabels : setActiveRarities)(prev => new Set(prev).add(value));
   };
-  const clearFilters = () => { if (packsOnly) leavePacks(); setSearch(''); setActiveLabels(new Set()); setActiveRarities(new Set()); setArea(null); };
+  const clearFilters = () => { if (packsOnly) leavePacks(); setSelectedPack(null); setSearch(''); setActiveLabels(new Set()); setActiveRarities(new Set()); setArea(null); };
   const hasIntro = !!shownDistrict && area?.kind !== 'outside';
+  const openPack = selectedPack ? allPacks.find(p => p.slug === selectedPack) : null;
+  // The box round the open pack's cards, for the map to fit.
+  let packFocus = null;
+  if (openPack) {
+    const members = new Set(openPack.memberSlugs || []);
+    const pts = locations.filter(l => members.has(l.slug) && l.coordinates).map(l => l.coordinates);
+    packFocus = {
+      slug: openPack.slug,
+      bounds: pts.length ? [
+        [Math.min(...pts.map(p => p.lat)), Math.min(...pts.map(p => p.lng))],
+        [Math.max(...pts.map(p => p.lat)), Math.max(...pts.map(p => p.lng))],
+      ] : null,
+    };
+  }
   const chips = (
     <MapFilterChips
+      pack={openPack ? getLocName(openPack, lang) : null}
+      onClearPack={() => setSelectedPack(null)}
       area={area}
       onArea={chooseArea}
       search={search}
@@ -343,7 +371,7 @@ export default function MapPage() {
           viewButton={narrow && hasIntro && !selected && !infoOpen ? { label: t('map.areaIntro'), onClick: () => setInfoOpen(true) } : null}
         >
           <MapBoundaries area={area} cityOnly={cityOnly} onArea={chooseArea} />
-          <MapAreaFocus area={area} cityOnly={cityOnly} flyTo={flyTo} selected={selected} panelRef={narrow ? rightColumnRef : null} />
+          <MapAreaFocus area={area} cityOnly={cityOnly} flyTo={flyTo} selected={selected} panelRef={narrow ? rightColumnRef : null} pack={packFocus} />
         </MapView>
         <MapFrame />
         <MapLegend />
