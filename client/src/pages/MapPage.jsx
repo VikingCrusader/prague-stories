@@ -294,6 +294,8 @@ export default function MapPage() {
       onCheckIn={handleCheckIn}
       onViewDetail={(slug) => navigate('/explore', { state: { openSlug: slug } })}
       onAddFilter={addFilter}
+      onArea={a => chooseArea(a.kind === 'quarter' ? { kind: 'quarter', value: a.value, district: a.district } : { kind: 'district', value: a.value })}
+      onOpenPack={pickPack}
     />
   );
   const bottomBar = (
@@ -463,8 +465,10 @@ export default function MapPage() {
   );
 }
 
-// `onAddFilter(kind, value)`: on the Map a label or rarity adds that filter right here.
-function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter }) {
+// `onAddFilter(kind, value)`: on the Map a label or rarity adds that filter right here;
+// an area pill picks that area (`onArea`) and a pack opens in the right column
+// (`onOpenPack`), 2026-11-10.
+function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter, onArea, onOpenPack }) {
   const { lang } = useLang();
   const t = useT();
   const convert = useConvert();
@@ -630,8 +634,8 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter }) {
             </button>
           ))}
         </div>
-        <DistrictLine loc={loc} style={{ marginBottom: 4 }} />
-        <PackLinks packs={loc.packs} artOnly style={{ marginTop: 6, marginBottom: 10 }} />
+        <DistrictLine loc={loc} style={{ marginBottom: 4 }} onArea={onArea} />
+        <PackLinks packs={loc.packs} artOnly onOpenPack={onOpenPack} style={{ marginTop: 6, marginBottom: 10 }} />
 
         {(() => {
           const paras = desc ? desc.split('\n').filter(l => l.trim()) : [];

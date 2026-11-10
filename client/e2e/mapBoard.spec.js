@@ -262,6 +262,25 @@ test.describe('card packs on the Map', () => {
       await expect(page.locator('.map-slot--right .pack-panel')).toContainText('Pack story.');
     });
 
+    test("in a card's panel a label or area adds that filter, and its pack opens in the right column", async ({ page }) => {
+      await page.route('**/api/locations/*', route => route.fulfill({ json: { ...CARDS[0], description: { en: 'x', cz: 'x', zh: 'x' }, packs: [{ slug: 'in-area', name: 'In Area', localizedNames: {}, foil: '#7a1f2b' }] } }));
+      await page.goto('/map');
+      await page.locator('.map-bottom .map-tile').first().click();
+      const panel = page.locator('.map-slot--right');
+      await expect(panel.locator('.detail-packs__pack')).toBeVisible();
+      // A label: a filter chip, no pop-up.
+      await panel.locator('.tag-button.detail-label-pill').first().click();
+      await expect(page.locator('.map-chip', { hasText: 'Church & Cathedral' })).toBeVisible();
+      // An area pill: the quarter becomes the area, no guide opens.
+      await panel.locator('.area-guide-pill', { hasText: 'Vinohrady' }).click();
+      await expect(page.locator('.px-modal.area-guide')).toHaveCount(0);
+      await expect(page.locator('.map-chip', { hasText: 'Vinohrady' })).toBeVisible();
+      // The pack: in the right column, not a pop-up.
+      await panel.locator('.detail-packs__pack').click();
+      await expect(panel.locator('.pack-panel')).toContainText('Pack story.');
+      await expect(page.locator('.pack-detail-overlay')).toHaveCount(0);
+    });
+
     test('picking another area closes the open pack, so the right column follows the area', async ({ page }) => {
       await page.route('**/api/locations', route => route.fulfill({ json: CARDS.map(c => ({ ...c, district: 'Praha 11' })) }));
       await page.route('**/api/packs', route => route.fulfill({ json: [ELSEWHERE, { ...IN_AREA, districts: ['Praha 11'] }] }));

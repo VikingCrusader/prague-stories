@@ -36,7 +36,9 @@ export const DISTRICT_COLORS = [
 // historical quarter and Prague správní obvod ("Smíchov" + "Praha 5"), or
 // "Outside Prague" for cards labelled `outside`. Each pill is a button that
 // opens its area's guide in AreaGuideModal (or a "coming soon" note there).
-export default function DistrictLine({ loc, style }) {
+// `onArea({ kind, value, district })` (the Map): a pill picks that area as the
+// filter instead of opening its guide (2026-11-10, user's call).
+export default function DistrictLine({ loc, style, onArea = null }) {
   const t = useT();
   const convert = useConvert();
   const [guide, setGuide] = useState(null);
@@ -54,7 +56,7 @@ export default function DistrictLine({ loc, style }) {
     <AreaPills
       quarters={loc.quarter ? [{ value: loc.quarter, district: loc.district }] : []}
       districts={[loc.district]}
-      onOpen={setGuide}
+      onOpen={onArea || setGuide}
       style={style}
     >
       {guide && <AreaGuideModal kind={guide.kind} value={guide.value} onClose={() => setGuide(null)} />}
@@ -76,7 +78,7 @@ function AreaPills({ quarters, districts, onOpen, className = '', style, childre
       className="detail-label-pill area-guide-pill"
       style={{ backgroundColor: DISTRICT_COLORS[numberOf(district) - 1] }}
       title={t('areaGuide.open')}
-      onClick={e => { e.stopPropagation(); onOpen({ kind, value }); }}
+      onClick={e => { e.stopPropagation(); onOpen({ kind, value, district }); }}
     >
       {convert(text)}
     </button>
