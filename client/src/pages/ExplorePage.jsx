@@ -7,7 +7,7 @@ import { AREA_BLURBS } from '../utils/areaBlurbs';
 import AreaGuideModal from '../components/locations/AreaGuideModal';
 import { RARITY_BLURB } from '../utils/rarityBlurbs';
 import { RARITY_LABEL } from '../utils/rarity';
-import { RARITY_QUIP, EXPLORE_TIPS } from '../utils/filterBlurbs';
+import { RARITY_QUIP, EXPLORE_TIPS, PACK_BLURB } from '../utils/filterBlurbs';
 import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
 import { useAuth } from '../context/AuthContext';
 import { useUserPosition } from '../hooks/useUserPosition';
@@ -78,6 +78,7 @@ export default function ExplorePage() {
   // The rarity picked in LocationGrid's filter when exactly one is, or null: its
   // description (the Guide's line) shows under the title.
   const [rarity, setRarity]             = useState(null);
+  const [packsShown, setPacksShown]     = useState(false);
   // Default to the city proper: cards tagged `outside` lie beyond Prague's
   // administrative boundary (day trips), shown only on "Show all".
   const [cityOnly, setCityOnly]         = useState(() => !state?.showAll);
@@ -210,8 +211,8 @@ export default function ExplorePage() {
   const sortedLocations = useMemo(
     () => (cityOnly
       ? sortedAll.filter(l => isInCity(l) && matchesArea(l, area))
-      : wide ? sortedAll.filter(l => matchesArea(l, area)) : sortedAll),
-    [sortedAll, cityOnly, area, wide],
+      : sortedAll.filter(l => matchesArea(l, area))),
+    [sortedAll, cityOnly, area],
   );
   const collectionLocations = useMemo(
     () => (wide ? sortedAll.filter(l => matchesArea(l, area)) : sortedAll),
@@ -292,33 +293,34 @@ export default function ExplorePage() {
   }, [hereText, lang, compact]);
 
   // With an area picked, the title becomes the area's name plus a short intro.
-  const areaActive = wide ? area : cityOnly && !inCollection && area;
+  const areaActive = wide ? area : !inCollection && area;
   const beyondCity = area?.kind === 'outside';
   const areaBlurb  = !areaActive ? null : beyondCity ? RARITY_QUIP.expedition : AREA_BLURBS[area.kind]?.[area.value];
   // Under the title / "where you are" line, one description at a time: the
   // picked rarity's first, then the area's, then the My Collections hint.
   // On a 2K screen these move under the map (ExploreApplied).
-  const rarityBlurb = rarity && !wide ? (RARITY_BLURB[lang] || RARITY_BLURB.en)[rarity] : null;
+  // The Packs button's line takes the same slot (it turns the rarity filter off).
+  const rarityBlurb = wide ? null
+    : packsShown ? (PACK_BLURB[lang] || PACK_BLURB.en)
+    : rarity ? (RARITY_BLURB[lang] || RARITY_BLURB.en)[rarity] : null;
   const titleText  = areaActive
     ? convert(beyondCity ? (RARITY_LABEL[lang]?.expedition ?? RARITY_LABEL.en.expedition) : area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : `${area.district ? `${t('detail.district', { n: area.district.slice(6) })}${lang === 'zh' ? '，' : ', '}` : ''}${quarterName(area.value, lang)}`)
     : t(guest ? 'explore.titleGuest' : inCollection ? 'explore.titleCollection' : cityOnly ? 'explore.titleCity' : 'explore.title');
 
   const changeScope = city => { setCityOnly(city); if (!city || beyondCity) setArea(null); };
   // My Collections shows every collected card, so it has neither control.
+  // Without the side column only the area button sits among the filters; the
+  // City only / Show all switch lives in its sheet, above the map (2026-11-10,
+  // user's call: fewer buttons on the phone's Explore).
   const scopeToggle = wide ? (
     <div className={`scope-controls${inCollection ? ' scope-controls--off' : ''}`}>
       <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
     </div>
   ) : inCollection ? null : (
-    <div className="scope-controls">
-      <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
-      {cityOnly && (
-        <div className="label-filter area-filter">
-          <button type="button" className={`filter-btn${drawer === 'map' || area ? ' filter-btn--active' : ''}`} style={{ width: '100%', whiteSpace: 'nowrap' }} onClick={() => setDrawer('map')}>
-            {area ? titleText : t('area.button')} ▼
-          </button>
-        </div>
-      )}
+    <div className="label-filter area-filter">
+      <button type="button" className={`filter-btn${drawer === 'map' || area || !cityOnly ? ' filter-btn--active' : ''}`} style={{ width: '100%', whiteSpace: 'nowrap' }} onClick={() => setDrawer('map')}>
+        {area ? titleText : !cityOnly ? t('explore.scopeAll') : t('area.button')} ▼
+      </button>
     </div>
   );
 
@@ -467,7 +469,6 @@ export default function ExplorePage() {
               <p className="explore-showcase-hint">{showcaseHint}</p>
             )}
           </div>
-          {!wide && !filtersFolded && <div className="explore-header__scope">{scopeToggle}</div>}
         </div>
       </div>
   );
@@ -481,6 +482,7 @@ export default function ExplorePage() {
       hideOutsideLabel={cityOnly}
       onCollectionChange={setInCollection}
       onRarityChange={setRarity}
+      onPacksChange={setPacksShown}
       initialFilter={initialFilter}
       wide={wide}
       fitRows={!wide ? 0 : belowTwoK ? 2 : 3}
@@ -508,7 +510,7 @@ export default function ExplorePage() {
       areaChosen={!!area}
       guestPreview={guestPreview}
       onClearFilters={() => { setCityOnly(true); setArea(null); }}
-      filterExtraCount={inCollection ? 0 : (cityOnly ? (area ? 1 : 0) : 1)}
+      filterExtraCount={inCollection ? 0 : (cityOnly ? 0 : 1) + (area ? 1 : 0)}
       renderApplied={(filters) => (
         <ExploreApplied
           {...filters}
@@ -558,7 +560,8 @@ export default function ExplorePage() {
           )}
           {drawer === 'map' && (
             <ExploreDrawer count={shownCount} onClose={closeDrawer} onClear={area ? () => setArea(null) : null}>
-              <ExploreMap locations={locations} area={area} onArea={setArea} outside={false} here={myArea} />
+              <div className="explore-drawer__scope"><ScopeToggle cityOnly={cityOnly} onChange={changeScope} /></div>
+              <ExploreMap locations={locations} area={area} onArea={setArea} outside={!cityOnly} here={myArea} />
             </ExploreDrawer>
           )}
         </>

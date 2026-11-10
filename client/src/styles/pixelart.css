@@ -1449,7 +1449,15 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 .filter-bar__top { display: contents; }
 .filter-bar__bottom { display: contents; }
 .filter-bar__scope { display: none; }
-.scope-toggle { flex-shrink: 0; white-space: nowrap; }
+/* City / All: two halves of one control, the current one lit (ScopeToggle.jsx). */
+.scope-toggle { display: flex; flex-shrink: 0; white-space: nowrap; }
+.scope-toggle__opt { position: relative; flex: 1 1 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; text-align: center; }
+.scope-toggle__opt + .scope-toggle__opt { margin-left: -2px; }
+.scope-toggle__opt--on { z-index: 1; cursor: default; }
+.scope-toggle__short { display: none; }
+.scope-toggle--short .scope-toggle__short { display: inline; }
+/* Kept laid out so it can still be measured against its half. */
+.scope-toggle--short .scope-toggle__long { position: absolute; left: 0; top: 0; visibility: hidden; pointer-events: none; }
 .scope-controls { display: flex; gap: 8px; align-items: flex-start; }
 .area-filter__tabs { display: flex; gap: 6px; width: 100%; margin-bottom: 4px; }
 .area-filter__tabs > .filter-btn { flex: 1; }
@@ -2644,7 +2652,7 @@ html[data-lang="zh"] .detail-title-name {
 
   /* Explore */
   .explore-page { padding: 12px 14px; }
-  .explore-header__scope { display: none; }
+
   .filter-btn { font-size: 12px; padding: 5px 8px; }
   .filter-bar { flex-direction: column; flex-wrap: nowrap; align-items: stretch; }
   .filter-bar__top { display: flex; gap: 8px; align-items: stretch; }
@@ -2670,6 +2678,11 @@ html[data-lang="zh"] .detail-title-name {
   .filter-bar__bottom > .filter-btn,
   .filter-bar__bottom > .label-filter > .filter-btn { flex: 1 1 calc(50% - 4px); min-width: 0; }
   .filter-bar__bottom > .label-filter { display: contents; }
+  /* With the area button (2026-11-10, user's call): My Collections and Packs on
+     one row, then Area, Labels and Rarity, an open panel right under them. */
+  .filter-bar__bottom--area > .filter-btn { order: 1; }
+  .filter-bar__bottom--area > .label-filter > .filter-btn { order: 2; flex-basis: calc((100% - 16px) / 3); }
+  .filter-bar__bottom--area > .label-filter > .label-filter__panel { order: 3; }
   /* All five filter buttons (scope, district, collections, labels,
      rarity) share one size on phones: one line each, smaller type and
      side padding, so "My Collections" no longer wraps and makes its row
@@ -3353,6 +3366,8 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .explore-drawer__handle { flex: none; display: flex; justify-content: center; padding: 10px 0 8px; cursor: grab; touch-action: none; }
 .explore-drawer__handle span { width: 44px; height: 5px; background: var(--border); }
 .explore-side.explore-drawer__body { position: static; top: auto; flex: 0 1 auto; height: auto; min-height: 0; padding: 0 16px 12px; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; }
+.explore-drawer__scope { display: flex; margin-bottom: 10px; }
+.explore-drawer__scope .scope-toggle { flex: 1; }
 .explore-drawer__foot { flex: none; display: flex; gap: 8px; padding: 10px 16px; border-top: 2px solid var(--border); }
 .explore-drawer__clear { flex: none; white-space: nowrap; }
 .explore-drawer__view { flex: 1 1 0; min-width: 0; justify-content: center; }

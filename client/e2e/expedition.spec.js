@@ -23,6 +23,14 @@ const LOCATIONS = [
   card(8, 'Locked Far Place', { labels: ['castle', 'outside'], rarity: 'expedition', xpReward: 300, unlocked: false }),
 ];
 
+// The City only / Show all switch sits in the area sheet (2026-11-10).
+const toggleScope = async (page) => {
+  await page.locator('.filter-bar .area-filter .filter-btn').click();
+  await page.locator('.explore-drawer .scope-toggle__opt:not(.scope-toggle__opt--on)').click();
+  await page.locator('.explore-drawer__view').click();
+  await expect(page.locator('.explore-drawer')).toHaveCount(0);
+};
+
 test.beforeEach(async ({ page }) => {
   await page.route('**/api/locations', route => route.fulfill({ json: LOCATIONS }));
   await page.goto('/explore');
@@ -35,7 +43,7 @@ test('Expedition is only offered as a rarity filter with Show all', async ({ pag
   await expect(panel.getByRole('button', { name: /Expedition/ })).toHaveCount(0);
   await page.getByRole('button', { name: /^Rarity/ }).click();
 
-  await page.getByRole('button', { name: /City only/ }).click();
+  await toggleScope(page);
   await expect(page.locator('.loc-card')).toHaveCount(8);
   await page.getByRole('button', { name: /^Rarity/ }).click();
   await panel.getByRole('button', { name: /Expedition/ }).click();
@@ -46,12 +54,12 @@ test('Expedition is only offered as a rarity filter with Show all', async ({ pag
 
   // Back to City only: the expedition filter is dropped, not left emptying the grid.
   await page.getByRole('button', { name: /^Rarity/ }).click();
-  await page.getByRole('button', { name: /Show all/ }).click();
+  await toggleScope(page);
   await expect(page.locator('.loc-card')).toHaveCount(2);
 });
 
 test('outside cards read "Expedition" and carry the stone for their XP', async ({ page }) => {
-  await page.getByRole('button', { name: /City only/ }).click();
+  await toggleScope(page);
   const gems = {};
   for (const name of ['Roztoky', 'Melnik', 'Kutna Hora', 'Karlstejn', 'Cesky Krumlov']) {
     const el = page.locator('.loc-card', { has: page.locator('.loc-card__name', { hasText: name }) });

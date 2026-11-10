@@ -1,19 +1,60 @@
+import { useLayoutEffect, useRef, useState } from 'react';
 import { useT } from '../../context/LanguageContext';
 
-// One button that flips Explore/Map between the city proper ("City only",
-// the default: cards without the `outside` label) and every card. The label
-// names the current mode; clicking switches to the other.
+// Explore/Map's switch between the city proper (the default: cards without the
+// `outside` label) and every card. Two halves, the current one lit, so it reads
+// as a state and not as an action (2026-11-10, user's call; it used to be one
+// button naming the current mode, which looked like it named what a press did).
+// Each half has a long label ("布拉格市区 | 全部（含市外）") and falls back to the
+// short one ("市区 | 全部") when a long one doesn't fit its half.
 export default function ScopeToggle({ cityOnly, onChange, className = '', style }) {
   const t = useT();
-  return (
+  const ref = useRef(null);
+  const [short, setShort] = useState(false);
+
+  useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const fit = () => {
+      // The long labels stay laid out (absolutely, hidden) in short mode, so
+      // they can always be measured against their half.
+      const tooWide = [...el.querySelectorAll('.scope-toggle__opt')].some(opt => {
+        const long = opt.querySelector('.scope-toggle__long');
+        const cs = getComputedStyle(opt);
+        const room = opt.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+        return long.offsetWidth > room + 0.5;
+      });
+      setShort(tooWide);
+    };
+    fit();
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(fit) : null;
+    ro?.observe(el);
+    document.fonts?.ready.then(fit);
+    return () => ro?.disconnect();
+  }, [t]);
+
+  const option = (city, key) => (
     <button
-      className={`filter-btn scope-toggle${className ? ` ${className}` : ''}`}
-      style={style}
-      onClick={() => onChange(!cityOnly)}
-      aria-pressed={!cityOnly}
+      type="button"
+      className={`filter-btn scope-toggle__opt${cityOnly === city ? ' filter-btn--active scope-toggle__opt--on' : ''}`}
+      aria-pressed={cityOnly === city}
+      onClick={() => { if (cityOnly !== city) onChange(city); }}
     >
-      {t(cityOnly ? 'explore.scopeCity' : 'explore.scopeAll')} ⇄
+      <span className="scope-toggle__long">{t(key)}</span>
+      <span className="scope-toggle__short">{t(`${key}Short`)}</span>
     </button>
+  );
+
+  return (
+    <div
+      ref={ref}
+      role="group"
+      className={`scope-toggle${short ? ' scope-toggle--short' : ''}${className ? ` ${className}` : ''}`}
+      style={style}
+    >
+      {option(true, 'explore.scopeCity')}
+      {option(false, 'explore.scopeAll')}
+    </div>
   );
 }
 

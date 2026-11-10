@@ -281,11 +281,11 @@ test.describe('Explore on a 2K screen', () => {
     const start = await top();
     await expect(notes).toHaveCount(0);
 
-    await page.locator('.explore-side .scope-toggle').click();
+    await page.locator('.explore-side .scope-toggle__opt:not(.scope-toggle__opt--on)').click();
     await expect(notes).toHaveCount(1);
     await expect(notes.first()).toContainText('Bohemia');
     expect(await top()).toBe(start);
-    await page.locator('.explore-side .scope-toggle').click();
+    await page.locator('.explore-side .scope-toggle__opt:not(.scope-toggle__opt--on)').click();
 
     await page.getByRole('button', { name: 'My Collections' }).click();
     await expect(notes).toHaveCount(1);
@@ -307,7 +307,7 @@ test.describe('Explore on a 2K screen', () => {
     await clickOutside(); // the land isn't clickable in city mode
     await expect(cards).toHaveCount(32);
 
-    await page.locator('.explore-side .scope-toggle').click();
+    await page.locator('.explore-side .scope-toggle__opt:not(.scope-toggle__opt--on)').click();
     await expect(cards).toHaveCount(33);
     await clickOutside();
     await expect(cards).toHaveCount(1);
@@ -325,7 +325,7 @@ test.describe('Explore on a 2K screen', () => {
     // Back to the city, the filter goes with it.
     await clickOutside();
     await expect(cards).toHaveCount(1);
-    await page.locator('.explore-side .scope-toggle').click();
+    await page.locator('.explore-side .scope-toggle__opt:not(.scope-toggle__opt--on)').click();
     await expect(cards).toHaveCount(32);
     await expect(item).toHaveCount(0);
   });
@@ -413,7 +413,7 @@ test.describe('Explore on a 2K screen', () => {
     const stats = page.locator('.explore-stats');
     await expect(stats).toContainText('/');
     await expect(stats).toContainText('%');
-    await page.locator('.explore-side .scope-toggle').click();
+    await page.locator('.explore-side .scope-toggle__opt:not(.scope-toggle__opt--on)').click();
     await expect(stats).not.toContainText('/');
     await expect(stats).not.toContainText('%');
     await expect(stats).toContainText('10');
@@ -422,7 +422,7 @@ test.describe('Explore on a 2K screen', () => {
   test('Show all lights up the land around the city', async ({ page }) => {
     const glow = page.locator('.district-map__glow');
     await expect(glow).toHaveCSS('opacity', '0');
-    await page.locator('.explore-side .scope-toggle').click();
+    await page.locator('.explore-side .scope-toggle__opt:not(.scope-toggle__opt--on)').click();
     await expect(glow).toHaveClass(/district-map__glow--on/);
     await expect(glow).toHaveCSS('opacity', '1');
     await expect(page.locator('.explore-main .loc-card')).toHaveCount(33);
@@ -708,8 +708,24 @@ test('without the column the area filter opens the map in a bottom sheet; the ba
   await page.locator('.location-grid .loc-card').first().waitFor();
   await expect(page.locator('.explore-drawer')).toHaveCount(0);
   await expect(page.locator('.filter-bar__search')).toBeVisible();
-  await page.locator('.filter-bar__scope .area-filter .filter-btn').click();
+  // My Collections and Packs share one row; Area, Labels and Rarity the next.
+  const box = s => page.locator(s).first().boundingBox();
+  const [areaBtn, labelsBtn, rarityBtn, mineBtn, packsBtn] = await Promise.all([
+    box('.filter-bar__bottom .area-filter .filter-btn'),
+    page.getByRole('button', { name: /^Labels/ }).boundingBox(),
+    page.getByRole('button', { name: /^Rarity/ }).boundingBox(),
+    box('.filter-bar__bottom > .filter-btn'),
+    box('.filter-bar__bottom > .filter-btn:nth-of-type(2)'),
+  ]);
+  expect(Math.abs(areaBtn.y - labelsBtn.y)).toBeLessThan(2);
+  expect(Math.abs(areaBtn.y - rarityBtn.y)).toBeLessThan(2);
+  expect(areaBtn.y).toBeGreaterThan(mineBtn.y + mineBtn.height - 1);
+  expect(Math.abs(mineBtn.y - packsBtn.y)).toBeLessThan(2);
+  // The City only / Show all switch is in the sheet, not on the page.
+  await expect(page.locator('.explore-page > .explore-header .scope-toggle, .filter-bar .scope-toggle')).toHaveCount(0);
+  await page.locator('.filter-bar__bottom .area-filter .filter-btn').click();
   await expect(page.locator('.explore-drawer .district-map')).toBeVisible();
+  await expect(page.locator('.explore-drawer .scope-toggle')).toBeVisible();
   await expect(page.locator('.explore-drawer .filter-bar')).toHaveCount(0);
   await expect(page.locator('.explore-drawer__clear')).toHaveCount(0);
   await page.goBack();
@@ -717,6 +733,17 @@ test('without the column the area filter opens the map in a bottom sheet; the ba
   await expect(page).toHaveURL(/\/explore/);
   await expect(page.locator('.location-grid .loc-card').first()).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+});
+
+test('without the column the Packs button puts its line under the title, like a rarity', async ({ page }) => {
+  await page.setViewportSize({ width: 412, height: 800 });
+  await page.goto('/explore');
+  await page.locator('.location-grid .loc-card').first().waitFor();
+  await expect(page.locator('.explore-rarity-blurb')).toHaveCount(0);
+  await page.locator('.filter-bar__bottom > .filter-btn').nth(1).click(); // Packs
+  await expect(page.locator('.explore-rarity-blurb')).toHaveText(/walkable corner of the city/);
+  await page.locator('.filter-bar__bottom > .filter-btn').nth(1).click();
+  await expect(page.locator('.explore-rarity-blurb')).toHaveCount(0);
 });
 
 test('without the column the filters and search fold away and stay folded', async ({ page }) => {
@@ -745,17 +772,17 @@ test('without the column, Clear filters appears with any filter and clears them 
   const search = page.locator('.filter-bar__search');
   await search.fill('zzz-nothing');
   await expect(page.locator('.location-grid .loc-card')).toHaveCount(0);
-  await page.locator('.filter-bar__bottom > .filter-btn:first-child').click(); // My Collections
+  await page.locator('.filter-bar__bottom > .filter-btn').first().click(); // My Collections
   await clear.click();
   await expect(clear).toHaveCount(0);
   await expect(search).toHaveValue('');
   // Clearing keeps My Collections, which is not a filter: only its own button is left.
-  await expect(page.locator('.filter-bar__bottom > .filter-btn:first-child')).toHaveClass(/filter-btn--active/);
+  await expect(page.locator('.filter-bar__bottom > .filter-btn').first()).toHaveClass(/filter-btn--active/);
   await expect(page.locator('.explore-view-filters')).toHaveCount(0);
   await expect(page.locator('.explore-filter-actions button')).toHaveCount(1);
   await page.locator('.explore-leave-collection').click();
   await expect(page.locator('.explore-leave-collection')).toHaveCount(0);
-  await expect(page.locator('.filter-bar__bottom > .filter-btn:first-child')).not.toHaveClass(/filter-btn--active/);
+  await expect(page.locator('.filter-bar__bottom > .filter-btn').first()).not.toHaveClass(/filter-btn--active/);
   await expect(page.locator('.location-grid .loc-card').first()).toBeVisible();
 });
 

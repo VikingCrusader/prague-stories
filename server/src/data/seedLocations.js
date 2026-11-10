@@ -7329,9 +7329,11 @@ Nová městská jatka v Holešovicích, otevřená roku 1895, potřebovala lepš
     },
   },
   {
-    name: 'Evropská',
-    slug: 'evropska-trida',
-    localizedNames: { cz: 'Evropská', zh: '欧罗巴大街（Evropská）' },
+    // Was the boulevard's card, rewritten as the CUBE building; renamed from
+    // `evropska-trida` on 2026-11-10 so the Evropská pack could take that slug.
+    name: 'Building CUBE',
+    slug: 'cube-vokovice',
+    localizedNames: { cz: 'Budova CUBE', zh: 'CUBE' },
     labels: ['brutalism', 'communism'],
     district: 'Praha 6',
     quarter: 'Vokovice',
@@ -33197,49 +33199,6 @@ Nádvoří patří k Hergetově cihelně, pojmenované po rodině Hergetů, kde 
     },
   },
   {
-    // Added 2026-10-31 (coordinates and the "longest street, noise and
-    // exhaust" angle user-supplied). Facts: cs.wikipedia "Plzeňská (Praha)"
-    // (nearly 8 km, longest inhabited street in Prague, Anděl to beyond
-    // Zličín where it becomes Na Radosti, Smíchov/Košíře/Motol/Řepy/
-    // Stodůlky, formerly road I/5 until the D5 took over, trams from 1897,
-    // one-way stretch for cars, 2019 noise action plan, NO2 study ranking it
-    // Prague's most polluted street in 2023 and 2024, sights along it),
-    // usedlosti.ctrnactka.net (Bílý beránek inn, 1740, on a newly laid road,
-    // demolished 1985). Quarter/district from client/src/utils/pragueAreas.js.
-    name: 'Plzeňská Street',
-    slug: 'plzenska-ulice',
-    localizedNames: { cz: 'Plzeňská', zh: '比尔森大街' },
-    labels: ['street', 'transport'],
-    district: 'Praha 5',
-    quarter: 'Košíře',
-    coordinates: { lat: 50.07164529574622, lng: 14.387421103631736 },
-    rarity: 'rare',
-    xpReward: 20,
-    description: {
-      en: `Plzeňská is the longest inhabited street in Prague: nearly eight kilometres from the busy Anděl crossroads to beyond Zličín on the city's western edge. Its name tells you where it is going, to Plzeň, and for most of its length it behaves like a road that would rather be there already.
-
-It follows the old route west out of Prague, the road to Plzeň and on toward Nuremberg. In the 18th century it was laid out anew, and inns grew up along it to serve the carters; one, the White Lamb, opened around 1740 and stood until 1985. On its way out of town the street passes through four old villages swallowed by the city, Smíchov, Košíře, Motol and finally the edge of Řepy and Stodůlky, and past a surprising amount of history: the Mozart villa Bertramka, the Malá Strana Cemetery, the old country houses of Klamovka and Kavalírka, the Motol chateau and brewery, the crematorium and the cross on the Motol rock. Trams have run along it since 1897.
-
-In the 20th century it became part of the main road to Plzeň and Germany, and the traffic never left, even after the D5 motorway took over the long-distance trucks. Plzeňská has long been one of the noisiest streets in Prague and one with the dirtiest air: a study of nitrogen dioxide put it at the top of the city's list in both 2023 and 2024.
-
-🎁 Bonus: Near Anděl a short stretch of Plzeňská is a pedestrian zone, so the longest street in Prague begins as a place where you cannot drive at all. It is not a hint the rest of the street has taken.`,
-      cz: `Plzeňská je nejdelší obydlená ulice v Praze: skoro osm kilometrů od rušného Anděla až za Zličín na západním okraji města. Jméno prozrazuje, kam vede, do Plzně, a po většinu své délky se chová jako silnice, která by tam nejradši už byla.
-
-Sleduje starou cestu z Prahy na západ, do Plzně a dál k Norimberku. V 18. století ji vyměřili znovu a podél ní vyrostly hostince pro formany; jeden z nich, Bílý beránek, otevřel kolem roku 1740 a stál až do roku 1985. Cestou z města prochází ulice čtyřmi starými obcemi, které Praha pohltila, Smíchovem, Košířemi, Motolem a nakonec okrajem Řep a Stodůlek, a kolem překvapivého množství historie: Mozartovy Bertramky, Malostranského hřbitova, starých usedlostí Klamovky a Kavalírky, motolského zámku a pivovaru, krematoria a kříže na motolské skále. Tramvaje po ní jezdí od roku 1897.
-
-Ve 20. století se stala součástí hlavní silnice do Plzně a do Německa a doprava z ní už neodešla, ani když dálková nákladní auta převzala dálnice D5. Plzeňská dlouho patří k nejhlučnějším ulicím v Praze a k těm s nejšpinavějším vzduchem: studie oxidu dusičitého ji v letech 2023 i 2024 postavila na první místo v Praze.
-
-🎁 Bonus: U Anděla je krátký úsek Plzeňské pěší zónou, takže nejdelší pražská ulice začíná jako místo, kam se autem vůbec nedostanete. Zbytek ulice si z toho příklad nevzal.`,
-      zh: `比尔森大街是布拉格最长的有人住的街道：从热闹的安德尔路口一直延伸到城市西缘的兹利钦以外，将近八公里。名字就说明了它要去哪儿，去比尔森，而它大部分路段的样子，也像是恨不得马上就到。
-
-它沿着出布拉格往西的老路走，去比尔森，再往前通向纽伦堡。18世纪这条路重新修过，沿途开起了给车夫歇脚的客栈，其中一家“白羊羔”约1740年开张，一直开到1985年。出城的路上，这条街穿过被城市吞并的四个老村子：斯米霍夫、科希热、莫托尔，最后擦过热皮和斯托杜尔基的边缘。沿途的历史多得出人意料：莫扎特住过的贝特拉姆卡别墅、小城公墓、克拉莫夫卡和卡瓦利尔卡两座老庄园、莫托尔的城堡和啤酒厂、火葬场，还有莫托尔山岩上的十字架。1897年起，它上面就跑起了有轨电车。
-
-20世纪，它成了通往比尔森和德国的主干公路的一段。后来D5高速公路接走了长途货车，车流却再也没离开过它。比尔森大街长期以来都是布拉格噪音最大、空气最脏的街道之一：一项二氧化氮的研究，2023年和2024年都把它排在了全市第一。
-
-🎁 彩蛋：在安德尔附近，比尔森大街有一小段是步行街。也就是说，布拉格最长的这条街，开头那一段根本不让开车。可惜后面的路段，没有一段学到了这一点。`,
-    },
-  },
-  {
     // Added 2026-10-31 (coordinates user-supplied). Facts: cs.wikipedia
     // "Motol (zámek)", hrady.cz, usedlosti.ctrnactka.net (medieval tvrz;
     // single-storey Baroque chateau 1686–1689 for Kryštof Vratislav of
@@ -35148,6 +35107,128 @@ Werich se sem s rodinou nastěhoval roku 1945 a zůstal až do své smrti v roce
 1945年，韦里赫带着家人搬进来，一直住到1980年去世。两次大战之间，他和伊日·沃斯科维茨一起经营解放剧院，他们的讽刺剧把30年代的独裁者挖苦得太到位，以至于两人1939年不得不远走美国。回到布拉格后，他写作、演戏、讲故事，这栋房子也成了作家和演员聚会的地方；诗人弗拉基米尔·霍兰在1948年至1968年间住在一楼。2002年8月的洪水赶走了最后一批住户，关于它的去留争论了好几年之后，别墅为坎帕美术馆修复一新，2017年向公众开放，里面是关于韦里赫和他那个时代的展览。
 
 🎁 彩蛋：如果这个名字让你觉得在别处也听过，那可能是《菲姆法鲁姆》：韦里赫1960年出版的童话集，2002年起被拍成了一系列定格动画电影。`,
+    },
+  },
+  {
+    // Added 2026-11-10 for the Rohan and Libeň Islands pack (coordinates
+    // user-supplied). Facts: cs.wikipedia "Soubor věcí bývalého nádraží
+    // Severozápadní dráhy", "Rohanský ostrov", "Rakouská severozápadní dráha",
+    // "Praha-Těšnov (nádraží)"; pamatkovykatalog.cz (ÚSKP 101036). Built 1872,
+    // 1873 provisional terminus, Těšnov opened 10 May 1875, blown up 16 March 1985.
+    name: 'North Western Railway Customs House',
+    slug: 'celnice-severozapadni-drahy',
+    localizedNames: { cz: 'Celnice Severozápadní dráhy', zh: '西北铁路海关楼' },
+    labels: ['transport', 'national-revival', 'hidden-gem'],
+    district: 'Praha 8',
+    quarter: 'Karlín',
+    coordinates: { lat: 50.094973, lng: 14.448404 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Soubor_v%C4%9Bc%C3%AD_b%C3%BDval%C3%A9ho_n%C3%A1dra%C5%BE%C3%AD_Severoz%C3%A1padn%C3%AD_dr%C3%A1hy',
+    description: {
+      en: `Between the glass office buildings of River City stand two small brick buildings that look as if nobody told them the neighbourhood had changed. They are what is left of a railway station on Rohan Island, built in 1872 by the Austrian North Western Railway: a customs house and a long goods warehouse. Both are protected monuments, so the offices had to grow up around them.
+
+In 1873 the company's line from Lysá nad Labem through Vysočany reached a provisional terminus here, on what was then still a real island. Two years later it was extended to the company's grand station at Těšnov, which opened on 10 May 1875, and the island buildings became the freight and storage yard behind it; before that, the customs house had briefly served as the passenger building too. The two-storey customs house is bare brick with stone corners and a gable in the middle, and the single-storey warehouse still has its doors and windows raised to the height of a loading platform.
+
+The line closed in the 1980s. Těšnov station, the proud terminus, was blown up on 16 March 1985. The customs house and the warehouse on the island survived.
+
+🎁 Bonus: Of a whole railway company's Prague terminus, the parts that made it to the present day are the customs office and the shed. History is not always kind to the grand entrance.`,
+      cz: `Mezi skleněnými kancelářskými budovami River City stojí dvě malé cihlové stavby, které jako by nikdo neupozornil, že se čtvrť změnila. Jsou to zbytky nádraží na Rohanském ostrově, které tu roku 1872 postavila Rakouská severozápadní dráha: celnice a dlouhé skladiště zboží. Obě jsou kulturní památkou, a tak kanceláře musely vyrůst kolem nich.
+
+Roku 1873 sem dorazila trať společnosti z Lysé nad Labem přes Vysočany a na tehdy ještě opravdovém ostrově měla provizorní konečnou. O dva roky později ji prodloužili k velkolepému nádraží na Těšnově, otevřenému 10. května 1875, a ostrovní budovy se staly nákladním a skladovým zázemím za ním; předtím celnice krátce sloužila i jako osobní budova. Dvoupodlažní celnice je z režného zdiva s kamennými nárožími a štítem uprostřed, přízemní skladiště má dveře i okna dodnes zvednuté do výšky nakládací rampy.
+
+Trať zanikla v osmdesátých letech. Těšnovské nádraží, hrdou konečnou, odstřelili 16. března 1985. Celnice a skladiště na ostrově přežily.
+
+🎁 Bonus: Z celé pražské konečné jedné železniční společnosti se do dneška dochovala celnice a kůlna. Ke slavnostním vstupům nebývají dějiny vždycky laskavé.`,
+      zh: `River City的玻璃写字楼之间，夹着两座小小的砖房，像是没人通知它们这片街区已经改头换面了。它们是罗汉岛上一座火车站留下的部分：1872年由奥地利西北铁路公司修建的海关楼，和一座长长的货仓。两座都是受保护的文物，所以写字楼只好绕着它们盖。
+
+1873年，这家公司从拉贝河畔利萨经维索恰尼过来的铁路，在当时还是一座真正岛屿的这里设了临时终点站。两年后线路延伸到泰什诺夫那座气派的车站，1875年5月10日通车，岛上的房子就成了它身后的货运和仓储区；在那之前，海关楼还临时当过客运站房。两层的海关楼是清水砖墙，转角砌着石头，正中一道山墙；单层的货仓，门窗至今还抬高在装卸站台的高度上。
+
+这条铁路在1980年代停运。气派的泰什诺夫车站在1985年3月16日被炸毁，岛上的海关楼和货仓却留了下来。
+
+🎁 彩蛋：一家铁路公司在布拉格的整座终点站，保存到今天的，竟是海关办公室和仓库。历史对气派的大门，往往没那么客气。`,
+    },
+  },
+  {
+    // Added 2026-11-10 for the Rohan and Libeň Islands pack (coordinates
+    // user-supplied). Facts: cs.wikipedia "Rohanský ostrov" and "Rohanské
+    // nábřeží" (formed after 1550, Těšnov to Šaldova, Josef Rohan from 1850,
+    // joined in the 1920-30 regulation, River City on the former island, dump,
+    // cleanup from 1999, Rohan City from 2021, plans to restore river arms); the
+    // brana-na-rohansky-ostrov card (arm filled in the 1950s, Metrostav base 1967-2006).
+    name: 'Rohan Island Meadow',
+    slug: 'rohansky-ostrov',
+    localizedNames: { cz: 'Louka na Rohanském ostrově', zh: '罗汉岛草地' },
+    labels: ['nature', 'park', 'waterbody'],
+    district: 'Praha 8',
+    quarter: 'Karlín',
+    coordinates: { lat: 50.10057780977124, lng: 14.464984870412248 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Rohansk%C3%BD_ostrov',
+    description: {
+      en: `Rohan Island is an island that has not been an island for about a hundred years. Today it is a long, flat meadow by the Vltava, with a cycle path, a great deal of sky and a wooden gate standing on its own in the grass. Nobody has needed a boat to get here since the 1920s.
+
+The island formed on river sediment after 1550 and at its largest reached from Těšnov to today's Šaldova Street. It went through several names; the one that stuck comes from Josef Rohan, a carpenter and Prague burgher who owned it from 1850. The river regulation of the 1920s joined it to Libeň Island next door and tied both to the shore, and the old arm toward Karlín was later filled in: the Rohanské nábřeží road runs roughly where the water used to be. The western end became railway land and, much later, the glass offices of River City.
+
+The rest had a rougher century. From 1967 to 2006 it was the base where Metrostav built the Prague metro, with production halls, a concrete plant and a sawmill, and for years it was also an unofficial dump. Since 2021 the Rohan City district has been rising on the brownfield beside the road, and the flood plans for the rest include digging some of the old river arms out again.
+
+🎁 Bonus: If the plans go ahead, Rohan Island may one day get to be an island again, a century after Prague decided it did not need one.`,
+      cz: `Rohanský ostrov je ostrov, který už zhruba sto let není ostrovem. Dnes je to dlouhá rovná louka u Vltavy s cyklostezkou, spoustou nebe a dřevěnou bránou, která stojí sama v trávě. Loďku sem nikdo nepotřebuje od dvacátých let minulého století.
+
+Ostrov vznikl na říčních náplavech po roce 1550 a v největším rozsahu sahal od Těšnova až po dnešní Šaldovu ulici. Vystřídal několik jmen; to, které mu zůstalo, má po Josefu Rohanovi, tesaři a pražském měšťanovi, který ho vlastnil od roku 1850. Regulace řeky ve dvacátých letech ho spojila se sousedním Libeňským ostrovem a oba připojila ke břehu, a staré rameno směrem ke Karlínu bylo později zasypáno: Rohanské nábřeží dnes vede zhruba tam, kde dřív tekla voda. Západní konec se stal železničním pozemkem a mnohem později místem skleněných kanceláří River City.
+
+Zbytek měl drsnější století. V letech 1967 až 2006 tu měl Metrostav základnu pro stavbu pražského metra, s výrobními halami, betonárnou a pilou, a léta tu byla i černá skládka. Od roku 2021 roste na bývalém průmyslovém pozemku u silnice čtvrť Rohan City a protipovodňové plány pro zbytek počítají s tím, že se část starých ramen znovu vykope.
+
+🎁 Bonus: Pokud plány vyjdou, může být Rohanský ostrov jednou zase ostrovem, sto let poté, co Praha usoudila, že ho nepotřebuje.`,
+      zh: `罗汉岛是一座差不多一百年都不是岛的岛。如今它是伏尔塔瓦河边一片长长的平坦草地，有自行车道，有大片天空，还有一道孤零零立在草地上的木门。从1920年代起，来这里就再也不用坐船了。
+
+这座岛是1550年以后在河流淤积的泥沙上形成的，最大的时候从泰什诺夫一直延伸到今天的沙尔达街。它换过好几个名字，最后留下来的那个，来自1850年起拥有这座岛的木匠、布拉格市民约瑟夫·罗汉。1920年代的河道整治把它和隔壁的利本岛连在一起，又把两座岛都接上了河岸，朝卡林那一侧的旧河汊后来也被填平：今天的罗汉河岸街，大致就沿着当年的水道。岛的西头先成了铁路用地，很久以后又长出了River City的玻璃写字楼。
+
+剩下的部分，这一百年过得比较粗糙。1967年到2006年，地铁建设公司Metrostav把修布拉格地铁的基地设在这里，有厂房、混凝土搅拌站和锯木厂；好些年里，这里还是一片没人管的垃圾场。2021年起，路边的旧工业用地上盖起了罗汉城新街区，而其余部分的防洪规划，还打算把一部分旧河汊重新挖出来。
+
+🎁 彩蛋：如果规划真能实现，罗汉岛说不定有一天又能当回一座岛，离布拉格决定不需要它，正好一百年。`,
+    },
+  },
+  {
+    // Added 2026-11-10 for the Rohan and Libeň Islands pack (coordinates
+    // user-supplied). Facts: cs.wikipedia "Libeňský ostrov" (pub under the flood
+    // wall, run by Petr Placák; 1927-28 regulation; recreation since 1927; clubs;
+    // 2002 flood damaged most buildings, wall built after) and "U mě dobrý"
+    // (2008, Hřebejk, Jarchovský after Šabach, cast, title song). The pub's age
+    // and the origin of its name could not be confirmed, so they are left out.
+    name: 'U Budyho Pub',
+    slug: 'hostinec-u-budyho',
+    localizedNames: { cz: 'Hostinec U Budyho', zh: '布迪酒馆' },
+    labels: ['restaurants-and-cafes', 'hidden-gem', 'waterbody'],
+    district: 'Praha 8',
+    quarter: 'Libeň',
+    coordinates: { lat: 50.10642949178186, lng: 14.464707745599785 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Libe%C5%88sk%C3%BD_ostrov',
+    description: {
+      en: `U Budyho is a small pub tucked under the flood wall on Libeň Island, the kind of place where the river is closer than the tram and nobody is in a hurry. It is best known from a film, and the film is about people with nothing better to do.
+
+Libeň Island was a real island until the river regulation of 1927–28 joined it to the Libeň bank and left the old channel as a quiet dead arm. Since then it has been the backyard of Prague 8: rowing and motorboat clubs, tennis and volleyball courts, allotment gardens and Scouts. The 2002 flood damaged most of the buildings on the island, and the wall the pub now sits under was built afterwards to keep the next one out. The pub is run by the writer Petr Placák.
+
+In 2008 the director Jan Hřebejk made it the main setting of U mě dobrý, a comedy written by Petr Jarchovský after stories by Petr Šabach. Set in the 1990s, it follows a group of friends who spend most of their time at a harbour pub playing mariáš for small stakes, with Jiří Schmitzer as the landlord and Bolek Polívka as a retired magician, until one of them loses thirty thousand crowns to a shell-game gang.
+
+🎁 Bonus: The film's title song is called "The Current Took Everything Away", which is a bold thing to sing on an island that the flood very nearly did take away.`,
+      cz: `U Budyho je malá hospoda schovaná pod protipovodňovou zdí na Libeňském ostrově, takové místo, kde je řeka blíž než tramvaj a nikdo nikam nespěchá. Nejvíc ji lidé znají z filmu a ten film je o lidech, kteří nemají nic lepšího na práci.
+
+Libeňský ostrov byl skutečným ostrovem, dokud ho regulace řeky v letech 1927 až 1928 nepřipojila k libeňskému břehu a ze starého koryta nezbylo klidné slepé rameno. Od té doby je to zahrada Prahy 8: vodácké a motorové kluby, tenisové a volejbalové kurty, zahrádkáři a junáci. Povodeň v roce 2002 poničila většinu zdejších staveb a zeď, pod kterou dnes hospoda sedí, vznikla až potom, aby příští vodu zastavila. Hospodu vede spisovatel Petr Placák.
+
+Roku 2008 z ní režisér Jan Hřebejk udělal hlavní dějiště filmu U mě dobrý, komedie, kterou napsal Petr Jarchovský podle povídek Petra Šabacha. Odehrává se v devadesátých letech a sleduje partu kamarádů, kteří většinu času tráví v přístavní hospodě u mariáše o drobné, s Jiřím Schmitzerem jako hospodským a Bolkem Polívkou jako vysloužilým kouzelníkem, dokud jeden z nich neprohraje třicet tisíc se skořápkáři.
+
+🎁 Bonus: Titulní píseň filmu se jmenuje Všechno odnesl proud, což je odvážná věc zpívat na ostrově, který povodeň málem opravdu odnesla.`,
+      zh: `布迪酒馆是一家藏在利本岛防洪墙下的小酒馆，在这里，河比电车还近，谁也不着急。它最出名的是一部电影，而那部电影讲的，正是一群没什么正经事可干的人。
+
+利本岛原本是一座真正的岛，直到1927年至1928年的河道整治把它接上了利本的河岸，旧河道成了一条安静的死水河汊。从那以后，这里就成了布拉格8区的后院：划船和摩托艇俱乐部、网球场和排球场、小菜园，还有童子军。2002年的大洪水毁坏了岛上大部分建筑，酒馆如今倚着的那道墙，就是之后为了挡住下一场洪水修的。酒馆的经营者是作家彼得·普拉查克。
+
+2008年，导演扬·赫热贝克把这里拍成了电影《我挺好的》的主要场景。这部喜剧由彼得·亚尔霍夫斯基根据彼得·沙巴赫的短篇小说改编，故事发生在1990年代：一群朋友成天泡在港口边的小酒馆里，玩小赌注的玛利亚什纸牌，伊日·施米策演酒馆老板，博莱斯拉夫·波利夫卡演一位退休的魔术师，直到其中一人在街头猜壳骗局里输掉了三万克朗。
+
+🎁 彩蛋：电影的主题曲叫《一切都被水冲走了》，在一座差点真被洪水冲走的岛上唱这首歌，胆子着实不小。`,
     },
   },
 ];

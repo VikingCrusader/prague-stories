@@ -70,7 +70,7 @@ export const AREA_LANDMARKS = {
       'kostel-sv-vaclava-smichov', 'letohradek-kinskych', 'malostransky-hrbitov', 'josef-inwald-glassworks-and-refinery-meetfactory-1783289159503', 'torzo-tanku',
     ],
     'Karlín': [
-      'church-st-cyril-methodius-karlin', 'invalidovna-1782562891060', 'negrelliho-viadukt', 'hudebni-divadlo-karlin', 'karlinska-kasarna',
+      'karlin', 'rohan-and-liben-islands', 'church-st-cyril-methodius-karlin', 'invalidovna-1782562891060', 'negrelliho-viadukt', 'hudebni-divadlo-karlin', 'karlinska-kasarna',
       'forum-karlin', 'lilith-david-cerny', 'karlinska-synagoga', 'lyckovo-namesti-inteligence', 'florenc',
     ],
     'Holešovice': [
@@ -80,16 +80,17 @@ export const AREA_LANDMARKS = {
     'Libeň': [
       'libensky-zamek-radnice', 'heydrich-assassination-site', 'hrabalova-zed', 'libensky-most', 'o2-arena',
       'zamecek-rokoska', 'socha-barikadniku', 'church-of-st-adalbert-libe-1783749248181', 'libenska-sokolovna', 'fakultni-nemocnice-bulovka',
-      'nova-libenska-synagoga', 'libensky-pristav',
+      'nova-libenska-synagoga', 'libensky-pristav', 'rohan-and-liben-islands', 'hostinec-u-budyho',
     ],
     'Bubeneč': [
       'stromovka-park', 'vystaviste-praha', 'mistodrzitelsky-letohradek', 'rudolfova-stola', 'cisarsky-ostrov',
       'prague-planetarium', 'stara-cistirna-odpadnich-vod', 'epet-arena', 'akademie-vytvarnych-umeni', 'lapidarium-narodniho-muzea',
     ],
     'Dejvice': [
+      'dejvice',
       'vitezne-namesti', 'cvut', 'narodni-technicka-knihovna', 'hotel-international-prague', 'osada-baba-1782602049700',
       'baba-ruin-1782603894525', 'zamecek-hanspaulka', 'sarecke-udoli', 'kostel-sv-mateje', 'pomnik-nikoly-tesly',
-      'stadion-juliska',
+      'stadion-juliska', 'evropska-trida',
     ],
     'Břevnov': [
       'bevnov-monastery-1782583396582', 'strahov-stadium', 'kajetanka-park', 'vetrny-mlyn-brevnov', 'ladronka',
@@ -149,7 +150,7 @@ export const AREA_LANDMARKS = {
     ],
     'Ruzyně': ['vaclav-havel-airport', 'mohyla-bile-hory', 'zapadni-pol-prahy', 'kasarna-ruzyne', 'ruzyn-prison-1782570848316'],
     'Střešovice': ['mullerova-vila', 'muzeum-mhd', 'ustredni-budova-orechovka', 'kostel-sv-norberta', 'pomnik-padlym-prvni-svetove-valky-stresovice'],
-    'Vokovice': ['divoka-sarka', 'lake-dzban', 'sidliste-cerveny-vrch', 'evropska-trida', 'afi-vokovice'],
+    'Vokovice': ['divoka-sarka', 'lake-dzban', 'sidliste-cerveny-vrch', 'evropska-trida', 'cube-vokovice', 'afi-vokovice'],
     'Sedlec': ['v-sedlci', 'zamek-sedlec', 'kaple-nejsvetejsi-trojice-sedlec', 'nadrazi-praha-sedlec'],
     'Suchdol': ['suchdol', 'czech-university-of-life-sciences-prague-1782583672397', 'kaple-svateho-vaclava-suchdol', 'komunitni-zahrada-suchdol'],
     'Bohnice': [

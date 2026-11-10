@@ -305,7 +305,7 @@ export const SLUG_RARITY = {
   'stvanicka-lavka-holka':        'rare',  // 2023 footbridge, animal-head bronze railings, Holešovice-Karlín
   'hlavkuv-most':                 'rare',  // widest bridge in Czech Republic, built for the 1895 slaughterhouse
   'humanita-jan-stursa':          'superior', // Štursa's 1912-13 granite group at the Hlávka Bridge head
-  'evropska-trida':               'rare',  // Dejvice boulevard renamed five times across the 20th century
+  'cube-vokovice':                'rare',  // 1977 Koospol office block on Evropská (slug was evropska-trida)
   'jugoslavskych-partyzanu':      'rare',  // street renamed five times, Yugoslav king to Tito's partisans
   'pamatnik-ceskoslovenskym-vojakum-2-svetove-valky': 'rare', // WWII memorial, Vítězné náměstí, 2004
   'victoria-palace':              'rare',  // first new building on Vítězné náměstí in 87 years

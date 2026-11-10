@@ -29,7 +29,7 @@ const PAGE_SIZE = 60;
 // for the filters that are on into `appliedSlot`.
 // `initialFilter` ({ rarity, label }) opens the grid already filtered, e.g. on
 // Expedition from the nudge on the profile's empty expedition strip.
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick, areaChosen = false, guestPreview = false }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, onPacksChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick, areaChosen = false, guestPreview = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -55,6 +55,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // Packs only, no cards. They have no rarity, so that filter and the sort are
   // off meanwhile; labels, search and the area still apply.
   const [packsOnly, setPacksOnly] = useState(false);
+  useEffect(() => { onPacksChange?.(packsOnly); }, [packsOnly, onPacksChange]);
   // The picked rarity (or null), so ExplorePage can show its description.
   // The header only has room for one description, so it shows with a single rarity.
   const activeRarity = activeRarities.size === 1 ? [...activeRarities][0] : null;
@@ -271,9 +272,11 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
           value={search}
           onChange={e => setSearch(e.target.value)}
         />
-        {scopeToggle && <div className="filter-bar__scope">{scopeToggle}</div>}
+        {wide && scopeToggle && <div className="filter-bar__scope">{scopeToggle}</div>}
       </div>
-      <div className="filter-bar__bottom">
+      {/* Without the side column the area button leads the row of Labels and Rarity. */}
+      <div className={`filter-bar__bottom${!wide && scopeToggle ? ' filter-bar__bottom--area' : ''}`}>
+        {!wide && scopeToggle}
         <button
           className={`filter-btn${discovered ? ' filter-btn--active' : ''}${discovered && wide ? ' filter-btn--current' : ''}`}
           disabled={discovered && wide}

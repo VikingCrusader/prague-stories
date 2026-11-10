@@ -198,6 +198,92 @@ export const PACKS = [
       'zeleznicni-viadukt-reporyje', 'kostel-svateho-petra-a-pavla-reporyje',
     ],
   }),
+  pack({
+    slug: 'evropska-trida',
+    name: 'Evropská',
+    localizedNames: { cz: 'Evropská', zh: '欧罗巴大街' },
+    foil: '#4b5563',
+    labels: ['street', 'contemporary', 'communism', 'brutalism'],
+    // The buildings right on the avenue, from the west side of Vítězné náměstí out
+    // to Vokovice, and Divoká Šárka where the trams end (2026-11-10, user's call; not
+    // the square itself, which is in the Dejvice pack, or the homesteads up the slope). Took over the slug of the boulevard's
+    // old card, which had become the CUBE (now `cube-vokovice`).
+    members: [
+      'pamatnik-ceskoslovenskym-vojakum-2-svetove-valky', 'ministry-of-defense-of-the-czech-republic-bubene-building-1782425858361',
+      'the-blox', 'ppf-gate', 'diplomat-hotel-prague', 'borislavka-centrum', 'na-horu', 'sidliste-cerveny-vrch',
+      'afi-vokovice', 'cube-vokovice', 'hotel-krystal', 'divoka-sarka',
+    ],
+  }),
+  pack({
+    slug: 'plzenska-ulice',
+    name: 'Plzeňská',
+    localizedNames: { cz: 'Plzeňská', zh: '比尔森大街' },
+    foil: '#9a5b1e',
+    labels: ['street', 'baroque', 'classicism', 'contemporary'],
+    // The buildings along the street from Anděl to Motol, plus Sacré Coeur Park,
+    // which the footbridge over the street lands in (2026-11-10, user's call). Took
+    // over the street's own card, slug and cover; the card was deleted.
+    members: [
+      'ringhofferovy-zavody', 'oc-novy-smichov', 'lavka-novy-smichov-sacre-coeur', 'park-sacre-coeur', 'smichov-gate',
+      'green-point-smichov', 'malostransky-hrbitov', 'kostel-nejsvetejsi-trojice-kosire', 'kaple-nanebevzeti-panny-marie-klamovka',
+      'klamovka-1783291602610', 'kostel-sv-jana-nepomuckeho-kosire', 'zamek-motol', 'motolsky-pivovar', 'maltezsky-mlyn',
+      'krucifix-motol', 'krematorium-motol',
+    ],
+  }),
+  pack({
+    slug: 'dejvice',
+    name: 'Dejvice',
+    localizedNames: { cz: 'Dejvice', zh: '德伊维采' },
+    foil: '#2f6f8f',
+    labels: ['square', 'academy', 'municipal'],
+    // Antonín Engel's planned Dejvice of the 1920s, not the whole quarter (Baba,
+    // Hanspaulka and Šárka stay out): Vítězné náměstí, the avenues off it and the
+    // technical campus (2026-11-10, user's call). The General Staff building and
+    // the memorial are also the start of the Evropská pack. The square keeps its
+    // own card.
+    members: [
+      'vitezne-namesti', 'ministry-of-defense-of-the-czech-republic-bubene-building-1782425858361',
+      'pamatnik-ceskoslovenskym-vojakum-2-svetove-valky', 'victoria-palace', 'farmarske-trhy-na-kulataku',
+      'jugoslavskych-partyzanu', 'park-lotysska', 'urad-mestske-casti-praha-6', 'vscht-praha', 'cvut',
+      'narodni-technicka-knihovna', 'pomnik-nikoly-tesly', 'archbishops-seminary-1782602784310',
+      'kostel-sv-vojtecha-dejvice', 'praha-dejvice-railway-station-1783290302038',
+    ],
+  }),
+  pack({
+    slug: 'karlin',
+    name: 'Karlín',
+    localizedNames: { cz: 'Karlín', zh: '卡林' },
+    foil: '#5a6b2a',
+    labels: ['contemporary', 'historicism', 'factory', 'national-revival'],
+    // The whole katastrální území, flat and walkable from Florenc to Invalidovna
+    // (2026-11-10, user's call). The slug was held by the Futurama Business Park
+    // card, renamed `futurama-business-park` so the pack could take it.
+    members: [
+      'park-tesnov', 'florenc', 'diamond-point-1783752450170', 'hilton-prague', 'hudebni-divadlo-karlin', 'negrelliho-viadukt',
+      'karlinska-kasarna', 'karlinska-synagoga', 'church-st-cyril-methodius-karlin', 'danube-house', 'main-point-karlin',
+      'nile-house', 'amazon-court', 'river-diamond', 'river-city-praha', 'rohan-business-center', 'corso-karln-1782667255750',
+      'palac-karlin', 'river-garden-office', 'forum-karlin', 'afi-karlin-butterfly', 'lyckovo-namesti-inteligence',
+      'zakladni-skola-lyckovo-namesti', 'cesky-rozhlas-stredni-cechy', 'invalidovna-1782562891060', 'futurama-business-park',
+      'lilith-david-cerny', 'brana-na-rohansky-ostrov', 'hotel-olympik', 'celnice-severozapadni-drahy', 'rohansky-ostrov',
+    ],
+  }),
+  pack({
+    slug: 'rohan-and-liben-islands',
+    name: 'Rohan and Libeň Islands',
+    localizedNames: { cz: 'Rohanský a Libeňský ostrov', zh: '罗汉岛和利本岛' },
+    foil: '#3b6f8f',
+    labels: ['waterbody', 'nature', 'contemporary', 'transport'],
+    // The two former islands joined to the shore in the 1920s: River City and
+    // everything else north of Rohanské nábřeží (the road runs on the filled-in
+    // arm, cs.wikipedia), the meadow, and on Libeň Island the pub and the
+    // harbour (2026-11-10, user's call). The Rohan Island cards are in the
+    // Karlín pack too.
+    members: [
+      'celnice-severozapadni-drahy', 'danube-house', 'nile-house', 'amazon-court', 'river-diamond', 'river-city-praha',
+      'rohan-business-center', 'river-garden-office', 'brana-na-rohansky-ostrov', 'rohansky-ostrov', 'hostinec-u-budyho',
+      'libensky-pristav',
+    ],
+  }),
 ];
 
 export const packsOfCard = (slug) => PACKS

@@ -33,5 +33,7 @@ Coordinates are always supplied by the user.
 | Točná airfield | Točná | The small sport airfield on the plateau, named in the Točná guide | 2026-11-04 |
 | Lysolaje valley nature reserve (Lysolajské údolí) | Lysolaje | The valley the Lysolaje guide is about; only the swimming pond and the convent have cards | 2026-11-04 |
 | Radlice: ČSOB headquarters | Radlice | The bank's award-winning 2007 headquarters that turned Radlice into an office district; commercial, so optional | 2026-11-04 |
+| Karlínské náměstí (the square and its park with the fountain) | Karlín | The centre of the 1817 grid; only the church on it has a card. Would join the `karlin` pack | 2026-11-10 |
+| Thámova street | Karlín | The restaurant and café street most people mean by "new Karlín"; optional. Would join the `karlin` pack | 2026-11-10 |
 
 No convincing landmark was found for Hostavice, Miškovice, Benice, Lipany, Nedvězí and Újezd u Průhonic, which still have no card, and Šeberov has none either (the Šeberák pond lies in Kunratice); small village chapels or greens would do if a card is wanted.

@@ -309,9 +309,9 @@ export const EXPLORE_TIPS = [
     zh: '点一下地图，只看那个区的卡片。总比读 112 个地名的列表强。',
   },
   {
-    en: 'Choose Show all, then click outside Prague. Only the expedition cards will be left.',
-    cz: 'Zvolte Zobrazit vše a klikněte mimo Prahu. Zůstanou jen karty z výprav.',
-    zh: '选“显示全部”，再点布拉格外面，就只剩远征卡了。',
+    en: 'Choose All (incl. outside), then click outside Prague. Only the expedition cards will be left.',
+    cz: 'Zvolte Vše (i mimo Prahu) a klikněte mimo Prahu. Zůstanou jen karty z výprav.',
+    zh: '选“全部（含市外）”，再点布拉格外面，就只剩远征卡了。',
   },
   {
     en: 'Double-click a card you have collected to admire it up close. You walked there, you may show off.',
