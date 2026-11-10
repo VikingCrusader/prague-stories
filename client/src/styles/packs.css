@@ -355,7 +355,10 @@
 .map-pack-list__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .pack-panel { padding: 14px 16px 18px; }
 .pack-panel .pack-detail__top { flex-direction: column; align-items: stretch; gap: 14px; }
-.pack-panel .pack-detail__wrapper { position: static; width: min(190px, 60%); align-self: center; }
+/* The Map's right column: the packet spans the column, foil and seals kept (2026-11-10, user's call). */
+.pack-panel .pack-detail__wrapper { position: static; width: 100%; align-self: stretch; }
+/* Room above the packet for the column's close button (8px + 34px), so it never sits on the foil. */
+.map-card > .pack-panel { padding-top: 48px; }
 :is(#root, body) .pack-panel .pack-detail__name { font-size: 26px; padding: 0; }
 .pack-panel .pack-detail__cards-title { font-size: 20px; margin-top: 18px; }
 .pack-panel .pack-detail__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
