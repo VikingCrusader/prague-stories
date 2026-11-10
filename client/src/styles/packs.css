@@ -97,7 +97,8 @@
 .pack-card .loc-card__cz-name { color: rgba(248, 232, 184, 0.72); }
 .pack-card .loc-card__xp, .pack-card .loc-card__dist { color: #f8e8b8; }
 .pack-card :is(.loc-card__name, .loc-card__cz-name, .loc-card__xp, .loc-card__dist) { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75), 0 0 6px rgba(0, 0, 0, 0.35); }
-.pack-card__lock { position: absolute; width: 34%; height: auto; left: 33%; top: 50%; transform: translateY(-50%); }
+/* The same size as a card's lock (.loc-card__lock), since packs stand among the cards on Explore (2026-11-10). */
+.pack-card__lock { position: absolute; width: 80%; height: auto; left: 50%; top: 50%; transform: translate(-50%, -50%); image-rendering: pixelated; z-index: 2; }
 
 /* The progress bar takes the label's place and, being one, its exact size. */
 .pack-card .label-pill-sm.pack-card__bar { position: relative; overflow: hidden; background: rgba(0, 0, 0, 0.42) !important; color: transparent; }
