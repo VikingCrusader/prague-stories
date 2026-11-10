@@ -20422,48 +20422,6 @@ Nejdramatičtější okamžik zažil hrad roku 1319, kdy chtěl král Jan Lucemb
     },
   },
   {
-    // Already existed in the DB (added 2026-06-22 via the app's own add-location
-    // flow, isPreset:true, plus a few stray legacy fields — category, difficulty
-    // — not part of the current schema, left untouched). Description rewritten
-    // 2026-08-21 to match the History Timeline's fact-checked account of the
-    // Old Town wall/moat (see stone-prague-1230); this seed entry mirrors that
-    // live edit for documentation parity, but $setOnInsert means re-running the
-    // seed script will just SKIP it since the slug already exists.
-    name: 'Na Příkopě',
-    slug: 'na-prikope',
-    localizedNames: { cz: 'Na Příkopě', zh: '护城河街' },
-    labels: ['street', 'cafe', 'medieval'],
-    district: 'Praha 1',
-    quarter: 'Nové Město',
-    coordinates: { lat: 50.086594220923395, lng: 14.427362424020306 },
-    rarity: 'common',
-    xpReward: 10,
-    wikipediaUrl: 'https://en.wikipedia.org/wiki/Na_Příkopě',
-    description: {
-      en: `Welcome to Na Příkopě, Prague's most disarmingly honest street name, since it simply means "On the Moat." For over five centuries, this was exactly that: the moat ringing the Old Town's stone wall, filled with water diverted straight from the Vltava.
-
-The wall this moat once guarded went up starting around 1235, ordered by Wenceslas I right after the Old Town received its 1230 charter: roughly 3.5 kilometers of rubble stone, 7 to 11 meters high, two meters thick at the base, studded with sixteen prismatic towers spaced some 60 meters apart, enclosing 140 hectares of the right bank as the newly defined legal City of Prague. The moat running alongside it, first recorded in 1234, was 10 meters wide and 8 meters deep, deep enough to turn the Old Town into what was, functionally, an island. Prague wasn't built as one city from the start, either: a separate, self-governing market community called Havelské Město (St. Gall's Town) grew up on its own around the same years, 1235 to 1253, clustered around St. Gall's Church market just inside these walls, and didn't formally merge into the Old Town's own jurisdiction until 1287.
-
-The moat itself was covered over in 1760, replanted with chestnut trees, and turned into Prague's first fashionable promenade, renamed twice more before settling on its current, plainly descriptive name in 1871. The wall lasted a little longer, but not much: after Prussian troops took Prague without a fight in the 1866 Austro-Prussian War, Emperor Franz Joseph I ordered the whole obsolete fortification torn down. Demolition began on 20 July 1874 and dragged on into the 1920s, which is why almost none of the Old Town's original 13th-century wall survives today, unlike the sections still standing around the New Town and Vyšehrad. What's left is the shape: Na Příkopě, together with Revoluční, 28. října, and Národní, traces the old wall's exact route around the Old Town's edge.
-
-🎁 Bonus: if you want to stand on the one spot where an actual medieval gate still stands, walk to the street's northern end. But the Gothic tower waiting there, the Powder Gate, was rebuilt in 1475, two and a half centuries after this wall went up. It marks the right location; it just isn't the right building.`,
-      cz: `Vítej na Příkopě, v nejupřímnějším pražském názvu ulice, protože znamená přesně to, co říká: "Na příkopu". Přes pět století to byl doslova příkop obepínající kamennou hradbu Starého Města, naplněný vodou odváděnou přímo z Vltavy.
-
-Hradba, kterou tenhle příkop kdysi střežil, se začala stavět kolem roku 1235 z rozkazu Václava I., krátce po tom, co Staré Město získalo roku 1230 své městské právo: zhruba 3,5 kilometru kamenné zdi z lomového kamene, 7 až 11 metrů vysoké, u paty dva metry silné, osázené šestnácti hranolovými věžemi rozmístěnými zhruba po 60 metrech, obepínající 140 hektarů pravého břehu jako nově vymezené právní území města Prahy. Příkop podél ní, poprvé doložený roku 1234, byl 10 metrů široký a 8 metrů hluboký, dost hluboký na to, aby ze Starého Města fakticky udělal ostrov. Praha ostatně od začátku nevznikala jako jedno město: ve stejných letech, 1235 až 1253, vzniklo samostatně spravované tržní společenství zvané Havelské Město, seskupené kolem trhu u kostela svatého Havla těsně za těmito hradbami, a do právního rámce Starého Města se formálně sloučilo až v roce 1287.
-
-Samotný příkop byl zasypán v roce 1760, osázen kaštany a proměněn v první módní pražskou promenádu. Než dostal svůj současný, věcně popisný název v roce 1871, byl ještě dvakrát přejmenován. Hradba vydržela o něco déle, ale ne o moc: poté, co pruská vojska v prusko-rakouské válce roku 1866 obsadila Prahu bez boje, nařídil císař František Josef I. celé zastaralé opevnění zbourat. Demolice začala 20. července 1874 a táhla se až do dvacátých let 20. století, a proto se z původní třinácté-stoleté hradby Starého Města dodnes prakticky nic nedochovalo, na rozdíl od úseků, které dosud stojí kolem Nového Města a Vyšehradu. Zůstal jen tvar: Na Příkopě spolu s ulicemi Revoluční, 28. října a Národní přesně kopírují původní trasu hradby kolem okraje Starého Města.
-
-🎁 Bonus: pokud chceš stát na jediném místě, kde ještě fyzicky stojí skutečná středověká brána, dojdi na severní konec ulice. Gotická věž, která tam čeká, Prašná brána, ale byla přestavěna až roku 1475, dva a půl století po vzniku téhle hradby. Označuje správné místo; jen to není správná budova.`,
-      zh: `欢迎来到护城河街，布拉格最坦率的街道名字，因为它的意思就是字面上的"在护城河上"。整整五个多世纪，这里确实就是护城河本身：环绕老城石墙的一条壕沟，注满了直接从伏尔塔瓦河引来的水。
-
-这条护城河当年守卫的城墙，大约从1235年开始动工，是瓦茨拉夫一世下令修建的，就在老城1230年获得城市特许权之后不久：全长约3.5公里的碎石墙，高7到11米，底部厚2米，沿线立着16座棱柱形塔楼，每座间隔约60米，把右岸140公顷的区域正式圈进了新划定的布拉格城法律边界之内。沿墙的护城河最早见于1234年的记载，宽10米、深8米，深到足以让老城在实际功能上变成一座孤岛。而且布拉格本来就不是从一开始就是一座城市：几乎同一时期，1235年到1253年间，紧邻这道城墙内侧、围绕圣加卢教堂市场，还自发形成了一个独立自治的市集社区，叫圣加卢城，直到1287年才正式并入老城的司法管辖范围。
-
-护城河本身在1760年被填平，改种上栗子树，变成了布拉格第一条时髦的散步道。在1871年定下现在这个直白描述性的名字之前，还先后改过两次名。城墙又多撑了一阵，但也没多久：1866年普奥战争中，普鲁士军队不战而占领布拉格，之后皇帝弗朗茨·约瑟夫一世下令把这套已经过时的防御工事全部拆除。拆除工程1874年7月20日启动，一直拖到20世纪20年代才结束，这也是为什么老城这圈13世纪的原始城墙如今几乎荡然无存，跟至今仍留有部分墙体的新城、维谢赫拉德那几段不一样。留下来的只有形状：护城河街，连同Revoluční街、28. října街和Národní街，基本精确描出了当年城墙绕老城一圈的路线。
-
-🎁 彩蛋：如果你想站在唯一一处还实际立着中世纪城门的地方，可以走到这条街的北端。但等在那里的那座哥特式塔楼，火药塔，其实是1475年重建的，比这道城墙晚了整整两个半世纪。它标出的是对的位置，只是不是对的建筑本身。`,
-    },
-  },
-  {
     // Already existed in the DB (added 2026-06-20 via the app's own add-location
     // flow, isPreset:true, plus stray legacy fields — category, difficulty —
     // not part of the current schema, left untouched). Description rewritten
@@ -35157,8 +35115,42 @@ Fontána stojí v dolní části petřínských sadů nedaleko lanovky, tam, kde
 🎁 彩蛋：从这里往上坡很陡，这是你承认“我就是想歇会儿”之前，最后一个可以假装看风景的好借口。`,
     },
   },
-];
+  {
+    name: 'Werich Villa',
+    slug: 'werichova-vila',
+    localizedNames: { cz: 'Werichova vila', zh: '韦里赫别墅' },
+    labels: ['museum', 'cultural', 'classicism'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.085427306882124, lng: 14.408043597018994 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Werichova_vila',
+    description: {
+      en: `Werich Villa is a pale house at the edge of Kampa Park, right by the river, that bears the name of a man who never owned it. Jan Werich, perhaps the best-loved comic actor in Czech history, simply rented a flat here from the city for thirty-five years, which by Prague standards makes him practically the landlord.
 
+The house began in the early 17th century as a tannery, a trade that needed the river and was best kept at a distance from the neighbours, and was rebuilt in the classicist style in 1803. From 1761 it belonged to the Nostitz family, whose tutor Josef Dobrovský, the scholar who laid the foundations of the study of the Czech language, lived and worked here at the end of the 18th century, so for a while it was known as the Dobrovský house.
+
+Werich moved in with his family in 1945 and stayed until his death in 1980. Between the wars he and Jiří Voskovec had run the Liberated Theatre, whose revues mocked the dictators of the 1930s so effectively that the pair had to leave for America in 1939. Back in Prague he wrote, acted and talked, and the house became a meeting place for writers and actors; the poet Vladimír Holan lived on the ground floor from 1948 to 1968. The flood of August 2002 drove the last tenants out, and after years of argument about its future the villa was restored for Museum Kampa and opened to the public in 2017 with an exhibition about Werich and his time.
+
+🎁 Bonus: If the name rings a bell from somewhere other than Kampa, it may be Fimfárum, Werich's book of fairy tales from 1960, which was turned into a series of stop-motion films from 2002 on.`,
+      cz: `Werichova vila je světlý dům na kraji parku Kampa, hned u řeky, který nese jméno muže, jemuž nikdy nepatřil. Jan Werich, možná nejoblíbenější komik českých dějin, tu prostě třicet pět let bydlel v obecním bytě, což z něj podle pražských měřítek dělá skoro majitele.
+
+Dům vznikl na začátku 17. století jako koželužna, řemeslo, které potřebovalo řeku a které bylo lepší mít od sousedů trochu dál, a roku 1803 byl klasicistně přestavěn. Od roku 1761 patřil Nostitzům, jejichž vychovatel Josef Dobrovský, učenec, který položil základy české jazykovědy, tu koncem 18. století žil a pracoval, a proto se mu nějakou dobu říkalo Dobrovského dům.
+
+Werich se sem s rodinou nastěhoval roku 1945 a zůstal až do své smrti v roce 1980. Mezi válkami vedl s Jiřím Voskovcem Osvobozené divadlo, jehož revue se diktátorům 30. let vysmívaly tak účinně, že oba museli roku 1939 odejít do Ameriky. Po návratu do Prahy psal, hrál a vyprávěl a dům se stal místem setkávání spisovatelů a herců; v přízemí v letech 1948 až 1968 bydlel básník Vladimír Holan. Povodeň v srpnu 2002 vyhnala poslední nájemníky a po letech dohadů o jeho budoucnosti byla vila obnovena pro Museum Kampa a roku 2017 otevřena veřejnosti s expozicí o Werichovi a jeho době.
+
+🎁 Bonus: Pokud ti to jméno něco říká i odjinud než z Kampy, možná je to Fimfárum, Werichova kniha pohádek z roku 1960, podle níž od roku 2002 vznikla řada animovaných filmů.`,
+      zh: `韦里赫别墅是坎帕公园边上、紧挨着河的一栋浅色房子，名字来自一个从没拥有过它的人。扬·韦里赫大概是捷克历史上最受爱戴的喜剧演员，他只是向市政府租了这里的一套公寓，一住就是三十五年。照布拉格的标准，这几乎就算房东了。
+
+这栋房子始建于17世纪初，最早是一家制革坊：这门手艺离不开河水，也最好离邻居远一点。1803年，它被改建成古典主义风格。从1761年起，房子归诺斯蒂茨家族所有。他们家的家庭教师约瑟夫·多布罗夫斯基，为捷克语言学打下基础的那位学者，18世纪末就在这里生活和工作，所以有一段时间，人们管它叫多布罗夫斯基之家。
+
+1945年，韦里赫带着家人搬进来，一直住到1980年去世。两次大战之间，他和伊日·沃斯科维茨一起经营解放剧院，他们的讽刺剧把30年代的独裁者挖苦得太到位，以至于两人1939年不得不远走美国。回到布拉格后，他写作、演戏、讲故事，这栋房子也成了作家和演员聚会的地方；诗人弗拉基米尔·霍兰在1948年至1968年间住在一楼。2002年8月的洪水赶走了最后一批住户，关于它的去留争论了好几年之后，别墅为坎帕美术馆修复一新，2017年向公众开放，里面是关于韦里赫和他那个时代的展览。
+
+🎁 彩蛋：如果这个名字让你觉得在别处也听过，那可能是《菲姆法鲁姆》：韦里赫1960年出版的童话集，2002年起被拍成了一系列定格动画电影。`,
+    },
+  },
+];
 async function run() {
   await connectDB();
   let added = 0, updated = 0, failed = 0;

@@ -34,12 +34,12 @@ export const AREA_LANDMARKS = {
       'staromestska-mostecka-vez', 'powder-tower', 'municipal-house', 'national-library-czech-republic', 'bethlehem-chapel',
     ],
     'Malá Strana': [
-      'st-nicholas-mala-strana', 'wallenstein-palace', 'wallenstein-garden-1783750953785',
+      'malostranske-namesti', 'st-nicholas-mala-strana', 'wallenstein-palace', 'wallenstein-garden-1783750953785',
       'church-of-our-lady-victorious-and-the-infant-jesus-of-prague-1782392094990', 'john-lennon-wall',
       'malostranska-mostecka-vez', 'kampa-island', 'hunger-wall-1782410203381', 'petrin-tower',
     ],
     'Nové Město': [
-      'wenceslas-square', 'pomnik-sv-vaclava', 'national-museum', 'national-theatre', 'dancing-house',
+      'wenceslas-square', 'namesti-republiky', 'pomnik-sv-vaclava', 'national-museum', 'national-theatre', 'dancing-house',
       'novomestska-radnice', 'karlovo-namesti', 'kostel-panny-marie-snezne', 'emmaus-monastery-1782494564055',
       'cathedral-cyril-methodius', 'kafka-rotating-head',
     ],

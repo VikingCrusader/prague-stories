@@ -8,7 +8,6 @@ export const SLUG_RARITY = {
   'charles-bridge':               'legend',
   'st-vitus-cathedral':           'legend',
   'astronomical-clock':           'legend',
-  'wenceslas-square':             'legend',
   'josefov':                      'legend',
   'karlstejn-castle':             'legend',
   'dancing-house':                'legend',
@@ -22,7 +21,6 @@ export const SLUG_RARITY = {
   'kafka-rotating-head':          'epic',  // easy to miss modern sculpture
   'st-michael-mystery-church':    'epic',  // very obscure relocated church
   'cisarsky-ostrov':              'epic',  // wild nature island, nature reserve
-  'prokopske-valley':             'epic',  // dramatic limestone gorge, far SW
   'heydrich-assassination-site':  'epic',  // far NE, historically crucial
   'cathedral-cyril-methodius':    'epic',  // the crypt where paratroopers died
   'sapa-praha':                   'epic',  // Vietnamese Prague, totally off tourist map
@@ -110,7 +108,6 @@ export const SLUG_RARITY = {
   'petrin-tower':                 'rare',
   'zizkov-tv-tower':              'rare',
   'john-lennon-wall':             'rare',
-  'kampa-island':                 'rare',
   'nusle-bridge':                 'rare',
   'botanical-garden':             'rare',
   'stromovka-park':               'rare',

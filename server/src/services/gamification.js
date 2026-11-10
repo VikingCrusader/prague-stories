@@ -1,3 +1,4 @@
+import { PACKS } from "../data/packs.js";
 // Treasure hunt ("寻宝"): the location stays hidden and the user tracks it
 // down from clues. One hunt every 24h (the "random draw" names in the code
 // and API date from the retired open draw, which revealed the card for 3x
@@ -125,7 +126,7 @@ export const HUNT_EXCLUDED_SLUGS = [
   'trojsky-most', 'trojska-lavka', 'novy-most-cisarsky-ostrov', 'vysehrad-railway-bridge',
   'dvorecky-most', 'branicky-most', 'barrandovsky-most', 'radotinsky-most', 'most-zavodu-miru',
   // islands and what stands on them
-  'kampa-island', 'museum-kampa-1782563427306', 'liechtenstein-palace-on-kampa-1782495483416',
+  'museum-kampa-1782563427306', 'liechtenstein-palace-on-kampa-1782495483416', 'werichova-vila', 'miminka-kampa',
   'strelecky-ostrov', 'slovansky-ostrov', 'palac-zofin', 'galerie-manes', 'cisarsky-ostrov',
   'vodni-elektrarna-stvanice', 'fuchs2', 'detsky-ostrov', 'socha-vltavy',
   // across the river
@@ -354,9 +355,10 @@ const UPRISING_SLUGS = [
   "valecny-hrbitov-olsany",
 ];
 // Prague Spring: 1968, the invasion and Jan Palach.
+// Wenceslas Square's card was retired into its pack (2026-11-10); the museum
+// and the Palach memorial on it stay.
 const SPRING_SLUGS = [
   "czech-radio-building-1782668063575",
-  "wenceslas-square",
   "national-museum",
   "pamatnik-palacha-zajice",
   "pamatnik-jana-palacha-sousosi",
@@ -367,7 +369,6 @@ const SPRING_SLUGS = [
 const VELVET_SLUGS = [
   "kampus-albertov",
   "pamatnik-sametove-revoluce",
-  "wenceslas-square",
   "melantrich",
   "letn-plain-1782906159291",
   "lavicka-vaclava-havla",
@@ -494,8 +495,23 @@ const BRIDGE_SLUGS = [
   "stefanikuv-most", "cechuv-most", "manesuv-most", "charles-bridge",
   "most-legii", "jiraskuv-most", "palackeho-most",
 ];
-// Castaway: the four islands in the centre (Štvanice has no card yet).
-const ISLAND_SLUGS = ["kampa-island", "strelecky-ostrov", "slovansky-ostrov", "detsky-ostrov"];
+// Castaway: the four islands in the centre (Štvanice has no card yet). Kampa's
+// own card was retired into its pack (2026-11-10, user's call), so any card on
+// Kampa counts for it.
+const ISLAND_SLUGS = ["strelecky-ostrov", "slovansky-ostrov", "detsky-ostrov"];
+const KAMPA_SLUGS = [
+  "museum-kampa-1782563427306", "liechtenstein-palace-on-kampa-1782495483416", "werichova-vila",
+  "miminka-kampa", "certovka",
+];
+function CASTAWAY({ checkedSlugs = [] }) {
+  const onKampa = KAMPA_SLUGS.some((slug) => checkedSlugs.includes(slug)) ? 1 : 0;
+  return {
+    current: ISLAND_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length + onKampa,
+    target: ISLAND_SLUGS.length + 1,
+    slugs: ISLAND_SLUGS,
+    picks: [{ need: 1, slugs: KAMPA_SLUGS, label: { en: "Kampa", cz: "Kampa", zh: "坎帕岛" } }],
+  };
+}
 
 // Trainspotter: seven railway stations (user's list, 2026-11-02).
 const STATION_SLUGS = [
@@ -527,10 +543,22 @@ const placesOnly = (slugs) => ({ checkedSlugs = [] }) => ({
   target: slugs.length,
   slugs,
 });
-const WILD_PRAGUE = placesAndLabels(
-  ["prokopske-valley", "divoka-sarka", "krucifix-motol", "modranska-rokle",
-    "viewpoint-dobeka-1782864480282", "rozhledna-cibulka"],
+// The Prokopské Valley's own card was retired into its pack (2026-11-10, user's
+// call), so any card of the pack counts for the valley.
+const PROKOP_VALLEY_SLUGS = PACKS.find((p) => p.slug === "prokopske-valley").members;
+const WILD_PRAGUE_BASE = placesAndLabels(
+  ["divoka-sarka", "krucifix-motol", "modranska-rokle", "viewpoint-dobeka-1782864480282", "rozhledna-cibulka"],
   [["nature", 25]]);
+function WILD_PRAGUE(stats) {
+  const base = WILD_PRAGUE_BASE(stats);
+  const inValley = PROKOP_VALLEY_SLUGS.some((slug) => (stats.checkedSlugs || []).includes(slug)) ? 1 : 0;
+  return {
+    ...base,
+    current: base.current + inValley,
+    target: base.target + 1,
+    picks: [{ need: 1, slugs: PROKOP_VALLEY_SLUGS, label: { en: "Prokopské Valley", cz: "Prokopské údolí", zh: "普罗科普斯克峡谷" } }],
+  };
+}
 const ZIZKOV = quarterShareWith("Žižkov", 0.5, ["zizkov-tv-tower", "zizkov-horse-statue"]);
 // Nusle: the valley's old nickname Jamrtál (Jammertal, valley of laments)
 // comes from the Swedish guns of 1639 and 1648; the valley card is required
@@ -1419,9 +1447,9 @@ export const ACHIEVEMENTS = [
     flavor: "The spring was short. The tanks came in August.",
     flavor_cz: "Jaro bylo krátké. Tanky přijely v srpnu.",
     flavor_zh: "春天很短，八月，坦克就来了。",
-    description: "Check in at these 7 places: Czech Radio Building, Václav Square, National Museum, Jan Palach and Jan Zajíc Memorial, Jan Palach Memorial — House of the Son and House of the Mother, Charles University Faculty of Arts and Olšany Cemeteries.",
-    description_cz: "Přihlaste se na těchto 7 místech: Český rozhlas, Václavské náměstí, Národní muzeum, Památník Jana Palacha a Jana Zajíce, Památník Jana Palacha — sousoší Dům syna a Dům matky, Filozofická fakulta UK a Olšanské hřbitovy.",
-    description_zh: "打卡以下7个地点：捷克广播电台总部大楼、瓦茨拉夫广场、国家博物馆、帕拉赫与扎伊茨纪念碑、扬·帕拉赫纪念碑——子之家与母之家、查理大学文学系大楼和奥尔萨内公墓。",
+    description: "Check in at these 6 places: Czech Radio Building, National Museum, Jan Palach and Jan Zajíc Memorial, Jan Palach Memorial — House of the Son and House of the Mother, Charles University Faculty of Arts and Olšany Cemeteries.",
+    description_cz: "Přihlaste se na těchto 6 místech: Český rozhlas, Národní muzeum, Památník Jana Palacha a Jana Zajíce, Památník Jana Palacha — sousoší Dům syna a Dům matky, Filozofická fakulta UK a Olšanské hřbitovy.",
+    description_zh: "打卡以下6个地点：捷克广播电台总部大楼、国家博物馆、帕拉赫与扎伊茨纪念碑、扬·帕拉赫纪念碑——子之家与母之家、查理大学文学系大楼和奥尔萨内公墓。",
     difficulty: "medium",
     check: ({ checkedSlugs }) => SPRING_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({
@@ -1439,9 +1467,9 @@ export const ACHIEVEMENTS = [
     flavor: "In November 1989, hundreds of thousands jingled their keys: time to go home.",
     flavor_cz: "V listopadu 1989 zacinkaly statisíce klíčů: je čas jít domů.",
     flavor_zh: "1989年11月，几十万人一起摇响钥匙：该走的，可以走了。",
-    description: "Check in at these 8 places: Albertov Campus, Velvet Revolution Memorial, Václav Square, Melantrich, Letná Plain, Václav Havel's Bench, Heart for Václav Havel and the Chapel of St. Wenceslas (Vinohrady Cemetery), where Havel is buried.",
-    description_cz: "Přihlaste se na těchto 8 místech: Kampus Albertov, Památník sametové revoluce 17. listopadu 1989, Václavské náměstí, Palác Hvězda (Melantrich), Letenská pláň, Lavička Václava Havla, Srdce pro Václava Havla a Kaple sv. Václava (Vinohradský hřbitov), kde je Havel pohřben.",
-    description_zh: "打卡以下8个地点：阿尔贝托夫校区、天鹅绒革命纪念碑（1989年11月17日）、瓦茨拉夫广场、梅兰特里赫大楼（星辰宫）、莱特纳广场、瓦茨拉夫·哈维尔长椅、哈维尔之心和哈维尔长眠的圣瓦茨拉夫小教堂（维诺赫拉迪公墓）。",
+    description: "Check in at these 7 places: Albertov Campus, Velvet Revolution Memorial, Melantrich, Letná Plain, Václav Havel's Bench, Heart for Václav Havel and the Chapel of St. Wenceslas (Vinohrady Cemetery), where Havel is buried.",
+    description_cz: "Přihlaste se na těchto 7 místech: Kampus Albertov, Památník sametové revoluce 17. listopadu 1989, Palác Hvězda (Melantrich), Letenská pláň, Lavička Václava Havla, Srdce pro Václava Havla a Kaple sv. Václava (Vinohradský hřbitov), kde je Havel pohřben.",
+    description_zh: "打卡以下7个地点：阿尔贝托夫校区、天鹅绒革命纪念碑（1989年11月17日）、梅兰特里赫大楼（星辰宫）、莱特纳广场、瓦茨拉夫·哈维尔长椅、哈维尔之心和哈维尔长眠的圣瓦茨拉夫小教堂（维诺赫拉迪公墓）。",
     difficulty: "medium",
     check: ({ checkedSlugs }) => VELVET_SLUGS.every((slug) => checkedSlugs.includes(slug)),
     progress: ({ checkedSlugs }) => ({
@@ -1815,16 +1843,12 @@ export const ACHIEVEMENTS = [
     flavor: "Four islands, one river, and no need to build a raft.",
     flavor_cz: "Čtyři ostrovy, jedna řeka a není třeba stavět vor.",
     flavor_zh: "四座岛，一条河，用不着自己造木筏。",
-    description: "Check in on the four islands in the centre of Prague: Kampa, Střelecký Island, Slavonic Island and Children's Island.",
-    description_cz: "Přihlaste se na čtyřech ostrovech v centru Prahy: Kampa, Střelecký ostrov, Slovanský ostrov a Dětský ostrov.",
-    description_zh: "打卡布拉格市中心的四座岛：坎帕岛、射手岛、斯拉夫岛和儿童岛。",
+    description: "Check in on the four islands in the centre of Prague: Střelecký Island, Slavonic Island, Children's Island, and any one place on Kampa.",
+    description_cz: "Přihlaste se na čtyřech ostrovech v centru Prahy: Střelecký ostrov, Slovanský ostrov, Dětský ostrov a kterékoli jedno místo na Kampě.",
+    description_zh: "打卡布拉格市中心的四座岛：射手岛、斯拉夫岛、儿童岛，再加坎帕岛上任意一个地点。",
     difficulty: "easy",
-    check: ({ checkedSlugs }) => ISLAND_SLUGS.every((slug) => checkedSlugs.includes(slug)),
-    progress: ({ checkedSlugs }) => ({
-      current: ISLAND_SLUGS.filter((slug) => checkedSlugs.includes(slug)).length,
-      target: ISLAND_SLUGS.length,
-      slugs: ISLAND_SLUGS,
-    }),
+    check: (stats) => done(CASTAWAY(stats)),
+    progress: CASTAWAY,
   },
   {
     id: "trainspotter",
@@ -1871,9 +1895,9 @@ export const ACHIEVEMENTS = [
     flavor: "Gorges, cliffs and wild woods, all within reach of a tram stop.",
     flavor_cz: "Rokle, skály a divoké lesy, a všechno kousek od tramvajové zastávky.",
     flavor_zh: "峡谷、悬崖和野林子，全在电车站走得到的地方。",
-    description: "Collect at least 25 Nature and Landscape cards, including Prokopské Valley, Divoká Šárka, the Crucifix on the Motol Rock, Modřany Gorge, the Dobeška viewpoint and the Cibulka lookout tower.",
-    description_cz: "Sesbírejte alespoň 25 karet Příroda a krajina, mezi nimi Prokopské údolí, Divoká Šárka, Krucifix v Motole, Modřanská rokle, Vyhlídka Dobeška a Rozhledna Cibulka.",
-    description_zh: "收集至少25张“自然与风景”卡片，其中必须包括普罗科普山谷、狂野沙尔卡、莫托尔岩上的十字架、莫德扎尼峡谷、多贝什卡观景台和奇布尔卡瞭望塔。",
+    description: "Collect at least 25 Nature and Landscape cards, including any one place in Prokopské Valley, Divoká Šárka, the Crucifix on the Motol Rock, Modřany Gorge, the Dobeška viewpoint and the Cibulka lookout tower.",
+    description_cz: "Sesbírejte alespoň 25 karet Příroda a krajina, mezi nimi kterékoli jedno místo v Prokopském údolí, Divoká Šárka, Krucifix v Motole, Modřanská rokle, Vyhlídka Dobeška a Rozhledna Cibulka.",
+    description_zh: "收集至少25张“自然与风景”卡片，其中必须包括普罗科普斯克峡谷里任意一个地点、狂野沙尔卡、莫托尔岩上的十字架、莫德扎尼峡谷、多贝什卡观景台和奇布尔卡瞭望塔。",
     difficulty: "hard",
     check: (stats) => done(WILD_PRAGUE(stats)),
     progress: WILD_PRAGUE,

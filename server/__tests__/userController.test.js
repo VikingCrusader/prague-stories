@@ -573,7 +573,7 @@ describe('treasure hunt', () => {
 
   test('never hides the treasure on a bridge or island', async () => {
     await seedTarget({ slug: 'charles-bridge' });
-    await Location.create({ name: 'Kampa', slug: 'kampa-island', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['park'], quarter: 'Malá Strana' });
+    await Location.create({ name: 'Werich Villa', slug: 'werichova-vila', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['park'], quarter: 'Malá Strana' });
     const { token } = await createAuthedUser();
     const res = await startHunt(token);
     expect(res.body.noneLeft).toBe(true);

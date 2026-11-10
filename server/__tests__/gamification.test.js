@@ -239,14 +239,14 @@ describe('evaluateAchievements', () => {
   });
 
   test('prague_spring needs all its places', () => {
-    const all = ["czech-radio-building-1782668063575", "wenceslas-square", "national-museum", "pamatnik-palacha-zajice", "pamatnik-jana-palacha-sousosi", "faculty-of-arts-uk", "olsanske-hrbitovy"];
+    const all = ["czech-radio-building-1782668063575", "national-museum", "pamatnik-palacha-zajice", "pamatnik-jana-palacha-sousosi", "faculty-of-arts-uk", "olsanske-hrbitovy"];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('prague_spring');
     expect(ids(all.slice(1))).not.toContain('prague_spring');
   });
 
   test('jingling_keys needs all its places', () => {
-    const all = ["kampus-albertov", "pamatnik-sametove-revoluce", "wenceslas-square", "melantrich", "letn-plain-1782906159291", "lavicka-vaclava-havla", "srdce-pro-vaclava-havla", "kaple-sv-vaclava-vinohradsky-hrbitov"];
+    const all = ["kampus-albertov", "pamatnik-sametove-revoluce", "melantrich", "letn-plain-1782906159291", "lavicka-vaclava-havla", "srdce-pro-vaclava-havla", "kaple-sv-vaclava-vinohradsky-hrbitov"];
     const ids = s => evaluateAchievements({ ...baseStats, checkedSlugs: s }, []).map(a => a.id);
     expect(ids(all)).toContain('jingling_keys');
     expect(ids(all.slice(1))).not.toContain('jingling_keys');
@@ -366,9 +366,12 @@ describe('evaluateAchievements', () => {
     const bridges = ['stefanikuv-most', 'cechuv-most', 'manesuv-most', 'charles-bridge', 'most-legii', 'jiraskuv-most', 'palackeho-most'];
     expect(ids(bridges)).toContain('seven_bridges');
     expect(ids(bridges.slice(1))).not.toContain('seven_bridges');
-    const islands = ['kampa-island', 'strelecky-ostrov', 'slovansky-ostrov', 'detsky-ostrov'];
-    expect(ids(islands)).toContain('castaway');
-    expect(ids(islands.slice(1))).not.toContain('castaway');
+    const islands = ['strelecky-ostrov', 'slovansky-ostrov', 'detsky-ostrov'];
+    // Kampa: any card on the island will do.
+    expect(ids([...islands, 'werichova-vila'])).toContain('castaway');
+    expect(ids([...islands, 'museum-kampa-1782563427306'])).toContain('castaway');
+    expect(ids(islands)).not.toContain('castaway');
+    expect(ids(['werichova-vila', ...islands.slice(1)])).not.toContain('castaway');
   });
 
   test('trainspotter needs all seven stations', () => {
@@ -389,8 +392,10 @@ describe('evaluateAchievements', () => {
 
   test('the evening batch: area shares with places, easter eggs, White Mountain', () => {
     const ids = s => evaluateAchievements({ ...baseStats, ...s }, []).map(a => a.id);
-    const wild = ['prokopske-valley', 'divoka-sarka', 'krucifix-motol', 'modranska-rokle', 'viewpoint-dobeka-1782864480282', 'rozhledna-cibulka'];
+    // The valley: any card of its pack will do.
+    const wild = ['prokopske-jezirko', 'divoka-sarka', 'krucifix-motol', 'modranska-rokle', 'viewpoint-dobeka-1782864480282', 'rozhledna-cibulka'];
     expect(ids({ checkedSlugs: wild, labelCount: { nature: 25 } })).toContain('wild_prague');
+    expect(ids({ checkedSlugs: ['pozary', ...wild.slice(1)], labelCount: { nature: 25 } })).toContain('wild_prague');
     expect(ids({ checkedSlugs: wild.slice(1), labelCount: { nature: 30 } })).not.toContain('wild_prague');
     const q = (quarter, total, n, slugs) => ({ checkedSlugs: slugs, quarterTotal: { [quarter]: total }, quarterCount: { [quarter]: n } });
     expect(ids(q('Žižkov', 30, 15, ['zizkov-tv-tower', 'zizkov-horse-statue']))).toContain('tower_and_general');

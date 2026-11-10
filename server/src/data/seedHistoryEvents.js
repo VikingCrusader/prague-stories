@@ -763,14 +763,6 @@ export const historyEvents = [
         },
       },
       {
-        slug: "wenceslas-square",
-        relation: {
-          en: "Founded in 1348 as a horse market under Charles IV, this 750-metre boulevard wasn't renamed Svatováclavské náměstí (Wenceslas Square) until 1848, nine centuries after his death. What happened here after that is a story for a much later chapter.",
-          cz: "Založeno roku 1348 jako koňský trh za Karla IV., přejmenoval se tento sedmset padesátimetrový bulvár na Svatováclavské náměstí až v roce 1848, devět století po Václavově smrti. To, co se tu odehrálo potom, patří do mnohem pozdější kapitoly.",
-          zh: "1348年由查理四世下令建立，最初只是一处马市；直到1848年（瓦茨拉夫去世九个世纪之后），这条750米长的林荫大道才被更名为“圣瓦茨拉夫广场”。此后在这里发生的事，则要留给更晚的篇章来讲。",
-        },
-      },
-      {
         slug: "kostel-sv-vaclava-smichov",
         relation: {
           en: "One of at least six or seven churches in Prague alone dedicated to him: naming a church after Wenceslas has been roughly as common in Bohemia as naming a son Václav, which is to say: very.",
@@ -3185,6 +3177,14 @@ export const historyEvents = [
       zh: "1257年，奥托卡二世在布拉格城堡正下方、伏尔塔瓦河左岸，建立了一处新聚落，并给它起了一个正式的拉丁语名称：Nova Civitas sub castro Pragensi，“布拉格城堡下的新城”，通常简称为 Nova Civitas。\n\n这块地一开始并不是空地：据一种说法，奥托卡的人马强行驱逐了当时已经住在那里的原住民，专门腾出地方来安置德意志移民：比他父亲瓦茨拉夫一世一代人之前的做法粗暴得多，当年河对岸的老城获得自己的德意志特许状时，似乎并不需要先把谁赶走。\n\n这处新聚落用的还是另一套具体的法律体系：老城施行的是纽伦堡法，而奥托卡这处城堡脚下的新聚落，用的却是马格德堡法。同一座城市里两个相邻的中世纪街区，各自整体照搬了不同的德意志市镇法律传统，并肩运作。\n\n这里有一点必须挑明说清楚：“Nova Civitas”直译过来就是“新城”。[[b]]可它并不是大多数人一提起布拉格“新城”时想到的那一个。[[/b]]那是完全另一处、年代晚得多的建置：查理四世将近一个世纪之后、1348年建立的“新城”（Nové Město），位于老城的另一侧。\n\n这个家族的公爵和国王们，本身就已经制造了不少同名混淆：[[link:same-name-different-guy-1199]]两位瓦茨拉夫、两位奥托卡[[/link]]，还有永远让人分不清的弗拉季斯拉夫和弗拉迪斯拉夫。这一次，撞名的不是两个人，而是同一座城市里的两片街区，相隔整整一个世纪，却都曾被称作“新城”。\n\n这个混乱最终以最实际的方式解决了：等到查理四世真正的“新城”建起来之后，奥托卡这片更古老的聚落干脆彻底放弃了这个名字，改称“小布拉格城”（Menší Město pražské），最终定型为它今天沿用的名字，小城（Malá Strana）。\n\n看来布拉格给自己的街区起名字，跟这个家族给自己孩子起名字一样，都爱“循环利用”。\n\n它最终定型的这个名字，字面意思就是“小边”：单纯描述它位于河对岸、跟更大更热闹的那一岸相对的位置，后来两岸由查理大桥连接了起来。\n\n中世纪大部分时期，这片“小边”一直是布拉格德意志居民的主要聚居区（16世纪起，还加入了日益壮大的意大利人社群），布满贵族宫殿和市民宅邸：性格上明显比右岸城区更贵族化，而右岸城镇则相对更市民阶层化、更偏波希米亚捷克人。",
     },
     relatedLandmarks: [
+      {
+        slug: "malostranske-namesti",
+        relation: {
+          en: "The marketplace at the heart of Otakar's new town, which still has its square, its church of St. Nicholas and its old town hall.",
+          cz: "Tržiště v srdci Otakarova nového města, které dodnes má své náměstí, svůj kostel svatého Mikuláše a svou starou radnici.",
+          zh: "奥托卡新城中心的集市广场。这座城至今还保留着它的广场、圣尼古拉教堂和旧市政厅。",
+        },
+      },
       {
         slug: "prague-castle",
         relation: {
@@ -9872,19 +9872,19 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
-        slug: "stromovka-park",
-        relation: {
-          en: "The royal hunting reserve Wenceslas retreated to again and again, preferring the hunt to the business of ruling.",
-          cz: "Královská obora, kam se Václav znovu a znovu uchyloval, protože dával lovu přednost před vládnutím.",
-          zh: "瓦茨拉夫一次又一次躲进的皇家狩猎场。比起处理政务，他更愿意待在这里打猎。",
-        },
-      },
-      {
         slug: "namesti-republiky",
         relation: {
           en: "Site of the old King's Court, where Wenceslas kept his lions, tigers, leopards, and bears, each fed two pounds of fresh meat a day by royal order.",
           cz: "Místo bývalého Králova dvora, kde Václav choval své lvy, tygry, leopardy a medvědy, z nichž každý dostával podle královského nařízení denně dvě libry čerstvého masa.",
           zh: "旧日王庭的所在地。瓦茨拉夫在这里养着他的狮子、老虎、豹子和熊，按王室规定，每头动物每天都要供应两磅新鲜肉食。",
+        },
+      },
+      {
+        slug: "stromovka-park",
+        relation: {
+          en: "The royal hunting reserve Wenceslas retreated to again and again, preferring the hunt to the business of ruling.",
+          cz: "Královská obora, kam se Václav znovu a znovu uchyloval, protože dával lovu přednost před vládnutím.",
+          zh: "瓦茨拉夫一次又一次躲进的皇家狩猎场。比起处理政务，他更愿意待在这里打猎。",
         },
       },
     ],
@@ -20628,11 +20628,11 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
-        slug: "municipal-house",
+        slug: "namesti-republiky",
         relation: {
-          en: "Built on the site of the King's Court, the royal residence in the Old Town where Ladislaus died on 23 November 1457.",
-          cz: "Stojí na místě Králova dvora, královského sídla na Starém Městě, kde Ladislav 23. listopadu 1457 zemřel.",
-          zh: "建在老城“国王宫廷”的旧址上。1457年11月23日，拉迪斯拉夫就死在那座王室行宫里。",
+          en: "Where the King's Court stood, the royal residence in the Old Town where Ladislaus died on 23 November 1457. The Municipal House stands on its site today.",
+          cz: "Tady stával Králův dvůr, královské sídlo na Starém Městě, kde Ladislav 23. listopadu 1457 zemřel. Dnes na jeho místě stojí Obecní dům.",
+          zh: "“国王宫廷”就在这里，1457年11月23日，拉迪斯拉夫死在这座老城的王室行宫里。如今原址上是市民会馆。",
         },
       },
       {
@@ -20801,11 +20801,11 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
-        slug: "municipal-house",
+        slug: "namesti-republiky",
         relation: {
-          en: "Built on the site of the King's Court, where George told the estates in August 1462 that he would live and die with the chalice, and where the papal legate Fantino de Valle lectured him the next moment.",
-          cz: "Stojí na místě Králova dvora, kde Jiří v srpnu 1462 stavům prohlásil, že bude s kalichem žít i umírat, a kde ho vzápětí kázal papežský legát Fantin de Valle.",
-          zh: "建在“国王宫廷”的旧址上。1462年8月，伊日在这里向各等级宣布要与圣杯同生共死，教皇使节范蒂诺紧接着就在这里当众训斥了他。",
+          en: "Where the King's Court stood, today the site of the Municipal House. Here George told the estates in August 1462 that he would live and die with the chalice, and the papal legate Fantino de Valle lectured him the next moment.",
+          cz: "Tady stával Králův dvůr, na jehož místě dnes stojí Obecní dům. Tady Jiří v srpnu 1462 stavům prohlásil, že bude s kalichem žít i umírat, a vzápětí ho kázal papežský legát Fantin de Valle.",
+          zh: "“国王宫廷”就在这里，原址上如今是市民会馆。1462年8月，伊日在这里向各等级宣布要与圣杯同生共死，教皇使节范蒂诺紧接着就当众训斥了他。",
         },
       },
       {
@@ -22648,19 +22648,19 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
-        slug: "novomestska-radnice",
-        relation: {
-          en: "Seat of the joint council of the united Prague towns from 1518, and the scene of the first defenestration in 1419.",
-          cz: "Od roku 1518 sídlo společné rady spojených pražských měst a místo první defenestrace roku 1419.",
-          zh: "1518年起两城联合议会的所在地，也是1419年第一次抛窗事件的现场。",
-        },
-      },
-      {
         slug: "na-prikope",
         relation: {
           en: "Its name means \"on the moat\": the street runs along the line of the old moat and wall between the Old Town and the New Town, the wall the townsmen began knocking down in 1518.",
           cz: "Jméno znamená, že stojí „na příkopě“: ulice vede po linii někdejšího příkopu a hradeb mezi Starým a Novým Městem, těch, které měšťané roku 1518 začali bourat.",
           zh: "街名的意思就是\"在护城河上\"：这条街顺着当年老城和新城之间的护城河和城墙走，正是1518年城里人动手拆的那道墙。",
+        },
+      },
+      {
+        slug: "novomestska-radnice",
+        relation: {
+          en: "Seat of the joint council of the united Prague towns from 1518, and the scene of the first defenestration in 1419.",
+          cz: "Od roku 1518 sídlo společné rady spojených pražských měst a místo první defenestrace roku 1419.",
+          zh: "1518年起两城联合议会的所在地，也是1419年第一次抛窗事件的现场。",
         },
       },
     ],
@@ -23720,6 +23720,14 @@ export const historyEvents = [
         },
       },
       {
+        slug: "malostranske-namesti",
+        relation: {
+          en: "Where it started: the fire broke out in a house on the square, and the first to see it were roofers on the town hall next door.",
+          cz: "Tady to začalo: požár vypukl v domě na náměstí a jako první ho zahlédli pokrývači na vedlejší radnici.",
+          zh: "火就是从这里烧起来的：起火的房子就在广场上，最先看到火的，是在隔壁市政厅屋顶上干活的瓦匠。",
+        },
+      },
+      {
         slug: "sternbersky-palac-mala-strana",
         relation: {
           en: "Where it started: the house Na Baště, whose kitchen chimney caught fire on 2 June 1541, stood on this plot. The Šternberks built their palace here in 1703–1719.",
@@ -24666,6 +24674,14 @@ export const historyEvents = [
       zh: "马克西米利安对犹太人大方，对路德派其实也不小气，至少在奥地利是这样。\n\n1571年，他给下奥地利的路德派贵族发了一份书面保证：你们可以在自己的城堡和庄园里，照路德的方式做礼拜。白纸黑字，盖了印。\n\n波希米亚人都看在眼里：四年前，他们自己[[link:the-chalice-laid-down-1567]]把《巴塞尔协约》从法律里删了[[/link]]，国王却只答应“除了天主教和圣杯派，别的都不算”。奥地利人有的，凭什么我们没有？\n\n机会很快就来了。马克西米利安身体越来越差，知道自己时日无多，急着在生前把位子传给长子鲁道夫。1572年，鲁道夫已经戴上了匈牙利的王冠，下一步是波希米亚。照[[link:the-bloody-diet-1547]]1547年[[/link]]的约定，波希米亚的王冠要传给国王的继承人，可新国王登基之前，还得各等级在议会上正式“接受”他才行。何况国王还要他们掏钱，跟土耳其人打仗。\n\n[[b]]国王要王位，要钱；各等级要的，是一张纸。[[/b]]\n\n1575年2月，议会开幕。这一回，新圣杯派、路德派，再加上一直被当成异端的弟兄会，破天荒地坐到了一起，凑出了一份共同的信仰声明，这就是《波希米亚信纲》。它大体照着路德派《奥格斯堡信纲》的样子写，又揉进了胡斯派和弟兄会的东西；只有老圣杯派不肯参加。三家人吵了一百多年，这回总算写出了同一份东西。\n\n5月18日，信纲被递到了皇帝面前。\n\n马克西米利安犯了难。他心里未必反对，可他头上还压着三座大山：罗马的教皇；马德里的西班牙国王，他的大舅子兼表兄；还有波希米亚自己的天主教贵族。更要命的是，这年秋天，帝国就要选下一任皇帝了，他要让鲁道夫当选，手里少不了天主教选帝侯的票。偏偏在这个节骨眼上，要他亲手在一份新教信纲上签字？\n\n[[b]]他想了一个两头都不得罪的办法：嘴上答应，手上不签。[[/b]]\n\n他当着各等级的面口头保证：信这份信纲的人，不会因为信仰受到打压。至于书面文件，没有；信纲本身，也不许印刷，不许散发。\n\n各等级拿到了这句话，也就点了头。那年9月，鲁道夫在圣维特大教堂加冕为波希米亚国王，为他戴上王冠的，就是[[link:an-archbishop-at-last-1561]]布鲁斯大主教[[/link]]。一个月后，他又被选为罗马人的国王，离皇位只差一步。\n\n马克西米利安两头都赢了：儿子有了王冠，选帝侯的票也没丢。\n\n可一句口头承诺能管多久？说出口的人一死，还算不算数？\n\n第二年秋天，马克西米利安在雷根斯堡去世，鲁道夫坐上了王位。据说临终前，他拒绝了天主教神父送来的最后圣礼。这位“不太像天主教徒”的皇帝，到死都没让人看清，他心里信的到底是哪一边。\n\n他留给儿子的，是一顶王冠，和一句没有写在纸上的话。[[b]]这句话到底算不算数，波希米亚人还要等上很多年，才能等到一个答案。[[/b]]",
     },
     relatedLandmarks: [
+      {
+        slug: "malostranske-namesti",
+        relation: {
+          en: "The Lesser Town's main square, where the estates met in the old town hall to write the confession down.",
+          cz: "Hlavní náměstí Malé Strany, kde se stavové sešli ve staré radnici, aby konfesi sepsali.",
+          zh: "小城区的主广场，各等级就是在广场边的旧市政厅里把这份信纲写下来的。",
+        },
+      },
       {
         slug: "malostranska-beseda",
         relation: {
@@ -25843,6 +25859,14 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
+        slug: "malostranske-namesti",
+        relation: {
+          en: "The heart of the Lesser Town, which the Passau soldiers burst into and sacked in February 1611.",
+          cz: "Srdce Malé Strany, do které v únoru 1611 vtrhli pasovští vojáci a vyplenili ji.",
+          zh: "小城区的中心。1611年2月，帕绍士兵冲进小城区，把这里洗劫一空。",
+        },
+      },
+      {
         slug: "kostel-panny-marie-snezne",
         relation: {
           en: "In February 1611 fourteen Franciscan friars were killed in the friary here. The Church beatified them in 2012 as the Fourteen Martyrs of Prague.",
@@ -26340,6 +26364,14 @@ export const historyEvents = [
           en: "Where the two governors sat, and where the lords walked up the steps on the morning of 23 May 1618.",
           cz: "Tady seděli oba místodržící a sem ráno 23. května 1618 vystoupali páni po schodech.",
           zh: "两位总督就坐镇在这里。1618年5月23日清晨，贵族们沿着台阶走了上来。",
+        },
+      },
+      {
+        slug: "malostranske-namesti",
+        relation: {
+          en: "The Lesser Town's main square, where the lords met in the Smiřický Palace after dark on 22 May, before walking up to the castle the next morning.",
+          cz: "Hlavní náměstí Malé Strany, kde se páni 22. května po setmění sešli ve Smiřickém paláci, než druhý den ráno vyšli na hrad.",
+          zh: "小城区的主广场：5月22日天黑以后，贵族们在广场上的斯米里茨基宫碰头，第二天一早才走上城堡。",
         },
       },
       {
@@ -27821,6 +27853,14 @@ export const historyEvents = [
     quotes: [{"text":{"en":"The soldiers, imperial as well as Saxon and Walloon, made insolent by victory, have committed crimes in their fury: not only stripping houses but also violating matrons and maidens, Catholic ones too. They spare nothing.","cz":"Vojáci, císařští stejně jako saští a valonští, zpupní vítězstvím, se v zuřivosti dopouštějí zločinů: nejen vykrádají domy, ale znásilňují i počestné ženy a panny, i katolické. Nešetří ničeho.","zh":"士兵们，不管是皇帝的，还是萨克森的、瓦隆的，打了胜仗便目中无人，在狂怒中犯下种种恶行：不光洗劫房屋，还奸污妇人和少女，连天主教徒家的也不例外。他们什么都不放过。"},"attribution":{"en":"Lelio Della Torre, Genoese ambassador in Vienna, to his government, 20 December 1620 (quoted by Alessia Ceccarelli, 2024)","cz":"Lelio Della Torre, janovský vyslanec ve Vídni, své vládě, 20. prosince 1620 (podle Alessie Ceccarelli, 2024)","zh":"热那亚驻维也纳大使莱利奥·德拉托雷致本国政府，1620年12月20日（据切卡雷利2024年的论文转引）"}},{"text":{"en":"…he kept the imperial army there four whole weeks… during which time, contrary to the word given, many houses and inhabitants of the city were stripped and robbed of… many hundreds of thousands of scudi.","cz":"…držel tam císařské vojsko celé čtyři týdny… a během té doby, proti danému slovu, bylo mnoho domů i obyvatel města oloupeno a připraveno o… mnoho set tisíc scud.","zh":"……他让皇帝的军队在那里整整待了四个星期……这期间，违背了许下的诺言，城里许多房屋和居民被洗劫一空，被抢走了……数十万斯库多。"},"attribution":{"en":"A Bavarian-side pamphlet on Bucquoy, Dicchiaratione et aggiunta di molte particolarità, Milan, 1621 (quoted by Ceccarelli)","cz":"Pamflet z bavorské strany o Buquoyovi, Dicchiaratione et aggiunta di molte particolarità, Milán, 1621 (podle Ceccarelli)","zh":"巴伐利亚一方谈布夸伊的小册子《声明与补遗》，米兰，1621年（据切卡雷利转引）"}}],
     summary: {"en":"The battle was lost, the king had fled, and the emperor's soldiers were coming into the city.\n\nOn 9 November, not long after Frederick's coaches had left by the Mountain Gate in the east, the armies of the emperor and the Catholic League arrived outside the gates in the west.\n\nNobody defended the city.\n\nOf the lords who had argued the night before over whether to fight, some had fled with the king, and some had shut themselves up in their own houses and bolted the doors. The soldiers had long since melted away. The townspeople who were left were mostly unarmed. All they could do was bolt their doors and pray that, once the emperor's soldiers were inside, they would be spared.\n\nThe Old Town and the New Town sent men out to surrender to Maximilian and Bucquoy.\n\nThe gates opened.\n\n[[b]]Two years earlier, this city had thrown the emperor's governors out of a window. Two years later, it opened its gates to the emperor's army with its own hands.[[/b]]\n\nThe first to suffer were the Lesser Town and the streets below the castle.\n\nThey lay nearest to the White Mountain, and this was where most of the nobility's great houses stood. A year earlier, Frederick's courtiers had lived here. Now the quarter was the victors' spoils.\n\nThe soldiers who came in were Germans, Walloons, Italians, Spaniards and Poles, and many of them mercenaries who had not been paid for months. They smashed every door they came to and broke open every chest.\n\nThe nobles' houses were turned upside down: silver, tapestries, clothes, horses. Whatever could be carried was taken, and whatever could not was smashed. Ordinary households fared no better. Pots and pans, bedding, shoes and stockings all became the soldiers' \"spoils\".\n\nWhen the houses had been stripped, they turned on the people. Some were stripped naked in the street; some were forced to hand over money they had hidden, and those who could not were beaten, or simply killed. The women suffered most of all. In the lanes of the Lesser Town, for days on end, the screaming did not stop.\n\nThe Catholic monasteries and churches were given guards. But many of the soldiers could not tell a Catholic from a Protestant, and did not bother to try.\n\n[[b]]The soldiers who broke into the city did not ask what you believed. They asked what you had.[[/b]]\n\nGenoa was one of the emperor's allies, and its ambassador in Vienna, Lelio Della Torre, wrote in a report to his government:\n\n[[quote:0]]\n\nBucquoy's imperial army stayed in the city for four whole weeks, and for four weeks the plundering went on, on and off.\n\nLater, the Bavarian side printed a pamphlet that laid the whole bill at Bucquoy's door:\n\n[[quote:1]]\n\n[[b]]They had won the battle together. Nobody wanted to own the plunder.[[/b]]\n\nWhile the soldiers were turning the city upside down, Duke Maximilian of Bavaria moved into Prague Castle. There, he too came across an unexpected treasure.","cz":"Bitva byla prohraná, král utekl a do města táhli císařovi vojáci.\n\nDeváté listopadu, nedlouho poté, co Fridrichovy kočáry vyjely východní Horskou branou, stanula před západními branami vojska císaře a Katolické ligy.\n\nNikdo město nebránil.\n\nZ pánů, kteří se předchozí noci přeli, zda bojovat, někteří utekli s králem a jiní se zavřeli ve svých domech a zastrčili závory. Vojáci se dávno rozutekli. Měšťané, kteří zůstali, byli většinou beze zbraně. Mohli jen zavřít dveře a modlit se, aby je císařovo vojsko po vstupu do města ušetřilo.\n\nStaré a Nové Město vyslaly muže, aby se vzdali Maxmiliánovi a Buquoyovi.\n\nBrány se otevřely.\n\n[[b]]Před dvěma lety toto město vyhodilo císařovy místodržící z okna. O dva roky později otevřelo císařovu vojsku brány vlastníma rukama.[[/b]]\n\nJako první to odnesla Malá Strana a ulice pod hradem.\n\nLežely nejblíž Bílé hoře a stály tu skoro všechny velké šlechtické domy. Před rokem tu bydleli Fridrichovi dvořané. Teď byla celá čtvrť kořistí vítězů.\n\nVojáci, kteří vtáhli do města, byli Němci, Valoni, Italové, Španělé a Poláci, mnozí z nich žoldnéři, kteří měsíce neviděli žold. Vyráželi každé dveře a páčili každou truhlu.\n\nŠlechtické domy byly obráceny vzhůru nohama: stříbro, tapiserie, šaty, koně. Co se dalo odnést, odnesli, co ne, rozbili. Obyčejné domácnosti na tom nebyly o nic lépe. Hrnce a pánve, peřiny, boty i punčochy, všechno se stalo vojenskou „kořistí“.\n\nKdyž byly domy vybrané, přišli na řadu lidé. Některé svlékli na ulici donaha, jiné nutili vydat ukryté peníze, a kdo je vydat nemohl, toho zbili, nebo rovnou zabili. Nejvíc vytrpěly ženy. V uličkách Malé Strany celé dny neutichal křik a pláč.\n\nKatolické kláštery a kostely dostaly stráže. Jenže mnozí vojáci katolíka od protestanta nerozeznali a ani se o to nepokoušeli.\n\n[[b]]Vojáci, kteří vtrhli do města, se neptali, čemu věříš. Ptali se, co máš.[[/b]]\n\nJanov byl císařovým spojencem a jeho vyslanec ve Vídni Lelio Della Torre napsal ve zprávě své vládě:\n\n[[quote:0]]\n\nBuquoyovo císařské vojsko zůstalo ve městě celé čtyři týdny a čtyři týdny s přestávkami trvalo i plenění.\n\nPozději vydala bavorská strana pamflet, který celý účet připsal Buquoyovi:\n\n[[quote:1]]\n\n[[b]]Bitvu vyhráli společně. K plenění se nechtěl hlásit nikdo.[[/b]]\n\nZatímco vojáci obraceli město vzhůru nohama, nastěhoval se bavorský vévoda Maxmilián na Pražský hrad. I on tam narazil na nečekaný poklad.","zh":"仗打输了，国王跑了，皇帝的兵进城了。\n\n11月9日，腓特烈的马车刚出东边的山门没多久，西边的城门外，皇帝和天主教联盟的大军就到了。\n\n没有人守城。\n\n前一天晚上还在争论“打不打”的那些贵族老爷，有的跟着国王跑了，有的躲进了自家的宅子，把门闩得死死的。士兵们早就散了。剩下的市民大多手无寸铁，只能关起门来祈祷：但愿这些皇帝的兵进了城，能给自己留一条活路。\n\n老城和新城派人出城，向马克西米利安和布夸伊投降。\n\n城门开了。\n\n[[b]]两年前，这座城把皇帝的总督扔出了窗户；两年后，它亲手给皇帝的军队打开了城门。[[/b]]\n\n最先遭殃的，是小城和城堡底下的那一片。\n\n这里离白山最近，又是贵族府邸最集中的地方。一年前，腓特烈的廷臣们就住在这一带；如今，这里成了胜利者的战利品。\n\n进城的士兵，有德意志人、瓦隆人、意大利人、西班牙人、波兰人，许多是几个月没拿到军饷的雇佣兵。他们见门就砸，见箱子就撬。\n\n贵族的府邸被翻了个底朝天，银器、挂毯、衣裳、马匹，能拿的全拿走，拿不走的就砸烂。普通人家也没能幸免，锅碗瓢盆、被褥鞋袜，都成了兵爷们的“战利品”。\n\n抢完了屋子，就抢人。有人被当街剥光衣服，有人被逼着交出藏起来的钱，交不出来的，就挨打，甚至直接被杀。妇女们遭的罪最多。小城的街巷里，一连好多天，哭喊声都没停过。\n\n天主教的修道院和教堂，倒是被派了兵守着。可对很多士兵来说，谁是天主教徒、谁是新教徒，他们分不清，也懒得分。\n\n[[b]]打进城的兵不问你信什么，只问你有什么。[[/b]]\n\n热那亚是皇帝的盟友，它派驻维也纳的大使德拉托雷，在给本国政府的报告里写道：\n\n[[quote:0]]\n\n布夸伊的皇帝军在城里一住就是整整四个星期，抢掠也就断断续续闹了四个星期。\n\n后来，巴伐利亚一方印了一本小册子，把这笔账全记在了布夸伊的头上：\n\n[[quote:1]]\n\n[[b]]仗是一起打赢的；抢劫的账，谁都不想认。[[/b]]\n\n就在士兵们满城翻箱倒柜的时候，巴伐利亚公爵马克西米利安住进了布拉格城堡。他在城堡里，也翻到了一样意外的宝贝。"},
     relatedLandmarks: [
+      {
+        slug: "malostranske-namesti",
+        relation: {
+          en: "The heart of the Lesser Town, the quarter that was plundered for weeks in November 1620.",
+          cz: "Srdce Malé Strany, čtvrti, kterou v listopadu 1620 celé týdny plenili.",
+          zh: "小城区的中心。1620年11月，这一带被连续洗劫了好几个星期。",
+        },
+      },
       {
         slug: "malostranska-beseda",
         relation: {
@@ -30158,6 +30198,14 @@ export const historyEvents = [
         },
       },
       {
+        "slug": "malostranske-namesti",
+        "relation": {
+          "en": "The heart of the Lesser Town, which woke up to Swedish horsemen in its streets in July 1648.",
+          "cz": "Srdce Malé Strany, která se v červenci 1648 probudila se švédskými jezdci v ulicích.",
+          "zh": "小城区的中心。1648年7月的那个早晨，这里的街上已满是瑞典骑兵。"
+        }
+      },
+      {
         "slug": "klaster-kapucinu-hradcany",
         "relation": {
           "en": "Behind this monastery Odowalsky's hundred musketeers climbed the town wall at half past two on the night of 25-26 July 1648",
@@ -30242,6 +30290,14 @@ export const historyEvents = [
           cz: "Největší kořist ze všech: to, co zbylo z Rudolfových sbírek.",
           zh: "最肥的战利品：鲁道夫收藏的剩余部分。",
         },
+      },
+      {
+        "slug": "malostranske-namesti",
+        "relation": {
+          "en": "The heart of the Lesser Town, which Königsmarck gave his men three days to plunder.",
+          "cz": "Srdce Malé Strany, kterou Königsmarck nechal svým vojákům tři dny plenit.",
+          "zh": "小城区的中心。柯尼希斯马克给了手下三天时间，在这里大肆劫掠。"
+        }
       },
       {
         "slug": "new-royal-palace",
@@ -33216,6 +33272,14 @@ export const historyEvents = [
       }
     ],
     "relatedLandmarks": [
+      {
+        "slug": "malostranske-namesti",
+        "relation": {
+          "en": "The square where the Lesser Town councillors heard Mass in the open in 1713 and vowed the column that stands on it.",
+          "cz": "Náměstí, kde malostranští konšelé roku 1713 vyslechli pod širým nebem mši a slíbili sloup, který na něm dodnes stojí.",
+          "zh": "1713年，小城区的议员们在这座广场上露天望弥撒，许愿立起了如今立在广场上的那根柱子。"
+        }
+      },
       {
         "slug": "holy-trinity-column-of-lesser-town-1782494475173",
         "relation": {

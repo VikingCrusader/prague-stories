@@ -108,6 +108,96 @@ export const PACKS = [
       'platan-zahrada-kinskych', 'vodopady-zahrada-kinskych', 'socha-herkula-s-hydrou-zahrada-kinskych', 'letohradek-kinskych', 'magicka-jeskyne',
     ],
   }),
+  pack({
+    slug: 'wenceslas-square',
+    name: 'Wenceslas Square',
+    localizedNames: { cz: 'Václavské náměstí', zh: '瓦茨拉夫广场' },
+    foil: '#1f3f7a',
+    labels: ['square', 'art-nouveau', 'functionalism', 'communism'],
+    // The square from Můstek up to the two museum buildings, the houses right on
+    // it, and Lucerna and the Světozor arcade off it (2026-11-10, user's call; the
+    // Franciscan Garden and Our Lady of the Snows belong to Jungmannovo náměstí).
+    // Took over the card of the same slug (and its cover).
+    members: [
+      'national-museum', 'nova-budova-narodniho-muzea', 'pomnik-sv-vaclava', 'pamatnik-palacha-zajice', 'kvetinovy-dum',
+      'muzeum-studene-valky', 'palac-fenix', 'hotel-evropa-1783748217364', 'palac-knih-luxor', 'czech-bank-palace-ligna-palace-1783753023641',
+      'melantrich', 'wiehluv-dum', 'palac-u-styblu', 'hotel-julis', 'adamova-lekarna', 'batuv-palac', 'palac-euro', 'darex',
+      'palac-generali', 'obchodni-dum-ceskeho-svazu-vyrobnich-druzstev', 'diamant-house', 'palac-koruna', 'mustek',
+      'kino-lucerna', 'vitraz-tesla-radio-svetozor',
+    ],
+  }),
+  pack({
+    slug: 'namesti-republiky',
+    name: 'Republic Square',
+    localizedNames: { cz: 'Náměstí Republiky', zh: '共和国广场' },
+    foil: '#6b5a1e',
+    labels: ['square', 'gothic', 'art-nouveau', 'brutalism'],
+    // The square and what stands right on it or just off it, the King's Court's
+    // ground included; Na Příkopě is left for a pack of its own (2026-11-10,
+    // user's call). Took over the card of the same slug (and its cover).
+    members: [
+      'municipal-house', 'powder-tower', 'divadlo-hybernia', 'kostel-sv-josefa-namesti-republiky', 'palladium-prague',
+      'kotva-department-store', 'stara-celnice', 'ulicka-sv-huberta', 'hotel-kings-court-hilton-old-town',
+    ],
+  }),
+  pack({
+    slug: 'na-prikope',
+    name: 'Na Příkopě',
+    localizedNames: { cz: 'Na Příkopě', zh: '护城河街' },
+    foil: '#2c5a52',
+    labels: ['street', 'medieval', 'art-nouveau', 'historicism'],
+    // The old moat from Můstek to the Powder Tower and the buildings on it. The
+    // four at its two ends are in the square packs too (2026-11-10, user's
+    // call: the walk runs end to end). Took over the card of the same slug (and its cover).
+    members: [
+      'mustek', 'palac-koruna', 'palac-euro', 'haasuv-obchodni-dum', 'mango-building', 'cerna-ruze', 'palac-sylva-taroucca',
+      'kostel-sv-krize', 'slovansky-dum', 'divadlo-broadway', 'ceska-eskomptni-banka', 'detsky-dum-praha', 'palac-myslbek',
+      'videnska-bankovni-jednota', 'palac-zivnostenske-banky-nekazanka', 'czech-national-bank', 'powder-tower',
+    ],
+  }),
+  pack({
+    slug: 'kampa-island',
+    name: 'Kampa',
+    localizedNames: { cz: 'Kampa', zh: '坎帕岛' },
+    foil: '#3d6b2a',
+    labels: ['nature', 'park', 'cultural'],
+    // The island between the Čertovka and the Vltava, and the stream that makes
+    // it one; the Werich Villa was added for it (2026-11-10, user's call). Took
+    // over the card of the same slug (and its cover).
+    members: [
+      'museum-kampa-1782563427306', 'liechtenstein-palace-on-kampa-1782495483416', 'werichova-vila', 'miminka-kampa', 'certovka',
+    ],
+  }),
+  pack({
+    slug: 'malostranske-namesti',
+    name: 'Malostranské Square',
+    localizedNames: { cz: 'Malostranské náměstí', zh: '小城广场' },
+    foil: '#5e2f4a',
+    labels: ['square', 'baroque', 'early-modern', 'palace'],
+    // The square round St. Nicholas and what stands on it, plus St. Thomas on
+    // the corner of Letenská (2026-11-10, user's call). The square had no card of its own.
+    members: [
+      'st-nicholas-mala-strana', 'svatomikulasska-zvonice', 'holy-trinity-column-of-lesser-town-1782494475173',
+      'liechtenstein-palace-mala-strana-1782581902637', 'sternbersky-palac-mala-strana', 'palc-smiickch-czech-parliament-1782397003111',
+      'malostranska-beseda', 'palac-gromlingovsky', 'kaiserstein-palace-1782406783694', 'st-thomas-church-1782394995826',
+    ],
+  }),
+  pack({
+    slug: 'prokopske-valley',
+    name: 'Prokopské Valley',
+    localizedNames: { cz: 'Prokopské údolí', zh: '普罗科普斯克峡谷' },
+    foil: '#7a6a3c',
+    labels: ['nature', 'geology', 'hidden-gem'],
+    // The valley of the Dalejský stream from Hlubočepy at its mouth up through the
+    // Prokopské and Dalejské valleys to Řeporyje, one walk of about 7 km (2026-11-10,
+    // user's call). Took over the card of the same slug (and its cover).
+    members: [
+      'old-hluboepy-town-1783210594463', 'hlubocepsky-zamecek', 'hlubocepske-viadukty', 'hlubocepske-plotny',
+      'skalnickova-zahrada-hlubocepy', 'prokopske-jezirko', 'tunel-prokopske-udoli', 'knihobudka-prokopske-udoli',
+      'butovicke-hradiste', 'klukovice', 'holyne', 'dalejsky-profil', 'pozary', 'vapenka-biskup-kvis-kotrba',
+      'zeleznicni-viadukt-reporyje', 'kostel-svateho-petra-a-pavla-reporyje',
+    ],
+  }),
 ];
 
 export const packsOfCard = (slug) => PACKS
