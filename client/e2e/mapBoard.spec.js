@@ -319,7 +319,7 @@ test.describe('card packs on the Map', () => {
 
 test.describe('a pack on the Map', () => {
   test.use({ viewport: { width: 2560, height: 1300 } });
-  test('shows only its art and foil on a computer, in the list and when opened', async ({ page }) => {
+  test('the list shows whole packs; an opened one shows only its art and foil', async ({ page }) => {
     const pack = { slug: 'p1', name: 'The Pack', foil: '#7a1f2b', localizedNames: {}, total: 12, collected: 4, unlocked: true, completed: false, unlockAt: 3, unlockXp: 20, labels: [], districts: ['Praha 2'], quarters: ['Vinohrady'], memberSlugs: ['card-0'] };
     await page.route('**/api/packs', route => route.fulfill({ json: [pack] }));
     await page.route('**/api/packs/p1', route => route.fulfill({ json: { ...pack, description: { en: 'Story.', cz: 'x', zh: 'x' }, members: [] } }));
@@ -328,7 +328,7 @@ test.describe('a pack on the Map', () => {
     const listed = page.locator('.map-pack-list .pack-card');
     await expect(listed.locator('.loc-card__banner')).toHaveCount(1);
     await expect(listed.locator('.pack-card__crimp')).toHaveCount(2);
-    await expect(listed.locator('.loc-card__body')).toHaveCount(0);
+    await expect(listed.locator('.loc-card__body')).toHaveCount(1);
     await listed.click();
     await expect(page.locator('.pack-panel .pack-card .loc-card__body')).toHaveCount(0);
   });

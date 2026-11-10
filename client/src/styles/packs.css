@@ -352,7 +352,8 @@
 /* The Map's right column: the packs the filters leave, and one pack opened. */
 .map-pack-list { padding: 14px 16px 18px; }
 .map-pack-list__title { margin: 0 0 12px; }
-.map-pack-list__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+/* Whole packs, two to a row where each gets 155px or more, else one (a Mac's narrower column). */
+.map-pack-list__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(155px, 100%), 1fr)); gap: 12px; }
 .pack-panel { padding: 14px 16px 18px; }
 .pack-panel .pack-detail__top { flex-direction: column; align-items: stretch; gap: 14px; }
 /* The Map's right column: the packet spans the column, foil and seals kept (2026-11-10, user's call). */

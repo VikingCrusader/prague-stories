@@ -318,7 +318,8 @@ export default function MapPage() {
       <h2 className="px-title profile-card-title map-pack-list__title">{t('grid.filterPacks')}</h2>
       {shownPacks.length ? (
         <div className="map-pack-list__grid">
-          {shownPacks.map(pack => <PackCard key={pack.slug} pack={pack} onClick={pickPack} artOnly={!phone} />)}
+          {/* Whole packs: the list has the room on every screen (2026-11-10, user's call). */}
+          {shownPacks.map(pack => <PackCard key={pack.slug} pack={pack} onClick={pickPack} />)}
         </div>
       ) : <p className="map-bottom__empty">{t('grid.noResults')}</p>}
     </div>
