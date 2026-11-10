@@ -234,7 +234,12 @@ export default function MapPage() {
   const upperArea = parentDistrict ? { kind: 'district', value: parentDistrict } : area;
   // With no district chosen, the lower map shows the one the player is in.
   const shownDistrict = parentDistrict ?? myArea?.district ?? null;
-  const pickQuarter = name => setArea(area?.kind === 'quarter' && area.value === name
+  // An area the player picks (the left column's maps, a click on the map, the
+  // chips, the back button) closes an open pack, so the right column follows
+  // the new area (2026-11-10). Opening a card from the pack may also move the
+  // area, but goes through setArea, so closing the card still leads back to it.
+  const chooseArea = next => { setSelectedPack(null); setArea(next); };
+  const pickQuarter = name => chooseArea(area?.kind === 'quarter' && area.value === name
     ? { kind: 'district', value: shownDistrict }
     : { kind: 'quarter', value: name, district: shownDistrict });
   const markedQuarter = area?.kind === 'quarter' ? area.value : area ? null : myArea?.quarter ?? null;
@@ -271,7 +276,7 @@ export default function MapPage() {
   const chips = (
     <MapFilterChips
       area={area}
-      onArea={setArea}
+      onArea={chooseArea}
       search={search}
       onClearSearch={() => setSearch('')}
       labels={[...activeLabels]}
@@ -334,7 +339,7 @@ export default function MapPage() {
           touch={phone}
           viewButton={narrow && hasIntro && !selected && !infoOpen ? { label: t('map.areaIntro'), onClick: () => setInfoOpen(true) } : null}
         >
-          <MapBoundaries area={area} cityOnly={cityOnly} onArea={setArea} />
+          <MapBoundaries area={area} cityOnly={cityOnly} onArea={chooseArea} />
           <MapAreaFocus area={area} cityOnly={cityOnly} flyTo={flyTo} selected={selected} panelRef={narrow ? rightColumnRef : null} />
         </MapView>
         <MapFrame />
@@ -348,9 +353,9 @@ export default function MapPage() {
             <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
             <div className="map-left__heading">{t('explore.mapFilterLabel')}</div>
             {swapMaps && parentDistrict ? (
-              <button type="button" className="filter-btn map-back" onClick={() => setArea(null)}>{t('map.backToDistricts')}</button>
+              <button type="button" className="filter-btn map-back" onClick={() => chooseArea(null)}>{t('map.backToDistricts')}</button>
             ) : (
-              <ExploreMap locations={locations} area={upperArea} onArea={setArea} outside={!cityOnly} here={myArea} showToggle={false} />
+              <ExploreMap locations={locations} area={upperArea} onArea={chooseArea} outside={!cityOnly} here={myArea} showToggle={false} />
             )}
             {(!swapMaps || parentDistrict) && (
               <DistrictQuarters
@@ -359,7 +364,7 @@ export default function MapPage() {
                 locations={locations}
                 onPick={pickQuarter}
                 area={area}
-                onArea={setArea}
+                onArea={chooseArea}
               />
             )}
             {chips}
@@ -440,7 +445,7 @@ export default function MapPage() {
             <>
               {myArea && <MapHere here={myArea} onOpenGuide={setAreaGuide} />}
               <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
-              <ExploreMap locations={locations} area={area} onArea={setArea} outside={!cityOnly} here={myArea} />
+              <ExploreMap locations={locations} area={area} onArea={chooseArea} outside={!cityOnly} here={myArea} />
               {chips}
             </>
           ) : sheet === 'info' ? areaIntro : bottomBar}

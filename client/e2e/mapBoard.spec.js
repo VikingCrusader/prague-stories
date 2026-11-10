@@ -261,6 +261,25 @@ test.describe('card packs on the Map', () => {
       await page.locator('.map-tile--pack').click();
       await expect(page.locator('.map-slot--right .pack-panel')).toContainText('Pack story.');
     });
+
+    test('picking another area closes the open pack, so the right column follows the area', async ({ page }) => {
+      await page.route('**/api/locations', route => route.fulfill({ json: CARDS.map(c => ({ ...c, district: 'Praha 11' })) }));
+      await page.route('**/api/packs', route => route.fulfill({ json: [ELSEWHERE, { ...IN_AREA, districts: ['Praha 11'] }] }));
+      await page.goto('/map');
+      await page.locator('.map-slot--left .district-map__area').nth(5).click(); // Praha 11
+      await page.locator('.map-tile--pack').click();
+      await expect(page.locator('.map-slot--right .pack-panel')).toBeVisible();
+      await page.locator('.map-slot--left .district-map__area').nth(2).click();
+      await expect(page.locator('.map-slot--right .pack-panel')).toHaveCount(0);
+      // The same from the Packs list: back to the list for the new area.
+      await page.locator('.map-slot--left .district-map__area').nth(5).click(); // Praha 11 again
+      await page.locator('.map-topbar .filter-btn', { hasText: 'Packs' }).click();
+      await page.locator('.map-slot--right .map-pack-list .pack-card').first().click();
+      await expect(page.locator('.map-slot--right .pack-panel')).toBeVisible();
+      await page.locator('.map-slot--left .district-map__area').nth(4).click();
+      await expect(page.locator('.map-slot--right .pack-panel')).toHaveCount(0);
+      await expect(page.locator('.map-slot--right .map-pack-list')).toBeVisible();
+    });
   });
 
   test.describe('on a phone', () => {
