@@ -229,6 +229,19 @@ test.describe('a guest with no position', () => {
     await expect(other.locator('.loc-card__name')).toHaveText('???');
   });
 
+  test('sees the packs in colour with a small lock, still sealed, and the Lennon Wall locked', async ({ page }) => {
+    await page.addInitScript(() => localStorage.setItem('lang', 'en'));
+    await page.route('**/api/locations', route => route.fulfill({ json: [locked('john-lennon-wall', 'John Lennon Wall')] }));
+    await page.route('**/api/packs', route => route.fulfill({ json: [SEALED] }));
+    await page.goto('/explore');
+    const pack = page.locator('.pack-card[data-pack="prague-castle"]');
+    await expect(pack).toHaveClass(/pack-card--uncovered/);
+    await expect(pack).toHaveClass(/pack-card--open/);
+    await expect(pack).not.toHaveClass(/loc-card--holdable/);
+    await expect(pack.locator('.pack-card__lock')).toBeVisible();
+    await expect(page.locator('.loc-card[data-slug="john-lennon-wall"]')).toHaveClass(/loc-card--locked/);
+  });
+
   test('is told so in the side column', async ({ page }) => {
     await setupGuest(page);
     await expect(page.locator('.explore-applied__default--intro')).toContainText('The 48 cards up front are only a preview');

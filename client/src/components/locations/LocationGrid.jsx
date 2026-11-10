@@ -10,7 +10,7 @@ import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES } from '../../utils/rarity';
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 import { packMatches, nearestPackFirst } from '../../utils/packs';
-import { firstVisitOrder, featuredPacksFirst, interleavePacks, isFeatured } from '../../utils/gridOrder';
+import { firstVisitOrder, featuredPacksFirst, interleavePacks, isFeatured, isFeaturedPack } from '../../utils/gridOrder';
 
 // Expedition sorts first (it pays 60-300 XP), highest XP first among them.
 export const RARITY_ORDER = { expedition: -1, legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
@@ -458,7 +458,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             uncovered={guestPreview && isFeatured(item.slug)}
             previewable
           />
-        ) : <PackCard key={`pack-${item.slug}`} pack={item} onClick={onPackClick} />))}
+        ) : <PackCard key={`pack-${item.slug}`} pack={item} onClick={onPackClick} uncovered={guestPreview && isFeaturedPack(item.slug)} />))}
         {shownCount === 0 && (
           <p style={{ color: 'var(--text-muted)', gridColumn: '1/-1', padding: 24 }}>
             {t('grid.noResults')}

@@ -8,8 +8,8 @@ export const PACK_EVERY = 5;
 // Hand-picked and hand-ordered, four cards to each gap between packs: exactly
 // the rest of the first page (48). The very first rows are the most famous.
 export const FEATURED_SLUGS = [
-  'charles-bridge', 'astronomical-clock', 'john-lennon-wall', 'st-vitus-cathedral',
-  'dancing-house', 'old-new-synagogue-1782601630704', 'tyn-church', 'pomnik-sv-vaclava',
+  'charles-bridge', 'astronomical-clock', 'tyn-church', 'st-vitus-cathedral',
+  'dancing-house', 'old-new-synagogue-1782601630704', 'st-michael-mystery-church', 'pomnik-sv-vaclava',
   'golden-lane', 'zizkov-tv-tower', 'pamatnik-jana-husa', 'national-theatre',
   'kafka-rotating-head', 'old-jewish-cemetery', 'strahov-library', 'st-nicholas-mala-strana',
   'miminka-kampa', 'powder-tower', 'kafka-statue', 'municipal-house',
@@ -30,6 +30,9 @@ export const FEATURED_PACK_SLUGS = [
   'prague-castle', 'old-town-square', 'wenceslas-square', 'vysehrad', 'petrin', 'kampa-island',
   'malostranske-namesti', 'namesti-republiky', 'letna', 'na-prikope', 'pankrac', 'prokopske-valley',
 ];
+
+const FEATURED_PACKS = new Set(FEATURED_PACK_SLUGS);
+export const isFeaturedPack = slug => FEATURED_PACKS.has(slug);
 
 const featuredRank = list => {
   const rank = new Map(list.map((slug, i) => [slug, i]));

@@ -108,6 +108,7 @@
    is locked and has no colour; after that it has its colours and stays still; only
    a complete one gets the effects. */
 .pack-card--sealed .pack-card__foil { filter: grayscale(1) brightness(0.82); }
+.pack-card--uncovered .pack-card__lock { top: 14px; left: auto; right: 14px; width: 24%; transform: none; }
 
 .pack-card__sheen { display: none; }
 .pack-card--complete .loc-card__banner,

@@ -31,7 +31,10 @@ function Crimps() {
 // copy inside CardShowcase; `story`: the paragraphs that fill it when read.
 // `artOnly` (the Map and the profile): just the art in its foil and seals, without
 // the name, progress bar and count. The showcase still picks up the whole packet.
-function PackCard({ pack, onClick, holdable = true, showcase = false, story = null, artOnly = false }) {
+// `uncovered` (Explore, a guest with no position): a sealed pack in full colour
+// with a small corner lock, to match the uncovered cards around it. It is still
+// sealed: no showcase, and its detail shows only the preview.
+function PackCard({ pack, onClick, holdable = true, showcase = false, story = null, artOnly = false, uncovered = false }) {
   const { lang } = useLang();
   const convert = useConvert();
   const t = useT();
@@ -49,7 +52,7 @@ function PackCard({ pack, onClick, holdable = true, showcase = false, story = nu
     <>
     <div
       ref={ref}
-      className={`loc-card pack-card pack-card--${state}${artOnly ? ' pack-card--art' : ''}${gestures ? ' loc-card--holdable' : ''}`}
+      className={`loc-card pack-card pack-card--${state === 'sealed' && uncovered ? 'open' : state}${uncovered ? ' pack-card--uncovered' : ''}${artOnly ? ' pack-card--art' : ''}${gestures ? ' loc-card--holdable' : ''}`}
       style={foil ? { '--foil': foil } : undefined}
       data-pack={slug}
       role="button"
