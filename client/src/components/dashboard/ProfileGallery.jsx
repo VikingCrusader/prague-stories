@@ -6,7 +6,7 @@ import FullCardGrid from '../locations/FullCardGrid';
 import { AchievementTile, rarestFirst } from '../achievements/RarestAchievements';
 import { CardThumb } from './RecentCardStrip';
 import PackCard from '../packs/PackCard';
-import { openedPacks } from './PackShelf';
+import { openedPacks, PackCaption } from './PackShelf';
 
 const TITLE = {
   achievements: 'dashboard.achievements',
@@ -87,7 +87,12 @@ export default function ProfileGallery({ kind, achievements, paused, onClose, on
             <div style={{ display: 'flex', justifyContent: 'center', padding: 24 }}><div className="spinner" /></div>
           ) : isPacks ? (
             <div className="profile-gallery__packs">
-              {cards.map(pack => <PackCard key={pack.slug} pack={pack} onClick={onOpenPack} artOnly />)}
+              {cards.map(pack => (
+                <div key={pack.slug}>
+                  <PackCard pack={pack} onClick={onOpenPack} artOnly />
+                  <PackCaption pack={pack} />
+                </div>
+              ))}
             </div>
           ) : fullCards ? (
             cards.length > 0 && <FullCardGrid cards={cards} onOpen={onOpenCard} scrollRef={scrollRef} loadOnClick={isCollection} />

@@ -105,6 +105,8 @@ test.describe('Dashboard', () => {
       await expect(items).toHaveCount(2);
       await expect(items.first()).toHaveAttribute('data-pack', 'done');
       await expect(items.locator('.loc-card__body')).toHaveCount(0);
+      await expect(page.locator(`.pack-shelf--${layout} .pack-shelf__caption`).first()).toHaveText('Done20 / 20');
+      await expect(page.locator(`.pack-shelf--${layout} .pack-shelf__all`)).toBeVisible();
       if (layout !== 'stack') expect(await page.evaluate(() => document.documentElement.scrollHeight <= innerHeight)).toBe(true);
     }
     await page.setViewportSize({ width: 1536, height: 730 });
@@ -114,6 +116,20 @@ test.describe('Dashboard', () => {
     await page.keyboard.press('Escape');
     await page.locator('.pack-shelf__all').click();
     await expect(page.locator('.profile-gallery .pack-card')).toHaveCount(2);
+  });
+
+  test('on a phone the packs come after the achievements, two at most', async ({ page }) => {
+    const base = { foil: '#7a1f2b', districts: ['Praha 1'], quarters: ['Hradčany'], unlockAt: 3, unlockXp: 20, completeXp: 435, memberSlugs: [], localizedNames: { cz: 'x', zh: 'x' }, total: 20, unlocked: true, completed: false };
+    const packs = ['a', 'b', 'c'].map((slug, i) => ({ ...base, slug, name: slug.toUpperCase(), collected: 10 - i }));
+    await page.route('**/api/packs', route => route.fulfill({ json: packs }));
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.reload();
+    const shelf = page.locator('.pack-shelf');
+    await expect(shelf.locator('.pack-card')).toHaveCount(2);
+    await expect(shelf.locator('.pack-shelf__all')).toBeVisible();
+    // Right after the achievements card, not up among the stat cards.
+    expect(await page.evaluate(() => !!document.querySelector('.pack-shelf').previousElementSibling.querySelector('.ach-tile'))).toBe(true);
+    await expect(page.locator('.dashboard-grid > .pack-shelf')).toHaveCount(0);
   });
 
   test('levels are listed from the navbar XP figure, not on the profile', async ({ page }) => {

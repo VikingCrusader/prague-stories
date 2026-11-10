@@ -303,16 +303,26 @@
 
 /* The profile's packs (PackShelf). */
 .pack-shelf { min-width: 0; }
-.pack-shelf__all { padding: 0; border: 0; background: none; color: inherit; font: inherit; cursor: pointer; }
+.pack-shelf__head { margin-bottom: 0; }
+.pack-shelf__caption { display: flex; flex-direction: column; align-items: center; gap: 0; margin-top: 4px; min-width: 0; text-align: center; }
+.pack-shelf__caption .card-strip__name { width: 100%; }
+.pack-shelf__caption .card-strip__meta { color: var(--text-muted); }
 .pack-shelf__empty { margin: 8px 0 0; font-size: 14px; color: var(--text-muted); }
 .pack-shelf__row { display: flex; min-width: 0; }
 .pack-shelf__item { flex: none; }
-.pack-shelf__item > .loc-card { height: 100%; }
+.pack-shelf__art > .loc-card { height: 100%; }
 /* Phones and tablets: ordinary size. */
 .pack-shelf--stack .pack-shelf__row { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); margin-top: 10px; }
 /* A computer's small slot: the title beside the packs. */
 .profile-layout__top > .dashboard-grid > .pack-shelf--compact { flex-direction: row; align-items: stretch; gap: 12px; padding-top: 10px; padding-bottom: 10px; }
+/* In a row: title, packs, then "All" in the top right corner. */
+.pack-shelf--compact .pack-shelf__head { display: contents; }
 .pack-shelf--compact .pack-shelf__title { flex: none; margin: 0; }
+.pack-shelf--compact .pack-shelf__row { order: 1; }
+.pack-shelf--compact .pack-shelf__all { order: 2; flex: none; align-self: flex-start; }
+/* A taller slot: the heading above the packs, as in the other strips. */
+.profile-layout__top > .dashboard-grid > .pack-shelf--compact.pack-shelf--top { flex-direction: column; gap: 6px; }
+.pack-shelf--compact.pack-shelf--top .pack-shelf__head { display: flex; }
 .pack-shelf--compact .pack-shelf__row { flex: 1; min-height: 0; overflow: visible; justify-content: center; align-items: center; position: relative; }
 .pack-shelf--compact .pack-shelf__empty { margin: auto 0; }
 /* A 2K screen: a column beside the map, in the width the map never used. */

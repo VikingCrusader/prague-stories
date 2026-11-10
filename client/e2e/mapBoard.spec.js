@@ -271,6 +271,8 @@ test.describe('card packs on the Map', () => {
       await expect(buttons).toHaveCount(4);
       expect(await buttons.evaluateAll(els => els.every(e => e.scrollWidth <= e.clientWidth))).toBe(true);
       await page.locator('.map-topbar .filter-btn', { hasText: 'Packs' }).click();
+      // A phone's sheet has the room: each pack whole, with its name and progress.
+      await expect(page.locator('.map-pack-list .pack-card .loc-card__body').first()).toBeVisible();
       await page.locator('.map-pack-list .pack-card[data-pack="in-area"]').click();
       await expect(page.locator('.pack-panel')).toContainText('Pack story.');
     });
@@ -279,7 +281,7 @@ test.describe('card packs on the Map', () => {
 
 test.describe('a pack on the Map', () => {
   test.use({ viewport: { width: 2560, height: 1300 } });
-  test('shows only its art and foil, in the list and when opened', async ({ page }) => {
+  test('shows only its art and foil on a computer, in the list and when opened', async ({ page }) => {
     const pack = { slug: 'p1', name: 'The Pack', foil: '#7a1f2b', localizedNames: {}, total: 12, collected: 4, unlocked: true, completed: false, unlockAt: 3, unlockXp: 20, labels: [], districts: ['Praha 2'], quarters: ['Vinohrady'], memberSlugs: ['card-0'] };
     await page.route('**/api/packs', route => route.fulfill({ json: [pack] }));
     await page.route('**/api/packs/p1', route => route.fulfill({ json: { ...pack, description: { en: 'Story.', cz: 'x', zh: 'x' }, members: [] } }));

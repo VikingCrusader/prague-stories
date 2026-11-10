@@ -359,6 +359,18 @@ test.describe('Explore on a 2K screen', () => {
     await expect(items).toContainText('Rare');
   });
 
+  test('the label and rarity dropdowns stay inside the side column, on screen', async ({ page }) => {
+    const col = await page.locator('.explore-side').boundingBox();
+    const buttons = page.locator('.explore-side .label-filter > .filter-btn');
+    for (const i of [0, 1]) {
+      await buttons.nth(i).click();
+      const panel = await page.locator('.explore-side .label-filter__panel').boundingBox();
+      expect(panel.x).toBeGreaterThanOrEqual(col.x - 1);
+      expect(panel.x + panel.width).toBeLessThanOrEqual(col.x + col.width + 1);
+      await buttons.nth(i).click();
+    }
+  });
+
   test('one button clears the area, rarity and labels together', async ({ page }) => {
     const clear = page.getByRole('button', { name: 'Clear filters' });
     await expect(clear).toHaveCount(0);
@@ -424,6 +436,7 @@ test('with nothing chosen the map marks where the player is, without filtering',
     storageState: { cookies: [], origins: [{ origin: 'http://localhost:5173', localStorage: [{ name: 'locationConsent', value: JSON.stringify({ granted: true, version: 2, at: '2026-10-22T00:00:00.000Z' }) }, { name: 'token', value: 'fake-jwt-token' }, { name: 'theme', value: 'dark' }] }] },
   });
   const page = await context.newPage();
+  await context.route('**/api/packs', route => route.fulfill({ json: [] })); // the beforeEach mock doesn't reach a new context
   await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
   await page.route('**/api/locations', route => route.fulfill({ json: CARDS }));
   await page.goto('/explore');
@@ -472,6 +485,7 @@ test('clicking the area card anywhere but a name filters to district and quarter
     storageState: { cookies: [], origins: [{ origin: 'http://localhost:5173', localStorage: [{ name: 'locationConsent', value: JSON.stringify({ granted: true, version: 2, at: '2026-10-22T00:00:00.000Z' }) }, { name: 'token', value: 'fake-jwt-token' }] }] },
   });
   const page = await context.newPage();
+  await context.route('**/api/packs', route => route.fulfill({ json: [] })); // the beforeEach mock doesn't reach a new context
   await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
   await page.route('**/api/locations', route => route.fulfill({ json: [card(1, 'Praha 12', 'Kamýk', false), card(2, 'Praha 4', 'Kamýk', false), card(3, 'Praha 12', 'Modřany', false)] }));
   await page.goto('/explore');
@@ -506,6 +520,7 @@ test('the nearest-card row opens that card, and it comes first', async ({ browse
     storageState: { cookies: [], origins: [{ origin: 'http://localhost:5173', localStorage: [{ name: 'locationConsent', value: JSON.stringify({ granted: true, version: 2, at: '2026-10-22T00:00:00.000Z' }) }, { name: 'token', value: 'fake-jwt-token' }] }] },
   });
   const page = await context.newPage();
+  await context.route('**/api/packs', route => route.fulfill({ json: [] })); // the beforeEach mock doesn't reach a new context
   await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
   await page.route('**/api/locations', route => route.fulfill({ json: CARDS }));
   await page.route('**/api/locations/*', route => route.fulfill({ json: { ...CARDS[1], description: { en: 'x', cz: 'x', zh: 'x' }, storyLocked: true } }));
@@ -528,6 +543,7 @@ test('a guest gets a link to the guide under the tip; a signed-in player does no
     storageState: { cookies: [], origins: [{ origin: 'http://localhost:5173', localStorage: [{ name: 'locationConsent', value: JSON.stringify({ granted: true, version: 2, at: '2026-10-22T00:00:00.000Z' }) }] }] },
   });
   const guestPage = await context.newPage();
+  await context.route('**/api/packs', route => route.fulfill({ json: [] })); // the beforeEach mock doesn't reach a new context
   await guestPage.route('**/api/locations', route => route.fulfill({ json: CARDS }));
   await guestPage.addInitScript(() => sessionStorage.setItem('guest', 'true'));
   await guestPage.goto('/explore');

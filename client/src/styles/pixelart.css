@@ -1908,6 +1908,8 @@ a.week-card__n:hover, a.week-card__n:focus-visible { text-decoration: underline;
 /* Profile sections framed like the stat cards (2026-11-04): the card gives
    the spacing, so the section inside drops its own top margin. */
 .profile-card { margin-top: 20px; }
+/* Phones: the packs after the achievements, spaced like the other cards. */
+.profile-layout__top > .pack-shelf { margin-top: 20px; }
 .profile-card > section { margin-top: 0 !important; }
 .profile-card .px-title { margin-top: 0; }
 .profile-card .ach-showcase { padding-bottom: 0; }
@@ -2174,31 +2176,6 @@ html[data-lang="zh"] .detail-title-name {
   line-height: 1.5;
 }
 .guide-section { margin-bottom: 28px; }
-/* Treasure Hunt's challenge box: folded to three lines on phones, with a
-   toggle; unchanged on desktop (user's call, 2026-10-31). */
-.guide-challenge__toggle { display: none; }
-@media (max-width: 600px) {
-  .guide-challenge--fold { font-size: 15px; padding: 10px 12px; }
-  .guide-challenge--fold:not(.is-open) .guide-challenge__text {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .guide-challenge__toggle {
-    display: block;
-    margin: 6px 0 0 auto;
-    padding: 0;
-    background: none;
-    border: none;
-    color: var(--gold);
-    font: inherit;
-    font-size: 13px;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-}
-
 /* Location consent (LocationConsentDialog, PrivacyPage, LocationOffNotice).
    Both answers share one style on purpose: no nudging towards "allow". */
 .location-consent__box { max-width: 480px; padding: 22px 24px 20px; }
@@ -3253,6 +3230,12 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .explore-side > .district-map--loading { aspect-ratio: auto; }
 .explore-side .district-map__toggle, .explore-side .district-map__caption { flex: none; }
 .explore-side .label-filter__panel { max-height: calc(100vh - 360px); overflow-y: auto; }
+/* The dropdowns span the column exactly, at every size: below 2K a scrolling
+   column clips what sticks out, and at 2K the panel, anchored to the Labels
+   button's right edge, ran off the screen on the left (2026-11-10). */
+.explore-side .filter-bar__bottom { position: relative; }
+.explore-side .filter-bar__bottom .label-filter { position: static; }
+.explore-side .label-filter__panel { left: 0; right: 0; width: auto; min-width: 0; max-width: none; box-sizing: border-box; }
 .explore-side .district-map__toggle { display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 8px; }
 .district-map__toggle-label { font-size: 15px; font-weight: 700; color: var(--text-muted); white-space: nowrap; }
 .explore-side .district-map__stage { flex: 1; min-height: 0; width: 100%; max-width: none; box-sizing: border-box; padding: 8px; overflow: hidden; container-type: size; display: flex; align-items: center; justify-content: center; }
@@ -3287,10 +3270,6 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
   html:not([data-lang="zh"]) .explore-side .district-map__toggle .filter-btn { padding: 4px 8px; font-size: 13.5px; white-space: nowrap; }
   html:not([data-lang="zh"]) .explore-side .district-map__toggle-label { font-size: 13.5px; }
   html:not([data-lang="zh"]) .explore-side > .district-map { height: calc((var(--explore-side-w) - 12px) / 1.314 + 96px); }
-  /* A scrolling column clips what sticks out, so the dropdowns span it exactly. */
-  .explore-side .filter-bar__bottom { position: relative; }
-  .explore-side .filter-bar__bottom .label-filter { position: static; }
-  .explore-side .label-filter__panel { left: 0; right: 0; width: auto; min-width: 0; max-width: none; box-sizing: border-box; }
   .explore-side .explore-title { height: 44px; line-height: 44px !important; margin-bottom: 0; }
   .explore-side .explore-here { margin-top: 2px; padding: 3px 10px 3px 8px; font-size: 16px; }
   .explore-side .explore-here > svg { width: 16px; height: 16px; }

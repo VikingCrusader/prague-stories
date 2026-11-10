@@ -24,6 +24,7 @@ import AchievementModal from '../achievements/AchievementModal';
 // else's: links that would lead to the viewer's own cards are left out.
 // `progress` is the /progress payload, `achievements` the whole catalogue.
 const TWO_K = '(min-width: 2400px) and (min-height: 1200px)';
+const PHONE = '(max-width: 600px)';
 const shelfLayoutNow = () => (window.matchMedia(TWO_K).matches ? 'side' : window.matchMedia(ONE_PAGE).matches ? 'compact' : 'stack');
 const firstFour = d => (d ? { ...d, cards: (d.cards || []).slice(0, 4) } : d);
 
@@ -53,9 +54,10 @@ export default function ProfileBody({ progress, achievements, username, own = tr
   const [gallery, setGallery] = useState(null);
   const [openPack, setOpenPack] = useState(null);
   const [layoutNow, setLayoutNow] = useState(shelfLayoutNow);
+  const [phone, setPhone] = useState(() => window.matchMedia(PHONE).matches);
   useEffect(() => {
-    const onChange = () => setLayoutNow(shelfLayoutNow());
-    const queries = [TWO_K, ONE_PAGE].map(q => window.matchMedia(q));
+    const onChange = () => { setLayoutNow(shelfLayoutNow()); setPhone(window.matchMedia(PHONE).matches); };
+    const queries = [TWO_K, ONE_PAGE, PHONE].map(q => window.matchMedia(q));
     queries.forEach(q => q.addEventListener('change', onChange));
     return () => queries.forEach(q => q.removeEventListener('change', onChange));
   }, []);
@@ -83,7 +85,8 @@ export default function ProfileBody({ progress, achievements, username, own = tr
   // Only the player's own: the packs are read for whoever is signed in.
   const shelfLayout = own && !isGuest ? layoutNow : null;
   const shelf = shelfLayout && (
-    <PackShelf layout={shelfLayout} refresh={progress.presetCheckins} onOpen={setOpenPack} onSeeAll={() => setGallery('packs')} />
+    // Phones: two at most, "All" opens the rest (2026-11-10, user's call).
+    <PackShelf layout={shelfLayout} max={phone ? 2 : null} refresh={progress.presetCheckins} onOpen={setOpenPack} onSeeAll={() => setGallery('packs')} />
   );
   const canOpenCollection = own && progress.presetCheckins > 0;
   const collectionProps = canOpenCollection ? {
@@ -187,8 +190,9 @@ export default function ProfileBody({ progress, achievements, username, own = tr
 
         {/* Card packs, each one whole, in the place "This week" had (2026-11-09,
             user's call; those figures moved to the leaderboard). On a 2K screen
-            they stand under the map instead. */}
-        {shelfLayout && shelfLayout !== 'side' && shelf}
+            they stand under the map instead, and on phones after the
+            achievements (2026-11-10, user's call). */}
+        {shelfLayout && shelfLayout !== 'side' && !phone && shelf}
 
         {/* Cards by rarity, compact (2026-11-03): replaced an achievements
             total that the achievements section right below repeated, and
@@ -224,6 +228,7 @@ export default function ProfileBody({ progress, achievements, username, own = tr
       <div className="stat-card profile-card">
         <RarestAchievements achievements={achievements} onOpen={setSelectedAch} onSeeAll={() => setGallery('achievements')} titleLink={own} />
       </div>
+      {phone && shelf}
       </div>
 
       {/* The districts as a map and a list (2026-11-03; the map 2026-11-04). */}
