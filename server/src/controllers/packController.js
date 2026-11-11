@@ -7,6 +7,7 @@ const summary = (pack, status) => ({
   name: pack.name,
   localizedNames: pack.localizedNames,
   foil: pack.foil,
+  released: pack.released,
   labels: pack.labels || [],
   districts: [...new Set(pack.docs.map(d => d.district).filter(Boolean))],
   quarters: [...new Set(pack.docs.map(d => d.quarter).filter(Boolean))],

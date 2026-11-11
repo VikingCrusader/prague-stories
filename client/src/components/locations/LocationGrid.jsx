@@ -10,7 +10,7 @@ import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES } from '../../utils/rarity';
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 import { packMatches, nearestPackFirst } from '../../utils/packs';
-import { firstVisitOrder, featuredPacksFirst, interleavePacks, isFeatured, isFeaturedPack } from '../../utils/gridOrder';
+import { firstVisitOrder, featuredPacksFirst, interleavePacks, packsAtTheirCards, packsByRelease, isFeatured, isFeaturedPack } from '../../utils/gridOrder';
 
 // Expedition sorts first (it pays 60-300 XP), highest XP first among them.
 export const RARITY_ORDER = { expedition: -1, legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
@@ -29,7 +29,7 @@ const PAGE_SIZE = 60;
 // for the filters that are on into `appliedSlot`.
 // `initialFilter` ({ rarity, label }) opens the grid already filtered, e.g. on
 // Expedition from the nudge on the profile's empty expedition strip.
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, onPacksChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick, areaChosen = false, guestPreview = false }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, onPacksChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick, areaChosen = false, guestPreview = false, signedIn = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -183,6 +183,10 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // distance to go by they are spread among the cards, so a first visit isn't a
   // wall of sealed packs, unless the player narrowed the grid to look for
   // something (search, labels, an area): then the packs that match lead it.
+  // That spread is a guest's first visit only: a signed-in player's packs
+  // always stand just before the first of their own cards (e.g. while the
+  // phone is still waiting for a position, or sorted by rarity). Sorted by
+  // newest, the packs stand among the cards by when they were released.
   const gridItems = useMemo(() => {
     if (packsOnly) return shownPacks;
     if (discovered || treasureOnly || activeRarities.size > 0) return filtered;
@@ -192,9 +196,12 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     if (sort === 'distance' && filtered.some(l => l._distance != null)) {
       return [...near, ...[...rest, ...filtered].sort((a, b) => (a._distance ?? Infinity) - (b._distance ?? Infinity))];
     }
+    if (sort === 'newest') return [...near, ...packsByRelease(rest, filtered)];
+    // With a position known, or for a signed-in player, the hand-picked spread never applies.
+    if (signedIn || filtered.some(l => l._distance != null)) return [...near, ...packsAtTheirCards(rest, filtered)];
     const narrowed = deferredSearch.trim() || activeLabels.size > 0 || areaChosen;
     return [...near, ...(narrowed ? [...rest, ...filtered] : interleavePacks(featuredPacksFirst(rest), filtered))];
-  }, [packsOnly, shownPacks, discovered, treasureOnly, activeRarities, filtered, sort, deferredSearch, activeLabels, areaChosen]);
+  }, [packsOnly, shownPacks, discovered, treasureOnly, activeRarities, filtered, sort, deferredSearch, activeLabels, areaChosen, signedIn]);
 
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);

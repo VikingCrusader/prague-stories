@@ -509,6 +509,7 @@ export default function ExplorePage() {
       onPackClick={setOpenPack}
       areaChosen={!!area}
       guestPreview={guestPreview}
+      signedIn={!!user}
       onClearFilters={() => { setCityOnly(true); setArea(null); }}
       filterExtraCount={inCollection ? 0 : (cityOnly ? 0 : 1) + (area ? 1 : 0)}
       renderApplied={(filters) => (

@@ -106,3 +106,36 @@ export function interleavePacks(packs, cards) {
   }
   return [...items, ...packs.slice(nextPack)];
 }
+
+// For a signed-in player (2026-11-11, user's call: the hand-picked spread is
+// only for a guest's first visit): each pack stands just before the first of
+// its own cards in whatever order the cards are in, which with a position is
+// its nearest card. Packs with none of their cards in the list go at the end.
+export function packsAtTheirCards(packs, cards) {
+  const left = new Set(packs);
+  const items = [];
+  for (const card of cards) {
+    for (const pack of left) {
+      if (pack.memberSlugs?.includes(card.slug)) {
+        items.push(pack);
+        left.delete(pack);
+      }
+    }
+    items.push(card);
+  }
+  return [...items, ...left];
+}
+
+// The Newest sort (2026-11-11, user's call): packs in the order they were
+// released, newest first, standing among the newest-first cards by that time.
+// A pack without a release time goes at the end.
+export function packsByRelease(packs, cards) {
+  const time = item => new Date(item.released ?? item.createdAt ?? 0).getTime() || 0;
+  const queue = packs.filter(p => p.released).sort((a, b) => time(b) - time(a));
+  const items = [];
+  for (const card of cards) {
+    while (queue.length && time(queue[0]) >= time(card)) items.push(queue.shift());
+    items.push(card);
+  }
+  return [...items, ...queue, ...packs.filter(p => !p.released)];
+}

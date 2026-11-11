@@ -1,4 +1,4 @@
-import { diverseOrder, firstVisitOrder, featuredPacksFirst, interleavePacks, PACK_EVERY, FEATURED_SLUGS, FEATURED_PACK_SLUGS } from '../utils/gridOrder';
+import { diverseOrder, firstVisitOrder, featuredPacksFirst, interleavePacks, packsAtTheirCards, packsByRelease, PACK_EVERY, FEATURED_SLUGS, FEATURED_PACK_SLUGS } from '../utils/gridOrder';
 
 describe('the hand-picked first page', () => {
   it('has no slug twice', () => {
@@ -78,5 +78,46 @@ describe('interleavePacks', () => {
 
   it('copes with no packs', () => {
     expect(interleavePacks([], cards)).toHaveLength(30);
+  });
+});
+
+describe('packsAtTheirCards', () => {
+  const cards = ['c0', 'c1', 'c2', 'c3'].map(slug => ({ slug }));
+  const order = (packs, list = cards) => packsAtTheirCards(packs, list).map(i => i.slug);
+
+  it('puts each pack just before the first of its own cards', () => {
+    expect(order([{ slug: 'pA', memberSlugs: ['c2', 'c0'] }, { slug: 'pB', memberSlugs: ['c3'] }]))
+      .toEqual(['pA', 'c0', 'c1', 'c2', 'pB', 'c3']);
+  });
+
+  it('never brings a pack forward ahead of its cards, whatever its fame', () => {
+    expect(order([{ slug: 'prague-castle', memberSlugs: ['c3'] }])).toEqual(['c0', 'c1', 'c2', 'prague-castle', 'c3']);
+  });
+
+  it('keeps packs with none of their cards in the list at the end', () => {
+    expect(order([{ slug: 'pX', memberSlugs: ['elsewhere'] }, { slug: 'pY' }])).toEqual(['c0', 'c1', 'c2', 'c3', 'pX', 'pY']);
+  });
+});
+
+describe('packsByRelease', () => {
+  const cards = [
+    { slug: 'c-new', createdAt: '2026-11-11T10:00:00Z' },
+    { slug: 'c-mid', createdAt: '2026-11-10T10:00:00Z' },
+    { slug: 'c-old', createdAt: '2026-10-01T10:00:00Z' },
+  ];
+  const order = packs => packsByRelease(packs, cards).map(i => i.slug);
+
+  it('puts the packs newest first, among the cards by release time', () => {
+    expect(order([
+      { slug: 'p-first', released: '2026-11-09T20:00:00Z' },
+      { slug: 'p-latest', released: '2026-11-11T12:00:00Z' },
+      { slug: 'p-second', released: '2026-11-10T15:00:00Z' },
+    ])).toEqual(['p-latest', 'c-new', 'p-second', 'c-mid', 'p-first', 'c-old']);
+  });
+
+  it('keeps packs released together in their own order, and those without a time at the end', () => {
+    expect(order([
+      { slug: 'pA', released: '2026-11-10T15:00:00Z' }, { slug: 'pB', released: '2026-11-10T15:00:00Z' }, { slug: 'pZ' },
+    ])).toEqual(['c-new', 'pA', 'pB', 'c-mid', 'c-old', 'pZ']);
   });
 });

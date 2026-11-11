@@ -17,11 +17,14 @@ export const PACK_UNLOCK_XP = 20;
 // Set beside the achievement tiers: 800 is what a Diamond pays.
 export const packCompleteXp = (cards) => Math.min(800, Math.max(100, cards * 15));
 
+// `released` is when the pack went live (its commit), for the Newest sort on
+// Explore: packs stand among the cards by that time (2026-11-11, user's call).
 const pack = (entry) => ({ ...entry, description: PACK_DESCRIPTIONS[entry.slug] });
 
 export const PACKS = [
   pack({
     slug: 'prague-castle',
+    released: '2026-11-09T20:39:53+01:00',
     name: 'Prague Castle',
     localizedNames: { cz: 'Pražský hrad', zh: '布拉格城堡' },
     foil: '#7a1f2b',
@@ -38,6 +41,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'vysehrad',
+    released: '2026-11-09T20:39:53+01:00',
     name: 'Vyšehrad',
     localizedNames: { cz: 'Vyšehrad', zh: '维谢赫拉德' },
     foil: '#155e63',
@@ -52,6 +56,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'pankrac',
+    released: '2026-11-09T22:24:57+01:00',
     name: 'Pankrác',
     localizedNames: { cz: 'Pankrác', zh: '潘克拉茨' },
     foil: '#3b4a63',
@@ -67,6 +72,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'letna',
+    released: '2026-11-09T22:24:57+01:00',
     name: 'Letná',
     localizedNames: { cz: 'Letná', zh: '莱特纳' },
     foil: '#2f5d3a',
@@ -79,6 +85,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'old-town-square',
+    released: '2026-11-09T22:24:57+01:00',
     name: 'Old Town Square',
     localizedNames: { cz: 'Staroměstské náměstí', zh: '老城广场' },
     foil: '#8a3f1d',
@@ -94,6 +101,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'petrin',
+    released: '2026-11-09T22:24:57+01:00',
     name: 'Petřín',
     localizedNames: { cz: 'Petřín', zh: '佩特任' },
     foil: '#5b3a6e',
@@ -110,6 +118,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'wenceslas-square',
+    released: '2026-11-10T15:16:00+01:00',
     name: 'Wenceslas Square',
     localizedNames: { cz: 'Václavské náměstí', zh: '瓦茨拉夫广场' },
     foil: '#1f3f7a',
@@ -128,6 +137,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'namesti-republiky',
+    released: '2026-11-10T15:16:00+01:00',
     name: 'Republic Square',
     localizedNames: { cz: 'Náměstí Republiky', zh: '共和国广场' },
     foil: '#6b5a1e',
@@ -142,6 +152,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'na-prikope',
+    released: '2026-11-10T15:16:00+01:00',
     name: 'Na Příkopě',
     localizedNames: { cz: 'Na Příkopě', zh: '护城河街' },
     foil: '#2c5a52',
@@ -157,6 +168,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'kampa-island',
+    released: '2026-11-10T15:16:00+01:00',
     name: 'Kampa',
     localizedNames: { cz: 'Kampa', zh: '坎帕岛' },
     foil: '#3d6b2a',
@@ -170,6 +182,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'malostranske-namesti',
+    released: '2026-11-10T15:16:00+01:00',
     name: 'Malostranské Square',
     localizedNames: { cz: 'Malostranské náměstí', zh: '小城广场' },
     foil: '#5e2f4a',
@@ -184,6 +197,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'prokopske-valley',
+    released: '2026-11-10T15:16:00+01:00',
     name: 'Prokopské Valley',
     localizedNames: { cz: 'Prokopské údolí', zh: '普罗科普斯克峡谷' },
     foil: '#7a6a3c',
@@ -200,6 +214,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'evropska-trida',
+    released: '2026-11-10T23:21:06+01:00',
     name: 'Evropská',
     localizedNames: { cz: 'Evropská', zh: '欧罗巴大街' },
     foil: '#4b5563',
@@ -216,6 +231,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'plzenska-ulice',
+    released: '2026-11-10T23:21:06+01:00',
     name: 'Plzeňská',
     localizedNames: { cz: 'Plzeňská', zh: '比尔森大街' },
     foil: '#9a5b1e',
@@ -232,6 +248,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'dejvice',
+    released: '2026-11-10T23:21:06+01:00',
     name: 'Dejvice',
     localizedNames: { cz: 'Dejvice', zh: '德伊维采' },
     foil: '#2f6f8f',
@@ -251,6 +268,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'karlin',
+    released: '2026-11-10T23:21:06+01:00',
     name: 'Karlín',
     localizedNames: { cz: 'Karlín', zh: '卡林' },
     foil: '#5a6b2a',
@@ -269,6 +287,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'rohan-and-liben-islands',
+    released: '2026-11-10T23:21:06+01:00',
     name: 'Rohan and Libeň Islands',
     localizedNames: { cz: 'Rohanský a Libeňský ostrov', zh: '罗汉岛和利本岛' },
     foil: '#3b6f8f',
@@ -286,6 +305,7 @@ export const PACKS = [
   }),
   pack({
     slug: 'narodni-trida',
+    released: '2026-11-11T12:59:55+01:00',
     name: 'Národní třída',
     localizedNames: { cz: 'Národní třída', zh: '国家大道' },
     foil: '#7a5a1f',

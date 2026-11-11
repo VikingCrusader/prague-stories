@@ -177,8 +177,10 @@ test.describe('Explore with no position', () => {
   const items = page => page.locator('.explore-main .loc-card[data-slug], .explore-main .loc-card[data-pack]')
     .evaluateAll(els => els.map(e => ({ id: e.dataset.pack || e.dataset.slug, pack: !!e.dataset.pack, rarity: e.dataset.rarity })));
 
-  async function setupGrid(page) {
+  // The hand-picked spread is a guest's first visit; signed-in players get their packs at their cards.
+  async function setupGrid(page, { signedIn = false } = {}) {
     await setup(page);
+    if (!signedIn) await page.addInitScript(() => localStorage.removeItem('token'));
     await page.route('**/api/locations', route => route.fulfill({ json: CARDS }));
     await page.route('**/api/packs', route => route.fulfill({ json: [{ ...SEALED, labels: ['park'] }, { ...OPEN, labels: ['park'] }] }));
     await page.goto('/explore');
@@ -194,9 +196,24 @@ test.describe('Explore with no position', () => {
 
   test('the best-known places lead, wherever the database has them', async ({ page }) => {
     await setup(page);
+    await page.addInitScript(() => localStorage.removeItem('token'));
     await page.route('**/api/locations', route => route.fulfill({ json: [...CARDS, { ...CARDS[0], _id: 'cb', slug: 'charles-bridge', name: 'Charles Bridge' }] }));
     await page.goto('/explore');
     await expect.poll(async () => (await items(page))[0]?.id).toBe('charles-bridge');
+  });
+
+  test('a signed-in player without a position sees each pack just before the first of its cards', async ({ page }) => {
+    await setup(page);
+    await page.route('**/api/locations', route => route.fulfill({ json: CARDS }));
+    await page.route('**/api/packs', route => route.fulfill({ json: [
+      { ...SEALED, memberSlugs: ['c12', 'c3'] }, { ...OPEN, memberSlugs: ['nowhere'] },
+    ] }));
+    await page.goto('/explore');
+    await expect.poll(async () => (await items(page)).length).toBe(19);
+    const grid = (await items(page)).map(i => i.id);
+    const firstMember = Math.min(grid.indexOf('c12'), grid.indexOf('c3'));
+    expect(grid.indexOf('prague-castle')).toBe(firstMember - 1);
+    expect(grid[grid.length - 1]).toBe('vysehrad');
   });
 
   test('a search brings the matching pack to the front', async ({ page }) => {
@@ -276,6 +293,23 @@ test.describe('packs among the cards on Explore', () => {
   test('a pack within 100 m of one of its cards goes first, the others stand at their nearest card', async ({ page }) => {
     await setupMixed(page);
     await expect.poll(() => order(page)).toEqual(['near-pack', 'here', 'in-pack', 'far-pack', 'far-card']);
+  });
+
+  test('sorted by newest, the packs go in release order among the cards, not the famous ones first', async ({ page }) => {
+    await setup(page);
+    const dated = (slug, createdAt) => ({ ...card(slug, 50.12, ['park']), createdAt });
+    await page.route('**/api/locations', route => route.fulfill({ json: [
+      dated('newest-card', '2026-11-11T10:00:00Z'), dated('older-card', '2026-11-10T10:00:00Z'), dated('oldest-card', '2026-10-01T10:00:00Z'),
+    ] }));
+    await page.route('**/api/packs', route => route.fulfill({ json: [
+      { ...SEALED, released: '2026-11-09T20:00:00Z', memberSlugs: ['oldest-card'] },
+      { ...OPEN, released: '2026-11-10T23:00:00Z', memberSlugs: ['older-card'] },
+    ] }));
+    await page.goto('/explore');
+    await expect.poll(() => order(page)).toHaveLength(5);
+    await page.locator('.filter-btn', { hasText: 'Distance' }).click();
+    await page.locator('.label-filter__panel .label-pill', { hasText: 'Newest' }).click();
+    await expect.poll(() => order(page)).toEqual(['newest-card', 'vysehrad', 'older-card', 'prague-castle', 'oldest-card']);
   });
 
   test('labels filter packs too, with or without the Packs button; a rarity leaves only cards', async ({ page }) => {
