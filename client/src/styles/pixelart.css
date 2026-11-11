@@ -81,7 +81,11 @@
   display: flex;
   flex-direction: column;
 }
-.loc-card:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--card-shadow, var(--shadow)), var(--outer-glow, 0 0 0 transparent); }
+/* Mouse only: on a phone a tap leaves :hover stuck on the card under it (e.g. after
+   picking a sort, the card below the menu stayed lifted and out of line; 2026-11-11). */
+@media (hover: hover) and (pointer: fine) {
+  .loc-card:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--card-shadow, var(--shadow)), var(--outer-glow, 0 0 0 transparent); }
+}
 
 .loc-card[data-rarity="rare"]     { --rc: var(--rarity-rare);     --tint-top: 4%;  --tint-bottom: 9%; }
 .loc-card[data-rarity="superior"] { --rc: var(--rarity-superior); --tint-top: 5%;  --tint-bottom: 11%; --glow: 14%; }
@@ -657,7 +661,7 @@
   border-color: var(--border-strong, #333);
   filter: saturate(0.15);
 }
-.loc-card--locked:hover { filter: saturate(0.25); }
+@media (hover: hover) and (pointer: fine) { .loc-card--locked:hover { filter: saturate(0.25); } }
 
 /* Nearby teaser (Explore, locked card within 100 m, 2026-10-08): full
    colour everywhere except the cover, which stays grey, and the lock

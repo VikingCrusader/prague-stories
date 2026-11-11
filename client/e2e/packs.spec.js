@@ -312,6 +312,14 @@ test.describe('packs among the cards on Explore', () => {
     await expect.poll(() => order(page)).toEqual(['newest-card', 'vysehrad', 'older-card', 'prague-castle', 'oldest-card']);
   });
 
+  test('sorted by rarity, every pack goes to the bottom, even one close by', async ({ page }) => {
+    await setupMixed(page);
+    await expect.poll(() => order(page)).toHaveLength(5);
+    await page.locator('.filter-btn', { hasText: 'Distance' }).click();
+    await page.locator('.label-filter__panel .label-pill', { hasText: 'Rarity' }).click();
+    await expect.poll(async () => (await order(page)).slice(3)).toEqual(['near-pack', 'far-pack']);
+  });
+
   test('labels filter packs too, with or without the Packs button; a rarity leaves only cards', async ({ page }) => {
     await setupMixed(page);
     await expect.poll(() => order(page)).toHaveLength(5);

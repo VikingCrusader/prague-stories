@@ -196,6 +196,8 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     if (sort === 'distance' && filtered.some(l => l._distance != null)) {
       return [...near, ...[...rest, ...filtered].sort((a, b) => (a._distance ?? Infinity) - (b._distance ?? Infinity))];
     }
+    // Packs have no rarity, so sorted by rarity they all go to the bottom, after common (2026-11-11, user's call).
+    if (sort === 'rarity') return [...filtered, ...shownPacks];
     if (sort === 'newest') return [...near, ...packsByRelease(rest, filtered)];
     // With a position known, or for a signed-in player, the hand-picked spread never applies.
     if (signedIn || filtered.some(l => l._distance != null)) return [...near, ...packsAtTheirCards(rest, filtered)];
