@@ -473,7 +473,7 @@ export default {
     ],
     'Nové Město': [
       { h: 'Přehled', p: [
-        'Nové Město není vůbec nové: založili ho v roce 1348, o víc než čtyři sta let dřív, než vznikly Spojené státy. Je největším z pražských historických měst, zhruba třikrát větší než Staré Město, a obepíná ho jako srpek měsíce od říčního břehu na severu až pod Vyšehrad na jihu. Dnes ho sdílí Praha 1, 2 a 8, je nejrušnějším obchodním centrem města a právě tady se schází většina pražských průvodů, oslav i protestů.',
+        'Nové Město není vůbec nové: založili ho v roce 1348, o víc než čtyři sta let dřív, než vznikly Spojené státy. Je největším z pražských historických měst, zhruba třikrát větší než Staré Město, a obepíná ho jako srpek měsíce od říčního břehu na severu až pod Vyšehrad na jihu. Tam, kde se potkává se Starým Městem, vedl staroměstský příkop a jeho čára je mezi oběma městy hranicí dodnes: Národní, 28. října, Na Příkopě a Revoluční. Dnes ho sdílí Praha 1, 2 a 8, je nejrušnějším obchodním centrem města a právě tady se schází většina pražských průvodů, oslav i protestů.',
       ] },
       { h: 'Historie', p: [
         'V roce 1348 se Karel IV., sotva pár let na trůnu, rozhodl dát Praze nové město. Jeho plán byl na svou dobu neuvěřitelně odvážný: ulice tak široké, že se v nich minuly dva vozy, a tři obrovská tržiště, jedno na koně, jedno na dobytek a jedno na seno. Koňský trh je dnešní Václavské náměstí a Dobytčí trh Karlovo náměstí. Hradby stály zhruba za dva roky a hlučná a páchnoucí řemesla, kováři, sladovníci a barvíři, se ze Starého Města zdvořile přestěhovala sem.',
