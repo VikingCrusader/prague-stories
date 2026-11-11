@@ -35,5 +35,7 @@ Coordinates are always supplied by the user.
 | Radlice: ČSOB headquarters | Radlice | The bank's award-winning 2007 headquarters that turned Radlice into an office district; commercial, so optional | 2026-11-04 |
 | Karlínské náměstí (the square and its park with the fountain) | Karlín | The centre of the 1817 grid; only the church on it has a card. Would join the `karlin` pack | 2026-11-10 |
 | Thámova street | Karlín | The restaurant and café street most people mean by "new Karlín"; optional. Would join the `karlin` pack | 2026-11-10 |
+| Reduta Jazz Club (Národní 20) | Nové Město | Prague's oldest jazz club (1957), where Suchý and Šlitr met and Bill Clinton played saxophone in 1994. Would join the `narodni-trida` pack | 2026-11-11 |
+| Národní třída metro station | Nové Město | Line B, 1985, entrance now inside Quadrio; the reason the trams left the street. Would join the `narodni-trida` pack | 2026-11-11 |
 
 No convincing landmark was found for Hostavice, Miškovice, Benice, Lipany, Nedvězí and Újezd u Průhonic, which still have no card, and Šeberov has none either (the Šeberák pond lies in Kunratice); small village chapels or greens would do if a card is wanted.

@@ -284,6 +284,24 @@ export const PACKS = [
       'libensky-pristav',
     ],
   }),
+  pack({
+    slug: 'narodni-trida',
+    name: 'Národní třída',
+    localizedNames: { cz: 'Národní třída', zh: '国家大道' },
+    foil: '#7a5a1f',
+    labels: ['street', 'national-revival', 'communism', 'cultural'],
+    // The avenue on the filled-in moat, from the National Theatre on the river
+    // to the Adria Palace at Jungmannovo náměstí, both sides (2026-11-11,
+    // user's call). Took over the one-point card of the same slug (and its cover);
+    // Café Slavia and Café Louvre became Lažanský Palace and Louvre Palace.
+    members: [
+      'national-theatre', 'laterna-magika', 'srdce-pro-vaclava-havla', 'palac-lazanskych', 'budova-akademie-ved',
+      'palac-pojistovny-praha', 'topicuv-salon', 'kostel-svate-vorsily', 'klaster-vorsilek', 'palac-dunaj', 'budova-drn',
+      'schirdingovsky-palac', 'pamatnik-sametove-revoluce', 'palac-louvre', 'palac-metro', 'obchodni-dum-maj',
+      'galerie-vaclava-spaly', 'palac-chicago', 'palac-platyz', 'dum-umeleckeho-prumyslu', 'palac-porgesu-z-portheimu',
+      'palac-adria',
+    ],
+  }),
 ];
 
 export const packsOfCard = (slug) => PACKS

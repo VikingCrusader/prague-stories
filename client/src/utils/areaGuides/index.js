@@ -39,7 +39,7 @@ export const AREA_LANDMARKS = {
       'malostranska-mostecka-vez', 'kampa-island', 'hunger-wall-1782410203381', 'petrin-tower',
     ],
     'Nové Město': [
-      'wenceslas-square', 'namesti-republiky', 'pomnik-sv-vaclava', 'national-museum', 'national-theatre', 'dancing-house',
+      'wenceslas-square', 'namesti-republiky', 'pomnik-sv-vaclava', 'national-museum', 'national-theatre', 'narodni-trida', 'dancing-house',
       'novomestska-radnice', 'karlovo-namesti', 'kostel-panny-marie-snezne', 'emmaus-monastery-1782494564055',
       'cathedral-cyril-methodius', 'kafka-rotating-head',
     ],

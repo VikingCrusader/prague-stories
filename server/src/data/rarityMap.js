@@ -113,7 +113,7 @@ export const SLUG_RARITY = {
   'stromovka-park':               'rare',
   'troja-chateau-garden':         'rare',
   'prague-zoo':                   'rare',
-  'kavarna-slavia':               'rare',
+  'palac-lazanskych':             'rare',
   'cafe-imperial':                'rare',
   'u-fleku-brewery':              'rare',
   'city-of-prague-museum':        'rare',
@@ -160,7 +160,7 @@ export const SLUG_RARITY = {
   'aquapalace':                   'rare',
   'mirror-maze-petrin':           'rare',
   'strelecky-ostrov':             'rare',
-  'cafe-louvre':                  'rare',
+  'palac-louvre':                 'rare',
   'letna-park':                   'rare',
   'goethe-institut-prag':         'rare',  // German cultural institute, Czech-German reconciliation
   'palac-gromlingovsky':          'rare',  // Baroque palace in Malá Strana

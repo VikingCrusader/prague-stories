@@ -9580,19 +9580,25 @@ Josef Jungmann (1773–1847) byl učitel, překladatel a jazykovědec. V době, 
     xpReward: 50,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Adria',
     description: {
-      en: `Adria Palace on the corner of Národní třída and Jungmannova looks like a fortress built out of red and white geometry. It is the grandest example of rondocubism, a short-lived Czech style that tried to give modern architecture a national accent.
+      en: `Adria Palace on the corner of Národní třída and Jungmannova looks like a fortress built out of red and white geometry. It is the grandest example of rondocubism, a short-lived Czech style that tried to give modern architecture a national accent, and in its basement plays the Divadlo Bez zábradlí, the "Theatre Without a Railing", the first private theatre in the Czech Republic.
 
 It was built between 1922 and 1925 for the Italian insurance company Riunione Adriatica di Sicurtà, designed by Pavel Janák and Josef Zasche, with Janák responsible for the façade and interiors. Its stacked, rounded and angular forms and red-and-white colours were meant to look both modern and Czech. Some of the best sculptors of the day worked on it, including Otto Gutfreund, Jan Štursa and Bohumil Kafka, and above the corner sits Štursa's large statue of Adria, the figure of the sea. A passage still runs straight through the building, from Jungmannova to Národní.
 
+The underground hall has had a busy life. It opened on 18 March 1925 as the Bio Adria cinema with 999 seats, and after 1945 it was renamed Moskva. From 1959 to 1990 it was the home of Laterna Magika, and from 1965 to 1972 Otomar Krejča's Theatre Beyond the Gate played here too, until normalisation shut it down. In February 1998 the Divadlo Bez zábradlí moved in. Founded in 1990 by Karel Heřmánek, it plays drama with well-known actors such as Jiří Bartoška and Václav Vydra.
+
 🎁 Bonus: In November 1989 the Civic Forum, the movement that led the Velvet Revolution, made its headquarters in the Laterna Magika theatre in the building's basement. For a few crucial weeks, the end of communism in Czechoslovakia was partly run from the cellar of an Italian insurance company's palace.`,
-      cz: `Palác Adria na rohu Národní třídy a Jungmannovy ulice vypadá jako pevnost postavená z červeno-bílé geometrie. Je to nejvelkolepější ukázka rondokubismu, krátkého českého stylu, který se snažil dát moderní architektuře národní přízvuk.
+      cz: `Palác Adria na rohu Národní třídy a Jungmannovy ulice vypadá jako pevnost postavená z červeno-bílé geometrie. Je to nejvelkolepější ukázka rondokubismu, krátkého českého stylu, který se snažil dát moderní architektuře národní přízvuk, a v jeho podzemí hraje Divadlo Bez zábradlí, první soukromé divadlo v České republice.
 
 Postaven byl v letech 1922 až 1925 pro italskou pojišťovnu Riunione Adriatica di Sicurtà podle návrhu Pavla Janáka a Josefa Zascheho, přičemž Janák měl na starosti fasádu a interiéry. Navršené, oblé i hranaté tvary a červeno-bílé barvy měly působit moderně i česky. Pracovali na něm nejlepší sochaři té doby, mezi nimi Otto Gutfreund, Jan Štursa a Bohumil Kafka, a nad nárožím sedí Štursova velká socha Adrie, zosobnění moře. Budovou dodnes vede pasáž, z Jungmannovy rovnou na Národní.
 
-🎁 Bonus: V listopadu 1989 si Občanské fórum, hnutí, které vedlo sametovou revoluci, zřídilo ústředí v divadle Laterna magika v suterénu budovy. Na několik rozhodujících týdnů se tak konec komunismu v Československu zčásti řídil ze sklepa paláce italské pojišťovny.`,
-      zh: `阿德里亚宫位于民族大道和荣格曼诺娃街的转角，看起来像一座用红白几何体垒成的堡垒。它是“圆形立体主义”最宏伟的范例，这是一种昙花一现的捷克风格，想给现代建筑加上一点民族口音。
+Podzemní sál má za sebou rušný život. Otevřel se 18. března 1925 jako kino Bio Adria s 999 místy a po roce 1945 dostal jméno Moskva. V letech 1959 až 1990 tu sídlila Laterna magika a v letech 1965 až 1972 tu hrálo i Krejčovo Divadlo za branou, dokud ho normalizace nezavřela. V únoru 1998 se nastěhovalo Divadlo Bez zábradlí. Založil ho roku 1990 Karel Heřmánek a hraje činohru se známými herci, jako jsou Jiří Bartoška nebo Václav Vydra.
 
-它建于1922年至1925年，业主是意大利的亚得里亚保险公司，由帕维尔·亚纳克和约瑟夫·扎舍设计，亚纳克负责立面和室内。层层叠叠、又圆又方的造型，加上红白两色，意在既现代又捷克。当时最好的几位雕塑家都参与了装饰，包括奥托·古特弗罗因德、扬·什图尔萨和博胡米尔·卡夫卡，转角上方坐着什图尔萨塑造的巨大的“亚得里亚”像，也就是大海的化身。至今仍有一条通道直穿大楼，从荣格曼诺娃街通到民族大道。
+🎁 Bonus: V listopadu 1989 si Občanské fórum, hnutí, které vedlo sametovou revoluci, zřídilo ústředí v divadle Laterna magika v suterénu budovy. Na několik rozhodujících týdnů se tak konec komunismu v Československu zčásti řídil ze sklepa paláce italské pojišťovny.`,
+      zh: `阿德里亚宫位于国家大道和荣格曼诺娃街的转角，看起来像一座用红白几何体垒成的堡垒。它是“圆形立体主义”最宏伟的范例，这是一种昙花一现的捷克风格，想给现代建筑加上一点民族口音。它的地下还有“无栏杆剧院”，捷克共和国第一家私营剧院。
+
+它建于1922年至1925年，业主是意大利的亚得里亚保险公司，由帕维尔·亚纳克和约瑟夫·扎舍设计，亚纳克负责立面和室内。层层叠叠、又圆又方的造型，加上红白两色，意在既现代又捷克。当时最好的几位雕塑家都参与了装饰，包括奥托·古特弗罗因德、扬·什图尔萨和博胡米尔·卡夫卡，转角上方坐着什图尔萨塑造的巨大的“亚得里亚”像，也就是大海的化身。至今仍有一条通道直穿大楼，从荣格曼诺娃街通到国家大道。
+
+地下大厅的经历相当热闹。1925年3月18日，它作为有999个座位的阿德里亚电影院开张，1945年后改名“莫斯科”。1959年至1990年，魔灯剧院以这里为家；1965年至1972年，奥托马尔·克雷伊恰的“门外剧院”也在这里演出，直到被“正常化”关停。1998年2月，无栏杆剧院搬了进来。它由卡雷尔·赫热马内克于1990年创办，上演话剧，台上有伊日·巴尔托什卡、瓦茨拉夫·维德拉这样的知名演员。
 
 🎁 彩蛋：1989年11月，领导天鹅绒革命的公民论坛把总部设在了这栋楼地下室的魔灯剧院里。在那关键的几个星期里，捷克斯洛伐克共产主义的终结，有一部分是在一家意大利保险公司大楼的地下室里指挥的。`,
     },
@@ -35229,6 +35235,426 @@ Roku 2008 z ní režisér Jan Hřebejk udělal hlavní dějiště filmu U mě do
 2008年，导演扬·赫热贝克把这里拍成了电影《我挺好的》的主要场景。这部喜剧由彼得·亚尔霍夫斯基根据彼得·沙巴赫的短篇小说改编，故事发生在1990年代：一群朋友成天泡在港口边的小酒馆里，玩小赌注的玛利亚什纸牌，伊日·施米策演酒馆老板，博莱斯拉夫·波利夫卡演一位退休的魔术师，直到其中一人在街头猜壳骗局里输掉了三万克朗。
 
 🎁 彩蛋：电影的主题曲叫《一切都被水冲走了》，在一座差点真被洪水冲走的岛上唱这首歌，胆子着实不小。`,
+    },
+  },
+  {
+    name: 'Czech Academy of Sciences Building',
+    slug: 'budova-akademie-ved',
+    localizedNames: { cz: 'Budova Akademie věd České republiky', zh: '捷克科学院大楼' },
+    labels: ['academy', 'historicism', 'palace'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.081573665198434, lng: 14.414197410538689 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Budova_Akademie_v%C4%9Bd_%C4%8Cesk%C3%A9_republiky',
+    description: {
+      en: `This grand neo-Renaissance building a few steps from the river was built to look after people's savings, and today it looks after the country's scientists. The change of tenant is less strange than it sounds: both jobs need a great deal of patience, and both pay off only much later.
+
+It went up in 1858 to 1863 for the Bohemian Savings Bank. Vojtěch Ignác Ullmann won the design competition in 1858, and the builder Jan Bělský put concrete into the foundations, reportedly the first time anyone in Prague had done so. In 1894 to 1896 the Viennese architect Friedrich Schachner extended the building and copied its façade so faithfully that the two halves are told apart mainly by their dates, 1860 and 1896. Inside, the hall got sculptures by Josef Václav Myslbek in 1895 to 1897.
+
+The bank stayed until 1952. Two years later the Czechoslovak Academy of Sciences moved in, and since 1992 the building has been the seat of the Czech Academy of Sciences, joined in 1994 by the Learned Society of the Czech Republic. After 1990 the old cash hall, where Prague once queued to pay in its coins, was turned into a library.
+
+🎁 Bonus: Above the entrance sits Antonín Wildt's sculpture of 1861, after a design by Josef Mánes, called Bohemia Receives the Savings of the People. Every scientist who walks in to ask for a grant passes under a figure gratefully accepting money, which is exactly the wrong way round for them.`,
+      cz: `Velkolepá novorenesanční budova pár kroků od řeky byla postavena, aby opatrovala úspory lidí, a dnes opatruje vědce celé země. Ta výměna nájemníka není tak zvláštní, jak zní: obě práce chtějí spoustu trpělivosti a obě se vyplácejí až mnohem později.
+
+Stavěla se v letech 1858 až 1863 pro Spořitelnu českou. Soutěž na návrh vyhrál roku 1858 Vojtěch Ignác Ullmann a stavitel Jan Bělský dal do základů beton, údajně vůbec poprvé v Praze. V letech 1894 až 1896 budovu rozšířil vídeňský architekt Friedrich Schachner a fasádu zkopíroval tak věrně, že se obě poloviny rozeznají hlavně podle letopočtů 1860 a 1896. V hale přibyly v letech 1895 až 1897 sochy Josefa Václava Myslbeka.
+
+Spořitelna tu zůstala do roku 1952. O dva roky později se nastěhovala Československá akademie věd a od roku 1992 je budova sídlem Akademie věd České republiky, k níž se roku 1994 přidala Učená společnost České republiky. Po roce 1990 se ze staré pokladní haly, kde Praha kdysi stála frontu se svými mincemi, stala knihovna.
+
+🎁 Bonus: Nad vchodem sedí sousoší Antonína Wildta z roku 1861 podle návrhu Josefa Mánesa nazvané Čechie přijímá úspory lidu. Každý vědec, který jde požádat o grant, tak prochází pod postavou, která vděčně přijímá peníze, tedy přesně obráceně, než by si přál.`,
+      zh: `这座宏伟的新文艺复兴式大楼离河只有几步路。它当初是为了保管老百姓的储蓄而建，如今保管的是全国的科学家。换了房客，其实没听起来那么奇怪：这两份工作都需要极大的耐心，也都要过很久才见回报。
+
+大楼建于1858年至1863年，业主是波希米亚储蓄银行。1858年，沃伊捷赫·伊格纳茨·乌尔曼赢得了设计竞赛，营造商扬·贝尔斯基在地基里用了混凝土，据说这在布拉格还是头一回。1894年至1896年，维也纳建筑师弗里德里希·沙赫纳扩建了大楼，把立面照抄得一丝不差，两半之间主要靠上面的年份1860和1896来区分。1895年至1897年，大厅里又添了约瑟夫·瓦茨拉夫·米斯尔贝克的雕塑。
+
+银行在这里一直待到1952年。两年后，捷克斯洛伐克科学院搬了进来；1992年起，这里是捷克科学院的总部，1994年捷克学术协会也加入进来。1990年以后，当年布拉格人排队存硬币的老营业大厅改成了图书馆。
+
+🎁 彩蛋：入口上方是安东宁·维尔特1861年按约瑟夫·马内斯的设计创作的群像，名叫《波希米亚接受人民的储蓄》。于是，每一位走进来申请科研经费的科学家，都要从一个满怀感激地收钱的人像下面经过，这方向对他们来说正好反了。`,
+    },
+  },
+  {
+    name: 'Schirding Palace',
+    slug: 'schirdingovsky-palac',
+    localizedNames: { cz: 'Schirdingovský palác', zh: '席尔丁宫' },
+    labels: ['palace', 'classicism', 'communism'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08192974489989, lng: 14.417987738598304 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Schirdingovsk%C3%BD_pal%C3%A1c',
+    description: {
+      en: `The Schirding Palace on the corner of Národní and Mikulandská is a calm classicist townhouse full of lawyers, since the Czech Bar Association has its seat here. It is also known as the Kaňka House, and on its façade hangs one of the most visited plaques in Prague, marking the corner where the end of communism began.
+
+The site was once a medieval brewery and malthouse, and only its cellars and a few walls survive. After 1731 the builder Jan Ferdinand Hübner turned it into a Baroque house, and in 1752 the imperial councillor Jan Antonín of Schirding bought it at auction and had it remodelled in the classicist taste that still shows. In 1838 the Prague lawyer Jan Nepomuk Kaňka bought it and left it to a foundation for impoverished Prague lawyers, so the advocates who work here today are, in a sense, still his guests. In the 1990s Jiří Střítecký and Martin Krupauer added a deconstructivist office block in the courtyard, out of sight of the street.
+
+In 1953 an arcade was cut through the ground floor towards Národní. On the evening of 17 November 1989 the riot police trapped the student march on this stretch of the street, and in 1990 a bronze plaque by Miroslav Krátký and Otakar Příhoda, a row of raised hands, was set into the wall of that arcade. When the passage was closed in November 2016, the plaque moved to the façade, where it is easier to see and where the candles are lit every year.
+
+🎁 Bonus: Kaňka also gave his paintings to the gallery of the Society of Patriotic Friends of Art, the collection that later grew into the National Gallery. One lawyer's estate thus ended up looking after both Prague's poorer lawyers and its pictures.`,
+      cz: `Schirdingovský palác na rohu Národní a Mikulandské je klidný klasicistní dům plný advokátů, protože tu sídlí Česká advokátní komora. Říká se mu také Kaňkův dům a na jeho fasádě visí jedna z nejnavštěvovanějších pamětních desek v Praze. Označuje roh, kde začal konec komunismu.
+
+Na místě stával středověký pivovar a sladovna, z nichž zbyly jen sklepy a kus zdí. Po roce 1731 ho stavitel Jan Ferdinand Hübner přestavěl na barokní dům a roku 1752 ho v dražbě koupil císařský rada Jan Antonín ze Schirdingu, který ho nechal upravit v klasicistním duchu, jenž je vidět dodnes. Roku 1838 ho koupil pražský advokát Jan Nepomuk Kaňka a odkázal ho nadaci pro chudé pražské advokáty, takže advokáti, kteří tu pracují dnes, jsou svým způsobem pořád jeho hosty. V devadesátých letech přistavěli Jiří Střítecký a Martin Krupauer do dvora dekonstruktivistickou administrativní budovu, z ulice neviditelnou.
+
+Roku 1953 bylo přízemím proraženo podloubí do Národní. Večer 17. listopadu 1989 tu pohotovostní policie uzavřela studentský průvod a roku 1990 byla do zdi podloubí zasazena bronzová deska Miroslava Krátkého a Otakara Příhody s řadou zdvižených rukou. Když bylo podloubí v listopadu 2016 uzavřeno, deska se přestěhovala na fasádu, kde je lépe vidět a kde se každý rok zapalují svíčky.
+
+🎁 Bonus: Kaňka věnoval také své obrazy obrazárně Společnosti vlasteneckých přátel umění, ze které později vyrostla Národní galerie. Pozůstalost jednoho advokáta se tak postarala o chudé pražské advokáty i o pražské obrazy.`,
+      zh: `席尔丁宫位于国家大道和米库兰斯卡街的转角，是一栋安静的古典主义宅邸，里面满是律师，因为捷克律师协会就设在这里。它也叫坎卡之家，立面上挂着布拉格最多人造访的纪念牌之一，标记着共产主义终结开始的那个街角。
+
+这里原本是一座中世纪的啤酒坊和麦芽作坊，如今只剩地窖和几段墙。1731年以后，营造商扬·费迪南德·许布纳把它改建成巴洛克宅邸；1752年，帝国参议扬·安东宁·冯·席尔丁在拍卖会上买下了它，又改成了至今仍能看出来的古典主义样子。1838年，布拉格律师扬·内波穆克·坎卡买下这栋房子，把它遗赠给一个救济贫困布拉格律师的基金会，所以今天在这里上班的律师，某种意义上仍是他的客人。1990年代，伊日·斯特日捷茨基和马丁·克鲁保尔在院子里加了一栋解构主义风格的办公楼，从街上看不见。
+
+1953年，底层被打通，开出一条通向国家大道的拱廊。1989年11月17日晚上，防暴警察就在这一段街上围住了学生游行队伍。1990年，米罗斯拉夫·克拉特基和奥塔卡尔·普日霍达创作的青铜纪念牌，一排举起的手，嵌进了这条拱廊的墙里。2016年11月拱廊封闭，纪念牌搬到了立面上，更容易看见，每年的蜡烛也点在这里。
+
+🎁 彩蛋：坎卡还把自己的画作捐给了爱国艺术之友协会的画廊，这批收藏后来发展成了国家美术馆。一位律师的遗产，就这样同时照顾了布拉格的穷律师和布拉格的画。`,
+    },
+  },
+  {
+    name: 'Praha Insurance Palace',
+    slug: 'palac-pojistovny-praha',
+    localizedNames: { cz: 'Palác pojišťovny Praha', zh: '布拉格保险公司大楼' },
+    labels: ['art-nouveau', 'cultural'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.081591228772716, lng: 14.415179089952373 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/N%C3%A1rodn%C3%AD_(Praha)',
+    description: {
+      en: `A building that writes PRAHA across its front in huge letters is either very proud of its city or selling something. This one did both: it was the Art Nouveau office of the Praha insurance company. Its courtyard wing, once a wine bar, is now the Viola, one of the smallest and most literary theatres in town.
+
+The architect Osvald Polívka remodelled an older, plain Empire-style house here in 1906 and 1907 and gave it one of the most decorative façades on Národní, with mosaics and lettering that advertised the company's business to everyone walking past. A few years later Polívka also built the Topič House next door, so the two neighbours are by the same hand and look it. Today the building belongs to the Czech Academy of Sciences, which has its seat a few doors down.
+
+The Viola Theatre fills the hall in the courtyard annex, where the Viola wine bar used to be. It seats around eighty people and specialises in plays made from literary texts, poetry and prose, so an evening here is often closer to a reading come to life than to a play in the usual sense.
+
+🎁 Bonus: Polívka also designed the Municipal House together with Antonín Balšánek, and a whole row of other Prague façades. On this stretch of Národní, two of his buildings stand side by side like members of a family who dress alike.`,
+      cz: `Budova, která má přes celé průčelí obrovskými písmeny napsáno PRAHA, je buď velmi pyšná na své město, nebo něco prodává. Tahle dělala obojí: byla to secesní kancelář pojišťovny Praha. V jejím dvorním křídle, kde bývala vinárna, dnes hraje Viola, jedno z nejmenších a nejliterárnějších divadel ve městě.
+
+Architekt Osvald Polívka tu v letech 1906 a 1907 přestavěl starší, prostý empírový dům a dal mu jednu z nejozdobnějších fasád na Národní, s mozaikami a nápisy, které každému kolemjdoucímu ohlašovaly, čím se pojišťovna živí. O pár let později postavil Polívka i sousední Topičův dům, takže oba sousedé jsou od stejného autora a je to na nich vidět. Dnes budova patří Akademii věd, která sídlí o pár domů dál.
+
+Divadlo Viola zabírá sál ve dvorní přístavbě, kde bývala vinárna Viola. Vejde se do něj kolem osmdesáti diváků a specializuje se na inscenace podle literárních textů, poezie i prózy, takže večer tady má často blíž k ožilému čtení než k divadlu v obvyklém smyslu.
+
+🎁 Bonus: Polívka navrhl spolu s Antonínem Balšánkem také Obecní dům a k tomu celou řadu dalších pražských fasád. Na tomhle úseku Národní stojí dvě jeho budovy vedle sebe jako příbuzní, kteří se oblékají stejně.`,
+      zh: `一栋在正面用巨大字母写着PRAHA的楼，要么是对自己的城市非常骄傲，要么是在推销什么。这一栋两样都占：它是布拉格保险公司的新艺术风格办公楼。它院子里的侧楼原本是一家葡萄酒馆，如今是维奥拉剧院，城里最小、也最有文学味的剧场之一。
+
+1906年至1907年，建筑师奥斯瓦尔德·波利夫卡把这里一栋朴素的帝政风格旧房子改建一新，给了它国家大道上最华丽的立面之一，马赛克和字样向每个路人宣传保险公司的业务。几年后，波利夫卡又盖了隔壁的托皮奇之家，所以这对邻居出自同一人之手，一看便知。如今大楼归捷克科学院所有，科学院总部就在几个门牌之外。
+
+维奥拉剧院占用的是院子里侧楼的大厅，从前的维奥拉酒馆就在这里。剧场能坐八十人左右，专演根据文学作品改编的戏，诗歌和小说都有，所以在这里看一晚演出，常常更像是看一场活过来的朗读，而不是通常意义上的戏剧。
+
+🎁 彩蛋：波利夫卡还和安东宁·巴尔沙内克一起设计了市民会馆，此外还有布拉格的一长串立面。在国家大道的这一段，他的两栋楼肩并肩站着，像两个穿着同款衣服的亲戚。`,
+    },
+  },
+  {
+    name: 'Václav Špála Gallery',
+    slug: 'galerie-vaclava-spaly',
+    localizedNames: { cz: 'Galerie Václava Špály', zh: '瓦茨拉夫·什帕拉画廊' },
+    labels: ['cultural', 'functionalism'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08247398633234, lng: 14.420339126044373 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Galerie_V%C3%A1clava_%C5%A0p%C3%A1ly',
+    description: {
+      en: `The Václav Špála Gallery is a small exhibition space with a big window onto Národní, and in 1969 it held Marcel Duchamp's only exhibition in Prague. That is a bit like a village pub boasting that the Beatles once played there, except that here it is true.
+
+The rooms were already a gallery from 1916 to 1938, run by the Rubeš family. In 1938 the architect František Zelenka rebuilt the house for the Vilímek publishing firm and its bookshop, and from 1941 it was a gallery again. In 1959 it was named after the painter Václav Špála, one of the founders of Czech modern art. From 1965 it was run by the critic Jindřich Chalupecký, who turned it, for a few short years, into one of the most daring galleries in Central Europe, until the normalisation of the 1970s dimmed it.
+
+After 1989 it came back to life, and since 1990 it has been where the Jindřich Chalupecký Award, the best-known Czech prize for young artists, is presented. It has changed operators several times since, but it is still an address where contemporary art meets the passers-by of Národní through the glass.
+
+🎁 Bonus: Špála loved blue so much that Czech art critics speak of "Špála blue", the deep, bright blue of his landscapes. A gallery named after him could hardly be anything but cheerful.`,
+      cz: `Galerie Václava Špály je malá výstavní síň s velkým oknem do Národní a roku 1969 se v ní konala jediná pražská výstava Marcela Duchampa. Je to trochu jako když se vesnická hospoda chlubí, že v ní kdysi hráli Beatles, jenže tady je to pravda.
+
+Galerie tu byla už v letech 1916 až 1938, Rubešova. Roku 1938 dům přestavěl architekt František Zelenka pro nakladatelství Vilímek a jeho knihkupectví a od roku 1941 tu byla zase galerie. Roku 1959 dostala jméno po malíři Václavu Špálovi, jednom ze zakladatelů českého moderního umění. Od roku 1965 ji vedl kritik Jindřich Chalupecký a na pár krátkých let z ní udělal jednu z nejodvážnějších galerií ve střední Evropě, než ji normalizace sedmdesátých let utlumila.
+
+Po roce 1989 znovu ožila a od roku 1990 se v ní předává Cena Jindřicha Chalupeckého, nejznámější česká cena pro mladé výtvarníky. Od té doby několikrát vystřídala provozovatele, ale pořád je to adresa, kde se současné umění potkává přes sklo s chodci na Národní.
+
+🎁 Bonus: Špála miloval modrou tak, že kritici mluví o „špálovské modři", syté a jasné modré jeho krajin. Galerie pojmenovaná po něm skoro nemohla být jiná než veselá.`,
+      zh: `瓦茨拉夫·什帕拉画廊是一间小小的展厅，有一扇对着国家大道的大窗户。1969年，马塞尔·杜尚在布拉格唯一的一次展览就是在这里办的。这有点像乡下小酒馆吹嘘披头士当年在店里演过，只不过这一回是真的。
+
+1916年至1938年间，这里已经是一家画廊，由鲁贝什家族经营。1938年，建筑师弗朗齐歇克·泽连卡为维利梅克出版社和它的书店改建了这栋房子；1941年起，这里又成了画廊。1959年，画廊以画家瓦茨拉夫·什帕拉命名，他是捷克现代艺术的奠基人之一。1965年起，评论家金德里赫·哈卢佩茨基接手，在短短几年里把它变成了中欧最大胆的画廊之一，直到1970年代的“正常化”让它暗淡下去。
+
+1989年以后，画廊重新活了过来。从1990年起，捷克最知名的青年艺术家奖项金德里赫·哈卢佩茨基奖就在这里颁发。此后它几次易手经营，但仍是一个让当代艺术隔着玻璃和国家大道上的路人相遇的地方。
+
+🎁 彩蛋：什帕拉太爱蓝色了，捷克的艺术评论家干脆管他风景画里那种浓烈明亮的蓝叫“什帕拉蓝”。以他命名的画廊，几乎不可能不是明快的。`,
+    },
+  },
+  {
+    name: 'Drn',
+    slug: 'budova-drn',
+    localizedNames: { cz: 'Drn', zh: '草皮大楼' },
+    labels: ['contemporary'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.0817899512095, lng: 14.417580977998808 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Drn_(budova)',
+    description: {
+      en: `Drn means "turf" in Czech, and the name is not a joke: this glass office building on Národní wears its greenery on timber balconies all the way up. It fills a gap that was a car park for half a century, which on the most famous avenue in Prague was a long time to leave a hole.
+
+The gap opened in 1966, when two historic houses were demolished and nothing was built in their place. The empty corner became a temporary car park, and in 2008 the Italian street artist Blu painted a large mural on the neighbouring wall. The architect Stanislav Fiala then designed the new building, which was built from 2012 and approved for use in September 2017; it brought him the Architect of the Year award in 2019. It cost about 1.5 billion crowns and was sold to the German fund KGAL in 2019.
+
+Drn is joined to the Baroque Schönkirch Palace behind it in Mikulandská, and materials saved from the old palace were reused inside. It holds offices, shops, a restaurant, a café and galleries, and from the pavement its terraces look like a hanging garden that has wandered into the city centre.
+
+🎁 Bonus: Every spring the tulips on the balconies flower in red, white and blue, planted so that the whole front shows the Czech flag. It is probably the only national flag in Prague that has to be watered.`,
+      cz: `Drn je název, který budova myslí vážně: tahle prosklená kancelářská budova na Národní nosí zeleň na dřevěných balkonech až nahoru. Zaplnila proluku, kde bylo půl století parkoviště, což je na nejslavnější pražské třídě dlouhá doba pro díru v ulici.
+
+Proluka vznikla roku 1966, kdy byly zbourány dva historické domy a na jejich místě nevyrostlo nic. Prázdný roh se stal provizorním parkovištěm a roku 2008 namaloval italský streetartový umělec Blu na sousední zeď velkou malbu. Novou budovu pak navrhl architekt Stanislav Fiala, stavělo se od roku 2012 a kolaudace přišla v září 2017; Fiala za ni roku 2019 dostal cenu Architekt roku. Stála asi 1,5 miliardy korun a roku 2019 ji koupil německý fond KGAL.
+
+Drn je propojený s barokním Schönkirchovským palácem za ním v Mikulandské a materiály zachráněné ze starého paláce byly použity uvnitř. Jsou v něm kanceláře, obchody, restaurace, kavárna a galerie a z chodníku vypadají jeho terasy jako visutá zahrada, která zabloudila do centra.
+
+🎁 Bonus: Každé jaro kvetou tulipány na balkonech červeně, bíle a modře, vysázené tak, aby celé průčelí ukazovalo českou vlajku. Je to nejspíš jediná státní vlajka v Praze, kterou je potřeba zalévat.`,
+      zh: `大楼的名字在捷克语里是“草皮”的意思，而且不是开玩笑：这栋国家大道上的玻璃办公楼，从下到上的木阳台上都长着绿植。它填上了一块空了半个世纪的停车场，在布拉格最有名的大街上，这个洞留得实在够久。
+
+这块空地是1966年出现的，当时两栋历史建筑被拆掉，原地什么也没盖。空出来的街角成了临时停车场，2008年，意大利街头艺术家布鲁还在旁边的墙上画了一幅大壁画。后来建筑师斯坦尼斯拉夫·菲亚拉设计了新楼，2012年开工，2017年9月获准启用，2019年为他赢得了“年度建筑师”奖。大楼造价约15亿克朗，2019年卖给了德国基金KGAL。
+
+大楼和后面米库兰斯卡街上的巴洛克式舍恩基尔希宫连在一起，从老宫殿里抢救下来的材料被用在了楼内。里面有办公室、商店、餐厅、咖啡馆和画廊，从人行道上看，它的露台就像一座误闯市中心的空中花园。
+
+🎁 彩蛋：每年春天，阳台上的郁金香开出红、白、蓝三色，种得让整个立面拼成一面捷克国旗。这大概是布拉格唯一一面需要浇水的国旗。`,
+    },
+  },
+  {
+    name: 'Porges of Portheim Palace',
+    slug: 'palac-porgesu-z-portheimu',
+    localizedNames: { cz: 'Palác Porgesů z Portheimu', zh: '波尔格斯宫' },
+    labels: ['palace', 'classicism', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.082666, lng: 14.421524 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Porges%C5%AF_z_Portheimu',
+    description: {
+      en: `Behind a calm classicist face near the Můstek end of Národní hides a courtyard most passers-by never notice, with a cake shop and a bronze Russian field marshal. The marshal is Alexander Suvorov, who spent a Prague winter in this house, and from the look on his face he is still waiting for his order.
+
+In 1761 Count Maxmilián Desfours bought three older houses here, standing on Gothic foundations, and between 1762 and 1776 had them rebuilt into one palace, attributed to the architect Ignác Palliardi. From 1795 it belonged to the Wimmer family; Jakub Wimmer was the businessman who paid for the first public gardens on Letná and the Wimmer Fountain. In the 19th century the Kolbe family owned it, and later Rosa Porges; her family, the Porges of Portheim, kept it until the Nazi occupation. After the war it went to the Prague gasworks, and it was restored at the end of the 1990s.
+
+Suvorov stayed here from 22 December 1799 to 28 January 1800, resting after his campaigns in Italy and Switzerland. A plaque on the façade recalls it, and since 1947 his bust has stood in the courtyard, which is open to anyone who walks in.
+
+🎁 Bonus: Two years after buying this palace, Jakub Wimmer bought the Platýz across the street as well. For a while the same man could look out of his window at his other palace, which is one way to be sure you have the better view.`,
+      cz: `Za klidnou klasicistní tváří u můsteckého konce Národní se skrývá dvůr, kterého si většina kolemjdoucích nikdy nevšimne, s cukrárnou a bronzovým ruským maršálem. Ten maršál je Alexandr Suvorov, který v tomhle domě strávil jednu pražskou zimu, a podle výrazu jeho tváře pořád čeká na svou objednávku.
+
+Roku 1761 tu hrabě Maxmilián Desfours koupil tři starší domy stojící na gotických základech a v letech 1762 až 1776 je nechal přestavět na jeden palác, připisovaný architektu Ignáci Palliardimu. Od roku 1795 patřil Wimmerům; Jakub Wimmer byl podnikatel, který zaplatil první veřejné sady na Letné a Wimmerovu kašnu. V 19. století ho vlastnili Kolbeové a později Rosa Porgesová; její rod, Porgesové z Portheimu, ho držel až do nacistické okupace. Po válce připadl pražské plynárně a na konci devadesátých let byl opraven.
+
+Suvorov tu pobýval od 22. prosince 1799 do 28. ledna 1800 a odpočíval po svých taženích v Itálii a ve Švýcarsku. Připomíná to deska na fasádě a od roku 1947 stojí jeho busta na dvoře, kam může vejít kdokoli.
+
+🎁 Bonus: Dva roky poté, co Jakub Wimmer koupil tenhle palác, koupil i Platýz přes ulici. Nějakou dobu se tak jeden člověk mohl dívat z okna na svůj druhý palác, což je jeden ze způsobů, jak mít jistotu, že máte lepší výhled.`,
+      zh: `在国家大道靠穆斯泰克那一头，一张安静的古典主义面孔后面藏着一个院子，大多数路人从没注意过。院子里有一家甜品店，还有一位青铜铸的俄国元帅。这位元帅是亚历山大·苏沃洛夫，他曾在这栋房子里度过布拉格的一个冬天，看他脸上的表情，好像还在等他点的蛋糕。
+
+1761年，德斯富尔伯爵马克西米利安在这里买下了三栋建在哥特式地基上的老房子，1762年至1776年把它们改建成一座宫殿，设计据说出自建筑师伊格纳茨·帕利亚尔迪。1795年起，宫殿归维默尔家族所有；雅各布·维默尔就是出钱修建莱特纳最早的公共花园和维默尔喷泉的那位商人。19世纪它属于科尔贝家族，后来归罗莎·波尔格斯所有，她的家族波尔格斯·冯·波特海姆家一直拥有它，直到纳粹占领。战后宫殿归了布拉格煤气厂，1990年代末修复。
+
+苏沃洛夫从1799年12月22日住到1800年1月28日，在意大利和瑞士的征战之后在这里休整。立面上有一块纪念牌，1947年起院子里还立着他的半身像，院子谁都可以走进去。
+
+🎁 彩蛋：买下这座宫殿两年后，雅各布·维默尔又买下了街对面的普拉蒂兹宫。有那么一段时间，同一个人可以从窗口望着自己的另一座宫殿，这也算是确保自己拥有更好视野的一种办法。`,
+    },
+  },
+  {
+    name: 'Chicago Palace',
+    slug: 'palac-chicago',
+    localizedNames: { cz: 'Palác Chicago', zh: '芝加哥宫' },
+    labels: ['functionalism'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.082520619496, lng: 14.420486997627714 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Chicago',
+    description: {
+      en: `Calling a seven-storey office building "Chicago" was a bold move in 1920s Prague, and that was the point: the name promised American comfort and American modernity on Národní. It never came near skyscraper height, but it was one of the most up-to-date buildings in the city when it opened.
+
+It was built in 1927 and 1928 for Count Jindřich Kolowrat-Krakovský, replacing a neo-Renaissance house with a little tower. The design came from the architect Josef Havlíček and the engineer Jaroslav Josef Polívka, a specialist in reinforced concrete, and the result was a clean functionalist block with a concrete frame, a flat roof and comforts modelled on American office buildings. On the ground floor there were shops, and the upper floors have been offices ever since.
+
+The building is a quiet neighbour to the louder landmarks around it, but it marks the moment when Národní moved from palaces with turrets to modern offices with lifts.
+
+🎁 Bonus: Polívka later emigrated to the United States and, after the war, worked with Frank Lloyd Wright. So one of the men behind Prague's Chicago did end up building in America, just not in Chicago.`,
+      cz: `Pojmenovat sedmipatrovou kancelářskou budovu „Chicago" byl ve dvacátých letech v Praze odvážný tah a o to šlo: jméno slibovalo americké pohodlí a americkou modernost přímo na Národní. Výšky mrakodrapu se nikdy ani nedotkla, ale když byla hotová, patřila k nejmodernějším budovám ve městě.
+
+Postavena byla v letech 1927 a 1928 pro hraběte Jindřicha Kolowrata-Krakovského na místě novorenesančního domu s věžičkou. Navrhli ji architekt Josef Havlíček a inženýr Jaroslav Josef Polívka, odborník na železobeton, a výsledkem byl čistý funkcionalistický blok s betonovou konstrukcí, plochou střechou a vybavením podle vzoru amerických kancelářských budov. V přízemí byly obchody a horní patra slouží kancelářím dodnes.
+
+Mezi hlasitějšími památkami kolem je to tichý soused, ale připomíná chvíli, kdy Národní přešla od paláců s věžičkami k moderním kancelářím s výtahy.
+
+🎁 Bonus: Polívka později emigroval do Spojených států a po válce spolupracoval s Frankem Lloydem Wrightem. Jeden z autorů pražského Chicaga tedy nakonec v Americe opravdu stavěl, jen ne v Chicagu.`,
+      zh: `1920年代的布拉格，给一栋七层办公楼起名“芝加哥”，是相当大胆的一步，而这正是目的所在：这个名字向国家大道许诺了美国式的舒适和美国式的现代。它从来没够上摩天楼的高度，但落成时确实是城里最先进的建筑之一。
+
+大楼建于1927年至1928年，业主是科洛弗拉特-克拉科夫斯基伯爵金德里赫，原址是一栋带小塔楼的新文艺复兴式房子。设计出自建筑师约瑟夫·哈夫利切克和钢筋混凝土专家、工程师雅罗斯拉夫·约瑟夫·波利夫卡之手，成品是一座干净利落的功能主义方楼：混凝土框架、平屋顶，还有照着美国写字楼配备的各种设施。底层是商店，楼上至今一直是办公室。
+
+在周围那些更张扬的名胜之间，它是一位安静的邻居，却标记着国家大道从带塔楼的宫殿走向装着电梯的现代办公楼的那个时刻。
+
+🎁 彩蛋：波利夫卡后来移民美国，战后还和弗兰克·劳埃德·赖特合作过。所以布拉格“芝加哥”的设计者之一，最后真的去美国盖房子了，只是没去芝加哥。`,
+    },
+  },
+  {
+    name: 'House of Applied Arts',
+    slug: 'dum-umeleckeho-prumyslu',
+    localizedNames: { cz: 'Dům uměleckého průmyslu', zh: '工艺美术之家' },
+    labels: ['functionalism', 'cultural'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08258567395865, lng: 14.421027563752714 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_um%C4%9Bleck%C3%A9ho_pr%C5%AFmyslu',
+    description: {
+      en: `For more than half a century this functionalist building on Národní was where Prague came to buy good taste: the Krásná jizba shop sold modern Czech glass, furniture and textiles here from 1936 to 1990. Then it stood empty and decaying for over twenty years, and now it has come back as a club and a theatre.
+
+Oldřich Starý designed it in 1934 for the Czechoslovak Werkbund and the publishing cooperative Družstevní práce, which ran Krásná jizba, "the Beautiful Room", as a shop and gallery for well-designed everyday things. The wing on Národní was finished in 1936 and the wing on Charvátova in 1937 and 1938, with a façade by František Zelenka. It is a listed cultural monument and one of the purest functionalist buildings in the city centre.
+
+After the war the publisher Odeon used part of it, and for a short time after 1989 a black-light theatre played here. Privatised in 1994, the house was left to fall apart, until in 2017 it reopened with the club DUP39 and the Divadlo X10 theatre, which brought people back through its doors.
+
+🎁 Bonus: Krásná jizba did not only sell things, it also tried to teach the public what a good chair or a good glass should look like. It is hard to imagine a nicer mission for a shop than persuading people to stop buying ugly things.`,
+      cz: `Víc než půl století sem Praha chodila nakupovat dobrý vkus: obchod Krásná jizba tu v letech 1936 až 1990 prodával moderní české sklo, nábytek a textil. Pak tahle funkcionalistická budova přes dvacet let stála prázdná a chátrala, a teď se vrátila jako klub a divadlo.
+
+Navrhl ji roku 1934 Oldřich Starý pro Svaz československého díla a nakladatelské družstvo Družstevní práce, které Krásnou jizbu provozovalo jako obchod a galerii dobře navržených věcí pro každý den. Křídlo do Národní bylo hotové roku 1936 a křídlo do Charvátovy v letech 1937 a 1938, s fasádou Františka Zelenky. Je to kulturní památka a jedna z nejčistších funkcionalistických staveb v centru města.
+
+Po válce v ní sídlilo i nakladatelství Odeon a krátce po roce 1989 tu hrálo černé divadlo. Roku 1994 byl dům privatizován a nechán napospas, až se roku 2017 znovu otevřel s klubem DUP39 a Divadlem X10, která do něj vrátila lidi.
+
+🎁 Bonus: Krásná jizba věci jen neprodávala, snažila se také naučit veřejnost, jak má vypadat dobrá židle nebo dobrá sklenice. Těžko si představit hezčí poslání pro obchod než přesvědčovat lidi, ať si přestanou kupovat ošklivé věci.`,
+      zh: `半个多世纪里，布拉格人到这里来买“好品味”：1936年至1990年，“美丽小屋”商店在这栋功能主义大楼里出售现代捷克玻璃器、家具和纺织品。后来它空置了二十多年，日渐破败，如今又以俱乐部和剧场的身份回来了。
+
+大楼由奥尔德日赫·斯塔里于1934年设计，业主是捷克斯洛伐克工艺联盟和出版合作社“合作劳动”，后者把“美丽小屋”办成了一家出售精心设计的日常用品的商店兼画廊。临国家大道的一翼1936年完工，临哈尔瓦托娃街的一翼建于1937年至1938年，立面由弗朗齐歇克·泽连卡设计。它是受保护的文化古迹，也是市中心最纯粹的功能主义建筑之一。
+
+战后，奥德翁出版社也在这里办公；1989年以后，这里还短暂上演过黑光剧。1994年大楼私有化，此后就被任其破败，直到2017年，DUP39俱乐部和X10剧院入驻，人们才重新走进这扇门。
+
+🎁 彩蛋：“美丽小屋”不光卖东西，还想教会大众一把好椅子、一只好杯子该是什么样子。一家商店的使命是劝人们别再买难看的东西，很难想象还有比这更可爱的使命。`,
+    },
+  },
+  {
+    name: 'Ursuline Convent',
+    slug: 'klaster-vorsilek',
+    localizedNames: { cz: 'Klášter voršilek', zh: '乌尔苏拉修女会修道院' },
+    labels: ['monastery', 'baroque', 'restaurants-and-cafes'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08059955308278, lng: 14.41627402155684 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kl%C3%A1%C5%A1ter_vor%C5%A1ilek_(Praha)',
+    description: {
+      en: `The Ursuline Convent fills a whole block behind the Church of St Ursula, and for a house built by nuns it offers a surprising range of services today: a medical research institute, an Italian delicatessen and a brewery with a beer garden in the convent grounds. The nuns, meanwhile, are the landlords again.
+
+The Ursulines, an order devoted to educating girls, arrived from Liège on 9 October 1655 at the invitation of Countess Sibyla of Lamboy and bought a house here in 1664. The convent itself was built between 1674 and 1679, probably by Gion Decapauli with Martin Reiner, in the early Baroque style; the church on Národní followed in 1702 to 1704. For almost three centuries the sisters taught girls here.
+
+In 1951 the communists abolished the convent, and part of its grounds was used in the 1970s for the National Theatre's New Stage. The building was returned to the order in 1991. Today it houses the Institute of Endocrinology, the Pivovar Národní restaurant with its own beer, and the Aggeo deli, while the main entrance leads through the courtyard from Ostrovní Street.
+
+🎁 Bonus: The old main door from Národní straight into the church is closed these days, so visitors reach the nuns' church through the reception of the Institute of Endocrinology. Few Baroque churches can be entered by way of a hormone clinic.`,
+      cz: `Klášter voršilek zabírá celý blok za kostelem svaté Voršily a na dům postavený jeptiškami nabízí dnes překvapivě široké služby: zdravotnický výzkumný ústav, italské lahůdkářství a pivovar s pivní zahradou v areálu kláštera. Jeptišky jsou mezitím zase majitelkami.
+
+Voršilky, řád zaměřený na výchovu dívek, přišly z Lutychu 9. října 1655 na pozvání hraběnky Sibyly z Lamboy a roku 1664 tu koupily dům. Samotný klášter se stavěl v letech 1674 až 1679, nejspíš podle Giona Decapauliho s Martinem Reinerem, v raně barokním slohu; kostel do Národní následoval v letech 1702 až 1704. Skoro tři století tu sestry učily dívky.
+
+Roku 1951 komunisté klášter zrušili a část jeho pozemků posloužila v sedmdesátých letech stavbě Nové scény Národního divadla. Řádu byl klášter vrácen roku 1991. Dnes v něm sídlí Endokrinologický ústav, restaurace Pivovar Národní s vlastním pivem a lahůdkářství Aggeo, a hlavní vchod vede dvorem z Ostrovní ulice.
+
+🎁 Bonus: Původní hlavní vchod z Národní rovnou do kostela je dnes zavřený, takže do kostela jeptišek se chodí přes recepci Endokrinologického ústavu. Do málokterého barokního kostela se vstupuje přes hormonální kliniku.`,
+      zh: `乌尔苏拉修女会修道院占了圣吴尔苏拉教堂后面的一整个街区。作为修女们建起来的房子，它今天提供的服务五花八门：一家医学研究所、一家意大利熟食店，还有一家在修道院院子里摆着啤酒花园的精酿酒馆。与此同时，修女们又当回了房东。
+
+乌尔苏拉会是一个以教育女孩为使命的修会，1655年10月9日应拉姆博伊伯爵夫人西比拉之邀从列日来到布拉格，1664年在这里买下了一栋房子。修道院本身建于1674年至1679年，很可能出自吉昂·德卡保利和马丁·赖纳之手，是早期巴洛克风格；临国家大道的教堂随后在1702年至1704年建成。将近三个世纪里，修女们一直在这里教女孩读书。
+
+1951年，共产党政权取缔了修道院，1970年代，它的一部分地块被用来建国家剧院的新舞台。1991年，修道院归还给修会。如今这里有内分泌研究所、自酿啤酒的“国家大道酒坊”餐厅和Aggeo熟食店，正门要从奥斯特罗夫尼街穿过院子进去。
+
+🎁 彩蛋：从国家大道直通教堂的老正门如今关着，所以想进修女们的教堂，得穿过内分泌研究所的前台。能从一家激素诊所走进去的巴洛克教堂，恐怕没几座。`,
+    },
+  },
+  {
+    name: 'Platýz Palace',
+    slug: 'palac-platyz',
+    localizedNames: { cz: 'Palác Platýz', zh: '普拉蒂兹宫' },
+    labels: ['palace', 'classicism', 'medieval'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08287565825822, lng: 14.420482330313707 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Plat%C3%BDz',
+    description: {
+      en: `Platýz looks like a plain Empire-style apartment block, and in a way that is its proudest achievement: from 1813 it was one of the oldest and largest rental houses in Prague. Behind the façade, though, are nearly seven centuries of palace history, and a passage that takes you through to Uhelný trh.
+
+A palace stood here by 1347. In 1405 it belonged to Jan Bradatý of Stříbro, and in 1408, when the writings of John Wycliffe were tearing Prague's university apart, a disputation on them was held in this house. In 1586 Jan Platejs of Plattenštejn, secretary to Emperor Rudolf II, rebuilt it in Renaissance style and left it his name. In 1637 Count Jan of Šternberk added Baroque work and the passage. From 1715, under the Paar family, it housed a fencing school and a post office and hosted balls and concerts, and in the 1850s its hall was still one of Prague's favourite places to dance and listen to music.
+
+In 1797 it was bought by Jakub Wimmer, and in 1813 František Daubek turned it into a great apartment house, giving it the Empire façade it shows on Národní today. It is a listed cultural monument.
+
+🎁 Bonus: For many years the coffee for Café Louvre across the street was roasted here, in the Platýz. The smell must have done more for the café's business than any sign.`,
+      cz: `Platýz vypadá jako obyčejný empírový činžák a svým způsobem je to jeho největší chlouba: od roku 1813 patřil k nejstarším a největším nájemním domům v Praze. Za fasádou se ale skrývá skoro sedm století palácových dějin a pasáž, která vás provede na Uhelný trh.
+
+Palác tu stál už roku 1347. Roku 1405 patřil Janu Bradatému ze Stříbra a roku 1408, kdy spisy Jana Viklefa rozdělovaly pražskou univerzitu, se v tomhle domě konala disputace o nich. Roku 1586 ho Jan Platejs z Plattenštejna, sekretář císaře Rudolfa II., přestavěl renesančně a nechal mu své jméno. Roku 1637 přidal hrabě Jan ze Šternberka barokní úpravy a pasáž. Od roku 1715, za Paarů, tu byla šermířská škola a pošta a konaly se tu plesy a koncerty, a ještě v padesátých letech 19. století patřil zdejší sál k nejoblíbenějším místům Prahy k tanci a hudbě.
+
+Roku 1797 ho koupil Jakub Wimmer a roku 1813 z něj František Daubek udělal velký činžovní dům s empírovou fasádou, kterou ukazuje do Národní dodnes. Je kulturní památkou.
+
+🎁 Bonus: Celá léta se tu, v Platýzu, pražila káva pro kavárnu Louvre přes ulici. Ta vůně musela kavárně udělat větší reklamu než jakýkoli vývěsní štít.`,
+      zh: `普拉蒂兹宫看上去就是一栋朴素的帝政风格公寓楼，某种意义上这恰恰是它最得意的成就：从1813年起，它就是布拉格最古老、最大的出租公寓之一。不过在立面背后，藏着将近七个世纪的宫殿史，还有一条能把你带到煤市广场的通道。
+
+1347年这里就已经有一座宫殿。1405年它属于斯特日布罗的扬·布拉达蒂；1408年，威克里夫的著作正把布拉格大学撕成两半，一场关于这些著作的辩论就在这栋房子里举行。1586年，鲁道夫二世皇帝的秘书普拉滕什泰因的扬·普拉泰斯把它改建成文艺复兴风格，也把自己的名字留给了它。1637年，施特恩贝格伯爵扬加上了巴洛克装饰和那条通道。1715年起，在帕尔家族手里，这里开过击剑学校和邮局，办过舞会和音乐会；直到1850年代，这里的大厅仍是布拉格人最爱去跳舞听音乐的地方之一。
+
+1797年，雅各布·维默尔买下了它；1813年，弗朗齐歇克·道贝克把它改成了一座大公寓楼，也就是今天朝着国家大道的帝政风格立面。它是受保护的文化古迹。
+
+🎁 彩蛋：很多年里，街对面卢浮宫咖啡馆的咖啡豆就是在普拉蒂兹宫这里烘焙的。那股香味给咖啡馆招来的客人，恐怕比任何招牌都多。`,
+    },
+  },
+  {
+    name: 'Máj Department Store',
+    slug: 'obchodni-dum-maj',
+    localizedNames: { cz: 'Obchodní dům Máj', zh: '五月百货' },
+    labels: ['brutalism', 'communism'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08227942522507, lng: 14.419503174392789 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Obchodn%C3%AD_d%C5%AFm_M%C3%A1j',
+    description: {
+      en: `Máj is the department store that looks as if its escalators had been given a building of their own. Opened in 1975, it was the most modern shop in socialist Prague, then became a Kmart, then a Tesco, and since 2024 two giant butterflies by David Černý have been perched on its front.
+
+It was designed by John Eisler, Miroslav Masák and Martin Rajniš of SIAL, the Liberec studio founded in 1968 by Karel Hubáček, the architect of the Ještěd tower. It was built in 1972 to 1975 by Swedish contractors, and its working name was simply "02". The great glass hall of escalators on the corner was its signature, and the whole building mixed late functionalism with brutalist mass and high-tech detail: thirteen lifts, and a ramp that let cars drive up to a terrace on the fourth floor.
+
+After 1989 the names came fast: Kmart from 1992, Tesco from 1996, My from 2009, when the escalator hall was covered over, and, after a sale in 2019, Máj Národní. In 2007 it was listed as a cultural monument, rare honour for a shop of the socialist era. Rebuilt between 2022 and 2024, it reopened on 24 June 2024, together with Černý's two eight-metre butterflies, whose arrival caused its own small storm.
+
+🎁 Bonus: Máj was also one of the first buildings in Prague with continuous CCTV recording. Its shoppers in the 1970s could be filmed while they queued for goods, which in a way was very much in keeping with its time.`,
+      cz: `Máj je obchodní dům, který vypadá, jako by jeho eskalátory dostaly vlastní budovu. Otevřel se roku 1975 jako nejmodernější obchod socialistické Prahy, pak z něj byl Kmart, pak Tesco a od roku 2024 sedí na jeho průčelí dva obří motýli Davida Černého.
+
+Navrhli ho John Eisler, Miroslav Masák a Martin Rajniš ze SIAL, libereckého ateliéru, který roku 1968 založil Karel Hubáček, autor Ještědu. Stavěly ho v letech 1972 až 1975 švédské firmy a jeho pracovní název byl prostě „02". Jeho poznávacím znamením byla velká prosklená hala eskalátorů na nároží a celá stavba mísila pozdní funkcionalismus s brutalistní hmotou a high-tech detaily: třináct výtahů a rampa, po které mohla auta vyjet na terasu ve čtvrtém patře.
+
+Po roce 1989 se jména střídala rychle: od roku 1992 Kmart, od roku 1996 Tesco, od roku 2009 My, kdy byla eskalátorová hala zakryta, a po prodeji v roce 2019 zase Máj Národní. Roku 2007 byl prohlášen kulturní památkou, což je pro obchod ze socialistické éry vzácná čest. Po přestavbě v letech 2022 až 2024 se znovu otevřel 24. června 2024 a s ním přiletěli i dva osmimetroví motýli Davida Černého, kteří vyvolali vlastní malou bouři.
+
+🎁 Bonus: Máj byl také jednou z prvních budov v Praze s nepřetržitým kamerovým záznamem. Zákazníci v sedmdesátých letech tak mohli být natáčeni, zatímco stáli frontu na zboží, což svým způsobem k té době velmi sedělo.`,
+      zh: `五月百货看起来像是给自动扶梯单独盖了一栋楼。它1975年开业，是社会主义布拉格最现代的商店，后来变成了凯马特，又变成了乐购；2024年起，大卫·切尔尼的两只巨型蝴蝶落在了它的正面。
+
+设计者是约翰·艾斯勒、米罗斯拉夫·马萨克和马丁·赖尼什，他们来自利贝雷茨的SIAL工作室，这家工作室1968年由耶什捷德电视塔的设计者卡雷尔·胡巴切克创办。大楼由瑞典承包商在1972年至1975年间建成，工作代号就叫“02”。街角那座巨大的玻璃自动扶梯大厅是它的招牌，整栋楼把晚期功能主义、粗野主义的体量和高技派的细节揉在了一起：十三部电梯，还有一条坡道，让汽车能一直开上四楼的露台。
+
+1989年以后，名字换得飞快：1992年起叫凯马特，1996年起叫乐购，2009年起叫My，自动扶梯大厅也在那时被封了起来；2019年转手之后，改叫“五月国家大道”。2007年，它被列为文化古迹，这对一座社会主义时代的商店来说是难得的荣誉。2022年至2024年翻修之后，它在2024年6月24日重新开业，切尔尼那两只八米高的蝴蝶也随之飞来，还掀起了一场小小的风波。
+
+🎁 彩蛋：五月百货还是布拉格最早装有连续监控录像的建筑之一。1970年代的顾客排队买东西时可能正被拍着，这在某种程度上倒是非常符合那个时代。`,
+    },
+  },
+  {
+    name: 'Metro Palace',
+    slug: 'palac-metro',
+    localizedNames: { cz: 'Palác Metro', zh: '梅特罗宫' },
+    labels: ['cultural', 'historicism'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08226254986852, lng: 14.41818265413113 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Metro',
+    description: {
+      en: `The Metro Palace was called Metro long before Prague had a metro, which makes the name sound more like a prophecy than a reference. Its L-shaped passage cuts through from Národní to Na Perštýně, and its basement has held a cinema, a self-service restaurant and a whole series of small theatres.
+
+It began in 1870 as a neo-Renaissance shop and apartment house, designed by Bedřich Tesař for Major Fridrich Bender von Soebelkampf. In 1922 to 1925 the architects K. E. Ort and Stanislav Bechyně rebuilt it, added two storeys and pushed a reinforced-concrete passage through the block, and in 1928 Filip Trdlica modernised the basement for the merchant Václav Kleinhampl. Until 1989 the building was known for the Metro self-service restaurant and the Metro cinema.
+
+After 1989 the mime and actor Boris Hybner moved his Gag theatre into the old cinema hall. Today the passage leads to the Vagon music club, the Image black-light theatre, an auction house and some twenty shops, so a walk through it is still a little journey underground.
+
+🎁 Bonus: A music club called Vagon, "the Carriage", under a building called Metro is the kind of joke that a city usually has to plan. Here it happened all by itself.`,
+      cz: `Palác Metro se jmenoval Metro dávno předtím, než Praha metro měla, takže jeho jméno zní spíš jako proroctví než jako odkaz. Jeho pasáž ve tvaru L prochází z Národní na Perštýn a v suterénu už vystřídal kino, samoobslužnou restauraci a celou řadu malých divadel.
+
+Začínal roku 1870 jako novorenesanční obchodní a nájemní dům, který pro majora Fridricha Bendera von Soebelkampf navrhl Bedřich Tesař. V letech 1922 až 1925 ho architekti K. E. Ort a Stanislav Bechyně přestavěli, přidali dvě patra a blokem prorazili železobetonovou pasáž a roku 1928 Filip Trdlica modernizoval suterén pro obchodníka Václava Kleinhampla. Až do roku 1989 byla budova známá samoobsluhou Metro a kinem Metro.
+
+Po roce 1989 přestěhoval mim a herec Boris Hybner do bývalého kinosálu své Divadlo Gag. Dnes vede pasáž do hudebního klubu Vagon, černého divadla Image, aukční síně a asi ke dvaceti obchodům, takže procházka jí je pořád malá cesta do podzemí.
+
+🎁 Bonus: Hudební klub jménem Vagon pod budovou jménem Metro je přesně ten druh vtipu, který si město obvykle musí naplánovat. Tady se stal úplně sám.`,
+      zh: `梅特罗宫叫“地铁”这个名字的时候，布拉格还远远没有地铁，所以这名字听起来更像一句预言，而不是借用。它那条L形的通道从国家大道穿到纳佩尔什蒂涅街，地下室里先后开过电影院、自助餐厅，还有一连串小剧场。
+
+它最早是1870年建成的一栋新文艺复兴式商住楼，由贝德日赫·泰萨日为少校弗里德里希·本德尔·冯·泽贝尔坎普夫设计。1922年至1925年，建筑师K. E. 奥尔特和斯坦尼斯拉夫·贝希涅改建了它，加盖了两层，又在街区里打通了一条钢筋混凝土通道；1928年，菲利普·特尔德利察为商人瓦茨拉夫·克莱因汉普尔改造了地下室。直到1989年，这栋楼最出名的是“梅特罗”自助餐厅和“梅特罗”电影院。
+
+1989年以后，哑剧演员鲍里斯·希布内尔把他的“噱头剧院”搬进了旧电影厅。如今通道通向“车厢”音乐俱乐部、Image黑光剧院、一家拍卖行和大约二十家商店，从这里走一趟，仍像是一次小小的地下之旅。
+
+🎁 彩蛋：一家叫“车厢”的音乐俱乐部，开在一栋叫“地铁”的楼底下，这种笑话一座城市通常得刻意安排才有。在这里，它是自己冒出来的。`,
     },
   },
 ];
