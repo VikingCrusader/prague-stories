@@ -124,7 +124,7 @@ export const PACKS = [
     foil: '#1f3f7a',
     labels: ['square', 'art-nouveau', 'functionalism', 'communism'],
     // The square from Můstek up to the two museum buildings, the houses right on
-    // it, and Lucerna and the Světozor arcade off it (2026-11-10, user's call; the
+    // it, and Lucerna, Rokoko and the Světozor arcade off it (2026-11-10, user's call; Rokoko added 2026-11-12; the
     // Franciscan Garden and Our Lady of the Snows belong to Jungmannovo náměstí).
     // Took over the card of the same slug (and its cover).
     members: [
@@ -132,7 +132,7 @@ export const PACKS = [
       'muzeum-studene-valky', 'palac-fenix', 'hotel-evropa-1783748217364', 'palac-knih-luxor', 'czech-bank-palace-ligna-palace-1783753023641',
       'melantrich', 'wiehluv-dum', 'palac-u-styblu', 'hotel-julis', 'adamova-lekarna', 'batuv-palac', 'palac-euro', 'darex',
       'palac-generali', 'obchodni-dum-ceskeho-svazu-vyrobnich-druzstev', 'diamant-house', 'palac-koruna', 'mustek',
-      'kino-lucerna', 'vitraz-tesla-radio-svetozor',
+      'kino-lucerna', 'palac-rokoko', 'vitraz-tesla-radio-svetozor',
     ],
   }),
   pack({

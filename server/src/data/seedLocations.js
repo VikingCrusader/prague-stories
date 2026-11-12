@@ -35657,6 +35657,1014 @@ Po roce 1989 přestěhoval mim a herec Boris Hybner do bývalého kinosálu své
 🎁 彩蛋：一家叫“车厢”的音乐俱乐部，开在一栋叫“地铁”的楼底下，这种笑话一座城市通常得刻意安排才有。在这里，它是自己冒出来的。`,
     },
   },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: prague.eu,
+    // Seznam Zprávy / e15 / Forbes on the 2010s–2020s sales, arthousehejtmanek.cz
+    // on Kokoschka's studio (top floor, north wing, from summer 1934).
+    name: 'Bellevue Palace',
+    slug: 'palac-bellevue',
+    localizedNames: { cz: 'Palác Bellevue', zh: '美景宫' },
+    labels: ['palace', 'historicism'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08431959808167, lng: 14.41379155882816 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Bellevue Palace is a tall, gabled apartment house on the Smetana Embankment whose name simply means "beautiful view". It is not boasting. From its windows you get the Castle, Malá Strana, the river and Charles Bridge all at once, which is why its most famous tenants were painters.
+
+The house was built at the end of the 19th century by the architect and builder Konstantin Mráček, in a neo-Renaissance style borrowed from the Dutch: steep gables, decorated fronts and a skyline that sticks out noticeably from the calmer row of houses along the embankment. That row had been rebuilt to one plan a few decades earlier, when the embankment and the old chain bridge went up in the 1840s, and Bellevue was never really meant to stand out as much as it does.
+
+In the summer of 1934 Oskar Kokoschka, who had left Vienna, rented a studio on the top floor of the north wing. For four years he painted Prague from up here and from other high windows, before the threat from Nazi Germany sent him on to London in 1938. After the war the same studio went to Jiří Trnka, the illustrator and puppet-film maker whose animated films made Czech puppets famous around the world. In the 2010s the building was bought by an investment group that renamed it Arca Palace and planned a luxury hotel; the group went bankrupt, the hotel never happened, and Daniel Křetínský's EP Real Estate bought the house from the insolvency administrator to turn it into flats, with the facade left as it is.
+
+🎁 Bonus: Stand on the embankment railing opposite and you get almost the same view the painters had, only one floor lower and for free.`,
+      cz: `Palác Bellevue je vysoký štítový nájemní dům na Smetanově nábřeží, jehož jméno znamená prostě „krásný výhled“. Nechlubí se. Z jeho oken je vidět Hrad, Malá Strana, řeka i Karlův most najednou, a proto byli jeho nejslavnějšími nájemníky malíři.
+
+Dům postavil na konci 19. století architekt a stavitel Konstantin Mráček v novorenesančním slohu, inspirovaném nizozemskou renesancí: strmé štíty, zdobená průčelí a silueta, která z klidnější řady domů na nábřeží znatelně vyčnívá. Ta řada byla o několik desetiletí dřív přestavěna podle jednotného plánu, když ve 40. letech 19. století vznikalo nábřeží a starý řetězový most, a Bellevue z ní původně vůbec nemělo tolik vystupovat.
+
+V létě 1934 si tu Oskar Kokoschka, který odešel z Vídně, pronajal ateliér v nejvyšším patře severního křídla. Čtyři roky odsud i z jiných vysokých oken maloval Prahu, než ho hrozba nacistického Německa roku 1938 poslala dál do Londýna. Po válce ateliér připadl Jiřímu Trnkovi, ilustrátorovi a tvůrci loutkových filmů, který proslavil české loutky po celém světě. V desátých letech 21. století dům koupila investiční skupina, přejmenovala ho na Arca Palace a chystala luxusní hotel; skupina zkrachovala, hotel nevznikl a od insolvenčního správce dům koupila EP Real Estate Daniela Křetínského, aby z něj udělala byty a fasádu nechala, jak je.
+
+🎁 Bonus: Postav se k zábradlí nábřeží naproti a uvidíš skoro totéž co malíři, jen o pár pater níž a zadarmo.`,
+      zh: `美景宫是斯美塔那河岸上一栋高高的山墙公寓楼，名字的意思就是“美丽的景色”。这不是吹牛。从它的窗户望出去，城堡、小城区、伏尔塔瓦河和查理大桥一次全收进眼底，所以住过这里最有名的房客都是画家。
+
+房子建于19世纪末，出自建筑师兼营造商康斯坦丁·姆拉切克之手，风格是借鉴荷兰的新文艺复兴式：陡峭的山墙、装饰繁复的立面，天际线明显高出河岸上那排更安分的房子。那排房子是几十年前按统一规划重建的，当时是19世纪40年代，河岸和老铁链桥正在修建，美景宫本来并不该这么出挑。
+
+1934年夏天，离开维也纳的奥斯卡·柯克西卡租下了北翼顶层的一间画室。此后四年，他从这里和城里其他高处的窗口画布拉格，直到1938年纳粹德国的威胁逼他转往伦敦。战后，同一间画室归了伊日·特伦卡，这位插画家和木偶电影导演让捷克木偶动画闻名世界。2010年代，一家投资集团买下这栋楼，改名“阿尔卡宫”，打算开一家顶级酒店；结果集团破产，酒店没开成，丹尼尔·克热廷斯基的EP地产从破产管理人手里买下了它，准备改成公寓，外立面原样保留。
+
+🎁 彩蛋：站到对面河岸的栏杆边，你看到的几乎就是画家们当年的景色，只是低了几层楼，而且不要钱。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts kept to what sources
+    // agree on: en.wikipedia (club, Novotného lávka 198, opened 1999),
+    // visitczechia.com (dance floors in the old bath pools), praha1.cz.
+    name: 'Karlovy lázně',
+    slug: 'karlovy-lazne',
+    localizedNames: { cz: 'Karlovy lázně', zh: '查理浴场' },
+    labels: ['cultural'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.085462228455896, lng: 14.413844234363799 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Karlovy_l%C3%A1zn%C4%9B',
+    description: {
+      en: `Karlovy lázně, "the Charles Baths", stands at the Old Town end of Charles Bridge and has kept the name of a bathhouse while doing a completely different job. People still come here to get sweaty in the middle of the night. They just do it to music now, on five floors, in what is regularly billed as the biggest club in Central Europe.
+
+The riverbank here, on the short spur of Novotného lávka by the Old Town mills and the water tower, was for centuries a place of mills and public baths, which needed the Vltava as much as the millers did. The baths on this stretch of the Old Town shore have a long tradition behind them, and the house kept its bathing name long after the last bather left. Since 1999 it has been a nightclub, and some of the dance floors sit in the former pools, so the dancing really does happen where the swimming used to.
+
+Each floor plays its own kind of music, from chart hits to dance music and old favourites, and the place is aimed squarely at the crowds who pour off Charles Bridge in the evening. Prague residents tend to be rather snobbish about it, which has never noticeably hurt business.
+
+🎁 Bonus: Come in daylight instead. The spur behind the club, with the water tower, the Smetana Museum and a terrace over the weir, has one of the best views of Charles Bridge in the city, and no queue.`,
+      cz: `Karlovy lázně stojí na staroměstském konci Karlova mostu a ponechaly si jméno lázní, i když dělají úplně něco jiného. Lidé se sem pořád chodí uprostřed noci zpotit. Jen to teď dělají při hudbě, v pěti patrech, v podniku, který se pravidelně prodává jako největší klub ve střední Evropě.
+
+Zdejší břeh, krátký výběžek Novotného lávky u staroměstských mlýnů a vodárenské věže, byl po staletí místem mlýnů a veřejných lázní, které Vltavu potřebovaly stejně jako mlynáři. Lázně na tomto kusu staroměstského břehu mají dlouhou tradici a dům si lázeňské jméno nechal dlouho poté, co odešel poslední koupající se. Od roku 1999 je to noční klub a některé taneční parkety jsou v bývalých bazénech, takže se opravdu tančí tam, kde se kdysi plavalo.
+
+Každé patro hraje jiný druh hudby, od hitparád přes taneční hudbu až po staré pecky, a podnik míří hlavně na davy, které se večer valí z Karlova mostu. Pražané se na něj dívají spíš svrchu, což byznysu nikdy znatelně neuškodilo.
+
+🎁 Bonus: Přijď raději za světla. Výběžek za klubem s vodárenskou věží, Muzeem Bedřicha Smetany a terasou nad jezem má jeden z nejlepších výhledů na Karlův most v celém městě, a to bez fronty.`,
+      zh: `查理浴场立在查理大桥的老城一端，保留了浴场的名字，干的却完全是另一回事。人们还是会半夜来这里出一身汗，只不过现在是跟着音乐出汗：五层楼，常被宣传为中欧最大的夜店。
+
+这一段河岸是诺沃特尼栈桥那条短短的岬角，挨着老城的磨坊和水塔，几百年来都是磨坊和公共浴场的地盘，浴场和磨坊主一样离不开伏尔塔瓦河。老城这段河岸上的浴场由来已久，最后一位泡澡的人走了很久以后，这栋房子仍留着浴场的名字。1999年起它成了夜店，有几个舞池就设在当年的泳池里，所以如今跳舞的地方，真的就是从前游泳的地方。
+
+每层楼放不同的音乐，从流行榜单到舞曲再到老歌，主要瞄准的是傍晚从查理大桥涌下来的游客。布拉格本地人对它多少有点不屑，但这从没明显影响过它的生意。
+
+🎁 彩蛋：不如白天来。夜店后面那条岬角上有水塔、斯美塔那博物馆和一片俯瞰堰坝的露台，是全城看查理大桥最好的角度之一，而且不用排队。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Kostel svatého Václava (Zderaz), Svatováclavská trestnice), novinky.cz.
+    name: 'Church of St. Wenceslas at Zderaz',
+    slug: 'kostel-sv-vaclava-na-zderaze',
+    localizedNames: { cz: 'Kostel sv. Václava na Zderaze', zh: '泽德拉兹圣瓦茨拉夫教堂' },
+    labels: ['church', 'gothic', 'romanesque'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07558179443345, lng: 14.415960531706107 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_V%C3%A1clava_(Zderaz)',
+    description: {
+      en: `The Church of St. Wenceslas at Zderaz is a small Gothic church on Resslova Street, older than the New Town around it. For eighty years it stood in the middle of Prague's biggest prison. Then the prison was torn down and moved to Pankrác, and the church simply stayed where it had always been.
+
+It began in the 12th century as the Romanesque church of Zderaz, a village outside the walls, and a piece of that first building still survives in its northwest corner. When Charles IV founded the New Town in 1348 the village was swallowed up, and the church was rebuilt in Gothic style in the second half of the 14th century, next to a monastery that the Hussites burned in August 1420. Later the Barefoot Augustinians settled here, until Joseph II abolished their monastery in 1785.
+
+In 1809 the empty buildings became the St. Wenceslas Prison, which opened with 204 prisoners brought from Terezín. Extensions followed until it held up to 1,600 people, and the prisoners were sent out to sweep Prague's streets. The church served as the prison chapel and at times as a store for military beds. Damp, crowded cells and a high death rate finally condemned the place: in 1889 it was demolished during the clearance of the New Town and the inmates were moved to the new prison at Pankrác. The church was restored in 1904 to 1909, and since 1927 it has belonged to the Czechoslovak Hussite Church, which commissioned new furnishings from the sculptor František Bílek.
+
+🎁 Bonus: Look out for Bílek's candlesticks shaped like human hands. Of all the things this church has held over the centuries, from monks to prisoners to army beds, a pair of hands holding a light is the gentlest.`,
+      cz: `Kostel sv. Václava na Zderaze je malý gotický kostel v Resslově ulici, starší než Nové Město kolem něj. Osmdesát let stál uprostřed největší pražské věznice. Pak věznici zbořili a přestěhovali na Pankrác, a kostel prostě zůstal, kde byl vždycky.
+
+Začínal ve 12. století jako románský kostel vsi Zderaz za hradbami a kus této první stavby se dochoval v jeho severozápadním rohu. Když Karel IV. roku 1348 založil Nové Město, ves v něm zanikla a kostel byl ve druhé polovině 14. století goticky přestavěn, vedle kláštera, který husité v srpnu 1420 vypálili. Později se tu usadili bosí augustiniáni, dokud Josef II. roku 1785 jejich klášter nezrušil.
+
+Roku 1809 se z prázdných budov stala Svatováclavská trestnice, otevřená s 204 vězni převezenými z Terezína. Následovaly přístavby, až pojala až 1600 lidí, a vězni chodili zametat pražské ulice. Kostel sloužil jako vězeňská kaple a občas jako sklad vojenských postelí. Vlhké a přeplněné cely a vysoká úmrtnost nakonec rozhodly: roku 1889 byla trestnice v rámci asanace zbořena a vězni převezeni do nové věznice na Pankráci. Kostel byl v letech 1904 až 1909 obnoven a od roku 1927 patří Církvi československé husitské, která si u sochaře Františka Bílka objednala nové vybavení.
+
+🎁 Bonus: Všimni si Bílkových svícnů ve tvaru lidských rukou. Ze všeho, co tento kostel za staletí pojal, od mnichů přes vězně po vojenské postele, jsou ruce držící světlo to nejlaskavější.`,
+      zh: `泽德拉兹圣瓦茨拉夫教堂是雷斯洛娃街上一座小小的哥特式教堂，比周围的新城还要老。有八十年时间，它就立在布拉格最大的监狱中间。后来监狱被拆掉、搬去了潘克拉茨，教堂则照旧待在原地，哪儿也没去。
+
+它最早是12世纪城墙外泽德拉兹村的罗马式教堂，那座最初的建筑至今还在西北角留着一截。1348年查理四世建立新城，村子被并了进去，教堂在14世纪下半叶改建成哥特式，旁边的修道院在1420年8月被胡斯派烧毁。后来赤足奥古斯丁会在这里落脚，直到1785年约瑟夫二世把他们的修道院解散。
+
+1809年，空出来的房子变成了圣瓦茨拉夫监狱，开张时关进了从特雷津押来的204名犯人。此后一再扩建，最多关过1600人，犯人们还被派出去打扫布拉格的街道。教堂当了监狱礼拜堂，有时还被拿来堆放军用床铺。潮湿拥挤的牢房和居高不下的死亡率最终判了这座监狱的死刑：1889年，它在新城的大拆迁中被夷平，犯人转往潘克拉茨新建的监狱。教堂在1904年至1909年间得到修缮，1927年起归捷克斯洛伐克胡斯派教会所有，教会请雕塑家弗朗齐歇克·比莱克为它设计了新的陈设。
+
+🎁 彩蛋：留意比莱克做的那对人手形状的烛台。几百年来，这座教堂装过修士、装过犯人、也装过军床，而一双捧着烛光的手，是其中最温柔的一样。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Akademické gymnázium Štěpánská), the school's own programme document,
+    // hrady.cz (1899 neo-Baroque building for the German state Realgymnasium).
+    name: 'Academic Grammar School',
+    slug: 'akademicke-gymnazium',
+    localizedNames: { cz: 'Akademické gymnázium', zh: '学院文理中学' },
+    labels: ['academy', 'historicism'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07849160149646, lng: 14.425424298839648 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Akademick%C3%A9_gymn%C3%A1zium_%C5%A0t%C4%9Bp%C3%A1nsk%C3%A1',
+    description: {
+      en: `The Academic Grammar School on Štěpánská Street calls itself the oldest grammar school in the Czech Republic, and it has the date to back it up: 1556. The building is a good deal younger. The school has simply moved house several times, the way a very old person might, carrying its name from one address to the next.
+
+It was founded in 1556 at the Jesuit college in the Klementinum, the same college the Jesuits had just brought to Prague to win the city back for Catholicism. Over the next centuries it outlived the Jesuits themselves, changed its language and its curriculum with the times, and in 1902 got a new home on the embankment next to the Rudolfinum.
+
+The neo-Baroque house on Štěpánská was built around 1899 to 1900 for a different school altogether, the German State Realgymnasium, to plans attributed to Václav Nekvasil. For decades it belonged to Prague's German-speaking education system. After the Second World War, when the German schools disappeared, the Academic Grammar School moved in, and it has stayed. Today it is also a teaching school of the Charles University Faculty of Science, so future teachers come here to try out their first lessons.
+
+🎁 Bonus: A school founded by the Jesuits now sits in a building put up for a German state school, in a street named after a medieval church. Few buildings in Prague are quite this good at being several things at once.`,
+      cz: `Akademické gymnázium ve Štěpánské ulici o sobě říká, že je nejstarším gymnáziem v České republice, a má k tomu i datum: 1556. Budova je o dost mladší. Škola se prostě několikrát stěhovala, jako to dělají velmi staří lidé, a své jméno si nosila z jedné adresy na druhou.
+
+Vznikla roku 1556 při jezuitské koleji v Klementinu, té koleji, kterou jezuité právě přivedli do Prahy, aby město získali zpět pro katolictví. V dalších staletích přežila samotné jezuity, s dobou měnila jazyk i učební plán a roku 1902 dostala novou budovu na nábřeží vedle Rudolfina.
+
+Novobarokní dům ve Štěpánské vznikl kolem let 1899 až 1900 pro úplně jinou školu, Státní německé reálné gymnázium, podle plánů připisovaných Václavu Nekvasilovi. Desítky let patřil pražskému německému školství. Po druhé světové válce, když německé školy zmizely, se sem nastěhovalo Akademické gymnázium a už zůstalo. Dnes je také fakultní školou Přírodovědecké fakulty Univerzity Karlovy, takže sem budoucí učitelé chodí zkoušet své první hodiny.
+
+🎁 Bonus: Škola založená jezuity sídlí v budově postavené pro německé státní gymnázium, v ulici pojmenované po středověkém kostele. Málokterý dům v Praze umí být tolika věcmi najednou.`,
+      zh: `施泰潘斯卡街上的学院文理中学自称是捷克最古老的文理中学，而且有年份撑腰：1556年。楼可年轻多了。这所学校只是搬过好几次家，就像一位很老的老人，把自己的名字从一个地址带到下一个地址。
+
+它1556年创办于克莱门特学院的耶稣会学院，耶稣会刚被请到布拉格，就是要把这座城市重新争取回天主教。此后几百年，它熬过了耶稣会本身，随着时代换过教学语言和课程，1902年又在鲁道夫音乐厅旁边的河岸上有了新校舍。
+
+施泰潘斯卡街这栋新巴洛克式的楼，大约建于1899年至1900年，是给另一所学校盖的：德语国立实科文理中学，设计一般归于瓦茨拉夫·内克瓦西尔。几十年里，它一直属于布拉格的德语教育系统。二战之后德语学校消失，学院文理中学搬了进来，从此留下。如今它还是查理大学理学院的实习学校，未来的老师们会来这里上他们人生的第一堂课。
+
+🎁 彩蛋：一所耶稣会创办的学校，住在一栋为德语国立中学盖的楼里，所在的街又是以一座中世纪教堂命名的。布拉格很少有房子能同时身兼这么多角色。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Palác Rokoko), aoc.archi (2008–2012 theatre renovation).
+    name: 'Rokoko Palace',
+    slug: 'palac-rokoko',
+    localizedNames: { cz: 'Palác Rokoko', zh: '洛可可宫' },
+    labels: ['palace', 'art-nouveau', 'cubism'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08146801227684, lng: 14.426658161196725 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Rokoko',
+    description: {
+      en: `Rokoko Palace on Wenceslas Square has a name that promises curls, cherubs and pastel stucco, and then delivers something else entirely: a reinforced-concrete building of 1912 to 1916 with stern geometric masks and a touch of Cubism. The only real Rococo thing about it is the theatre in the basement, and even that is just a name.
+
+It was designed by Emil Králíček for the lawyer and insurance man Josef Šupich, and built by Matěj Blecha's firm on the site of the early 17th-century Aehrenthal Palace, which was torn down for it. The First World War slowed the work from 1914. Architect and client were both from Německý Brod, today's Havlíčkův Brod, which may explain why they got on. The palace was built together with Lucerna next door, and a passage with shops runs through it from the square into the Lucerna arcade, so you can walk in off Wenceslas Square and come out somewhere else without ever noticing where one building ended.
+
+The Rokoko Theatre has been in the basement since the beginning, and it has hosted a remarkable line-up: the singer Karel Hašler, Eduard Bass's cabaret Červená sedma, the comedian Vlasta Burian and Jiří Trnka's Wooden Theatre all played here. It was renovated between 2008 and 2012 and still stages plays today.
+
+🎁 Bonus: Walk through the passage from the square and you end up inside Lucerna without noticing the border. It is the easiest way to visit two palaces for the price of none.`,
+      cz: `Palác Rokoko na Václavském náměstí má jméno, které slibuje kudrlinky, andílky a pastelovou štukaturu, a pak nabídne něco úplně jiného: železobetonovou stavbu z let 1912 až 1916 s přísnými geometrickými maskarony a kapkou kubismu. Jediné opravdu rokokové na ní je divadlo v suterénu, a i to jen jménem.
+
+Navrhl ho Emil Králíček pro advokáta a pojišťovacího podnikatele Josefa Šupicha a postavila ho firma Matěje Blechy na místě raně barokního Aehrenthalského paláce ze 17. století, který kvůli němu zbourali. První světová válka od roku 1914 práce zpomalila. Architekt i stavebník pocházeli z Německého Brodu, dnešního Havlíčkova Brodu, což možná vysvětluje, proč si rozuměli. Palác vznikal spolu se sousední Lucernou a prochází jím pasáž s obchody z náměstí do lucernovské pasáže, takže z Václaváku vejdeš a vyjdeš úplně jinde, aniž by sis všiml, kde jedna budova skončila.
+
+Divadlo Rokoko je v suterénu od samého začátku a vystřídala se v něm pozoruhodná společnost: zpěvák Karel Hašler, kabaret Červená sedma Eduarda Basse, komik Vlasta Burian i Dřevěné divadlo Jiřího Trnky. V letech 2008 až 2012 bylo zrekonstruováno a hraje dodnes.
+
+🎁 Bonus: Projdi pasáží z náměstí a ocitneš se v Lucerně, aniž by sis všiml hranice. Je to nejsnazší způsob, jak navštívit dva paláce za cenu žádného.`,
+      zh: `瓦茨拉夫广场上的洛可可宫，名字让人想到卷曲花饰、小天使和粉彩灰泥，端出来的却完全是另一回事：一栋1912年至1916年的钢筋混凝土建筑，立面上是一张张严肃的几何面具，还带一点立体主义。它身上唯一真正“洛可可”的，是地下室里的剧院，而那也只是个名字。
+
+它由埃米尔·克拉利切克设计，业主是律师兼保险商约瑟夫·舒皮赫，由马捷伊·布莱哈的公司施工，原址是一座17世纪初的埃伦塔尔宫，为了它被拆掉了。1914年起，第一次世界大战拖慢了工程。建筑师和业主都来自德意志布罗德，也就是今天的哈夫利切克布罗德，这大概能解释两人为什么合得来。它和隔壁的卢塞纳宫同期建造，一条商铺林立的通道从广场穿过它，直通卢塞纳拱廊，所以你从瓦茨拉夫广场走进去，从别处走出来，全程都不会察觉一栋楼在哪里结束、另一栋在哪里开始。
+
+洛可可剧院从一开始就在地下室，来过这里的人相当了不起：歌手卡雷尔·哈斯勒、爱德华·巴斯的“红七”卡巴莱、喜剧演员弗拉斯塔·布里安，还有伊日·特伦卡的木偶剧场。剧院在2008年至2012年间翻修，至今仍在演出。
+
+🎁 彩蛋：从广场穿过通道，你会不知不觉走进卢塞纳宫，连边界都察觉不到。这是一次逛两座宫殿、一分钱不花的最省事办法。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Fara u svatého Štěpána v Praze), encyklopedie.praha2.cz (čp. 568/10).
+    name: 'St. Stephen\'s Rectory',
+    slug: 'fara-u-sv-stepana',
+    localizedNames: { cz: 'Fara u sv. Štěpána', zh: '圣斯德望堂区神父住宅' },
+    labels: ['baroque', 'embassy', 'hidden-gem'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07713246492391, lng: 14.424972743827299 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Fara_u_svat%C3%A9ho_%C5%A0t%C4%9Bp%C3%A1na_v_Praze',
+    description: {
+      en: `St. Stephen's Rectory, on the corner of Štěpánská and Žitná just north of the church, is the house where the parish priest used to live. It has been here, in one form or another, since the 14th century, and it now does something no medieval priest would have guessed: it works for the Kingdom of Spain.
+
+The parish of St. Stephen was one of those founded with Charles IV's New Town, and the rectory is first mentioned in 1379. Part of its Gothic cellar survives from that first building. Around 1750 it was rebuilt in the high Baroque style that gives it its present look, a dignified corner house that is easy to walk past because the church next door gets all the attention.
+
+The parish office has since moved a few streets away to Ječná, and the Baroque rectory now houses the economic and commercial section of the Spanish Embassy. The building is a protected monument.
+
+🎁 Bonus: Underneath a Spanish trade office there is still a Gothic cellar from the 14th century. Whatever deals are made upstairs, the basement has seen longer-lasting arrangements.`,
+      cz: `Fara u sv. Štěpána na rohu Štěpánské a Žitné, kousek severně od kostela, je dům, kde kdysi bydlel farář. Stojí tu v té či oné podobě od 14. století a dnes dělá něco, co by žádného středověkého kněze nenapadlo: pracuje pro Španělské království.
+
+Farnost sv. Štěpána vznikla spolu s Novým Městem Karla IV. a fara je poprvé zmíněna roku 1379. Z této první stavby se dochovala část gotického sklepa. Kolem roku 1750 byla přestavěna ve vrcholném baroku, které jí dalo dnešní podobu, důstojný nárožní dům, který se snadno přehlédne, protože veškerou pozornost si bere sousední kostel.
+
+Farní úřad se mezitím přestěhoval o pár ulic dál do Ječné a barokní fara dnes slouží ekonomickému a obchodnímu oddělení Velvyslanectví Španělského království. Budova je kulturní památkou.
+
+🎁 Bonus: Pod španělskou obchodní kanceláří je pořád gotický sklep ze 14. století. Ať se nahoře dojednává cokoli, sklep už viděl dohody trvanlivější.`,
+      zh: `圣斯德望堂区神父住宅位于施泰潘斯卡街与日特纳街的街角，就在教堂北边，是从前本堂神父住的房子。它以各种样貌在这里立了600多年，如今干着一件中世纪神父绝对想不到的事：替西班牙王国上班。
+
+圣斯德望堂区是随查理四世的新城一同设立的，这座神父住宅最早见于1379年的记载，当年那栋房子的一部分哥特式地窖保存至今。约1750年，它按盛期巴洛克风格改建，有了今天的模样：一栋端庄的街角房子，因为隔壁教堂抢走了所有目光，很容易被人一走而过。
+
+后来堂区办公室搬到了几条街外的耶奇纳街，这座巴洛克住宅现在是西班牙王国大使馆经济商务处的办公地，并被列为文物保护建筑。
+
+🎁 彩蛋：一间西班牙商务办公室底下，还压着一座14世纪的哥特式地窖。楼上谈成什么买卖都好，地下室见过的约定可比那长久多了。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Francouzský institut v Praze), martinfryc.eu (Štěpánská 35 from
+    // 1 Oct 1930, closed May 1951, reopened 9 Dec 1993 by Havel and Mitterrand).
+    name: 'French Institute in Prague',
+    slug: 'institut-francais-de-prague',
+    localizedNames: { cz: 'Francouzský institut v Praze', zh: '布拉格法国文化中心' },
+    labels: ['cultural', 'embassy'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07886747557826, lng: 14.425144202253358 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Francouzsk%C3%BD_institut_v_Praze',
+    description: {
+      en: `The French Institute on Štěpánská Street is where Prague goes for French films, French books, French lessons and, at the café on the ground floor, French breakfast. It has been doing this since 1920, with one long interruption, when the communist authorities decided that a place handing out French grammar was probably a nest of spies.
+
+It was founded in November 1920 and long carried the name of the historian Ernest Denis, a Frenchman who had written the history of Bohemia and championed Czechoslovak independence. From 1930 it was based here at Štěpánská 35. Between the wars it was a busy place, with exhibitions, lectures and free French courses for anyone who wanted them.
+
+After 1948 the mood changed. A denunciation in 1949 had it labelled a spy centre, and in May 1951 it was forced to close. It came back after the Velvet Revolution, and on 9 December 1993 Václav Havel and François Mitterrand opened the renewed premises together. Today it has a cinema, Kino 35, a library and media centre, a gallery and a bistro, and it serves as the cultural arm of the French Embassy.
+
+🎁 Bonus: The cinema, the gallery and the café are all called "35", after the house number. It saves a lot of arguments about names.`,
+      cz: `Francouzský institut ve Štěpánské ulici je místo, kam Praha chodí na francouzské filmy, francouzské knihy, francouzštinu a v kavárně v přízemí i na francouzskou snídani. Dělá to od roku 1920, s jednou dlouhou přestávkou, když komunistické úřady usoudily, že místo, kde se rozdává francouzská gramatika, bude nejspíš hnízdo špionů.
+
+Založen byl v listopadu 1920 a dlouho nesl jméno historika Ernesta Denise, Francouze, který napsal dějiny Čech a podporoval československou samostatnost. Od roku 1930 sídlil tady ve Štěpánské 35. Mezi válkami to byl rušný dům s výstavami, přednáškami a bezplatnými kurzy francouzštiny pro každého, kdo chtěl.
+
+Po roce 1948 se nálada změnila. Udání z roku 1949 z něj udělalo špionážní centrum a v květnu 1951 musel zavřít. Vrátil se po sametové revoluci a 9. prosince 1993 obnovené prostory společně otevřeli Václav Havel a François Mitterrand. Dnes má kino Kino 35, knihovnu a mediatéku, galerii i bistro a slouží jako kulturní složka francouzského velvyslanectví.
+
+🎁 Bonus: Kino, galerie i kavárna se jmenují „35“, podle čísla domu. Ušetří to spoustu dohadování o názvech.`,
+      zh: `施泰潘斯卡街上的法国文化中心，是布拉格人看法国电影、读法国书、学法语的地方，一楼咖啡馆还能吃上法式早餐。它从1920年起就干这些事，中间停过很长一段：那时共产党当局认定，一个教人法语语法的地方，多半是个间谍窝。
+
+它创办于1920年11月，很长时间都以历史学家埃内斯特·德尼命名，这位法国人写过波希米亚史，也大力支持捷克斯洛伐克独立。1930年起，它就设在施泰潘斯卡街35号。两次大战之间，这里热闹得很，有展览、讲座，还有对所有人开放的免费法语课。
+
+1948年以后，风向变了。1949年的一封告密信让它被扣上“间谍中心”的帽子，1951年5月被迫关门。天鹅绒革命后它重新开张，1993年12月9日，瓦茨拉夫·哈维尔和弗朗索瓦·密特朗一起为翻新后的场馆揭幕。如今这里有“35号电影院”、图书馆和多媒体中心、画廊和小酒馆，也是法国大使馆的文化部门。
+
+🎁 彩蛋：电影院、画廊和咖啡馆都叫“35”，取自门牌号。这样就省掉了好多起名字的争论。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Reálné gymnázium v Ječné).
+    name: 'Former Real Gymnasium in Ječná',
+    slug: 'realne-gymnazium-v-jecne',
+    localizedNames: { cz: 'Reálné gymnázium v Ječné', zh: '耶奇纳街实科中学旧址' },
+    labels: ['academy', 'historicism'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.075433516639144, lng: 14.426031734068966 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Re%C3%A1ln%C3%A9_gymn%C3%A1zium_v_Je%C4%8Dn%C3%A9',
+    description: {
+      en: `The big school building on the corner of Ječná and Ke Karlovu was once the "First Czech Reálka", the first secondary school in Prague to teach the modern, practical subjects in Czech: maths, science, drawing, the things a 19th-century nation needed to build its own factories and bridges. It still teaches technology today, just with more electricity.
+
+The school opened in 1849 and moved around before the state built it this home in 1873 to 1875, on a former garden plot that ran through to Kateřinská. The plot alone cost 90,000 gulden and the building 454,000, a serious sum for a school, and it got three storeys and fourteen halls. Its pupils and teachers included the architect Josef Fanta, the graphic artist Vojtěch Preissig, the mathematician Vojtěch Jarník and the historian Antonín Gindely.
+
+The 20th century was hard on it. During the First World War part of the building became a reserve hospital, and in 1930 the school was renamed after Masaryk. In October 1944 it took in the Jirásek Grammar School, which had lost its own building, and in the air raid of 14 February 1945 a bomb damaged the west wing. Since 1949 the house has belonged to the Secondary Technical School of Electrical Engineering, known simply as "Ječná".
+
+🎁 Bonus: Ječná means "Barley Street". Generations of Prague schoolchildren have learned their algebra on a street named after a cereal.`,
+      cz: `Velká školní budova na rohu Ječné a Ke Karlovu byla kdysi „První česká reálka“, první pražská střední škola, která učila moderní praktické předměty česky: matematiku, přírodní vědy, kreslení, tedy to, co národ 19. století potřeboval, aby si postavil vlastní továrny a mosty. Technice se tu učí dodnes, jen s více elektřinou.
+
+Škola vznikla roku 1849 a nějakou dobu se stěhovala, než jí stát v letech 1873 až 1875 postavil tento dům na bývalé zahradě, která sahala až do Kateřinské. Samotný pozemek stál 90 000 zlatých a budova 454 000, na školu pořádná suma, a dostala tři patra a čtrnáct sálů. Mezi jejími žáky a učiteli byli architekt Josef Fanta, grafik Vojtěch Preissig, matematik Vojtěch Jarník i historik Antonín Gindely.
+
+Dvacáté století k ní laskavé nebylo. Za první světové války se část budovy stala záložní nemocnicí a roku 1930 škola dostala Masarykovo jméno. V říjnu 1944 přijala Jiráskovo gymnázium, které přišlo o vlastní budovu, a při náletu 14. února 1945 bomba poškodila západní křídlo. Od roku 1949 dům patří Střední průmyslové škole elektrotechnické, které se říká prostě „Ječná“.
+
+🎁 Bonus: Generace pražských školáků se učily algebru v ulici pojmenované po obilí.`,
+      zh: `耶奇纳街与凯卡尔洛夫街街角的这栋大校舍，曾是“第一捷克实科中学”，布拉格第一所用捷克语教授现代实用科目的中学：数学、自然科学、绘图，也就是一个19世纪的民族想自己造工厂、架桥梁所需要的那些东西。如今这里依然教技术，只是多了不少电。
+
+学校创办于1849年，搬过几次家，直到1873年至1875年国家在一块一直延伸到卡泰日纳街的旧花园上为它盖了这座楼。光地皮就花了9万古尔登，楼又花了45.4万，对一所学校来说是大手笔，换来三层楼和十四间大厅。在这里读过书或教过书的，有建筑师约瑟夫·凡塔、版画家沃伊捷赫·普赖西格、数学家沃伊捷赫·亚尔尼克和历史学家安东宁·金德利。
+
+20世纪对它可不客气。一战期间，楼里一部分改成了后备医院；1930年，学校改以马萨里克命名。1944年10月，它收留了失去校舍的伊拉塞克文理中学；1945年2月14日的空袭中，一枚炸弹炸坏了西翼。1949年起，这栋楼归电气工程中等技术学校所有，大家干脆就叫它“耶奇纳”。
+
+🎁 彩蛋：耶奇纳街的意思是“大麦街”。一代又一代布拉格学生，就在一条以粮食命名的街上学会了代数。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: encyklopedie.praha2.cz
+    // (Mariánský ústav Kongregace Dcer Božské lásky, Ječná čp. 527/33), cs.wikipedia.
+    name: 'John Paul II Church Nursing School',
+    slug: 'cirkevni-zdravotnicka-skola-jecna',
+    localizedNames: { cz: 'Církevní střední zdravotnická škola Jana Pavla II.', zh: '若望保禄二世教会护理学校' },
+    labels: ['academy', 'historicism'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.075741374538325, lng: 14.426530471839133 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/C%C3%ADrkevn%C3%AD_st%C5%99edn%C3%AD_zdravotnick%C3%A1_%C5%A1kola_Jana_Pavla_II.',
+    description: {
+      en: `This neo-Renaissance house on Ječná looks like an ordinary block of flats with ambitions, and only a few details give away that it was built as a convent. For seventy years nuns ran it as a safe place for country girls who came to Prague to work as maids. Now it trains nurses, which is not so far from the original idea.
+
+In 1880 Františka Lechnerová, founder of the Congregation of the Daughters of Divine Love, bought the house. The sisters moved in on 14 February 1881, rebuilt it and added the Chapel of the Holy Cross, and the Marian Institute opened that year. It was a home for young women in service: a girl arriving in the city to look for a job as a servant could get a free bed and meals here until she found one, instead of falling into the hands of the people who waited at railway stations for exactly such girls. There was also room for female students and office workers.
+
+In 1950 the communist state made the sisters leave. The army took the building the next year, and later it served the military department of the Czech Technical University. After 1989 it went back to the congregation, and since 1992 it has housed the Catholic secondary nursing school named after John Paul II.
+
+🎁 Bonus: The chapel is still in the house, so the school may be the only one in Prague where the nearest place to pray before an exam is upstairs.`,
+      cz: `Tento novorenesanční dům v Ječné vypadá jako obyčejný činžák s ambicemi a jen pár detailů prozrazuje, že byl postaven jako klášter. Sedmdesát let v něm řeholnice provozovaly bezpečné útočiště pro venkovské dívky, které přišly do Prahy sloužit. Dnes se tu učí zdravotní sestry, což od původní myšlenky není tak daleko.
+
+Roku 1880 dům koupila Františka Lechnerová, zakladatelka Kongregace Dcer Božské lásky. Sestry se nastěhovaly 14. února 1881, dům přestavěly a přidaly kapli sv. Kříže, a téhož roku se otevřel Mariánský ústav. Byl to domov pro mladé ženy ve službě: dívka, která přijela do města hledat místo služky, tu mohla zdarma bydlet a jíst, dokud práci nenašla, místo aby padla do rukou lidí, kteří na nádražích čekali právě na takové dívky. Místo se našlo i pro studentky a úřednice.
+
+Roku 1950 musely sestry z rozhodnutí komunistického státu odejít. Rok nato budovu převzala armáda a později sloužila vojenské katedře ČVUT. Po roce 1989 se vrátila kongregaci a od roku 1992 v ní sídlí Církevní střední zdravotnická škola Jana Pavla II.
+
+🎁 Bonus: Kaple je v domě pořád, takže je to možná jediná pražská škola, kde nejbližší místo k modlitbě před zkouškou je o patro výš.`,
+      zh: `耶奇纳街上这栋新文艺复兴式的房子，看起来像一栋有点抱负的普通公寓楼，只有几处细节透露出它本是当修道院盖的。七十年间，修女们把这里经营成乡下姑娘的避风港，这些姑娘来布拉格是为了当女佣。如今这里培养护士，离当初的用意其实也不远。
+
+1880年，圣爱女修会的创办人弗朗齐什卡·莱赫内罗娃买下了这栋房子。1881年2月14日修女们搬进来，改建房屋，增建了圣十字小教堂，圣母玛利亚学院同年开张。它是给出来帮佣的年轻女子住的地方：一个刚进城找女佣活计的姑娘，可以在这里免费吃住，直到找到工作为止，而不是落进那些专在火车站守着这种姑娘的人手里。这里也给女学生和女职员留了房间。
+
+1950年，共产党政府逼修女们离开。第二年军队接管了大楼，后来又给捷克理工大学的军事教研室用。1989年后它回到修会手中，1992年起这里是以若望保禄二世命名的天主教护理中学。
+
+🎁 彩蛋：小教堂至今还在楼里，所以这大概是布拉格唯一一所考试前想祈祷、上一层楼就到的学校。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: encyklopedie.praha2.cz
+    // (Ke Karlovu 2027/3 of 1907; Physics Institute 2026/5 of 1905–07, plans by
+    // Jan Gerstl), mff.cuni.cz history, cs.wikipedia.
+    name: 'Faculty of Mathematics and Physics, Charles University',
+    slug: 'mff-uk-ke-karlovu',
+    localizedNames: { cz: 'Matematicko-fyzikální fakulta Univerzity Karlovy', zh: '查理大学数学物理学院' },
+    labels: ['academy'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.069510617902736, lng: 14.428052054174055 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Matematicko-fyzik%C3%A1ln%C3%AD_fakulta_Univerzity_Karlovy',
+    description: {
+      en: `The buildings at Ke Karlovu 3 and 5 are where Charles University keeps its mathematicians and physicists, on a quiet street at the top of the New Town. It is a fittingly logical spot: on one side the slope down to the Botič valley, on the other a Gothic church, and in between, people working out why both of them stay up.
+
+Physics moved here first. The Physics Institute at number 5 was built in 1905 to 1907 to plans by Jan Gerstl, and in 1907 physics left its cramped rooms in the Klementinum for it. The Mathematical Institute next door, number 3, went up in 1907 on the empty plot beside it, to plans from the imperial building office, and together they joined the university district around Albertov. The faculty itself is younger than its buildings: it split off from the Faculty of Science on 1 September 1952, with the mathematician Miroslav Katětov as its first dean.
+
+Today Karlov is one of the faculty's several sites, alongside the old Jesuit house on Malostranské náměstí and the newer campuses in Karlín and Troja, and the building at number 3 holds much of the dean's office.
+
+🎁 Bonus: The faculty's physical education rules include one item that surprises new students: anyone who cannot swim has to learn. Even theoretical physicists are expected to float.`,
+      cz: `Budovy Ke Karlovu 3 a 5 jsou místo, kde Univerzita Karlova chová své matematiky a fyziky, v klidné ulici na horním konci Nového Města. Je to příhodně logické místo: na jedné straně svah do údolí Botiče, na druhé gotický kostel a mezi nimi lidé, kteří počítají, proč obojí drží.
+
+Fyzika se sem nastěhovala první. Fyzikální ústav v čísle 5 vznikl v letech 1905 až 1907 podle plánů Jana Gerstla a roku 1907 do něj fyzika odešla ze stísněných místností v Klementinu. Matematický ústav vedle, číslo 3, vyrostl roku 1907 na prázdném pozemku podle plánů c. k. stavebního úřadu, a oba se tak připojily k univerzitní čtvrti kolem Albertova. Fakulta sama je mladší než její budovy: od Přírodovědecké fakulty se oddělila 1. září 1952 a prvním děkanem byl matematik Miroslav Katětov.
+
+Dnes je Karlov jedním z několika areálů fakulty, vedle starého jezuitského domu na Malostranském náměstí a novějších kampusů v Karlíně a Troji, a v budově číslo 3 sídlí velká část děkanátu.
+
+🎁 Bonus: Pravidla tělesné výchovy na fakultě obsahují bod, který nováčky překvapí: kdo neumí plavat, musí se to naučit. I od teoretických fyziků se čeká, že se udrží nad vodou.`,
+      zh: `凯卡尔洛夫街3号和5号，是查理大学安置数学家和物理学家的地方，在新城上缘一条安静的街上。这位置逻辑得恰到好处：一边是通往博蒂奇河谷的坡，一边是一座哥特式教堂，中间是一群在算这两样东西为什么都不会倒的人。
+
+物理学先搬过来。5号的物理研究所按扬·盖斯特尔的设计建于1905年至1907年，1907年物理学从克莱门特学院狭窄的房间搬了进来。隔壁3号的数学研究所在1907年于旁边的空地上建成，图纸出自帝国建筑局，两栋楼就此加入了阿尔贝托夫一带的大学区。学院本身比楼还年轻：1952年9月1日它才从理学院分出来，首任院长是数学家米罗斯拉夫·卡捷托夫。
+
+如今卡尔洛夫是学院的几个校区之一，另外还有小城广场上的老耶稣会会馆，以及卡林和特罗亚的新校区；3号楼里则是院长办公室的大部分部门。
+
+🎁 彩蛋：学院的体育课规定里有一条让新生意外：不会游泳的人必须学会。就算是理论物理学家，也得能浮在水面上。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (1. lékařská fakulta UK), centrumcarolina.cuni.cz (Kateřinská 32).
+    name: 'First Faculty of Medicine, Charles University',
+    slug: 'prvni-lekarska-fakulta-uk',
+    localizedNames: { cz: '1. lékařská fakulta Univerzity Karlovy', zh: '查理大学第一医学院' },
+    labels: ['academy'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07458245001176, lng: 14.426682899681314 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/1._l%C3%A9ka%C5%99sk%C3%A1_fakulta_Univerzity_Karlovy',
+    description: {
+      en: `The First Faculty of Medicine has its dean's office on Kateřinská, but in truth the faculty is the whole neighbourhood: clinics, institutes and lecture halls scattered between Karlovo náměstí and Albertov, so that half the people walking these streets in a white coat are on their way from one part of it to another.
+
+It traces its line back to 1348, when Charles IV founded the university with medicine as one of its four faculties. In 1883 the university split into a Czech and a German half, and the medical faculty with it. The Czech faculty was closed by the Nazis on 17 November 1939 along with all Czech universities, and during the war about thirty of its graduates and students in exile took their medical degrees at Oxford. In 1953 the faculty was split again into three, and the one based here, then the Faculty of General Medicine, became the First Faculty of Medicine after 1990.
+
+Its graduates include Jan Janský, who discovered the four human blood groups, the paediatric neurologist Václav Vojta, and the doctor Josef Thomayer, after whom a Prague hospital is named. Two of its graduates, Vladislav Vančura and František Langer, also became leading Czech writers.
+
+🎁 Bonus: The faculty's emblem is a pelican feeding its young with its own blood, an old symbol of sacrifice. For a school whose most famous discovery is the blood groups, it is almost too fitting.`,
+      cz: `1. lékařská fakulta má děkanát v Kateřinské, ale ve skutečnosti je fakultou celá čtvrť: kliniky, ústavy a posluchárny roztroušené mezi Karlovým náměstím a Albertovem, takže polovina lidí v bílém plášti, které v těchto ulicích potkáš, jde z jedné její části do druhé.
+
+Svou linii odvozuje od roku 1348, kdy Karel IV. založil univerzitu a lékařství bylo jednou z jejích čtyř fakult. Roku 1883 se univerzita rozdělila na českou a německou a lékařská fakulta s ní. Českou fakultu zavřeli nacisté 17. listopadu 1939 spolu se všemi českými vysokými školami a za války získalo asi třicet jejích absolventů a studentů v exilu lékařský titul v Oxfordu. Roku 1953 se fakulta znovu rozdělila na tři a ta zdejší, tehdy Fakulta všeobecného lékařství, se po roce 1990 stala 1. lékařskou fakultou.
+
+Mezi jejími absolventy jsou Jan Janský, který objevil čtyři krevní skupiny, dětský neurolog Václav Vojta a lékař Josef Thomayer, po němž se jmenuje jedna pražská nemocnice. Dva absolventi, Vladislav Vančura a František Langer, se navíc stali předními českými spisovateli.
+
+🎁 Bonus: Znakem fakulty je pelikán, který krmí mláďata vlastní krví, starý symbol oběti. U školy, jejímž nejslavnějším objevem jsou krevní skupiny, je to skoro až příliš přiléhavé.`,
+      zh: `第一医学院的院长办公室在卡泰日纳街，但说实话，整个街区都是这所学院：诊所、研究所和讲堂散落在查理广场和阿尔贝托夫之间，你在这几条街上遇到的穿白大褂的人，有一半正从学院的这一处走去那一处。
+
+它的谱系可以追溯到1348年，查理四世创立大学时，医学就是四大学院之一。1883年大学分成捷克和德意志两半，医学院也跟着一分为二。1939年11月17日，纳粹关闭了所有捷克高校，捷克医学院也在其中；战争期间，约三十名流亡的毕业生和学生在牛津拿到了医学学位。1953年学院又被拆成三所，设在这里的那所当时叫普通医学院，1990年后改名为第一医学院。
+
+它的毕业生里有发现人类四种血型的扬·扬斯基、儿童神经科医生瓦茨拉夫·沃伊塔，还有布拉格一家医院以其命名的医生约瑟夫·托迈尔。另有两位毕业生，弗拉迪斯拉夫·万丘拉和弗朗齐歇克·朗格尔，后来成了捷克重要的作家。
+
+🎁 彩蛋：学院的徽章是一只用自己的血喂养幼鸟的鹈鹕，一个古老的牺牲象征。对一所最出名的发现就是血型的学校来说，这几乎贴切过头了。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Přírodovědecká fakulta UK, Hrdličkovo muzeum člověka).
+    name: 'Faculty of Science, Charles University',
+    slug: 'prirodovedecka-fakulta-uk',
+    localizedNames: { cz: 'Přírodovědecká fakulta Univerzity Karlovy', zh: '查理大学理学院' },
+    labels: ['academy', 'museum'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07228502820653, lng: 14.424244619369942 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/P%C5%99%C3%ADrodov%C4%9Bdeck%C3%A1_fakulta_Univerzity_Karlovy',
+    description: {
+      en: `The Faculty of Science fills the streets around Albertov, Viničná and Benátská with geologists, biologists, chemists and geographers, plus a few things most faculties don't have: a public museum of human skeletons and mummies, a memorial plaque to Albert Einstein, and the place where two student marches started fifty years apart.
+
+The faculty was founded on 24 June 1920, when the natural sciences split off from the Faculty of Arts, with the mathematician Karel Petr as its first dean. Its buildings already had history: at Viničná 7 a plaque recalls that Einstein taught at the German University in Prague in 1911 and 1912. The faculty's chemist Jaroslav Heyrovský won the Nobel Prize in 1959 for inventing polarography. On 15 November 1939 the funeral of the student Jan Opletal set out from Albertov and turned into a protest, which the Nazis answered two days later by closing all Czech universities. On 17 November 1989 students gathered at the same spot to remember that day and set out on the march that began the Velvet Revolution.
+
+In the faculty building at Viničná 7 is the Hrdlička Museum of Man, founded in the 1930s on the initiative of the Czech-American anthropologist Aleš Hrdlička with support from President Masaryk. It shows skeletons, skulls, mummies and the range of human variation, and it is open to visitors on weekdays. The faculty is also home to the Czech Zoological Society.
+
+🎁 Bonus: Einstein, a Nobel laureate, two revolutions and a room full of skeletons, all within a few hundred metres. Few university quarters can match Albertov for the ratio of history to hallway.`,
+      cz: `Přírodovědecká fakulta plní ulice kolem Albertova, Viničné a Benátské geology, biology, chemiky a geografy a k tomu několika věcmi, které většina fakult nemá: veřejným muzeem lidských koster a mumií, pamětní deskou Alberta Einsteina a místem, odkud v odstupu padesáti let vyšly dva studentské průvody.
+
+Fakulta vznikla 24. června 1920, když se přírodní vědy oddělily od filozofické fakulty, a prvním děkanem byl matematik Karel Petr. Její budovy už měly svou historii: ve Viničné 7 připomíná deska, že Einstein tu v letech 1911 a 1912 učil na německé univerzitě. Chemik fakulty Jaroslav Heyrovský dostal roku 1959 Nobelovu cenu za vynález polarografie. Pohřeb studenta Jana Opletala vyšel 15. listopadu 1939 z Albertova a změnil se v protest, na který nacisté o dva dny později odpověděli uzavřením všech českých vysokých škol. Dne 17. listopadu 1989 se na stejném místě sešli studenti, aby si ten den připomněli, a vyšli na průvod, kterým začala sametová revoluce.
+
+V budově fakulty ve Viničné 7 sídlí Hrdličkovo muzeum člověka, založené ve 30. letech z podnětu česko-amerického antropologa Aleše Hrdličky a s podporou prezidenta Masaryka. Ukazuje kostry, lebky, mumie a rozmanitost lidského těla a ve všední dny je otevřené návštěvníkům. Na fakultě sídlí také Česká zoologická společnost.
+
+🎁 Bonus: Einstein, nobelista, dvě revoluce a místnost plná koster, a to všechno na pár stech metrech. Málokterá univerzitní čtvrť se Albertovu vyrovná v poměru dějin na metr chodby.`,
+      zh: `理学院把阿尔贝托夫、维尼奇纳街和贝纳特斯卡街一带塞满了地质学家、生物学家、化学家和地理学家，另外还有几样大多数学院都没有的东西：一座对外开放、陈列人类骨骼和木乃伊的博物馆，一块纪念阿尔伯特·爱因斯坦的牌子，以及相隔五十年、两次学生游行出发的地方。
+
+学院成立于1920年6月24日，自然科学从文学院分了出来，首任院长是数学家卡雷尔·佩特尔。它的楼本来就有故事：维尼奇纳街7号的一块牌子提醒你，爱因斯坦1911年至1912年曾在布拉格德语大学任教。学院的化学家雅罗斯拉夫·海洛夫斯基凭发明极谱法获得1959年诺贝尔奖。1939年11月15日，学生扬·奥普莱塔尔的葬礼队伍从阿尔贝托夫出发，变成了一场抗议，两天后纳粹以关闭所有捷克高校作为回应。1989年11月17日，学生们为纪念那一天又聚集在同一个地点，从这里出发的游行揭开了天鹅绒革命的序幕。
+
+维尼奇纳街7号的学院楼里有赫尔德利奇卡人类博物馆，20世纪30年代在捷克裔美国人类学家阿莱什·赫尔德利奇卡的倡议下、并得到马萨里克总统的支持而创办。馆里陈列骨架、头骨、木乃伊和人类体质的种种差异，工作日对外开放。捷克动物学会也设在这所学院。
+
+🎁 彩蛋：爱因斯坦、一位诺贝尔奖得主、两场革命，外加一屋子骷髅，全在几百米之内。论每米走廊摊到的历史，很少有大学区比得上阿尔贝托夫。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Kupecká nemocnice).
+    name: 'Merchants\' Hospital',
+    slug: 'kupecka-nemocnice',
+    localizedNames: { cz: 'Kupecká nemocnice', zh: '商人医院' },
+    labels: ['municipal', 'historicism'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07105961927118, lng: 14.428396819038957 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kupeck%C3%A1_nemocnice',
+    description: {
+      en: `The Merchants' Hospital is a small red-brick neo-Gothic building that looks like a chapel which decided to take in patients. It was built by Prague's merchants for their own people, the shop assistants and clerks who had nowhere to go when they fell ill.
+
+The merchants' guild bought the plot in 1858, and the building went up in 1859 to 1861; the date MDCCCLXI is carved over the portal. Recent research credits the design to Bernhard Grueber, though older sources name Vojtěch Ignác Ullmann. It opened in October 1862 with about forty beds and a chapel of the Holy Cross on the first floor, with a painting of the Saviour by Josef Vojtěch Hellich. Over the rear portal runs a Latin line from St. Paul's Letter to the Romans: "but now we are delivered from the law of death", a hopeful thing to read on your way into a hospital.
+
+The building was altered in the 1910s and 1920s and gained an attic storey in 1926. After the Second World War it went to the university's hygiene faculty, and today it houses the Institute of Physiology of the Third Faculty of Medicine.
+
+🎁 Bonus: A hospital founded by shopkeepers is now where students learn how the body works. The merchants would probably appreciate that the investment is still paying out.`,
+      cz: `Kupecká nemocnice je malá cihlová novogotická stavba, která vypadá jako kaple, jež se rozhodla přijímat pacienty. Postavili ji pražští obchodníci pro své lidi, příručí a úředníky, kteří v nemoci neměli kam jít.
+
+Obchodnické grémium koupilo pozemek roku 1858 a budova vyrostla v letech 1859 až 1861; nad portálem je vytesáno MDCCCLXI. Novější bádání připisuje návrh Bernhardu Grueberovi, starší prameny jmenují Vojtěcha Ignáce Ullmanna. Otevřena byla v říjnu 1862 s asi čtyřiceti lůžky a kaplí sv. Kříže v prvním patře s obrazem Spasitele od Josefa Vojtěcha Hellicha. Nad zadním portálem běží latinský verš z listu sv. Pavla Římanům: „nyní však jsme vysvobozeni ze zákona smrti“, docela povzbudivé čtení cestou do nemocnice.
+
+Budova byla upravována v 10. a 20. letech 20. století a roku 1926 dostala podkrovní patro. Po druhé světové válce připadla univerzitní hygienické fakultě a dnes v ní sídlí Fyziologický ústav 3. lékařské fakulty.
+
+🎁 Bonus: Nemocnice založená kupci je dnes místem, kde se studenti učí, jak funguje tělo. Obchodníci by nejspíš ocenili, že se investice pořád vyplácí.`,
+      zh: `商人医院是一栋小小的红砖新哥特式建筑，看上去像一座决定收病人的小教堂。它是布拉格商人为自己人盖的，给那些生了病无处可去的店员和职员。
+
+商人行会在1858年买下地皮，房子在1859年至1861年间建成，正门上方刻着MDCCCLXI。新近的研究认为设计者是伯恩哈德·格鲁伯，较早的资料则说是沃伊捷赫·伊格纳茨·乌尔曼。医院1862年10月开张，约有四十张床位，二楼是圣十字小教堂，挂着约瑟夫·沃伊捷赫·赫利赫画的救世主像。后门上方刻着一句拉丁文，出自保罗的《罗马书》：“但如今我们脱离了死亡的律法”，在走进医院的路上读到这句，还挺让人安心。
+
+20世纪10年代和20年代，房子几经改动，1926年加盖了阁楼层。二战后它归大学的卫生学院所有，如今是第三医学院的生理学研究所。
+
+🎁 彩蛋：一家由商人创办的医院，如今成了学生学习人体运作的地方。商人们大概会欣慰：这笔投资至今仍在回本。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Městská přečerpávací stanice v Praze): a water-supply pumping station.
+    name: 'Karlov Waterworks Pumping Station',
+    slug: 'mestska-precerpavaci-stanice',
+    localizedNames: { cz: 'Městská přečerpávací stanice', zh: '卡尔洛夫自来水泵站' },
+    labels: ['factory', 'historicism', 'hidden-gem'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.0731285105939, lng: 14.429002442097222 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/M%C4%9Bstsk%C3%A1_p%C5%99e%C4%8Derp%C3%A1vac%C3%AD_stanice_v_Praze',
+    description: {
+      en: `This neat neo-Renaissance house on Sokolská, with its rusticated ground floor and two gables, looks like a villa for a well-off family. It was in fact built for water. For almost thirty years it pumped Prague's drinking water, then retired and kept its good looks.
+
+In the 1870s the city was finally building a proper water supply, and on the Karlov plateau an underground balancing reservoir was dug in 1877 to 1882 to even out the flow. The pumping station followed in 1883, designed by Antonín Wiehl, an architect who liked to give even utility buildings a handsome face. A water tower was planned beside it the same year but never built.
+
+Pumping ended in 1912, when newer works took over. The old earth reservoir was removed in 1975 and replaced with a concrete one, and of the whole 19th-century complex only Wiehl's building is left. It still stands inside the waterworks grounds, with its facade restored.
+
+🎁 Bonus: Wiehl also designed the beautiful Wiehl House on Wenceslas Square. Here he proved that even a pump deserves good architecture, and Prague's water has had style ever since.`,
+      cz: `Tento úhledný novorenesanční dům v Sokolské s bosovaným přízemím a dvěma štíty vypadá jako vila pro zámožnou rodinu. Ve skutečnosti byl postaven pro vodu. Skoro třicet let čerpal pražskou pitnou vodu, pak odešel na odpočinek a krásu si nechal.
+
+V 70. letech 19. století město konečně budovalo pořádný vodovod a na karlovské plošině vznikla v letech 1877 až 1882 podzemní vyrovnávací nádrž, která měla vyrovnávat průtok. Přečerpávací stanice následovala roku 1883 podle návrhu Antonína Wiehla, architekta, který rád dával pěknou tvář i technickým stavbám. Téhož roku se vedle plánovala vodárenská věž, ta ale nikdy nevznikla.
+
+Čerpání skončilo roku 1912, když práci převzala novější zařízení. Stará zemní nádrž byla roku 1975 odstraněna a nahrazena betonovou a z celého areálu 19. století zbyla jen Wiehlova budova. Stojí dodnes v areálu vodárny s obnovenou fasádou.
+
+🎁 Bonus: Wiehl navrhl i krásný Wiehlův dům na Václavském náměstí. Tady dokázal, že i čerpadlo si zaslouží dobrou architekturu, a pražská voda má od té doby styl.`,
+      zh: `索科尔斯卡街上这栋整洁的新文艺复兴式房子，底层是粗石砌面，顶上两座山墙，看起来像有钱人家的别墅。其实它是为水盖的。近三十年间，它一直在为布拉格抽送饮用水，然后退休，留住了一身好看的模样。
+
+19世纪70年代，布拉格终于开始修建像样的供水系统，1877年至1882年在卡尔洛夫台地上挖了一座地下调节水库来平衡水流。泵站在1883年跟着建成，设计者是安东宁·维尔，这位建筑师喜欢让哪怕是市政设施也有一张好看的脸。同年还计划在旁边建一座水塔，但始终没有建成。
+
+1912年，更新的设施接手，泵站停止抽水。1975年，老土质水库被拆除，换成了混凝土水库，整个19世纪的建筑群只剩下维尔这一栋。它至今仍立在水务厂区里，外立面已经修复。
+
+🎁 彩蛋：瓦茨拉夫广场上漂亮的维尔之家也是他设计的。在这里他证明了，就连一台水泵也配得上好建筑，从此布拉格的水就一直很有格调。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Sanatorium Ondřeje Schneidera).
+    name: 'Ondřej Schneider Sanatorium',
+    slug: 'sanatorium-ondreje-schneidera',
+    localizedNames: { cz: 'Sanatorium Ondřeje Schneidera', zh: '翁德雷·施奈德疗养院' },
+    labels: ['municipal', 'historicism', 'hidden-gem'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.073145, lng: 14.427249 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Sanatorium_Ond%C5%99eje_Schneidera',
+    description: {
+      en: `The Ondřej Schneider Sanatorium, on the corner of Ke Karlovu and Na Bojišti, looks like a small Dutch town hall that has wandered into Prague: stepped gables, a round corner tower and a lot of confidence. It was built as a luxury private clinic, and it is still a medical building today, just with fewer chandeliers per patient.
+
+Dr. Ondřej Schneider had it built in 1891 to 1892 to designs by Čeněk Gregor and Karel Stark, in a neo-Renaissance style borrowed from the Netherlands. It was a family sanatorium for patients who could pay to be ill in comfort. A south wing was added in 1908 to 1909, and Josef Blecha adapted the building in 1928 to 1929.
+
+Its treasure is on the third floor: the Ceramic Salon, designed by Jan Kotěra around 1914, the father of Czech modern architecture. The walls are covered in Rako tiles, and in the middle stands a fountain, "Woman over a Spring", by the sculptors Stanislav and Vojtěch Sucharda. The salon was restored in 2013, and the whole building is a national cultural monument. Today it houses the occupational medicine clinic of the General University Hospital.
+
+🎁 Bonus: Few people waiting for a work-fitness check-up realise that two floors above them is one of the finest early modern interiors in Prague, complete with its own nymph by a spring.`,
+      cz: `Sanatorium Ondřeje Schneidera na rohu Ke Karlovu a Na Bojišti vypadá jako malá nizozemská radnice, která zabloudila do Prahy: stupňovité štíty, kulatá nárožní věž a spousta sebevědomí. Vzniklo jako luxusní soukromá klinika a zdravotnickou budovou je dodnes, jen s menším počtem lustrů na pacienta.
+
+Dr. Ondřej Schneider ho dal postavit v letech 1891 až 1892 podle návrhu Čeňka Gregora a Karla Starka v novorenesančním slohu inspirovaném Nizozemím. Bylo to rodinné sanatorium pro pacienty, kteří si mohli dovolit stonat v pohodlí. V letech 1908 až 1909 přibylo jižní křídlo a v letech 1928 až 1929 budovu upravil Josef Blecha.
+
+Jeho poklad je ve třetím patře: Keramický salonek, který kolem roku 1914 navrhl Jan Kotěra, otec české moderní architektury. Stěny pokrývají obklady Rako a uprostřed stojí kašna „Žena nad pramenem“ od sochařů Stanislava a Vojtěcha Suchardových. Salonek byl obnoven roku 2013 a celá budova je národní kulturní památkou. Dnes v ní sídlí klinika pracovního lékařství Všeobecné fakultní nemocnice.
+
+🎁 Bonus: Málokdo, kdo tu čeká na pracovnělékařskou prohlídku, tuší, že o dvě patra výš je jeden z nejkrásnějších raně moderních interiérů v Praze, i s vlastní nymfou u pramene.`,
+      zh: `翁德雷·施奈德疗养院位于凯卡尔洛夫街和纳博伊什蒂街的街角，看上去像一座走错路闯进布拉格的荷兰小市政厅：阶梯状山墙、圆形转角塔楼，外加满满的自信。它当初是一家豪华私人诊所，如今也还是医疗建筑，只是每位病人摊到的吊灯少了些。
+
+翁德雷·施奈德医生在1891年至1892年间请切涅克·格雷戈尔和卡雷尔·斯塔克设计建造了它，风格是借鉴荷兰的新文艺复兴式。这是一家家族经营的疗养院，服务那些付得起钱、能舒舒服服生病的病人。1908年至1909年加建了南翼，1928年至1929年由约瑟夫·布莱哈改建。
+
+它的宝贝藏在四楼：陶瓷小厅，约1914年由捷克现代建筑之父扬·科特拉设计。四壁铺满拉科瓷砖，正中立着雕塑家斯坦尼斯拉夫和沃伊捷赫·苏哈尔达父子创作的喷泉《泉边的女子》。小厅在2013年修复，整栋楼是国家级文物。如今这里是综合大学医院的职业病门诊。
+
+🎁 彩蛋：在这里排队做入职体检的人，很少有谁知道，楼上两层就是布拉格最精美的早期现代主义室内之一，还自带一位泉边仙女。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: encyklopedie.praha2.cz
+    // (Pivovarský dům, Lípová čp. 511/15), cs.wikipedia (VÚPS, Ječná).
+    name: 'Brewers\' House (Research Institute of Brewing and Malting)',
+    slug: 'pivovarsky-dum-vups',
+    localizedNames: { cz: 'Pivovarský dům (Výzkumný ústav pivovarský a sladařský)', zh: '啤酒之家（啤酒与麦芽研究所）' },
+    labels: ['functionalism', 'restaurants-and-cafes'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.075430393283405, lng: 14.423766181267816 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/V%C3%BDzkumn%C3%BD_%C3%BAstav_pivovarsk%C3%BD_a_slada%C5%99sk%C3%BD',
+    description: {
+      en: `The functionalist corner house at Ječná and Lípová is the Brewers' House, and it takes beer very seriously. Upstairs scientists study yeast, malt and hops. Downstairs a small brewery and restaurant lets you check their work by the glass. In a country that drinks more beer per head than anywhere else, this is about as close to a temple as a laboratory gets.
+
+The house was designed in 1936 to 1937 by Gustav Paul and built by Václav Nekvasil's firm for the Brewers' Protection Union in Bohemia, on the site of the Schöbl restaurant, demolished in 1936. One pub made way for a building full of beer. The union's offices took the first and second floors, a scientific institute with laboratories the third, a brewing school the fourth, and staff flats the floors above.
+
+Since 1937 the house has been the seat of the Research Institute of Brewing and Malting, founded in 1887 and a joint-stock company since 1994. It publishes the journal Kvasný průmysl (Fermentation Industry), and it is the body that recommends which raw materials may go into beer sold as "České pivo", Czech beer with protected geographical status.
+
+🎁 Bonus: The brewery on the ground floor is known for its experiments, so the beers on offer change with the season. Somewhere upstairs, someone is probably writing a paper about it.`,
+      cz: `Funkcionalistický nárožní dům v Ječné a Lípové je Pivovarský dům a pivo bere velmi vážně. Nahoře vědci zkoumají kvasinky, slad a chmel. Dole jim malý pivovar s restaurací umožní práci zkontrolovat po sklenicích. V zemi, která vypije nejvíc piva na hlavu na světě, se laboratoř chrámu víc přiblížit nemůže.
+
+Dům navrhl v letech 1936 až 1937 Gustav Paul a postavila ho firma Václava Nekvasila pro Ochranný svaz pivovarů v Čechách, na místě Schöblovy restaurace zbořené roku 1936. Jedna hospoda tak uvolnila místo budově plné piva. Kanceláře svazu zabraly první a druhé patro, vědecký ústav s laboratořemi třetí, pivovarská škola čtvrté a v horních patrech byly byty zaměstnanců.
+
+Od roku 1937 tu sídlí Výzkumný ústav pivovarský a sladařský, založený roku 1887 a od roku 1994 akciová společnost. Vydává časopis Kvasný průmysl a je to právě on, kdo doporučuje suroviny pro pivo prodávané jako „České pivo“ s chráněným zeměpisným označením.
+
+🎁 Bonus: Pivovar v přízemí je známý svými pokusy, takže se nabídka piv mění podle sezóny. Někde nahoře o tom nejspíš někdo zrovna píše odborný článek.`,
+      zh: `耶奇纳街与利波瓦街街角这栋功能主义建筑叫“啤酒之家”，它对啤酒是非常认真的。楼上科学家研究酵母、麦芽和啤酒花；楼下有一家小酿酒坊兼餐厅，让你一杯一杯地检验他们的成果。在一个人均啤酒消费量全球第一的国家，实验室也就只能接近神庙到这个程度了。
+
+这栋楼由古斯塔夫·保罗在1936年至1937年间设计，瓦茨拉夫·内克瓦西尔的公司承建，业主是波希米亚啤酒厂保护联盟，原址是1936年拆掉的舍布尔餐馆。一家酒馆让了位，换来一整栋装满啤酒的楼。联盟的办公室占了二楼和三楼，带实验室的科研所在四楼，啤酒酿造学校在五楼，再往上是员工宿舍。
+
+1937年起，这里是啤酒与麦芽研究所的所在地。研究所创立于1887年，1994年改为股份公司，出版《发酵工业》杂志，也正是它负责推荐哪些原料可以用于受地理标志保护的“捷克啤酒”。
+
+🎁 彩蛋：一楼的酿酒坊以爱做实验出名，所以供应的啤酒随季节而变。楼上某个地方，大概正有人为此写论文。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts as supplied by the user
+    // (from cs.wikipedia "U Dvou draků"): čp. 492, Kateřinská (Gärtnergasse before
+    // 1918), called U Dubánků in the 19th c., rebuilt 1875 by Jan Frisch.
+    name: 'House at the Two Dragons',
+    slug: 'dum-u-dvou-draku',
+    localizedNames: { cz: 'Dům U Dvou draků', zh: '双龙之家' },
+    labels: ['historicism'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07290159691422, lng: 14.423398996865822 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `The House at the Two Dragons on Kateřinská Street, near the Botanical Garden, is a respectable 19th-century apartment house with a name out of a fairy tale and a tenant out of science fiction: among other things it houses the headquarters of the Czech Space Office, and a wine shop.
+
+The site is older than it looks. A house stood here before the Hussite wars, and in the 19th century, when the street was still called Gärtnergasse (Gardeners' Lane, a name it kept until 1918, for the market gardens around it), its owner called it "U Dubánků". It was then a single-storey building with four wings around an inner courtyard, more farmyard than townhouse.
+
+In 1875 it was pulled down and replaced by the present neo-Renaissance apartment house, designed by the architect Jan Frisch, at a time when the whole of the upper New Town was filling up with tall new blocks like this one. After 1989 it was renovated.
+
+🎁 Bonus: Two dragons on the name, a wine shop on the ground floor and the people who look after Czech space affairs upstairs. It is a very complete house.`,
+      cz: `Dům U Dvou draků v Kateřinské ulici, nedaleko botanické zahrady, je solidní činžák z 19. století se jménem jako z pohádky a nájemníkem jako ze sci-fi: mimo jiné tu sídlí Česká kosmická kancelář a vinotéka.
+
+Místo je starší, než vypadá. Dům tu stál už před husitskými válkami a v 19. století, kdy se ulice ještě jmenovala Gärtnergasse (Zahradnická, tak se jmenovala až do roku 1918 podle zahradnictví kolem), mu jeho majitel říkal „U Dubánků“. Byla to tehdy přízemní stavba se čtyřmi křídly kolem vnitřního dvora, spíš statek než městský dům.
+
+Roku 1875 byl zbořen a nahrazen dnešním novorenesančním činžovním domem podle návrhu architekta Jana Frische, v době, kdy se celé horní Nové Město plnilo vysokými novými domy, jako je tento. Po roce 1989 prošel rekonstrukcí.
+
+🎁 Bonus: Dva draci ve jménu, vinotéka v přízemí a nahoře lidé, kteří mají na starosti české kosmické aktivity. Je to velmi úplný dům.`,
+      zh: `卡泰日纳街上的双龙之家，离植物园不远，是一栋体面的19世纪公寓楼，名字像童话，房客像科幻：除了别的用途，这里还是捷克航天办公室的总部，楼下开着一家葡萄酒铺。
+
+这块地比它看上去的要老。早在胡斯战争之前这里就有房子；19世纪时，这条街还叫“园丁巷”（周围都是菜园和苗圃，这名字一直用到1918年），房主管这栋房子叫“小橡树之家”。那时它是一栋单层建筑，四个翼楼围着一个内院，更像农庄而不是城里的房子。
+
+1875年，旧房被拆除，按建筑师扬·弗里施的设计重建成今天这栋新文艺复兴式公寓楼，当时整个新城上部正被一栋栋这样的高楼填满。1989年以后它又经过一次翻修。
+
+🎁 彩蛋：名字里有两条龙，楼下卖葡萄酒，楼上是操心捷克航天事务的人。这栋房子可以说是什么都不缺。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Doprava a sklad dekorací Národního divadla) and the user's notes.
+    name: 'National Theatre Scenery Workshops',
+    slug: 'dilny-a-sklad-dekoraci-narodniho-divadla',
+    localizedNames: { cz: 'Doprava a sklad dekorací Národního divadla', zh: '国家剧院布景工场与仓库' },
+    labels: ['cultural', 'historicism', 'hidden-gem'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.070937, lng: 14.422932 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Doprava_a_sklad_dekorac%C3%AD_N%C3%A1rodn%C3%ADho_divadla',
+    description: {
+      en: `Opposite St. Apollinaris, on the slope below Karlov, stands the National Theatre's backstage, the part the audience never sees. The castles, forests and palaces of a century of Czech opera were painted, built and stored here, and a fair number of them were blown up in 1945.
+
+The neo-Renaissance complex was built in 1889 to 1900 to designs by Karel Skopec. Until then the National Theatre had bought its scenery from the catalogue of a Viennese firm, which was rather awkward for a theatre built to show that the Czechs could do everything themselves. Here it got its own painting hall, carpentry shop, painters' studios, men's and women's tailoring rooms, a photo studio, stables and storerooms for sets and furniture. The painting hall could take backdrops up to 15 metres long and 8 metres high. To make room for its entrance, a small early 18th-century chapel of St. John of Nepomuk was demolished in 1900.
+
+In the air raid on Prague of 14 February 1945 the building was hit and most of the scenery was destroyed, including work by well-known artists. In 1947 it was partly rebuilt to plans by Jaroslav Červinka, and in the 1960s it gained a transformer station, renovated workshops and a goods lift.
+
+🎁 Bonus: The stables were not for the scenery. Horses once hauled the sets down to the theatre on the river, which is why the building's name still begins with "Transport".`,
+      cz: `Naproti kostelu sv. Apolináře, na svahu pod Karlovem, stojí zákulisí Národního divadla, ta část, kterou divák nikdy nevidí. Hrady, lesy a paláce celého století české opery se tu malovaly, stavěly a skladovaly, a nemálo z nich vzalo za své roku 1945.
+
+Novorenesanční areál vznikl v letech 1889 až 1900 podle návrhu Karla Skopce. Do té doby si Národní divadlo kupovalo dekorace z katalogu vídeňské firmy, což bylo u divadla postaveného na důkaz, že Češi všechno zvládnou sami, poněkud trapné. Tady dostalo vlastní malírnu, truhlárnu, malířské ateliéry, pánskou i dámskou krejčovnu, fotoateliér, stáje a sklady dekorací a nábytku. Malírna pojala prospekty dlouhé až 15 metrů a vysoké 8 metrů. Kvůli jejímu vchodu byla roku 1900 zbořena malá kaple sv. Jana Nepomuckého z počátku 18. století.
+
+Při náletu na Prahu 14. února 1945 byla budova zasažena a většina dekorací shořela, včetně děl známých výtvarníků. Roku 1947 byla částečně obnovena podle plánů Jaroslava Červinky a v 60. letech přibyla trafostanice, zrekonstruované dílny a nákladní výtah.
+
+🎁 Bonus: Stáje tu nebyly pro kulisy. Koně kdysi vozili dekorace dolů do divadla u řeky, a proto název budovy dodnes začíná slovem „Doprava“.`,
+      zh: `在圣阿波利纳尔教堂对面、卡尔洛夫下方的坡上，立着国家剧院的后台，观众永远看不到的那一部分。一个世纪捷克歌剧里的城堡、森林和宫殿都在这里绘制、搭建和存放，其中不少在1945年被炸毁了。
+
+这组新文艺复兴式建筑建于1889年至1900年，由卡雷尔·斯科佩克设计。在此之前，国家剧院的布景是从一家维也纳公司的目录里买的，对一座专为证明“捷克人什么都能自己来”而建的剧院来说，这多少有点尴尬。在这里，它有了自己的绘景大厅、木工坊、画室、男女服装工坊、摄影室、马厩，还有存放布景和家具的仓库。绘景大厅能画长15米、高8米的巨幅天幕。为了给大厅开门，一座18世纪初的圣约翰·内波穆克小礼拜堂在1900年被拆掉了。
+
+1945年2月14日布拉格遭空袭，这栋楼被击中，大部分布景被毁，其中包括一些名家的作品。1947年按雅罗斯拉夫·切尔温卡的设计部分重建，20世纪60年代又增设了变电站，翻新了车间，装了货运电梯。
+
+🎁 彩蛋：马厩可不是给布景住的。当年是马把布景拉下坡、一路运到河边的剧院，所以这栋楼的捷克语名字至今仍以“运输”开头。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Ministerstvo spravedlnosti ČR; Špitál a chudobinec svatého Bartoloměje).
+    name: 'Ministry of Justice',
+    slug: 'ministerstvo-spravedlnosti',
+    localizedNames: { cz: 'Ministerstvo spravedlnosti', zh: '捷克司法部' },
+    labels: ['municipal', 'historicism'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.06983383545397, lng: 14.41887629228385 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%A0pit%C3%A1l_a_chudobinec_svat%C3%A9ho_Bartolom%C4%9Bje',
+    description: {
+      en: `The Czech Ministry of Justice works out of a grand neo-Renaissance building on Vyšehradská Street that was built for the poor. For five centuries this corner has belonged to whoever the city thought needed looking after, first the sick, then the destitute, and now, depending on your view of the law, either the citizens or the lawyers.
+
+In 1505 the New Town bought a house at the corner of Vyšehradská and Na Slupi to found the hospital of St. Bartholomew, with a church of the same name beside it, rebuilt in Baroque style in 1773. Joseph II closed both church and hospital in 1784, as he closed so much, and in 1808 the city set up a municipal poorhouse here instead. The old church was demolished in 1884, and from 1885 Josef Srdínko designed the new neo-Renaissance poorhouse buildings that stand today, with a sculpture of Charity by Josef Václav Myslbek and Josef Strachovský. A Baroque statue of St. Bartholomew still stands in the vestibule.
+
+In 1933 the Ministry of Health moved in, which at least kept the building in the business of care. The Ministry of Justice followed in 1939, and in 1958 a third of the space was handed to a grammar school. Next door at number 18 a classicist building of the 1830s survives from the poorhouse era.
+
+🎁 Bonus: The poorhouse's statue of Charity still decorates the house where the country's laws on courts and prisons are drafted. It is a reminder that justice and mercy were once neighbours here, and in some sense still share an address.`,
+      cz: `Ministerstvo spravedlnosti sídlí ve velkolepé novorenesanční budově ve Vyšehradské ulici, která byla postavena pro chudé. Pět století patří tohle nároží tomu, o koho se podle města bylo třeba postarat, nejdřív nemocným, pak nuzným a dnes, podle toho, jak se díváš na právo, buď občanům, nebo právníkům.
+
+Roku 1505 koupilo Nové Město dům na rohu Vyšehradské a Na Slupi, aby tu založilo špitál sv. Bartoloměje, a vedle stál stejnojmenný kostel, roku 1773 barokně přestavěný. Josef II. roku 1784 zavřel kostel i špitál, jako zavřel leccos, a roku 1808 tu město místo nich zřídilo městský chudobinec. Starý kostel byl zbořen roku 1884 a od roku 1885 navrhl Josef Srdínko nové novorenesanční budovy chudobince, které stojí dodnes, se sousoším Dobročinnosti od Josefa Václava Myslbeka a Josefa Strachovského. Ve vestibulu dodnes stojí barokní socha sv. Bartoloměje.
+
+Roku 1933 se sem nastěhovalo ministerstvo zdravotnictví, což budovu aspoň udrželo v oboru péče. Ministerstvo spravedlnosti následovalo roku 1939 a roku 1958 byla třetina prostor předána gymnáziu. Vedle, v čísle 18, se z doby chudobince dochovala klasicistní budova z 30. let 19. století.
+
+🎁 Bonus: Socha Dobročinnosti z chudobince dodnes zdobí dům, kde se připravují zákony o soudech a věznicích. Připomíná, že spravedlnost a milosrdenství tu kdysi byly sousedky a svým způsobem pořád sdílejí adresu.`,
+      zh: `捷克司法部在维谢赫拉德斯卡街上一座宏伟的新文艺复兴式建筑里办公，而这座楼原本是为穷人盖的。五百年来，这个街角一直属于城市觉得需要照顾的人：先是病人，后来是赤贫者，如今嘛，就看你怎么看待法律了，要么是公民，要么是律师。
+
+1505年，新城买下维谢赫拉德斯卡街与纳斯卢皮街街角的一栋房子，在这里创办了圣巴多罗买救济院，旁边还有一座同名教堂，1773年改建成巴洛克式。1784年，约瑟夫二世关掉了教堂和救济院，就像他关掉的许多别的东西一样；1808年，市政府在这里改设了城市济贫院。老教堂在1884年被拆除，1885年起由约瑟夫·斯尔丁科设计了今天这几栋新文艺复兴式的济贫院楼，楼上有约瑟夫·瓦茨拉夫·米斯尔贝克和约瑟夫·斯特拉霍夫斯基合作的群像《慈善》。门厅里至今仍立着一尊巴洛克式的圣巴多罗买像。
+
+1933年卫生部搬了进来，好歹让这栋楼还留在“照顾人”的行当里。1939年司法部接着入驻，1958年又把三分之一的空间让给了一所文理中学。隔壁18号还保留着济贫院时代一栋19世纪30年代的古典主义建筑。
+
+🎁 彩蛋：济贫院留下的《慈善》雕像，至今仍装点着这座起草法院和监狱法规的大楼。它提醒人们，正义与怜悯曾经在这里比邻而居，某种意义上，至今还共用一个门牌。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Klášter a nemocnice svaté Alžběty (Praha)). The convent church has its
+    // own card (klasterni-kostel-panny-marie-bolestne), so this one is about
+    // the convent and hospital.
+    name: 'Convent and Hospital of St. Elizabeth',
+    slug: 'klaster-a-nemocnice-sv-alzbety',
+    localizedNames: { cz: 'Klášter a nemocnice sv. Alžběty', zh: '圣伊丽莎白修道院与医院' },
+    labels: ['monastery', 'baroque', 'municipal'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.06912898751577, lng: 14.420565976559171 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kl%C3%A1%C5%A1ter_a_nemocnice_svat%C3%A9_Al%C5%BEb%C4%9Bty_(Praha)',
+    description: {
+      en: `The Convent and Hospital of St. Elizabeth on Na Slupi, which Prague simply calls "Alžbětinky", has been caring for the sick for three hundred years, and it was founded to treat sick women for free. It is one of the few places in the city where a Baroque convent still does the job it was built for.
+
+The Elizabethan Sisters came to Prague in 1719 with the help of Countess Karolina Justina of Schönkirchen, and on 26 January 1722 Emperor Charles VI granted the charter for a hospital giving free care to sick women. The convent and hospital were built to designs by Kilián Ignác Dientzenhofer, the hospital from 1728 and the convent in 1726 to 1732. Its great ward, two storeys high, was once the largest hospital hall in Prague. War came to the door in 1742, when the Prussians turned it into a military field hospital.
+
+Under communism the hospital was nationalised in 1948, and on 3 September 1957 the nuns were expelled and interned in Broumov. After 1989 the convent was returned to the order, and since 1993 the hospital has run again as a follow-up care hospital. Its garden reopened to the public in October 2024.
+
+🎁 Bonus: The Elizabethan Sisters survived Joseph II, who closed so many convents, because nursing the sick was exactly the kind of work he thought monks and nuns ought to be doing. Being useful turned out to be the best protection.`,
+      cz: `Klášter a nemocnice sv. Alžběty Na Slupi, kterým Praha říká prostě „Alžbětinky“, pečují o nemocné už tři sta let a vznikly proto, aby zdarma léčily nemocné ženy. Je to jedno z mála míst ve městě, kde barokní klášter dodnes dělá práci, kvůli které vznikl.
+
+Alžbětinky přišly do Prahy roku 1719 s pomocí hraběnky Karoliny Justiny ze Schönkirchu a 26. ledna 1722 jim císař Karel VI. udělil privilegium pro nemocnici, která měla bezplatně léčit nemocné ženy. Klášter i nemocnice vznikly podle návrhu Kiliána Ignáce Dientzenhofera, nemocnice od roku 1728, klášter v letech 1726 až 1732. Její velký sál přes dvě patra býval největším nemocničním sálem v Praze. Válka zaklepala na dveře roku 1742, když z ní Prusové udělali vojenský polní lazaret.
+
+Za komunismu byla nemocnice roku 1948 znárodněna a 3. září 1957 byly sestry vyhnány a internovány v Broumově. Po roce 1989 byl klášter vrácen řádu a od roku 1993 tu opět funguje nemocnice následné péče. Její zahrada se pro veřejnost znovu otevřela v říjnu 2024.
+
+🎁 Bonus: Alžbětinky přečkaly Josefa II., který zrušil tolik klášterů, protože péče o nemocné byla přesně ta práce, kterou podle něj měli řeholníci dělat. Být užitečný se ukázalo jako nejlepší ochrana.`,
+      zh: `纳斯卢皮街上的圣伊丽莎白修道院与医院，布拉格人干脆叫它“伊丽莎白修女院”，三百年来一直在照顾病人，它创办的初衷，就是免费为患病的女性治疗。它是城里少数几处至今仍在做当初建造用途的巴洛克修道院之一。
+
+1719年，伊丽莎白修女会在卡罗利娜·尤斯蒂娜·冯·舍恩基兴伯爵夫人的帮助下来到布拉格；1722年1月26日，皇帝查理六世颁发特许状，准许开办一家为患病女性免费治疗的医院。修道院和医院都出自基利安·伊格纳茨·丁岑霍费尔的设计，医院从1728年开建，修道院建于1726年至1732年。医院那间跨越两层楼的大病房，曾是布拉格最大的病房大厅。1742年战争打到了门口，普鲁士人把这里改成了军队的野战医院。
+
+共产党执政后，医院在1948年被收归国有；1957年9月3日，修女们被赶走，关押到了布劳莫夫。1989年后修道院归还修会，1993年起这里重新作为后续护理医院运营。它的花园在2024年10月重新对公众开放。
+
+🎁 彩蛋：约瑟夫二世关掉了那么多修道院，伊丽莎白修女会却挺了过来，因为照顾病人恰恰是他认为修士修女该干的正事。事实证明，有用才是最好的护身符。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Všeobecná fakultní nemocnice v Praze).
+    name: 'General University Hospital in Prague',
+    slug: 'vseobecna-fakultni-nemocnice',
+    localizedNames: { cz: 'Všeobecná fakultní nemocnice v Praze', zh: '布拉格综合大学医院' },
+    labels: ['municipal', 'classicism'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.073435660221506, lng: 14.42097061217023 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/V%C5%A1eobecn%C3%A1_fakultn%C3%AD_nemocnice_v_Praze',
+    description: {
+      en: `The long late-18th-century building on U Nemocnice Street, a few steps from Charles Square, is the heart of the General University Hospital, founded by Joseph II. Locals just call it "VFN", and plenty of Praguers were born, mended or stitched up somewhere in its sprawl.
+
+It was one of Joseph II's projects. The emperor wanted a modern general hospital for the city in place of the old church-run infirmaries, and after other sites had been considered he pointed to the Institute for Noblewomen at the Holy Angels on what was then the Cattle Market, today's Charles Square. František Antonín Herget drew up the plans in 1787, building began in 1789, and the hospital opened its doors on 2 January 1791.
+
+It grew into a whole medical quarter. The former Jesuit college on Charles Square became one of its clinics, the land maternity hospital of 1875 became the "U Apolináře" clinic, and a nursing school was added in 1916. The hospital was nationalised in 1949, and today it is a teaching hospital run with the First Faculty of Medicine, with clinics spread across the upper New Town.
+
+🎁 Bonus: Joseph II, who had little patience for privilege, put the city's hospital for everyone where an institute for unmarried noblewomen had been. He would have called it an upgrade.`,
+      cz: `Dlouhá budova z konce 18. století v ulici U Nemocnice, pár kroků od Karlova náměstí, je srdcem Všeobecné fakultní nemocnice, kterou založil Josef II. Pražané jí říkají prostě „VFN“ a spousta z nich se tu někde narodila, nechala spravit nebo zašít.
+
+Byl to jeden z projektů Josefa II. Císař chtěl pro město moderní všeobecnou nemocnici místo starých církevních špitálů a po zvažování jiných míst ukázal na Novoměstský ústav šlechtičen u sv. Andělů na tehdejším Dobytčím trhu, dnešním Karlově náměstí. František Antonín Herget vypracoval plány roku 1787, stavba začala roku 1789 a nemocnice otevřela 2. ledna 1791.
+
+Rozrostla se v celou lékařskou čtvrť. Bývalá jezuitská kolej na Karlově náměstí se stala jednou z jejích klinik, zemská porodnice z roku 1875 klinikou „U Apolináře“ a roku 1916 přibyla ošetřovatelská škola. Roku 1949 byla nemocnice znárodněna a dnes je to fakultní nemocnice spojená s 1. lékařskou fakultou, s klinikami roztroušenými po celém horním Novém Městě.
+
+🎁 Bonus: Josef II., který neměl moc pochopení pro výsady, postavil nemocnici pro všechny tam, kde býval ústav pro neprovdané šlechtičny. On sám by tomu říkal zlepšení.`,
+      zh: `乌内莫茨尼采街上这栋18世纪末的长楼，离查理广场几步路，是布拉格综合大学医院的心脏，这家医院由约瑟夫二世创办。本地人干脆叫它“VFN”，不少布拉格人就是在这片院区的某个角落出生、看病或缝针的。
+
+它是约瑟夫二世的项目之一。皇帝想给城市建一家现代综合医院，取代旧的教会救济院，在考虑过几处别的地方之后，他指定了当时“牲口市场”、也就是今天查理广场边上的圣天使贵族女子院。弗朗齐歇克·安东宁·赫尔格特在1787年画出图纸，1789年动工，1791年1月2日医院开门接诊。
+
+后来它长成了一整片医学街区。查理广场上的前耶稣会学院成了它的一家诊所，1875年的地方产科医院成了“阿波利纳尔”诊所，1916年又增设了护理学校。1949年医院收归国有，如今是与第一医学院合办的教学医院，诊所遍布整个新城上部。
+
+🎁 彩蛋：向来看不惯特权的约瑟夫二世，把一座人人都能看病的医院，安在了原先未婚贵族女子院的地方。在他看来，这叫升级。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia (Braunův dům).
+    name: 'Braun House',
+    slug: 'brauniv-dum',
+    localizedNames: { cz: 'Braunův dům', zh: '布劳恩之家' },
+    labels: ['baroque', 'renaissance'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07803721081169, lng: 14.421728891261353 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Braun%C5%AFv_d%C5%AFm',
+    description: {
+      en: `The Braun House on the corner of Charles Square and Řeznická was the home and workshop of Matthias Bernhard Braun, the sculptor whose wild, windswept saints are among the glories of Czech Baroque. It was also known as the House at the Two Stone Tables, which sounds exactly like what a sculptor's house should be called.
+
+It began as two Gothic houses, first mentioned in 1377, and its Renaissance portal is dated 1585 and attributed to Oldřich Aostalis. In 1714 Braun, a Tyrolean who had settled in Prague, bought the house for 2,915 gold pieces and set up his workshop here. From it came statues for half of Bohemia, including the famous St. Luitgard on Charles Bridge and the Virtues and Vices at Kuks, and he worked here until his death in 1738.
+
+The house was rebuilt in Baroque style in the 1760s. From 1786 to 1831 it rented rooms to the Prague Institute for the Deaf, and later it passed through the hands of noble families, the Hohenlohe-Kirchbergs, the Salm-Reifferscheidts and in 1867 the Thun-Hohensteins. It was restored in 1989 to 1991 and now houses a law firm, whose courtyard and halls are rented out for seminars.
+
+🎁 Bonus: For forty-five years the house where Bohemia's most dramatic statues were carved was home to a school for the deaf. Braun's saints always did look as if they were shouting into silence.`,
+      cz: `Braunův dům na rohu Karlova náměstí a Řeznické býval domovem a dílnou Matyáše Bernarda Brauna, sochaře, jehož divocí, větrem ošlehaní světci patří k chloubám českého baroka. Říkalo se mu také U Dvou kamenných stolů, což zní přesně tak, jak by se dům sochaře jmenovat měl.
+
+Vznikl ze dvou gotických domů, poprvé zmíněných roku 1377, a jeho renesanční portál nese letopočet 1585 a připisuje se Oldřichu Aostallimu. Roku 1714 dům koupil Braun, Tyrolan usazený v Praze, za 2915 zlatých a zřídil tu dílnu. Odtud vycházely sochy pro půlku Čech, včetně slavné sv. Luitgardy na Karlově mostě a Ctností a Neřestí v Kuksu, a pracoval tu až do své smrti roku 1738.
+
+Barokně byl dům přestavěn v 60. letech 18. století. V letech 1786 až 1831 pronajímal prostory pražskému Ústavu pro hluchoněmé a později prošel rukama šlechtických rodů, Hohenlohe-Kirchbergů, Salm-Reifferscheidtů a roku 1867 Thun-Hohensteinů. V letech 1989 až 1991 byl obnoven a dnes v něm sídlí advokátní kancelář, která dvůr a sály pronajímá na semináře.
+
+🎁 Bonus: Pětačtyřicet let byl dům, kde se tesaly nejdramatičtější sochy Čech, domovem školy pro neslyšící. Braunovi světci vždycky vypadali, jako by křičeli do ticha.`,
+      zh: `查理广场与热兹尼茨卡街街角的布劳恩之家，曾是雕塑家马蒂亚斯·伯恩哈德·布劳恩的住所和工作室，他那些狂放不羁、衣袂翻飞的圣人像是捷克巴洛克艺术的骄傲。这栋房子还有个名字叫“双石桌之家”，听起来正是雕塑家的房子该叫的名字。
+
+它由两栋哥特式房子合成，最早见于1377年的记载，文艺复兴式的大门刻着1585年，一般认为出自奥尔德日赫·奥斯塔利斯之手。1714年，定居布拉格的蒂罗尔人布劳恩花2915枚金币买下这栋房子，在这里开了作坊。从这里运出的雕像遍布半个波希米亚，包括查理大桥上著名的圣卢特加德像和库克斯的《美德与恶习》，他一直在这里工作，直到1738年去世。
+
+18世纪60年代，房子改建成巴洛克式。1786年至1831年间，它把房间租给了布拉格聋哑学校，后来又辗转落入几个贵族家族手中：霍恩洛厄-基希贝格家、萨尔姆-赖费尔沙伊特家，1867年归了图恩-霍恩施泰因家。1989年至1991年经过修缮，如今是一家律师事务所，院子和大厅对外出租办研讨会。
+
+🎁 彩蛋：这栋雕出了波希米亚最具戏剧性雕像的房子，有四十五年住着一所聋哑学校。布劳恩的圣人们，本来就总像是在对着寂静呐喊。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Karlák Shopping Square), encyklopedie.praha2.cz (U Šálků, demolished
+    // 1938/39 to widen Resslova).
+    name: 'Charles Square Center',
+    slug: 'charles-square-center',
+    localizedNames: { cz: 'Charles Square Center', zh: '查理广场中心' },
+    labels: ['contemporary'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07555124330069, lng: 14.418705499400607 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Karl%C3%A1k_Shopping_Square',
+    description: {
+      en: `Charles Square Center is the big glass office and shopping building on the corner of Charles Square and Resslova, sitting on top of the metro station. It is not old and does not pretend to be. Its real story is the empty corner it filled, which had been waiting for a building for more than sixty years.
+
+On this corner stood the old house U Šálků, also called U Pěti zvonečků, a Renaissance building on the footprint of medieval houses, later made Baroque, with a brewery and beer garden in it. At the end of the 1930s it was pulled down so that Resslova Street could be widened for traffic. Then the Second World War came, then the communist decades, and nothing was built. In the 1980s the empty plot served the builders of the Karlovo náměstí metro station.
+
+The present building finally went up in 2000 to 2002, designed by the Chicago firm Lohan Associates and built by Metrostav, with offices above and shops and services below. It has changed its name more than once since, and the shopping part now goes by Karlák, the nickname Praguers have long used for Charles Square itself.
+
+🎁 Bonus: A corner that once had a brewery waited sixty years and got a shopping centre. Prague has accepted the trade, mostly because the metro entrance is right there.`,
+      cz: `Charles Square Center je velká prosklená administrativní a obchodní budova na rohu Karlova náměstí a Resslovy, která sedí přímo nad stanicí metra. Není stará a nedělá, že by byla. Jejím skutečným příběhem je prázdné nároží, které zaplnila a které na dům čekalo přes šedesát let.
+
+Na tomto rohu stál starý dům U Šálků, zvaný také U Pěti zvonečků, renesanční stavba na půdorysu středověkých domů, později zbarokizovaná, s pivovarem a zahradní restaurací. Na konci 30. let byl zbořen, aby se Resslova ulice mohla rozšířit pro dopravu. Pak přišla druhá světová válka, pak komunistická desetiletí a nepostavilo se nic. V 80. letech posloužil prázdný pozemek stavbařům stanice metra Karlovo náměstí.
+
+Dnešní budova vyrostla až v letech 2000 až 2002 podle návrhu chicagské kanceláře Lohan Associates a postavil ji Metrostav, nahoře kanceláře, dole obchody a služby. Od té doby několikrát změnila jméno a obchodní část se dnes jmenuje Karlák, jak Pražané odjakživa říkají samotnému Karlovu náměstí.
+
+🎁 Bonus: Nároží, kde kdysi býval pivovar, čekalo šedesát let a dostalo obchodní centrum. Praha tu výměnu přijala, hlavně proto, že vchod do metra je hned vedle.`,
+      zh: `查理广场中心是查理广场与雷斯洛娃街街角那栋玻璃幕墙的大型办公商业楼，正好坐在地铁站上方。它不老，也不装老。它真正的故事，是它填上的那个空街角：那里等一栋房子，足足等了六十多年。
+
+这个街角原来是老房子“沙尔克之家”，也叫“五铃铛之家”，一栋建在中世纪房屋地基上的文艺复兴式建筑，后来改成巴洛克式，里面还有啤酒厂和露天啤酒园。20世纪30年代末，为了拓宽雷斯洛娃街方便交通，它被拆掉了。接着是第二次世界大战，然后是共产党执政的几十年，这里什么也没建。20世纪80年代，这块空地给修建查理广场地铁站的工人用上了。
+
+现在这栋楼直到2000年至2002年才建起来，由芝加哥的洛汉事务所设计、地铁建设公司承建，楼上是办公室，楼下是商店和各种服务。此后它改过好几次名字，商场部分如今叫“卡拉克”，这正是布拉格人一向对查理广场本身的昵称。
+
+🎁 彩蛋：一个曾经有啤酒厂的街角，等了六十年，等来了一座商场。布拉格人接受了这笔交易，主要是因为地铁口就在旁边。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Pomník Karoliny Světlé; Českoslovanská akademie obchodní for Resslova 5).
+    name: 'Karolina Světlá Monument',
+    slug: 'pomnik-karoliny-svetle',
+    localizedNames: { cz: 'Pomník Karoliny Světlé', zh: '卡罗利娜·斯韦特拉纪念碑' },
+    labels: ['monument', 'sculpture', 'national-revival'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.07550556387988, lng: 14.419484862664673 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_Karoliny_Sv%C4%9Btl%C3%A9',
+    description: {
+      en: `In the park on Charles Square, in front of the Church of St. Ignatius, a bronze bust on a granite plinth remembers Karolina Světlá, one of the great Czech novelists of the 19th century and one of the first to fight in earnest for women's education. Fittingly, the monument was paid for by the women she had helped.
+
+Světlá wrote novels of village life in the Ještěd region and her last home was a house on the corner of Charles Square and Ječná. In 1871 she founded the Women's Production Association, which taught girls trades so that they could earn their own living, and it later built its own school building on nearby Resslova Street. After her death in 1899 the association started a campaign in 1903 for a memorial, and the monument by the sculptor Gustav Zoula, with architecture by Josef Fanta, was unveiled on 29 May 1910.
+
+The bust stands on a grey granite plinth with a black marble plaque giving her dates, 24 February 1830 to 7 September 1899. Her last house was later demolished, and the Art Nouveau building put up in its place in 1911 carries a memorial plaque to her.
+
+🎁 Bonus: Světlá's statue faces the square where her association's girls once hurried to their lessons. Few writers get a monument within sight of their own life's work.`,
+      cz: `V parku na Karlově náměstí, před kostelem sv. Ignáce, připomíná bronzová busta na žulovém podstavci Karolinu Světlou, jednu z velkých českých spisovatelek 19. století a jednu z prvních, kdo vážně bojoval za vzdělání žen. Příhodně ho zaplatily ženy, kterým pomáhala.
+
+Světlá psala romány z venkovského života Podještědí a naposledy bydlela v domě na rohu Karlova náměstí a Ječné. Roku 1871 založila Ženský výrobní spolek, který učil dívky řemeslům, aby se mohly samy uživit, a později si postavil vlastní školní budovu v nedaleké Resslově ulici. Po její smrti roku 1899 spolek roku 1903 zahájil sbírku na pomník a dílo sochaře Gustava Zouly s architekturou Josefa Fanty bylo odhaleno 29. května 1910.
+
+Busta stojí na šedém žulovém podstavci s černou mramorovou deskou s daty 24. února 1830 a 7. září 1899. Její poslední dům byl později zbořen a secesní budova, která na jeho místě vyrostla roku 1911, nese její pamětní desku.
+
+🎁 Bonus: Socha Světlé hledí na náměstí, přes které kdysi spěchaly na vyučování dívky jejího spolku. Málokterý spisovatel má pomník na dohled od díla svého života.`,
+      zh: `在查理广场的公园里、圣依纳爵教堂前面，一尊立在花岗岩底座上的青铜胸像，纪念着卡罗利娜·斯韦特拉。她是19世纪捷克最重要的小说家之一，也是最早认真为女性教育奋斗的人之一。很贴切的是，这座纪念碑是她帮助过的女性们出钱建的。
+
+斯韦特拉写的是耶什捷德山下乡村生活的小说，晚年住在查理广场与耶奇纳街街角的一栋房子里。1871年，她创办了妇女生产协会，教女孩们学手艺，好让她们能自食其力，协会后来还在附近的雷斯洛娃街盖了自己的校舍。1899年她去世后，协会在1903年发起募捐修建纪念碑；由雕塑家古斯塔夫·佐乌拉创作、建筑师约瑟夫·凡塔设计底座的纪念碑，于1910年5月29日揭幕。
+
+胸像立在灰色花岗岩底座上，黑色大理石牌上刻着她的生卒日期：1830年2月24日至1899年9月7日。她最后住的房子后来被拆除，1911年在原址建起的新艺术风格楼房上，挂着纪念她的牌匾。
+
+🎁 彩蛋：斯韦特拉的雕像望着广场，当年她协会的女孩们就是从这里匆匆赶去上课的。很少有作家的纪念碑，能望得见自己一生的事业。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Opevnění Prahy: three towers survive between Národní and Bartolomějská),
+    // denikn.cz and prazskyprehled.cz (two towers in police courtyards, not public).
+    name: 'Old Town Fortification Towers',
+    slug: 'staromestske-opevneni',
+    localizedNames: { cz: 'Staroměstské opevnění', zh: '老城城墙塔楼' },
+    labels: ['castle and fortress', 'gothic', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08222287318312, lng: 14.416556019195658 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Opevn%C4%9Bn%C3%AD_Prahy',
+    description: {
+      en: `Between Národní and Bartolomějská, hidden in courtyards, stand the last towers of the Old Town walls, Gothic and still close to their original height. They are among the best-guarded medieval monuments in Prague, though not on purpose: they happen to sit inside police compounds, and you cannot simply walk in.
+
+The Old Town was walled under King Wenceslas I in the 1230s to 1250s, with towers and gates and a moat in front, along the line now traced by Národní třída, Na Příkopě and Revoluční. When Charles IV founded the New Town in 1348 the walls lost their purpose, since the new city lay outside them and had walls of its own. The moat was gradually filled in and turned into the avenues we walk along today, and houses grew up against and over the old walls, swallowing most of them.
+
+A few towers survived precisely because they were swallowed: built into backyards, they were too much trouble to pull down. Two stand in the courtyards of police buildings on Bartolomějská, one in the grounds of the forensic institute and one in the yard of the Prague criminal police, where it can be glimpsed from the street. One is about 15 metres high, not counting a storey added later. Inside, the old wooden floors are said to be so rotten that access is forbidden.
+
+🎁 Bonus: For centuries these towers kept people out of the Old Town. Now the police keep people out of the towers. Some jobs just never change.`,
+      cz: `Mezi Národní a Bartolomějskou, ukryté ve dvorech, stojí poslední věže staroměstských hradeb, gotické a stále blízko své původní výšky. Patří k nejlépe střeženým středověkým památkám v Praze, i když ne záměrně: jen náhodou stojí v policejních areálech a nedá se k nim jen tak dojít.
+
+Staré Město dostalo hradby za krále Václava I. ve 30. až 50. letech 13. století, s věžemi, branami a příkopem před nimi, v linii, kterou dnes sleduje Národní třída, Na Příkopě a Revoluční. Když Karel IV. roku 1348 založil Nové Město, hradby ztratily smysl, protože nové město leželo za nimi a mělo vlastní. Příkop se postupně zasypal a proměnil v třídy, po kterých dnes chodíme, a k hradbám a přes ně vyrostly domy, které je většinou pohltily.
+
+Několik věží přežilo právě proto, že byly pohlceny: zastavěné do dvorů nestály za námahu je bourat. Dvě stojí ve dvorech policejních budov v Bartolomějské, jedna v areálu Kriminalistického ústavu a druhá ve dvoře pražské kriminálky, kam se dá z ulice nahlédnout. Jedna je vysoká asi 15 metrů, nepočítaje později přistavěné patro. Uvnitř jsou staré dřevěné stropy prý tak prohnilé, že je vstup zakázán.
+
+🎁 Bonus: Celá staletí tyhle věže nepouštěly lidi do Starého Města. Teď policie nepouští lidi do věží. Některá řemesla se prostě nemění.`,
+      zh: `在国家大道和巴尔托洛梅斯卡街之间，藏在几处院子里的，是老城城墙仅存的塔楼，哥特式，高度至今仍接近原貌。它们算得上布拉格戒备最森严的中世纪古迹，虽然并非有意为之：它们恰好落在警察局的院子里，你没法随便走进去。
+
+老城的城墙建于国王瓦茨拉夫一世在位时的13世纪30年代至50年代，有塔楼、城门，墙外还有护城河，走向大致就是今天的国家大道、纳普日科普街和革命大街。1348年查理四世建立新城后，这道城墙就失去了用处，因为新城在墙外，而且有自己的城墙。护城河慢慢被填平，变成了我们今天走的大道，房子贴着旧城墙、骑着旧城墙盖起来，把大部分墙体吞了进去。
+
+有几座塔楼恰恰因为被吞掉才得以幸存：被盖进了后院，拆起来太麻烦。其中两座位于巴尔托洛梅斯卡街警察大楼的院子里，一座在刑事鉴定研究所的院内，另一座在布拉格刑警队的院子里，从街上能瞥见一眼。其中一座高约15米，不算后来加盖的一层。据说塔里的老木楼板已经烂到会塌，所以禁止入内。
+
+🎁 彩蛋：几百年来，这些塔楼负责把人挡在老城外面。如今，警察负责把人挡在塔楼外面。有些差事就是一直不变。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Českoslovanská akademie obchodní).
+    name: 'Czechoslavonic Business Academy',
+    slug: 'ceskoslovanska-akademie-obchodni',
+    localizedNames: { cz: 'Českoslovanská akademie obchodní', zh: '捷克斯拉夫商业学院' },
+    labels: ['academy', 'historicism'],
+    district: 'Praha 2',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.075935751532555, lng: 14.415897002886192 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Ceskoslovansk%C3%A1_akademie_obchodn%C3%AD',
+    description: {
+      en: `The Czechoslavonic Business Academy on Resslova Street, known as ČAO, is the oldest business school in the former Austria-Hungary to teach in Czech, founded in 1872. It has trained generations of accountants, bankers and clerks, and also, briefly and rather unsuccessfully, Jaroslav Hašek, the author of The Good Soldier Švejk.
+
+The school was founded on 1 October 1872 by the city of Prague, with Emanuel Tonner as its first director, at a time when Czech businessmen wanted their own commercial education instead of the German one on offer. Its corner building at Resslova 8 was designed in neo-Renaissance style by Josef Srdínko in 1892 and built by Václav Nekvasil's firm, and in 1915 to 1919 Jan Bedřich Vejrych added a third floor and an Art Nouveau facade. Across the street, Resslova 5 was built in 1896 to designs by Josef Blecha for Karolina Světlá's Women's Production Association, and today it is a school building too.
+
+Hašek studied here from 1899 to 1902, and part of his school report survives. He went on to a job in a bank, which did not last. Other graduates include the writer Ladislav Hájek Domažlický and the illustrator Eduard Drobílek.
+
+🎁 Bonus: Somewhere in the archive of Prague's most respectable business school is the report card of the man who created Švejk. It is the most entertaining document any accountancy school has ever kept.`,
+      cz: `Českoslovanská akademie obchodní v Resslově ulici, zkráceně ČAO, je nejstarší obchodní školou s českým vyučovacím jazykem v bývalém Rakousku-Uhersku, založenou roku 1872. Vychovala generace účetních, bankéřů a úředníků a krátce a nepříliš úspěšně i Jaroslava Haška, autora Švejka.
+
+Škola vznikla 1. října 1872 z iniciativy města Prahy a prvním ředitelem byl Emanuel Tonner, v době, kdy čeští podnikatelé chtěli vlastní obchodní vzdělání místo nabízeného německého. Její nárožní budovu Resslova 8 navrhl v novorenesančním slohu Josef Srdínko roku 1892 a postavila ji firma Václava Nekvasila; v letech 1915 až 1919 přidal Jan Bedřich Vejrych třetí patro a secesní fasádu. Přes ulici vznikla roku 1896 podle návrhu Josefa Blechy budova Resslova 5 pro Ženský výrobní spolek Karoliny Světlé a i ona dnes slouží škole.
+
+Hašek tu studoval v letech 1899 až 1902 a část jeho vysvědčení se dochovala. Pak nastoupil do banky, kde dlouho nevydržel. Mezi dalšími absolventy jsou spisovatel Ladislav Hájek Domažlický a ilustrátor Eduard Drobílek.
+
+🎁 Bonus: Někde v archivu nejváženější pražské obchodní školy leží vysvědčení muže, který stvořil Švejka. Je to nejzábavnější dokument, jaký kdy nějaká škola pro účetní schovala.`,
+      zh: `雷斯洛娃街上的捷克斯拉夫商业学院，简称ČAO，创办于1872年，是昔日奥匈帝国境内历史最悠久的捷克语商业学校。它培养了一代又一代会计、银行家和职员，也曾短暂而不太成功地培养过《好兵帅克》的作者雅罗斯拉夫·哈谢克。
+
+学校由布拉格市政府于1872年10月1日创办，首任校长是埃马努埃尔·通内尔；当时捷克商人想要自己的商业教育，而不是现成的德语那一套。雷斯洛娃街8号的转角校舍由约瑟夫·斯尔丁科在1892年按新文艺复兴风格设计，瓦茨拉夫·内克瓦西尔的公司承建；1915年至1919年间，扬·贝德日赫·韦伊里赫加盖了第四层，并换上新艺术风格的立面。街对面的雷斯洛娃街5号，是1896年按约瑟夫·布莱哈的设计为卡罗利娜·斯韦特拉的妇女生产协会盖的，如今也是学校的教学楼。
+
+哈谢克1899年至1902年在这里读书，他的成绩单还留存了一部分。毕业后他进了一家银行，没干多久。其他校友还有作家拉迪斯拉夫·哈耶克·多马日利茨基和插画家爱德华·德罗比莱克。
+
+🎁 彩蛋：布拉格最体面的商业学校档案里，躺着帅克之父的成绩单。这大概是有史以来会计学校保存过的最有趣的一份文件。`,
+    },
+  },
+  {
+    // Added 2026-11-12 (coordinates user-supplied). Facts: cs.wikipedia
+    // (Bartolomějská; Bombový útok na c. k. policejní ředitelství v Praze),
+    // svejkmuseum.cz (Policejní ředitelství), captour-paja.cz (the courtyard
+    // tower: 1898 demolition plan, 1903 restoration by Antonín Wiehl).
+    name: 'Old Police Directorate ("Čtyřka")',
+    slug: 'policejni-reditelstvi-bartolomejska',
+    localizedNames: { cz: 'Policejní ředitelství v Bartolomějské („Čtyřka“)', zh: '巴尔托洛梅斯卡街老警察总局（“四号”）' },
+    labels: ['municipal', 'national-revival', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08253648613874, lng: 14.416668320793336 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bartolom%C4%9Bjsk%C3%A1',
+    description: {
+      en: `Bartolomějská 4 has been a police building for more than 150 years, which makes it one of the few addresses in Prague whose job has never changed. Under Austria it was the imperial police directorate, the place where the Good Soldier Švejk was hauled off to in the second chapter of his adventures, and its courtyard hides a medieval tower that the police once tried very hard to get rid of.
+
+The directorate was built in the mid-19th century around a tower of the Old Town walls from the 1250s. Its security department, the fourth, sat at house number 4, so Praguers called it simply "Čtyřka", the Four, a name that stood for the political police of the Habsburg monarchy. On the night of 10 to 11 June 1869 members of a secret radical group called Blaník set off an artillery shell packed with gunpowder at its entrance. Nobody was hurt and seventeen window panes were broken, but it has gone down as the first terrorist attack in Czech criminal history. The ringleader, Vilém Körber, was charged with high treason and in the end got seven months for disturbing the peace.
+
+Jaroslav Hašek knew the Four from the inside. In December 1914, with the war just begun, he checked into a Prague hotel under a Russian name as a joke and spent five days in custody for it. A few years later he sent Švejk to the police directorate too, where the officials are every bit as zealous as Hašek remembered them. The building still belongs to the police today.
+
+🎁 Bonus: In 1898 the police wanted to pull down the Gothic tower in their courtyard, because it blocked the air from the cell windows. The Old Prague preservationists fought them and won, and in 1903 the tower was restored to plans by Antonín Wiehl. It is the only time the Four lost an argument about who gets to stay inside.`,
+      cz: `Bartolomějská 4 je policejní budovou už přes 150 let, takže patří k mála pražským adresám, které nikdy nezměnily zaměstnání. Za Rakouska tu sídlilo c. k. policejní ředitelství, kam hned ve druhé kapitole svých osudů odvedli dobrého vojáka Švejka, a jeho dvůr skrývá středověkou věž, které se policie kdysi velmi snažila zbavit.
+
+Ředitelství vzniklo v polovině 19. století kolem věže staroměstských hradeb z 50. let 13. století. Jeho bezpečnostní oddělení, čtvrté v pořadí, sídlilo v domě číslo 4, a tak mu Pražané říkali prostě „Čtyřka“, jméno, které znamenalo politickou policii habsburské monarchie. V noci z 10. na 11. června 1869 odpálili členové tajného radikálního spolku Blaník u jeho vchodu dělostřelecký granát naplněný střelným prachem. Nikdo nebyl zraněn a rozbilo se sedmnáct okenních tabulí, přesto se útok zapsal jako první teroristický čin v dějinách české kriminalistiky. Strůjce Vilém Körber byl obžalován z velezrady a nakonec dostal sedm měsíců za rušení veřejného pořádku.
+
+Jaroslav Hašek znal Čtyřku zevnitř. V prosinci 1914, kdy válka teprve začala, se z recese ubytoval v pražském hotelu pod ruským jménem a odseděl si za to pět dní. O pár let později poslal na policejní ředitelství i Švejka, kde jsou úředníci přesně tak horliví, jak si je Hašek pamatoval. Budova patří policii dodnes.
+
+🎁 Bonus: Roku 1898 chtěla policie zbourat gotickou věž ve svém dvoře, protože bránila přístupu vzduchu k oknům cel. Ochránci staré Prahy se s ní pustili do sporu a vyhráli, a roku 1903 byla věž obnovena podle návrhu Antonína Wiehla. Je to jediný případ, kdy Čtyřka prohrála spor o to, kdo smí zůstat uvnitř.`,
+      zh: `巴尔托洛梅斯卡街4号当警察局已经超过150年了，算得上布拉格少数从来没换过“工作”的门牌之一。奥地利统治时期，这里是帝国警察总局，好兵帅克在他历险记的第二章就被押到了这儿；它的院子里还藏着一座中世纪塔楼，警察当年可是费了好大劲想把它拆掉。
+
+警察总局建于19世纪中叶，是围着一座13世纪50年代的老城城墙塔楼盖起来的。总局的安全处排第四，正好又设在4号楼，于是布拉格人干脆管它叫“四号”，这个名字后来就成了哈布斯堡王朝政治警察的代称。1869年6月10日至11日夜里，一个名叫“布拉尼克”的秘密激进团体的成员，在它门口引爆了一枚装满火药的炮弹。没有人受伤，只震碎了十七块窗玻璃，但这起事件还是作为捷克刑侦史上第一起恐怖袭击被载入史册。主谋维莱姆·克尔伯被控叛国罪，最后只以扰乱公共秩序罪判了七个月。
+
+雅罗斯拉夫·哈谢克是从里面认识“四号”的。1914年12月，战争刚刚打响，他开玩笑用一个俄国名字住进布拉格一家旅馆，结果被关了五天。几年后，他把帅克也送进了警察总局，书里那些官员的狂热劲儿，跟哈谢克记忆中的一模一样。这栋楼至今仍归警方使用。
+
+🎁 彩蛋：1898年，警察想拆掉院子里的哥特式塔楼，理由是它挡住了牢房窗户的空气。老布拉格的文物保护人士跟他们打起了官司，而且打赢了，1903年塔楼按安东宁·维尔的设计得到修复。这是“四号”唯一一次在“谁有资格留在里面”这个问题上输掉的争论。`,
+    },
+  },
 ];
 async function run() {
   await connectDB();
