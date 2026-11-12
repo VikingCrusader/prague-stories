@@ -1,3 +1,4 @@
+import { pageCache, pageKey } from '../utils/pageCache';
 import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { userAPI } from '../services/api';
@@ -5,6 +6,7 @@ import { useAuth } from '../context/AuthContext';
 import { useT, useConvert } from '../context/LanguageContext';
 import ProfileBody from '../components/dashboard/ProfileBody';
 import { useWakeLock } from '../hooks/useWakeLock';
+import SettingsWindow from '../components/dashboard/SettingsWindow';
 
 export default function DashboardPage() {
   const { user, guest, logout } = useAuth();
@@ -12,21 +14,24 @@ export default function DashboardPage() {
   const t                = useT();
   const convert          = useConvert();
   const wakeLock         = useWakeLock();
-  const [progress, setProgress] = useState(null);
-  const [achData, setAchData]   = useState(null);
-  const [loading, setLoading]   = useState(true);
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const cacheKey = pageKey('dashboard', user?._id);
+  const kept = pageCache.get(cacheKey);
+  const [progress, setProgress] = useState(kept?.progress ?? null);
+  const [achData, setAchData]   = useState(kept?.achData ?? null);
 
   useEffect(() => {
     Promise.all([userAPI.getProgress(), userAPI.getAchievements()])
-      .then(([p, a]) => { setProgress(p.data); setAchData(a.data); })
-      .finally(() => setLoading(false));
-  }, []);
+      .then(([p, a]) => {
+        pageCache.set(cacheKey, { progress: p.data, achData: a.data });
+        setProgress(p.data);
+        setAchData(a.data);
+      })
+      .catch(() => {});
+  }, [cacheKey]);
 
-  if (loading || !progress || !achData) return (
-    <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div className="spinner" />
-    </div>
-  );
+  // A first visit draws the frame only; the figures fill in when they arrive.
+  if (!progress || !achData) return <div className="dashboard-page" aria-busy="true" />;
 
   return (
     <div className="dashboard-page">
@@ -37,9 +42,10 @@ export default function DashboardPage() {
         {/* On phones logout lives here (on desktop in the navbar since 2026-11-08), and so
             do the ways to the Privacy page (location consent) and, since
             2026-11-02, the leaderboard. */}
-        <div style={{ display: 'flex', gap: 8, flexShrink: 0, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+        <div style={{ display: 'flex', gap: 8, flex: '0 1 auto', minWidth: 0, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
           {user && <Link to="/leaderboard" className="px-btn px-btn--dark px-btn--sm">{t('nav.leaderboard')}</Link>}
           <Link to="/privacy" className="px-btn px-btn--dark px-btn--sm">{t('privacy.title')}</Link>
+          <button type="button" className="px-btn px-btn--dark px-btn--sm dashboard-settings" onClick={() => setSettingsOpen(true)}>{convert(t('settings.title'))}</button>
           {user && (
             <button className="px-btn px-btn--dark px-btn--sm dashboard-logout" onClick={() => { logout(); navigate('/login'); }}>
               {t('nav.logout')}
@@ -55,33 +61,7 @@ export default function DashboardPage() {
         isGuest={guest && !user}
       />
 
-      {/* Wake lock toggle: phones and tablets only, hidden on a computer with
-          a mouse (2026-11-04, user's call), where the screen staying on
-          doesn't matter for walking around. */}
-      <div className="wake-lock-row" style={{ marginTop: 28, display: 'flex', justifyContent: 'flex-end' }}>
-        {wakeLock.supported ? (
-          <button
-            onClick={wakeLock.toggle}
-            style={{
-              display: 'flex', alignItems: 'center', gap: 8,
-              background: wakeLock.active ? 'rgba(255,215,0,0.12)' : 'var(--bg-card)',
-              border: `2px solid ${wakeLock.active ? 'var(--gold)' : 'var(--border-strong, #444)'}`,
-              color: wakeLock.active ? 'var(--gold)' : 'var(--text-muted)',
-              padding: '8px 14px',
-              cursor: 'pointer',
-              fontSize: 13,
-              fontFamily: 'inherit',
-              transition: 'all 0.15s',
-            }}
-          >
-            <span style={{ fontSize: 16 }}>{wakeLock.active ? '☀' : '🌙'}</span>
-            <span>{convert(wakeLock.active ? t('dashboard.wakeLockActive') : t('dashboard.wakeLockEnable'))}</span>
-          </button>
-        ) : (
-          <span style={{ fontSize: 12, color: 'var(--text-dim, #555)' }}>{convert(t('dashboard.wakeLockUnsupported'))}</span>
-        )}
-      </div>
-
+      {settingsOpen && <SettingsWindow wakeLock={wakeLock} onClose={() => setSettingsOpen(false)} />}
     </div>
   );
 }

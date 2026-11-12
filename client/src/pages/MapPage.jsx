@@ -1,6 +1,8 @@
+import { pageCache, pageKey } from '../utils/pageCache';
 import { useState, useEffect, useLayoutEffect, useMemo, useRef, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { locationAPI, checkinAPI } from '../services/api';
+import { loadLocation, initialLocation } from '../utils/locationCache';
 import { useLang, useT, useConvert } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 import { getLocName } from '../utils/locName';
@@ -18,6 +20,7 @@ import PackLinks from '../components/packs/PackLinks';
 import PackCard from '../components/packs/PackCard';
 import { PackPanel } from '../components/packs/PackDetail';
 import { usePacks } from '../hooks/usePacks';
+import { useBrickEntrance } from '../hooks/useBrickEntrance';
 import { packInArea, packMatches, withPackDistance, nearestPackFirst } from '../utils/packs';
 import MapLegend from '../components/map/MapLegend';
 import MapFrame from '../components/map/MapFrame';
@@ -110,7 +113,7 @@ export default function MapPage() {
   // card comes back to it.
   const [selectedPack, setSelectedPack] = useState(null);
   useEffect(() => { if (rightColumnRef.current) rightColumnRef.current.scrollTop = 0; }, [selectedSlug, selectedPack]);
-  const [loading, setLoading]           = useState(true);
+  const [loading, setLoading]           = useState(() => !pageCache.get(pageKey('locations', userId)));
   const [toasts, setToasts]             = useState([]);
   const [activeLabels, setActiveLabels]     = useState(new Set());
   const [activeRarities, setActiveRarities] = useState(new Set());
@@ -122,8 +125,12 @@ export default function MapPage() {
   const closeSheet = useCallback(() => { setSheet(null); setSelectedSlug(null); setSelectedPack(null); }, []);
 
   useEffect(() => {
+    const key = pageKey('locations', userId);
+    const kept = pageCache.get(key);
+    setLocations(kept ?? []);
+    setLoading(!kept);
     locationAPI.getAll()
-      .then(res => setLocations(res.data))
+      .then(res => { pageCache.set(key, res.data); setLocations(res.data); })
       .finally(() => setLoading(false));
   }, [userId]);
 
@@ -138,6 +145,7 @@ export default function MapPage() {
   const allPacks = usePacks(collectedCount);
   // The packs the filters leave, nearest first. Packs have no rarity, so a rarity
   // filter leaves none (as on Explore).
+  const packGridRef = useRef(null);
   const shownPacks = useMemo(() => {
     if (activeRarities.size > 0) return [];
     const matching = allPacks.filter(p => packInArea(p, area) && packMatches(p, search, activeLabels));
@@ -233,11 +241,6 @@ export default function MapPage() {
     addToast(`+${result.xpEarned} XP — ${result.levelInfo.title}!`);
   };
 
-  if (loading) return (
-    <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div className="spinner" />
-    </div>
-  );
 
   const selected = selectedSlug ? filteredLocations.find(l => l.slug === selectedSlug) : null;
   const changeScope = city => { setCityOnly(city); if (!city || area?.kind === 'outside') setArea(null); };
@@ -319,6 +322,7 @@ export default function MapPage() {
   const cardDetail = selected && (
     <SidebarDetail
       slug={selectedSlug}
+      preview={locations.find(l => l.slug === selectedSlug)}
       onCheckIn={handleCheckIn}
       onViewDetail={(slug) => navigate('/explore', { state: { openSlug: slug } })}
       onAddFilter={addFilter}
@@ -341,11 +345,12 @@ export default function MapPage() {
     />
   );
   const packPanel = selectedPack && <PackPanel slug={selectedPack} refresh={collectedCount} onPickCard={pickPackCard} />;
+  useBrickEntrance(packGridRef, shownPacks.length > 0, ':scope > *');
   const packList = (
     <div className="map-pack-list">
       <h2 className="px-title profile-card-title map-pack-list__title">{t('grid.filterPacks')}</h2>
       {shownPacks.length ? (
-        <div className="map-pack-list__grid">
+        <div className="map-pack-list__grid" ref={packGridRef}>
           {/* Whole packs: the list has the room on every screen (2026-11-10, user's call). */}
           {shownPacks.map(pack => <PackCard key={pack.slug} pack={pack} onClick={pickPack} />)}
         </div>
@@ -497,37 +502,51 @@ export default function MapPage() {
 // `onAddFilter(kind, value)`: on the Map a label or rarity adds that filter right here;
 // an area pill picks that area (`onArea`) and a pack opens in the right column
 // (`onOpenPack`), 2026-11-10.
-function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter, onArea, onOpenPack }) {
+function SidebarDetail({ slug, preview = null, onCheckIn, onViewDetail, onAddFilter, onArea, onOpenPack }) {
   const { lang } = useLang();
   const t = useT();
   const convert = useConvert();
   const { guest, applyProgress } = useAuth();
   const navigate = useNavigate();
   const userPos = useUserPosition();
-  const [loc, setLoc]                     = useState(null);
-  const [loading, setLoading]             = useState(true);
+  // The map's own card first, the story when the request is back (as in LocationDetail).
+  const [loc, setLoc]                     = useState(() => initialLocation(slug, preview));
+  const [full, setFull]                   = useState(false);
+  const [failed, setFailed]               = useState(false);
   const [actionLoading, setActionLoading] = useState(false);
   const [checkInError, setCheckInError]   = useState('');
   const [localFailed, setLocalFailed]     = useState(false);
   const [cloudFailed, setCloudFailed]     = useState(false);
 
   useEffect(() => {
-    setLoading(true);
+    let live = true;
+    setFull(false);
+    setFailed(false);
     setCheckInError('');
     setLocalFailed(false);
     setCloudFailed(false);
-    locationAPI.getOne(slug)
-      .then(res => setLoc(res.data))
-      .finally(() => setLoading(false));
-  }, [slug]);
+    setLoc(prev => (prev?.slug === slug ? prev : initialLocation(slug, preview)));
+    loadLocation(slug).then(
+      data => {
+        if (!live) return;
+        setLoc(prev => ({ ...(prev?.slug === slug ? prev : null), ...data }));
+        setFull(true);
+      },
+      () => live && setFailed(true),
+    );
+    return () => { live = false; };
+  }, [slug]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  if (loading) return (
-    <div style={{ padding: 32, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12 }}>
-      <div className="spinner" />
-      <span style={{ fontFamily: "var(--ui-font)", fontSize: 13, color: 'var(--text-muted)' }}>{t('common.loading')}</span>
+  const storyWait = (
+    <div className="detail-story-wait" role="status" aria-label={t('common.loading')}>
+      <div className="detail-skeleton" aria-hidden="true">
+        {[100, 96, 99, 62, 0, 100, 94, 98, 97, 45].map((w, i) => (
+          <span key={i} className="detail-skeleton__line" style={{ width: `${w}%` }} />
+        ))}
+      </div>
     </div>
   );
-  if (!loc) return null;
+  if (!loc) return failed ? null : <div style={{ padding: 20 }}>{storyWait}</div>;
 
   const desc = convert(loc.description?.[lang] || loc.description?.en || '');
   const TEASER = {
@@ -558,7 +577,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter, onArea, onO
       const res = await checkinAPI.checkIn(slug, coords);
       setLoc(prev => ({ ...prev, unlocked: true, checkedInAt: new Date().toISOString(), guessAttempt: res.data.guessAttempt, huntMode: res.data.huntMode, xpEarned: res.data.xpEarned }));
       // The server only sent a preview of the story until now: fetch it whole.
-      locationAPI.getOne(slug).then(r => setLoc(prev => ({ ...prev, description: r.data.description, storyLocked: r.data.storyLocked }))).catch(() => {});
+      loadLocation(slug, { fresh: true }).then(r => setLoc(prev => ({ ...prev, description: r.description, storyLocked: r.storyLocked }))).catch(() => {});
       playUnlockSound(loc.rarity);
       applyProgress(res.data.levelInfo, res.data.totalXP);
       onCheckIn(slug, res.data);
@@ -666,7 +685,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter, onArea, onO
         <DistrictLine loc={loc} style={{ marginBottom: 4 }} onArea={onArea} />
         <PackLinks packs={loc.packs} artOnly onOpenPack={onOpenPack} style={{ marginTop: 6, marginBottom: 10 }} />
 
-        {(() => {
+        {loc.description === undefined ? (!failed && <div style={{ marginTop: 14 }}>{storyWait}</div>) : (() => {
           const paras = desc ? desc.split('\n').filter(l => l.trim()) : [];
           if (!paras.length) return (
             <p style={{ color: 'var(--text-muted)', fontSize: 15, marginTop: 14, marginBottom: 16 }}>{t('common.noDesc')}</p>
@@ -717,7 +736,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail, onAddFilter, onArea, onO
                 {t('auth.loginToCollect')}
               </button>
             ) : loc.unlocked ? null : (
-              <button className="px-btn px-btn--gold" onClick={doCheckIn} disabled={actionLoading}>
+              <button className="px-btn px-btn--gold" onClick={doCheckIn} disabled={actionLoading || !full}>
                 {actionLoading ? '...' : `${t('common.checkIn')} (+${loc.xpReward} XP)`}
               </button>
             )}

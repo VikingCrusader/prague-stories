@@ -1,4 +1,5 @@
 import { useState, useEffect, useLayoutEffect, useRef } from 'react';
+import { growIn } from '../../hooks/useModalEntrance';
 import { createPortal } from 'react-dom';
 import LocationCard from './LocationCard';
 import PackCard, { PackBack } from '../packs/PackCard';
@@ -50,6 +51,7 @@ export default function CardShowcase({ location, pack, openedBy = 'mouse', onClo
   const [description, setDescription] = useState(null);
   const [angle, setAngle] = useState(0);
   const overlayRef = useRef(null);
+  const boxRef = useRef(null);
   // The current gesture: start point, axis once known, angle at the start,
   // and recent samples for the release velocity.
   const drag = useRef(null);
@@ -63,6 +65,18 @@ export default function CardShowcase({ location, pack, openedBy = 'mouse', onClo
   // close it. A touch opener arms on a new touchstart only, since the
   // browser emulates a mousedown when that first finger lifts.
   const armed = useRef(false);
+
+  // Grows out of the card it was opened from (2026-11-12). Without a card in
+  // view, or with reduced motion, the CSS zoom in pixelart.css plays instead.
+  useLayoutEffect(() => {
+    const box = boxRef.current;
+    const slug = (location ?? pack)?.slug;
+    if (!box || !slug) return undefined;
+    box.style.animation = 'none';
+    const cancel = growIn(box, slug, { overlay: overlayRef.current, sheet: false, finalTransform: getComputedStyle(box).transform });
+    if (!cancel) { box.style.animation = ''; return undefined; }
+    return cancel;
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useLayoutEffect(() => {
     const onResize = () => setScale(fitScale());
@@ -183,7 +197,7 @@ export default function CardShowcase({ location, pack, openedBy = 'mouse', onClo
       role="dialog"
       aria-modal="true"
     >
-      <div className="card-showcase__card" style={{ '--showcase-scale': scale }}>
+      <div ref={boxRef} className="card-showcase__card" style={{ '--showcase-scale': scale }}>
         <div
           className={`card-showcase__flip${flat ? ' card-showcase__flip--flat' : ''}${pack ? ' card-showcase__flip--pack' : ''}`}
           style={{ transform: flat ? 'none' : `rotateY(${angle}deg)` }}

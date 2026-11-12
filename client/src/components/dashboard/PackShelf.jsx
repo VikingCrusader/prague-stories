@@ -4,6 +4,7 @@ import { usePacks } from '../../hooks/usePacks';
 import { useFitText } from '../../utils/fitText';
 import { getLocName } from '../../utils/locName';
 import PackCard from '../packs/PackCard';
+import { useBrickEntrance } from '../../hooks/useBrickEntrance';
 
 // A pack's size before it is scaled to the shelf: art only, so about square.
 const PACK_W = 204;
@@ -84,6 +85,7 @@ export default function PackShelf({ layout, max = null, refresh, onOpen, onSeeAl
   }
 
   useFitText(rowRef, '.card-strip__name, .card-strip__meta', [packs.length, lang, zoom], 8);
+  useBrickEntrance(rowRef, packs.length > 0, '.pack-shelf__item');
 
   return (
     <div ref={cardRef} className={`stat-card pack-shelf pack-shelf--${layout}${layout === 'compact' && headOnTop ? ' pack-shelf--top' : ''}`}>

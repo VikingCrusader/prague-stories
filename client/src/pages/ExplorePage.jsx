@@ -1,3 +1,4 @@
+import { pageCache, pageKey } from '../utils/pageCache';
 import { useState, useEffect, useLayoutEffect, useCallback, useMemo, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { locationAPI, userAPI } from '../services/api';
@@ -69,7 +70,7 @@ export default function ExplorePage() {
   const userPos                          = useUserPosition();
   // A first-time visitor with no position sees the best-known cards uncovered.
   const guestPreview                     = guest && !user && !userPos;
-  const [locations, setLocations]       = useState([]);
+  const [locations, setLocations]       = useState(() => pageCache.get(pageKey('locations', user?._id)) ?? []);
   const [areaGuide, setAreaGuide]       = useState(null);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [autoCheckIn, setAutoCheckIn]   = useState(false);
@@ -87,7 +88,7 @@ export default function ExplorePage() {
   // A link's state can open it on one district or quarter (the profile's
   // rows send { district: 'Praha 7' } or { quarter: 'Holešovice' }, 2026-11-04).
   const [area, setArea]                 = useState(null);
-  const [loading, setLoading]           = useState(true);
+  const [loading, setLoading]           = useState(() => !pageCache.get(pageKey('locations', user?._id)));
   const [toasts, setToasts]             = useState([]);
   // Filters to open with, from a link's state (the profile's expedition
   // strip sends { showAll: true, rarity: 'expedition' } from its empty
@@ -109,8 +110,12 @@ export default function ExplorePage() {
   // was retried in the background (AuthContext) lands after the first load.
   const userId = user?._id;
   useEffect(() => {
+    const key = pageKey('locations', userId);
+    const kept = pageCache.get(key);
+    setLocations(kept ?? []);
+    setLoading(!kept);
     locationAPI.getAll()
-      .then(res => setLocations(res.data))
+      .then(res => { pageCache.set(key, res.data); setLocations(res.data); })
       .finally(() => setLoading(false));
   }, [userId]);
 
@@ -335,11 +340,6 @@ export default function ExplorePage() {
   const pageRef = useRef(null);
   useExploreEntrance(pageRef, !loading, wide);
 
-  if (loading) return (
-    <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div className="spinner" />
-    </div>
-  );
 
   // Touch screens get the long-press version, mice the double click.
   const showcaseHint = (
@@ -580,6 +580,7 @@ export default function ExplorePage() {
       {selectedSlug && (
         <LocationDetail
           slug={selectedSlug}
+          preview={locations.find(l => l.slug === selectedSlug)}
           onClose={() => { setSelectedSlug(null); setAutoCheckIn(false); }}
           onCheckIn={handleCheckIn}
           onUpdate={handleUpdate}

@@ -18,6 +18,8 @@ export default function AchievementIcon({ achievement }) {
       className="ach-icon__img"
       src={sources[step]}
       alt=""
+      loading="lazy"
+      decoding="async"
       draggable="false"
       onError={() => setStep((s) => s + 1)}
     />

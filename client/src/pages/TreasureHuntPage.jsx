@@ -1,3 +1,4 @@
+import { pageCache, pageKey } from '../utils/pageCache';
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
@@ -61,8 +62,9 @@ export default function TreasureHuntPage() {
   const convert = useConvert();
   const userPos = useUserPosition();
 
-  const [status, setStatus] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const huntKey = pageKey('hunt', user?._id);
+  const [status, setStatus] = useState(() => pageCache.get(huntKey) ?? null);
+  const [loading, setLoading] = useState(() => !pageCache.get(huntKey));
   const [starting, setStarting] = useState(false);
   // Why the server refused to start a hunt: 'outsidePrague' or
   // 'positionRequired' (drawRandomLocation on the server).
@@ -116,13 +118,15 @@ export default function TreasureHuntPage() {
   const fetchStatus = useCallback(() => {
     if (!user) return Promise.resolve();
     return userAPI.getRandomDraw(posRef.current)
-      .then(res => setStatus(res.data))
+      .then(res => { pageCache.set(huntKey, res.data); setStatus(res.data); })
       .catch(() => setStatus({ active: false, canDraw: true, location: null }));
   }, [user]);
 
   useEffect(() => {
     if (!user) { setLoading(false); return; }
-    setLoading(true);
+    const kept = pageCache.get(huntKey);
+    setStatus(kept ?? null);
+    setLoading(!kept);
     fetchStatus().finally(() => setLoading(false));
   }, [user, fetchStatus]);
 

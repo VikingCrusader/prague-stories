@@ -10,6 +10,7 @@ import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
 import { watchOffscreen } from '../../utils/pauseOffscreen';
 import { useHoldGestures } from '../../hooks/useHoldGestures';
+import { prefetchLocation } from '../../utils/locationCache';
 
 // Cards the user collected within this window get a green "NEW" tag.
 const NEW_BADGE_MS = 48 * 60 * 60 * 1000;
@@ -95,6 +96,12 @@ function LocationCard({ location, onClick, distance, nearby = false, uncovered: 
       ref={cardRef}
       className={`loc-card${((!unlocked && !uncovered) || flipping) ? ' loc-card--locked' : ''}${uncovered ? ' loc-card--uncovered' : ''}${flipping ? ' loc-card--flipping' : ''}${teasing && !flipping ? ' loc-card--nearby' : ''}${gestures ? ' loc-card--holdable' : ''}`}
       {...handlers}
+      // A mouse press is nearly always a click: ask for the detail now, so it is
+      // there when the window opens. Not on touch, where a press is usually a scroll.
+      onPointerDown={e => {
+        handlers.onPointerDown(e);
+        if (!showcase && e.pointerType === 'mouse' && e.button === 0) prefetchLocation(slug);
+      }}
       title={previewable ? undefined : showName ? name : '???'}
       data-slug={slug}
       data-rarity={rarity}

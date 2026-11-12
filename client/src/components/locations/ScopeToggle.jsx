@@ -10,7 +10,24 @@ import { useT } from '../../context/LanguageContext';
 export default function ScopeToggle({ cityOnly, onChange, className = '', style }) {
   const t = useT();
   const ref = useRef(null);
+  const thumbRef = useRef(null);
   const [short, setShort] = useState(false);
+
+  // The lit half is one sliding frame (.scope-toggle__thumb) that glides over to
+  // the chosen half, instead of the two halves swapping their look (2026-11-12).
+  // Placed from the chosen half's offsets; it only moves once placed (data-ready).
+  const place = () => {
+    const el = ref.current;
+    const thumb = thumbRef.current;
+    const on = el?.querySelector('.scope-toggle__opt--on');
+    if (!el || !thumb || !on) return;
+    thumb.style.width = `${on.offsetWidth}px`;
+    thumb.style.height = `${on.offsetHeight}px`;
+    thumb.style.transform = `translateX(${on.offsetLeft}px)`;
+    thumb.style.opacity = '1';
+    if (!el.hasAttribute('data-ready')) requestAnimationFrame(() => el.setAttribute('data-ready', ''));
+  };
+  useLayoutEffect(place, [cityOnly, short]);
 
   useLayoutEffect(() => {
     const el = ref.current;
@@ -27,16 +44,16 @@ export default function ScopeToggle({ cityOnly, onChange, className = '', style 
       setShort(tooWide);
     };
     fit();
-    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(fit) : null;
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(() => { fit(); place(); }) : null;
     ro?.observe(el);
-    document.fonts?.ready.then(fit);
+    document.fonts?.ready.then(() => { fit(); place(); });
     return () => ro?.disconnect();
-  }, [t]);
+  }, [t]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const option = (city, key) => (
     <button
       type="button"
-      className={`filter-btn scope-toggle__opt${cityOnly === city ? ' filter-btn--active scope-toggle__opt--on' : ''}`}
+      className={`filter-btn scope-toggle__opt${cityOnly === city ? ' scope-toggle__opt--on' : ''}`}
       aria-pressed={cityOnly === city}
       onClick={() => { if (cityOnly !== city) onChange(city); }}
     >
@@ -52,6 +69,7 @@ export default function ScopeToggle({ cityOnly, onChange, className = '', style 
       className={`scope-toggle${short ? ' scope-toggle--short' : ''}${className ? ` ${className}` : ''}`}
       style={style}
     >
+      <span ref={thumbRef} className="scope-toggle__thumb" aria-hidden="true" />
       {option(true, 'explore.scopeCity')}
       {option(false, 'explore.scopeAll')}
     </div>

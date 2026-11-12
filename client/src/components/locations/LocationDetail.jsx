@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from "react";
+import { loadLocation, forgetLocation, initialLocation } from "../../utils/locationCache";
+import { useModalEntrance } from "../../hooks/useModalEntrance";
 import { useNavigate } from "react-router-dom";
-import { locationAPI, checkinAPI } from "../../services/api";
+import { checkinAPI } from "../../services/api";
 import { useLang, useT, useConvert } from "../../context/LanguageContext";
 import { useAuth } from "../../context/AuthContext";
 import {
@@ -8,7 +10,7 @@ import {
   LABEL_DEFINITIONS,
   LABEL_COLORS,
 } from "../../utils/pixelArtMap";
-import { getLocalCoverPath } from "../../utils/localCover";
+import { getLocalCoverPath, toThumbPath, toCloudThumbUrl } from "../../utils/localCover";
 import { getLocName } from "../../utils/locName";
 import { getCurrentPosition, haversineDistance, formatDistance } from "../../utils/geolocation";
 import { useUserPosition } from "../../hooks/useUserPosition";
@@ -26,8 +28,23 @@ import { playUnlockSound } from "../../utils/sound";
 
 const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
 
+// Grey lines where text is on its way.
+const SkeletonLines = ({ widths }) => (
+  <div className="detail-skeleton" aria-hidden="true">
+    {widths.map((w, i) => (
+      <span key={i} className="detail-skeleton__line" style={{ width: `${w}%` }} />
+    ))}
+  </div>
+);
+const STORY_LINES = [100, 96, 99, 62, 0, 100, 94, 98, 97, 45];
+
+// `preview`: the card as the list already has it (everything but the story).
+// With it, or with a copy kept from an earlier visit, the window opens filled
+// in at once and only the story waits for the request (2026-11-12).
+
 export default function LocationDetail({
   slug,
+  preview = null,
   onClose,
   onCheckIn,
   onUpdate,
@@ -40,8 +57,10 @@ export default function LocationDetail({
   const { user, guest, applyProgress } = useAuth();
   const navigate = useNavigate();
   const userPos = useUserPosition();
-  const [loc, setLoc] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [loc, setLoc] = useState(() => initialLocation(slug, preview));
+  // The request is back: until then `loc` may be the list's card or an old copy.
+  const [full, setFull] = useState(false);
+  const { overlayRef, modalRef, close } = useModalEntrance(slug, onClose);
   const [actionLoading, setActionLoading] = useState(false);
   const [error, setError] = useState("");
   const [localFailed, setLocalFailed] = useState(false);
@@ -49,35 +68,40 @@ export default function LocationDetail({
   const [checkInResult, setCheckInResult] = useState(null);
   const [showEdit, setShowEdit] = useState(false);
   const autoCheckedIn = useRef(false);
-  const prevUnlockedRef = useRef(null);
   const [flipping, setFlipping] = useState(false);
+  // The card's thumbnail stands in until the full-size cover has loaded.
+  const [coverLoaded, setCoverLoaded] = useState(false);
+  const [thumbFailed, setThumbFailed] = useState(false);
+  // The story was there when the window opened, so it needn't fade in.
+  const storyAtOpen = useRef(loc?.description !== undefined);
 
   useEffect(() => {
-    if (loc === null) return;
-    if (prevUnlockedRef.current === false && loc.unlocked === true) {
-      setFlipping(true);
-      playUnlockSound(loc.rarity);
-    }
-    prevUnlockedRef.current = loc.unlocked ?? null;
-  }, [loc?.unlocked]);
-
-  useEffect(() => {
-    setLoading(true);
+    let live = true;
+    setFull(false);
     setError("");
     setLocalFailed(false);
     setCloudFailed(false);
-    locationAPI
-      .getOne(slug)
-      .then((res) => setLoc(res.data))
-      .catch(() => setError("Failed to load location."))
-      .finally(() => setLoading(false));
-  }, [slug]);
+    setCoverLoaded(false);
+    setThumbFailed(false);
+    setLoc((prev) => (prev?.slug === slug ? prev : initialLocation(slug, preview)));
+    loadLocation(slug).then(
+      (data) => {
+        if (!live) return;
+        setLoc((prev) => ({ ...(prev?.slug === slug ? prev : null), ...data }));
+        setFull(true);
+      },
+      () => live && setError("Failed to load location."),
+    );
+    return () => {
+      live = false;
+    };
+  }, [slug]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    if (!autoCheckIn || !loc || loc.unlocked || autoCheckedIn.current) return;
+    if (!autoCheckIn || !full || !loc || loc.unlocked || autoCheckedIn.current) return;
     autoCheckedIn.current = true;
     handleCheckIn();
-  }, [loc, autoCheckIn]);
+  }, [loc, full, autoCheckIn]);
 
   const handleCheckIn = async () => {
     setActionLoading(true);
@@ -93,10 +117,12 @@ export default function LocationDetail({
         huntMode: res.data.huntMode,
         xpEarned: res.data.xpEarned,
       }));
+      setFlipping(true);
+      playUnlockSound(loc?.rarity);
       setCheckInResult(res.data);
       // The server only sent a preview of the story until now: fetch it whole.
-      locationAPI.getOne(slug)
-        .then((r) => setLoc((prev) => ({ ...prev, description: r.data.description, storyLocked: r.data.storyLocked })))
+      loadLocation(slug, { fresh: true })
+        .then((r) => setLoc((prev) => ({ ...prev, description: r.description, storyLocked: r.storyLocked })))
         .catch(() => {});
       applyProgress(res.data.levelInfo, res.data.totalXP);
       onCheckIn(slug, res.data); // update grid immediately
@@ -109,6 +135,7 @@ export default function LocationDetail({
 
   const handleUpdated = (updatedLoc) => {
     setLoc((prev) => ({ ...prev, ...updatedLoc }));
+    forgetLocation(slug);
     setLocalFailed(false);
     setCloudFailed(false);
     onUpdate?.(updatedLoc);
@@ -144,6 +171,8 @@ export default function LocationDetail({
   const useLocalCover = !!localCover && !localFailed;
   const useCloudCover = !useLocalCover && !!loc?.coverImage && !cloudFailed;
   const coverSrc = useLocalCover ? localCover : loc?.coverImage;
+  const thumbSrc = useLocalCover ? toThumbPath(localCover) : toCloudThumbUrl(loc?.coverImage);
+  const hasStory = loc?.description !== undefined;
   const mapHref = loc
     ? `https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`
     : null;
@@ -159,46 +188,39 @@ export default function LocationDetail({
   return (
     <div
       className="px-overlay"
-      onClick={(e) => e.target === e.currentTarget && onClose()}
+      ref={overlayRef}
+      onClick={(e) => e.target === e.currentTarget && close()}
     >
       <div
         className="px-modal px-modal--detail"
+        ref={modalRef}
         style={
           loc
             ? { borderColor: RARITY_VAR[loc.rarity ?? "common"] }
             : undefined
         }
       >
-        <button className="px-modal__close" onClick={onClose}>
+        <button className="px-modal__close" onClick={close}>
           ✕
         </button>
 
-        {loading ? (
-          <div
-            style={{
-              padding: 48,
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: 16,
-            }}
-          >
-            <div className="spinner" />
-            <span
-              style={{
-                fontFamily: "var(--ui-font)",
-                fontSize: 14,
-                color: "var(--text-muted)",
-              }}
-            >
-              {t("common.loading")}
-            </span>
-          </div>
-        ) : error ? (
+        {loc ? null : error ? (
           <div style={{ padding: 32, color: "var(--danger-text, #ff6b6b)", fontSize: 16 }}>
             {error}
           </div>
-        ) : loc ? (
+        ) : (
+          /* Nothing known about the card yet: its outline, no spinner. */
+          <div role="status" aria-label={t("common.loading")}>
+            <div className="detail-cover detail-skeleton__cover" />
+            <div className="px-modal__body">
+              <SkeletonLines widths={[38, 70, 52]} />
+              <div className="detail-story-wait">
+                <SkeletonLines widths={STORY_LINES} />
+              </div>
+            </div>
+          </div>
+        )}
+        {loc ? (
           <>
             {useLocalCover || useCloudCover ? (
               <ImgWrap
@@ -222,13 +244,33 @@ export default function LocationDetail({
                     if (e.animationName === "card-flip") setFlipping(false);
                   }}
                 >
+                  {!coverLoaded && !thumbFailed && thumbSrc && (
+                    <img
+                      src={thumbSrc}
+                      alt=""
+                      aria-hidden="true"
+                      onError={() => setThumbFailed(true)}
+                      style={{
+                        position: "absolute",
+                        inset: 0,
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                        display: "block",
+                        filter: loc.unlocked ? undefined : "saturate(0.15)",
+                      }}
+                    />
+                  )}
                   <img
+                    key={coverSrc}
                     src={coverSrc}
                     alt={locName}
+                    onLoad={() => setCoverLoaded(true)}
                     onError={() =>
                       useLocalCover ? setLocalFailed(true) : setCloudFailed(true)
                     }
                     style={{
+                      position: "relative",
                       width: "100%",
                       height: "100%",
                       objectFit: "cover",
@@ -536,9 +578,16 @@ export default function LocationDetail({
               )}
 
               <DistrictLine loc={loc} style={{ marginBottom: loc.packs?.length ? 8 : 14 }} />
-              <PackLinks packs={loc.packs} fromPack={fromPack} onBack={onClose} style={{ marginBottom: 14 }} />
+              <PackLinks packs={loc.packs} fromPack={fromPack} onBack={close} style={{ marginBottom: 14 }} />
 
-              {(() => {
+              {!hasStory ? (
+                /* The story is on its way; the rest is already here. */
+                !error && (
+                  <div className="detail-story-wait" role="status" aria-label={t("common.loading")}>
+                    <SkeletonLines widths={STORY_LINES} />
+                  </div>
+                )
+              ) : (() => {
                 const paras = description
                   ? description.split("\n").filter((l) => l.trim())
                   : [];
@@ -567,7 +616,10 @@ export default function LocationDetail({
                   ? paras
                   : paras.slice(0, showCount);
                 return (
-                  <div style={{ marginBottom: 20 }}>
+                  <div
+                    className={storyAtOpen.current ? undefined : "detail-story-in"}
+                    style={{ marginBottom: 20 }}
+                  >
                     {visible.map((para, i) => (
                       <p
                         key={i}
@@ -669,7 +721,7 @@ export default function LocationDetail({
                     <button
                       className="px-btn px-btn--gold"
                       onClick={handleCheckIn}
-                      disabled={actionLoading}
+                      disabled={actionLoading || !full}
                     >
                       {actionLoading ? "..." : t("common.checkIn")}
                     </button>

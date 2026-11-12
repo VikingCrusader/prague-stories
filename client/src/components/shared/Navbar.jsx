@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { useCallback, useLayoutEffect, useRef, useState } from 'react';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { useT, useLang } from '../../context/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -13,6 +13,30 @@ export default function Navbar() {
   const { lang } = useLang();
   // The XP · Lv figure opens the list of every explorer level.
   const [levelsOpen, setLevelsOpen] = useState(false);
+  // The gold frame of the current page glides from link to link (see .navbar__indicator).
+  const linksRef = useRef(null);
+  const indicatorRef = useRef(null);
+  const { pathname } = useLocation();
+  const place = useCallback(() => {
+    const box = linksRef.current;
+    const ind = indicatorRef.current;
+    if (!box || !ind) return;
+    const active = box.querySelector('.navbar__link--active');
+    if (!active) { ind.style.opacity = '0'; return; }
+    ind.style.opacity = '1';
+    ind.style.width = `${active.offsetWidth}px`;
+    ind.style.height = `${active.offsetHeight}px`;
+    ind.style.transform = `translate(${active.offsetLeft}px, ${active.offsetTop}px)`;
+    if (!box.hasAttribute('data-ready')) requestAnimationFrame(() => box.setAttribute('data-ready', ''));
+  }, []);
+  useLayoutEffect(place, [place, pathname, user, guest, lang]);
+  useLayoutEffect(() => {
+    window.addEventListener('resize', place);
+    const box = linksRef.current;
+    const ro = typeof ResizeObserver !== 'undefined' && box ? new ResizeObserver(place) : null;
+    if (ro) ro.observe(box);
+    return () => { window.removeEventListener('resize', place); ro?.disconnect(); };
+  }, [place, user, guest]);
 
   return (
     <nav className={`navbar${user ? ' navbar--user' : ''}`}>
@@ -25,7 +49,8 @@ export default function Navbar() {
       </span>
 
       {(user || guest) && (
-        <div className="navbar__links">
+        <div className="navbar__links" ref={linksRef}>
+          <span ref={indicatorRef} className="navbar__indicator" aria-hidden="true" />
           {/* Order (2026-11-04, user's call): going out (Explore, Map,
               Treasure Hunt), reading (History, then the Guide), and the
               user's own progress last (Achievements, Profile). */}

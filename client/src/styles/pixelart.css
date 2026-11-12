@@ -1296,8 +1296,21 @@ html[data-lang="zh"] .label-filter__group-title { font-size: 13px; letter-spacin
 /* Show an element on one theme only. */
 :root:not([data-theme="light"]) .theme-light-only,
 :root[data-theme="light"] .theme-dark-only { display: none !important; }
-.navbar__links { display: flex; gap: 8px; margin-left: 16px; }
+.navbar__links { display: flex; gap: 8px; margin-left: 16px; position: relative; }
+/* The gold frame of the current page: one box that glides between the links
+   (2026-11-12) instead of each link switching its own border on and off. Placed
+   by Navbar.jsx from the active link's offsets; it only animates once placed
+   (data-ready), so the first paint doesn't slide in from the corner. */
+.navbar__indicator {
+  position: absolute; left: 0; top: 0; box-sizing: border-box;
+  border: 2px solid var(--gold); pointer-events: none; z-index: 0; opacity: 0;
+}
+.navbar__links[data-ready] .navbar__indicator {
+  transition: transform 0.38s cubic-bezier(0.3, 0.7, 0.2, 1), width 0.38s cubic-bezier(0.3, 0.7, 0.2, 1), height 0.38s cubic-bezier(0.3, 0.7, 0.2, 1), opacity 0.2s ease-out;
+}
+@media (prefers-reduced-motion: reduce) { .navbar__links[data-ready] .navbar__indicator { transition: none; } }
 .navbar__link {
+  position: relative; z-index: 1;
   font-family: var(--ui-font);
   font-size: 17px;
   color: var(--text-muted);
@@ -1314,7 +1327,7 @@ html:not([data-lang="zh"]) .navbar__link {
   font-weight: 700;
 }
 .navbar__link:hover { color: var(--text-primary); text-decoration: none; }
-.navbar__link--active { color: var(--gold); border-color: var(--gold); }
+.navbar__link--active { color: var(--gold); border-color: transparent; }
 .navbar__right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
 .navbar__right .lang-tabs { margin-bottom: 0; }
 .navbar__user { font-family: var(--ui-font); font-size: 13px; color: var(--gold); }
@@ -1454,10 +1467,21 @@ button.level-badge--btn:hover { border-color: var(--gold); }
 .filter-bar__bottom { display: contents; }
 .filter-bar__scope { display: none; }
 /* City / All: two halves of one control, the current one lit (ScopeToggle.jsx). */
-.scope-toggle { display: flex; flex-shrink: 0; white-space: nowrap; }
-.scope-toggle__opt { position: relative; flex: 1 1 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; text-align: center; }
+.scope-toggle { position: relative; display: flex; flex-shrink: 0; white-space: nowrap; }
+.scope-toggle__opt { position: relative; z-index: 1; flex: 1 1 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; text-align: center; }
 .scope-toggle__opt + .scope-toggle__opt { margin-left: -2px; }
-.scope-toggle__opt--on { z-index: 1; cursor: default; }
+.scope-toggle .scope-toggle__opt--on { cursor: default; color: var(--gold); }
+/* The lit half's frame, sliding between the halves (ScopeToggle.jsx). It lies
+   on top of the halves (they have their own opaque background, which hid it
+   when it lay beneath) and lets clicks through. */
+.scope-toggle__thumb {
+  position: absolute; left: 0; top: 0; z-index: 2; box-sizing: border-box; opacity: 0;
+  border: 2px solid var(--gold); background: color-mix(in srgb, var(--gold) 8%, transparent); pointer-events: none;
+}
+.scope-toggle[data-ready] .scope-toggle__thumb {
+  transition: transform 0.32s cubic-bezier(0.3, 0.7, 0.2, 1), width 0.32s cubic-bezier(0.3, 0.7, 0.2, 1), height 0.32s cubic-bezier(0.3, 0.7, 0.2, 1), opacity 0.2s ease-out;
+}
+@media (prefers-reduced-motion: reduce) { .scope-toggle[data-ready] .scope-toggle__thumb { transition: none; } }
 .scope-toggle__short { display: none; }
 .scope-toggle--short .scope-toggle__short { display: inline; }
 /* Kept laid out so it can still be measured against its half. */
@@ -3468,3 +3492,67 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .explore-page[data-enter="play"] > .explore-header { animation: explore-enter-fade 0.35s ease-out 0.04s backwards; }
 .explore-page[data-enter="play"] > .filter-bar { animation: explore-enter-fade 0.35s ease-out 0.1s backwards; }
 .explore-page[data-enter="play"] > .explore-sortbar { animation: explore-enter-fade 0.35s ease-out 0.16s backwards; }
+
+/* ── Card detail: opens filled in, the story follows (2026-11-12) ─────────
+   The window shows what the list already knows and grey lines where the story
+   will be, instead of a spinner; the story fades in when it arrives. The
+   waiting block is tall enough that the window is already at its full height,
+   so it doesn't jump when the text lands. The entrance itself (growing out of
+   the card, or sliding up on phones) is in hooks/useModalEntrance.js. */
+.detail-story-wait { min-height: 30vh; margin-bottom: 20px; }
+.detail-skeleton { display: flex; flex-direction: column; gap: 12px; padding: 4px 0 14px; }
+.detail-skeleton__line,
+.detail-skeleton__cover {
+  background: linear-gradient(100deg,
+    color-mix(in srgb, var(--text-muted) 12%, transparent) 40%,
+    color-mix(in srgb, var(--text-muted) 24%, transparent) 50%,
+    color-mix(in srgb, var(--text-muted) 12%, transparent) 60%) 0 0 / 300% 100%;
+  animation: detail-skeleton-sweep 1.4s linear infinite;
+}
+.detail-skeleton__line { display: block; height: 14px; }
+@keyframes detail-skeleton-sweep { from { background-position: 100% 0; } to { background-position: 0 0; } }
+.detail-story-in { animation: detail-story-in 0.28s ease-out; }
+@keyframes detail-story-in { from { opacity: 0; transform: translateY(6px); } }
+@media (prefers-reduced-motion: reduce) {
+  .detail-skeleton__line, .detail-skeleton__cover, .detail-story-in { animation: none; }
+}
+
+/* ── Page turn (2026-11-12) ───────────────────────────────────────────────
+   Each page slides in like a turned page: forward from the right, going back
+   from the left (PageTurn.jsx). No fill, so no transform is left on the page
+   and fixed pop-ups inside it keep working. The wrapper is a flex column so
+   pages that stretch to fill the window (#root is one too) still do. */
+.page-turn { flex: 1 1 auto; display: flex; flex-direction: column; min-width: 0; width: 100%; }
+.page-turn--forward { animation: page-turn-forward 0.32s cubic-bezier(0.2, 0.7, 0.2, 1); }
+.page-turn--back { animation: page-turn-back 0.32s cubic-bezier(0.2, 0.7, 0.2, 1); }
+@keyframes page-turn-forward { from { transform: translateX(28px); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes page-turn-back { from { transform: translateX(-28px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  .page-turn--forward, .page-turn--back { animation: none; }
+}
+
+/* Card animations switch (2026-11-12, utils/cardMotion.js): with it off, the
+   cards' looping shimmers, glows and frames stop. A card that is flipping keeps
+   its unlock flip (the :not exception), since that animation ends the flip. */
+html[data-card-motion="off"] .loc-card:not(.loc-card--flipping),
+html[data-card-motion="off"] .loc-card:not(.loc-card--flipping) *,
+html[data-card-motion="off"] .loc-card:not(.loc-card--flipping)::before,
+html[data-card-motion="off"] .loc-card:not(.loc-card--flipping)::after {
+  animation: none !important;
+}
+
+/* Settings window on the profile (2026-11-12, components/dashboard/SettingsWindow.jsx). */
+.settings-window { max-width: 460px; padding: 26px 26px 22px; }
+.settings-window__title { font-size: 24px; margin: 0 40px 14px 0; }
+.settings-window__list { list-style: none; margin: 0; padding: 0; }
+.settings-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-top: 2px solid var(--border); }
+.settings-row:first-child { border-top: none; }
+.settings-row__label { font-family: var(--ui-font); font-size: 15px; color: var(--text-primary); }
+.settings-row__note { font-family: var(--ui-font); font-size: 12px; color: var(--text-dim, #555); text-align: right; }
+.settings-switch {
+  font-family: var(--ui-font); font-size: 13px; min-width: 76px; padding: 6px 12px; cursor: pointer; flex: none;
+  background: var(--bg-card); border: 2px solid var(--border-strong, #444); color: var(--text-muted);
+}
+.settings-switch:hover { color: var(--text-primary); }
+.settings-switch[aria-pressed="true"] { color: var(--gold); border-color: var(--gold); background: rgba(255, 215, 0, 0.12); }
+

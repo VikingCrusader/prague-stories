@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { locationAPI } from '../../services/api';
+import { loadLocation, peekLocation } from '../../utils/locationCache';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
@@ -16,25 +16,13 @@ const WIDTH = 380;
 const GAP = 12;
 const EDGE = 8;
 const NAVBAR = 68;
-const descriptions = new Map(); // slug -> description, for the visit
-const requests = new Map(); // slug -> the request under way, so a card is fetched once
-
-function loadDescription(slug) {
-  if (!requests.has(slug)) {
-    requests.set(slug, locationAPI.getOne(slug).then(
-      (res) => {
-        const description = res.data.description ?? {};
-        descriptions.set(slug, description);
-        return description;
-      },
-      () => {
-        requests.delete(slug); // try again next time
-        return {};
-      },
-    ));
-  }
-  return requests.get(slug);
-}
+// The story comes through the cache the detail window uses too, so a card
+// hovered and then opened is fetched once.
+const keptDescription = (slug) => {
+  const kept = peekLocation(slug);
+  return kept ? kept.description ?? {} : null;
+};
+const loadDescription = (slug) => loadLocation(slug).then(loc => loc.description ?? {}, () => ({}));
 
 function Preview({ location, rect }) {
   const t = useT();
@@ -42,11 +30,11 @@ function Preview({ location, rect }) {
   const convert = useConvert();
   const boxRef = useRef(null);
   const { slug } = location;
-  const [description, setDescription] = useState(() => descriptions.get(slug) ?? null);
+  const [description, setDescription] = useState(() => keptDescription(slug));
   const [top, setTop] = useState(rect.top);
 
   useEffect(() => {
-    if (descriptions.has(slug)) return undefined;
+    if (keptDescription(slug)) return undefined;
     let live = true;
     loadDescription(slug).then((result) => { if (live) setDescription(result); });
     return () => { live = false; };
@@ -104,6 +92,7 @@ export function useCardPreview(locations) {
   const [shown, setShown] = useState(null);
   const timer = useRef(null);
   const current = useRef(null);
+  const pointer = useRef(null); // the last pointer position over the grid
 
   // Keeps `current`, so the card under the pointer doesn't pop up again.
   const dismiss = useCallback(() => {
@@ -111,25 +100,48 @@ export function useCardPreview(locations) {
     setShown(null);
   }, []);
 
-  useEffect(() => {
-    window.addEventListener('scroll', dismiss, { passive: true });
-    return () => {
-      window.removeEventListener('scroll', dismiss);
-      clearTimeout(timer.current);
-    };
+  // Shows the preview of `card` after the usual delay (no-op for null).
+  const showFor = useCallback((card) => {
+    const slug = card?.dataset.slug ?? null;
+    current.current = slug;
+    dismiss();
+    if (slug) timer.current = setTimeout(() => setShown({ slug, rect: viewportRect(card) }), DELAY_MS);
   }, [dismiss]);
 
+  useEffect(() => {
+    // A scroll closes the preview. When the page stops moving with the pointer
+    // still over a card (the page scrolls to bring a card into view, say), the
+    // preview comes back: no mouse event fires for the card that moved under it.
+    let rearm = null;
+    const onScroll = () => {
+      dismiss();
+      clearTimeout(rearm);
+      rearm = setTimeout(() => {
+        const p = pointer.current;
+        if (!p || !window.matchMedia(HOVERS).matches) return;
+        const card = document.elementFromPoint(p.x, p.y)?.closest?.('.loc-card[data-slug]');
+        if (card) showFor(card);
+      }, 150);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      clearTimeout(rearm);
+      clearTimeout(timer.current);
+    };
+  }, [dismiss, showFor]);
+
   const handlers = {
+    onMouseMove: (e) => { pointer.current = { x: e.clientX, y: e.clientY }; },
     onMouseOver: (e) => {
       if (!window.matchMedia(HOVERS).matches) return;
       const card = e.target.closest?.('.loc-card[data-slug]');
       const slug = card?.dataset.slug ?? null;
       if (slug === current.current) return;
-      current.current = slug;
-      dismiss();
-      if (slug) timer.current = setTimeout(() => setShown({ slug, rect: viewportRect(card) }), DELAY_MS);
+      showFor(card);
     },
     onMouseLeave: () => {
+      pointer.current = null;
       current.current = null;
       dismiss();
     },

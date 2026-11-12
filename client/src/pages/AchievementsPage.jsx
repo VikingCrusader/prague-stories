@@ -1,7 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import { pageCache, pageKey } from '../utils/pageCache';
+import { useRowsEntrance } from '../hooks/useRowsEntrance';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import AchievementModal from '../components/achievements/AchievementModal';
 import AchievementIcon from '../components/achievements/AchievementIcon';
@@ -54,8 +56,10 @@ export default function AchievementsPage() {
   const { user } = useAuth();
   const t = useT();
   const { lang } = useLang();
-  const [data, setData] = useState(null);
+  // Kept per player (pageCache): a second visit shows the list at once.
+  const [data, setData] = useState(() => pageCache.get(pageKey('achievements', user?._id)) ?? null);
   const [failed, setFailed] = useState(false);
+  const pageRef = useRef(null);
   const [open, setOpen] = useState(null);
   // Difficulty filter (2026-11-02): one tier at a time, picking it again
   // shows them all, like the rarity filter on Explore.
@@ -65,8 +69,15 @@ export default function AchievementsPage() {
   const [lockedOnly, setLockedOnly] = useState(false);
 
   useEffect(() => {
-    userAPI.getAchievements().then(res => setData(res.data)).catch(() => setFailed(true));
+    const key = pageKey('achievements', user?._id);
+    const kept = pageCache.get(key);
+    if (kept) setData(kept);
+    userAPI.getAchievements()
+      .then(res => { pageCache.set(key, res.data); setData(res.data); })
+      .catch(() => setFailed(true));
   }, [user]);
+
+  useRowsEntrance(pageRef, !!data && !failed);
 
   const list = data ? sortAchievements(data.achievements) : [];
   const unlocked = list.filter(a => a.unlocked).length;
@@ -86,7 +97,7 @@ export default function AchievementsPage() {
   );
 
   return (
-    <div className="guide-page achievements-page">
+    <div className="guide-page achievements-page" ref={pageRef}>
       <div className="guide-wrap">
         <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t('ach.title')}</h1>
         <p className="guide-intro">{t('ach.tagline')}</p>
@@ -94,7 +105,20 @@ export default function AchievementsPage() {
         {failed ? (
           <p className="guide-body" style={{ color: 'var(--text-muted)' }}>{t('ach.error')}</p>
         ) : !data ? (
-          <div style={{ display: 'flex', justifyContent: 'center', padding: 40 }}><div className="spinner" /></div>
+          /* Placeholder rows where the list will be, not a spinner (2026-11-12). */
+          <ul className="ach-list" aria-busy="true" aria-label={t('common.loading')}>
+            {Array.from({ length: 8 }, (_, i) => (
+              <li key={i}>
+                <div className="ach-row ach-row--ghost" aria-hidden="true">
+                  <span className="ach-icon ach-icon--locked"><span className="detail-skeleton__cover ach-ghost-cover" /></span>
+                  <span className="ach-row__main">
+                    <span className="detail-skeleton__line" style={{ width: '40%' }} />
+                    <span className="detail-skeleton__line" style={{ width: '75%' }} />
+                  </span>
+                </div>
+              </li>
+            ))}
+          </ul>
         ) : (
           <>
             {user ? (

@@ -364,3 +364,11 @@
 :is(#root, body) .pack-panel .pack-detail__name { font-size: 26px; padding: 0; }
 .pack-panel .pack-detail__cards-title { font-size: 20px; margin-top: 18px; }
 .pack-panel .pack-detail__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+
+/* Brick entrance for a shelf of packs (2026-11-12, hooks/useBrickEntrance.js):
+   the same drop as Explore's cards, on the packs outside the Explore grid. */
+.brick-in {
+  --enter-drop: 36px;
+  animation: explore-enter-brick var(--enter-brick, 0.42s) cubic-bezier(0.3, 0.7, 0.4, 1) var(--enter-delay, 0ms) backwards;
+}
+@media (prefers-reduced-motion: reduce) { .brick-in { animation: none; } }

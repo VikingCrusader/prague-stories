@@ -1,4 +1,5 @@
-import { useEffect, useLayoutEffect } from 'react';
+import { useEffect, useLayoutEffect, useRef } from 'react';
+import { cardMotionOn } from '../utils/cardMotion';
 import { viewportRect } from '../utils/fitPage';
 
 // Explore's entrance (2026-11-12, user's idea): the rows of cards in view drop
@@ -7,7 +8,8 @@ import { viewportRect } from '../utils/fitPage';
 // (phones, upright tablets, narrow windows: data-enter-mode="stack") the title,
 // filters and count fade down from the top, and the whole thing is shorter and
 // drops from less high, since an installed app plays it on every cold start.
-// Plays once per page load, the first time Explore shows its cards.
+// Plays every time Explore is opened (a refresh, or coming back from another
+// page), the first time it shows its cards; a change of window width doesn't replay it.
 //
 // The state lives on the DOM, not in React: `data-enter="wait" | "play"` on the
 // page's root and `data-enter-brick` + `--enter-delay` on each card (attributes
@@ -18,8 +20,6 @@ import { viewportRect } from '../utils/fitPage';
 //
 // On /explore the boot splash (index.html) stays up until this hook lets it go,
 // so the wall starts building just as the splash fades.
-
-let played = false;
 
 // step: delay between neighbouring bricks along the diagonal; base: head start
 // for the splash's fade and the header; brick: one brick's drop, which must
@@ -33,6 +33,7 @@ const IMAGE_WAIT_MS = 600; // longest wait for the first covers before starting
 const hideSplash = () => window.hideBootSplash?.();
 
 export function useExploreEntrance(rootRef, loaded, wide) {
+  const playedHere = useRef(false);
   // Leaving Explore before its cards arrived must not leave the splash up
   // (checked a tick later: StrictMode unmounts and remounts once in dev).
   useEffect(() => () => {
@@ -43,8 +44,9 @@ export function useExploreEntrance(rootRef, loaded, wide) {
     if (!loaded) return undefined;
     const root = rootRef.current;
     const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-    if (played || !root || reduced) {
-      played = true;
+    // With the card animations switched off the cards would stay hidden: no entrance.
+    if (playedHere.current || !root || reduced || !cardMotionOn()) {
+      playedHere.current = true;
       hideSplash();
       return undefined;
     }
@@ -68,7 +70,7 @@ export function useExploreEntrance(rootRef, loaded, wide) {
     const start = () => {
       if (cancelled || started) return;
       started = true;
-      played = true;
+      playedHere.current = true;
       const grid = root.querySelector('.location-grid');
       const cards = grid ? [...grid.children].filter(el => el.classList.contains('loc-card')) : [];
       // The rows that start inside the window, so also the one peeking in.

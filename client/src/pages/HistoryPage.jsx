@@ -1,3 +1,4 @@
+import { pageCache, pageKey } from '../utils/pageCache';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { historyAPI, userAPI, saveHistoryProgressOnExit } from '../services/api';
@@ -36,13 +37,12 @@ export default function HistoryPage() {
   const urlSlug = searchParams.get('event');
   const { lang } = useLang();
 
-  const [data, setData] = useState(null);
+  const [data, setData] = useState(() => pageCache.get(`history:${lang}`) ?? null);
   // Language `data` is in. The API sends one language only, so right after a
   // language switch `data` is still the old language; the feed keeps
   // rendering in `dataLang` until the new payload arrives (reading the new
   // language's keys from old data found nothing and crashed the page).
-  const [dataLang, setDataLang] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [dataLang, setDataLang] = useState(() => (pageCache.get(`history:${lang}`) ? lang : null));
   // The event being read.
   const [activeSlug, setActiveSlug] = useState(null);
   // Slug of a related landmark opened from a section. Rendering
@@ -124,10 +124,11 @@ export default function HistoryPage() {
     historyAPI.getAll(lang)
       .then(res => {
         if (cancelled) return;
+        pageCache.set(`history:${lang}`, res.data);
         setData(res.data);
         setDataLang(lang);
       })
-      .finally(() => { if (!cancelled) setLoading(false); });
+      .catch(() => {});
     return () => { cancelled = true; };
   }, [lang]);
 
@@ -185,11 +186,7 @@ export default function HistoryPage() {
 
   return (
     <div className={`guide-page history-page${isBook ? ' history-page--book' : ''}`}>
-      {loading || !restored ? (
-        <div style={{ display: 'flex', justifyContent: 'center', padding: 40 }}>
-          <div className="spinner" />
-        </div>
-      ) : data ? (
+      {!restored ? null : data ? (
         <LanguageOverride lang={dataLang}>
         {(() => {
           const View = isBook ? HistoryBook : HistoryPaged;

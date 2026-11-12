@@ -28,6 +28,7 @@ import AchievementsPage from './pages/AchievementsPage';
 import ExplorerPage from './pages/ExplorerPage';
 import HistoryPage from './pages/HistoryPage';
 import PrivacyPage from './pages/PrivacyPage';
+import PageTurn from './components/shared/PageTurn';
 
 const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
@@ -77,6 +78,7 @@ export default function App() {
           <LevelUpModal />
           <AchievementUnlocked />
           <PackUnlocked />
+          <PageTurn>
           <Routes>
             <Route path="/"          element={<Navigate to="/explore" replace />} />
             <Route path="/login"     element={<LoginPage />} />
@@ -95,6 +97,7 @@ export default function App() {
             <Route path="/privacy"   element={<PrivacyPage />} />
             <Route path="*"          element={<Navigate to="/explore" replace />} />
           </Routes>
+          </PageTurn>
         </ThemeProvider>
         </LanguageProvider>
       </AuthProvider>

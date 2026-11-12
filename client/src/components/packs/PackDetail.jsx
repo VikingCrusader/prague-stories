@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
+import { useModalEntrance } from '../../hooks/useModalEntrance';
+import { pageCache, pageKey } from '../../utils/pageCache';
 import { useLocation } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { useAuth } from '../../context/AuthContext';
@@ -17,19 +19,37 @@ import PackCard from './PackCard';
 
 // One pack with this player's progress; null until it (not the previous one) has
 // arrived. `refresh`: fetch again when it changes.
+// A pack's full text is kept for the visit (pageCache), so opening it again
+// shows it at once and refreshes behind (2026-11-12, as the card details do).
 function usePackDetail(slug, refresh) {
   const userId = useAuth().user?._id;
-  const [pack, setPack] = useState(null);
+  const key = pageKey(`pack:${slug}`, userId);
+  const [pack, setPack] = useState(() => pageCache.get(key) ?? null);
   const wanted = useRef(slug);
   wanted.current = slug;
   const load = useCallback(() => {
-    packAPI.getOne(slug).then(res => { if (wanted.current === slug) setPack(res.data); }).catch(() => {});
-  }, [slug]);
-  useEffect(() => { load(); }, [load, userId, refresh]);
+    packAPI.getOne(slug).then(res => {
+      pageCache.set(key, res.data);
+      if (wanted.current === slug) setPack(res.data);
+    }).catch(() => {});
+  }, [slug, key]);
+  useEffect(() => {
+    setPack(pageCache.get(key) ?? null);
+    load();
+  }, [load, userId, refresh]); // eslint-disable-line react-hooks/exhaustive-deps
   return [pack?.slug === slug ? pack : null, load];
 }
 
-const Spinner = () => <div style={{ display: 'flex', justifyContent: 'center', padding: 40 }}><div className="spinner" /></div>;
+// Until the pack's text arrives: grey lines where it will be, not a spinner.
+const Spinner = () => (
+  <div className="detail-story-wait pack-detail__wait" role="status">
+    <div className="detail-skeleton" aria-hidden="true">
+      {[70, 100, 96, 99, 62, 0, 94, 98, 45].map((w, i) => (
+        <span key={i} className="detail-skeleton__line" style={{ width: `${w}%` }} />
+      ))}
+    </div>
+  </div>
+);
 
 // A pack opened: its wrapper, its text (the preview until unlocked; the server
 // holds back the rest), and its cards, the ones not collected yet locked.
@@ -127,6 +147,8 @@ export default function PackDetail({ slug, onClose, onCheckIn, artOnly = false }
   const [pack, load] = usePackDetail(slug);
   const [openSlug, setOpenSlug] = useState(null);
   const [guide, setGuide] = useState(null);
+  // Grows out of the pack it was opened from, and shrinks back to it (2026-11-12).
+  const { overlayRef, modalRef, close } = useModalEntrance(slug, onClose);
 
   // A label's "see on Explore" link, followed while already on Explore, must not
   // leave this lying over the filtered cards.
@@ -157,9 +179,9 @@ export default function PackDetail({ slug, onClose, onCheckIn, artOnly = false }
 
   return createPortal(
     <>
-      <div className="px-overlay pack-detail-overlay" onClick={e => { e.stopPropagation(); onClose(); }}>
-        <div className="px-modal pack-detail" onClick={e => e.stopPropagation()} role="dialog" aria-label={name}>
-          <button type="button" className="px-modal__close" onClick={onClose} aria-label={t('areaGuide.close')}>✕</button>
+      <div ref={overlayRef} className="px-overlay pack-detail-overlay" onClick={e => { e.stopPropagation(); close(); }}>
+        <div ref={modalRef} className="px-modal pack-detail" onClick={e => e.stopPropagation()} role="dialog" aria-label={name}>
+          <button type="button" className="px-modal__close" onClick={close} aria-label={t('areaGuide.close')}>✕</button>
           {pack ? <PackBody pack={pack} onOpenCard={setOpenSlug} onGuide={setGuide} artOnly={artOnly} /> : <Spinner />}
         </div>
       </div>

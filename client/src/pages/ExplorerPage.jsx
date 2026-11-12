@@ -1,3 +1,4 @@
+import { pageCache, pageKey } from '../utils/pageCache';
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { userAPI } from '../services/api';
@@ -17,10 +18,10 @@ export default function ExplorerPage() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    setData(null);
+    setData(pageCache.get(`explorer:${username}`) ?? null);
     setError(null);
     userAPI.getExplorer(username)
-      .then(res => setData(res.data))
+      .then(res => { pageCache.set(`explorer:${username}`, res.data); setData(res.data); })
       .catch(err => setError(err.response?.status === 404 ? 'notFound' : 'error'));
   }, [username]);
 
@@ -35,9 +36,7 @@ export default function ExplorerPage() {
     </div>
   );
   if (!data) return (
-    <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div className="spinner" />
-    </div>
+    <div className="dashboard-page explorer-page" aria-busy="true">{back}</div>
   );
 
   return (
