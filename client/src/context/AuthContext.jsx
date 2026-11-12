@@ -53,9 +53,11 @@ export function AuthProvider({ children }) {
   }, []);
 
   // The boot splash in index.html stays up until the sign-in check is done,
-  // so the app opens straight on the right page instead of a spinner.
+  // so the app opens straight on the right page instead of a spinner. On
+  // Explore it stays a little longer, until the cards are there
+  // (useExploreEntrance lets it go).
   useEffect(() => {
-    if (!loading) window.hideBootSplash?.();
+    if (!loading && window.location.pathname !== '/explore') window.hideBootSplash?.();
   }, [loading]);
 
   const login = (token, userData) => {

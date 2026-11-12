@@ -3421,3 +3421,50 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 @container (max-width: 215px) { .explore-level__left { display: none; } .explore-level__track { display: block; } }
 @container (max-width: 120px) { .explore-level__track { display: none; } }
 @container (max-width: 70px) { .explore-level--toolbar { display: none; } }
+
+/* ── Explore's entrance (hooks/useExploreEntrance.js) ───────
+   Once per page load, on every screen. data-enter-mode is "side" with the side
+   column and "stack" without it (shorter, drops from less high). data-enter is
+   "wait" while the first covers load (everything that will come in is held
+   back), then "play". Only translate and opacity move: the cards' own
+   transform (hover lift, flip) stays free, and layout never changes. */
+.explore-page[data-enter="wait"] .explore-side > *,
+.explore-page[data-enter="wait"] .explore-toolbar,
+.explore-page[data-enter="wait"] > .explore-header,
+.explore-page[data-enter="wait"] > .filter-bar,
+.explore-page[data-enter="wait"] > .explore-sortbar,
+.explore-page[data-enter="wait"] .location-grid > .loc-card { opacity: 0; }
+
+@keyframes explore-enter-side {
+  from { opacity: 0; translate: -56px 0; }
+  to   { translate: 0 0; }
+}
+@keyframes explore-enter-fade {
+  from { opacity: 0; translate: 0 -10px; }
+  to   { translate: 0 0; }
+}
+/* A brick: drops from above, overshoots a little and settles. */
+@keyframes explore-enter-brick {
+  0%   { opacity: 0; translate: 0 calc(-1 * var(--enter-drop, 64px)); }
+  55%  { opacity: 1; translate: 0 calc(var(--enter-drop, 64px) * 0.09); }
+  78%  { translate: 0 -2px; }
+  100% { translate: 0 0; }
+}
+.explore-page[data-enter="play"] .explore-side > * { animation: explore-enter-side 0.5s cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+.explore-page[data-enter="play"] .explore-side > :nth-child(1) { animation-delay: 0.08s; }
+.explore-page[data-enter="play"] .explore-side > :nth-child(2) { animation-delay: 0.15s; }
+.explore-page[data-enter="play"] .explore-side > :nth-child(3) { animation-delay: 0.22s; }
+.explore-page[data-enter="play"] .explore-side > :nth-child(4) { animation-delay: 0.29s; }
+.explore-page[data-enter="play"] .explore-side > :nth-child(5) { animation-delay: 0.36s; }
+.explore-page[data-enter="play"] .explore-side > :nth-child(6) { animation-delay: 0.43s; }
+.explore-page[data-enter="play"] .explore-side > :nth-child(n+7) { animation-delay: 0.5s; }
+.explore-page[data-enter="play"] .explore-toolbar { animation: explore-enter-fade 0.4s ease-out 0.1s backwards; }
+.explore-page[data-enter="play"] .location-grid > .loc-card[data-enter-brick] {
+  animation: explore-enter-brick var(--enter-brick, 0.52s) cubic-bezier(0.3, 0.7, 0.4, 1) var(--enter-delay, 0ms) backwards;
+  animation-play-state: running;
+}
+/* Without the side column: the title, filters and count fade down in turn. */
+.explore-page[data-enter-mode="stack"] { --enter-drop: 36px; --enter-brick: 0.42s; }
+.explore-page[data-enter="play"] > .explore-header { animation: explore-enter-fade 0.35s ease-out 0.04s backwards; }
+.explore-page[data-enter="play"] > .filter-bar { animation: explore-enter-fade 0.35s ease-out 0.1s backwards; }
+.explore-page[data-enter="play"] > .explore-sortbar { animation: explore-enter-fade 0.35s ease-out 0.16s backwards; }

@@ -10,6 +10,7 @@ import { RARITY_LABEL } from '../utils/rarity';
 import { RARITY_QUIP, EXPLORE_TIPS, PACK_BLURB } from '../utils/filterBlurbs';
 import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
 import { useAuth } from '../context/AuthContext';
+import { useExploreEntrance } from '../hooks/useExploreEntrance';
 import { useUserPosition } from '../hooks/useUserPosition';
 import { haversineDistance, NEARBY_REVEAL_M, formatDistance } from '../utils/geolocation';
 import LocationGrid from '../components/locations/LocationGrid';
@@ -330,6 +331,10 @@ export default function ExplorePage() {
   // In the 2K side column the main title fills the column's width too.
   useFitOneLine(titleRef, [titleText, lang, loading, wide], { maxScale: areaActive ? 1 : wide ? 1.8 : 1.5, growBelow: wide ? Infinity : 600 });
 
+  // The opening animation (side column or stacked, by the layout at that moment).
+  const pageRef = useRef(null);
+  useExploreEntrance(pageRef, !loading, wide);
+
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
@@ -533,7 +538,7 @@ export default function ExplorePage() {
   );
 
   return (
-    <div className={`explore-page${wide ? ' explore-page--wide' : ''}`}>
+    <div ref={pageRef} className={`explore-page${wide ? ' explore-page--wide' : ''}`}>
       {wide ? (
         <>
           <aside className="explore-side">
