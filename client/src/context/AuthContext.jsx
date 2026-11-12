@@ -52,6 +52,12 @@ export function AuthProvider({ children }) {
     return () => { cancelled = true; clearTimeout(timer); };
   }, []);
 
+  // The boot splash in index.html stays up until the sign-in check is done,
+  // so the app opens straight on the right page instead of a spinner.
+  useEffect(() => {
+    if (!loading) window.hideBootSplash?.();
+  }, [loading]);
+
   const login = (token, userData) => {
     localStorage.setItem('token', token);
     sessionStorage.removeItem('guest');

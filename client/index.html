@@ -25,6 +25,25 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Prague Stories" />
     <link rel="apple-touch-icon" href="/brand/app-icon.png" />
+    <!-- iOS launch images, one per device size (scripts/generateSplash.mjs);
+         without them an installed app starts on a white screen. -->
+    <link rel="apple-touch-startup-image" media="(device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/brand/splash/splash-1320x2868.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/brand/splash/splash-1290x2796.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/brand/splash/splash-1284x2778.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/brand/splash/splash-1242x2688.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/brand/splash/splash-828x1792.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 402px) and (device-height: 874px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/brand/splash/splash-1206x2622.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/brand/splash/splash-1179x2556.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/brand/splash/splash-1170x2532.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/brand/splash/splash-1125x2436.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/brand/splash/splash-1242x2208.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/brand/splash/splash-750x1334.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/brand/splash/splash-2048x2732.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/brand/splash/splash-1668x2388.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/brand/splash/splash-1640x2360.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/brand/splash/splash-1620x2160.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/brand/splash/splash-1536x2048.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="/brand/splash/splash-1488x2266.png" />
     <script>
       // Apply the theme before first paint (see ThemeContext.jsx). Light is
       // the default for new visitors and guests; only a saved 'dark' (or an
@@ -42,8 +61,33 @@
       href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Alegreya+Sans+SC:wght@500;700&family=Cinzel:wght@400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400&family=Manufacturing+Consent&family=ZCOOL+QingKe+HuangYou&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700&family=LXGW+WenKai+TC:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <style>
+      /* Boot splash: shown from the first paint until the sign-in check is
+         done (hideBootSplash in utils/bootSplash.js), at most 8 s. Same look
+         as the iOS launch images, so the hand-over is seamless. */
+      #boot-splash { position: fixed; inset: 0; z-index: 2147483000; display: flex; flex-direction: column;
+        align-items: center; justify-content: center; gap: 4vh;
+        background: radial-gradient(circle at 50% 44%, #1d2348 0%, #111428 62%);
+        transition: opacity 0.35s ease; }
+      #boot-splash.is-hiding { opacity: 0; pointer-events: none; }
+      #boot-splash .boot-splash__emblem { width: min(52vw, 40vh, 340px); }
+      #boot-splash .boot-splash__wordmark { width: min(66vw, 46vh, 440px); }
+    </style>
   </head>
   <body>
+    <div id="boot-splash" aria-hidden="true">
+      <img class="boot-splash__emblem" src="/brand/splash-emblem.webp" alt="" />
+      <img class="boot-splash__wordmark" src="/brand/splash-wordmark.webp" alt="" />
+    </div>
+    <script>
+      window.hideBootSplash = function () {
+        var el = document.getElementById('boot-splash');
+        if (!el || el.classList.contains('is-hiding')) return;
+        el.classList.add('is-hiding');
+        setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 400);
+      };
+      setTimeout(window.hideBootSplash, 8000);
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
