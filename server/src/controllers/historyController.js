@@ -3,6 +3,7 @@ import Location from '../models/Location.js';
 import CheckIn from '../models/CheckIn.js';
 import { HISTORY_ERAS } from '../data/historyEras.js';
 import { PACKS } from '../data/packs.js';
+import { BACKGROUND_HOSTS } from '../data/backgroundHosts.js';
 
 // Single read endpoint for the whole History Timeline: the era roster (all
 // six, including the five not seeded yet) plus every HistoryEvent, sorted
@@ -89,8 +90,19 @@ async function buildPayload() {
     ...PACKS.map(({ slug, name, localizedNames, foil }) => [slug, { isPack: true, slug, name, localizedNames, foil }]),
   ]);
 
+  // The events each background card hangs on (data/backgroundHosts.js), home
+  // first; left out when none of them exists, and the client then hangs the
+  // card on the event before it.
+  const datedSlugs = new Set(events.filter(e => (e.cardType ?? 'event') === 'event').map(e => e.slug));
+  const hostsOf = (event) => {
+    if (event.cardType !== 'background') return {};
+    const hosts = (BACKGROUND_HOSTS[event.slug] ?? []).filter(slug => datedSlugs.has(slug));
+    return hosts.length ? { attachedTo: hosts } : {};
+  };
+
   const enrichedEvents = events.map(event => ({
     ...event,
+    ...hostsOf(event),
     relatedLandmarks: event.relatedLandmarks
       .filter(r => landmarkBySlug.has(r.slug))
       .map(r => ({ relation: r.relation, landmark: landmarkBySlug.get(r.slug) })),

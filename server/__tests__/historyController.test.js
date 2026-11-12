@@ -149,3 +149,20 @@ test('a related landmark can be a card pack, which wins over a card of the same 
   const [{ landmark }] = res.body.events[0].relatedLandmarks;
   expect(landmark).toMatchObject({ isPack: true, slug: 'vysehrad', name: 'Vyšehrad' });
 });
+
+test('a background card lists the events it hangs on, leaving out those that do not exist', async () => {
+  // data/backgroundHosts.js: Mongol invasion -> its own event; Moravia -> Chlumec, the 1142 siege, 1173.
+  await createEvent({ slug: 'mongol-invasion-1241', startYear: 1241, relatedLandmarks: [] });
+  await createEvent({ slug: 'what-was-the-mongol-invasion-1241', startYear: 1241.1, cardType: 'background', relatedLandmarks: [] });
+  await createEvent({ slug: 'what-was-moravia-1127', startYear: 1127, cardType: 'background', relatedLandmarks: [] });
+  await createEvent({ slug: 'siege-of-prague-1142', startYear: 1142, relatedLandmarks: [] });
+  await createEvent({ slug: 'an-unlisted-aside', startYear: 1300, cardType: 'background', relatedLandmarks: [] });
+
+  const res = await request(app).get('/api/history?lang=en');
+  const bySlug = Object.fromEntries(res.body.events.map(e => [e.slug, e]));
+
+  expect(bySlug['what-was-the-mongol-invasion-1241'].attachedTo).toEqual(['mongol-invasion-1241']);
+  expect(bySlug['what-was-moravia-1127'].attachedTo).toEqual(['siege-of-prague-1142']);
+  expect(bySlug['an-unlisted-aside'].attachedTo).toBeUndefined();
+  expect(bySlug['mongol-invasion-1241'].attachedTo).toBeUndefined();
+});

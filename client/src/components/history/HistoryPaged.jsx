@@ -107,7 +107,7 @@ function EventPage({ event, eras, activeSlug, ownBackgrounds, hostOf, onGo, onOp
     setOpenCards(open => new Set(open).add(slug));
   };
   const jump = (slug) => {
-    if (hostOf.get(slug) === event.slug) openCard(slug);
+    if (ownBackgrounds.some(card => card.slug === slug)) openCard(slug);
     else onGo(slug, { push: true });
   };
   const closeCard = (slug) => setOpenCards(open => {
