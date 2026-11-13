@@ -796,3 +796,6 @@ html[data-lang="zh"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 108px; }
 @media (prefers-reduced-motion: reduce) {
   .achievements-page[data-rows="play"] * { animation: none !important; }
 }
+
+/* Placeholder tiles while the profile's achievements load (RarestAchievements, 2026-11-13). */
+.ach-tile.ach-tile--ghost { cursor: default; pointer-events: none; }

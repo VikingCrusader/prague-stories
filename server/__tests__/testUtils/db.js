@@ -20,4 +20,8 @@ export async function clearTestDB() {
   for (const key of Object.keys(collections)) {
     await collections[key].deleteMany({});
   }
+  // The in-memory card catalog would otherwise outlive the reset whenever the
+  // next test's cards give the same count/updatedAt stamp.
+  const { clearLocationCatalog } = await import('../../src/services/locationCatalog.js');
+  clearLocationCatalog();
 }

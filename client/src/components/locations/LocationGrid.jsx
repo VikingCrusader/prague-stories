@@ -4,6 +4,7 @@ import LocationCard from './LocationCard';
 import PackCard from '../packs/PackCard';
 import { useCardPreview } from './CardPreview';
 import { useFitRows } from '../../hooks/useFitRows';
+import { useAfterTurn } from '../shared/PageTurn';
 import { viewportRect } from '../../utils/fitPage';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import LabelFilterGroups from './LabelFilterGroups';
@@ -21,6 +22,10 @@ export const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewes
 // (each with a cover image, a label-fit measurement and a ResizeObserver) made
 // every search keystroke stall.
 const PAGE_SIZE = 60;
+// While the page turns in, only a screen of cards (see useAfterTurn): as many
+// as were in view last time plus a row, measured below, so nothing in view
+// pops in late; 40 until the first measurement.
+let firstScreenCards = 40;
 
 // `onCollectionChange` (optional) hears whether "My Collections" is on, so
 // the page header can react to it (ExplorePage's showcase hint).
@@ -66,6 +71,8 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   const [sort, setSort]                     = useState('distance');
   const [search, setSearch]                 = useState('');
   const [visibleCount, setVisibleCount]     = useState(PAGE_SIZE);
+  const afterTurn = useAfterTurn();
+  const mountCount = afterTurn ? visibleCount : Math.min(visibleCount, firstScreenCards);
   // Filter against a deferred copy so the input itself stays responsive while
   // the grid catches up in a lower-priority render.
   const deferredSearch = useDeferredValue(search);
@@ -90,7 +97,9 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     };
     const onScroll = () => { if (!frame) frame = requestAnimationFrame(check); };
     window.addEventListener('scroll', onScroll, { passive: true });
-    check();
+    // First check in the next frame, with the layout the paint needs anyway,
+    // not forcing an extra one while the page mounts.
+    frame = requestAnimationFrame(check);
     return () => { window.removeEventListener('scroll', onScroll); cancelAnimationFrame(frame); };
   }, [wide]);
   const rarityPanelRef = useRef(null);
@@ -227,7 +236,23 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   }, [cityScoped, activeRarities]);
   const rarityOptions = cityScoped ? CITY_RARITIES : ALL_RARITIES;
 
-  const hasMore = visibleCount < gridItems.length;
+  // Not while the page turns in: the short first frame keeps the sentinel in
+  // view, and it would keep asking for more cards that aren't shown yet.
+  const hasMore = afterTurn && visibleCount < gridItems.length;
+  // How many cards a screen holds, for the next turn's first frame.
+  useEffect(() => {
+    if (!afterTurn) return undefined;
+    const frame = requestAnimationFrame(() => {
+      const grid = gridRef.current;
+      if (!grid || window.scrollY > 0) return;
+      const items = [...grid.children];
+      const inView = items.filter(el => viewportRect(el).top < window.innerHeight).length;
+      if (!inView || inView === items.length) return; // the grid doesn't fill the screen: nothing to learn
+      const columns = getComputedStyle(grid).gridTemplateColumns.split(' ').length || 1;
+      firstScreenCards = Math.min(PAGE_SIZE, Math.ceil(inView / columns) * columns + columns);
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [afterTurn, gridItems.length > 0]);
   const { handlers: previewHandlers, preview } = useCardPreview(filtered);
 
   useEffect(() => {
@@ -460,7 +485,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
       </div>
 
       <div ref={gridRef} className="location-grid" {...previewHandlers}>
-        {gridItems.slice(0, visibleCount).map(item => (item.coordinates ? (
+        {gridItems.slice(0, mountCount).map(item => (item.coordinates ? (
           <LocationCard
             key={item._id}
             location={item}

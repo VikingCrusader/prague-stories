@@ -30,6 +30,10 @@ function useIsBook() {
   return isBook;
 }
 
+// Whether a refetched payload is what is already on screen. A few ms for the
+// whole timeline, far less than drawing the book again.
+const sameJSON = (a, b) => a === b || JSON.stringify(a) === JSON.stringify(b);
+
 export default function HistoryPage() {
   const isBook = useIsBook();
   // ?event=<slug> links straight to an event and follows the page being read.
@@ -54,20 +58,28 @@ export default function HistoryPage() {
   const packs = usePacks();
 
   // Achievements tied to timeline events, and the one opened from a card.
-  const [achievements, setAchievements] = useState([]);
+  // Kept for the visit (shared with the Achievements page and the profile), so
+  // a return to History draws the book once, with them, as it turns in.
+  const { user } = useAuth();
+  const achKey = pageKey('achievements', user?._id);
+  const keptAchievements = () => (pageCache.get(achKey) ?? pageCache.get(pageKey('dashboard', user?._id))?.achData)?.achievements ?? [];
+  const [achievements, setAchievements] = useState(keptAchievements);
   const [openAchievement, setOpenAchievement] = useState(null);
 
   // Reading progress: the page reopens at the event the reader was last on.
   // `resumeSlug` is undefined while still being looked up, null for "start
   // at the top". `restored` flips once the page is on it; progress is only
   // saved after that, so the initial page never overwrites the saved position.
-  const { user } = useAuth();
-  const [resumeSlug, setResumeSlug] = useState(undefined);
+  // Coming back within the same visit, the page this reader was on is already
+  // known (it was saved on every change): start there at once, instead of
+  // turning in blank while the server is asked (2026-11-13).
+  const posKey = pageKey('historyPos', user?._id);
+  const [resumeSlug, setResumeSlug] = useState(() => pageCache.get(posKey));
   const [restored, setRestored] = useState(false);
   const pendingServerSave = useRef(null);
 
   useEffect(() => {
-    if (restored) return;
+    if (restored || resumeSlug !== undefined) return;
     const local = loadLocalHistoryProgress();
     if (!user) { setResumeSlug(local?.slug ?? null); return; }
     let cancelled = false;
@@ -79,13 +91,18 @@ export default function HistoryPage() {
     return () => { cancelled = true; };
   }, [user?._id]);
 
+  // Refreshed in the background; the book is only drawn again if they changed.
   useEffect(() => {
     let cancelled = false;
     userAPI.getAchievements()
-      .then(res => { if (!cancelled) setAchievements(res.data.achievements); })
+      .then(res => {
+        pageCache.set(achKey, res.data);
+        if (cancelled) return;
+        setAchievements(prev => (sameJSON(prev, res.data.achievements) ? prev : res.data.achievements));
+      })
       .catch(() => {}); // the cards just go without
     return () => { cancelled = true; };
-  }, [user?._id]);
+  }, [user?._id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const events = useMemo(() => {
     if (!data) return [];
@@ -124,8 +141,15 @@ export default function HistoryPage() {
     historyAPI.getAll(lang)
       .then(res => {
         if (cancelled) return;
-        pageCache.set(`history:${lang}`, res.data);
-        setData(res.data);
+        // The same content as the copy already shown (the usual case on a
+        // return): keep it, so the whole book isn't drawn again for nothing.
+        const kept = pageCache.get(`history:${lang}`);
+        if (kept && sameJSON(kept, res.data)) {
+          setData(kept);
+        } else {
+          pageCache.set(`history:${lang}`, res.data);
+          setData(res.data);
+        }
         setDataLang(lang);
       })
       .catch(() => {});
@@ -157,6 +181,7 @@ export default function HistoryPage() {
   // debounced while scrolling and flushed when the page is hidden or left.
   useEffect(() => {
     if (!restored || !activeSlug) return;
+    pageCache.set(posKey, activeSlug);
     saveLocalHistoryProgress(activeSlug);
     if (!user) return;
     pendingServerSave.current = activeSlug;

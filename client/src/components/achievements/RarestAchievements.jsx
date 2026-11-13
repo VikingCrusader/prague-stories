@@ -56,14 +56,18 @@ export function AchievementTile({ achievement: a, onOpen, extra = false }) {
 
 // `titleLink` (default on) makes the heading a link to /achievements; off on
 // someone else's profile, where that page would show the viewer's own.
+// `achievements` is null while they are still loading (2026-11-13: the profile
+// shows as soon as its figures are in): two rows of grey tiles hold their place.
 export default function RarestAchievements({ achievements, onOpen, onSeeAll, titleLink = true }) {
   const t = useT();
   const { lang } = useLang();
   const gridRef = useRef(null);
-  const unlockedCount = achievements.filter(a => a.unlocked).length;
-  const cols = useGridColumns(gridRef, unlockedCount > 0);
-  const unlocked = achievements.filter(a => a.unlocked);
-  const pct = achievements.length ? Math.round((unlocked.length / achievements.length) * 100) : 0;
+  const loading = !achievements;
+  const list = achievements || [];
+  const unlockedCount = list.filter(a => a.unlocked).length;
+  const cols = useGridColumns(gridRef, loading || unlockedCount > 0);
+  const unlocked = list.filter(a => a.unlocked);
+  const pct = list.length ? Math.round((unlocked.length / list.length) * 100) : 0;
   const newestRow = [...unlocked].sort(newestFirst).slice(0, cols);
   const rest = unlocked.filter(a => !newestRow.includes(a)).sort(rarestFirst);
   const tiles = [...newestRow, ...rest.slice(0, cols)];
@@ -79,10 +83,21 @@ export default function RarestAchievements({ achievements, onOpen, onSeeAll, tit
         {hasMore && <button type="button" className="card-strip__all" onClick={onSeeAll}>{t('ach.viewAll')}</button>}
       </div>
       <div className="ach-summary">
-        <span>{t('ach.summary', { n: unlocked.length, total: achievements.length, pct: formatPercent(pct, lang) })}</span>
+        {loading
+          ? <span className="detail-skeleton__line" style={{ width: '45%' }} />
+          : <span>{t('ach.summary', { n: unlocked.length, total: list.length, pct: formatPercent(pct, lang) })}</span>}
         <span className="ach-bar"><span className="ach-bar__fill" style={{ width: `${pct}%` }} /></span>
       </div>
-      {tiles.length > 0 ? (
+      {loading ? (
+        <div ref={gridRef} className="ach-showcase" aria-busy="true" aria-label={t('common.loading')}>
+          {Array.from({ length: cols * 2 }, (_, i) => (
+            <span key={i} className="ach-tile ach-tile--ghost" aria-hidden="true">
+              <span className="ach-icon ach-icon--locked"><span className="detail-skeleton__cover ach-ghost-cover" /></span>
+              <span className="ach-tile__name"><span className="detail-skeleton__line" style={{ width: '70%', margin: '0 auto' }} /></span>
+            </span>
+          ))}
+        </div>
+      ) : tiles.length > 0 ? (
         <div ref={gridRef} className="ach-showcase">
           {tiles.map(a => <AchievementTile key={a.id} achievement={a} onOpen={onOpen} />)}
           {thirdRow.map(a => <AchievementTile key={a.id} achievement={a} onOpen={onOpen} extra />)}

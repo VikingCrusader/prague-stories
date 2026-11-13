@@ -12,6 +12,7 @@ import { RARITY_QUIP, EXPLORE_TIPS, PACK_BLURB } from '../utils/filterBlurbs';
 import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
 import { useAuth } from '../context/AuthContext';
 import { useExploreEntrance } from '../hooks/useExploreEntrance';
+import { useAfterTurn } from '../components/shared/PageTurn';
 import { useUserPosition } from '../hooks/useUserPosition';
 import { haversineDistance, NEARBY_REVEAL_M, formatDistance } from '../utils/geolocation';
 import LocationGrid from '../components/locations/LocationGrid';
@@ -338,7 +339,8 @@ export default function ExplorePage() {
 
   // The opening animation (side column or stacked, by the layout at that moment).
   const pageRef = useRef(null);
-  useExploreEntrance(pageRef, !loading, wide);
+  const afterTurn = useAfterTurn();
+  useExploreEntrance(pageRef, !loading, wide, afterTurn);
 
 
   // Touch screens get the long-press version, mice the double click.

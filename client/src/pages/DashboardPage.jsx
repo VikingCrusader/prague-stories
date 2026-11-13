@@ -20,18 +20,22 @@ export default function DashboardPage() {
   const [progress, setProgress] = useState(kept?.progress ?? null);
   const [achData, setAchData]   = useState(kept?.achData ?? null);
 
+  // Each shows as soon as it arrives (2026-11-13): the page doesn't wait for
+  // the achievements, whose strip holds its place with grey tiles meanwhile.
   useEffect(() => {
-    Promise.all([userAPI.getProgress(), userAPI.getAchievements()])
-      .then(([p, a]) => {
-        pageCache.set(cacheKey, { progress: p.data, achData: a.data });
-        setProgress(p.data);
-        setAchData(a.data);
-      })
+    let live = true;
+    const keep = (part) => pageCache.set(cacheKey, { ...pageCache.get(cacheKey), ...part });
+    userAPI.getProgress()
+      .then(p => { keep({ progress: p.data }); if (live) setProgress(p.data); })
       .catch(() => {});
+    userAPI.getAchievements()
+      .then(a => { keep({ achData: a.data }); if (live) setAchData(a.data); })
+      .catch(() => {});
+    return () => { live = false; };
   }, [cacheKey]);
 
   // A first visit draws the frame only; the figures fill in when they arrive.
-  if (!progress || !achData) return <div className="dashboard-page" aria-busy="true" />;
+  if (!progress) return <div className="dashboard-page" aria-busy="true" />;
 
   return (
     <div className="dashboard-page">
@@ -56,7 +60,7 @@ export default function DashboardPage() {
 
       <ProfileBody
         progress={progress}
-        achievements={achData.achievements}
+        achievements={achData?.achievements ?? null}
         username={user?.username}
         isGuest={guest && !user}
       />

@@ -1,19 +1,36 @@
 import CheckIn from '../models/CheckIn.js';
+import { BIG_BATCH } from '../utils/dbBatch.js';
+import { CATALOG_FIELDS, locationCatalog } from './locationCatalog.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
 import { PACKS, PACK_UNLOCK_AT, PACK_UNLOCK_XP, packCompleteXp } from '../data/packs.js';
 import { calculateLevel } from './gamification.js';
 
 // Every pack with the cards that exist right now, in `docs` (members' order).
+// Fields the in-memory card catalog holds come from there (no database round
+// trip), picked to just what was asked for; anything else (the pack page asks
+// for everything but the story) is read from the database.
+const CATALOG_SET = new Set(CATALOG_FIELDS.split(' '));
 export async function livePacks(select = 'slug district quarter') {
-  const docs = await Location.find({ slug: { $in: [...new Set(PACKS.flatMap(p => p.members))] } }, select).lean();
-  const bySlug = new Map(docs.map(d => [d.slug, d]));
+  const members = [...new Set(PACKS.flatMap(p => p.members))];
+  const fields = select.split(/\s+/).filter(Boolean);
+  let bySlug;
+  if (fields.every(f => CATALOG_SET.has(f))) {
+    const catalog = await locationCatalog();
+    bySlug = new Map(members.flatMap(slug => {
+      const d = catalog.bySlug.get(slug);
+      return d ? [[slug, { _id: d._id, ...Object.fromEntries(fields.filter(f => f in d).map(f => [f, d[f]])) }]] : [];
+    }));
+  } else {
+    const docs = await Location.find({ slug: { $in: members } }, select).batchSize(BIG_BATCH).lean();
+    bySlug = new Map(docs.map(d => [d.slug, d]));
+  }
   return PACKS.map(p => ({ ...p, docs: p.members.map(s => bySlug.get(s)).filter(Boolean) }));
 }
 
 export async function collectedIds(userId) {
   if (!userId) return new Set();
-  const checkins = await CheckIn.find({ user: userId }).select('location').lean();
+  const checkins = await CheckIn.find({ user: userId }).select('location').batchSize(BIG_BATCH).lean();
   return new Set(checkins.map(c => String(c.location)));
 }
 
@@ -67,7 +84,9 @@ const describe = ({ pack, owned, complete, xp }) => ({
 
 // During a check-in: changes the user document, which the caller then saves.
 export async function awardPacks(user) {
-  const awards = packAwards(await livePacks(), await collectedIds(user._id), user.packs);
+  // Both at once: one round trip's wait instead of two (2026-11-13).
+  const [packs, collected] = await Promise.all([livePacks(), collectedIds(user._id)]);
+  const awards = packAwards(packs, collected, user.packs);
   const now = new Date();
   for (const { pack, unlock, complete, xp } of awards) {
     if (unlock) user.packs.push({ slug: pack.slug, unlockedAt: now, completedAt: complete ? now : null });

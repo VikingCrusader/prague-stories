@@ -31,7 +31,17 @@ function distanceToSegment([x, y], [a, b]) {
   return Math.hypot(px - t * dx, py - t * dy);
 }
 
+// The same boundary files every time (cached imports), so worked out once per visit.
+const linesKept = new WeakMap();
 export function boundaryLines(data, city) {
+  const kept = linesKept.get(data);
+  if (kept?.city === city) return kept.lines;
+  const lines = computeBoundaryLines(data, city);
+  linesKept.set(data, { city, lines });
+  return lines;
+}
+
+function computeBoundaryLines(data, city) {
   const citySegments = city.rings.flatMap(ring => ring.map((p, i) => [p, ring[(i + 1) % ring.length]]));
   const onCityLine = ([p, q]) => {
     const middle = [(p[0] + q[0]) / 2, (p[1] + q[1]) / 2];

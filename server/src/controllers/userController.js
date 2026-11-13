@@ -17,12 +17,16 @@ import { parsePreferences } from '../utils/preferences.js';
 import { syncAchievements, historyEraOrder } from '../services/achievementStats.js';
 import { historyReadingSummary } from './historyController.js';
 import { PACKS } from '../data/packs.js';
+import { BIG_BATCH } from '../utils/dbBatch.js';
+import { locationCatalog, withLocations } from '../services/locationCatalog.js';
 
 export async function getProfile(req, res) {
   res.json({ user: req.user.toPublicJSON() });
 }
 
 const RECENT_CARDS = 6;
+// What the profile reads of a check-in (the note is left out).
+const CHECKIN_FIELDS = 'location checkedInAt xpEarned guessAttempt';
 const RECENT_CARD_FIELDS = 'slug name localizedNames labels rarity coverImage pixelArtKey';
 
 // XP each listed user earned since `since`. XP only comes from check-ins
@@ -40,15 +44,23 @@ function xpEarnedSince(u, checkinXp, since) {
 // rankChange is { delta } (rank then minus rank now, so positive means up),
 // { isNew: true } when the user had no XP on Monday, or null when they
 // aren't listed now.
-async function weekProgress(user, rankNow) {
+// `rankNow` may be a promise and `listedUsers` says whether the user is on the
+// leaderboard, known before the rank itself, so the rank count and both
+// queries here run at once (2026-11-13: each round trip to the database costs
+// ~100 ms from far away).
+async function weekProgress(user, rankPending, listedUsers) {
   const since = startOfPragueWeek();
-  const listed = rankNow
-    ? await User.find({ totalXP: { $gt: 0 }, hideFromLeaderboard: { $ne: true } }).select('totalXP achievements').lean()
-    : [];
-  const ids = rankNow ? listed.map(u => u._id) : [user._id];
-  const earned = await CheckIn.aggregate([
-    { $match: { user: { $in: ids }, checkedInAt: { $gte: since } } },
-    { $group: { _id: '$user', xp: { $sum: { $ifNull: ['$xpEarned', 0] } }, n: { $sum: 1 } } },
+  // Grouped over everyone who checked in this week, so it needn't wait for
+  // the listed users; only the listed ones (and the user) are read from it.
+  const [listed, earned, rankNow] = await Promise.all([
+    listedUsers
+      ? User.find({ totalXP: { $gt: 0 }, hideFromLeaderboard: { $ne: true } }).select('totalXP achievements').lean()
+      : [],
+    CheckIn.aggregate([
+      { $match: { checkedInAt: { $gte: since } } },
+      { $group: { _id: '$user', xp: { $sum: { $ifNull: ['$xpEarned', 0] } }, n: { $sum: 1 } } },
+    ]),
+    rankPending,
   ]);
   const checkinXp = new Map(earned.map(e => [e._id.toString(), e.xp]));
   const mine = earned.find(e => e._id.toString() === user._id.toString());
@@ -69,28 +81,40 @@ async function weekProgress(user, rankNow) {
 // expedition cards. `user` is null for a guest (all zeros). Shared by the
 // user's own profile (GET /progress) and another explorer's public one
 // (GET /explorers/:username), which has the same layout since 2026-11-03.
+// Every query here starts at once (2026-11-13): run one after another they
+// were ~18 round trips, about 2 s from a machine far from the database.
 async function buildProgress(user) {
-    const totalPreset = await Location.countDocuments({});
+    const listedUser = !!user && user.totalXP > 0 && !user.hideFromLeaderboard;
+    // Leaderboard rank, counted the way the leaderboard does (ties share a
+    // rank); null for users it doesn't list (no XP yet, or hidden).
+    const rankPending = listedUser
+      ? User.countDocuments({ totalXP: { $gt: user.totalXP }, hideFromLeaderboard: { $ne: true } }).then(n => n + 1)
+      : Promise.resolve(null);
+    // The cards come from memory (services/locationCatalog.js); the database
+    // is only asked for this player's check-ins, rank and week.
+    const [catalog, checkins, rank, week] = await Promise.all([
+      locationCatalog(),
+      // Newest first, for the two strips below. Only what is used. One batch,
+      // no getMore round trips.
+      user
+        ? CheckIn.find({ user: user._id }, CHECKIN_FIELDS).sort({ checkedInAt: -1 }).batchSize(BIG_BATCH).lean()
+        : [],
+      rankPending,
+      user ? weekProgress(user, rankPending, listedUser) : null,
+    ]);
+    const allCheckins = withLocations(checkins, catalog);
     // The city proper (no `outside` label), which the profile ring shows by
     // default; "All" switches it to every card (2026-11-03).
-    const totalCity = await Location.countDocuments({ labels: { $ne: 'outside' } });
+    const totalPreset = catalog.total;
+    const totalCity = catalog.cityTotal;
     // Cards per správní obvod (Praha 1–22), for the profile's district list
-    // (2026-11-03); `collected` is filled in below for a signed-in user.
-    const districtTotals = await Location.aggregate([
-      { $match: { district: { $regex: /^Praha \d+$/ } } },
-      { $group: { _id: '$district', total: { $sum: 1 } } },
-    ]);
-    const districtProgress = districtTotals
-      .map(d => ({ district: d._id, total: d.total, collected: 0 }))
+    // (2026-11-03), and per katastrální území for the map's quarter view
+    // (2026-11-04); `collected` is filled in below for a signed-in user.
+    const districtProgress = [...catalog.districtTotals]
+      .map(([district, total]) => ({ district, total, collected: 0 }))
       .sort((a, b) => Number(a.district.slice(6)) - Number(b.district.slice(6)));
-    // The same per katastrální území, for the profile map's quarter view
-    // (2026-11-04).
-    const quarterTotals = await Location.aggregate([
-      { $match: { quarter: { $type: 'string' }, district: { $regex: /^Praha \d+$/ } } },
-      { $group: { _id: '$quarter', total: { $sum: 1 } } },
-    ]);
-    const quarterProgress = quarterTotals
-      .map(q => ({ quarter: q._id, total: q.total, collected: 0 }))
+    const quarterProgress = [...catalog.cityQuarterTotals]
+      .map(([quarter, total]) => ({ quarter, total, collected: 0 }))
       .sort((a, b) => a.quarter.localeCompare(b.quarter, 'cs'));
 
     if (!user) {
@@ -113,10 +137,6 @@ async function buildProgress(user) {
         recentFinds: { treasure: { count: 0, cards: [] }, expedition: { count: 0, cards: [] } },
       };
     }
-
-    const allCheckins = await CheckIn.find({ user: user._id })
-      .populate('location', 'addedBy labels slug rarity district quarter')
-      .lean();
 
     const presetCheckins = allCheckins.filter(c => c.location).length;
     const unlockPercent = totalPreset > 0
@@ -148,28 +168,25 @@ async function buildProgress(user) {
     }
 
     const levelInfo = calculateLevel(user.totalXP);
-    // Leaderboard rank, counted the way the leaderboard does (ties share a
-    // rank); null for users it doesn't list (no XP yet, or hidden).
-    const rank = user.totalXP > 0 && !user.hideFromLeaderboard
-      ? await User.countDocuments({ totalXP: { $gt: user.totalXP }, hideFromLeaderboard: { $ne: true } }) + 1
-      : null;
-    const week = await weekProgress(user, rank);
-
     // The profile's two strips (2026-11-03): the newest treasure-hunt finds
     // and the newest outside (expedition) cards, a few each, plus totals.
-    const recent = async (match, locFilter) => {
-      const list = await CheckIn.find({ user: user._id, ...match })
-        .sort({ checkedInAt: -1 })
-        .populate({ path: 'location', select: RECENT_CARD_FIELDS })
-        .lean();
-      const cards = list.filter(c => c.location && locFilter(c.location));
+    // Taken from allCheckins (newest first), with only the strip's own fields.
+    const cardFields = ['_id', ...RECENT_CARD_FIELDS.split(' ')];
+    const recent = (keep) => {
+      const cards = allCheckins.filter(c => c.location && keep(c));
       // _xpEarned: what that check-in paid (hunt multiplier included); null
       // on legacy check-ins that didn't store it.
-      return { count: cards.length, cards: cards.slice(0, RECENT_CARDS).map(c => ({ ...c.location, _xpEarned: c.xpEarned ?? null })) };
+      return {
+        count: cards.length,
+        cards: cards.slice(0, RECENT_CARDS).map(c => ({
+          ...Object.fromEntries(cardFields.filter(k => k in c.location).map(k => [k, c.location[k]])),
+          _xpEarned: c.xpEarned ?? null,
+        })),
+      };
     };
     const recentFinds = {
-      treasure: await recent({ guessAttempt: { $gte: 1 } }, () => true),
-      expedition: await recent({}, l => (l.labels || []).includes('outside')),
+      treasure: recent(c => c.guessAttempt >= 1),
+      expedition: recent(c => (c.location.labels || []).includes('outside')),
     };
 
     return {
@@ -675,21 +692,24 @@ export async function getAchievements(req, res, next) {
     const sync = user ? await syncAchievements(user) : null;
     const stats = sync?.stats ?? null;
     const earned = new Map((user?.achievements || []).map(a => [a.id, a.unlockedAt]));
-    const { rates, players } = await achievementUnlockRates();
-
     const slugs = [...new Set(ACHIEVEMENTS.flatMap(a => {
       if (!stats) return [];
       const pr = a.progress(stats);
       return [...(pr.slugs || []), ...(pr.picks || []).flatMap(g => g.slugs)];
     }))];
-    const places = slugs.length
-      ? await Location.find({ slug: { $in: slugs } }, 'slug name localizedNames').lean()
-      : [];
-
-    const historyDocs = await HistoryEvent.find(
-      { slug: { $in: Object.values(ACHIEVEMENT_HISTORY_EVENTS).flat() } },
-      'slug title',
-    ).lean();
+    // The three reads after the sync start at once (2026-11-13).
+    const [{ rates, players }, places, historyDocs] = await Promise.all([
+      achievementUnlockRates(),
+      // From the in-memory card catalog.
+      locationCatalog().then(c => slugs.flatMap(slug => {
+        const d = c.bySlug.get(slug);
+        return d ? [{ _id: d._id, slug, name: d.name, localizedNames: d.localizedNames }] : [];
+      })),
+      HistoryEvent.find(
+        { slug: { $in: Object.values(ACHIEVEMENT_HISTORY_EVENTS).flat() } },
+        'slug title',
+      ).lean(),
+    ]);
     const historyBySlug = new Map(historyDocs.map(e => [e.slug, { slug: e.slug, title: e.title }]));
 
     const all = ACHIEVEMENTS.map(ach => {

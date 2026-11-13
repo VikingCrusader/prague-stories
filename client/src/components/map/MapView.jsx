@@ -8,6 +8,7 @@ import { getCurrentPosition } from '../../utils/geolocation';
 import { hasLocationConsent } from '../../utils/locationConsent';
 import MapVectorBase from './MapVectorBase';
 import { useTheme } from '../../context/ThemeContext';
+import { useAfterTurn } from '../shared/PageTurn';
 
 const PRAGUE_CENTER = [50.0755, 14.4378];
 
@@ -158,6 +159,9 @@ export default function MapView({ locations, selectedSlug, onLocationClick, city
   const convert = useConvert();
   const [vectorFailed, setVectorFailed] = useState(false);
   const { theme } = useTheme();
+  // The street map (WebGL setup) and the markers wait until the page has
+  // turned in; building them in the click's own task froze the switch.
+  const afterTurn = useAfterTurn();
 
   return (
     <MapContainer
@@ -166,7 +170,7 @@ export default function MapView({ locations, selectedSlug, onLocationClick, city
       style={{ height: '100%', width: '100%' }}
       zoomControl={false}
     >
-      {!vectorFailed ? <MapVectorBase onFail={() => setVectorFailed(true)} /> : (
+      {!afterTurn ? null : !vectorFailed ? <MapVectorBase onFail={() => setVectorFailed(true)} /> : (
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -177,7 +181,7 @@ export default function MapView({ locations, selectedSlug, onLocationClick, city
       <ViewButtons cityOnly={cityOnly} extra={viewButton} />
       <Compass />
       <ScaleControl position="bottomleft" imperial={false} />
-      <Markers
+      {afterTurn && <Markers
         locations={locations}
         selectedSlug={selectedSlug}
         onLocationClick={onLocationClick}
@@ -185,7 +189,7 @@ export default function MapView({ locations, selectedSlug, onLocationClick, city
         convert={convert}
         nightMap={!vectorFailed && theme === 'dark'}
         touch={touch}
-      />
+      />}
       {children}
     </MapContainer>
   );

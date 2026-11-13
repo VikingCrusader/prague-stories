@@ -3527,6 +3527,10 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .page-turn--back { animation: page-turn-back 0.32s cubic-bezier(0.2, 0.7, 0.2, 1); }
 @keyframes page-turn-forward { from { transform: translateX(28px); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes page-turn-back { from { transform: translateX(-28px); opacity: 0; } to { transform: none; opacity: 1; } }
+/* The old page turning away the moment a navbar link is pressed (PageTurn.jsx);
+   it stays hidden (forwards) until the new page replaces it. */
+.page-turn.page-turn--leaving { animation: page-turn-leave 0.16s cubic-bezier(0.4, 0, 1, 1) forwards; pointer-events: none; }
+@keyframes page-turn-leave { from { transform: none; opacity: 1; } to { transform: translateX(-20px); opacity: 0; } }
 @media (prefers-reduced-motion: reduce) {
   .page-turn--forward, .page-turn--back { animation: none; }
 }

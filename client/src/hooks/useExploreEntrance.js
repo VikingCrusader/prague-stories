@@ -32,7 +32,10 @@ const IMAGE_WAIT_MS = 600; // longest wait for the first covers before starting
 
 const hideSplash = () => window.hideBootSplash?.();
 
-export function useExploreEntrance(rootRef, loaded, wide) {
+// `ready` is false while the page is still turning in (useAfterTurn): the page
+// waits hidden and the wall starts building once the turn is over, so the two
+// animations don't compete for the same frames.
+export function useExploreEntrance(rootRef, loaded, wide, ready = true) {
   const playedHere = useRef(false);
   // Leaving Explore before its cards arrived must not leave the splash up
   // (checked a tick later: StrictMode unmounts and remounts once in dev).
@@ -59,6 +62,7 @@ export function useExploreEntrance(rootRef, loaded, wide) {
     const { step, base, brick } = TIMING[mode];
     root.setAttribute('data-enter-mode', mode);
     root.setAttribute('data-enter', 'wait');
+    if (!ready) return () => { root.removeAttribute('data-enter'); root.removeAttribute('data-enter-mode'); };
 
     const finish = () => {
       root.removeAttribute('data-enter');
@@ -119,5 +123,5 @@ export function useExploreEntrance(rootRef, loaded, wide) {
       timers.forEach(clearTimeout);
       finish();
     };
-  }, [rootRef, loaded, wide]);
+  }, [rootRef, loaded, wide, ready]);
 }

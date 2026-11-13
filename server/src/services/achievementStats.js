@@ -6,6 +6,8 @@ import { HISTORY_ERAS } from '../data/historyEras.js';
 import { HISTORY_LABELS, HUNT_EXCLUDED_SLUGS, riverSideOf, evaluateAchievements, describeAchievement, achievementXp, calculateLevel, RANDOM_DRAW_WINDOW_MS, saintOf } from './gamification.js';
 import { haversineDistance } from '../utils/geo.js';
 import { livePacks, packStatus } from './packs.js';
+import { BIG_BATCH } from '../utils/dbBatch.js';
+import { locationCatalog, withLocations } from './locationCatalog.js';
 
 // The numbers every achievement's check() and progress() read. Used after a
 // check-in (to evaluate achievements) and by GET /api/user/achievements (to
@@ -41,7 +43,18 @@ export async function historyEraOrder(slug) {
 
 // `user` (optional) adds what only the user document knows (the last hunt).
 export async function buildAchievementStats(userId, user = null) {
-  const allCheckins = await CheckIn.find({ user: userId }).populate('location', 'slug name localizedNames labels addedBy quarter district xpReward rarity coordinates').lean();
+  // Everything this needs from the database starts at once, in one round
+  // trip's time instead of one after another (2026-11-13: ~100 ms each from far away).
+  // The cards (totals, legends, embassies, packs and the card behind each
+  // check-in) come from memory, services/locationCatalog.js.
+  const [checkins, catalog, livePackList, historyEraReached] = await Promise.all([
+    CheckIn.find({ user: userId }, '-note -user').batchSize(BIG_BATCH).lean(),
+    locationCatalog(),
+    livePacks('slug'),
+    // Turning the Page: the era of the History Timeline event the user is on.
+    historyEraOrder(user?.historyProgress?.slug),
+  ]);
+  const allCheckins = withLocations(checkins, catalog);
   const labelCount = {};
   const checkedSlugs = [];
   let presetCheckins = 0;
@@ -160,33 +173,21 @@ export async function buildAchievementStats(userId, user = null) {
     zigzag = Math.max(zigzag, i - start + 1);
   }
 
-  const [customLocations, totalLocations, landmarkTotal, cityTotal, quarters, legends, embassies, districts] = await Promise.all([
-    Location.countDocuments({ addedBy: userId }),
-    Location.countDocuments({}),
-    Location.countDocuments({ labels: 'landmark' }),
-    Location.countDocuments({ labels: { $ne: 'outside' } }),
-    Location.aggregate([{ $match: { quarter: { $type: 'string' } } }, { $group: { _id: '$quarter', n: { $sum: 1 } } }]),
-    Location.find({ rarity: 'legend' }, 'slug').sort({ slug: 1 }).lean(),
-    Location.find({ labels: 'embassy' }, 'slug').sort({ slug: 1 }).lean(),
-    Location.aggregate([
-      { $match: { district: /^Praha \d+$/ } },
-      { $group: { _id: '$district', n: { $sum: 1 } } },
-    ]),
-  ]);
+  const customLocations = catalog.addedBy(userId);
+  const totalLocations = catalog.total;
+  const { landmarkTotal, cityTotal } = catalog;
 
   // Card packs: opened and completed, by the cards collected (a check-in is
   // evaluated before awardPacks stores its stages) or by a stored stage, which
   // stays even when a card joins the pack later.
   const collectedIds = new Set(allCheckins.filter(ci => ci.location).map(ci => String(ci.location._id)));
-  const packStates = (await livePacks('slug')).map(p => ({
+  const packStates = livePackList.map(p => ({
     slug: p.slug,
     ...packStatus(p, collectedIds, (user?.packs || []).find(r => r.slug === p.slug)),
   }));
   const openedPackSlugs = packStates.filter(p => p.unlocked).map(p => p.slug);
   const completedPackSlugs = packStates.filter(p => p.completed).map(p => p.slug);
 
-  // Turning the Page: the era of the History Timeline event the user is on.
-  const historyEraReached = await historyEraOrder(user?.historyProgress?.slug);
 
   // High Five: achievements unlocked per Prague day (itself not counted).
   const unlockDays = {};
@@ -212,7 +213,7 @@ export async function buildAchievementStats(userId, user = null) {
     expeditionCheckins,
     cityTotal,
     quarterCount,
-    quarterTotal: Object.fromEntries(quarters.map(q => [q._id, q.n])),
+    quarterTotal: Object.fromEntries(catalog.quarterTotals),
     huntTenX,
     huntFinds,
     fastestHuntMs,
@@ -233,10 +234,10 @@ export async function buildAchievementStats(userId, user = null) {
     zigzag,
     banksVisited,
     rarityCount,
-    embassySlugs: embassies.map(e => e.slug),
+    embassySlugs: catalog.embassySlugs,
     districtCount,
-    districtTotal: Object.fromEntries(districts.map(d => [d._id, d.n])),
-    legendSlugs: legends.map(l => l.slug),
+    districtTotal: Object.fromEntries(catalog.districtTotals),
+    legendSlugs: catalog.legendSlugs,
     labelCount,
     historyCount,
     checkedSlugs,
