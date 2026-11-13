@@ -11,6 +11,7 @@ import { formatDistance } from '../../utils/geolocation';
 import { watchOffscreen } from '../../utils/pauseOffscreen';
 import { useHoldGestures } from '../../hooks/useHoldGestures';
 import { prefetchLocation } from '../../utils/locationCache';
+import { watchLabelFit } from '../../utils/fitLabels';
 
 // Cards the user collected within this window get a green "NEW" tag.
 const NEW_BADGE_MS = 48 * 60 * 60 * 1000;
@@ -67,27 +68,9 @@ function LocationCard({ location, onClick, distance, nearby = false, uncovered: 
     const el = labelRef.current;
     if (!el) return;
     if (lang === 'zh') { el.style.fontSize = ''; return; }
-    // Re-fit once web fonts finish loading (measuring against the narrower
-    // fallback font let Cinzel labels overflow) and whenever the card resizes.
-    // Measuring forces layout, so skip cards the browser isn't rendering
-    // (inside a content-visibility: auto panel that is off screen, see
-    // history.css); measuring those one by one cost ~2 s on the History page.
-    // The ResizeObserver fits them once they are rendered and get a size.
-    const fit = () => {
-      if (el.checkVisibility && !el.checkVisibility({ contentVisibilityAuto: true })) return;
-      if (el.style.fontSize) el.style.fontSize = '';
-      let size = parseFloat(getComputedStyle(el).fontSize);
-      while (el.scrollWidth > el.clientWidth && size > 9) {
-        size -= 0.5;
-        el.style.fontSize = `${size}px`;
-      }
-    };
-    fit();
-    let cancelled = false;
-    document.fonts?.ready.then(() => { if (!cancelled) fit(); });
-    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(fit) : null;
-    ro?.observe(el);
-    return () => { cancelled = true; ro?.disconnect(); };
+    // Fitted with every other card at once (utils/fitLabels.js), on mount, on a
+    // resize and once web fonts have loaded.
+    return watchLabelFit(el);
   }, [firstLabel, lang, showLabel]);
 
   return (

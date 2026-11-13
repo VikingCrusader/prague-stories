@@ -71,7 +71,7 @@ function PackBody({ pack, onOpenCard, onGuide, artOnly = false }) {
   return (
     <>
       <div className="pack-detail__top">
-        <div className="pack-detail__wrapper"><PackCard pack={pack} artOnly={artOnly} /></div>
+        <div className="pack-detail__wrapper"><PackCard pack={pack} artOnly={artOnly} torn /></div>
         <div className="pack-detail__text">
           <h2 className="px-title pack-detail__name">{name}</h2>
           {lang !== 'cz' && pack.localizedNames?.cz && <div className="pack-detail__cz">{pack.localizedNames.cz}</div>}

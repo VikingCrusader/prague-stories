@@ -159,6 +159,66 @@
 }
 .detail-packs__pack:hover { filter: brightness(1.2); }
 
+/* Torn open in the pack's own detail (PackCard `torn`, 2026-11-13, user's design):
+   the top seal torn off along a fixed ragged line and three cards standing in the
+   packet in a slight fan, turning about a point below them inside the packet, the
+   middle one in front. Padding and margins in % are of the width, so it scales
+   with the packet. Backs while in progress; a complete pack's faces stand higher
+   so their covers show. */
+.pack-torn { --rise: 19%; --tear: 16px; position: relative; padding-top: var(--rise); }
+.pack-torn--faces { --rise: 36%; }
+.pack-torn > .loc-card.pack-card { position: relative; z-index: 1; }
+/* Clipped above the packet's bottom, so a card rising from inside never shows below it. */
+.pack-torn__cards { position: absolute; z-index: 0; inset: 0 0 12px; overflow: hidden; pointer-events: none; }
+.pack-torn__card {
+  position: absolute;
+  top: 0;
+  left: 18%;
+  width: 64%;
+  margin-top: 2%;
+  aspect-ratio: 260 / 368;
+  overflow: hidden;
+  transform-origin: 50% 125%;
+  transform: rotate(var(--a));
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.35), 0 -2px 8px rgba(0, 0, 0, 0.5);
+  animation: pack-peek 600ms cubic-bezier(0.2, 0.9, 0.3, 1.05) calc(340ms + var(--i) * 60ms) backwards;
+}
+/* The two at the sides stand a little lower than the middle one. */
+.pack-torn__card--left, .pack-torn__card--right { margin-top: 5%; }
+.pack-torn__card > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+@keyframes pack-peek { from { transform: translateY(70%) rotate(0deg); } }
+/* A whole card at its usual width, scaled to the slot (--face-scale, set by PeekCards). */
+.pack-torn__face { width: 200px; transform: scale(var(--face-scale, 1)); transform-origin: 0 0; }
+.pack-torn__face > .loc-card { box-shadow: none; transform: none; cursor: default; }
+/* Where the cards go into the packet: in its shade. */
+.pack-torn__shade {
+  position: absolute;
+  top: 0;
+  left: 6%;
+  width: 88%;
+  height: 16px;
+  margin-top: calc(var(--rise) + var(--tear) - 14px);
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5));
+}
+/* The ragged edge: the seal is gone, the bottom keeps its serrated end. */
+.pack-card--torn .pack-card__crimp--top { display: none; }
+/* With the seal gone, only the bottom pair of side pinches is left. */
+.pack-card--torn .pack-card__foil {
+  clip-path: polygon(
+    0 0, 100% 0,
+    100% calc(100% - var(--crimp) - 8px), calc(100% - 5px) calc(100% - var(--crimp) - 4px), 100% calc(100% - var(--crimp)),
+    100% 100%, 0 100%,
+    0 calc(100% - var(--crimp)), 5px calc(100% - var(--crimp) - 4px), 0 calc(100% - var(--crimp) - 8px));
+}
+.pack-card--torn .pack-card__foil {
+  --tear-edge: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%208'%20preserveAspectRatio%3D'none'%3E%3Cpath%20d%3D'M0%208V3.5L2.5%201.6%205%204.2%207.5%202%2010%205%2012.5%202.6%2015%204.4%2017.5%201.4%2020%203.8%2022.5%202.2%2025%205.2%2027.5%202.8%2030%204%2032.5%201.8%2035%204.6%2037.5%202.4%2040%203.6%2042.5%201.2%2045%204.8%2047.5%202.6%2050%204.2%2052.5%201.8%2055%203.4%2057.5%202%2060%205%2062.5%202.8%2065%204.2%2067.5%201.6%2070%203.6%2072.5%202.2%2075%205.2%2077.5%202.6%2080%204%2082.5%201.4%2085%204.4%2087.5%202.4%2090%203.8%2092.5%201.8%2095%204.6%2097.5%202.2%20100%203.6V8z'%2F%3E%3C%2Fsvg%3E") 0 calc(var(--tear) - 7px) / 100% 8px no-repeat;
+  --tear-body: linear-gradient(#000 0 0) 0 calc(var(--tear) + 0.5px) / 100% 55% no-repeat;
+  -webkit-mask: var(--tear-edge), var(--tear-body), var(--zig-bottom);
+  mask: var(--tear-edge), var(--tear-body), var(--zig-bottom);
+}
+@media (prefers-reduced-motion: reduce) { .pack-torn__card { animation: none; } }
+:root[data-card-motion="off"] .pack-torn__card { animation: none; }
+
 /* The pack opened. */
 .pack-detail-overlay { z-index: 260; }
 .pack-detail { width: min(1080px, 94vw); max-width: none; max-height: 90vh; overflow-y: auto; padding: 26px 28px 30px; }

@@ -1,4 +1,4 @@
-import { memo, useEffect, useRef, useState } from 'react';
+import { memo, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { useLang, useConvert, useT } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { getLocalCoverPath, toThumbPath } from '../../utils/localCover';
@@ -6,6 +6,7 @@ import { lockClosedIcon } from '../../utils/rarity';
 import { watchOffscreen } from '../../utils/pauseOffscreen';
 import { useHoldGestures } from '../../hooks/useHoldGestures';
 import CardShowcase from '../locations/CardShowcase';
+import LocationCard from '../locations/LocationCard';
 
 const packState = ({ completed = false, unlocked = false }) => (completed ? 'complete' : unlocked ? 'open' : 'sealed');
 
@@ -34,7 +35,8 @@ function Crimps() {
 // `uncovered` (Explore, a guest with no position): a sealed pack in full colour
 // with a small corner lock, to match the uncovered cards around it. It is still
 // sealed: no showcase, and its detail shows only the preview.
-function PackCard({ pack, onClick, holdable = true, showcase = false, story = null, artOnly = false, uncovered = false }) {
+// `torn`: the pack's own detail, see PeekCards.
+function PackCard({ pack, onClick, holdable = true, showcase = false, story = null, artOnly = false, uncovered = false, torn = false }) {
   const { lang } = useLang();
   const convert = useConvert();
   const t = useT();
@@ -48,11 +50,11 @@ function PackCard({ pack, onClick, holdable = true, showcase = false, story = nu
   const state = packState(pack);
   const gestures = holdable && !showcase && state !== 'sealed';
   const { handlers, showcaseOpen, closeShowcase } = useHoldGestures({ enabled: gestures, onTap: () => onClick?.(slug) });
-  return (
-    <>
+  const peek = torn && !showcase && !story && state !== 'sealed' ? (state === 'complete' ? 'faces' : 'backs') : null;
+  const packet = (
     <div
       ref={ref}
-      className={`loc-card pack-card pack-card--${state === 'sealed' && uncovered ? 'open' : state}${uncovered ? ' pack-card--uncovered' : ''}${artOnly ? ' pack-card--art' : ''}${gestures ? ' loc-card--holdable' : ''}`}
+      className={`loc-card pack-card pack-card--${state === 'sealed' && uncovered ? 'open' : state}${uncovered ? ' pack-card--uncovered' : ''}${artOnly ? ' pack-card--art' : ''}${peek ? ' pack-card--torn' : ''}${gestures ? ' loc-card--holdable' : ''}`}
       style={foil ? { '--foil': foil } : undefined}
       data-pack={slug}
       role="button"
@@ -108,8 +110,71 @@ function PackCard({ pack, onClick, holdable = true, showcase = false, story = nu
         <div className="pack-card__sheen" aria-hidden="true" />
       </div>
     </div>
+  );
+  return (
+    <>
+    {peek ? (
+      <div className={`pack-torn pack-torn--${peek}`}>
+        <PeekCards mode={peek} members={pack.members} />
+        {packet}
+      </div>
+    ) : packet}
     {showcaseOpen && <CardShowcase pack={pack} openedBy={showcaseOpen} onClose={closeShowcase} />}
     </>
+  );
+}
+
+// Torn open (a pack's own detail, 2026-11-13, user's design): the seal at the top
+// is torn off and three cards stand in the packet in a slight fan, the middle one
+// in front. A pack still in progress shows their backs; a complete one shows the
+// faces of its three most valuable cards (highest XP in the middle, then left,
+// then right), risen higher so their covers show. A sealed pack stays sealed.
+// Tried and rejected the same day: stepped one behind the other, side by side
+// (too small), one stack showing its thickness.
+// A face is a real LocationCard laid out at its usual width (FACE_W) and scaled
+// to the slot, so its frame and ornaments keep their proportions.
+const FACE_W = 200;
+const FAN = [
+  { pos: 'left', angle: -8 },
+  { pos: 'right', angle: 8 },
+  { pos: 'middle', angle: 0 }, // last, so in front
+];
+const RANK = { middle: 0, left: 1, right: 2 };
+const topCards = members => (members || [])
+  .map((card, i) => ({ card, i }))
+  .sort((a, b) => (b.card.xpReward || 0) - (a.card.xpReward || 0) || a.i - b.i)
+  .slice(0, 3)
+  .map(x => x.card);
+
+function PeekCards({ mode, members }) {
+  const ref = useRef(null);
+  // Only to look at: nothing in it takes focus or a click.
+  useEffect(() => { ref.current?.setAttribute('inert', ''); }, []);
+  useLayoutEffect(() => {
+    const el = ref.current;
+    const slot = el?.querySelector('.pack-torn__card');
+    if (!el || !slot || typeof ResizeObserver === 'undefined') return undefined;
+    const set = () => el.style.setProperty('--face-scale', String(slot.offsetWidth / FACE_W));
+    set();
+    const ro = new ResizeObserver(set);
+    ro.observe(slot);
+    return () => ro.disconnect();
+  }, []);
+  const faces = mode === 'faces' ? topCards(members) : [];
+  return (
+    <div ref={ref} className="pack-torn__cards" aria-hidden="true">
+      {FAN.map(({ pos, angle }, i) => {
+        const face = faces[RANK[pos]];
+        return (
+          <div key={pos} className={`pack-torn__card pack-torn__card--${pos}`} style={{ '--a': `${angle}deg`, '--i': i }}>
+            {face
+              ? <div className="pack-torn__face"><LocationCard location={{ ...face, unlocked: true }} holdable={false} /></div>
+              : <img src="/brand/card-back.webp" alt="" draggable={false} />}
+          </div>
+        );
+      })}
+      <span className="pack-torn__shade" />
+    </div>
   );
 }
 
