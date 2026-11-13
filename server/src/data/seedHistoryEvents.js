@@ -34428,6 +34428,126 @@ export const historyEvents = [
     ],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_Prague_(1741)"
   },
+  // Fourth card of era 15: Charles Albert as king in Prague, Dec 1741 to Feb
+  // 1742. Sources: the same CUNI thesis (Judina 2018), ch. 2.2, citing Felir
+  // (ed. pp. 197-204), Pameti prazske (Teige pp. 7-12), Paroubek (Trebizsky
+  // p. 242), Hlavacka, Karel Albrecht (1997) pp. 88-104: regalia other than
+  // the sword were out of Prague (p. 99); proclamation 7 Dec; Czech patent
+  // signed by Praidlohn and Heckenstaller; homage 19 Dec in the Old Diet,
+  // "pres ctyri sta"; Felir's crossings-out. Maria Theresa to Kinsky: German
+  // wording "alles zu wagen ... um Bohmen zu retten" / "Alle meine Heere, alle
+  // Ungarn sollen eher vernichtet werden, als dass ich irgend etwas abtrete"
+  // (Arneth, via later biographies; date not pinned beyond that winter).
+  // "Et Caesar et nihil" is the period epigram, given as hearsay.
+  {
+    "slug": "everything-but-the-crown-1741",
+    "era": "prague-under-siege",
+    "startYear": 1741.95,
+    "tone": "humorous",
+    "year": {
+      "en": "1741–1742",
+      "cz": "1741–1742",
+      "zh": "1741年－1742年"
+    },
+    "title": {
+      "en": "Everything but the Crown",
+      "cz": "Všechno kromě koruny",
+      "zh": "只差一顶王冠"
+    },
+    "hookLine": {
+      "en": "He was proclaimed king, sworn allegiance and soon made emperor. The one thing he never got was the crown.",
+      "cz": "Byl provolán králem, stavové mu holdovali a brzy se stal i císařem. Jen korunu nikdy nedostal.",
+      "zh": "他被宣布为国王，接受了效忠，不久又当上了皇帝。唯独那顶王冠，他始终没拿到。"
+    },
+    "summary": {
+      "en": "Charles Albert had come for the crown of Bohemia, but the crown was in Vienna, in Maria Theresa's hands, and so were the sceptre and the orb. Of all the coronation regalia, only St Wenceslas's sword was still in Prague. A coronation was out of the question, so he made do with a proclamation.\n\nOn 7 December 1741 he was proclaimed king of Bohemia as Charles III, and a procession wound through the streets. The Old Town burgher Felíř wrote in his annals: \"now our ruling lord\". Later he crossed the words out, and next to the procession he added a line: \"not one of the burghers shouted Vivat Carolus\".\n\nSoon a proclamation in Czech went up as well, addressed to everyone still in Maria Theresa's service: leave it, or lose your property. It was signed by the new king and two of his Bavarian councillors. Not one official of the Bohemian kingdom had put his name to it.\n\nOn 19 December the estates were summoned to the Castle to swear allegiance: clergy, lords, knights and towns. They met in the Diet Hall, the very room where, twenty-one years earlier, the estates had accepted [[link:an-emperor-collecting-signatures-1720]]the Pragmatic Sanction[[/link]] and promised the crown to Maria Theresa.\n\nMore than four hundred came, and the Paměti pražské, an Old Town chronicle, grumbled that more would have come had the day been set later. The Supreme Marshal carried St Wenceslas's sword, the one piece of the regalia at hand. Latecomers got two more dates, and Felíř noted that this applied even to \"the generals in the army of the Lorraine queen Maria Theresa\". Later he crossed out \"Lorraine\" too.\n\nMost of the lords came for the same reason: their estates lay within reach of French and Bavarian guns. Some who served Maria Theresa sent a son or a brother in their place. [[b]]Within twenty-one years the same families had sworn, in the same hall, to two different rulers, and both times what they meant to keep was their land.[[/b]] The parish priest of Líbeznice summed it up in one line:\n\n[[quote:0]]\n\nWho actually ruled Prague? By the end of the month Felíř had his answer: no one, \"not even the newly proclaimed king\", was allowed to give any orders. Command lay with the French marshal Belle-Isle.\n\nThe king himself left on 28 December, first for Dresden (\"whatever was arranged there,\" Felíř wrote, \"was all kept in great secrecy\"), then for Frankfurt, where the electors were to choose a new emperor.\n\nIn Vienna, Maria Theresa had not given Bohemia up. To her Bohemian chancellor, Count Philipp Kinsky, she wrote:\n\n[[quote:1]]\n\nFrancis Stephen's army, a day or two from Prague when the city fell, pulled back south. Vienna struck elsewhere: Field Marshal Khevenhüller marched up the Danube toward Bavaria, the elector's own country, which he had left almost unguarded to go and conquer Bohemia.\n\nOn 24 January 1742 he was elected emperor, as Charles VII. Prague got a mass in St Vitus and three days of gun salutes, and his half-brother, the city's commander, gave a ball on the Lesser Town square. The Paměti pražské described the election day:\n\n[[quote:2]]\n\nOn 12 February he was crowned emperor in Frankfurt. The next day Austrian troops marched into Munich. The wits turned the old motto \"Caesar or nothing\" around: now he was \"both Caesar and nothing\".\n\nFelíř, meanwhile, kept editing. Where he had written \"His Royal Majesty\", he crossed it out and put \"the king proclaimed for the time being\". In the very next entry he forgot to cross out \"king of Bohemia\".",
+      "cz": "Karel Albrecht přišel do Prahy pro českou korunu, jenže koruna byla ve Vídni, v rukou Marie Terezie, a s ní i žezlo a jablko. Ze všech korunovačních klenotů zůstal v Praze jen svatováclavský meč. O korunovaci tedy nemohla být řeč a musel se spokojit s provoláním.\n\nSedmého prosince 1741 byl provolán českým králem jako Karel III. a Prahou prošel průvod. Staroměstský měšťan Felíř si do letopisu zapsal: „nyní náš regirující pán“. Později ta slova vyškrtl a k popisu průvodu připsal: „žádný z měšťanův ‚Vivat Carolus‘ nevolal“.\n\nBrzy nato vyšlo i české provolání ke všem, kdo dosud sloužili Marii Terezii: ať službu opustí, nebo přijdou o majetek. Podepsal ho nový král a dva jeho bavorští radové. Žádný úředník Českého království na něm podpis neměl.\n\nDevatenáctého prosince byly stavy pozvány na Hrad k holdování: duchovní, páni, rytíři i města. Sešli se ve Staré sněmovně, v téže síni, kde stavové před jednadvaceti lety přijali [[link:an-emperor-collecting-signatures-1720]]pragmatickou sankci[[/link]] a slíbili korunu Marii Terezii.\n\nPřišlo jich přes čtyři sta a staroměstské Paměti pražské si postěžovaly, že kdyby se holdovalo později, přišlo by jich víc. Nejvyšší zemský maršálek nesl svatováclavský meč, jediný klenot po ruce. Opozdilci dostali ještě dva termíny a Felíř poznamenal, že to platí i „u pánův generálův, kteří při armádě lotrinské královny Marie Teresie se vynacházeli“. Později škrtl i to „lotrinské“.\n\nVětšina pánů přišla z téhož důvodu: jejich panství ležela na dosah francouzských a bavorských děl. Někteří z těch, kdo sloužili Marii Terezii, poslali místo sebe syna nebo bratra. [[b]]Tytéž rody během jednadvaceti let přísahaly v téže síni dvěma různým panovníkům, a pokaždé jim šlo o to, aby si udržely svou půdu.[[/b]] Farář z Líbeznic to shrnul jedinou větou:\n\n[[quote:0]]\n\nKdo Prahu vlastně řídil? Ke konci měsíce to Felíř věděl: nikdo, „ani sám král vnově proklamírovaný churfürst bavorský“, nic poroučeti nesměl. Velel francouzský maršál Belle-Isle.\n\nSám král odjel 28. prosince, nejprve do Drážďan („co tam řízeno bylo,“ psal Felíř, „to vše velkejch tajnostech se zachovalo“), pak do Frankfurtu, kde měli kurfiřti volit nového císaře.\n\nVe Vídni se Marie Terezie Čech nevzdala. Svému českému kancléři, hraběti Filipu Kinskému, napsala:\n\n[[quote:1]]\n\nArmáda Františka Štěpána, která stála den dva od Prahy, když město padlo, ustoupila na jih. Vídeň udeřila jinde: polní maršál Khevenhüller vytáhl po Dunaji k Bavorsku, kurfiřtově vlastní zemi, kterou Karel Albrecht nechal skoro bez ochrany, když šel dobývat Čechy.\n\nČtyřiadvacátého ledna 1742 byl zvolen císařem jako Karel VII. Praha dostala mši ve Svatém Vítu a tři dny salv a jeho nevlastní bratr, velitel města, uspořádal ples na Vlašském placu, horní části dnešního Malostranského náměstí. Paměti pražské o dni volby napsaly:\n\n[[quote:2]]\n\nDvanáctého února byl ve Frankfurtu korunován císařem. Hned nazítří vpochodovala rakouská vojska do Mnichova. Vtipálci obrátili staré heslo „buď Caesar, nebo nic“: teď byl „Caesar i nic“.\n\nFelíř mezitím dál škrtal. Kde napsal „Jeho Královská Milost“, škrtl to a dal tam „na ten čas proklamírovaného krále“. Hned v příštím zápisu zapomněl vyškrtnout „král český“.",
+      "zh": "卡尔·阿尔布雷希特是冲着波希米亚王冠来的，可王冠连同权杖、宝球，都在维也纳玛丽亚·特蕾莎的手里。全套加冕礼器，只有圣瓦茨拉夫宝剑还在布拉格。加冕办不成，只好退而求其次：宣布称王。\n\n1741年12月7日，他被宣布为波希米亚国王，称卡尔三世，一支游行队伍穿城而过。老城市民费利日在年鉴里写下“我们如今在位的君主”。后来，他把这几个字划掉了，又在游行那一段旁边补了一句：“没有一个市民喊‘卡尔万岁’。”\n\n不久，城里又贴出一份捷克文公告，对象是所有还在为玛丽亚·特蕾莎效力的人：要么辞职，要么没收家产。签名的是新国王和他的两名巴伐利亚顾问，波希米亚王国的官员，一个也没有。\n\n12月19日，教士、领主、骑士和各城代表被召到城堡的议会厅宣誓效忠。二十一年前，正是在这间大厅里，等级们接受了[[link:an-emperor-collecting-signatures-1720]]国事诏书[[/link]]，答应把王冠交给玛丽亚·特蕾莎。\n\n来了四百多人，《布拉格回忆录》还嫌日子定早了，不然来的会更多。最高元帅捧着圣瓦茨拉夫宝剑，这是手边仅有的一件礼器。没赶上的可以改日补办，费利日特意记下，连“在洛林女王玛丽亚·特蕾莎军中效力的将军们”也包括在内。后来，“洛林”两个字也被他划掉了。\n\n大多数领主来，理由都一样：自家的庄园就在法国和巴伐利亚的炮口底下。有几位在玛丽亚·特蕾莎手下当差的，就派儿子或兄弟替自己来。[[b]]二十一年里，同一批家族在同一间大厅，先后向两位君主宣誓，两回想保住的，都是自己的地。[[/b]]利贝兹尼采的那位神父，一句话就说完了：\n\n[[quote:0]]\n\n那布拉格归谁管？到月底，费利日看明白了：谁都没有发号施令的份，“连新宣布的国王本人也不例外”。说了算的是法国元帅贝勒-伊勒。\n\n国王本人12月28日就走了，先去德累斯顿，“在那里商量了什么，全都守得严严实实”，再去法兰克福，选帝侯们要在那里选新皇帝。\n\n维也纳这边，玛丽亚·特蕾莎没有放弃波希米亚。她给波希米亚首相菲利普·金斯基伯爵写信说：\n\n[[quote:1]]\n\n城破时离布拉格只有一两天路的弗朗茨·斯特凡援军，撤到了南边。维也纳的拳头打向别处：克芬许勒元帅沿多瑙河西进，直奔巴伐利亚。那是选帝侯的老家，他来打波希米亚，几乎没留人守。\n\n1742年1月24日，他当选皇帝，称查理七世。布拉格为此唱弥撒、放了三天礼炮，他的异母兄弟、城防司令还在小城广场办了舞会。《布拉格回忆录》写选举那天：\n\n[[quote:2]]\n\n2月12日，他在法兰克福加冕为皇帝。第二天，奥地利军队开进了慕尼黑。好事者把那句老话“要么当凯撒，要么什么都不是”改了改：他如今“既是凯撒，又什么都不是”。\n\n费利日还在接着改。写过“国王陛下”的地方，他划掉改成“暂时被宣布的国王”。可紧接着的下一条里，“波希米亚国王”几个字，他忘了划。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "…the Bavarian elector, to whom the Bohemian estates, for the most part under compulsion, promised their loyalty.",
+          "cz": "…kurfiřt bavorský, jemuž větším dílem nuceně stavové čeští věrnost slibovali.",
+          "zh": "……巴伐利亚选帝侯。波希米亚各等级向他宣誓效忠，大多是被逼的。"
+        },
+        "attribution": {
+          "en": "Jiří Václav Paroubek, parish priest of Líbeznice, memoirs, written in autumn 1742 (translated)",
+          "cz": "Jiří Václav Paroubek, farář v Líbeznicích, paměti psané na podzim 1742",
+          "zh": "利贝兹尼采教区神父伊日·瓦茨拉夫·帕鲁贝克，回忆录，1742年秋撰写（转译）"
+        }
+      },
+      {
+        "text": {
+          "en": "My resolution is taken: to stake everything and bear every loss to save Bohemia. All my armies, all the Hungarians shall sooner be destroyed than I cede anything.",
+          "cz": "Rozhodnutí je učiněno: vsadit všechno a snést každou ztrátu, jen abychom zachránili Čechy. Všechna má vojska, všichni Uhři ať raději zahynou, než abych cokoli postoupila.",
+          "zh": "我已下定决心：为了保住波希米亚，不惜押上一切，承受一切损失。我所有的军队、所有的匈牙利人宁可全军覆没，我也绝不让出任何东西。"
+        },
+        "attribution": {
+          "en": "Maria Theresa to Count Philipp Kinsky, Bohemian chancellor, winter 1741–42 (translated)",
+          "cz": "Marie Terezie hraběti Filipu Kinskému, českému kancléři, zima 1741–1742 (přeloženo)",
+          "zh": "玛丽亚·特蕾莎致波希米亚首相菲利普·金斯基伯爵，1741年至1742年冬（转译）"
+        }
+      },
+      {
+        "text": {
+          "en": "And so that most happy act ended merrily at about four o'clock, to uncommon rejoicing and unspeakable joy.",
+          "cz": "A tak ten na nejvýš šťastný actus okolo čtyř hodin k neobyčejnému plesání a k nevypravitedlné radosti vesele se skoncoval.",
+          "zh": "就这样，这桩无比幸运的盛事在四点钟前后欢欢喜喜地落了幕，人人欢欣鼓舞，喜悦之情无以言表。"
+        },
+        "attribution": {
+          "en": "Paměti pražské, a chronicle kept in an Old Town municipal book, on the imperial election in Frankfurt, January 1742 (translated)",
+          "cz": "Paměti pražské, zápis ve staroměstské městské knize, o volbě císaře ve Frankfurtu, leden 1742",
+          "zh": "《布拉格回忆录》，记于老城市政簿册，写法兰克福皇帝选举，1742年1月（转译）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "prague-castle",
+        "relation": {
+          "en": "The estates were summoned to the Castle on 19 December 1741 to swear allegiance to Charles Albert",
+          "cz": "Sem byly 19. prosince 1741 svolány stavy k holdování Karlu Albrechtovi",
+          "zh": "1741年12月19日，各等级被召到这里向卡尔·阿尔布雷希特宣誓效忠"
+        }
+      },
+      {
+        "slug": "old-royal-palace",
+        "relation": {
+          "en": "In its Diet Hall over four hundred swore allegiance to the new king, in the room where the estates had accepted the Pragmatic Sanction in 1720",
+          "cz": "V její Staré sněmovně holdovalo novému králi přes čtyři sta lidí, v síni, kde stavové roku 1720 přijali pragmatickou sankci",
+          "zh": "四百多人在这里的议会厅向新国王宣誓，1720年等级们就是在这间大厅里接受了国事诏书"
+        }
+      },
+      {
+        "slug": "st-vitus-cathedral",
+        "relation": {
+          "en": "A mass was sung here when news came that Charles Albert had been elected emperor",
+          "cz": "Když přišla zpráva o zvolení Karla Albrechta císařem, sloužila se zde mše",
+          "zh": "卡尔·阿尔布雷希特当选皇帝的消息传来时，这里唱了弥撒"
+        }
+      },
+      {
+        "slug": "malostranske-namesti",
+        "relation": {
+          "en": "Its upper part, then the Italian Square, saw the ball for the new emperor",
+          "cz": "Na jeho horní části, tehdy Vlašském placu, se konal ples na počest nového císaře",
+          "zh": "广场上半部当时叫“意大利广场”，为新皇帝办的舞会就在这里"
+        }
+      }
+    ],
+    "images": [
+      "/history/everything-but-the-crown-1741.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Prague Castle, the Old Diet Hall, 19 December 1741: Charles Albert sits bareheaded on the throne beside an empty crown cushion, Marshal Belle-Isle bends to his ear, the Supreme Marshal holds St Wenceslas's sword, and a long queue of lords, prelates and town deputies waits its turn to kneel and swear, watched by French grenadiers at the door.",
+        "cz": "Pražský hrad, Stará sněmovna, 19. prosince 1741: Karel Albrecht sedí prostovlasý na trůnu vedle prázdného polštáře na korunu, maršál Belle-Isle se mu sklání k uchu, nejvyšší zemský maršálek drží svatováclavský meč a dlouhá řada pánů, prelátů a městských vyslanců čeká, až na ni přijde řada pokleknout a přísahat; u dveří hlídkují francouzští granátníci.",
+        "zh": "1741年12月19日，布拉格城堡议会厅：卡尔·阿尔布雷希特光着头坐在王座上，身旁的王冠垫空空如也；贝勒-伊勒元帅俯身在他耳边说话，最高元帅捧着圣瓦茨拉夫宝剑；领主、高级教士和各城代表排成长队，等着轮到自己下跪宣誓，门口站着法国掷弹兵。"
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Okupace_Prahy_Francouzi,_Bavory_a_Sasy_(1741%E2%80%931742)"
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
