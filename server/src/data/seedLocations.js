@@ -21865,41 +21865,6 @@ Nový most se otevřel právě včas na etapu Závodu míru v roce 1964, velkéh
     },
   },
   {
-    name: 'Zbraslav',
-    slug: 'zbraslav',
-    localizedNames: { cz: 'Zbraslav', zh: '兹布拉斯拉夫' },
-    labels: ['village-and-town', 'medieval'],
-    district: 'Praha 16',
-    quarter: 'Zbraslav',
-    coordinates: { lat: 49.97614006310055, lng: 14.3936634957206 },
-    rarity: 'mythic',
-    xpReward: 70,
-    wikipediaUrl: 'https://en.wikipedia.org/wiki/Prague-Zbraslav',
-    description: {
-      en: `Welcome to Zbraslav, the riverside town at the southern edge of Prague that spent nearly seven centuries as its own small, self-important place before the city finally swallowed it whole.
-
-People have been settling this stretch of the Vltava since long before written history. The Celts built one of Europe's largest hillfort oppida just across the river at Závist, and the first written mention of Zbraslav itself dates to 1115, when it belonged to the Benedictine monastery at Kladruby. The real turning point came in 1268, when King Přemysl Otakar II acquired the site and built a hunting lodge here, and again in 1292, when his son Wenceslas II founded a Cistercian monastery on the same spot and named it Aula Regia, the Royal Hall. Wenceslas intended it as the new burial place for the entire Přemyslid dynasty, and for a while it delivered: the monastery grew into one of the wealthiest in Bohemia, its abbots ranking among the kingdom's most powerful churchmen, until Emperor Joseph II dissolved it in 1785 and the buildings became a chateau.
-
-Zbraslav kept a quieter identity going on the side, as a working river town with a paper mill first recorded in 1499, the earliest documented papermaking in Bohemia, and later a stone quarry that's still operating today. In the late 19th century, wealthy Prague families discovered it as a summer retreat, publisher Jan Otto among them, and the town filled out with villas, a proper square, and its own parish life around the churches of St. James and St. Gall. None of that stopped Prague from annexing it outright in 1974. Since 1990, Zbraslav has governed itself again as one of the capital's municipal districts, sharing its town hall with neighbouring Lahovice.
-
-🎁 Bonus: The monastery Wenceslas II built as a royal burial ground now spends its afterlife holding paintings instead. Its chateau galleries house the National Gallery's collection of Asian art, a strange but oddly fitting second act for a building that started out as a mausoleum.`,
-      cz: `Vítej na Zbraslavi, říčním městečku na jižním okraji Prahy, které bylo skoro sedm století svým vlastním, na sebe hrdým místem, než ho město nakonec celé pohltilo.
-
-Lidé se na tomto úseku Vltavy usazovali dávno před počátkem psané historie. Keltové si na protějším břehu, na Závisti, vybudovali jedno z největších hradišť v Evropě, a první písemná zmínka o samotné Zbraslavi pochází z roku 1115, kdy patřila benediktinskému klášteru v Kladrubech. Skutečný zlom přišel v roce 1268, kdy král Přemysl Otakar II. místo získal a nechal si tu postavit lovecký hrádek, a znovu v roce 1292, kdy jeho syn Václav II. na stejném místě založil cisterciácký klášter a pojmenoval ho Aula Regia, Královská síň. Václav ho zamýšlel jako nové pohřebiště celého přemyslovského rodu, a nějakou dobu to i vycházelo: klášter se rozrostl v jeden z nejbohatších v Čechách, jeho opati patřili k nejmocnějším církevním hodnostářům v zemi, dokud ho v roce 1785 nezrušil císař Josef II. a přeměnil budovy na zámek.
-
-Vedle toho si Zbraslav udržovala i tišší, praktičtější tvář pracovního říčního městečka, s papírnou doloženou už v roce 1499, nejstarší zaznamenanou výrobou papíru v Čechách, a později s kamenolomem, který funguje dodnes. Na konci 19. století si Zbraslav oblíbily bohaté pražské rodiny jako letní sídlo, mezi nimi i nakladatel Jan Otto, a městečko se zaplnilo vilami, pořádným náměstím a vlastním farním životem kolem kostelů svatého Jakuba a svatého Havla. Nic z toho Prahu nezastavilo, aby ji v roce 1974 rovnou nepřipojila. Od roku 1990 si Zbraslav znovu spravuje sama sebe jako jedna z pražských městských částí, radnici sdílí se sousedními Lahovicemi.
-
-🎁 Bonus: Klášter, který Václav II. postavil jako královské pohřebiště, dnes ve svém druhém životě uchovává spíš obrazy. V zámeckých galeriích dnes sídlí sbírka asijského umění Národní galerie, podivně případné druhé dějství pro budovu, která začínala jako mauzoleum.`,
-      zh: `欢迎来到兹布拉斯拉夫，一座位于布拉格南端、傍河而立的小镇。在被这座城市彻底吞并之前，它曾独立自足了将近七个世纪。
-
-早在有文字记载之前，人们就已经在伏尔塔瓦河的这一段安家落户。凯尔特人在河对岸的扎维斯特修建了欧洲最大的山寨聚落之一，兹布拉斯拉夫本身最早的文字记载则出现在1115年，当时它归属于克拉德鲁比的本笃会修道院。真正的转折发生在1268年，普热米斯尔·奥托卡二世国王获得了这片土地，在这里修建了一座狩猎行宫；又一次转折发生在1292年，他的儿子瓦茨拉夫二世在同一地点创建了一座熙笃会修道院，取名"Aula Regia"，意为"王室大厅"。瓦茨拉夫原本打算把它建成整个普热米斯尔王朝的新墓地，而且一度确实做到了：修道院很快跻身波希米亚最富有的修道院之列，历任院长跻身全国最有权势的教会人物之列，直到1785年约瑟夫二世皇帝将其解散，把整座建筑改建成了城堡。
-
-与此同时，兹布拉斯拉夫也一直保持着更朴素务实的一面，是一座沿河而建的工作型小镇：早在1499年就有造纸厂的文字记录，是波希米亚最早有据可查的造纸活动，后来又添了一座至今仍在开采的采石场。19世纪末，富裕的布拉格家庭开始把这里当作避暑胜地，出版商扬·奥托也是其中之一，小镇渐渐填满了别墅、一座像样的广场，还围绕圣雅各伯和圣加禄两座教堂形成了自己的教区生活。这一切都没能阻止布拉格在1974年把它整体并入。1990年起，兹布拉斯拉夫又重新拥有了自治权，成为首都的一个市政区，与邻近的拉霍维采共用一座区政府大楼。
-
-🎁 彩蛋：瓦茨拉夫二世当年建来作王室墓地的修道院，如今的"来世"却用来存放画作。城堡的展厅里陈列着国家美术馆的亚洲艺术藏品，对一座曾是陵寝的建筑来说，这个第二篇章古怪却又意外贴切。`,
-    },
-  },
-  {
     name: 'Prague 12 Town Hall',
     slug: 'radnice-prahy-12',
     localizedNames: { cz: 'Radnice Prahy 12', zh: '布拉格12区区政府大楼' },
@@ -36842,6 +36807,46 @@ C线在1974年5月9日通到这里，车站很浅，离地面只有九米左右�
 那根钟柱的正式名字叫《时间的垂直雕塑》，作者是雕塑家鲁道夫·斯沃博达，1985年为当时的索科洛夫斯卡站而作。三十五年的风吹雨打让它吃了不少苦头：2020年7月，它锈迹斑斑、里面进了水，被拆下来送去修理；2024年，市政府宣布前一年已经修好。两个站厅之间的地下通道里，还计划装一件扬·波什的灯光作品《突触》，要在墙上显示乘客走动的轨迹。
 
 🎁 彩蛋：一座先是以乌克兰的一场战役命名、后来又以一座意大利城市命名的车站，对自己的身份倒是出奇地淡定。门外那座钟，从头到尾只干一件事。`,
+    },
+  },
+  {
+    // 2026-11-14, user's call: a card of its own for the Zbraslav pack, at the
+    // user's coordinates. Facts from cs.wikipedia "Praha-Zbraslav (nádraží)":
+    // opened 1897 as Königsaal, Königsaal-Zawist from 1898, Zbraslav-Závist
+    // 1918–22, Zbraslav from 1937, Praha-Zbraslav after 1974; tickets no longer
+    // sold there since 2013.
+    name: 'Praha-Zbraslav Station',
+    slug: 'praha-zbraslav-nadrazi',
+    localizedNames: { cz: 'Praha-Zbraslav nádraží', zh: '布拉格-兹布拉斯拉夫火车站' },
+    labels: ['transport', 'hidden-gem'],
+    district: 'Praha 16',
+    quarter: 'Zbraslav',
+    coordinates: { lat: 49.97373210121738, lng: 14.39977756796072 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Praha-Zbraslav_(n%C3%A1dra%C5%BE%C3%AD)',
+    description: {
+      en: `Praha-Zbraslav station stands on the other bank of the Vltava from the town it is named after, a short walk across the Peace Race Bridge. It is a small country stop where trains heading south towards Vrané nad Vltavou pause for hikers and commuters, and it has changed its name more often than most people change trains.
+
+The railway along the right bank of the Vltava opened in 1897, and the station's first name was German: Königsaal, the King's Hall. That was Zbraslav's own German name, a translation of Aula Regia, the Royal Hall, as Wenceslas II had called the Cistercian monastery he founded here in 1292. A year later the stop became Königsaal-Zawist, after Závist, the village on this bank below the hill where the Celts once built their great oppidum.
+
+After 1918 it was Zbraslav-Závist, from 1937 simply Zbraslav, and once the town became part of Prague in 1974 it took the name it carries today. Tickets have not been sold here since 2013, and the station gets by with a platform, a timetable and a view of the river.
+
+🎁 Bonus: The monastery had been a château for more than a hundred years when the first train arrived, but the station sign still went up as the King's Hall. In Zbraslav, a good name outlives the building that earned it.`,
+      cz: `Nádraží Praha-Zbraslav stojí na opačném břehu Vltavy než město, po kterém se jmenuje, kousek pěšky přes most Závodu míru. Je to malá venkovská zastávka, kde vlaky na jih k Vranému nad Vltavou zastaví turistům a lidem cestou do práce, a jméno měnila častěji, než většina lidí přestupuje.
+
+Trať po pravém břehu Vltavy se otevřela v roce 1897 a první jméno stanice bylo německé: Königsaal, Královská síň. Tak se německy říkalo celé Zbraslavi, překladem latinského Aula Regia, jak Václav II. pojmenoval cisterciácký klášter, který tu v roce 1292 založil. O rok později se ze zastávky stal Königsaal-Zawist, podle Závisti, vesnice na tomhle břehu pod kopcem, kde kdysi Keltové postavili své velké oppidum.
+
+Po roce 1918 to byla Zbraslav-Závist, od roku 1937 prostě Zbraslav, a když se město v roce 1974 stalo součástí Prahy, dostala stanice jméno, které nese dodnes. Jízdenky se tu od roku 2013 neprodávají a nádraží si vystačí s nástupištěm, jízdním řádem a výhledem na řeku.
+
+🎁 Bonus: Když sem přijel první vlak, byl klášter už přes sto let zámkem, a přesto na ceduli stanice stála Královská síň. Na Zbraslavi dobré jméno přežije i stavbu, která si ho vysloužila.`,
+      zh: `布拉格-兹布拉斯拉夫火车站和它所冠名的小镇隔着伏尔塔瓦河相望，走过和平赛桥就到。这是一座乡间小站，南下开往弗拉内的列车在这里停一停，放下徒步的人和通勤的人；它改名的次数，比大多数人换乘的次数还多。
+
+沿伏尔塔瓦河右岸的铁路于1897年通车，车站的第一个名字是德语的：Königsaal，意为"国王的殿堂"。这本是整个兹布拉斯拉夫的德语名，译自拉丁文Aula Regia，即"王室殿堂"，瓦茨拉夫二世1292年在这里创建熙笃会修道院时起的名字。一年后，车站改叫Königsaal-Zawist，加上了扎维斯特，也就是河这一岸的那个村子，凯尔特人曾在它背后的山上筑起巨大的城寨。
+
+1918年以后它叫兹布拉斯拉夫-扎维斯特，1937年起干脆就叫兹布拉斯拉夫；1974年小镇并入布拉格，车站才有了今天的名字。2013年起这里不再售票，车站只靠一个站台、一张时刻表和一片河景过日子。
+
+🎁 彩蛋：第一列火车开进来的时候，那座修道院早已当了一百多年的城堡，可车站的站牌上写的仍是"国王的殿堂"。在兹布拉斯拉夫，一个好名字能比挣来它的建筑活得更久。`,
     },
   },
   {

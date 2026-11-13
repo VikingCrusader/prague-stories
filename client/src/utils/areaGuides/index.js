@@ -130,7 +130,7 @@ export const AREA_LANDMARKS = {
     ],
     'Kunratice': [
       'new-castle-ruins-near-kunratice-1783003399902', 'st-james-apostle', 'kunratice-fortress-1783377528490',
-      'monument-to-the-legionnaires-fallen-in-the-world-war-1783377752694', 'rybnik-seberak',
+      'monument-to-the-legionnaires-fallen-in-the-world-war-1783377752694', 'rybnik-seberak', 'kunratice',
     ],
     'Záběhlice': [
       'zabehlicky-zamek', 'hamersky-rybnik', 'kostel-sv-anezky-ceske-sporilov', 'kostel-narozeni-panny-marie-zabehlice',

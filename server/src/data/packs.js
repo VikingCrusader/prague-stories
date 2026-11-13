@@ -383,6 +383,42 @@ export const PACKS = [
       'hilton-prague', 'diamond-point-1783752450170', 'stanice-metra-florenc', 'florentinum', 'hotel-opera-tesnov',
     ],
   }),
+  pack({
+    slug: 'kunratice',
+    released: '2026-11-13T23:18:00+01:00',
+    name: 'Kunratice',
+    localizedNames: { cz: 'Kunratice', zh: '昆拉蒂采' },
+    foil: '#24503a',
+    labels: ['castle and fortress', 'medieval', 'baroque', 'nature'],
+    // The old village of Kunratice with its chateau, church and legionnaire memorial,
+    // Šeberák pond and Kunratice Forest with Wenceslas IV's Nový hrad (2026-11-14,
+    // user's call). The forest lies in the Chodov cadastral area but carries the
+    // village's name, and the text says so. A new slug: Kunratice had no
+    // one-point card to take over.
+    members: [
+      'st-james-apostle', 'kunratice-fortress-1783377528490', 'monument-to-the-legionnaires-fallen-in-the-world-war-1783377752694',
+      'rybnik-seberak', 'kunraticky-forest', 'new-castle-ruins-near-kunratice-1783003399902',
+    ],
+  }),
+  pack({
+    slug: 'zbraslav',
+    released: '2026-11-13T23:18:00+01:00',
+    name: 'Zbraslav',
+    localizedNames: { cz: 'Zbraslav', zh: '兹布拉斯拉夫' },
+    foil: '#6e3a3a',
+    labels: ['palace', 'baroque', 'villa', 'medieval'],
+    // Only the historic town (2026-11-14, user's call): the monastery and château
+    // with St James, the square and its memorial, Havlín hill with St Gall and
+    // Charles's Pavilion, the villas, the Peace Race Bridge and the station across
+    // the river (a new card). Left out, though in the cadastral area: the South
+    // Pole of Prague, the quarry and the Chapel of Our Lady further south. Took
+    // over the one-point Zbraslav card's slug and cover.
+    members: [
+      'zbraslavsky-zamek', 'kostel-svateho-jakuba-vetsiho-zbraslav', 'pomnik-obetem-1-svetove-valky-zbraslav',
+      'kostel-svateho-havla-zbraslav', 'karluv-stanek', 'vila-vladislava-vancury', 'ottova-vila-zbraslav',
+      'most-zavodu-miru', 'praha-zbraslav-nadrazi',
+    ],
+  }),
 ];
 
 export const packsOfCard = (slug) => PACKS

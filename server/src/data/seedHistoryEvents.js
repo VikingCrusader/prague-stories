@@ -4263,6 +4263,14 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
+        slug: "zbraslav",
+        relation: {
+          en: "The town that grew up around the Royal Hall: the monastery, now a château, with its church, Havlín hill and the square below.",
+          cz: "Město, které vyrostlo kolem Královské síně: klášter, dnes zámek, s kostelem, vrch Havlín a náměstí pod ním.",
+          zh: "围着这座王室殿堂长起来的小镇：如今已是城堡的修道院和它的教堂、哈夫林山，以及山下的广场。",
+        },
+      },
+      {
         slug: "zbraslavsky-zamek",
         relation: {
           en: "Founded on the site of Otakar II's own hunting lodge as the new royal necropolis, and, as it happens, the very place where the often-quoted Zbraslav Chronicle was actually written.",
@@ -12626,6 +12634,14 @@ export const historyEvents = [
       },
     ],
     relatedLandmarks: [
+      {
+        slug: "kunratice",
+        relation: {
+          en: "The village below the forest where Wenceslas kept his last refuge, with the ruins of his castle among the trees.",
+          cz: "Ves pod lesem, kde měl Václav své poslední útočiště, se zříceninou jeho hradu mezi stromy.",
+          zh: "瓦茨拉夫最后的避难所所在的林下村子，他那座城堡的遗址就在林间。",
+        },
+      },
       {
         slug: "new-castle-ruins-near-kunratice-1783003399902",
         relation: {
