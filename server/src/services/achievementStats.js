@@ -5,6 +5,7 @@ import HistoryEvent from '../models/HistoryEvent.js';
 import { HISTORY_ERAS } from '../data/historyEras.js';
 import { HISTORY_LABELS, HUNT_EXCLUDED_SLUGS, riverSideOf, evaluateAchievements, describeAchievement, achievementXp, calculateLevel, RANDOM_DRAW_WINDOW_MS, saintOf } from './gamification.js';
 import { haversineDistance } from '../utils/geo.js';
+import { livePacks, packStatus } from './packs.js';
 
 // The numbers every achievement's check() and progress() read. Used after a
 // check-in (to evaluate achievements) and by GET /api/user/achievements (to
@@ -173,6 +174,17 @@ export async function buildAchievementStats(userId, user = null) {
     ]),
   ]);
 
+  // Card packs: opened and completed, by the cards collected (a check-in is
+  // evaluated before awardPacks stores its stages) or by a stored stage, which
+  // stays even when a card joins the pack later.
+  const collectedIds = new Set(allCheckins.filter(ci => ci.location).map(ci => String(ci.location._id)));
+  const packStates = (await livePacks('slug')).map(p => ({
+    slug: p.slug,
+    ...packStatus(p, collectedIds, (user?.packs || []).find(r => r.slug === p.slug)),
+  }));
+  const openedPackSlugs = packStates.filter(p => p.unlocked).map(p => p.slug);
+  const completedPackSlugs = packStates.filter(p => p.completed).map(p => p.slug);
+
   // Turning the Page: the era of the History Timeline event the user is on.
   const historyEraReached = await historyEraOrder(user?.historyProgress?.slug);
 
@@ -188,6 +200,8 @@ export async function buildAchievementStats(userId, user = null) {
     totalCheckins: allCheckins.length,
     artCount,
     historyEraReached,
+    openedPackSlugs,
+    completedPackSlugs,
     areaGuidesRead: (user?.areaGuidesRead || []).length,
     unlockDayMax: Math.max(0, ...Object.values(unlockDays)),
     unlockToday: unlockDays[pragueDayHour(new Date()).day] || 0,

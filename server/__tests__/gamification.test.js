@@ -1,4 +1,5 @@
-import { calculateLevel, evaluateAchievements, ACHIEVEMENTS, saintOf, LEVELS, huntStep, huntXp, huntReading, HUNT_MULTIPLIERS } from '../src/services/gamification.js';
+import { calculateLevel, evaluateAchievements, ACHIEVEMENTS, saintOf, LEVELS, huntStep, huntXp, huntReading, HUNT_MULTIPLIERS, STREET_PACK_SLUGS } from '../src/services/gamification.js';
+import { PACKS } from '../src/data/packs.js';
 
 describe('calculateLevel', () => {
   describe('level thresholds', () => {
@@ -679,5 +680,28 @@ describe('huntReading', () => {
     expect(huntReading(999)).toEqual({ band: [500, 1000] });
     expect(huntReading(400)).toEqual({ band: [300, 500] });
     expect(huntReading(50)).toEqual({ within: 300 });
+  });
+});
+
+describe('card pack achievements', () => {
+  const unlocks = (stats) => evaluateAchievements(stats, []).map((a) => a.id);
+  const base = { totalCheckins: 0, presetCheckins: 0, totalLocations: 150, labelCount: {}, checkedSlugs: [], openedPackSlugs: [], completedPackSlugs: [] };
+
+  test('Hitting the Streets lists every street pack, so a new one is not forgotten', () => {
+    const streets = PACKS.filter((p) => p.labels.includes('street')).map((p) => p.slug).sort();
+    expect([...STREET_PACK_SLUGS].sort()).toEqual(streets);
+  });
+
+  test('counts opened and completed packs', () => {
+    expect(unlocks({ ...base, completedPackSlugs: ['kampa-island'], openedPackSlugs: ['kampa-island'] })).toContain('full_set');
+    const ten = PACKS.slice(0, 10).map((p) => p.slug);
+    expect(unlocks({ ...base, openedPackSlugs: ten })).toContain('pack_rat');
+    expect(unlocks({ ...base, openedPackSlugs: ten.slice(0, 9) })).not.toContain('pack_rat');
+    expect(unlocks({ ...base, completedPackSlugs: ten.slice(0, 5), openedPackSlugs: ten })).toContain('collectors_album');
+  });
+
+  test('Hitting the Streets needs four street packs, not any four packs', () => {
+    expect(unlocks({ ...base, completedPackSlugs: STREET_PACK_SLUGS.slice(0, 4) })).toContain('hitting_the_streets');
+    expect(unlocks({ ...base, completedPackSlugs: [...STREET_PACK_SLUGS.slice(0, 3), 'kampa-island'] })).not.toContain('hitting_the_streets');
   });
 });

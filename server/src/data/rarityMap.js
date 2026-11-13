@@ -258,6 +258,8 @@ export const SLUG_RARITY = {
   'libensky-zamek-radnice':       'rare',  // Renaissance chateau, 1608 Peace of Libeň, now town hall
 
   // ── Holešovice / Letná batch (2026-07) ───────────────────────────────────
+  'stvanice':                     'rare',  // Štvanice island: baiting arena to 1816, tennis since 1901, 1932 winter stadium (2026-11-13)
+  'dum-maribor':                  'rare',  // Vaněk seed company, 1911-12 Art Nouveau by Králíček (2026-11-13)
   'kostel-sv-klimenta-bubny':     'epic',  // oldest surviving building in Holešovice, dates to 1234
   'maly-berlin':                  'epic',  // "Little Berlin" housing block, dark WWII/communist history
   'letensky-profil':              'epic',  // protected geological outcrop, ~460-million-year-old trilobite fossils

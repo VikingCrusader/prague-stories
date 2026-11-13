@@ -273,16 +273,20 @@ export const PACKS = [
     localizedNames: { cz: 'Karlín', zh: '卡林' },
     foil: '#5a6b2a',
     labels: ['contemporary', 'historicism', 'factory', 'national-revival'],
-    // The whole katastrální území, flat and walkable from Florenc to Invalidovna
-    // (2026-11-10, user's call). The slug was held by the Futurama Business Park
-    // card, renamed `futurama-business-park` so the pack could take it.
+    // The katastrální území without Rohan Island, flat and walkable from Florenc
+    // to Invalidovna (2026-11-10, user's call). The slug was held by the Futurama
+    // Business Park card, renamed `futurama-business-park` so the pack could take
+    // it. The ten Rohan Island cards (River City and the rest) left on 2026-11-12,
+    // user's call: they are in the Rohan and Libeň Islands pack, and the text says so.
+    // The western tip by Těšnov (Těšnov Park, the Hilton, Diamond Point and the
+    // retired Florenc card) left on 2026-11-13 for the Florenc pack, user's call;
+    // the text says so.
     members: [
-      'park-tesnov', 'florenc', 'diamond-point-1783752450170', 'hilton-prague', 'hudebni-divadlo-karlin', 'negrelliho-viadukt',
-      'karlinska-kasarna', 'karlinska-synagoga', 'church-st-cyril-methodius-karlin', 'danube-house', 'main-point-karlin',
-      'nile-house', 'amazon-court', 'river-diamond', 'river-city-praha', 'rohan-business-center', 'corso-karln-1782667255750',
-      'palac-karlin', 'river-garden-office', 'forum-karlin', 'afi-karlin-butterfly', 'lyckovo-namesti-inteligence',
+      'hudebni-divadlo-karlin', 'negrelliho-viadukt',
+      'karlinska-kasarna', 'karlinska-synagoga', 'church-st-cyril-methodius-karlin', 'main-point-karlin',
+      'corso-karln-1782667255750', 'palac-karlin', 'forum-karlin', 'afi-karlin-butterfly', 'lyckovo-namesti-inteligence',
       'zakladni-skola-lyckovo-namesti', 'cesky-rozhlas-stredni-cechy', 'invalidovna-1782562891060', 'futurama-business-park',
-      'lilith-david-cerny', 'brana-na-rohansky-ostrov', 'hotel-olympik', 'celnice-severozapadni-drahy', 'rohansky-ostrov',
+      'lilith-david-cerny', 'hotel-olympik',
     ],
   }),
   pack({
@@ -320,6 +324,63 @@ export const PACKS = [
       'schirdingovsky-palac', 'pamatnik-sametove-revoluce', 'palac-louvre', 'palac-metro', 'obchodni-dum-maj',
       'galerie-vaclava-spaly', 'palac-chicago', 'palac-platyz', 'dum-umeleckeho-prumyslu', 'palac-porgesu-z-portheimu',
       'palac-adria',
+    ],
+  }),
+  pack({
+    slug: 'holesovice',
+    released: '2026-11-12T22:00:00+01:00',
+    name: 'Holešovice',
+    localizedNames: { cz: 'Holešovice', zh: '霍莱绍维采' },
+    foil: '#a63d2f',
+    labels: ['factory', 'contemporary', 'cultural', 'art-nouveau'],
+    // Only the old industrial Holešovice: the factories, the slaughterhouse halls, the
+    // port, the power plant and what the artists and offices made of them (2026-11-12,
+    // user's call). Letná and Bubny are in the Holešovice cadastral area but are not
+    // in this pack (they have their own), and the text says so. The Hlávka Bridge is
+    // here because it was built for the slaughterhouse; the hydroelectric station
+    // stands on Štvanice island.
+    members: [
+      'holesovicky-pivovar', 'holesovicka-trznice', 'rockopera-praha', 'chemistry-gallery', 'artwise-the-wall',
+      'trafo-gallery', 'art-gen-holesovice', 'visionary-holesovice', 'cross-club', 'la-fabrika', 'delnicka-ulice',
+      'komunardu-xxxv', 'dox-centre', 'hasicska-stanice-holesovice', 'akciove-parni-mlyny', 'holesovice-docks',
+      'lighthouse-tower-holesovice', 'teplarna-holesovice', 'vodni-elektrarna-stvanice', 'hlavkuv-most',
+      'humanita-jan-stursa', 'stvanice', 'tokovo', 'masarykovy-skoly-holesovice', 'dum-maribor',
+    ],
+  }),
+  pack({
+    slug: 'bubny',
+    released: '2026-11-12T22:00:00+01:00',
+    name: 'Bubny',
+    localizedNames: { cz: 'Bubny', zh: '布布尼' },
+    foil: '#6a5d78',
+    labels: ['world-wars', 'jewish', 'transport', 'functionalism'],
+    // The old village and the rail yard (2026-11-12, user's call): from the church of
+    // St. Clement and Strossmayerovo náměstí (the old Bubenské náměstí) across Bubenská
+    // to Praha-Bubny station, the Gate of No Return and the yard's northern end.
+    // Not in the Holešovice pack, which is the old industrial part only.
+    members: [
+      'kostel-sv-klimenta-bubny', 'anthony', 'euspa-praha', 'delnicka-urazova-pojistovna', 'wpp-praha-bubenska',
+      'veletrzni-palace', 'mama-shelter-praha', 'policejni-prezidium-cr', 'maly-berlin', 'praha-bubny-station',
+      'brana-nenavratna', 'praha-holesovice-nadrazi',
+    ],
+  }),
+  pack({
+    slug: 'florenc',
+    released: '2026-11-13T14:10:00+01:00',
+    name: 'Florenc',
+    localizedNames: { cz: 'Florenc', zh: '弗洛伦茨' },
+    foil: '#2f5d8a',
+    labels: ['transport', 'municipal', 'contemporary', 'communism'],
+    // Florenc on both sides of the flyover (2026-11-13, user's call): Na Florenci
+    // with Masaryk Station, the bus station and the museum on the New Town side,
+    // the Těšnov embankment with its two interwar ministries, and Karlín's western
+    // tip, which left the Karlín pack. The Musical Theatre and the Negrelli Viaduct
+    // stay in Karlín. Took over the one-point Florenc card's slug and cover; a new card
+    // for the metro station and its clock now stands at that card's spot.
+    members: [
+      'masarykovo-nadrazi', 'masarycka-building', 'city-of-prague-museum', 'florenc-bus-terminal', 'severojizni-magistrala',
+      'park-tesnov', 'ministry-of-agriculture-building-1783752679810', 'building-of-ministry-of-transport-1782931759410',
+      'hilton-prague', 'diamond-point-1783752450170', 'stanice-metra-florenc', 'florentinum', 'hotel-opera-tesnov',
     ],
   }),
 ];

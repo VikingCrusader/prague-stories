@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import LocationDetail from '../locations/LocationDetail';
+import PackDetail from '../packs/PackDetail';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { quarterName } from '../../utils/pragueQuarters';
@@ -20,6 +21,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
   const text = field => convert(achField(ach, field, lang));
   const p = ach.progress;
   const [openSlug, setOpenSlug] = useState(null);
+  const [openPack, setOpenPack] = useState(null);
   const pct = p ? Math.min(100, Math.round((p.current / p.target) * 100)) : 0;
   // A label or rarity leads to the Explore cards it counts; no underline (user's call).
   const toExplore = (filter, content, className = '') => (
@@ -138,6 +140,19 @@ export default function AchievementModal({ achievement: ach, onClose }) {
                 {renderPlaces(g.places)}
               </div>
             ))}
+            {p.packs && (
+              <div>
+                <div className="ach-modal__sublabel" style={{ marginTop: 10 }}>{t('ach.pickNPacks', { n: p.packs.need })}</div>
+                <ul className="ach-places">
+                  {p.packs.items.map(pk => (
+                    <li key={pk.slug} className={`ach-places__item${pk.done ? ' ach-places__item--done' : ''}`}>
+                      <span className="ach-places__mark" aria-hidden="true">{pk.done ? '✓' : '○'}</span>
+                      <button type="button" className="ach-places__open" onClick={() => setOpenPack(pk.slug)}>{convert(getLocName(pk, lang))}</button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             {p.rarities && (
               <ul className="ach-places ach-places--rarities">
                 {p.rarities.map(r => (
@@ -184,6 +199,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
     </div>
     {/* After the overlay and on its level, so on top of it. */}
     {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
+    {openPack && <PackDetail slug={openPack} onClose={() => setOpenPack(null)} />}
     </>
   );
 }

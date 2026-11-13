@@ -31490,41 +31490,6 @@ Od té doby se město přou, co s ní. Studie dánského urbanisty Jana Gehla, s
     },
   },
   {
-    name: 'Florenc',
-    slug: 'florenc',
-    localizedNames: { cz: 'Florenc', zh: '弗洛伦茨' },
-    labels: ['transport', 'national-revival'],
-    district: 'Praha 8',
-    quarter: 'Karlín',
-    coordinates: { lat: 50.0909471251954, lng: 14.438962712212977 },
-    rarity: 'common',
-    xpReward: 10,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Florenc',
-    description: {
-      en: `Florenc is the bit of Prague where the New Town turns into Karlín, a knot of bus platforms, metro escalators, tram stops and a flyover. Nothing about it looks Italian, yet it is named after Florence, and nobody can say exactly where it begins or ends.
-
-The name appears in the 15th century. It most likely goes back to Charles IV's founding of the New Town in 1348, when Italians from Florence and Venice were allowed to settle here. At first it seems to have meant the area around today's Na Florenci Street, but over time it spread to Těšnov and part of Karlín, and it has never been an official district. In the 19th century Florenc became Prague's railway doorstep: the Northern State Railway ran through from 1845, and from 1875 the Northwestern Railway's Těšnov station stood here, until its last train left on 1 July 1972 and the building was blown up in 1985. Workers walked through Florenc every day from the Old and New Towns to the factories of Karlín.
-
-The modern Florenc grew up around transport. The metro arrived in 1974 with a station first called Sokolovská; line B ended here from 1985, and only in 1990 was the station renamed Florenc. Next door is the central bus station. In August 2002 the Vltava flood poured into the area and the metro, and several houses in nearby Karlín collapsed.
-
-🎁 Bonus: Florenc has its own film. "Florenc 13.30", a 1957 comedy by Josef Mach with a young Jiřina Bohdalová, follows the passengers of a bus from Prague to Karlovy Vary, and its title is simply the departure time, so it also shows what the bus station looked like in the 1950s. Strictly speaking the noun is feminine in Czech, but Prague people have always treated it as masculine.`,
-      cz: `Florenc je ten kus Prahy, kde se Nové Město mění v Karlín, uzel autobusových nástupišť, eskalátorů metra, tramvajových zastávek a estakády. Nic tu nevypadá italsky, a přece se jmenuje po Florencii, a nikdo přesně neví, kde začíná a kde končí.
-
-Jméno se objevuje v 15. století. Nejspíš sahá k založení Nového Města Karlem IV. roku 1348, kdy se tu směli usadit Italové z Florencie a Benátek. Zprvu zřejmě označovalo okolí dnešní ulice Na Florenci, časem se ale rozlezlo i na Těšnov a část Karlína a samostatnou čtvrtí nikdy nebylo. V 19. století se Florenc stala železničním zápražím Prahy: od roku 1845 tudy jezdila Severní státní dráha a od roku 1875 tu stálo Těšnovské nádraží Severozápadní dráhy, dokud z něj 1. července 1972 neodjel poslední vlak a budova nebyla roku 1985 odstřelena. Dělníci přes Florenc denně chodili ze Starého a Nového Města do karlínských továren.
-
-Dnešní Florenc vyrostla kolem dopravy. Metro sem dorazilo roku 1974 se stanicí, která se nejdřív jmenovala Sokolovská; od roku 1985 tu končila linka B a teprve roku 1990 dostala stanice jméno Florenc. Hned vedle je ústřední autobusové nádraží. V srpnu 2002 se sem i do metra vlila povodeň a v nedalekém Karlíně se zřítilo několik domů.
-
-🎁 Bonus: Florenc má i svůj film. Komedie Josefa Macha Florenc 13,30 z roku 1957, s mladou Jiřinou Bohdalovou, sleduje cestující autobusu z Prahy do Karlových Varů a její název je prostě čas odjezdu, takže ukazuje i to, jak autobusové nádraží vypadalo v 50. letech. Spisovně je to slovo ženského rodu, ale Pražané s ním odjakživa zacházejí jako s mužským.`,
-      zh: `弗洛伦茨是布拉格新城过渡到卡林的那一段，长途汽车站台、地铁扶梯、电车站和高架桥全都缠在一起。这里没有一处看着像意大利，可它偏偏是以佛罗伦萨命名的，而且谁也说不清它从哪儿开始、到哪儿结束。
-
-这个名字最早出现在15世纪，很可能要追溯到1348年查理四世建立新城的时候，当时来自佛罗伦萨和威尼斯的意大利人获准在这里定居。起初它大概只指今天“在弗洛伦茨”街一带，后来慢慢扩展到泰什诺夫和卡林的一部分，却从来不是一个正式的城区。19世纪，弗洛伦茨成了布拉格的铁路门户：1845年起北方国有铁路从这里经过，1875年起西北铁路的泰什诺夫火车站就立在这里，直到1972年7月1日最后一班火车开走，1985年车站被炸毁。那些年里，工人们每天从老城和新城穿过弗洛伦茨，走到卡林的工厂上班。
-
-今天的弗洛伦茨是围着交通长起来的。地铁1974年通到这里，车站最初叫索科洛夫斯卡；1985年起这里是B线的终点，直到1990年车站才改名叫弗洛伦茨。旁边就是中央长途汽车站。2002年8月，伏尔塔瓦河的洪水灌进了这一带和地铁，附近的卡林还有几栋房子塌了。
-
-🎁 彩蛋：弗洛伦茨还有一部以它命名的电影。1957年约瑟夫·马赫导演的喜剧《弗洛伦茨13:30》，讲的是一辆从布拉格开往卡罗维发利的大巴上的乘客们，年轻的伊日娜·博赫达洛娃也在里面。片名就是发车时间，所以它也留下了50年代长途汽车站的模样。按捷克语规范，这个词其实是阴性的，可布拉格人一直都把它当阳性用。`,
-    },
-  },
-  {
     name: 'Slavonic House Garden',
     slug: 'zahrada-slovanskeho-domu',
     localizedNames: { cz: 'Zahrada Slovanského domu', zh: '斯拉夫大厦花园' },
@@ -36663,6 +36628,290 @@ Jaroslav Hašek znal Čtyřku zevnitř. V prosinci 1914, kdy válka teprve zača
 雅罗斯拉夫·哈谢克是从里面认识“四号”的。1914年12月，战争刚刚打响，他开玩笑用一个俄国名字住进布拉格一家旅馆，结果被关了五天。几年后，他把帅克也送进了警察总局，书里那些官员的狂热劲儿，跟哈谢克记忆中的一模一样。这栋楼至今仍归警方使用。
 
 🎁 彩蛋：1898年，警察想拆掉院子里的哥特式塔楼，理由是它挡住了牢房窗户的空气。老布拉格的文物保护人士跟他们打起了官司，而且打赢了，1903年塔楼按安东宁·维尔的设计得到修复。这是“四号”唯一一次在“谁有资格留在里面”这个问题上输掉的争论。`,
+    },
+  },
+  {
+    // Added 2026-11-13 for the Holešovice pack (coordinates user-supplied).
+    // Facts: cs.wikipedia "Štvanice (ostrov)" (baiting arena from the late 17th
+    // century to 1816, Averino's varieté 1877, ice houses 1883, I. ČLTK 1901,
+    // tennis complex 1986, 1.25 km, cadastrally Holešovice, ferry 2015-2023
+    // mostly carrying dogs) and "Zimní stadión Štvanice" (Josef Fuchs, opened
+    // 6 Nov 1932, first artificial rink in Czechoslovakia, world championships
+    // 1933/1938/1947/1959, first title 1947, monument 2000, demolished 2011).
+    name: 'Štvanice Island',
+    slug: 'stvanice',
+    localizedNames: { cz: 'Ostrov Štvanice', zh: '施特万尼采岛' },
+    labels: ['park', 'waterbody'],
+    district: 'Praha 7',
+    quarter: 'Holešovice',
+    coordinates: { lat: 50.096806164441475, lng: 14.447794625726633 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%A0tvanice_(ostrov)',
+    description: {
+      en: `Štvanice is a long, flat island in the Vltava between Karlín and Holešovice, and its name is not a friendly one: it means a baiting, as in setting dogs on animals for an audience. Today the island belongs to tennis players, skateboarders and dog walkers instead, which is an improvement for everyone, the bears most of all.
+
+At the end of the 17th century a wooden arena stood here, where dogs were set on bears, bulls and deer for paying spectators. The show was banned again and again and only ended for good in 1816. The 19th century turned the island into a place for fun: a variety theatre opened in 1877, ice houses stored blocks cut from the frozen river, and three restaurants competed for the crowds. In 1901 the First Czech Lawn Tennis Club moved here, and Štvanice has been Prague's tennis island ever since. Today's tennis complex dates from 1986 and has hosted ATP and WTA tournaments. The island is 1.25 kilometres long and officially part of Holešovice, though it once belonged to Karlín, and both the Negrelli Viaduct and Hlávka Bridge cross it.
+
+Its most famous building is gone. The winter stadium by Josef Fuchs, opened in 1932, was the first artificial ice rink in Czechoslovakia. It hosted four ice hockey world championships, and in 1947 the Czechoslovak team won its first world title here. Later decades were less kind: one section after another closed as it became unsafe, a long fight over the lease ended in court, and in 2011 the stadium, a protected monument since 2000, was torn down despite protests. A bike park now stands on the site, next to a skatepark counted among the best in Europe.
+
+🎁 Bonus: From 2015 to 2023 a seasonal ferry carried people to the island, and it became the second-busiest ferry in Prague. By the operator's count most of its passengers were dogs, which makes them the first animals in three centuries to come to Štvanice and actually enjoy it.`,
+      cz: `Štvanice je dlouhý plochý ostrov na Vltavě mezi Karlínem a Holešovicemi a její jméno moc přátelsky nezní: štvanice je přece honění zvěře psy pro pobavení publika. Dnes ostrov patří tenistům, skateboardistům a pejskařům, což je zlepšení pro všechny, a pro medvědy nejvíc.
+
+Koncem 17. století tu stála dřevěná aréna, kde se pro platící diváky štvali psy na medvědy, býky a jeleny. Podívaná byla znovu a znovu zakazována a definitivně skončila až roku 1816. Devatenácté století z ostrova udělalo místo zábavy: roku 1877 tu bylo otevřeno varieté, v ledárnách se skladovaly bloky ledu vyřezané ze zamrzlé řeky a o hosty soupeřily tři restaurace. Roku 1901 se sem přestěhoval I. Český Lawn-Tenisový Klub a Štvanice je od té doby pražským tenisovým ostrovem. Dnešní tenisový areál pochází z roku 1986 a hostil turnaje ATP i WTA. Ostrov je dlouhý 1,25 kilometru a katastrálně patří k Holešovicím, i když původně náležel ke Karlínu, a přes něj vede Negrelliho viadukt i Hlávkův most.
+
+Jeho nejslavnější stavba už nestojí. Zimní stadion Josefa Fuchse, otevřený roku 1932, byl první umělou ledovou plochou v Československu. Hostil čtvery mistrovství světa v ledním hokeji a roku 1947 tu československý tým získal svůj první titul mistrů světa. Další desetiletí byla méně laskavá: jedna část za druhou se zavírala jako nebezpečná, dlouhý spor o nájem skončil u soudu a roku 2011 byl stadion, kulturní památka od roku 2000, přes protesty zbořen. Na jeho místě je dnes bikepark a vedle něj skatepark, který patří k nejlepším v Evropě.
+
+🎁 Bonus: V letech 2015 až 2023 sem jezdil sezonní přívoz a stal se druhým nejvytíženějším přívozem v Praze. Podle sčítání tvořili většinu jeho cestujících psi, takže jsou to po třech stoletích první zvířata, která na Štvanici jezdila ráda.`,
+      zh: `施特万尼采是伏尔塔瓦河上卡林和霍莱绍维采之间一座狭长平坦的小岛。它的名字可不太友好：意思是“纵犬斗兽”，也就是放狗追咬动物给观众看。如今岛上是网球手、玩滑板的人和遛狗的人的地盘，对谁都是进步，对熊来说尤其如此。
+
+17世纪末，这里立着一座木头竞技场，观众买票进场，看狗去围攻熊、公牛和鹿。这种表演一禁再禁，直到1816年才彻底停止。19世纪把小岛变成了游乐的地方：1877年开了一家杂耍剧场，冰窖里储存着从封冻的河面上切下的冰块，三家餐馆抢着招揽客人。1901年，捷克第一草地网球俱乐部搬到岛上，从那以后，施特万尼采就是布拉格的网球岛。今天的网球中心建于1986年，办过ATP和WTA的比赛。小岛长1.25公里，在地籍上属于霍莱绍维采，不过最早归卡林所有，内格雷利高架桥和赫拉夫卡桥都从岛上经过。
+
+岛上最有名的建筑已经不在了。约瑟夫·福克斯设计的冬季体育场1932年启用，是捷克斯洛伐克第一座人工冰场，办过四届冰球世锦赛；1947年，捷克斯洛伐克队就在这里拿到了第一个世界冠军。后来的几十年就没那么好过了：场馆一块接一块因为不安全被关闭，一场旷日持久的租约官司打到法院，2011年，这座自2000年起就列为文物的体育场不顾抗议被拆掉。原址上如今是一片山地自行车场，旁边的滑板公园被认为是欧洲最好的之一。
+
+🎁 彩蛋：2015年到2023年，有一条季节性渡船通往小岛，成了布拉格第二繁忙的渡船。据统计，乘客里大多数是狗。这样算来，它们是三百年来头一批来施特万尼采还玩得挺开心的动物。`,
+    },
+  },
+  {
+    // Added 2026-11-13 for the Holešovice pack (coordinates user-supplied).
+    // Facts: cs.wikipedia "Budova TOKOVO" (1974-1977, 68 m, 19 storeys, 2004
+    // rebuild, former NKÚ seat) and "Urbanisticko-architektonický vývoj
+    // Holešovic" (palác Kovo, dnes Tokovo, Zdeněk Edel); prazskekasny.cz (Edel,
+    // Matyáš, Štefek of KPÚ Praha; four-tube fountain until 2003); czumalo
+    // blog (PZO monopoly, Motokov and Koospol by the same team, CMC architects
+    // rebuild by Máslo and Chisholm, a former employee's memory of the bidets).
+    // NKÚ at Jankovcova 1518/2 from 2007 (nku.cz).
+    name: 'Tokovo (former Kovo Palace)',
+    slug: 'tokovo',
+    localizedNames: { cz: 'Tokovo (bývalý palác Kovo)', zh: 'Tokovo大楼（原Kovo外贸大楼）' },
+    labels: ['contemporary', 'communism'],
+    district: 'Praha 7',
+    quarter: 'Holešovice',
+    coordinates: { lat: 50.103789463317845, lng: 14.456863220431867 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Budova_TOKOVO',
+    description: {
+      en: `Tokovo is a 68-metre office tower at the Holešovice end of Libeň Bridge, and it started out with a job few buildings ever had: it was a palace of foreign trade, in a country where nobody but the state was allowed to trade abroad. Its name today is the old one, Kovo, with two letters in front.
+
+It was built in 1974 to 1977 for PZO Kovo, one of the foreign-trade enterprises that held the state monopoly on trade with the outside world under socialism. The architects were Zdeněk Edel, Josef Matyáš and Luděk Štefek of the regional design institute, the same team behind the Motokov tower in Pankrác and the Koospol building in Vokovice. Foreign-trade companies were given prestige headquarters meant to impress partners from the West, and this one, nineteen storeys high, stood well apart from the everyday Prague of the Husák years. In front of the entrance stood a fountain of four giant metal tubes lit by spotlights, until it was removed in 2003.
+
+After 2000 the tower was thoroughly rebuilt to designs by Vít Máslo and David R. Chisholm of CMC architects, with a large reconstruction finished around 2004 that gave it its present smooth commercial look; some critics missed the haughty character of the original. From 2007 it was the seat of the Supreme Audit Office, the institution that checks how the state spends its money. Today it is an office building, standing beside the Lighthouse Towers at the edge of the old Holešovice port.
+
+🎁 Bonus: A woman who worked here from 1977 to 1982 later remembered what impressed her most about the new building: air conditioning, modern kitchenettes and a bidet in every toilet. In 1970s Czechoslovakia, that was what the future looked like.`,
+      cz: `Tokovo je 68 metrů vysoká kancelářská budova u holešovického předmostí Libeňského mostu a začínala s úkolem, jaký má málokterá stavba: byla palácem zahraničního obchodu v zemi, kde se zahraničním obchodem nesměl zabývat nikdo kromě státu. Její dnešní jméno je to staré, Kovo, se dvěma písmeny navíc.
+
+Postavena byla v letech 1974 až 1977 pro PZO Kovo, jeden z podniků zahraničního obchodu, které za socialismu držely státní monopol na obchod s cizinou. Navrhli ji Zdeněk Edel, Josef Matyáš a Luděk Štefek z Krajského projektového ústavu Praha, tedy tentýž tým, který stojí za budovou Motokovu na Pankráci a Koospolu ve Vokovicích. Podniky zahraničního obchodu dostávaly reprezentativní sídla, která měla udělat dojem na partnery ze Západu, a tahle devatenáctipodlažní budova stála hodně stranou všedního života husákovské Prahy. Před vchodem stála fontána ze čtyř obřích kovových tubusů nasvícených reflektory, dokud ji roku 2003 neodstranili.
+
+Po roce 2000 byla budova důkladně přestavěna podle návrhu Víta Másla a Davida R. Chisholma z CMC architects; velká rekonstrukce dokončená kolem roku 2004 jí dala dnešní uhlazenou komerční podobu a někteří kritici litovali ztráty zpupného charakteru originálu. Od roku 2007 tu sídlil Nejvyšší kontrolní úřad, tedy instituce, která kontroluje, jak stát hospodaří se svými penězi. Dnes je to kancelářská budova vedle věží Lighthouse na okraji starého holešovického přístavu.
+
+🎁 Bonus: Žena, která tu pracovala v letech 1977 až 1982, později vzpomínala, co ji na nové budově nejvíc ohromilo: klimatizace, moderní kuchyňky a bidet na každém záchodě. V Československu sedmdesátých let takhle vypadala budoucnost.`,
+      zh: `Tokovo是利本桥霍莱绍维采桥头的一座68米高的写字楼。它最初的差事，很少有楼干过：它是一座外贸大楼，而在当时的这个国家，除了国家本身，谁都不许跟外国做生意。它今天的名字就是老名字Kovo，前面多加了两个字母。
+
+大楼建于1974年到1977年，主人是Kovo外贸公司。社会主义时期，几家外贸企业垄断着国家同外国的全部贸易，Kovo就是其中之一。设计者是州设计院的兹德涅克·埃德尔、约瑟夫·马蒂亚什和卢杰克·什特费克，潘克拉茨的Motokov大楼和沃科维采的Koospol大楼也出自这个团队。外贸企业都分到了气派的总部，好让西方来的合作伙伴刮目相看；这座19层的大楼，和胡萨克时代布拉格的日常生活离得很远。入口前原有一座喷泉，四根巨大的金属圆筒在探照灯下发光，2003年被拆掉了。
+
+2000年以后，大楼按CMC建筑事务所维特·马斯洛和大卫·R·奇泽姆的设计彻底改造，大约在2004年完工，换上了今天这副光滑的商务面孔，也有评论家惋惜原来那股傲气没了。2007年起，最高审计署把总部设在这里，这个机构的工作是检查国家怎么花钱。如今它是一座写字楼，立在灯塔大楼旁边，就在霍莱绍维采老港口的边上。
+
+🎁 彩蛋：一位1977年到1982年在这里上班的女士后来回忆，新大楼最让她吃惊的是：空调、现代化的小厨房，还有每个卫生间都配了坐浴盆。在1970年代的捷克斯洛伐克，未来就长这个样子。`,
+    },
+  },
+  {
+    // Added 2026-11-13 for the Holešovice pack (coordinates user-supplied).
+    // Facts: cs.wikipedia "Urbanisticko-architektonický vývoj Holešovic"
+    // (Masaryk schools, art deco, Vratislav Lhota and Vladislav Martínek; no
+    // year given, so the text says only "between the wars"; Mahler's 1889
+    // spinning mill and Richter's mill, now Česká pošta) and "Ortenovo
+    // náměstí" (names 1903-1991, Uranie theatre 1903-1946, ZŠ T. G. Masaryka).
+    // Orten's death: hit by a German ambulance on 30 Aug 1941, refused by a
+    // hospital as a Jew, died 1 Sep (cs.wikipedia "Jiří Orten").
+    name: 'Masaryk Schools (Ortenovo náměstí)',
+    slug: 'masarykovy-skoly-holesovice',
+    localizedNames: { cz: 'Masarykovy školy (Ortenovo náměstí)', zh: '马萨里克学校（奥尔滕广场）' },
+    labels: ['academy', 'square'],
+    district: 'Praha 7',
+    quarter: 'Holešovice',
+    coordinates: { lat: 50.10830862386856, lng: 14.448499356553894 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ortenovo_n%C3%A1m%C4%9Bst%C3%AD',
+    description: {
+      en: `The Masaryk Schools are the big building that dominates Ortenovo náměstí in lower Holešovice, with a large playground beside it and a park in front. It is still a primary school, and it has outlasted every name the square around it has been given, which takes some doing.
+
+The schools were designed by Vratislav Lhota and Vladislav Martínek between the wars in the Art Deco style, and like many schools of the First Republic they carry the name of President T. G. Masaryk. Today the building houses the T. G. Masaryk Primary School. On the north side of the square stand two old spinning mills, Leopold Mahler's of 1889 with its cast-iron columns and a younger four-storey one with a corner tower, both now used by the Czech Post, a reminder that this was an industrial quarter before it was a school district.
+
+The square itself has had six names. From 1903 it was U Uranie, after the wooden Uranie People's Theatre that stood on its east side until after the Second World War. It became Holešovické náměstí in 1925, Myslbekovo náměstí under the German occupation, Holešovické again in 1945, and in 1948 Dimitrovovo, after the Bulgarian communist leader. Since 1991 it has been named after the poet Jiří Orten, a young Jewish writer from Kutná Hora who was hit by a German ambulance in Prague in August 1941, was turned away by the first hospital because he was a Jew, and died two days later, aged 22.
+
+🎁 Bonus: A theatre, the district, a sculptor, the district again, a communist leader and finally a poet: the square has tried on almost every kind of name there is. The school next to it just kept teaching.`,
+      cz: `Masarykovy školy jsou mohutná budova, která dominuje Ortenovu náměstí v dolních Holešovicích, s velkým hřištěm vedle a parkem před sebou. Pořád je to základní škola a přežila všechna jména, která náměstí kolem ní kdy dostalo, což dá dost práce.
+
+Školy navrhli mezi válkami Vratislav Lhota a Vladislav Martínek ve stylu art deco a stejně jako mnoho škol první republiky nesou jméno prezidenta T. G. Masaryka. Dnes v budově sídlí Základní škola T. G. Masaryka. Severní stranu náměstí uzavírají dvě staré přádelny, Mahlerova z roku 1889 s litinovými sloupy a mladší čtyřpodlažní s nárožní věží, obě dnes využívá Česká pošta. Připomínají, že tohle byla průmyslová čtvrť dřív, než se stala školní.
+
+Samo náměstí mělo šest jmen. Od roku 1903 se jmenovalo U Uranie podle dřevěného Lidového divadla Uranie, které stálo na jeho východní straně až do doby po druhé světové válce. Roku 1925 se z něj stalo Holešovické náměstí, za okupace Myslbekovo náměstí, roku 1945 znovu Holešovické a roku 1948 Dimitrovovo, po bulharském komunistickém vůdci. Od roku 1991 nese jméno básníka Jiřího Ortena, mladého židovského autora z Kutné Hory, kterého v srpnu 1941 v Praze srazila německá sanitka, první nemocnice ho jako Žida odmítla a o dva dny později zemřel ve dvaadvaceti letech.
+
+🎁 Bonus: Divadlo, čtvrť, sochař, znovu čtvrť, komunistický vůdce a nakonec básník: náměstí vyzkoušelo skoro všechny druhy jmen, jaké existují. Škola vedle něj prostě dál učila.`,
+      zh: `马萨里克学校是霍莱绍维采下城奥尔滕广场上最显眼的那座大楼，旁边是一大片操场，前面是公园。它到今天还是一所小学，而且熬过了周围这座广场换过的每一个名字，这可不容易。
+
+学校由弗拉季斯拉夫·洛塔和弗拉迪斯拉夫·马尔蒂内克在两次大战之间设计，用的是装饰艺术风格；和第一共和国时期的许多学校一样，它以总统马萨里克命名，如今楼里是马萨里克小学。广场北侧立着两座老纺纱厂：一座是莱奥波德·马勒1889年建的，里面有铸铁柱子；另一座年轻些，四层高，转角有一座塔楼。两座厂房现在都归捷克邮政使用，提醒人们这里先是工业区，后来才成了学区。
+
+广场本身换过六个名字。1903年起，它叫“乌拉尼亚旁”，得名于广场东侧那座木结构的乌拉尼亚人民剧院，剧院一直开到二战以后。1925年改叫霍莱绍维采广场，德国占领期间叫米斯尔贝克广场，1945年又改回霍莱绍维采广场，1948年改名季米特洛夫广场，纪念那位保加利亚共产党领袖。1991年起，它以诗人伊日·奥尔滕命名。奥尔滕是出生于库特纳霍拉的年轻犹太作家，1941年8月在布拉格被一辆德国救护车撞倒，第一家医院因为他是犹太人拒收，两天后他去世，年仅22岁。
+
+🎁 彩蛋：一座剧院、一个城区、一位雕塑家、又是那个城区、一位共产党领袖，最后是一位诗人：这座广场几乎试遍了所有类型的名字。旁边的学校只管接着上课。`,
+    },
+  },
+  {
+    // Added 2026-11-13 for the Holešovice pack (coordinates user-supplied).
+    // Facts: cs.wikipedia "Dům Maribor" (Bubenské nábřeží 9, 1911-1912, Emil
+    // Králíček for Matěj Blecha's firm, stucco inscription, Babylonian-style
+    // masks, décor by Antonín Waigant, warehouse for 200 wagons, 50 staff here
+    // and 120 in all, returned to the heirs after 1989), "Jindřich Vaněk"
+    // (1869 Maribor - 15 Mar 1948, firm founded 1899 at U Zlaté husy, garden
+    // guide 1906-1931, nationalised 1948, Vyšehrad tomb) and "Emil Králíček".
+    name: 'Maribor House (Vaněk Seed Company)',
+    slug: 'dum-maribor',
+    localizedNames: { cz: 'Dům Maribor (Vaňkovo semenářství)', zh: '马里博尔楼（瓦涅克种子公司）' },
+    labels: ['art-nouveau', 'hidden-gem'],
+    district: 'Praha 7',
+    quarter: 'Holešovice',
+    coordinates: { lat: 50.09864577834498, lng: 14.442006129489005 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_Maribor',
+    description: {
+      en: `Maribor House on the Holešovice embankment is an office and shop building that has its old job written right across the front: a stucco sign announcing the seed company of Jindřich Vaněk. Seeds are about the smallest thing a business can sell. The façade selling them is anything but.
+
+It was built in 1911 and 1912 by the firm of Matěj Blecha, to a design by its chief architect Emil Králíček, the man who also gave Prague its famous Cubist lamp post. It is late Art Nouveau with a touch of the coming modern style: a central portal under a first-floor balcony, and stucco masks with Babylonian-looking details running along the façade and cornices. The house is named after Maribor, in today's Slovenia, where Vaněk was born. Behind it, on the north side of the plot, stood a warehouse of several storeys that could hold the contents of up to 200 railway wagons.
+
+Vaněk, born in 1869, founded his firm in 1899 in a house on Wenceslas Square and built it into one of the largest seed businesses in Austria-Hungary and then in Czechoslovakia, with up to 120 employees, about 50 of them here. From 1906 to 1931 he also published a gardening guide under his own name. After the communist takeover in February 1948 the firm was nationalised, and Vaněk died at home on 15 March of that year. After 1989 the house was returned to his heirs, who went back to selling seeds.
+
+🎁 Bonus: Vaněk's family tomb at Vyšehrad is topped with a statue of a mourning farmer holding seed in a cloth. Even in the cemetery, he stayed in the trade.`,
+      cz: `Dům Maribor na Bubenském nábřeží je obchodní a kancelářský dům, který má svou starou práci napsanou přímo na průčelí: štukový nápis hlásí semenářství Jindřicha Vaňka. Semínka jsou asi to nejmenší, co se dá prodávat. Fasáda, která je prodávala, malá rozhodně není.
+
+Postavila ho v letech 1911 a 1912 firma Matěje Blechy podle návrhu svého hlavního architekta Emila Králíčka, toho, který Praze dal i slavnou kubistickou lampu. Je to pozdní secese s náznaky nastupující moderny: střední portál pod balkonem v prvním patře a štukové maskarony s babylonsky vyhlížejícími detaily na fasádě a římsách. Dům nese jméno Mariboru v dnešním Slovinsku, kde se Vaněk narodil. Za ním, na severní straně pozemku, stál vícepodlažní sklad, do kterého se vešel náklad až dvou set železničních vagonů.
+
+Vaněk, narozený roku 1869, založil firmu roku 1899 v domě na Václavském náměstí a vybudoval z ní jedno z největších semenářství v Rakousku-Uhersku a pak v Československu, s až 120 zaměstnanci, z toho asi padesáti tady. V letech 1906 až 1931 vydával také Vaňkův zahradní rádce. Po komunistickém převratu v únoru 1948 byla firma znárodněna a Vaněk 15. března téhož roku zemřel doma. Po roce 1989 byl dům vrácen jeho dědicům, kteří se k prodeji semen vrátili.
+
+🎁 Bonus: Vaňkovu rodinnou hrobku na Vyšehradě zdobí socha truchlícího rolníka, který drží v šátku osivo. Ani na hřbitově od řemesla neodešel.`,
+      zh: `马里博尔楼是霍莱绍维采河岸上的一座商住两用楼，它当年是干什么的，就直接写在门面上：一行灰泥大字，宣告这里是金德里赫·瓦涅克的种子公司。种子大概是生意人能卖的最小的东西了，可卖种子的这座楼面一点也不小。
+
+大楼在1911年到1912年由马捷伊·布莱哈的建筑公司建造，设计者是公司的首席建筑师埃米尔·克拉利切克，布拉格那根有名的立体主义路灯也是他的作品。它是晚期新艺术风格，已经带上了一点即将到来的现代风格：中间的大门上方是二楼的阳台，立面和檐口上排着带有巴比伦风味细节的灰泥面具。大楼以瓦涅克的出生地、今天斯洛文尼亚的马里博尔命名。楼后地块的北侧原有一座多层仓库，能装下多达两百节火车车皮的货物。
+
+瓦涅克生于1869年，1899年在瓦茨拉夫广场的一栋楼里创办公司，把它做成了奥匈帝国、后来又是捷克斯洛伐克最大的种子公司之一，员工最多时有120人，其中约50人在这里。1906年到1931年，他还以自己的名字出版了一本园艺指南。1948年2月共产党上台后，公司被收归国有；同年3月15日，瓦涅克在家中去世。1989年以后，大楼归还给他的后人，他们又重新做起了种子生意。
+
+🎁 彩蛋：瓦涅克家族在维谢赫拉德的墓上立着一尊悲伤的农夫像，手里用布兜着种子。就算到了墓地，他也没改行。`,
+    },
+  },
+  {
+    // Added 2026-11-13 for the Florenc pack, at the coordinates of the retired
+    // one-point Florenc card (user's call). Facts: cs.wikipedia "Florenc (stanice
+    // metra)" (C 9 May 1974, B 2 Nov 1985, named Sokolovská until 21 Feb 1990,
+    // architect Vladimír Uhlíř, C 9.35 m and B 39 m deep, 2002 flood, two trains
+    // flooded and rebuilt in Plzeň), "Umělecká díla ve stanicích pražského metra"
+    // lines B and C (Svoboda's clock column 1985, removed for repair July 2020;
+    // Oplt and Ballardini's Battle of Sokolovo mosaic 1984), "Rudolf Svoboda
+    // (sochař)" (1924-1994, clock for Sokolovská station 1985); prazska.drbna.cz
+    // 3 Apr 2024 (clock restored in 2023, Jan Poš's Synapse planned).
+    name: 'Florenc Metro Station and Clock',
+    slug: 'stanice-metra-florenc',
+    localizedNames: { cz: 'Stanice metra Florenc a hodiny', zh: '弗洛伦茨地铁站与钟柱' },
+    labels: ['transport', 'sculpture', 'communism'],
+    district: 'Praha 8',
+    quarter: 'Karlín',
+    coordinates: { lat: 50.0909471251954, lng: 14.438962712212977 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Florenc_(stanice_metra)',
+    description: {
+      en: `Florenc metro station is where lines B and C cross, and outside its entrance stands a tall iron column with a clock, put there in 1985 so that nobody hurrying to a bus could say they didn't know the time. The station itself spent its first sixteen years under a different name.
+
+Line C arrived on 9 May 1974, in a shallow station only about nine metres below the street, designed by Vladimír Uhlíř and lined with marble and granite. It was called Sokolovská, after the street above, which was named after the 1943 battle of Sokolovo, where a Czechoslovak unit first fought alongside the Red Army; a mosaic of that battle by Oldřich Oplt and Sauro Ballardini, from 1984, still covers a wall of the underpass. Line B followed on 2 November 1985, 39 metres down, and ended here until 1990. On 21 February 1990, the day the line was extended, the station was renamed Florenc. In August 2002 the Vltava flood poured into it, and two trains that had been left inside had to be rebuilt in Plzeň.
+
+The clock column, officially the Vertical Sculpture of Time, is by the sculptor Rudolf Svoboda and was made for Sokolovská in 1985. Thirty-five years of weather were hard on it: in July 2020 it was taken down rusting, with water getting inside, and the city announced in 2024 that it had been restored the year before. A light installation by Jan Poš, Synapse, has been planned for the underpass between the station's two halls, meant to show the movement of passengers on its wall.
+
+🎁 Bonus: For a station named after a battle in Ukraine and then after an Italian city, Florenc has stayed remarkably calm about its identity. The clock outside has only ever had one job.`,
+      cz: `Stanice metra Florenc je místo, kde se kříží linky B a C, a před jejím vchodem stojí vysoký železný sloup s hodinami, postavený roku 1985, aby nikdo spěchající na autobus nemohl tvrdit, že nevěděl, kolik je hodin. Sama stanice přitom prvních šestnáct let nesla jiné jméno.
+
+Linka C sem dorazila 9. května 1974, do mělké stanice jen asi devět metrů pod ulicí, kterou navrhl Vladimír Uhlíř a obložil mramorem a žulou. Jmenovala se Sokolovská podle ulice nad ní, pojmenované po bitvě u Sokolova z roku 1943, v níž československá jednotka poprvé bojovala po boku Rudé armády; mozaika této bitvy od Oldřicha Oplta a Saura Ballardiniho z roku 1984 dodnes pokrývá stěnu podchodu. Linka B následovala 2. listopadu 1985, 39 metrů pod zemí, a až do roku 1990 tu končila. Dne 21. února 1990, v den prodloužení linky, byla stanice přejmenována na Florenc. V srpnu 2002 ji zaplavila povodeň a dvě soupravy, které v ní zůstaly, se musely přestavět v Plzni.
+
+Sloup s hodinami, oficiálně Vertikální plastika času, je dílem sochaře Rudolfa Svobody a vznikl pro stanici Sokolovská roku 1985. Pětatřicet let počasí se na něm podepsalo: v červenci 2020 byl demontován, rezavý a s vodou uvnitř, a město roku 2024 oznámilo, že se ho rok předtím podařilo opravit. Do podchodu mezi oběma vestibuly je plánována světelná instalace Jana Poše Synapse, která má na stěně zachycovat pohyb cestujících.
+
+🎁 Bonus: Na stanici pojmenovanou nejdřív po bitvě na Ukrajině a potom po italském městě je Florenc pozoruhodně klidná, co se identity týče. Hodiny venku měly vždycky jen jednu práci.`,
+      zh: `弗洛伦茨地铁站是地铁B线和C线交会的地方。站口外立着一根高高的铁柱，顶上有一座钟，是1985年立的，好让赶长途汽车的人没法推说不知道几点了。车站本身头十六年用的是另一个名字。
+
+C线在1974年5月9日通到这里，车站很浅，离地面只有九米左右，由弗拉迪米尔·乌赫利日设计，墙上铺着大理石和花岗岩。它当时叫索科洛夫斯卡，得名于上面那条街，而那条街又是为了纪念1943年的索科洛沃战役：捷克斯洛伐克部队第一次在那场战役中和红军并肩作战。地下通道的一面墙上，至今还留着奥尔德日赫·奥普尔特和绍罗·巴拉尔迪尼1984年创作的这场战役的马赛克壁画。B线在1985年11月2日通车，深达地下39米，到1990年为止一直以这里为终点。1990年2月21日，也就是B线延长通车的那天，车站改名为弗洛伦茨。2002年8月，伏尔塔瓦河的洪水灌进了车站，留在站里的两列车后来不得不送到比尔森重新改造。
+
+那根钟柱的正式名字叫《时间的垂直雕塑》，作者是雕塑家鲁道夫·斯沃博达，1985年为当时的索科洛夫斯卡站而作。三十五年的风吹雨打让它吃了不少苦头：2020年7月，它锈迹斑斑、里面进了水，被拆下来送去修理；2024年，市政府宣布前一年已经修好。两个站厅之间的地下通道里，还计划装一件扬·波什的灯光作品《突触》，要在墙上显示乘客走动的轨迹。
+
+🎁 彩蛋：一座先是以乌克兰的一场战役命名、后来又以一座意大利城市命名的车站，对自己的身份倒是出奇地淡定。门外那座钟，从头到尾只干一件事。`,
+    },
+  },
+  {
+    // Added 2026-11-13 for the Florenc pack (coordinates user-supplied). Facts:
+    // cs.wikipedia "Florentinum" (Jakub Cigler Architekti, Penta, 9 floors, ribbed
+    // towers, Desfourská zahrada courtyard, glass-concrete facade, site of the
+    // 1980s Česká typografie building of Rudé právo and later dailies, sold to
+    // CEFC in 2016, LEED Gold); archiweb.cz (building started March 2012,
+    // occupancy permit 18 Oct 2013, first tenants January 2014, 49,000 m² of
+    // offices, the largest office building in Prague built in one stage).
+    name: 'Florentinum',
+    slug: 'florentinum',
+    localizedNames: { cz: 'Florentinum', zh: 'Florentinum大楼' },
+    labels: ['contemporary'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08887754235757, lng: 14.435319245507937 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Florentinum',
+    description: {
+      en: `Florentinum is a long, pale office complex on Na Florenci, and its name does what Florenc itself never quite managed: it actually sounds Italian. Behind its glass-concrete front lies a public garden courtyard, which makes it one of the few office blocks in Prague you can walk through without a badge.
+
+It stands on the site of the old Česká typografie building, a glazed brutalist block from the 1980s that housed Rudé právo, the daily of the Communist Party, and after 1989 a whole run of other newspapers. Penta bought the site in 2010, and the old printing house came down. Building began in March 2012, the occupancy permit came on 18 October 2013, and the first tenants moved in in January 2014. With some 49,000 square metres of offices on nine floors it was the largest office building in Prague ever built in a single stage. The design is by Jakub Cigler's studio: several wings joined by rounded, ribbed towers round an inner square with greenery, the Desfours Garden, named after the old palace garden of the block, between Na Poříčí and Na Florenci. In 2016 Penta sold it to the Chinese group CEFC.
+
+🎁 Bonus: The building that once printed the Communist Party's daily was replaced by offices for auditors and lawyers. Rudé právo would have had a headline ready for that, though probably not a kind one.`,
+      cz: `Florentinum je dlouhý světlý kancelářský komplex v ulici Na Florenci a jeho jméno dokáže to, co se samotné Florenci nikdy úplně nepovedlo: opravdu zní italsky. Za jeho sklobetonovým průčelím leží veřejné nádvoří se zahradou, takže patří k mála kancelářským budovám v Praze, kterými se dá projít bez vstupní karty.
+
+Stojí na místě staré budovy České typografie, prosklené brutalistní stavby z osmdesátých let, v níž sídlilo Rudé právo, deník komunistické strany, a po roce 1989 celá řada dalších novin. Penta pozemek koupila roku 2010 a stará tiskárna šla k zemi. Stavba začala v březnu 2012, kolaudace přišla 18. října 2013 a první nájemci se nastěhovali v lednu 2014. S asi 49 000 metry čtverečními kanceláří v devíti podlažích to byla největší administrativní budova v Praze postavená v jedné etapě. Návrh je od ateliéru Jakuba Ciglera: několik křídel spojených zaoblenými žebrovanými věžemi kolem vnitřního náměstí se zelení, Desfourské zahrady, pojmenované po staré palácové zahradě bloku mezi ulicemi Na Poříčí a Na Florenci. Roku 2016 ji Penta prodala čínské skupině CEFC.
+
+🎁 Bonus: Budovu, která kdysi tiskla deník komunistické strany, nahradily kanceláře auditorů a advokátů. Rudé právo by na to mělo titulek připravený, i když asi ne laskavý.`,
+      zh: `Florentinum是弗洛伦茨街上一座又长又浅色的写字楼群，它的名字做到了弗洛伦茨本身一直没完全做到的事：听起来真的像意大利语。玻璃混凝土的立面后面藏着一个对公众开放的花园庭院，所以它是布拉格少数几座不用门禁卡也能穿过去的写字楼之一。
+
+它所在的位置原本是捷克印刷厂大楼，那是一座1980年代的玻璃幕墙粗野主义建筑，捷共机关报《红色权利报》就设在这里，1989年以后又陆续进驻了好几家别的报纸。潘塔集团2010年买下地块，老印刷厂被拆掉。新楼2012年3月开工，2013年10月18日通过竣工验收，2014年1月迎来第一批租户。它有九层、约四万九千平方米的办公面积，是布拉格一期建成的最大的办公楼。设计出自雅库布·齐格勒的事务所：几座楼翼由圆润的、带竖向肋条的塔楼连在一起，围着一个种满绿植的内部广场，叫德福尔花园，名字来自波日奇街和弗洛伦茨街之间这个街区里一座老宫殿的花园。2016年，潘塔把它卖给了中国的华信集团。
+
+🎁 彩蛋：当年印共产党机关报的大楼，换成了会计师和律师的写字楼。《红色权利报》要是还在，大概早就给这事想好了标题，只是多半不太客气。`,
+    },
+  },
+  {
+    // Added 2026-11-13 for the Florenc pack (coordinates user-supplied). Facts:
+    // cs.wikipedia "Těšnov (Praha)" (neo-Renaissance corner house Těšnov 13 /
+    // Stárkova by the builder Karel Janda, 1891, originally with a garden
+    // restaurant); hotel-opera.cz (1890, 67 rooms, family-run); hotel listings
+    // (rebuilt 1935-38 and 1994-97). Těšnov station 1875-1972 (Florenc pack text).
+    name: 'Hotel Opera',
+    slug: 'hotel-opera-tesnov',
+    localizedNames: { cz: 'Hotel Opera', zh: '歌剧酒店' },
+    labels: ['historicism', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.09204398270471, lng: 14.43628617051874 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/T%C4%9B%C5%A1nov_(Praha)',
+    description: {
+      en: `Hotel Opera is a neo-Renaissance corner house on Těšnov, the kind of ornate 19th-century façade that looks slightly surprised to find itself next to a motorway flyover. It has been here longer than almost anything else in sight, and it has outlasted the railway station it was built beside.
+
+The house at the corner of Těšnov and Stárkova was put up around 1890 to 1891 by the builder Karel Janda, at a time when this new quarter on the site of the old Těšnov suburb was being laid out, and it originally had a garden restaurant. For eighty years its neighbour was Těšnov station, one of the grandest in Prague, which saw its last train in 1972 and was blown up in 1985, while the North-South Arterial Road arrived overhead. The building was thoroughly rebuilt in 1935 to 1938 and again in 1994 to 1997, and it is now a family-run hotel with 67 rooms, a short walk from the river.
+
+🎁 Bonus: Despite the name, there is no opera house anywhere near. The nearest thing to an overture here is the morning rush on the flyover.`,
+      cz: `Hotel Opera je novorenesanční nárožní dům na Těšnově, takové to zdobné průčelí z 19. století, které vypadá trochu překvapeně, že stojí vedle dálniční estakády. Je tu déle než skoro všechno, co je odsud vidět, a přežil i nádraží, vedle kterého vyrostl.
+
+Dům na rohu Těšnova a Stárkovy ulice postavil kolem let 1890 až 1891 stavitel Karel Janda, v době, kdy se na místě staré předměstské osady Těšnov vyměřovala nová čtvrť, a původně měl zahradní restauraci. Osmdesát let byl jeho sousedem Těšnovské nádraží, jedno z nejokázalejších v Praze, které vypravilo poslední vlak roku 1972 a roku 1985 bylo odstřeleno, zatímco nad hlavou přibyla severojižní magistrála. Budova prošla velkou přestavbou v letech 1935 až 1938 a znovu v letech 1994 až 1997 a dnes je to rodinný hotel se 67 pokoji, pár kroků od řeky.
+
+🎁 Bonus: Navzdory jménu tu žádná opera široko daleko není. Nejbližší věc k předehře je tu ranní špička na estakádě.`,
+      zh: `歌剧酒店是泰什诺夫街上一座新文艺复兴式的转角楼，就是那种华丽的19世纪立面，看起来对自己站在一座快速路高架桥旁边这件事有点吃惊。它在这里待的时间，比眼前几乎所有东西都长，连当初陪着它长起来的火车站都没熬过它。
+
+泰什诺夫街和斯塔尔科瓦街转角的这座楼，是建筑商卡雷尔·扬达在1890年到1891年前后盖的，那时老泰什诺夫郊区的原址上正在规划一片新街区；它原本还带一个花园餐厅。整整八十年，它的邻居都是泰什诺夫车站，布拉格最气派的车站之一；车站1972年送走最后一班车，1985年被炸掉，头顶上则多了一条南北干道。这座楼1935年到1938年大修过一次，1994年到1997年又修了一次，如今是一家有67间客房的家庭酒店，走几步就到河边。
+
+🎁 彩蛋：虽然叫这个名字，附近可没有什么歌剧院。这里最像序曲的，是每天早上高架桥上的早高峰。`,
     },
   },
 ];

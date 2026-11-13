@@ -544,3 +544,12 @@ tourist_trio: a white fridge door with FOUR big colourful souvenir fridge magnet
 ```
 down_the_vltava: a small wooden rowing boat drifting down a wide river seen from slightly above, the rower resting the oars and letting the current do the work; along the banks, one after another into the distance, a small white chateau on a rock, a broken castle ruin on a cliff and a little church on a hill; a gold compass needle on the boat's bow points forward, north.
 ```
+
+### Group 50: card packs (一套齐活 · 拆包达人 · 卡包收藏家 · 压马路), all four done (2026-11-13; the prompts given were tightened versions of these, with the album as the only subject for full_set)
+
+```
+full_set: a neat fanned-out hand of trading cards held up proudly, every slot of a small open sticker album beside it filled, the last card being pressed into its place with a gold sparkle; one torn-open foil card packet lies empty on the table.
+pack_rat: a happy little rat in a waistcoat sitting on a big heap of torn-open shiny foil card packets in many colours, holding one more packet up to tear it open, loose cards fluttering around it.
+collectors_album: a thick leather-bound collector's album lying open, its pages full of small cards arranged so that together they form a little gold map of a city with a river; a magnifying glass rests on one corner.
+hitting_the_streets: a pair of worn walking shoes, large, on a cobblestone pavement, with a long straight city street of grand façades stretching behind them into the distance; the soles are smoking slightly from all the walking, and a tiny gold street sign without any letters stands beside them.
+```

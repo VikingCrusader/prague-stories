@@ -1,4 +1,4 @@
-import { PACKS } from "../data/packs.js";
+import { PACKS, PACK_UNLOCK_AT } from "../data/packs.js";
 // Treasure hunt ("寻宝"): the location stays hidden and the user tracks it
 // down from clues. One hunt every 24h (the "random draw" names in the code
 // and API date from the retired open draw, which revealed the card for 3x
@@ -843,6 +843,18 @@ function CASTLE_PROGRESS({ checkedSlugs, quarterCount = {}, quarterTotal = {} })
     quarter: { name: CASTLE_QUARTER, current: quarterCount[CASTLE_QUARTER] || 0, target: qTarget },
   };
 }
+
+
+// Card pack achievements (2026-11-13, user's list). Hitting the Streets: the
+// packs that follow one street. Any 4 of them; a new street pack joins this
+// list (user's call), the target stays at 4.
+export const STREET_PACK_SLUGS = ["na-prikope", "narodni-trida", "evropska-trida", "plzenska-ulice"];
+const STREET_PACKS_NEED = 4;
+const packNames = (lang) => STREET_PACK_SLUGS
+  .map((s) => PACKS.find((p) => p.slug === s))
+  .map((p) => (lang === "en" ? p.name : p.localizedNames[lang]))
+  .join(lang === "zh" ? "、" : ", ");
+const packCount = (list) => (list || []).length;
 
 export const ACHIEVEMENTS = [
   {
@@ -1765,6 +1777,74 @@ export const ACHIEVEMENTS = [
     difficulty: "easy",
     check: ({ totalCheckins }) => (totalCheckins || 0) >= 54,
     progress: ({ totalCheckins }) => ({ current: totalCheckins || 0, target: 54 }),
+  },
+  {
+    id: "full_set",
+    icon: "🎴",
+    name: "Full Set",
+    name_cz: "Kompletní sada",
+    name_zh: "一套齐活",
+    flavor: "One pack, not a card missing. The sticker album you never finished as a kid is finally avenged.",
+    flavor_cz: "Jeden balíček a ani jedna karta nechybí. Album z dětství, které jste nikdy nedolepili, je konečně pomstěno.",
+    flavor_zh: "一个卡包，一张不少。小时候没集齐的干脆面卡，这回总算补上了。",
+    description: "Complete any card pack: collect every card in it.",
+    description_cz: "Dokončete libovolný balíček karet: sesbírejte všechny jeho karty.",
+    description_zh: "集齐任意一个卡包里的所有卡片。",
+    difficulty: "easy",
+    check: ({ completedPackSlugs }) => packCount(completedPackSlugs) >= 1,
+    progress: ({ completedPackSlugs }) => ({ current: packCount(completedPackSlugs), target: 1 }),
+  },
+  {
+    id: "pack_rat",
+    icon: "🛍️",
+    name: "Pack Rat",
+    name_cz: "Mistr rozbalování",
+    name_zh: "拆包达人",
+    flavor: "Ten packs torn open. Foil all over the floor, and every card in them yours.",
+    flavor_cz: "Deset roztržených balíčků. Fólie po celé podlaze a všechny karty vaše.",
+    flavor_zh: "撕开了十个卡包，满地都是锡纸，卡全归你。",
+    description: `Open 10 card packs (collect at least ${PACK_UNLOCK_AT} cards in each).`,
+    description_cz: `Otevřete 10 balíčků karet (v každém sesbírejte aspoň ${PACK_UNLOCK_AT} karty).`,
+    description_zh: `拆开10个卡包（每个卡包至少收集${PACK_UNLOCK_AT}张卡）。`,
+    difficulty: "medium",
+    check: ({ openedPackSlugs }) => packCount(openedPackSlugs) >= 10,
+    progress: ({ openedPackSlugs }) => ({ current: packCount(openedPackSlugs), target: 10 }),
+  },
+  {
+    id: "collectors_album",
+    icon: "📒",
+    name: "Collector's Album",
+    name_cz: "Sběratelské album",
+    name_zh: "卡包收藏家",
+    flavor: "Five packs complete. Your album is starting to look like a map of Prague.",
+    flavor_cz: "Pět kompletních balíčků. Vaše album začíná vypadat jako mapa Prahy.",
+    flavor_zh: "集齐了五个卡包，你的卡册开始像一张布拉格地图了。",
+    description: "Complete 5 card packs.",
+    description_cz: "Dokončete 5 balíčků karet.",
+    description_zh: "集齐5个卡包。",
+    difficulty: "hard",
+    check: ({ completedPackSlugs }) => packCount(completedPackSlugs) >= 5,
+    progress: ({ completedPackSlugs }) => ({ current: packCount(completedPackSlugs), target: 5 }),
+  },
+  {
+    id: "hitting_the_streets",
+    icon: "👟",
+    name: "Hitting the Streets",
+    name_cz: "Courání po ulicích",
+    name_zh: "压马路",
+    flavor: "Four whole streets, every façade on both sides. Your shoes have opinions about it.",
+    flavor_cz: "Čtyři celé ulice, každá fasáda po obou stranách. Vaše boty by k tomu měly co říct.",
+    flavor_zh: "四条街，两边的每栋楼都没放过。你的鞋对此有话要说。",
+    description: `Complete any ${STREET_PACKS_NEED} street packs (so far ${packNames("en")}; new street packs will join the list).`,
+    description_cz: `Dokončete libovolné ${STREET_PACKS_NEED} balíčky ulic (zatím ${packNames("cz")}; nové balíčky ulic se k nim přidají).`,
+    description_zh: `集齐任意${STREET_PACKS_NEED}个街道卡包（目前有${packNames("zh")}；以后新增的街道卡包也会加进来）。`,
+    difficulty: "hard",
+    check: ({ completedPackSlugs = [] }) => STREET_PACK_SLUGS.filter((s) => completedPackSlugs.includes(s)).length >= STREET_PACKS_NEED,
+    progress: ({ completedPackSlugs = [] }) => ({
+      current: STREET_PACK_SLUGS.filter((s) => completedPackSlugs.includes(s)).length,
+      target: STREET_PACKS_NEED,
+      packs: { need: STREET_PACKS_NEED, slugs: STREET_PACK_SLUGS },
+    }),
   },
   {
     id: "fast_and_curious",

@@ -16,6 +16,7 @@ import { recordCheckIn } from './checkinController.js';
 import { parsePreferences } from '../utils/preferences.js';
 import { syncAchievements, historyEraOrder } from '../services/achievementStats.js';
 import { historyReadingSummary } from './historyController.js';
+import { PACKS } from '../data/packs.js';
 
 export async function getProfile(req, res) {
   res.json({ user: req.user.toPublicJSON() });
@@ -695,7 +696,7 @@ export async function getAchievements(req, res, next) {
       const out = achievementEntry(ach, earned, rates);
       out.historyEvents = (ACHIEVEMENT_HISTORY_EVENTS[ach.id] || []).map(slug => historyBySlug.get(slug)).filter(Boolean);
       if (stats) {
-        const { current, target, slugs: list, picks, quarter, rarities, district, labels, note, unit, counts, countsLabel, countsRarity } = ach.progress(stats);
+        const { current, target, slugs: list, picks, quarter, rarities, district, labels, note, unit, counts, countsLabel, countsRarity, packs } = ach.progress(stats);
         // The real count, even past the target (533 / 54), user's call 2026-11-02;
         // the client caps only the bar.
         out.progress = { current, target };
@@ -717,6 +718,15 @@ export async function getAchievements(req, res, next) {
         if (list) out.progress.places = list.map(placeOf);
         // "Any N of these" groups: listed apart from the required places.
         if (picks) out.progress.picks = picks.map(g => ({ need: g.need, label: g.label, places: g.slugs.map(placeOf) }));
+        // Card packs to complete (Hitting the Streets): "any N of these" packs.
+        if (packs) {
+          out.progress.packs = {
+            need: packs.need,
+            items: packs.slugs.map(slug => PACKS.find(p => p.slug === slug)).filter(Boolean).map(p => ({
+              slug: p.slug, name: p.name, localizedNames: p.localizedNames, done: stats.completedPackSlugs.includes(p.slug),
+            })),
+          };
+        }
       }
       return out;
     });
