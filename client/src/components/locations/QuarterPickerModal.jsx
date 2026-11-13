@@ -1,5 +1,6 @@
 import { useEffect, useMemo } from 'react';
 import { createPortal } from 'react-dom';
+import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { quarterName } from '../../utils/pragueQuarters';
 import { QUARTER_DISTRICT } from '../../utils/quarterDistricts';
@@ -10,15 +11,16 @@ import { DISTRICT_COLORS } from './DistrictLine';
 // historical-division tab. Picking one sets the filter and closes the pop-up;
 // picking the active one clears it.
 export default function QuarterPickerModal({ current, onPick, onClose }) {
+  const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
 
   useEffect(() => {
-    const onKey = e => { if (e.key === 'Escape') { e.stopPropagation(); onClose(); } };
+    const onKey = e => { if (e.key === 'Escape') { e.stopPropagation(); close(); } };
     window.addEventListener('keydown', onKey, true);
     return () => window.removeEventListener('keydown', onKey, true);
-  }, [onClose]);
+  }, [close]);
 
   // { 1: [quarters sorted by their displayed name], ... }
   const groups = useMemo(() => {
@@ -30,9 +32,9 @@ export default function QuarterPickerModal({ current, onPick, onClose }) {
   }, [lang]);
 
   return createPortal(
-    <div className="px-overlay area-guide-overlay" onClick={e => { e.stopPropagation(); onClose(); }}>
-      <div className="px-modal quarter-picker" onClick={e => e.stopPropagation()} role="dialog" aria-label={t('area.allQuarters')}>
-        <button className="px-modal__close" onClick={onClose} aria-label={t('areaGuide.close')}>✕</button>
+    <div ref={overlayRef} className="px-overlay area-guide-overlay" onClick={e => { e.stopPropagation(); close(); }}>
+      <div ref={modalRef} className="px-modal quarter-picker" onClick={e => e.stopPropagation()} role="dialog" aria-label={t('area.allQuarters')}>
+        <button className="px-modal__close" onClick={close} aria-label={t('areaGuide.close')}>✕</button>
         <h2 className="px-title quarter-picker__title">{t('area.allQuarters')}</h2>
         {Array.from({ length: 22 }, (_, i) => String(i + 1)).filter(n => groups[n]).map(n => (
           <section key={n} className="quarter-picker__group">
@@ -44,7 +46,7 @@ export default function QuarterPickerModal({ current, onPick, onClose }) {
                 <button
                   key={q}
                   className={`label-pill${current === q ? ' label-pill--active' : ''}`}
-                  onClick={() => { onPick(q); onClose(); }}
+                  onClick={() => { onPick(q); close(); }}
                 >
                   {convert(quarterName(q, lang))}
                 </button>

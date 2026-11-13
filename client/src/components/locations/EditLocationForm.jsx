@@ -1,10 +1,12 @@
 import { useState } from 'react';
+import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import { locationAPI } from '../../services/api';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { useLang } from '../../context/LanguageContext';
 import { RARITY_XP, RARITY_VAR, RARITY_LABEL, CITY_RARITIES } from '../../utils/rarity';
 
 export default function EditLocationForm({ location, onClose, onUpdated }) {
+  const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
   const { lang } = useLang();
   const [form, setForm] = useState({
     name:         location.name                   || '',
@@ -120,9 +122,9 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
   };
 
   return (
-    <div className="px-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-      <div className="px-modal" style={{ maxHeight: '90vh', overflowY: 'auto' }}>
-        <button className="px-modal__close" onClick={onClose}>✕</button>
+    <div ref={overlayRef} className="px-overlay" onClick={e => e.target === e.currentTarget && close()}>
+      <div ref={modalRef} className="px-modal" style={{ maxHeight: '90vh', overflowY: 'auto' }}>
+        <button className="px-modal__close" onClick={close}>✕</button>
         <div className="px-modal__header" style={{ background: 'var(--bg-surface)', padding: 0, overflow: 'hidden', minHeight: 80 }}>
           {preview ? (
             <img src={preview} alt="cover" style={{ width: '100%', height: 140, objectFit: 'cover', display: 'block' }} />
@@ -241,7 +243,7 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
               <button className="px-btn px-btn--gold" disabled={loading}>
                 {loading ? 'Saving...' : 'Save changes'}
               </button>
-              <button type="button" className="px-btn px-btn--dark" onClick={onClose}>Cancel</button>
+              <button type="button" className="px-btn px-btn--dark" onClick={close}>Cancel</button>
             </div>
           </form>
         </div>

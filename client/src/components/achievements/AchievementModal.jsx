@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import LocationDetail from '../locations/LocationDetail';
 import PackDetail from '../packs/PackDetail';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
@@ -22,6 +23,7 @@ export default function AchievementModal({ achievement: ach, onClose }) {
   const p = ach.progress;
   const [openSlug, setOpenSlug] = useState(null);
   const [openPack, setOpenPack] = useState(null);
+  const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
   const pct = p ? Math.min(100, Math.round((p.current / p.target) * 100)) : 0;
   // A label or rarity leads to the Explore cards it counts; no underline (user's call).
   const toExplore = (filter, content, className = '') => (
@@ -51,14 +53,15 @@ export default function AchievementModal({ achievement: ach, onClose }) {
 
   return (
     <>
-    <div className="px-overlay" onClick={onClose}>
+    <div ref={overlayRef} className="px-overlay" onClick={close}>
       <div
+        ref={modalRef}
         className={`px-modal ach-modal${ach.unlocked ? ' ach-modal--unlocked' : ''}`}
         onClick={e => e.stopPropagation()}
         role="dialog"
         aria-label={text('name')}
       >
-        <button className="px-modal__close" onClick={onClose} aria-label="✕">✕</button>
+        <button className="px-modal__close" onClick={close} aria-label="✕">✕</button>
         <div className="ach-modal__head">
           <span className={`ach-icon ach-icon--lg${ach.unlocked ? '' : ' ach-icon--locked'}`} data-difficulty={ach.difficulty}><AchievementIcon achievement={ach} /></span>
           <div style={{ minWidth: 0 }}>

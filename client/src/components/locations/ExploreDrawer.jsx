@@ -8,15 +8,36 @@ const CLOSE_DISTANCE = 90; // px dragged down before the sheet lets go
 // (2026-11-09, user's call; the rest of the stacked page stays as it was).
 // Only the handle drags it, so the map's zoom and the sheet's own scrolling keep
 // their gestures. The phone's back button closes it: opening pushes a history
-// entry, every way of closing goes back through it.
+// entry, every way of closing goes back through it, and the sheet slides
+// back down before it goes (2026-11-13).
 export default function ExploreDrawer({ count, onClose, onClear, autoClose = false, label, children }) {
   const t = useT();
   const sheetRef = useRef(null);
+  const backdropRef = useRef(null);
   const drag = useRef(null);
+  const latestClose = useRef(onClose);
+  latestClose.current = onClose;
+
+  // Slides the sheet back down (from wherever a drag left it) and fades the
+  // backdrop before the drawer goes; skipped under reduced motion.
+  const leave = () => {
+    const sheet = sheetRef.current;
+    if (!sheet?.animate || window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) { latestClose.current(); return; }
+    const from = getComputedStyle(sheet).transform;
+    sheet.style.transition = 'none';
+    const slide = sheet.animate(
+      [{ transform: from === 'none' ? 'translateY(0)' : from }, { transform: 'translateY(100%)' }],
+      { duration: 200, easing: 'cubic-bezier(0.4, 0, 1, 1)', fill: 'forwards' },
+    );
+    backdropRef.current?.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 200, easing: 'ease-in', fill: 'forwards' });
+    const done = () => latestClose.current();
+    slide.onfinish = done;
+    slide.oncancel = done;
+  };
 
   useEffect(() => {
     window.history.pushState({ exploreDrawer: true }, '');
-    const onPop = () => onClose();
+    const onPop = () => leave();
     window.addEventListener('popstate', onPop);
     const overflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
@@ -24,7 +45,7 @@ export default function ExploreDrawer({ count, onClose, onClear, autoClose = fal
       window.removeEventListener('popstate', onPop);
       document.body.style.overflow = overflow;
     };
-  }, [onClose]);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const close = () => window.history.back();
   // Nothing left to show (the last filter was cleared from inside).
@@ -52,7 +73,7 @@ export default function ExploreDrawer({ count, onClose, onClear, autoClose = fal
 
   return (
     <div className="explore-drawer" role="dialog" aria-modal="true" aria-label={label ?? t('area.button')}>
-      <div className="explore-drawer__backdrop" onClick={close} />
+      <div className="explore-drawer__backdrop" ref={backdropRef} onClick={close} />
       <div className="explore-drawer__sheet" ref={sheetRef}>
         <div
           className="explore-drawer__handle"

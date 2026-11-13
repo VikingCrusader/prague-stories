@@ -1,0 +1,386 @@
+/* ── Guide overview board (GuideBoard.jsx, 2026-11-13) ──────────────────────
+   The whole handbook at a glance: a header and a board of tiles; a tile
+   opens its section in a window (GuideWindow), with a demo beside the text
+   where it has one. Every screen: six columns filling exactly one screen on
+   a 2K one, four on other computers, two on tablets and narrow windows, one
+   on phones (those scroll). */
+
+.guide-page:has(.guide-board) { padding: 0; overflow: visible; }
+.guide-board {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+  padding: 22px 28px 32px;
+  max-width: 2560px;
+  margin: 0 auto;
+  width: 100%;
+}
+.guide-board__head {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto;
+  column-gap: 28px;
+  align-items: end;
+}
+:is(#root, body) .guide-board__title { grid-row: span 2; font-size: 44px !important; margin: 0; line-height: 1; }
+.guide-board__tagline { margin: 0; font-size: 18px; color: var(--text-muted); font-style: italic; }
+.guide-board__challenge { grid-column: 2; margin: 0; font-size: 19px; color: var(--gold); line-height: 1.4; }
+.guide-board__hint { grid-column: 3; grid-row: 1 / span 2; margin: 0; font-size: 15px; color: var(--text-muted); align-self: center; }
+
+.guide-board__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-rows: clamp(190px, 24vh, 250px);
+  grid-auto-flow: dense;
+  gap: 16px;
+  min-height: 0;
+}
+
+/* 2K: six columns, four rows, the board exactly fills the window. */
+@media (min-width: 2400px) and (min-height: 1100px) {
+  .guide-board { height: calc(100vh - var(--navbar-h, 72px)); min-height: 900px; gap: 22px; padding: 26px 40px 32px; }
+  .guide-board__head { column-gap: 32px; }
+  :is(#root, body) .guide-board__title { font-size: 52px !important; }
+  .guide-board__tagline { font-size: 20px; }
+  .guide-board__challenge { font-size: 22px; }
+  .guide-board__hint { font-size: 16px; }
+  .guide-board__grid { grid-template-columns: repeat(6, minmax(0, 1fr)); grid-template-rows: repeat(4, minmax(0, 1fr)); grid-auto-rows: auto; gap: 18px; }
+}
+/* Tablets and narrow windows: two columns. */
+@media (max-width: 1279px) {
+  .guide-board__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: clamp(190px, 26vw, 250px); }
+  .guide-board__head { grid-template-columns: 1fr; row-gap: 6px; }
+  :is(#root, body) .guide-board__title { grid-row: auto; font-size: 38px !important; }
+  .guide-board__challenge { grid-column: auto; }
+  .guide-board__hint { grid-column: auto; grid-row: auto; }
+}
+
+.guide-tile {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: left;
+  cursor: pointer;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 3px solid var(--border);
+  box-shadow: 4px 4px 0 var(--shadow);
+  font: inherit;
+  transition: border-color 0.15s ease, translate 0.15s ease, box-shadow 0.15s ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .guide-tile:hover { border-color: var(--gold); translate: 0 -3px; box-shadow: 4px 7px 0 var(--shadow); }
+  .guide-tile:hover .guide-tile__art { scale: 1.04; }
+}
+.guide-tile:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.guide-tile__inner { position: absolute; inset: 0; display: flex; }
+
+.guide-tile__pic {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--gold) 10%, var(--bg-surface)), var(--bg-surface) 70%);
+}
+.guide-tile__art { width: 100%; height: 100%; object-fit: cover; transition: scale 0.3s ease; }
+/* Until a tile has its own picture: an existing one, whole, in the open part. */
+.guide-tile__art--fallback { width: auto; height: 70%; max-width: 80%; object-fit: contain; }
+.guide-tile__icon { font-size: 64px; line-height: 1; }
+
+.guide-tile__body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.guide-tile__title { font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif; font-size: 24px; font-weight: 700; color: var(--gold); line-height: 1.2; }
+html[data-lang="zh"] .guide-tile__title { font-family: var(--ui-font-text); }
+.guide-tile__teaser { font-size: 16px; line-height: 1.45; color: var(--text-muted); }
+.guide-tile__local { display: none; }
+
+/* Wide tiles: a 4:3 picture as tall as the tile, the text beside it. */
+.guide-tile--wide .guide-tile__inner { flex-direction: row; }
+.guide-tile--wide .guide-tile__pic { flex: none; height: 100%; aspect-ratio: 4 / 3; border-right: 2px solid var(--border); }
+.guide-tile--wide .guide-tile__body { flex: 1; justify-content: center; padding: 16px 22px; }
+
+/* The others: a 3:2 picture filling the tile, the text on a band that fades
+   in over its bottom (the prompts keep that part of the picture quiet). */
+.guide-tile--full .guide-tile__pic { position: absolute; inset: 0; }
+.guide-tile--full .guide-tile__art--fallback { margin-bottom: 30%; }
+.guide-tile--full .guide-tile__icon { margin-bottom: 30%; }
+.guide-tile--full .guide-tile__body {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 40px 18px 14px;
+  background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--bg-card) 88%, transparent) 38%, var(--bg-card));
+}
+.guide-tile--full .guide-tile__teaser { color: var(--text-primary); }
+
+/* `side`: the subject stands on the left, the text on the right half. */
+.guide-tile--side .guide-tile__body {
+  top: 0; left: auto; width: 56%;
+  justify-content: center;
+  padding: 14px 16px 14px 34px;
+  background: linear-gradient(to right, transparent, color-mix(in srgb, var(--bg-card) 88%, transparent) 26%, var(--bg-card));
+}
+.guide-tile--side .guide-tile__art--fallback, .guide-tile--side .guide-tile__icon { margin: 0 48% 0 0; }
+
+/* The opening tile is the big one. */
+.guide-tile--what .guide-tile__title { font-size: 36px; }
+.guide-tile--what .guide-tile__teaser { font-size: 20px; }
+.guide-tile--what .guide-tile__local { display: block; font-size: 16px; line-height: 1.5; color: var(--text-muted); }
+.guide-tile--what .guide-tile__body { padding: 60px 26px 22px; gap: 10px; }
+
+/* Small live pieces on a few tiles. */
+.guide-mini { display: flex; align-items: center; gap: 6px; margin-top: 4px; }
+.guide-mini--rarity span { width: 30px; height: 30px; display: grid; place-items: center; border: 2px solid; font-size: 15px; background: var(--bg-surface); }
+.guide-mini--ladder span { padding: 2px 8px; border: 2px solid var(--gold); color: var(--gold); font-weight: 700; font-size: 15px; }
+.guide-mini--ladder span:first-child { background: var(--gold); color: var(--bg-card); }
+.guide-mini--levels { font-size: 14px; color: var(--text-muted); }
+.guide-mini__bar { flex: 1; height: 8px; border: 2px solid var(--border); max-width: 180px; }
+.guide-mini__bar span { display: block; width: 30%; height: 100%; background: var(--gold); }
+.guide-mini--rings { width: 120px; height: 60px; fill: none; stroke: var(--gold); stroke-width: 2; }
+.guide-mini--rings circle:nth-child(2) { stroke-dasharray: 3 3; }
+.guide-mini--rings rect { fill: var(--gold); stroke: none; }
+
+/* ── The window ───────────────────────────────────────────── */
+.guide-window-overlay { z-index: 240; }
+/* A card's detail opened from a demo lies over the Guide's window. */
+.guide-detail .px-overlay { z-index: 260; }
+.guide-window {
+  width: min(820px, 92vw);
+  max-width: none;
+  max-height: 88vh;
+  overflow-y: auto;
+  padding: 30px 34px 30px;
+  box-sizing: border-box;
+}
+.guide-window--demo {
+  width: min(2360px, 94vw);
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 36px;
+  overflow: hidden;
+}
+.guide-window--demo .guide-window__text,
+.guide-window--demo .guide-window__demo { min-height: 0; max-height: calc(88vh - 60px); overflow-y: auto; scrollbar-width: thin; padding-right: 6px; }
+.guide-window__title { font-size: 30px; margin: 0 0 16px; }
+.guide-window .guide-h3 { margin-top: 16px; font-size: 18px; }
+/* Sub-headings in the windows (iPhone, Android, the screens...) are names:
+   Palatino like the other names (EN/CZ; Chinese keeps its own face). */
+html:not([data-lang="zh"]) :is(#root, body) .guide-window .guide-h3 {
+  font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+.guide-window__demo { border-left: 2px solid var(--border); padding-left: 34px; }
+.guide-window__try { font-family: var(--ui-font-text); font-size: 16px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin: 6px 0 12px; }
+.guide-demo__hint { font-size: 15px; color: var(--text-muted); margin: 0 0 12px; }
+
+.guide-faq--fold summary { cursor: pointer; list-style: none; margin-bottom: 0; }
+.guide-faq--fold summary::-webkit-details-marker { display: none; }
+.guide-faq--fold summary::before { content: '▸ '; }
+.guide-faq--fold[open] summary::before { content: '▾ '; }
+.guide-faq--fold[open] summary { margin-bottom: 8px; }
+
+/* Demo cards: laid out at a real card's showcase size (260 x 368, like
+   CardShowcase) and scaled evenly with zoom, so every card keeps the real
+   proportions, name line and label bar, whatever its size here. */
+.guide-card { width: 260px; flex: none; }
+.guide-card .loc-card { height: 368px; aspect-ratio: auto; }
+.guide-card .loc-card__banner { flex: 1 1 auto; min-height: 0; }
+.guide-card .loc-card__body { flex: 0 0 auto; }
+
+/* Rarity demo */
+.guide-rarity__row { display: flex; justify-content: space-between; align-items: flex-end; gap: 8px; margin: 6px 0 26px; padding-top: 14px; }
+.guide-rarity__pick { zoom: 0.62; opacity: 0.62; cursor: pointer; transition: opacity 0.15s ease, translate 0.15s ease, filter 0.15s ease; }
+.guide-rarity__pick:hover { opacity: 0.9; }
+.guide-rarity__pick--on { opacity: 1; translate: 0 -22px; filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.45)); }
+.guide-rarity__stage, .guide-showcase-demo { display: flex; gap: 32px; align-items: flex-start; }
+.guide-showcase-demo { flex-direction: column; align-items: center; }
+.guide-rarity__big { zoom: 1.08; }
+.guide-rarity__about { flex: 1; min-width: 0; padding-top: 8px; }
+.guide-rarity__name { font-size: 26px; margin: 4px 0 10px; font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif; }
+.guide-rarity__toggle { display: flex; gap: 8px; margin: 16px 0 10px; }
+
+/* Check-in demo */
+.guide-checkin__stage { display: flex; gap: 28px; align-items: flex-start; }
+.guide-checkin__map { flex: none; width: 420px; height: 420px; touch-action: none; cursor: grab; border: 3px solid var(--border); user-select: none; }
+.guide-checkin__map:active { cursor: grabbing; }
+.guide-checkin__ground { fill: color-mix(in srgb, var(--bg-surface) 85%, var(--gold) 4%); }
+.guide-checkin__river { fill: none; stroke: color-mix(in srgb, #3a6ea5 55%, var(--bg-surface)); stroke-width: 22; }
+.guide-checkin__street { fill: none; stroke: var(--border); stroke-width: 7; }
+.guide-checkin__ring { fill: color-mix(in srgb, var(--gold) 6%, transparent); stroke: var(--gold); stroke-width: 2; stroke-dasharray: 5 4; opacity: 0.55; transition: opacity 0.2s ease; }
+.guide-checkin__ring--alert { fill: color-mix(in srgb, var(--gold) 10%, transparent); }
+.guide-checkin__ring--on { opacity: 1; }
+.guide-checkin__ring-label { font-size: 11px; fill: var(--text-muted); }
+.guide-checkin__target { fill: var(--text-muted); stroke: var(--bg-card); stroke-width: 2; }
+.guide-checkin__target--got { fill: var(--gold); }
+.guide-checkin__line { stroke: var(--text-muted); stroke-width: 1.5; stroke-dasharray: 2 4; }
+.guide-checkin__you { fill: #e03a3a; stroke: #fff; stroke-width: 3; }
+.guide-checkin__you-label { font-size: 12px; font-weight: 700; fill: var(--text-primary); }
+.guide-checkin__side { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+.guide-checkin__card { zoom: 0.82; }
+.guide-checkin__distance { margin: 0; font-size: 20px; font-weight: 700; color: var(--gold); }
+.guide-checkin__status { margin: 0; min-height: 3em; }
+.guide-checkin__side .px-btn:disabled { opacity: 0.4; cursor: not-allowed; filter: grayscale(0.6); }
+.guide-checkin__alert {
+  display: flex; gap: 10px; align-items: center;
+  padding: 8px 12px;
+  background: var(--bg-surface);
+  border: 2px solid var(--gold);
+  box-shadow: 3px 3px 0 var(--shadow);
+  font-size: 14px; line-height: 1.35;
+  animation: guide-alert-in 0.25s ease-out;
+}
+@keyframes guide-alert-in { from { opacity: 0; translate: 0 -8px; } }
+
+/* Install demo: the iPhone screenshots and the Android sketches side by side,
+   each step's line under its picture. */
+.guide-window--install { grid-template-columns: minmax(0, 0.42fr) minmax(0, 1.58fr); }
+.guide-install { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 48px; }
+.guide-install__note { grid-column: 1 / -1; margin: 0; }
+.guide-install__os { font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif; font-size: 20px; color: var(--gold); margin: 0 0 12px; }
+html[data-lang="zh"] .guide-install__os { font-family: var(--ui-font-text); }
+.guide-install__row { display: flex; gap: 18px; list-style: none; margin: 0; padding: 0; }
+.guide-install__step { flex: 1 1 0; min-width: 0; max-width: 240px; display: flex; flex-direction: column; gap: 10px; }
+.guide-install__phone {
+  position: relative; display: block; width: 100%; aspect-ratio: 460 / 1000; overflow: hidden;
+  border: 3px solid var(--border); border-radius: 18px; background: #f2f2f6;
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+@keyframes guide-ring-pulse { 50% { scale: 1.06; } }
+.guide-install__caption { display: flex; gap: 8px; font-size: 15px; line-height: 1.45; color: var(--text-primary); }
+.guide-install__caption b {
+  flex: none; width: 24px; height: 24px; display: grid; place-items: center;
+  font-size: 13px; color: var(--gold); border: 2px solid var(--gold);
+}
+
+/* The Android sketches: a plain phone screen in Chrome's light look. */
+.guide-mock { position: absolute; inset: 0; display: flex; flex-direction: column; background: #fff; color: #202124; font-family: Roboto, 'Segoe UI', Arial, sans-serif; font-size: 11px; }
+.guide-mock__top { flex: none; display: flex; align-items: center; gap: 6px; padding: 26px 8px 8px; background: #f1f3f4; }
+.guide-mock__url { flex: 1; min-width: 0; padding: 5px 10px; border-radius: 14px; background: #e3e5e8; color: #3c4043; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.guide-mock__dots { flex: none; width: 22px; height: 26px; display: grid; place-items: center; font-size: 18px; font-weight: 700; border-radius: 6px; }
+.guide-mock__page { flex: 1; display: flex; flex-direction: column; gap: 10px; padding: 12px 10px; background: #f3ecdc; }
+.guide-mock__brand { display: flex; align-items: center; gap: 5px; font-weight: 700; color: #8b1a1a; font-size: 12px; }
+.guide-mock__brand img { width: 16px; height: 16px; }
+.guide-mock__cards { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.guide-mock__cards i { aspect-ratio: 2 / 3; border: 2px solid #c9a227; background: linear-gradient(#cfd8e0 55%, #e8dcc0 55%); }
+.guide-mock__menu {
+  position: absolute; top: 22px; right: 6px; width: 64%; margin: 0; padding: 6px 0; list-style: none;
+  background: #fff; border-radius: 8px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+.guide-mock__menu li { padding: 6px 12px; }
+.guide-mock__dialog {
+  position: absolute; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; gap: 10px;
+  padding: 14px 14px 16px; background: #fff; border-radius: 14px 14px 0 0; box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.25);
+}
+.guide-mock__dialog strong { font-size: 14px; }
+.guide-mock__app { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 8px; align-items: center; font-weight: 600; }
+.guide-mock__app img { grid-row: span 2; width: 34px; height: 34px; border-radius: 8px; }
+.guide-mock__app small { font-weight: 400; color: #5f6368; }
+.guide-mock__buttons { display: flex; justify-content: flex-end; gap: 14px; color: #1a73e8; font-weight: 600; }
+.guide-mock__buttons span { padding: 6px 10px; border-radius: 16px; }
+/* Safari (iOS 26): the address bar sits at the bottom, sheets slide up. */
+.guide-mock--ios { font-family: -apple-system, 'SF Pro Text', 'Segoe UI', Arial, sans-serif; }
+.guide-mock--ios .guide-mock__page { padding-top: 30px; }
+.guide-mock__bar { flex: none; display: flex; align-items: center; gap: 6px; padding: 8px 8px 18px; background: #f1f3f4; }
+.guide-mock__menu--ios { top: auto; bottom: 52px; right: 8px; width: 70%; border-radius: 14px; }
+.guide-mock__sheet {
+  position: absolute; left: 0; right: 0; bottom: 0; top: 24%; display: flex; flex-direction: column; gap: 10px;
+  padding: 14px 12px; background: #f2f2f7; border-radius: 16px 16px 0 0; box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.2);
+}
+.guide-mock__sheet--full { top: 6%; }
+.guide-mock__list { margin: 0; padding: 4px 0; list-style: none; background: #fff; border-radius: 10px; }
+.guide-mock__list li { padding: 7px 10px; border-bottom: 1px solid #e5e5ea; }
+.guide-mock__list li:last-child { border-bottom: 0; }
+.guide-mock__sheet-head { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.guide-mock__sheet-head strong { font-size: 12px; }
+.guide-mock__x { width: 22px; height: 22px; display: grid; place-items: center; border-radius: 50%; background: #fff; }
+.guide-mock__add { padding: 4px 12px; border-radius: 14px; background: #0a84ff; color: #fff; font-weight: 700; }
+.guide-mock__app--row { padding: 8px; background: #fff; border-radius: 10px; }
+.guide-mock__toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 8px 10px; background: #fff; border-radius: 10px; }
+.guide-mock__toggle { position: relative; width: 34px; height: 20px; border-radius: 10px; background: #34c759; }
+.guide-mock__toggle::after { content: ''; position: absolute; top: 2px; right: 2px; width: 16px; height: 16px; border-radius: 50%; background: #fff; }
+
+/* What to tap on a sketch: a gold ring. */
+.guide-mock__hit { outline: 3px solid var(--gold); outline-offset: 1px; border-radius: 8px; box-shadow: 0 0 12px color-mix(in srgb, var(--gold) 60%, transparent); animation: guide-ring-pulse 1.6s ease-in-out infinite; }
+.guide-mock__menu li.guide-mock__hit { background: #fdf6dd; }
+
+/* Hunt demo */
+.guide-hunt { display: flex; flex-direction: column; gap: 14px; }
+.guide-hunt__slider { display: flex; flex-direction: column; gap: 8px; font-size: 16px; }
+.guide-hunt__slider input { width: 100%; accent-color: var(--gold); }
+.guide-hunt__ladder { display: flex; gap: 8px; list-style: none; margin: 0; padding: 0; }
+.guide-hunt__ladder li { padding: 4px 12px; border: 2px solid var(--border); color: var(--text-muted); font-weight: 700; transition: all 0.2s ease; }
+.guide-hunt__ladder li.is-on { border-color: var(--gold); background: var(--gold); color: var(--bg-card); }
+.guide-hunt__ladder li.is-gone { opacity: 0.35; text-decoration: line-through; }
+.guide-hunt__panel .hunt-panel { margin: 0; }
+.guide-hunt__foot { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+.guide-hunt__foot .guide-demo__hint { margin: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .guide-tile, .guide-tile__art, .guide-rarity__pick, .guide-hunt__ladder li { transition: none; }
+  .guide-checkin__alert, .guide-mock__hit { animation: none; }
+}
+
+/* ── Narrower screens: windows and demos ─────────────────────────────────── */
+
+/* Below 2K the rarity thumbnails are smaller, so all seven fit the column. */
+@media (max-width: 2399px) {
+  .guide-rarity__pick { zoom: 0.48; }
+  .guide-rarity__row { justify-content: flex-start; overflow-x: auto; scrollbar-width: thin; }
+}
+
+/* Below a wide computer screen the demo goes under the text, and the whole
+   window scrolls as one. */
+@media (max-width: 1399px) {
+  .guide-window--demo, .guide-window--install { display: block; overflow-y: auto; }
+  .guide-window--demo .guide-window__text,
+  .guide-window--demo .guide-window__demo { max-height: none; overflow: visible; padding-right: 0; }
+  .guide-window__demo { border-left: 0; padding-left: 0; border-top: 2px solid var(--border); margin-top: 22px; padding-top: 6px; }
+  /* Rows that don't fit scroll sideways instead of shrinking. */
+  .guide-rarity__row { justify-content: flex-start; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; padding-bottom: 10px; scrollbar-width: thin; }
+  .guide-rarity__pick { scroll-snap-align: start; }
+  .guide-install { grid-template-columns: 1fr; }
+}
+@media (max-width: 900px) {
+  .guide-install__row { overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; padding-bottom: 8px; }
+  .guide-install__step { flex: 0 0 190px; scroll-snap-align: start; }
+  .guide-checkin__stage, .guide-rarity__stage { flex-direction: column; align-items: center; }
+  .guide-checkin__map { width: min(420px, 100%); height: auto; aspect-ratio: 1; }
+  .guide-checkin__side { align-items: center; text-align: center; }
+  .guide-rarity__about { text-align: center; }
+  .guide-rarity__toggle { justify-content: center; }
+  .guide-hunt__foot { flex-direction: column; align-items: stretch; }
+}
+
+/* Phones: one column. Wide tiles put their picture on top and the text under
+   it; the others keep the picture with the text over its bottom. The window
+   is a sheet from the bottom. */
+@media (max-width: 640px) {
+  .guide-board { padding: 14px 16px 28px; gap: 14px; }
+  :is(#root, body) .guide-board__title { font-size: 32px !important; }
+  .guide-board__tagline { font-size: 15px; }
+  .guide-board__challenge { font-size: 16px; }
+  .guide-board__hint { display: none; }
+  .guide-board__grid { grid-template-columns: 1fr; grid-auto-rows: auto; gap: 14px; }
+  .guide-tile { grid-column: auto !important; grid-row: auto !important; }
+  .guide-tile--full { aspect-ratio: 3 / 2; }
+  .guide-tile--wide .guide-tile__inner { position: static; flex-direction: column; }
+  .guide-tile--wide .guide-tile__pic { width: 100%; height: auto; aspect-ratio: 4 / 3; border-right: 0; border-bottom: 2px solid var(--border); }
+  .guide-tile--wide .guide-tile__body { padding: 12px 16px 14px; }
+  .guide-tile__title { font-size: 21px; }
+  .guide-tile__teaser { font-size: 15px; }
+  .guide-tile--what .guide-tile__title { font-size: 26px; }
+  .guide-tile--what .guide-tile__teaser { font-size: 16px; }
+  .guide-tile--what .guide-tile__local { display: none; }
+  .guide-tile--what .guide-tile__body { padding: 40px 16px 14px; }
+
+  .guide-window { width: 100%; max-height: 90vh; padding: 22px 16px 26px; overflow-y: auto; }
+  .guide-window__title { font-size: 24px; margin-bottom: 12px; }
+  .guide-rarity__big { zoom: 0.9; }
+  .guide-rarity__pick { zoom: 0.5; }
+  .guide-checkin__card { zoom: 0.7; }
+}

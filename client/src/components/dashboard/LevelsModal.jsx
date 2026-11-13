@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import { userAPI } from '../../services/api';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 
@@ -6,6 +7,7 @@ import { useT, useLang, useConvert } from '../../context/LanguageContext';
 // highlighted. Opened from the XP · Lv figure in the navbar (it used to be an
 // "Explorer Levels" section on the Profile page).
 export default function LevelsModal({ currentLevel, onClose }) {
+  const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -16,15 +18,15 @@ export default function LevelsModal({ currentLevel, onClose }) {
   }, []);
 
   useEffect(() => {
-    const onKey = e => { if (e.key === 'Escape') onClose(); };
+    const onKey = e => { if (e.key === 'Escape') close(); };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [onClose]);
+  }, [close]);
 
   return (
-    <div className="px-overlay" onClick={onClose}>
-      <div className="px-modal levels-modal" onClick={e => e.stopPropagation()} role="dialog" aria-label={t('dashboard.explorerLevels')}>
-        <button className="px-modal__close" onClick={onClose}>✕</button>
+    <div ref={overlayRef} className="px-overlay" onClick={close}>
+      <div ref={modalRef} className="px-modal levels-modal" onClick={e => e.stopPropagation()} role="dialog" aria-label={t('dashboard.explorerLevels')}>
+        <button className="px-modal__close" onClick={close}>✕</button>
         <h2 className="px-title" style={{ fontSize: 22, margin: '0 0 14px' }}>{t('dashboard.explorerLevels')}</h2>
         {!levels ? (
           <div style={{ display: 'flex', justifyContent: 'center', padding: 24 }}><div className="spinner" /></div>

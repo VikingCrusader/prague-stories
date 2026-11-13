@@ -1,5 +1,13 @@
 import { test, expect } from '@playwright/test';
 
+// Windows grow out of what opened them (useModalEntrance); wait for that before
+// measuring one.
+const settled = page => page.evaluate(() => Promise.all(
+  [...document.querySelectorAll('.px-overlay, .px-modal')]
+    .flatMap(el => el.getAnimations())
+    .map(a => a.finished.catch(() => {})),
+));
+
 const USER = { _id: 'u1', username: 'explorer', email: 'e@example.com', totalXP: 140, explorerLevel: 2 };
 
 const PROGRESS = {
@@ -319,6 +327,7 @@ test.describe('Dashboard', () => {
       await page.locator('.rarity-compact__item', { hasText: 'Legendary' }).getByRole('button').click();
       await expect(page.locator('.profile-gallery .loc-card')).toHaveCount(20); // collected ones of this rarity only
       await expect(page.locator('.profile-gallery .card-strip__count')).toHaveText('20');
+      await settled(page);
       // With the side column Explore scales its cards to fit whole rows; the window keeps them full size.
       if (width >= 1180 && height >= 700) expect(await widthOn('.profile-gallery')).toBeGreaterThanOrEqual(onExplore - 1);
       else expect(Math.abs(await widthOn('.profile-gallery') - onExplore)).toBeLessThan(1);
@@ -377,6 +386,7 @@ test.describe('Dashboard', () => {
     const cards = guide.locator('.area-guide__collection .loc-card');
     await expect(guide.locator('.area-guide__title')).toHaveText('Prague 11');
     await expect(cards).toHaveCount(12); // collected, in this district only
+    await settled(page);
     const text = await guide.locator('.area-guide__text').boundingBox();
     const shelf = await guide.locator('.area-guide__collection').boundingBox();
     expect(shelf.x).toBeGreaterThanOrEqual(text.x + text.width - 1);
@@ -387,6 +397,7 @@ test.describe('Dashboard', () => {
     await cards.first().click();
     const detail = page.locator('.px-modal--detail');
     await expect(detail).toBeVisible();
+    await settled(page);
     const box = await detail.boundingBox();
     const top = await page.evaluate(({ x, y }) => !!document.elementFromPoint(x, y)?.closest('.px-modal--detail'), { x: box.x + box.width / 2, y: box.y + box.height / 2 });
     expect(top).toBe(true);
@@ -465,6 +476,7 @@ test.describe('Dashboard', () => {
     await stacked.locator('.loc-card').click();
     const detail = page.locator('.px-modal--detail');
     await expect(detail).toBeVisible();
+    await settled(page);
     const box = await detail.boundingBox();
     expect(await page.evaluate(({ x, y }) => !!document.elementFromPoint(x, y)?.closest('.px-modal--detail'), { x: box.x + box.width / 2, y: box.y + box.height / 2 })).toBe(true);
   });

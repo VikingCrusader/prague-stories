@@ -1,4 +1,9 @@
-export default function ProgressRing({ percent, size = 160, label = 'UNLOCKED' }) {
+import { useCountUp } from '../../hooks/useCountUp';
+
+// The ring fills up from 0 when it first shows and runs to a new value after
+// that, its percentage counting along (2026-11-13).
+export default function ProgressRing({ percent: target, size = 160, label = 'UNLOCKED' }) {
+  const percent = useCountUp(target, { ms: 900, fromZero: true });
   const r         = (size - 20) / 2;
   const circ      = 2 * Math.PI * r;
   const dash      = (percent / 100) * circ;
@@ -18,7 +23,7 @@ export default function ProgressRing({ percent, size = 160, label = 'UNLOCKED' }
         strokeDasharray={`${dash} ${circ}`}
         strokeDashoffset={0}
         transform={`rotate(-90 ${cx} ${cx})`}
-        style={{ filter: 'drop-shadow(0 0 6px #FFD700aa)', transition: 'stroke-dasharray 0.6s ease' }}
+        style={{ filter: 'drop-shadow(0 0 6px #FFD700aa)' }}
       />
       {/* text */}
       <text x={cx} y={cx - 10} textAnchor="middle" fill="var(--gold)"

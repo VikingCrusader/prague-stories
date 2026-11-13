@@ -1,4 +1,4 @@
-import { useCallback, useLayoutEffect, useRef } from 'react';
+import { useCallback, useLayoutEffect, useRef, useState } from 'react';
 import { viewportRect } from '../utils/fitPage';
 
 const PHONE = '(max-width: 600px)';
@@ -10,7 +10,35 @@ const still = () => matches('(prefers-reduced-motion: reduce)');
 
 // The card on the page that this detail belongs to, if one is in view. A copy
 // inside the card showcase doesn't count: that is the thing being opened.
+const inView = (r) => r.width > 0 && r.bottom > 0 && r.top < window.innerHeight && r.right > 0 && r.left < window.innerWidth;
+
+// The last element pressed on the page, so a window opened by a small control
+// (a district pill, a name in a list) can grow out of it. Pointer for mouse and
+// touch, Enter/Space for the keyboard.
+let pressed = null;
+if (typeof document !== 'undefined') {
+  const note = (e) => { pressed = { el: e.target, at: Date.now() }; };
+  document.addEventListener('pointerdown', note, true);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') note(e); }, true);
+}
+export function lastPressed(withinMs = 1500) {
+  if (!pressed || Date.now() - pressed.at > withinMs) return null;
+  const el = pressed.el?.closest?.('button, a, [role="button"]') || pressed.el;
+  return el instanceof Element ? el : null;
+}
+
+// `source`: a slug (the card or pack on the page) or an element.
+function sourceRect(source) {
+  if (source instanceof Element) {
+    if (!source.isConnected) return null;
+    const r = viewportRect(source);
+    return inView(r) ? r : null;
+  }
+  return sourceCard(source);
+}
+
 function sourceCard(slug) {
+  if (!slug) return null;
   let cards = [];
   try {
     cards = document.querySelectorAll(`.loc-card[data-slug="${CSS.escape(slug)}"], .pack-card[data-pack="${CSS.escape(slug)}"]`);
@@ -18,7 +46,7 @@ function sourceCard(slug) {
   for (const el of cards) {
     if (el.closest('.card-showcase')) continue;
     const r = viewportRect(el);
-    if (r.width > 0 && r.bottom > 0 && r.top < window.innerHeight && r.right > 0 && r.left < window.innerWidth) return r;
+    if (inView(r)) return r;
   }
   return null;
 }
@@ -30,13 +58,16 @@ function sourceCard(slug) {
 // showcase is scaled); the animation runs from the card to that.
 function restingPlace(modal, slug, { sheet = true, finalTransform = 'none' } = {}) {
   if (sheet && matches(PHONE)) return { transform: 'translateY(100%)', opacity: 1, ms: 260 };
-  const card = sourceCard(slug);
+  const card = sourceRect(slug);
   if (!card) return { transform: 'translateY(10px) scale(0.96)', opacity: 0, ms: 180, finalTransform };
   const m = modal.getBoundingClientRect();
   if (!m.width) return null;
   const dx = card.left + card.width / 2 - (m.left + m.width / 2);
   const dy = card.top + card.height / 2 - (m.top + m.height / 2);
-  return { transform: `translate(${dx}px, ${dy}px) scale(${card.width / m.width})`, opacity: 0, ms: 300, finalTransform };
+  // A small source (a pill) gives a tiny scale; growing from it uniformly would
+  // look like a dot, so keep a floor and let the fade carry the rest.
+  const scale = Math.max(card.width / m.width, 0.12);
+  return { transform: `translate(${dx}px, ${dy}px) scale(${scale})`, opacity: 0, ms: 300, finalTransform };
 }
 
 // Plays the entrance on `modal` (and the backdrop's fade on `overlay`, if given).
@@ -65,7 +96,8 @@ export function growIn(modal, slug, { overlay = null, sheet = true, finalTransfo
   return () => { grow.cancel(); dim?.cancel(); };
 }
 
-// Entrance and exit of a card detail window (2026-11-12). Put `overlayRef` on
+// Entrance and exit of a card detail window (2026-11-12). `slug` may also be an
+// element the window grows out of (the area guide's pill, 2026-11-13). Put `overlayRef` on
 // the backdrop and `modalRef` on the window, and close through `close`, which
 // plays the exit before calling `onClose`. Only transform, opacity and the
 // backdrop's colour move. Skipped under prefers-reduced-motion.
@@ -78,7 +110,7 @@ export function useModalEntrance(slug, onClose) {
 
   useLayoutEffect(() => {
     if (!overlayRef.current || !modalRef.current) return undefined;
-    return growIn(modalRef.current, slug, { overlay: overlayRef.current });
+    return growIn(modalRef.current, slug, { overlay: overlayRef.current }) ?? undefined;
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const close = useCallback(() => {
@@ -108,4 +140,13 @@ export function useModalEntrance(slug, onClose) {
   }, []);
 
   return { overlayRef, modalRef, close };
+}
+
+// The same for any other window (2026-11-13): it grows out of whatever was
+// pressed to open it (a button, an icon, a pill) and shrinks back into it, or
+// slides up on phones; with nothing pressed (opened by the app itself) it fades
+// in a little smaller.
+export function useWindowEntrance(onClose) {
+  const [origin] = useState(() => lastPressed());
+  return useModalEntrance(origin, onClose);
 }

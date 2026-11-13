@@ -3556,3 +3556,10 @@ html[data-card-motion="off"] .loc-card:not(.loc-card--flipping)::after {
 .settings-switch:hover { color: var(--text-primary); }
 .settings-switch[aria-pressed="true"] { color: var(--gold); border-color: var(--gold); background: rgba(255, 215, 0, 0.12); }
 
+
+/* Dropdown panels (labels, rarity, sort, area, the Map's top bar) drop in
+   (2026-11-13). `translate`, not `transform`, so nothing that positions a
+   panel with a transform is overridden. The always-open inline ones don't. */
+.label-filter__panel:not(.label-filter__panel--inline) { animation: dropdown-in 0.16s ease-out; }
+@keyframes dropdown-in { from { opacity: 0; translate: 0 -6px; } }
+@media (prefers-reduced-motion: reduce) { .label-filter__panel { animation: none; } }

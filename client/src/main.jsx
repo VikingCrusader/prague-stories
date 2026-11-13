@@ -6,6 +6,7 @@ import './styles/pixelart.css';
 import './styles/history.css';
 import './styles/achievements.css';
 import './styles/packs.css';
+import './styles/guide.css';
 import App from './App';
 import { startAutoUpdate } from './utils/autoUpdate';
 

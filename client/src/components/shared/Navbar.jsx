@@ -5,6 +5,14 @@ import { useT, useLang } from '../../context/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
 import ThemeToggle from './ThemeToggle';
 import LevelsModal from '../dashboard/LevelsModal';
+import { useCountUp } from '../../hooks/useCountUp';
+
+// The XP figure runs up to its new total after a check-in (it starts at the
+// real total, so a page load doesn't count up from 0).
+function NavXP({ xp, locale }) {
+  const shown = useCountUp(xp);
+  return shown.toLocaleString(locale);
+}
 
 export default function Navbar() {
   const { user, guest, logout } = useAuth();
@@ -17,11 +25,13 @@ export default function Navbar() {
   const linksRef = useRef(null);
   const indicatorRef = useRef(null);
   const { pathname } = useLocation();
-  const place = useCallback(() => {
+  // Puts the frame on a link: the current page's, or (on a click) the link
+  // just pressed, so it starts gliding at once instead of after the new page
+  // has mounted (2026-11-13; see the exit turn in PageTurn.jsx).
+  const placeOn = useCallback((active) => {
     const box = linksRef.current;
     const ind = indicatorRef.current;
     if (!box || !ind) return;
-    const active = box.querySelector('.navbar__link--active');
     if (!active) { ind.style.opacity = '0'; return; }
     ind.style.opacity = '1';
     ind.style.width = `${active.offsetWidth}px`;
@@ -29,6 +39,7 @@ export default function Navbar() {
     ind.style.transform = `translate(${active.offsetLeft}px, ${active.offsetTop}px)`;
     if (!box.hasAttribute('data-ready')) requestAnimationFrame(() => box.setAttribute('data-ready', ''));
   }, []);
+  const place = useCallback(() => placeOn(linksRef.current?.querySelector('.navbar__link--active')), [placeOn]);
   useLayoutEffect(place, [place, pathname, user, guest, lang]);
   useLayoutEffect(() => {
     window.addEventListener('resize', place);
@@ -49,7 +60,7 @@ export default function Navbar() {
       </span>
 
       {(user || guest) && (
-        <div className="navbar__links" ref={linksRef}>
+        <div className="navbar__links" ref={linksRef} onClick={e => { const link = e.target.closest('a.navbar__link'); if (link && !e.metaKey && !e.ctrlKey && !e.shiftKey) placeOn(link); }}>
           <span ref={indicatorRef} className="navbar__indicator" aria-hidden="true" />
           {/* Order (2026-11-04, user's call): going out (Explore, Map,
               Treasure Hunt), reading (History, then the Guide), and the
@@ -69,7 +80,7 @@ export default function Navbar() {
         <LanguageSwitcher />
         {user ? (
           <button type="button" className="navbar__user" onClick={() => setLevelsOpen(true)} title={t('nav.levelsHint')}>
-            {(user.totalXP ?? 0).toLocaleString(lang === 'cz' ? 'cs-CZ' : 'en-US')} XP · Lv {user.explorerLevel}
+            <NavXP xp={user.totalXP ?? 0} locale={lang === 'cz' ? 'cs-CZ' : 'en-US'} /> XP · Lv {user.explorerLevel}
           </button>
         ) : guest ? (
           <button className="px-btn px-btn--gold px-btn--sm" onClick={() => navigate('/login')}>{t('nav.login')}</button>

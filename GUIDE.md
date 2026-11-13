@@ -31,17 +31,14 @@ You begin at **Level 1: Newcomer**. This is accurate. Embrace it.
 Prague Stories runs full-screen on your phone, with no browser bar and no pasting the link every time.
 
 **iPhone (Safari):**
-1. Open Safari. It has to be Safari, not Chrome or any other browser.
-2. Go to the app URL.
-3. Tap the **Share** button (the box with an arrow pointing up) at the bottom of the screen.
-4. Scroll down and tap **Add to Home Screen**.
-5. Tap **Add**. The icon appears on your home screen.
+1. Open the app's address in Safari (it has to be Safari), tap **⋯** at the bottom right, then **Share**.
+2. In the share sheet, tap **View More** if you need to, then **Add to Home Screen**.
+3. Leave **Open as Web App** switched on and tap **Add**. The icon appears on your home screen.
 
 **Android (Chrome):**
-1. Open Chrome and go to the app URL.
-2. Tap the **three-dot menu (⋮)** in the top-right corner.
-3. Tap **Add to Home Screen** or **Install App**.
-4. Tap **Add**. The icon appears on your home screen.
+1. Open the app's address in Chrome and tap the **three-dot menu (⋮)** at the top right.
+2. Tap **Add to Home screen** or **Install app**.
+3. Tap **Install** (or **Add**). The icon appears on your home screen.
 
 > Once installed, it opens full-screen like a native app, with no address bar and no browser UI. Tap the icon and you're in Prague.
 

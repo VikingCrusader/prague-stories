@@ -1,9 +1,11 @@
 import { useState } from 'react';
+import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import { locationAPI } from '../../services/api';
 import { useLang } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 
 export default function LabelEditorModal({ location, onClose, onUpdated }) {
+  const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
   const { lang } = useLang();
   const [selected, setSelected] = useState(location.labels || []);
   const [loading, setLoading]   = useState(false);
@@ -31,9 +33,9 @@ export default function LabelEditorModal({ location, onClose, onUpdated }) {
   };
 
   return (
-    <div className="px-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-      <div className="px-modal" style={{ maxWidth: 480 }}>
-        <button className="px-modal__close" onClick={onClose}>✕</button>
+    <div ref={overlayRef} className="px-overlay" onClick={e => e.target === e.currentTarget && close()}>
+      <div ref={modalRef} className="px-modal" style={{ maxWidth: 480 }}>
+        <button className="px-modal__close" onClick={close}>✕</button>
         <div className="px-modal__header" style={{ background: 'var(--bg-surface)', padding: '20px 20px 16px' }}>
           <h2 className="px-title" style={{ fontSize: 20 }}>Edit Labels — {location.name}</h2>
         </div>
@@ -55,7 +57,7 @@ export default function LabelEditorModal({ location, onClose, onUpdated }) {
             <button className="px-btn px-btn--gold" onClick={save} disabled={loading}>
               {loading ? 'Saving...' : 'Save'}
             </button>
-            <button className="px-btn px-btn--dark" onClick={onClose}>Cancel</button>
+            <button className="px-btn px-btn--dark" onClick={close}>Cancel</button>
           </div>
         </div>
       </div>

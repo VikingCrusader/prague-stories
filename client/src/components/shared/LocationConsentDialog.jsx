@@ -1,4 +1,6 @@
+import { useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import { useT } from '../../context/LanguageContext';
 import { useLocationConsent } from '../../hooks/useLocationConsent';
 import { setLocationConsent } from '../../utils/locationConsent';
@@ -17,19 +19,29 @@ export default function LocationConsentDialog() {
   if (consent && !requested) return null;
   // The Privacy page has the same choice inline; let it be read in full.
   if (pathname === '/privacy') return null;
+  return <ConsentBox />;
+}
+
+// The window itself, so it grows in when it appears and the answer is saved
+// once it has shrunk back.
+function ConsentBox() {
+  const t = useT();
+  const choice = useRef(null);
+  const { overlayRef, modalRef, close } = useWindowEntrance(() => setLocationConsent(choice.current));
+  const answer = (granted) => { choice.current = granted; close(); };
 
   return (
-    <div className="px-overlay location-consent" style={{ zIndex: 2100 }}>
-      <div className="px-modal location-consent__box" role="dialog" aria-modal="true" aria-labelledby="location-consent-title">
+    <div ref={overlayRef} className="px-overlay location-consent" style={{ zIndex: 2100 }}>
+      <div ref={modalRef} className="px-modal location-consent__box" role="dialog" aria-modal="true" aria-labelledby="location-consent-title">
         <h2 id="location-consent-title" className="px-title location-consent__title">📍 {t('consent.title')}</h2>
         <p>{t('consent.why')}</p>
         <p>{t('consent.what')}</p>
         <p>{t('consent.optional')}</p>
         <div className="location-consent__actions">
-          <button type="button" className="px-btn px-btn--outline" onClick={() => setLocationConsent(true)}>
+          <button type="button" className="px-btn px-btn--outline" onClick={() => answer(true)}>
             {t('consent.allow')}
           </button>
-          <button type="button" className="px-btn px-btn--outline" onClick={() => setLocationConsent(false)}>
+          <button type="button" className="px-btn px-btn--outline" onClick={() => answer(false)}>
             {t('consent.deny')}
           </button>
         </div>

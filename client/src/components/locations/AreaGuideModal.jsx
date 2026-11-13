@@ -11,6 +11,7 @@ import FullCardGrid from './FullCardGrid';
 import LocationDetail from './LocationDetail';
 import PackDetail from '../packs/PackDetail';
 import { usePacks } from '../../hooks/usePacks';
+import { useWindowEntrance } from '../../hooks/useModalEntrance';
 
 const SPLIT_QUERY = '(min-width: 1200px)';
 
@@ -69,7 +70,9 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
     if (packs.some(p => p.slug === slug)) setOpenPack(slug); else setOpenSlug(slug);
   };
   const [expanded, setExpanded] = useState(false);
-  const modalRef = useRef(null);
+  // The window grows out of what was pressed to open it (a pill, a district on
+  // the map, an area name) and shrinks back into it; phones slide it up.
+  const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
   const split = withCollection && wide;
   const stacked = withCollection && !wide;
 
@@ -102,18 +105,22 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
     return () => { live = false; };
   }, [locations]);
 
+  // Read through a ref, so an Escape pressed right after a card on top has
+  // closed (before an effect could re-run) already reaches this window.
+  const onTop = useRef(false);
+  onTop.current = !!(openSlug || openPack);
   useEffect(() => {
     // Capture phase, stopped there, so Escape closes only this pop-up and not
     // the card detail underneath it. Not while a card opened from here (its
     // detail or showcase) lies on top.
     const onKey = e => {
-      if (e.key !== 'Escape' || openSlug || openPack || document.querySelector('.card-showcase')) return;
+      if (e.key !== 'Escape' || onTop.current || document.querySelector('.card-showcase')) return;
       e.stopPropagation();
-      onClose();
+      close();
     };
     window.addEventListener('keydown', onKey, true);
     return () => window.removeEventListener('keydown', onKey, true);
-  }, [onClose, openSlug, openPack]);
+  }, [close]);
 
   useEffect(() => {
     const prev = document.body.style.overflow;
@@ -205,9 +212,9 @@ export default function AreaGuideModal({ kind, value, locations, withCollection 
     // so clicks stop here instead of reaching (and closing) a detail overlay.
     <>
       {!replacedByCard && (
-      <div className={`px-overlay area-guide-overlay${withCollection ? ' area-guide-overlay--profile' : ''}${stacked ? ' area-guide-overlay--stacked' : ''}`} onClick={e => { e.stopPropagation(); onClose(); }}>
+      <div ref={overlayRef} className={`px-overlay area-guide-overlay${withCollection ? ' area-guide-overlay--profile' : ''}${stacked ? ' area-guide-overlay--stacked' : ''}`} onClick={e => { e.stopPropagation(); close(); }}>
         <div ref={modalRef} className={`px-modal area-guide${split ? ' area-guide--split' : ''}${stacked ? ' area-guide--stacked' : ''}`} onClick={e => e.stopPropagation()} role="dialog" aria-label={convert(title)}>
-          <button className="px-modal__close" onClick={onClose} aria-label={t('areaGuide.close')}>✕</button>
+          <button className="px-modal__close" onClick={close} aria-label={t('areaGuide.close')}>✕</button>
           {split ? (
             <>
               <div className="area-guide__text">{guide}</div>

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { createPortal } from 'react-dom';
+import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { DISTRICT_COLORS } from '../locations/DistrictLine';
 import AreaGuideModal from '../locations/AreaGuideModal';
@@ -26,6 +27,25 @@ import DistrictMap from './DistrictMap';
 // rows. The last page is padded with empty rows.
 const QUARTER_PAGE = 21;
 
+// The rows' window, growing out of its View details button.
+function DetailsWindow({ onClose, label, children }) {
+  const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
+  useEffect(() => {
+    // A guide opened from a row handles Escape itself, first.
+    const onKey = e => { if (e.key === 'Escape') close(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [close]);
+  return (
+    <div ref={overlayRef} className="px-overlay" onClick={close}>
+      <div ref={modalRef} className="px-modal district-details" onClick={e => e.stopPropagation()} role="dialog" aria-label={label}>
+        <button type="button" className="px-modal__close" onClick={close} aria-label="✕">✕</button>
+        {children}
+      </div>
+    </div>
+  );
+}
+
 export default function DistrictProgress({ districts, quarters, own = false }) {
   const t = useT();
   const { lang } = useLang();
@@ -34,13 +54,6 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
   const [page, setPage] = useState(0);
   const [guide, setGuide] = useState(null);
   const [listOpen, setListOpen] = useState(false);
-  useEffect(() => {
-    if (!listOpen) return undefined;
-    // A guide opened from a row handles Escape itself, first.
-    const onKey = e => { if (e.key === 'Escape') setListOpen(false); };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [listOpen]);
 
   const quarterRows = useMemo(() => {
     const collator = new Intl.Collator(lang === 'zh' ? 'zh' : lang === 'cz' ? 'cs' : 'en');
@@ -99,9 +112,7 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
       </button>
       {/* In a portal: the page itself may be zoomed to fit the screen. */}
       {listOpen && createPortal(
-        <div className="px-overlay" onClick={() => setListOpen(false)}>
-          <div className="px-modal district-details" onClick={e => e.stopPropagation()} role="dialog" aria-label={t(isQ ? 'dashboard.quarterProgress' : 'dashboard.districtProgress')}>
-            <button type="button" className="px-modal__close" onClick={() => setListOpen(false)} aria-label="✕">✕</button>
+        <DetailsWindow onClose={() => setListOpen(false)} label={t(isQ ? 'dashboard.quarterProgress' : 'dashboard.districtProgress')}>
             <h2 className="px-title district-details__title">{t(isQ ? 'dashboard.quarterProgress' : 'dashboard.districtProgress')}</h2>
             <div className="district-progress__summary">
               <span className="stat-card__value">{visited} / {all.length}</span>
@@ -142,8 +153,7 @@ export default function DistrictProgress({ districts, quarters, own = false }) {
                 </li>
               )}
             </ul>
-          </div>
-        </div>,
+        </DetailsWindow>,
         document.body,
       )}
       {guide && <AreaGuideModal kind={guide.kind} value={guide.value} withCollection onClose={() => setGuide(null)} />}

@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import { userAPI, locationAPI, packAPI } from '../../services/api';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { RARITY_LABEL } from '../../utils/rarity';
@@ -45,6 +46,7 @@ export default function ProfileGallery({ kind, achievements, paused, onClose, on
   const [cards, setCards] = useState(null);
   const [failed, setFailed] = useState(false);
   const scrollRef = useRef(null);
+  const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
 
   useEffect(() => {
     if (isAch) return undefined;
@@ -59,20 +61,20 @@ export default function ProfileGallery({ kind, achievements, paused, onClose, on
     if (paused) return undefined;
     const onKey = e => {
       // The card showcase (a long press or double click) handles its own.
-      if (e.key === 'Escape' && !document.querySelector('.card-showcase')) onClose();
+      if (e.key === 'Escape' && !document.querySelector('.card-showcase')) close();
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [paused, onClose]);
+  }, [paused, close]);
 
   const unlocked = isAch ? achievements.filter(a => a.unlocked).sort(rarestFirst) : null;
   const count = isAch ? unlocked.length : cards?.length;
   const title = isRarity ? convert(RARITY_LABEL[lang]?.[kind] ?? RARITY_LABEL.en[kind]) : t(TITLE[kind]);
 
   return (
-    <div className="px-overlay" onClick={onClose}>
-      <div className={`px-modal profile-gallery${fullCards || isPacks ? ' profile-gallery--wide' : ''}`} onClick={e => e.stopPropagation()} role="dialog" aria-label={title}>
-        <button type="button" className="px-modal__close" onClick={onClose} aria-label="✕">✕</button>
+    <div ref={overlayRef} className="px-overlay" onClick={close}>
+      <div ref={modalRef} className={`px-modal profile-gallery${fullCards || isPacks ? ' profile-gallery--wide' : ''}`} onClick={e => e.stopPropagation()} role="dialog" aria-label={title}>
+        <button type="button" className="px-modal__close" onClick={close} aria-label="✕">✕</button>
         <h2 className="px-title profile-gallery__title">
           {title} {count != null && <span className="card-strip__count">{count}</span>}
         </h2>

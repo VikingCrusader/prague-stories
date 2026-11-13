@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import { useT, useConvert } from '../../context/LanguageContext';
 import { cardMotionOn, setCardMotion } from '../../utils/cardMotion';
 
@@ -7,6 +8,7 @@ import { cardMotionOn, setCardMotion } from '../../utils/cardMotion';
 // things a player sets once on this device: the screen staying on, and the card
 // animations (remembered in utils/cardMotion.js). More can go in the list later.
 export default function SettingsWindow({ wakeLock, onClose }) {
+  const { overlayRef, modalRef, close } = useWindowEntrance(onClose);
   const t = useT();
   const convert = useConvert();
   const [motion, setMotion] = useState(cardMotionOn);
@@ -16,15 +18,15 @@ export default function SettingsWindow({ wakeLock, onClose }) {
     setMotion(next);
   };
   useEffect(() => {
-    const onKey = e => { if (e.key === 'Escape') onClose(); };
+    const onKey = e => { if (e.key === 'Escape') close(); };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [onClose]);
+  }, [close]);
 
   return (
-    <div className="px-overlay settings-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-      <div className="px-modal settings-window" role="dialog" aria-label={convert(t('settings.title'))}>
-        <button type="button" className="px-modal__close" onClick={onClose} aria-label={convert(t('areaGuide.close'))}>✕</button>
+    <div ref={overlayRef} className="px-overlay settings-overlay" onClick={e => e.target === e.currentTarget && close()}>
+      <div ref={modalRef} className="px-modal settings-window" role="dialog" aria-label={convert(t('settings.title'))}>
+        <button type="button" className="px-modal__close" onClick={close} aria-label={convert(t('areaGuide.close'))}>✕</button>
         <h2 className="px-title settings-window__title">{convert(t('settings.title'))}</h2>
         <ul className="settings-window__list">
           <li className="settings-row">
