@@ -4,6 +4,7 @@ import { authAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useT, useLang } from '../context/LanguageContext';
 import { useTheme } from '../context/ThemeContext';
+import { markInstallPromptPending } from '../utils/installPrompt';
 
 export default function RegisterPage() {
   const { login } = useAuth();
@@ -22,6 +23,7 @@ export default function RegisterPage() {
     setError(''); setLoading(true);
     try {
       const res = await authAPI.register({ ...form, preferences: { theme, lang, zhVariant } });
+      markInstallPromptPending();
       login(res.data.token, res.data.user);
       navigate('/explore');
     } catch (err) {

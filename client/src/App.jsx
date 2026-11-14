@@ -7,6 +7,8 @@ import PreferenceSync from './components/shared/PreferenceSync';
 import Navbar from './components/shared/Navbar';
 import ProtectedRoute from './components/shared/ProtectedRoute';
 import NotificationOptIn from './components/shared/NotificationOptIn';
+import InstallPrompt from './components/shared/InstallPrompt';
+import { isHandheld, isInstallPromptPending, isStandalone } from './utils/installPrompt';
 import ProximityToast from './components/shared/ProximityToast';
 import LevelUpModal from './components/shared/LevelUpModal';
 import AchievementUnlocked from './components/achievements/AchievementUnlocked';
@@ -39,7 +41,12 @@ function ProximityDetector() {
   const { showPrompt, request, dismiss: dismissOptIn } = useNotificationPermission();
   const [nearbyLoc, setNearbyLoc] = useState(null);
   // No position is read until the user has agreed (LocationConsentDialog).
-  const locationAllowed = useLocationConsent().consent?.granted === true;
+  const { consent } = useLocationConsent();
+  const locationAllowed = consent?.granted === true;
+  // The home-screen card after signing up waits for the location question and
+  // the alerts opt-in, so it never stacks on them (utils/installPrompt.js).
+  const [installPending, setInstallPending] = useState(isInstallPromptPending);
+  useEffect(() => { if (user) setInstallPending(isInstallPromptPending()); }, [user]);
 
   useProximityDetection(!!user && locationAllowed, { onNearby: isMobile ? undefined : setNearbyLoc });
 
@@ -60,9 +67,11 @@ function ProximityDetector() {
     return <ProximityToast location={nearbyLoc} onDismiss={() => setNearbyLoc(null)} />;
   }
 
-  return showPrompt ? (
-    <NotificationOptIn onEnable={request} onDismiss={dismissOptIn} />
-  ) : null;
+  if (showPrompt) return <NotificationOptIn onEnable={request} onDismiss={dismissOptIn} />;
+
+  return installPending && consent && isHandheld() && !isStandalone()
+    ? <InstallPrompt onDone={() => setInstallPending(false)} />
+    : null;
 }
 
 export default function App() {
