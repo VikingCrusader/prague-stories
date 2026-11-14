@@ -407,6 +407,12 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
                           onKeyDown={(e) => { if (e.key === 'Enter') setZoomedImage(i); }}
                         >
                           <EventImages event={one} captions={false} />
+                          {/* Marks the picture as one to open bigger, touch screens included;
+                              only on the very first page (2026-11-14, user's call). */}
+                          {ev.slug === pages[0]?.slug && <svg className="history-book__zoom-mark" viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="10" cy="10" r="6.5" />
+                            <path d="M15 15l5.5 5.5M10 7v6M7 10h6" />
+                          </svg>}
                         </div>
                         {(caption?.[lang] || caption?.en) && (
                           <div className="history-book__panel history-book__captions" style={{ gridColumn: i + 1, gridRow: 2 }}>
@@ -452,9 +458,13 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
           ‹ {t('history.prevPage')}
         </button>
         <span className="history-book__count">{index + 1} / {pages.length}</span>
-        <button type="button" className="history-book__turn" disabled={!next} onClick={() => onGo(next.slug)}>
-          {t('history.nextPage')} ›
-        </button>
+        <div className="history-book__next">
+          {/* Only on the very first page, on desktop (2026-11-14, user's call). */}
+          {index === 0 && <span className="history-book__keys">{t('history.arrowKeysHint')}</span>}
+          <button type="button" className="history-book__turn" disabled={!next} onClick={() => onGo(next.slug)}>
+            {t('history.nextPage')} ›
+          </button>
+        </div>
       </nav>
     </div>
   );

@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { RARITY_VAR, RARITY_LABEL } from '../../utils/rarity';
@@ -102,7 +103,10 @@ function RewardLadder({ multiplier, preview, kind, xp, t }) {
 // distance or bought early, with a pin where the player stands on it; and each
 // miss's direction. The button works anywhere: a miss costs two rungs, a
 // clue one.
-export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }) {
+// `split` with `trackTarget` (the desktop board, 2026-11-14, user's call): the clue track
+// and the misses go into that element (the right column) and the panel keeps
+// the distance, the buttons and the ladder, under the card in the middle.
+export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash, split = false, trackTarget = null }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -185,8 +189,8 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
     </li>
   );
 
-  return (
-    <div className="hunt-panel">
+  const ladderPart = (
+    <>
       <div className="hunt-panel__head">
         <span>{t('draw.huntPresses', { n: hunt.presses })}</span>
         <span className="hunt-panel__reward" style={rarity ? { color: RARITY_VAR[rarity] } : undefined}>
@@ -203,8 +207,10 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
         t={t}
       />
 
-      <div className="hunt-panel__distance">{distanceText}</div>
-
+    </>
+  );
+  const trackPart = (
+    <>
       <ol className="hunt-track">
         {track.map((row, i) => [
           i === pinAt && pin,
@@ -247,6 +253,9 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
         </div>
       )}
 
+    </>
+  );
+  const actionsPart = (
       <div className="hunt-panel__actions">
       {flash && <div className={`hunt-panel__flash hunt-panel__flash--${flash.type}`} role="status">{flash.text}</div>}
 
@@ -281,8 +290,28 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
         </>
       )}
       </div>
+  );
+  const guideModal = guide && <AreaGuideModal kind={guide.kind} value={guide.value} onClose={() => setGuide(null)} />;
 
-      {guide && <AreaGuideModal kind={guide.kind} value={guide.value} onClose={() => setGuide(null)} />}
+  if (split) {
+    return (
+      <div className="hunt-panel hunt-panel--split">
+      <div className="hunt-panel__distance">{distanceText}</div>
+        {actionsPart}
+        {ladderPart}
+        {trackTarget && createPortal(<div className="hunt-clues">{trackPart}</div>, trackTarget)}
+        {guideModal}
+      </div>
+    );
+  }
+
+  return (
+    <div className="hunt-panel">
+      {ladderPart}
+      <div className="hunt-panel__distance">{distanceText}</div>
+      {trackPart}
+      {actionsPart}
+      {guideModal}
     </div>
   );
 }

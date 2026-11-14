@@ -89,13 +89,13 @@ test.describe('Treasure hunt', () => {
     // Nothing but the distance at the start, not even the river bank: the
     // ladder at 10x, five clues on the track, none had, the river bank next.
     await expect(panel.locator('.hunt-ladder li.is-on .hunt-ladder__mult')).toHaveText('10×');
-    await expect(panel.locator('.hunt-track__row')).toHaveCount(5);
-    await expect(panel.locator('.hunt-track__row.is-had')).toHaveCount(0);
-    const next = panel.locator('.hunt-track__row.is-next');
+    await expect(page.locator('.hunt-track__row')).toHaveCount(5);
+    await expect(page.locator('.hunt-track__row.is-had')).toHaveCount(0);
+    const next = page.locator('.hunt-track__row.is-next');
     await expect(next.locator('.hunt-track__name')).toHaveText('Which bank of the Vltava');
     await expect(next.locator('.hunt-track__tag')).toHaveText('free within 3 km');
     // About 5 km: the pin stands before the first row.
-    await expect(panel.locator('.hunt-track > li').first()).toHaveClass(/hunt-track__pin/);
+    await expect(page.locator('.hunt-track > li').first()).toHaveClass(/hunt-track__pin/);
 
     // The button works from anywhere, after a confirm that quotes the cost.
     await panel.getByRole('button', { name: "It's here!" }).click();
@@ -105,19 +105,19 @@ test.describe('Treasure hunt', () => {
     await panel.getByRole('button', { name: 'Yes, here' }).click();
 
     await expect(panel.getByText('Presses: 1')).toBeVisible();
-    await expect(panel.getByText('Press 1: the treasure lies south of where you pressed.')).toBeVisible();
+    await expect(page.locator('.hunt-clues').getByText('Press 1: the treasure lies south of where you pressed.')).toBeVisible();
     await expect(panel.getByText('Not here. Check the new clues.')).toBeVisible();
     await expect(panel.getByText('Distance from you: about 1.5 km · closer than before', { exact: true })).toBeVisible();
     await expect(panel.locator('.hunt-panel__reward')).toHaveText('3× XP');
     await expect(panel.locator('.hunt-ladder li.is-on .hunt-ladder__mult')).toHaveText('3×');
     await expect(panel.locator('.hunt-ladder li.is-gone')).toHaveCount(2);
-    const had = panel.locator('.hunt-track__row.is-had');
+    const had = page.locator('.hunt-track__row.is-had');
     await expect(had).toHaveCount(1);
     await expect(had.locator('.hunt-track__value')).toHaveText('Right bank, Old Town side');
     await expect(had.locator('.hunt-track__tag')).toHaveText('free');
-    await expect(panel.locator('.hunt-track__row.is-next .hunt-track__tag')).toHaveText('free within 1 km');
+    await expect(page.locator('.hunt-track__row.is-next .hunt-track__tag')).toHaveText('free within 1 km');
     // About 1.5 km: past 3 km, not yet 1 km, so the pin is second.
-    await expect(panel.locator('.hunt-track > li').nth(1)).toHaveClass(/hunt-track__pin/);
+    await expect(page.locator('.hunt-track > li').nth(1)).toHaveClass(/hunt-track__pin/);
   });
 
   test('buying a clue: confirm names the next one in the order, then it shows at one rung down', async ({ page }) => {
@@ -140,7 +140,7 @@ test.describe('Treasure hunt', () => {
     expect(taken).toBeNull();
     await panel.getByRole('button', { name: 'Yes, buy it' }).click();
 
-    const had = panel.locator('.hunt-track__row.is-had');
+    const had = page.locator('.hunt-track__row.is-had');
     await expect(had.locator('.hunt-track__value')).toHaveText('Left bank, castle side');
     await expect(had.locator('.hunt-track__tag')).toHaveText('bought');
     await expect(panel.locator('.hunt-panel__reward')).toHaveText('5× XP');
@@ -176,17 +176,17 @@ test.describe('Treasure hunt', () => {
     await page.goto('/treasure-hunt');
     const panel = page.locator('.hunt-panel');
     await expect(panel.getByText("Within 300 m of you: it's right around you!", { exact: true })).toBeVisible();
-    await expect(panel.getByText('Rare', { exact: true })).toBeVisible();
-    await expect(panel.getByText('Prague 1')).toBeVisible();
-    await expect(panel.getByText('Old Town', { exact: true })).toBeVisible();
+    await expect(page.locator('.hunt-clues').getByText('Rare', { exact: true })).toBeVisible();
+    await expect(page.locator('.hunt-clues').getByText('Prague 1')).toBeVisible();
+    await expect(page.locator('.hunt-clues').getByText('Old Town', { exact: true })).toBeVisible();
     // The rarity came free at 300 m, so it holds the fourth slot and the
     // label, bought, the fifth.
-    await expect(panel.locator('.hunt-track__row').nth(3).locator('.hunt-track__name')).toHaveText('Rarity');
-    await expect(panel.locator('.hunt-track__row').nth(4).locator('.hunt-track__tag')).toHaveText('bought');
-    await expect(panel.locator('.hunt-track__row.is-had')).toHaveCount(5);
+    await expect(page.locator('.hunt-track__row').nth(3).locator('.hunt-track__name')).toHaveText('Rarity');
+    await expect(page.locator('.hunt-track__row').nth(4).locator('.hunt-track__tag')).toHaveText('bought');
+    await expect(page.locator('.hunt-track__row.is-had')).toHaveCount(5);
     // Each rung shows what a find would pay once the rarity is known.
     await expect(panel.locator('.hunt-ladder li').first().locator('.hunt-ladder__xp')).toHaveText('200 XP');
-    await expect(panel.getByText('Press 2: the treasure lies north-east of where you pressed.')).toBeVisible();
+    await expect(page.locator('.hunt-clues').getByText('Press 2: the treasure lies north-east of where you pressed.')).toBeVisible();
     await expect(panel.locator('.hunt-panel__reward')).toHaveText('2× XP · 40 XP');
     // Every clue is out, so there is none left to take.
     await expect(panel.getByRole('button', { name: /Buy the next clue/ })).toHaveCount(0);
@@ -245,13 +245,13 @@ test.describe('Treasure hunt', () => {
     await expect(page.locator('.hunt-panel__distance')).toHaveText('Very close: under 500 m, but more than 300 m.');
   });
 
-  test('past finds sit in the side column with their figures, and open their card', async ({ page }) => {
+  test('past finds sit in the left column with their figures, and open their card', async ({ page }) => {
     await loginAsUser(page);
     await page.route(DRAW_RE, route => route.fulfill({ json: { active: false, canDraw: true, location: null } }));
     const found = { ...TARGET, unlocked: true, _guessAttempt: 1, _xpEarned: 100, _checkedInAt: '2026-01-01T00:00:00.000Z' };
     await page.route('**/api/user/treasures', route => route.fulfill({ json: [found] }));
     await page.goto('/treasure-hunt');
-    const box = page.locator('.hunt-col--right .hunt-finds-box');
+    const box = page.locator('.hunt-col--left .hunt-finds-box');
     await expect(box.locator('.hunt-finds-box__stat strong')).toHaveText(['1', '5×', '1']);
     await page.route('**/api/locations/tyn-church', route => route.fulfill({
       json: { ...found, description: { en: 'A church.' }, checkedInAt: '2026-01-01T00:00:00.000Z', guessAttempt: 1, xpEarned: 100 },
@@ -260,7 +260,7 @@ test.describe('Treasure hunt', () => {
     await expect(page.getByText(/found on a treasure hunt on guess 1, \+100 XP/)).toBeVisible();
   });
 
-  test('the board: card, hunt and clue map side by side, the page never scrolls', async ({ page }) => {
+  test('the board: how to play, the card with its buttons, and the clues with the map; the page never scrolls', async ({ page }) => {
     await loginAsUser(page);
     await page.route('**/api/user/treasures', route => route.fulfill({ json: [] }));
     await page.route(DRAW_RE, route => route.fulfill({
@@ -268,15 +268,22 @@ test.describe('Treasure hunt', () => {
     }));
     await page.goto('/treasure-hunt');
     await expect(page.locator('.hunt-col--mid .hunt-panel')).toBeVisible();
+    await expect(page.locator('.hunt-col--mid .hunt-stage')).toBeVisible();
+    await expect(page.locator('.hunt-col--mid').getByRole('button', { name: "It's here!" })).toBeVisible();
+    // The clue track sits in the right column, above the map.
+    await expect(page.locator('.hunt-col--right .hunt-track__row')).toHaveCount(5);
+    await expect(page.locator('.hunt-col--mid .hunt-track')).toHaveCount(0);
     await expect(page.locator('.hunt-col--right .hunt-map__quarter.is-lit')).toHaveCount(1);
     await expect(page.locator('.hunt-map__caption')).toContainText('Prague 1');
     await expect(page.locator('.hunt-compass .hunt-compass__arrow')).toHaveCount(1);
     const scroll = await page.evaluate(() => document.scrollingElement.scrollHeight - window.innerHeight);
     expect(scroll).toBeLessThanOrEqual(1);
-    // How to play is on the page, under the panel, never folded away.
-    await expect(page.locator('.hunt-col--mid .guide-h2', { hasText: 'The Rules' })).toHaveCount(1);
-    await expect(page.locator('.hunt-col--mid .hunt-table')).toHaveCount(1);
-    await expect(page.getByRole('button', { name: 'How to play' })).toHaveCount(0);
+    // A short how to play on the left; the full rules open in a window.
+    await expect(page.locator('.hunt-col--left .hunt-short__steps > li')).toHaveCount(4);
+    await expect(page.locator('.guide-h2', { hasText: 'The Rules' })).toHaveCount(0);
+    await page.getByRole('button', { name: 'Full rules' }).click();
+    await expect(page.locator('.hunt-window .guide-h2', { hasText: 'The Rules' })).toHaveCount(1);
+    await expect(page.locator('.hunt-window .hunt-table')).toHaveCount(1);
   });
 
   test('a guest sees the rules but has to log in to play', async ({ page }) => {
@@ -326,7 +333,6 @@ test.describe('Treasure hunt', () => {
     const overflow = page => page.evaluate(() => [
       document.scrollingElement.scrollHeight - innerHeight,
       ...[...document.querySelectorAll('.hunt-col')].map(c => c.scrollHeight - c.clientHeight),
-      ...[...document.querySelectorAll('.hunt-howto')].map(h => h.scrollWidth - h.clientWidth),
     ].map(n => Math.max(0, n)));
     const finds = Array.from({ length: 7 }, (_, i) => ({ ...TARGET, slug: `f${i}`, unlocked: true, _guessAttempt: 1, _xpEarned: 200 }));
 
@@ -338,18 +344,18 @@ test.describe('Treasure hunt', () => {
         let state = { active: false, canDraw: true, location: null, lastHunt: { location: TARGET } };
         await page.route(DRAW_RE, route => route.fulfill({ json: state }));
         await page.goto('/treasure-hunt');
-        await expect(page.locator('.hunt-board--wide')).toBeVisible();
+        await expect(page.locator('.hunt-board')).toBeVisible();
         await expect(page.locator('.hunt-finds-box__stat strong').first()).toHaveText('7');
-        expect(await overflow(page)).toEqual([0, 0, 0, 0, 0]);
+        expect(await overflow(page)).toEqual([0, 0, 0, 0]);
 
         state = active({ hunt: hunt({ multiplier: 3, riverSide: 'oldTown', district: 'Praha 1', quarter: 'Staré Město', nextClue: 'rarityOrLabel', presses: 2, misses: [{ direction: 'S' }, { direction: 'N' }] }) });
         await page.reload();
         await expect(page.locator('.hunt-col--mid .hunt-panel')).toBeVisible();
         await expect(page.locator('.hunt-finds-box__stat strong').first()).toHaveText('7');
-        expect(await overflow(page)).toEqual([0, 0, 0, 0, 0]);
+        expect(await overflow(page)).toEqual([0, 0, 0, 0]);
         await page.locator('.hunt-panel .px-btn--lg').click();
         await expect(page.locator('.hunt-panel__confirm')).toBeVisible();
-        expect(await overflow(page)).toEqual([0, 0, 0, 0, 0]);
+        expect(await overflow(page)).toEqual([0, 0, 0, 0]);
       });
     }
   });

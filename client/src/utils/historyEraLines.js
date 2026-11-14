@@ -4,7 +4,7 @@
 // (historyEraLines.test.js checks the keys, order and titles); the lines are
 // the Guide's own.
 export const HISTORY_ERA_LINES = [
-  { key: 'legends-origins', years: { en: 'Prehistory – 800', cz: 'Pravěk – 800', zh: '史前 – 800年' },
+  { key: 'legends-origins', years: { en: 'Prehistory – c. AD 800', cz: 'Pravěk – kolem roku 800', zh: '史前 – 约公元800年' },
     title: { en: 'Legends & Origins', cz: 'Legendy a počátky', zh: '传说溯源' },
     line: { en: 'Celts and the first Slavs, and the old legends: Forefather Čech, Libuše foreseeing Prague, Přemysl the Ploughman.', cz: 'Keltové a první Slované a staré pověsti: praotec Čech, Libuše věštící Prahu, Přemysl Oráč.', zh: '凯尔特人和最早的斯拉夫人，以及古老的传说：祖先切赫、预言布拉格的莉布谢、农夫普热米斯尔。' } },
   { key: 'bohemian-duchy', years: { en: '870–1198', cz: '870–1198', zh: '870年－1198年' },

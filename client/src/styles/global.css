@@ -1156,6 +1156,18 @@ html:not([data-lang="zh"]) .dashboard-title {
   font-size: 34px !important;
   font-weight: 400;
 }
+/* Treasure Hunt and Achievements titles in the blackletter too, English and
+   Czech (2026-11-14, user request), like Explore, the Map and the profile.
+   The hunt's 2K board keeps its own 46px (hunt.css), so its one screen still fits. */
+.achievements-title { font-size: 26px; }
+html:not([data-lang="zh"]) :is(#root, body) :is(.hunt-title, .achievements-title) {
+  font-family: "Manufacturing Consent", serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+html:not([data-lang="zh"]) :is(#root, body) .achievements-title,
+html:not([data-lang="zh"]) :is(#root, body) .hunt-page .hunt-title { font-size: 34px; }
 
 /* EN/CZ phones: the blackletter profile title gets its own line above the buttons. */
 @media (max-width: 600px) {

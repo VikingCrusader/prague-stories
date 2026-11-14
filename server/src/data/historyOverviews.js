@@ -14,7 +14,7 @@ export const historyOverviews = [
     cardType: "overview",
     startYear: -600,
     tone: "humorous",
-    year: { en: "Prehistory – 800", cz: "Pravěk – 800", zh: "史前 – 800年" },
+    year: { en: "Prehistory – c. AD 800", cz: "Pravěk – kolem roku 800", zh: "史前 – 约公元800年" },
     title: {
       en: "Before Anyone Wrote It Down",
       cz: "Dřív, než to kdokoli zapsal",

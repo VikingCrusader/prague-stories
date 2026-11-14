@@ -4,7 +4,7 @@ import { useState, useEffect, useLayoutEffect, useRef, useCallback } from 'react
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import LocationOffNotice from '../components/shared/LocationOffNotice';
-import { useT, useLang } from '../context/LanguageContext';
+import { useT } from '../context/LanguageContext';
 import { haversineDistance, getCurrentPosition } from '../utils/geolocation';
 import { useUserPosition } from '../hooks/useUserPosition';
 import LocationCard from '../components/locations/LocationCard';
@@ -23,20 +23,18 @@ import { useCountUp } from '../hooks/useCountUp';
 import '../styles/hunt.css';
 
 // Three layouts (2026-11-14, user's call: the page redone for every screen):
-// - phone (and anything as narrow): played walking, so only the hunt itself,
-//   the buttons fixed to the bottom of the screen, rules and finds in sheets;
+// - phone (and anything as narrow): played walking, the stack below with
+//   thumb-sized buttons;
 // - board (a landscape screen from 1024 x 600: laptops, Macs, iPads sideways,
-//   2K): one screen in three columns, the card and its status, the hunt (or the
-//   walk-through before one), and the clue map with the finds, each column
-//   scrolling on its own if it must, never the page;
+//   2K): one screen in three columns. Redone the same day (user's call: a first
+//   visit met a wall of text, and this is a hot-and-cold game): the card and
+//   "It's here!" big in the middle, a short how to play and the finds on the
+//   left (the full rules in a window), the clues and the clue map on the right.
+//   Each column scrolls on its own if it must, never the page; on a 2K screen
+//   none does;
 // - stack (upright tablets, short windows): one centred column.
 const PHONE_QUERY = '(max-width: 720px)';
 const BOARD_QUERY = '(min-width: 1024px) and (min-height: 600px) and (orientation: landscape)';
-// A 2K screen: everything on one screen, no column scrolls (2026-11-14, user's
-// call). The card column also holds the clue map, the middle one the panel and
-// the finds, and How to play gets a wide column of its own, set in two text
-// columns.
-const WIDE_QUERY = '(min-width: 2400px) and (min-height: 1200px)';
 // How many finds the board's side column shows before "All": one row.
 const BOARD_FINDS = 3;
 const CELEBRATE_MS = 3200;
@@ -133,36 +131,15 @@ export default function TreasureHuntPage() {
   }, []);
   const phone = useMedia(PHONE_QUERY);
   const board = useMedia(BOARD_QUERY) && !phone;
-  const wide = useMedia(WIDE_QUERY) && board;
-  const { lang } = useLang();
-  // On the 2K layout How to play must fit its two text columns: English and
-  // Czech run about half again as long as Chinese, so its text steps down from
-  // 20 px until nothing spills into a third column (never below 15 px).
-  const rulesRef = useRef(null);
-  useLayoutEffect(() => {
-    const col = rulesRef.current;
-    if (!wide || !col || typeof ResizeObserver === 'undefined') return undefined;
-    const fit = () => {
-      const box = col.querySelector('.hunt-howto');
-      if (!box) return;
-      let size = 20;
-      col.style.setProperty('--howto-fs', `${size}px`);
-      while (size > 15 && (box.scrollWidth > box.clientWidth + 1 || box.scrollHeight > box.clientHeight + 1)) {
-        size -= 1;
-        col.style.setProperty('--howto-fs', `${size}px`);
-      }
-    };
-    fit();
-    const ro = new ResizeObserver(fit);
-    ro.observe(col);
-    return () => ro.disconnect();
-  }, [wide, lang, loading]);
+  // The board's right column, where the panel puts the clue track.
+  const [trackSlot, setTrackSlot] = useState(null);
   const layout = phone ? 'phone' : board ? 'board' : 'stack';
   // Keep screen on: the switch lives only in the profile's settings window
   // (2026-11-14, user's call: no button here); the hook holds the lock while
   // this page is open when that setting is on.
   useWakeLock();
-  // 'finds': all past finds, a sheet on phones, a window elsewhere.
+  // 'finds': all past finds; 'rules': the full rules (the board's left
+  // column only has the short version). Windows.
   const [sheet, setSheet] = useState(null);
   const [celebrate, setCelebrate] = useState(null);
   const refreshingOnExpiry = useRef(false);
@@ -473,7 +450,7 @@ export default function TreasureHuntPage() {
   );
 
   const panel = hunting && (
-    <TreasureHuntPanel hunt={status.hunt} onGuess={handleGuess} onClue={handleClue} busy={busy} flash={huntFlash} />
+    <TreasureHuntPanel hunt={status.hunt} onGuess={handleGuess} onClue={handleClue} busy={busy} flash={huntFlash} split={layout === 'board'} trackTarget={trackSlot} />
   );
   // The clue map: during a hunt, and before one as a taste of it (the plain
   // city with the player's dot).
@@ -487,45 +464,51 @@ export default function TreasureHuntPage() {
     </div>
   );
 
+  // The board's left column: how to play in four short steps, the full rules
+  // in a window, and the finds.
+  const shortHowTo = (
+    <section className="hunt-short">
+      <h2 className="guide-h2 hunt-short__title">{t('draw.howToPlay')}</h2>
+      <ol className="hunt-short__steps">
+        {[1, 2, 3, 4].map(n => (
+          <li key={n} className="guide-step">
+            <span className="guide-step-num">{n}</span>
+            <p className="guide-body">{t(`draw.huntStep${n}`)}</p>
+          </li>
+        ))}
+      </ol>
+      <div className="hunt-short__links">
+        <button type="button" className="px-btn" onClick={() => setSheet('rules')}>{t('draw.fullRules')}</button>
+        <Link to="/guide?open=hunt" className="px-btn hunt-practice-link">{t('draw.practiceLink')} →</Link>
+      </div>
+    </section>
+  );
+  // The board's right column: the clues. During a hunt the panel puts its
+  // live clue track here (trackTarget); otherwise the table of the clues.
+  const cluesTitle = <h2 className="guide-h2 hunt-clues__title">{t('draw.cluesTitle')}</h2>;
+
   let body;
   if (loading) {
     body = layout === 'board'
-      ? <div className="hunt-board"><div className="hunt-col hunt-col--left">{header}<HuntSkeleton /></div><div className="hunt-col hunt-col--mid"><div className="hunt-skel__panel hunt-skeleton" /></div><div className="hunt-col hunt-col--right"><div className="hunt-map hunt-map--loading" /></div></div>
+      ? <div className="hunt-board"><div className="hunt-col hunt-col--left"><div className="hunt-skel__panel hunt-skeleton" /></div><div className="hunt-col hunt-col--mid">{header}<HuntSkeleton /></div><div className="hunt-col hunt-col--right"><div className="hunt-map hunt-map--loading" /></div></div>
       : <div className="hunt-stack">{header}<HuntSkeleton /></div>;
-  } else if (wide) {
-    body = (
-      <div className="hunt-board hunt-board--wide">
-        <div className="hunt-col hunt-col--left">
-          {header}
-          {stage}
-          <div className="hunt-status">{status_}</div>
-          {map}
-        </div>
-        <div className="hunt-col hunt-col--mid">
-          {panel}
-          {lastHuntBox}
-          {findsBox({ limit: hunting ? 5 : 8, onSeeAll: () => setSheet('finds') })}
-        </div>
-        <div className="hunt-col hunt-col--rules" ref={rulesRef}>{howToPlay}</div>
-      </div>
-    );
   } else if (layout === 'board') {
     body = (
       <div className="hunt-board">
         <div className="hunt-col hunt-col--left">
-          {header}
-          {stage}
-          <div className="hunt-status">{status_}</div>
+          {shortHowTo}
+          {findsBox({ limit: BOARD_FINDS, onSeeAll: () => setSheet('finds') })}
         </div>
         <div className="hunt-col hunt-col--mid">
-          {panel}
-          {panel && <hr className="px-divider" />}
-          {howToPlay}
+          {header}
+          {stage}
+          {hunting ? <>{panel}{countdown}</> : <div className="hunt-status">{status_}</div>}
         </div>
         <div className="hunt-col hunt-col--right">
+          {cluesTitle}
+          {hunting ? <div ref={setTrackSlot} className="hunt-clues-slot" /> : <HuntClueTable t={t} />}
           {map}
           {lastHuntBox}
-          {findsBox({ limit: BOARD_FINDS, onSeeAll: () => setSheet('finds') })}
         </div>
       </div>
     );
@@ -552,6 +535,12 @@ export default function TreasureHuntPage() {
   return (
     <div className={`guide-page draw-page hunt-page hunt-page--${layout}${phone ? ' draw-page--phone' : ''}${hunting ? ' hunt-page--hunting' : ''}`}>
       {body}
+
+      {sheet === 'rules' && (
+        <HuntRulesWindow label={t('draw.rulesTitle')} wide onClose={() => setSheet(null)}>
+          {howToPlay}
+        </HuntRulesWindow>
+      )}
 
       {sheet === 'finds' && (
         <HuntRulesWindow label={t('draw.myFinds')} wide onClose={() => setSheet(null)}>

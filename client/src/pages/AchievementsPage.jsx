@@ -99,7 +99,7 @@ export default function AchievementsPage() {
   return (
     <div className="guide-page achievements-page" ref={pageRef}>
       <div className="guide-wrap">
-        <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t('ach.title')}</h1>
+        <h1 className="px-title achievements-title" style={{ marginBottom: 6 }}>{t('ach.title')}</h1>
         <p className="guide-intro">{t('ach.tagline')}</p>
 
         {failed ? (

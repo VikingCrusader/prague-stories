@@ -751,7 +751,18 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
 }
 .history-book__float--image { border-style: solid; }
-.history-book__images { cursor: zoom-in; }
+.history-book__images { cursor: zoom-in; position: relative; }
+/* The magnifier in the corner: faint, clearer on hover (2026-11-14). */
+.history-book__zoom-mark {
+  position: absolute; right: 8px; bottom: 8px; width: 30px; height: 30px; padding: 5px; box-sizing: border-box;
+  fill: none; stroke: var(--gold); stroke-width: 2.2; stroke-linecap: round;
+  background: color-mix(in srgb, var(--bg-card) 85%, transparent); border: 1px solid color-mix(in srgb, var(--gold) 50%, transparent); border-radius: 50%;
+  opacity: 0.6; transition: opacity 0.15s ease; pointer-events: none;
+}
+.history-book__images:hover .history-book__zoom-mark, .history-book__images:focus-visible .history-book__zoom-mark { opacity: 1; }
+/* A caption cut short: a dotted underline on hover says there is more. */
+.history-book__captions .history-landmark-caption.is-cut { cursor: pointer; }
+.history-book__captions .history-landmark-caption.is-cut:not(.is-open):not(:hover) { text-decoration: underline dotted color-mix(in srgb, var(--gold) 70%, transparent); text-underline-offset: 4px; }
 .history-book__zoom { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; gap: 16px; padding: 8px 16px 14px; }
 .history-book__zoom img { flex: 0 1 auto; min-height: 0; width: 100%; height: auto; object-fit: contain; }
 .history-book__zoom-caption { flex: none; max-height: 34%; overflow-y: auto; padding: 0 12px; }
@@ -901,6 +912,9 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
   cursor: pointer;
 }
 .history-book__turn:last-child { justify-self: end; }
+.history-book__next { justify-self: end; display: flex; align-items: center; gap: 14px; }
+.history-book__keys { font-size: 15px; color: var(--text-muted); white-space: nowrap; }
+@media (min-width: 2400px) and (min-height: 1200px) { .history-book__keys { font-size: 18px; } }
 .history-book__turn:disabled { opacity: 0.35; cursor: default; }
 .history-book__count { color: var(--text-muted); font-size: 16px; }
 

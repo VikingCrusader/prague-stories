@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useLayoutEffect, useRef } from 'react';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { useUserPosition } from '../../hooks/useUserPosition';
 import { haversineDistance } from '../../utils/geolocation';
@@ -288,6 +288,27 @@ export function EventAchievements({ event, onOpen }) {
 // A cut-off caption shows the rest on hover, and on a tap for touch screens.
 const toggleCaption = (e) => e.currentTarget.classList.toggle('is-open');
 
+// A caption that may be cut off (the book view clamps it to two lines; hover
+// or a tap shows it whole). Only one that really is cut gets `is-cut`, which
+// marks it as readable in full (2026-11-14, user's call: a cue, no hint text).
+// Measured while it is closed, so the open state can't clear the mark.
+function ImageCaption({ text }) {
+  const ref = useRef(null);
+  useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el || typeof ResizeObserver === 'undefined') return undefined;
+    const measure = () => {
+      if (el.classList.contains('is-open') || el.matches(':hover')) return;
+      el.classList.toggle('is-cut', el.scrollHeight > el.clientHeight + 1);
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [text]);
+  return <p ref={ref} className="history-landmark-caption" onClick={toggleCaption}>{text}</p>;
+}
+
 // The image captions on their own, for layouts that show them apart from the images.
 export function EventImageCaptions({ event }) {
   const { lang } = useLang();
@@ -296,7 +317,7 @@ export function EventImageCaptions({ event }) {
     <>
       {event.imageCaptions?.map((caption, i) => {
         const text = caption?.[lang] || caption?.en;
-        return text ? <p key={i} className="history-landmark-caption" onClick={toggleCaption}>{convert(text)}</p> : null;
+        return text ? <ImageCaption key={i} text={convert(text)} /> : null;
       })}
     </>
   );

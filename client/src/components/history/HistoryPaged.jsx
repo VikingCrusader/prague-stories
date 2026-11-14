@@ -7,6 +7,7 @@ import HistoryEventSection, {
 import HistoryHero from './HistoryHero';
 import { groupPages, wikipediaLabel } from './HistoryBook';
 import EraIntro from './EraIntro';
+import { useMedia } from '../../hooks/useMedia';
 import { noteEra } from '../../utils/eraChapter';
 
 // How far past the end of a page the finger has to pull to turn it.
@@ -312,6 +313,8 @@ function EventPage({ event, eras, activeSlug, ownBackgrounds, hostOf, onGo, onOp
 export default function HistoryPaged({ events, eras, activeSlug, onGo, onOpenLandmark, onOpenAchievement, paused }) {
   const t = useT();
   const convert = useConvert();
+  // A mouse and keyboard: the arrow-key hint shows (not on phones or tablets).
+  const finePointer = useMedia('(hover: hover) and (pointer: fine)');
   const { pages, backgrounds, hostOf, redirect } = groupPages(events);
   const pageSlug = hostOf.get(activeSlug) ?? redirect.get(activeSlug) ?? activeSlug;
   const found = pages.findIndex(e => e.slug === pageSlug);
@@ -403,9 +406,13 @@ export default function HistoryPaged({ events, eras, activeSlug, onGo, onOpenLan
           ‹ {t('history.prevPage')}
         </button>
         <span className="history-book__count">{index + 1} / {pages.length}</span>
-        <button type="button" className="history-book__turn" disabled={!next} onClick={() => onGo(next.slug)}>
-          {t('history.nextPage')} ›
-        </button>
+        <div className="history-book__next">
+          {/* Only on the very first page, on desktop (2026-11-14, user's call). */}
+          {index === 0 && finePointer && <span className="history-book__keys">{t('history.arrowKeysHint')}</span>}
+          <button type="button" className="history-book__turn" disabled={!next} onClick={() => onGo(next.slug)}>
+            {t('history.nextPage')} ›
+          </button>
+        </div>
       </nav>
       {next && (
         <div className="history-paged__pull" aria-hidden="true">

@@ -388,9 +388,9 @@ export const HISTORY_ERAS = [
       zh: '传说溯源',
     },
     yearRange: {
-      en: 'Prehistory – 800',
-      cz: 'Pravěk – 800',
-      zh: '史前 – 800年',
+      en: 'Prehistory – c. AD 800',
+      cz: 'Pravěk – kolem roku 800',
+      zh: '史前 – 约公元800年',
     },
     tagline: {
       en: "Where the sourcing is shaky, the drama is not — and at least one of these dukes may never have existed at all.",
