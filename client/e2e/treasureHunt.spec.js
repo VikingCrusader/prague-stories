@@ -297,13 +297,13 @@ test.describe('Treasure hunt', () => {
   test.describe('on a phone', () => {
     test.use({ viewport: { width: 390, height: 844 } });
 
-    test('the buttons sit in the panel, under the card and above the map; the rules and finds are on the page', async ({ page }) => {
+    test('the buttons stand on their own between the card and the panel, above the map; the rules and finds are on the page', async ({ page }) => {
       await loginAsUser(page);
       await page.route(DRAW_RE, route => route.fulfill({ json: active({ hunt: hunt() }) }));
       await page.route('**/api/user/treasures', route => route.fulfill({ json: [] }));
       await page.goto('/treasure-hunt');
 
-      const actions = page.locator('.hunt-panel .hunt-panel__actions');
+      const actions = page.locator('.hunt-panel-actions .hunt-panel__actions');
       await expect(actions.getByRole('button', { name: "It's here!" })).toBeVisible();
       await expect(page.locator('.hunt-dock')).toHaveCount(0);
       const card = await page.locator('.hunt-stage').boundingBox();
@@ -311,6 +311,9 @@ test.describe('Treasure hunt', () => {
       const map = await page.locator('.hunt-stack__map').boundingBox();
       expect(here.y).toBeGreaterThan(card.y + card.height);
       expect(here.y + here.height).toBeLessThan(map.y);
+      // Outside the panel's box, above it (2026-11-14, user's call).
+      await expect(page.locator('.hunt-panel .hunt-panel__actions')).toHaveCount(0);
+      expect(here.y + here.height).toBeLessThan((await page.locator('.hunt-panel').boundingBox()).y);
       // Full width on a phone, and the confirm opens in place.
       const panel = await page.locator('.hunt-panel').boundingBox();
       const button = await actions.getByRole('button', { name: "It's here!" }).boundingBox();

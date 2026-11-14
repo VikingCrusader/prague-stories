@@ -83,6 +83,8 @@
 .hunt-panel--split .hunt-panel__actions { gap: 12px; }
 .hunt-panel--split .px-btn--lg { min-width: 240px; font-size: 19px; padding: 12px 32px; }
 .hunt-panel--split .hunt-panel__head { margin-top: 14px; }
+/* Outside the board the buttons stand apart from the panel, between the card and it. */
+.hunt-panel-actions { width: 100%; max-width: 440px; }
 .hunt-col--left .hunt-short { display: flex; flex-direction: column; gap: 10px; }
 .hunt-lead {
   margin: 0;
@@ -190,9 +192,9 @@
 .hunt-stack__finds { margin-top: 18px; }
 .hunt-page--stack .hunt-table-wrap { margin-left: 0; }
 .hunt-page--phone .draw-stage { padding-top: 12px; }
-.hunt-page--phone.hunt-page--hunting { --hunt-card-w: 150px; }
+.hunt-page--phone.hunt-page--hunting { --hunt-card-w: 200px; } /* 150 px until 2026-11-14: too small (user) */
 /* An upright tablet: the card steps back while the hunt is on, too. */
-.hunt-page--stack.hunt-page--hunting { --hunt-card-w: 150px; }
+.hunt-page--stack.hunt-page--hunting { --hunt-card-w: 200px; }
 .hunt-page--phone.hunt-page--hunting .draw-card { box-shadow: 3px 3px 0 var(--shadow); }
 .hunt-page--phone.hunt-page--hunting .draw-stage { gap: 12px; }
 

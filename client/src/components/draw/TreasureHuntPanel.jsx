@@ -306,12 +306,17 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash, 
   }
 
   return (
-    <div className="hunt-panel">
-      {ladderPart}
-      <div className="hunt-panel__distance">{distanceText}</div>
-      {trackPart}
-      {actionsPart}
-      {guideModal}
-    </div>
+    <>
+      {/* The buttons on their own, right under the card and above the panel with
+          the ladder and the clue track (2026-11-14, user's call: on phones they
+          sat at the bottom of that box, below the track). */}
+      <div className="hunt-panel-actions">{actionsPart}</div>
+      <div className="hunt-panel">
+        {ladderPart}
+        <div className="hunt-panel__distance">{distanceText}</div>
+        {trackPart}
+        {guideModal}
+      </div>
+    </>
   );
 }

@@ -1080,6 +1080,23 @@ html[data-lang="zh"] :is(#root, body) .history-era-intro__title { font-size: 38p
 .history-era-intro__years { color: var(--gold); }
 .history-era-intro__line { margin: 3px 0 0; font-size: 15px; line-height: 1.45; color: var(--text-primary); }
 .history-paged__page > .history-era-intro { margin-bottom: 14px; }
+/* Phones (2026-11-14, user's call): title, then subtitle and years, each on one
+   line where they fit (EraIntro's useFitHead shrinks them); the plain line is
+   for wider screens only. The chapter takes the title's size so the two shrink
+   together; the rules get short so the text has the width. */
+@media (max-width: 600px) {
+  .history-era-intro { gap: 8px; padding: 12px 10px; }
+  .history-era-intro__rule { flex: 1 1 12px; min-width: 8px; }
+  .history-era-intro__body { flex: 1 1 auto; }
+  .history-era-intro__line { display: none; }
+  .history-era-intro__head { display: block; }
+  :is(#root, body) .history-era-intro__title { display: block; white-space: nowrap; overflow: hidden; }
+  :is(#root, body) .history-era-intro .history-era-intro__chapter { font-size: inherit !important; }
+  .history-era-intro__sub { white-space: nowrap; overflow: hidden; }
+  .history-era-intro__sub.is-split { white-space: normal; }
+  .history-era-intro__sub.is-split > span { display: block; }
+  .history-era-intro__sub.is-split .history-era-intro__years::before { content: none; }
+}
 
 /* The opening: the band unfolds from the middle, the rules draw outwards and
    a gold glint crosses the title; about 0.8 s, then it rests. */
