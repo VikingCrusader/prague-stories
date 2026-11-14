@@ -59,26 +59,41 @@
   gap: 14px;
 }
 .hunt-col::-webkit-scrollbar { display: none; }
-/* The middle: the card as big as the height allows after the title, the
-   distance, the buttons and the ladder. */
+/* The middle: the card and its buttons, with room to breathe (2026-11-14,
+   user's call: filling the height looked crammed). The card is sized from the
+   height but kept well short of it, and the whole column sits centred
+   vertically (auto margins, so a column too tall still scrolls from the top). */
 .hunt-col--mid {
   align-items: center;
-  --hunt-card-w: clamp(170px, calc((100dvh - var(--navbar-h, 60px) - 560px) * 0.706), 380px);
+  gap: 22px;
+  --hunt-card-w: clamp(160px, calc((100dvh - var(--navbar-h, 60px) - 640px) * 0.706), 320px);
 }
+.hunt-col--mid > :first-child { margin-top: auto; }
+.hunt-col--mid > :last-child { margin-bottom: auto; }
 .hunt-col--mid .hunt-status { width: 100%; }
 .hunt-panel--split {
-  max-width: 560px;
+  max-width: 480px;
   padding: 0;
-  gap: 12px;
+  gap: 18px;
   background: none;
   border: none;
   box-shadow: none;
 }
-.hunt-panel--split .hunt-panel__distance { font-size: 24px; }
-.hunt-panel--split .hunt-panel__actions { gap: 10px; }
-.hunt-panel--split .px-btn--lg { min-width: 260px; font-size: 20px; padding: 14px 36px; }
-.hunt-panel--split .hunt-panel__head { margin-top: 4px; }
+.hunt-panel--split .hunt-panel__distance { font-size: 22px; }
+.hunt-panel--split .hunt-panel__actions { gap: 12px; }
+.hunt-panel--split .px-btn--lg { min-width: 240px; font-size: 19px; padding: 12px 32px; }
+.hunt-panel--split .hunt-panel__head { margin-top: 14px; }
 .hunt-col--left .hunt-short { display: flex; flex-direction: column; gap: 10px; }
+.hunt-lead {
+  margin: 0;
+  padding: 12px 16px;
+  border: 2px solid var(--gold);
+  background: color-mix(in srgb, var(--gold) 8%, var(--bg-card));
+  box-shadow: 3px 3px 0 var(--shadow);
+  color: var(--gold);
+  line-height: 1.6;
+}
+:is(#root, body) .hunt-page .hunt-lead { font-size: 15px !important; }
 .hunt-short__title, .hunt-clues__title { margin: 0; }
 .hunt-short__steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .hunt-short__steps .guide-step { margin: 0; }
@@ -106,28 +121,32 @@
     height: calc(100dvh - var(--navbar-h, 60px) - 64px);
   }
   .hunt-col { gap: 22px; }
-  .hunt-col--mid { --hunt-card-w: clamp(260px, calc((100dvh - var(--navbar-h, 60px) - 700px) * 0.706), 520px); }
+  .hunt-col--mid { gap: 32px; --hunt-card-w: clamp(260px, calc((100dvh - var(--navbar-h, 60px) - 760px) * 0.706), 400px); }
   :is(#root, body) .hunt-page .hunt-title { font-size: 46px !important; }
   :is(#root, body) .hunt-page .hunt-tagline { font-size: 22px !important; }
   :is(#root, body) .hunt-page .guide-body { font-size: 20px !important; line-height: 1.65 !important; }
+  :is(#root, body) .hunt-page .hunt-lead { font-size: 18px !important; }
+  .hunt-lead { padding: 16px 20px; }
+  .hunt-col--left { gap: 18px; }
   :is(#root, body) .hunt-page .guide-h2 { font-size: 26px !important; }
   :is(#root, body) .hunt-page .hunt-table { font-size: 18px !important; }
   .hunt-page .hunt-table th, .hunt-page .hunt-table td { padding: 9px 12px; }
   :is(#root, body) .hunt-page .hunt-table__note { font-size: 15px !important; }
-  :is(#root, body) .hunt-page .hunt-col .px-btn--lg { font-size: 24px !important; padding: 20px 56px; min-width: 340px; }
+  :is(#root, body) .hunt-page .hunt-col .px-btn--lg { font-size: 22px !important; padding: 16px 48px; min-width: 300px; }
   :is(#root, body) .hunt-page .hunt-short__links .px-btn { font-size: 17px !important; padding: 10px 18px; }
   :is(#root, body) .hunt-page .draw-countdown { font-size: 19px !important; }
   :is(#root, body) .hunt-page .draw-countdown__time { font-size: 24px !important; }
   :is(#root, body) .hunt-page .hunt-found { font-size: 23px !important; }
 
   /* The panel, under the card. */
-  .hunt-panel--split { max-width: 720px; gap: 16px; }
+  .hunt-panel--split { max-width: 600px; gap: 24px; }
+  .hunt-panel--split .hunt-panel__head { margin-top: 18px; }
   :is(#root, body) .hunt-page .hunt-panel__head { font-size: 19px !important; }
   .hunt-page .hunt-ladder { gap: 10px; }
-  .hunt-page .hunt-ladder li { min-height: 64px; }
-  :is(#root, body) .hunt-page .hunt-ladder__mult { font-size: 26px !important; }
+  .hunt-page .hunt-ladder li { min-height: 56px; }
+  :is(#root, body) .hunt-page .hunt-ladder__mult { font-size: 23px !important; }
   :is(#root, body) .hunt-page .hunt-ladder__xp { font-size: 14px !important; }
-  :is(#root, body) .hunt-page .hunt-panel__distance { font-size: 32px !important; }
+  :is(#root, body) .hunt-page .hunt-panel__distance { font-size: 28px !important; }
   :is(#root, body) .hunt-page .hunt-panel__flash { font-size: 19px !important; }
   :is(#root, body) .hunt-page .hunt-panel__clue { font-size: 18px !important; padding: 10px 22px; }
   :is(#root, body) .hunt-page .hunt-panel__confirm > span { font-size: 20px !important; }

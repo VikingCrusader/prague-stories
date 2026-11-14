@@ -496,6 +496,9 @@ export default function TreasureHuntPage() {
     body = (
       <div className="hunt-board">
         <div className="hunt-col hunt-col--left">
+          {/* A short lead in gold in a box, above how to play: the walk-through's
+              jokes without what the steps repeat (2026-11-14, user's call). */}
+          <p className="hunt-lead">{t('draw.huntLead')}</p>
           {shortHowTo}
           {findsBox({ limit: BOARD_FINDS, onSeeAll: () => setSheet('finds') })}
         </div>
