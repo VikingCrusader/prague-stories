@@ -127,3 +127,19 @@ with no people, no objects and no strong light patches in it.
   the bench beneath it a walking stick, a pair of worn walking boots and a
   folded paper tram ticket, as if their owner had just left good advice
   behind.
+
+### Added 2026-11-13 (3:2, small tiles)
+
+Tips and the FAQ were merged into one tile, `tipsFaq`, which reuses `faq.webp`
+(`tips.webp` heads its window). The two freed cells hold:
+
+- `areas` (Districts and Quarters): a large old hand-drawn map of Prague seen
+  from above in the upper half, the Vltava curving through it, the city cut
+  by bold lines into numbered-looking patches (no digits), one patch lifted
+  slightly off the map like a jigsaw piece and glowing gold; a brass
+  magnifying glass over it. Lower half: the plain dark wooden table.
+- `expedition` (Expeditions): Karlštejn Castle on its wooded hill in the far
+  distance at golden hour, a winding country road leading to it from the
+  viewer; on the road a tiny explorer with a backpack, seen from behind, and a
+  milestone at the roadside. Lower half: the empty road and grass verge in
+  soft shadow.

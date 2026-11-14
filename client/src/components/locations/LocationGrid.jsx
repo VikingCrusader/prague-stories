@@ -59,7 +59,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   const [activeRarities, setActiveRarities] = useState(() => new Set(initialFilter?.rarity ? [initialFilter.rarity] : []));
   // Packs only, no cards. They have no rarity, so that filter and the sort are
   // off meanwhile; labels, search and the area still apply.
-  const [packsOnly, setPacksOnly] = useState(false);
+  const [packsOnly, setPacksOnly] = useState(() => !!initialFilter?.packs);
   useEffect(() => { onPacksChange?.(packsOnly); }, [packsOnly, onPacksChange]);
   // The picked rarity (or null), so ExplorePage can show its description.
   // The header only has room for one description, so it shows with a single rarity.

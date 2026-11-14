@@ -30,6 +30,18 @@ export const NEARBY_M = 100;
 export const ALERT_M = 50;
 export const CHECKIN_M = 100;
 
+// Expedition XP (2026-11-13, the Guide's Expedition demo): the straight-line
+// distance from Charles Bridge in five steps, unless a card is set by hand.
+// Mirrors EXPEDITION_XP_STEPS in server/src/data/rarityMap.js (huntRules.test.js).
+export const EXPEDITION_XP_STEPS = [
+  { maxKm: 25, xp: 60 },
+  { maxKm: 50, xp: 120 },
+  { maxKm: 100, xp: 180 },
+  { maxKm: 150, xp: 240 },
+  { maxKm: Infinity, xp: 300 },
+];
+export const expeditionXpAt = km => EXPEDITION_XP_STEPS.find(s => km < s.maxKm).xp;
+
 // The quarters on the castle side of the Vltava, for the hunt's map: the
 // river-bank clue lights up the bank it names. Mirrors LEFT_BANK_QUARTERS in
 // services/gamification.js (huntRules.test.js).

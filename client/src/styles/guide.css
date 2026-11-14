@@ -24,6 +24,9 @@
   align-items: end;
 }
 :is(#root, body) .guide-board__title { grid-row: span 2; font-size: 44px !important; margin: 0; line-height: 1; }
+/* EN/CZ: the page title in the blackletter, like the other page titles
+   (user's call, 2026-11-13; the face has no Chinese, which keeps its own). */
+html:not([data-lang="zh"]) :is(#root, body) .guide-board__title { font-family: "Manufacturing Consent", serif !important; font-weight: 400 !important; letter-spacing: 0.01em; }
 .guide-board__tagline { margin: 0; font-size: 18px; color: var(--text-muted); font-style: italic; }
 .guide-board__challenge { grid-column: 2; margin: 0; font-size: 19px; color: var(--gold); line-height: 1.4; }
 .guide-board__hint { grid-column: 3; grid-row: 1 / span 2; margin: 0; font-size: 15px; color: var(--text-muted); align-self: center; }
@@ -96,6 +99,9 @@
 html[data-lang="zh"] .guide-tile__title { font-family: var(--ui-font-text); }
 .guide-tile__teaser { font-size: 16px; line-height: 1.45; color: var(--text-muted); }
 .guide-tile__local { display: none; }
+/* A signed-in player's own figure on a tile. */
+.guide-tile__mine { font-size: 15px; font-weight: 700; color: var(--gold); line-height: 1.35; }
+.guide-mini--mine { color: var(--gold); font-weight: 700; }
 
 /* Wide tiles: a 4:3 picture as tall as the tile, the text beside it. */
 .guide-tile--wide .guide-tile__inner { flex-direction: row; }
@@ -200,6 +206,8 @@ html:not([data-lang="zh"]) :is(#root, body) .guide-window .guide-h3 {
 .guide-rarity__stage, .guide-showcase-demo { display: flex; gap: 32px; align-items: flex-start; }
 .guide-showcase-demo { flex-direction: column; align-items: center; }
 .guide-rarity__big { zoom: 1.08; }
+.guide-showcase-demo__pair { display: flex; justify-content: center; gap: 36px; flex-wrap: wrap; }
+.guide-showcase-demo__card { zoom: 1.04; }
 .guide-rarity__about { flex: 1; min-width: 0; padding-top: 8px; }
 .guide-rarity__name { font-size: 26px; margin: 4px 0 10px; font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif; }
 .guide-rarity__toggle { display: flex; gap: 8px; margin: 16px 0 10px; }
@@ -222,6 +230,16 @@ html:not([data-lang="zh"]) :is(#root, body) .guide-window .guide-h3 {
 .guide-checkin__you-label { font-size: 12px; font-weight: 700; fill: var(--text-primary); }
 .guide-checkin__side { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
 .guide-checkin__card { zoom: 0.82; }
+/* This demo is about the shaking lock, so it shakes here even with card
+   animations switched off in Settings, and is never taken for off-screen
+   (Chrome before 128 measures zoomed elements wrongly). */
+@media (prefers-reduced-motion: no-preference) {
+  :is(html, html[data-card-motion="off"]) .guide-checkin__card .loc-card--nearby .loc-card__lock {
+    animation: nearby-wobble 1.4s ease-in-out infinite !important;
+    animation-play-state: running !important;
+  }
+}
+.guide-checkin__card--tap { cursor: pointer; }
 .guide-checkin__distance { margin: 0; font-size: 20px; font-weight: 700; color: var(--gold); }
 .guide-checkin__status { margin: 0; min-height: 3em; }
 .guide-checkin__side .px-btn:disabled { opacity: 0.4; cursor: not-allowed; filter: grayscale(0.6); }
@@ -282,6 +300,26 @@ html[data-lang="zh"] .guide-install__os { font-family: var(--ui-font-text); }
 .guide-mock__app small { font-weight: 400; color: #5f6368; }
 .guide-mock__buttons { display: flex; justify-content: flex-end; gap: 14px; color: #1a73e8; font-weight: 600; }
 .guide-mock__buttons span { padding: 6px 10px; border-radius: 16px; }
+/* The app's own screens (Quick Start): our navbar, form and dialogs. */
+.guide-window--start { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); }
+.guide-start .guide-install__step { max-width: 220px; }
+.guide-mock--app { background: #f3ecdc; color: #2a2118; }
+.guide-mock__appbar { flex: none; display: flex; align-items: center; gap: 6px; padding: 26px 10px 8px; border-bottom: 2px solid #8b1a1a; font-family: 'Palatino Linotype', Palatino, serif; font-weight: 700; color: #8b1a1a; font-size: 13px; }
+.guide-mock__appbar img { width: 16px; height: 16px; }
+.guide-mock__appbody { position: relative; flex: 1; display: flex; flex-direction: column; gap: 9px; padding: 14px 12px; }
+.guide-mock__apptitle { font-family: 'Palatino Linotype', Palatino, serif; font-size: 17px; color: #8b1a1a; }
+.guide-mock__field { display: flex; flex-direction: column; gap: 3px; }
+.guide-mock__field small { font-size: 10px; color: #6b5c48; }
+.guide-mock__field i { height: 22px; background: #fffaf0; border: 1px solid #d6c7a6; }
+.guide-mock__appbtn { align-self: stretch; margin-top: 4px; padding: 7px; text-align: center; background: #8b1a1a; color: #fff; font-weight: 700; }
+.guide-mock__cards--dim { opacity: 0.35; }
+.guide-mock__dialog--app { left: 8px; right: 8px; bottom: auto; top: 30%; border-radius: 0; border: 2px solid #8b1a1a; background: #fffaf0; }
+.guide-mock__dialog--app strong { font-size: 12px; line-height: 1.35; }
+.guide-mock__dialog--app small { font-size: 10px; color: #6b5c48; line-height: 1.4; }
+.guide-mock__buttons--app { justify-content: stretch; color: #2a2118; }
+.guide-mock__buttons--app span { flex: 1; text-align: center; border: 1px solid #d6c7a6; border-radius: 0; font-size: 11px; }
+.guide-mock__buttons--app span.guide-mock__hit { border-radius: 0; }
+
 /* Safari (iOS 26): the address bar sits at the bottom, sheets slide up. */
 .guide-mock--ios { font-family: -apple-system, 'SF Pro Text', 'Segoe UI', Arial, sans-serif; }
 .guide-mock--ios .guide-mock__page { padding-top: 30px; }
@@ -308,21 +346,108 @@ html[data-lang="zh"] .guide-install__os { font-family: var(--ui-font-text); }
 .guide-mock__hit { outline: 3px solid var(--gold); outline-offset: 1px; border-radius: 8px; box-shadow: 0 0 12px color-mix(in srgb, var(--gold) 60%, transparent); animation: guide-ring-pulse 1.6s ease-in-out infinite; }
 .guide-mock__menu li.guide-mock__hit { background: #fdf6dd; }
 
+/* Locked and Unlocked demo: the card beside its story; locked, the second
+   paragraph fades out under the first; collected, the rest unfolds. */
+.guide-locked { display: flex; gap: 32px; align-items: flex-start; }
+.guide-locked__card { zoom: 0.95; }
+.guide-locked__side { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+.guide-locked__story { position: relative; padding: 16px 18px; background: var(--bg-card); border: 2px solid var(--border); }
+.guide-locked__story .guide-body { margin-bottom: 12px; }
+.guide-locked__fade {
+  max-height: 3.2em; overflow: hidden; margin-bottom: 4px !important; user-select: none;
+  -webkit-mask-image: linear-gradient(to bottom, #000, transparent);
+          mask-image: linear-gradient(to bottom, #000, transparent);
+  filter: blur(1.5px);
+}
+.guide-locked__wait { margin: 0; font-size: 15px; color: var(--text-muted); font-style: italic; }
+.guide-locked__more { animation: guide-unfold 0.5s ease-out calc(0.35s + var(--i) * 0.35s) backwards; }
+@keyframes guide-unfold { from { opacity: 0; translate: 0 10px; } }
+.guide-locked__bonus { padding: 10px 12px; margin-bottom: 0 !important; border-left: 4px solid var(--gold); background: color-mix(in srgb, var(--gold) 8%, transparent); }
+.guide-locked__note { margin: 0; padding: 8px 12px; border: 2px dashed var(--border); }
+
+/* Packs demo: four real packs side by side. */
+.guide-packs__row { display: flex; justify-content: center; gap: 28px; flex-wrap: wrap; }
+.guide-packs__pack { zoom: 0.78; cursor: pointer; }
+.guide-packs__all { display: inline-flex; margin-top: 18px; }
+
+/* Achievements demo: the achievement page's own rows. */
+.guide-ach__list { list-style: none; margin: 0 0 18px; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.guide-ach__list > li { display: flex; }
+.guide-ach__row { width: 100%; height: 100%; }
+.guide-ach__all { display: inline-flex; }
+
+/* The Treasure Hunt page's link to the practice hunt. */
+.hunt-practice-link { display: inline-flex; margin-top: 14px; }
+
+/* A button to the page a section is about. */
+.guide-goto { display: inline-flex; margin-top: 6px; }
+
+/* The opening window's banner: the tile's own picture. */
+.guide-window__banner { display: block; width: 100%; aspect-ratio: 3 / 2; max-height: 340px; object-fit: cover; object-position: center 40%; margin: 0 0 18px; border: 2px solid var(--border); }
+
+/* The Screens window: wide, each page's text beside its screenshot. */
+.guide-window--screens { width: min(1500px, 94vw); }
+.guide-screens { display: grid; gap: 22px; }
+.guide-screens__item { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 24px; align-items: start; }
+.guide-screens__item:nth-child(even) .guide-screens__shot { order: 2; }
+.guide-screens__shot { padding: 0; border: 2px solid var(--border); background: var(--bg-surface); cursor: zoom-in; box-shadow: 3px 3px 0 var(--shadow); transition: border-color 0.15s ease; }
+.guide-screens__shot:hover { border-color: var(--gold); }
+.guide-screens__shot img { display: block; width: 100%; height: auto; }
+.guide-screens__text .guide-h3 { margin-top: 0 !important; }
+.guide-screens__zoom { position: fixed; inset: 0; z-index: 270; display: grid; place-items: center; padding: 3vh 3vw; background: rgba(0, 0, 0, 0.75); cursor: zoom-out; animation: guide-alert-in 0.2s ease-out; }
+.guide-screens__zoom img { max-width: 100%; max-height: 100%; border: 2px solid var(--gold); box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6); }
+
+/* Districts and Quarters demo: Explore's map beside the chosen area. */
+.guide-areas__stage { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+.guide-areas__map { min-width: 0; }
+.guide-areas__side { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; padding-top: 6px; }
+.guide-areas__name { margin: 0; font-size: 24px; color: var(--gold); font-family: 'Palatino Linotype', Palatino, 'Book Antiqua', serif; }
+html[data-lang="zh"] .guide-areas__name { font-family: var(--ui-font-text); }
+.guide-areas__count { margin: 0; font-size: 15px; color: var(--text-muted); }
+
+/* Expedition demo: the XP steps over the real card the slider reached. */
+.guide-expedition { display: flex; flex-direction: column; gap: 16px; }
+.guide-expedition__steps { display: flex; gap: 8px; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; }
+.guide-expedition__steps li { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 12px; border: 2px solid var(--border); color: var(--text-muted); font-size: 13px; transition: all 0.2s ease; }
+.guide-expedition__steps li strong { font-size: 15px; }
+.guide-expedition__steps li.is-on { border-color: var(--rarity-expedition, var(--gold)); color: var(--text-primary); background: color-mix(in srgb, var(--gold) 10%, transparent); }
+.guide-expedition__stage { display: flex; gap: 28px; align-items: flex-start; }
+.guide-expedition__card { zoom: 0.9; }
+.guide-expedition__about { flex: 1; min-width: 0; padding-top: 8px; }
+.guide-expedition__xp { margin: 0 0 6px; font-size: 32px; font-weight: 700; color: var(--gold); }
+.guide-expedition__examples { border-top: 2px solid var(--border); padding-top: 14px; }
+.guide-expedition__examples-title { margin: 0 0 12px; font-size: 16px; color: var(--gold); }
+.guide-expedition__row { display: flex; gap: 20px; flex-wrap: wrap; }
+.guide-expedition__example { display: flex; flex-direction: column; align-items: center; gap: 8px; opacity: 0.75; transition: opacity 0.15s ease, translate 0.15s ease; }
+.guide-expedition__example.is-on { opacity: 1; translate: 0 -4px; }
+.guide-expedition__mini { zoom: 0.55; cursor: pointer; }
+.guide-expedition__meta { font-size: 14px; color: var(--text-muted); }
+.guide-expedition__how { font-size: 13px; padding: 1px 8px; border: 1px solid var(--border); color: var(--text-muted); }
+.guide-expedition__how--hand { border-color: var(--gold); color: var(--gold); font-weight: 700; }
+
+/* History demo: every era as a row, its line under it when clicked. */
+.guide-history { display: flex; flex-direction: column; gap: 12px; }
+.guide-history__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-flow: column; grid-template-rows: repeat(12, auto); gap: 4px 16px; }
+.guide-history__row { align-self: start; border: 2px solid var(--border); background: var(--bg-card); }
+.guide-history__row.is-open { border-color: var(--gold); }
+.guide-history__head { display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; align-items: baseline; gap: 10px; width: 100%; padding: 7px 10px; background: none; border: 0; color: var(--text-primary); text-align: left; cursor: pointer; font: inherit; }
+.guide-history__num { font-size: 13px; color: var(--gold); font-weight: 700; }
+.guide-history__name { font-size: 16px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.guide-history__years { font-size: 13px; color: var(--text-muted); white-space: nowrap; }
+.guide-history__line { margin: 0; padding: 0 12px 10px 48px; font-size: 15px; line-height: 1.5; color: var(--text-primary); animation: guide-alert-in 0.2s ease-out; }
+.guide-history__read { align-self: flex-start; }
+
 /* Hunt demo */
 .guide-hunt { display: flex; flex-direction: column; gap: 14px; }
 .guide-hunt__slider { display: flex; flex-direction: column; gap: 8px; font-size: 16px; }
 .guide-hunt__slider input { width: 100%; accent-color: var(--gold); }
-.guide-hunt__ladder { display: flex; gap: 8px; list-style: none; margin: 0; padding: 0; }
-.guide-hunt__ladder li { padding: 4px 12px; border: 2px solid var(--border); color: var(--text-muted); font-weight: 700; transition: all 0.2s ease; }
-.guide-hunt__ladder li.is-on { border-color: var(--gold); background: var(--gold); color: var(--bg-card); }
-.guide-hunt__ladder li.is-gone { opacity: 0.35; text-decoration: line-through; }
 .guide-hunt__panel .hunt-panel { margin: 0; }
 .guide-hunt__foot { display: flex; align-items: center; justify-content: space-between; gap: 14px; }
 .guide-hunt__foot .guide-demo__hint { margin: 0; }
 
 @media (prefers-reduced-motion: reduce) {
-  .guide-tile, .guide-tile__art, .guide-rarity__pick, .guide-hunt__ladder li { transition: none; }
-  .guide-checkin__alert, .guide-mock__hit { animation: none; }
+  .guide-tile, .guide-tile__art, .guide-rarity__pick { transition: none; }
+  .guide-checkin__alert, .guide-mock__hit, .guide-locked__more { animation: none; }
 }
 
 /* ── Narrower screens: windows and demos ─────────────────────────────────── */
@@ -348,12 +473,17 @@ html[data-lang="zh"] .guide-install__os { font-family: var(--ui-font-text); }
 @media (max-width: 900px) {
   .guide-install__row { overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; padding-bottom: 8px; }
   .guide-install__step { flex: 0 0 190px; scroll-snap-align: start; }
-  .guide-checkin__stage, .guide-rarity__stage { flex-direction: column; align-items: center; }
+  .guide-checkin__stage, .guide-rarity__stage, .guide-locked, .guide-expedition__stage { flex-direction: column; align-items: center; }
+  .guide-areas__stage { grid-template-columns: 1fr; }
+  .guide-history__list { grid-template-columns: 1fr; grid-auto-flow: row; grid-template-rows: none; }
   .guide-checkin__map { width: min(420px, 100%); height: auto; aspect-ratio: 1; }
   .guide-checkin__side { align-items: center; text-align: center; }
   .guide-rarity__about { text-align: center; }
   .guide-rarity__toggle { justify-content: center; }
   .guide-hunt__foot { flex-direction: column; align-items: stretch; }
+  .guide-ach__list { grid-template-columns: 1fr; }
+  .guide-screens__item { grid-template-columns: 1fr; gap: 10px; }
+  .guide-screens__item:nth-child(even) .guide-screens__shot { order: 0; }
 }
 
 /* Phones: one column. Wide tiles put their picture on top and the text under
@@ -367,6 +497,10 @@ html[data-lang="zh"] .guide-install__os { font-family: var(--ui-font-text); }
   .guide-board__hint { display: none; }
   .guide-board__grid { grid-template-columns: 1fr; grid-auto-rows: auto; gap: 14px; }
   .guide-tile { grid-column: auto !important; grid-row: auto !important; }
+  /* Phone users need installing most: it comes right after the opening tile. */
+  .guide-tile--what { order: -2; }
+  .guide-tile--install { order: -1; }
+  .guide-tile--tipsFaq { order: 1; }
   .guide-tile--full { aspect-ratio: 3 / 2; }
   .guide-tile--wide .guide-tile__inner { position: static; flex-direction: column; }
   .guide-tile--wide .guide-tile__pic { width: 100%; height: auto; aspect-ratio: 4 / 3; border-right: 0; border-bottom: 2px solid var(--border); }
@@ -376,11 +510,18 @@ html[data-lang="zh"] .guide-install__os { font-family: var(--ui-font-text); }
   .guide-tile--what .guide-tile__title { font-size: 26px; }
   .guide-tile--what .guide-tile__teaser { font-size: 16px; }
   .guide-tile--what .guide-tile__local { display: none; }
+/* A signed-in player's own figure on a tile. */
+.guide-tile__mine { font-size: 15px; font-weight: 700; color: var(--gold); line-height: 1.35; }
+.guide-mini--mine { color: var(--gold); font-weight: 700; }
   .guide-tile--what .guide-tile__body { padding: 40px 16px 14px; }
 
   .guide-window { width: 100%; max-height: 90vh; padding: 22px 16px 26px; overflow-y: auto; }
   .guide-window__title { font-size: 24px; margin-bottom: 12px; }
   .guide-rarity__big { zoom: 0.9; }
+  .guide-showcase-demo__pair { gap: 14px; flex-wrap: nowrap; }
+  .guide-showcase-demo__card { zoom: 0.6; }
+  .guide-packs__row { gap: 12px; }
+  .guide-packs__pack { zoom: 0.55; }
   .guide-rarity__pick { zoom: 0.5; }
   .guide-checkin__card { zoom: 0.7; }
 }

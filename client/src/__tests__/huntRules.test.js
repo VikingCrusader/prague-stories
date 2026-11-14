@@ -30,6 +30,13 @@ describe('hunt rules mirror the server', () => {
     expect(body(fs.readFileSync(path.join(__dirname, '..', 'utils', 'huntRules.js'), 'utf8'))).toBe(body(gamification));
   });
 
+  it('expedition XP steps match the server', () => {
+    const src = read('server/src/data/rarityMap.js');
+    const block = src.match(/export const EXPEDITION_XP_STEPS = \[([\s\S]*?)\];/)[1];
+    const steps = [...block.matchAll(/maxKm:\s*(\w+),\s*xp:\s*(\d+)/g)].map(m => ({ maxKm: m[1] === 'Infinity' ? Infinity : Number(m[1]), xp: Number(m[2]) }));
+    expect(rules.EXPEDITION_XP_STEPS).toEqual(steps);
+  });
+
   it('check-in distances match the app', () => {
     expect(rules.CHECKIN_M).toBe(constant(read('server/src/controllers/checkinController.js'), 'MAX_DISTANCE_METERS'));
     expect(rules.NEARBY_M).toBe(constant(read('client/src/utils/geolocation.js'), 'NEARBY_REVEAL_M'));

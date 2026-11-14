@@ -95,13 +95,14 @@ export default function ExplorePage() {
   // strip sends { showAll: true, rarity: 'expedition' } from its empty
   // nudge, an achievement's label or rarity sends that filter). A new link while
   // already here starts the grid afresh (its `key` below).
-  const initialFilter = useMemo(() => (state?.rarity || state?.label
-    ? { rarity: state.rarity ?? null, label: state.label ?? null }
-    : null), [state?.rarity, state?.label]);
+  // `packs: true` (the Guide's "See all packs") opens on the Packs filter.
+  const initialFilter = useMemo(() => (state?.rarity || state?.label || state?.packs
+    ? { rarity: state.rarity ?? null, label: state.label ?? null, packs: !!state.packs }
+    : null), [state?.rarity, state?.label, state?.packs]);
   useEffect(() => { if (state?.showAll) setCityOnly(false); }, [state?.showAll, locationKey]);
   // Arriving with a filter from a pop-up on this very page: whatever was open goes.
   useEffect(() => {
-    if (!state?.rarity && !state?.label) return;
+    if (!state?.rarity && !state?.label && !state?.packs) return;
     setSelectedSlug(null);
     setAreaGuide(null);
     setOpenAch(null);

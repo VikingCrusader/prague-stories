@@ -74,8 +74,8 @@ export default function CheckInDemo({ card }) {
             </div>
           )}
           {card && (
-            <div className="guide-card guide-checkin__card">
-              <LocationCard location={{ ...card, unlocked: collected }} distance={metres} nearby={near} holdable={false} onClick={() => {}} />
+            <div className={`guide-card guide-checkin__card${near && !collected ? ' guide-checkin__card--tap' : ''}`}>
+              <LocationCard location={{ ...card, unlocked: collected }} distance={metres} nearby={near} holdable={false} onClick={() => { if (near && !collected) setCollected(true); }} />
             </div>
           )}
           <p className="guide-checkin__distance">{fill(convert(b.away), { d: metres })}</p>

@@ -61,7 +61,7 @@ export default function RarityDemo({ samples }) {
 
 // A card's real detail window, over the Guide's window (in a portal, so the
 // window's clipping and its click handling stay out of it).
-function CardDetail({ card, onClose }) {
+export function CardDetail({ card, onClose }) {
   return createPortal(
     <div className="guide-detail" onClick={e => e.stopPropagation()}>
       <LocationDetail slug={card.slug} preview={card} onClose={onClose} />
@@ -70,18 +70,27 @@ function CardDetail({ card, onClose }) {
   );
 }
 
-// Just the big card, for the Showing Off tile.
-export function ShowcaseDemo({ card }) {
+// The Showing Off tile: two collected cards side by side (user's pick,
+// 2026-11-13), each to be picked up into the showcase or opened.
+export function ShowcaseDemo({ cards }) {
   const { lang } = useLang();
   const convert = useConvert();
   const b = (BOARD[lang] || BOARD.en).rarity;
-  if (!card) return <p className="guide-body">{convert(b.noCards)}</p>;
+  const [detail, setDetail] = useState(null);
+  const distanceTo = useCardDistance();
+  const shown = (cards || []).filter(Boolean);
+  if (!shown.length) return <p className="guide-body">{convert(b.noCards)}</p>;
   return (
     <div className="guide-showcase-demo">
-      <div className="guide-card guide-rarity__big">
-        <LocationCard location={{ ...card, unlocked: true }} holdable onClick={() => {}} />
+      <div className="guide-showcase-demo__pair">
+        {shown.map(card => (
+          <div key={card.slug} className="guide-card guide-showcase-demo__card">
+            <LocationCard location={{ ...card, unlocked: true }} distance={distanceTo(card)} holdable onClick={() => setDetail(card)} />
+          </div>
+        ))}
       </div>
-      <p className="guide-demo__hint">{convert(b.hold)}</p>
+      <p className="guide-demo__hint">{convert(b.holdPair)}</p>
+      {detail && <CardDetail card={detail} onClose={() => setDetail(null)} />}
     </div>
   );
 }
