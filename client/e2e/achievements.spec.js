@@ -53,7 +53,7 @@ test.describe('Achievements page', () => {
     const modal = page.locator('.ach-modal');
     await expect(modal.getByText('Subway Maniac requirement.')).toBeVisible();
     await expect(modal.getByText('1 / 3')).toBeVisible();
-    await expect(modal.locator('.ach-places__item--done')).toHaveText(/Háje/);
+    await expect(modal.locator('.area-guide__landmark--got')).toHaveText(/Háje/);
     await expect(modal.getByText('letnany · no card yet')).toBeVisible();
     await expect(modal.getByText('LOCKED')).toBeVisible();
   });

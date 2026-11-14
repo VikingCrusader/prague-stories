@@ -206,6 +206,9 @@
 .ach-places { max-height: 240px; overflow-y: auto; } /* Veni, Vidi, Vici lists every legend card */
 .ach-modal__quarter { margin-top: 12px; }
 .ach-modal__sublabel { font-size: 14px; color: var(--text-muted); }
+/* Veni, Vidi, Vici lists every legend card: the tags scroll past a few rows. */
+.ach-place-tags { max-height: 240px; overflow-y: auto; }
+.ach-place-tags .ach-places__missing { display: block; padding: 5px 12px; }
 .ach-places__missing { font-style: italic; opacity: 0.75; }
 .ach-modal__meta {
   margin-top: 18px;

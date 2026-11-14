@@ -38,14 +38,20 @@ export default function AchievementModal({ achievement: ach, onClose }) {
   );
   const labelText = l => `${LABEL_DEFINITIONS[l]?.emoji || ''} ${convert(LABEL_DEFINITIONS[l]?.[lang] || LABEL_DEFINITIONS[l]?.en || l)}`.trim();
   const rarityText = r => convert((RARITY_LABEL[lang] || RARITY_LABEL.en)[r]);
+  // The named cards as the area guides' landmark tags (2026-11-14, user's call):
+  // collected ones in gold with a tick, each opening its card.
   const renderPlaces = list => (
-    <ul className="ach-places">
+    <ul className="area-guide__landmarks ach-place-tags">
       {list.map(pl => (
-        <li key={pl.slug} className={`ach-places__item${pl.done ? ' ach-places__item--done' : ''}`}>
-          <span className="ach-places__mark" aria-hidden="true">{pl.done ? '✓' : '○'}</span>
+        <li key={pl.slug} className={`area-guide__landmark${pl.done ? ' area-guide__landmark--got' : ''}`}>
           {pl.missing
             ? <span className="ach-places__missing">{pl.slug} · {t('ach.noCard')}</span>
-            : <button type="button" className="ach-places__open" onClick={() => setOpenSlug(pl.slug)}>{convert(getLocName(pl, lang))}</button>}
+            : (
+              <button type="button" className="ach-places__open" onClick={() => setOpenSlug(pl.slug)}>
+                {pl.done && <span aria-label={t('areaGuide.landmarkCollected')}>✓ </span>}
+                {convert(getLocName(pl, lang))}
+              </button>
+            )}
         </li>
       ))}
     </ul>
