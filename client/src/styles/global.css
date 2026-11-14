@@ -910,7 +910,7 @@ html:not([data-lang="zh"]) .navbar__logo {
   .navbar.navbar--user .navbar__right { align-items: center; }
   html[data-lang="en"] .navbar--user .navbar__right .lang-tabs { height: calc(min(7vw, 30px) * 0.84); }
   html[data-lang="cz"] .navbar--user .navbar__right .lang-tabs { height: calc(min(7vw, 30px) * 0.84); }
-  html[data-lang="zh"] .navbar--user .navbar__right .lang-tabs { height: calc(min(5.4vw, 26px) * 0.84); }
+  html[data-lang="zh"] .navbar--user .navbar__right .lang-tabs { height: calc(min(7vw, 30px) * 0.84); }
 }
 /* Chinese shows the English wordmark too (Navbar.jsx), so it needs the
    same face; .navbar in the selector outranks the zh pixel-font and size
@@ -923,8 +923,9 @@ html[data-lang="zh"] .navbar .navbar__logo {
   line-height: 1;
 }
 @media (max-width: 600px) {
-  html[data-lang="zh"] .navbar .navbar__logo { font-size: min(5.1vw, 26px) !important; }
-  html[data-lang="zh"] .navbar.navbar--user .navbar__logo { font-size: min(5.4vw, 26px) !important; }
+  /* The same size as in English (2026-11-14, user's call: it looked too small). */
+  html[data-lang="zh"] .navbar .navbar__logo { font-size: min(6.7vw, 30px) !important; }
+  html[data-lang="zh"] .navbar.navbar--user .navbar__logo { font-size: min(7vw, 30px) !important; }
 }
 /* Chinese: LXGW WenKai TC bold (kaishu) for both Simplified and
    Traditional (2026-10-09, user's pick over Ma Shan Zheng). !important to

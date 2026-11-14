@@ -85,14 +85,17 @@ export default function AchievementsPage() {
   // The chips count what the locked-only toggle leaves.
   const pool = user && lockedOnly ? list.filter(a => !a.unlocked) : list;
   const shown = pool.filter(a => !difficulty || a.difficulty === difficulty);
+  // "All" means everything: lit only with no filter on, and pressing it clears
+  // both the tier and "not yet unlocked" (2026-11-14, user's call).
+  const showingAll = !difficulty && !(user && lockedOnly);
   const allChip = (
     <button
       type="button"
-      className={`ach-filter__chip${difficulty ? '' : ' ach-filter__chip--active'}`}
-      aria-pressed={!difficulty}
-      onClick={() => setDifficulty(null)}
+      className={`ach-filter__chip${showingAll ? ' ach-filter__chip--active' : ''}`}
+      aria-pressed={showingAll}
+      onClick={() => { setDifficulty(null); setLockedOnly(false); }}
     >
-      {t('ach.filterAll')} <span className="ach-filter__count">{pool.length}</span>
+      {t('ach.filterAll')} <span className="ach-filter__count">{list.length}</span>
     </button>
   );
 
