@@ -1066,7 +1066,14 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
 .history-era-intro__chapter { margin-right: 0.5em; }
 .history-era-intro__title { position: relative; font-size: 30px; line-height: 1.15; color: var(--gold); }
 html:not([data-lang="zh"]) :is(#root, body) :is(.history-era-intro__title, .history-era-intro__chapter) { font-family: "Manufacturing Consent", serif !important; font-weight: 400 !important; font-size: 34px; }
-html[data-lang="zh"] :is(.history-era-intro__title, .history-era-intro__chapter) { font-family: var(--ui-font-text); font-weight: 800; }
+/* ZH chapter head: 朱雀仿宋, the body text's face (zhuque-history.woff2, global.css), bigger and
+   thickened with an outline in the text colour, since Zhuque has one weight (2026-11-14, user's call). */
+html[data-lang="zh"] :is(#root, body) :is(.history-era-intro__title, .history-era-intro__chapter) {
+  font-family: "Zhuque History", var(--ui-font-text) !important;
+  font-weight: 400 !important;
+  -webkit-text-stroke: 0.04em currentColor;
+}
+html[data-lang="zh"] :is(#root, body) .history-era-intro__title { font-size: 38px; }
 .history-era-intro__sub { margin: 4px 0 0; font-size: 16px; line-height: 1.4; color: var(--gold); }
 .history-era-intro__subtitle { color: var(--gold); font-weight: 700; }
 .history-era-intro__subtitle + .history-era-intro__years::before { content: '·'; margin: 0 0.6em; }

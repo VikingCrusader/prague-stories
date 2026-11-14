@@ -173,10 +173,16 @@ html[data-lang="zh"] .px-title {
    was clashing with the parchment/history styling (user request,
    2026-09-16). Bolder + bigger than the old pixel-font sizes since a
    serif face reads lighter at the same size. */
+/* Event titles moved to 朱雀仿宋 like the body and chapter heads
+   (2026-11-14, user's call; "Zhuque History" is declared further down).
+   Zhuque has one weight, so the bold comes from an outline in the text
+   colour, and a little bigger than the old 26px serif since fangsong
+   runs small. */
 html[data-lang="zh"] .history-event__title {
-  font-family: "Noto Serif SC", "Noto Serif TC", serif !important;
-  font-size: 26px !important;
-  font-weight: 700 !important;
+  font-family: "Zhuque History", "Noto Serif SC", "Noto Serif TC", serif !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  -webkit-text-stroke: 0.04em currentColor;
 }
 html[data-lang="zh"] .history-sidebar__era-title {
   font-family: "Noto Serif SC", "Noto Serif TC", serif !important;
@@ -557,6 +563,31 @@ html[data-lang="zh"] .history-event__summary,
 html[data-lang="zh"] .detail-desc {
   font-family: var(--zh-body-font) !important;
   font-weight: var(--zh-body-weight);
+}
+/* History body text in 朱雀仿宋, the same face as the zh page titles, on
+   both themes (2026-11-14, user's call; replaces the per-theme Noto Serif /
+   Noto Sans there; location descriptions keep them). A self-hosted subset
+   of every character in the History data, built by
+   scripts/subsetTitleFonts.py: rerun it after seeding new History text, or
+   a new character falls back to the theme's Noto face. Zhuque has one
+   weight, so 400, and fangsong runs small, so a pixel larger. Background
+   and overview cards keep WenKai (more specific rules below). */
+@font-face {
+  font-family: "Zhuque History";
+  src: url("/fonts/zhuque-history.woff2") format("woff2");
+  font-display: swap;
+}
+html[data-lang="zh"] .history-event__summary {
+  font-family: "Zhuque History", var(--zh-body-font) !important;
+  font-weight: 400;
+  font-size: 17px;
+  /* Thicker strokes (user's call, same day): a thin outline in the text
+     colour, as on the zh titles, since synthetic bold blurs the fangsong's
+     sharp stroke ends. The heiti [[b]] sentences are bold already. */
+  -webkit-text-stroke: 0.025em currentColor;
+}
+html[data-lang="zh"] .history-event__summary .history-event__bold {
+  -webkit-text-stroke: 0;
 }
 /* Sidebar era titles, event titles and event years: heiti on the light
    theme only (event titles 500, years 700); the dark theme keeps its

@@ -10,6 +10,12 @@
 - public/fonts/title-digits.woff2: just 0-9 from Manufacturing Consent (OFL),
   the navbar wordmark's blackletter, used for the district numbers.
 
+- public/fonts/zhuque-history.woff2: the same 朱雀仿宋 cut down to every
+  character in the History Timeline's Chinese text (server/src/data's
+  seedHistoryEvents.js, historyOverviews.js, historyEras.js), Simplified and
+  Traditional, for the event body text. Rerun after adding History content,
+  or a new character falls back to Noto Serif.
+
 Both licences allow subsetting; OFL.txt in public/fonts/ covers them.
 Needs fontTools and brotli (pip install fonttools brotli) and node (for
 opencc-js from client/node_modules). The source fonts are downloaded into a
@@ -72,6 +78,31 @@ def title_chars():
     return ''.join(sorted(set(text + tw) - set(' ')))
 
 
+def to_traditional(text):
+    js = ("const OpenCC = require('opencc-js');"
+          "const c = OpenCC.Converter({ from: 'cn', to: 'tw' });"
+          "let s = ''; process.stdin.on('data', d => s += d);"
+          "process.stdin.on('end', () => process.stdout.write(c(s)));")
+    return subprocess.run(['node', '-e', js], input=text, cwd=ROOT, capture_output=True,
+                          text=True, encoding='utf-8', check=True).stdout
+
+
+def history_chars():
+    """Every character the History Timeline's Chinese text can show, in
+    Simplified and Traditional: the seed files hold all of it (the live DB
+    is synced from them)."""
+    data = os.path.join(ROOT, '..', 'server', 'src', 'data')
+    text = ''
+    for name in ('seedHistoryEvents.js', 'historyOverviews.js', 'historyEras.js'):
+        text += open(os.path.join(data, name), encoding='utf-8').read()
+    # Only CJK and full-width punctuation: Latin letters and digits fall back
+    # to the next face in the stack, as in the rest of the zh body text.
+    # Plus the era heads' chapter numbers (第十五章, utils/eraChapter.js).
+    text += '第章一二三四五六七八九十'
+    cjk = ''.join(sorted(set(c for c in text if ord(c) >= 0x2e80)))
+    return ''.join(sorted(set(cjk + to_traditional(cjk)) - set(' \n')))
+
+
 def build(src, out, text):
     opts = subset.Options()
     opts.flavor = 'woff2'
@@ -89,3 +120,4 @@ if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
     build(source('zhuque.ttf'), os.path.join(OUT, 'zhuque-title.woff2'), title_chars())
     build(source('mc.ttf'), os.path.join(OUT, 'title-digits.woff2'), '0123456789')
+    build(source('zhuque.ttf'), os.path.join(OUT, 'zhuque-history.woff2'), history_chars())
