@@ -28,11 +28,11 @@ test('with the side column My Collections stays lit and disabled, and a long Bac
   const map = page.locator('.district-map__svg');
   const mapTop = async () => (await map.boundingBox()).y;
   const start = await mapTop();
-  await page.getByRole('button', { name: 'My Collections' }).click();
-  const back = page.getByRole('button', { name: 'Back to Explore' });
+  await page.getByRole('button', { name: 'Collected', exact: true }).click();
+  const back = page.getByRole('button', { name: 'Back to the Dex' });
   await expect(cards).toHaveCount(10);
   await expect(page.locator('.explore-side .explore-title')).toHaveText("All You've Collected So Far");
-  const mine = page.getByRole('button', { name: 'My Collections' });
+  const mine = page.getByRole('button', { name: 'Collected', exact: true });
   await expect(mine).toBeDisabled();
   await expect(mine).toHaveClass(/filter-btn--active/);
   await expect(page.locator('.explore-side__exit .filter-btn')).toHaveCount(1);
@@ -44,7 +44,7 @@ test('with the side column My Collections stays lit and disabled, and a long Bac
   await back.click();
   await expect(cards).toHaveCount(32);
   await expect(page.locator('.explore-side .explore-title')).toHaveText('Collect Every Card in Prague');
-  await expect(page.getByRole('button', { name: 'My Collections' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Collected', exact: true })).toBeVisible();
 });
 
 test('a card off screen pauses its animations and restarts them when it comes back', async ({ page }) => {
@@ -68,7 +68,7 @@ test('Treasure Hunt Finds in the collection card shows the count and filters to 
   await page.setViewportSize({ width: 2560, height: 1300 });
   await page.goto('/explore');
   await page.locator('.district-map__area').first().waitFor();
-  await page.getByRole('button', { name: 'My Collections' }).click();
+  await page.getByRole('button', { name: 'Collected', exact: true }).click();
   const cards = page.locator('.explore-main .loc-card');
   await expect(cards).toHaveCount(10);
   const row = page.locator('.explore-collection__hunt');
@@ -82,9 +82,9 @@ test('Treasure Hunt Finds in the collection card shows the count and filters to 
   await expect(row).toBeVisible();
   await row.getByRole('button', { name: 'Show' }).click();
   await expect(cards).toHaveCount(4);
-  await page.getByRole('button', { name: 'Back to Explore' }).click();
+  await page.getByRole('button', { name: 'Back to the Dex' }).click();
   await expect(cards).toHaveCount(32);
-  await page.getByRole('button', { name: 'My Collections' }).click();
+  await page.getByRole('button', { name: 'Collected', exact: true }).click();
   await expect(cards).toHaveCount(10); // the treasure filter did not stay on
 });
 
@@ -93,7 +93,7 @@ test('with no treasure found the Show button is off', async ({ page }) => {
   await page.setViewportSize({ width: 2560, height: 1300 });
   await page.goto('/explore');
   await page.locator('.district-map__area').first().waitFor();
-  await page.getByRole('button', { name: 'My Collections' }).click();
+  await page.getByRole('button', { name: 'Collected', exact: true }).click();
   const row = page.locator('.explore-collection__hunt');
   await expect(row).toContainText('Treasure Hunt Finds: 0');
   await expect(row.getByRole('button', { name: 'Show' })).toBeDisabled();
@@ -128,7 +128,7 @@ test.describe('Explore on a 2K screen', () => {
     await expect(page.locator('.district-map__selected')).toHaveCount(1);
     await expect(page.locator('.explore-side .explore-title')).toContainText('11');
 
-    await page.getByRole('button', { name: 'My Collections' }).click();
+    await page.getByRole('button', { name: 'Collected', exact: true }).click();
     await expect(cards).toHaveCount(10); // collected, in that district
 
     await area.click();
@@ -139,7 +139,7 @@ test.describe('Explore on a 2K screen', () => {
   test('My Collections with no filter shows the ring and rarity counts; any filter replaces them', async ({ page }) => {
     const summary = page.locator('.explore-collection');
     await expect(summary).toHaveCount(0);
-    await page.getByRole('button', { name: 'My Collections' }).click();
+    await page.getByRole('button', { name: 'Collected', exact: true }).click();
     await expect(summary.locator('svg text').first()).toHaveText('31%'); // 10 of the 32 city cards
     await expect(summary.locator('.stat-card__value')).toHaveText('10');
     await expect(summary.locator('.rarity-compact__item')).toHaveCount(7);
@@ -159,9 +159,9 @@ test.describe('Explore on a 2K screen', () => {
     await page.getByRole('button', { name: 'Clear filters' }).click();
     await expect(summary).toHaveCount(1);
 
-    await page.getByRole('button', { name: 'Back to Explore' }).click();
+    await page.getByRole('button', { name: 'Back to the Dex' }).click();
     await expect(summary).toHaveCount(0);
-    await expect(page.getByRole('button', { name: 'My Collections' })).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Collected', exact: true })).toBeVisible();
   });
 
   test('with no filter a second card shows the next level and the achievements closest to done', async ({ page }) => {
@@ -287,7 +287,7 @@ test.describe('Explore on a 2K screen', () => {
     expect(await top()).toBe(start);
     await page.locator('.explore-side .scope-toggle__opt:not(.scope-toggle__opt--on)').click();
 
-    await page.getByRole('button', { name: 'My Collections' }).click();
+    await page.getByRole('button', { name: 'Collected', exact: true }).click();
     await expect(notes).toHaveCount(1);
     expect(await top()).toBe(start);
 

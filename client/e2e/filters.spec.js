@@ -53,7 +53,7 @@ test.describe('Explore grid — search & filters', () => {
   });
 
   test('the "My Collections" filter shows only unlocked locations', async ({ page }) => {
-    await page.getByRole('button', { name: 'My Collections' }).click();
+    await page.getByRole('button', { name: 'Collected', exact: true }).click();
     await expect(page.locator('.loc-card')).toHaveCount(2);
     const names = await page.locator('.loc-card__name').allTextContents();
     expect(names.sort()).toEqual(['Charles Bridge', 'Petřín Tower'].sort());
@@ -105,7 +105,7 @@ test.describe('Explore grid — search & filters', () => {
   });
 
   test('the rarity description wins over the My Collections hint', async ({ page }) => {
-    await page.getByRole('button', { name: 'My Collections' }).click();
+    await page.getByRole('button', { name: 'Collected', exact: true }).click();
     await expect(page.locator('.explore-showcase-hint')).toBeVisible();
     await page.getByRole('button', { name: /^Rarity/ }).click();
     await page.locator('.label-filter__panel').getByRole('button', { name: /Legend/ }).click();

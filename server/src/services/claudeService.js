@@ -25,7 +25,7 @@ export async function generateLocationDescription(locationName, category, existi
     return { en: existingEn, cz, zh };
   }
 
-  const prompt = `You are the narrator of "Prague Stories", a pixel-art RPG where players explore real Prague locations as if they were quest objectives.
+  const prompt = `You are the narrator of "Praguedex", a pixel-art RPG where players explore real Prague locations as if they were quest objectives.
 
 Write a quest description for the location "${locationName}" (category: ${category}) in Prague, Czech Republic.
 

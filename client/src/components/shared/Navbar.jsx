@@ -54,9 +54,8 @@ export default function Navbar() {
       <span className="navbar__logo" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
         {/* A shape filled with the wordmark's own colour, so the two match on every theme. */}
         <span className="navbar__logo-icon navbar__logo-mark" aria-hidden="true" />
-        {/* Chinese keeps the English blackletter wordmark (no Chinese face
-            matches it); the page title etc. still use appName. */}
-        {lang === 'zh' ? 'Prague Stories' : t('appName')}
+        {/* "Praguedex" in blackletter in every language. */}
+        {t('appName')}
       </span>
 
       {(user || guest) && (

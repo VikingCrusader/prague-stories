@@ -70,7 +70,7 @@ export default function CheckInDemo({ card }) {
           {alert && (
             <div className="guide-checkin__alert" role="status">
               <img src="/brand/app-icon.png" alt="" width={32} height={32} />
-              <span><strong>Prague Stories</strong><br />📍 {card && convert(getLocName(card, lang))}</span>
+              <span><strong>Praguedex</strong><br />📍 {card && convert(getLocName(card, lang))}</span>
             </div>
           )}
           {card && (

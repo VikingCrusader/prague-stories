@@ -17,7 +17,7 @@ const UPDATED = '2026-10-22';
 const POLICY = {
   en: [
     { h: 'Who is responsible', ps: [
-      `Prague Stories is a hobby project run by a private individual, not a company. That person is the controller of your personal data under the EU General Data Protection Regulation (GDPR). For anything about your data, write to ${CONTROLLER_EMAIL}.`,
+      `Praguedex is a hobby project run by a private individual, not a company. That person is the controller of your personal data under the EU General Data Protection Regulation (GDPR). For anything about your data, write to ${CONTROLLER_EMAIL}.`,
     ] },
     { h: 'Your location', ps: [
       'The app only reads your device\'s location after you have agreed to it, and only while the app is open. It is used to check you in at a place, to play the treasure hunts, to alert you when an undiscovered place is near (if you are signed in) and to show where you are on the map. The legal basis is your consent (art. 6(1)(a) GDPR).',
@@ -40,7 +40,7 @@ const POLICY = {
   ],
   cz: [
     { h: 'Kdo za údaje odpovídá', ps: [
-      `Prague Stories je zájmový projekt, který provozuje soukromá osoba, ne firma. Ta je správcem tvých osobních údajů podle obecného nařízení o ochraně osobních údajů (GDPR). Se vším, co se týká tvých údajů, se obrať na ${CONTROLLER_EMAIL}.`,
+      `Praguedex je zájmový projekt, který provozuje soukromá osoba, ne firma. Ta je správcem tvých osobních údajů podle obecného nařízení o ochraně osobních údajů (GDPR). Se vším, co se týká tvých údajů, se obrať na ${CONTROLLER_EMAIL}.`,
     ] },
     { h: 'Tvoje poloha', ps: [
       'Aplikace čte polohu tvého zařízení až poté, co s tím souhlasíš, a jen když je otevřená. Slouží k zápisu návštěvy místa, k hledání pokladů, k upozornění na neobjevené místo poblíž (po přihlášení) a k zobrazení tvé polohy na mapě. Právním základem je tvůj souhlas (čl. 6 odst. 1 písm. a) GDPR).',
@@ -63,7 +63,7 @@ const POLICY = {
   ],
   zh: [
     { h: '谁负责你的数据', ps: [
-      `Prague Stories 是由个人运营的业余项目，不属于任何公司。运营者本人是欧盟《通用数据保护条例》（GDPR）意义上你个人数据的控制者。有关你数据的任何问题，请写信至 ${CONTROLLER_EMAIL}。`,
+      `Praguedex 是由个人运营的业余项目，不属于任何公司。运营者本人是欧盟《通用数据保护条例》（GDPR）意义上你个人数据的控制者。有关你数据的任何问题，请写信至 ${CONTROLLER_EMAIL}。`,
     ] },
     { h: '你的位置', ps: [
       '只有在你同意之后，应用才会读取设备的位置，而且只在应用打开时读取。位置用于在地点打卡、玩寻宝、在附近有未发现的地点时提醒你（登录后），以及在地图上显示你在哪里。法律依据是你的同意（GDPR 第6条第1款(a)项）。',

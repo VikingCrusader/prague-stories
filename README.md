@@ -1,10 +1,10 @@
-# Prague Stories
+# Praguedex
 
 A location-based city-exploration game for Prague, built on the MERN stack and installable as a PWA.
 
 Walk to a real place, stand there, and collect its card. More than 1,100 location cards across Prague and Bohemia, each with a hand-written story in English, Czech and Chinese (Simplified/Traditional), plus a History Timeline that tells the story of Prague and Bohemia, era by era. Go there. Stand there. The app notices.
 
-**Live:** https://prague-stories.vercel.app
+**Live:** https://praguedex.com
 
 **User guide:** [GUIDE.md](GUIDE.md)
 

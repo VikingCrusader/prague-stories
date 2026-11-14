@@ -191,7 +191,7 @@ export function PackBack({ pack }) {
         <span className="pack-back__seam" aria-hidden="true" />
         <div className="pack-back__print">
           {!emblemFailed && <img className="pack-back__emblem" src="/pixel-art/pack-emblem.webp" alt="" draggable={false} onError={() => setEmblemFailed(true)} />}
-          <div className="pack-back__mark">Prague Stories</div>
+          <div className="pack-back__mark">Praguedex</div>
         </div>
         <div className="pack-card__sheen" aria-hidden="true" />
       </div>

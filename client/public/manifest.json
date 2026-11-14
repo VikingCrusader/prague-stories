@@ -1,7 +1,7 @@
 {
-  "name": "Prague Stories",
-  "short_name": "Prague Stories",
-  "description": "A gamified city exploration diary for Prague",
+  "name": "Praguedex",
+  "short_name": "Praguedex",
+  "description": "Your Prague dex: walk to real places, collect their cards and fill your dex",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

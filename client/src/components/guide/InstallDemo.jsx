@@ -6,7 +6,7 @@ import { BOARD } from '../../utils/guideBoard';
 function MockPage() {
   return (
     <div className="guide-mock__page">
-      <span className="guide-mock__brand"><img src="/brand/favicon.png" alt="" />Prague Stories</span>
+      <span className="guide-mock__brand"><img src="/brand/favicon.png" alt="" />Praguedex</span>
       <span className="guide-mock__cards"><i /><i /><i /><i /></span>
     </div>
   );
@@ -14,7 +14,7 @@ function MockPage() {
 function SafariBar({ ring }) {
   return (
     <div className="guide-mock__bar">
-      <span className="guide-mock__url">prague-stories.vercel.app</span>
+      <span className="guide-mock__url">praguedex.com</span>
       <span className={`guide-mock__dots${ring ? ' guide-mock__hit' : ''}`}>⋯</span>
     </div>
   );
@@ -32,7 +32,7 @@ const IOS_MOCKS = [
   <div className="guide-mock guide-mock--ios">
     <MockPage />
     <div className="guide-mock__sheet">
-      <span className="guide-mock__app"><img src="/brand/app-icon.png" alt="" />Prague Stories<small>prague-stories.vercel.app</small></span>
+      <span className="guide-mock__app"><img src="/brand/app-icon.png" alt="" />Praguedex<small>praguedex.com</small></span>
       <ul className="guide-mock__list">
         {SHARE_ROWS.map(m => <li key={m} className={m === 'Add to Home Screen' ? 'guide-mock__hit' : undefined}>{m}</li>)}
       </ul>
@@ -41,7 +41,7 @@ const IOS_MOCKS = [
   <div className="guide-mock guide-mock--ios">
     <div className="guide-mock__sheet guide-mock__sheet--full">
       <span className="guide-mock__sheet-head"><span className="guide-mock__x">✕</span><strong>Add to Home Screen</strong><span className="guide-mock__add guide-mock__hit">Add</span></span>
-      <span className="guide-mock__app guide-mock__app--row"><img src="/brand/app-icon.png" alt="" />Prague Stories<small>prague-stories.vercel.app</small></span>
+      <span className="guide-mock__app guide-mock__app--row"><img src="/brand/app-icon.png" alt="" />Praguedex<small>praguedex.com</small></span>
       <span className="guide-mock__toggle-row">Open as Web App<span className="guide-mock__toggle guide-mock__hit" /></span>
     </div>
   </div>,
@@ -52,7 +52,7 @@ const IOS_MOCKS = [
 function ChromeTop({ ring }) {
   return (
     <div className="guide-mock__top">
-      <span className="guide-mock__url">prague-stories.vercel.app</span>
+      <span className="guide-mock__url">praguedex.com</span>
       <span className={`guide-mock__dots${ring ? ' guide-mock__hit' : ''}`}>⋮</span>
     </div>
   );
@@ -75,7 +75,7 @@ const ANDROID_MOCKS = [
         <MockPage />
         <div className="guide-mock__dialog">
           <strong>Install app</strong>
-          <span className="guide-mock__app"><img src="/brand/app-icon.png" alt="" />Prague Stories<small>prague-stories.vercel.app</small></span>
+          <span className="guide-mock__app"><img src="/brand/app-icon.png" alt="" />Praguedex<small>praguedex.com</small></span>
           <span className="guide-mock__buttons"><span>Cancel</span><span className="guide-mock__hit">Install</span></span>
         </div>
       </div>,

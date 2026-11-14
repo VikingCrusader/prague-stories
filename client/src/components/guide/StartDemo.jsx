@@ -7,7 +7,7 @@ import { useT } from '../../context/LanguageContext';
 function Page({ children }) {
   return (
     <div className="guide-mock guide-mock--app">
-      <div className="guide-mock__appbar"><img src="/brand/favicon.png" alt="" />Prague Stories</div>
+      <div className="guide-mock__appbar"><img src="/brand/favicon.png" alt="" />Praguedex</div>
       <div className="guide-mock__appbody">{children}</div>
     </div>
   );

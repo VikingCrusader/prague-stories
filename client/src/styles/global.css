@@ -850,23 +850,23 @@ html:not([data-lang="zh"]) .explore-title {
   line-height: 1.2;
   letter-spacing: 0.01em;
 }
-/* Navbar wordmark ("Prague Stories" / "Pražské příběhy") in the same
-   blackletter, English and Czech (2026-10-09, user request). */
+/* Navbar wordmark ("Praguedex", the same in every language) in the
+   blackletter (2026-10-09, user request; one name since 2026-11-14). */
 html:not([data-lang="zh"]) .navbar__logo {
   font-family: "Manufacturing Consent", serif;
   font-size: 30px;
   line-height: 1;
 }
 /* Phones: the wordmark scales with the screen so it fills the navbar row
-   next to the right cluster; sized per language, since the Czech wordmark,
+   next to the right cluster; sized per language, since the Czech
    its logout label and the Chinese 简/繁 tabs all need more room. */
 @media (max-width: 600px) {
   html[data-lang="en"] .navbar__logo { font-size: min(6.7vw, 30px); }
-  html[data-lang="cz"] .navbar__logo { font-size: min(5.5vw, 26px); }
+  html[data-lang="cz"] .navbar__logo { font-size: min(6.7vw, 30px); }
   /* Signed in, the cluster has no login/logout button (logout moved to
      the Profile page), so the wordmark can take more of the row. */
   html[data-lang="en"] .navbar--user .navbar__logo { font-size: min(7vw, 30px); }
-  html[data-lang="cz"] .navbar--user .navbar__logo { font-size: min(6.2vw, 28px); }
+  html[data-lang="cz"] .navbar--user .navbar__logo { font-size: min(7vw, 30px); }
   /* The language tabs share the logo's bottom edge and reach up to the
      cap height of the wordmark's P and S: 0.84 × the wordmark size,
      measured off the rendered Manufacturing Consent glyphs. */
@@ -878,7 +878,7 @@ html:not([data-lang="zh"]) .navbar__logo {
   }
   .navbar.navbar--user .navbar__right { align-items: center; }
   html[data-lang="en"] .navbar--user .navbar__right .lang-tabs { height: calc(min(7vw, 30px) * 0.84); }
-  html[data-lang="cz"] .navbar--user .navbar__right .lang-tabs { height: calc(min(6.2vw, 28px) * 0.84); }
+  html[data-lang="cz"] .navbar--user .navbar__right .lang-tabs { height: calc(min(7vw, 30px) * 0.84); }
   html[data-lang="zh"] .navbar--user .navbar__right .lang-tabs { height: calc(min(5.4vw, 26px) * 0.84); }
 }
 /* Chinese shows the English wordmark too (Navbar.jsx), so it needs the

@@ -15,6 +15,8 @@ const ALLOWED_ORIGINS = [
   'http://localhost:5173',
   'http://localhost:5174',
   'https://prague-stories.vercel.app',
+  'https://praguedex.com',
+  'https://www.praguedex.com',
   ...(process.env.CLIENT_ORIGIN ? [process.env.CLIENT_ORIGIN] : []),
 ];
 app.use(cors({ origin: ALLOWED_ORIGINS }));

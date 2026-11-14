@@ -137,7 +137,7 @@ test.describe('card packs', () => {
     await page.mouse.move(box.x + box.width / 2 + 340, box.y + box.height / 2, { steps: 12 });
     await page.mouse.up();
     await expect.poll(() => flip.evaluate(el => el.style.transform)).toMatch(/rotateY\((-?180|180)(\.\d+)?deg\)/);
-    await expect(showcase.locator('.pack-back__mark')).toHaveText('Prague Stories');
+    await expect(showcase.locator('.pack-back__mark')).toHaveText('Praguedex');
     await page.keyboard.press('Escape');
     await expect(showcase).toHaveCount(0);
   });

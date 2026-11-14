@@ -103,7 +103,7 @@ test('the Screens and Hunt windows have buttons to their pages', async ({ page }
   await page.locator('.guide-tile--screens').click();
   const win = page.locator('.guide-window--screens');
   await expect(win.locator('.guide-goto')).toHaveCount(6);
-  await expect(win.getByRole('link', { name: 'Open a card on Explore →' })).toHaveAttribute('href', '/explore');
+  await expect(win.getByRole('link', { name: 'Open a card in the Dex →' })).toHaveAttribute('href', '/explore');
   await win.getByRole('link', { name: 'Go to History →' }).click();
   await expect(page).toHaveURL(/\/history/);
   await page.goto('/guide?open=hunt');

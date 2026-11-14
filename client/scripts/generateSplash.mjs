@@ -1,6 +1,6 @@
 // Builds the launch-screen images (2026-11-12):
 //   public/brand/splash-emblem.webp    the emblem at 400 px, for the boot splash
-//   public/brand/splash-wordmark.webp  "Prague Stories" in gold blackletter,
+//   public/brand/splash-wordmark.webp  "Praguedex" in gold blackletter,
 //                                      used by the boot splash in index.html
 //                                      (an image, so the font can't flash in late)
 //   public/brand/splash/*.png          iOS apple-touch-startup-image files, one
@@ -50,7 +50,7 @@ const browser = await chromium.launch();
       #w { display: inline-block; padding: 10px 24px 22px; font: 140px/1.15 "Manufacturing Consent", serif;
         background: linear-gradient(180deg, #f6e2a8 0%, #e2bd6c 45%, #b5843a 100%);
         -webkit-background-clip: text; background-clip: text; color: transparent; white-space: nowrap; }
-    </style></head><body><span id="w">Prague Stories</span></body></html>`);
+    </style></head><body><span id="w">Praguedex</span></body></html>`);
   await page.evaluate(() => document.fonts.ready);
   await page.waitForTimeout(300);
   const png = await page.locator('#w').screenshot({ omitBackground: true });

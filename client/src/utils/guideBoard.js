@@ -10,7 +10,7 @@ export const BOARD = {
     manyAch: 'Dozens of',
     // The buttons that lead to a page (the Screens window, the hunt).
     goTo: 'Go to {page}',
-    goToDetail: 'Open a card on Explore',
+    goToDetail: 'Open a card in the Dex',
     // Signed-in players see their own figures on a few tiles.
     mine: {
       collect: 'You have collected {n} so far.',
@@ -30,7 +30,7 @@ export const BOARD = {
       hunt: 'One hidden card a day, and a city-sized game of hot and cold.',
       packs: 'Whole corners of the city in one sealed foil packet.',
       ach: '{n} achievements, and every one pays.',
-      screens: 'Explore, Map, History, Hunt, Profile: what each one is for.',
+      screens: 'Dex, Map, History, Hunt, Profile: what each one is for.',
       tips: 'Advice from those who walked it first.',
       faq: 'Can I collect from the sofa? (No.)',
       tipsFaq: 'Advice from those who went first, and: can I collect from the sofa? (No.)',
@@ -73,7 +73,7 @@ export const BOARD = {
     },
     areas: {
       pick: 'Click a district on the map; switch to Quarters to see the old towns inside it.',
-      none: 'Nothing chosen yet. Every card on Explore carries these two pills, like Charles Bridge:',
+      none: 'Nothing chosen yet. Every card in the Dex carries these two pills, like Charles Bridge:',
       cards: '{n} cards here',
       read: 'Read about this area',
     },
@@ -107,7 +107,7 @@ export const BOARD = {
     hint: 'Klepni na kteroukoli dlaždici a otevře se.',
     manyAch: 'Desítky',
     goTo: 'Přejít na: {page}',
-    goToDetail: 'Otevři kartu v Průzkumu',
+    goToDetail: 'Otevři kartu v Albu',
     mine: {
       collect: 'Zatím máš {n} karet.',
       packs: 'Otevřel jsi {n} z {total} balíčků.',
@@ -126,7 +126,7 @@ export const BOARD = {
       hunt: 'Jedna skrytá karta denně a hra na teplo a zima velká jako město.',
       packs: 'Celé kouty města v jednom zapečetěném balíčku.',
       ach: '{n} úspěchů a každý z nich platí.',
-      screens: 'Průzkum, Mapa, Historie, Hledání pokladu, Profil: k čemu je která obrazovka.',
+      screens: 'Album, Mapa, Historie, Hledání pokladu, Profil: k čemu je která obrazovka.',
       tips: 'Rady od těch, kdo to prošli před tebou.',
       faq: 'Můžu sbírat z gauče? (Ne.)',
       tipsFaq: 'Rady od těch, kdo šli první, a: můžu sbírat z gauče? (Ne.)',
@@ -169,7 +169,7 @@ export const BOARD = {
     },
     areas: {
       pick: 'Klepni na obvod na mapě; přepni na Čtvrti a uvidíš stará města uvnitř.',
-      none: 'Zatím nic nevybráno. Každá karta v Průzkumu nese tyhle dva štítky, třeba Karlův most:',
+      none: 'Zatím nic nevybráno. Každá karta v Albu nese tyhle dva štítky, třeba Karlův most:',
       cards: '{n} karet',
       read: 'Přečíst si o této oblasti',
     },
@@ -203,7 +203,7 @@ export const BOARD = {
     hint: '点任意一块卡片即可打开。',
     manyAch: '几十',
     goTo: '前往「{page}」',
-    goToDetail: '去「探索」打开一张卡',
+    goToDetail: '去「图鉴」打开一张卡',
     mine: {
       collect: '你目前已经收集了 {n} 张。',
       packs: '你已经打开了 {total} 个卡包中的 {n} 个。',
@@ -222,7 +222,7 @@ export const BOARD = {
       hunt: '每天藏起一张卡，整座城市玩一场「冷了热了」。',
       packs: '城市的一整片角落，封在一个锡箔卡包里。',
       ach: '{n}个成就，每一个都有奖励。',
-      screens: '探索、地图、城史、寻宝、个人主页：各自是干什么的。',
+      screens: '图鉴、地图、城史、寻宝、个人主页：各自是干什么的。',
       tips: '前人走过的路，留下的建议。',
       faq: '我能在沙发上打卡吗？（不能。）',
       tipsFaq: '前人的建议，还有：能在沙发上打卡吗？（不能。）',
@@ -265,7 +265,7 @@ export const BOARD = {
     },
     areas: {
       pick: '在地图上点一个行政区；切换到「地籍区」，就能看到它里面的老城镇。',
-      none: '还没选。探索页的每张卡片上都有这两个标签，比如查理大桥：',
+      none: '还没选。图鉴里的每张卡片上都有这两个标签，比如查理大桥：',
       cards: '这里有 {n} 张卡',
       read: '读读这片区域',
     },
