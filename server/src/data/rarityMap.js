@@ -801,6 +801,7 @@ export const EXPEDITION_XP_OVERRIDES = {
   'pruhonice-park':                         120, // 14 km, UNESCO
   'stara-boleslav':                         120, // 22 km, where Wenceslas was killed, national pilgrimage
   'lidice':                                 120, // 17 km, national memorial (its smaller memorial cards stay 60)
+  'muzeum-pamatniku-lidice':                120, // 17 km, the memorial's museum (user's call, 2026-11-14)
   'krivoklat-castle':                       180, // 39 km, royal castle
   'zamek-konopiste':                        180, // 38 km, Franz Ferdinand's chateau
   'hrad-cesky-sternberk':                   180, // 48 km
