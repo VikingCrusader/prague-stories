@@ -18,6 +18,11 @@ const PICKS = [
   { key: 'packs', span: [2, 1] },
 ];
 
+// Starts loading the tiles' pictures (Explore calls it before the board is due).
+export function preloadWelcomeArt() {
+  PICKS.forEach(({ key }) => { const img = new Image(); img.src = `/guide/${key}.webp`; });
+}
+
 // The element "Look around first" shrinks the window into: the Open the Guide
 // button on Explore (under the map in the side column, under the title elsewhere).
 export const WELCOME_ANCHOR = 'data-guide-anchor';

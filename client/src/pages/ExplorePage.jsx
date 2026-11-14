@@ -38,8 +38,10 @@ let toastId = 0;
 
 // The title, filters and a map in a side column, the cards taking the rest of the
 // width (2026-11-08, user's call); pixelart.css makes it compact below 2K.
-// Guests only, and it brings the Guide's demos with it: loaded when needed.
-const GuideWelcome = lazy(() => import('../components/guide/GuideWelcome'));
+// Guests only: loaded when needed, but fetched (with its pictures) as soon as a
+// guest who hasn't seen it opens Explore, so it is ready when it is due.
+const loadWelcome = () => import('../components/guide/GuideWelcome');
+const GuideWelcome = lazy(loadWelcome);
 
 export default function ExplorePage() {
   const t = useT();
@@ -350,9 +352,14 @@ export default function ExplorePage() {
   const isGuest = guest && !user;
   const [welcome, setWelcome] = useState(false);
   const welcomeDue = isGuest && !loading && afterTurn && !selectedSlug && !openPack && !areaGuide && !guideWelcomeSeen();
+  const welcomeAhead = isGuest && !guideWelcomeSeen();
+  useEffect(() => {
+    if (welcomeAhead) loadWelcome().then(m => m.preloadWelcomeArt()).catch(() => {});
+  }, [welcomeAhead]);
   useEffect(() => {
     if (!welcomeDue) return undefined;
-    const timer = setTimeout(() => setWelcome(true), 1200);
+    // About when the cards' entrance ends.
+    const timer = setTimeout(() => setWelcome(true), 600);
     return () => clearTimeout(timer);
   }, [welcomeDue]);
   const closeWelcome = useCallback(() => setWelcome(false), []);
