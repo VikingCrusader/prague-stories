@@ -1032,3 +1032,51 @@ html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; 
   .history-book__more-col { flex-basis: 240px; gap: 8px; }
   .history-book__links .history-landmark-caption > span, .history-book__captions .history-landmark-caption { cursor: pointer; }
 }
+
+/* An era's chapter head on its first page (EraIntro.jsx, 2026-11-14; it
+   replaced the era-overview page): a band in the era's colour with a rule on
+   either side, the chapter in gold, the era's title large, its years, and one
+   plain line under it. Reached from another era it opens once (is-opening). */
+.history-era-intro {
+  flex: none; display: flex; align-items: center; gap: 18px; padding: 12px 22px;
+  background: color-mix(in srgb, var(--era-accent, var(--gold)) 10%, var(--bg-card));
+  border-top: 2px solid color-mix(in srgb, var(--era-accent, var(--gold)) 55%, transparent);
+  border-bottom: 2px solid color-mix(in srgb, var(--era-accent, var(--gold)) 55%, transparent);
+  overflow: hidden;
+}
+.history-era-intro__rule { flex: 1 1 40px; min-width: 24px; height: 2px; background: linear-gradient(90deg, transparent, var(--gold)); }
+.history-era-intro__rule:last-child { background: linear-gradient(90deg, var(--gold), transparent); }
+.history-era-intro__body { flex: 0 1 auto; min-width: 0; text-align: center; }
+.history-era-intro__head { margin: 0; display: flex; align-items: baseline; justify-content: center; flex-wrap: wrap; gap: 4px 14px; }
+/* The chapter is part of the title: same face, size and colour (user's call). */
+.history-era-intro__chapter { margin-right: 0.5em; }
+.history-era-intro__title { position: relative; font-size: 30px; line-height: 1.15; color: var(--era-accent, var(--gold)); }
+html:not([data-lang="zh"]) :is(#root, body) :is(.history-era-intro__title, .history-era-intro__chapter) { font-family: "Manufacturing Consent", serif !important; font-weight: 400 !important; font-size: 34px; }
+html[data-lang="zh"] :is(.history-era-intro__title, .history-era-intro__chapter) { font-family: var(--ui-font-text); font-weight: 800; }
+.history-era-intro__years { color: var(--text-muted); margin-right: 0.8em; }
+.history-era-intro__years::after { content: '·'; margin-left: 0.8em; }
+.history-era-intro__line { margin: 3px 0 0; font-size: 15px; line-height: 1.45; color: var(--text-primary); }
+.history-paged__page > .history-era-intro { margin-bottom: 14px; }
+
+/* The opening: the band unfolds from the middle, the rules draw outwards and
+   a gold glint crosses the title; about 0.8 s, then it rests. */
+.history-era-intro.is-opening { animation: era-unfold 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) backwards; }
+.history-era-intro.is-opening .history-era-intro__rule { animation: era-rule 0.6s 0.15s ease-out backwards; }
+.history-era-intro.is-opening .history-era-intro__title {
+  background: linear-gradient(100deg, currentColor 40%, #fff6c8 50%, currentColor 60%) 0 0 / 300% 100% no-repeat;
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  animation: era-glint 0.9s 0.3s ease-out backwards;
+}
+@keyframes era-unfold { from { opacity: 0; transform: scaleX(0.6); } }
+@keyframes era-rule { from { transform: scaleX(0); } }
+@keyframes era-glint { from { background-position: 100% 0; } to { background-position: 0 0; } }
+
+/* The era's box on the band flashes as the chapter opens (HistoryAxis). */
+.history-axis__era.is-flashing { animation: era-flash 0.9s ease-out; }
+@keyframes era-flash { 0% { box-shadow: 0 0 0 0 var(--gold); } 30% { box-shadow: 0 0 0 4px var(--gold), 0 0 18px var(--gold); } 100% { box-shadow: 0 0 0 0 transparent; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .history-era-intro.is-opening, .history-era-intro.is-opening .history-era-intro__rule,
+  .history-era-intro.is-opening .history-era-intro__title, .history-axis__era.is-flashing { animation: none; }
+}
+html[data-card-motion="off"] :is(.history-era-intro.is-opening, .history-era-intro.is-opening .history-era-intro__rule, .history-era-intro.is-opening .history-era-intro__title, .history-axis__era.is-flashing) { animation: none; }

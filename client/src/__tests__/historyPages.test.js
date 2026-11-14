@@ -37,4 +37,14 @@ describe('groupPages', () => {
     expect(slugs(pages)).toEqual(['a']);
     expect(hostOf.has('x')).toBe(false);
   });
+
+  it('gives era-overview cards no page and sends their links to the first page of the era', () => {
+    const ov = (slug, era) => ({ slug, era, cardType: 'overview' });
+    const at = (slug, era) => ({ slug, era, cardType: 'event' });
+    const { pages, redirect, hostOf } = groupPages([ov('era-guide-a', 'a'), at('a1', 'a'), at('a2', 'a'), ov('era-guide-b', 'b'), at('b1', 'b')]);
+    expect(pages.map(p => p.slug)).toEqual(['a1', 'a2', 'b1']);
+    expect(redirect.get('era-guide-a')).toBe('a1');
+    expect(redirect.get('era-guide-b')).toBe('b1');
+    expect(hostOf.has('era-guide-a')).toBe(false);
+  });
 });

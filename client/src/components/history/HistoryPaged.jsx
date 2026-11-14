@@ -1,12 +1,13 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import HistoryAxis from './HistoryAxis';
-import HistoryEraDivider from './HistoryEraDivider';
 import HistoryEventSection, {
   EventTitle, EventHook, EventSummary, EventImages, EventReferences, EventLandmarks, EventAchievements,
 } from './HistoryEventSection';
 import HistoryHero from './HistoryHero';
 import { groupPages, wikipediaLabel } from './HistoryBook';
+import EraIntro from './EraIntro';
+import { noteEra } from '../../utils/eraChapter';
 
 // How far past the end of a page the finger has to pull to turn it.
 const PULL_TO_TURN = 90;
@@ -266,8 +267,9 @@ function EventPage({ event, eras, activeSlug, ownBackgrounds, hostOf, onGo, onOp
 
   return (
     <div className="history-paged__page">
+      {/* An era opens with its one-line intro (it replaced the overview page). */}
       {firstOfEra && event.cardType !== 'overview' && (
-        <HistoryEraDivider era={eras[pageEra]} lang={lang} convert={convert} />
+        <EraIntro era={eras[pageEra]} chapter={pageEra + 1} lang={lang} convert={convert} className="history-detail-panel" />
       )}
       {event.cardType === 'overview' ? section(event) : (
         <div className={`history-paged__columns${hasSide ? '' : ' history-paged__columns--solo'}`} ref={columnsEl}>
@@ -310,11 +312,13 @@ function EventPage({ event, eras, activeSlug, ownBackgrounds, hostOf, onGo, onOp
 export default function HistoryPaged({ events, eras, activeSlug, onGo, onOpenLandmark, onOpenAchievement, paused }) {
   const t = useT();
   const convert = useConvert();
-  const { pages, backgrounds, hostOf } = groupPages(events);
-  const pageSlug = hostOf.get(activeSlug) ?? activeSlug;
+  const { pages, backgrounds, hostOf, redirect } = groupPages(events);
+  const pageSlug = hostOf.get(activeSlug) ?? redirect.get(activeSlug) ?? activeSlug;
   const found = pages.findIndex(e => e.slug === pageSlug);
   const index = found < 0 ? 0 : found;
   const event = pages[index];
+  // The era the reader is on, so an era intro opens only when its era is entered.
+  useEffect(() => { if (event) noteEra(event.era); }, [event?.slug]); // eslint-disable-line react-hooks/exhaustive-deps
   const prev = pages[index - 1];
   const next = pages[index + 1];
   const nextSlug = next?.slug;

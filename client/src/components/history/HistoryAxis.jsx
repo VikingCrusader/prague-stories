@@ -1,4 +1,4 @@
-import { useLayoutEffect, useMemo, useRef } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { bareYear } from '../../utils/bareYear';
 
@@ -143,6 +143,18 @@ export default function HistoryAxis({ pages, eras, index, onJump }) {
     + eraWidth(segments[eraAt]?.count ?? 0) / 2;
   const erasLength = segments.reduce((x, s) => x + eraWidth(s.count) + ERA_GAP, 0);
 
+  // Entering another era makes its box on the band flash once (2026-11-14),
+  // with the chapter head's opening on the page.
+  const lastEraRef = useRef(current.era);
+  const [flashEra, setFlashEra] = useState(null);
+  useEffect(() => {
+    if (lastEraRef.current === current.era) return undefined;
+    lastEraRef.current = current.era;
+    setFlashEra(current.era);
+    const timer = setTimeout(() => setFlashEra(null), 1000);
+    return () => clearTimeout(timer);
+  }, [current.era]);
+
   const eraTrackRef = useRef(null);
   const nodeTrackRef = useRef(null);
   const frameRef = useRef(null);
@@ -165,7 +177,7 @@ export default function HistoryAxis({ pages, eras, index, onJump }) {
             <button
               key={era.key}
               type="button"
-              className={`history-axis__era${active ? ' is-active' : ''}`}
+              className={`history-axis__era${active ? ' is-active' : ''}${flashEra === era.key ? ' is-flashing' : ''}`}
               disabled={count === 0}
               style={{ width: eraWidth(count) }}
               title={`${title} ${loc(era.yearRange)}`.trim()}

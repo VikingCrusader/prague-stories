@@ -5,6 +5,8 @@ import HistoryEventSection, {
 } from './HistoryEventSection';
 import HistoryAxis from './HistoryAxis';
 import { groupPages } from '../../utils/historyPages';
+import EraIntro from './EraIntro';
+import { noteEra } from '../../utils/eraChapter';
 
 // "Wikipedia: <article>", the name read from the link (.../wiki/Great_Fire_of_Prague).
 // The few links to other sites just show the site.
@@ -214,14 +216,16 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
   const convert = useConvert();
   const rootRef = useRef(null);
 
-  const { pages, backgrounds, hostOf } = useMemo(() => groupPages(events), [events]);
+  const { pages, backgrounds, hostOf, redirect } = useMemo(() => groupPages(events), [events]);
 
   // An old reading position or a link can still name a background card:
   // show the page it belongs to, with the card open.
-  const pageSlug = hostOf.get(activeSlug) ?? activeSlug;
+  const pageSlug = hostOf.get(activeSlug) ?? redirect.get(activeSlug) ?? activeSlug;
   const found = pages.findIndex(e => e.slug === pageSlug);
   const index = found < 0 ? 0 : found;
   const event = pages[index];
+  // The era the reader is on, so an era intro opens only when its era is entered.
+  useEffect(() => { if (event) noteEra(event.era); }, [event?.slug]); // eslint-disable-line react-hooks/exhaustive-deps
   const prev = pages[index - 1];
   const next = pages[index + 1];
 
@@ -373,6 +377,10 @@ export default function HistoryBook({ events, eras, activeSlug, onGo, onOpenLand
         <div key={ev.slug} className={`history-book__page${turnClass}`} aria-hidden={!current}>
           <div className="history-book__columns">
             <div className="history-book__main">
+              {/* An era opens with its one-line intro on its first page. */}
+              {pages.find(p => p.era === ev.era)?.slug === ev.slug && (
+                <EraIntro era={eras[pageEra]} chapter={pageEra + 1} lang={lang} convert={convert} className="history-book__panel" />
+              )}
               <header className="history-book__panel history-book__head">
                 <EventTitle event={ev} link={false} />
                 <EventHook event={ev} />
