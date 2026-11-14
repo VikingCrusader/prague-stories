@@ -7,7 +7,7 @@ import PackDetail from '../packs/PackDetail';
 import { BOARD } from '../../utils/guideBoard';
 
 // A few typical packs (hand-picked, 2026-11-13): two big sights, a square and
-// a street. Shown uncovered, as a guest sees Explore's first page, with the
+// a street. Shown uncovered (in colour, with a small lock), with the
 // player's real progress; a click opens the real pack detail over the window.
 export const SAMPLE_PACKS = ['prague-castle', 'vysehrad', 'old-town-square', 'narodni-trida'];
 

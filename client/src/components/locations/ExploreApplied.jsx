@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { RARITY_LABEL, RARITY_VAR, ALL_RARITIES } from '../../utils/rarity';
-import { LABEL_BLURB, RARITY_QUIP, GUEST_INTRO, GUEST_FEATURED_NOTE, TREASURE_BLURB, PACK_BLURB } from '../../utils/filterBlurbs';
+import { LABEL_BLURB, RARITY_QUIP, GUEST_INTRO, TREASURE_BLURB, PACK_BLURB } from '../../utils/filterBlurbs';
 import { useFitText } from '../../utils/fitText';
 import { achField } from '../../utils/achievementText';
 import { formatCountdown } from '../../utils/formatCountdown';
@@ -158,23 +158,49 @@ function Item({ name, nameNode, color, onClear, children }) {
   );
 }
 
-// The guest intro's paragraphs, with the note about the uncovered cards second.
-function guestIntro(intro, note) {
-  const [first, ...rest] = intro.split('\n');
-  return note ? [first, note, ...rest] : [first, ...rest];
-}
-
 // The filters that are on, each with its line, under the map on Explore at 2K
 // (2026-11-08, user's call), after `notes`, the lines that belong to the current
 // mode. With no filter on: the district and quarter the player is in, each with
 // its line, and how far the nearest card still to collect is (`here`); or, without a
 // position in Prague, a `tip`; a guest gets what the app is for and a link to the Guide.
-export default function ExploreApplied({ guestPreview = false, packsOnly = false, onClearPacks, treasureCount = null, treasureOnly = false, onShowTreasure, onClearTreasure, area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement, search = null, onClearSearch, filtersOnly = false }) {
+// The guest's introduction steps its text down from 16.5 px (never below 14)
+// until the side column it sits in no longer scrolls (2026-11-14, user's call:
+// a column that scrolls hides the end of the pitch). Where even 14 px doesn't
+// fit, the column scrolls as it always has.
+const INTRO_FS_MAX = 16.5;
+const INTRO_FS_MIN = 14;
+function useFitIntro(ref, deps) {
+  useLayoutEffect(() => {
+    const el = ref.current;
+    const side = el?.closest('.explore-side');
+    if (!el || !side) return undefined;
+    const fit = () => {
+      let fs = INTRO_FS_MAX;
+      el.style.setProperty('--intro-fs', `${fs}px`);
+      while (fs > INTRO_FS_MIN && side.scrollHeight > side.clientHeight + 1) {
+        fs -= 0.5;
+        el.style.setProperty('--intro-fs', `${fs}px`);
+      }
+    };
+    fit();
+    // Refit when the column or anything in it changes size (the map loading,
+    // the window, fonts arriving). The result settles, so this doesn't loop.
+    const ro = new ResizeObserver(fit);
+    ro.observe(side);
+    [...side.children].forEach(child => { if (!child.contains(el)) ro.observe(child); });
+    document.fonts?.ready.then(fit);
+    return () => ro.disconnect();
+  }, deps); // eslint-disable-line react-hooks/exhaustive-deps
+}
+
+export default function ExploreApplied({ packsOnly = false, onClearPacks, treasureCount = null, treasureOnly = false, onShowTreasure, onClearTreasure, area, areaItems = [], rarities = [], onClearRarity, labels, onClearLabel, onClearAll, notes = [], here, tip, isGuest = false, collection = null, nextUp = null, onOpenAchievement, search = null, onClearSearch, filtersOnly = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const pick = (entry) => (entry ? convert(entry[lang] || entry.en) : null);
   const anyFilter = area || packsOnly || treasureOnly || rarities.length > 0 || labels.length > 0 || search;
+  const introRef = useRef(null);
+  useFitIntro(introRef, [isGuest, lang, Boolean(anyFilter || collection || here || filtersOnly)]);
   return (
     <>
       {notes.map(note => <p key={note.key} className="explore-applied__note">{note.body}</p>)}
@@ -190,10 +216,10 @@ export default function ExploreApplied({ guestPreview = false, packsOnly = false
         </div>
       )}
       {!anyFilter && !collection && !here && !filtersOnly && (
-        <div className={`explore-applied__default${isGuest ? ' explore-applied__default--intro' : ''}`}>
+        <div ref={introRef} className={`explore-applied__default${isGuest ? ' explore-applied__default--intro' : ''}`}>
           <div className="explore-applied__head"><span className="explore-applied__name">{t(isGuest ? 'explore.guestIntroTitle' : 'explore.tipTitle')}</span></div>
-          {(isGuest ? guestIntro(pick(GUEST_INTRO), guestPreview ? pick(GUEST_FEATURED_NOTE) : null) : pick(tip).split('\n')).map(line => <p key={line} className="explore-applied__text">{line}</p>)}
-          {isGuest && <p className="explore-applied__stat"><Link to="/guide" className="area-guide-link">{convert(t('explore.guideLink'))}</Link></p>}
+          {(isGuest ? pick(GUEST_INTRO) : pick(tip)).split('\n').map(line => <p key={line} className="explore-applied__text">{line}</p>)}
+          {isGuest && <Link to="/guide" className="px-btn px-btn--gold explore-guide-btn" data-guide-anchor="">{convert(t('explore.guideLink'))}</Link>}
         </div>
       )}
       {!anyFilter && !collection && nextUp && <NextUp {...nextUp} onOpenAchievement={onOpenAchievement} />}

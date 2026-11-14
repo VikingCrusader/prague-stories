@@ -36,6 +36,8 @@ function renderApp(path = '/explore') {
 
 beforeEach(() => {
   localStorage.clear();
+  // A guest's first Explore shows the welcome board before this dialog (GuideWelcome).
+  localStorage.setItem('guideWelcomeOff', '1');
   mockGetMe.mockReset();
   mockSaveConsent.mockClear();
 });

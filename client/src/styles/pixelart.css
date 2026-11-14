@@ -84,7 +84,8 @@
 /* Mouse only: on a phone a tap leaves :hover stuck on the card under it (e.g. after
    picking a sort, the card below the menu stayed lifted and out of line; 2026-11-11). */
 @media (hover: hover) and (pointer: fine) {
-  .loc-card:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--card-shadow, var(--shadow)), var(--outer-glow, 0 0 0 transparent); }
+  /* Grows a little over its neighbours (2026-11-14, user: the lift alone was too faint). */
+  .loc-card:hover { transform: translate(-2px, -2px) scale(1.06); z-index: 5; box-shadow: 6px 6px 0 var(--card-shadow, var(--shadow)), var(--outer-glow, 0 0 0 transparent); }
 }
 
 .loc-card[data-rarity="rare"]     { --rc: var(--rarity-rare);     --tint-top: 4%;  --tint-bottom: 9%; }
@@ -142,6 +143,14 @@
     var(--c) bottom right / 2px 12px no-repeat;
 }
 .loc-card--locked .loc-card__frame { display: none !important; }
+/* A locked card shows its frame while the mouse is on it (2026-11-14, user's
+   call), still greyed by the card's filter and with every ornament standing
+   still: no glint, no twinkling stone. */
+@media (hover: hover) and (pointer: fine) {
+  .loc-card--locked:not(.loc-card--flipping):hover .loc-card__frame { display: block !important; }
+  .loc-card--locked:not(.loc-card--flipping):hover .loc-card__frame,
+  .loc-card--locked:not(.loc-card--flipping):hover .loc-card__frame * { animation: none !important; }
+}
 /* Corner flourishes (2026-10-11, user request: the higher the tier, the
    fancier, in the style of the History overview card's corners).
    RarityFrame.jsx renders eight <i> spans inside .loc-card__frame; each
@@ -685,17 +694,6 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .loc-card--nearby .loc-card__lock { animation: none; }
-}
-
-/* Uncovered for a guest (Explore, the hand-picked first page, 2026-11-10): it
-   looks collected, except for a small lock in the corner that leaves the cover free. */
-.loc-card--uncovered .loc-card__banner { position: relative; }
-.loc-card--uncovered .loc-card__lock {
-  top: 6px;
-  left: auto;
-  right: 6px;
-  width: 24%;
-  transform: none;
 }
 
 .loc-card__banner {
@@ -3345,7 +3343,7 @@ html[data-lang="zh"] .detail-title-name {
 .explore-applied__item, .explore-applied__default { flex: none; padding: 10px 12px; background: var(--bg-card); border: 2px solid var(--border); }
 /* The guest's introduction fills the column to the bottom, paragraphs spread evenly. */
 .explore-applied__default--intro { flex: 1 0 auto; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; }
-.explore-applied__default--intro .explore-applied__text { margin: 0; }
+.explore-applied__default--intro .explore-applied__text { margin: 0; font-size: var(--intro-fs, 16.5px); line-height: 1.55; }
 .explore-applied__area + .explore-applied__area { margin-top: 10px; }
 .explore-here-card { cursor: pointer; }
 .explore-here-card:hover { border-color: var(--gold); }
@@ -3530,10 +3528,14 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 @media (prefers-reduced-motion: reduce) { .card-preview { animation: none; } }
 .card-preview__name { font-family: var(--ui-font); font-size: 20px; font-weight: 700; line-height: 1.3; }
 .card-preview__czech { margin-top: 2px; font-size: 15px; font-weight: 600; line-height: 1.3; color: var(--text-muted); }
-.card-preview__meta { display: flex; justify-content: space-between; gap: 12px; margin-top: 8px; font-size: 14px; color: var(--text-muted); }
+.card-preview__meta { display: flex; gap: 12px; margin-top: 8px; font-size: 14px; color: var(--text-muted); }
 .card-preview__status--got { color: var(--gold); font-weight: 700; }
+.card-preview__rarity { font-weight: 700; }
+.card-preview__dist { margin-left: auto; }
 .card-preview__labels { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 8px; }
 .card-preview__labels:empty { display: none; }
+.card-preview__packs { margin-top: 8px; }
+.card-preview__packs .detail-packs__pack { cursor: default; }
 /* The detail view's coloured pills (labels, then quarter and district), smaller. */
 .card-preview .loc-card__labels { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 6px; padding: 0; }
 .card-preview .detail-label-pill.detail-label-pill { padding: 2px 9px; font-size: 13px; line-height: 1.5; }

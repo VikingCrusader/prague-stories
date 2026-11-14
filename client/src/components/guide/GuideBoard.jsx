@@ -32,7 +32,7 @@ import StartDemo from './StartDemo';
 // or with `side` over its right half (a tall subject, like the upright phone).
 // The picture is public/guide/<key>.webp (docs/guide-illustrations.md); until
 // it exists the tile shows `fallback` (an existing picture) or its icon.
-const TILES = [
+export const TILES = [
   { key: 'what', title: 'whatTitle', span: [2, 2], icon: '🏰', fallback: '/brand/splash-emblem.webp' },
   { key: 'collect', title: 'collectTitle', span: [2, 1], icon: '📍', demo: 'checkin' },
   { key: 'rarity', title: 'effectsTitle', span: [2, 1], icon: '💎', mini: 'rarity', demo: 'rarity' },
@@ -75,7 +75,7 @@ function pickSamples(list) {
   return out;
 }
 
-function TileArt({ tile }) {
+export function TileArt({ tile }) {
   const sources = [`/guide/${tile.art ?? tile.key}.webp`, tile.fallback].filter(Boolean);
   const [at, setAt] = useState(0);
   if (at >= sources.length) return <span className="guide-tile__icon" aria-hidden="true">{tile.icon}</span>;
@@ -90,7 +90,7 @@ function TileArt({ tile }) {
 }
 
 // `level`: the signed-in player's levelInfo, for a real bar on the XP tile.
-function TileMini({ kind, level }) {
+export function TileMini({ kind, level }) {
   if (kind === 'rarity') {
     return (
       <div className="guide-mini guide-mini--rarity" aria-hidden="true">
@@ -216,11 +216,71 @@ function SectionText({ k, c }) {
   }
 }
 
-// The Guide on a 2K screen (2026-11-13, user's design): the whole handbook at
+// What the tiles and their demos read: every card (for the demos' samples),
+// every achievement with the player's progress (its count goes into the texts
+// instead of a number that dates: it said 67 when there were 116) and the packs.
+// Shared by the Guide's board and the guest welcome board (GuideWelcome).
+export function useGuideData() {
+  const { lang } = useLang();
+  const convert = useConvert();
+  const b = BOARD[lang] || BOARD.en;
+  const [list, setList] = useState(() => pageCache.get('guide:locations') ?? null);
+  useEffect(() => {
+    if (list) return undefined;
+    let live = true;
+    locationAPI.getAll()
+      .then(res => { if (!live) return; pageCache.set('guide:locations', res.data); setList(res.data); })
+      .catch(() => live && setList([]));
+    return () => { live = false; };
+  }, [list]);
+  const samples = useMemo(() => (list ? pickSamples(list) : null), [list]);
+
+  const { user } = useAuth();
+  const packs = usePacks();
+  const achKey = pageKey('guide:achievements', user?._id);
+  const [achievements, setAchievements] = useState(() => pageCache.get(achKey) ?? null);
+  useEffect(() => {
+    let live = true;
+    userAPI.getAchievements()
+      .then(res => { if (!live) return; pageCache.set(achKey, res.data.achievements); setAchievements(res.data.achievements); })
+      .catch(() => {});
+    return () => { live = false; };
+  }, [achKey]);
+  const achCount = achievements?.length ? String(achievements.length) : convert(b.manyAch);
+  return { list, samples, packs, achievements, achCount };
+}
+
+// One tile's section in its window, with its demo beside the text.
+export function GuideTileWindow({ tileKey, c, data, onClose }) {
+  const { list, samples, packs, achievements, achCount } = data;
+  const text = useMemo(() => ({ ...c, ach: fill(c.ach, { n: achCount }) }), [c, achCount]);
+  const tile = TILES.find(x => x.key === tileKey);
+  if (!tile) return null;
+  const demo = tile.demo && samples && {
+    checkin: <CheckInDemo card={list.find(l => l.slug === CHECKIN_SLUG) || samples.superior || samples.rare || samples.common} />,
+    rarity: <RarityDemo samples={samples} />,
+    showcase: <ShowcaseDemo cards={SHOWCASE_SLUGS.map(slug => list.find(l => l.slug === slug))} />,
+    hunt: <HuntDemo />,
+    install: <InstallDemo c={c} />,
+    ach: <AchDemo all={achievements} />,
+    packs: <PacksDemo packs={packs} />,
+    areas: <AreasDemo locations={list} />,
+    expedition: <ExpeditionDemo locations={list} />,
+    history: <HistoryDemo />,
+    start: <StartDemo c={c} />,
+    locked: <LockedDemo card={list.find(l => l.slug === LOCKED_SLUG) || samples.legend} />,
+  }[tile.demo];
+  return (
+    <GuideWindow title={c[tile.title]} variant={tile.key} demo={tile.demo ? (demo || <div className="spinner" />) : null} onClose={onClose}>
+      <SectionText k={tile.key} c={text} />
+    </GuideWindow>
+  );
+}
+
+// The Guide's overview board (2026-11-13, user's design): the whole handbook at
 // a glance as a board of tiles, each with its picture and a one-line teaser;
 // a tile opens its section in a window, with a demo to play with where one
-// helps (collecting, rarity, picking a card up, the treasure hunt). The
-// narrow page (GuidePage) keeps the long single column.
+// helps (collecting, rarity, picking a card up, the treasure hunt).
 export default function GuideBoard({ c }) {
   const { lang } = useLang();
   const convert = useConvert();
@@ -236,7 +296,6 @@ export default function GuideBoard({ c }) {
     setOpenState(key);
     setParams(prev => { const next = new URLSearchParams(prev); if (key) next.set('open', key); else next.delete('open'); return next; }, { replace: true });
   };
-  const [list, setList] = useState(() => pageCache.get('guide:locations') ?? null);
   const gridRef = useRef(null);
   useBrickEntrance(gridRef, true, '.guide-tile');
 
@@ -252,31 +311,9 @@ export default function GuideBoard({ c }) {
     return () => { ro.disconnect(); root.style.removeProperty('--navbar-h'); };
   }, []);
 
-  useEffect(() => {
-    if (list) return undefined;
-    let live = true;
-    locationAPI.getAll()
-      .then(res => { if (!live) return; pageCache.set('guide:locations', res.data); setList(res.data); })
-      .catch(() => live && setList([]));
-    return () => { live = false; };
-  }, [list]);
-  const samples = useMemo(() => (list ? pickSamples(list) : null), [list]);
-
-  // Every achievement (with the player's progress): its count goes into the
-  // texts instead of a number that dates (it said 67 when there were 116),
-  // and the Achievements demo picks its six from it.
+  const data = useGuideData();
+  const { list, packs, achievements, achCount } = data;
   const { user } = useAuth();
-  const packs = usePacks();
-  const achKey = pageKey('guide:achievements', user?._id);
-  const [achievements, setAchievements] = useState(() => pageCache.get(achKey) ?? null);
-  useEffect(() => {
-    let live = true;
-    userAPI.getAchievements()
-      .then(res => { if (!live) return; pageCache.set(achKey, res.data.achievements); setAchievements(res.data.achievements); })
-      .catch(() => {});
-    return () => { live = false; };
-  }, [achKey]);
-  const achCount = achievements?.length ? String(achievements.length) : convert(b.manyAch);
   // A signed-in player's own figures, under the teaser of a few tiles.
   const mine = !user ? {} : {
     collect: list && fill(convert(b.mine.collect), { n: list.filter(l => l.unlocked).length }),
@@ -284,23 +321,6 @@ export default function GuideBoard({ c }) {
     ach: achievements?.length > 0 && fill(convert(b.mine.ach), { n: achievements.filter(a => a.unlocked).length, total: achievements.length }),
   };
   const levelInfo = user?.levelInfo;
-  const text = useMemo(() => ({ ...c, ach: fill(c.ach, { n: achCount }) }), [c, achCount]);
-
-  const tile = TILES.find(x => x.key === open);
-  const demo = tile?.demo && samples && {
-    checkin: <CheckInDemo card={list.find(l => l.slug === CHECKIN_SLUG) || samples.superior || samples.rare || samples.common} />,
-    rarity: <RarityDemo samples={samples} />,
-    showcase: <ShowcaseDemo cards={SHOWCASE_SLUGS.map(slug => list.find(l => l.slug === slug))} />,
-    hunt: <HuntDemo />,
-    install: <InstallDemo c={c} />,
-    ach: <AchDemo all={achievements} />,
-    packs: <PacksDemo packs={packs} />,
-    areas: <AreasDemo locations={list} />,
-    expedition: <ExpeditionDemo locations={list} />,
-    history: <HistoryDemo />,
-    start: <StartDemo c={c} />,
-    locked: <LockedDemo card={list.find(l => l.slug === LOCKED_SLUG) || samples.legend} />,
-  }[tile.demo];
 
   return (
     <div className="guide-board">
@@ -337,11 +357,7 @@ export default function GuideBoard({ c }) {
           </button>
         ))}
       </div>
-      {tile && (
-        <GuideWindow title={c[tile.title]} variant={tile.key} demo={tile.demo ? (demo || <div className="spinner" />) : null} onClose={() => setOpen(null)}>
-          <SectionText k={tile.key} c={text} />
-        </GuideWindow>
-      )}
+      {open && <GuideTileWindow tileKey={open} c={c} data={data} onClose={() => setOpen(null)} />}
     </div>
   );
 }

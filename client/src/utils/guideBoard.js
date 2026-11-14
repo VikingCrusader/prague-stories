@@ -18,6 +18,14 @@ export const BOARD = {
       ach: 'You have unlocked {n} of {total}.',
     },
     tryIt: 'Try it',
+    // The welcome window a guest gets on their first visit (GuideWelcome.jsx).
+    welcome: {
+      title: 'Welcome to Praguedex',
+      lead: 'A card game you play with your feet. Five things worth knowing first; tap one to read more.',
+      open: 'Open the Guide',
+      later: 'Look around first',
+      note: 'The full Guide is always one tap away.',
+    },
     teaser: {
       what: 'Walk to real places in Prague, collect their cards and unlock their stories.',
       start: 'Three steps to Level 1: sign up, share your position, allow alerts.',
@@ -116,6 +124,13 @@ export const BOARD = {
       ach: 'Odemkl jsi {n} z {total}.',
     },
     tryIt: 'Vyzkoušej si to',
+    welcome: {
+      title: 'Vítej v Praguedexu',
+      lead: 'Karetní hra, kterou hraješ nohama. Pět věcí, které stojí za to vědět hned; klepni na kteroukoli a dozvíš se víc.',
+      open: 'Otevřít průvodce',
+      later: 'Nejdřív se rozhlédnout',
+      note: 'Celý průvodce je vždy na jedno klepnutí.',
+    },
     teaser: {
       what: 'Dojdi na skutečná místa v Praze, sbírej jejich karty a odemykej jejich příběhy.',
       start: 'Tři kroky k úrovni 1: registrace, poloha, upozornění.',
@@ -214,6 +229,13 @@ export const BOARD = {
       ach: '你已经解锁了 {total} 个中的 {n} 个。',
     },
     tryIt: '动手试试',
+    welcome: {
+      title: '欢迎来到 Praguedex',
+      lead: '一款要靠双脚玩的卡片游戏。先了解这五件事，点任意一块看详情。',
+      open: '打开攻略',
+      later: '先逛逛',
+      note: '完整攻略随时一键打开。',
+    },
     teaser: {
       what: '走到布拉格的真实地点，收集卡片，解锁它们的故事。',
       start: '三步升到 1 级：注册、共享位置、打开提醒。',

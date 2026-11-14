@@ -1,6 +1,6 @@
 import { pageCache, pageKey } from '../utils/pageCache';
-import { useState, useEffect, useLayoutEffect, useCallback, useMemo, useRef } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useState, useEffect, useLayoutEffect, useCallback, useMemo, useRef, lazy, Suspense } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { locationAPI, userAPI } from '../services/api';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { quarterName } from '../utils/pragueQuarters';
@@ -27,6 +27,7 @@ import { packInArea, withPackDistance } from '../utils/packs';
 import ExploreMap from '../components/locations/ExploreMap';
 import ExploreDrawer from '../components/locations/ExploreDrawer';
 import ExploreApplied, { NextUp } from '../components/locations/ExploreApplied';
+import { guideWelcomeSeen } from '../utils/guideWelcome';
 import AchievementModal from '../components/achievements/AchievementModal';
 import LevelsModal from '../components/dashboard/LevelsModal';
 import { closestAchievements } from '../utils/achievementText';
@@ -37,6 +38,9 @@ let toastId = 0;
 
 // The title, filters and a map in a side column, the cards taking the rest of the
 // width (2026-11-08, user's call); pixelart.css makes it compact below 2K.
+// Guests only, and it brings the Guide's demos with it: loaded when needed.
+const GuideWelcome = lazy(() => import('../components/guide/GuideWelcome'));
+
 export default function ExplorePage() {
   const t = useT();
   const { lang } = useLang();
@@ -69,8 +73,6 @@ export default function ExplorePage() {
   };
   const [tip] = useState(() => EXPLORE_TIPS[Math.floor(Math.random() * EXPLORE_TIPS.length)]);
   const userPos                          = useUserPosition();
-  // A first-time visitor with no position sees the best-known cards uncovered.
-  const guestPreview                     = guest && !user && !userPos;
   const [locations, setLocations]       = useState(() => pageCache.get(pageKey('locations', user?._id)) ?? []);
   const [areaGuide, setAreaGuide]       = useState(null);
   const [selectedSlug, setSelectedSlug] = useState(null);
@@ -342,6 +344,19 @@ export default function ExplorePage() {
   const afterTurn = useAfterTurn();
   useExploreEntrance(pageRef, !loading, wide, afterTurn);
 
+  // A guest's first visit: the welcome board, once the cards have dropped into
+  // place and nothing else is open (GuideWelcome; the location consent dialog
+  // waits for it).
+  const isGuest = guest && !user;
+  const [welcome, setWelcome] = useState(false);
+  const welcomeDue = isGuest && !loading && afterTurn && !selectedSlug && !openPack && !areaGuide && !guideWelcomeSeen();
+  useEffect(() => {
+    if (!welcomeDue) return undefined;
+    const timer = setTimeout(() => setWelcome(true), 1200);
+    return () => clearTimeout(timer);
+  }, [welcomeDue]);
+  const closeWelcome = useCallback(() => setWelcome(false), []);
+
 
   // Touch screens get the long-press version, mice the double click.
   const showcaseHint = (
@@ -418,6 +433,9 @@ export default function ExplorePage() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
           <div style={{ flex: '1 1 320px', minWidth: 0 }}>
             <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
+            {!wide && isGuest && (
+              <Link to="/guide" className="px-btn px-btn--gold explore-guide-btn explore-guide-btn--bar" data-guide-anchor="">{convert(t('explore.guideLink'))}</Link>
+            )}
             {!notPhone && levelInfo && (
               <button type="button" className="explore-level" aria-label={t('explore.nextUp')} onClick={() => setDrawer('next')}>
                 <span className="explore-level__lv">Lv {levelInfo.level}</span>
@@ -515,7 +533,6 @@ export default function ExplorePage() {
       packs={gridPacks}
       onPackClick={setOpenPack}
       areaChosen={!!area}
-      guestPreview={guestPreview}
       signedIn={!!user}
       onClearFilters={() => { setCityOnly(true); setArea(null); }}
       filterExtraCount={inCollection ? 0 : (cityOnly ? 0 : 1) + (area ? 1 : 0)}
@@ -526,8 +543,7 @@ export default function ExplorePage() {
           here={hereCard}
           tip={tip}
           isGuest={guest && !user}
-          guestPreview={guestPreview}
-          collection={wide && inCollection && user ? locations : null}
+              collection={wide && inCollection && user ? locations : null}
           nextUp={nextUp}
           onOpenAchievement={setOpenAch}
           area={wide ? area : areaActive || null}
@@ -574,6 +590,8 @@ export default function ExplorePage() {
           )}
         </>
       )}
+
+      {welcome && isGuest && <Suspense fallback={null}><GuideWelcome onClose={closeWelcome} /></Suspense>}
 
       {areaGuide && (
         <AreaGuideModal kind={areaGuide.kind} value={areaGuide.value} locations={locations} onClose={() => setAreaGuide(null)} />

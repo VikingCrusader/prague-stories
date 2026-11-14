@@ -32,8 +32,8 @@ function Crimps() {
 // copy inside CardShowcase; `story`: the paragraphs that fill it when read.
 // `artOnly` (the Map and the profile): just the art in its foil and seals, without
 // the name, progress bar and count. The showcase still picks up the whole packet.
-// `uncovered` (Explore, a guest with no position): a sealed pack in full colour
-// with a small corner lock, to match the uncovered cards around it. It is still
+// `uncovered` (the Guide's packs demo; Explore's guest preview used it until
+// 2026-11-14): a sealed pack in full colour with a small corner lock. It is still
 // sealed: no showcase, and its detail shows only the preview.
 // `torn`: the pack's own detail, see PeekCards.
 function PackCard({ pack, onClick, holdable = true, showcase = false, story = null, artOnly = false, uncovered = false, torn = false }) {

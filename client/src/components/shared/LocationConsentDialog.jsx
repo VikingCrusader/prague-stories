@@ -1,9 +1,11 @@
-import { useRef } from 'react';
+import { useEffect, useReducer, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useWindowEntrance } from '../../hooks/useModalEntrance';
 import { useT } from '../../context/LanguageContext';
 import { useLocationConsent } from '../../hooks/useLocationConsent';
 import { setLocationConsent } from '../../utils/locationConsent';
+import { useAuth } from '../../context/AuthContext';
+import { guideWelcomeOpen, guideWelcomeSeen, subscribeGuideWelcome } from '../../utils/guideWelcome';
 
 // Asks for consent to use the device's location (utils/locationConsent.js).
 // Shown when the app opens and the user hasn't decided yet (or decided on an
@@ -16,7 +18,13 @@ export default function LocationConsentDialog() {
   const t = useT();
   const { pathname } = useLocation();
   const { consent, requested } = useLocationConsent();
+  const { user, loading } = useAuth();
+  const [, rerender] = useReducer(n => n + 1, 0);
+  useEffect(() => subscribeGuideWelcome(rerender), []);
   if (consent && !requested) return null;
+  // A guest's first Explore gets the welcome board first (GuideWelcome); this
+  // waits until it is closed, unless something asked for the position.
+  if (!requested && (guideWelcomeOpen() || (pathname === '/explore' && (loading || !user) && !guideWelcomeSeen()))) return null;
   // The Privacy page has the same choice inline; let it be read in full.
   if (pathname === '/privacy') return null;
   return <ConsentBox />;

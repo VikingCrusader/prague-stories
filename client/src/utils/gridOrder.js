@@ -22,8 +22,6 @@ export const FEATURED_SLUGS = [
   'praha-hlavni-nadrazi', 'novy-svet', 'emmaus-monastery-1782494564055', 'bevnov-monastery-1782583396582',
 ];
 
-const FEATURED = new Set(FEATURED_SLUGS);
-export const isFeatured = slug => FEATURED.has(slug);
 
 // Best known first; a pack not listed here keeps its place after these.
 export const FEATURED_PACK_SLUGS = [
@@ -31,8 +29,6 @@ export const FEATURED_PACK_SLUGS = [
   'malostranske-namesti', 'namesti-republiky', 'letna', 'na-prikope', 'pankrac', 'prokopske-valley',
 ];
 
-const FEATURED_PACKS = new Set(FEATURED_PACK_SLUGS);
-export const isFeaturedPack = slug => FEATURED_PACKS.has(slug);
 
 const featuredRank = list => {
   const rank = new Map(list.map((slug, i) => [slug, i]));

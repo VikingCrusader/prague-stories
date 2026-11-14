@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { authAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import { resetGuideWelcome } from '../utils/guideWelcome';
 import { useT } from '../context/LanguageContext';
 
 export default function LoginPage() {
@@ -56,7 +57,7 @@ export default function LoginPage() {
         <button
           className="px-btn px-btn--dark"
           style={{ width: '100%', marginTop: 8 }}
-          onClick={() => { continueAsGuest(); navigate('/explore'); }}
+          onClick={() => { resetGuideWelcome(); continueAsGuest(); navigate('/explore'); }}
         >
           {t('auth.continueAsGuest')}
         </button>

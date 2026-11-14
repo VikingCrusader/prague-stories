@@ -234,34 +234,23 @@ test.describe('a guest with no position', () => {
     await page.goto('/explore');
   }
 
-  test('sees the best-known cards uncovered with a small lock, the others as question marks', async ({ page }) => {
+  test('sees every card locked, the best-known ones too (no uncovered preview since 2026-11-14)', async ({ page }) => {
     await setupGuest(page);
-    const famous = page.locator('.loc-card[data-slug="charles-bridge"]');
-    await expect(famous).toHaveClass(/loc-card--uncovered/);
-    await expect(famous).not.toHaveClass(/loc-card--locked/);
-    await expect(famous.locator('.loc-card__name')).toHaveText('Charles Bridge');
-    await expect(famous.locator('.loc-card__lock')).toBeVisible();
-    const other = page.locator('.loc-card[data-slug="some-alley"]');
-    await expect(other).toHaveClass(/loc-card--locked/);
-    await expect(other.locator('.loc-card__name')).toHaveText('???');
+    for (const slug of ['charles-bridge', 'some-alley']) {
+      const card = page.locator(`.loc-card[data-slug="${slug}"]`);
+      await expect(card).toHaveClass(/loc-card--locked/);
+      await expect(card.locator('.loc-card__name')).toHaveText('???');
+    }
   });
 
-  test('sees the packs in colour with a small lock, still sealed, and the Lennon Wall locked', async ({ page }) => {
+  test('sees the packs sealed and grey', async ({ page }) => {
     await page.addInitScript(() => localStorage.setItem('lang', 'en'));
     await page.route('**/api/locations', route => route.fulfill({ json: [locked('john-lennon-wall', 'John Lennon Wall')] }));
     await page.route('**/api/packs', route => route.fulfill({ json: [SEALED] }));
     await page.goto('/explore');
     const pack = page.locator('.pack-card[data-pack="prague-castle"]');
-    await expect(pack).toHaveClass(/pack-card--uncovered/);
-    await expect(pack).toHaveClass(/pack-card--open/);
-    await expect(pack).not.toHaveClass(/loc-card--holdable/);
-    await expect(pack.locator('.pack-card__lock')).toBeVisible();
-    await expect(page.locator('.loc-card[data-slug="john-lennon-wall"]')).toHaveClass(/loc-card--locked/);
-  });
-
-  test('is told so in the side column', async ({ page }) => {
-    await setupGuest(page);
-    await expect(page.locator('.explore-applied__default--intro')).toContainText('The 48 cards up front are only a preview');
+    await expect(pack).toHaveClass(/pack-card--sealed/);
+    await expect(pack).not.toHaveClass(/pack-card--uncovered/);
   });
 
   test('a signed-in player without a position gets no uncovered cards', async ({ page }) => {

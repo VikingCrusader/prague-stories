@@ -11,7 +11,7 @@ import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES } from '../../utils/rarity';
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 import { packMatches, nearestPackFirst } from '../../utils/packs';
-import { firstVisitOrder, featuredPacksFirst, interleavePacks, packsAtTheirCards, packsByRelease, isFeatured, isFeaturedPack } from '../../utils/gridOrder';
+import { firstVisitOrder, featuredPacksFirst, interleavePacks, packsAtTheirCards, packsByRelease } from '../../utils/gridOrder';
 
 // Expedition sorts first (it pays 60-300 XP), highest XP first among them.
 export const RARITY_ORDER = { expedition: -1, legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
@@ -34,7 +34,7 @@ let firstScreenCards = 40;
 // for the filters that are on into `appliedSlot`.
 // `initialFilter` ({ rarity, label }) opens the grid already filtered, e.g. on
 // Expedition from the nudge on the profile's empty expedition strip.
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, onPacksChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick, areaChosen = false, guestPreview = false, signedIn = false }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange, onPacksChange, initialFilter, wide = false, fitRows = 0, filterSlot = null, appliedSlot = null, exitSlot = null, loadTreasures = null, renderApplied, onCountChange, filtersFolded = false, onToggleFilters, filterExtraCount = 0, onClearFilters, onViewFilters, onFilterCount, toolbarExtra = null, packs = [], onPackClick, areaChosen = false, signedIn = false }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -492,10 +492,9 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             onClick={onCardClick}
             distance={item._distance}
             nearby={!item.unlocked && item._distance != null && item._distance <= NEARBY_REVEAL_M}
-            uncovered={guestPreview && isFeatured(item.slug)}
             previewable
           />
-        ) : <PackCard key={`pack-${item.slug}`} pack={item} onClick={onPackClick} uncovered={guestPreview && isFeaturedPack(item.slug)} />))}
+        ) : <PackCard key={`pack-${item.slug}`} pack={item} onClick={onPackClick} />))}
         {shownCount === 0 && (
           <p style={{ color: 'var(--text-muted)', gridColumn: '1/-1', padding: 24 }}>
             {t('grid.noResults')}

@@ -532,7 +532,7 @@ test('the nearest-card row opens that card, and it comes first', async ({ browse
   await context.close();
 });
 
-test('a guest gets a link to the guide under the tip; a signed-in player does not', async ({ browser, page }) => {
+test('a guest gets an Open the Guide button instead of the tip; a signed-in player does not', async ({ browser, page }) => {
   await page.setViewportSize({ width: 2560, height: 1300 });
   await page.goto('/explore');
   await expect(page.locator('.explore-applied__default:not(.explore-next)')).toContainText('Tip');
@@ -540,7 +540,7 @@ test('a guest gets a link to the guide under the tip; a signed-in player does no
 
   const context = await browser.newContext({
     viewport: { width: 2560, height: 1300 }, baseURL: 'http://localhost:5173',
-    storageState: { cookies: [], origins: [{ origin: 'http://localhost:5173', localStorage: [{ name: 'locationConsent', value: JSON.stringify({ granted: true, version: 2, at: '2026-10-22T00:00:00.000Z' }) }] }] },
+    storageState: { cookies: [], origins: [{ origin: 'http://localhost:5173', localStorage: [{ name: 'locationConsent', value: JSON.stringify({ granted: true, version: 2, at: '2026-10-22T00:00:00.000Z' }) }, { name: 'guideWelcomeOff', value: '1' }] }] },
   });
   const guestPage = await context.newPage();
   await context.route('**/api/packs', route => route.fulfill({ json: [] })); // the beforeEach mock doesn't reach a new context
@@ -549,9 +549,9 @@ test('a guest gets a link to the guide under the tip; a signed-in player does no
   await guestPage.goto('/explore');
   const intro = guestPage.locator('.explore-applied__default');
   await expect(intro).toContainText('What is this?');
-  await expect(intro).toContainText('Within 100 m');
+  await expect(intro).toContainText('within 100 m');
   await expect(intro).not.toContainText('Tip');
-  await expect(intro.locator('a')).toHaveText('Learn more ›');
+  await expect(intro.locator('a')).toHaveText('Open the Guide');
   await guestPage.locator('.explore-applied__default a').click();
   await expect(guestPage).toHaveURL(/\/guide$/);
   await context.close();

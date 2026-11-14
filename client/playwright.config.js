@@ -14,7 +14,11 @@ export default defineConfig({
       cookies: [],
       origins: [{
         origin: 'http://localhost:5173',
-        localStorage: [{ name: 'locationConsent', value: JSON.stringify({ granted: true, version: 2, at: '2026-10-22T00:00:00.000Z' }) }],
+        localStorage: [
+          { name: 'locationConsent', value: JSON.stringify({ granted: true, version: 2, at: '2026-10-22T00:00:00.000Z' }) },
+          // No guest welcome board (GuideWelcome); e2e/guideWelcome.spec.js starts without this.
+          { name: 'guideWelcomeOff', value: '1' },
+        ],
       }],
     },
   },
