@@ -1,18 +1,45 @@
 import { pageCache, pageKey } from '../utils/pageCache';
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { Link } from 'react-router-dom';
+import { useState, useEffect, useLayoutEffect, useRef, useCallback } from 'react';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import LocationOffNotice from '../components/shared/LocationOffNotice';
-import { useT, useLang, useConvert } from '../context/LanguageContext';
-import { getLocName } from '../utils/locName';
+import { useT, useLang } from '../context/LanguageContext';
 import { haversineDistance, getCurrentPosition } from '../utils/geolocation';
 import { useUserPosition } from '../hooks/useUserPosition';
 import LocationCard from '../components/locations/LocationCard';
 import LocationDetail from '../components/locations/LocationDetail';
 import TreasureHuntPanel from '../components/draw/TreasureHuntPanel';
 import DeckShuffle, { SHUFFLE_MS, prefersReducedMotion } from '../components/draw/DeckShuffle';
+import HuntMap from '../components/draw/HuntMap';
+import HuntFinds from '../components/draw/HuntFinds';
+import HuntRulesWindow from '../components/draw/HuntRulesWindow';
+import { CardThumb } from '../components/dashboard/RecentCardStrip';
 import { unlockAudio, playShuffleSound, playClueSound, playMissSound, playHuntWinSound, HUNT_WIN_SOUND_MS } from '../utils/sound';
 import { formatCountdown } from '../utils/formatCountdown';
+import { useMedia } from '../hooks/useMedia';
+import { useWakeLock } from '../hooks/useWakeLock';
+import { useCountUp } from '../hooks/useCountUp';
+import '../styles/hunt.css';
+
+// Three layouts (2026-11-14, user's call: the page redone for every screen):
+// - phone (and anything as narrow): played walking, so only the hunt itself,
+//   the buttons fixed to the bottom of the screen, rules and finds in sheets;
+// - board (a landscape screen from 1024 x 600: laptops, Macs, iPads sideways,
+//   2K): one screen in three columns, the card and its status, the hunt (or the
+//   walk-through before one), and the clue map with the finds, each column
+//   scrolling on its own if it must, never the page;
+// - stack (upright tablets, short windows): one centred column.
+const PHONE_QUERY = '(max-width: 720px)';
+const BOARD_QUERY = '(min-width: 1024px) and (min-height: 600px) and (orientation: landscape)';
+// A 2K screen: everything on one screen, no column scrolls (2026-11-14, user's
+// call). The card column also holds the clue map, the middle one the panel and
+// the finds, and How to play gets a wide column of its own, set in two text
+// columns.
+const WIDE_QUERY = '(min-width: 2400px) and (min-height: 1200px)';
+// How many finds the board's side column shows before "All": one row.
+const BOARD_FINDS = 3;
+const CELEBRATE_MS = 3200;
 
 // The hunt's clues, for the rules section, in the order they come: the
 // distance always, then each clue free within its distance or bought early
@@ -50,6 +77,31 @@ function HuntClueTable({ t }) {
   );
 }
 
+// A find: gold rays behind the card and the XP counting up over it, for a few
+// seconds after the hitting press (the fanfare plays at the same time).
+function HuntCelebration({ xp }) {
+  const shown = useCountUp(xp, { ms: 1400, fromZero: true });
+  return (
+    <div className="hunt-celebrate" aria-hidden="true">
+      <div className="hunt-celebrate__rays" />
+      <div className="hunt-celebrate__xp">+{Math.round(shown)} XP</div>
+    </div>
+  );
+}
+
+// The page's first load, before the hunt's status is in: grey shapes where
+// the card and the panel will be, so nothing jumps (no spinner, like the
+// other pages).
+function HuntSkeleton() {
+  return (
+    <div className="hunt-skel" aria-busy="true">
+      <div className="hunt-skel__card hunt-skeleton" />
+      <div className="hunt-skel__line hunt-skeleton" />
+      <div className="hunt-skel__line hunt-skel__line--short hunt-skeleton" />
+    </div>
+  );
+}
+
 // Treasure hunt, one every 24 hours: a random uncollected card is hidden and
 // the user tracks it down from clues (see TreasureHuntPanel and
 // buildHuntClues on the server). The API still uses the old "random draw"
@@ -58,8 +110,6 @@ function HuntClueTable({ t }) {
 export default function TreasureHuntPage() {
   const { user, applyProgress } = useAuth();
   const t = useT();
-  const { lang } = useLang();
-  const convert = useConvert();
   const userPos = useUserPosition();
 
   const huntKey = pageKey('hunt', user?._id);
@@ -71,17 +121,50 @@ export default function TreasureHuntPage() {
   const [startError, setStartError] = useState(null);
   const [now, setNow] = useState(Date.now());
   const [selectedSlug, setSelectedSlug] = useState(null);
-  // The user's past finds, at the bottom of the page behind a button
-  // (2026-11-02, moved here from the profile); loaded on the first open.
-  const [findsOpen, setFindsOpen] = useState(false);
+  // The user's past finds: in the side column on the board, at the bottom of
+  // the stacked page, in a sheet on phones; loaded once.
   const [finds, setFinds] = useState(null);
   const [openFind, setOpenFind] = useState(null);
-  const toggleFinds = () => {
-    if (!findsOpen && finds === null) {
-      userAPI.getTreasures().then(res => setFinds(res.data)).catch(() => setFinds([]));
-    }
-    setFindsOpen(open => !open);
-  };
+  const findsAsked = useRef(false);
+  const loadFinds = useCallback(() => {
+    if (findsAsked.current) return;
+    findsAsked.current = true;
+    userAPI.getTreasures().then(res => setFinds(res.data)).catch(() => setFinds([]));
+  }, []);
+  const phone = useMedia(PHONE_QUERY);
+  const board = useMedia(BOARD_QUERY) && !phone;
+  const wide = useMedia(WIDE_QUERY) && board;
+  const { lang } = useLang();
+  // On the 2K layout How to play must fit its two text columns: English and
+  // Czech run about half again as long as Chinese, so its text steps down from
+  // 20 px until nothing spills into a third column (never below 15 px).
+  const rulesRef = useRef(null);
+  useLayoutEffect(() => {
+    const col = rulesRef.current;
+    if (!wide || !col || typeof ResizeObserver === 'undefined') return undefined;
+    const fit = () => {
+      const box = col.querySelector('.hunt-howto');
+      if (!box) return;
+      let size = 20;
+      col.style.setProperty('--howto-fs', `${size}px`);
+      while (size > 15 && (box.scrollWidth > box.clientWidth + 1 || box.scrollHeight > box.clientHeight + 1)) {
+        size -= 1;
+        col.style.setProperty('--howto-fs', `${size}px`);
+      }
+    };
+    fit();
+    const ro = new ResizeObserver(fit);
+    ro.observe(col);
+    return () => ro.disconnect();
+  }, [wide, lang, loading]);
+  const layout = phone ? 'phone' : board ? 'board' : 'stack';
+  // Keep screen on: the switch lives only in the profile's settings window
+  // (2026-11-14, user's call: no button here); the hook holds the lock while
+  // this page is open when that setting is on.
+  useWakeLock();
+  // 'finds': all past finds, a sheet on phones, a window elsewhere.
+  const [sheet, setSheet] = useState(null);
+  const [celebrate, setCelebrate] = useState(null);
   const refreshingOnExpiry = useRef(false);
   const [busy, setBusy] = useState(false);
   const [huntFlash, setHuntFlash] = useState(null);
@@ -99,6 +182,21 @@ export default function TreasureHuntPage() {
   // without restarting it on every GPS update.
   const posRef = useRef(userPos);
   posRef.current = userPos;
+
+  // The board fills the window under the navbar.
+  useLayoutEffect(() => {
+    const nav = document.querySelector('.navbar');
+    if (!nav || typeof ResizeObserver === 'undefined') return undefined;
+    const root = document.documentElement;
+    const measure = () => root.style.setProperty('--navbar-h', `${nav.offsetHeight}px`);
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(nav);
+    return () => { ro.disconnect(); root.style.removeProperty('--navbar-h'); };
+  }, []);
+
+  // The finds show on the page itself except on phones.
+  useEffect(() => { if (user) loadFinds(); }, [user, loadFinds]);
 
   // Free clues arrive with a poll: announce a new one once, like a clue
   // taken (not the ones already there when the page loads).
@@ -152,6 +250,12 @@ export default function TreasureHuntPage() {
     return () => clearInterval(id);
   }, [huntActive, hasPos]);
 
+  useEffect(() => {
+    if (!celebrate) return;
+    const id = setTimeout(() => setCelebrate(null), CELEBRATE_MS);
+    return () => clearTimeout(id);
+  }, [celebrate]);
+
   const handleGuess = async () => {
     unlockAudio();
     setBusy(true);
@@ -161,10 +265,14 @@ export default function TreasureHuntPage() {
       const res = await userAPI.guessTreasure(pos);
       if (res.data.hit) {
         playHuntWinSound();
+        if (!prefersReducedMotion()) setCelebrate({ xp: res.data.xpEarned ?? 0 });
         // The XP (and a level-up, with its own fanfare) lands once the
         // victory fanfare is over, so the two don't play on top of each other.
         const { levelInfo, totalXP } = res.data;
         setTimeout(() => applyProgress(levelInfo, totalXP), HUNT_WIN_SOUND_MS);
+        // A new find for the list.
+        findsAsked.current = false;
+        loadFinds();
       } else {
         playMissSound();
         setHuntFlash({ type: 'miss', text: t('draw.huntMissFlash') });
@@ -230,177 +338,226 @@ export default function TreasureHuntPage() {
   // Rule 3 introduces the clue table rendered right under it.
   const huntRules = [1, 2, 3, 4, 5].map(n => t(`draw.huntRule${n}`));
   const solvedHunt = status?.active && status.bonusUsed && status.location;
+  const hunting = huntActive && !!status?.hunt;
+  const idle = !loading && !hunting && !solvedHunt && !status?.forfeited && !status?.noneLeft;
+  // On phones the tagline steps aside while a hunt is on, to keep the panel
+  // close to the card. The buttons stay in the panel, under the clues and
+  // above the map (2026-11-14, user's call: a bar fixed to the bottom of the
+  // screen was dropped).
+  const compact = phone && hunting;
   const countdown = (
     <div className="draw-countdown">
       {t('draw.cooldownLabel')} <span className="draw-countdown__time">{formatCountdown(msLeft)}</span>
     </div>
   );
 
-  return (
-    <div className="guide-page draw-page">
-      <div className="guide-wrap">
-        <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t('draw.modeHunt')}</h1>
-        <p className="guide-intro">{t('draw.huntTagline')}</p>
-        {/* The challenge box under the tagline was removed (2026-11-10, user's
-            call): too long, and the rules below say the same. */}
-        {user && <LocationOffNotice />}
-
-        {loading ? (
-          <div style={{ display: 'flex', justifyContent: 'center', padding: 40 }}>
-            <div className="spinner" />
+  const introSection = (
+    <section className="guide-section hunt-intro">
+      {/* A walk through a hunt, in more detail since the challenge box
+          above it went (2026-11-10, user's call). */}
+      {t('draw.huntIntro').split('\n\n').map((para, i) => <p key={i} className="guide-body">{para}</p>)}
+    </section>
+  );
+  const rulesSection = (
+    <section className="guide-section">
+      <h2 className="guide-h2">{t('draw.rulesTitle')}</h2>
+      {huntRules.map((rule, i) => (
+        <div key={i}>
+          <div className="guide-step">
+            <span className="guide-step-num">{i + 1}</span>
+            <p className="guide-body">{rule}</p>
           </div>
-        ) : (
-          <div className="draw-stage">
-            {status?.noneLeft ? (
-              <>
-                <div className="draw-card draw-card--mystery draw-card--empty">
-                  <div className="draw-card__mystery-mark">🏆</div>
-                </div>
-                <h2 className="guide-h2" style={{ marginTop: 18 }}>{t('draw.noneLeftTitle')}</h2>
-                <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420 }}>{t('draw.noneLeft')}</p>
-              </>
-            ) : (
-              <>
-                {/* Persistent 3D flip card: the mystery back turns into the
-                    found card once the treasure is collected. See .flip-card*
-                    in pixelart.css. */}
-                {shuffling ? <DeckShuffle /> : (
-                <div className={`flip-card${solvedHunt ? ' flip-card--revealed' : ''}`}>
-                  <div className="flip-card__inner">
-                    <div className="flip-card__face flip-card__face--back">
-                      <div className="draw-card draw-card--mystery draw-card--mystery-img">
-                        <img className="draw-card__mystery-img" src="/brand/hunt-back.webp" alt="???" />
-                      </div>
-                    </div>
-                    <div className="flip-card__face flip-card__face--front">
-                      {solvedHunt && (
-                        <div className="draw-stage__card">
-                          <LocationCard
-                            location={{ ...status.location, unlocked: true }}
-                            onClick={() => setSelectedSlug(status.location.slug)}
-                            distance={distance}
-                          />
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                </div>
-                )}
+          {i === 2 && <HuntClueTable t={t} />}
+        </div>
+      ))}
+      {/* The Guide's practice hunt (GuideBoard, ?open=hunt). */}
+      <Link to="/guide?open=hunt" className="px-btn hunt-practice-link">{t('draw.practiceLink')} →</Link>
+    </section>
+  );
+  const findsBox = (opts = {}) => user && <HuntFinds finds={finds} onOpen={setOpenFind} {...opts} />;
 
-                {huntActive && status.hunt ? (
-                  <>
-                    <TreasureHuntPanel hunt={status.hunt} onGuess={handleGuess} onClue={handleClue} busy={busy} flash={huntFlash} />
-                    {countdown}
-                  </>
-                ) : status?.forfeited ? (
-                  <>
-                    {status.lastHunt?.location && (
-                      <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, marginTop: 14 }}>
-                        {t('draw.huntForfeited')}
-                        <a
-                          href="#"
-                          onClick={e => { e.preventDefault(); setSelectedSlug(status.lastHunt.location.slug); }}
-                          style={{ textDecoration: 'underline' }}
-                        >
-                          {convert(getLocName(status.lastHunt.location, lang))}
-                        </a>
-                        <br />
-                        {t('draw.huntForfeitedTip')}
-                      </p>
-                    )}
-                    {countdown}
-                  </>
-                ) : solvedHunt ? (
-                  <>
-                    <p className="guide-body hunt-found" style={{ marginTop: 14, marginBottom: 4 }}>
-                      {t('draw.huntFound', { n: status.solvedAttempt, xp: status.xpEarned ?? 0 })}
-                    </p>
-                    {countdown}
-                  </>
-                ) : (
-                  <>
-                    {status?.lastHunt?.location && (
-                      <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420 }}>
-                        {t('draw.huntLastAnswer')}
-                        <a
-                          href="#"
-                          onClick={e => { e.preventDefault(); setSelectedSlug(status.lastHunt.location.slug); }}
-                          style={{ textDecoration: 'underline' }}
-                        >
-                          {convert(getLocName(status.lastHunt.location, lang))}
-                        </a>
-                      </p>
-                    )}
-                    <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, color: 'var(--text-muted)' }}>
-                      {t('draw.huntMysteryHint')}
-                    </p>
-                    <button className="px-btn px-btn--gold px-btn--lg" onClick={handleStart} disabled={starting || !user}>
-                      {starting ? t('draw.buttonDrawing') : t('draw.buttonHuntStart')}
-                    </button>
-                    {!user && <p className="guide-body draw-mode-hint">{t('draw.huntGuestOnly')}</p>}
-                    {startError && <p className="guide-body draw-mode-hint" role="alert">{t(`draw.huntStartError.${startError}`)}</p>}
-                  </>
-                )}
-              </>
-            )}
-          </div>
-        )}
+  const header = (
+    <header className="hunt-header">
+      <h1 className="px-title hunt-title">{t('draw.modeHunt')}</h1>
+      {!compact && <p className="guide-intro hunt-tagline">{t('draw.huntTagline')}</p>}
+      {user && <LocationOffNotice />}
+    </header>
+  );
 
-        <hr className="px-divider" />
-
-        <section className="guide-section">
-          {/* A walk through a hunt, in more detail since the challenge box
-              above it went (2026-11-10, user's call). */}
-          {t('draw.huntIntro').split('\n\n').map((para, i) => <p key={i} className="guide-body">{para}</p>)}
-        </section>
-        <hr className="px-divider" />
-
-        <section className="guide-section">
-          <h2 className="guide-h2">{t('draw.rulesTitle')}</h2>
-          {huntRules.map((rule, i) => (
-            <div key={i}>
-              <div className="guide-step">
-                <span className="guide-step-num">{i + 1}</span>
-                <p className="guide-body">{rule}</p>
+  // The card: a persistent 3D flip card, the mystery back turning into the
+  // found card once the treasure is collected (.flip-card* in pixelart.css);
+  // the deck shuffle while a hunt starts; a trophy when nothing is left.
+  const stage = status?.noneLeft ? (
+    <div className="draw-card draw-card--mystery draw-card--empty">
+      <div className="draw-card__mystery-mark">🏆</div>
+    </div>
+  ) : (
+    <div className="hunt-stage">
+      {shuffling ? <DeckShuffle /> : (
+        <div className={`flip-card${solvedHunt ? ' flip-card--revealed' : ''}`}>
+          <div className="flip-card__inner">
+            <div className="flip-card__face flip-card__face--back">
+              <div className="draw-card draw-card--mystery draw-card--mystery-img">
+                <img className="draw-card__mystery-img" src="/brand/hunt-back.webp" alt="???" />
               </div>
-              {i === 2 && <HuntClueTable t={t} />}
             </div>
-          ))}
-        </section>
-
-        {user && (
-          <>
-            <hr className="px-divider" />
-            <section className="guide-section hunt-finds">
-              <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <button type="button" className="px-btn px-btn--dark" onClick={toggleFinds} aria-expanded={findsOpen}>
-                  {findsOpen ? t('draw.hideFinds') : t('draw.showFinds')}
-                </button>
-              </div>
-              {findsOpen && (
-                finds === null ? (
-                  <div style={{ display: 'flex', justifyContent: 'center', padding: 24 }}><div className="spinner" /></div>
-                ) : finds.length > 0 ? (
-                  <>
-                    <h2 className="guide-h2" style={{ marginTop: 20 }}>
-                      {t('dashboard.treasures')} <span style={{ color: 'var(--text-muted)' }}>({finds.length})</span>
-                    </h2>
-                    <div className="location-grid">
-                      {finds.map(loc => (
-                        <LocationCard key={loc.slug} location={loc} onClick={setOpenFind} />
-                      ))}
-                    </div>
-                  </>
-                ) : (
-                  <p className="guide-body" style={{ color: 'var(--text-muted)', textAlign: 'center', marginTop: 16 }}>
-                    {t('dashboard.treasuresEmpty')}
-                  </p>
-                )
+            <div className="flip-card__face flip-card__face--front">
+              {solvedHunt && (
+                <div className="draw-stage__card">
+                  <LocationCard
+                    location={{ ...status.location, unlocked: true }}
+                    onClick={() => setSelectedSlug(status.location.slug)}
+                    distance={distance}
+                  />
+                </div>
               )}
-            </section>
-          </>
-        )}
+            </div>
+          </div>
+        </div>
+      )}
+      {celebrate && <HuntCelebration xp={celebrate.xp} />}
+    </div>
+  );
+
+  // What goes with the card when no hunt is being played: the start button,
+  // the find, the forfeit, the last answer as a small card.
+  const lastAnswer = loc => (
+    <div className="hunt-last">
+      <CardThumb location={loc} onOpen={setSelectedSlug} />
+    </div>
+  );
+  const status_ = status?.noneLeft ? (
+    <>
+      <h2 className="guide-h2 hunt-status__title">{t('draw.noneLeftTitle')}</h2>
+      <p className="guide-body hunt-status__text">{t('draw.noneLeft')}</p>
+    </>
+  ) : hunting ? countdown : status?.forfeited ? (
+    <>
+      {status.lastHunt?.location && (
+        <>
+          <p className="guide-body hunt-status__text">{t('draw.huntForfeited')}</p>
+          {lastAnswer(status.lastHunt.location)}
+          <p className="guide-body hunt-status__text hunt-status__muted">{t('draw.huntForfeitedTip')}</p>
+        </>
+      )}
+      {countdown}
+    </>
+  ) : solvedHunt ? (
+    <>
+      <p className="guide-body hunt-found">{t('draw.huntFound', { n: status.solvedAttempt, xp: status.xpEarned ?? 0 })}</p>
+      {countdown}
+    </>
+  ) : (
+    <>
+      <p className="guide-body hunt-status__text hunt-status__muted">{t('draw.huntMysteryHint')}</p>
+      <button className="px-btn px-btn--gold px-btn--lg" onClick={handleStart} disabled={starting || !user}>
+        {starting ? t('draw.buttonDrawing') : t('draw.buttonHuntStart')}
+      </button>
+      {!user && <p className="guide-body draw-mode-hint">{t('draw.huntGuestOnly')}</p>}
+      {startError && <p className="guide-body draw-mode-hint" role="alert">{t(`draw.huntStartError.${startError}`)}</p>}
+      {/* On the board the last answer sits in the right column. */}
+      {status?.lastHunt?.location && layout !== 'board' && (
+        <>
+          <p className="guide-body hunt-status__text hunt-status__muted">{t('draw.huntLastAnswer')}</p>
+          {lastAnswer(status.lastHunt.location)}
+        </>
+      )}
+    </>
+  );
+  // The board's right column: the last hunt's answer beside its label.
+  const lastHuntBox = idle && status?.lastHunt?.location && (
+    <section className="hunt-lastbox">
+      <p className="hunt-lastbox__label">{t('draw.huntLastAnswer')}</p>
+      {lastAnswer(status.lastHunt.location)}
+    </section>
+  );
+
+  const panel = hunting && (
+    <TreasureHuntPanel hunt={status.hunt} onGuess={handleGuess} onClue={handleClue} busy={busy} flash={huntFlash} />
+  );
+  // The clue map: during a hunt, and before one as a taste of it (the plain
+  // city with the player's dot).
+  const map = !status?.noneLeft && (hunting || idle) && <HuntMap hunt={hunting ? status.hunt : null} position={userPos} />;
+  // How to play: the walk-through and the full rules (with the clue table under
+  // rule 3), always on the page, never folded away (2026-11-14, user's call).
+  const howToPlay = (
+    <div className="hunt-howto">
+      {introSection}
+      {rulesSection}
+    </div>
+  );
+
+  let body;
+  if (loading) {
+    body = layout === 'board'
+      ? <div className="hunt-board"><div className="hunt-col hunt-col--left">{header}<HuntSkeleton /></div><div className="hunt-col hunt-col--mid"><div className="hunt-skel__panel hunt-skeleton" /></div><div className="hunt-col hunt-col--right"><div className="hunt-map hunt-map--loading" /></div></div>
+      : <div className="hunt-stack">{header}<HuntSkeleton /></div>;
+  } else if (wide) {
+    body = (
+      <div className="hunt-board hunt-board--wide">
+        <div className="hunt-col hunt-col--left">
+          {header}
+          {stage}
+          <div className="hunt-status">{status_}</div>
+          {map}
+        </div>
+        <div className="hunt-col hunt-col--mid">
+          {panel}
+          {lastHuntBox}
+          {findsBox({ limit: hunting ? 5 : 8, onSeeAll: () => setSheet('finds') })}
+        </div>
+        <div className="hunt-col hunt-col--rules" ref={rulesRef}>{howToPlay}</div>
       </div>
+    );
+  } else if (layout === 'board') {
+    body = (
+      <div className="hunt-board">
+        <div className="hunt-col hunt-col--left">
+          {header}
+          {stage}
+          <div className="hunt-status">{status_}</div>
+        </div>
+        <div className="hunt-col hunt-col--mid">
+          {panel}
+          {panel && <hr className="px-divider" />}
+          {howToPlay}
+        </div>
+        <div className="hunt-col hunt-col--right">
+          {map}
+          {lastHuntBox}
+          {findsBox({ limit: BOARD_FINDS, onSeeAll: () => setSheet('finds') })}
+        </div>
+      </div>
+    );
+  } else {
+    body = (
+      <div className="hunt-stack">
+        {header}
+        <div className="draw-stage">
+          {stage}
+          {!hunting && <div className="hunt-status">{status_}</div>}
+          {panel}
+          {hunting && countdown}
+        </div>
+        {map && <div className="hunt-stack__map">{map}</div>}
+        <hr className="px-divider" />
+        {howToPlay}
+        {/* The finds at the bottom of the page, on phones too (2026-11-14,
+            user's call: a button for them under the title looked odd). */}
+        {user && <div className="hunt-stack__finds">{findsBox()}</div>}
+      </div>
+    );
+  }
+
+  return (
+    <div className={`guide-page draw-page hunt-page hunt-page--${layout}${phone ? ' draw-page--phone' : ''}${hunting ? ' hunt-page--hunting' : ''}`}>
+      {body}
+
+      {sheet === 'finds' && (
+        <HuntRulesWindow label={t('draw.myFinds')} wide onClose={() => setSheet(null)}>
+          {findsBox()}
+        </HuntRulesWindow>
+      )}
 
       {openFind && <LocationDetail slug={openFind} onClose={() => setOpenFind(null)} />}
 

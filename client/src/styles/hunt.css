@@ -1,0 +1,322 @@
+/* ── Treasure Hunt page (TreasureHuntPage.jsx, redone 2026-11-14) ─────────
+   Three layouts: .hunt-page--board (one landscape screen, three columns),
+   --stack (one centred column) and --phone (the stack, with full-width
+   buttons in the panel; see .hunt-page--phone in pixelart.css). The panel's own
+   pieces (ladder, track) are in pixelart.css next to .hunt-panel. */
+
+.hunt-header { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
+.hunt-title { font-size: 26px; margin: 0; }
+.hunt-tagline { margin: 0; }
+.hunt-tools { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 4px 0 2px; }
+.hunt-tools .filter-btn { min-height: 36px; }
+
+.hunt-stage { position: relative; display: flex; justify-content: center; }
+.hunt-status { display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; }
+.hunt-status__text { margin: 0; max-width: 420px; text-align: center; }
+.hunt-status__muted { color: var(--text-muted); }
+.hunt-status__title { margin: 0; }
+.hunt-found { margin: 0; font-size: 18px; }
+.hunt-last { width: 120px; }
+.hunt-lastbox {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 12px;
+  border: 2px solid var(--border);
+  background: var(--bg-card);
+}
+.hunt-lastbox__label { flex: 1; margin: 0; font-size: 15px; line-height: 1.45; color: var(--text-muted); }
+.hunt-lastbox .hunt-last { width: 96px; flex: none; }
+.hunt-last .card-strip__item { width: 100%; }
+
+/* The card and the deck share one width; the revealed card fills it. */
+.hunt-page .flip-card .draw-stage__card { width: 100%; }
+.hunt-page .deck-shuffle { width: var(--hunt-card-w, 230px); }
+.hunt-page .flip-card { width: var(--hunt-card-w, 230px); }
+
+/* ── Board ─────────────────────────────────────────────────────────────── */
+.hunt-page--board { padding: 20px 24px; overflow: hidden; }
+.hunt-board {
+  display: grid;
+  grid-template-columns: minmax(250px, 320px) minmax(380px, 580px) minmax(290px, 380px);
+  justify-content: center;
+  gap: 28px;
+  height: calc(100vh - var(--navbar-h, 60px) - 40px);
+  height: calc(100dvh - var(--navbar-h, 60px) - 40px);
+}
+.hunt-col {
+  min-height: 0;
+  min-width: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.hunt-col::-webkit-scrollbar { display: none; }
+.hunt-col--left { align-items: center; --hunt-card-w: clamp(150px, calc((100dvh - var(--navbar-h, 60px) - 380px) * 0.706), 280px); }
+.hunt-col--mid .hunt-panel { max-width: none; margin: 0; }
+.hunt-col--mid .hunt-intro { margin: 0; }
+.hunt-col--mid .hunt-table-wrap { margin: 4px 0 0; }
+.hunt-col--right { gap: 18px; }
+/* A 2K screen: wider columns (the side columns at the 440 px of Explore's and
+   the Map's), a bigger card and map, the text at the size of every other
+   page. Scaling the whole board up with CSS zoom was tried and dropped the
+   same day (user: it looked odd beside the navbar, and columns ran off). */
+/* Then, like the Guide's 2K board, each piece gets its own bigger size (the
+   page-wide font rules use !important, hence the :is(#root, body) prefix). */
+@media (min-width: 2400px) and (min-height: 1200px) {
+  .hunt-page--board { padding: 32px 48px; }
+  .hunt-board {
+    grid-template-columns: 480px minmax(0, 860px) 560px;
+    gap: 64px;
+    height: calc(100vh - var(--navbar-h, 60px) - 64px);
+    height: calc(100dvh - var(--navbar-h, 60px) - 64px);
+  }
+  .hunt-col { gap: 24px; }
+  .hunt-col--left { --hunt-card-w: clamp(260px, calc((100dvh - var(--navbar-h, 60px) - 520px) * 0.706), 440px); }
+  .hunt-col--right { gap: 28px; }
+  :is(#root, body) .hunt-page .hunt-title { font-size: 46px !important; }
+  :is(#root, body) .hunt-page .hunt-tagline { font-size: 22px !important; }
+  :is(#root, body) .hunt-page .hunt-tools .filter-btn { font-size: 17px !important; min-height: 46px; padding: 0 18px; }
+  :is(#root, body) .hunt-page .guide-body { font-size: 21px !important; line-height: 1.75 !important; }
+  :is(#root, body) .hunt-page .hunt-table { font-size: 19px !important; }
+  .hunt-page .hunt-table th, .hunt-page .hunt-table td { padding: 10px 14px; }
+  :is(#root, body) .hunt-page .hunt-table__note { font-size: 16px !important; }
+  :is(#root, body) .hunt-page .hunt-col .px-btn--lg { font-size: 22px !important; padding: 18px 44px; }
+  :is(#root, body) .hunt-page .draw-countdown { font-size: 19px !important; }
+  :is(#root, body) .hunt-page .draw-countdown__time { font-size: 24px !important; }
+  :is(#root, body) .hunt-page .hunt-found { font-size: 23px !important; }
+
+  /* The panel. */
+  .hunt-col--mid .hunt-panel { padding: 24px; gap: 16px; }
+  .hunt-col--mid .hunt-panel__actions { margin: 0 -24px -24px; width: calc(100% + 48px); padding: 18px 24px 24px; gap: 14px; }
+  :is(#root, body) .hunt-page .hunt-panel__head { font-size: 19px !important; }
+  .hunt-page .hunt-ladder { gap: 10px; }
+  .hunt-page .hunt-ladder li { min-height: 64px; }
+  :is(#root, body) .hunt-page .hunt-ladder__mult { font-size: 26px !important; }
+  :is(#root, body) .hunt-page .hunt-ladder__xp { font-size: 14px !important; }
+  :is(#root, body) .hunt-page .hunt-panel__distance { font-size: 30px !important; }
+  .hunt-page .hunt-track { gap: 10px; }
+  .hunt-page .hunt-track__row { grid-template-columns: 38px minmax(0, 1fr) auto; min-height: 62px; padding: 10px 16px; gap: 14px; }
+  .hunt-page .hunt-track__row:not(:last-child)::after { left: 34px; top: calc(50% + 19px); }
+  .hunt-page .hunt-track__mark { width: 38px; height: 38px; }
+  :is(#root, body) .hunt-page .hunt-track__mark { font-size: 18px !important; }
+  :is(#root, body) .hunt-page .hunt-track__name,
+  :is(#root, body) .hunt-page .hunt-track__row.is-had .hunt-track__name { font-size: 18px !important; }
+  :is(#root, body) .hunt-page .hunt-track__text { font-size: 19px !important; }
+  :is(#root, body) .hunt-page .hunt-track__value .detail-label-pill { font-size: 17px !important; padding: 3px 10px; }
+  :is(#root, body) .hunt-page .hunt-track__tag { font-size: 16px !important; }
+  :is(#root, body) .hunt-page .hunt-track__pin { font-size: 17px !important; }
+  .hunt-page .hunt-track__pin-dot { width: 18px; height: 18px; }
+  :is(#root, body) .hunt-page .hunt-panel__misses { font-size: 19px !important; }
+  .hunt-page .hunt-compass { width: 130px; height: 130px; }
+  :is(#root, body) .hunt-page .hunt-panel__flash { font-size: 19px !important; }
+  :is(#root, body) .hunt-page .hunt-panel__clue { font-size: 18px !important; padding: 10px 22px; }
+  :is(#root, body) .hunt-page .hunt-panel__confirm > span { font-size: 20px !important; }
+  :is(#root, body) .hunt-page .hunt-panel__confirm .px-btn { font-size: 19px !important; padding: 12px 28px; }
+
+  /* The right column. */
+  :is(#root, body) .hunt-page .hunt-map__caption { font-size: 19px !important; }
+  :is(#root, body) .hunt-page .hunt-lastbox__label { font-size: 19px !important; }
+  .hunt-page .hunt-lastbox { padding: 14px 18px; }
+  .hunt-page .hunt-lastbox .hunt-last { width: 128px; }
+  :is(#root, body) .hunt-page .hunt-finds-box__title { font-size: 24px !important; }
+  :is(#root, body) .hunt-page .hunt-finds-box__all { font-size: 17px !important; }
+  .hunt-page .hunt-finds-box__stat { min-height: 84px; }
+  :is(#root, body) .hunt-page .hunt-finds-box__stat strong { font-size: 30px !important; }
+  :is(#root, body) .hunt-page .hunt-finds-box__stat span { font-size: 16px !important; }
+  .hunt-col--right .hunt-finds-box__grid { gap: 16px 14px; }
+  :is(#root, body) .hunt-col--right .card-strip__name { font-size: 16px !important; }
+  :is(#root, body) .hunt-col--right .card-strip__meta { font-size: 14px !important; }
+
+  /* The 2K layout (.hunt-board--wide, WIDE_QUERY in the page): one screen,
+     no column scrolls. Card, status and clue map | panel and finds | How to
+     play in two text columns. */
+  .hunt-board--wide { grid-template-columns: 400px 800px minmax(0, 1fr); gap: 56px; }
+  .hunt-board--wide .hunt-col--left { --hunt-card-w: clamp(220px, calc((100dvh - var(--navbar-h, 60px) - 940px) * 0.706), 340px); gap: 18px; }
+  .hunt-board--wide .hunt-col--left .hunt-map { width: 100%; }
+  .hunt-board--wide .hunt-col--mid { gap: 24px; }
+  .hunt-board--wide .hunt-col--mid .hunt-panel__actions { position: static; }
+  .hunt-board--wide .hunt-finds-box__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .hunt-board--wide .hunt-col--rules { overflow: hidden; }
+  /* While a hunt is on the panel is tall, so the finds go five to a row. */
+  .hunt-page--hunting .hunt-board--wide .hunt-finds-box__grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .hunt-board--wide .hunt-finds-box__stat { min-height: 72px; }
+  .hunt-board--wide .hunt-howto { columns: 2; column-gap: 56px; column-fill: auto; height: 100%; }
+  .hunt-board--wide .hunt-howto .guide-section { display: contents; }
+  .hunt-board--wide .hunt-howto .guide-body,
+  .hunt-board--wide .hunt-howto .guide-step,
+  .hunt-board--wide .hunt-howto .hunt-table-wrap { break-inside: avoid; }
+  .hunt-board--wide .hunt-howto .guide-h2 { break-after: avoid; margin-top: 0; }
+  .hunt-board--wide .hunt-howto .hunt-practice-link { break-inside: avoid; }
+  :is(#root, body) .hunt-board--wide .hunt-howto .guide-body { font-size: var(--howto-fs, 20px) !important; line-height: 1.65 !important; }
+  :is(#root, body) .hunt-board--wide .hunt-howto .hunt-table { font-size: calc(var(--howto-fs, 20px) - 2px) !important; }
+  .hunt-board--wide .hunt-howto .hunt-table th, .hunt-board--wide .hunt-howto .hunt-table td { padding: 7px 12px; }
+  :is(#root, body) .hunt-board--wide .hunt-howto .hunt-table__note { font-size: calc(var(--howto-fs, 20px) - 5px) !important; }
+}
+/* On the board the panel's buttons stay at the bottom of the middle column
+   when the panel is taller than the screen, so a press never needs a scroll. */
+.hunt-col--mid .hunt-panel__actions {
+  position: sticky;
+  bottom: 0;
+  margin: 0 -16px -16px;
+  width: calc(100% + 32px);
+  padding: 12px 16px 16px;
+  background: var(--bg-card);
+  border-top: 2px solid color-mix(in srgb, var(--gold) 40%, transparent);
+  z-index: 2;
+}
+
+/* ── Stack and phone ───────────────────────────────────────────────────── */
+.hunt-stack { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
+.hunt-stack > .draw-stage { padding-bottom: 10px; }
+.hunt-stack__map { width: 100%; max-width: 440px; margin: 0 auto; }
+.hunt-stack__finds { margin-top: 18px; }
+.hunt-page--stack .hunt-table-wrap { margin-left: 0; }
+.hunt-page--phone .draw-stage { padding-top: 12px; }
+.hunt-page--phone.hunt-page--hunting { --hunt-card-w: 150px; }
+/* An upright tablet: the card steps back while the hunt is on, too. */
+.hunt-page--stack.hunt-page--hunting { --hunt-card-w: 150px; }
+.hunt-page--phone.hunt-page--hunting .draw-card { box-shadow: 3px 3px 0 var(--shadow); }
+.hunt-page--phone.hunt-page--hunting .draw-stage { gap: 12px; }
+
+/* ── Skeleton (first load) ─────────────────────────────────────────────── */
+.hunt-skeleton {
+  background: linear-gradient(90deg,
+    color-mix(in srgb, var(--fg-tint, #888) 7%, transparent) 25%,
+    color-mix(in srgb, var(--fg-tint, #888) 14%, transparent) 50%,
+    color-mix(in srgb, var(--fg-tint, #888) 7%, transparent) 75%);
+  background-size: 300% 100%;
+  animation: hunt-skel 1.4s ease-in-out infinite;
+}
+@keyframes hunt-skel { from { background-position: 100% 0; } to { background-position: 0 0; } }
+.hunt-skel { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 20px 0; }
+.hunt-skel__card { width: var(--hunt-card-w, 230px); aspect-ratio: 644 / 912; }
+.hunt-skel__line { width: 220px; height: 16px; }
+.hunt-skel__line--short { width: 140px; }
+.hunt-skel__panel { width: 100%; height: 460px; }
+
+/* ── Celebration on a find ─────────────────────────────────────────────── */
+.hunt-celebrate { position: absolute; inset: -60px; display: grid; place-items: center; pointer-events: none; z-index: 3; }
+.hunt-celebrate__rays {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: repeating-conic-gradient(from 0deg, color-mix(in srgb, var(--gold) 55%, transparent) 0deg 8deg, transparent 8deg 22deg);
+  mask: radial-gradient(circle, #000 25%, transparent 70%);
+  -webkit-mask: radial-gradient(circle, #000 25%, transparent 70%);
+  z-index: -1;
+  animation: hunt-rays 3.2s ease-out forwards;
+}
+.hunt-celebrate__xp {
+  font-family: var(--ui-font);
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--gold);
+  text-shadow: 0 2px 0 var(--shadow), 0 0 18px color-mix(in srgb, var(--gold) 60%, transparent);
+  animation: hunt-xp 3.2s ease-out forwards;
+}
+@keyframes hunt-rays {
+  0% { opacity: 0; transform: scale(0.4) rotate(0deg); }
+  15% { opacity: 1; }
+  80% { opacity: 0.8; }
+  100% { opacity: 0; transform: scale(1.1) rotate(60deg); }
+}
+@keyframes hunt-xp {
+  0% { opacity: 0; transform: translateY(20px) scale(0.6); }
+  12% { opacity: 1; transform: translateY(0) scale(1.15); }
+  22% { transform: scale(1); }
+  80% { opacity: 1; transform: translateY(-8px); }
+  100% { opacity: 0; transform: translateY(-30px); }
+}
+
+/* ── Clue map (HuntMap) ────────────────────────────────────────────────── */
+.hunt-map { margin: 0; width: 100%; display: flex; flex-direction: column; gap: 6px; }
+.hunt-map--loading { aspect-ratio: 1000 / 720; background: color-mix(in srgb, var(--fg-tint, #888) 6%, transparent); }
+.hunt-map svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  box-shadow: 3px 3px 0 var(--shadow);
+}
+.hunt-map__world { transform-origin: 0 0; transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1); }
+.hunt-map__quarter {
+  fill: transparent;
+  stroke: color-mix(in srgb, var(--text-muted) 30%, transparent);
+  stroke-width: 0.6px;
+  vector-effect: non-scaling-stroke;
+  transition: fill 0.5s ease;
+}
+.hunt-map--zoomed .hunt-map__quarter { stroke-width: 1px; }
+.hunt-map__quarter.is-side { fill: color-mix(in srgb, var(--gold) 22%, transparent); }
+.hunt-map__quarter.is-lit { fill: color-mix(in srgb, var(--gold) 60%, transparent); }
+.hunt-map__district {
+  fill: transparent;
+  stroke: color-mix(in srgb, var(--text-muted) 70%, transparent);
+  stroke-width: 1.2px;
+  vector-effect: non-scaling-stroke;
+  transition: fill 0.5s ease, opacity 0.5s ease;
+}
+.hunt-map__district.is-lit { fill: color-mix(in srgb, var(--gold) 28%, transparent); stroke: var(--gold); stroke-width: 2.5px; }
+.hunt-map--zoomed .hunt-map__district.is-lit { fill: transparent; }
+.hunt-map__district.is-out { opacity: 0.45; }
+.hunt-map__me-dot { fill: var(--text-primary); stroke: var(--bg-card); stroke-width: 4px; }
+.hunt-map__me-halo { fill: color-mix(in srgb, var(--text-primary) 18%, transparent); animation: hunt-me 1.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes hunt-me { 50% { transform: scale(1.4); opacity: 0.4; } }
+.hunt-map__caption { font-size: 14px; color: var(--text-primary); text-align: center; }
+.hunt-map__label { color: var(--text-muted); }
+
+/* ── Miss compass (HuntCompass) ────────────────────────────────────────── */
+.hunt-panel__missbox { width: 100%; display: flex; align-items: center; gap: 12px; }
+.hunt-panel__missbox .hunt-panel__misses { flex: 1; }
+.hunt-compass { flex: none; width: 96px; height: 96px; }
+.hunt-compass__ring { fill: none; stroke: var(--border); stroke-width: 2; }
+.hunt-compass__tick { stroke: var(--text-muted); stroke-width: 2; }
+.hunt-compass__n { font-size: 11px; font-weight: 700; fill: var(--text-muted); }
+.hunt-compass__arrow line { stroke: var(--text-muted); stroke-width: 3; }
+.hunt-compass__arrow path { fill: var(--text-muted); }
+.hunt-compass__arrow text { font-size: 10px; font-weight: 700; fill: var(--text-muted); }
+.hunt-compass__arrow.is-last line { stroke: var(--gold); }
+.hunt-compass__arrow.is-last path, .hunt-compass__arrow.is-last text { fill: var(--gold); }
+.hunt-compass__hub { fill: var(--text-primary); }
+
+/* ── Finds (HuntFinds) ─────────────────────────────────────────────────── */
+.hunt-finds-box { display: flex; flex-direction: column; gap: 12px; }
+.hunt-finds-box__head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.hunt-finds-box__title { margin: 0; font-family: var(--ui-font); font-size: 17px; color: var(--gold); }
+.hunt-finds-box__all { background: none; border: none; padding: 0; color: var(--gold); font-size: 14px; cursor: pointer; }
+.hunt-finds-box__all:hover { text-decoration: underline; }
+.hunt-finds-box__stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.hunt-finds-box__stat {
+  min-height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 6px 4px;
+  border: 2px solid var(--border);
+  background: var(--bg-card);
+  text-align: center;
+}
+.hunt-finds-box__stat strong { font-family: var(--ui-font); font-size: 20px; color: var(--text-primary); line-height: 1.1; }
+.hunt-finds-box__stat span { font-size: 12px; color: var(--text-muted); line-height: 1.25; }
+.hunt-finds-box__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 12px 10px; }
+.hunt-finds-box__ghost { aspect-ratio: 3 / 4; }
+.hunt-finds-box__empty { margin: 0; font-size: 15px; color: var(--text-muted); text-align: center; }
+.hunt-col--right .hunt-finds-box__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+/* ── Windows (HuntRulesWindow) ─────────────────────────────────────────── */
+.hunt-window { width: min(720px, calc(100vw - 32px)); max-width: none; }
+.hunt-window--wide { width: min(900px, calc(100vw - 32px)); }
+.hunt-window__scroll { max-height: min(78vh, 900px); overflow-y: auto; padding-right: 4px; }
+.hunt-window .hunt-table-wrap { margin-left: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hunt-skeleton, .hunt-map__me-halo, .hunt-celebrate__rays, .hunt-celebrate__xp { animation: none; }
+  .hunt-map__world, .hunt-map__quarter, .hunt-map__district { transition: none; }
+}

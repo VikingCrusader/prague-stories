@@ -20,6 +20,11 @@ describe('hunt rules mirror the server', () => {
     expect(rules[name]).toEqual(constant(gamification, name));
   });
 
+  it('the castle-side quarters match the server', () => {
+    const block = gamification.match(/export const LEFT_BANK_QUARTERS = new Set\(\[([\s\S]*?)\]\);/)[1];
+    expect(rules.LEFT_BANK_QUARTERS).toEqual([...block.matchAll(/'([^']+)'/g)].map(m => m[1]));
+  });
+
   it('huntReading has the same body', () => {
     const body = src => src.match(/export function huntReading\(d\) \{([\s\S]*?)\n\}/)[1].replace(/\s+/g, ' ').trim();
     expect(body(fs.readFileSync(path.join(__dirname, '..', 'utils', 'huntRules.js'), 'utf8'))).toBe(body(gamification));

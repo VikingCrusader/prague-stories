@@ -2438,9 +2438,145 @@ html[data-lang="zh"] .detail-title-name {
   font-size: 15px;
   color: var(--gold);
 }
-.hunt-panel__clues { justify-content: center; flex-wrap: wrap; }
-.hunt-panel__clues > .detail-label-pill { border: 1px solid transparent; }
-.hunt-panel__hint { font-size: 14px; color: var(--text-muted); text-align: center; margin-top: -4px; }
+/* The reward ladder (RewardLadder in TreasureHuntPanel): 10x down to 1x, the
+   current rung lit, the ones left behind struck out, and while a confirm is
+   open the rung it would leave marked: red dashes for a miss, gold for a clue. */
+.hunt-ladder {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.hunt-ladder li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 4px 2px;
+  border: 2px solid var(--border);
+  color: var(--text-muted);
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, opacity 0.25s ease;
+}
+.hunt-ladder__mult { font-family: var(--ui-font); font-size: 17px; font-weight: 700; line-height: 1.1; }
+.hunt-ladder__xp { font-size: 11px; line-height: 1.2; white-space: nowrap; }
+.hunt-ladder li.is-on {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: var(--bg-card);
+  animation: hunt-rung-on 0.45s ease-out;
+}
+.hunt-ladder li.is-gone { opacity: 0.35; }
+.hunt-ladder li.is-gone .hunt-ladder__mult { text-decoration: line-through; }
+.hunt-ladder li.is-preview { border-style: dashed; color: var(--text-primary); animation: hunt-rung-preview 0.9s ease-in-out infinite alternate; }
+.hunt-ladder--miss li.is-preview { border-color: #e05050; }
+.hunt-ladder--clue li.is-preview { border-color: var(--gold); }
+@keyframes hunt-rung-on { 0% { transform: scale(0.85); } 60% { transform: scale(1.08); } 100% { transform: none; } }
+@keyframes hunt-rung-preview { from { opacity: 1; } to { opacity: 0.55; } }
+
+/* The clue track: the five clues in their fixed order as a path from far to
+   near, each row's free distance on the right, and a pin where the player
+   stands. Had rows are lit, the next one outlined, later ones dim. */
+.hunt-track {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+}
+.hunt-track__row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  min-height: 40px;
+  padding: 6px 10px;
+  border: 2px solid var(--border);
+  background: color-mix(in srgb, var(--bg-card) 70%, transparent);
+}
+/* The line joining the marks, so the rows read as one path. */
+.hunt-track__row:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 23px;
+  top: calc(50% + 14px);
+  height: calc(50% - 6px);
+  border-left: 2px dotted var(--border);
+}
+.hunt-track__mark {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  font-family: var(--ui-font);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+.hunt-track__body { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; min-width: 0; }
+.hunt-track__name { font-size: 14px; color: var(--text-muted); }
+.hunt-track__value { display: flex; align-items: center; min-width: 0; }
+.hunt-track__value .loc-card__labels { margin: 0; }
+.hunt-track__text { font-size: 14px; line-height: 1.35; color: var(--text-primary); }
+.hunt-track__pill { border: 1px solid transparent; }
+.hunt-track__value .detail-label-pill { font-size: 13px; line-height: 1.35; padding: 2px 8px; min-height: 0; }
+.hunt-track__tag { font-size: 12px; color: var(--text-muted); white-space: nowrap; text-align: right; }
+.hunt-track__row.is-had { border-color: color-mix(in srgb, var(--gold) 55%, var(--border)); }
+.hunt-track__row.is-had .hunt-track__mark { border-color: var(--gold); background: var(--gold); color: var(--bg-card); }
+.hunt-track__row.is-had .hunt-track__name { font-size: 13px; }
+.hunt-track__row.is-next { border-color: var(--gold); border-style: dashed; }
+.hunt-track__row.is-next .hunt-track__mark { border-color: var(--gold); color: var(--gold); }
+.hunt-track__row.is-next .hunt-track__name { color: var(--text-primary); }
+.hunt-track__row.is-next .hunt-track__tag { color: var(--gold); }
+.hunt-track__row.is-later { opacity: 0.55; }
+.hunt-track__row.is-none { opacity: 0.4; }
+.hunt-track__row.is-fresh { animation: hunt-clue-turn 0.7s ease-out; }
+@keyframes hunt-clue-turn {
+  0% { transform: perspective(600px) rotateX(-80deg); opacity: 0.2; }
+  60% { transform: perspective(600px) rotateX(10deg); opacity: 1; }
+  100% { transform: none; }
+}
+/* "You are here": between the rows, after the last free distance passed. */
+.hunt-track__pin {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px 0 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gold);
+}
+.hunt-track__pin::after { content: ''; flex: 1; border-top: 2px solid var(--gold); opacity: 0.6; }
+.hunt-track__pin-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--gold) 30%, transparent);
+  animation: hunt-pin-pulse 1.6s ease-in-out infinite;
+}
+@keyframes hunt-pin-pulse { 50% { box-shadow: 0 0 0 7px color-mix(in srgb, var(--gold) 10%, transparent); } }
+@media (max-width: 400px) {
+  .hunt-track__row { grid-template-columns: 24px minmax(0, 1fr) auto; gap: 8px; padding: 6px 8px; }
+  .hunt-track__mark { width: 24px; height: 24px; font-size: 13px; }
+  .hunt-track__row:not(:last-child)::after { left: 19px; }
+  .hunt-ladder__mult { font-size: 15px; }
+  .hunt-ladder__xp { font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hunt-ladder li, .hunt-ladder li.is-on, .hunt-ladder li.is-preview,
+  .hunt-track__row.is-fresh, .hunt-track__pin-dot { animation: none; transition: none; }
+}
 .hunt-panel__misses {
   width: 100%;
   margin: 0;
@@ -2449,7 +2585,6 @@ html[data-lang="zh"] .detail-title-name {
   line-height: 1.5;
   color: var(--text-muted);
 }
-.hunt-panel__square { font-size: 16px; text-align: center; color: var(--text-primary); }
 .hunt-panel__distance { font-family: var(--ui-font-text); font-size: 20px; font-weight: 600; color: var(--text-primary); text-align: center; }
 .hunt-panel__flash { font-size: 15px; text-align: center; }
 /* "Take a clue": a quiet secondary action under the guess button. */
@@ -2460,6 +2595,30 @@ html[data-lang="zh"] .detail-title-name {
 .hunt-panel__confirm-buttons { display: flex; gap: 10px; }
 .hunt-panel .px-btn:disabled { opacity: 0.45; cursor: not-allowed; box-shadow: none; transform: none; }
 .hunt-found { text-align: center; color: var(--gold); }
+
+/* The panel's actions: in place on wider screens, docked on phones. */
+.hunt-panel__actions { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 12px; }
+
+/* Treasure Hunt on phones (TreasureHuntPage, PHONE_QUERY): the buttons stay in
+   the panel, under the clues and above the map (a bar fixed to the bottom of
+   the screen was dropped 2026-11-14, user's call), full width and thumb-sized.
+   The page's layouts are in styles/hunt.css. */
+.flip-card { transition: width 0.4s ease; }
+.flip-card .draw-card { width: 100%; }
+.hunt-page--phone .hunt-panel { padding: 12px; gap: 10px; }
+.hunt-page--phone .hunt-panel__actions { align-items: stretch; gap: 8px; }
+.hunt-page--phone .hunt-panel__actions > .px-btn,
+.hunt-page--phone .hunt-panel__confirm-buttons > .px-btn { width: 100%; justify-content: center; }
+.hunt-page--phone .hunt-panel__actions > .px-btn--lg { min-height: 54px; }
+.hunt-page--phone .hunt-panel__actions > .hunt-panel__clue { margin-top: 0; min-height: 40px; }
+.hunt-page--phone .hunt-panel__confirm { align-items: stretch; }
+.hunt-page--phone .hunt-panel__confirm-buttons { display: grid; grid-template-columns: 1fr 1fr; }
+.hunt-page--phone .hunt-panel__confirm-buttons > .px-btn { min-height: 50px; }
+/* The phone sizes shrink every .px-btn's text for ZH (!important); these are
+   the page's main controls, so they keep a thumb-sized text. */
+:is(#root, body) .hunt-page--phone .hunt-panel__actions .px-btn { font-size: 15px !important; }
+:is(#root, body) .hunt-page--phone .hunt-panel__actions .px-btn--lg { font-size: 18px !important; }
+.hunt-page--phone .hunt-panel__confirm > span { font-size: 15px; line-height: 1.45; text-align: center; }
 .draw-countdown {
   font-size: 15px;
   color: var(--text-muted);

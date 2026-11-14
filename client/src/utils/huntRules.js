@@ -29,3 +29,15 @@ export function huntReading(d) {
 export const NEARBY_M = 100;
 export const ALERT_M = 50;
 export const CHECKIN_M = 100;
+
+// The quarters on the castle side of the Vltava, for the hunt's map: the
+// river-bank clue lights up the bank it names. Mirrors LEFT_BANK_QUARTERS in
+// services/gamification.js (huntRules.test.js).
+export const LEFT_BANK_QUARTERS = [
+  'Malá Strana', 'Hradčany', 'Smíchov', 'Holešovice', 'Bubeneč', 'Dejvice', 'Střešovice',
+  'Břevnov', 'Vokovice', 'Veleslavín', 'Liboc', 'Ruzyně', 'Řepy', 'Zličín', 'Sobín',
+  'Třebonice', 'Stodůlky', 'Jinonice', 'Radlice', 'Košíře', 'Motol', 'Hlubočepy',
+  'Slivenec', 'Holyně', 'Řeporyje', 'Lochkov', 'Velká Chuchle', 'Malá Chuchle', 'Radotín',
+  'Lahovice', 'Lipence', 'Zbraslav', 'Sedlec', 'Suchdol', 'Lysolaje', 'Nebušice',
+  'Přední Kopanina', 'Zadní Kopanina',
+];

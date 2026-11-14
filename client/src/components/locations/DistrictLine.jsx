@@ -66,7 +66,7 @@ export default function DistrictLine({ loc, style, onArea = null }) {
 
 // Historical quarters (katastrální území) first, then the modern districts;
 // each in its district's colour, so a quarter and its district read as one place.
-function AreaPills({ quarters, districts, onOpen, className = '', style, children }) {
+export function AreaPills({ quarters, districts, onOpen, className = '', style, children }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();

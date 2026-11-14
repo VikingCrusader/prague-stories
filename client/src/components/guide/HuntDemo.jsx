@@ -110,11 +110,6 @@ export default function HuntDemo() {
           onChange={e => setD(MAX_M - Number(e.target.value))}
         />
       </label>
-      <ol className="guide-hunt__ladder" aria-hidden="true">
-        {HUNT_MULTIPLIERS.map((m, i) => (
-          <li key={m} className={i === Math.min(step, HUNT_MULTIPLIERS.length - 1) ? 'is-on' : i < step ? 'is-gone' : ''}>{m}×</li>
-        ))}
-      </ol>
       <div className="guide-hunt__panel">
         <TreasureHuntPanel hunt={hunt} onGuess={onGuess} onClue={onClue} busy={found} flash={flash} />
       </div>
