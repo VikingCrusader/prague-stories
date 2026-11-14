@@ -799,3 +799,64 @@ html[data-lang="zh"] .ach-badge-pill:not(.ach-badge-pill--xp) { width: 108px; }
 
 /* Placeholder tiles while the profile's achievements load (RarestAchievements, 2026-11-13). */
 .ach-tile.ach-tile--ghost { cursor: default; pointer-events: none; }
+
+/* ── Check-in reward (CheckInReward.jsx, 2026-11-14) ─────────────────────
+   The XP of a newly collected card, with the achievements and packs it moved
+   on. Above the detail window (200), below the pack opening (280), the
+   level-up (500) and the achievement banner (600), so it never covers them. */
+.ci-reward-wrap {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 240;
+  pointer-events: none;
+}
+.ci-reward {
+  pointer-events: auto;
+  cursor: pointer;
+  /* As wide as its content, up to 320px: no empty band beside a lone XP line. */
+  width: max-content;
+  max-width: min(320px, calc(100vw - 32px));
+  padding: 10px 14px;
+  background: var(--bg-card);
+  border: 3px solid var(--gold);
+  box-shadow: 4px 4px 0 var(--shadow);
+  color: var(--text-primary);
+  animation: ci-reward-in 0.28s ease-out;
+}
+.ci-reward--leaving { animation: ci-reward-out 0.25s ease-in forwards; }
+@keyframes ci-reward-in { from { opacity: 0; translate: 30px 0; } to { opacity: 1; translate: 0 0; } }
+@keyframes ci-reward-out { to { opacity: 0; translate: 30px 0; } }
+
+.ci-reward__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.ci-reward__xp { font-size: 22px; font-weight: 700; color: var(--gold); line-height: 1.1; white-space: nowrap; }
+.ci-reward__level { font-size: 13px; color: var(--text-muted); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.ci-reward__group { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); }
+.ci-reward__heading { font-size: 12px; letter-spacing: 1px; color: var(--gold); line-height: 1.2; }
+.ci-reward__row { display: flex; align-items: center; gap: 10px; margin-top: 6px; }
+.ci-reward__icon.ach-icon { width: 34px; height: 34px; font-size: 20px; }
+.ci-reward__pack { flex-shrink: 0; width: 34px; height: 34px; display: grid; place-items: center; font-size: 20px; border: 2px solid var(--border); }
+.ci-reward__body { flex: 1; min-width: 160px; display: flex; flex-direction: column; gap: 4px; }
+.ci-reward__line { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; line-height: 1.25; }
+.ci-reward__name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ci-reward__count { flex-shrink: 0; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.ci-reward__plus { color: var(--gold); }
+.ci-reward__note { font-size: 12px; line-height: 1.2; color: var(--text-dim); }
+.ci-reward__more { margin-top: 6px; font-size: 12px; line-height: 1.2; color: var(--text-dim); }
+
+.ci-reward__bar { position: relative; height: 6px; background: var(--border); overflow: hidden; }
+.ci-reward__bar-was,
+.ci-reward__bar-gain { position: absolute; left: 0; top: 0; bottom: 0; }
+.ci-reward__bar-was { background: var(--gold-dark); }
+.ci-reward__bar-gain { background: var(--gold); transition: width 0.7s ease-out; }
+
+@media (max-width: 600px) {
+  .ci-reward-wrap { left: 12px; right: 12px; bottom: 12px; display: flex; justify-content: center; }
+  .ci-reward { max-width: min(420px, 100%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ci-reward, .ci-reward--leaving { animation: none; }
+  .ci-reward__bar-gain { transition: none; }
+}
+.ci-reward__pack img { width: 26px; height: 26px; object-fit: contain; }

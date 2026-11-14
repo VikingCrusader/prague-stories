@@ -27,7 +27,7 @@ async function loginAsUser(page) {
 test.use({ permissions: ['geolocation'], geolocation: { latitude: 50.0865, longitude: 14.4114 } });
 
 test.describe('Check-in flow', () => {
-  test('checking in awards XP, flips the card, and shows a toast', async ({ page }) => {
+  test('checking in awards XP, flips the card, and shows the reward with its progress', async ({ page }) => {
     await loginAsUser(page);
     await page.route('**/api/locations', route => route.fulfill({ json: [LOCKED_LOCATION] }));
     await page.route('**/api/locations/charles-bridge', route =>
@@ -44,6 +44,9 @@ test.describe('Check-in flow', () => {
           totalXP: 140,
           levelInfo: { level: 2, title: 'Apprentice Explorer', progress: 40, nextLevelXP: 300 },
           newAchievements: [],
+          achievementGains: [{ id: 'bridge_walker', icon: '🌉', difficulty: 'medium', name: 'Bridge Walker', before: 2, current: 3, target: 10 }],
+          moreAchievementGains: 2,
+          packProgress: [{ slug: 'old-town-square', name: 'Old Town Square', collected: 1, total: 12, unlocked: false, unlockAt: 3 }],
         },
       })
     );
@@ -56,7 +59,14 @@ test.describe('Check-in flow', () => {
 
     await expect(modal.getByText('COLLECTED!')).toBeVisible();
     await expect(modal.locator('p', { hasText: '+100 XP' })).toBeVisible();
-    await expect(page.getByText('+100 XP earned! Apprentice Explorer')).toBeVisible();
+    const reward = page.locator('.ci-reward');
+    await expect(reward).toContainText('+100 XP');
+    await expect(reward).toContainText('Lv 2 · Apprentice Explorer');
+    await expect(reward).toContainText('Bridge Walker');
+    await expect(reward).toContainText('3/10');
+    await expect(reward).toContainText('and 2 more moved on');
+    await expect(reward).toContainText('Old Town Square');
+    await expect(reward).toContainText('2 more to open it');
 
     // This check-in also crosses a level boundary (1 → 2), so the level-up
     // celebration layers on top and must be dismissed first — see
@@ -68,7 +78,7 @@ test.describe('Check-in flow', () => {
     await expect(page.locator('.loc-card__name')).toHaveText('Charles Bridge');
   });
 
-  test('a check-in that unlocks an achievement shows the XP toast and the achievement banner', async ({ page }) => {
+  test('a check-in that unlocks an achievement shows the XP reward and the achievement banner', async ({ page }) => {
     await loginAsUser(page);
     await page.route('**/api/locations', route => route.fulfill({ json: [LOCKED_LOCATION] }));
     await page.route('**/api/locations/charles-bridge', route =>
@@ -93,7 +103,7 @@ test.describe('Check-in flow', () => {
     await page.locator('.loc-card').first().click();
     // Within 50 m, opening a locked card collects it automatically (no Collect click).
 
-    await expect(page.getByText('+100 XP earned! Apprentice Explorer')).toBeVisible();
+    await expect(page.locator('.ci-reward')).toContainText('+100 XP');
     // Level 1 -> 2: the level-up modal comes first and the banner waits for it.
     await page.waitForTimeout(1500);
     await expect(page.locator('.levelup-modal')).toBeVisible();

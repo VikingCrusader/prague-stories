@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { announceAchievements, announceAchievementProgress, announcePacks, PACK_SHOW_MS } from '../utils/achievementEvents';
+import { announceAchievements, announceAchievementProgress, announceCheckInReward, announcePacks, PACK_SHOW_MS } from '../utils/achievementEvents';
 import { HUNT_WIN_SOUND_MS } from '../utils/sound';
 
 const BASE_URL = import.meta.env.PROD
@@ -21,6 +21,11 @@ api.interceptors.response.use(res => {
   const list = res.data?.newAchievements;
   if (Array.isArray(list) && list.length) announceAchievements(list, delay + packs.length * (PACK_SHOW_MS + 400));
   if (res.data?.achievementProgress) announceAchievementProgress(res.data.achievementProgress);
+  // A card collected (a check-in, or a find on the treasure hunt): its XP with
+  // the achievement and pack progress it made (CheckInReward.jsx).
+  const collected = res.config?.method === 'post' && res.status === 201
+    && (url.startsWith('/checkins/') || (url.includes('/random-draw/guess') && res.data?.hit));
+  if (collected) announceCheckInReward(res.data);
   return res;
 });
 

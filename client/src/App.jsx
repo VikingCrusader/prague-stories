@@ -11,6 +11,7 @@ import ProximityToast from './components/shared/ProximityToast';
 import LevelUpModal from './components/shared/LevelUpModal';
 import AchievementUnlocked from './components/achievements/AchievementUnlocked';
 import PackUnlocked from './components/packs/PackUnlocked';
+import CheckInReward from './components/shared/CheckInReward';
 import { useProximityDetection } from './hooks/useProximityDetection';
 import { useNotificationPermission } from './hooks/useNotificationPermission';
 import { useLocationConsent } from './hooks/useLocationConsent';
@@ -78,6 +79,7 @@ export default function App() {
           <LevelUpModal />
           <AchievementUnlocked />
           <PackUnlocked />
+          <CheckInReward />
           <PageTurn>
           <Routes>
             <Route path="/"          element={<Navigate to="/explore" replace />} />

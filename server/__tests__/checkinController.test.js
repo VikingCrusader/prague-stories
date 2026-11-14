@@ -130,6 +130,29 @@ describe('POST /api/checkins/:slug', () => {
     expect(res.body.newAchievements.map(a => a.id)).toContain('southern-pole');
     process.env.NODE_ENV = original;
   });
+
+  test('reports the achievement and pack progress the card made', async () => {
+    const original = process.env.NODE_ENV;
+    process.env.NODE_ENV = 'development';
+    await createLocation({ slug: 'matyasova-brana', name: 'Matthias Gate' });
+    await createLocation({ slug: 'new-royal-palace', name: 'New Royal Palace', coordinates: { lat: 50.09, lng: 14.40 } });
+    const { token } = await createAuthedUser();
+
+    const res = await request(app).post('/api/checkins/matyasova-brana').set('Authorization', `Bearer ${token}`).send({});
+
+    expect(res.status).toBe(201);
+    const pack = res.body.packProgress.find(p => p.slug === 'prague-castle');
+    expect(pack).toMatchObject({ collected: 1, total: 2, unlocked: false, unlockAt: 2 });
+    expect(res.body.achievementGains.length).toBeGreaterThan(0);
+    const unlocked = new Set(res.body.newAchievements.map(a => a.id));
+    for (const g of res.body.achievementGains) {
+      expect(g.current).toBeGreaterThan(g.before);
+      expect(g.current).toBeLessThanOrEqual(g.target);
+      expect(unlocked.has(g.id)).toBe(false);
+    }
+    expect(res.body.achievementGains.length).toBeLessThanOrEqual(3);
+    process.env.NODE_ENV = original;
+  });
 });
 
 describe('GET /api/checkins', () => {

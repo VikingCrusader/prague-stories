@@ -189,7 +189,6 @@ export default function ExplorePage() {
 
   const handleCheckIn = (slug, result) => {
     setLocations(prev => prev.map(l => l.slug === slug ? { ...l, unlocked: true, _checkedInAt: new Date().toISOString() } : l));
-    addToast(`+${result.xpEarned} XP earned! ${result.levelInfo.title}`);
   };
 
   const handleUpdate = (updatedLoc) => {

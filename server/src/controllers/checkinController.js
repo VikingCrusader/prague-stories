@@ -5,6 +5,7 @@ import { evaluateAchievements, describeAchievement, achievementXp, calculateLeve
 import { buildAchievementStats } from '../services/achievementStats.js';
 import { haversineDistance } from '../utils/geo.js';
 import { awardPacks } from '../services/packs.js';
+import { achievementGains, packGains } from '../services/checkinGains.js';
 
 const MAX_DISTANCE_METERS = 100;
 
@@ -62,6 +63,8 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
   const huntDurationMs = guessAttempt && user.randomDraw?.slug === location.slug && user.randomDraw.drawnAt
     ? Date.now() - new Date(user.randomDraw.drawnAt).getTime()
     : undefined;
+  // The progress before this card, to tell which achievements it moved on.
+  const statsBefore = await buildAchievementStats(user._id, user);
   await CheckIn.create({ user: user._id, location: location._id, note: note || '', xpEarned, guessAttempt, huntMultiplier, huntDurationMs });
 
   // Award XP
@@ -92,6 +95,8 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
   }
 
   const newPacks = await awardPacks(user);
+  const gains = achievementGains(statsBefore, stats, user.achievements.map(a => a.id));
+  const packProgress = await packGains(location, stats.checkedSlugs, newPacks, user.packs);
 
   const levelInfo = calculateLevel(user.totalXP);
   user.explorerLevel = levelInfo.level;
@@ -105,5 +110,8 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
     // With names and icons, for the unlock announcement.
     newAchievements: newAchievements.map(describeAchievement),
     newPacks,
+    // Progress this card made that unlocked nothing (CheckInReward.jsx).
+    ...gains,
+    packProgress,
   };
 }

@@ -25,6 +25,16 @@ export function announceAchievementProgress(progress) {
   } catch (_) {}
 }
 
+// What a check-in brought besides what it unlocked (XP, achievement and pack
+// progress), to <CheckInReward>. Sent for a normal check-in and a treasure find.
+export const CHECKIN_REWARD_EVENT = 'checkin-reward';
+export function announceCheckInReward(data) {
+  if (!data || data.xpEarned == null) return;
+  try {
+    window.dispatchEvent(new CustomEvent(CHECKIN_REWARD_EVENT, { detail: data }));
+  } catch (_) {}
+}
+
 // `delay` lets the sound already playing finish first (the card unlock
 // arpeggio after a check-in, the treasure-hunt fanfare after a find).
 export function announceAchievements(list, delay = 0) {
