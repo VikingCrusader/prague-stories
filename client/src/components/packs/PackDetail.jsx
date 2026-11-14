@@ -110,13 +110,14 @@ function PackBody({ pack, onOpenCard, onGuide, artOnly = false }) {
       <div className="pack-detail__cards">
         {pack.members.map(card => {
           const distance = userPos ? haversineDistance(userPos.lat, userPos.lng, card.coordinates.lat, card.coordinates.lng) : null;
+          const nearby = !card.unlocked && distance != null && distance <= NEARBY_REVEAL_M;
           return (
             <LocationCard
               key={card.slug}
               location={card}
               distance={distance}
-              nearby={!card.unlocked && distance != null && distance <= NEARBY_REVEAL_M}
-              onClick={onOpenCard}
+              nearby={nearby}
+              onClick={cardSlug => onOpenCard(cardSlug, { nearby: nearby && !!user })}
             />
           );
         })}
@@ -146,6 +147,10 @@ export default function PackDetail({ slug, onClose, onCheckIn, artOnly = false }
   const convert = useConvert();
   const [pack, load] = usePackDetail(slug);
   const [openSlug, setOpenSlug] = useState(null);
+  // As on Explore: a locked card tapped within NEARBY_REVEAL_M (its lock wobbling)
+  // opens and collects at once, for a signed-in player (2026-11-14, user's call).
+  const [autoCheckIn, setAutoCheckIn] = useState(false);
+  const openCard = useCallback((cardSlug, how) => { setAutoCheckIn(!!how?.nearby); setOpenSlug(cardSlug); }, []);
   const [guide, setGuide] = useState(null);
   // Grows out of the pack it was opened from, and shrinks back to it (2026-11-12).
   const { overlayRef, modalRef, close } = useModalEntrance(slug, onClose);
@@ -182,7 +187,7 @@ export default function PackDetail({ slug, onClose, onCheckIn, artOnly = false }
       <div ref={overlayRef} className="px-overlay pack-detail-overlay" onClick={e => { e.stopPropagation(); close(); }}>
         <div ref={modalRef} className="px-modal pack-detail" onClick={e => e.stopPropagation()} role="dialog" aria-label={name}>
           <button type="button" className="px-modal__close" onClick={close} aria-label={t('areaGuide.close')}>✕</button>
-          {pack ? <PackBody pack={pack} onOpenCard={setOpenSlug} onGuide={setGuide} artOnly={artOnly} /> : <Spinner />}
+          {pack ? <PackBody pack={pack} onOpenCard={openCard} onGuide={setGuide} artOnly={artOnly} /> : <Spinner />}
         </div>
       </div>
       {guide && <AreaGuideModal kind={guide.kind} value={guide.value} onClose={() => setGuide(null)} />}
@@ -191,8 +196,10 @@ export default function PackDetail({ slug, onClose, onCheckIn, artOnly = false }
         <div className="area-guide-detail">
           <LocationDetail
             slug={openSlug}
+            preview={pack?.members.find(m => m.slug === openSlug)}
             fromPack={slug}
-            onClose={() => setOpenSlug(null)}
+            autoCheckIn={autoCheckIn}
+            onClose={() => { setOpenSlug(null); setAutoCheckIn(false); }}
             onCheckIn={(cardSlug, result) => { load(); onCheckIn?.(cardSlug, result); }}
           />
         </div>
