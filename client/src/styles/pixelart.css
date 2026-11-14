@@ -3535,6 +3535,13 @@ html .explore-next .explore-next__head .ach-badge-pill:not(.ach-badge-pill--xp) 
 .card-preview__labels { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 8px; }
 .card-preview__labels:empty { display: none; }
 .card-preview__packs { margin-top: 8px; }
+.card-preview--pack { border-color: color-mix(in srgb, var(--foil, var(--gold)) 70%, var(--gold)); }
+.card-preview--pack .card-preview__name { color: var(--gold); }
+.card-preview__pack-tag { color: var(--gold); }
+.card-preview__hint { margin-top: 6px; font-size: 14px; line-height: 1.5; color: var(--text-primary); }
+.card-preview__members { margin-top: 12px; gap: 6px; }
+.card-preview__members .area-guide__landmark { font-size: 13px; }
+.card-preview__members .area-guide__landmark > span { display: block; padding: 3px 9px; }
 .card-preview__packs .detail-packs__pack { cursor: default; }
 /* The detail view's coloured pills (labels, then quarter and district), smaller. */
 .card-preview .loc-card__labels { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 6px; padding: 0; }

@@ -36,7 +36,7 @@ function Crimps() {
 // 2026-11-14): a sealed pack in full colour with a small corner lock. It is still
 // sealed: no showcase, and its detail shows only the preview.
 // `torn`: the pack's own detail, see PeekCards.
-function PackCard({ pack, onClick, holdable = true, showcase = false, story = null, artOnly = false, uncovered = false, torn = false }) {
+function PackCard({ pack, onClick, holdable = true, showcase = false, story = null, artOnly = false, uncovered = false, torn = false, previewable = false }) {
   const { lang } = useLang();
   const convert = useConvert();
   const t = useT();
@@ -59,7 +59,7 @@ function PackCard({ pack, onClick, holdable = true, showcase = false, story = nu
       data-pack={slug}
       role="button"
       tabIndex={0}
-      title={showcase ? undefined : name}
+      title={showcase || previewable ? undefined : name}
       onKeyDown={e => { if (e.key === 'Enter') onClick?.(slug); }}
       {...(showcase ? {} : handlers)}
     >

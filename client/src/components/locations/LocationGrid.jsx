@@ -253,7 +253,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     });
     return () => cancelAnimationFrame(frame);
   }, [afterTurn, gridItems.length > 0]);
-  const { handlers: previewHandlers, preview } = useCardPreview(filtered);
+  const { handlers: previewHandlers, preview } = useCardPreview(filtered, shownPacks);
 
   useEffect(() => {
     const el = sentinelRef.current;
@@ -494,7 +494,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             nearby={!item.unlocked && item._distance != null && item._distance <= NEARBY_REVEAL_M}
             previewable
           />
-        ) : <PackCard key={`pack-${item.slug}`} pack={item} onClick={onPackClick} />))}
+        ) : <PackCard key={`pack-${item.slug}`} pack={item} onClick={onPackClick} previewable />))}
         {shownCount === 0 && (
           <p style={{ color: 'var(--text-muted)', gridColumn: '1/-1', padding: 24 }}>
             {t('grid.noResults')}
