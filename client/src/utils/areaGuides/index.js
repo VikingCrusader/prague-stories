@@ -107,7 +107,7 @@ export const AREA_LANDMARKS = {
     'Vršovice': [
       'kostel-sv-vaclava-vrsovice', 'fortuna-arena', 'vrovice-castle-1782567405263', 'koh-i-noor', 'kulturni-dum-eden',
       'praha-vrsovice-nadrazi', 'kostel-sv-mikulase-vrsovice', 'husuv-sbor-vrsovice', 'kubanske-namesti', 'vrsovicka-zalozna',
-      'dolicek',
+      'dolicek', 'vrsovice',
     ],
     'Zbraslav': [
       'zbraslavsky-zamek', 'kostel-svateho-jakuba-vetsiho-zbraslav', 'jizni-pol-prahy', 'vila-vladislava-vancury', 'kostel-svateho-havla-zbraslav',
@@ -123,6 +123,7 @@ export const AREA_LANDMARKS = {
     'Podolí': [
       'podolska-vodarna', 'podol-swimming-stadium-1783209825060', 'zlute-lazne', 'porodnice-podoli',
       'televizni-stredisko-kavci-hory', 'podol-profile-1783209955360', 'kostel-svateho-michaela-archandela-podoli', 'dvorecky-most',
+      'podoli',
     ],
     'Michle': [
       'michelska-vodarenska-vez', 'plynarna-michle', 'sbor-alberta-schweitzera-michle', 'kostel-narozeni-panny-marie-michle',
@@ -138,6 +139,7 @@ export const AREA_LANDMARKS = {
     'Hlubočepy': [
       'old-hluboepy-town-1783210594463', 'hlubocepske-viadukty', 'barrandovske-skaly', 'barrandovske-terasy', 'filmove-ateliery-barrandov',
       'historical-town-backlot-1783281864604', 'church-of-st-philip-and-james-in-zlchov-1783288824141', 'hlubocepsky-zamecek', 'prokopske-jezirko', 'dvn-hillfort-ruins-1783473947717',
+      'barrandov',
     ],
     'Košíře': [
       'cibulka-manor-1782666966501', 'rozhledna-cibulka', 'cinsky-pavilon-cibulka', 'kostel-sv-jana-nepomuckeho-kosire', 'plzenska-ulice',
@@ -176,8 +178,8 @@ export const AREA_LANDMARKS = {
       'nejmensi-prazska-rozhledna', 'xaverovsky-haj', 'pocernicky-rybnik',
     ],
     'Kyje': ['kostel-svateho-bartolomeje-kyje', 'kyjsky-rybnik', 'rozhledna-doubravka', 'praha-kyje-zeleznicni-zastavka'],
-    'Chodov': ['chodovska-tvrz', 'narodni-archiv', 'westfield-chodov', 'kunraticky-forest', 'komunitni-centrum-matky-terezy', 'the-park-chodov'],
-    'Háje': ['cosmonauts-monument-1783380746060', 'haje', 'zoopark-milicov', '-1783379166594'],
+    'Chodov': ['chodovska-tvrz', 'narodni-archiv', 'westfield-chodov', 'kunraticky-forest', 'komunitni-centrum-matky-terezy', 'the-park-chodov', 'jizni-mesto'],
+    'Háje': ['cosmonauts-monument-1783380746060', 'haje', 'zoopark-milicov', '-1783379166594', 'jizni-mesto'],
     'Modřany': ['modranska-rokle', 'modranska-vinice', 'kostel-panny-marie-modrany', 'radnice-prahy-12'],
     'Stodůlky': [
       'centralni-park-praha', 'stredoveky-skanzen-repora', 'stare-stodulky', 'church-of-st-james-the-greater-in-stodlky-1783286156715',

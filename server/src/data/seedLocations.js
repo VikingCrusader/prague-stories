@@ -11071,15 +11071,21 @@ Nádraží vzniklo v letech 1880 až 1882 na dráze císaře Františka Josefa a
 
 The credit union first announced an architectural competition but then commissioned the design directly from Antonín Balšánek, with Osvald Polívka also involved. At that very moment both men were completing the Municipal House by the Powder Tower, and this neighbourhood building shares much of its spirit. Its sculptural decoration came from the same circle of artists: Ladislav Šaloun and Josef Pekárek made the large figures, and František Úprka contributed a figure of a spinner, a symbol of diligence and thrift. Neon signs were added in 1931, and for decades the building served as a bank branch. The facade was restored in 1993.
 
+The square it faces, Vršovické náměstí, is the old heart of the village: Vršovice grew up here on a terrace above the bend of the Botič, next to the church of St Nicholas, and the village green lay where traffic now turns.
+
 🎁 Bonus: Strictly speaking, the institution that built this house was a credit cooperative owned by its members, not a savings bank, although that is what people always called it. A century later the nickname has come true: there is a real bank inside.`,
       cz: `Vršovická záložna je bohatě zdobená secesní budova ve Vršovicích, postavená v letech 1911 a 1912 pro místní úvěrní družstvo. Navrhli ji titíž architekti a zdobili ji někteří titíž sochaři, kteří tehdy dokončovali Obecní dům, největší pražskou secesní památku.
 
 Záložna nejprve vypsala architektonickou soutěž, ale pak zadala návrh přímo Antonínu Balšánkovi za účasti Osvalda Polívky. Oba muži právě v té době dokončovali Obecní dům u Prašné brány a tahle budova ve čtvrti s ním sdílí velkou část ducha. Sochařská výzdoba pochází z téhož okruhu umělců: Ladislav Šaloun a Josef Pekárek vytvořili velké postavy a František Úprka přispěl postavou přadleny, symbolem píle a šetrnosti. Roku 1931 přibyly neonové nápisy a desítky let budova sloužila jako pobočka banky. Průčelí bylo obnoveno roku 1993.
 
+Náměstí, do kterého hledí, Vršovické náměstí, je staré srdce vsi: Vršovice vyrostly právě tady na terase nad ohybem Botiče, vedle kostela svatého Mikuláše, a náves ležela tam, kde dnes zatáčí doprava.
+
 🎁 Bonus: Přísně vzato instituce, která dům postavila, byla úvěrním družstvem vlastněným svými členy, ne spořitelnou, i když se jí tak vždycky říkalo. O sto let později se přezdívka splnila: uvnitř je skutečná banka.`,
       zh: `弗尔绍维采信用社大楼是弗尔绍维采一栋装饰华丽的新艺术风格建筑，1911年和1912年为当地一家信用合作社建造。设计它的建筑师和装饰它的部分雕塑家，正是当时在为布拉格最伟大的新艺术地标市民会馆收尾的那批人。
 
 信用社起初宣布举办建筑设计竞赛，后来却直接委托安东宁·巴尔沙内克设计，奥斯瓦尔德·波利夫卡也参与其中。两人那时正在火药塔旁完成市民会馆，这栋街区里的楼在精神上与它一脉相承。它的雕塑装饰也出自同一圈艺术家：拉迪斯拉夫·沙隆和约瑟夫·佩卡雷克做了大型人像，弗朗蒂谢克·乌普卡贡献了一尊纺纱女像，象征勤劳和节俭。1931年添了霓虹招牌，几十年里这栋楼一直是银行网点。立面在1993年得到修复。
+
+它面朝的弗尔绍维采广场，是老村的心脏：弗尔绍维采就是在这里、博蒂奇河拐弯处上方的台地上、圣尼古拉教堂旁边长起来的，当年的村中草地，就在如今车流转弯的地方。
 
 🎁 彩蛋：严格说来，建这栋楼的机构是一家由会员共有的信用合作社，而不是储蓄银行，尽管人们一直这么叫它。一百年后，这个俗称成真了：楼里真的有一家银行。`,
     },
@@ -36847,6 +36853,327 @@ Po roce 1918 to byla Zbraslav-Závist, od roku 1937 prostě Zbraslav, a když se
 1918年以后它叫兹布拉斯拉夫-扎维斯特，1937年起干脆就叫兹布拉斯拉夫；1974年小镇并入布拉格，车站才有了今天的名字。2013年起这里不再售票，车站只靠一个站台、一张时刻表和一片河景过日子。
 
 🎁 彩蛋：第一列火车开进来的时候，那座修道院早已当了一百多年的城堡，可车站的站牌上写的仍是"国王的殿堂"。在兹布拉斯拉夫，一个好名字能比挣来它的建筑活得更久。`,
+    },
+  },
+  {
+    // 2026-11-14, user's coordinates, for the Vršovice pack. Facts: cs.wikipedia
+    // "Krymská (Praha)" (names 1885/1940/1945/1947, asanace plans, venues, films,
+    // the 2014 "Ruská?" signs).
+    name: 'Krymská Street',
+    slug: 'krymska-ulice',
+    localizedNames: { cz: 'Krymská ulice', zh: '克里姆斯卡街' },
+    labels: ['street', 'restaurants-and-cafes'],
+    district: 'Praha 10',
+    quarter: 'Vršovice',
+    coordinates: { lat: 50.07143740666603, lng: 14.44913604340129 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Krymsk%C3%A1_(Praha)',
+    description: {
+      en: `Krymská is a short, narrow cobbled street running down the slope from Vinohrady into Vršovice: about 360 metres of old tenement houses with a café, a bar or a bookshop in what feels like every other ground floor. The city planned to demolish it for thirty years, and it ended up as one of the most fashionable streets in Prague.
+
+It started out in 1885 as Jana Husa, after the reformer. The German occupiers renamed it Oppagasse in 1940, it was Husova again in 1945, and in 1947 it became Krymská, after the Crimea, when most streets in western Vršovice were given Russian and Ukrainian names. From the 1950s until the late 1980s the whole area was marked for clearance, so nobody invested and the houses aged quietly. In the 1990s the street was best known for a rowdy motorcycle bar, and as late as 2008 the city police listed it as a place for drug dealing.
+
+Then, between about 2005 and 2010, the cafés came: the café-bookshop Shakespeare a synové, Café Sladkovský in 2009, Café V lese in 2010, and soon so many others that newspapers began comparing Krymská with Kreuzberg and Montmartre. It has hosted street festivals such as Korso Krymská and Zažít město jinak, and it has appeared in films from Láska mezi kapkami deště (1979) to Expozitura (2008).
+
+🎁 Bonus: In March 2014, while Russia was annexing Crimea, someone relabelled the street signs and the tram stop to read "Ruská?", "Russian?". It was a one-word joke, and the whole street got it.`,
+      cz: `Krymská je krátká, úzká dlážděná ulice, která se svažuje z Vinohrad do Vršovic: asi 360 metrů starých činžáků, kde je kavárna, bar nebo knihkupectví snad v každém druhém přízemí. Město ji třicet let chtělo zbourat, a nakonec se z ní stala jedna z nejmódnějších ulic Prahy.
+
+Začínala v roce 1885 jako Jana Husa, podle reformátora. Němečtí okupanti ji v roce 1940 přejmenovali na Oppagasse, v roce 1945 byla znovu Husova a v roce 1947 se z ní stala Krymská, podle Krymu, když většina ulic v západních Vršovicích dostala ruská a ukrajinská jména. Od padesátých do konce osmdesátých let byla celá oblast určena k asanaci, takže sem nikdo neinvestoval a domy tiše stárly. V devadesátých letech byla ulice známá hlavně divokým motorkářským barem a ještě v roce 2008 ji městská policie uváděla jako místo prodeje drog.
+
+Pak, zhruba v letech 2005 až 2010, přišly kavárny: kavárna-knihkupectví Shakespeare a synové, v roce 2009 Café Sladkovský, v roce 2010 Café V lese a brzy tolik dalších, že noviny začaly Krymskou přirovnávat ke Kreuzbergu a Montmartru. Konaly se tu pouliční slavnosti jako Korso Krymská a Zažít město jinak a objevila se ve filmech od Lásky mezi kapkami deště (1979) po Expozituru (2008).
+
+🎁 Bonus: V březnu 2014, když Rusko anektovalo Krym, někdo přelepil uliční cedule i zastávku tramvaje na „Ruská?“. Byl to vtip o jednom slově a celá ulice mu rozuměla.`,
+      zh: `克里姆斯卡街是一条短而窄的鹅卵石街道，顺着山坡从维诺赫拉迪往下通到弗尔绍维采：约360米长的老公寓楼，感觉每隔一个底层就有一家咖啡馆、酒吧或书店。市政府曾经打算拆掉它整整三十年，结果它却成了布拉格最时髦的街道之一。
+
+它在1885年诞生时叫扬·胡斯街，以那位宗教改革家命名。1940年德国占领者把它改名为奥帕街，1945年又改回胡斯街，1947年弗尔绍维采西部大多数街道都换上了俄罗斯和乌克兰的名字，它也就成了克里姆斯卡街，意为"克里米亚街"。从五十年代到八十年代末，整片街区都被划入拆迁规划，于是没人往这里投钱，房子静静地老去。九十年代，这条街最出名的是一家闹哄哄的摩托车酒吧；直到2008年，市警察还把它列为贩毒地点。
+
+后来，大约在2005到2010年间，咖啡馆来了：先是"莎士比亚与儿子们"咖啡书店，2009年有了斯拉德科夫斯基咖啡馆，2010年有了"林中"咖啡馆，很快又冒出那么多家，报纸开始拿它和柏林的克罗伊茨贝格、巴黎的蒙马特相比。这里办过"科尔索克里姆斯卡"、"换个方式体验城市"之类的街头节，也出现在从《雨滴中的爱情》（1979）到《分部》（2008）等电影里。
+
+🎁 彩蛋：2014年3月，俄罗斯吞并克里米亚期间，有人把街牌和电车站牌都改成了"俄罗斯街？"。这是一个只有一个词的玩笑，整条街都心领神会。`,
+    },
+  },
+  {
+    // 2026-11-14, user's coordinates, for the Barrandov pack. Facts: Seznam Zprávy
+    // and kudyznudy (Havel, Max Urban, functionalist then "Hollywood" villas along
+    // Barrandovská and Skalní from the early 1930s, for film people),
+    // cs.wikipedia "Barrandov" (heritage zone 1993).
+    name: 'Barrandov Villa Quarter',
+    slug: 'barrandovska-vilova-ctvrt',
+    localizedNames: { cz: 'Vilová kolonie na Barrandově', zh: '巴兰多夫别墅区' },
+    labels: ['villa', 'functionalism'],
+    district: 'Praha 5',
+    quarter: 'Hlubočepy',
+    coordinates: { lat: 50.0344196249284, lng: 14.395722308566203 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Barrandov',
+    description: {
+      en: `The Barrandov villa quarter is a garden suburb on the hill behind the Barrandov Terraces: a few quiet streets of 1930s villas in green gardens, built for Prague's film people and the well-off by the same family that built the terraces and the film studios.
+
+In the late 1920s the developer Václav M. Havel, father of the future president, set out to turn the bare hill into a whole new district, and the architect Max Urban drew up the plan: the terraces on the cliff edge, the villas behind them, and later the studios that Havel's brother Miloš added. From the early 1930s the villas went up along Barrandovská and Skalní streets. The first were functionalist, white and flat-roofed. Later ones, built for actors, directors and producers, took a more romantic look that people called the Hollywood style, with pitched roofs, gables and balconies.
+
+The Havels lost the estate after the communist takeover. Old Barrandov was declared a municipal heritage zone in 1993, which still protects the villas, their gardens and the shape of the streets.
+
+🎁 Bonus: So many of the houses belonged to film stars and filmmakers of the First Republic that a walk along Barrandovská reads a little like the credits of a 1930s Czech film. The studios they worked in are a few minutes' walk away.`,
+      cz: `Vilová kolonie na Barrandově je zahradní čtvrť na kopci za Barrandovskými terasami: pár tichých ulic s vilami z třicátých let v zelených zahradách, postavených pro pražské filmaře a zámožné lidi stejnou rodinou, která postavila terasy i filmové ateliéry.
+
+Na konci dvacátých let se developer Václav M. Havel, otec pozdějšího prezidenta, rozhodl udělat z holého kopce celou novou čtvrť a architekt Max Urban k tomu nakreslil plán: terasy na hraně útesu, za nimi vily a později ateliéry, které přidal Havlův bratr Miloš. Od začátku třicátých let rostly vily podél Barrandovské a Skalní ulice. První byly funkcionalistické, bílé a s plochou střechou. Pozdější, stavěné pro herce, režiséry a producenty, dostaly romantičtější podobu, které se říkalo hollywoodský styl, se sedlovými střechami, štíty a balkony.
+
+Havlové o majetek po komunistickém převratu přišli. Starý Barrandov byl v roce 1993 prohlášen městskou památkovou zónou, která dodnes chrání vily, jejich zahrady i podobu ulic.
+
+🎁 Bonus: Tolik domů tu patřilo filmovým hvězdám a filmařům první republiky, že procházka Barrandovskou ulicí připomíná titulky českého filmu z třicátých let. Ateliéry, kde pracovali, jsou odsud pár minut pěšky.`,
+      zh: `巴兰多夫别墅区是巴兰多夫露台背后山上的一片花园住宅区：几条安静的街道，绿树掩映的庭院里立着三十年代的别墅，是为布拉格的电影人和有钱人建的，出自建起露台餐厅和电影制片厂的同一个家族。
+
+二十年代末，开发商瓦茨拉夫·M·哈维尔，也就是后来那位总统的父亲，决心把这座光秃秃的山变成一整片新城区，建筑师马克斯·乌尔班为此画了规划图：悬崖边是露台，后面是别墅，后来又有了哈维尔的弟弟米洛什加上的制片厂。三十年代初起，别墅沿着巴兰多夫街和岩石街一座座建起来。最早的一批是功能主义风格，白墙平顶；后来为演员、导演和制片人建的那些则更浪漫，有坡屋顶、山墙和阳台，人们管这叫"好莱坞风格"。
+
+共产党上台后，哈维尔家失去了这片产业。1993年，老巴兰多夫被定为市级文物保护区，至今仍保护着这些别墅、庭院和街道的格局。
+
+🎁 彩蛋：这里有那么多房子属于第一共和国时期的电影明星和电影人，走一趟巴兰多夫街，有点像在看一部三十年代捷克电影的片尾字幕。他们上班的制片厂，走几分钟就到。`,
+    },
+  },
+  {
+    // 2026-11-14, user's coordinates, for the Kunratice pack. Facts: cs.wikipedia
+    // "Kunratice (Praha)" (Makovský bust on a granite plinth, restored 1990) and
+    // en.wikipedia (removed in 1940 and 1950). The year it was first put up
+    // differs (1935 / 1937), so the text says only "the 1930s".
+    name: 'President Masaryk Square (Kunratice)',
+    slug: 'namesti-prezidenta-masaryka-kunratice',
+    localizedNames: { cz: 'Náměstí Prezidenta Masaryka (Kunratice)', zh: '马萨里克总统广场（昆拉蒂采）' },
+    labels: ['square', 'monument'],
+    district: 'Praha 4',
+    quarter: 'Kunratice',
+    coordinates: { lat: 50.01353252548487, lng: 14.485224567665473 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kunratice_(Praha)',
+    description: {
+      en: `President Masaryk Square is the small green heart of Kunratice, a village square with trees and benches a short walk from the church and the chateau. In its little park stands a bronze bust of Tomáš Garrigue Masaryk on a granite plinth, and the bust has been taken away more often than most statues get cleaned.
+
+The bust is the work of Vincenc Makovský, one of the leading Czech sculptors of the 20th century, and it was put up here in the 1930s, in the last years of Masaryk's life or the first after his death in 1937. Then the country's politics caught up with it. In 1940, under the German occupation, it was removed, since a monument to the founder of Czechoslovakia was the last thing the occupiers wanted on a village square. It came back after the war, and in 1950 it was removed again, because the communist regime had no more use for the first president than the Nazis had.
+
+It returned only after 1989: restored, the bust was put back on its square in 1990, and the square itself carries his name.
+
+🎁 Bonus: Two regimes took Masaryk off this square within ten years, and both times the village simply waited. Getting him back took forty years, but Kunratice has always been in less of a hurry than the city next door.`,
+      cz: `Náměstí Prezidenta Masaryka je malé zelené srdce Kunratic, návesní náměstí se stromy a lavičkami kousek od kostela a zámku. V jeho parčíku stojí na žulovém podstavci bronzová busta Tomáše Garrigua Masaryka, a ta byla odvezena častěji, než se většina soch dočká vyčištění.
+
+Busta je dílem Vincence Makovského, jednoho z předních českých sochařů 20. století, a postavili ji sem ve třicátých letech, v posledních letech Masarykova života nebo v prvních po jeho smrti v roce 1937. Pak ji dostihla politika. V roce 1940, za německé okupace, byla odstraněna, protože pomník zakladatele Československa byl to poslední, co okupanti chtěli mít na návsi. Po válce se vrátila a v roce 1950 byla odstraněna znovu, protože komunistický režim měl pro prvního prezidenta stejně málo pochopení jako nacisté.
+
+Vrátila se až po roce 1989: restaurovaná busta se na své náměstí vrátila v roce 1990 a náměstí samo nese jeho jméno.
+
+🎁 Bonus: Dva režimy během deseti let sundaly Masaryka z tohohle náměstí a vesnice pokaždé prostě čekala. Dostat ho zpátky trvalo čtyřicet let, ale Kunratice nikdy nespěchaly tolik jako město vedle.`,
+      zh: `马萨里克总统广场是昆拉蒂采绿意盎然的小小中心，一个有树有长椅的村中广场，离教堂和城堡只有几步路。广场的小公园里，花岗岩基座上立着托马斯·加里格·马萨里克的青铜胸像，而这尊胸像被搬走的次数，比大多数雕像被清洗的次数还多。
+
+胸像出自20世纪捷克最重要的雕塑家之一文岑茨·马科夫斯基之手，三十年代立在这里，那时正是马萨里克生命的最后几年，或是他1937年去世后的头几年。然后，国家的政治找上了它。1940年德国占领期间，胸像被拆除，因为捷克斯洛伐克缔造者的纪念像，是占领者最不想在村广场上看到的东西。战后它回来了，1950年又被拆除，因为共产党政权对这位首任总统的态度，和纳粹差不了多少。
+
+直到1989年以后它才回来：修复后的胸像于1990年重新回到广场上，广场本身也以他的名字命名。
+
+🎁 彩蛋：十年之内，两个政权先后把马萨里克从这个广场上撤下来，而村子每一次都只是等着。把他请回来花了四十年，不过昆拉蒂采从来就没有隔壁的大城市那么着急。`,
+    },
+  },
+  {
+    // 2026-11-14, user's coordinates, for the Zbraslav pack. Facts: cs.wikipedia
+    // "Zbraslavské náměstí" (château on the north side, WWI memorial 1921–1927),
+    // turistika.cz (red-marked trail and signposts on the square).
+    name: 'Zbraslav Square',
+    slug: 'zbraslavske-namesti',
+    localizedNames: { cz: 'Zbraslavské náměstí', zh: '兹布拉斯拉夫广场' },
+    labels: ['square'],
+    district: 'Praha 16',
+    quarter: 'Zbraslav',
+    coordinates: { lat: 49.97607482255695, lng: 14.393438330885745 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Zbraslavsk%C3%A9_n%C3%A1m%C4%9Bst%C3%AD',
+    description: {
+      en: `Zbraslav Square is the main square of the old town of Zbraslav, an open space below the château lined with houses, shops and cafés, where Zbraslav still behaves like a small town of its own rather than the southern tip of Prague.
+
+The château closes the square on its north side. It was once the Cistercian monastery of Aula Regia, founded by King Wenceslas II in 1292 as the burial place of Bohemia's kings, and the town grew up at its gates. In the middle of the square stands the memorial to Zbraslav's dead of the First World War, built between 1921 and 1927: a granite boulder with a bronze allegorical woman between two pylons.
+
+The square is also where walks begin. The red-marked hiking trail crosses it on its way up Havlín hill to Charles's Pavilion and the old Church of St Gall, and the signposts hang on a lamppost in the middle of the square, as if the town expected visitors to ask.
+
+🎁 Bonus: Zbraslav joined Prague only in 1974, so this was a town's own main square long before the city reached it. It has never quite agreed to become just another Prague square.`,
+      cz: `Zbraslavské náměstí je hlavní náměstí staré Zbraslavi, otevřený prostor pod zámkem lemovaný domy, obchody a kavárnami, kde se Zbraslav pořád chová jako samostatné městečko, a ne jako jižní cíp Prahy.
+
+Ze severní strany náměstí uzavírá zámek. Býval to cisterciácký klášter Aula Regia, který v roce 1292 založil král Václav II. jako pohřebiště českých králů, a město vyrostlo u jeho bran. Uprostřed náměstí stojí pomník zbraslavských obětí první světové války, postavený v letech 1921 až 1927: žulový balvan s bronzovou alegorickou ženou mezi dvěma pylony.
+
+Náměstí je také místem, kde začínají procházky. Prochází jím červeně značená turistická cesta na vrch Havlín ke Karlovu stánku a starému kostelu svatého Havla a rozcestníky visí na sloupu veřejného osvětlení uprostřed náměstí, jako by město čekalo, že se návštěvníci budou ptát.
+
+🎁 Bonus: Zbraslav se k Praze připojila až v roce 1974, takže tohle bylo hlavní náměstí samostatného města dávno předtím, než k němu město dorostlo. Úplně se s tím, že je jen dalším pražským náměstím, nikdy nesmířilo.`,
+      zh: `兹布拉斯拉夫广场是兹布拉斯拉夫老镇的主广场，城堡下方一片开阔地，四周是民居、商店和咖啡馆。在这里，兹布拉斯拉夫依然像一座独立的小镇，而不像布拉格的最南角。
+
+广场北侧被城堡封住。那里原是熙笃会的王室殿堂修道院，由国王瓦茨拉夫二世于1292年创建，作为波希米亚历代国王的安葬地，小镇就在它的大门口长了起来。广场中央立着兹布拉斯拉夫第一次世界大战阵亡者纪念碑，建于1921至1927年：一块花岗岩巨石，两根塔柱之间是一位象征性的青铜女性。
+
+这个广场也是散步的起点。红色标记的徒步路线从这里穿过，一路通往哈夫林山上的查理观景亭和古老的圣加卢斯教堂；路标就挂在广场中央的一根路灯杆上，好像小镇早就料到游客会来问路。
+
+🎁 彩蛋：兹布拉斯拉夫直到1974年才并入布拉格，所以早在城市扩张到这里之前，这就是一座小镇自己的主广场。它从来没有完全接受自己只是布拉格又一个广场这件事。`,
+    },
+  },
+  {
+    // 2026-11-14, user's coordinates, for the Kunratice pack. Facts: cs.wikipedia
+    // "Kunratice (Praha)" (mid-18th-century original for Countess Golčová,
+    // destroyed in the 1950s, rebuilt by Jan Hendrych, blessed 15 Sep 2016 by
+    // Cardinal Duka). Which figures the group shows was not checked, so the
+    // text does not say.
+    name: 'Calvary "U Tří svatých"',
+    slug: 'kalvarie-u-tri-svatych',
+    localizedNames: { cz: 'Sousoší kalvárie „U Tří svatých“', zh: '"三圣"骷髅地群像' },
+    labels: ['sculpture', 'baroque', 'hidden-gem'],
+    district: 'Praha 4',
+    quarter: 'Kunratice',
+    coordinates: { lat: 50.01193230949548, lng: 14.475458222370921 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kunratice_(Praha)',
+    description: {
+      en: `The Calvary "U Tří svatých", At the Three Saints, is a group of statues at a crossroads on the edge of Kunratice that gave the crossroads its name. It looks like a piece of the 18th century, and it is, in a way: it is the 18th century as rebuilt in 2016.
+
+The original group was a baroque calvary from the middle of the 18th century, put up at the wish of Countess Golčová, of the family that held the Kunratice estate. For two centuries it stood at the crossroads, and local people named the spot after it. In the 1950s it was destroyed.
+
+The name outlived the statues: for sixty years people kept saying "U Tří svatých" about a crossroads with no saints at it. In 2016 the sculptor Jan Hendrych made the group again, and on 15 September 2016 Cardinal Dominik Duka blessed the reconstructed calvary.
+
+🎁 Bonus: The crossroads kept its saints' name for sixty years while it had no saints at all. In Kunratice it seems the name is what holds a place together, and the statues only came back to match it.`,
+      cz: `Sousoší kalvárie „U Tří svatých“ stojí na křižovatce na okraji Kunratic a dalo té křižovatce jméno. Vypadá jako kus 18. století, a svým způsobem jím je: je to 18. století, jak ho v roce 2016 postavili znovu.
+
+Původní sousoší byla barokní kalvárie z poloviny 18. století, postavená na přání hraběnky Golčové z rodu, který držel kunratické panství. Dvě století stála na křižovatce a místní podle ní to místo pojmenovali. V padesátých letech byla zničena.
+
+Jméno sochy přežilo: šedesát let lidé říkali „U Tří svatých“ křižovatce, na které žádní svatí nestáli. V roce 2016 vytvořil sousoší znovu sochař Jan Hendrych a 15. září 2016 obnovenou kalvárii požehnal kardinál Dominik Duka.
+
+🎁 Bonus: Křižovatka si šedesát let nechala jméno po svatých, i když tam žádní nebyli. V Kunraticích to vypadá, že místo drží pohromadě jméno, a sochy se vrátily jen proto, aby k němu zase pasovaly.`,
+      zh: `"三圣"骷髅地群像立在昆拉蒂采边缘的一个十字路口，这个路口的名字就来自它。它看上去像是18世纪留下来的东西，某种意义上也确实是：是2016年重新造出来的18世纪。
+
+原来的群像是18世纪中叶的一组巴洛克骷髅地雕塑，按戈尔茨伯爵夫人的心愿而立，她出自当时拥有昆拉蒂采庄园的家族。它在路口立了两百年，当地人就用它来称呼这个地方。五十年代，群像被毁。
+
+名字比雕像活得更久：六十年里，人们一直管这个一个圣人都没有的路口叫"三圣"。2016年，雕塑家扬·亨德里赫重新塑造了这组群像；2016年9月15日，多米尼克·杜卡枢机为修复后的骷髅地祝圣。
+
+🎁 彩蛋：这个路口顶着圣人的名字过了六十年，却一个圣人都没有。在昆拉蒂采，看来是名字把一个地方维系在一起，雕像回来，只是为了和名字重新对上。`,
+    },
+  },
+  {
+    // 2026-11-14, user's coordinates, for the Barrandov pack. Facts: archiweb
+    // (Jakub Žiška, Pavel Šmelhaus, ATELIER Žiška; parish of Hlubočepy),
+    // Seznam Zprávy / expats.cz (consecrated 22 Nov 2020 by Cardinal Duka, Prague's
+    // first new church in ten years), Stavba roku 2021 (CNN Prima), café Kristian,
+    // estav.cz (a church planned here already in the First Republic; light shows
+    // on the walls), novinky.cz (over 150 million crowns).
+    name: 'Church of Christ the Saviour (Barrandov)',
+    slug: 'kostel-krista-spasitele-barrandov',
+    localizedNames: { cz: 'Kostel Krista Spasitele (Barrandov)', zh: '基督救世主教堂（巴兰多夫）' },
+    labels: ['church', 'contemporary'],
+    district: 'Praha 5',
+    quarter: 'Hlubočepy',
+    coordinates: { lat: 50.03558301061156, lng: 14.37306399039776 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Barrandov',
+    description: {
+      en: `The Church of Christ the Saviour is the newest church in Prague worth crossing the city for: a calm, pale building with a community centre on the Barrandov housing estate, consecrated in 2020, which finally gave the estate's thirty thousand people a church of their own.
+
+A church for Barrandov was planned as early as the First Republic, when the Havels were building the villa quarter and the terraces, but it never came. The housing estate of the 1980s had no church either. The parish of Hlubočepy finally built one, to a design by the architects Jakub Žiška and Pavel Šmelhaus of ATELIER Žiška, at a cost of over 150 million crowns, and Cardinal Dominik Duka consecrated it on 22 November 2020. It was the first new church in Prague for ten years.
+
+In 2021 it won the Stavba roku, the Czech Building of the Year, the jury praising how it expresses a traditional idea of a church in modern simplicity. It is more than a church: there are club rooms, a library, concerts, lectures, exhibitions and a café called Kristian, and on some evenings light shows play across its walls.
+
+🎁 Bonus: Barrandov waited about ninety years for this church, from the first plans of the 1930s to its consecration in 2020. It then took the jury of the Building of the Year less than a year to decide it had been worth the wait.`,
+      cz: `Kostel Krista Spasitele je nejnovější pražský kostel, kvůli kterému stojí za to přejet celé město: klidná, světlá stavba s komunitním centrem na barrandovském sídlišti, vysvěcená v roce 2020, která konečně dala třiceti tisícům obyvatel sídliště jejich vlastní kostel.
+
+Kostel pro Barrandov se plánoval už za první republiky, když Havlové stavěli vilovou čtvrť a terasy, ale nikdy nevznikl. Ani sídliště z osmdesátých let kostel nemělo. Nakonec ho postavila hlubočepská farnost podle návrhu architektů Jakuba Žišky a Pavla Šmelhause z ATELIERU Žiška, za víc než 150 milionů korun, a kardinál Dominik Duka ho vysvětil 22. listopadu 2020. Byl to první nový kostel v Praze po deseti letech.
+
+V roce 2021 získal titul Stavba roku a porota ocenila, jak v moderní jednoduchosti vyjadřuje tradiční pojetí kostela. Je víc než kostelem: jsou tu klubovny, knihovna, koncerty, přednášky, výstavy a kavárna Kristian a některé večery běží po jeho zdech světelné divadlo.
+
+🎁 Bonus: Barrandov na tenhle kostel čekal zhruba devadesát let, od prvních plánů ve třicátých letech po vysvěcení v roce 2020. Porotě Stavby roku pak stačil necelý rok, aby usoudila, že to čekání stálo za to.`,
+      zh: `基督救世主教堂是布拉格最新、值得穿城而来的一座教堂：巴兰多夫住宅区里一座沉静、浅色的建筑，附带社区中心，2020年祝圣，终于让住宅区的三万居民有了自己的教堂。
+
+早在第一共和国时期，哈维尔家族建别墅区和露台的时候，就计划过给巴兰多夫建一座教堂，但始终没建成。八十年代的住宅区也没有教堂。最后，赫卢博切匹教区按照"日什卡工作室"建筑师雅库布·日什卡和帕维尔·什梅尔豪斯的设计把它建了起来，耗资超过1.5亿克朗；2020年11月22日，多米尼克·杜卡枢机为它祝圣。这是布拉格十年来的第一座新教堂。
+
+2021年，它获得了捷克"年度建筑"称号，评委称赞它以现代的简洁表达了传统的教堂观念。它不只是一座教堂：这里有活动室、图书馆、音乐会、讲座、展览和一家名叫"克里斯蒂安"的咖啡馆，有些晚上，灯光剧还会在它的墙上上演。
+
+🎁 彩蛋：巴兰多夫为这座教堂等了大约九十年，从三十年代的最初规划到2020年祝圣。而"年度建筑"的评委只用了不到一年，就认定这番等待是值得的。`,
+    },
+  },
+  {
+    // 2026-11-14, user's coordinates (the square, the uprising memorial and the
+    // school behind it), for the Podolí pack. Facts: virtualni.praha.eu (names
+    // 1906/1934/1948, Miloš Nedvěd 1908–1943, the memorial's figure and
+    // inscription, school čp. 140, Engel's waterworks), cs.wikipedia "Podolí
+    // (Praha)" (2025 redesign by David Vávra), Praha 4 press release via search
+    // (remains found in November 2024, reburied at Braník). The school's date and
+    // architect were not found, so the text gives neither.
+    name: 'Nedvěd Square',
+    slug: 'nedvedovo-namesti',
+    localizedNames: { cz: 'Nedvědovo náměstí', zh: '内德维德广场' },
+    labels: ['square', 'monument', 'world-wars'],
+    district: 'Praha 4',
+    quarter: 'Podolí',
+    coordinates: { lat: 50.05752993571305, lng: 14.421332110575632 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Podol%C3%AD_(Praha)',
+    description: {
+      en: `Nedvěd Square is the centre of Podolí: a green square beside the great waterworks, closed by the large building of the local school, with a bronze fighter of the 1945 Prague Uprising standing in the park in front of it. It is a quiet place now, and it has a heavier history than it lets on.
+
+The square has had three names. From 1906 it was Komenského, after the educator Comenius. In 1934 it became Podolské náměstí, after Podolí itself, which had joined Prague in 1922. In 1948 it was renamed after MUDr. Miloš Nedvěd (1908–1943), a lecturer at Charles University who worked with the resistance, was arrested by the Nazis and died in a concentration camp.
+
+In May 1945 Podolí was a battleground of the uprising. The memorial in front of the school, a larger-than-life figure of a fighter on a pedestal, is dedicated to the brothers killed in Podolí, fighters of the May revolution. The dead were first buried right here; they were exhumed in the 1950s, but not all of them. In November 2024, while the square was being rebuilt to a design by the architect David Vávra, a worker digging in front of the school found more remains, and in 2025 Prague 4 laid them to rest in the military cemetery at Braník.
+
+🎁 Bonus: Nearby, on the embankment at Podolské nábřeží 14, a plaque remembers Karel Paříšek and Karel Němec, two fifteen-year-old students shot by Soviet soldiers on 24 August 1968. Podolí's quiet streets have more of the 20th century in them than most.`,
+      cz: `Nedvědovo náměstí je srdcem Podolí: zelené náměstí vedle velké vodárny, uzavřené velkou budovou místní školy, v jehož parčíku stojí bronzový bojovník Pražského povstání z roku 1945. Dnes je to klidné místo a jeho historie je těžší, než by se zdálo.
+
+Náměstí mělo tři jména. Od roku 1906 bylo Komenského, po učiteli národů. V roce 1934 se z něj stalo Podolské náměstí, podle Podolí samotného, které se k Praze připojilo v roce 1922. V roce 1948 bylo přejmenováno po MUDr. Miloši Nedvědovi (1908–1943), docentovi Univerzity Karlovy, který spolupracoval s odbojem, byl zatčen nacisty a zemřel v koncentračním táboře.
+
+V květnu 1945 se Podolím bojovalo. Pomník před školou, nadživotní postava bojovníka na podstavci, je věnován bratřím padlým v Podolí, bojovníkům květnové revoluce. Mrtví byli nejdřív pohřbeni přímo tady; v padesátých letech je exhumovali, ale ne všechny. V listopadu 2024, když se náměstí přestavovalo podle návrhu architekta Davida Vávry, našel dělník při výkopu před školou další ostatky a v roce 2025 je Praha 4 uložila na vojenském hřbitově v Braníku.
+
+🎁 Bonus: Kousek odsud, na Podolském nábřeží 14, připomíná deska Karla Paříška a Karla Němce, dva patnáctileté studenty zastřelené sovětskými vojáky 24. srpna 1968. V tichých podolských ulicích je víc 20. století, než by člověk čekal.`,
+      zh: `内德维德广场是波多利的中心：大水厂旁边一片绿意盎然的广场，被当地小学的大楼合围起来，楼前的小公园里站着一位1945年布拉格起义的青铜战士。如今这里很安静，它的历史却比看上去沉重得多。
+
+这个广场有过三个名字。1906年起叫夸美纽斯广场，纪念那位教育家。1934年改名为波多利广场，取自1922年并入布拉格的波多利本身。1948年，它以米洛什·内德维德医学博士（1908—1943）重新命名：他是查理大学的讲师，与抵抗运动合作，被纳粹逮捕，死在集中营里。
+
+1945年5月，波多利是起义的战场。小学前的纪念碑是一尊比真人还大的战士像，立在基座上，献给"在波多利牺牲的兄弟们，五月革命的战士"。阵亡者最初就葬在这里；五十年代遗骸被迁走，但没有迁完。2024年11月，广场按照建筑师大卫·瓦夫拉的设计改造时，一名工人在小学门前挖土，又发现了遗骸；2025年，布拉格4区把他们安葬在布拉尼克的军人公墓。
+
+🎁 彩蛋：不远处的波多利河岸街14号，有一块纪念牌纪念卡雷尔·帕日谢克和卡雷尔·涅梅茨，两名1968年8月24日被苏联士兵射杀的十五岁学生。波多利安静的街道里，藏着比大多数地方更多的20世纪。`,
+    },
+  },
+  {
+    // 2026-11-14, user's coordinates, for the Zbraslav pack. Facts: cs.wikipedia
+    // "Seznam kulturních památek na Zbraslavi" (house čp. 488, first recorded 1713,
+    // rebuilt 1773, Czech trade school founded there in 1835, now the bell
+    // workshop), waymarking.com (1658 above the door), novinky.cz (foundry set up
+    // in 1967 in a ruined house used as a coffin store, 2002 flood up to 5 m,
+    // family museum on Saturdays or by arrangement), Seznam Zprávy and
+    // cs.wikipedia "Petr Rudolf Manoušek" (Brno workshop nationalised 1948,
+    // Zikmund's clapper, Loreta chime, thousands of bells, work in the
+    // Netherlands since 2002). The two dates (1658 / 1713) are both given as such.
+    name: 'Manoušek Bell Foundry (Zbraslav)',
+    slug: 'zvonarna-manousek-zbraslav',
+    localizedNames: { cz: 'Zvonařská dílna Manoušek (Zbraslav)', zh: '马努谢克铸钟作坊（兹布拉斯拉夫）' },
+    labels: ['museum', 'hidden-gem'],
+    district: 'Praha 16',
+    quarter: 'Zbraslav',
+    coordinates: { lat: 49.978754077643984, lng: 14.394344593195104 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Petr_Rudolf_Manou%C5%A1ek',
+    description: {
+      en: `The Manoušek bell foundry is an old house near the château in Zbraslav where, for thirty-five years, Bohemia's best-known family of bell founders cast and mended the bells of half the country, until the Vltava came through the door. Today it is the family's own small museum of bell founding.
+
+The house is one of the oldest in the town: the year 1658 is written above its entrance, and the heritage list records it from 1713, rebuilt in 1773. In 1835 a Czech trade school was founded in it. By 1967 it was a wreck used as a coffin store, and that was when Rudolf Manoušek, whose family workshop near Brno had been nationalised in 1948, set up a new foundry here. His son Petr Rudolf Manoušek took it over in 1988. The workshop made and restored thousands of bells, repaired the carillon of the Loreta, and made a new clapper for Zikmund, the largest bell in the country, in St Vitus Cathedral.
+
+In August 2002 the flood rose about five metres inside the house, up to the attic, and destroyed the workshop and its archive. It stands in a flood zone, so it could not be insured, and permission to rebuild the foundry was refused. Petr Rudolf Manoušek has cast bells in the Netherlands ever since, while the restored house in Zbraslav holds the family museum, open on some Saturdays or by arrangement. The old furnace is still inside.
+
+🎁 Bonus: A house that has been a trade school, a coffin store, a bell foundry and a museum has had a varied career. Of all its jobs, the one it was best at is the one the river took away.`,
+      cz: `Zvonařská dílna Manoušek je starý dům u zámku na Zbraslavi, kde nejznámější česká zvonařská rodina pětatřicet let odlévala a opravovala zvony pro půlku země, dokud nevstoupila dveřmi Vltava. Dnes je v něm malé rodinné muzeum zvonařství.
+
+Dům patří k nejstarším ve městě: nad vchodem stojí letopočet 1658 a památkový seznam ho uvádí od roku 1713 a přestavbu v roce 1773. V roce 1835 v něm vznikla česká průmyslová škola. V roce 1967 to byla ruina, ve které se skladovaly rakve, a právě tehdy tu založil novou slévárnu Rudolf Manoušek, jehož rodinná dílna u Brna byla v roce 1948 znárodněna. Jeho syn Petr Rudolf Manoušek ji převzal v roce 1988. Dílna vyrobila a opravila tisíce zvonů, opravila zvonkohru Lorety a vyrobila nové srdce pro Zikmunda, největší zvon v zemi, v katedrále svatého Víta.
+
+V srpnu 2002 vystoupala povodeň v domě asi pět metrů, až do podkroví, a zničila dílnu i archiv. Dům leží v záplavovém území, takže ho nešlo pojistit, a povolení slévárnu obnovit nedostal. Petr Rudolf Manoušek od té doby odlévá zvony v Nizozemsku, zatímco v obnoveném domě na Zbraslavi je rodinné muzeum, otevřené některé soboty nebo po domluvě. Stará pec je pořád uvnitř.
+
+🎁 Bonus: Dům, který byl průmyslovou školou, skladištěm rakví, zvonárnou i muzeem, má za sebou pestrou kariéru. Ze všech jeho zaměstnání mu nejlíp šlo to, které mu vzala řeka.`,
+      zh: `马努谢克铸钟作坊是兹布拉斯拉夫城堡附近的一座老房子。三十五年里，波希米亚最有名的铸钟世家在这里为半个国家铸钟、修钟，直到伏尔塔瓦河的洪水破门而入。如今，这里是这个家族自己的小型铸钟博物馆。
+
+这座房子是镇上最古老的房子之一：门楣上写着1658年，文物名录则记载它始见于1713年，1773年改建。1835年，一所捷克工业学校在这里创办。到1967年，它已成了一座堆放棺材的破房子；正是那一年，鲁道夫·马努谢克在这里建起了新的铸造作坊，他家在布尔诺附近的老作坊1948年被收归国有。1988年，他的儿子彼得·鲁道夫·马努谢克接手了作坊。这间作坊制作和修复了数千口钟，修好了罗瑞塔的排钟，还为全国最大的钟、圣维特大教堂的"齐格蒙德"做了新的钟舌。
+
+2002年8月，洪水在房子里涨到约五米高，一直淹到阁楼，毁掉了作坊和档案。房子位于泄洪区，无法投保，重建铸造作坊的许可也没有批下来。从那以后，彼得·鲁道夫·马努谢克一直在荷兰铸钟，而修复后的兹布拉斯拉夫老房子成了家族博物馆，部分星期六开放，或预约参观。那座老熔炉至今还在里面。
+
+🎁 彩蛋：一座当过工业学校、棺材仓库、铸钟作坊和博物馆的房子，履历可谓丰富。在它干过的所有差事里，最拿手的那一份，偏偏被河水夺走了。`,
     },
   },
   {

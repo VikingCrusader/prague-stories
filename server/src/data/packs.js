@@ -397,7 +397,8 @@ export const PACKS = [
     // one-point card to take over.
     members: [
       'st-james-apostle', 'kunratice-fortress-1783377528490', 'monument-to-the-legionnaires-fallen-in-the-world-war-1783377752694',
-      'rybnik-seberak', 'kunraticky-forest', 'new-castle-ruins-near-kunratice-1783003399902',
+      'rybnik-seberak', 'kunraticky-forest', 'new-castle-ruins-near-kunratice-1783003399902', 'namesti-prezidenta-masaryka-kunratice',
+      'kalvarie-u-tri-svatych',
     ],
   }),
   pack({
@@ -416,7 +417,74 @@ export const PACKS = [
     members: [
       'zbraslavsky-zamek', 'kostel-svateho-jakuba-vetsiho-zbraslav', 'pomnik-obetem-1-svetove-valky-zbraslav',
       'kostel-svateho-havla-zbraslav', 'karluv-stanek', 'vila-vladislava-vancury', 'ottova-vila-zbraslav',
-      'most-zavodu-miru', 'praha-zbraslav-nadrazi',
+      'most-zavodu-miru', 'praha-zbraslav-nadrazi', 'zbraslavske-namesti', 'zvonarna-manousek-zbraslav',
+    ],
+  }),
+  pack({
+    slug: 'podoli',
+    released: '2026-11-14T00:02:00+01:00',
+    name: 'Podolí',
+    localizedNames: { cz: 'Podolí', zh: '波多利' },
+    foil: '#1f6e6a',
+    labels: ['municipal', 'factory', 'geology', 'communism'],
+    // Podolí along the river from the maternity hospital below Vyšehrad to the
+    // Yellow Baths, plus Kavčí hory on the plateau above (2026-11-14, user's call;
+    // the Gemüse Corner kebab shop left out). New slug, no one-point card.
+    members: [
+      'porodnice-podoli', 'kostel-svateho-michaela-archandela-podoli', 'podolska-vodarna', 'podol-swimming-stadium-1783209825060',
+      'podol-profile-1783209955360', 'zlute-lazne', 'dvorecky-most', 'dormitory-podol-vut-1784077386723', 'nedvedovo-namesti',
+      'televizni-stredisko-kavci-hory',
+    ],
+  }),
+  pack({
+    slug: 'barrandov',
+    released: '2026-11-14T00:02:00+01:00',
+    name: 'Barrandov',
+    localizedNames: { cz: 'Barrandov', zh: '巴兰多夫' },
+    foil: '#6b3f7a',
+    labels: ['cultural', 'functionalism', 'geology', 'communism'],
+    // The Barrandov hill (2026-11-14, user's call): the rocks and terraces, the film
+    // studios and their backlot, the housing estate and its tram line. Left out:
+    // Zlíchov, old Hlubočepy (the Prokop Valley pack), the Barrandov Bridge and the
+    // Hippo Bath at its end. New slug, no one-point card.
+    members: [
+      'barrandovske-skaly', 'barrandovske-terasy', 'filmove-ateliery-barrandov', 'historical-town-backlot-1783281864604',
+      'plastika-chaplin-nemy-film', 'barrandov-castle-1783283188320', 'hluboepy-sdlit-barrandov-tramline-1783281425152', 'tramvajova-zastavka-geologicka',
+      'tramvajova-zastavka-k-barrandovu', 'barrandovska-vilova-ctvrt', 'kostel-krista-spasitele-barrandov',
+    ],
+  }),
+  pack({
+    slug: 'vrsovice',
+    released: '2026-11-14T00:02:00+01:00',
+    name: 'Vršovice',
+    localizedNames: { cz: 'Vršovice', zh: '弗尔绍维采' },
+    foil: '#2f6b3f',
+    labels: ['church', 'functionalism', 'art-nouveau', 'factory'],
+    // Only old Vršovice (2026-11-14, user's call): around Vršovické náměstí and
+    // náměstí Svatopluka Čecha, with Ďolíček, KOH-I-NOOR and the station. Left out:
+    // the Eden quarter (Slavia's stadium, the ministry, Eden, Vlasta, Kubánské
+    // náměstí), the Míčánky courts and the rail depot. Took over the one-point
+    // Vršovice card (vrovice-1784036943824) and its cover.
+    members: [
+      'kostel-sv-mikulase-vrsovice', 'vrovice-castle-1782567405263', 'vrsovicka-zalozna', 'husuv-sbor-vrsovice',
+      'kostel-sv-vaclava-vrsovice', 'dolicek', 'koh-i-noor', 'praha-vrsovice-nadrazi', 'krymska-ulice',
+    ],
+  }),
+  pack({
+    slug: 'jizni-mesto',
+    released: '2026-11-14T00:02:00+01:00',
+    name: 'Jižní Město',
+    localizedNames: { cz: 'Jižní Město', zh: '南城' },
+    foil: '#4f6d7a',
+    labels: ['communism', 'brutalism', 'contemporary', 'castle and fortress'],
+    // Háje and Chodov (2026-11-14): the estate from the Chodov fortress and
+    // Westfield to Háje metro and the edge of the Milíčov woods. The Háje card stays
+    // a card (it is only part of the estate); Kunratice Forest is in the Kunratice
+    // pack. New slug.
+    members: [
+      'haje', '-1783379166594', 'cosmonauts-monument-1783380746060', 'chodovska-tvrz',
+      'westfield-chodov', 'the-park-chodov', 'narodni-archiv', 'komunitni-centrum-matky-terezy',
+      'zoopark-milicov',
     ],
   }),
 ];
