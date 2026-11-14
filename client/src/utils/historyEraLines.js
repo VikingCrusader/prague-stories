@@ -77,3 +77,13 @@ export const HISTORY_ERA_LINES = [
     title: { en: 'Freedom Regained', cz: 'Znovu nabytá svoboda', zh: '重获自由' },
     line: { en: 'Havel at the Castle, the split into two countries, the EU, and the Prague of today.', cz: 'Havel na Hradě, rozdělení na dva státy, EU a dnešní Praha.', zh: '哈维尔入主城堡、捷克斯洛伐克一分为二、加入欧盟，以及今天的布拉格。' } },
 ];
+
+// The eras already written (hasContent on the server; historyEraLines.test.js
+// checks it). Only these get the Guide's "read from here" link; add an era's
+// key here when its first events are seeded.
+export const WRITTEN_ERAS = new Set([
+  'legends-origins', 'bohemian-duchy', 'rise-of-a-kingdom', 'crown-changes-hands',
+  'kingdom-golden-age', 'before-the-storm', 'religious-turmoil', 'lone-king',
+  'rule-of-the-lords', 'habsburgs-move-in', 'age-of-wonders', 'fire-and-ashes',
+  'voiceless-years', 'baroque-and-darkness', 'prague-under-siege',
+]);

@@ -26,10 +26,15 @@ export default function EraIntro({ era, chapter, lang, convert, className = '' }
             {loc(era.title)}
           </strong>
         </p>
-        <p className="history-era-intro__line">
-          {era.yearRange && <span className="history-era-intro__years">{loc(era.yearRange)}</span>}
-          {line && loc(line)}
-        </p>
+        {/* Second line: the era's subtitle (its overview card's title) and
+            its years, apart from the title; the plain line goes under them. */}
+        {(era.subtitle || era.yearRange) && (
+          <p className="history-era-intro__sub">
+            {era.subtitle && <span className="history-era-intro__subtitle">{loc(era.subtitle)}</span>}
+            {era.yearRange && <span className="history-era-intro__years">{loc(era.yearRange)}</span>}
+          </p>
+        )}
+        {line && <p className="history-era-intro__line">{loc(line)}</p>}
       </div>
       <span className="history-era-intro__rule" aria-hidden="true" />
     </div>

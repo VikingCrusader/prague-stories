@@ -119,6 +119,13 @@ export default function HistoryPage() {
         : r)),
     }));
   }, [data, achievements, packs]);
+  // Each era's subtitle is its overview card's title (era-guide-<key>): the
+  // overview cards take no page any more, but EraIntro still shows it.
+  const eras = useMemo(() => {
+    if (!data) return [];
+    const overviews = new Map(data.events.filter(e => e.cardType === 'overview').map(e => [e.era, e]));
+    return data.eras.map(era => (overviews.has(era.key) ? { ...era, subtitle: overviews.get(era.key).title } : era));
+  }, [data]);
   const openLandmark = slug => {
     const isPack = events.some(e => e.relatedLandmarks.some(r => r.landmark.isPack && r.landmark.slug === slug));
     (isPack ? setOpenPackSlug : setOpenLandmarkSlug)(slug);
@@ -218,7 +225,7 @@ export default function HistoryPage() {
           return (
             <View
               events={events}
-              eras={data.eras}
+              eras={eras}
               activeSlug={activeSlug}
               onGo={goToPage}
               onOpenLandmark={openLandmark}

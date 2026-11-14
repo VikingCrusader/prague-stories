@@ -70,6 +70,8 @@ export const BOARD = {
     history: {
       pick: 'Click an era to see what it is about.',
       read: 'Start reading in History',
+      jump: 'Read from the start of this chapter',
+      notYet: 'Not written yet.',
     },
     areas: {
       pick: 'Click a district on the map; switch to Quarters to see the old towns inside it.',
@@ -166,6 +168,8 @@ export const BOARD = {
     history: {
       pick: 'Klepni na období a uvidíš, o čem je.',
       read: 'Začít číst v Historii',
+      jump: 'Číst od začátku této kapitoly',
+      notYet: 'Zatím nenapsáno.',
     },
     areas: {
       pick: 'Klepni na obvod na mapě; přepni na Čtvrti a uvidíš stará města uvnitř.',
@@ -262,6 +266,8 @@ export const BOARD = {
     history: {
       pick: '点一个时代，看看它讲的是什么。',
       read: '去城史开始读',
+      jump: '从这一章开头读',
+      notYet: '这一章还没写。',
     },
     areas: {
       pick: '在地图上点一个行政区；切换到「地籍区」，就能看到它里面的老城镇。',

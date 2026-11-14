@@ -1,4 +1,4 @@
-import { HISTORY_ERA_LINES } from '../utils/historyEraLines';
+import { HISTORY_ERA_LINES, WRITTEN_ERAS } from '../utils/historyEraLines';
 import { HISTORY_ERAS as historyEras } from '../../../server/src/data/historyEras.js';
 
 // The Guide's era list must follow the server's eras (keys, order, titles).
@@ -10,5 +10,8 @@ describe('history era lines', () => {
   });
   it('has a line in every language', () => {
     for (const e of HISTORY_ERA_LINES) for (const lang of ['en', 'cz', 'zh']) expect(e.line[lang]?.trim()).toBeTruthy();
+  });
+  it('marks as written exactly the eras the server has content for', () => {
+    expect([...WRITTEN_ERAS].sort()).toEqual(historyEras.filter(e => e.hasContent).map(e => e.key).sort());
   });
 });

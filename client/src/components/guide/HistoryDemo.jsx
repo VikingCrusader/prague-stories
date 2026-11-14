@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLang, useConvert } from '../../context/LanguageContext';
-import { HISTORY_ERA_LINES } from '../../utils/historyEraLines';
+import { HISTORY_ERA_LINES, WRITTEN_ERAS } from '../../utils/historyEraLines';
 import { BOARD } from '../../utils/guideBoard';
 
 // The Guide's History demo (2026-11-14, user's design): every era as a row of
 // a table, number, title and years; a click shows its one plain line (what
-// the era tells: the Hussite Wars, the Thirty Years' War...). Eras not yet
-// written say so. Static text (utils/historyEraLines.js), nothing to fetch.
+// the era tells: the Hussite Wars, the Thirty Years' War...) and, for an era
+// already written, a link to its first page (the overview's slug, which
+// History redirects to the era's first event). Eras not yet written say so.
+// Static text (utils/historyEraLines.js), nothing to fetch.
 export default function HistoryDemo() {
   const { lang } = useLang();
   const convert = useConvert();
@@ -28,7 +30,14 @@ export default function HistoryDemo() {
                 <span className="guide-history__name">{convert(pick(era.title))}</span>
                 <span className="guide-history__years">{convert(pick(era.years))}</span>
               </button>
-              {on && <p className="guide-history__line">{convert(pick(era.line))}</p>}
+              {on && (
+                <div className="guide-history__more">
+                  <p className="guide-history__line">{convert(pick(era.line))}</p>
+                  {WRITTEN_ERAS.has(era.key)
+                    ? <Link to={`/history?event=era-guide-${era.key}`} className="guide-history__jump">{convert(b.jump)} →</Link>
+                    : <p className="guide-history__soon">{convert(b.notYet)}</p>}
+                </div>
+              )}
             </li>
           );
         })}

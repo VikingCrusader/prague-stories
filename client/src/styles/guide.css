@@ -434,7 +434,11 @@ html[data-lang="zh"] .guide-areas__name { font-family: var(--ui-font-text); }
 .guide-history__num { font-size: 13px; color: var(--gold); font-weight: 700; }
 .guide-history__name { font-size: 16px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .guide-history__years { font-size: 13px; color: var(--text-muted); white-space: nowrap; }
-.guide-history__line { margin: 0; padding: 0 12px 10px 48px; font-size: 15px; line-height: 1.5; color: var(--text-primary); animation: guide-alert-in 0.2s ease-out; }
+.guide-history__more { padding: 0 12px 10px 48px; animation: guide-alert-in 0.2s ease-out; }
+.guide-history__line { margin: 0; font-size: 15px; line-height: 1.5; color: var(--text-primary); }
+.guide-history__jump { display: inline-block; margin-top: 6px; font-size: 15px; font-weight: 700; color: var(--gold); text-decoration: none; }
+.guide-history__jump:hover { text-decoration: underline; }
+.guide-history__soon { margin: 6px 0 0; font-size: 14px; color: var(--text-muted); }
 .guide-history__read { align-self: flex-start; }
 
 /* Hunt demo */
